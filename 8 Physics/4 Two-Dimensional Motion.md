@@ -4,11 +4,12 @@
 ### position vector formula
 $$
 \begin{aligned}
-\vec{r}(t) = x(t)\hat{i} + y(t)\hat{j} + z(t)\hat{k} \\
+\vec{r}(t) = x(t)\hat{i} + y(t)\hat{j} \\
+t = \text{time} \\
 x = \text{x position} \\
 y = \text{y position} \\
-z = \text{z position} \\
-t = \text{time}
+\hat i = \text{x direction} \\
+\hat j = \text{y direction}
 \end{aligned}
 $$
 
@@ -19,48 +20,49 @@ $$
 ### displacement vector formula
 $$
 \begin{aligned}
-\Delta \vec{r} = \vec{r} - \vec{r}_{0} \\
-r = \text{position}
+\Delta \vec{r} = \vec{r} - \vec{r}_{0} = \Delta x\hat i + \Delta y \hat j \\
+\vec r = \text{position} \\
+x = \text{x position} \\
+y = \text{y position} \\
+\hat i = \text{x direction} \\
+\hat j = \text{y direction} 
 \end{aligned}
 $$
 
 ---
-### instantaneous velocity vector
-- rate of change of position as $\Delta t$ approaches zero
+### velocity vector
+- rate of change of position as delta time approaches zero
 
 ---
-### instantaneous velocity vector formula
+### velocity vector formula
 $$
 \begin{aligned}
-\vec{v} = \frac{d\vec{r}}{dt} =
-\begin{cases}
-v_{x} = \frac{dx}{dt} \\
-v_{y} = \frac{dy}{dt} \\
-v_{z} = \frac{dz}{dt}
-\end{cases} \\
-r = \text{position} \\
+\vec v_{avg} = \frac{\Delta r}{\Delta t} \\
+\vec{v} = \frac{d\vec{r}}{dt} = \frac{dx}{dt}\hat i + \frac{dy}{dt}\hat j = v_{x} \hat i + v_{y} \hat j \\
+v = |\vec v | = \sqrt{v_{x}^2 + v_{y}^2} \\
+\theta = \arctan(\frac{v_{y}}{v_{x}}) \\
+\vec r = \text{position} \\
 t = \text{time} \\
-v = \text{velocity}
+\vec v = \text{velocity} 
 \end{aligned}
 $$
 
 ---
-### instantaneous acceleration
-- rate of change of velocity as $\Delta t$ approaches zero
+### acceleration vector
+- rate of change of velocity as delta time approaches zero
 
 ---
-### instantaneous acceleration formula
+### acceleration vector formula
 $$
 \begin{aligned}
-\vec{a} = \frac{d\vec{v}}{dt} =
-\begin{cases}
-a_{x} = \frac{d^2x}{dt^2} \\
-a_{y} = \frac{d^2y}{dt^2} \\
-a_{z} = \frac{d^2z}{dt^2}
-\end{cases} \\
-v = \text{velocity} \\
+\vec a_{avg} = \frac{\Delta \vec v}{\Delta t} \\
+\vec{a} = \frac{d\vec{v}}{dt} = \frac{d^2\vec{r}}{dt^2} = a_{x} \hat i + a_{y} \hat j \\
+a = |\vec a| = \sqrt{a_{x}^2 + a_{y}^2} \\
+\theta = \arctan(\frac{a_{y}}{a_{x}}) \\
+\vec v = \text{velocity} \\
 t = \text{time} \\
-a = \text{acceleration}
+\vec r = \text{position} \\
+\vec a = \text{acceleration}
 \end{aligned}
 $$
 
@@ -70,12 +72,12 @@ $$
 - horizontal motion under constant velocity
 - vertical motion under constant acceleration
 ---
-### scalar component formula
+### projectile motion initial velocity formula
 $$
 \begin{aligned}
 v_{0x} = v_{0}\cos(\theta) \\
 v_{0y} = v_{0}\sin(\theta) \\
-v_{0} = \text{initial velocity} \\
+v = \text{initial velocity} \\
 \theta = \text{angle between vectors}
 \end{aligned}
 $$
@@ -85,7 +87,8 @@ $$
 $$
 \begin{aligned}
 v_{x} = v_{0x} \\
-x = x_{0} + v_xt
+v = \text{velocity} \\
+x = \text{x position} 
 \end{aligned}
 $$
 
@@ -102,96 +105,74 @@ g = 9.8
 $$
 
 ---
-### projectile motion magnitude formula
-$$
-\begin{aligned}
-v = \sqrt{v_{x}^2 + v_{y}^2} \\
-v_{x} = \text{x scalar component} \\
-v_{y} = \text{y scalar component}
-\end{aligned}
-$$
-
----
-### projectile motion direction formula
-$$
-\begin{aligned}
-\theta = \arctan(\frac{v_{y}}{v_{x}}) \\
-v_{y} = \text{y scalar component} \\
-v_{x} = \text{x scalar component}
-\end{aligned}
-$$
-
----
-### zero vertical displacement
-- projectile motion with zero vertical displacement
-
----
-### time formula
-$$
-\begin{aligned}
-t = \frac{2v_{0}\sin(\theta)}{g} \\
-v_{0} = \text{initial velocity} \\
-\theta = \text{angle between vectors} \\
-g = 9.8
-\end{aligned}
-$$
-
----
-### maximum vertical formula
-$$
-\begin{aligned}
-y = x\tan(\theta) - \frac{gx^2}{2v_{0}^2\cos^2(\theta)} \\
-x = \text{x position} \\
-\theta = \text{angle between vectors} \\
-g = 9.8 \\
-v_{0} = \text{initial velocity}
-\end{aligned}
-$$
-
----
-### maximum horizontal formula
-$$
-\begin{aligned}
-x = \frac{v_{0}^2 \sin(2\theta)}{g} \\
-v_{0} = \text{initial velocity} \\
-\theta = \text{angle between vectors} \\
-g = 9.8 
-\end{aligned}
-$$
-
----
 ### uniform circular motion
-- object travel along circle with constant speed but non zero acceleration
----
-### tangential acceleration
-- tangent vector along circle express change of speed
+- constant speed along circular path but nonzero acceleration
+![](8%20Physics/Images/uniform%20circular%20motion.png)
 
 ---
-### radial acceleration
-- normal vector along circle express change of direction
+### uniform circular motion formula
+$$
+\begin{aligned}
+\vec a_{rad} \perp \vec v_{tan} 
+\end{aligned}
+$$
 
 ---
-### non uniform circular motion
-- maximum radial acceleration equal maximum tangential velocity
-- changing speed equal acceleration vector anti parallel velocity vector
-- minimum radial acceleration equal minimum tangential velocity
+### tangential velocity
+- velocity vector parallel path express uniform change of speed
+
 ---
 ### tangential velocity formula
 $$
 \begin{aligned}
 v_{tan} = \frac{2\pi r}{T} \\
-2\pi r = \text{circumference} \\
+r = \text{radius} \\
 T = \text{period}
 \end{aligned}
 $$
 
 ---
-### radial acceleration formula
+### uniform radial acceleration
+- acceleration vector perpendicular circle express uniform change of direction
+
+---
+### uniform radial acceleration formula
 $$
 \begin{aligned}
-a_{rad} = \frac{v_{tan}^2}{r} \\
-v = \text{velocity} \\
+a_{rad} = \frac{v^2}{r} \\
+v = \text{speed} \\
 r = \text{radius}
+\end{aligned}
+$$
+
+---
+### nonuniform circular motion
+- maximum radial acceleration equal maximum tangential velocity
+- delta speed equal acceleration vector antiparallel velocity vector
+- minimum radial acceleration equal minimum tangential velocity
+![300](8%20Physics/Images/nonuniform%20circular%20motion.png)
+
+---
+### nonuniform circular motion formula
+$$
+\begin{aligned}
+\vec a_{rad} \perp \vec a_{tan} \\
+\vec a_{tan} \parallel \pm \vec v_{tan}
+\end{aligned}
+$$
+
+---
+### nonuniform radial acceleration
+- acceleration vector perpendicular circle express uniform change of direction
+
+---
+### nonuniform radial acceleration formula
+$$
+\begin{aligned}
+a = a_{rad} + a_{tan} = \frac{v^2}{r} + \frac{dv}{dt} \\
+v = \text{speed} \\
+r = \text{radius} \\
+t = \text{time}
 \end{aligned}
 $$
 

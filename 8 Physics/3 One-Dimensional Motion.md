@@ -11,6 +11,22 @@ t = \text{time}
 $$
 
 ---
+### distance
+- scalar length of path
+![300](8%20Physics/Images/distance.png)
+
+---
+### distance formula
+$$
+\begin{aligned}
+d = \sum_{i \in I} |\Delta x_{i}| \\
+i = \text{index} \\
+I = \text{index set} \\
+x = \text{position} 
+\end{aligned}
+$$
+
+---
 ### displacement
 - vector change of position
 ![300](8%20Physics/Images/displacement.png|)
@@ -24,22 +40,6 @@ x = \text{position} \\
 t = \text{time} \\
 v = \text{velocity} \\
 \tau = \text{dummy}
-\end{aligned}
-$$
-
----
-### distance
-- scalar length of path
-![300](8%20Physics/Images/distance.png)
-
----
-### distance formula
-$$
-\begin{aligned}
-d = \sum_{i \in I} |\Delta x_{i}| \\
-i = \text{index} \\
-I = \text{index set} \\
-x = \text{position} 
 \end{aligned}
 $$
 
