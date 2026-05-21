@@ -179,7 +179,7 @@ $$
 ### scalar cross product formula
 $$
 \begin{aligned}
-\|\vec{A} \times \vec{B}\| = AB \sin (\theta) \\
+|\vec{A} \times \vec{B}| = AB \sin (\theta) \\
 A, B = \text{magnitude} \\
 \theta = \text{angle between vectors}
 \end{aligned}
@@ -268,9 +268,9 @@ $$
 \vec A + \vec B = \vec B + \vec A \\
 (\vec A + \vec B) + \vec C = \vec A + (\vec B + \vec C) \\
 \vec A + 0 = \vec A \\
-1(\vec A) = \vec A \\
+1 \cdot \vec A = \vec A \\
 \vec A + (-\vec A) = 0 \\
-0(\vec A) = 0 \\
+0 \cdot \vec A = 0 \\
 c(\vec A + \vec B) = c\vec A + c\vec B
 \end{aligned}
 $$

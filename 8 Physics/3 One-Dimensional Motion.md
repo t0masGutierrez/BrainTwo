@@ -13,6 +13,8 @@ $$
 ---
 ### displacement
 - vector change of position
+![256](8%20Physics/Images/displacement.png)
+
 ---
 ### displacement formula
 $$
@@ -26,12 +28,16 @@ $$
 ---
 ### distance
 - scalar length of path
+![256](8%20Physics/Images/distance.png)
+
 ---
 ### distance formula
 $$
 \begin{aligned}
-d = \sum_{k} |\Delta x_{k}| \\
-x = \text{position}
+d = \sum_{i \in I} |\Delta x_{i}| \\
+i = \text{index} \\
+I = \text{index set} \\
+\Delta x = \text{displacement} 
 \end{aligned}
 $$
 
