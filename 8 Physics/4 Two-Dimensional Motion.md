@@ -32,6 +32,7 @@ $$
 ---
 ### velocity vector
 - rate of change of position as delta time approaches zero
+![300](8%20Physics/Images/velocity%20vector.png)
 
 ---
 ### velocity vector formula
@@ -106,7 +107,7 @@ $$
 
 ---
 ### uniform circular motion
-- constant speed along circular path but nonzero acceleration
+- constant speed along circular path with nonzero acceleration
 ![](8%20Physics/Images/uniform%20circular%20motion.png)
 
 ---
@@ -119,7 +120,7 @@ $$
 
 ---
 ### tangential velocity
-- velocity vector parallel path express uniform change of speed
+- velocity vector parallel circular path equal constant speed
 
 ---
 ### tangential velocity formula
@@ -133,7 +134,7 @@ $$
 
 ---
 ### uniform radial acceleration
-- acceleration vector perpendicular circle express uniform change of direction
+- acceleration vector perpendicular circular path equal change of direction
 
 ---
 ### uniform radial acceleration formula
@@ -163,7 +164,9 @@ $$
 
 ---
 ### nonuniform radial acceleration
-- acceleration vector perpendicular circle express uniform change of direction
+- acceleration vector perpendicular circular path equal change of direction
+- acceleration vector parallel circular path equal change of speed
+![500](8%20Physics/Images/nonuniform%20radial%20acceleration.png)
 
 ---
 ### nonuniform radial acceleration formula
@@ -173,6 +176,23 @@ a = a_{rad} + a_{tan} = \frac{v^2}{r} + \frac{dv}{dt} \\
 v = \text{speed} \\
 r = \text{radius} \\
 t = \text{time}
+\end{aligned}
+$$
+
+---
+### projectile motion versus uniform circular motion
+- both motion equal constant magnitude of acceleration
+- projectile motion motion equal constant direction of acceleration
+- uniform circular motion equal varying direction of acceleration
+![400](8%20Physics/Images/projectile%20motion%20versus%20uniform%20circular%20motion.png)
+
+---
+### projectile motion versus uniform circular motion formula
+$$
+\begin{aligned}
+a(t) = a_{0} \\
+\hat a (t) = \hat a_{0} \\
+\hat a (t) \ne \hat a_{0}
 \end{aligned}
 $$
 

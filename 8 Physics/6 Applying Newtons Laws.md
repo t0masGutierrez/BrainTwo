@@ -1,68 +1,3 @@
-### free body diagram
-- draw body as the origin of coordinate system
-- sketch all forces acting on the body as vectors
-- resolve all vectors into scalar components
-- formulate newtons 2nd law for all scalar components
-- equilibrium equal $\sum F = 0$ 
-- non equilibrium equal $\sum F = ma$ 
----
-### friction force
-- resistive force by surface on object
----
-### friction force formula
-$$
-\begin{aligned}
-\vec F_{f} = \mu \vec F_{N} \\
-\mu = \text{friction coefficient} \\
-F_{N} = \text{normal force}
-\end{aligned}
-$$
-
----
-### static friction
-- friction that acts on stationary objects
-
----
-### static friction force formula
-$$
-\begin{aligned}
-\vec F_{fs} \le \mu_{s} \vec F_{N} \\
-\mu_{s} = \text{static friction coefficient} \\
-F_{N} = \text{normal force}
-\end{aligned}
-$$
-
----
-### kinetic friction
-- friction that acts on sliding objects
-
----
-### kinetic friction force formula
-$$
-\begin{aligned}
-\vec F_{fk} \le \mu_{k} \vec F_{N} \\
-\mu_{k} = \text{kinetic friction coefficient} \\
-F_{N} = \text{normal force}
-\end{aligned}
-$$
-
----
-### centripetal force
-- center seeking force causing uniform circular motion
-
----
-### centripetal force formula
-$$
-\begin{aligned}
-\vec F_{c} = m \vec a_{rad} = m\frac{\vec v_{tan}^2}{r} \\
-m = \text{mass} \\
-a_{rad} = \text{radial acceleration} \\
-v_{tan} = \text{tangential velocity} \\
-r = \text{radius}
-\end{aligned}
-$$
-
----
 ### ideal bank curve
 - centripetal force equal normal force
 ---
@@ -77,12 +12,12 @@ g = 9.8 \\
 $$
 
 ---
-### non ideal bank curve
+### nonideal bank curve
 - minimum velocity before sliding inward equal centripetal force subtraction with friction force
 - maximum velocity before sliding outward equal centripetal force addition with friction force
 
 ---
-### non ideal bank curve velocity formula
+### nonideal bank curve velocity formula
 $$
 \begin{aligned}
 v_{min} = \sqrt{\frac{rg(\tan\theta - \mu)}{1 + \mu \tan \theta}} \\
@@ -95,13 +30,16 @@ g = 9.8 \\
 $$
 
 ---
-### inertial force
-- fictitious force without physical origin
+### fictitious force
+- apparent force caused by accelerating reference frame
+- or force without physical origin
+- aka intertial force
 
 ---
-### inertial force example
+### fictitious force example
 - centrifugal force
 - coriolis force
-- acceleration force
+- euler force
+- pseudo force
 
 ---
