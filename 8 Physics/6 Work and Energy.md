@@ -22,12 +22,12 @@ r = \text{position}
 $$
 
 ---
-### work parity property
+### work direction property
 - force parallel displacement equal positive work
 - force antiparallel displacement equal negative work
 - force perpendicular displacement equal zero work
 ---
-### work parity property formula
+### work direction property formula
 $$
 \begin{aligned}
 0^\circ \le \theta < 90^\circ \implies W > 0 \\

@@ -93,7 +93,7 @@ $$
 ---
 ### isomorphism matrix kernel property
 - matrix transformation kernel equal isomorphism of matrix transformation kernel
-- image coordinate vector of zero equal zero vector of matrix transformation
+- image of zero equal coordinatized vector of matrix transformation zero
 
 ---
 ### isomorphism matrix kernel property formula
@@ -116,7 +116,7 @@ $$
 ---
 ### isomorphism matrix range property
 - range equal inverse isomorphism of matrix transformation range
-- image coordinate vector of range equal vector of matrix transformation range
+- image of range equal coordinatized vector of matrix transformation range
 
 ---
 ### isomorphism matrix range property formula
