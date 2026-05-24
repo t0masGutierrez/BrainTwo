@@ -16,8 +16,8 @@ $$
 $$
 \begin{aligned}
 W = \int \vec F \cdot d \vec r \\
-F = \text{force} \\
-r = \text{position}
+\vec F = \text{force} \\
+\vec r = \text{position}
 \end{aligned}
 $$
 

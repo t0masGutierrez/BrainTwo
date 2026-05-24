@@ -7,7 +7,7 @@ $$
 \begin{aligned}
 \vec p = m\vec v \\
 m = \text{mass} \\ 
-v = \text{velocity}
+\vec v = \text{velocity}
 \end{aligned}
 $$
 
