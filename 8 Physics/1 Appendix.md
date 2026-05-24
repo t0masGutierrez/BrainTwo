@@ -19,44 +19,44 @@ $$
 ### SI derived unit formula
 $$
 \begin{aligned}
-\begin{array}{c|c|c|c}
-\text{quantity} & \text{unit} & \text{symbol} & \text{equivalent units} \\
+\begin{array}{c|c|c}
+\text{quantity} & \text{unit} & \text{symbol} \\
 \hline
-\text{area} & \text{square meter} & \text{m}^2 & \\
-\text{volume} & \text{cubic meter} & \text{m}^3 & \\
-\text{frequency} & \text{hertz} & \text{Hz} & \text{s}^{-1} \\
-\text{mass density} & \text{kilogram per cubic meter} & \text{kg}/\text{m}^3 & \\
-\text{velocity} & \text{meter per second} & \text{m}/\text{s} & \\
-\text{angular velocity} & \text{radian per second} & \text{rad}/\text{s} & \\
-\text{acceleration} & \text{meter per second squared} & \text{m}/\text{s}^2 & \\
-\text{angular acceleration} & \text{radian per second squared} & \text{rad}/\text{s}^2 & \\
-\text{force} & \text{newton} & \text{N} & \text{kg}\cdot\text{m}/\text{s}^2 \\
-\text{pressure, mechanical stress} & \text{pascal} & \text{Pa} & \text{N}/\text{m}^2 \\
-\text{kinematic viscosity} & \text{square meter per second} & \text{m}^2/\text{s} & \\
-\text{dynamic viscosity} & \text{newton-second per square meter} & \text{N}\cdot\text{s}/\text{m}^2 & \\
-\text{work, energy, heat} & \text{joule} & \text{J} & \text{N}\cdot\text{m} \\
-\text{power} & \text{watt} & \text{W} & \text{J}/\text{s} \\
-\text{electricity} & \text{coulomb} & \text{C} & \text{A}\cdot\text{s} \\
-\text{potential difference, emf} & \text{volt} & \text{V} & \text{J}/\text{C}, \text{W}/\text{A} \\
-\text{electric field strength} & \text{volt per meter} & \text{V}/\text{m} & \text{N}/\text{C} \\
-\text{electrical resistance} & \text{ohm} & \Omega & \text{V}/\text{A} \\
-\text{capacitance} & \text{farad} & \text{F} & \text{A}\cdot\text{s}/\text{V} \\
-\text{magnetic flux} & \text{weber} & \text{Wb} & \text{V}\cdot\text{s} \\
-\text{inductance} & \text{henry} & \text{H} & \text{V}\cdot\text{s}/\text{A} \\
-\text{magnetic flux density} & \text{tesla} & \text{T} & \text{Wb}/\text{m}^2 \\
-\text{magnetic field strength} & \text{ampere per meter} & \text{A}/\text{m} & \\
-\text{magnetomotive force} & \text{ampere} & \text{A} & \\
-\text{luminous flux} & \text{lumen} & \text{lm} & \text{cd}\cdot\text{sr} \\
-\text{luminance} & \text{candela per square meter} & \text{cd}/\text{m}^2 & \\
-\text{illuminance} & \text{lux} & \text{lx} & \text{lm}/\text{m}^2 \\
-\text{wave number} & \text{1 per meter} & \text{m}^{-1} & \\
-\text{entropy} & \text{joule per kelvin} & \text{J}/\text{K} & \\
-\text{specific heat capacity} & \text{joule per kilogram-kelvin} & \frac{\text{J}}{\text{kg}\cdot\text{K}} & \\
-\text{thermal conductivity} & \text{watt per meter-kelvin} & \frac{\text{W}}{\text{m}\cdot\text{K}} & \\
-\text{radiant intensity} & \text{watt per steradian} & \text{W}/\text{sr} & \\
-\text{radioactivity} & \text{becquerel} & \text{Bq} & \text{s}^{-1} \\
-\text{radiation dose} & \text{gray} & \text{Gy} & \text{J}/\text{kg} \\
-\text{radiation dose equivalent} & \text{sievert} & \text{Sv} & \text{J}/\text{kg}
+\text{area} & \text{square meter} & \text{m}^2 \\
+\text{volume} & \text{cubic meter} & \text{m}^3 \\
+\text{frequency} & \text{hertz} & \text{Hz} = \text{s}^{-1} \\
+\text{mass density} & \text{kilogram per cubic meter} & \text{kg}/\text{m}^3 \\
+\text{velocity} & \text{meter per second} & \text{m}/\text{s} \\
+\text{angular velocity} & \text{radian per second} & \text{rad}/\text{s} \\
+\text{acceleration} & \text{meter per second squared} & \text{m}/\text{s}^2 \\
+\text{angular acceleration} & \text{radian per second squared} & \text{rad}/\text{s}^2 \\
+\text{force} & \text{newton} & \text{N} = \text{kg}\cdot\text{m}/\text{s}^2 \\
+\text{pressure, mechanical stress} & \text{pascal} & \text{Pa} = \text{N}/\text{m}^2 \\
+\text{kinematic viscosity} & \text{square meter per second} & \text{m}^2/\text{s} \\
+\text{dynamic viscosity} & \text{newton-second per square meter} & \text{N}\cdot\text{s}/\text{m}^2 \\
+\text{work, energy, heat} & \text{joule} & \text{J} = \text{N}\cdot\text{m} \\
+\text{power} & \text{watt} & \text{W} = \text{J}/\text{s} \\
+\text{electricity} & \text{coulomb} & \text{C} = \text{A}\cdot\text{s} \\
+\text{potential difference, emf} & \text{volt} & \text{V} = \text{J}/\text{C} = \text{W}/\text{A} \\
+\text{electric field strength} & \text{volt per meter} & \text{V}/\text{m} = \text{N}/\text{C} \\
+\text{electrical resistance} & \text{ohm} & \Omega = \text{V}/\text{A} \\
+\text{capacitance} & \text{farad} & \text{F} = \text{A}\cdot\text{s}/\text{V} \\
+\text{magnetic flux} & \text{weber} & \text{Wb} = \text{V}\cdot\text{s} \\
+\text{inductance} & \text{henry} & \text{H} = \text{V}\cdot\text{s}/\text{A} \\
+\text{magnetic flux density} & \text{tesla} & \text{T} = \text{Wb}/\text{m}^2 \\
+\text{magnetic field strength} & \text{ampere per meter} & \text{A}/\text{m} \\
+\text{magnetomotive force} & \text{ampere} & \text{A} \\
+\text{luminous flux} & \text{lumen} & \text{lm} = \text{cd}\cdot\text{sr} \\
+\text{luminance} & \text{candela per square meter} & \text{cd}/\text{m}^2 \\
+\text{illuminance} & \text{lux} & \text{lx} = \text{lm}/\text{m}^2 \\
+\text{wave number} & \text{1 per meter} & \text{m}^{-1} \\
+\text{entropy} & \text{joule per kelvin} & \text{J}/\text{K} \\
+\text{specific heat capacity} & \text{joule per kilogram-kelvin} & \frac{\text{J}}{\text{kg}\cdot\text{K}} \\
+\text{thermal conductivity} & \text{watt per meter-kelvin} & \frac{\text{W}}{\text{m}\cdot\text{K}} \\
+\text{radiant intensity} & \text{watt per steradian} & \text{W}/\text{sr} \\
+\text{radioactivity} & \text{becquerel} & \text{Bq} = \text{s}^{-1} \\
+\text{radiation dose} & \text{gray} & \text{Gy} = \text{J}/\text{kg} \\
+\text{radiation dose equivalent} & \text{sievert} & \text{Sv} = \text{J}/\text{kg}
 \end{array}
 \end{aligned}
 $$
@@ -93,7 +93,7 @@ $$
 \text{Mass of neutron} & m_{n} & 1.674927471(21)\times10^{-27}\text{ kg} \\
 \text{Magnetic constant} & \mu_{0} & 1.25663706\times10^{-6}\frac{\text{Wb}}{\text{A}\cdot\text{m}}\text{ }=4\pi\times10^{-7}\frac{\text{Wb}}{\text{A}\cdot\text{m}} \\
 \text{Electric constant} & \epsilon_{0}= \frac{1}{\mu_0c^2} & 8.854187817\times10^{-12}\frac{\text{C}^2}{\text{N}\cdot\text{m}^2} \\
-\text{Coulomb's constant} & k_{e}=\frac{1}{4\pi\epsilon_{0}} & 8.987551787\times10^9\frac{\text{N}\cdot\text{m}^2}{\text{C}^2}\text{ } \\
+\text{Coulomb's constant} & k_{c}=\frac{1}{4\pi\epsilon_{0}} & 8.987551787\times10^9\frac{\text{N}\cdot\text{m}^2}{\text{C}^2}\text{ } \\
 \text{Mechanical equivalent of heat} & J & 4.186\text{ J/cal (15}^{\circ}\text{ calorie)} \\
 \text{Standard atmospheric pressure} & 1\text{ atm} & 1.01325\times10^5\text{ Pa} \\
 \text{Absolute zero} & 0\text{ K} & -273.15^{\circ}\text{C} \\

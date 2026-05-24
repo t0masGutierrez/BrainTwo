@@ -19,9 +19,7 @@ $$
 ### distance formula
 $$
 \begin{aligned}
-d = \sum_{i \in I} |\Delta x_{i}| \\
-i = \text{index} \\
-I = \text{index set} \\
+d = \sum |\Delta x| \\
 x = \text{position} 
 \end{aligned}
 $$
@@ -35,11 +33,10 @@ $$
 ### displacement formula
 $$
 \begin{aligned}
-\Delta x = x - x_{0} = \int_{t_{0}}^{t} v \cdot d\tau \\
+\Delta x = x - x_{0} = \int v \cdot dt \\
 x = \text{position} \\
 t = \text{time} \\
-v = \text{velocity} \\
-\tau = \text{dummy}
+v = \text{velocity} 
 \end{aligned}
 $$
 
@@ -59,7 +56,7 @@ $$
 
 ---
 ### instantaneous speed
-- rate of change of distance as delta time approaches zero
+- rate of change of distance as change of time approaches zero
 
 ---
 ### instantaneous speed formula
@@ -86,16 +83,15 @@ $$
 
 ---
 ### instantaneous velocity
-- rate of change of position as delta time approaches zero
+- rate of change of position as change of time approaches zero
 ---
 ### instantaneous velocity formula
 $$
 \begin{aligned}
-v = \frac{dx}{dt} = v_{0} + \int_{t_{0}}^{t} a \cdot d\tau \\
+v = \frac{dx}{dt} = v_{0} + \int a \cdot dt \\
 x = \text{position} \\
 t = \text{time} \\
-a = \text{acceleration} \\
-\tau = \text{dummy}
+a = \text{acceleration}
 \end{aligned}
 $$
 
@@ -115,7 +111,7 @@ $$
 
 ---
 ### instantaneous acceleration
-- rate of change of velocity as delta time approaches zero
+- rate of change of velocity as change of time approaches zero
 ---
 ### instantaneous acceleration formula
 $$

@@ -5,7 +5,7 @@
 ### dynamics formula
 $$
 \begin{aligned}
-\vec F_{A} \rightarrow \ ?
+\vec F_{A} \rightarrow \vec x_{A} = ?
 \end{aligned}
 $$
 
@@ -46,58 +46,6 @@ F_{x} = \text{x scalar component} \\
 F_{y} = \text{y scalar component} \\
 \hat i = \text{x direction} \\
 \hat j = \text{y direction} \\
-\end{aligned}
-$$
-
----
-### newtons first law
-- object at rest remains at rest or moves with constant velocity unless acted on by nonzero net external force
-![](8%20Physics/Images/newtons%20first%20law.png)
-
----
-### newtons 1st formula
-$$
-\begin{aligned}
-\vec F_{net} = 0 \implies \vec a = 0 \\
-\vec F = \text{force} \\
-\vec a = \text{acceleration}
-\end{aligned}
-$$
-
----
-### newtons second law
-- acceleration dependent mass and amount of net external force acting on mass
-![](8%20Physics/Images/newtons%20second%20law.png)
-
----
-### newtons 2nd formula
-$$
-\begin{aligned}
-\vec F_{net} = m\vec a =
-\begin{cases}
-F_{x} = ma_{x} \\
-F_{y} = ma_{y}
-\end{cases} \\
-m = \text{mass} \\
-a = \text{acceleration} \\
-F_{x} = \text{x scalar component} \\
-F_{y} = \text{y scalar component}
-\end{aligned}
-$$
-
----
-### newtons third law
-- for every action force there exists equal and opposite reaction force
-- equal magnitude and opposite direction
-![200](8%20Physics/Images/newtons%20third%20law.png)
-
----
-### newtons 3rd formula
-$$
-\begin{aligned}
-\vec F_{AB} = -\vec F_{BA} \\
-\vec F = \text{force} \\
-A, B = \text{object}
 \end{aligned}
 $$
 
@@ -183,14 +131,15 @@ $$
 ---
 ### spring force
 - restoring force by spring on object
+![300](8%20Physics/Images/spring%20force.png)
 
 ---
 ### spring force formula
 $$
 \begin{aligned}
-\vec F_{s} = -k\vec x \\
+\vec F_{s} = -k\Delta \vec x \\
 k = \text{spring constant} \\
-\vec x = \text{displacement}
+\vec x = \text{position}
 \end{aligned}
 $$
 
@@ -236,6 +185,19 @@ $$
 ---
 ### noncontact force
 - weight force
+
+---
+### fictitious force
+- apparent force caused by accelerating reference frame
+- or force without physical origin
+- aka intertial force
+
+---
+### fictitious force example
+- centrifugal force
+- coriolis force
+- euler force
+- pseudo force
 
 ---
 ### free body diagram
@@ -301,4 +263,55 @@ F_{weak}
 $$
 
 ---
+### newtons first law
+- object at rest remains at rest or moves with constant velocity unless acted on by nonzero net external force
+![](8%20Physics/Images/newtons%20first%20law.png)
 
+---
+### newtons 1st formula
+$$
+\begin{aligned}
+\vec F_{net} = 0 \implies \vec a = 0 \\
+\vec F = \text{force} \\
+\vec a = \text{acceleration}
+\end{aligned}
+$$
+
+---
+### newtons second law
+- acceleration dependent mass and amount of net external force acting on mass
+![](8%20Physics/Images/newtons%20second%20law.png)
+
+---
+### newtons 2nd formula
+$$
+\begin{aligned}
+\vec F_{net} = m\vec a =
+\begin{cases}
+F_{x} = ma_{x} \\
+F_{y} = ma_{y}
+\end{cases} \\
+m = \text{mass} \\
+a = \text{acceleration} \\
+F_{x} = \text{x scalar component} \\
+F_{y} = \text{y scalar component}
+\end{aligned}
+$$
+
+---
+### newtons third law
+- for every action force there exists equal and opposite reaction force
+- equal magnitude and opposite direction
+![200](8%20Physics/Images/newtons%20third%20law.png)
+
+---
+### newtons 3rd formula
+$$
+\begin{aligned}
+\vec F_{AB} = -\vec F_{BA} \\
+\vec F = \text{force} \\
+A, B = \text{object}
+\end{aligned}
+$$
+
+---

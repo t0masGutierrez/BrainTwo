@@ -31,14 +31,14 @@ $$
 
 ---
 ### velocity vector
-- rate of change of position as delta time approaches zero
+- rate of change of position as change of time approaches zero
 ![300](8%20Physics/Images/velocity%20vector.png)
 
 ---
 ### velocity vector formula
 $$
 \begin{aligned}
-\vec v_{avg} = \frac{\Delta r}{\Delta t} \\
+\vec v_{avg} = \frac{\Delta \vec r}{\Delta t} \\
 \vec{v} = \frac{d\vec{r}}{dt} = \frac{dx}{dt}\hat i + \frac{dy}{dt}\hat j = v_{x} \hat i + v_{y} \hat j \\
 v = |\vec v | = \sqrt{v_{x}^2 + v_{y}^2} \\
 \theta = \arctan(\frac{v_{y}}{v_{x}}) \\
@@ -50,7 +50,7 @@ $$
 
 ---
 ### acceleration vector
-- rate of change of velocity as delta time approaches zero
+- rate of change of velocity as change of time approaches zero
 
 ---
 ### acceleration vector formula
@@ -149,7 +149,7 @@ $$
 ---
 ### nonuniform circular motion
 - maximum radial acceleration equal maximum tangential velocity
-- delta speed equal acceleration vector antiparallel velocity vector
+- change of speed equal acceleration vector antiparallel velocity vector
 - minimum radial acceleration equal minimum tangential velocity
 ![300](8%20Physics/Images/nonuniform%20circular%20motion.png)
 
