@@ -99,9 +99,13 @@ $$
 - if injective then every input has 1 output
 - if surjective then every output has $\ge1$ input
 - if bijective then every output has 1 input
+![[7 Discrete Mathematics/Images/function summary.png]]
+
 ---
 ### inverse function
 - map every element from B to 1 element of A
+![[7 Discrete Mathematics/Images/inverse function.png]]
+
 ---
 ### inverse function formula
 $$
@@ -127,6 +131,8 @@ $$
 ---
 ### composite function
 - map every element from A to 1 element of B to 1 element of C
+![[7 Discrete Mathematics/Images/composite function.png]]
+
 ---
 ### composite function formula
 $$
@@ -139,6 +145,8 @@ $$
 ---
 ### identity function
 - map every element from A to 1 element of A
+![[7 Discrete Mathematics/Images/identity function.png|300]]
+
 ---
 ### identity function formula
 $$
@@ -174,13 +182,19 @@ $$
 ---
 ### floor function
 - map every *x* from set of real numbers to the largest integer $\le x$
+![[7 Discrete Mathematics/Images/floor function.png|300]]
+
 ---
 ### ceiling function
 - map every *x* from set of real numbers to the largest integer $\ge x$
+![[7 Discrete Mathematics/Images/ceiling function.png|300]]
+
 ---
 ### rounding function identity
 - floor function
 - ceiling function
+![[7 Discrete Mathematics/Images/rounding function identity.png]]
+
 ---
 ### partial function
 - map every element from subset of A to 1 element of B

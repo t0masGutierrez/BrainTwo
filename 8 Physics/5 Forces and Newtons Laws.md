@@ -177,13 +177,13 @@ g = \text{gravity}
 $$
 
 ---
-### contact force
+### contact force example
 - normal force
 - friction force
 - tension force
 
 ---
-### noncontact force
+### noncontact force example
 - weight force
 
 ---
@@ -206,6 +206,8 @@ $$
 - resolve all vectors into scalar components
 - if equilibrium then newtons first law $\sum F = 0$ 
 - if nonequilibrium then newtons second law $\sum F = ma$ 
+![[8 Physics/Images/free body diagram.png|200]]
+
 ---
 ### gravitational interaction
 - responsible for the attraction between masses

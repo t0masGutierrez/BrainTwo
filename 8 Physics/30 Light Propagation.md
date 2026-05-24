@@ -1,8 +1,12 @@
 ### wavefront
 - imaginary perpendicular surface intersecting all waves in phase
+![[8 Physics/Images/wavefront1.png|300]]
+
 ---
 ### wave velocity
 - rate of wavefront
+![[8 Physics/Images/wave velocity.png|300]]
+
 ---
 ### wave velocity formula
 $$
@@ -21,6 +25,8 @@ $$
 ---
 ### refraction index
 - ratio between vacuum and non vacuum
+![[8 Physics/Images/refraction index.png]]
+
 ---
 ### refraction index formula
 $$
@@ -37,6 +43,8 @@ $$
 ---
 ### ray
 - straight line representing the trajectory of light propagation
+![[8 Physics/Images/ray.png|400]]
+
 ---
 ### incidence
 - interaction of light with surface
@@ -44,12 +52,18 @@ $$
 ---
 ### specular reflection
 - change of direction after the interaction of light with uniform surface
+![[8 Physics/Images/specular reflection.png|200]]
+
 ---
 ### diffuse reflection
 - scattering of light after the interaction with non uniform surface
+![[8 Physics/Images/diffuse reflection.png|250]]
+
 ---
 ### law of reflection
 - equal angle between incidence and reflection with respect to the normal surface
+![[8 Physics/Images/law of reflection.png|300]]
+
 ---
 ### formula of reflection
 $$
@@ -63,9 +77,13 @@ $$
 ---
 ### refraction
 - change of direction after the transmission of light through surface
+![[8 Physics/Images/refraction.png|300]]
+
 ---
 ### law of refraction
 - angular refraction dependent refraction index
+![[8 Physics/Images/law of refraction.png]]
+
 ---
 ### formula of refraction
 $$
@@ -80,6 +98,8 @@ $$
 ---
 ### critical angle
 - angular incidence where angular refraction equal 90
+![[8 Physics/Images/critical angle.png]]
+
 ---
 ### critical angle formula
 $$
@@ -93,28 +113,44 @@ $$
 ---
 ### total internal reflection
 - angular incidence above critical angle so there exists zero refraction
+![[8 Physics/Images/total internal reflection.png|300]]
+
 ---
 ### dispersion
 - different wavelengths refract by different amounts thus spread waves across the electromagnetic spectrum
+![[8 Physics/Images/dispersion.png|500]]
+
 ---
 ### rainbow
 - combination of refraction, internal reflection, and dispersion of sunlight inside water
+![[8 Physics/Images/rainbow.png|600]]
+
 ---
 ### electromagnetic wave
 - oscillatory disturbances that propagate through space and transfer electromagnetic energy
+![[8 Physics/Images/electromagnetic wave1.png]]
+
 ---
 ### polarization
 - orientation of electric field
+![[8 Physics/Images/polarization1.png]]
+
 ---
 ### vertical polarization
 - electric field oscillation along vertical direction
+![[8 Physics/Images/vertical polarization.png|200]]
+
 ---
 ### horizontal polarization
 - electric field oscillation along horizontal direction
+![[8 Physics/Images/horizontal polarization.png|300]]
+
 ---
 ### circular polarization
 - electric field oscillation along circular direction
 - constant amplitude and $\pi / 2$ phase angle
+![[8 Physics/Images/circular polarization.png|400]]
+
 ---
 ### elliptical polarization
 - electric field oscillation along elliptical direction
@@ -123,13 +159,19 @@ $$
 ---
 ### polarizer
 - allow electromagnetic wave parallel axis and disallow electromagnetic wave not parallel axis
+![[8 Physics/Images/polarizer.png|400]]
+
 ---
 ### atomic polarizer
 - electric field parallel axis oscillate strongly
 - electric field perpendicular axis oscillate weakly
+![[8 Physics/Images/atomic polarizer.png|450]]
+
 ---
 ### malus law
 - intensity of electromagnetic wave after transmission through polarizer
+![[8 Physics/Images/malus law.png|400]]
+
 ---
 ### malus formula
 $$
@@ -150,10 +192,14 @@ $$
 ### polarization by reflection
 - electric field perpendicular incidence plane equal partial horizontal polarization parallel incidence surface
 - electric field parallel incidence plane equal partial vertical polarization perpendicular incidence surface
+![[8 Physics/Images/polarization by reflection.png|400]]
+
 ---
 ### brewsters law
 - non polar angular incidence where reflection equal full perpendicular polarization and refraction equal partial parallel polarization
 - polar angular incidence where reflection equal zero and refraction equal full parallel polarization
+![[8 Physics/Images/brewsters law.png]]
+
 ---
 ### brewsters formula
 $$
@@ -167,13 +213,19 @@ $$
 ---
 ### polarization by double refraction
 - for birefringent materials different polarizations refract by different amounts 
+![[8 Physics/Images/polarization by double refraction.png|300]]
+
 ---
 ### scattering
 - absorption and reradiation of light across different directions
+![[8 Physics/Images/scattering.png|300]]
+
 ---
 ### polarization by scattering
 - ray perpendicular electric field radiate strongly
 - ray parallel electric field radiate weakly
+![[8 Physics/Images/polarization by scattering.png|400]]
+
 ---
 ### polarization by scattering formula
 $$

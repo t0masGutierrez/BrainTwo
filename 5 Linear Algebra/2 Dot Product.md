@@ -18,6 +18,8 @@ $$
 ---
 ### direction
 - counterclockwise angle between two vectors 
+![[9 Calculus/Images/dot product.png]]
+
 ---
 ### direction formula
 $$
@@ -46,6 +48,8 @@ $$
 ---
 ### orthogonal projection
 - orthogonal projection of $\vec y$ onto $\vec x$ equal vector component of $\vec y$ orthogonal $\vec x$ 
+![[5 Linear Algebra/Images/orthogonal projection.png|300]]
+
 ---
 ### orthogonal projection formula
 $$

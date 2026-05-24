@@ -4,6 +4,8 @@
 ---
 ### vector
 - quantity with both magnitude and direction
+![[9 Calculus/Images/vector.png|256]]
+
 ---
 ### unit vector
 - vector with magnitude of 1 that specify direction without scaling
@@ -24,6 +26,8 @@ $$
 ### component
 - horizontal change equal *x* component
 - vertical change equal *y* component
+![[8 Physics/Images/component.png|256]]
+
 ---
 ### scalar component formula
 $$
@@ -84,6 +88,8 @@ $$
 ---
 ### inverse tangent range
 - 1st quadrant or 4th quadrant
+![[8 Physics/Images/inverse tangent range.png|256]]
+
 ---
 ### inverse tangent range formula
 $$
@@ -143,6 +149,8 @@ $$
 ---
 ### dot product
 - scalar quantity of similarity between two vectors
+![[9 Calculus/Images/dot product.png]]
+
 ---
 ### dot product formula
 $$

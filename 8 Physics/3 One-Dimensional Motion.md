@@ -84,6 +84,8 @@ $$
 ---
 ### instantaneous velocity
 - rate of change of position as change of time approaches zero
+![[8 Physics/Images/instantaneous velocity.png|300]]
+
 ---
 ### instantaneous velocity formula
 $$
@@ -112,6 +114,8 @@ $$
 ---
 ### instantaneous acceleration
 - rate of change of velocity as change of time approaches zero
+![[8 Physics/Images/instantaneous acceleration.png|300]]
+
 ---
 ### instantaneous acceleration formula
 $$
@@ -127,6 +131,8 @@ $$
 ### delta speed property
 - if direction of velocity equal direction of acceleration then increasing speed
 - if direction of velocity not equal direction of acceleration then decreasing speed
+![[8 Physics/Images/changing speed.png|300]]
+
 ---
 ### delta speed property formula
 $$

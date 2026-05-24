@@ -1,5 +1,7 @@
 ### set identity
 - set expression that satisfy the requirements of tautology
+![[7 Discrete Mathematics/Images/set identity.png]]
+
 ---
 ### sample space
 - set of all possible outcomes
@@ -148,9 +150,13 @@ $$
 ---
 ### tree diagram
 - probability distribution of two or more dependent categorical variables
+![[4 Statistics/Images/tree diagram.png|300]]
+
 ---
 ### venn diagram
 - frequency distribution of two or more dependent categorical variables
+![[4 Statistics/Images/venn diagram.png|350]]
+
 ---
 ### bayes theorem
 - method of updating probability of hypothesis based on evidence

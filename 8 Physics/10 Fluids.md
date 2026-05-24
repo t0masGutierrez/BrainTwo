@@ -25,6 +25,8 @@
 ---
 ### volume
 - amount of three dimensional space within object
+![[8 Physics/Images/volume.png]]
+
 ---
 ### volume formula
 $$
@@ -43,6 +45,8 @@ $$
 ---
 ### density
 - measure of compactness
+![[8 Physics/Images/density.png]]
+
 ---
 ### density formula
 $$
@@ -56,6 +60,8 @@ $$
 ---
 ### pressure
 - measure of local force
+![[8 Physics/Images/pressure.png]]
+
 ---
 ### pressure formula
 $$
@@ -69,6 +75,8 @@ $$
 ---
 ### atmospheric pressure
 - weight of air column
+![[8 Physics/Images/atmospheric pressure.png]]
+
 ---
 ### atmospheric pressure formula
 $$
@@ -80,6 +88,8 @@ $$
 ---
 ### hydrostatic pressure
 - weight of fluid column
+![[8 Physics/Images/hydrostatic pressure.png]]
+
 ---
 ### hydrostatic pressure formula
 $$
@@ -109,9 +119,13 @@ $$
 ---
 ### manometer
 - measure pressure inside container by comparing height of fluid column
+![[8 Physics/Images/manometer.png]]
+
 ---
 ### pascal principle
 - uniform distribution of pressure change inside container
+![[8 Physics/Images/pascal principle.png]]
+
 ---
 ### pascal formula
 $$
@@ -129,6 +143,8 @@ $$
 ---
 ### buoyant force
 - upward force by fluid on object inside fluid via pressure imbalance between top and bottom
+![[8 Physics/Images/buoyant force.png]]
+
 ---
 ### buoyant force formula
 $$
@@ -163,6 +179,8 @@ $$
 ---
 ### volume flow rate
 - amount of fluid flow through cross section over time
+![[8 Physics/Images/volume flow rate.png]]
+
 ---
 ### volume flow rate formula
 $$
@@ -176,6 +194,8 @@ $$
 ---
 ### incompressible fluid
 - constant density aka mass conservation
+![[8 Physics/Images/incompressible fluid.png]]
+
 ---
 ### continuity formula
 $$
@@ -189,6 +209,8 @@ $$
 ---
 ### viscous fluid
 - internal friction of fluid cause velocity change along solid boundary
+![[8 Physics/Images/viscous fluid.png]]
+
 ---
 ### viscosity formula
 $$

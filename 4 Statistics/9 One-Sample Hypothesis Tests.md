@@ -167,6 +167,8 @@ $$
 - calculate p value
 - if p value less or equal significance level then reject null hypothesis
 - if p value greater significance level then fail to reject null hypothesis
+![[4 Statistics/Images/conduct p value hypothesis test.png|300]]
+
 ---
 ### confidence interval hypothesis test
 - compare critical value and range of guesses for the population parameter

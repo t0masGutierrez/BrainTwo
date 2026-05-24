@@ -1,5 +1,7 @@
 ### work
 - transfer of mechanical energy by the component of force parallel displacement
+![[8 Physics/Images/work.png|300]]
+
 ---
 ### constant work formula
 $$
@@ -26,6 +28,8 @@ $$
 - force parallel displacement equal positive work
 - force antiparallel displacement equal negative work
 - force perpendicular displacement equal zero work
+![[8 Physics/Images/work parity property.png|400]]
+
 ---
 ### work direction property formula
 $$
@@ -70,6 +74,8 @@ $$
 ### conservative force
 - reversible work conserve mechanical energy
 - dependent position and independent path
+![[8 Physics/Images/conservative force.png|200]]
+
 ---
 ### conservative force formula
 $$
@@ -93,6 +99,8 @@ $$
 ---
 ### potential energy
 - energy of position
+![[8 Physics/Images/potential energy.png|400]]
+
 ---
 ### potential energy formula
 $$
@@ -174,12 +182,12 @@ W = \text{work}
 $$
 
 ---
-### energy conservation
+### conservation of energy
 - work done by conservative force equal zero change of mechanical energy
 ![](8%20Physics/Images/energy%20conservation.png)
 
 ---
-### energy conservation formula
+### conservation of energy formula
 $$
 \begin{aligned}
 E_{i} = E_{f} \\
@@ -193,6 +201,8 @@ $$
 ---
 ### energy diagram
 - mechanical energy as function of position
+![[8 Physics/Images/energy diagram.png]]
+
 ---
 ### turning point
 - point where mechanical energy equal potential energy

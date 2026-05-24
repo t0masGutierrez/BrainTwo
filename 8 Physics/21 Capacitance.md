@@ -1,5 +1,7 @@
 ### capacitor
 - electric component designed to store electric charge
+![[8 Physics/Images/capacitor.png|200]]
+
 ---
 ### capacitance
 - storage of electric charge
@@ -22,6 +24,8 @@ $$
 ---
 ### parallel planar capacitor
 - separation of parallel planar conductors with insulator
+![[8 Physics/Images/parallel planar capacitor.png|200]]
+
 ---
 ### parallel planar capacitance formula
 $$
@@ -36,6 +40,8 @@ $$
 ---
 ### cylindrical capacitor
 - separation of two cylindrical conductors with insulator
+![[8 Physics/Images/cylindrical capacitor.png|400]]
+
 ---
 ### cylindrical capacitance formula
 $$
@@ -50,6 +56,8 @@ $$
 ---
 ### spherical capacitor
 - separation of two spherical conductors with insulator
+![[8 Physics/Images/spherical capacitor.png]]
+
 ---
 ### spherical capacitance formula
 $$
@@ -64,6 +72,8 @@ $$
 ### series capacitor
 - equivalent electric charge equal electric charge across series
 - equivalent voltage equal sum of voltage across series
+![[8 Physics/Images/series capacitor.png|300]]
+
 ---
 ### series capacitance formula
 $$
@@ -77,6 +87,8 @@ $$
 ### parallel capacitor
 - equivalent voltage equal voltage across parallel
 - equivalent electric charge equal sum of electric charge across parallel
+![[8 Physics/Images/parallel capacitor.png|300]]
+
 ---
 ### parallel capacitance formula
 $$
@@ -123,16 +135,24 @@ $$
 ---
 ### dielectric
 - material capable of undergoing polarization via external electric field
+![[8 Physics/Images/dielectric.png]]
+
 ---
 ### polar
 - non uniform distribution of electric charge equal permanent electric dipole
+![[8 Physics/Images/polar.png|300]]
+
 ---
 ### non polar
 - uniform distribution of electric charge equal temporary electric dipole
+![[8 Physics/Images/non polar.png|300]]
+
 ---
 ### dielectric polarization
 - polar dielectric induce internal electric field
 - non polar dielectric induce internal electric dipole
+![[8 Physics/Images/dielectric polarization.png|200]]
+
 ---
 ### dielectric strength
 - critical value of electric field where molecule equal ion
@@ -144,6 +164,8 @@ $$
 ---
 ### dielectric constant
 - ratio between dielectric and non dielectric
+![[8 Physics/Images/dielectric constant.png|500]]
+
 ---
 ### dielectric constant formula
 $$
@@ -165,6 +187,8 @@ $$
 ---
 ### gauss law
 - electric flux directly proportional net unbound electric charge inside gaussian surface
+![[8 Physics/Images/gauss law.png|200]]
+
 ---
 ### gauss formula
 $$

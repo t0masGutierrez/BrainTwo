@@ -22,6 +22,8 @@ $$
 ### integration by parts strategy
 - choose *u* in terms of LIATE
 - logarithm, inverse trigonometric, algebraic, trigonometric, exponential
+![[9 Calculus/Images/integration by parts strategy.png]]
+
 ---
 ### integration by parts strategy formula
 $$
@@ -47,6 +49,8 @@ $$
 ---
 ### tabular integration
 - repeat integration by parts
+![[9 Calculus/Images/tabular integration.png|300]]
+
 ---
 ### calculate tabular integration
 - if $n \ge 2$ then tabular integration
@@ -98,6 +102,8 @@ $$
 ---
 ### trigonometric substitution
 - antiderivatives involving radical functions
+![[9 Calculus/Images/trigonometric substitution.png]]
+
 ---
 ### trigonometric substitution formula
 $$
@@ -156,6 +162,8 @@ $$
 - analytical
 - symbolical
 - numerical
+![[9 Calculus/Images/methods of integration.png]]
+
 ---
 ### numerical integration
 - approximate area under curve
@@ -170,6 +178,8 @@ $$
 ---
 ### trapezoidal rule
 - height as function of trapezoid equal approximate area under curve
+![[9 Calculus/Images/trapezoidal rule.png]]
+
 ---
 ### trapezoidal formula
 $$
@@ -183,6 +193,8 @@ $$
 ---
 ### simpsons rule
 - height as function of parabola equal approximate area under curve
+![[9 Calculus/Images/simpsons rule.png]]
+
 ---
 ### simpsons formula
 $$
@@ -215,6 +227,8 @@ $$
 ---
 ### infinite lower limit of integration
 - if limit does exist then improper integral converges
+![[9 Calculus/Images/infinite lower limit of integration.png]]
+
 ---
 ### infinite lower limit of integration formula
 $$
@@ -226,6 +240,8 @@ $$
 ---
 ### infinite upper limit of integration
 - if limit does not exist then improper integral diverges
+![[9 Calculus/Images/infinite upper limit of integration.png]]
+
 ---
 ### infinite lower limit of integration formula
 $$
@@ -237,6 +253,8 @@ $$
 ---
 ### infinite limit of integration
 - if either limits do not exist then improper integral diverges
+![[9 Calculus/Images/infinite limit of integration.png]]
+
 ---
 ### infinite limit of integration formula
 $$

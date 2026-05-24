@@ -42,9 +42,13 @@ $$
 ---
 ### internal energy
 - average distance between atoms increases as internal energy increases
+![[8 Physics/Images/internal energy.png]]
+
 ---
 ### thermal expansion of solid
 - solid expands as temperature increases
+![[8 Physics/Images/thermal expansion of solid.png]]
+
 ---
 ### thermal expansion of 1d solid formula
 $$
@@ -81,6 +85,8 @@ $$
 ---
 ### thermal expansion of fluid
 - fluid expands as temperature increases
+![[8 Physics/Images/thermal expansion of fluid.png]]
+
 ---
 ### thermal expansion of fluid formula
 $$
@@ -99,10 +105,14 @@ $$
 ---
 ### zeroth law of thermodynamics
 - zero net heat flow between objects of the same temperature
+![[8 Physics/Images/zeroth law of thermodynamics.png]]
+
 ---
 ### kilocalorie
 - amount of heat necessary to change temperature of 1 kg of water by $1^\circ C$ 
 - temperature change possible via work done or heat transfer
+![[8 Physics/Images/kilocalorie.png]]
+
 ---
 ### kilocalorie formula
 $$
@@ -115,6 +125,8 @@ $$
 ### specific heat
 - amount of heat that must enter mass to change temperature by $\Delta T$ 
 - high specific heat capacity resist temperature change more than low specific heat capacity 
+![[8 Physics/Images/specific heat.png|400]]
+
 ---
 ### specific heat formula
 $$
@@ -151,6 +163,8 @@ $$
 - coexistence of two phases
 - heat transfer does not change temperature during phase transition
 - heat transfer does change atomic bonding during phase transition
+![[Physics/Images/phase transition.png|300]]
+
 ---
 ### sublimation
 - phase transition where solids become gases without becoming liquid
@@ -162,6 +176,8 @@ $$
 ---
 ### phase diagram
 - pressure versus temperature
+![[8 Physics/Images/phase diagram.png|400]]
+
 ---
 ### triple point
 - thermal equilibrium of all three phases 
@@ -173,6 +189,8 @@ $$
 ---
 ### latent heat
 - amount of heat that must enter or exit substance to undergo phase change
+![[8 Physics/Images/latent heat.png]]
+
 ---
 ### latent heat formula
 $$
@@ -186,4 +204,6 @@ $$
 ---
 ### phase change diagram
 - temperature versus heat
+![[8 Physics/Images/phase transition diagram.png]]
+
 ---

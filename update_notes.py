@@ -1,9 +1,11 @@
 import os
 import re
+import shutil
 
 INLINE_MATH_PATTERN = re.compile(r"(?<!\\)\$(.+?)(?<!\\)\$")
 SINGLE_CHAR_SUBSCRIPT_PATTERN = re.compile(r"(?<!\\)_([A-Za-z0-9])(?![A-Za-z0-9{])")
 LEADING_SQUARE_BRACKET_PATTERN = re.compile(r"^(\s*)\[")
+IMAGE_FOLDER_NAME = "Images"
 
 def sanitize_math_text(text):
     return SINGLE_CHAR_SUBSCRIPT_PATTERN.sub(r"_{\g<1>}", text)
@@ -71,7 +73,6 @@ def update_notes():
                                 pattern1 = is_heading_candidate(lines[i]) and next_stripped_line == "$$"
                                 pattern2 = next_line.startswith("---")
                                 pattern3 = lines[i].startswith("\\")
-                                pattern4 = "![[" in lines[i]
 
                                 # add hashtags and newlines
                                 if pattern0 or pattern1:
@@ -84,10 +85,6 @@ def update_notes():
                                 # replace alignment
                                 if pattern3:
                                     lines[i] = lines[i].replace("align*", "aligned")
-
-                                # remove images
-                                if pattern4:
-                                    lines[i] = lines[i].split("![[")[0]
 
                                 stripped_line = lines[i].strip()
                                 if stripped_line == "$$":
@@ -113,6 +110,21 @@ def update_notes():
             for file in github_files:
                 if file not in obsidian_files:
                     os.remove(os.path.join(out_folder, file))
+
+    # copy image asset folders for file-view rendering
+    for folder_name in os.listdir(input):
+        in_folder = os.path.join(input, folder_name)
+        if not os.path.isdir(in_folder):
+            continue
+        in_images = os.path.join(in_folder, IMAGE_FOLDER_NAME)
+        out_images = os.path.join(output, folder_name, IMAGE_FOLDER_NAME)
+        if os.path.isdir(in_images):
+            if os.path.exists(out_images):
+                shutil.rmtree(out_images)
+            os.makedirs(os.path.dirname(out_images), exist_ok=True)
+            shutil.copytree(in_images, out_images)
+        elif os.path.isdir(out_images):
+            shutil.rmtree(out_images)
 
 def main():
     update_notes()

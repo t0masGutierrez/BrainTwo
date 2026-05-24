@@ -74,6 +74,8 @@ $$
 ---
 ### interval method
 - method of describing set by stating domain that elements must satisfy to be members
+![[7 Discrete Mathematics/Images/interval method.png]]
+
 ---
 ### interval formula
 $$

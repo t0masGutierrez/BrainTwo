@@ -1,5 +1,7 @@
 ### reference frame
 - coordinate system of observer
+![[8 Physics/Images/reference frame.png|300]]
+
 ---
 ### rest frame
 - coordinate system of observer with zero velocity
@@ -28,9 +30,13 @@
 ### relativity of simultaneity
 - events that are simultaneous in rest frame are not simultaneous in inertial frame
 - simultaneity is not absolute but relative to the reference frame
+![[8 Physics/Images/relativity of simultaneity.png|400]]
+
 ---
 ### lorentz factor
 - mathematical quantity describing the change of spacetime near the speed of light
+![[8 Physics/Images/lorentz factor.png|300]]
+
 ---
 ### lorentz factor formula
 $$
@@ -49,6 +55,8 @@ $$
 ---
 ### time dilation
 - increase of time elapsed in the inertial frame
+![[8 Physics/Images/time dilation.png]]
+
 ---
 ### time dilation formula
 $$
@@ -68,6 +76,8 @@ $$
 ### length contraction
 - decrease of length measured parallel the direction of motion in the inertial frame
 - zero change of length measured perpendicular the direction of motion in the inertial frame
+![[8 Physics/Images/length contraction.png|400]]
+
 ---
 ### length contraction formula
 $$
@@ -108,6 +118,8 @@ $$
 ---
 ### lorentz transformation
 - how special relativity relate the coordinates of event between two inertial frames
+![[8 Physics/Images/lorentz transformation.png|200]]
+
 ---
 ### lorentz transformation formula
 $$
@@ -163,9 +175,13 @@ $$
 ---
 ### worldline
 - path through spacetime
+![[8 Physics/Images/world line.png|200]]
+
 ---
 ### light cone
 - all possible paths of light through spacetime to and from event
+![[8 Physics/Images/light cone.png|300]]
+
 ---
 ### timelike interval
 - possible causality because order of events independent reference frame
@@ -183,6 +199,8 @@ $$
 ---
 ### relativistic doppler effect
 - change of frequency due to the relative motion between source and observer
+![[8 Physics/Images/relativistic doppler effect.png|300]]
+
 ---
 ### relativistic doppler effect formula
 $$
@@ -207,6 +225,8 @@ $$
 ---
 ### relativistic momentum
 - difficulty of stopping or changing direction of motion near the speed of light
+![[8 Physics/Images/relativistic momentum.png|250]]
+
 ---
 ### relativistic momentum formula
 $$
@@ -221,6 +241,8 @@ $$
 ---
 ### relativistic kinetic energy
 - energy of motion near the speed of light
+![[8 Physics/Images/relativistic kinetic energy.png|200]]
+
 ---
 ### relativistic kinetic energy formula
 $$
@@ -235,6 +257,8 @@ $$
 ---
 ### relativistic energy
 - energy of particle moving near the speed of light
+![[8 Physics/Images/relativistic energy.png|300]]
+
 ---
 ### total relativistic energy formula
 $$

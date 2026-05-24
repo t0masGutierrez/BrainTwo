@@ -1,5 +1,7 @@
 ### scale
 - size of scaling factor influence the graph of unit-free equation
+![[3 Mathematical Modeling/Images/scale.png]]
+
 ---
 ### scale formula
 $$
@@ -22,6 +24,8 @@ $$
 - $c_{1} = 2\frac{\text{m}}{\text{s}^2}$ 
 - $c_{2} = 0.01 \text{m}$ 
 - $c_{3} = 0.01\text{s}$ 
+![[3 Mathematical Modeling/Images/scale example.png|300]]
+
 ---
 ### scale example formula
 $$
@@ -33,6 +37,8 @@ $$
 ---
 ### scale transformation
 - change of variables from domain to scaled, normalized domain
+![[3 Mathematical Modeling/Images/scale transformation.png]]
+
 ---
 ### scale transformation formula
 $$
@@ -55,6 +61,8 @@ $$
 - $c_{1} = 2\frac{\text{m}}{\text{s}^2}$ 
 - $c_{2} = 0.01 \text{m}$ 
 - $c_{3} = 0.01\text{s}$ 
+![[3 Mathematical Modeling/Images/scale transformation example.png]]
+
 ---
 ### scale transformation example formula
 $$

@@ -1,5 +1,7 @@
 ### graph
 - set of vertices and edges where vertices represent elements and edges represent relations
+![[7 Discrete Mathematics/Images/graph.png|300]]
+
 ---
 ### graph formula
 $$
@@ -25,15 +27,23 @@ $$
 ---
 ### simple graph
 - undirect graph that may not contain loops or multiple edges
+![[7 Discrete Mathematics/Images/simple graph.png]]
+
 ---
 ### multigraph
 - undirect graph that may contain multiple edges but not loops 
+![[7 Discrete Mathematics/Images/multigraph.png]]
+
 ---
 ### pseudograph
 - undirect graph that may contain multiple edges and loops
+![[7 Discrete Mathematics/Images/pseudograph.png]]
+
 ---
 ### direct graph
 - graph whose edges have direction
+![[7 Discrete Mathematics/Images/direct graph.png]]
+
 ---
 ### undirect graph
 - graph whose edges do not have direction
@@ -50,6 +60,8 @@ $$
 - simple direct graph
 - direct multigraph
 - mix graph
+![[7 Discrete Mathematics/Images/graph summary.png]]
+
 ---
 ### social network
 - graph whose vertices represent people and edges represent relationship between people
@@ -196,6 +208,8 @@ $$
 ---
 ### complete graph
 - graph where every pair of vertices connect by exactly 1 edge
+![[7 Discrete Mathematics/Images/complete graph.png]]
+
 ---
 ### complete graph formula
 $$
@@ -208,6 +222,8 @@ $$
 ---
 ### cycle graph
 - graph where traversal of all vertices without traversing same vertex twice can begin and end at the same vertex
+![[7 Discrete Mathematics/Images/cycle graph.png]]
+
 ---
 ### cycle graph formula
 $$
@@ -220,6 +236,8 @@ $$
 ---
 ### wheel graph
 - cycle graph except central vertex connect all vertices
+![[7 Discrete Mathematics/Images/wheel graph.png]]
+
 ---
 $$
 \begin{aligned}
@@ -231,6 +249,8 @@ $$
 ---
 ### hypercube graph
 - graph where vertices equal $2^n$ bit strings of length *n* and two vertices adjacent if and only if bit strings differ by exactly 1 bit
+![[7 Discrete Mathematics/Images/hypercube graph.png]]
+
 ---
 ### hypercube graph formula
 $$
@@ -243,6 +263,8 @@ $$
 ---
 ### bipartition
 - divide set of vertices into two disjoint subsets such that every vertex has edge and there exists no edge between vertices within same set
+![[7 Discrete Mathematics/Images/bipartite graph.png]]
+
 ---
 ### bipartition formula
 $$

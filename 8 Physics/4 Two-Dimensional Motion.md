@@ -1,5 +1,7 @@
 ### position vector
 - location as function of time
+![[8 Physics/Images/position vector.png]]
+
 ---
 ### position vector formula
 $$
@@ -16,6 +18,8 @@ $$
 ---
 ### displacement vector
 - vector change of position
+![[8 Physics/Images/displacement vector.png]]
+
 ---
 ### displacement vector formula
 $$
@@ -72,6 +76,8 @@ $$
 - motion of freefalling object along two axes
 - horizontal motion under constant velocity
 - vertical motion under constant acceleration
+![[8 Physics/Images/projectile motion.png]]
+
 ---
 ### projectile motion initial velocity formula
 $$

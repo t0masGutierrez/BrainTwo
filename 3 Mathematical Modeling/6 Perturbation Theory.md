@@ -170,6 +170,8 @@ $$
 - collect coefficient of ith order epsilon
 - solve perturbed algebraic equation for 1st order variable
 - ith order variable equal coefficient of ith order epsilon 
+![[3 Mathematical Modeling/Images/regular algebraic equation.png]]
+
 ---
 ### regular algebraic equation formula
 $$
@@ -237,6 +239,8 @@ $$
 - collect coefficient of ith order epsilon
 - solve perturbed differential equation for 1st order variable
 - ith order variable equal coefficient of ith order epsilon
+![[3 Mathematical Modeling/Images/regular differential equation.png]]
+
 ---
 ### regular differential equation formula
 $$

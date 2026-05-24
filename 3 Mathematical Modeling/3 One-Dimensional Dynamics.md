@@ -16,6 +16,8 @@ $$
 ---
 ### time view
 - view solution as graph in the $(t, u)$-plane
+![[3 Mathematical Modeling/Images/time view.png]]
+
 ---
 ### time view formula
 $$
@@ -28,6 +30,8 @@ $$
 ---
 ### phase view
 - view solution as moving point along $u$-axis
+![[3 Mathematical Modeling/Images/phase view.png]]
+
 ---
 ### phase view formula
 $$
@@ -98,6 +102,8 @@ $$
 ### asymptotic equilibrium stability
 - sufficiently nearby solution remain arbitrarily nearby equilibrium point for all time
 - sufficiently nearby solution eventually converge on equilibrium point
+![[3 Mathematical Modeling/Images/asymptotic equilibrium stability1.png]]
+
 ---
 ### asymptotic equilibrium stability formula
 $$
@@ -116,6 +122,8 @@ $$
 ### neutral equilibrium stability
 - sufficiently nearby solution remain arbitrarily nearby equilibrium point for all time
 - sufficiently nearby solution sometimes converge on equilibrium point
+![[3 Mathematical Modeling/Images/neutral equilibrium stability1.png]]
+
 ---
 ### neutral equilibrium stability formula
 $$
@@ -133,6 +141,8 @@ $$
 ---
 ### equilibrium instability
 - every solution infinitely diverge off equilibrium point
+![[3 Mathematical Modeling/Images/equilibrium instability1.png]]
+
 ---
 ### equilibrium instability formula
 $$
@@ -194,6 +204,8 @@ $$
 - determine stability of equilibrium point
 - find parameter where the stability of equilibria change
 - graph the equilibrium point versus the parameter
+![[3 Mathematical Modeling/Images/bifurcation diagram.png]]
+
 ---
 ### bifurcation diagram formula
 $$

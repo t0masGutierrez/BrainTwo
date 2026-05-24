@@ -1,5 +1,7 @@
 ### boolean algebra
 - set ${\{0, 1}\}$ with two binary operations ${\{\land, \lor}\}$ and single unary operation $\{\overline{\ }\}$ such that these hold for all ${\{x, y, z}\}$
+![[7 Discrete Mathematics/Images/boolean algebra.png]]
+
 ---
 ### boolean complement
 - opposite of proposition
@@ -84,6 +86,8 @@ $$
 ---
 ### boolean identity
 - boolean expression that satisfy the requirements of tautology
+![[7 Discrete Mathematics/Images/boolean identity.png]]
+
 ---
 ### dual of boolean expression
 - interchange products and sums
@@ -142,19 +146,27 @@ $$
 - input value of boolean variable
 - perform boolean complementation
 - output complement of boolean variable
+![[7 Discrete Mathematics/Images/not gate.png]]
+
 ---
 ### or gate
 - input value of boolean variables
 - perform boolean addition
 - output sum of boolean variables
+![[7 Discrete Mathematics/Images/or gate.png]]
+
 ---
 ### and gate
 - input value of boolean variables
 - perform boolean multiplication
 - output product of boolean variables
+![[7 Discrete Mathematics/Images/and gate.png]]
+
 ---
 ### logic circuit
 - output based on combination of logic gate inputs
+![[7 Discrete Mathematics/Images/logic circuit.png]]
+
 ---
 ### carry
 - values that transfer from boolean addition because sum greater than 1

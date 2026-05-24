@@ -45,9 +45,13 @@ $$
 ---
 ### tree diagram
 - diagram illustrate the total number of possible outcomes
+![[7 Discrete Mathematics/Images/tree diagram.png]]
+
 ---
 ### pigeonhole principle
 - if *a* pigeons put into *b* holes and $a > b$ then at least 1 hole must contain >1 pigeon
+![[7 Discrete Mathematics/Images/pigeonhole principle.png]]
+
 ---
 ### pigeonhole formula
 $$

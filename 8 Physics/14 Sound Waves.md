@@ -1,5 +1,7 @@
 ### sound wave
 - pressure oscillations about the surrounding medium pressure
+![[8 Physics/Images/sound wave.png]]
+
 ---
 ### compression
 - high pressure region
@@ -16,6 +18,8 @@
 - pressure most negative during rarefaction
 - maximum pressure during zero displacement
 - minimum pressure during maximum displacement
+![[8 Physics/Images/particle motion.png]]
+
 ---
 ### average power
 - rate of energy transfer
@@ -47,6 +51,8 @@ $$
 ---
 ### sound intensity
 - loudness
+![[8 Physics/Images/sound intensity.png]]
+
 ---
 ### sound intensity formula
 $$
@@ -60,6 +66,8 @@ $$
 ---
 ### sphere sound intensity
 - sound intensity of sphere decreases equally in all directions as distance from sphere increases
+![[8 Physics/Images/sphere sound intensity.png]]
+
 ---
 ### sphere sound intensity formula
 $$
@@ -73,6 +81,8 @@ $$
 ---
 ### sound intensity level
 - logarithmic measure of sound intensity relative reference sound intensity
+![[8 Physics/Images/sound intensity level.png]]
+
 ---
 ### sound intensity level formula
 $$
@@ -86,6 +96,8 @@ $$
 ---
 ### sound perception
 - factor of 10 sound intensity increase equal multiple of 10 sound intensity level increase
+![[8 Physics/Images/sound perception.png]]
+
 ---
 ### sound perception formula
 $$
@@ -99,6 +111,8 @@ $$
 ---
 ### moving observer sound perception
 - observer moving toward stationary source perceive higher frequency than stationary observer
+![[8 Physics/Images/moving observer sound perception.png]]
+
 ---
 ### moving observer sound perception formula
 $$
@@ -113,6 +127,8 @@ $$
 ---
 ### moving source sound perception
 - source moving toward stationary observer perceive higher frequency than stationary source
+![[8 Physics/Images/moving source sound perception.png|400]]
+
 ---
 ### moving source sound perception formula
 $$
@@ -129,6 +145,8 @@ $$
 - moving together equal higher frequency and shorter wavelength
 - perception of frequency dependent relative motion between observer and source
 - moving away equal lower frequency and longer wavelength
+![[8 Physics/Images/doppler effect.png|500]]
+
 ---
 ### doppler formula
 $$
@@ -144,9 +162,13 @@ $$
 ---
 ### wave front
 - separation of wave crest by single wavelength
+![[8 Physics/Images/wave front.png]]
+
 ---
 ### interference
 - combination of two waves at the same point dependent path difference
+![[8 Physics/Images/source interference.png]]
+
 ---
 ### constructive interference formula
 $$
@@ -170,6 +192,8 @@ $$
 ---
 ### beat frequency
 - interfering sound waves of different frequency oscillate between in phase and out phase
+![[8 Physics/Images/beat frequency.png]]
+
 ---
 ### beat frequency formula
 $$
@@ -183,6 +207,8 @@ $$
 ---
 ### asymmetric normal mode
 - possible asymmetric standing wave pattern where all particles oscillate with the same frequency
+![[8 Physics/Images/asymmetric normal mode.png|400]]
+
 ---
 ### asymmetric resonant wavelength
 - wavelength of asymmetric normal mode

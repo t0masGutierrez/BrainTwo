@@ -24,33 +24,51 @@
 ### negation
 - opposite of proposition
 - not
+![[7 Discrete Mathematics/Images/negation.png]]
+
 ---
 ### conjunction
 - joining of both proposition
 - and
+![[7 Discrete Mathematics/Images/conjunction.png]]
+
 ---
 ### inclusive disjunction
 - joining of either proposition
 - or
+![[7 Discrete Mathematics/Images/inclusive disjunction.png]]
+
 ---
 ### exclusive disjunction
 - joining of either proposition but not both
 - xor
+![[7 Discrete Mathematics/Images/exclusive disjunction.png]]
+
 ---
 ### conditional
 - if p then q
+![[7 Discrete Mathematics/Images/conditional.png]]
+
 ---
 ### inverse
 - if not p then not q
+![[7 Discrete Mathematics/Images/inverse.png]]
+
 ---
 ### converse
 - if q then p
+![[7 Discrete Mathematics/Images/converse.png]]
+
 ---
 ### contrapositive
 - if not q then not p
+![[7 Discrete Mathematics/Images/contrapositive.png]]
+
 ---
 ### biconditional
 - p if and only if q
+![[7 Discrete Mathematics/Images/biconditional.png]]
+
 ---
 ### equivalent proposition
 - conditional equivalent contrapositive
@@ -95,12 +113,18 @@ $$
 ---
 ### logical equivalence
 - tautological proposition
+![[7 Discrete Mathematics/Images/logical equivalence.png]]
+
 ---
 ### conditional logical equivalence
 - tautological conditional
+![[7 Discrete Mathematics/Images/conditional logical equivalence.png]]
+
 ---
 ### biconditional logical equivalence
 - tautological biconditional
+![[7 Discrete Mathematics/Images/biconditional logical equivalence.png]]
+
 ---
 ### satisfiable
 - proposition true for at least 1 assignment of truth values

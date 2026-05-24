@@ -1,5 +1,7 @@
 ### space curve
 - set of parametric equation triples that define spatial curve
+![[9 Calculus/Images/space curve.png]]
+
 ---
 ### space curve formula
 $$
@@ -59,6 +61,8 @@ $$
 ---
 ### derivative
 - slope of secant vector as $\Delta t$ approaches zero
+![[9 Calculus/Images/derivative1.png]]
+
 ---
 ### derivative formula
 $$

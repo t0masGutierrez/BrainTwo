@@ -5,6 +5,8 @@
 ### electric charge
 - electric charge of same sign repel
 - electric charge of opposite sign attract
+![[8 Physics/Images/electric charge.png]]
+
 ---
 ### electric charge quantization
 - all electric charge equal integer multiple of electric charge $\pm e = 1.602 \times 10^{-19}$ 
@@ -33,9 +35,13 @@
 - proton inside nucleus
 - electron inside cloud surrounding nucleus
 - neutron inside nucleus 
+![[8 Physics/Images/atomic structure.png]]
+
 ---
 ### ion
 - atom with net electric charge
+![[8 Physics/Images/ion.png]]
+
 ---
 ### positive ion
 - subtraction of electrons
@@ -59,6 +65,8 @@
 ---
 ### polarization
 - separation of electric charge via external electric field thereby inducing electric dipole
+![[8 Physics/Images/polarization.png]]
+
 ---
 ### charging by induction
 - bring net electric charge near neutral object
@@ -66,15 +74,23 @@
 ---
 ### charging by conduction
 - contact net electric charge with neutral object
+![[8 Physics/Images/conductor charging by conduction.png|400]]
+
 ---
 ### charging by friction
 - generate friction with neutral insulator thereby allowing electron movement via triboelectricity
+![[8 Physics/Images/insulator charging by friction.png]]
+
 ---
 ### grounding
 - neutralize object by connecting earth and allowing electron movement
+![[8 Physics/Images/grounding.png]]
+
 ---
 ### electric force
 - vector quantity of attraction or repulsion on electric charge
+![[8 Physics/Images/electric force.png]]
+
 ---
 ### calculate electric force
 - electric force on positive electric charge parallel electric field
@@ -107,6 +123,8 @@ $$
 ---
 ### electric field
 - region of space around source electric charge where test electric charge experience electric force
+![[8 Physics/Images/electric field.png|300]]
+
 ---
 ### electric field formula
 $$
@@ -131,6 +149,8 @@ $$
 ---
 ### electric field line
 - direction of electric field
+![[8 Physics/Images/electric field line.png|500]]
+
 ---
 ### calculate electric field line
 - positive electric charge diverge outward
@@ -142,6 +162,8 @@ $$
 ---
 ### electric dipole
 - separation of two electric charge with equal magnitude and opposite sign 
+![[8 Physics/Images/electric dipole.png]]
+
 ---
 ### electric dipole formula
 $$
@@ -155,6 +177,8 @@ $$
 ---
 ### electric dipole force
 - zero net force between electric dipole
+![[8 Physics/Images/electric dipole force.png|400]]
+
 ---
 ### electric dipole force formula
 $$
@@ -166,6 +190,8 @@ $$
 ---
 ### electric dipole electric field
 - electric field via electric dipole
+![[8 Physics/Images/internal electric field.png|350]]
+
 ---
 ### electric dipole electric field formula
 $$
@@ -181,6 +207,8 @@ $$
 ---
 ### electric dipole torque
 - torque rotates electric dipole parallel electric field
+![[8 Physics/Images/electric dipole torque.png|200]]
+
 ---
 ### electric dipole torque formula
 $$
@@ -220,6 +248,8 @@ $$
 ---
 ### electric charge density
 - measure of electric charge compactness
+![[8 Physics/Images/electric charge density.png|400]]
+
 ---
 ### electric charge density formula
 $$

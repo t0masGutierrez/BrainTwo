@@ -126,6 +126,8 @@ $$
 ---
 ### periodic solution
 - repeating solution with closed orbit
+![[3 Mathematical Modeling/Images/periodic solution.png]]
+
 ---
 ### periodic solution formula
 $$
@@ -140,6 +142,8 @@ $$
 ---
 ### periodic equilibrium property
 - for every periodic solution there exists equilibrium point(s) inside the closed orbit
+![[3 Mathematical Modeling/Images/periodic equilibrium property.png]]
+
 ---
 ### periodic equilibrium property formula
 $$
@@ -156,6 +160,8 @@ $$
 ---
 ### poincare-bendixson property
 - compact region without equilibrium point contain periodic solution
+![[3 Mathematical Modeling/Images/poincare–bendixson property.png]]
+
 ---
 ### poincare-bendixson property formula
 $$
@@ -226,6 +232,8 @@ $$
 - determine stability of equilibrium point
 - find parameter where the stability of equilibria change
 - graph the equilibrium point versus the parameter
+![[3 Mathematical Modeling/Images/bifurcation diagram.png]]
+
 ---
 ### bifurcation diagram formula
 $$

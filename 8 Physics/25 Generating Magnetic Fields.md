@@ -1,8 +1,12 @@
 ### magnetism
 - exertion of force by flowing electric charge
+![[8 Physics/Images/magnetism.png|250]]
+
 ---
 ### generating magnetic field via point
 - electric current carrying point generate magnetic field
+![[8 Physics/Images/generating magnetic field via point.png|300]]
+
 ---
 ### generating magnetic field via point formula
 $$
@@ -20,6 +24,8 @@ $$
 ---
 ### biot savart law
 - electric current carrying conductor generate magnetic field
+![[8 Physics/Images/biot savart law.png]]
+
 ---
 ### biot savart formula
 $$
@@ -37,6 +43,8 @@ $$
 ---
 ### generating magnetic field via line
 - electric current carrying line generate magnetic field
+![[8 Physics/Images/generating magnetic field via line.png|500]]
+
 ---
 ### generating magnetic field via line formula
 $$
@@ -51,6 +59,8 @@ $$
 ---
 ### generating magnetic field via loop
 - electric current carrying loop generate magnetic field along central axis of loop
+![[8 Physics/Images/generating magnetic field via loop.png|450]]
+
 ---
 ### generating magnetic field via loop formula
 $$
@@ -67,6 +77,8 @@ $$
 ---
 ### generating magnetic field via coil
 - electric current carrying coil generate magnetic field from center of coil
+![[8 Physics/Images/generating magnetic field via coil.png]]
+
 ---
 ### generating magnetic field via coil formula
 $$
@@ -82,6 +94,8 @@ $$
 ---
 ### generating magnetic field via solenoid
 - electric current carrying solenoid generate uniform inner magnetic field
+![[8 Physics/Images/generating magnetic field via solenoid.png|300]]
+
 ---
 ### generating magnetic field via solenoid
 $$
@@ -110,6 +124,8 @@ $$
 ---
 ### generating magnetic field via toroid
 - electric current carrying toroid generate non uniform inner magnetic field
+![[8 Physics/Images/generating magnetic field via toroid.png]]
+
 ---
 ### generating magnetic field via toroid formula
 $$
@@ -125,6 +141,8 @@ $$
 ---
 ### amperes law
 - magnetic field around amperian loop directly proportional net electric current inside amperian loop
+![[8 Physics/Images/amperes law.png|300]]
+
 ---
 ### amperes formula
 $$
@@ -153,6 +171,8 @@ $$
 ---
 ### symmetrical electric current distribution
 - circle
+![[8 Physics/Images/symmetrical electric current distribution.png]]
+
 ---
 ### symmetrical electric current distribution formula
 $$
@@ -167,6 +187,8 @@ $$
 ---
 ### circular electric current distribution
 - electric current distribution along circle
+![[8 Physics/Images/circular electric current distribution.png|250]]
+
 ---
 ### circular electric current distribution formula
 $$
@@ -181,6 +203,8 @@ $$
 ---
 ### electric current density
 - measure of electric current compactness
+![[8 Physics/Images/electric current density1.png]]
+
 ---
 ### electric current density formula
 $$
@@ -195,6 +219,8 @@ $$
 ### conductor shell
 - electric current inside circular conductor equal electric current density
 - electric current outside circular conductor equal total electric current
+![[8 Physics/Images/conductor shell1.png|300]]
+
 ---
 ### magnetic
 - material capable of undergoing magnetization via external magnetic field
@@ -203,6 +229,8 @@ $$
 ### diamagnetic
 - weak internal magnetic field decrease external magnetic field
 - temporary magnetic dipole
+![[8 Physics/Images/diamagnetic.png]]
+
 ---
 ### generating diamagnetic field formula
 $$
@@ -217,6 +245,8 @@ $$
 ### paramagnetic
 - weak internal magnetic field increase external magnetic field
 - temporary magnetic dipole
+![[8 Physics/Images/paramagnetic.png]]
+
 ---
 ### generating paramagnetic field formula
 $$
@@ -231,6 +261,8 @@ $$
 ### ferromagnetic
 - strong internal magnetic field increase external magnetic field
 - permanent magnetic dipole
+![[8 Physics/Images/ferromagnetic.png]]
+
 ---
 ### generating ferromagnetic field formula
 $$
@@ -259,6 +291,8 @@ $$
 ---
 ### magnetic susceptibility
 - difference between relative permeability and unity
+![[8 Physics/Images/magnetic susceptibility.png|250]]
+
 ---
 ### magnetic susceptibility formula
 $$

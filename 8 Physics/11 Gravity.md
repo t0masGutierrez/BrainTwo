@@ -1,8 +1,12 @@
 ### point mass
 - spherical mass of uniform density
+![[8 Physics/Images/point mass.png]]
+
 ---
 ### newtons law of gravitation
 - attractive force between two point masses directly proportional product of masses and inversely proportional square of distance between center of masses
+![[8 Physics/Images/newtons law of gravitation.png|500]]
+
 ---
 ### newtons formula of gravitation
 $$
@@ -17,6 +21,8 @@ $$
 ---
 ### gravitational field
 - region of space around mass where other masses experience gravitational force
+![[8 Physics/Images/gravitational field.png|300]]
+
 ---
 ### gravitational field formula
 $$
@@ -32,6 +38,8 @@ $$
 ---
 ### gravitational potential energy
 - potential energy of gravity as function of distance
+![[8 Physics/Images/gravitational potential energy.png]]
+
 ---
 ### gravitational potential energy formula
 $$
@@ -75,9 +83,13 @@ $$
 - negative mechanical energy equal circular orbit or elliptical orbit
 - positive mechanical energy equal hyperbolic orbit
 - zero mechanical energy equal parabolic orbit
+![[8 Physics/Images/orbital motion.png]]
+
 ---
 ### circular orbit
 - uniform circular motion of object about mass
+![[8 Physics/Images/circular orbit.png]]
+
 ---
 ### circular orbit energy formula
 $$
@@ -142,14 +154,22 @@ $$
 - ellipse
 - parabola
 - hyperbola
+![[8 Physics/Images/conic section.png]]
+
 ---
 ### keplers 1st law
 - planets follow elliptical orbit with focal sun
+![[8 Physics/Images/keplers 1st law.png]]
+
 ---
 ### keplers 2nd law
 - planets conserve angular momentum
 - faster motion when closer sun and slower motion when further sun
+![[8 Physics/Images/keplers 2nd law.png|500]]
+
 ---
 ### keplers 3rd law
 - $T^2 \propto a^3$ where *T* equal period and *a* equal semi major axis
+![[8 Physics/Images/keplers 3rd law.png|400]]
+
 ---

@@ -53,15 +53,23 @@
 ---
 ### normal distribution
 - unimodal, bell-shaped, symmetrical curve
+![[4 Statistics/Images/normal distribution.png|300]]
+
 ---
 ### uniform distribution
 - flat curve
+![[4 Statistics/Images/uniform distribution.png|300]]
+
 ---
 ### negative skew distribution
 - long left tail
+![[4 Statistics/Images/negative skew distribution.png|200]]
+
 ---
 ### positive skew distribution
 - long right tail
+![[4 Statistics/Images/positive skew distribution.png|200]]
+
 ---
 ### measure of center
 - center of data

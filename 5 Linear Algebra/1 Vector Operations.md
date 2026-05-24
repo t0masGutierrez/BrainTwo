@@ -121,6 +121,8 @@ $$
 ### component
 - horizontal change equal first component
 - vertical change equal second component
+![[8 Physics/Images/component.png|300]]
+
 ---
 ### scalar component formula
 $$

@@ -1,11 +1,17 @@
 ### secant segment
 - segment intersects curve at 2 or more points
+![[9 Calculus/Images/secant segment.png]]
+
 ---
 ### tangent segment
 - segment intersects curve at exactly 1 point
+![[9 Calculus/Images/tangent segment.png]]
+
 ---
 ### normal segment
 - segment intersects curve at perpendicular angle
+![[9 Calculus/Images/normal segment.png|500]]
+
 ---
 ### point slope
 - given slope and point

@@ -34,6 +34,8 @@ $$
 ---
 ### propositional rule of inference
 - valid argument form prove argument validity
+![[7 Discrete Mathematics/Images/propositional rule of inference.png]]
+
 ---
 ### fallacy
 - invalid argument based on contingency rather than tautology
@@ -77,4 +79,6 @@ $$
 ---
 ### predicate rule of inference
 - valid argument form prove argument validity
+![[7 Discrete Mathematics/Images/predicate rule of inference.png]]
+
 ---

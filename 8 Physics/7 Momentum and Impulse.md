@@ -34,6 +34,8 @@ $$
 ---
 ### impulse
 - measure of net external force over time
+![[8 Physics/Images/impulse.png]]
+
 ---
 ### impulse formula
 $$
