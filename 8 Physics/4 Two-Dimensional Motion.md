@@ -172,7 +172,7 @@ $$
 ### nonuniform radial acceleration
 - acceleration vector perpendicular circular path equal change of direction
 - acceleration vector parallel circular path equal change of speed
-![500](8%20Physics/Images/nonuniform%20radial%20acceleration.png)
+![400](8%20Physics/Images/nonuniform%20radial%20acceleration.png)
 
 ---
 ### nonuniform radial acceleration formula

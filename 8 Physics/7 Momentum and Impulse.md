@@ -21,88 +21,156 @@ $$
 \begin{aligned}
 \vec F_{net} = \frac{d\vec p}{dt} =
 \begin{cases}
-F_{x} = p_{x} \\
-F_{y} = p_{y}
+F_{x} = m\frac{dv_{x}}{dt}\\
+F_{y} = m\frac{dv_{y}}{dt}
 \end{cases} \\
-p = \text{momentum} \\
+\vec p = \text{momentum} \\
 t = \text{time} \\
-F_{x} = \text{x scalar component} \\
-F_{y} = \text{y scalar component}
+F = \text{force} \\
+m = \text{mass} \\
+v = \text{velocity} 
 \end{aligned}
 $$
 
 ---
 ### impulse
-- measure of net external force over time
-![[8 Physics/Images/impulse.png]]
+- change of momentum equal sum of net force over time
+![300](8%20Physics/Images/impulse.png)
 
 ---
-### impulse formula
+### constant impulse formula
 $$
 \begin{aligned}
-\vec J = \sum F_{avg} \Delta t = \int_{t_{1}}^{t_{2}} \vec F_{net} \cdot d \vec t \\
-F_{avg} = \text{average force} \\
-F_{net} = \text{net force} \\
+\vec J = \Delta \vec p = \vec F_{net} \Delta t \\
+\vec p = \text{momentum} \\
+\vec F = \text{force} \\
 t = \text{time}
 \end{aligned}
 $$
 
 ---
-### impulse momentum
-- impulse equal change of momentum
-
----
-### impulse momentum formula
+### variable impulse formula
 $$
 \begin{aligned}
-\vec J = \Delta \vec p = m \Delta \vec v \\
-p = \text{momentum} \\
-m = \text{mass} \\
-v = \text{velocity}
+\vec J = \Delta \vec p = \int \vec F_{net} \cdot dt \\
+\vec p = \text{momentum} \\
+\vec F = \text{force} \\
+t = \text{time}
 \end{aligned}
 $$
 
 ---
-### impulse momentum versus work energy
-- net force dependent time equal impulse momentum
-- net force dependent position equal work energy
+### impulse versus work
+- net force dependent time equal impulse
+- net force dependent position equal work
 
 ---
-### momentum conservation
-- zero net external force equal zero change of momentum
-
----
-### momentum conservation formula
+### impulse versus work formula
 $$
 \begin{aligned}
-\vec p_{i} = \vec p_{f} \\
-p = \text{momentum}
+\vec J(t) = \Delta \vec p \\
+W_{net}(\vec r) = \Delta K \\
+\vec J = \text{impulse} \\
+t = \text{time} \\
+\vec p = \text{momentum} \\
+W = \text{work} \\
+\vec r = \text{position} \\
+K = \text{kinetic energy}
+\end{aligned} 
+$$
+
+---
+### conservation of momentum
+- if zero net external force then zero change of momentum
+
+---
+### conservation of momentum formula
+$$
+\begin{aligned}
+\vec F_{net} \implies \vec p_{i} = \vec p_{f} \\
+\vec p = \text{momentum}
 \end{aligned}
 $$
 
 ---
 ### collision
-- kinetic energy remains the same or decreases and momentum remains the same
+- short interaction between objects where they exert forces and exchange momentum
+
+---
+### collision formula
+$$
+\begin{aligned}
+m_{1} \rightarrow \leftarrow m_{2} \implies \vec p_{i} = \vec p_{f} \\
+m = \text{mass} \\
+\vec p = \text{momentum}
+\end{aligned}
+$$
 
 ---
 ### explosion
-- kinetic energy increases
-- single object break apart
+- increased kinetic energy
+- momentum conserved
+
+---
+### explosion formula
+$$
+\begin{aligned}
+v_{1f} = \frac{-m_{2}}{m_{1}}v_{2f} \\
+v_{2f} = \frac{-m_{1}}{m_{2}}v_{1f} \\
+m = \text{mass} \\
+v = \text{velocity} 
+\end{aligned}
+$$
 
 ---
 ### elastic collision
-- kinetic energy remains the same
-- multiple objects bounce off 
+- kinetic energy conserved
+- momentum conserved
+![](8%20Physics/Images/elastic%20collision.png)
+
+---
+### elastic collision formula
+$$
+\begin{aligned}
+v_{1f} = \frac{m_{1} - m_{2}}{m_{1} + m_{2}}v_{1i} + \frac{2m_{2}}{m_{1} + m_{2}}v_{2i} \\
+v_{2f} = \frac{2m_{1}}{m_{1} + m_{2}}v_{1i} + \frac{m_{2} - m_{1}}{m_{1} + m_{2}}v_{2i} \\
+m = \text{mass} \\
+v = \text{velocity} 
+\end{aligned}
+$$
 
 ---
 ### inelastic collision
-- kinetic energy decreases
-- multiple objects bounce off
+- decreased kinetic energy
+- momentum conserved
+![](8%20Physics/Images/inelastic%20collision.png)
 
 ---
-### complete inelastic collision
-- kinetic energy equal zero
-- multiple objects stick on
+### inelastic collision formula
+$$
+\begin{aligned}
+K_{i} > K_{f} \\
+\vec p_{i} = \vec p_{f} \\
+K = \text{kinetic energy} \\
+\vec p = \text{momentum}
+\end{aligned}
+$$
+
+---
+### completely inelastic collision
+- decreased kinetic energy
+- momentum conserved
+![](8%20Physics/Images/Pasted%20image%2020260523232153.png)
+
+---
+### complete inelastic collision formula
+$$
+\begin{aligned}
+v_{f} = \frac{m_1v_{1i} + m_2v_{2i}}{m_{1} + m_{2}} \\
+m = \text{mass} \\
+v = \text{velocity} 
+\end{aligned}
+$$
 
 ---
 ### center of mass

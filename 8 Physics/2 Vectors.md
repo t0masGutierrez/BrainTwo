@@ -4,7 +4,7 @@
 ---
 ### vector
 - quantity with both magnitude and direction
-![[9 Calculus/Images/vector.png|256]]
+![[9 Calculus/Images/vector.png|200]]
 
 ---
 ### unit vector
@@ -26,7 +26,7 @@ $$
 ### component
 - horizontal change equal *x* component
 - vertical change equal *y* component
-![[8 Physics/Images/component.png|256]]
+![[8 Physics/Images/component.png|300]]
 
 ---
 ### scalar component formula
@@ -88,7 +88,7 @@ $$
 ---
 ### inverse tangent range
 - 1st quadrant or 4th quadrant
-![[8 Physics/Images/inverse tangent range.png|256]]
+![[8 Physics/Images/inverse tangent range.png|300]]
 
 ---
 ### inverse tangent range formula
@@ -137,14 +137,14 @@ $$
 ### graphical vector addition
 - vector *B* starts where vector *A* ends
 - vector sum *C* equal diagonal from where vector *A* starts to where vector *B* ends
-![256](8%20Physics/Images/graphical%20vector%20addition.png)
+![200](8%20Physics/Images/graphical%20vector%20addition.png)
 
 ---
 ### parallelogram vector addition
 - both vectors start from the origin
 - construct two parallel vectors
 - vector sum *C* equal diagonal from the origin to where the parallel vectors intersect
-![256](8%20Physics/Images/parallelogram%20vector%20addition.png)
+![300](8%20Physics/Images/parallelogram%20vector%20addition.png)
 
 ---
 ### dot product
@@ -182,7 +182,7 @@ $$
 ---
 ### cross product
 - vector quantity of dissimilarity between two vectors
-![256](8%20Physics/Images/cross%20product.png)
+![300](8%20Physics/Images/cross%20product.png)
 
 ---
 ### scalar cross product formula
@@ -232,7 +232,7 @@ $$
 - point hand to vector *A*
 - curl palm to vector *B*
 - point thumb to vector $A \times B$
-![256](8%20Physics/Images/right%20hand%20rule.png)
+![200](8%20Physics/Images/right%20hand%20rule.png)
 
 ---
 ### right hand rule formula
