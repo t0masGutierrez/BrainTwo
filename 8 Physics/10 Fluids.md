@@ -187,7 +187,7 @@ $$
 ### archimedes principle formula
 $$
 \begin{aligned}
-\vec F_{b} = \vec w \\
+\vec F_{b} = \vec w_{f} \\
 \vec w = \text{weight}
 \end{aligned}
 $$
