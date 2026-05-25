@@ -1,27 +1,47 @@
 #!/bin/bash
 set -euo pipefail
 
-cd "$(dirname "$0")"
+main() {
+    cd "$(dirname "$0")"
 
-git pull --rebase --quiet
-python3 update_notes.py
+    # The site is generated from the Obsidian vault. Image assets are generated too,
+    # so local generated image changes should not block the initial pull/rebase.
+    # This script is wrapped in main() so bash reads it before any self-stash happens.
+    stashed=0
+    if ! git diff --quiet || ! git diff --cached --quiet || [ -n "$(git ls-files --others --exclude-standard)" ]; then
+        git stash push --include-untracked --quiet --message "update_notes auto-stash"
+        stashed=1
+    fi
 
-# Include untracked markdown files in the diff summary without staging content yet.
-git add --intent-to-add -- '*.md'
+    git pull --rebase --quiet
 
-if git diff --quiet -- '*.md'; then
-    echo "Already up to date."
-    exit 0
-fi
+    if [ "$stashed" -eq 1 ]; then
+        git stash pop --quiet
+    fi
 
-git diff --numstat -- '*.md' | awk -F '\t' '{
-    added = ($1 == "-" ? 0 : $1)
-    deleted = ($2 == "-" ? 0 : $2)
-    print $3 " (+" added " -" deleted ")"
-}'
+    python3 update_notes.py
 
-git add '*.md'
-git commit --quiet -m "update notes"
-git push --quiet
+    # Commit generated markdown plus copied note image assets.
+    # Without the Images path, pasted diagrams make `git pull --rebase` fail next run.
+    content_paths=('*.md' ':(glob)**/Images/**')
 
-echo "Everything up-to-date"
+    git add -A -- "${content_paths[@]}"
+
+    if git diff --cached --quiet -- "${content_paths[@]}"; then
+        echo "Already up to date."
+        exit 0
+    fi
+
+    git diff --cached --numstat -- "${content_paths[@]}" | awk -F '\t' '{
+        added = ($1 == "-" ? 0 : $1)
+        deleted = ($2 == "-" ? 0 : $2)
+        print $3 " (+" added " -" deleted ")"
+    }'
+
+    git commit --quiet -m "update notes"
+    git push --quiet
+
+    echo "Everything up-to-date"
+}
+
+main "$@"
