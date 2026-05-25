@@ -45,6 +45,7 @@ $$
 
 ---
 ### torque direction property
+- if line of action equal axis of rotation then zero torque
 - counterclockwise rotation equal positive torque
 - clockwise rotation equal negative torque
 ![400](8%20Physics/Images/torque%20direction%20property.png)
@@ -53,8 +54,10 @@ $$
 ### torque direction property formula
 $$
 \begin{aligned}
+\hat F = z \implies \tau = 0 \\
 \circlearrowleft \implies \tau > 0 \\
 \circlearrowright \implies \tau < 0 \\
+F = \text{force} \\ 
 \tau = \text{torque}
 \end{aligned}
 $$
@@ -284,8 +287,8 @@ $$
 ### precession formula
 $$
 \begin{aligned}
-\Omega = \frac{wr}{I\omega} \\
-w = \text{weight} \\
+\Omega = \frac{F_wr}{I\omega} \\
+F = \text{force} \\
 r = \text{radius} \\
 I = \text{moment of inertia} \\
 \omega = \text{angular velocity}
@@ -393,7 +396,7 @@ $$
 
 ---
 ### stress
-- force per cross section area
+- force per cross-section area
 - tensile/compressive, bulk, shear
 
 ---
@@ -404,7 +407,7 @@ $$
 \sigma_{B} = \Delta p \\
 \sigma_{S} = \frac{F_\parallel}{A} \\
 F = \text{force} \\
-A = \text{area} \\
+A = \text{cross-section area} \\
 p = \text{pressure}
 \end{aligned}
 $$

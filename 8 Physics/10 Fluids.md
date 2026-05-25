@@ -1,8 +1,13 @@
+### fluid
+- liquid or gas
+
+---
 ### solid
 - definite shape
 - definite volume
 - low compressibility
 - vibrational motion
+![](8%20Physics/Images/solid.png)
 
 ---
 ### liquid
@@ -10,6 +15,7 @@
 - definite volume
 - moderate compressibility
 - translational motion
+![](8%20Physics/Images/liquid.png)
 
 ---
 ### gas
@@ -17,15 +23,12 @@
 - indefinite volume
 - high compressibility
 - random motion
-
----
-### fluid
-- liquid or gas
+![](8%20Physics/Images/gas.png)
 
 ---
 ### volume
 - amount of three dimensional space within object
-![[8 Physics/Images/volume.png]]
+![500](8%20Physics/Images/volume.png)
 
 ---
 ### volume formula
@@ -38,14 +41,9 @@ $$
 $$
 
 ---
-### calculate volume
-- submerge object into liquid
-- measure volume displacement
-
----
 ### density
 - measure of compactness
-![[8 Physics/Images/density.png]]
+![400](8%20Physics/Images/density.png)
 
 ---
 ### density formula
@@ -58,6 +56,19 @@ V = \text{volume}
 $$
 
 ---
+### relative density
+- measure of compactness with respect to water
+
+---
+### relative density formula
+$$
+\begin{aligned}
+\rho' = \frac{\rho}{\rho_{water}} \\
+\rho = \text{density}
+\end{aligned}
+$$
+
+---
 ### pressure
 - measure of local force
 ![[8 Physics/Images/pressure.png]]
@@ -66,7 +77,7 @@ $$
 ### pressure formula
 $$
 \begin{aligned}
-p = \frac{F\perp}{A} \\
+p = \frac{F_\perp}{A} \\
 F = \text{force} \\
 A = \text{area}
 \end{aligned}
@@ -87,17 +98,35 @@ $$
 
 ---
 ### hydrostatic pressure
-- weight of fluid column
-![[8 Physics/Images/hydrostatic pressure.png]]
+- weight of fluid column at rest with uniform density
+![250](8%20Physics/Images/hydrostatic%20pressure.png)
 
 ---
 ### hydrostatic pressure formula
 $$
 \begin{aligned}
-p = p_{0} + \rho gy \\
-p_{0} = \text{surface pressure} \\
+p - p_{0} = \rho gy \\
+p_{2} - p_{1} = -\rho g(y_{2} - y_{1}) \\
+p = \text{pressure} \\
 \rho = \text{density} \\
-g = 9.8 \\
+g = \text{gravity} \\
+y = \text{position}
+\end{aligned}
+$$
+
+---
+### absolute pressure
+- measure of pressure relative vacuum
+
+---
+### absolute pressure formula
+$$
+\begin{aligned}
+p_{abs} = p_{g} + p_{atm} = \rho g y + p_{atm} \\
+p_{g} = \text{gauge pressure} \\
+p_{atm} = \text{atmospheric pressure} \\
+\rho = \text{density} \\
+g = \text{gravity} \\
 y = \text{position}
 \end{aligned}
 $$
@@ -110,27 +139,40 @@ $$
 ### gauge pressure formula
 $$
 \begin{aligned}
-p_{g} = p_{abs} - p_{atm} \\
+p_{g} = p_{abs} - p_{atm} = \rho g y \\
 p_{abs} = \text{absolute pressure} \\
 p_{atm} = \text{atmospheric pressure} \\
+\rho = \text{density} \\
+g = \text{gravity} \\
+y = \text{position}
 \end{aligned}
 $$
 
 ---
-### manometer
-- measure pressure inside container by comparing height of fluid column
-![[8 Physics/Images/manometer.png]]
+### mercury barometer
+- measure atmospheric pressure by the position of mercury
+![200](8%20Physics/Images/mercury%20barometer.png)
 
 ---
-### pascal principle
-- uniform distribution of pressure change inside container
-![[8 Physics/Images/pascal principle.png]]
+### open-tube manometer
+- measure gas pressure by comparing the position of fluid column
+![200](8%20Physics/Images/open-tube%20manometer.png)
 
 ---
-### pascal formula
+### bourdon gauge
+- measure gauge pressure by the position of tube
+![250](8%20Physics/Images/bourdon%20gauge.png)
+
+---
+### pascals principle
+- change of pressure within enclosed fluid transmit equally throughout the fluid
+![300](8%20Physics/Images/pascals%20principle.png)
+
+---
+### pascals principle formula
 $$
 \begin{aligned}
-\frac{F_{1}}{A_{1}} = \frac{F_{2}}{A_{2}} \\
+p = \frac{F_{1}}{A_{1}} = \frac{F_{2}}{A_{2}} \\
 F = \text{force} \\
 A = \text{area}
 \end{aligned}
@@ -138,63 +180,198 @@ $$
 
 ---
 ### archimedes principle
-- buoyant force equal weight of fluid displacement
+- buoyant force equal the weight of displaced fluid
+![400](8%20Physics/Images/archimedes%20principle.png)
+
+---
+### archimedes principle formula
+$$
+\begin{aligned}
+\vec F_{b} = \vec w \\
+\vec w = \text{weight}
+\end{aligned}
+$$
+
+---
+### apparent weight
+- immersed object appear less heavy because of buoyant force
+
+---
+### apparent weight formula
+$$
+\begin{aligned}
+\vec w_{app} = \vec w - \vec F_{b} \\
+\vec w = \text{weight} \\
+\vec F = \text{force}
+\end{aligned}
+$$
 
 ---
 ### buoyant force
-- upward force by fluid on object inside fluid via pressure imbalance between top and bottom
+- upward force by fluid on immersed object because of the pressure imbalance between the top and bottom of immersed object
 ![[8 Physics/Images/buoyant force.png]]
 
 ---
 ### buoyant force formula
 $$
 \begin{aligned}
-F_{b} = \rho_{f} V_fg \\
+\vec F_{b} = \rho_{f} V_{f} \vec g \\
 \rho_{f} = \text{fluid density} \\
 V_{f} = \text{fluid volume} \\
-g = 9.8
+\vec g = \text{gravity}
 \end{aligned}
 $$
 
 ---
-### calculate buoyant force
-- buoyant force greater object weight cause floating
-- buoyant force less object weight cause sinking
-- buoyant force equal object weight cause suspension
+### buoyant force direction property
+- if buoyant force greater object weight then floating object
+- if buoyant force lesser object weight then sinking object
+- if buoyant force equal object weight then suspended object
 
 ---
-### apparent weight
-- object inside fluid appear less heavy due to buoyant force
-
----
-### apparent weight formula
+### buoyant force direction property formula
 $$
 \begin{aligned}
-w_{app} =w - F_{b} \\
-w = \text{weight} \\
-F_{b} = \text{buoyant force}
+\vec F_{b} > \vec w \implies \uparrow \\
+\vec F_{b} < \vec w \implies \downarrow \\
+\vec F_{b} = \vec w \implies \leftrightarrow 
+\end{aligned}
+$$
+
+---
+### submergence
+- fraction of immersed object
+![400](8%20Physics/Images/submergence.png)
+
+---
+### submergence formula
+$$
+\begin{aligned}
+S = \frac{\rho}{\rho_{f}} \\
+\rho = \text{density} \\
+\rho_{f} = \text{fluid density}
+\end{aligned}
+$$
+
+---
+### submergence direction property
+- if fluid density greater object density then floating object
+- if fluid density lesser object density then sinking object
+- if fluid density equal object density then suspended object
+
+---
+### submergence direction property formula
+$$
+\begin{aligned}
+\rho_{f} > \rho \implies \uparrow \\
+\rho_{f} < \rho \implies \downarrow \\
+\rho_{f} = \rho \implies \leftrightarrow 
+\end{aligned}
+$$
+
+---
+### surface tension
+- reducing surface area reduces the number of high-energy surface molecules
+- minimizing surface area minimizes potential energy
+![200](8%20Physics/Images/surface%20tension.png)
+
+---
+### surface tension formula
+$$
+\begin{aligned}
+\gamma = \frac{F_\parallel}{L} = \frac{\Delta E}{\Delta A} \\
+F = \text{force} \\
+L = \text{length} \\
+E = \text{mechanical energy} \\
+A = \text{surface area}
+\end{aligned}
+$$
+
+---
+### fluid flow
+- motion of fluid
+
+---
+### fluid flow formula
+$$
+\begin{aligned}
+\vec v(\vec r, t) \\
+\vec v = \text{velocity} \\
+\vec r = \text{position} \\
+t = \text{time}
+\end{aligned}
+$$
+
+---
+### pathline
+- path of individual particle within moving fluid
+
+---
+### streamline
+- velocity field at point
+
+---
+### steady flow
+- fluid flow independent time
+
+---
+### unsteady flow
+- fluid flow dependent time
+
+---
+### laminar flow
+- regular, steady fluid flow
+![300](8%20Physics/Images/laminar%20flow.png)
+
+---
+### turbulent flow
+- irregular, unsteady fluid flow
+![300](8%20Physics/Images/turbulent%20flow.png)
+
+---
+### incompressible fluid
+- fluid flow with constant density 
+![[8 Physics/Images/incompressible fluid.png]]
+
+---
+### viscous fluid
+- fluid flow with viscosity or internal friction because neighboring layers of fluid resist sliding past each other
+![500](8%20Physics/Images/viscous%20fluid.png)
+
+---
+### ideal fluid
+- constant density and zero viscosity
+
+---
+### ideal fluid formula
+$$
+\begin{aligned}
+\rho = C \\
+\mu = 0
 \end{aligned}
 $$
 
 ---
 ### volume flow rate
-- amount of fluid flow through cross section over time
-![[8 Physics/Images/volume flow rate.png]]
+- amount of fluid flow through cross-section over time
+![200](8%20Physics/Images/volume%20flow%20rate.png)
 
 ---
 ### volume flow rate formula
 $$
 \begin{aligned}
 \frac{dV}{dt} = A v \\
-A = \text{area} \\
+V = \text{volume} \\
+t = \text{time} \\
+A = \text{cross-section area} \\
 v = \text{velocity}
 \end{aligned}
 $$
 
 ---
-### incompressible fluid
-- constant density aka mass conservation
-![[8 Physics/Images/incompressible fluid.png]]
+### continuity
+- for incompressible there exists inverse relationship between velocity and area
+![400](8%20Physics/Images/continuity.png)
 
 ---
 ### continuity formula
@@ -207,54 +384,20 @@ v = \text{velocity}
 $$
 
 ---
-### viscous fluid
-- internal friction of fluid cause velocity change along solid boundary
-![[8 Physics/Images/viscous fluid.png]]
-
----
-### viscosity formula
-$$
-\begin{aligned}
-\mu = \frac{Fy}{Av} \\
-F = \text{force} \\
-y = \text{position} \\
-A = \text{area} \\
-v = \text{velocity}
-\end{aligned}
-$$
-
----
-### ideal fluid
-- constant density and zero viscosity
-
----
-### bernoullis principle
+### bernoulli principle
 - for ideal fluids there exists inverse relationship between pressure and velocity
+![200](8%20Physics/Images/bernoulli%20principle.png)
 
 ---
-### bernoulli formula
+### bernoulli principle formula
 $$
 \begin{aligned}
 p_{1} + \frac{1}{2}\rho v_{1}^2 + \rho gy_{1} = p_{2} + \frac{1}{2}\rho v_{2}^2 + \rho gy_{2} \\
 p = \text{pressure} \\
 \rho = \text{density} \\
 v = \text{velocity} \\
-g = 9.8 \\
+g = \text{gravity} \\
 y = \text{position}
-\end{aligned}
-$$
-
----
-### special bernoulli formula
-$$
-\begin{aligned}
-\text{static flow} = p_{1} + \rho gy_{1} = p_{2} + \rho gy_{2} \\
-\text{horizontal flow} = p_{1} + \frac{1}{2}\rho v_{1}^2 = p_{2} + \frac{1}{2}\rho v_{2}^2 \\
-p = \text{pressure} \\
-\rho = \text{density} \\
-g = 9.8 \\
-y = \text{position} \\
-v = \text{velocity} 
 \end{aligned}
 $$
 
@@ -266,11 +409,13 @@ $$
 ### drag force formula
 $$
 \begin{aligned}
-\vec F_{d} = \frac{1}{2}\rho A \vec v^2C_{d} \\
+\vec F_{d} = -k\vec v \\
+\vec F_{d} = \frac{-1}{2}\rho C_{D} A \vec v^2 \\
+k = \text{linear drag coefficient} \\
+\vec v = \text{velocity} \\
 \rho = \text{density} \\
-A = \text{area} \\
-v = \text{velocity} \\
-C_{d} = \text{drag coefficient}
+C = \text{drag coefficient} \\
+A = \text{cross-section area}
 \end{aligned}
 $$
 
@@ -282,14 +427,13 @@ $$
 ### terminal velocity formula
 $$
 \begin{aligned}
-m \vec g = \vec F_{d} \implies \vec v = \sqrt{\frac{2m \vec g}{\rho C_dA}} \\
-m = \text{mass} \\
-g = \text{9.8} \\
-F_{d} = \text{drag force} \\
-v = \text{velocity} \\
+\vec w = \vec F_{d} \implies \vec v = \sqrt{\frac{2\vec w}{\rho C_dA}} \\
+\vec w = \text{weight} \\
+\vec F = \text{force} \\
+\vec v = \text{velocity} \\
 \rho = \text{density} \\
 C_{d} = \text{drag coefficient} \\
-A = \text{area}
+A = \text{cross-section area}
 \end{aligned}
 $$
 

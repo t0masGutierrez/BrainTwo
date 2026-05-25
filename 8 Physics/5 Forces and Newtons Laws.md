@@ -72,11 +72,11 @@ $$
 ### friction force formula
 $$
 \begin{aligned}
-f_{s} \le \mu_{s} \vec F_{N} \\
-f_{k} = \mu_{k} \vec F_{N} \\
+\vec f_{s} \le \mu_{s} \vec F_{N} \\
+\vec f_{k} = \mu_{k} \vec F_{N} \\
 \mu_{s} = \text{static friction coefficient} \\
 \mu_{k} = \text{kinetic friction coefficient} \\
-\vec F_{N} = \text{normal force}
+\vec F = \text{force}
 \end{aligned}
 $$
 
@@ -149,7 +149,7 @@ $$
 $$
 \begin{aligned}
 \vec F_{d} = -k\vec v \\
-\vec F_{D} = \frac{-1}{2}\rho C_{D} A \vec v^2 \\
+\vec F_{d} = \frac{-1}{2}\rho C_{D} A \vec v^2 \\
 k = \text{linear drag coefficient} \\
 \vec v = \text{velocity} \\
 \rho = \text{density} \\
@@ -160,15 +160,15 @@ $$
 
 ---
 ### buoyant force
-- upward force by fluid on submerged object
+- upward force by fluid on immersed object
 
 ---
 ### buoyant force formula
 $$
 \begin{aligned}
-\vec F_{B} = \rho V \vec g \\
-\rho = \text{density} \\
-V = \text{volume} \\
+\vec F_{b} = \rho_{f} V_{f} \vec g \\
+\rho_{f} = \text{fluid density} \\
+V_{f} = \text{fluid volume} \\
 \vec g = \text{gravity}
 \end{aligned}
 $$
