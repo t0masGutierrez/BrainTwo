@@ -1,78 +1,89 @@
 ### torque
 - rotational analogue of force
-![[8 Physics/Images/torque.png]]
+![300](8%20Physics/Images/torque.png)
 
 ---
 ### torque formula
 $$
 \begin{aligned}
-\vec \tau = \vec r \times \vec F = rF \sin(\theta) \\
-r = \text{radius} \\
-F = \text{force} \\
-\theta = \text{angle between vectors}
+\vec \tau = \vec r \times \vec F = rF \sin(\phi) \\
+\vec r = \text{radius} \\
+\vec F = \text{force} \\
+\phi = \text{angle between vectors}
 \end{aligned}
 $$
 
 ---
-### tangential force torque
+### tangential torque
 - component of force perpendicular radius
-![[8 Physics/Images/tangential force torque.png]]
+![300](8%20Physics/Images/tangential%20torque.png)
 
 ---
-### tangential force torque formula
+### tangential torque formula
 $$
 \begin{aligned}
-\tau = r F\perp \\
+\tau = r F_\perp \\
 r = \text{radius} \\
-F = \text{force}
+F_\perp = \text{perpendicular force}
 \end{aligned}
 $$
 
 ---
-### lever arm torque
+### lever torque
 - perpendicular distance from the axis of rotation to the line of action of the force
-![[8 Physics/Images/lever arm torque.png]]
+![300](8%20Physics/Images/lever%20torque.png)
 
 ---
-### lever arm torque formula
+### lever torque formula
 $$
 \begin{aligned}
-\tau = r\perp F \\
-r = \text{radius} \\
+\tau = r_\perp F \\
+r = \text{perpendicular radius} \\
 F = \text{force}
 \end{aligned}
 $$
 
 ---
-### newtons second law
-- angular acceleration dependent moment of inertia and amount of net external torque acting on moment of inertia
+### torque direction property
+- counterclockwise rotation equal positive torque
+- clockwise rotation equal negative torque
+![400](8%20Physics/Images/torque%20direction%20property.png)
+
+---
+### torque direction property formula
+$$
+\begin{aligned}
+\circlearrowleft \implies \tau > 0 \\
+\circlearrowright \implies \tau < 0 \\
+\tau = \text{torque}
+\end{aligned}
+$$
+
+---
+### newtons second rotational law
+- angular acceleration dependent moment of inertia and net external torque acting on moment of inertia
 ![[8 Physics/Images/newtons second law.png]]
 
 ---
-### newton 2nd formula
+### newton 2nd rotational formula
 $$
 \begin{aligned}
 \vec \tau_{net} = I \vec \alpha \\
 I = \text{moment of inertia} \\
-\alpha = \text{angular acceleration}
+\vec \alpha = \text{angular acceleration}
 \end{aligned}
 $$
 
 ---
-### hinge
-- connection of two objects such that normal force prevent translational motion but allow rotational motion
-![[8 Physics/Images/hinge.png]]
+### rotational work
+- transfer of mechanical energy by the component of torque parallel angular displacement
+![200](8%20Physics/Images/rotational%20work.png)
 
 ---
-### work
-- transfer of energy from the application of torque causing displacement parallel torque
-![[8 Physics/Images/work.png]]
-
----
-### constant work formula
+### constant rotational work formula
 $$
 \begin{aligned}
-W = \vec \tau \cdot d \vec \theta = \tau \Delta \theta \cos(\phi) \\
+W = \vec \tau \cdot \Delta \vec \theta = \tau \Delta \theta \cos(\phi) \\
 \tau = \text{torque} \\
 \theta = \text{angular position} \\
 \phi = \text{angle between vectors}
@@ -80,71 +91,55 @@ W = \vec \tau \cdot d \vec \theta = \tau \Delta \theta \cos(\phi) \\
 $$
 
 ---
-### variable work formula
+### variable rotational work formula
 $$
 \begin{aligned}
-W = \sum_{i} \tau_{i} \Delta \theta_{i} = \int_{\theta_{1}}^{\theta_{2}} \vec \tau \cdot d \vec \theta \\
-\tau = \text{torque} \\
-\theta = \text{angular position}
+W = \int \vec \tau \cdot d \vec \theta \\
+\vec \tau = \text{torque} \\
+\vec \theta = \text{angular position}
 \end{aligned}
 $$
 
 ---
-### rotational kinetic energy
-- energy of rotational motion
+### net rotational work
+- rotational work done by net external torque equal change of rotational kinetic energy
 
 ---
-### rotational kinetic energy formula
+### net rotational work formula
 $$
 \begin{aligned}
-K = \frac{1}{2}I\omega^2 \\
+W_{net} = \frac{1}{2}I(\omega_{f}^2 - \omega_{i}^2) \\
 I = \text{moment of inertia} \\
 \omega = \text{angular velocity}
 \end{aligned}
 $$
 
 ---
-### net work
-- work done by net torque acting on object
+### rotational power
+- rate of doing rotational work
 
 ---
-### net work formula
+### rotational power formula
 $$
 \begin{aligned}
-W_{net} = \vec \tau_{net} \cdot d \vec \theta = I\frac{d \vec \omega}{dt} \cdot d \vec \theta = I\vec \omega \cdot d \vec \omega \\
-W_{net} = I \int_{\omega_{1}}^{\omega_{2}} \vec \omega \cdot d \vec \omega = \frac{1}{2}I\omega^2 \\
-\tau = \text{torque} \\
-\theta = \text{angular position} \\
-I = \text{moment of inertia} \\
-\omega = \text{angular velocity} \\
-t = \text{time}
-\end{aligned}
-$$
-
----
-### work energy
-- work done by net torque equal change of rotational kinetic energy
-
----
-### work energy formula
-$$
-\begin{aligned}
-W_{net} = K_{f} - K_{i} \\
-K = \text{kinetic energy}
+P = \vec \tau \cdot \vec \omega = \tau \omega \cos(\phi)  \\
+\vec \tau = \text{torque} \\
+\vec \omega = \text{angular velocity} \\
+\phi = \text{angle between vectors}
 \end{aligned}
 $$
 
 ---
 ### rolling kinetic energy
-- rolling kinetic energy equal translational kinetic energy and rotational kinetic energy
-![[8 Physics/Images/rolling kinetic energy.png]]
+- translational kinetic energy and rotational kinetic energy
+![300](8%20Physics/Images/rolling%20kinetic%20energy.png)
 
 ---
 ### rolling kinetic energy formula
 $$
 \begin{aligned}
-K = \frac{1}{2}mv_{cm}^2 + \frac{1}{2}I_{cm}\omega^2 \\
-m = \text{mass} \\
+K = \frac{1}{2}Mv_{cm}^2 + \frac{1}{2}I_{cm}\omega^2 \\
+M = \text{system mass} \\
 v = \text{velocity} \\
 I = \text{moment of inertia} \\
 \omega = \text{angular velocity}
@@ -154,16 +149,17 @@ $$
 ---
 ### rolling without slipping
 - stationary point of contact between rolling object and surface
-- static friction provide the necessary torque
+- torque equal static friction
+![500](8%20Physics/Images/rolling%20without%20slipping.png)
 
 ---
 ### rolling without slipping formula
 $$
 \begin{aligned}
-r_{cm} = R\theta \\
-v_{cm} = R\omega \\
-a_{cm} = R\alpha \\
-R = \text{radius} \\
+d_{cm} = r\theta \\
+v_{cm} = r\omega \\
+a_{cm} = r\alpha \\
+r = \text{radius} \\
 \theta = \text{angular position} \\
 \omega = \text{angular velocity} \\
 \alpha = \text{angular acceleration}
@@ -173,16 +169,19 @@ $$
 ---
 ### rolling with slipping
 - moving point of contact between rolling object and surface
-- kinetic friction provide the necessary torque
+- torque equal kinetic friction
 
 ---
 ### rolling with slipping formula
 $$
 \begin{aligned}
-r = r_{cm} - R\theta \\
-v = v_{cm} - R\omega \\
-a = a_{cm} -  R\alpha \\
-R = \text{radius} \\
+d = d_{cm} - r\theta \\
+v = v_{cm} - r\omega \\
+a = a_{cm} -  r\alpha \\
+r = \text{radius} \\
+d = \text{distance} \\
+v = \text{velocity} \\
+a = \text{acceleration} \\
 \theta = \text{angular position} \\
 \omega = \text{angular velocity} \\
 \alpha = \text{angular acceleration}
@@ -190,64 +189,43 @@ R = \text{radius} \\
 $$
 
 ---
-### work energy
-- work done by rolling with slipping equal non zero change of mechanical energy
-
----
-### work energy formula
-$$
-\begin{aligned}
-W_{noncons} = \Delta E \\
-W_{noncons} = \Delta K + \Delta U \\
-E = \text{mechanical energy} \\
-K = \text{kinetic energy} \\
-U = \text{potential energy}
-\end{aligned}
-$$
-
----
-### energy conservation
-- work done by rolling without slipping equal zero change of mechanical energy
-
----
-### energy conservation formula
-$$
-\begin{aligned}
-E_{i} = E_{f} \\
-\Delta K = - \Delta U \\
-E = \text{mechanical energy} \\
-K = \text{kinetic energy} \\
-U = \text{potential energy}
-\end{aligned}
-$$
-
----
 ### angular momentum
 - difficulty of stopping or changing direction of rotational motion
-![[8 Physics/Images/angular momentum.png]]
+![300](8%20Physics/Images/angular%20momentum.png)
 
 ---
 ### angular momentum formula
 $$
 \begin{aligned}
 \vec L = \vec r \times \vec p = I \vec \omega \\
-r = \text{radius} \\
-p = \text{momentum} \\
+\vec r = \text{radius} \\
+\vec p = \text{momentum} \\
 I = \text{moment of inertia} \\
-\omega = \text{angular velocity}
+\vec \omega = \text{angular velocity}
 \end{aligned}
 $$
 
 ---
-### calculate angular momentum
-- equal direction of angular momentum and angular impulse
+### angular momentum direction property
+- direction of angular velocity equal direction of angular momentum
+![300](8%20Physics/Images/angular%20momentum%20direction%20property.png)
 
 ---
-### newtons second law
-- angular acceleration dependent moment of inertia and net external torque acting on moment of inertia
+### angular momentum direction property formula
+$$
+\begin{aligned}
+\hat w = \hat L \\
+\omega = \text{angular velocity} \\
+L = \text{angular momentum}
+\end{aligned}
+$$
 
 ---
-### newtons 2nd formula
+### newtons second angular momentum law
+- net external torque equal rate of change of angular momentum
+
+---
+### newtons second angular momentum formula
 $$
 \begin{aligned}
 \vec \tau_{net} = \frac{d\vec L}{dt} \\
@@ -258,51 +236,49 @@ $$
 
 ---
 ### angular impulse
-- measure of net external torque over time
+- change of angular momentum equal sum of net external torque over time
 ![[8 Physics/Images/impulse.png]]
 
 ---
-### angular impulse formula
+### constant angular impulse formula
 $$
 \begin{aligned}
-\vec H = \sum \tau_{avg} \Delta t = \int_{t_{1}}^{t_{2}} \vec \tau \cdot d \vec t \\
-\tau_{avg} = \text{average torque} \\
-t = \text{time} \\
-\tau_{net} = \text{net torque}
+\vec H = \Delta \vec L = \vec \tau_{net} \Delta t \\
+\vec L = \text{angular momentum} \\
+\vec \tau = \text{torque} \\
+t = \text{time}
 \end{aligned}
 $$
 
 ---
-### impulse momentum
-- angular impulse equal change of angular momentum
-
----
-### impulse momentum formula
+### variable angular impulse formula
 $$
 \begin{aligned}
-\vec H = \Delta \vec L = I \Delta \vec \omega \\
-L = \text{angular momentum} \\
-I = \text{moment of inertia} \\
-\omega = \text{angular velocity}
+\vec H = \Delta \vec L = \int \vec \tau_{net} \cdot dt \\
+\vec L = \text{angular momentum} \\
+\vec \tau = \text{torque} \\
+t = \text{time}
 \end{aligned}
 $$
 
 ---
-### angular momentum conservation
-- zero net external torque equal zero change of angular momentum
+### conservation of angular momentum
+- if zero net external torque then zero change of angular momentum
 
 ---
-### angular momentum conservation formula
+### conservation of angular momentum formula
 $$
 \begin{aligned}
-\vec L_{i} = \vec L_{f} \\
+\vec \tau_{net} = 0 \implies \vec L_{i} = \vec L_{f} \\
+\vec \tau = \text{torque} \\
+\vec L = \text{angular momentum}
 \end{aligned}
 $$
 
 ---
 ### precession
-- circular motion of axis of rotation and rotational motion about axis of rotation
-![[8 Physics/Images/precession.png]]
+- circular motion of flywheel axis and rotational motion of flywheel
+![200](8%20Physics/Images/precession.png)
 
 ---
 ### precession formula
@@ -321,53 +297,157 @@ $$
 - object at rest
 
 ---
+### static equilibrium formula
+$$
+\begin{aligned}
+\vec v = 0 \\
+\vec v = \text{velocity}
+\end{aligned}
+$$
+
+---
 ### dynamic equilibrium
 - object in motion with constant velocity
 
 ---
+### dynamic equilibrium formula
+$$
+\begin{aligned}
+\frac{d\vec v}{dt} = 0 \\
+\vec v = \text{velocity} \\
+t = \text{time}
+\end{aligned}
+$$
+
+---
 ### translational equilibrium
-- zero net force and zero acceleration
+- zero net external force
 
 ---
 ### translational equilibrium formula
 $$
 \begin{aligned}
 \vec F_{net} = 0 \\
-\vec a = 0
+\vec F = \text{force} 
 \end{aligned}
 $$
 
 ---
 ### rotational equilibrium
-- zero net torque and zero angular acceleration
+- zero net external torque
 
 ---
 ### rotational equilibrium formula
 $$
 \begin{aligned}
 \vec \tau_{net} = 0 \\
-\vec \alpha = 0
+\vec \tau = \text{torque}
 \end{aligned}
 $$
 
 ---
 ### center of gravity
-- point inside object that acts as the location of all weight
+- point inside object acting as the location of total weight
 ![[8 Physics/Images/center of gravity.png|300]]
 
 ---
+### center of gravity formula
+$$
+\begin{aligned}
+\vec r_{cg} = \frac{\sum_{n} m_{n} \vec r_{n}}{M} \\
+m = \text{mass} \\
+\vec r = \text{position} \\
+M = \text{system mass}
+\end{aligned}
+$$
+
+---
+### center of uniform gravity property
+- if uniform gravitational field then center of gravity equal center of mass
+![200](8%20Physics/Images/center%20of%20gravity%20uniform%20property.png)
+
+---
+### center of uniform gravity property formula
+$$
+\begin{aligned}
+\vec g(\vec r) = \vec g_{0} \implies \vec r_{cg} = \vec r_{cm} \\
+\vec g = \text{gravity} \\
+\vec r = \text{position} 
+\end{aligned}
+$$
+
+---
 ### area of support
-- region between point(s) of contact
-![[8 Physics/Images/area of support.png]]
+- region between point of contact
+![400](8%20Physics/Images/area%20of%20support.png)
 
 ---
-### internal tipping
-- object tipping under its own weight when center of gravity outside area of support
-![[8 Physics/Images/internal tipping.png]]
+### area of support formula
+$$
+\begin{aligned}
+\vec r_{cg} \not\in A \implies \downarrow \\
+\vec r = \text{position} \\
+A = \text{area}
+\end{aligned}
+$$
 
 ---
-### external tipping
-- object tipping under external force when axis of rotation equal point of contact
-![[8 Physics/Images/external tipping.png]]
+### stress
+- force per cross section area
+- tensile/compressive, bulk, shear
+
+---
+### stress formula
+$$
+\begin{aligned}
+\sigma_{Y} = \frac{F}{A} \\
+\sigma_{B} = \Delta p \\
+\sigma_{S} = \frac{F_\parallel}{A} \\
+F = \text{force} \\
+A = \text{area} \\
+p = \text{pressure}
+\end{aligned}
+$$
+
+---
+### strain
+- deformation of material
+
+---
+### strain formula
+$$
+\begin{aligned}
+\epsilon_{Y} = \frac{\Delta L}{L_{0}} \\
+\epsilon_{B} = \frac{\Delta V}{V_{0}} \\
+\epsilon_{S} = \frac{\Delta x}{h} \\
+L = \text{length} \\
+V = \text{volume} \\
+x = \text{position} \\
+h = \text{height}
+\end{aligned}
+$$
+
+---
+### elastic modulus
+- stiffness of material
+![500](8%20Physics/Images/elastic%20modulus.png)
+
+---
+### elastic modulus formula
+$$
+\begin{aligned}
+Y = \frac{\sigma}{\epsilon} \\
+B = \frac{-\Delta p}{\Delta V / V_{0}} \\
+S = \frac{F_\parallel/A}{\Delta x/h} \\
+\sigma = \text{stress} \\
+\epsilon = \text{strain} \\
+p = \text{pressure} \\
+V = \text{volume} \\
+F = \text{force} \\
+A = \text{area} \\
+x = \text{position} \\
+h = \text{height} 
+\end{aligned}
+$$
 
 ---

@@ -1,5 +1,6 @@
 ### momentum
 - difficulty of stopping or changing direction of motion
+![](8%20Physics/Images/momentum.png)
 
 ---
 ### momentum formula
@@ -12,11 +13,11 @@ m = \text{mass} \\
 $$
 
 ---
-### newtons second law
-- acceleration dependent mass and net external force acting on mass
+### newtons second momentum law
+- net external force equal rate of change of momentum
 
 ---
-### newtons 2nd formula
+### newtons 2nd momentum formula
 $$
 \begin{aligned}
 \vec F_{net} = \frac{d\vec p}{dt} =
@@ -34,7 +35,7 @@ $$
 
 ---
 ### impulse
-- change of momentum equal sum of net force over time
+- change of momentum equal sum of net external force over time
 ![300](8%20Physics/Images/impulse.png)
 
 ---
@@ -61,8 +62,8 @@ $$
 
 ---
 ### impulse versus work
-- net force dependent time equal impulse
-- net force dependent position equal work
+- net external force dependent time equal impulse
+- net external force dependent position equal work
 
 ---
 ### impulse versus work formula
@@ -87,7 +88,8 @@ $$
 ### conservation of momentum formula
 $$
 \begin{aligned}
-\vec F_{net} \implies \vec p_{i} = \vec p_{f} \\
+\vec F_{net} = 0 \implies \vec p_{i} = \vec p_{f} \\
+\vec F = \text{force} \\
 \vec p = \text{momentum}
 \end{aligned}
 $$
@@ -110,6 +112,7 @@ $$
 ### explosion
 - increased kinetic energy
 - momentum conserved
+![400](8%20Physics/Images/explosion.png)
 
 ---
 ### explosion formula
@@ -160,7 +163,7 @@ $$
 ### completely inelastic collision
 - decreased kinetic energy
 - momentum conserved
-![](8%20Physics/Images/Pasted%20image%2020260523232153.png)
+![](8%20Physics/Images/completely%20inelastic%20collision.png)
 
 ---
 ### complete inelastic collision formula
@@ -174,31 +177,17 @@ $$
 
 ---
 ### center of mass
-- point inside object that acts as the location of all mass
+- point inside system of masses acting as the location of system mass
+- or the mass-weighted average position of system mass
+![400](8%20Physics/Images/center%20of%20mass.png)
 
 ---
 ### center of mass formula
 $$
 \begin{aligned}
-\vec r_{cm} = \frac{\sum_{i} m_{i} \vec r_{i}}{M} \\
+\vec r_{cm} = \frac{\sum_{n} m_{n} \vec r_{n}}{M} \\
 m = \text{mass} \\
-r = \text{position} \\
-M = \text{system mass}
-\end{aligned}
-$$
-
----
-### center of mass acceleration
-- center of mass acceleration dependent mass and net external force acting on mass
-
----
-### center of mass acceleration formula
-$$
-\begin{aligned}
-\vec a_{cm} = \frac{\sum_{i} m_{i} \vec a_{i}}{M} \\
-\vec F = M\vec a_{cm} \\
-m = \text{point mass} \\
-a = \text{acceleration} \\
+\vec r = \text{position} \\
 M = \text{system mass}
 \end{aligned}
 $$
@@ -211,11 +200,46 @@ $$
 ### center of mass velocity formula
 $$
 \begin{aligned}
-\vec v_{cm} = \frac{\sum_{i} m_{i} \vec v_{i}}{M} \\
+\vec v_{cm} =  \frac{\sum_{n} m_{n} \vec v_{n}}{M} \\
 \vec p = M\vec v_{cm} \\
-m = \text{point mass} \\
-v = \text{velocity} \\
-M = \text{system mass}
+m = \text{mass} \\
+\vec v = \text{velocity} \\
+M = \text{system mass} \\
+\vec p = \text{momentum}
+\end{aligned}
+$$
+
+---
+### center of mass acceleration
+- center of mass acceleration dependent mass and net external force acting on mass
+
+---
+### center of mass acceleration formula
+$$
+\begin{aligned}
+\vec a_{cm} = \frac{\sum_{n} m_{n} \vec a_{n}}{M} \\
+\vec F_{net} = M\vec a_{cm} \\
+m = \text{mass} \\
+\vec a = \text{acceleration} \\
+M = \text{system mass} \\
+\vec F = \text{force}
+\end{aligned}
+$$
+
+---
+### rocket
+- variable mass moving through time
+![400](8%20Physics/Images/rocket.png)
+
+---
+### rocket formula
+$$
+\begin{aligned}
+\vec F_{thrust} = \vec v_{ex}\frac{dm}{dt} \\
+\Delta \vec v = \vec v_{ex}\ln(\frac{m_{i}}{m_{f}}) \\
+\vec v = \text{velocity} \\
+m = \text{mass} \\
+t = \text{time}
 \end{aligned}
 $$
 

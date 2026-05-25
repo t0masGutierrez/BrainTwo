@@ -19,7 +19,7 @@ $$
 ### distance formula
 $$
 \begin{aligned}
-d = \sum |\Delta x| \\
+d = \sum_{n} |\Delta x_{n}| \\
 x = \text{position} 
 \end{aligned}
 $$
@@ -48,7 +48,7 @@ $$
 ### average speed formula
 $$
 \begin{aligned}
-\overline s = \frac{d}{\Delta t} \\
+s_{avg} = \frac{d}{\Delta t} \\
 d = \text{distance} \\
 t = \text{time}
 \end{aligned}
@@ -75,7 +75,7 @@ $$
 ### average velocity formula
 $$
 \begin{aligned}
-\overline v = \frac{\Delta x}{\Delta t} \\
+v_{avg} = \frac{\Delta x}{\Delta t} \\
 x = \text{position} \\
 t = \text{time}
 \end{aligned}
@@ -93,6 +93,7 @@ $$
 v = \frac{dx}{dt} = v_{0} + \int a \cdot dt \\
 x = \text{position} \\
 t = \text{time} \\
+v = \text{velocity} \\
 a = \text{acceleration}
 \end{aligned}
 $$
@@ -105,7 +106,7 @@ $$
 ### average acceleration formula
 $$
 \begin{aligned}
-\overline a = \frac{\Delta v}{\Delta t} \\
+a_{avg} = \frac{\Delta v}{\Delta t} \\
 v = \text{velocity} \\
 t = \text{time}
 \end{aligned}
@@ -152,7 +153,7 @@ $$
 ### kinematics formula
 $$
 \begin{aligned}
-x = \ ? 
+x, x_{0}, v, v_{0}, a, t = \ ? 
 \end{aligned}
 $$
 
@@ -181,6 +182,7 @@ $$
 \begin{aligned}
 a(t) = a_{0} \implies x = x_{0} + v_0t + \frac{1}{2} at^2 \\
 a = \text{acceleration} \\
+x = \text{position} \\
 x_{0} = \text{initial position} \\
 v_{0} = \text{initial velocity} \\
 t = \text{time} 
@@ -243,6 +245,7 @@ $$
 ---
 ### relative motion
 - motion of object A relative to object B
+![300](8%20Physics/Images/relative%20motion.png)
 
 ---
 ### relative motion formula

@@ -59,7 +59,7 @@ $$
 
 ---
 ### net work
-- work done by net force equal change of kinetic energy
+- work done by net external force equal change of kinetic energy
 
 ---
 ### net work formula
@@ -204,6 +204,16 @@ $$
 ![[8 Physics/Images/energy diagram.png]]
 
 ---
+### energy diagram formula
+$$
+\begin{aligned}
+E(x) \\
+E = \text{mechanical energy} \\
+x = \text{position} 
+\end{aligned}
+$$
+
+---
 ### turning point
 - point where mechanical energy equal potential energy
 
@@ -267,8 +277,8 @@ $$
 \begin{aligned}
 P_{avg} = \frac{W}{\Delta t} = \frac{\Delta E}{\Delta t} \\
 W = \text{work} \\
-E = \text{mechanical energy} \\
-t = \text{time}
+t = \text{time} \\
+E = \text{mechanical energy} 
 \end{aligned}
 $$
 
@@ -280,9 +290,9 @@ $$
 ### instantaneous power formula
 $$
 \begin{aligned}
-P = \vec F \cdot \vec v = Fv\cos(\theta)\\
-F = \text{force} \\
-v = \text{velocity}
+P = \vec F \cdot \vec v = Fv\cos(\theta) \\
+\vec F = \text{force} \\
+\vec v = \text{velocity}
 \end{aligned}
 $$
 

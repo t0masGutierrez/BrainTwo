@@ -84,7 +84,7 @@ $$
 \begin{aligned}
 v_{0x} = v_{0}\cos(\theta) \\
 v_{0y} = v_{0}\sin(\theta) \\
-v = \text{initial velocity} \\
+v_{0} = \text{initial velocity} \\
 \theta = \text{angle between vectors}
 \end{aligned}
 $$
@@ -94,8 +94,8 @@ $$
 $$
 \begin{aligned}
 v_{x} = v_{0x} \\
-v = \text{velocity} \\
-x = \text{x position} 
+v_{0} = \text{initial velocity} \\
+x = \text{position} 
 \end{aligned}
 $$
 
@@ -120,16 +120,16 @@ $$
 ### uniform circular motion formula
 $$
 \begin{aligned}
-\vec a_{rad} \perp \vec v_{tan} 
+a_{rad} \perp v_{tan} 
 \end{aligned}
 $$
 
 ---
-### tangential velocity
+### uniform tangential velocity
 - velocity vector parallel circular path equal constant speed
 
 ---
-### tangential velocity formula
+### uniform tangential velocity formula
 $$
 \begin{aligned}
 v_{tan} = \frac{2\pi r}{T} \\
@@ -146,8 +146,8 @@ $$
 ### uniform radial acceleration formula
 $$
 \begin{aligned}
-a_{rad} = \frac{v^2}{r} \\
-v = \text{speed} \\
+a_{rad} = \frac{v_{tan}^2}{r} \\
+v = \text{velocity} \\
 r = \text{radius}
 \end{aligned}
 $$
@@ -163,8 +163,8 @@ $$
 ### nonuniform circular motion formula
 $$
 \begin{aligned}
-\vec a_{rad} \perp \vec a_{tan} \\
-\vec a_{tan} \parallel \pm \vec v_{tan}
+a_{rad} \perp a_{tan} \\
+a_{tan} \parallel \pm v_{tan}
 \end{aligned}
 $$
 
@@ -178,8 +178,8 @@ $$
 ### nonuniform radial acceleration formula
 $$
 \begin{aligned}
-a = a_{rad} + a_{tan} = \frac{v^2}{r} + \frac{dv}{dt} \\
-v = \text{speed} \\
+a = a_{rad} + a_{tan} = \frac{v_{tan}^2}{r} + \frac{dv_{tan}}{dt} \\
+v = \text{velocity} \\
 r = \text{radius} \\
 t = \text{time}
 \end{aligned}

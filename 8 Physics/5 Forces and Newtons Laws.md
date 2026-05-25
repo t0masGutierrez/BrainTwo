@@ -23,8 +23,7 @@ F = \sqrt{F_{x}^2 + F_{y}^2} \\
 \theta = \arctan(\frac{F_{y}}{F_{x}}) \\
 F_{x} = F \cos (\theta) \\
 F_{y} = F \sin (\theta) \\
-F_{x} = \text{x scalar component} \\
-F_{y} = \text{y scalar component} \\
+F = \text{force} \\
 \hat i = \text{x direction} \\
 \hat j = \text{y direction} \\
 \theta = \text{angle between vectors}
@@ -40,10 +39,8 @@ $$
 ### net force formula
 $$
 \begin{aligned}
-\vec F_{net} = \sum \vec F = (\sum F_{x}) \hat i + (\sum F_{y}) \hat j \\
+\vec F_{net} = \sum_{n} \vec F_{n} = (\sum_{n} F_{nx}) \hat i + (\sum_{n} F_{ny}) \hat j \\
 \vec F = \text{force} \\
-F_{x} = \text{x scalar component} \\
-F_{y} = \text{y scalar component} \\
 \hat i = \text{x direction} \\
 \hat j = \text{y direction} \\
 \end{aligned}
@@ -169,10 +166,10 @@ $$
 ### buoyant force formula
 $$
 \begin{aligned}
-\vec F_{B} = \rho Vg \\
+\vec F_{B} = \rho V \vec g \\
 \rho = \text{density} \\
 V = \text{volume} \\
-g = \text{gravity}
+\vec g = \text{gravity}
 \end{aligned}
 $$
 
@@ -281,7 +278,7 @@ $$
 
 ---
 ### newtons second law
-- acceleration dependent mass and amount of net external force acting on mass
+- acceleration dependent mass and net external force acting on mass
 ![](8%20Physics/Images/newtons%20second%20law.png)
 
 ---
@@ -294,9 +291,8 @@ F_{x} = ma_{x} \\
 F_{y} = ma_{y}
 \end{cases} \\
 m = \text{mass} \\
-a = \text{acceleration} \\
-F_{x} = \text{x scalar component} \\
-F_{y} = \text{y scalar component}
+\vec a = \text{acceleration} \\
+F = \text{force}
 \end{aligned}
 $$
 
