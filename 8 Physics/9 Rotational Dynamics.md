@@ -178,12 +178,12 @@ $$
 d = d_{cm} - r\theta \\
 v = v_{cm} - r\omega \\
 a = a_{cm} -  r\alpha \\
-r = \text{radius} \\
 d = \text{distance} \\
-v = \text{velocity} \\
-a = \text{acceleration} \\
+r = \text{radius} \\
 \theta = \text{angular position} \\
+v = \text{velocity} \\
 \omega = \text{angular velocity} \\
+a = \text{acceleration} \\
 \alpha = \text{angular acceleration}
 \end{aligned}
 $$
@@ -214,7 +214,7 @@ $$
 ### angular momentum direction property formula
 $$
 \begin{aligned}
-\hat w = \hat L \\
+\hat \omega = \hat L \\
 \omega = \text{angular velocity} \\
 L = \text{angular momentum}
 \end{aligned}
@@ -229,7 +229,7 @@ $$
 $$
 \begin{aligned}
 \vec \tau_{net} = \frac{d\vec L}{dt} \\
-L = \text{angular momentum} \\
+\vec L = \text{angular momentum} \\
 t = \text{time}
 \end{aligned}
 $$

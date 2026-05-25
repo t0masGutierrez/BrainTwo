@@ -66,7 +66,7 @@ $$
 ### instantaneous angular velocity formula
 $$
 \begin{aligned}
-\vec \omega = \frac{d\theta}{dt} \\
+\vec \omega = \frac{d\vec \theta}{dt} \\
 \vec \theta = \text{angular position} \\
 t = \text{time}
 \end{aligned}
@@ -251,10 +251,9 @@ $$
 I = \frac{1}{12}ML^2 \\
 I = \frac{1}{3}ML^2 \\
 I = \frac{1}{12}M(a^2+b^2) \\
-I = \frac{1}{12}ML^2 \\
 I = \frac{1}{3}Ma^2 \\
 I = \frac{1}{2}M(R_{1}^2+R_{2}^2) \\
-I = \frac{1}{12}MR^2 \\
+I = \frac{1}{2}MR^2 \\
 I = MR^2 \\
 I = \frac{2}{5}MR^2 \\
 I = \frac{2}{3}MR^2 
