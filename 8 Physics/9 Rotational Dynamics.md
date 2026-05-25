@@ -287,8 +287,8 @@ $$
 ### precession formula
 $$
 \begin{aligned}
-\Omega = \frac{F_wr}{I\omega} \\
-F = \text{force} \\
+\Omega = \frac{wr}{I\omega} \\
+w = \text{weight} \\
 r = \text{radius} \\
 I = \text{moment of inertia} \\
 \omega = \text{angular velocity}
