@@ -1,6 +1,6 @@
 ### work
 - transfer of energy from the application of force causing displacement parallel force
-![[8 Physics/Images/work parity property.png]]
+![[8 Physics/Images/work direction property.png]]
 
 ---
 ### constant work formula

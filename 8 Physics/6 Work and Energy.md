@@ -28,7 +28,7 @@ $$
 - force parallel displacement equal positive work
 - force antiparallel displacement equal negative work
 - force perpendicular displacement equal zero work
-![[8 Physics/Images/work parity property.png|400]]
+![[8 Physics/Images/work direction property.png|400]]
 
 ---
 ### work direction property formula
