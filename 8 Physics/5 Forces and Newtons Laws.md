@@ -149,11 +149,11 @@ $$
 $$
 \begin{aligned}
 \vec F_{d} = -k\vec v \\
-\vec F_{d} = \frac{-1}{2}\rho C_{D} A \vec v^2 \\
+\vec F_{d} = \frac{-1}{2}\rho C_{d} A \vec v^2 \\
 k = \text{linear drag coefficient} \\
 \vec v = \text{velocity} \\
 \rho = \text{density} \\
-C = \text{drag coefficient} \\
+C_{d} = \text{drag coefficient} \\
 A = \text{cross-section area}
 \end{aligned}
 $$

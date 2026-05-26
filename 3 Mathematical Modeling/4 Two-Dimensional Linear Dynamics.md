@@ -93,7 +93,7 @@ $$
 
 ---
 ### nullcline curve
-- set of points such that derivative equal zero
+- set of points whose derivative equal zero
 - equilibrium point equal intersection of nullcline curve
 
 ---

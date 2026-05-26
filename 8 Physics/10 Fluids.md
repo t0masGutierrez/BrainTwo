@@ -5,7 +5,6 @@
 ### solid
 - definite shape
 - definite volume
-- low compressibility
 - vibrational motion
 ![](8%20Physics/Images/solid.png)
 
@@ -13,7 +12,7 @@
 ### liquid
 - indefinite shape
 - definite volume
-- moderate compressibility
+- incompressible fluid
 - translational motion
 ![](8%20Physics/Images/liquid.png)
 
@@ -21,7 +20,7 @@
 ### gas
 - indefinite shape
 - indefinite volume
-- high compressibility
+- compressible fluid
 - random motion
 ![](8%20Physics/Images/gas.png)
 
@@ -157,11 +156,6 @@ $$
 ### open-tube manometer
 - measure gas pressure by comparing the position of fluid column
 ![200](8%20Physics/Images/open-tube%20manometer.png)
-
----
-### bourdon gauge
-- measure gauge pressure by the position of tube
-![250](8%20Physics/Images/bourdon%20gauge.png)
 
 ---
 ### pascals principle
@@ -370,7 +364,7 @@ $$
 
 ---
 ### continuity
-- for incompressible there exists inverse relationship between velocity and area
+- for incompressible fluid there exists inverse relationship between velocity and area
 ![400](8%20Physics/Images/continuity.png)
 
 ---
@@ -385,7 +379,7 @@ $$
 
 ---
 ### bernoulli principle
-- for ideal fluids there exists inverse relationship between pressure and velocity
+- for ideal fluid there exists inverse relationship between pressure and velocity
 ![200](8%20Physics/Images/bernoulli%20principle.png)
 
 ---
@@ -410,11 +404,11 @@ $$
 $$
 \begin{aligned}
 \vec F_{d} = -k\vec v \\
-\vec F_{d} = \frac{-1}{2}\rho C_{D} A \vec v^2 \\
+\vec F_{d} = \frac{-1}{2}\rho C_{d} A \vec v^2 \\
 k = \text{linear drag coefficient} \\
 \vec v = \text{velocity} \\
 \rho = \text{density} \\
-C = \text{drag coefficient} \\
+C_{d} = \text{drag coefficient} \\
 A = \text{cross-section area}
 \end{aligned}
 $$
