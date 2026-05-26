@@ -194,6 +194,13 @@
         .content {
             text-align: left;
         }
+        .content img.note-image {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin: 16px auto;
+            border-radius: 4px;
+        }
         .options-bar {
             display: flex;
             justify-content: center;
@@ -583,8 +590,99 @@
         }
     }
 
+    class MarkdownImageRenderer {
+        static escapeAttr(text) {
+            return String(text)
+                .replace(/&/g, '&amp;')
+                .replace(/"/g, '&quot;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;');
+        }
+
+        static decodePath(path) {
+            try {
+                return decodeURIComponent(String(path));
+            } catch (_error) {
+                return String(path);
+            }
+        }
+
+        static encodePath(path) {
+            return path.split('/').map(part => encodeURIComponent(part)).join('/');
+        }
+
+        static isNumericSize(value) {
+            return /^\d+(?:x\d+)?$/.test(value || '');
+        }
+
+        static cleanImagePath(imagePath) {
+            return this.decodePath(imagePath).trim().replace(/^\/+/, '').replace(/\|$/, '');
+        }
+
+        static imageAlt(imagePath, alias) {
+            const cleanPath = this.cleanImagePath(imagePath);
+            const label = alias && !this.isNumericSize(alias)
+                ? alias
+                : cleanPath.split('/').pop().replace(/\.[^.]+$/, '');
+            return this.escapeAttr(label.replace(/[-_]+/g, ' ').trim());
+        }
+
+        static imageWidth(alias) {
+            if (!alias) return '';
+            const match = alias.match(/^(\d+)(?:x\d+)?$/);
+            return match ? ` width="${match[1]}"` : '';
+        }
+
+        static imageSrc(imagePath, folder) {
+            const normalized = this.cleanImagePath(imagePath);
+            let assetPath;
+            if (/^(?:https?:|data:|blob:)/i.test(normalized)) {
+                return normalized;
+            } else if (normalized.startsWith(`${folder}/`) || normalized.includes('/Images/')) {
+                assetPath = normalized;
+            } else if (normalized.startsWith('Images/')) {
+                assetPath = `${folder}/${normalized}`;
+            } else {
+                assetPath = `${folder}/Images/${normalized}`;
+            }
+            const encodedPath = this.encodePath(assetPath);
+            if (typeof RouteManager !== 'undefined') {
+                return RouteManager.assetUrl(encodedPath);
+            }
+            return encodedPath;
+        }
+
+        static imageTag(imagePath, alias, folder) {
+            const cleanImagePath = imagePath.trim();
+            const cleanAlias = alias && alias.trim();
+            const src = this.escapeAttr(this.imageSrc(cleanImagePath, folder));
+            const alt = this.imageAlt(cleanImagePath, cleanAlias);
+            const width = this.imageWidth(cleanAlias);
+            return `<img class="note-image" src="${src}" alt="${alt}"${width}>`;
+        }
+
+        static expandObsidianImages(content, folder) {
+            return content
+                .replace(/!\[\[([^|\]\n]+)(?:\|([^\]\n]+))?\]\]/g, (_match, imagePath, alias) => {
+                    return this.imageTag(imagePath, alias, folder);
+                })
+                .replace(/!\[([^\]\n]*)\]\(([^)\n]+)\)/g, (_match, alt, imagePath) => {
+                    return this.imageTag(imagePath, alt, folder);
+                });
+        }
+    }
+
     class CardParser {
+        static stripImageEmbeds(text) {
+            return text
+                .split('\n')
+                .filter(line => !/!\[\[[^\]\n]+\]\]/.test(line))
+                .filter(line => !/!\[[^\]\n]*\]\([^)\n]+\)/.test(line))
+                .join('\n');
+        }
+
         static parseCards(text) {
+            text = this.stripImageEmbeds(text);
             const parts = text.split('---').map(p => p.trim()).filter(Boolean);
             const cards = [];
             const sections = parts.length > 1 ? parts : [parts[0]];
@@ -959,6 +1057,16 @@
                 resultsDiv.style.display = 'none';
                 return;
             }
+            if (!this.indexBuilt) {
+                this.buildIndex().then(() => {
+                    const latestQuery = document.getElementById('search-input').value.trim().toLowerCase();
+                    if (latestQuery === query) {
+                        this.selectedIndex = -1;
+                        this.search();
+                    }
+                });
+            }
+
             const words = query.split(/\s+/).filter(Boolean);
 
             function wordMatchesText(w, text) {
@@ -1001,7 +1109,7 @@
                 return allWordsMatch(combined);
             });
 
-            const all = [...fileResults, ...termResults].slice(0, 20);
+            const all = [...termResults, ...fileResults].slice(0, 20);
             if (all.length === 0) {
                 resultsDiv.innerHTML = '<div style="padding: 10px 14px; color: #888;">No results</div>';
                 resultsDiv.style.display = 'block';
@@ -1665,8 +1773,9 @@
             try {
                 const response = await fetch(RouteManager.contentUrl(folder, file));
                 const text = await response.text();
+                const fileViewerText = MarkdownImageRenderer.expandObsidianImages(text, folder);
                 const contentDiv = document.getElementById('file-content');
-                const cards = text.split('---').map(c => c.trim()).filter(Boolean);
+                const cards = fileViewerText.split('---').map(c => c.trim()).filter(Boolean);
                 const starred = StarManager.getIndices(folder, file);
                 contentDiv.innerHTML = '';
                 cards.forEach((cardText, i) => {

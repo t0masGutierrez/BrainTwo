@@ -1057,6 +1057,16 @@
                 resultsDiv.style.display = 'none';
                 return;
             }
+            if (!this.indexBuilt) {
+                this.buildIndex().then(() => {
+                    const latestQuery = document.getElementById('search-input').value.trim().toLowerCase();
+                    if (latestQuery === query) {
+                        this.selectedIndex = -1;
+                        this.search();
+                    }
+                });
+            }
+
             const words = query.split(/\s+/).filter(Boolean);
 
             function wordMatchesText(w, text) {
@@ -1099,7 +1109,7 @@
                 return allWordsMatch(combined);
             });
 
-            const all = [...fileResults, ...termResults].slice(0, 20);
+            const all = [...termResults, ...fileResults].slice(0, 20);
             if (all.length === 0) {
                 resultsDiv.innerHTML = '<div style="padding: 10px 14px; color: #888;">No results</div>';
                 resultsDiv.style.display = 'block';
