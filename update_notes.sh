@@ -21,18 +21,27 @@ main() {
 
     python3 update_notes.py
 
+    # 404.html is the GitHub Pages SPA fallback for direct pretty URLs.
+    # Treat index.html as the source of truth, but only regenerate 404.html
+    # when index.html itself changed in this run/worktree.
+    html_paths=()
+    if ! git diff --quiet -- index.html || ! git diff --cached --quiet -- index.html; then
+        cp index.html 404.html
+        html_paths=(index.html 404.html)
+    fi
+
     # Commit generated markdown plus copied note image assets.
     # Without the Images path, pasted diagrams make `git pull --rebase` fail next run.
     content_paths=('*.md' ':(glob)**/Images/**')
 
-    git add -A -- "${content_paths[@]}"
+    git add -A -- "${content_paths[@]}" "${html_paths[@]}"
 
-    if git diff --cached --quiet -- "${content_paths[@]}"; then
+    if git diff --cached --quiet -- "${content_paths[@]}" "${html_paths[@]}"; then
         echo "Already up to date."
         exit 0
     fi
 
-    git diff --cached --numstat -- "${content_paths[@]}" | awk -F '\t' '{
+    git diff --cached --numstat -- "${content_paths[@]}" "${html_paths[@]}" | awk -F '\t' '{
         added = ($1 == "-" ? 0 : $1)
         deleted = ($2 == "-" ? 0 : $2)
         print $3 " (+" added " -" deleted ")"
