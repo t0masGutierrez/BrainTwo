@@ -1,6 +1,17 @@
 ### point mass
-- spherical mass of uniform density
-![[8 Physics/Images/point mass.png]]
+- total mass concentrated at single point
+![250](8%20Physics/Images/point%20mass.png)
+
+---
+### point mass formula
+$$
+\begin{aligned}
+\rho(\vec r) = m\delta(\vec r - \vec r_{0}) \\
+m = \text{mass} \\
+\delta = \text{dirac} \\
+\vec r = \text{position}
+\end{aligned}
+$$
 
 ---
 ### newtons law of gravitation
@@ -11,10 +22,11 @@
 ### newtons formula of gravitation
 $$
 \begin{aligned}
-F_{g} = G\frac{m_1m_{2}}{r^2} \\
+\vec F_{g} = G\frac{m_1m_{2}}{r^2}\hat r \\
 G = 6.67 \times 10^{-11} \\
 m = \text{mass} \\
-r = \text{distance}
+r = \text{distance} \\
+\hat r = \text{direction}
 \end{aligned}
 $$
 
