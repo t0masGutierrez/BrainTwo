@@ -1055,14 +1055,15 @@
 
         static getCurrentRoute(manifestData) {
             const path = this.currentPath();
-            if (!path) return { view: 'home' };
-            const [folderSlug, fileSlug] = path.split('/').map(part => decodeURIComponent(part));
+            const replaceUrl = this.currentBasePath() !== this.basePath();
+            if (!path) return { view: 'home', replaceUrl };
+            const [folderSlug, fileSlug, ...extraSlugs] = path.split('/').map(part => decodeURIComponent(part));
             const folder = Object.keys(manifestData).find(name => this.slugify(name) === folderSlug);
-            if (!folder) return { view: 'home' };
-            if (!fileSlug) return { view: 'folder', folder };
+            if (!folder) return { view: 'home', replaceUrl: true };
+            if (!fileSlug) return { view: 'folder', folder, replaceUrl };
             const file = (manifestData[folder] || []).find(name => this.slugify(name) === fileSlug);
-            if (!file) return { view: 'folder', folder };
-            return { view: 'file', folder, file };
+            if (!file) return { view: 'folder', folder, replaceUrl: true };
+            return { view: 'file', folder, file, replaceUrl: replaceUrl || extraSlugs.length > 0 };
         }
     }
 
@@ -1914,8 +1915,11 @@
             const initialRoute = RouteManager.getCurrentRoute(this.manifestData);
             if (initialSearch) {
                 await this.showSearchResults(initialSearch);
-            } else if (initialRoute.view !== 'home') {
-                await this._showRoute(initialRoute, { updateUrl: false });
+            } else if (initialRoute.view !== 'home' || initialRoute.replaceUrl) {
+                await this._showRoute(initialRoute, {
+                    updateUrl: initialRoute.replaceUrl,
+                    replaceUrl: initialRoute.replaceUrl
+                });
             } else {
                 await this._restoreSession();
             }
@@ -1935,7 +1939,11 @@
 
         _initRouteListeners() {
             window.addEventListener('popstate', async () => {
-                await this._showRoute(RouteManager.getCurrentRoute(this.manifestData), { updateUrl: false });
+                const route = RouteManager.getCurrentRoute(this.manifestData);
+                await this._showRoute(route, {
+                    updateUrl: route.replaceUrl,
+                    replaceUrl: route.replaceUrl
+                });
             });
         }
 
