@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Notes</title>
-    <link rel="icon" href="https://t0masgutierrez.github.io/notes/obsidian.png?v=2" type="image/png" sizes="512x512">
-    <link rel="apple-touch-icon" href="https://t0masgutierrez.github.io/notes/obsidian.png?v=2">
-    <meta property="og:image" content="https://t0masgutierrez.github.io/notes/obsidian.png?v=2">
-    <meta property="og:image:secure_url" content="https://t0masgutierrez.github.io/notes/obsidian.png?v=2">
+    <title>BrainTwo</title>
+    <link rel="icon" href="https://t0masgutierrez.github.io/BrainTwo/obsidian.png?v=2" type="image/png" sizes="512x512">
+    <link rel="apple-touch-icon" href="https://t0masgutierrez.github.io/BrainTwo/obsidian.png?v=2">
+    <meta property="og:image" content="https://t0masgutierrez.github.io/BrainTwo/obsidian.png?v=2">
+    <meta property="og:image:secure_url" content="https://t0masgutierrez.github.io/BrainTwo/obsidian.png?v=2">
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="512">
     <meta property="og:image:height" content="512">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:image" content="https://t0masgutierrez.github.io/notes/obsidian.png?v=2">
+    <meta name="twitter:image" content="https://t0masgutierrez.github.io/BrainTwo/obsidian.png?v=2">
     <style>
         /* Only show write-answer-box when write-view is visible */
         #write-view:not([style*="display: flex"]) #write-answer-box {
@@ -432,7 +432,7 @@
     <div id="home" class="container">
         <h1></h1>
         <div class="search-container">
-            <input type="text" id="search-input" class="search-input" placeholder="Search notes" autocomplete="off" />
+            <input type="text" id="search-input" class="search-input" placeholder="Search BrainTwo" autocomplete="off" />
             <div id="search-results" class="search-results"></div>
         </div>
         <div id="folder-list" class="folder-list"></div>
@@ -970,9 +970,22 @@
     }
 
     class RouteManager {
-        static basePath() {
+        static canonicalBasePath() {
             const path = window.location.pathname;
-            return path === '/notes' || path.startsWith('/notes/') ? '/notes/' : '/';
+            if (path === '/BrainTwo' || path.startsWith('/BrainTwo/')) return '/BrainTwo/';
+            if (path === '/notes' || path.startsWith('/notes/')) return '/BrainTwo/';
+            return '/';
+        }
+
+        static currentBasePath() {
+            const path = window.location.pathname;
+            if (path === '/BrainTwo' || path.startsWith('/BrainTwo/')) return '/BrainTwo/';
+            if (path === '/notes' || path.startsWith('/notes/')) return '/notes/';
+            return this.canonicalBasePath();
+        }
+
+        static basePath() {
+            return this.canonicalBasePath();
         }
 
         static assetUrl(path) {
@@ -1030,7 +1043,7 @@
         }
 
         static currentPath() {
-            const base = this.basePath();
+            const base = this.currentBasePath();
             let path = window.location.pathname;
             if (path === base.slice(0, -1)) path = base;
             if (path.startsWith(base)) path = path.slice(base.length);
