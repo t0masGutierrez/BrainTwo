@@ -1,6 +1,6 @@
 ### system
 - thermodynamic property of interest
-![[12 Physics/Images/system.png]]
+![[4 Physics/Images/system.png]]
 
 ---
 ### closed system
@@ -13,7 +13,7 @@
 ---
 ### zeroth law of thermodynamics
 - zero net heat flow between objects of the same temperature
-![[12 Physics/Images/zeroth law of thermodynamics.png]]
+![[4 Physics/Images/zeroth law of thermodynamics.png]]
 
 ---
 ### 0th formula of thermodynamics
@@ -28,12 +28,12 @@ $$
 ---
 ### pV diagram
 - pressure versus volume
-![[12 Physics/Images/pV diagram.png]]
+![[4 Physics/Images/pV diagram.png]]
 
 ---
 ### work
 - transfer of energy from the application of force causing displacement parallel force
-![[12 Physics/Images/work1.png]]
+![[4 Physics/Images/work1.png]]
 
 ---
 ### variable work formula
@@ -48,12 +48,12 @@ $$
 ---
 ### positive work
 - molecules lose kinetic energy as gas expands
-![[12 Physics/Images/positive work.png]]
+![[4 Physics/Images/positive work.png]]
 
 ---
 ### negative work
 - molecules gain kinetic energy as gas contracts
-![[12 Physics/Images/negative work.png]]
+![[4 Physics/Images/negative work.png]]
 
 ---
 ### internal energy
@@ -76,7 +76,7 @@ $$
 ---
 ### first law of thermodynamics
 - energy can transfer and transform but cannot create nor destroy
-![[12 Physics/Images/first law of thermodynamics.png]]
+![[4 Physics/Images/first law of thermodynamics.png]]
 
 ---
 ### 1st formula of thermodynamics
@@ -113,7 +113,7 @@ $$
 ---
 ### thermodynamic process
 - process that changes thermodynamic state of system
-![[12 Physics/Images/thermodynamic process.png]]
+![[4 Physics/Images/thermodynamic process.png]]
 
 ---
 ### isothermal process
@@ -132,7 +132,7 @@ $$
 ---
 ### isothermal curve
 - $T_{i} = T_{f}$ 
-![[12 Physics/Images/isothermal curve.png]]
+![[4 Physics/Images/isothermal curve.png]]
 
 ---
 ### isochoric process
@@ -151,7 +151,7 @@ $$
 ---
 ### isochoric curve
 - $T_{i} > T_{f}$ 
-![[12 Physics/Images/isochoric curve.png]]
+![[4 Physics/Images/isochoric curve.png]]
 
 ---
 ### isobaric process
@@ -170,7 +170,7 @@ $$
 ---
 ### isobaric curve
 - $T_{i} < T_{f}$ 
-![[12 Physics/Images/isobaric curve.png]]
+![[4 Physics/Images/isobaric curve.png]]
 
 ---
 ### adiabatic process
@@ -193,7 +193,7 @@ $$
 ---
 ### adiabatic curve
 - $T_{i} > T_{f}$ 
-![[12 Physics/Images/adiabatic curve.png]]
+![[4 Physics/Images/adiabatic curve.png]]
 
 ---
 ### specific heat
@@ -214,7 +214,7 @@ $$
 ---
 ### constant volume specific heat capacity
 - specific heat of gas inside rigid container
-![[12 Physics/Images/constant volume specific heat1.png]]
+![[4 Physics/Images/constant volume specific heat1.png]]
 
 ---
 ### constant volume specific heat capacity formula
@@ -231,7 +231,7 @@ $$
 ---
 ### constant pressure specific heat capacity
 - specific heat of gas inside rigid container
-![[12 Physics/Images/constant pressure specific heat.png]]
+![[4 Physics/Images/constant pressure specific heat.png]]
 
 ---
 ### constant pressure specific heat capacity formula
@@ -269,7 +269,7 @@ $$
 - sequence of thermodynamic processes that return initial thermodynamic state therefore zero change of internal energy
 - clockwise cycle equal positive work
 - counterclockwise cycle equal negative work
-![[12 Physics/Images/thermodynamic cycle.png]]
+![[4 Physics/Images/thermodynamic cycle.png]]
 
 ---
 ### thermodynamic cycle formula
@@ -282,7 +282,7 @@ $$
 ---
 ### second law of thermodynamics
 - heat flows from high temperature to low temperature until thermal equilibrium
-![[12 Physics/Images/second law of thermodynamics.png]]
+![[4 Physics/Images/second law of thermodynamics.png]]
 
 ---
 ### 2nd formula of thermodynamics
@@ -298,7 +298,7 @@ $$
 ### heat engine
 - transform heat into work
 - transform thermal energy into mechanical energy
-![[12 Physics/Images/heat engine.png]]
+![[4 Physics/Images/heat engine.png]]
 
 ---
 ### heat engine efficiency formula
@@ -314,7 +314,7 @@ $$
 ### refrigerator
 - transform work into heat
 - transform mechanical energy into thermal energy
-![[12 Physics/Images/refrigerator.png]]
+![[4 Physics/Images/refrigerator.png]]
 
 ---
 ### refrigerator coefficient of performance formula
@@ -329,7 +329,7 @@ $$
 ### heat pump
 - transform heat into work
 - transform thermal energy into mechanical energy
-![[12 Physics/Images/heat pump.png]]
+![[4 Physics/Images/heat pump.png]]
 
 ---
 ### heat pump coefficient of performance formula
@@ -343,7 +343,7 @@ $$
 ---
 ### carnot cycle
 - maximum efficiency cycle operating between two constant temperature reservoirs
-![[12 Physics/Images/carnot cycle.png|500]]
+![[4 Physics/Images/carnot cycle.png|500]]
 
 ---
 ### carnot cycle formula
@@ -374,7 +374,7 @@ $$
 ---
 ### entropy
 - measure of disorder or the number of microstates
-![[12 Physics/Images/entropy.png]]
+![[4 Physics/Images/entropy.png]]
 
 ---
 ### entropy formula
@@ -398,7 +398,7 @@ $$
 ### microscopic entropy
 - most probable macrostate has the greatest number of corresponding microstates
 - most probable macrostate has the greatest entropy
-![[12 Physics/Images/microscopic entropy.png]]
+![[4 Physics/Images/microscopic entropy.png]]
 
 ---
 ### microscopic entropy formula
@@ -413,7 +413,7 @@ $$
 ---
 ### third law of thermodynamics
 - entropy decreases as temperature decreases 
-![[12 Physics/Images/third law of thermodynamics.png|400]]
+![[4 Physics/Images/third law of thermodynamics.png|400]]
 
 ---
 ### 3rd formula of thermodynamics

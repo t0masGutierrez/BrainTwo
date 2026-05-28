@@ -1,12 +1,12 @@
 ### magnetic pole
 - magnetic pole of same polarity repel
 - magnetic pole of opposite polarity attract
-![[12 Physics/Images/magnetic pole.png|250]]
+![[4 Physics/Images/magnetic pole.png|250]]
 
 ---
 ### electric charge magnetic force
 - perpendicular force by magnetic field on flowing electric charge
-![[12 Physics/Images/electric charge magnetic force.png|350]]
+![[4 Physics/Images/electric charge magnetic force.png|350]]
 
 ---
 ### electric charge magnetic force formula
@@ -24,12 +24,12 @@ $$
 ### three dimension magnetism
 - x equal inner vector
 - o equal outer vector
-![[12 Physics/Images/3D magnetism.png]]
+![[4 Physics/Images/3D magnetism.png]]
 
 ---
 ### magnetic field
 - region of space around magnet where flowing electric charge experience magnetic force
-![[12 Physics/Images/magnetic field.png|300]]
+![[4 Physics/Images/magnetic field.png|300]]
 
 ---
 ### magnetic field formula
@@ -46,7 +46,7 @@ $$
 ---
 ### magnetic field line
 - direction of magnetic field
-![[12 Physics/Images/magnetic field line.png|600]]
+![[4 Physics/Images/magnetic field line.png|600]]
 
 ---
 ### calculate magnetic field line
@@ -59,7 +59,7 @@ $$
 ---
 ### magnetic flux
 - amount of magnetic field flowing through normal surface
-![[12 Physics/Images/magnetic flux.png|300]]
+![[4 Physics/Images/magnetic flux.png|300]]
 
 ---
 ### magnetic flux formula
@@ -90,7 +90,7 @@ $$
 ### helical motion
 - circular motion perpendicular magnetic field
 - linear motion parallel magnetic field
-![[12 Physics/Images/helical motion.png|300]]
+![[4 Physics/Images/helical motion.png|300]]
 
 ---
 ### centripetal force formula
@@ -107,7 +107,7 @@ $$
 ---
 ### mass spectrometer
 - detection of mass by accelerating particle with select velocity and measuring radius
-![[12 Physics/Images/mass spectrometer.png|350]]
+![[4 Physics/Images/mass spectrometer.png|350]]
 
 ---
 ### particle accelerator
@@ -127,7 +127,7 @@ $$
 ---
 ### velocity selector
 - zero deflection of electric charge with zero net force
-![[12 Physics/Images/velocity selector.png|300]]
+![[4 Physics/Images/velocity selector.png|300]]
 
 ---
 ### velocity selector formula
@@ -157,7 +157,7 @@ $$
 ---
 ### electric current magnetic force
 - perpendicular force by magnetic field on electric current carrying conductor
-![[12 Physics/Images/electric current magnetic force.png|250]]
+![[4 Physics/Images/electric current magnetic force.png|250]]
 
 ---
 ### electric current magnetic force formula
@@ -174,7 +174,7 @@ $$
 ---
 ### parallel electric current magnetic force
 - perpendicular force by magnetic field on parallel electric current carrying conductor
-![[12 Physics/Images/parallel electric current magnetic force.png|400]]
+![[4 Physics/Images/parallel electric current magnetic force.png|400]]
 
 ---
 ### parallel electric current magnetic force formula
@@ -191,7 +191,7 @@ $$
 ---
 ### magnetic dipole
 - closed loop of electric current
-![[12 Physics/Images/magnetic dipole.png|300]]
+![[4 Physics/Images/magnetic dipole.png|300]]
 
 ---
 ### magnetic dipole formula
@@ -248,7 +248,7 @@ $$
 ---
 ### hall effect
 - generation of voltage across conductor as magnetic field exert magnetic force on perpendicular electric current carrying conductor
-![[12 Physics/Images/hall effect.png|250]]
+![[4 Physics/Images/hall effect.png|250]]
 
 ---
 ### hall effect formula

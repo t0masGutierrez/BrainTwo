@@ -170,7 +170,7 @@ $$
 - collect coefficient of ith order epsilon
 - solve perturbed algebraic equation for 1st order variable
 - ith order variable equal coefficient of ith order epsilon 
-![[6 Mathematical Modeling/Images/regular algebraic equation.png]]
+![[9 Mathematical Modeling/Images/regular algebraic equation.png]]
 
 ---
 ### regular algebraic equation formula
@@ -239,7 +239,7 @@ $$
 - collect coefficient of ith order epsilon
 - solve perturbed differential equation for 1st order variable
 - ith order variable equal coefficient of ith order epsilon
-![[6 Mathematical Modeling/Images/regular differential equation.png]]
+![[9 Mathematical Modeling/Images/regular differential equation.png]]
 
 ---
 ### regular differential equation formula
@@ -397,7 +397,7 @@ $$
 - solve the matching problem
 - inverse change of variable
 - composite solution equal single equation with multiple scale
-![](6%20Mathematical%20Modeling/Images/singular%20differential%20equation.png)
+![](9%20Mathematical%20Modeling/Images/singular%20differential%20equation.png)
 
 ---
 ### singular differential equation formula

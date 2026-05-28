@@ -115,17 +115,17 @@ $$
 ---
 ### reflexive matrix
 - diagonal elements of matrix equal 1
-![[11 Discrete Mathematics/Images/reflexive matrix.png]]
+![[5 Discrete Mathematics/Images/reflexive matrix.png]]
 
 ---
 ### symmetric matrix
 - corresponding elements of matrix equal itself
-![[11 Discrete Mathematics/Images/symmetric matrix.png]]
+![[5 Discrete Mathematics/Images/symmetric matrix.png]]
 
 ---
 ### antisymmetric matrix
 - corresponding elements of matrix equal complement
-![[11 Discrete Mathematics/Images/asymmetric matrix.png]]
+![[5 Discrete Mathematics/Images/asymmetric matrix.png]]
 
 ---
 ### composite matrix
@@ -138,7 +138,7 @@ $$
 ---
 ### digraph
 - represent relation as directional graph of vertices and edges where vertices represent elements and edges represent relations
-![[11 Discrete Mathematics/Images/digraph.png]]
+![[5 Discrete Mathematics/Images/digraph.png]]
 
 ---
 ### digraph formula
@@ -171,7 +171,7 @@ $$
 - reflexivity
 - symmetry
 - transitivity
-![[11 Discrete Mathematics/Images/digraph summary.png]]
+![[5 Discrete Mathematics/Images/digraph summary.png]]
 
 ---
 ### equivalence relation
@@ -229,7 +229,7 @@ $$
 ---
 ### partition
 - division of set *A* into nonempty pairwise disjoint subsets whose union equal set *A*
-![[11 Discrete Mathematics/Images/partition.png|600]]
+![[5 Discrete Mathematics/Images/partition.png|600]]
 
 ---
 ### partition formula

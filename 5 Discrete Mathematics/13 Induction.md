@@ -1,6 +1,6 @@
 ### induction
 - instance prove general propositional function true for all positive integers
-![[11 Discrete Mathematics/Images/induction.png|300]]
+![[5 Discrete Mathematics/Images/induction.png|300]]
 
 ---
 ### induction formula
@@ -34,7 +34,7 @@ $$
 ---
 ### strong induction
 - instance prove general propositional function true for all positive integers less than *k*
-![[11 Discrete Mathematics/Images/strong induction.png|300]]
+![[5 Discrete Mathematics/Images/strong induction.png|300]]
 
 ---
 ### strong induction formula

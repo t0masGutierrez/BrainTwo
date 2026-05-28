@@ -1,6 +1,6 @@
 ### capacitor
 - electric component designed to store electric charge
-![[12 Physics/Images/capacitor.png|200]]
+![[4 Physics/Images/capacitor.png|200]]
 
 ---
 ### capacitance
@@ -24,7 +24,7 @@ $$
 ---
 ### parallel planar capacitor
 - separation of parallel planar conductors with insulator
-![[12 Physics/Images/parallel planar capacitor.png|200]]
+![[4 Physics/Images/parallel planar capacitor.png|200]]
 
 ---
 ### parallel planar capacitance formula
@@ -40,7 +40,7 @@ $$
 ---
 ### cylindrical capacitor
 - separation of two cylindrical conductors with insulator
-![[12 Physics/Images/cylindrical capacitor.png|400]]
+![[4 Physics/Images/cylindrical capacitor.png|400]]
 
 ---
 ### cylindrical capacitance formula
@@ -56,7 +56,7 @@ $$
 ---
 ### spherical capacitor
 - separation of two spherical conductors with insulator
-![[12 Physics/Images/spherical capacitor.png]]
+![[4 Physics/Images/spherical capacitor.png]]
 
 ---
 ### spherical capacitance formula
@@ -72,7 +72,7 @@ $$
 ### series capacitor
 - equivalent electric charge equal electric charge across series
 - equivalent voltage equal sum of voltage across series
-![[12 Physics/Images/series capacitor.png|300]]
+![[4 Physics/Images/series capacitor.png|300]]
 
 ---
 ### series capacitance formula
@@ -87,7 +87,7 @@ $$
 ### parallel capacitor
 - equivalent voltage equal voltage across parallel
 - equivalent electric charge equal sum of electric charge across parallel
-![[12 Physics/Images/parallel capacitor.png|300]]
+![[4 Physics/Images/parallel capacitor.png|300]]
 
 ---
 ### parallel capacitance formula
@@ -135,23 +135,23 @@ $$
 ---
 ### dielectric
 - material capable of undergoing polarization via external electric field
-![[12 Physics/Images/dielectric.png]]
+![[4 Physics/Images/dielectric.png]]
 
 ---
 ### polar
 - non uniform distribution of electric charge equal permanent electric dipole
-![[12 Physics/Images/polar.png|300]]
+![[4 Physics/Images/polar.png|300]]
 
 ---
 ### non polar
 - uniform distribution of electric charge equal temporary electric dipole
-![[12 Physics/Images/non polar.png|300]]
+![[4 Physics/Images/non polar.png|300]]
 
 ---
 ### dielectric polarization
 - polar dielectric induce internal electric field
 - non polar dielectric induce internal electric dipole
-![[12 Physics/Images/dielectric polarization.png|200]]
+![[4 Physics/Images/dielectric polarization.png|200]]
 
 ---
 ### dielectric strength
@@ -164,7 +164,7 @@ $$
 ---
 ### dielectric constant
 - ratio between dielectric and non dielectric
-![[12 Physics/Images/dielectric constant.png|500]]
+![[4 Physics/Images/dielectric constant.png|500]]
 
 ---
 ### dielectric constant formula
@@ -187,7 +187,7 @@ $$
 ---
 ### gauss law
 - electric flux directly proportional net unbound electric charge inside gaussian surface
-![[12 Physics/Images/gauss law.png|200]]
+![[4 Physics/Images/gauss law.png|200]]
 
 ---
 ### gauss formula

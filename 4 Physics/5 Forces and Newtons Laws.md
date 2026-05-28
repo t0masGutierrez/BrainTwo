@@ -12,7 +12,7 @@ $$
 ---
 ### force
 - vector quantity of push or pull on object
-![300](12%20Physics/Images/force.png)
+![300](4%20Physics/Images/force.png)
 
 ---
 ### force formula
@@ -33,7 +33,7 @@ $$
 ---
 ### net force
 - vector sum of all forces acting on object
-![300](12%20Physics/Images/net%20force.png)
+![300](4%20Physics/Images/net%20force.png)
 
 ---
 ### net force formula
@@ -49,7 +49,7 @@ $$
 ---
 ### normal force
 - perpendicular force by surface on object
-![300](12%20Physics/Images/normal%20force.png)
+![300](4%20Physics/Images/normal%20force.png)
 
 ---
 ### normal force formula
@@ -66,7 +66,7 @@ $$
 - resistive force by surface on object
 - static friction acts on stationary objects
 - kinetic friction acts on sliding objects
-![300](12%20Physics/Images/friction%20force.png)
+![300](4%20Physics/Images/friction%20force.png)
 
 ---
 ### friction force formula
@@ -83,7 +83,7 @@ $$
 ---
 ### tension force
 - pulling force by string on object
-![300](12%20Physics/Images/tension%20force.png)
+![300](4%20Physics/Images/tension%20force.png)
 
 ---
 ### tension force formula
@@ -98,7 +98,7 @@ $$
 ---
 ### weight force
 - downward force by gravity on object
-![300](12%20Physics/Images/weight%20force.png)
+![300](4%20Physics/Images/weight%20force.png)
 
 ---
 ### weight force formula
@@ -113,7 +113,7 @@ $$
 ---
 ### centripetal force
 - center seeking force causing uniform circular motion
-![200](12%20Physics/Images/centripetal%20force.png)
+![200](4%20Physics/Images/centripetal%20force.png)
 
 ---
 ### centripetal force formula
@@ -128,7 +128,7 @@ $$
 ---
 ### spring force
 - restoring force by spring on object
-![300](12%20Physics/Images/spring%20force.png)
+![300](4%20Physics/Images/spring%20force.png)
 
 ---
 ### spring force formula
@@ -203,7 +203,7 @@ $$
 - resolve all vectors into scalar components
 - if equilibrium then newtons first law $\sum F = 0$ 
 - if nonequilibrium then newtons second law $\sum F = ma$ 
-![[12 Physics/Images/free body diagram.png|200]]
+![[4 Physics/Images/free body diagram.png|200]]
 
 ---
 ### gravitational interaction
@@ -264,7 +264,7 @@ $$
 ---
 ### newtons first law
 - object at rest remains at rest or moves with constant velocity unless acted on by nonzero net external force
-![](12%20Physics/Images/newtons%20first%20law.png)
+![](4%20Physics/Images/newtons%20first%20law.png)
 
 ---
 ### newtons 1st formula
@@ -279,7 +279,7 @@ $$
 ---
 ### newtons second law
 - acceleration dependent mass and net external force acting on mass
-![](12%20Physics/Images/newtons%20second%20law.png)
+![](4%20Physics/Images/newtons%20second%20law.png)
 
 ---
 ### newtons 2nd formula
@@ -300,7 +300,7 @@ $$
 ### newtons third law
 - for every action force there exists equal and opposite reaction force
 - equal magnitude and opposite direction
-![200](12%20Physics/Images/newtons%20third%20law.png)
+![200](4%20Physics/Images/newtons%20third%20law.png)
 
 ---
 ### newtons 3rd formula

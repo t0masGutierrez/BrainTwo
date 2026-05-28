@@ -1,6 +1,6 @@
 ### set identity
 - set expression that satisfy the requirements of tautology
-![[11 Discrete Mathematics/Images/set identity.png]]
+![[5 Discrete Mathematics/Images/set identity.png]]
 
 ---
 ### sample space

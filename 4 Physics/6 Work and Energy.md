@@ -1,6 +1,6 @@
 ### work
 - transfer of mechanical energy by the component of force parallel displacement
-![[12 Physics/Images/work.png|300]]
+![[4 Physics/Images/work.png|300]]
 
 ---
 ### constant work formula
@@ -28,7 +28,7 @@ $$
 - force parallel displacement equal positive work
 - force antiparallel displacement equal negative work
 - force perpendicular displacement equal zero work
-![[12 Physics/Images/work direction property.png|400]]
+![[4 Physics/Images/work direction property.png|400]]
 
 ---
 ### work direction property formula
@@ -45,7 +45,7 @@ $$
 - energy of motion
 - or the amount of work the object can do while speeding up
 - or the amount of work the object can do while slowing down
-![300](12%20Physics/Images/kinetic%20energy.png)
+![300](4%20Physics/Images/kinetic%20energy.png)
 
 ---
 ### kinetic energy formula
@@ -74,7 +74,7 @@ $$
 ### conservative force
 - reversible work conserve mechanical energy
 - dependent position and independent path
-![[12 Physics/Images/conservative force.png|200]]
+![[4 Physics/Images/conservative force.png|200]]
 
 ---
 ### conservative force formula
@@ -99,7 +99,7 @@ $$
 ---
 ### potential energy
 - energy of position
-![[12 Physics/Images/potential energy.png|400]]
+![[4 Physics/Images/potential energy.png|400]]
 
 ---
 ### potential energy formula
@@ -184,7 +184,7 @@ $$
 ---
 ### conservation of energy
 - work done by conservative force equal zero change of mechanical energy
-![](12%20Physics/Images/energy%20conservation.png)
+![](4%20Physics/Images/energy%20conservation.png)
 
 ---
 ### conservation of energy formula
@@ -201,7 +201,7 @@ $$
 ---
 ### energy diagram
 - mechanical energy as function of position
-![[12 Physics/Images/energy diagram.png]]
+![[4 Physics/Images/energy diagram.png]]
 
 ---
 ### energy diagram formula
@@ -229,7 +229,7 @@ $$
 ---
 ### equilibrium point
 - point where force acting on system equal zero
-![400](12%20Physics/Images/equilibrium%20point.png)
+![400](4%20Physics/Images/equilibrium%20point.png)
 
 ---
 ### equilibrium point formula

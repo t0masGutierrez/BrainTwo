@@ -4,7 +4,7 @@
 ---
 ### mutual inductance
 - effectiveness of inducing emf between two conductors due to changing electric current
-![[12 Physics/Images/mutual inductance.png|200]]
+![[4 Physics/Images/mutual inductance.png|200]]
 
 ---
 ### mutual inductance formula
@@ -35,7 +35,7 @@ $$
 ---
 ### self inductance
 - effectiveness of inducing emf on self due to changing electric current
-![[12 Physics/Images/self inductance.png|300]]
+![[4 Physics/Images/self inductance.png|300]]
 
 ---
 ### self inductance formula
@@ -75,7 +75,7 @@ $$
 ---
 ### self inductance emf
 - self induced emf due to changing electric current
-![[12 Physics/Images/self inductance emf.png|350]]
+![[4 Physics/Images/self inductance emf.png|350]]
 
 ---
 ### self inductance emf formula
@@ -91,7 +91,7 @@ $$
 ---
 ### inductor
 - electric component designed to oppose changing electric current
-![[12 Physics/Images/inductor.png|500]]
+![[4 Physics/Images/inductor.png|500]]
 
 ---
 ### inductor formula
@@ -108,7 +108,7 @@ $$
 ### kirchhoffs loop rule
 - sum of voltage around loop must equal zero
 - conservation of energy
-![[12 Physics/Images/kirchoffs loop rule.png]]
+![[4 Physics/Images/kirchoffs loop rule.png]]
 
 ---
 ### kirchhoffs loop formula
@@ -129,7 +129,7 @@ $$
 ---
 ### magnetic potential energy
 - energy of position inside inductor
-![[12 Physics/Images/magnetic potential energy.png|300]]
+![[4 Physics/Images/magnetic potential energy.png|300]]
 
 ---
 ### magnetic potential energy formula
@@ -158,7 +158,7 @@ $$
 ---
 ### RL electric circuit
 - electric circuit with resistance and self inductance
-![[12 Physics/Images/RL electric circuit.png]]
+![[4 Physics/Images/RL electric circuit.png]]
 
 ---
 ### calculate RL electric circuit
@@ -168,7 +168,7 @@ $$
 ---
 ### increasing inductor
 - positive terminal of inductor input electric current
-![[12 Physics/Images/increasing inductor.png]]
+![[4 Physics/Images/increasing inductor.png]]
 
 ---
 ### calculate increasing inductor
@@ -178,7 +178,7 @@ $$
 ---
 ### decreasing inductor
 - positive terminal of inductor output electric current
-![[12 Physics/Images/decreasing inductor.png]]
+![[4 Physics/Images/decreasing inductor.png]]
 
 ---
 ### calculate decreasing inductor
@@ -207,7 +207,7 @@ $$
 ---
 ### increasing electric current
 - electric current through increasing inductor as function of time
-![[12 Physics/Images/increasing electric current.png|400]]
+![[4 Physics/Images/increasing electric current.png|400]]
 
 ---
 ### increasing electric current formula
@@ -226,7 +226,7 @@ $$
 ---
 ### decreasing electric current
 - electric current through decreasing inductor as function of time
-![[12 Physics/Images/decreasing electric current.png|400]]
+![[4 Physics/Images/decreasing electric current.png|400]]
 
 ---
 ### decreasing electric current formula
@@ -242,7 +242,7 @@ $$
 ---
 ### LC electric circuit
 - electric circuit with self inductance and capacitance
-![[12 Physics/Images/LC electric circuit.png|500]]
+![[4 Physics/Images/LC electric circuit.png|500]]
 
 ---
 ### calculate LC electric circuit
@@ -251,7 +251,7 @@ $$
 ---
 ### LC potential energy
 - energy of position inside LC electric circuit
-![[12 Physics/Images/LC potential energy.png]]
+![[4 Physics/Images/LC potential energy.png]]
 
 ---
 ### LC potential energy formula
@@ -273,7 +273,7 @@ $$
 ---
 ### simple harmonic motion
 - periodic motion where object oscillate about equilibrium with restoring force directly proportional displacement
-![[12 Physics/Images/simple harmonic motion.png|400]]
+![[4 Physics/Images/simple harmonic motion.png|400]]
 
 ---
 ### simple harmonic motion formula
@@ -304,7 +304,7 @@ $$
 ---
 ### LC harmonic motion
 - periodic motion where energy oscillate about equilibrium with restoring force directly proportional displacement
-![[12 Physics/Images/LC harmonic motion.png|500]]
+![[4 Physics/Images/LC harmonic motion.png|500]]
 
 ---
 ### LC harmonic motion formula
@@ -331,7 +331,7 @@ $$
 ---
 ### RLC electric circuit
 - electric circuit with resistance, self inductance, and capacitance
-![[12 Physics/Images/RLC electric circuit.png|300]]
+![[4 Physics/Images/RLC electric circuit.png|300]]
 
 ---
 ### calculate RLC electric circuit
@@ -340,7 +340,7 @@ $$
 ---
 ### damped oscillation
 - decreasing harmonic motion by subtracting energy via damping force
-![[12 Physics/Images/damped oscillation1.png|400]]
+![[4 Physics/Images/damped oscillation1.png|400]]
 
 ---
 ### damped oscillation formula
@@ -361,7 +361,7 @@ $$
 ---
 ### damped RLC oscillation
 - decreasing LC harmonic motion by subtracting energy via resistance
-![[12 Physics/Images/damped RLC oscillation.png|300]]
+![[4 Physics/Images/damped RLC oscillation.png|300]]
 
 ---
 ### damped RLC oscillation formula

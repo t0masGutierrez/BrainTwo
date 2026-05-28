@@ -110,7 +110,7 @@ $$
 ---
 ### modular arithmetic
 - system of arithmetic where numbers wrap around upon reaching the modulus
-![[11 Discrete Mathematics/Images/modular arithmetic.png]]
+![[5 Discrete Mathematics/Images/modular arithmetic.png]]
 
 ---
 ### modular arithmetic formula

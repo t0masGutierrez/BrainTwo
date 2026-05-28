@@ -66,7 +66,7 @@ $$
 ---
 ### base conversion
 - convert base
-![[11 Discrete Mathematics/Images/base conversion.png]]
+![[5 Discrete Mathematics/Images/base conversion.png]]
 
 ---
 ### base conversion formula
@@ -89,7 +89,7 @@ $$
 ---
 ### addition algorithm
 - sum corresponding digits and carry
-![[11 Discrete Mathematics/Images/addition algorithm.png|200]]
+![[5 Discrete Mathematics/Images/addition algorithm.png|200]]
 
 ---
 ### addition formula
@@ -107,7 +107,7 @@ $$
 ---
 ### multiplication algorithm
 - multiply corresponding digits and carry
-![[11 Discrete Mathematics/Images/multiplication algorithm.png|150]]
+![[5 Discrete Mathematics/Images/multiplication algorithm.png|150]]
 
 ---
 ### multiplication formula

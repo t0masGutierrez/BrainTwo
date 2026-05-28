@@ -4,12 +4,12 @@
 ---
 ### vector
 - quantity with both magnitude and direction
-![[13 Calculus/Images/vector.png|200]]
+![[3 Calculus/Images/vector.png|200]]
 
 ---
 ### unit vector
 - vector with magnitude of 1 that specify direction without scaling
-![300](12%20Physics/Images/unit%20vector.png)
+![300](4%20Physics/Images/unit%20vector.png)
 
 ---
 ### unit vector formula
@@ -26,7 +26,7 @@ $$
 ### component
 - horizontal change equal *x* component
 - vertical change equal *y* component
-![[12 Physics/Images/component.png|300]]
+![[4 Physics/Images/component.png|300]]
 
 ---
 ### scalar component formula
@@ -88,7 +88,7 @@ $$
 ---
 ### inverse tangent range
 - 1st quadrant or 4th quadrant
-![[12 Physics/Images/inverse tangent range.png|300]]
+![[4 Physics/Images/inverse tangent range.png|300]]
 
 ---
 ### inverse tangent range formula
@@ -137,19 +137,19 @@ $$
 ### graphical vector addition
 - vector *B* starts where vector *A* ends
 - vector sum *C* equal diagonal from where vector *A* starts to where vector *B* ends
-![200](12%20Physics/Images/graphical%20vector%20addition.png)
+![200](4%20Physics/Images/graphical%20vector%20addition.png)
 
 ---
 ### parallelogram vector addition
 - both vectors start from the origin
 - construct two parallel vectors
 - vector sum *C* equal diagonal from the origin to where the parallel vectors intersect
-![300](12%20Physics/Images/parallelogram%20vector%20addition.png)
+![300](4%20Physics/Images/parallelogram%20vector%20addition.png)
 
 ---
 ### dot product
 - scalar quantity of similarity between two vectors
-![[13 Calculus/Images/dot product.png]]
+![[3 Calculus/Images/dot product.png]]
 
 ---
 ### dot product formula
@@ -182,7 +182,7 @@ $$
 ---
 ### cross product
 - vector quantity of dissimilarity between two vectors
-![300](12%20Physics/Images/cross%20product.png)
+![300](4%20Physics/Images/cross%20product.png)
 
 ---
 ### scalar cross product formula
@@ -232,7 +232,7 @@ $$
 - point hand to vector *A*
 - curl palm to vector *B*
 - point thumb to vector $A \times B$
-![200](12%20Physics/Images/right%20hand%20rule.png)
+![200](4%20Physics/Images/right%20hand%20rule.png)
 
 ---
 ### right hand rule formula

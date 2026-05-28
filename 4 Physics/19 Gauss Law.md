@@ -1,6 +1,6 @@
 ### electric flux
 - amount of electric field flowing through normal surface
-![[12 Physics/Images/electric flux.png]]
+![[4 Physics/Images/electric flux.png]]
 
 ---
 ### electric flux formula
@@ -32,7 +32,7 @@ $$
 ### closed surface electric flux
 - surface enclosing definite volume capable of enclosing electric charge
 - electric flux independent size of closed surface
-![[12 Physics/Images/closed surface electric flux.png]]
+![[4 Physics/Images/closed surface electric flux.png]]
 
 ---
 ### closed surface electric flux formula
@@ -49,7 +49,7 @@ $$
 - no electric charge inside closed surface
 - zero net electric charge inside closed surface
 - uniform electric field outside closed surface
-![[12 Physics/Images/zero electric flux.png]]
+![[4 Physics/Images/zero electric flux.png]]
 
 ---
 ### gauss law
@@ -85,7 +85,7 @@ $$
 - sphere
 - cylinder
 - plane
-![[12 Physics/Images/symmetrical electric charge distribution.png]]
+![[4 Physics/Images/symmetrical electric charge distribution.png]]
 
 ---
 ### symmetrical electric charge distribution formula
@@ -101,7 +101,7 @@ $$
 ---
 ### spherical electric charge distribution
 - electric charge distribution along sphere
-![[12 Physics/Images/spherical electric charge distribution.png|600]]
+![[4 Physics/Images/spherical electric charge distribution.png|600]]
 
 ---
 ### spherical electric charge distribution formula
@@ -117,7 +117,7 @@ $$
 ---
 ### cylindrical electric charge distribution
 - electric charge distribution along cylinder
-![[12 Physics/Images/cylindrical electric charge distribution.png]]
+![[4 Physics/Images/cylindrical electric charge distribution.png]]
 
 ---
 ### cylindrical electric charge distribution formula
@@ -133,7 +133,7 @@ $$
 ---
 ### planar electric charge distribution
 - electric charge distribution along plane
-![[12 Physics/Images/planar electric charge distribution.png|400]]
+![[4 Physics/Images/planar electric charge distribution.png|400]]
 
 ---
 ### planar electric charge distribution formula
@@ -148,7 +148,7 @@ $$
 ---
 ### parallel planar electric charge distribution
 - electric charge distribution along parallel plane
-![[12 Physics/Images/parallel planar electric charge distribution.png]]
+![[4 Physics/Images/parallel planar electric charge distribution.png]]
 
 ---
 ### parallel planar electric charge distribution formula
@@ -163,7 +163,7 @@ $$
 ---
 ### electric charge density
 - measure of electric charge compactness
-![[12 Physics/Images/electric charge density.png|500]]
+![[4 Physics/Images/electric charge density.png|500]]
 
 ---
 ### electric charge density formula
@@ -183,23 +183,23 @@ $$
 ### electrostatic conductor
 - zero electric field inside closed surface of electrostatic conductor
 - excess electric charge outside closed surface of electrostatic conductor
-![[12 Physics/Images/electrostatic conductor.png]]
+![[4 Physics/Images/electrostatic conductor.png]]
 
 ---
 ### irregular electrostatic conductor
 - total electric charge equal inner electric charge addition with outer electric charge
-![[12 Physics/Images/irregular electrostatic conductor.png]]
+![[4 Physics/Images/irregular electrostatic conductor.png]]
 
 ---
 ### conductor shell
 - electric charge inside spherical conductor equal zero
 - electric charge outside spherical conductor equal total electric charge
-![[12 Physics/Images/conductor shell.png]]
+![[4 Physics/Images/conductor shell.png]]
 
 ---
 ### insulator shell
 - electric charge inside spherical insulator equal electric charge density
 - electric charge outside spherical insulator equal total electric charge
-![[12 Physics/Images/insulator shell.png]]
+![[4 Physics/Images/insulator shell.png]]
 
 ---

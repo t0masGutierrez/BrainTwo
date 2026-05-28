@@ -1,6 +1,6 @@
 ### torque
 - rotational analogue of force
-![300](12%20Physics/Images/torque.png)
+![300](4%20Physics/Images/torque.png)
 
 ---
 ### torque formula
@@ -16,7 +16,7 @@ $$
 ---
 ### tangential torque
 - component of force perpendicular radius
-![300](12%20Physics/Images/tangential%20torque.png)
+![300](4%20Physics/Images/tangential%20torque.png)
 
 ---
 ### tangential torque formula
@@ -31,7 +31,7 @@ $$
 ---
 ### lever torque
 - perpendicular distance from the axis of rotation to the line of action of the force
-![300](12%20Physics/Images/lever%20torque.png)
+![300](4%20Physics/Images/lever%20torque.png)
 
 ---
 ### lever torque formula
@@ -48,7 +48,7 @@ $$
 - if line of action equal axis of rotation then zero torque
 - counterclockwise rotation equal positive torque
 - clockwise rotation equal negative torque
-![400](12%20Physics/Images/torque%20direction%20property.png)
+![400](4%20Physics/Images/torque%20direction%20property.png)
 
 ---
 ### torque direction property formula
@@ -65,7 +65,7 @@ $$
 ---
 ### newtons second rotational law
 - angular acceleration dependent moment of inertia and net external torque acting on moment of inertia
-![[12 Physics/Images/newtons second law.png]]
+![[4 Physics/Images/newtons second law.png]]
 
 ---
 ### newton 2nd rotational formula
@@ -80,7 +80,7 @@ $$
 ---
 ### rotational work
 - transfer of mechanical energy by the component of torque parallel angular displacement
-![200](12%20Physics/Images/rotational%20work.png)
+![200](4%20Physics/Images/rotational%20work.png)
 
 ---
 ### constant rotational work formula
@@ -135,7 +135,7 @@ $$
 ---
 ### rolling kinetic energy
 - translational kinetic energy and rotational kinetic energy
-![300](12%20Physics/Images/rolling%20kinetic%20energy.png)
+![300](4%20Physics/Images/rolling%20kinetic%20energy.png)
 
 ---
 ### rolling kinetic energy formula
@@ -153,7 +153,7 @@ $$
 ### rolling without slipping
 - stationary point of contact between rolling object and surface
 - torque equal static friction
-![500](12%20Physics/Images/rolling%20without%20slipping.png)
+![500](4%20Physics/Images/rolling%20without%20slipping.png)
 
 ---
 ### rolling without slipping formula
@@ -194,7 +194,7 @@ $$
 ---
 ### angular momentum
 - difficulty of stopping or changing direction of rotational motion
-![300](12%20Physics/Images/angular%20momentum.png)
+![300](4%20Physics/Images/angular%20momentum.png)
 
 ---
 ### angular momentum formula
@@ -211,7 +211,7 @@ $$
 ---
 ### angular momentum direction property
 - direction of angular velocity equal direction of angular momentum
-![300](12%20Physics/Images/angular%20momentum%20direction%20property.png)
+![300](4%20Physics/Images/angular%20momentum%20direction%20property.png)
 
 ---
 ### angular momentum direction property formula
@@ -240,7 +240,7 @@ $$
 ---
 ### angular impulse
 - change of angular momentum equal sum of net external torque over time
-![[12 Physics/Images/impulse.png]]
+![[4 Physics/Images/impulse.png]]
 
 ---
 ### constant angular impulse formula
@@ -281,7 +281,7 @@ $$
 ---
 ### precession
 - circular motion of flywheel axis and rotational motion of flywheel
-![200](12%20Physics/Images/precession.png)
+![200](4%20Physics/Images/precession.png)
 
 ---
 ### precession formula
@@ -351,7 +351,7 @@ $$
 ---
 ### center of gravity
 - point inside object acting as the location of total weight
-![[12 Physics/Images/center of gravity.png|300]]
+![[4 Physics/Images/center of gravity.png|300]]
 
 ---
 ### center of gravity formula
@@ -367,7 +367,7 @@ $$
 ---
 ### center of uniform gravity property
 - if uniform gravitational field then center of gravity equal center of mass
-![200](12%20Physics/Images/center%20of%20gravity%20uniform%20property.png)
+![200](4%20Physics/Images/center%20of%20gravity%20uniform%20property.png)
 
 ---
 ### center of uniform gravity property formula
@@ -382,7 +382,7 @@ $$
 ---
 ### area of support
 - region between point of contact
-![400](12%20Physics/Images/area%20of%20support.png)
+![400](4%20Physics/Images/area%20of%20support.png)
 
 ---
 ### area of support formula
@@ -433,7 +433,7 @@ $$
 ---
 ### elastic modulus
 - stiffness of material
-![500](12%20Physics/Images/elastic%20modulus.png)
+![500](4%20Physics/Images/elastic%20modulus.png)
 
 ---
 ### elastic modulus formula

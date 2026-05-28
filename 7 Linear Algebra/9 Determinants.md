@@ -196,7 +196,7 @@ $$
 - nonsingular matrix row equivalent with identity matrix
 - every solution of homogeneous linear system with nonsingular coefficient matrix equal trivial solution
 - there exists nontrivial solution of nonhomogeneous linear system with nonsingular coefficient matrix
-![[9 Linear Algebra/Images/singularity summary.png]]
+![[7 Linear Algebra/Images/singularity summary.png]]
 
 ---
 ### upper triangular matrix determinant

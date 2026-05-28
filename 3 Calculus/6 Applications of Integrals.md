@@ -83,7 +83,7 @@ $$
 ---
 ### area of region between two curves
 - if $f(x)$ and $g(x)$ continuous on $[a, b]$ and $g(x) ≤ f(x)$ then area of region between two curves equal difference of area between $f(x)$ and $g(x)$
-![[13 Calculus/Images/area of region between two curves.png]]
+![[3 Calculus/Images/area of region between two curves.png]]
 
 ---
 ### area of region between two curves formula
@@ -100,7 +100,7 @@ $$
 - identify order of subtrahends by graphing both functions
 - top right function subtraction with bottom left function
 - simplify difference before integration
-![[13 Calculus/Images/calculate area of region between two curves.png]]
+![[3 Calculus/Images/calculate area of region between two curves.png]]
 
 ---
 ### solid of revolution
@@ -109,12 +109,12 @@ $$
 ---
 ### disk volume
 - perpendicular rectangle revolve about axis of revolution
-![[13 Calculus/Images/disk volume.png]]
+![[3 Calculus/Images/disk volume.png]]
 
 ---
 ### disk method
 - approximate solid of revolution as infinite disks
-![[13 Calculus/Images/disk method.png]]
+![[3 Calculus/Images/disk method.png]]
 
 ---
 ### disk method formula
@@ -130,17 +130,17 @@ $$
 - if horizontal axis of revolution then $dx$ equal variable of integration
 - if vertical axis of revolution then $dy$ equal variable of integration
 - if non coordinate axis of revolution then area of region between two curves  
-![[13 Calculus/Images/disk method formula.png]]
+![[3 Calculus/Images/disk method formula.png]]
 
 ---
 ### washer volume
 - perpendicular rectangle revolve about hollow axis of revolution
-![[13 Calculus/Images/washer volume.png]]
+![[3 Calculus/Images/washer volume.png]]
 
 ---
 ### washer method
 - approximate solid of revolution as infinite washers
-![[13 Calculus/Images/washer method.png]]
+![[3 Calculus/Images/washer method.png]]
 
 ---
 ### washer method formula
@@ -155,12 +155,12 @@ $$
 ---
 ### shell volume
 - parallel rectangle revolve about hollow axis of revolution
-![[13 Calculus/Images/shell volume.png]]
+![[3 Calculus/Images/shell volume.png]]
 
 ---
 ### shell method
 - approximate solid of revolution as infinite cylindrical shells
-![[13 Calculus/Images/shell method.png]]
+![[3 Calculus/Images/shell method.png]]
 
 ---
 ### shell formula
@@ -176,18 +176,18 @@ $$
 - if horizontal axis of revolution then $dy$ equal variable of integration
 - if vertical axis of revolution then $dx$ equal variable of integration
 - if non coordinate axis of revolution then area of region between two curves but right top function subtraction with left bottom function
-![[13 Calculus/Images/shell formula.png]]
+![[3 Calculus/Images/shell formula.png]]
 
 ---
 ### disk method versus shell method
 - if horizontal axis of revolution then disk method
 - if vertical axis of revolution then shell method
-![[13 Calculus/Images/disk method versus shell method.png]]
+![[3 Calculus/Images/disk method versus shell method.png]]
 
 ---
 ### arc length
 - distance between two points along arc
-![[13 Calculus/Images/arc length.png]]
+![[3 Calculus/Images/arc length.png]]
 
 ---
 ### arc length formula
@@ -206,7 +206,7 @@ $$
 ---
 ### surface of revolution
 - two dimensional surface from the rotation of function about axis of revolution
-![[13 Calculus/Images/frustum area.png]]
+![[3 Calculus/Images/frustum area.png]]
 
 ---
 ### surface area formula

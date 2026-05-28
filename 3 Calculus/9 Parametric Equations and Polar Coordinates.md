@@ -97,7 +97,7 @@ $$
 ---
 ### polar coordinate system
 - represent coordinate $(x, y)$ with distance and angle
-![[13 Calculus/Images/polar coordinate system.png]]
+![[3 Calculus/Images/polar coordinate system.png]]
 
 ---
 ### polar coordinate formula
@@ -112,7 +112,7 @@ $$
 ---
 ### coordinate system conversion
 - distance equal *x* axis and angle between vectors equal *y* axis
-![[13 Calculus/Images/polar conversion rectangular.png]]
+![[3 Calculus/Images/polar conversion rectangular.png]]
 
 ---
 ### polar conversion rectangular formula
@@ -139,24 +139,24 @@ $$
 - roses
 - circles
 - lemniscates
-![[13 Calculus/Images/polar curve.png]]
+![[3 Calculus/Images/polar curve.png]]
 
 ---
 ### graph polar curve
 - graph $r = f(\theta)$ as rectangular coordinate where $r = y$ and $\theta = x$ 
-![[13 Calculus/Images/graph polar curve.png]]
+![[3 Calculus/Images/graph polar curve.png]]
 
 ---
 ### polar symmetry
 - if both $(r, \theta)$ and $(r, -\theta)$ on polar curve then polar curve symmetric about x axis
 - if both $(r, \theta)$ and $(r, \pi + \theta) = (-r, \theta)$ on polar curve then polar curve symmetric about origin
 - if both $(r, \theta)$ and $(r, \pi - \theta) = (-r, -\theta)$ on polar curve then polar curve symmetric about y axis
-![[13 Calculus/Images/polar symmetry.png]]
+![[3 Calculus/Images/polar symmetry.png]]
 
 ---
 ### derivative
 - slope of secant segment as $\Delta x$ approaches zero
-![[13 Calculus/Images/derivative.png]]
+![[3 Calculus/Images/derivative.png]]
 
 ---
 ### polar derivative formula
@@ -169,7 +169,7 @@ $$
 ---
 ### definite integration
 - operation of finding the area under curve between two limits of integration
-![[13 Calculus/Images/definite integration.png]]
+![[3 Calculus/Images/definite integration.png]]
 
 ---
 ### polar definite integral formula

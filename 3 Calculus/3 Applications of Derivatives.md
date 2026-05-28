@@ -78,7 +78,7 @@ $$
 ### formulate right triangle
 - substitute trigonometric ratio from inverse trigonometric argument into right triangle
 - pythagorean theorem equal third segment
-![[13 Calculus/Images/formulate right triangle.png]]
+![[3 Calculus/Images/formulate right triangle.png]]
 
 ---
 ### inverse trigonometric function
@@ -114,12 +114,12 @@ $$
 ---
 ### maxima formula
 - $f(n) ≥ f(x)$
-![[13 Calculus/Images/maxima formula.png]]
+![[3 Calculus/Images/maxima formula.png]]
 
 ---
 ### minima formula
 - $f(n) ≤ f(x)$
-![[13 Calculus/Images/minima formula.png]]
+![[3 Calculus/Images/minima formula.png]]
 
 ---
 ### local extrema
@@ -135,7 +135,7 @@ $$
 ### critical number
 - point where derivative equal zero
 - point where derivative does not exist
-![[13 Calculus/Images/critical number.png]]
+![[3 Calculus/Images/critical number.png]]
 
 ---
 ### critical number property
@@ -145,12 +145,12 @@ $$
 ---
 ### closed interval global extrema
 - if closed interval then global extrema possibly exists at interval endpoints
-![[13 Calculus/Images/closed interval global extrema.png|300]]
+![[3 Calculus/Images/closed interval global extrema.png|300]]
 
 ---
 ### open interval global extrema
 - if open interval then global extrema impossibly exists at interval endpoints
-![[13 Calculus/Images/open interval global extrema.png]]
+![[3 Calculus/Images/open interval global extrema.png]]
 
 ---
 ### extreme value theorem
@@ -165,7 +165,7 @@ $$
 ---
 ### rolles theorem
 - if $f(x)$ continuous on $[a, b]$ and differentiable on $(a, b)$ and $f(a)$ equal $f(b)$ then there exists local extrema on $(a, b)$
-![[13 Calculus/Images/rolles theorem.png]]
+![[3 Calculus/Images/rolles theorem.png]]
 
 ---
 ### calculate rolles theorem
@@ -176,7 +176,7 @@ $$
 ---
 ### mean value theorem
 - if $f(x)$ continuous on $[a, b]$ and differentiable on $(a, b)$ then there exists tangent segment parallel secant segment
-![[13 Calculus/Images/mean value theorem.png]]
+![[3 Calculus/Images/mean value theorem.png]]
 
 ---
 ### mean value formula
@@ -209,7 +209,7 @@ $$
 - if $f'(x) > 0$ where $a < x < b$ then function increasing
 - if $f'(x) < 0$ where $a < x < b$ then function decreasing
 - if $f'(x) = 0$ where $a < x < b$ then function constant
-![[13 Calculus/Images/increasing decreasing test.png]]
+![[3 Calculus/Images/increasing decreasing test.png]]
 
 ---
 ### calculate increasing decreasing
@@ -222,7 +222,7 @@ $$
 - if $f'(x)$ changes from negative to positive at *n* then $f(n)$ local minima
 - if $f'(x)$ changes from positive to negative at *n* then $f(n)$ local maxima
 - if $f'(x)$ remains equal at *n* then $f(n)$ not extrema
-![[13 Calculus/Images/first derivative test.png]]
+![[3 Calculus/Images/first derivative test.png]]
 
 ---
 ### calculate local extrema
@@ -232,7 +232,7 @@ $$
 ---
 ### concavity
 - curvature of graph
-![[13 Calculus/Images/concavity.png]]
+![[3 Calculus/Images/concavity.png]]
 
 ---
 ### upward concavity
@@ -258,7 +258,7 @@ $$
 ---
 ### inflection point
 - differentiable point on graph where concavity changes
-![[13 Calculus/Images/inflection point.png]]
+![[3 Calculus/Images/inflection point.png]]
 
 ---
 ### calculate inflection point
@@ -270,7 +270,7 @@ $$
 - if $f''(x) > 0$ at *n* then $f(n)$ local minima
 - if $f''(x) < 0$ at n then $f(n)$ local maxima
 - $f'(n)$ must equal 0
-![[13 Calculus/Images/second derivative extrema test.png]]
+![[3 Calculus/Images/second derivative extrema test.png]]
 
 ---
 ### calculate local extrema

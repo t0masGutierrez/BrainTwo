@@ -22,7 +22,7 @@ $$
 ### integration by parts strategy
 - choose *u* in terms of LIATE
 - logarithm, inverse trigonometric, algebraic, trigonometric, exponential
-![[13 Calculus/Images/integration by parts strategy.png]]
+![[3 Calculus/Images/integration by parts strategy.png]]
 
 ---
 ### integration by parts strategy formula
@@ -49,7 +49,7 @@ $$
 ---
 ### tabular integration
 - repeat integration by parts
-![[13 Calculus/Images/tabular integration.png|300]]
+![[3 Calculus/Images/tabular integration.png|300]]
 
 ---
 ### calculate tabular integration
@@ -102,7 +102,7 @@ $$
 ---
 ### trigonometric substitution
 - antiderivatives involving radical functions
-![[13 Calculus/Images/trigonometric substitution.png]]
+![[3 Calculus/Images/trigonometric substitution.png]]
 
 ---
 ### trigonometric substitution formula
@@ -162,7 +162,7 @@ $$
 - analytical
 - symbolical
 - numerical
-![[13 Calculus/Images/methods of integration.png]]
+![[3 Calculus/Images/methods of integration.png]]
 
 ---
 ### numerical integration
@@ -178,7 +178,7 @@ $$
 ---
 ### trapezoidal rule
 - height as function of trapezoid equal approximate area under curve
-![[13 Calculus/Images/trapezoidal rule.png]]
+![[3 Calculus/Images/trapezoidal rule.png]]
 
 ---
 ### trapezoidal formula
@@ -193,7 +193,7 @@ $$
 ---
 ### simpsons rule
 - height as function of parabola equal approximate area under curve
-![[13 Calculus/Images/simpsons rule.png]]
+![[3 Calculus/Images/simpsons rule.png]]
 
 ---
 ### simpsons formula
@@ -227,7 +227,7 @@ $$
 ---
 ### infinite lower limit of integration
 - if limit does exist then improper integral converges
-![[13 Calculus/Images/infinite lower limit of integration.png]]
+![[3 Calculus/Images/infinite lower limit of integration.png]]
 
 ---
 ### infinite lower limit of integration formula
@@ -240,7 +240,7 @@ $$
 ---
 ### infinite upper limit of integration
 - if limit does not exist then improper integral diverges
-![[13 Calculus/Images/infinite upper limit of integration.png]]
+![[3 Calculus/Images/infinite upper limit of integration.png]]
 
 ---
 ### infinite lower limit of integration formula
@@ -253,7 +253,7 @@ $$
 ---
 ### infinite limit of integration
 - if either limits do not exist then improper integral diverges
-![[13 Calculus/Images/infinite limit of integration.png]]
+![[3 Calculus/Images/infinite limit of integration.png]]
 
 ---
 ### infinite limit of integration formula

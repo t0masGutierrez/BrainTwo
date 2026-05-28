@@ -18,7 +18,7 @@ $$
 ---
 ### direction
 - counterclockwise angle between two vectors 
-![[13 Calculus/Images/dot product.png]]
+![[3 Calculus/Images/dot product.png]]
 
 ---
 ### direction formula
@@ -48,7 +48,7 @@ $$
 ---
 ### orthogonal projection
 - orthogonal projection of $\vec y$ onto $\vec x$ equal vector component of $\vec y$ orthogonal $\vec x$ 
-![[9 Linear Algebra/Images/orthogonal projection.png|300]]
+![[7 Linear Algebra/Images/orthogonal projection.png|300]]
 
 ---
 ### orthogonal projection formula

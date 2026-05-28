@@ -42,12 +42,12 @@ $$
 ---
 ### internal energy
 - average distance between atoms increases as internal energy increases
-![[12 Physics/Images/internal energy.png]]
+![[4 Physics/Images/internal energy.png]]
 
 ---
 ### thermal expansion of solid
 - solid expands as temperature increases
-![[12 Physics/Images/thermal expansion of solid.png]]
+![[4 Physics/Images/thermal expansion of solid.png]]
 
 ---
 ### thermal expansion of 1d solid formula
@@ -85,7 +85,7 @@ $$
 ---
 ### thermal expansion of fluid
 - fluid expands as temperature increases
-![[12 Physics/Images/thermal expansion of fluid.png]]
+![[4 Physics/Images/thermal expansion of fluid.png]]
 
 ---
 ### thermal expansion of fluid formula
@@ -105,13 +105,13 @@ $$
 ---
 ### zeroth law of thermodynamics
 - zero net heat flow between objects of the same temperature
-![[12 Physics/Images/zeroth law of thermodynamics.png]]
+![[4 Physics/Images/zeroth law of thermodynamics.png]]
 
 ---
 ### kilocalorie
 - amount of heat necessary to change temperature of 1 kg of water by $1^\circ C$ 
 - temperature change possible via work done or heat transfer
-![[12 Physics/Images/kilocalorie.png]]
+![[4 Physics/Images/kilocalorie.png]]
 
 ---
 ### kilocalorie formula
@@ -125,7 +125,7 @@ $$
 ### specific heat
 - amount of heat that must enter mass to change temperature by $\Delta T$ 
 - high specific heat capacity resist temperature change more than low specific heat capacity 
-![[12 Physics/Images/specific heat.png|400]]
+![[4 Physics/Images/specific heat.png|400]]
 
 ---
 ### specific heat formula
@@ -163,7 +163,7 @@ $$
 - coexistence of two phases
 - heat transfer does not change temperature during phase transition
 - heat transfer does change atomic bonding during phase transition
-![[Physics/Images/phase transition.png|300]]
+![[4 Physics/Images/phase transition.png|300]]
 
 ---
 ### sublimation
@@ -176,7 +176,7 @@ $$
 ---
 ### phase diagram
 - pressure versus temperature
-![[12 Physics/Images/phase diagram.png|400]]
+![[4 Physics/Images/phase diagram.png|400]]
 
 ---
 ### triple point
@@ -189,7 +189,7 @@ $$
 ---
 ### latent heat
 - amount of heat that must enter or exit substance to undergo phase change
-![[12 Physics/Images/latent heat.png]]
+![[4 Physics/Images/latent heat.png]]
 
 ---
 ### latent heat formula
@@ -204,6 +204,6 @@ $$
 ---
 ### phase change diagram
 - temperature versus heat
-![[12 Physics/Images/phase transition diagram.png]]
+![[4 Physics/Images/phase transition diagram.png]]
 
 ---

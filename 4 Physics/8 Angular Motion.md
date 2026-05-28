@@ -1,7 +1,7 @@
 ### rigid body
 - body whose shape and size do not change
 - distances between all points inside the body remain constant
-![300](12%20Physics/Images/rigid%20body.png)
+![300](4%20Physics/Images/rigid%20body.png)
 
 ---
 ### rigid body formula
@@ -16,7 +16,7 @@ $$
 ---
 ### angular position
 - angle as function of time
-![300](12%20Physics/Images/angular%20position.png)
+![300](4%20Physics/Images/angular%20position.png)
 
 ---
 ### angular position formula
@@ -31,7 +31,7 @@ $$
 ---
 ### angular displacement
 - vector change of angular position
-![300](12%20Physics/Images/angular%20displacement.png)
+![300](4%20Physics/Images/angular%20displacement.png)
 
 ---
 ### angular displacement formula
@@ -45,7 +45,7 @@ $$
 ---
 ### average angular velocity
 - angular position per time
-![200](12%20Physics/Images/average%20angular%20velocity.png)
+![200](4%20Physics/Images/average%20angular%20velocity.png)
 
 ---
 ### average angular velocity formula
@@ -60,7 +60,7 @@ $$
 ---
 ### instantaneous angular velocity
 - rate of change of angular position as change of time approaches zero
-![200](12%20Physics/Images/instantaneous%20angular%20velocity.png)
+![200](4%20Physics/Images/instantaneous%20angular%20velocity.png)
 
 ---
 ### instantaneous angular velocity formula
@@ -75,7 +75,7 @@ $$
 ---
 ### average angular acceleration
 - angular velocity per time
-![250](12%20Physics/Images/average%20angular%20acceleration.png)
+![250](4%20Physics/Images/average%20angular%20acceleration.png)
 
 ---
 ### average angular acceleration formula
@@ -90,7 +90,7 @@ $$
 ---
 ### instantaneous angular acceleration
 - rate of change of angular velocity as change of time approaches zero
-![300](12%20Physics/Images/instantaneous%20angular%20acceleration.png)
+![300](4%20Physics/Images/instantaneous%20angular%20acceleration.png)
 
 ---
 ### instantaneous angular acceleration formula
@@ -120,7 +120,7 @@ $$
 ---
 ### tangential velocity
 - rate of change of position along circular path as change of time approaches zero
-![250](12%20Physics/Images/tangential%20velocity.png)
+![250](4%20Physics/Images/tangential%20velocity.png)
 
 ---
 ### tangential velocity formula
@@ -164,7 +164,7 @@ $$
 ---
 ### total acceleration
 - tangential acceleration and radial acceleration
-![250](12%20Physics/Images/total%20acceleration.png)
+![250](4%20Physics/Images/total%20acceleration.png)
 
 ---
 ### total acceleration formula
@@ -207,7 +207,7 @@ $$
 ---
 ### moment of inertia
 - rotational analogue of mass
-![300](12%20Physics/Images/moment%20of%20inertia.png)
+![300](4%20Physics/Images/moment%20of%20inertia.png)
 
 ---
 ### constant moment of inertia formula
@@ -242,7 +242,7 @@ $$
 - center thin hollow cylinder
 - center solid sphere
 - center thin hollow sphere
-![600](12%20Physics/Images/axis%20of%20rotation.png)
+![600](4%20Physics/Images/axis%20of%20rotation.png)
 
 ---
 ### axis of rotation formula
@@ -263,7 +263,7 @@ $$
 ---
 ### parallel axis
 - moment of inertia about parallel center of mass equal sum of moment of inertia between axes
-![[12 Physics/Images/parallel axis.png]]
+![[4 Physics/Images/parallel axis.png]]
 
 ---
 ### parallel axis formula
@@ -279,7 +279,7 @@ $$
 ---
 ### translational kinetic energy
 - kinetic energy of object undergoing translational motion dependent mass and velocity
-![[12 Physics/Images/translational kinetic energy.png]]
+![[4 Physics/Images/translational kinetic energy.png]]
 
 ---
 ### translational kinetic energy formula
@@ -294,7 +294,7 @@ $$
 ---
 ### rotational kinetic energy
 - kinetic energy of object undergoing rotational motion dependent moment of inertia and angular velocity
-![[12 Physics/Images/rotational kinetic energy.png]]
+![[4 Physics/Images/rotational kinetic energy.png]]
 
 ---
 ### rotational kinetic energy formula

@@ -65,7 +65,7 @@ $$
 ---
 ### limit of sequence
 - $a_{n}$ behavior as n approaches infinity
-![[13 Calculus/Images/limit of sequence.png]]
+![[3 Calculus/Images/limit of sequence.png]]
 
 ---
 ### limit of sequence formula
@@ -102,7 +102,7 @@ $$
 - $g(n) ≤ f(n) ≤ h(n)$ for all *x* near *n*
 - $\lim_{n \to \infty} g(n) = \lim_{n \to \infty} h(n) = L$
 - if both conditions met then $\lim_{x \to n}f(x) = L$
-![[13 Calculus/Images/squeeze theorem.png]]
+![[3 Calculus/Images/squeeze theorem.png]]
 
 ---
 ### absolute value theorem of sequence
@@ -224,7 +224,7 @@ $$
 ---
 ### limit of nth partial sum
 - $S_{n}$ behavior as *n* approaches infinity
-![[13 Calculus/Images/limit of nth partial sum.png|300]]
+![[3 Calculus/Images/limit of nth partial sum.png|300]]
 
 ---
 ### limit of nth partial sum formula
@@ -376,7 +376,7 @@ $$
 ---
 ### alternating series test
 - if absolute value of non increasing terms approach zero then series converges
-![[13 Calculus/Images/alternating series test.png]]
+![[3 Calculus/Images/alternating series test.png]]
 
 ---
 ### alternating series test formula
@@ -443,13 +443,13 @@ $$
 - ratio
 - comparison
 - limit comparison
-![[13 Calculus/Images/test strategy.png]] ![[13 Calculus/Images/test strategy1.png]]
+![[3 Calculus/Images/test strategy.png]] ![[3 Calculus/Images/test strategy1.png]]
 
 ---
 ### taylor polynomial
 - polynomial approximation of $f(x)$ about point *c* by finitely summing derivatives of $f(x)$
 - higher degree polynomials better approximate $f(x)$ 
-![[13 Calculus/Images/taylor polynomial.png]]
+![[3 Calculus/Images/taylor polynomial.png]]
 
 ---
 ### taylor polynomial formula
@@ -488,7 +488,7 @@ $$
 ---
 ### domain of power series
 - set of all *x* where power series converges
-![[13 Calculus/Images/domain of power series.png]]
+![[3 Calculus/Images/domain of power series.png]]
 
 ---
 ### power series convergence theorem
@@ -499,18 +499,18 @@ $$
 ---
 ### interval of convergence
 - interval about center where power series converges including endpoint(s)
-![[13 Calculus/Images/interval of convergence.png]]
+![[3 Calculus/Images/interval of convergence.png]]
 
 ---
 ### radius of convergence
 - $\pm$ number about center where power series converges
-![[13 Calculus/Images/radius of convergence.png]]
+![[3 Calculus/Images/radius of convergence.png]]
 
 ---
 ### calculate radius of convergence
 - ratio test or root test
 - if radius of convergence equal finite number then test endpoint convergence
-![[13 Calculus/Images/endpoint convergence.png]]
+![[3 Calculus/Images/endpoint convergence.png]]
 
 ---
 ### endpoint convergence
@@ -540,7 +540,7 @@ $$
 - constant multiple
 - power
 - sum difference
-![[13 Calculus/Images/operations with power series.png]]
+![[3 Calculus/Images/operations with power series.png]]
 
 ---
 ### function conversion power series
@@ -557,7 +557,7 @@ $$
 - arctangent
 - arcsine
 - binomial
-![[13 Calculus/Images/function as power series formula.png]]
+![[3 Calculus/Images/function as power series formula.png]]
 
 ---
 ### taylor series

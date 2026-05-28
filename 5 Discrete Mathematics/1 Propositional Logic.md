@@ -24,50 +24,50 @@
 ### negation
 - opposite of proposition
 - not
-![[11 Discrete Mathematics/Images/negation.png]]
+![[5 Discrete Mathematics/Images/negation.png]]
 
 ---
 ### conjunction
 - joining of both proposition
 - and
-![[11 Discrete Mathematics/Images/conjunction.png]]
+![[5 Discrete Mathematics/Images/conjunction.png]]
 
 ---
 ### inclusive disjunction
 - joining of either proposition
 - or
-![[11 Discrete Mathematics/Images/inclusive disjunction.png]]
+![[5 Discrete Mathematics/Images/inclusive disjunction.png]]
 
 ---
 ### exclusive disjunction
 - joining of either proposition but not both
 - xor
-![[11 Discrete Mathematics/Images/exclusive disjunction.png]]
+![[5 Discrete Mathematics/Images/exclusive disjunction.png]]
 
 ---
 ### conditional
 - if p then q
-![[11 Discrete Mathematics/Images/conditional.png]]
+![[5 Discrete Mathematics/Images/conditional.png]]
 
 ---
 ### inverse
 - if not p then not q
-![[11 Discrete Mathematics/Images/inverse.png]]
+![[5 Discrete Mathematics/Images/inverse.png]]
 
 ---
 ### converse
 - if q then p
-![[11 Discrete Mathematics/Images/converse.png]]
+![[5 Discrete Mathematics/Images/converse.png]]
 
 ---
 ### contrapositive
 - if not q then not p
-![[11 Discrete Mathematics/Images/contrapositive.png]]
+![[5 Discrete Mathematics/Images/contrapositive.png]]
 
 ---
 ### biconditional
 - p if and only if q
-![[11 Discrete Mathematics/Images/biconditional.png]]
+![[5 Discrete Mathematics/Images/biconditional.png]]
 
 ---
 ### equivalent proposition
@@ -113,17 +113,17 @@ $$
 ---
 ### logical equivalence
 - tautological proposition
-![[11 Discrete Mathematics/Images/logical equivalence.png]]
+![[5 Discrete Mathematics/Images/logical equivalence.png]]
 
 ---
 ### conditional logical equivalence
 - tautological conditional
-![[11 Discrete Mathematics/Images/conditional logical equivalence.png]]
+![[5 Discrete Mathematics/Images/conditional logical equivalence.png]]
 
 ---
 ### biconditional logical equivalence
 - tautological biconditional
-![[11 Discrete Mathematics/Images/biconditional logical equivalence.png]]
+![[5 Discrete Mathematics/Images/biconditional logical equivalence.png]]
 
 ---
 ### satisfiable

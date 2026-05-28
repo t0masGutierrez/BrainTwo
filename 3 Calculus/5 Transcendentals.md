@@ -1,6 +1,6 @@
 ### logarithm function
 - exponent as function of product
-![[13 Calculus/Images/logarithm function.png]]
+![[3 Calculus/Images/logarithm function.png]]
 
 ---
 ### logarithm property
@@ -47,7 +47,7 @@ $$
 ---
 ### exponential function
 - product as function of exponent
-![[13 Calculus/Images/exponential function.png]]
+![[3 Calculus/Images/exponential function.png]]
 
 ---
 ### exponential property
@@ -167,7 +167,7 @@ $$
 ### inverse trigonometric function
 - input trigonometric ratio
 - output angle
-![[13 Calculus/Images/inverse trigonometric function.png]]
+![[3 Calculus/Images/inverse trigonometric function.png]]
 
 ---
 ### inverse trigonometric formula
@@ -204,7 +204,7 @@ $$
 ---
 ### hyperbolic function
 - trigonometric functions except unit hyperbola instead of unit circle
-![[13 Calculus/Images/hyperbolic function.png]]
+![[3 Calculus/Images/hyperbolic function.png]]
 
 ---
 ### hyperbolic formula
@@ -227,7 +227,7 @@ $$
 - csch
 - sech
 - coth
-![[13 Calculus/Images/hyperbolic graph.png]]
+![[3 Calculus/Images/hyperbolic graph.png]]
 
 ---
 ### hyperbolic derivative rules
@@ -261,7 +261,7 @@ $$
 - sum difference
 - 2nd power
 - double angle
-![[13 Calculus/Images/hyperbolic identity.png]]
+![[3 Calculus/Images/hyperbolic identity.png]]
 
 ---
 ### inverse hyperbolic function
@@ -288,7 +288,7 @@ $$
 - inverse hyperbolic cosecant
 - inverse hyperbolic secant
 - inverse hyperbolic cotangent
-![[13 Calculus/Images/inverse hyperbolic graph.png]]
+![[3 Calculus/Images/inverse hyperbolic graph.png]]
 
 ---
 ### inverse hyperbolic derivative rules

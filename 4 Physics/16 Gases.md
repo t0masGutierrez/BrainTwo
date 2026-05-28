@@ -1,6 +1,6 @@
 ### heat
 - transfer of thermal energy between systems of different temperature
-![[12 Physics/Images/heat.png|300]]
+![[4 Physics/Images/heat.png|300]]
 
 ---
 ### convection
@@ -42,7 +42,7 @@ $$
 ### conductivity
 - high conductivity equal conductor
 - low conductivity equal insulator
-![[12 Physics/Images/conductivity.png]]
+![[4 Physics/Images/conductivity.png]]
 
 ---
 ### emissivity
@@ -52,7 +52,7 @@ $$
 ---
 ### newtons law of cooling
 - rate of heat loss directly proportional temperature difference between system and surrounding
-![[12 Physics/Images/newtons law of cooling.png]]
+![[4 Physics/Images/newtons law of cooling.png]]
 
 ---
 ### newtons formula of cooling
@@ -69,7 +69,7 @@ $$
 ### boyles law
 - if constant temperature and constant number of moles then pressure inversely proportional volume
 - isothermal
-![[12 Physics/Images/boyles law.png]]
+![[4 Physics/Images/boyles law.png]]
 
 ---
 ### boyles formula
@@ -85,7 +85,7 @@ $$
 ### charles law
 - if constant pressure and constant number of moles then volume directly proportional temperature
 - isobaric
-![[12 Physics/Images/charles law.png]]
+![[4 Physics/Images/charles law.png]]
 
 ---
 ### charles formula
@@ -101,7 +101,7 @@ $$
 ### avagadros law
 - if constant temperature and constant pressure then volume directly proportional number of moles
 - isothermal and isobaric
-![[12 Physics/Images/avagadros law.png|400]]
+![[4 Physics/Images/avagadros law.png|400]]
 
 ---
 ### avagadros formula
@@ -116,7 +116,7 @@ $$
 ---
 ### ideal gas
 - large number of identical molecules that move randomly with translational motion and undergo elastic collisions
-![[12 Physics/Images/ideal gas.png]]
+![[4 Physics/Images/ideal gas.png]]
 
 ---
 ### microscopic ideal gas formula
@@ -195,7 +195,7 @@ $$
 ---
 ### temperature
 - average translational kinetic energy of molecules
-![[12 Physics/Images/temperature.png|400]]
+![[4 Physics/Images/temperature.png|400]]
 
 ---
 ### average translational kinetic energy
@@ -234,7 +234,7 @@ $$
 ---
 ### molecular velocity
 - non uniform distribution of molecular velocity
-![[12 Physics/Images/molecular velocity.png]]
+![[4 Physics/Images/molecular velocity.png]]
 
 ---
 ### molecular velocity formula
@@ -251,7 +251,7 @@ $$
 ---
 ### internal energy
 - kinetic energy of molecular motion
-![[12 Physics/Images/average kinetic energy.png]]
+![[4 Physics/Images/average kinetic energy.png]]
 
 ---
 ### internal energy formula
@@ -276,7 +276,7 @@ $$
 ### degrees of freedom
 - number of velocity components that describe molecular motion
 - translational rotational vibrational
-![[12 Physics/Images/degrees of freedom.png]]
+![[4 Physics/Images/degrees of freedom.png]]
 
 ---
 ### degrees of freedom formula
@@ -308,7 +308,7 @@ $$
 ---
 ### constant volume specific heat capacity
 - specific heat of gas inside rigid container
-![[12 Physics/Images/constant volume specific heat capacity.png]]
+![[4 Physics/Images/constant volume specific heat capacity.png]]
 
 ---
 ### constant volume specific heat capacity formula

@@ -58,7 +58,7 @@ $$
 ---
 ### position function
 - position as function of time
-![[13 Calculus/Images/position function.png]]
+![[3 Calculus/Images/position function.png]]
 
 ---
 ### position formula
@@ -82,7 +82,7 @@ $$
 ---
 ### sigma notation
 - sum of sequence
-![[13 Calculus/Images/sigma notation.png]]
+![[3 Calculus/Images/sigma notation.png]]
 
 ---
 ### sigma formula
@@ -101,7 +101,7 @@ $$
 - surface space of rectangle
 - subintervals equal rectangle width
 - function value at subinterval endpoints equal rectangle height
-![[13 Calculus/Images/area.png]]
+![[3 Calculus/Images/area.png]]
 
 ---
 ### area formula
@@ -133,7 +133,7 @@ $$
 ---
 ### subinterval endpoint
 - bound rectangle width
-![[13 Calculus/Images/subinterval endpoint.png]]
+![[3 Calculus/Images/subinterval endpoint.png]]
 
 ---
 ### subinterval endpoint formula
@@ -174,7 +174,7 @@ $$
 ---
 ### lower sum
 - sum of inscribed rectangle area
-![[13 Calculus/Images/lower sum.png]]
+![[3 Calculus/Images/lower sum.png]]
 
 ---
 ### lower sum formula
@@ -187,7 +187,7 @@ $$
 ---
 ### upper sum
 - sum of circumscribed rectangle area
-![[13 Calculus/Images/upper sum.png]]
+![[3 Calculus/Images/upper sum.png]]
 
 ---
 ### upper sum formula
@@ -215,7 +215,7 @@ $$
 ### area of planar region
 - area of continuous non negative region bound by graph axis endpoints
 - the choice of $cₖ$ no effect on area because limit of sums equal
-![[13 Calculus/Images/area of planar region.png|300]]
+![[3 Calculus/Images/area of planar region.png|300]]
 
 ---
 ### area of planar region formula
@@ -229,7 +229,7 @@ $$
 ---
 ### riemann sum
 - approximate area under curve by dividing curve into rectangles and summing the areas
-![[13 Calculus/Images/riemann sum.png]]
+![[3 Calculus/Images/riemann sum.png]]
 
 ---
 ### riemann sum formula
@@ -328,7 +328,7 @@ $$
 ---
 ### fundamental theorem of calculus
 - difference between antiderivatives equal net change of function on $[a, b]$
-![[13 Calculus/Images/fundamental theorem of calculus.png]]
+![[3 Calculus/Images/fundamental theorem of calculus.png]]
 
 ---
 ### fundamental formula of calculus
@@ -341,7 +341,7 @@ $$
 ---
 ### mean value theorem of integration
 - if $f(x)$ continuous on $[a, b]$ then there exists point such that function value under curve equal average function value over interval
-![[13 Calculus/Images/mean value theorem of integration.png|300]]
+![[3 Calculus/Images/mean value theorem of integration.png|300]]
 
 ---
 ### mean value formula of integration
@@ -354,7 +354,7 @@ $$
 ---
 ### average function value
 - rectangle whose height equal average function value over interval
-![[13 Calculus/Images/average function value.png]]
+![[3 Calculus/Images/average function value.png]]
 
 ---
 ### average function value formula
@@ -384,7 +384,7 @@ $$
 ---
 ### fundamental theorem of calculus
 - derivative of integral on $[a, x]$ equal integrand as function of variable endpoint with respect 
-![[13 Calculus/Images/fundamental theorem of calculus1.png]]
+![[3 Calculus/Images/fundamental theorem of calculus1.png]]
 
 ---
 ### fundamental formula of calculus
@@ -418,7 +418,7 @@ $$
 ---
 ### displacement function
 - cumulative vector change of position as function of time
-![[13 Calculus/Images/displacement function.png]]
+![[3 Calculus/Images/displacement function.png]]
 
 ---
 ### displacement formula
@@ -436,7 +436,7 @@ $$
 ---
 ### distance function
 - cumulative scalar change of position as function of time
-![[13 Calculus/Images/distance function.png]]
+![[3 Calculus/Images/distance function.png]]
 
 ---
 ### distance formula
@@ -520,7 +520,7 @@ $$
 ### definite integration of even function
 - if symmetrical about axis then even function
 - two area of same polarity double area
-![[13 Calculus/Images/definite integration of even function.png]]
+![[3 Calculus/Images/definite integration of even function.png]]
 
 ---
 ### definite integration of even function formula
@@ -534,7 +534,7 @@ $$
 ### definite integration of odd function
 - if symmetrical about origin then odd function
 - two area of opposite polarity cancel area
-![[13 Calculus/Images/definite integration of odd function.png]]
+![[3 Calculus/Images/definite integration of odd function.png]]
 
 ---
 ### definite integration of odd function formula

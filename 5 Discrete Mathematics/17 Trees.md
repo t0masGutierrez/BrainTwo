@@ -14,7 +14,7 @@ $$
 ---
 ### tree graph
 - graph that may not contain loops, multiple edges, cycles, or disconnections
-![[11 Discrete Mathematics/Images/tree.png|500]]
+![[5 Discrete Mathematics/Images/tree.png|500]]
 
 ---
 ### tree graph formula
@@ -30,12 +30,12 @@ $$
 ---
 ### forest graph
 - collection of disjoint trees
-![[11 Discrete Mathematics/Images/forest.png]]
+![[5 Discrete Mathematics/Images/forest.png]]
 
 ---
 ### root tree graph
 - tree graph where single vertex acts as the root and every edge direct away from root
-![[11 Discrete Mathematics/Images/root tree.png|400]]
+![[5 Discrete Mathematics/Images/root tree.png|400]]
 
 ---
 ### parent vertex
@@ -94,7 +94,7 @@ $$
 ---
 ### binary tree
 - root tree where every internal vertex has 2 children vertices
-![[11 Discrete Mathematics/Images/binary tree.png|400]]
+![[5 Discrete Mathematics/Images/binary tree.png|400]]
 
 ---
 ### vertex level

@@ -35,7 +35,7 @@ $$
 ---
 ### sieve of eratosthenes
 - algorithm for finding prime numbers less than integer
-![[11 Discrete Mathematics/Images/sieve of eratosthenes.png]]
+![[5 Discrete Mathematics/Images/sieve of eratosthenes.png]]
 
 ---
 ### calculate sieve of eratosthenes

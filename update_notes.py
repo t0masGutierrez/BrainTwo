@@ -2,12 +2,18 @@ import json
 import os
 import re
 import shutil
+from urllib.parse import quote, unquote
 
 INLINE_MATH_PATTERN = re.compile(r"(?<!\\)\$(.+?)(?<!\\)\$")
 SINGLE_CHAR_SUBSCRIPT_PATTERN = re.compile(r"(?<!\\)_([A-Za-z0-9])(?![A-Za-z0-9{])")
 LEADING_SQUARE_BRACKET_PATTERN = re.compile(r"^(\s*)\[")
+OBSIDIAN_IMAGE_PATTERN = re.compile(r"!\[\[([^|\]\n]+)(?:\|([^\]\n]+))?\]\]")
+MARKDOWN_IMAGE_PATTERN = re.compile(r"!\[([^\]\n]*)\]\(([^)\n]+)\)")
+REMOTE_IMAGE_PATTERN = re.compile(r"^(?:https?:|data:|blob:)", re.IGNORECASE)
 IMAGE_FOLDER_NAME = "Images"
 IGNORED_VAULT_FOLDERS = {"Templates", "Brain.base"}
+VAULT_ROOT = os.path.join(os.path.expanduser("~"), "Obsidian", "BrainTwo")
+OUTPUT_ROOT = os.path.join(os.path.expanduser("~"), "GitHub", "BrainTwo")
 EMBEDDED_LIBRARY_PATTERN = re.compile(
     r'(<script id="library-data" type="application/json">\n)(.*?)(\n\s*</script>)',
     re.DOTALL,
@@ -46,6 +52,60 @@ def list_vault_note_folders(root):
         for folder_name in os.listdir(root)
         if is_vault_note_folder(root, folder_name)
     ]
+
+def folder_label(folder_name):
+    return re.sub(r"^\d+\s*", "", folder_name).strip().lower()
+
+def current_folder_name(folder_name, folder_names):
+    decoded_folder = unquote(folder_name).strip()
+    label = folder_label(decoded_folder)
+    for current_folder in folder_names:
+        if current_folder == decoded_folder or folder_label(current_folder) == label:
+            return current_folder
+    return decoded_folder
+
+def normalize_image_path(image_path, folder_name, folder_names, encode_path=False):
+    stripped_path = image_path.strip()
+    if REMOTE_IMAGE_PATTERN.match(stripped_path):
+        return stripped_path
+
+    decoded_path = unquote(stripped_path).strip().lstrip("/").rstrip("|")
+    parts = decoded_path.split("/")
+    if IMAGE_FOLDER_NAME not in parts:
+        normalized_path = decoded_path
+    else:
+        images_index = parts.index(IMAGE_FOLDER_NAME)
+        if images_index == 0:
+            normalized_path = decoded_path
+        else:
+            image_folder = current_folder_name("/".join(parts[:images_index]), folder_names)
+            image_path_parts = "/".join(parts[images_index:])
+            normalized_path = f"{image_folder}/{image_path_parts}"
+
+    if encode_path:
+        return quote(normalized_path, safe="/")
+    return normalized_path
+
+def normalize_image_references(text, folder_name, folder_names):
+    def replace_obsidian_image(match):
+        image_path = normalize_image_path(match.group(1), folder_name, folder_names)
+        alias = match.group(2)
+        if alias is None:
+            return f"![[{image_path}]]"
+        return f"![[{image_path}|{alias}]]"
+
+    def replace_markdown_image(match):
+        alt_text = match.group(1)
+        image_path = normalize_image_path(
+            match.group(2),
+            folder_name,
+            folder_names,
+            encode_path=True,
+        )
+        return f"![{alt_text}]({image_path})"
+
+    text = OBSIDIAN_IMAGE_PATTERN.sub(replace_obsidian_image, text)
+    return MARKDOWN_IMAGE_PATTERN.sub(replace_markdown_image, text)
 
 def has_generated_note_content(folder_path):
     if not os.path.isdir(folder_path):
@@ -97,8 +157,8 @@ def write_embedded_library_manifest(output, library):
         index_file.write(data)
 
 def update_notes():
-    input = os.path.expanduser("~") + "/Obsidian/brainTwo/"
-    output = os.path.expanduser("~") + "/Github/notes/"
+    input = VAULT_ROOT
+    output = OUTPUT_ROOT
     folder_names = list_vault_note_folders(input)
     input_folders = set(folder_names)
     dirs = {}
@@ -118,7 +178,11 @@ def update_notes():
 
                 # read from obsidian files
                 with open(file_path, "r") as obs:
-                    data = obs.read()
+                    data = normalize_image_references(
+                        obs.read(),
+                        folder_name,
+                        folder_names,
+                    )
                     os.makedirs(os.path.join(output, folder_name), exist_ok=True)
 
                     # write to github files

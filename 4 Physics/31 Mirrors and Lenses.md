@@ -4,7 +4,7 @@
 ---
 ### geometric optics
 - ray nature of light propagation for interactions with objects of larger size
-![[12 Physics/Images/geometric optics.png|300]]
+![[4 Physics/Images/geometric optics.png|300]]
 
 ---
 ### real image
@@ -22,28 +22,28 @@
 ---
 ### plane mirror
 - flat reflecting surface
-![[12 Physics/Images/plane mirror.png|400]]
+![[4 Physics/Images/plane mirror.png|400]]
 
 ---
 ### plane mirror polarity
 - real image on same side as incoming light
 - virtual image on opposite side as outgoing light
-![[12 Physics/Images/plane mirror polarity.png|250]]
+![[4 Physics/Images/plane mirror polarity.png|250]]
 
 ---
 ### parallel plane mirror
 - object between parallel mirror
-![[12 Physics/Images/parallel plane mirror.png|400]]
+![[4 Physics/Images/parallel plane mirror.png|400]]
 
 ---
 ### perpendicular plane mirror
 - object between perpendicular mirror
-![[12 Physics/Images/perpendicular plane mirror.png|300]]
+![[4 Physics/Images/perpendicular plane mirror.png|300]]
 
 ---
 ### two dimension image
 - non point object
-![[12 Physics/Images/two dimension image.png|300]]
+![[4 Physics/Images/two dimension image.png|300]]
 
 ---
 ### lateral magnification
@@ -69,7 +69,7 @@ $$
 ---
 ### spherical mirror
 - curved reflecting surface
-![[12 Physics/Images/spherical mirror.png|300]]
+![[4 Physics/Images/spherical mirror.png|300]]
 
 ---
 ### radius of curvature
@@ -90,27 +90,27 @@ $$
 ---
 ### concave mirror
 - curved reflecting surface with inner curvature
-![[12 Physics/Images/concave mirror.png|200]]
+![[4 Physics/Images/concave mirror.png|200]]
 
 ---
 ### convex mirror
 - curved reflecting surface with outer curvature
-![[12 Physics/Images/convex mirror.png|200]]
+![[4 Physics/Images/convex mirror.png|200]]
 
 ---
 ### parabolic mirror
 - ray parallel optical axis reflect toward focal point
-![[12 Physics/Images/parabolic mirror.png|200]]
+![[4 Physics/Images/parabolic mirror.png|200]]
 
 ---
 ### concave spherical mirror
 - ray parallel optical axis converge to real focal point
-![[12 Physics/Images/small spherical mirror.png|200]]
+![[4 Physics/Images/small spherical mirror.png|200]]
 
 ---
 ### convex spherical mirror
 - ray parallel optical axis diverge from virtual focal point
-![[12 Physics/Images/convex spherical mirror.png|200]]
+![[4 Physics/Images/convex spherical mirror.png|200]]
 
 ---
 ### focal point
@@ -120,7 +120,7 @@ $$
 ---
 ### focal length
 - distance along optical axis between vertex and focal point
-![[12 Physics/Images/focal length.png|300]]
+![[4 Physics/Images/focal length.png|300]]
 
 ---
 ### focal length formula
@@ -149,7 +149,7 @@ $$
 ### ray tracing
 - double ray convergence equal real image
 - double ray divergence equal virtual image
-![[12 Physics/Images/ray tracing.png]]
+![[4 Physics/Images/ray tracing.png]]
 
 ---
 ### concave ray tracing
@@ -157,7 +157,7 @@ $$
 - incident ray intersect focal point and convergent ray parallel optical axis 
 - incident ray intersect center of curvature and convergent ray intersect center of curvature 
 - incident ray intersect vertex and convergent ray symmetrical about optical axis
-![[12 Physics/Images/concave ray tracing.png|400]]
+![[4 Physics/Images/concave ray tracing.png|400]]
 
 ---
 ### calculate concave ray tracing
@@ -173,7 +173,7 @@ $$
 - incident ray intersect focal point and divergent ray parallel optical axis 
 - incident ray intersect center of curvature and divergent ray intersect center of curvature 
 - incident ray intersect vertex and divergent ray symmetrical about optical axis
-![[12 Physics/Images/convex ray tracing.png|400]]
+![[4 Physics/Images/convex ray tracing.png|400]]
 
 ---
 ### calculate convex ray tracing
@@ -182,7 +182,7 @@ $$
 ---
 ### spherical mirror
 - focal length as function of distance
-![[12 Physics/Images/spherical mirror1.png|300]]
+![[4 Physics/Images/spherical mirror1.png|300]]
 
 ---
 ### spherical mirror formula
@@ -200,45 +200,45 @@ $$
 - convex mirror equal negative focal length
 - real image on same side as outgoing light
 - virtual image on opposite side as outgoing light
-![[12 Physics/Images/spherical mirror polarity.png|250]]
+![[4 Physics/Images/spherical mirror polarity.png|250]]
 
 ---
 ### thin lens
 - thickness of lens much less radii of curvature
-![[12 Physics/Images/thin lens.png|400]]
+![[4 Physics/Images/thin lens.png|400]]
 
 ---
 ### convex lens
 - curved refracting surface with focal point on opposite side as incident ray
-![[12 Physics/Images/convex lens.png|500]]
+![[4 Physics/Images/convex lens.png|500]]
 
 ---
 ### concave lens
 - curved refracting surface with focal point on same side as incident ray
-![[12 Physics/Images/concave lens.png|500]]
+![[4 Physics/Images/concave lens.png|500]]
 
 ---
 ### converging lens
 - ray parallel optical axis converge to real focal point
-![[12 Physics/Images/converging lens.png|350]]
+![[4 Physics/Images/converging lens.png|350]]
 
 ---
 ### diverging lens
 - ray parallel optical axis diverge from virtual focal point
-![[12 Physics/Images/diverging lens.png|350]]
+![[4 Physics/Images/diverging lens.png|350]]
 
 ---
 ### ray tracing
 - double ray convergence equal real image
 - double ray divergence equal virtual image
-![[12 Physics/Images/lens ray tracing.png|600]]
+![[4 Physics/Images/lens ray tracing.png|600]]
 
 ---
 ### convex ray tracing
 - incident ray parallel optical axis and convergent ray intersect 2nd focal point
 - incident ray intersect vertex and convergent ray symmetrical about optical axis
 - incident ray intersect 1st focal point and convergent ray parallel optical axis 
-![[12 Physics/Images/lens convex ray tracing.png|600]]
+![[4 Physics/Images/lens convex ray tracing.png|600]]
 
 ---
 ### calculate convex ray tracing
@@ -253,7 +253,7 @@ $$
 - incident ray parallel optical axis and divergent ray intersect 1st focal point
 - incident ray intersect vertex and divergent ray symmetrical about optical axis
 - incident ray intersect 2nd focal point and divergent ray parallel optical axis 
-![[12 Physics/Images/lens concave ray tracing.png|600]]
+![[4 Physics/Images/lens concave ray tracing.png|600]]
 
 ---
 ### calculate concave ray tracing
@@ -262,7 +262,7 @@ $$
 ---
 ### lens maker
 - focal length as function of refraction index and radius of curvature
-![[12 Physics/Images/thin lens1.png|450]]
+![[4 Physics/Images/thin lens1.png|450]]
 
 ---
 ### lens maker formula
@@ -280,17 +280,17 @@ $$
 - concave lens equal negative focal length
 - real image on opposite side as object
 - virtual image on same side as object
-![[12 Physics/Images/spherical mirror polarity.png|250]]
+![[4 Physics/Images/spherical mirror polarity.png|250]]
 
 ---
 ### the eye
 - retina equal focusing plane
-![[12 Physics/Images/the eye.png|400]]
+![[4 Physics/Images/the eye.png|400]]
 
 ---
 ### accommodation
 - adjust focal length by changing shape of lens 
-![[12 Physics/Images/accommodation.png|300]]
+![[4 Physics/Images/accommodation.png|300]]
 
 ---
 ### calculate accommodation
@@ -308,7 +308,7 @@ $$
 ---
 ### myopia
 - nearsightedness or blurriness of further object due to over convergence
-![[12 Physics/Images/myopia.png|300]]
+![[4 Physics/Images/myopia.png|300]]
 
 ---
 ### calculate myopia
@@ -317,7 +317,7 @@ $$
 ---
 ### hyperopia
 - farsightedness or blurriness of nearer object due to under convergence
-![[12 Physics/Images/hyperopia.png|300]]
+![[4 Physics/Images/hyperopia.png|300]]
 
 ---
 ### calculate hyperopia
@@ -339,12 +339,12 @@ $$
 ---
 ### the camera
 - definition
-![[12 Physics/Images/the camera.png|400]]
+![[4 Physics/Images/the camera.png|400]]
 
 ---
 ### focal length
 - distance along optical axis between vertex and focal point
-![[12 Physics/Images/focal length1.png]]
+![[4 Physics/Images/focal length1.png]]
 
 ---
 ### calculate focal length
@@ -363,7 +363,7 @@ $$
 ---
 ### f number
 - ratio that control the amount of incoming light through sensor
-![[12 Physics/Images/f number.png|250]]
+![[4 Physics/Images/f number.png|250]]
 
 ---
 ### f number formula
@@ -391,7 +391,7 @@ $$
 ---
 ### angular magnification
 - ratio of angular size between image and object
-![[12 Physics/Images/angular magnification.png|400]]
+![[4 Physics/Images/angular magnification.png|400]]
 
 ---
 ### angular magnification formula
@@ -410,12 +410,12 @@ $$
 ---
 ### the magnifier
 - increase angular size
-![[12 Physics/Images/the magnifier.png|400]]
+![[4 Physics/Images/the magnifier.png|400]]
 
 ---
 ### simple magnification
 - magnification where object distance equal focal length
-![[12 Physics/Images/simple magnification.png|300]]
+![[4 Physics/Images/simple magnification.png|300]]
 
 ---
 ### simple magnification formula
@@ -444,7 +444,7 @@ $$
 ---
 ### the microscope
 - magnify near object
-![[12 Physics/Images/the microscope.png|250]]
+![[4 Physics/Images/the microscope.png|250]]
 
 ---
 ### objective lens
@@ -467,7 +467,7 @@ $$
 ---
 ### microscope magnification
 - lateral magnification of objective lens and angular magnification of eyepiece lens
-![[12 Physics/Images/microscope magnification.png|400]]
+![[4 Physics/Images/microscope magnification.png|400]]
 
 ---
 ### microscope magnification formula
@@ -486,12 +486,12 @@ $$
 ---
 ### the telescope
 - magnify far object
-![[12 Physics/Images/the telescope.png|300]]
+![[4 Physics/Images/the telescope.png|300]]
 
 ---
 ### refracting telescope magnification
 - lateral magnification of objective lens and angular magnification of eyepiece lens
-![[12 Physics/Images/refracting telescope.png|500]]
+![[4 Physics/Images/refracting telescope.png|500]]
 
 ---
 ### refracting telescope magnification formula
@@ -509,7 +509,7 @@ $$
 ---
 ### reflecting telescope
 - refracting telescope except replace objective lens with mirror
-![[12 Physics/Images/reflecting telescope.png|400]]
+![[4 Physics/Images/reflecting telescope.png|400]]
 
 ---
 ### calculate reflecting telescope
@@ -518,21 +518,21 @@ $$
 ---
 ### aberration
 - distortion of image due to differing focal point
-![[12 Physics/Images/abberation.png|300]]
+![[4 Physics/Images/abberation.png|300]]
 
 ---
 ### spherical aberration
 - ray parallel optical axis focus on different point
-![[12 Physics/Images/spherical abberation.png|200]]
+![[4 Physics/Images/spherical abberation.png|200]]
 
 ---
 ### comatic aberration
 - ray parallel non optical axis focus on different point
-![[12 Physics/Images/comatic abberation.png|250]]
+![[4 Physics/Images/comatic abberation.png|250]]
 
 ---
 ### chromatic aberration
 - light of different wavelength focus on different point
-![[12 Physics/Images/chromatic aberration.png]]
+![[4 Physics/Images/chromatic aberration.png]]
 
 ---

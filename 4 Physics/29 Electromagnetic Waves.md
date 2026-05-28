@@ -1,16 +1,16 @@
 ### transverse wave
 - particle motion perpendicular wave motion
-![[12 Physics/Images/transverse wave.png|400]]
+![[4 Physics/Images/transverse wave.png|400]]
 
 ---
 ### electromagnetic wave
 - oscillatory disturbances that propagate through space and transfer electromagnetic energy
-![[12 Physics/Images/electromagnetic wave.png|400]]
+![[4 Physics/Images/electromagnetic wave.png|400]]
 
 ---
 ### wave position
 - field magnitude as function of space and time
-![[12 Physics/Images/electromagnetic wave position.png|300]]
+![[4 Physics/Images/electromagnetic wave position.png|300]]
 
 ---
 ### wave position formula
@@ -30,7 +30,7 @@ $$
 ---
 ### electromagnetic ratio
 - speed of light
-![[12 Physics/Images/electromagnetic ratio.png|500]]
+![[4 Physics/Images/electromagnetic ratio.png|500]]
 
 ---
 ### electromagnetic ratio formula
@@ -45,7 +45,7 @@ $$
 ---
 ### wave velocity
 - rate of wavefront
-![[12 Physics/Images/wave velocity.png|300]]
+![[4 Physics/Images/wave velocity.png|300]]
 
 ---
 ### wave velocity formula
@@ -90,7 +90,7 @@ $$
 ---
 ### energy density
 - measure of electromagnetic energy compactness
-![[12 Physics/Images/energy density.png|300]]
+![[4 Physics/Images/energy density.png|300]]
 
 ---
 ### average energy density formula
@@ -119,7 +119,7 @@ $$
 ---
 ### poynting
 - rate of energy flow through normal surface
-![[12 Physics/Images/intensity.png]]
+![[4 Physics/Images/intensity.png]]
 
 ---
 ### average poynting formula
@@ -184,7 +184,7 @@ $$
 ---
 ### electromagnetic spectrum
 - range of electromagnetic waves
-![[12 Physics/Images/electromagnetic spectrum.png|500]]
+![[4 Physics/Images/electromagnetic spectrum.png|500]]
 
 ---
 ### visible light
@@ -194,12 +194,12 @@ $$
 - yellow
 - orange
 - red
-![[12 Physics/Images/visible wave.png|300]]
+![[4 Physics/Images/visible wave.png|300]]
 
 ---
 ### radiation pressure
 - transfer of momentum from the application of local force by electromagnetic radiation
-![[12 Physics/Images/radiation pressure.png|300]]
+![[4 Physics/Images/radiation pressure.png|300]]
 
 ---
 ### radiation pressure absorption formula
@@ -228,7 +228,7 @@ $$
 ---
 ### standing wave
 - two identical waves traveling opposite directions that oscillate between constructive interference and destructive interference
-![[12 Physics/Images/standing wave.gif]]
+![[4 Physics/Images/standing wave.gif]]
 
 ---
 ### wave position
@@ -252,23 +252,23 @@ $$
 ---
 ### node
 - position of zero displacement
-![[12 Physics/Images/nodal plane.png|400]]
+![[4 Physics/Images/nodal plane.png|400]]
 
 ---
 ### antinode
 - position of maximum displacement
-![[12 Physics/Images/node.png]]
+![[4 Physics/Images/node.png]]
 
 ---
 ### fundamental mode
 - lowest possible oscillation frequency of standing wave
-![[12 Physics/Images/fundamental mode.png]]
+![[4 Physics/Images/fundamental mode.png]]
 
 ---
 ### normal mode
 - possible standing wave pattern where all particles oscillate with the same frequency
 - single antinode equal fundamental mode, 1st harmonic, and 0th overtone
-![[12 Physics/Images/normal mode.png]]
+![[4 Physics/Images/normal mode.png]]
 
 ---
 ### resonant wavelength

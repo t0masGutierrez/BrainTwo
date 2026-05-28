@@ -1,6 +1,6 @@
 ### point mass
 - total mass concentrated at single point
-![250](12%20Physics/Images/point%20mass.png)
+![250](4%20Physics/Images/point%20mass.png)
 
 ---
 ### point mass formula
@@ -16,7 +16,7 @@ $$
 ---
 ### newtons law of gravitation
 - attractive force between two point masses directly proportional product of masses and inversely proportional square of distance between center of masses
-![[12 Physics/Images/newtons law of gravitation.png|500]]
+![[4 Physics/Images/newtons law of gravitation.png|500]]
 
 ---
 ### newtons formula of gravitation
@@ -33,7 +33,7 @@ $$
 ---
 ### gravitational field
 - region of space around mass where other masses experience gravitational force
-![[12 Physics/Images/gravitational field.png|200]]
+![[4 Physics/Images/gravitational field.png|200]]
 
 ---
 ### gravitational field formula
@@ -52,7 +52,7 @@ $$
 ---
 ### gravitational potential energy
 - potential energy of gravity as function of distance
-![[12 Physics/Images/gravitational potential energy.png]]
+![[4 Physics/Images/gravitational potential energy.png]]
 
 ---
 ### gravitational potential energy formula
@@ -97,12 +97,12 @@ $$
 - negative mechanical energy equal circular orbit or elliptical orbit
 - positive mechanical energy equal hyperbolic orbit
 - zero mechanical energy equal parabolic orbit
-![[12 Physics/Images/orbital motion.png]]
+![[4 Physics/Images/orbital motion.png]]
 
 ---
 ### circular orbit
 - uniform circular motion of object about mass
-![[12 Physics/Images/circular orbit.png]]
+![[4 Physics/Images/circular orbit.png]]
 
 ---
 ### circular orbit energy formula
@@ -168,22 +168,22 @@ $$
 - ellipse
 - parabola
 - hyperbola
-![[12 Physics/Images/conic section.png]]
+![[4 Physics/Images/conic section.png]]
 
 ---
 ### keplers 1st law
 - planets follow elliptical orbit with focal sun
-![[12 Physics/Images/keplers 1st law.png]]
+![[4 Physics/Images/keplers 1st law.png]]
 
 ---
 ### keplers 2nd law
 - planets conserve angular momentum
 - faster motion when closer sun and slower motion when further sun
-![[12 Physics/Images/keplers 2nd law.png|500]]
+![[4 Physics/Images/keplers 2nd law.png|500]]
 
 ---
 ### keplers 3rd law
 - $T^2 \propto a^3$ where *T* equal period and *a* equal semi major axis
-![[12 Physics/Images/keplers 3rd law.png|400]]
+![[4 Physics/Images/keplers 3rd law.png|400]]
 
 ---

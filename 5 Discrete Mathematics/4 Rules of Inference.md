@@ -34,7 +34,7 @@ $$
 ---
 ### propositional rule of inference
 - valid argument form prove argument validity
-![[11 Discrete Mathematics/Images/propositional rule of inference.png]]
+![[5 Discrete Mathematics/Images/propositional rule of inference.png]]
 
 ---
 ### fallacy
@@ -79,6 +79,6 @@ $$
 ---
 ### predicate rule of inference
 - valid argument form prove argument validity
-![[11 Discrete Mathematics/Images/predicate rule of inference.png]]
+![[5 Discrete Mathematics/Images/predicate rule of inference.png]]
 
 ---

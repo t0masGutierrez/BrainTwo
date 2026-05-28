@@ -33,7 +33,7 @@ $$
 ### quantification
 - express the extent of predicate truth over range of elements
 - truth dependent on domain of discourse
-![[11 Discrete Mathematics/Images/quantification.png]]
+![[5 Discrete Mathematics/Images/quantification.png]]
 
 ---
 ### universal quantification
@@ -114,12 +114,12 @@ $$
 ---
 ### quantifier logical equivalence
 - quantifiers that always have the same truth value regardless of predicates and domains of discourse
-![[11 Discrete Mathematics/Images/quantifier logical equivalence.png]]
+![[5 Discrete Mathematics/Images/quantifier logical equivalence.png]]
 
 ---
 ### quantification nest
 - scope of quantification includes multiple quantifiers
-![[11 Discrete Mathematics/Images/quantification nest.png]]
+![[5 Discrete Mathematics/Images/quantification nest.png]]
 
 ---
 ### negation of quantification nest

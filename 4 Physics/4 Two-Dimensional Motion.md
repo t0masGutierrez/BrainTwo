@@ -1,6 +1,6 @@
 ### position vector
 - location as function of time
-![[12 Physics/Images/position vector.png]]
+![[4 Physics/Images/position vector.png]]
 
 ---
 ### position vector formula
@@ -18,7 +18,7 @@ $$
 ---
 ### displacement vector
 - vector change of position
-![[12 Physics/Images/displacement vector.png]]
+![[4 Physics/Images/displacement vector.png]]
 
 ---
 ### displacement vector formula
@@ -36,7 +36,7 @@ $$
 ---
 ### velocity vector
 - rate of change of position as change of time approaches zero
-![300](12%20Physics/Images/velocity%20vector.png)
+![300](4%20Physics/Images/velocity%20vector.png)
 
 ---
 ### velocity vector formula
@@ -76,7 +76,7 @@ $$
 - motion of freefalling object along two axes
 - horizontal motion under constant velocity
 - vertical motion under constant acceleration
-![[12 Physics/Images/projectile motion.png]]
+![[4 Physics/Images/projectile motion.png]]
 
 ---
 ### projectile motion initial velocity formula
@@ -114,7 +114,7 @@ $$
 ---
 ### uniform circular motion
 - constant speed along circular path with nonzero acceleration
-![](12%20Physics/Images/uniform%20circular%20motion.png)
+![](4%20Physics/Images/uniform%20circular%20motion.png)
 
 ---
 ### uniform circular motion formula
@@ -157,7 +157,7 @@ $$
 - maximum radial acceleration equal maximum tangential velocity
 - change of speed equal acceleration vector antiparallel velocity vector
 - minimum radial acceleration equal minimum tangential velocity
-![300](12%20Physics/Images/nonuniform%20circular%20motion.png)
+![300](4%20Physics/Images/nonuniform%20circular%20motion.png)
 
 ---
 ### nonuniform circular motion formula
@@ -172,7 +172,7 @@ $$
 ### nonuniform radial acceleration
 - acceleration vector perpendicular circular path equal change of direction
 - acceleration vector parallel circular path equal change of speed
-![400](12%20Physics/Images/nonuniform%20radial%20acceleration.png)
+![400](4%20Physics/Images/nonuniform%20radial%20acceleration.png)
 
 ---
 ### nonuniform radial acceleration formula
@@ -190,7 +190,7 @@ $$
 - both motion equal constant magnitude of acceleration
 - projectile motion motion equal constant direction of acceleration
 - uniform circular motion equal varying direction of acceleration
-![400](12%20Physics/Images/projectile%20motion%20versus%20uniform%20circular%20motion.png)
+![400](4%20Physics/Images/projectile%20motion%20versus%20uniform%20circular%20motion.png)
 
 ---
 ### projectile motion versus uniform circular motion formula

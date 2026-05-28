@@ -13,7 +13,7 @@ $$
 ---
 ### distance
 - scalar length of path
-![300](12%20Physics/Images/distance.png)
+![300](4%20Physics/Images/distance.png)
 
 ---
 ### distance formula
@@ -27,7 +27,7 @@ $$
 ---
 ### displacement
 - vector change of position
-![300](8%20Physics/Images/displacement.png|)
+![300](4%20Physics/Images/displacement.png)
 
 ---
 ### displacement formula
@@ -84,7 +84,7 @@ $$
 ---
 ### instantaneous velocity
 - rate of change of position as change of time approaches zero
-![[12 Physics/Images/instantaneous velocity.png|300]]
+![[4 Physics/Images/instantaneous velocity.png|300]]
 
 ---
 ### instantaneous velocity formula
@@ -115,7 +115,7 @@ $$
 ---
 ### instantaneous acceleration
 - rate of change of velocity as change of time approaches zero
-![[12 Physics/Images/instantaneous acceleration.png|300]]
+![[4 Physics/Images/instantaneous acceleration.png|300]]
 
 ---
 ### instantaneous acceleration formula
@@ -132,7 +132,7 @@ $$
 ### delta speed property
 - if direction of velocity equal direction of acceleration then increasing speed
 - if direction of velocity not equal direction of acceleration then decreasing speed
-![[12 Physics/Images/changing speed.png|300]]
+![[4 Physics/Images/changing speed.png|300]]
 
 ---
 ### delta speed property formula
@@ -228,7 +228,7 @@ $$
 ---
 ### free fall
 - one-dimensional motion under no other force except gravity
-![](12%20Physics/Images/free%20fall.png)
+![](4%20Physics/Images/free%20fall.png)
 
 ---
 ### free fall formula
@@ -245,7 +245,7 @@ $$
 ---
 ### relative motion
 - motion of object A relative to object B
-![300](12%20Physics/Images/relative%20motion.png)
+![300](4%20Physics/Images/relative%20motion.png)
 
 ---
 ### relative motion formula

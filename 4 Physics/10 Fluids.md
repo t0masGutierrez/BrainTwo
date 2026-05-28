@@ -6,7 +6,7 @@
 - definite shape
 - definite volume
 - vibrational motion
-![](12%20Physics/Images/solid.png)
+![](4%20Physics/Images/solid.png)
 
 ---
 ### liquid
@@ -14,7 +14,7 @@
 - definite volume
 - incompressible fluid
 - translational motion
-![](12%20Physics/Images/liquid.png)
+![](4%20Physics/Images/liquid.png)
 
 ---
 ### gas
@@ -22,12 +22,12 @@
 - indefinite volume
 - compressible fluid
 - random motion
-![](12%20Physics/Images/gas.png)
+![](4%20Physics/Images/gas.png)
 
 ---
 ### volume
 - amount of three dimensional space within object
-![500](12%20Physics/Images/volume.png)
+![500](4%20Physics/Images/volume.png)
 
 ---
 ### volume formula
@@ -42,7 +42,7 @@ $$
 ---
 ### density
 - measure of compactness
-![400](12%20Physics/Images/density.png)
+![400](4%20Physics/Images/density.png)
 
 ---
 ### density formula
@@ -70,7 +70,7 @@ $$
 ---
 ### pressure
 - measure of local force
-![[12 Physics/Images/pressure.png]]
+![[4 Physics/Images/pressure.png]]
 
 ---
 ### pressure formula
@@ -85,7 +85,7 @@ $$
 ---
 ### atmospheric pressure
 - weight of air column
-![[12 Physics/Images/atmospheric pressure.png]]
+![[4 Physics/Images/atmospheric pressure.png]]
 
 ---
 ### atmospheric pressure formula
@@ -98,7 +98,7 @@ $$
 ---
 ### hydrostatic pressure
 - weight of fluid column at rest with uniform density
-![250](12%20Physics/Images/hydrostatic%20pressure.png)
+![250](4%20Physics/Images/hydrostatic%20pressure.png)
 
 ---
 ### hydrostatic pressure formula
@@ -150,17 +150,17 @@ $$
 ---
 ### mercury barometer
 - measure atmospheric pressure by the position of mercury
-![200](12%20Physics/Images/mercury%20barometer.png)
+![200](4%20Physics/Images/mercury%20barometer.png)
 
 ---
 ### open-tube manometer
 - measure gas pressure by comparing the position of fluid column
-![200](12%20Physics/Images/open-tube%20manometer.png)
+![200](4%20Physics/Images/open-tube%20manometer.png)
 
 ---
 ### pascals principle
 - change of pressure within enclosed fluid transmit equally throughout the fluid
-![300](12%20Physics/Images/pascals%20principle.png)
+![300](4%20Physics/Images/pascals%20principle.png)
 
 ---
 ### pascals principle formula
@@ -175,7 +175,7 @@ $$
 ---
 ### archimedes principle
 - buoyant force equal the weight of displaced fluid
-![400](12%20Physics/Images/archimedes%20principle.png)
+![400](4%20Physics/Images/archimedes%20principle.png)
 
 ---
 ### archimedes principle formula
@@ -203,7 +203,7 @@ $$
 ---
 ### buoyant force
 - upward force by fluid on immersed object because of the pressure imbalance between the top and bottom of immersed object
-![[12 Physics/Images/buoyant force.png]]
+![[4 Physics/Images/buoyant force.png]]
 
 ---
 ### buoyant force formula
@@ -235,7 +235,7 @@ $$
 ---
 ### submergence
 - fraction of immersed object
-![400](12%20Physics/Images/submergence.png)
+![400](4%20Physics/Images/submergence.png)
 
 ---
 ### submergence formula
@@ -267,7 +267,7 @@ $$
 ### surface tension
 - reducing surface area reduces the number of high-energy surface molecules
 - minimizing surface area minimizes potential energy
-![200](12%20Physics/Images/surface%20tension.png)
+![200](4%20Physics/Images/surface%20tension.png)
 
 ---
 ### surface tension formula
@@ -315,22 +315,22 @@ $$
 ---
 ### laminar flow
 - regular, steady fluid flow
-![300](12%20Physics/Images/laminar%20flow.png)
+![300](4%20Physics/Images/laminar%20flow.png)
 
 ---
 ### turbulent flow
 - irregular, unsteady fluid flow
-![300](12%20Physics/Images/turbulent%20flow.png)
+![300](4%20Physics/Images/turbulent%20flow.png)
 
 ---
 ### incompressible fluid
 - fluid flow with constant density 
-![[12 Physics/Images/incompressible fluid.png]]
+![[4 Physics/Images/incompressible fluid.png]]
 
 ---
 ### viscous fluid
 - fluid flow with viscosity or internal friction because neighboring layers of fluid resist sliding past each other
-![500](12%20Physics/Images/viscous%20fluid.png)
+![500](4%20Physics/Images/viscous%20fluid.png)
 
 ---
 ### ideal fluid
@@ -348,7 +348,7 @@ $$
 ---
 ### volume flow rate
 - amount of fluid flow through cross-section over time
-![200](12%20Physics/Images/volume%20flow%20rate.png)
+![200](4%20Physics/Images/volume%20flow%20rate.png)
 
 ---
 ### volume flow rate formula
@@ -365,7 +365,7 @@ $$
 ---
 ### continuity
 - for incompressible fluid there exists inverse relationship between velocity and area
-![400](12%20Physics/Images/continuity.png)
+![400](4%20Physics/Images/continuity.png)
 
 ---
 ### continuity formula
@@ -380,7 +380,7 @@ $$
 ---
 ### bernoulli principle
 - for ideal fluid there exists inverse relationship between pressure and velocity
-![200](12%20Physics/Images/bernoulli%20principle.png)
+![200](4%20Physics/Images/bernoulli%20principle.png)
 
 ---
 ### bernoulli principle formula

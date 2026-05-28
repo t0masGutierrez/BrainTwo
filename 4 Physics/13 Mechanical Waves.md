@@ -4,7 +4,7 @@
 ---
 ### pulse
 - single non oscillatory disturbance that propagates through medium with constant amplitude
-![[12 Physics/Images/pulse.png|300]]
+![[4 Physics/Images/pulse.png|300]]
 
 ---
 ### pulse formula
@@ -21,14 +21,14 @@ $$
 - vertical particle oscillation
 - particle motion perpendicular wave motion
 - horizontal wave propagation
-![[12 Physics/Images/transverse wave.png|400]]
+![[4 Physics/Images/transverse wave.png|400]]
 
 ---
 ### longitudinal wave
 - horizontal particle oscillation
 - particle motion parallel wave motion
 - horizontal wave propagation
-![[12 Physics/Images/longitudinal wave.png]]
+![[4 Physics/Images/longitudinal wave.png]]
 
 ---
 ### wave position
@@ -50,7 +50,7 @@ $$
 ---
 ### wavelength
 - distance between 1 revolution
-![[12 Physics/Images/wavelength.png]]
+![[4 Physics/Images/wavelength.png]]
 
 ---
 ### wave number
@@ -81,7 +81,7 @@ $$
 ---
 ### wave function
 - temporal acceleration as function of spatial curvature 
-![[12 Physics/Images/wave function.png]]
+![[4 Physics/Images/wave function.png]]
 
 ---
 ### wave function formula
@@ -143,7 +143,7 @@ $$
 ---
 ### wavefront
 - imaginary perpendicular surface intersecting all waves in phase
-![[12 Physics/Images/wavefront.png|400]]
+![[4 Physics/Images/wavefront.png|400]]
 
 ---
 ### wave velocity
@@ -186,27 +186,27 @@ $$
 ---
 ### moveable boundary
 - wave change horizontal direction
-![[12 Physics/Images/moveable boundary.png]]
+![[4 Physics/Images/moveable boundary.png]]
 
 ---
 ### immoveable boundary
 - wave change horizontal direction and vertical direction
-![[12 Physics/Images/immoveable boundary.png]]
+![[4 Physics/Images/immoveable boundary.png]]
 
 ---
 ### superposition
 - combination of two or more waves equal the sum of amplitudes
-![[12 Physics/Images/superposition.png|500]]
+![[4 Physics/Images/superposition.png|500]]
 
 ---
 ### constructive interference
 - combination of two or more waves equal larger wave
-![[12 Physics/Images/constructive interference.png|300]]
+![[4 Physics/Images/constructive interference.png|300]]
 
 ---
 ### destructive interference
 - combination of two or more waves equal smaller wave
-![[12 Physics/Images/destructive interference.png|300]]
+![[4 Physics/Images/destructive interference.png|300]]
 
 ---
 ### in phase motion
@@ -227,33 +227,33 @@ $$
 ---
 ### resonance
 - driving frequency equal natural frequency thus maximizing amplitude
-![[12 Physics/Images/resonance.png]]
+![[4 Physics/Images/resonance.png]]
 
 ---
 ### standing wave
 - two identical waves traveling opposite directions that oscillate between constructive interference and destructive interference
-![[12 Physics/Images/standing wave.gif]]
+![[4 Physics/Images/standing wave.gif]]
 
 ---
 ### node
 - position of zero displacement
-![[12 Physics/Images/node.png]]
+![[4 Physics/Images/node.png]]
 
 ---
 ### antinode
 - position of maximum displacement
-![[12 Physics/Images/antinode.png]]
+![[4 Physics/Images/antinode.png]]
 
 ---
 ### fundamental mode
 - lowest possible oscillation frequency of standing wave
-![[12 Physics/Images/fundamental mode.png]]
+![[4 Physics/Images/fundamental mode.png]]
 
 ---
 ### normal mode
 - possible standing wave pattern where all particles oscillate with the same frequency
 - single antinode equal fundamental mode, 1st harmonic, and 0th overtone
-![[12 Physics/Images/normal mode.png]]
+![[4 Physics/Images/normal mode.png]]
 
 ---
 ### resonant wavelength
@@ -304,7 +304,7 @@ $$
 ---
 ### fourier transform
 - represent sinusoidal wave as sum of sinusoidal waves
-![[12 Physics/Images/fourier transform.png|300]]
+![[4 Physics/Images/fourier transform.png|300]]
 
 ---
 

@@ -4,7 +4,7 @@
 ---
 ### AC electric current
 - sinusoidal function of time varying electric current
-![[12 Physics/Images/AC electric current.png|300]]
+![[4 Physics/Images/AC electric current.png|300]]
 
 ---
 ### AC electric current formula
@@ -20,7 +20,7 @@ $$
 ---
 ### AC voltage
 - sinusoidal function of time varying voltage
-![[12 Physics/Images/AC voltage.png|300]]
+![[4 Physics/Images/AC voltage.png|300]]
 
 ---
 ### AC voltage formula
@@ -37,7 +37,7 @@ $$
 ---
 ### rms electric current
 - root mean square of electric current
-![[12 Physics/Images/rms electric current.png|300]]
+![[4 Physics/Images/rms electric current.png|300]]
 
 ---
 ### rms electric current
@@ -64,7 +64,7 @@ $$
 ---
 ### resistor
 - electric component designed to resist electric current
-![[12 Physics/Images/resistor2.png|400]]
+![[4 Physics/Images/resistor2.png|400]]
 
 ---
 ### resistor formula
@@ -79,7 +79,7 @@ $$
 ---
 ### inductor
 - electric component designed to oppose changing electric current
-![[12 Physics/Images/inductor2.png|400]]
+![[4 Physics/Images/inductor2.png|400]]
 
 ---
 ### inductor formula
@@ -95,7 +95,7 @@ $$
 ---
 ### capacitor
 - electric component designed to store electric charge
-![[12 Physics/Images/capacitor1.png|400]]
+![[4 Physics/Images/capacitor1.png|400]]
 
 ---
 ### capacitor formula
@@ -110,7 +110,7 @@ $$
 ---
 ### reactance
 - reaction to AC
-![[12 Physics/Images/reactance.png|300]]
+![[4 Physics/Images/reactance.png|300]]
 
 ---
 ### calculate reactance
@@ -121,7 +121,7 @@ $$
 ---
 ### resistive reactance
 - reaction to electric current
-![[12 Physics/Images/resistive reactance.png|400]]
+![[4 Physics/Images/resistive reactance.png|400]]
 
 ---
 ### resistive reactance formula
@@ -137,7 +137,7 @@ $$
 ---
 ### inductive reactance
 - reaction to changing electric current
-![[12 Physics/Images/inductive reactance.png|200]]
+![[4 Physics/Images/inductive reactance.png|200]]
 
 ---
 ### inductive reactance formula
@@ -154,7 +154,7 @@ $$
 ---
 ### capacitive reactance
 - reaction to changing voltage
-![[12 Physics/Images/capacitive reactance.png|400]]
+![[4 Physics/Images/capacitive reactance.png|400]]
 
 ---
 ### capacitive reactance formula
@@ -171,7 +171,7 @@ $$
 ---
 ### phase angle
 - temporal difference between waves of the same angular frequency
-![[12 Physics/Images/phase angle.png|300]]
+![[4 Physics/Images/phase angle.png|300]]
 
 ---
 ### phase angle formula
@@ -191,7 +191,7 @@ $$
 ---
 ### impedance
 - combination of resistance and reactance equal the total reaction to AC
-![[12 Physics/Images/impedance.png|400]]
+![[4 Physics/Images/impedance.png|400]]
 
 ---
 ### impedance formula
@@ -220,7 +220,7 @@ $$
 ---
 ### average power
 - rate of energy transfer
-![[12 Physics/Images/average power.png|350]]
+![[4 Physics/Images/average power.png|350]]
 
 ---
 ### average power formula
@@ -237,7 +237,7 @@ $$
 ---
 ### power factor
 - amount of power thats dissipating energy
-![[12 Physics/Images/power factor.png]]
+![[4 Physics/Images/power factor.png]]
 
 ---
 ### power factor formula
@@ -252,12 +252,12 @@ $$
 ---
 ### resonance
 - driving angular frequency equal natural angular frequency thus maximizing amplitude
-![[12 Physics/Images/resonance1.png|300]]
+![[4 Physics/Images/resonance1.png|300]]
 
 ---
 ### resonant angular frequency
 - inductive reactance equal capacitive reactance thus maximizing electric current
-![[12 Physics/Images/resonant angular frequency.png|250]]
+![[4 Physics/Images/resonant angular frequency.png|250]]
 
 ---
 ### resonant angular frequency formula
@@ -278,7 +278,7 @@ $$
 ---
 ### quality factor
 - sharpness of resonant angular frequency maximum aka fwhm
-![[12 Physics/Images/quality factor.png|250]]
+![[4 Physics/Images/quality factor.png|250]]
 
 ---
 ### quality factor formula
@@ -300,7 +300,7 @@ $$
 ---
 ### step up transformer
 - transform voltage from low voltage to high voltage
-![[12 Physics/Images/step up transformer.png|300]]
+![[4 Physics/Images/step up transformer.png|300]]
 
 ---
 ### step up transformer voltage formula
@@ -315,7 +315,7 @@ $$
 ---
 ### step down transformer
 - transform voltage from high voltage to low voltage
-![[12 Physics/Images/step down transformer.png|300]]
+![[4 Physics/Images/step down transformer.png|300]]
 
 ---
 ### step down transformer power formula
@@ -334,12 +334,12 @@ $$
 ---
 ### full wave rectification
 - electric component convert full waveform
-![[12 Physics/Images/full wave rectification.png|250]]
+![[4 Physics/Images/full wave rectification.png|250]]
 
 ---
 ### average rectification electric current
 - mean electric current after rectification
-![[12 Physics/Images/average rectification electric current.png]]
+![[4 Physics/Images/average rectification electric current.png]]
 
 ---
 ### average full wave rectification electric current formula

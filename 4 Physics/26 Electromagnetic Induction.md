@@ -1,6 +1,6 @@
 ### magnetic flux
 - amount of magnetic field flowing through normal surface
-![[12 Physics/Images/magnetic flux.png|300]]
+![[4 Physics/Images/magnetic flux.png|300]]
 
 ---
 ### magnetic flux formula
@@ -22,7 +22,7 @@ $$
 ---
 ### faradays law
 - induced emf directly proportional negative rate of change of magnetic flux
-![[12 Physics/Images/faradays law.png|400]]
+![[4 Physics/Images/faradays law.png|400]]
 
 ---
 ### faradays formula
@@ -47,7 +47,7 @@ $$
 ---
 ### lenz law
 - direction of induced emf equal opposite change of magnetic flux
-![[12 Physics/Images/lenz law.png|500]]
+![[4 Physics/Images/lenz law.png|500]]
 
 ---
 ### calculate lenz law
@@ -58,7 +58,7 @@ $$
 ---
 ### uniform motional emf
 - generate emf by moving uniform conductor through magnetic field
-![[12 Physics/Images/uniform motional emf.png]]
+![[4 Physics/Images/uniform motional emf.png]]
 
 ---
 ### uniform motional emf formula
@@ -76,7 +76,7 @@ $$
 ---
 ### non uniform motional emf
 - generate emf by moving non uniform conductor through magnetic field
-![[12 Physics/Images/non uniform motional emf.png|250]]
+![[4 Physics/Images/non uniform motional emf.png|250]]
 
 ---
 ### non uniform motional emf formula
@@ -92,7 +92,7 @@ $$
 ---
 ### static electric field
 - work done by conservative force on electric charge  
-![[12 Physics/Images/static electric field.png]]
+![[4 Physics/Images/static electric field.png]]
 
 ---
 ### static electric field formula
@@ -107,7 +107,7 @@ $$
 ---
 ### induced electric field
 - work done by non conservative force on electric charge
-![[12 Physics/Images/induced electric field.png]]
+![[4 Physics/Images/induced electric field.png]]
 
 ---
 ### induced electric field formula
@@ -123,7 +123,7 @@ $$
 ---
 ### eddy current
 - circulating loop of induced electric current
-![[12 Physics/Images/eddy current.png|500]]
+![[4 Physics/Images/eddy current.png|500]]
 
 ---
 ### eddy current formula
@@ -166,7 +166,7 @@ $$
 ---
 ### amperes law
 - magnetic field around amperian loop directly proportional net electric current inside amperian loop
-![[12 Physics/Images/amperes law1.png|300]]
+![[4 Physics/Images/amperes law1.png|300]]
 
 ---
 ### amperes formula
@@ -188,7 +188,7 @@ $$
 - magnetic flux inside gaussian surface equal zero
 - changing magnetic flux generate electric field
 - changing electric flux generate magnetic field
-![[12 Physics/Images/electromagnetism.png|300]]
+![[4 Physics/Images/electromagnetism.png|300]]
 
 ---
 ### electromagnetism formula
@@ -220,7 +220,7 @@ $$
 ---
 ### electric generator
 - conversion of mechanical energy into electrical energy by inducing emf with rotating coil inside magnetic field
-![[12 Physics/Images/electric generator.png|400]]
+![[4 Physics/Images/electric generator.png|400]]
 
 ---
 ### electric generator formula
@@ -239,7 +239,7 @@ $$
 ---
 ### electric motor
 - conversion of electrical energy into mechanical energy
-![[12 Physics/Images/electric motor.png]]
+![[4 Physics/Images/electric motor.png]]
 
 ---
 ### electric motor formula
