@@ -1,6 +1,6 @@
 ### momentum
 - difficulty of stopping or changing direction of motion
-![](4%20Physics/Images/momentum.png)
+![[4 Physics/Images/momentum.png]]
 
 ---
 ### momentum formula
@@ -36,7 +36,7 @@ $$
 ---
 ### impulse
 - change of momentum equal sum of net external force over time
-![300](4%20Physics/Images/impulse.png)
+![[4 Physics/Images/impulse.png|300]]
 
 ---
 ### constant impulse formula
@@ -112,7 +112,7 @@ $$
 ### explosion
 - increased kinetic energy
 - momentum conserved
-![400](4%20Physics/Images/explosion.png)
+![[4 Physics/Images/explosion.png|400]]
 
 ---
 ### explosion formula
@@ -129,7 +129,7 @@ $$
 ### elastic collision
 - kinetic energy conserved
 - momentum conserved
-![](4%20Physics/Images/elastic%20collision.png)
+![[4 Physics/Images/elastic collision.png]]
 
 ---
 ### elastic collision formula
@@ -146,7 +146,7 @@ $$
 ### inelastic collision
 - decreased kinetic energy
 - momentum conserved
-![](4%20Physics/Images/inelastic%20collision.png)
+![[4 Physics/Images/inelastic collision.png]]
 
 ---
 ### inelastic collision formula
@@ -163,7 +163,7 @@ $$
 ### completely inelastic collision
 - decreased kinetic energy
 - momentum conserved
-![](4%20Physics/Images/completely%20inelastic%20collision.png)
+![[4 Physics/Images/completely inelastic collision.png]]
 
 ---
 ### complete inelastic collision formula
@@ -179,7 +179,7 @@ $$
 ### center of mass
 - point inside system of masses acting as the location of system mass
 - or the mass-weighted average position of system mass
-![400](4%20Physics/Images/center%20of%20mass.png)
+![[4 Physics/Images/center of mass.png|400]]
 
 ---
 ### center of mass formula
@@ -229,7 +229,7 @@ $$
 ---
 ### rocket
 - variable mass moving through time
-![400](4%20Physics/Images/rocket.png)
+![[4 Physics/Images/rocket.png|400]]
 
 ---
 ### rocket formula

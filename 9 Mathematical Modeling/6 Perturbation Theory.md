@@ -397,7 +397,7 @@ $$
 - solve the matching problem
 - inverse change of variable
 - composite solution equal single equation with multiple scale
-![](9%20Mathematical%20Modeling/Images/singular%20differential%20equation.png)
+![[9 Mathematical Modeling/Images/singular differential equation.png]]
 
 ---
 ### singular differential equation formula

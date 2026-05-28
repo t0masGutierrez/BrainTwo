@@ -9,7 +9,7 @@
 ---
 ### unit vector
 - vector with magnitude of 1 that specify direction without scaling
-![300](4%20Physics/Images/unit%20vector.png)
+![[4 Physics/Images/unit vector.png|300]]
 
 ---
 ### unit vector formula
@@ -137,14 +137,14 @@ $$
 ### graphical vector addition
 - vector *B* starts where vector *A* ends
 - vector sum *C* equal diagonal from where vector *A* starts to where vector *B* ends
-![200](4%20Physics/Images/graphical%20vector%20addition.png)
+![[4 Physics/Images/graphical vector addition.png|200]]
 
 ---
 ### parallelogram vector addition
 - both vectors start from the origin
 - construct two parallel vectors
 - vector sum *C* equal diagonal from the origin to where the parallel vectors intersect
-![300](4%20Physics/Images/parallelogram%20vector%20addition.png)
+![[4 Physics/Images/parallelogram vector addition.png|300]]
 
 ---
 ### dot product
@@ -182,7 +182,7 @@ $$
 ---
 ### cross product
 - vector quantity of dissimilarity between two vectors
-![300](4%20Physics/Images/cross%20product.png)
+![[4 Physics/Images/cross product.png|300]]
 
 ---
 ### scalar cross product formula
@@ -232,7 +232,7 @@ $$
 - point hand to vector *A*
 - curl palm to vector *B*
 - point thumb to vector $A \times B$
-![200](4%20Physics/Images/right%20hand%20rule.png)
+![[4 Physics/Images/right hand rule.png|200]]
 
 ---
 ### right hand rule formula

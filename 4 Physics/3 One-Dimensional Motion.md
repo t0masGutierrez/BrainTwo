@@ -13,7 +13,7 @@ $$
 ---
 ### distance
 - scalar length of path
-![300](4%20Physics/Images/distance.png)
+![[4 Physics/Images/distance.png|300]]
 
 ---
 ### distance formula
@@ -27,7 +27,7 @@ $$
 ---
 ### displacement
 - vector change of position
-![300](4%20Physics/Images/displacement.png)
+![[4 Physics/Images/displacement.png|300]]
 
 ---
 ### displacement formula
@@ -228,7 +228,7 @@ $$
 ---
 ### free fall
 - one-dimensional motion under no other force except gravity
-![](4%20Physics/Images/free%20fall.png)
+![[4 Physics/Images/free fall.png]]
 
 ---
 ### free fall formula
@@ -245,7 +245,7 @@ $$
 ---
 ### relative motion
 - motion of object A relative to object B
-![300](4%20Physics/Images/relative%20motion.png)
+![[4 Physics/Images/relative motion.png|300]]
 
 ---
 ### relative motion formula

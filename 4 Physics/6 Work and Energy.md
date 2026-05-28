@@ -45,7 +45,7 @@ $$
 - energy of motion
 - or the amount of work the object can do while speeding up
 - or the amount of work the object can do while slowing down
-![300](4%20Physics/Images/kinetic%20energy.png)
+![[4 Physics/Images/kinetic energy.png|300]]
 
 ---
 ### kinetic energy formula
@@ -184,7 +184,7 @@ $$
 ---
 ### conservation of energy
 - work done by conservative force equal zero change of mechanical energy
-![](4%20Physics/Images/energy%20conservation.png)
+![[4 Physics/Images/energy conservation.png]]
 
 ---
 ### conservation of energy formula
@@ -229,7 +229,7 @@ $$
 ---
 ### equilibrium point
 - point where force acting on system equal zero
-![400](4%20Physics/Images/equilibrium%20point.png)
+![[4 Physics/Images/equilibrium point.png|400]]
 
 ---
 ### equilibrium point formula

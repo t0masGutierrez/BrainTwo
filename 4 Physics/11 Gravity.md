@@ -1,6 +1,6 @@
 ### point mass
 - total mass concentrated at single point
-![250](4%20Physics/Images/point%20mass.png)
+![[4 Physics/Images/point mass.png|250]]
 
 ---
 ### point mass formula

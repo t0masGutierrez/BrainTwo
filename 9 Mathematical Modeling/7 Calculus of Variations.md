@@ -141,7 +141,7 @@ $$
 ---
 ### continuous differentiable neighborhood
 - region where there exists open ball around center
-![](9%20Mathematical%20Modeling/Images/continuous%20differentiable%20neighborhood.png)
+![[9 Mathematical Modeling/Images/continuous differentiable neighborhood.png]]
 
 ---
 ### continuous differentiable neighborhood formula

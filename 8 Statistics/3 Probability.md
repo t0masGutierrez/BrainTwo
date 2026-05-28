@@ -148,7 +148,7 @@ $$
 ---
 ### tree diagram
 - probability distribution of two or more dependent categorical variables
-![](8%20Statistics/Images/tree%20diagram.png)
+![[8 Statistics/Images/tree diagram.png]]
 
 ---
 ### venn diagram

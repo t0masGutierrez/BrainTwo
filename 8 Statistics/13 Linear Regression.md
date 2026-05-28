@@ -45,7 +45,7 @@ $$
 ---
 ### scatterplot
 - compare bivariate numerical data
-![296](8%20Statistics/Images/scatterplot.png)
+![[8 Statistics/Images/scatterplot.png|296]]
 
 ---
 ### scatterplot formula

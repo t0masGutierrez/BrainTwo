@@ -36,7 +36,7 @@ $$
 ---
 ### velocity vector
 - rate of change of position as change of time approaches zero
-![300](4%20Physics/Images/velocity%20vector.png)
+![[4 Physics/Images/velocity vector.png|300]]
 
 ---
 ### velocity vector formula
@@ -114,7 +114,7 @@ $$
 ---
 ### uniform circular motion
 - constant speed along circular path with nonzero acceleration
-![](4%20Physics/Images/uniform%20circular%20motion.png)
+![[4 Physics/Images/uniform circular motion.png]]
 
 ---
 ### uniform circular motion formula
@@ -157,7 +157,7 @@ $$
 - maximum radial acceleration equal maximum tangential velocity
 - change of speed equal acceleration vector antiparallel velocity vector
 - minimum radial acceleration equal minimum tangential velocity
-![300](4%20Physics/Images/nonuniform%20circular%20motion.png)
+![[4 Physics/Images/nonuniform circular motion.png|300]]
 
 ---
 ### nonuniform circular motion formula
@@ -172,7 +172,7 @@ $$
 ### nonuniform radial acceleration
 - acceleration vector perpendicular circular path equal change of direction
 - acceleration vector parallel circular path equal change of speed
-![400](4%20Physics/Images/nonuniform%20radial%20acceleration.png)
+![[4 Physics/Images/nonuniform radial acceleration.png|400]]
 
 ---
 ### nonuniform radial acceleration formula
@@ -190,7 +190,7 @@ $$
 - both motion equal constant magnitude of acceleration
 - projectile motion motion equal constant direction of acceleration
 - uniform circular motion equal varying direction of acceleration
-![400](4%20Physics/Images/projectile%20motion%20versus%20uniform%20circular%20motion.png)
+![[4 Physics/Images/projectile motion versus uniform circular motion.png|400]]
 
 ---
 ### projectile motion versus uniform circular motion formula

@@ -169,12 +169,6 @@ $$
 ![[4 Physics/Images/parallelogram vector addition.png]]
 
 ---
-### graphical vector subtraction
-- antiparallel vector *B* starts where vector *A* ends
-- vector sum equal diagonal from where vector *A* starts to where antiparallel vector *B* ends
-![[4 Physics/Images/graphical vector subtraction.png|300]]
-
----
 ### dot product
 - scalar quantity of similarity between two vectors
 - aka scalar product
