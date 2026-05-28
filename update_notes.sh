@@ -23,7 +23,7 @@ main() {
 
     # Commit generated markdown plus copied note image assets.
     # Without the Images path, pasted diagrams make `git pull --rebase` fail next run.
-    paths=('*.md' ':(glob)**/Images/**')
+    paths=(':(glob)**/*.md' ':(glob)**/Images/**' library.json)
 
     # 404.html is the GitHub Pages SPA fallback for direct pretty URLs.
     # Treat index.html as the source of truth, but only regenerate 404.html
