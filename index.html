@@ -432,7 +432,7 @@
     <div id="home" class="container">
         <h1></h1>
         <div class="search-container">
-            <input type="text" id="search-input" class="search-input" placeholder="Search notes" autocomplete="off" oninput="app.searchEngine.selectedIndex=-1;app.searchEngine.search()" onfocus="app.searchEngine.search()" onkeydown="app.searchEngine.handleKeydown(event)" />
+            <input type="text" id="search-input" class="search-input" placeholder="Search notes" autocomplete="off" />
             <div id="search-results" class="search-results"></div>
         </div>
         <div id="folder-list" class="folder-list"></div>
@@ -1157,10 +1157,10 @@
         }
     }
 
-    class SearchEngine {
-        constructor(app) {
-            this.app = app;
-            this.index = [];
+	class SearchEngine {
+	    constructor(app) {
+	        this.app = app;
+	        this.index = [];
             this.indexBuilt = false;
             this.indexPromise = null;
             this.selectedIndex = -1;
@@ -1171,12 +1171,85 @@
                 if (container && !container.contains(e.target)) {
                     this.clear();
                 }
+	            });
+	        }
+
+        static normalizeSearchText(text) {
+            const rawText = String(text || '');
+            let decodedText = rawText;
+            try {
+                decodedText = decodeURIComponent(rawText);
+            } catch (_error) {}
+            return decodedText
+                .replace(/\.md$/i, '')
+                .replace(/[#*_`]/g, '')
+                .toLowerCase()
+                .trim();
+        }
+
+        static searchWords(query) {
+            return this.normalizeSearchText(query).split(/\s+/).filter(Boolean);
+        }
+
+        static normalizeTitleText(text) {
+            return this.normalizeSearchText(text).replace(/^\d+\s*/, '').trim();
+        }
+
+        static wordMatchesText(word, text) {
+            const normalized = this.normalizeSearchText(text);
+            if (normalized.includes(word)) return true;
+            const textWords = normalized.split(/\s+/);
+            return textWords.some(textWord => {
+                let qi = 0;
+                for (let ti = 0; ti < textWord.length && qi < word.length; ti++) {
+                    if (word[qi] === textWord[ti]) qi++;
+                }
+                return qi === word.length;
             });
         }
 
-        async buildIndex() {
-            if (this.indexBuilt) return;
-            if (this.indexPromise) return this.indexPromise;
+        static allWordsMatch(text, words) {
+            return words.every(word => this.wordMatchesText(word, text));
+        }
+
+        static scoreSearchField(text, words, weight) {
+            const normalized = this.normalizeSearchText(text);
+            if (!normalized) return 0;
+            const textWords = normalized.split(/\s+/).filter(Boolean);
+            const phrase = words.join(' ');
+            let score = words.length > 1 && normalized.includes(phrase) ? weight * 4 : 0;
+
+            for (const word of words) {
+                if (normalized === word) score += weight * 8;
+                else if (textWords.includes(word)) score += weight * 5;
+                else if (textWords.some(textWord => textWord.startsWith(word))) score += weight * 4;
+                else if (normalized.includes(word)) score += weight * 3;
+                else if (this.wordMatchesText(word, normalized)) score += weight;
+            }
+            return score;
+        }
+
+        static scoreSearchResult(result, words) {
+            return result.searchFields.reduce((score, field) => {
+                return score + this.scoreSearchField(field.text, words, field.weight);
+            }, 0);
+        }
+
+        static rankSearchResults(results) {
+            return results
+                .map((result, index) => ({ ...result, _rankIndex: index }))
+                .sort((a, b) => {
+                    const scoreDiff = (b.score || 0) - (a.score || 0);
+                    if (scoreDiff !== 0) return scoreDiff;
+                    if (a.type !== b.type) return a.type === 'file' ? -1 : 1;
+                    return a._rankIndex - b._rankIndex;
+                })
+                .map(({ _rankIndex, ...result }) => result);
+        }
+
+	    async buildIndex() {
+	        if (this.indexBuilt) return;
+	        if (this.indexPromise) return this.indexPromise;
             this.indexPromise = (async () => {
                 this.index = [];
                 const folders = Object.keys(this.app.manifestData);
@@ -1259,22 +1332,7 @@
                 });
             }
 
-            const words = query.split(/\s+/).filter(Boolean);
-
-            function wordMatchesText(w, text) {
-                if (text.includes(w)) return true;
-                const textWords = text.split(/\s+/);
-                return textWords.some(tw => {
-                    let qi = 0;
-                    for (let ti = 0; ti < tw.length && qi < w.length; ti++) {
-                        if (w[qi] === tw[ti]) qi++;
-                    }
-                    return qi === w.length;
-                });
-            }
-            function allWordsMatch(text) {
-                return words.every(w => wordMatchesText(w, text));
-            }
+            const words = SearchEngine.searchWords(query);
 
             // File-level results
             const fileResults = [];
@@ -1283,25 +1341,43 @@
                 for (const file of this.app.manifestData[folder]) {
                     const key = folder + '/' + file;
                     if (seenFiles.has(key)) continue;
-                    const fileClean = decodeURIComponent(file).replace(/\.md$/, '').replace(/[#*_`]/g, '').toLowerCase();
-                    const folderClean = folder.replace(/[#*_`]/g, '').toLowerCase();
-                    if (allWordsMatch(folderClean + ' ' + fileClean)) {
+                    const fileClean = SearchEngine.normalizeTitleText(file);
+                    const folderClean = SearchEngine.normalizeTitleText(folder);
+                    if (SearchEngine.allWordsMatch(folderClean + ' ' + fileClean, words)) {
                         seenFiles.add(key);
-                        fileResults.push({ type: 'file', folder, file });
+                        const result = {
+                            type: 'file',
+                            folder,
+                            file,
+                            searchFields: [
+                                { text: fileClean, weight: 220 },
+                                { text: folderClean, weight: 80 },
+                            ],
+                        };
+                        result.score = SearchEngine.scoreSearchResult(result, words);
+                        fileResults.push(result);
                     }
                 }
             }
             // Term-level results
-            const termResults = this.index.filter(item => {
-                const combined = [
-                    item.term, item.definition,
-                    decodeURIComponent(item.file).replace(/\.md$/, ''),
-                    item.folder
-                ].map(s => s.replace(/[#*_`]/g, '').toLowerCase()).join(' ');
-                return allWordsMatch(combined);
-            });
+            const termResults = this.index.map(item => {
+                const result = {
+                    ...item,
+                    type: 'term',
+                    searchFields: [
+                        { text: item.term, weight: 100 },
+                        { text: item.definition, weight: 35 },
+                        { text: SearchEngine.normalizeTitleText(item.file), weight: 65 },
+                        { text: SearchEngine.normalizeTitleText(item.folder), weight: 45 },
+                    ],
+                };
+                const combined = result.searchFields.map(field => field.text).join(' ');
+                if (!SearchEngine.allWordsMatch(combined, words)) return null;
+                result.score = SearchEngine.scoreSearchResult(result, words);
+                return result;
+            }).filter(Boolean);
 
-            const all = [...termResults, ...fileResults].slice(0, 20);
+            const all = SearchEngine.rankSearchResults([...fileResults, ...termResults]).slice(0, 20);
             if (all.length === 0) {
                 resultsDiv.innerHTML = '<div style="padding: 10px 14px; color: #888;">No results</div>';
                 resultsDiv.style.display = 'block';
@@ -1818,6 +1894,7 @@
         }
 
         async init() {
+            this._initSearchInput();
             await this.loadFolders();
             this._initRouteListeners();
             const initialSearch = this._getInitialSearchQuery();
@@ -1831,6 +1908,16 @@
             }
             this._initScrollButton();
             this._initKeyboardListeners();
+        }
+
+        _initSearchInput() {
+            const input = document.getElementById('search-input');
+            input.addEventListener('input', () => {
+                this.searchEngine.selectedIndex = -1;
+                this.searchEngine.search();
+            });
+            input.addEventListener('focus', () => this.searchEngine.search());
+            input.addEventListener('keydown', event => this.searchEngine.handleKeydown(event));
         }
 
         _initRouteListeners() {
@@ -2249,6 +2336,7 @@
     // =====================================================================
 
     const app = new App();
+    window.app = app;
     window.onload = () => app.init();
     </script>
     <button id="scroll-top-btn" style="position: fixed; bottom: 40px; right: 40px; z-index: 1000; display: none; background: #333; color: #fff; border: 1px solid #555; border-radius: 50%; width: 48px; height: 48px; font-size: 28px; cursor: pointer; align-items: center; justify-content: center;">
