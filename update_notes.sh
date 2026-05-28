@@ -21,17 +21,8 @@ main() {
 
     python3 update_notes.py
 
-    # Commit generated markdown plus copied note image assets.
-    # Without the Images path, pasted diagrams make `git pull --rebase` fail next run.
-    paths=(':(glob)**/*.md' ':(glob)**/Images/**' library.json)
-
-    # 404.html is the GitHub Pages SPA fallback for direct pretty URLs.
-    # Treat index.html as the source of truth, but only regenerate 404.html
-    # when index.html itself changed in this run/worktree.
-    if ! git diff --quiet -- index.html || ! git diff --cached --quiet -- index.html; then
-        cp index.html 404.html
-        paths+=(index.html 404.html)
-    fi
+    # Commit generated notes and copied note image assets from numbered note dirs only.
+    paths=(':(glob)[0-9]*/**/*.md' ':(glob)[0-9]*/Images/**')
 
     git add -A -- "${paths[@]}"
 
