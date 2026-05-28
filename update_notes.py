@@ -38,6 +38,8 @@ def update_notes():
         if not dir.startswith(".") and dir not in ignore:
             folder_name = dir
             folder_path = os.path.join(input, folder_name)
+            if not os.path.isdir(folder_path):
+                continue
             dirs[folder_name] = {}
 
             # loop through files inside obsidian folder
