@@ -2,29 +2,6 @@
   "1 Algebra": [
     "1 Structure.md"
   ],
-  "1 Real Analysis": [
-    "1 Sets and Functions.md",
-    "10 Derivatives.md",
-    "2 Real Numbers.md",
-    "3 Completeness.md",
-    "4 Cardinality.md",
-    "5 Metric Spaces.md",
-    "6 Numerical Sequences.md",
-    "7 Compactness.md",
-    "8 Continuity.md",
-    "9 Functional Sequences.md"
-  ],
-  "10 Geometry": [
-    "1 Lines and Angles.md",
-    "2 Triangle Congruence.md",
-    "3 Triangle Similarity.md",
-    "4 Trigonometry.md",
-    "5 Polygons and Quadrilaterals.md",
-    "6 Circles.md",
-    "7 Area and Volume.md",
-    "8 Analytic Geometry.md",
-    "9 Transformations.md"
-  ],
   "10 Probability": [
     "1 Combinatorics.md",
     "2 Axioms.md",
@@ -32,9 +9,6 @@
     "4 Continuous Random Variables.md",
     "5 Joint Random Variables.md",
     "6 Limit Theorems.md"
-  ],
-  "11 Algebra": [
-    "1 Structure.md"
   ],
   "11 Real Analysis": [
     "1 Sets and Functions.md",
@@ -71,14 +45,6 @@
     "8 Analytic Geometry.md",
     "9 Transformations.md"
   ],
-  "2 Probability": [
-    "1 Combinatorics.md",
-    "2 Axioms.md",
-    "3 Discrete Random Variables.md",
-    "4 Continuous Random Variables.md",
-    "5 Joint Random Variables.md",
-    "6 Limit Theorems.md"
-  ],
   "3 Calculus": [
     "1 Limits.md",
     "10 Vectors.md",
@@ -94,15 +60,6 @@
     "7 Integration Techniques.md",
     "8 Sequences and Series.md",
     "9 Parametric Equations and Polar Coordinates.md"
-  ],
-  "3 Mathematical Modeling": [
-    "1 Dimensional Analysis.md",
-    "2 Scaling Analysis.md",
-    "3 One-Dimensional Dynamics.md",
-    "4 Two-Dimensional Linear Dynamics.md",
-    "5 Two-Dimensional Nonlinear Dynamics.md",
-    "6 Perturbation Theory.md",
-    "7 Calculus of Variations.md"
   ],
   "4 Physics": [
     "1 Appendix.md",
@@ -140,21 +97,6 @@
     "8 Angular Motion.md",
     "9 Rotational Dynamics.md"
   ],
-  "4 Statistics": [
-    "1 Data.md",
-    "10 Two-Sample Hypothesis Tests.md",
-    "11 Chi-Square Hypothesis Tests.md",
-    "12 ANOVA Hypothesis Tests.md",
-    "13 Linear Regression.md",
-    "2 Descriptive Statistics.md",
-    "3 Probability.md",
-    "4 Discrete Random Variables.md",
-    "5 Continuous Random Variables.md",
-    "6 Calculating Distributions.md",
-    "7 Central Limit Theorem.md",
-    "8 Confidence Intervals.md",
-    "9 One-Sample Hypothesis Tests.md"
-  ],
   "5 Discrete Mathematics": [
     "1 Propositional Logic.md",
     "10 Divisibility and Modular Arithmetic.md",
@@ -174,58 +116,11 @@
     "8 Functions.md",
     "9 Sequences and Summations.md"
   ],
-  "5 Linear Algebra": [
-    "1 Vector Operations.md",
-    "10 Eigenvalues and Diagonalization.md",
-    "11 Vector Spaces.md",
-    "12 Subspaces.md",
-    "13 Span.md",
-    "14 Linear Independence.md",
-    "15 Basis and Dimension.md",
-    "16 Constructing Bases.md",
-    "17 Coordinatization.md",
-    "18 Linear Transformations.md",
-    "19 Matrix Transformations.md",
-    "2 Dot Product.md",
-    "20 Kernel and Range.md",
-    "21 Mapping Linear Transformations.md",
-    "22 Isomorphisms.md",
-    "23 Linear Operator Diagonalization.md",
-    "24 Orthogonal Bases.md",
-    "25 Orthogonal Complements.md",
-    "26 Orthogonal Diagonalization.md",
-    "3 Matrix Operations.md",
-    "4 Matrix Multiplication.md",
-    "5 Systems of Linear Equations.md",
-    "6 Reduced Row Echelon Form.md",
-    "7 Equivalent Systems, Rank, and Row Space.md",
-    "8 Matrix Inversion.md",
-    "9 Determinants.md"
-  ],
   "6 Ordinary Differential Equations": [
     "1 First-Order Differential Equations.md",
     "2 Second-Order Differential Equations.md",
     "3 Linear Algebra.md",
     "4 Partial Differential Equations.md"
-  ],
-  "7 Discrete Mathematics": [
-    "1 Propositional Logic.md",
-    "10 Divisibility and Modular Arithmetic.md",
-    "11 Integer Representations and Algorithms.md",
-    "12 Primes and Greatest Common Divisors.md",
-    "13 Induction.md",
-    "14 Counting and Probability.md",
-    "15 Relations.md",
-    "16 Graphs.md",
-    "17 Trees.md",
-    "2 Boolean Algebra.md",
-    "3 Predicate Logic.md",
-    "4 Rules of Inference.md",
-    "5 Proofs.md",
-    "6 Sets.md",
-    "7 Set Operations.md",
-    "8 Functions.md",
-    "9 Sequences and Summations.md"
   ],
   "7 Linear Algebra": [
     "1 Vector Operations.md",
@@ -255,42 +150,6 @@
     "8 Matrix Inversion.md",
     "9 Determinants.md"
   ],
-  "8 Physics": [
-    "1 Appendix.md",
-    "10 Fluids.md",
-    "11 Gravity.md",
-    "12 Oscillations.md",
-    "13 Mechanical Waves.md",
-    "14 Sound Waves.md",
-    "15 Temperature and Heat.md",
-    "16 Gases.md",
-    "17 Thermodynamics.md",
-    "18 Electric Charges and Electric Fields.md",
-    "19 Gauss Law.md",
-    "2 Vectors.md",
-    "20 Electric Potential.md",
-    "21 Capacitance.md",
-    "22 Electric Current and Resistance.md",
-    "23 DC Circuits.md",
-    "24 Magnetic Forces and Magnetic Fields.md",
-    "25 Generating Magnetic Fields.md",
-    "26 Electromagnetic Induction.md",
-    "27 Inductance.md",
-    "28 AC Circuits.md",
-    "29 Electromagnetic Waves.md",
-    "3 One-Dimensional Motion.md",
-    "30 Light Propagation.md",
-    "31 Mirrors and Lenses.md",
-    "32 Interference.md",
-    "33 Diffraction.md",
-    "34 Special Relativity.md",
-    "4 Two-Dimensional Motion.md",
-    "5 Forces and Newtons Laws.md",
-    "6 Work and Energy.md",
-    "7 Momentum and Impulse.md",
-    "8 Angular Motion.md",
-    "9 Rotational Dynamics.md"
-  ],
   "8 Statistics": [
     "1 Data.md",
     "10 Two-Sample Hypothesis Tests.md",
@@ -305,50 +164,6 @@
     "7 Central Limit Theorem.md",
     "8 Confidence Intervals.md",
     "9 One-Sample Hypothesis Tests.md"
-  ],
-  "9 Calculus": [
-    "1 Limits.md",
-    "10 Vectors.md",
-    "11 Vector Functions.md",
-    "12 Multiple Differentiation.md",
-    "13 Multiple Integration.md",
-    "14 Vector Calculus.md",
-    "2 Derivatives.md",
-    "3 Applications of Derivatives.md",
-    "4 Integrals.md",
-    "5 Transcendentals.md",
-    "6 Applications of Integrals.md",
-    "7 Integration Techniques.md",
-    "8 Sequences and Series.md",
-    "9 Parametric Equations and Polar Coordinates.md"
-  ],
-  "9 Linear Algebra": [
-    "1 Vector Operations.md",
-    "10 Eigenvalues and Diagonalization.md",
-    "11 Vector Spaces.md",
-    "12 Subspaces.md",
-    "13 Span.md",
-    "14 Linear Independence.md",
-    "15 Basis and Dimension.md",
-    "16 Constructing Bases.md",
-    "17 Coordinatization.md",
-    "18 Linear Transformations.md",
-    "19 Matrix Transformations.md",
-    "2 Dot Product.md",
-    "20 Kernel and Range.md",
-    "21 Mapping Linear Transformations.md",
-    "22 Isomorphisms.md",
-    "23 Linear Operator Diagonalization.md",
-    "24 Orthogonal Bases.md",
-    "25 Orthogonal Complements.md",
-    "26 Orthogonal Diagonalization.md",
-    "3 Matrix Operations.md",
-    "4 Matrix Multiplication.md",
-    "5 Systems of Linear Equations.md",
-    "6 Reduced Row Echelon Form.md",
-    "7 Equivalent Systems, Rank, and Row Space.md",
-    "8 Matrix Inversion.md",
-    "9 Determinants.md"
   ],
   "9 Mathematical Modeling": [
     "1 Dimensional Analysis.md",
