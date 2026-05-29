@@ -47,11 +47,12 @@
   ],
   "3 Calculus": [
     "1 Limits.md",
-    "10 Vectors.md",
-    "11 Vector Functions.md",
-    "12 Multiple Differentiation.md",
-    "13 Multiple Integration.md",
-    "14 Vector Calculus.md",
+    "10 Polar Coordinates.md",
+    "11 Vectors.md",
+    "12 Vector Functions.md",
+    "13 Multiple Differentiation.md",
+    "14 Multiple Integration.md",
+    "15 Vector Calculus.md",
     "2 Derivatives.md",
     "3 Applications of Derivatives.md",
     "4 Integrals.md",
@@ -59,7 +60,7 @@
     "6 Applications of Integrals.md",
     "7 Integration Techniques.md",
     "8 Sequences and Series.md",
-    "9 Parametric Equations and Polar Coordinates.md"
+    "9 Parametric Equations.md"
   ],
   "4 Physics": [
     "1 Appendix.md",
