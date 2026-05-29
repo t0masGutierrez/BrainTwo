@@ -163,7 +163,7 @@ $$
 - coexistence of two phases
 - heat transfer does not change temperature during phase transition
 - heat transfer does change atomic bonding during phase transition
-![[4 Physics/Images/phase diagram.png|300]]
+![[4 Physics/Images/phase transition.png|300]]
 
 ---
 ### sublimation
