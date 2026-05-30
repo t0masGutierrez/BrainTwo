@@ -1,4 +1,3 @@
-import json
 import os
 import re
 import shutil
@@ -14,10 +13,6 @@ IMAGE_FOLDER_NAME = "Images"
 IGNORED_VAULT_FOLDERS = {"Templates", "Brain.base"}
 VAULT_ROOT = os.path.join(os.path.expanduser("~"), "Obsidian", "BrainTwo")
 OUTPUT_ROOT = os.path.join(os.path.expanduser("~"), "GitHub", "BrainTwo")
-EMBEDDED_LIBRARY_PATTERN = re.compile(
-    r'(<script id="library-data" type="application/json">\n)(.*?)(\n\s*</script>)',
-    re.DOTALL,
-)
 
 def sanitize_math_text(text):
     return SINGLE_CHAR_SUBSCRIPT_PATTERN.sub(r"_{\g<1>}", text)
@@ -119,42 +114,6 @@ def has_generated_note_content(folder_path):
         )
         for file_name in os.listdir(folder_path)
     )
-
-def write_library_manifest(output, folder_names):
-    library = {}
-    for folder_name in sorted(folder_names):
-        out_folder = os.path.join(output, folder_name)
-        files = [
-            file_name
-            for file_name in sorted(os.listdir(out_folder))
-            if file_name.endswith(".md")
-        ]
-        if files:
-            library[folder_name] = files
-
-    with open(os.path.join(output, "library.json"), "w") as library_file:
-        json.dump(library, library_file, indent=2)
-        library_file.write("\n")
-
-    return library
-
-def write_embedded_library_manifest(output, library):
-    index_path = os.path.join(output, "index.html")
-    if not os.path.exists(index_path):
-        return
-
-    with open(index_path, "r") as index_file:
-        data = index_file.read()
-
-    manifest = json.dumps(library, indent=2).replace("</", "<\\/")
-    data = EMBEDDED_LIBRARY_PATTERN.sub(
-        lambda match: f"{match.group(1)}{manifest}{match.group(3)}",
-        data,
-        count=1,
-    )
-
-    with open(index_path, "w") as index_file:
-        index_file.write(data)
 
 def update_notes():
     input = VAULT_ROOT
@@ -262,9 +221,6 @@ def update_notes():
             shutil.copytree(in_images, out_images)
         elif os.path.isdir(out_images):
             shutil.rmtree(out_images)
-
-    library = write_library_manifest(output, folder_names)
-    write_embedded_library_manifest(output, library)
 
 def main():
     update_notes()
