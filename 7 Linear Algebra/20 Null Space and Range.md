@@ -1,12 +1,12 @@
-### kernel
+### null space
 - subset of domain vectors that map to codomain zero vector
 - aka null space
 
 ---
-### kernel formula
+### null space formula
 $$
 \begin{aligned}
-\text { ker } ( L ) = \{ \vec v \mid \vec v \in \mathcal V , L : \mathcal V \rightarrow \mathcal W , L ( \vec v ) = \vec 0 _ { \mathcal W } \} \\
+\text { null } ( L ) = \{ \vec v \mid \vec v \in \mathcal V , L : \mathcal V \rightarrow \mathcal W , L ( \vec v ) = \vec 0 _ { \mathcal W } \} \\
 L = \text { linear transformation } \\
 \mathcal V = \text { domain vector space } \\
 \mathcal W = \text { codomain vector space } \\
@@ -32,9 +32,9 @@ L ( \vec v ) = \text { image }
 $$
 
 ---
-### kernel basis
+### null space basis
 - form the reduced row echelon of the matrix transformation
-- fundamental solutions of homogeneous linear system equal the basis vectors of kernel
+- fundamental solutions of homogeneous linear system equal the basis vectors of null space
 
 ---
 ### range basis
@@ -43,13 +43,13 @@ $$
 
 ---
 ### dimension property
-- domain dimension equal kernel dimension addition with range dimension
+- domain dimension equal null space dimension addition with range dimension
 
 ---
 ### dimension property formula
 $$
 \begin{aligned}
-\dim ( \mathcal V ) \ne \infty \implies \dim ( \mathcal W \ne \infty ) \land \dim ( \text { ker } \  L ) + \dim ( \text { range } \  L ) = \text { dim } ( \mathcal V ) \\
+\dim ( \mathcal V ) \ne \infty \implies \dim ( \mathcal W \ne \infty ) \land \dim ( \text { null } \  L ) + \dim ( \text { range } \  L ) = \text { dim } ( \mathcal V ) \\
 L : \mathcal V \rightarrow \mathcal W \\
 \text { dim } ( \mathcal V ) = n \\
 \text { dim } ( \mathcal W ) = m \\
@@ -60,14 +60,14 @@ L = \text { linear transformation }
 $$
 
 ---
-### kernel subspace property
-- kernel equal subspace of domain
+### null space subspace property
+- null space equal subspace of domain
 
 ---
-### kernel subspace property formula
+### null space subspace property formula
 $$
 \begin{aligned}
-\text { ker } ( L ) \le \mathcal V \\
+\text { null } ( L ) \le \mathcal V \\
 L : \mathcal V \rightarrow \mathcal W \\
 L = \text { linear transformation } \\
 \mathcal V = \text { domain vector space } \\
@@ -76,14 +76,14 @@ L = \text { linear transformation } \\
 $$
 
 ---
-### kernel solution property
-- kernel equal complete solution set of homogeneous linear system
+### null space solution property
+- null space equal complete solution set of homogeneous linear system
 
 ---
-### kernel solution property formula
+### null space solution property formula
 $$
 \begin{aligned}
-\text { ker } ( L ) = \{ \vec x \mid \vec x \in \mathbb R ^ { n } , A \in \mathcal M _ { m n } , L : \mathbb R ^ { n } \rightarrow \mathbb R ^ { m } , A \vec x = 0 \} \\
+\text { null } ( L ) = \{ \vec x \mid \vec x \in \mathbb R ^ { n } , A \in \mathcal M _ { m n } , L : \mathbb R ^ { n } \rightarrow \mathbb R ^ { m } , A \vec x = 0 \} \\
 L = \text { linear transformation } \\
 A = \text { matrix transformation } \\
 \vec x = \text { preimage } \\
@@ -92,14 +92,14 @@ A \vec x = \text { image }
 $$
 
 ---
-### kernel dimension property
-- dimension of kernel equal dimension of domain subtraction with rank of matrix transformation
+### null space dimension property
+- dimension of null space equal dimension of domain subtraction with rank of matrix transformation
 
 ---
-### kernel dimension property formula
+### null space dimension property formula
 $$
 \begin{aligned}
-{}[ L ( \vec v ) ] _ { C } = A _ { B C } [ \vec v ] _ { B } \implies \dim ( \text { ker } \  L ) = \text { dim } ( \mathcal V ) - \text { rank } ( A ) \\
+{}[ L ( \vec v ) ] _ { C } = A _ { B C } [ \vec v ] _ { B } \implies \dim ( \text { null } \  L ) = \text { dim } ( \mathcal V ) - \text { rank } ( A ) \\
 L : \mathcal V \rightarrow \mathcal W \\
 L = \text { linear transformation } \\
 {}[ \vec v ] _ { B } = \text { preimage coordinate vector } \\
