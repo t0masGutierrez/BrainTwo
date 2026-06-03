@@ -11,7 +11,7 @@ OBSIDIAN_IMAGE_PATTERN = re.compile(r"!\[\[([^|\]\n]+)(?:\|([^\]\n]+))?\]\]")
 MARKDOWN_IMAGE_PATTERN = re.compile(r"!\[([^\]\n]*)\]\(([^)\n]+)\)")
 REMOTE_IMAGE_PATTERN = re.compile(r"^(?:https?:|data:|blob:)", re.IGNORECASE)
 IMAGE_FOLDER_NAME = "Images"
-IGNORED_VAULT_FOLDERS = {"Templates", "Brain.base"}
+IGNORED_VAULT_FOLDERS = {"Templates", "BrainTwo.base"}
 TEXT_ARGUMENT_COMMANDS = {"\\operatorname", "\\text"}
 VAULT_ROOT = os.path.join(os.path.expanduser("~"), "Obsidian", "BrainTwo")
 OUTPUT_ROOT = os.path.join(os.path.expanduser("~"), "GitHub", "BrainTwo")
@@ -46,6 +46,11 @@ def math_tokens(text):
             i += 1
             continue
 
+        if char in "_^":
+            script_tokens, i = read_script_tokens(text, i)
+            tokens.extend(script_tokens)
+            continue
+
         if char == "\\":
             command, i = read_latex_command(text, i)
             if command in TEXT_ARGUMENT_COMMANDS:
@@ -72,6 +77,35 @@ def math_tokens(text):
         i += 1
 
     return tokens
+
+def read_script_tokens(text, start):
+    marker = text[start]
+    i = skip_spaces(text, start + 1)
+
+    if i >= len(text):
+        return [marker], i
+
+    if text[i] == "{":
+        argument, end_i = read_braced_argument(text, i)
+        return [marker, "{", *math_tokens(argument), "}"], end_i
+
+    atom_tokens, end_i = read_script_atom_tokens(text, i)
+    return [marker, "{", *atom_tokens, "}"], end_i
+
+def read_script_atom_tokens(text, start):
+    char = text[start]
+    if char == "\\":
+        command, end_i = read_latex_command(text, start)
+        return [command], end_i
+
+    if char.isalpha():
+        return [char], start + 1
+
+    if char.isdigit():
+        number, end_i = read_number(text, start)
+        return [number], end_i
+
+    return [char], start + 1
 
 def read_latex_command(text, start):
     if start + 1 < len(text) and text[start + 1] == "\\":
