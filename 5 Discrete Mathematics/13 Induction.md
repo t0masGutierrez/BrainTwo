@@ -6,26 +6,26 @@
 ### induction formula
 $$
 \begin{aligned}
-P(1) \\
-P(k) \implies P(k + 1) \\
-\therefore \forall nP(n)
+P ( 1 ) \\
+P ( k ) \implies P ( k + 1 ) \\
+\therefore \forall n P ( n )
 \end{aligned}
 $$
 
 ---
 ### calculate induction
-- prove statement true for the 1st element $S₁$
-- assume $Sₖ$ true for all *n = k* by replacing *n* with *k*
-- prove $Sₖ+₁$ true by substituting $(k + 1)$ into $S_{k}$
-- solve and conclude $S_{k + 1}$ true for all positive integers
+- prove statement true for the 1st element $S ₁$
+- assume $S ₖ$ true for all *n = k* by replacing *n* with *k*
+- prove $S ₖ + ₁$ true by substituting $( k + 1 )$ into $S _ { k }$
+- solve and conclude $S _ { k + 1 }$ true for all positive integers
 
 ---
 ### basis step
-- proof of $P(1)$ for proof by induction of $\forall nP(n)$
+- proof of $P ( 1 )$ for proof by induction of $\forall n P ( n )$
 
 ---
 ### inductive step
-- proof of $P(k) → P(k + 1)$ for proof by induction of $\forall nP(n)$
+- proof of $P ( k ) → P ( k + 1 )$ for proof by induction of $\forall n P ( n )$
 
 ---
 ### well ordering property
@@ -40,18 +40,18 @@ $$
 ### strong induction formula
 $$
 \begin{aligned}
-P(1) \\
-P(j) \implies P(j + 1) \\
-\therefore \forall nP(n) \\
-j = 1, 2, ... k
+P ( 1 ) \\
+P ( j ) \implies P ( j + 1 ) \\
+\therefore \forall n P ( n ) \\
+j = 1 , 2 , . . . k
 \end{aligned}
 $$
 
 ---
 ### calculate strong induction
-- prove statement true for the 1st element $S₁$
-- assume $Sₖ$ true for all $n \le k$ by replacing *n* with *k*
-- prove $Sₖ+₁$ true by substituting $(k + 1)$ into $S_{k}$
-- solve and conclude $S_{k + 1}$ true for all positive integers
+- prove statement true for the 1st element $S ₁$
+- assume $S ₖ$ true for all $n \le k$ by replacing *n* with *k*
+- prove $S ₖ + ₁$ true by substituting $( k + 1 )$ into $S _ { k }$
+- solve and conclude $S _ { k + 1 }$ true for all positive integers
 
 ---

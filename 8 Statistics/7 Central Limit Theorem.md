@@ -5,9 +5,9 @@
 ### sampling variability formula
 $$
 \begin{aligned}
-\omega_{1}, \omega_{2} \subset \Omega \implies X_{1} \ne X_{2} \\
-\omega = \text{sample} \\
-X = \text{sample statistic}
+\omega _ { 1 } , \omega _ { 2 } \subset \Omega \implies X _ { 1 } \ne X _ { 2 } \\
+\omega = \text { sample } \\
+X = \text { sample statistic }
 \end{aligned}
 $$
 
@@ -19,10 +19,10 @@ $$
 ### sampling distribution formula
 $$
 \begin{aligned}
-X \sim (\mu_{X}, \sigma_{X}) \\
-X = \text{sample statistic} \\
-\mu = \text{mean} \\
-\sigma = \text{standard deviation}
+X \sim ( \mu _ { X } , \sigma _ { X } ) \\
+X = \text { sample statistic } \\
+\mu = \text { mean } \\
+\sigma = \text { standard deviation }
 \end{aligned}
 $$
 
@@ -34,10 +34,10 @@ $$
 ### mean standard error formula
 $$
 \begin{aligned}
-SE(\overline x) = \frac{\sigma}{\sqrt n} \approx \frac{s}{\sqrt n } \\
-\sigma = \text{sample standard deviation} \\
-n = \text{sample size} \\ 
-s = \text{sample standard deviation} 
+S E ( \overline x ) = \frac { \sigma } { \sqrt n } \approx \frac { s } { \sqrt n } \\
+\sigma = \text { sample standard deviation } \\
+n = \text { sample size } \\
+s = \text { sample standard deviation }
 \end{aligned}
 $$
 
@@ -45,10 +45,10 @@ $$
 ### proportion standard error formula
 $$
 \begin{aligned}
-SE(\hat p) = \sqrt{\frac{p(1-p)}{n}} \approx \sqrt{\frac{\hat p(1-\hat p)}{n}} \\
-p = \text{proportion} \\
-n = \text{sample size} \\
-\hat p = \text{sample proportion}
+S E ( \hat p ) = \sqrt { \frac { p ( 1 - p ) } { n } } \approx \sqrt { \frac { \hat p ( 1 - \hat p ) } { n } } \\
+p = \text { proportion } \\
+n = \text { sample size } \\
+\hat p = \text { sample proportion }
 \end{aligned}
 $$
 
@@ -60,10 +60,10 @@ $$
 ### law of large numbers formula
 $$
 \begin{aligned}
-\lim_{n \rightarrow \infty} X = \mathcal X \\
-n = \text{sample size} \\
-X = \text{sample statistic} \\
-\mathcal X = \text{population parameter}
+\lim _ { n \rightarrow \infty } X = \mathcal X \\
+n = \text { sample size } \\
+X = \text { sample statistic } \\
+\mathcal X = \text { population parameter }
 \end{aligned}
 $$
 
@@ -75,11 +75,11 @@ $$
 ### central limit theorem formula
 $$
 \begin{aligned}
-\forall n \ge 30: X \sim N(\mu, \frac{\sigma}{\sqrt n}) \\
-n = \text{sample size} \\
-X = \text{sample statistic} \\
-\mu = \text{mean} \\
-\sigma = \text{standard deviation} 
+\forall n \ge 30 : X \sim N ( \mu , \frac { \sigma } { \sqrt n } ) \\
+n = \text { sample size } \\
+X = \text { sample statistic } \\
+\mu = \text { mean } \\
+\sigma = \text { standard deviation }
 \end{aligned}
 $$
 

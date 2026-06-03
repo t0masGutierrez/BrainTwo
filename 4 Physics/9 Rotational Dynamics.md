@@ -6,10 +6,10 @@
 ### torque formula
 $$
 \begin{aligned}
-\vec \tau = \vec r \times \vec F = rF \sin(\phi) \\
-\vec r = \text{radius} \\
-\vec F = \text{force} \\
-\phi = \text{angle between vectors}
+\vec \tau = \vec r \times \vec F = r F \sin ( \phi ) \\
+\vec r = \text { radius } \\
+\vec F = \text { force } \\
+\phi = \text { angle between vectors }
 \end{aligned}
 $$
 
@@ -22,9 +22,9 @@ $$
 ### tangential torque formula
 $$
 \begin{aligned}
-\tau = r F_\perp \\
-r = \text{radius} \\
-F_\perp = \text{perpendicular force}
+\tau = r F _ \perp \\
+r = \text { radius } \\
+F _ \perp = \text { perpendicular force }
 \end{aligned}
 $$
 
@@ -37,9 +37,9 @@ $$
 ### lever torque formula
 $$
 \begin{aligned}
-\tau = r_\perp F \\
-r = \text{perpendicular radius} \\
-F = \text{force}
+\tau = r _ \perp F \\
+r = \text { perpendicular radius } \\
+F = \text { force }
 \end{aligned}
 $$
 
@@ -57,8 +57,8 @@ $$
 \hat F = z \implies \tau = 0 \\
 \circlearrowleft \implies \tau > 0 \\
 \circlearrowright \implies \tau < 0 \\
-F = \text{force} \\ 
-\tau = \text{torque}
+F = \text { force } \\
+\tau = \text { torque }
 \end{aligned}
 $$
 
@@ -71,9 +71,9 @@ $$
 ### newton 2nd rotational formula
 $$
 \begin{aligned}
-\vec \tau_{net} = I \vec \alpha \\
-I = \text{moment of inertia} \\
-\vec \alpha = \text{angular acceleration}
+\vec \tau _ { n e t } = I \vec \alpha \\
+I = \text { moment of inertia } \\
+\vec \alpha = \text { angular acceleration }
 \end{aligned}
 $$
 
@@ -86,10 +86,10 @@ $$
 ### constant rotational work formula
 $$
 \begin{aligned}
-W = \vec \tau \cdot \Delta \vec \theta = \tau \Delta \theta \cos(\phi) \\
-\tau = \text{torque} \\
-\theta = \text{angular position} \\
-\phi = \text{angle between vectors}
+W = \vec \tau \cdot \Delta \vec \theta = \tau \Delta \theta \cos ( \phi ) \\
+\tau = \text { torque } \\
+\theta = \text { angular position } \\
+\phi = \text { angle between vectors }
 \end{aligned}
 $$
 
@@ -98,8 +98,8 @@ $$
 $$
 \begin{aligned}
 W = \int \vec \tau \cdot d \vec \theta \\
-\vec \tau = \text{torque} \\
-\vec \theta = \text{angular position}
+\vec \tau = \text { torque } \\
+\vec \theta = \text { angular position }
 \end{aligned}
 $$
 
@@ -111,9 +111,9 @@ $$
 ### net rotational work formula
 $$
 \begin{aligned}
-W_{net} = \frac{1}{2}I(\omega_{f}^2 - \omega_{i}^2) \\
-I = \text{moment of inertia} \\
-\omega = \text{angular velocity}
+W _ { n e t } = \frac { 1 } { 2 } I ( \omega _ f ^ 2 - \omega _ i ^ 2 ) \\
+I = \text { moment of inertia } \\
+\omega = \text { angular velocity }
 \end{aligned}
 $$
 
@@ -125,10 +125,10 @@ $$
 ### rotational power formula
 $$
 \begin{aligned}
-P = \vec \tau \cdot \vec \omega = \tau \omega \cos(\phi)  \\
-\vec \tau = \text{torque} \\
-\vec \omega = \text{angular velocity} \\
-\phi = \text{angle between vectors}
+P = \vec \tau \cdot \vec \omega = \tau \omega \cos ( \phi ) \\
+\vec \tau = \text { torque } \\
+\vec \omega = \text { angular velocity } \\
+\phi = \text { angle between vectors }
 \end{aligned}
 $$
 
@@ -141,11 +141,11 @@ $$
 ### rolling kinetic energy formula
 $$
 \begin{aligned}
-K = \frac{1}{2}Mv_{cm}^2 + \frac{1}{2}I_{cm}\omega^2 \\
-M = \text{system mass} \\
-v = \text{velocity} \\
-I = \text{moment of inertia} \\
-\omega = \text{angular velocity}
+K = \frac { 1 } { 2 } M v _ { c m } ^ 2 + \frac { 1 } { 2 } I _ { c m } \omega ^ 2 \\
+M = \text { system mass } \\
+v = \text { velocity } \\
+I = \text { moment of inertia } \\
+\omega = \text { angular velocity }
 \end{aligned}
 $$
 
@@ -159,13 +159,13 @@ $$
 ### rolling without slipping formula
 $$
 \begin{aligned}
-d_{cm} = r\theta \\
-v_{cm} = r\omega \\
-a_{cm} = r\alpha \\
-r = \text{radius} \\
-\theta = \text{angular position} \\
-\omega = \text{angular velocity} \\
-\alpha = \text{angular acceleration}
+d _ { c m } = r \theta \\
+v _ { c m } = r \omega \\
+a _ { c m } = r \alpha \\
+r = \text { radius } \\
+\theta = \text { angular position } \\
+\omega = \text { angular velocity } \\
+\alpha = \text { angular acceleration }
 \end{aligned}
 $$
 
@@ -178,16 +178,16 @@ $$
 ### rolling with slipping formula
 $$
 \begin{aligned}
-d = d_{cm} - r\theta \\
-v = v_{cm} - r\omega \\
-a = a_{cm} -  r\alpha \\
-d = \text{distance} \\
-r = \text{radius} \\
-\theta = \text{angular position} \\
-v = \text{velocity} \\
-\omega = \text{angular velocity} \\
-a = \text{acceleration} \\
-\alpha = \text{angular acceleration}
+d = d _ { c m } - r \theta \\
+v = v _ { c m } - r \omega \\
+a = a _ { c m } - r \alpha \\
+d = \text { distance } \\
+r = \text { radius } \\
+\theta = \text { angular position } \\
+v = \text { velocity } \\
+\omega = \text { angular velocity } \\
+a = \text { acceleration } \\
+\alpha = \text { angular acceleration }
 \end{aligned}
 $$
 
@@ -201,10 +201,10 @@ $$
 $$
 \begin{aligned}
 \vec L = \vec r \times \vec p = I \vec \omega \\
-\vec r = \text{radius} \\
-\vec p = \text{momentum} \\
-I = \text{moment of inertia} \\
-\vec \omega = \text{angular velocity}
+\vec r = \text { radius } \\
+\vec p = \text { momentum } \\
+I = \text { moment of inertia } \\
+\vec \omega = \text { angular velocity }
 \end{aligned}
 $$
 
@@ -218,8 +218,8 @@ $$
 $$
 \begin{aligned}
 \hat \omega = \hat L \\
-\omega = \text{angular velocity} \\
-L = \text{angular momentum}
+\omega = \text { angular velocity } \\
+L = \text { angular momentum }
 \end{aligned}
 $$
 
@@ -231,9 +231,9 @@ $$
 ### newtons second angular momentum formula
 $$
 \begin{aligned}
-\vec \tau_{net} = \frac{d\vec L}{dt} \\
-\vec L = \text{angular momentum} \\
-t = \text{time}
+\vec \tau _ { n e t } = \frac { d \vec L } { d t } \\
+\vec L = \text { angular momentum } \\
+t = \text { time }
 \end{aligned}
 $$
 
@@ -246,10 +246,10 @@ $$
 ### constant angular impulse formula
 $$
 \begin{aligned}
-\vec H = \Delta \vec L = \vec \tau_{net} \Delta t \\
-\vec L = \text{angular momentum} \\
-\vec \tau = \text{torque} \\
-t = \text{time}
+\vec H = \Delta \vec L = \vec \tau _ { n e t } \Delta t \\
+\vec L = \text { angular momentum } \\
+\vec \tau = \text { torque } \\
+t = \text { time }
 \end{aligned}
 $$
 
@@ -257,10 +257,10 @@ $$
 ### variable angular impulse formula
 $$
 \begin{aligned}
-\vec H = \Delta \vec L = \int \vec \tau_{net} \cdot dt \\
-\vec L = \text{angular momentum} \\
-\vec \tau = \text{torque} \\
-t = \text{time}
+\vec H = \Delta \vec L = \int \vec \tau _ { n e t } \cdot d t \\
+\vec L = \text { angular momentum } \\
+\vec \tau = \text { torque } \\
+t = \text { time }
 \end{aligned}
 $$
 
@@ -272,9 +272,9 @@ $$
 ### conservation of angular momentum formula
 $$
 \begin{aligned}
-\vec \tau_{net} = 0 \implies \vec L_{i} = \vec L_{f} \\
-\vec \tau = \text{torque} \\
-\vec L = \text{angular momentum}
+\vec \tau _ { n e t } = 0 \implies \vec L _ { i } = \vec L _ { f } \\
+\vec \tau = \text { torque } \\
+\vec L = \text { angular momentum }
 \end{aligned}
 $$
 
@@ -287,11 +287,11 @@ $$
 ### precession formula
 $$
 \begin{aligned}
-\Omega = \frac{wr}{I\omega} \\
-w = \text{weight} \\
-r = \text{radius} \\
-I = \text{moment of inertia} \\
-\omega = \text{angular velocity}
+\Omega = \frac { w r } { I \omega } \\
+w = \text { weight } \\
+r = \text { radius } \\
+I = \text { moment of inertia } \\
+\omega = \text { angular velocity }
 \end{aligned}
 $$
 
@@ -304,7 +304,7 @@ $$
 $$
 \begin{aligned}
 \vec v = 0 \\
-\vec v = \text{velocity}
+\vec v = \text { velocity }
 \end{aligned}
 $$
 
@@ -316,9 +316,9 @@ $$
 ### dynamic equilibrium formula
 $$
 \begin{aligned}
-\frac{d\vec v}{dt} = 0 \\
-\vec v = \text{velocity} \\
-t = \text{time}
+\frac { d \vec v } { d t } = 0 \\
+\vec v = \text { velocity } \\
+t = \text { time }
 \end{aligned}
 $$
 
@@ -330,8 +330,8 @@ $$
 ### translational equilibrium formula
 $$
 \begin{aligned}
-\vec F_{net} = 0 \\
-\vec F = \text{force} 
+\vec F _ { n e t } = 0 \\
+\vec F = \text { force }
 \end{aligned}
 $$
 
@@ -343,8 +343,8 @@ $$
 ### rotational equilibrium formula
 $$
 \begin{aligned}
-\vec \tau_{net} = 0 \\
-\vec \tau = \text{torque}
+\vec \tau _ { n e t } = 0 \\
+\vec \tau = \text { torque }
 \end{aligned}
 $$
 
@@ -357,10 +357,10 @@ $$
 ### center of gravity formula
 $$
 \begin{aligned}
-\vec r_{cg} = \frac{\sum_{n} m_{n} \vec r_{n}}{M} \\
-m = \text{mass} \\
-\vec r = \text{position} \\
-M = \text{system mass}
+\vec r _ { c g } = \frac { \sum _ { n } m _ { n } \vec r _ { n } } { M } \\
+m = \text { mass } \\
+\vec r = \text { position } \\
+M = \text { system mass }
 \end{aligned}
 $$
 
@@ -373,9 +373,9 @@ $$
 ### center of uniform gravity property formula
 $$
 \begin{aligned}
-\vec g(\vec r) = \vec g_{0} \implies \vec r_{cg} = \vec r_{cm} \\
-\vec g = \text{gravity} \\
-\vec r = \text{position} 
+\vec g ( \vec r ) = \vec g _ 0 \implies \vec r _ { c g } = \vec r _ { c m } \\
+\vec g = \text { gravity } \\
+\vec r = \text { position }
 \end{aligned}
 $$
 
@@ -388,9 +388,9 @@ $$
 ### area of support formula
 $$
 \begin{aligned}
-\vec r_{cg} \not\in A \implies \downarrow \\
-\vec r = \text{position} \\
-A = \text{area}
+\vec r _ { c g } \not \in A \implies \downarrow \\
+\vec r = \text { position } \\
+A = \text { area }
 \end{aligned}
 $$
 
@@ -403,12 +403,12 @@ $$
 ### stress formula
 $$
 \begin{aligned}
-\sigma_{Y} = \frac{F}{A} \\
-\sigma_{B} = \Delta p \\
-\sigma_{S} = \frac{F_\parallel}{A} \\
-F = \text{force} \\
-A = \text{cross-section area} \\
-p = \text{pressure}
+\sigma _ Y = \frac { F } { A } \\
+\sigma _ B = \Delta p \\
+\sigma _ S = \frac { F _ \parallel } { A } \\
+F = \text { force } \\
+A = \text { cross-section area } \\
+p = \text { pressure }
 \end{aligned}
 $$
 
@@ -420,13 +420,13 @@ $$
 ### strain formula
 $$
 \begin{aligned}
-\epsilon_{Y} = \frac{\Delta L}{L_{0}} \\
-\epsilon_{B} = \frac{\Delta V}{V_{0}} \\
-\epsilon_{S} = \frac{\Delta x}{h} \\
-L = \text{length} \\
-V = \text{volume} \\
-x = \text{position} \\
-h = \text{height}
+\epsilon _ Y = \frac { \Delta L } { L _ 0 } \\
+\epsilon _ B = \frac { \Delta V } { V _ 0 } \\
+\epsilon _ S = \frac { \Delta x } { h } \\
+L = \text { length } \\
+V = \text { volume } \\
+x = \text { position } \\
+h = \text { height }
 \end{aligned}
 $$
 
@@ -439,17 +439,17 @@ $$
 ### elastic modulus formula
 $$
 \begin{aligned}
-Y = \frac{\sigma}{\epsilon} \\
-B = \frac{-\Delta p}{\Delta V / V_{0}} \\
-S = \frac{F_\parallel/A}{\Delta x/h} \\
-\sigma = \text{stress} \\
-\epsilon = \text{strain} \\
-p = \text{pressure} \\
-V = \text{volume} \\
-F = \text{force} \\
-A = \text{area} \\
-x = \text{position} \\
-h = \text{height} 
+Y = \frac { \sigma } { \epsilon } \\
+B = \frac { - \Delta p } { \Delta V / V _ 0 } \\
+S = \frac { F _ \parallel / A } { \Delta x / h } \\
+\sigma = \text { stress } \\
+\epsilon = \text { strain } \\
+p = \text { pressure } \\
+V = \text { volume } \\
+F = \text { force } \\
+A = \text { area } \\
+x = \text { position } \\
+h = \text { height }
 \end{aligned}
 $$
 

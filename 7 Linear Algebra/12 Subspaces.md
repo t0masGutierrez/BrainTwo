@@ -5,11 +5,11 @@
 ### subspace formula
 $$
 \begin{aligned}
-\mathcal W \le \mathcal V \iff (\emptyset \ne \mathcal W  \subset \mathcal V) \land (\vec w_{1} + \vec w_{2} \in \mathcal W) \land (c\vec w \in \mathcal W) \\
-\mathcal W = \text{subspace} \\
-\mathcal V = \text{vector space} \\
-\vec w = \text{vector} \\
-c = \text{scalar}
+\mathcal W \le \mathcal V \iff ( \emptyset \ne \mathcal W \subset \mathcal V ) \land ( \vec w _ { 1 } + \vec w _ { 2 } \in \mathcal W ) \land ( c \vec w \in \mathcal W ) \\
+\mathcal W = \text { subspace } \\
+\mathcal V = \text { vector space } \\
+\vec w = \text { vector } \\
+c = \text { scalar }
 \end{aligned}
 $$
 
@@ -39,7 +39,7 @@ $$
 ### trivial subspace formula
 $$
 \begin{aligned}
-\mathcal W = \{\vec 0\} \\
+\mathcal W = \{ \vec 0 \} \\
 \end{aligned}
 $$
 
@@ -63,9 +63,9 @@ $$
 ### subspace zero property formula
 $$
 \begin{aligned}
-\mathcal W \le\mathcal V \iff \vec 0 \in \mathcal W \\
-\mathcal W = \text{subspace} \\
-\mathcal V = \text{vector space} 
+\mathcal W \le \mathcal V \iff \vec 0 \in \mathcal W \\
+\mathcal W = \text { subspace } \\
+\mathcal V = \text { vector space }
 \end{aligned}
 $$
 
@@ -77,10 +77,10 @@ $$
 ### subspace intersection property formula
 $$
 \begin{aligned}
-\forall i \in I: \mathcal W_{i} \le \mathcal V \implies \bigcap_{i \in I} \mathcal W_{i} \le \mathcal V \\
-I = \text{index set} \\
-\mathcal W = \text{subspace}  \\
-\mathcal V = \text{vector space} 
+\forall i \in I : \mathcal W _ i \le \mathcal V \implies \bigcap _ { i \in I } \mathcal W _ i \le \mathcal V \\
+I = \text { index set } \\
+\mathcal W = \text { subspace } \\
+\mathcal V = \text { vector space }
 \end{aligned}
 $$
 
@@ -92,9 +92,9 @@ $$
 ### subspace eigenspace property formula
 $$
 \begin{aligned}
-E_{\lambda} \le \mathbb R^n \\
-E_{\lambda} = \text{eigenspace} \\
-\lambda = \text{eigenvalue} 
+E _ { \lambda } \le \mathbb R ^ n \\
+E _ { \lambda } = \text { eigenspace } \\
+\lambda = \text { eigenvalue }
 \end{aligned}
 $$
 

@@ -6,8 +6,8 @@
 ### basis formula
 $$
 \begin{aligned}
-\text{span}(B) = \mathcal V \\
-\text{rank}(B) = n
+\text { span } ( B ) = \mathcal V \\
+\text { rank } ( B ) = n
 \end{aligned}
 $$
 
@@ -19,26 +19,26 @@ $$
 ### dimension formula
 $$
 \begin{aligned}
-\dim(\mathcal V) = |B| \\
-\mathcal V = \text{vector space} \\
-B = \text{basis} \\
-|B| = \text{number of elements}
+\dim ( \mathcal V ) = | B | \\
+\mathcal V = \text { vector space } \\
+B = \text { basis } \\
+| B | = \text { number of elements }
 \end{aligned}
 $$
 
 ---
 ### dimension example
-- $\mathbb R^n$ 
-- $\mathcal P_{n}$ 
-- $\mathcal M_{mn}$ 
+- $\mathbb R ^ n$ 
+- $\mathcal P _ { n }$ 
+- $\mathcal M _ { m n }$ 
 
 ---
 ### dimension example formula
 $$
 \begin{aligned}
-\dim(\mathbb R^n) = n \\
-\dim(\mathcal P_{n}) = n+1 \\
-\dim(\mathcal M_{mn}) = m \cdot n \\
+\dim ( \mathbb R ^ n ) = n \\
+\dim ( \mathcal P _ { n } ) = n + 1 \\
+\dim ( \mathcal M _ { m n } ) = m \cdot n \\
 \end{aligned}
 $$
 
@@ -50,7 +50,7 @@ $$
 ### trivial dimension formula
 $$
 \begin{aligned}
-\dim(\{\vec 0\}) = 0
+\dim ( \{ \vec 0 \} ) = 0
 \end{aligned}
 $$
 
@@ -62,10 +62,10 @@ $$
 ### basis equality property formula
 $$
 \begin{aligned}
-(\text{span}(B_{1}, B_{2}) = \mathcal V) \land (\text{rank}(B_{1}, B_{2}) = n) \land (|B_{1}| \ne \infty) \implies |B_{1}| = |B_{2}| \\
-B = \text{basis} \\
-\mathcal V = \text{vector space} \\
-n = \text{number of columns} 
+( \text { span } ( B _ { 1 } , B _ { 2 } ) = \mathcal V ) \land ( \text { rank } ( B _ { 1 } , B _ { 2 } ) = n ) \land ( | B _ { 1 } | \ne \infty ) \implies | B _ { 1 } | = | B _ { 2 } | \\
+B = \text { basis } \\
+\mathcal V = \text { vector space } \\
+n = \text { number of columns }
 \end{aligned}
 $$
 
@@ -77,10 +77,10 @@ $$
 ### basis size property formula
 $$
 \begin{aligned}
-(\text{span}\ S = \mathcal V) \land (|S| \ne \infty) \land(\text{rank} \ T = n) \implies  \infty \ne |T| \le |S| \\
-S, T \subset \mathcal V \\
-\mathcal V = \text{vector space} \\
-n = \text{number of columns} \\
+( \text { span } \  S = \mathcal V ) \land ( | S | \ne \infty ) \land ( \text { rank } \  T = n ) \implies \infty \ne | T | \le | S | \\
+S , T \subset \mathcal V \\
+\mathcal V = \text { vector space } \\
+n = \text { number of columns } \\
 \end{aligned}
 $$
 
@@ -92,10 +92,10 @@ $$
 ### dimension subspace property formula
 $$
 \begin{aligned}
-\mathcal W \le \mathcal V \implies \dim(\mathcal W) \le \dim (\mathcal V) \\
-\dim(\mathcal W) = \dim (\mathcal V) \iff \mathcal W = \mathcal V \\
-\mathcal W = \text{subspace} \\
-\mathcal V = \text{vector space} 
+\mathcal W \le \mathcal V \implies \dim ( \mathcal W ) \le \dim ( \mathcal V ) \\
+\dim ( \mathcal W ) = \dim ( \mathcal V ) \iff \mathcal W = \mathcal V \\
+\mathcal W = \text { subspace } \\
+\mathcal V = \text { vector space }
 \end{aligned}
 $$
 
@@ -107,14 +107,14 @@ $$
 ### basis diagonalization property formula
 $$
 \begin{aligned}
-A = PDP^{-1} \implies B = \{\vec x \mid A\vec x = \lambda \vec x \} \\
-A = \text{diagonalizable matrix} \\
-P = \text{eigenmatrix} \\
-D = \text{diagonal matrix} \\
-P^{-1} = \text{inverse eigenmatrix} \\
-B = \text{basis} \\
-\vec x = \text{eigenvector} \\
-\lambda = \text{eigenvalue}
+A = P D P ^ { - 1 } \implies B = \{ \vec x \mid A \vec x = \lambda \vec x \} \\
+A = \text { diagonalizable matrix } \\
+P = \text { eigenmatrix } \\
+D = \text { diagonal matrix } \\
+P ^ { - 1 } = \text { inverse eigenmatrix } \\
+B = \text { basis } \\
+\vec x = \text { eigenvector } \\
+\lambda = \text { eigenvalue }
 \end{aligned}
 $$
 
@@ -126,9 +126,9 @@ $$
 ### dimension spanning property formula
 $$
 \begin{aligned}
-|S| < \dim(\mathcal V) \implies \text{span}(S) = \mathcal V \\
-S = \text{spanning set} \\
-\mathcal V = \text{vector space}
+| S | < \dim ( \mathcal V ) \implies \text { span } ( S ) = \mathcal V \\
+S = \text { spanning set } \\
+\mathcal V = \text { vector space }
 \end{aligned}
 $$
 
@@ -140,9 +140,9 @@ $$
 ### dimension linear independence property formula
 $$
 \begin{aligned}
-|T| > \dim(\mathcal V) \implies \text{rank}(T) = n \\
-T = \text{linearly independent set} \\
-\mathcal V = \text{vector space}
+| T | > \dim ( \mathcal V ) \implies \text { rank } ( T ) = n \\
+T = \text { linearly independent set } \\
+\mathcal V = \text { vector space }
 \end{aligned}
 $$
 
@@ -154,9 +154,9 @@ $$
 ### dimension basis property formula
 $$
 \begin{aligned}
-(|S| = \dim\mathcal V) \lor (|T| = \dim\mathcal V) \iff (S = B) \lor (T = B) \\
-S, T, B = \text{basis} \\
-\mathcal V = \text{vector space}
+( | S | = \dim \mathcal V ) \lor ( | T | = \dim \mathcal V ) \iff ( S = B ) \lor ( T = B ) \\
+S , T , B = \text { basis } \\
+\mathcal V = \text { vector space }
 \end{aligned}
 $$
 

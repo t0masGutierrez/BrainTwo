@@ -5,8 +5,8 @@
 ### antiderivative formula
 $$
 \begin{aligned}
-y = F(x) + c \\
-c = \text{constant of integration}
+y = F ( x ) + c \\
+c = \text { constant of integration }
 \end{aligned}
 $$
 
@@ -34,7 +34,7 @@ $$
 ### calculate particular solution of differential equation
 - substitute initial condition into general solution
 - solve constant of integration
-- rewrite differential equation as $y = F(x) + c$
+- rewrite differential equation as $y = F ( x ) + c$
 
 ---
 ### indefinite integration
@@ -44,16 +44,16 @@ $$
 ### indefinite integral formula
 $$
 \begin{aligned}
-y = \int f(x)dx \\
-f(x) = \text{integrand} \\
-dx = \text{variable of integration}
+y = \int f ( x ) d x \\
+f ( x ) = \text { integrand } \\
+d x = \text { variable of integration }
 \end{aligned}
 $$
 
 ---
 ### calculate indefinite integral
 - fit integration rule by rewriting integral
-- find all the general solutions of the differential equation $dy = f(x)dx$
+- find all the general solutions of the differential equation $d y = f ( x ) d x$
 
 ---
 ### position function
@@ -64,10 +64,10 @@ $$
 ### position formula
 $$
 \begin{aligned}
-s(t) = \frac{1}{2}gt^2 + v_0t + s_{0} \\
-g = \text{gravity} \\
-v = \text{velocity} \\
-s = \text{position}
+s ( t ) = \frac { 1 } { 2 } g t ^ 2 + v _ 0 t + s _ { 0 } \\
+g = \text { gravity } \\
+v = \text { velocity } \\
+s = \text { position }
 \end{aligned}
 $$
 
@@ -88,11 +88,11 @@ $$
 ### sigma formula
 $$
 \begin{aligned}
-\sum_{k = 1}^n f(x_{k}) = f(x_{1}) + f(x_{2}) + ... + f(x_{n}) \\
-k = \text{index} \\
-n = \text{number of terms} \\
-\sum = \text{summation} \\
-f(x_{k}) = \text{kth term}
+\sum _ { k = 1 } ^ n f ( x _ { k } ) = f ( x _ { 1 } ) + f ( x _ { 2 } ) + . . . + f ( x _ { n } ) \\
+k = \text { index } \\
+n = \text { number of terms } \\
+\sum = \text { summation } \\
+f ( x _ { k } ) = \text { kth term }
 \end{aligned}
 $$
 
@@ -107,7 +107,7 @@ $$
 ### area formula
 $$
 \begin{aligned}
-\text{area} = \text{width} \times \text{height}
+\text { area } = \text { width } \times \text { height }
 \end{aligned}
 $$
 
@@ -115,10 +115,10 @@ $$
 ### rectangle width formula
 $$
 \begin{aligned}
-\Delta x = \frac{b - a}{n} \\
-a = \text{lower endpoint} \\
-b = \text{upper endpoint} \\
-n = \text{number of subintervals}
+\Delta x = \frac { b - a } { n } \\
+a = \text { lower endpoint } \\
+b = \text { upper endpoint } \\
+n = \text { number of subintervals }
 \end{aligned}
 $$
 
@@ -126,7 +126,7 @@ $$
 ### rectangle height formula
 $$
 \begin{aligned}
-y = f(x_{k})
+y = f ( x _ { k } )
 \end{aligned}
 $$
 
@@ -139,9 +139,9 @@ $$
 ### subinterval endpoint formula
 $$
 \begin{aligned}
-x_{k} = a + (k)\Delta x \\
-x_{k - 1} = a + (k - 1)\Delta x \\
-a = \text{lower endpoint}
+x _ { k } = a + ( k ) \Delta x \\
+x _ { k - 1 } = a + ( k - 1 ) \Delta x \\
+a = \text { lower endpoint }
 \end{aligned}
 $$
 
@@ -154,7 +154,7 @@ $$
 ### inscribed rectangle area formula
 $$
 \begin{aligned}
-\text{area} = f(m_{k})\Delta x
+\text { area } = f ( m _ { k } ) \Delta x
 \end{aligned}
 $$
 
@@ -167,7 +167,7 @@ $$
 ### circumscribed rectangle area formula
 $$
 \begin{aligned}
-\text{area} = f(M_{k})\Delta x
+\text { area } = f ( M _ { k } ) \Delta x
 \end{aligned}
 $$
 
@@ -180,7 +180,7 @@ $$
 ### lower sum formula
 $$
 \begin{aligned}
-s(n) = \sum_{k = 1}^n f(m_{k})\Delta x
+s ( n ) = \sum _ { k = 1 } ^ n f ( m _ { k } ) \Delta x
 \end{aligned}
 $$
 
@@ -193,7 +193,7 @@ $$
 ### upper sum formula
 $$
 \begin{aligned}
-S(n) = \sum_{k = 1}^n f(M_{k})\Delta x
+S ( n ) = \sum _ { k = 1 } ^ n f ( M _ { k } ) \Delta x
 \end{aligned}
 $$
 
@@ -205,24 +205,24 @@ $$
 ### limit of sums formula
 $$
 \begin{aligned}
-\lim_{n \to \infty} s(n) = \lim_{n \to \infty} \sum_{k = 1}^n f(m_{k})\Delta x \\
-\lim_{n \to \infty} S(n) = \lim_{n \to \infty} \sum_{k = 1}^n f(M_{k})\Delta x \\
-\lim_{n \to \infty} s(n) = \lim_{n \to \infty} S(n)
+\lim _ { n \to \infty } s ( n ) = \lim _ { n \to \infty } \sum _ { k = 1 } ^ n f ( m _ { k } ) \Delta x \\
+\lim _ { n \to \infty } S ( n ) = \lim _ { n \to \infty } \sum _ { k = 1 } ^ n f ( M _ { k } ) \Delta x \\
+\lim _ { n \to \infty } s ( n ) = \lim _ { n \to \infty } S ( n )
 \end{aligned}
 $$
 
 ---
 ### area of planar region
 - area of continuous non negative region bound by graph axis endpoints
-- the choice of $cₖ$ no effect on area because limit of sums equal
+- the choice of $c ₖ$ no effect on area because limit of sums equal
 ![[3 Calculus/Images/area of planar region.png|300]]
 
 ---
 ### area of planar region formula
 $$
 \begin{aligned}
-\text{area} = \lim_{n \to \infty} \sum_{k = 1}^n f(c_{k}) \\
-x_{k - 1} \le c_{k} \le x_{k}
+\text { area } = \lim _ { n \to \infty } \sum _ { k = 1 } ^ n f ( c _ { k } ) \\
+x _ { k - 1 } \le c _ { k } \le x _ { k }
 \end{aligned}
 $$
 
@@ -235,8 +235,8 @@ $$
 ### riemann sum formula
 $$
 \begin{aligned}
-S = \sum_{k = 1}^n f(x_{k})\Delta x \\
-\Delta x = x_{k} - x_{k - 1}
+S = \sum _ { k = 1 } ^ n f ( x _ { k } ) \Delta x \\
+\Delta x = x _ { k } - x _ { k - 1 }
 \end{aligned}
 $$
 
@@ -248,8 +248,8 @@ $$
 ### partition formula
 $$
 \begin{aligned}
-\Delta[a, b] = \{x_{0}, x_{1}, x_{2} ... x_{n}\} = [x_{k - 1}, x_{k}] \\
-a = x_{0} < x_{1} < x_{2} ... x_{n} = b
+\Delta [ a , b ] = \{ x _ { 0 } , x _ { 1 } , x _ { 2 } . . . x _ { n } \} = [ x _ { k - 1 } , x _ { k } ] \\
+a = x _ { 0 } < x _ { 1 } < x _ { 2 } . . . x _ { n } = b
 \end{aligned}
 $$
 
@@ -269,7 +269,7 @@ $$
 ### definite integral formula
 $$
 \begin{aligned}
-\int_{a}^b f(x)dx = \lim_{n \to \infty} \sum_{k = 1}^n f(x_{k})\Delta x
+\int _ { a } ^ b f ( x ) d x = \lim _ { n \to \infty } \sum _ { k = 1 } ^ n f ( x _ { k } ) \Delta x
 \end{aligned}
 $$
 
@@ -281,7 +281,7 @@ $$
 ### negative rule
 $$
 \begin{aligned}
-\int_{b}^a f(x)dx = -\int_{a}^b f(x)dx
+\int _ { b } ^ a f ( x ) d x = - \int _ { a } ^ b f ( x ) d x
 \end{aligned}
 $$
 
@@ -289,7 +289,7 @@ $$
 ### zero rule
 $$
 \begin{aligned}
-\int_{a}^a f(x)dx = 0
+\int _ { a } ^ a f ( x ) d x = 0
 \end{aligned}
 $$
 
@@ -297,7 +297,7 @@ $$
 ### constant multiple rule
 $$
 \begin{aligned}
-\int_{a}^b cf(x)dx = c \times \int_{a}^b f(x)dx
+\int _ { a } ^ b c f ( x ) d x = c \times \int _ { a } ^ b f ( x ) d x
 \end{aligned}
 $$
 
@@ -305,7 +305,7 @@ $$
 ### sum difference rule
 $$
 \begin{aligned}
-\int_{a}^b [f(x) \pm g(x)]dx = \int_{a}^b f(x)dx \pm \int_{a}^b g(x)dx 
+\int _ { a } ^ b [ f ( x ) \pm g ( x ) ] d x = \int _ { a } ^ b f ( x ) d x \pm \int _ { a } ^ b g ( x ) d x
 \end{aligned}
 $$
 
@@ -313,7 +313,7 @@ $$
 ### additive rule
 $$
 \begin{aligned}
-\int_{a}^c f(x)dx = \int_{a}^b f(x)dx + \int_{b}^c f(x)dx 
+\int _ { a } ^ c f ( x ) d x = \int _ { a } ^ b f ( x ) d x + \int _ { b } ^ c f ( x ) d x
 \end{aligned}
 $$
 
@@ -321,33 +321,33 @@ $$
 ### inequality rule
 $$
 \begin{aligned}
-f(x) \le g(x) \to 0 \le \int_{a}^b f(x)dx \le \int_{a}^b g(x)dx
+f ( x ) \le g ( x ) \to 0 \le \int _ { a } ^ b f ( x ) d x \le \int _ { a } ^ b g ( x ) d x
 \end{aligned}
 $$
 
 ---
 ### fundamental theorem of calculus
-- difference between antiderivatives equal net change of function on $[a, b]$
+- difference between antiderivatives equal net change of function on $[ a , b ]$
 ![[3 Calculus/Images/fundamental theorem of calculus.png]]
 
 ---
 ### fundamental formula of calculus
 $$
 \begin{aligned}
-\int_{a}^b f(x)dx = F(b) - F(a)
+\int _ { a } ^ b f ( x ) d x = F ( b ) - F ( a )
 \end{aligned}
 $$
 
 ---
 ### mean value theorem of integration
-- if $f(x)$ continuous on $[a, b]$ then there exists point such that function value under curve equal average function value over interval
+- if $f ( x )$ continuous on $[ a , b ]$ then there exists point such that function value under curve equal average function value over interval
 ![[3 Calculus/Images/mean value theorem of integration.png|300]]
 
 ---
 ### mean value formula of integration
 $$
 \begin{aligned}
-\int_{a}^b f(x)dx = f(x)(b - a)
+\int _ { a } ^ b f ( x ) d x = f ( x ) ( b - a )
 \end{aligned}
 $$
 
@@ -360,7 +360,7 @@ $$
 ### average function value formula
 $$
 \begin{aligned}
-f(c) = \frac{1}{b - a}\int_{a}^b f(x)dx
+f ( c ) = \frac { 1 } { b - a } \int _ { a } ^ b f ( x ) d x
 \end{aligned}
 $$
 
@@ -372,26 +372,26 @@ $$
 ### accumulation formula
 $$
 \begin{aligned}
-\int_{a}^x f(t)dt = F(x) - F(a) \\
-x = \text{variable endpoint}
+\int _ { a } ^ x f ( t ) d t = F ( x ) - F ( a ) \\
+x = \text { variable endpoint }
 \end{aligned}
 $$
 
 ---
 ### calculate cumulative height
-- antiderivative as function of variable endpoint subtraction with $F(a)$
+- antiderivative as function of variable endpoint subtraction with $F ( a )$
 
 ---
 ### fundamental theorem of calculus
-- derivative of integral on $[a, x]$ equal integrand as function of variable endpoint with respect 
+- derivative of integral on $[ a , x ]$ equal integrand as function of variable endpoint with respect 
 ![[3 Calculus/Images/fundamental theorem of calculus1.png]]
 
 ---
 ### fundamental formula of calculus
 $$
 \begin{aligned}
-\frac{d}{dx} \int_{a}^u f(t)dt = f(u)\frac{du}{dx} \\
-u = \text{variable function endpoint}
+\frac { d } { d x } \int _ { a } ^ u f ( t ) d t = f ( u ) \frac { d u } { d x } \\
+u = \text { variable function endpoint }
 \end{aligned}
 $$
 
@@ -399,19 +399,19 @@ $$
 ### chain rule
 $$
 \begin{aligned}
-\frac{dF}{dx} = \frac{dF}{du} \times \frac{du}{dx}
+\frac { d F } { d x } = \frac { d F } { d u } \times \frac { d u } { d x }
 \end{aligned}
 $$
 
 ---
 ### net change theorem
-- sum of function rate of change equal function net change on $[a, b]$
+- sum of function rate of change equal function net change on $[ a , b ]$
 
 ---
 ### net change formula
 $$
 \begin{aligned}
-\int_{a}^b f'(x)dx = f(b) - f(a)
+\int _ { a } ^ b f ' ( x ) d x = f ( b ) - f ( a )
 \end{aligned}
 $$
 
@@ -424,8 +424,8 @@ $$
 ### displacement formula
 $$
 \begin{aligned}
-\int_{a}^b v(t)dt = s(b) - s(a) \\
-v = \text{velocity}
+\int _ { a } ^ b v ( t ) d t = s ( b ) - s ( a ) \\
+v = \text { velocity }
 \end{aligned}
 $$
 
@@ -442,8 +442,8 @@ $$
 ### distance formula
 $$
 \begin{aligned}
-\int_{a}^b |v(t)|dt = \sum |s(b) - s(a)| \\
-v = \text{velocity}
+\int _ { a } ^ b | v ( t ) | d t = \sum | s ( b ) - s ( a ) | \\
+v = \text { velocity }
 \end{aligned}
 $$
 
@@ -460,23 +460,23 @@ $$
 ### antiderivative of composite formula
 $$
 \begin{aligned}
-\int_{a}^b (f \circ g)(x)g'(x)dx = (F \circ g)(x) + c
+\int _ { a } ^ b ( f \circ g ) ( x ) g ' ( x ) d x = ( F \circ g ) ( x ) + c
 \end{aligned}
 $$
 
 ---
 ### calculate antiderivative of composite function
-- identify $f(x)$
+- identify $f ( x )$
 - find the integral of outer function
-- identify $g(x)$
+- identify $g ( x )$
 - find the derivative of inner function
-- if coefficient of $g'(x)$ not correct then apply the constant multiple rule
+- if coefficient of $g ' ( x )$ not correct then apply the constant multiple rule
 
 ---
 ### constant multiple rule
 $$
 \begin{aligned}
-\int_{a}^b (f \circ g)(x)cg'(x)dx = \frac{1}{c} (F \circ g)(x) + c
+\int _ { a } ^ b ( f \circ g ) ( x ) c g ' ( x ) d x = \frac { 1 } { c } ( F \circ g ) ( x ) + c
 \end{aligned}
 $$
 
@@ -488,17 +488,17 @@ $$
 ### change of variable formula
 $$
 \begin{aligned}
-\int (f \circ g)(x)g'(x)dx = \int f(u)du = F(u) + c \\
-u = g(x) \\
-du = g'(x)dx
+\int ( f \circ g ) ( x ) g ' ( x ) d x = \int f ( u ) d u = F ( u ) + c \\
+u = g ( x ) \\
+d u = g ' ( x ) d x
 \end{aligned}
 $$
 
 ---
 ### calculate change of variable
-- identify $f(x)$
+- identify $f ( x )$
 - find the integral of outer function
-- identify $g(x)$ and rewrite in terms of *u*
+- identify $g ( x )$ and rewrite in terms of *u*
 - find the derivative of inner function and rewrite in terms of *du*
 - simplify coefficient of *dx*
 
@@ -510,9 +510,9 @@ $$
 ### definite integral change of variable formula
 $$
 \begin{aligned}
-\int_{a}^b (f \circ g)(x)g'(x)dx = \int_{g(a)}^{g(b)} f(u)du = F(u) + c \\
-u = g(x) \\
-du = g'(x)dx
+\int _ { a } ^ b ( f \circ g ) ( x ) g ' ( x ) d x = \int _ { g ( a ) } ^ { g ( b ) } f ( u ) d u = F ( u ) + c \\
+u = g ( x ) \\
+d u = g ' ( x ) d x
 \end{aligned}
 $$
 
@@ -526,7 +526,7 @@ $$
 ### definite integration of even function formula
 $$
 \begin{aligned}
-\int_{-a}^a f(x)dx = 2 \int_{0}^a f(x)dx 
+\int _ { - a } ^ a f ( x ) d x = 2 \int _ { 0 } ^ a f ( x ) d x
 \end{aligned}
 $$
 
@@ -540,7 +540,7 @@ $$
 ### definite integration of odd function formula
 $$
 \begin{aligned}
-\int_{-a}^a f(x)dx = 0
+\int _ { - a } ^ a f ( x ) d x = 0
 \end{aligned}
 $$
 

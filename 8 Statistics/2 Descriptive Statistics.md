@@ -135,9 +135,9 @@
 ### lower outlier formula
 $$
 \begin{aligned}
-x = \text{Q1} - 1.5 \times \text{IQR} \\
-\text{Q1} = \text{1st quartile} \\
-\text{IQR} = \text{interquartile range}
+x = \text { Q1 } - 1.5 \times \text { IQR } \\
+\text { Q1 } = \text { 1st quartile } \\
+\text { IQR } = \text { interquartile range }
 \end{aligned}
 $$
 
@@ -145,9 +145,9 @@ $$
 ### upper outlier formula
 $$
 \begin{aligned}
-x = \text{Q3} + 1.5 \times \text{IQR} \\
-\text{Q3} = \text{3rd quartile} \\
-\text{IQR} = \text{interquartile range}
+x = \text { Q3 } + 1.5 \times \text { IQR } \\
+\text { Q3 } = \text { 3rd quartile } \\
+\text { IQR } = \text { interquartile range }
 \end{aligned}
 $$
 

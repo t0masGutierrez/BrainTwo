@@ -6,10 +6,10 @@
 ### constant work formula
 $$
 \begin{aligned}
-W = \vec F \cdot d \vec r = F \Delta r \cos(\theta) \\
-F = \text{force} \\
-r = \text{position} \\
-\theta = \text{angular position}
+W = \vec F \cdot d \vec r = F \Delta r \cos ( \theta ) \\
+F = \text { force } \\
+r = \text { position } \\
+\theta = \text { angular position }
 \end{aligned}
 $$
 
@@ -17,9 +17,9 @@ $$
 ### variable work formula
 $$
 \begin{aligned}
-W = \sum_{i} F_{i} \Delta r_{i} = \int_{r_{1}}^{r_{2}} \vec F \cdot d \vec r \\
-F = \text{force} \\
-r = \text{position}
+W = \sum _ { i } F _ { i } \Delta r _ { i } = \int _ { r _ { 1 } } ^ { r _ { 2 } } \vec F \cdot d \vec r \\
+F = \text { force } \\
+r = \text { position }
 \end{aligned}
 $$
 
@@ -38,9 +38,9 @@ $$
 ### potential energy formula
 $$
 \begin{aligned}
-U = \int_{r_{2}}^{r_{1}} \vec F_{cons} \cdot d \vec r \\
-F_{cons} = \text{conservative force} \\
-r = \text{position}
+U = \int _ { r _ { 2 } } ^ { r _ { 1 } } \vec F _ { c o n s } \cdot d \vec r \\
+F _ { c o n s } = \text { conservative force } \\
+r = \text { position }
 \end{aligned}
 $$
 
@@ -58,8 +58,8 @@ $$
 ### work energy formula
 $$
 \begin{aligned}
-W_{cons} = U_{i} - U_{f} \\
-U = \text{potential energy}
+W _ { c o n s } = U _ { i } - U _ { f } \\
+U = \text { potential energy }
 \end{aligned}
 $$
 
@@ -72,10 +72,10 @@ $$
 ### electric potential energy formula
 $$
 \begin{aligned}
-U = k\frac{q_{1} q_{2}}{r} \\
-k = 9 \times 10^9 \\
-q = \text{electric charge} \\
-r = \text{distance} 
+U = k \frac { q _ { 1 } q _ { 2 } } { r } \\
+k = 9 \times 10 ^ 9 \\
+q = \text { electric charge } \\
+r = \text { distance }
 \end{aligned}
 $$
 
@@ -93,10 +93,10 @@ $$
 ### electric potential energy formula
 $$
 \begin{aligned}
-U = qEy \\
-q = \text{electric charge} \\
-E = \text{electric field} \\
-y = \text{position}
+U = q E y \\
+q = \text { electric charge } \\
+E = \text { electric field } \\
+y = \text { position }
 \end{aligned}
 $$
 
@@ -115,12 +115,12 @@ $$
 ### electric potential formula
 $$
 \begin{aligned}
-V = \frac{U}{q} = k\sum_{i}\frac{Q_{i}}{r_{i}} \\
-U = \text{potential energy} \\
-q = \text{test electric charge} \\
-k = 9 \times 10^9 \\
-Q = \text{source electric charge} \\
-r = \text{distance} 
+V = \frac { U } { q } = k \sum _ { i } \frac { Q _ { i } } { r _ { i } } \\
+U = \text { potential energy } \\
+q = \text { test electric charge } \\
+k = 9 \times 10 ^ 9 \\
+Q = \text { source electric charge } \\
+r = \text { distance }
 \end{aligned}
 $$
 
@@ -150,12 +150,12 @@ $$
 ### electric potential difference formula
 $$
 \begin{aligned}
-\Delta V = \frac{\Delta U}{q} = k\int \frac{dQ}{r} \\
-U = \text{potential energy} \\
-q = \text{test electric charge} \\
-k = 9 \times 10^9 \\
-Q = \text{source electric charge} \\
-r = \text{distance} 
+\Delta V = \frac { \Delta U } { q } = k \int \frac { d Q } { r } \\
+U = \text { potential energy } \\
+q = \text { test electric charge } \\
+k = 9 \times 10 ^ 9 \\
+Q = \text { source electric charge } \\
+r = \text { distance }
 \end{aligned}
 $$
 
@@ -172,7 +172,7 @@ $$
 ### electron volt formula
 $$
 \begin{aligned}
-eV = 1.6 \times 10^{-19}
+e V = 1.6 \times 10 ^ { - 19 }
 \end{aligned}
 $$
 
@@ -185,9 +185,9 @@ $$
 ### uniform electric field formula
 $$
 \begin{aligned}
-E = \frac{\Delta V}{r} \\
-V = \text{electric potential} \\
-r = \text{distance}
+E = \frac { \Delta V } { r } \\
+V = \text { electric potential } \\
+r = \text { distance }
 \end{aligned}
 $$
 
@@ -200,9 +200,9 @@ $$
 ### non uniform electric field formula
 $$
 \begin{aligned}
-E = \frac{-dV}{dr} \\
-V = \text{electric potential} \\
-r = \text{distance}
+E = \frac { - d V } { d r } \\
+V = \text { electric potential } \\
+r = \text { distance }
 \end{aligned}
 $$
 
@@ -216,9 +216,9 @@ $$
 ### electrostatic conductor formula
 $$
 \begin{aligned}
-E \perp = \frac{\sigma}{\epsilon_{0}} \\
-\sigma = \text{surface density} \\
-\epsilon_{0} = 8.85 \times 10^{-12}
+E \perp = \frac { \sigma } { \epsilon _ { 0 } } \\
+\sigma = \text { surface density } \\
+\epsilon _ { 0 } = 8.85 \times 10 ^ { - 12 }
 \end{aligned}
 $$
 

@@ -5,9 +5,9 @@
 ### 2nd-order ode formula
 $$
 \begin{aligned}
-\frac{d^2y}{dt^2} = f(t, y, \frac{dy}{dt}) \\
-t = \text{independent variable} \\
-y = \text{solution}
+\frac { d ^ 2 y } { d t ^ 2 } = f ( t , y , \frac { d y } { d t } ) \\
+t = \text { independent variable } \\
+y = \text { solution }
 \end{aligned}
 $$
 
@@ -15,10 +15,10 @@ $$
 ### 2nd-order linear ode formula
 $$
 \begin{aligned}
-a_{2}(t)y''(t) + a_{1}(t)y'(t) + a_{0}(t)y(t) = b(t) \\
-y = \text{solution} \\
-t = \text{independent variable} \\
-a = \text{coefficient} 
+a _ 2 ( t ) y ' ' ( t ) + a _ 1 ( t ) y ' ( t ) + a _ 0 ( t ) y ( t ) = b ( t ) \\
+y = \text { solution } \\
+t = \text { independent variable } \\
+a = \text { coefficient }
 \end{aligned}
 $$
 
@@ -26,10 +26,10 @@ $$
 ### general solution of 2nd-order homogeneous linear ode formula
 $$
 \begin{aligned}
-y(t) = C_1y_{1}(t) + C_2y_{2}(t) \\
-C = \text{constant} \\
-t = \text{independent variable} \\
-y = \text{solution} 
+y ( t ) = C _ 1 y _ { 1 } ( t ) + C _ 2 y _ { 2 } ( t ) \\
+C = \text { constant } \\
+t = \text { independent variable } \\
+y = \text { solution }
 \end{aligned}
 $$
 
@@ -37,10 +37,10 @@ $$
 ### general solution of 2nd-order nonhomogeneous linear ode formula
 $$
 \begin{aligned}
-y(t) = y_{h}(t) + y_{p}(t) \\
-t = \text{independent variable} \\
-y_{h} = \text{homogeneous solution} \\
-y_{p} = \text{particular solution} \\
+y ( t ) = y _ { h } ( t ) + y _ p ( t ) \\
+t = \text { independent variable } \\
+y _ h = \text { homogeneous solution } \\
+y _ p = \text { particular solution } \\
 \end{aligned}
 $$
 
@@ -52,8 +52,8 @@ $$
 ### linear transformation formula
 $$
 \begin{aligned}
-L[y_{1} + y_{2}] = L[y_{1}] + L[y_{2}] \\
-L[cy] = cL[y]
+L [ y _ { 1 } + y _ { 2 } ] = L [ y _ { 1 } ] + L [ y _ { 2 } ] \\
+L [ c y ] = c L [ y ]
 \end{aligned}
 $$
 
@@ -65,10 +65,10 @@ $$
 ### linear transformation property formula
 $$
 \begin{aligned}
-L[y_{1}] = L[y_{2}] = 0 \implies L[C_1y_{1} + C_2y_{2}] = 0 \\
-L = \text{linear transformation} \\
-y = \text{solution} \\
-C = \text{constant}
+L [ y _ 1 ] = L [ y _ 2 ] = 0 \implies L [ C _ 1 y _ 1 + C _ 2 y _ 2 ] = 0 \\
+L = \text { linear transformation } \\
+y = \text { solution } \\
+C = \text { constant }
 \end{aligned}
 $$
 
@@ -80,10 +80,10 @@ $$
 ### linear independence formula
 $$
 \begin{aligned}
-C_1y_{1}(t) + C_2y_{2}(t) = 0 \implies C_{1} = C_{2} = 0 \\
-C = \text{constant} \\
-y = \text{solution} \\
-t = \text{independent variable}
+C _ 1 y _ 1 ( t ) + C _ 2 y _ 2 ( t ) = 0 \implies C _ 1 = C _ 2 = 0 \\
+C = \text { constant } \\
+y = \text { solution } \\
+t = \text { independent variable }
 \end{aligned}
 $$
 
@@ -95,9 +95,9 @@ $$
 ### wronskian formula
 $$
 \begin{aligned}
-W[y_{1}, y_{2}](t) = \begin{vmatrix} y_{1} & y_{2} \\ y_{1}' & y_{2}' \end{vmatrix} = y_{1}y_{2}' - y_{2}y_{1}' \\
-y = \text{solution} \\
-t = \text{independent variable}
+W [ y _ { 1 } , y _ { 2 } ] ( t ) = \begin { v m a t r i x } y _ { 1 } & y _ { 2 } \\ y _ { 1 } ' & y _ { 2 } ' \end { v m a t r i x } = y _ { 1 } y _ { 2 } ' - y _ { 2 } y _ { 1 } ' \\
+y = \text { solution } \\
+t = \text { independent variable }
 \end{aligned}
 $$
 
@@ -109,12 +109,12 @@ $$
 ### fundamental set formula
 $$
 \begin{aligned}
-L[y_{1}] = L[y_{2}] = 0 \ne W[y_{1}, y_{2}](t) \implies \mathcal F = \set{y_{1}, y_{2}} \\
-L = \text{linear transformation} \\
-y = \text{solution} \\
-W = \text{wronskian} \\
-t = \text{independent variable} \\
-\mathcal F = \text{fundamental set}
+L [ y _ 1 ] = L [ y _ 2 ] = 0 \ne W [ y _ 1 , y _ 2 ] ( t ) \implies \mathcal F = \set { y _ 1 , y _ 2 } \\
+L = \text { linear transformation } \\
+y = \text { solution } \\
+W = \text { wronskian } \\
+t = \text { independent variable } \\
+\mathcal F = \text { fundamental set }
 \end{aligned}
 $$
 
@@ -126,10 +126,10 @@ $$
 ### constant coefficient ode formula
 $$
 \begin{aligned}
-a_2y''(t) + a_1y'(t) + a_0y(t) = 0 \\
-a = \text{coefficient} \\
-y = \text{solution} \\
-t = \text{independent variable} 
+a _ 2 y ' ' ( t ) + a _ 1 y ' ( t ) + a _ 0 y ( t ) = 0 \\
+a = \text { coefficient } \\
+y = \text { solution } \\
+t = \text { independent variable }
 \end{aligned}
 $$
 
@@ -142,14 +142,14 @@ $$
 $$
 \begin{aligned}
 \begin{cases}
-y'' = r^2\exp(rt) \\
-y' = r\exp(rt) \\
-y = \exp(rt) \\
-\end{cases} \implies a_2r^2 + a_1r + a_{0} = 0 \\
-r = \text{root} \\
-\exp(rt) = \text{guess} \\
-t = \text{independent variable} \\
-a = \text{coefficient}
+y ' ' = r ^ 2 \exp ( r t ) \\
+y ' = r \exp ( r t ) \\
+y = \exp ( r t ) \\
+\end { c a s e s } \implies a _ 2 r ^ 2 + a _ 1 r + a _ 0 = 0 \\
+r = \text { root } \\
+\exp ( r t ) = \text { guess } \\
+t = \text { independent variable } \\
+a = \text { coefficient }
 \end{aligned}
 $$
 
@@ -161,8 +161,8 @@ $$
 ### general solution of characteristic polynomial formula
 $$
 \begin{aligned}
-r = \frac{-a_{1} \pm \sqrt{a_{1}^2 - 4a_2a_{0}}}{2a_{2}} \\
-a = \text{coefficient}
+r = \frac { - a _ 1 \pm \sqrt { a _ 1 ^ 2 - 4 a _ 2 a _ 0 } } { 2 a _ 2 } \\
+a = \text { coefficient }
 \end{aligned}
 $$
 
@@ -174,11 +174,11 @@ $$
 ### distinct real roots formula
 $$
 \begin{aligned}
-r_{1} \ne r_{2} \implies y = C_{1}\exp(r_1t) + C_{2}\exp(r_2t) \\
-y = \text{solution} \\
-C = \text{constant} \\
-r = \text{root} \\
-t = \text{independent variable}
+r _ 1 \ne r _ 2 \implies y = C _ { 1 } \exp ( r _ 1 t ) + C _ { 2 } \exp ( r _ 2 t ) \\
+y = \text { solution } \\
+C = \text { constant } \\
+r = \text { root } \\
+t = \text { independent variable }
 \end{aligned}
 $$
 
@@ -190,11 +190,11 @@ $$
 ### repeated real roots formula
 $$
 \begin{aligned}
-r_{1} = r_{2} \implies y = \exp(rt)(C_{1} + C_2t) \\
-y = \text{solution} \\
-C = \text{constant} \\
-r = \text{root} \\
-t = \text{independent variable}
+r _ 1 = r _ 2 \implies y = \exp ( r t ) ( C _ { 1 } + C _ 2 t ) \\
+y = \text { solution } \\
+C = \text { constant } \\
+r = \text { root } \\
+t = \text { independent variable }
 \end{aligned}
 $$
 
@@ -206,12 +206,12 @@ $$
 ### complex roots formula
 $$
 \begin{aligned}
-r = \alpha \pm \beta i \implies y = \exp(\alpha t)(C_{1}\cos\beta t + C_{2}\sin \beta t) \\
-y = \text{solution} \\
-C = \text{constant} \\
-\alpha = \text{real part} \\
-\beta = \text{imaginary part} \\
-t = \text{independent variable}
+r = \alpha \pm \beta i \implies y = \exp ( \alpha t ) ( C _ { 1 } \cos \beta t + C _ { 2 } \sin \beta t ) \\
+y = \text { solution } \\
+C = \text { constant } \\
+\alpha = \text { real part } \\
+\beta = \text { imaginary part } \\
+t = \text { independent variable }
 \end{aligned}
 $$
 
@@ -227,9 +227,9 @@ $$
 ### undetermined coefficients formula
 $$
 \begin{aligned}
-b(t) = \exp(ct) \implies y_{p} = C\exp(ct) \\
-b(t) = \sin ct \lor \cos ct \implies y_{p} = C_{1}\cos(ct) + C_{2}\sin(ct) \\
-b(t) = P_{n}(t) \implies y_{p} = C_{0} + C_1t + \dots + C_nt^n \\
+b ( t ) = \exp ( c t ) \implies y _ { p } = C \exp ( c t ) \\
+b ( t ) = \sin c t \lor \cos c t \implies y _ { p } = C _ { 1 } \cos ( c t ) + C _ { 2 } \sin ( c t ) \\
+b ( t ) = P _ { n } ( t ) \implies y _ { p } = C _ { 0 } + C _ 1 t + \dots + C _ n t ^ n \\
 \end{aligned}
 $$
 
@@ -244,12 +244,12 @@ $$
 ### variation of parameters formula
 $$
 \begin{aligned}
-y_{p} = u_1y_{1} + u_2y_{2} \\
-u_{1} = -\int\frac{b(t)y_{2}(t)}{W[y_{1}, y_{2}](t)}dt \\
-u_{2} = \int\frac{b(t)y_{1}(t)}{W[y_{1}, y_{2}](t)}dt \\
-u = \text{coefficient} \\
-y = \text{solution} \\
-W = \text{wronskian} 
+y _ { p } = u _ 1 y _ { 1 } + u _ 2 y _ { 2 } \\
+u _ { 1 } = - \int \frac { b ( t ) y _ { 2 } ( t ) } { W [ y _ { 1 } , y _ { 2 } ] ( t ) } d t \\
+u _ { 2 } = \int \frac { b ( t ) y _ { 1 } ( t ) } { W [ y _ { 1 } , y _ { 2 } ] ( t ) } d t \\
+u = \text { coefficient } \\
+y = \text { solution } \\
+W = \text { wronskian }
 \end{aligned}
 $$
 
@@ -267,9 +267,9 @@ $$
 ### series solution formula
 $$
 \begin{aligned}
-y = \sum_{n=0}^\infty a_{n}(x−x_{0})^n \\
-y' = \sum_{n=1}^\infty a_nn(x−x_{0})^{n-1} \\
-y'' = \sum_{n=1}^\infty a_nn(n-1)(x−x_{0})^{n-2}
+y = \sum _ { n = 0 } ^ \infty a _ { n } ( x − x _ { 0 } ) ^ n \\
+y ' = \sum _ { n = 1 } ^ \infty a _ n n ( x − x _ { 0 } ) ^ { n - 1 } \\
+y ' ' = \sum _ { n = 1 } ^ \infty a _ n n ( n - 1 ) ( x − x _ { 0 } ) ^ { n - 2 }
 \end{aligned}
 $$
 
@@ -281,10 +281,10 @@ $$
 ### reduction of order formula
 $$
 \begin{aligned}
-y_{2}(t) = y_{1}(t)\int\frac{\exp(-\int a_{1}(t)dt)}{y_{1}^2(t)}dt \\
-y = \text{solution} \\
-t = \text{independent variable} \\
-a = \text{coefficient}
+y _ 2 ( t ) = y _ 1 ( t ) \int \frac { \exp ( - \int a _ 1 ( t ) d t ) } { y _ 1 ^ 2 ( t ) } d t \\
+y = \text { solution } \\
+t = \text { independent variable } \\
+a = \text { coefficient }
 \end{aligned}
 $$
 
@@ -296,9 +296,9 @@ $$
 ### missing dependent variable formula
 $$
 \begin{aligned}
-y''(t) = f(t, y') \\
-v(t) = y'(t) \\
-v'(t) = f(t, v)
+y ' ' ( t ) = f ( t , y ' ) \\
+v ( t ) = y ' ( t ) \\
+v ' ( t ) = f ( t , v )
 \end{aligned}
 $$
 
@@ -310,10 +310,10 @@ $$
 ### missing independent variable formula
 $$
 \begin{aligned}
-y''(t) = f(y, y') \\
-v(t) = y'(t) \\
-y''(t) = \frac{dv}{dt} = (\frac{dv}{dy})(\frac{dy}{dt}) = v\frac{dv}{dy} \\
-v\frac{dv}{dy} = f(y, y')
+y ' ' ( t ) = f ( y , y ' ) \\
+v ( t ) = y ' ( t ) \\
+y ' ' ( t ) = \frac { d v } { d t } = ( \frac { d v } { d y } ) ( \frac { d y } { d t } ) = v \frac { d v } { d y } \\
+v \frac { d v } { d y } = f ( y , y ' )
 \end{aligned}
 $$
 
@@ -325,11 +325,11 @@ $$
 ### cauchy-euler ode formula
 $$
 \begin{aligned}
-y = x^r \\
-a_2x^2y''(t) + a_1xy'(t) + a_0y(t) = b(t) \implies a_2r(r-1) + a_1r + a_{0} = b(t) \\
-r_{1} \ne r_{2} \implies y_{h} = C_{1} x^{r_{1}} + C_{2} x^{r_{2}} \\
-r_{1} = r_{2} \implies y_{h} = x^r(C_{1} + C_{2} \ln|x|) \\
-r = \alpha \pm \beta i \implies y_{h} = x^{\alpha}C_{1} \cos \beta \ln|x|+ x^{\alpha}C_{2} \sin(\beta \ln |x|
+y = x ^ r \\
+a _ 2 x ^ 2 y ' ' ( t ) + a _ 1 x y ' ( t ) + a _ 0 y ( t ) = b ( t ) \implies a _ 2 r ( r - 1 ) + a _ 1 r + a _ 0 = b ( t ) \\
+r _ 1 \ne r _ 2 \implies y _ h = C _ 1 x ^ { r _ 1 } + C _ 2 x ^ { r _ 2 } \\
+r _ 1 = r _ 2 \implies y _ h = x ^ r ( C _ 1 + C _ 2 \ln | x | ) \\
+r = \alpha \pm \beta i \implies y _ h = x ^ { \alpha } C _ 1 \cos \beta \ln | x | + x ^ { \alpha } C _ 2 \sin ( \beta \ln | x |
 \end{aligned}
 $$
 
@@ -341,9 +341,9 @@ $$
 ### energy ode formula
 $$
 \begin{aligned}
-y''(t) = f(y) \\
-y'(t)y''(t) = f(y)y' \\
-\frac{1}{2}(\frac{dy}{dt})^2 = \int f(y)dy + C
+y ' ' ( t ) = f ( y ) \\
+y ' ( t ) y ' ' ( t ) = f ( y ) y ' \\
+\frac { 1 } { 2 } ( \frac { d y } { d t } ) ^ 2 = \int f ( y ) d y + C
 \end{aligned}
 $$
 

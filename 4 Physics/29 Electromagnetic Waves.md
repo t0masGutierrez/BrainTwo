@@ -16,14 +16,14 @@
 ### wave position formula
 $$
 \begin{aligned}
-\vec E(x, t) = E_{0} \cos(kx \mp \omega t) \ \hat j \\
-\vec B(x, t) = B_{0} \cos(kx \mp \omega t) \ \hat k \\
-E = \text{electric field} \\
-B = \text{magnetic field} \\
-k = \text{wave number} \\
-x = \text{position} \\
-\omega = \text{angular frequency} \\
-t = \text{time}
+\vec E ( x , t ) = E _ { 0 } \cos ( k x \mp \omega t ) \  \hat j \\
+\vec B ( x , t ) = B _ { 0 } \cos ( k x \mp \omega t ) \  \hat k \\
+E = \text { electric field } \\
+B = \text { magnetic field } \\
+k = \text { wave number } \\
+x = \text { position } \\
+\omega = \text { angular frequency } \\
+t = \text { time }
 \end{aligned}
 $$
 
@@ -36,9 +36,9 @@ $$
 ### electromagnetic ratio formula
 $$
 \begin{aligned}
-c = \frac{E}{B} \\
-E = \text{electric field} \\
-B = \text{magnetic field} 
+c = \frac { E } { B } \\
+E = \text { electric field } \\
+B = \text { magnetic field }
 \end{aligned}
 $$
 
@@ -51,14 +51,14 @@ $$
 ### wave velocity formula
 $$
 \begin{aligned}
-v = \lambda f = \frac{\omega}{k} \\
-c = \sqrt{\frac{1}{\epsilon_{0} \mu_{0}}} = 3 \times 10^{8} \\
-\lambda = \text{wavelength} \\
-f = \text{oscillation frequency} \\
-\omega = \text{angular frequency} \\
-k = \text{wave number} \\
-\epsilon_{0} = 8.85 \times 10^{-12} \\
-\mu_{0} = 4\pi \times 10^{-7} \\
+v = \lambda f = \frac { \omega } { k } \\
+c = \sqrt { \frac { 1 } { \epsilon _ { 0 } \mu _ { 0 } } } = 3 \times 10 ^ { 8 } \\
+\lambda = \text { wavelength } \\
+f = \text { oscillation frequency } \\
+\omega = \text { angular frequency } \\
+k = \text { wave number } \\
+\epsilon _ { 0 } = 8.85 \times 10 ^ { - 12 } \\
+\mu _ { 0 } = 4 \pi \times 10 ^ { - 7 } \\
 \end{aligned}
 $$
 
@@ -70,14 +70,14 @@ $$
 ### non vacuum wave velocity formula
 $$
 \begin{aligned}
-v = \sqrt{\frac{1}{\epsilon \mu}} = \sqrt{\frac{1}{K\epsilon_{0} K_{m}\mu_{0}}} = c\sqrt{\frac{1}{KK_{m}}} \\
-\epsilon = \text{permittivity} \\
-\mu = \text{permeability} \\
-K = \text{dielectric constant} \\
-\epsilon_{0} = 8.85 \times 10^{-12} \\
-K_{m} = \text{relative permeability} \\
-\mu_{0} = 4\pi \times 10^{-7} \\
-c = 3 \times 10^8
+v = \sqrt { \frac { 1 } { \epsilon \mu } } = \sqrt { \frac { 1 } { K \epsilon _ { 0 } K _ { m } \mu _ { 0 } } } = c \sqrt { \frac { 1 } { K K _ { m } } } \\
+\epsilon = \text { permittivity } \\
+\mu = \text { permeability } \\
+K = \text { dielectric constant } \\
+\epsilon _ { 0 } = 8.85 \times 10 ^ { - 12 } \\
+K _ { m } = \text { relative permeability } \\
+\mu _ { 0 } = 4 \pi \times 10 ^ { - 7 } \\
+c = 3 \times 10 ^ 8
 \end{aligned}
 $$
 
@@ -96,11 +96,11 @@ $$
 ### average energy density formula
 $$
 \begin{aligned}
-u_{avg} = \frac{\epsilon_{0} E_{0}^2}{2} = \frac{B_{0}^2}{2\mu_{0}} \\
-\epsilon_{0} = 8.85 \times 10^{-12} \\
-E = \text{electric field} \\
-B = \text{magnetic field} \\
-\mu_{0} = 4\pi \times 10^{-7}
+u _ { a v g } = \frac { \epsilon _ { 0 } E _ { 0 } ^ 2 } { 2 } = \frac { B _ { 0 } ^ 2 } { 2 \mu _ { 0 } } \\
+\epsilon _ { 0 } = 8.85 \times 10 ^ { - 12 } \\
+E = \text { electric field } \\
+B = \text { magnetic field } \\
+\mu _ { 0 } = 4 \pi \times 10 ^ { - 7 }
 \end{aligned}
 $$
 
@@ -108,11 +108,11 @@ $$
 ### instantaneous energy density formula
 $$
 \begin{aligned}
-u = \epsilon_{0} E^2 = \frac{B^2}{\mu_{0}}\\
-\epsilon_{0} = 8.85 \times 10^{-12} \\
-E = \text{electric field} \\
-B = \text{magnetic field} \\
-\mu_{0} = 4\pi \times 10^{-7}
+u = \epsilon _ { 0 } E ^ 2 = \frac { B ^ 2 } { \mu _ { 0 } } \\
+\epsilon _ { 0 } = 8.85 \times 10 ^ { - 12 } \\
+E = \text { electric field } \\
+B = \text { magnetic field } \\
+\mu _ { 0 } = 4 \pi \times 10 ^ { - 7 }
 \end{aligned}
 $$
 
@@ -125,13 +125,13 @@ $$
 ### average poynting formula
 $$
 \begin{aligned}
-S_{avg} = c(\frac{\epsilon_{0} E_{0}^2}{2}) = c(\frac{B_{0}^2}{2\mu_{0}}) \\
-c = 3 \times 10^8 \\ 
-u = \text{energy density} \\
-\epsilon_{0} = 8.85 \times 10^{-12} \\
-E = \text{electric field} \\
-B = \text{magnetic field} \\
-\mu_{0} = 4\pi \times 10^{-7}
+S _ { a v g } = c ( \frac { \epsilon _ { 0 } E _ { 0 } ^ 2 } { 2 } ) = c ( \frac { B _ { 0 } ^ 2 } { 2 \mu _ { 0 } } ) \\
+c = 3 \times 10 ^ 8 \\
+u = \text { energy density } \\
+\epsilon _ { 0 } = 8.85 \times 10 ^ { - 12 } \\
+E = \text { electric field } \\
+B = \text { magnetic field } \\
+\mu _ { 0 } = 4 \pi \times 10 ^ { - 7 }
 \end{aligned}
 $$
 
@@ -139,10 +139,10 @@ $$
 ### instantaneous poynting formula
 $$
 \begin{aligned}
-\vec S = \frac{\vec E \times \vec B}{\mu_{0}} \\
-E = \text{electric field} \\
-B = \text{magnetic field} \\
-\mu_{0} = 4\pi \times 10^{-7}
+\vec S = \frac { \vec E \times \vec B } { \mu _ { 0 } } \\
+E = \text { electric field } \\
+B = \text { magnetic field } \\
+\mu _ { 0 } = 4 \pi \times 10 ^ { - 7 }
 \end{aligned}
 $$
 
@@ -154,11 +154,11 @@ $$
 ### power formula
 $$
 \begin{aligned}
-P = \frac{U}{t} = IA \\
-U = \text{energy} \\
-t = \text{time} \\
-I = \text{intensity} \\
-A = \text{area}
+P = \frac { U } { t } = I A \\
+U = \text { energy } \\
+t = \text { time } \\
+I = \text { intensity } \\
+A = \text { area }
 \end{aligned}
 $$
 
@@ -170,10 +170,10 @@ $$
 ### intensity formula
 $$
 \begin{aligned}
-I = \frac{P}{A} = S_{avg} \\
-P = \text{power} \\
-A = \text{area} \\
-S = \text{poynting}
+I = \frac { P } { A } = S _ { a v g } \\
+P = \text { power } \\
+A = \text { area } \\
+S = \text { poynting }
 \end{aligned}
 $$
 
@@ -205,11 +205,11 @@ $$
 ### radiation pressure absorption formula
 $$
 \begin{aligned}
-p_{rad} = \frac{F_{\perp}}{A} = \frac{I}{c} \\
-F = \text{force} \\
-A = \text{area} \\
-I = \text{intensity} \\
-c = 3 \times 10^8
+p _ { r a d } = \frac { F _ { \perp } } { A } = \frac { I } { c } \\
+F = \text { force } \\
+A = \text { area } \\
+I = \text { intensity } \\
+c = 3 \times 10 ^ 8
 \end{aligned}
 $$
 
@@ -217,11 +217,11 @@ $$
 ### radiation pressure reflection formula
 $$
 \begin{aligned}
-p_{rad} = \frac{F_{\perp}}{A} = \frac{2I}{c} \\
-F = \text{force} \\
-A = \text{area} \\
-I = \text{intensity} \\
-c = 3 \times 10^8
+p _ { r a d } = \frac { F _ { \perp } } { A } = \frac { 2 I } { c } \\
+F = \text { force } \\
+A = \text { area } \\
+I = \text { intensity } \\
+c = 3 \times 10 ^ 8
 \end{aligned}
 $$
 
@@ -238,14 +238,14 @@ $$
 ### wave position formula
 $$
 \begin{aligned}
-\vec E(x, t) = -2E_{0}\sin(kx)\sin(\omega t) \ \hat j \\
-\vec B(x, t) = -2B_{0}\cos(kx)\cos(\omega t) \ \hat k \\
-E = \text{electric field} \\
-B = \text{magnetic field} \\
-k = \text{wave number} \\
-x = \text{position} \\
-\omega = \text{angular frequency} \\
-t = \text{time}
+\vec E ( x , t ) = - 2 E _ { 0 } \sin ( k x ) \sin ( \omega t ) \  \hat j \\
+\vec B ( x , t ) = - 2 B _ { 0 } \cos ( k x ) \cos ( \omega t ) \  \hat k \\
+E = \text { electric field } \\
+B = \text { magnetic field } \\
+k = \text { wave number } \\
+x = \text { position } \\
+\omega = \text { angular frequency } \\
+t = \text { time }
 \end{aligned}
 $$
 
@@ -278,9 +278,9 @@ $$
 ### resonant wavelength formula
 $$
 \begin{aligned}
-\lambda_{n} = \frac{2L}{n} \\
-L = \text{length} \\
-n = \text{harmonic number} 
+\lambda _ { n } = \frac { 2 L } { n } \\
+L = \text { length } \\
+n = \text { harmonic number }
 \end{aligned}
 $$
 
@@ -292,10 +292,10 @@ $$
 ### resonant frequency formula
 $$
 \begin{aligned}
-f_{n} = \frac{nv}{2L} \\
-n = \text{harmonic number} \\
-v = \text{wave velocity} \\
-L = \text{length}
+f _ { n } = \frac { n v } { 2 L } \\
+n = \text { harmonic number } \\
+v = \text { wave velocity } \\
+L = \text { length }
 \end{aligned}
 $$
 

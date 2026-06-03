@@ -6,10 +6,10 @@
 ### point mass formula
 $$
 \begin{aligned}
-\rho(\vec r) = m\delta(\vec r - \vec r_{0}) \\
-m = \text{mass} \\
-\delta = \text{dirac} \\
-\vec r = \text{position}
+\rho ( \vec r ) = m \delta ( \vec r - \vec r _ 0 ) \\
+m = \text { mass } \\
+\delta = \text { dirac } \\
+\vec r = \text { position }
 \end{aligned}
 $$
 
@@ -22,11 +22,11 @@ $$
 ### newtons formula of gravitation
 $$
 \begin{aligned}
-\vec F_{g} = G\frac{m_1m_{2}}{r^2}\hat r \\
-G = 6.67 \times 10^{-11} \\
-m = \text{mass} \\
-r = \text{distance} \\
-\hat r = \text{direction}
+\vec F _ { g } = G \frac { m _ 1 m _ { 2 } } { r ^ 2 } \hat r \\
+G = 6.67 \times 10 ^ { - 11 } \\
+m = \text { mass } \\
+r = \text { distance } \\
+\hat r = \text { direction }
 \end{aligned}
 $$
 
@@ -39,13 +39,13 @@ $$
 ### gravitational field formula
 $$
 \begin{aligned}
-\vec g = G\frac{M}{r^2}\hat r = \frac{\vec F_{g}}{m}\\
-G = 6.67 \times 10^{-11} \\
-M = \text{source mass} \\
-r = \text{distance} \\
-\hat r = \text{direction} \\
-\vec F = \text{force} \\
-m = \text{test mass}
+\vec g = G \frac { M } { r ^ 2 } \hat r = \frac { \vec F _ { g } } { m } \\
+G = 6.67 \times 10 ^ { - 11 } \\
+M = \text { source mass } \\
+r = \text { distance } \\
+\hat r = \text { direction } \\
+\vec F = \text { force } \\
+m = \text { test mass }
 \end{aligned}
 $$
 
@@ -58,22 +58,22 @@ $$
 ### gravitational potential energy formula
 $$
 \begin{aligned}
-U_{g} = -G\frac{m_1m_{2}}{r} \\
-G = 6.67 \times 10^{-11} \\
-m = \text{mass} \\
-r = \text{distance}
+U _ { g } = - G \frac { m _ 1 m _ { 2 } } { r } \\
+G = 6.67 \times 10 ^ { - 11 } \\
+m = \text { mass } \\
+r = \text { distance }
 \end{aligned}
 $$
 
 ---
 ### calculate gravitational potential energy
-- $\sum U_{g} = -G\sum_{ij} \frac{m_im_{j}}{r_{ij}}$ 
-- $U_{g} = -G(\frac{m_1m_{2}}{r_{12}} + \frac{m_1m_{3}}{r_{13}} + \frac{m_1m_{4}}{r_{14}} + \frac{m_2m_{3}}{r_{23}} + \frac{m_2m_{4}}{r_{24}} + \frac{m_3m_{4}}{r_{34}})$ 
+- $\sum U _ { g } = - G \sum _ { i j } \frac { m _ i m _ { j } } { r _ { i j } }$ 
+- $U _ { g } = - G ( \frac { m _ 1 m _ { 2 } } { r _ { 12 } } + \frac { m _ 1 m _ { 3 } } { r _ { 13 } } + \frac { m _ 1 m _ { 4 } } { r _ { 14 } } + \frac { m _ 2 m _ { 3 } } { r _ { 23 } } + \frac { m _ 2 m _ { 4 } } { r _ { 24 } } + \frac { m _ 3 m _ { 4 } } { r _ { 34 } } )$ 
 
 ---
 ### calculate moving gravitational potential energy 
-- $\sum U_{g} = -Gm\sum_{i} \frac{m_{i}}{r_{i}}$ 
-- $U_{g} = -Gm(\frac{m_{1}}{r_{1}} + \frac{m_{2}}{r_{2}} + \frac{m_{3}}{r_{3}})$ 
+- $\sum U _ { g } = - G m \sum _ { i } \frac { m _ { i } } { r _ { i } }$ 
+- $U _ { g } = - G m ( \frac { m _ { 1 } } { r _ { 1 } } + \frac { m _ { 2 } } { r _ { 2 } } + \frac { m _ { 3 } } { r _ { 3 } } )$ 
 
 ---
 ### energy conservation
@@ -83,12 +83,12 @@ $$
 ### energy conservation formula
 $$
 \begin{aligned}
-\frac{1}{2}mv_{1}^2 + \frac{-GMm}{r_{1}} = \frac{1}{2}mv_{2}^2 + \frac{-GMm}{r_{2}} \\
-\frac{1}{2}mv_{2}^2 - \frac{1}{2}mv_{1}^2 = \frac{GMm}{r_{1}} - \frac{GMm}{r_{2}} \\
-m = \text{mass} \\
-v = \text{velocity} \\
-G = 6.67 \times 10^{-11} \\
-r = \text{distance}
+\frac { 1 } { 2 } m v _ { 1 } ^ 2 + \frac { - G M m } { r _ { 1 } } = \frac { 1 } { 2 } m v _ { 2 } ^ 2 + \frac { - G M m } { r _ { 2 } } \\
+\frac { 1 } { 2 } m v _ { 2 } ^ 2 - \frac { 1 } { 2 } m v _ { 1 } ^ 2 = \frac { G M m } { r _ { 1 } } - \frac { G M m } { r _ { 2 } } \\
+m = \text { mass } \\
+v = \text { velocity } \\
+G = 6.67 \times 10 ^ { - 11 } \\
+r = \text { distance }
 \end{aligned}
 $$
 
@@ -108,10 +108,10 @@ $$
 ### circular orbit energy formula
 $$
 \begin{aligned}
-E = -G\frac{m_1m_{2}}{2r} \\
-G = 6.67 \times 10^{-11} \\
-m = \text{mass} \\
-r = \text{distance}
+E = - G \frac { m _ 1 m _ { 2 } } { 2 r } \\
+G = 6.67 \times 10 ^ { - 11 } \\
+m = \text { mass } \\
+r = \text { distance }
 \end{aligned}
 $$
 
@@ -119,10 +119,10 @@ $$
 ### circular orbit velocity formula
 $$
 \begin{aligned}
-v = \sqrt{\frac{Gm}{r}} \\
-G = 6.67 \times 10^{-11} \\
-m = \text{mass} \\
-r = \text{distance}
+v = \sqrt { \frac { G m } { r } } \\
+G = 6.67 \times 10 ^ { - 11 } \\
+m = \text { mass } \\
+r = \text { distance }
 \end{aligned}
 $$
 
@@ -130,10 +130,10 @@ $$
 ### circular orbit period formula
 $$
 \begin{aligned}
-T = 2\pi \sqrt{\frac{r^3}{Gm}} \\
-r = \text{distance} \\
-G = 6.67 \times 10^{-11} \\
-m = \text{mass}
+T = 2 \pi \sqrt { \frac { r ^ 3 } { G m } } \\
+r = \text { distance } \\
+G = 6.67 \times 10 ^ { - 11 } \\
+m = \text { mass }
 \end{aligned}
 $$
 
@@ -155,10 +155,10 @@ $$
 ### escape velocity formula
 $$
 \begin{aligned}
-v = \sqrt{\frac{2GM}{r}} \\
-G = 6.67 \times 10^{-11} \\
-m = \text{mass} \\
-r = \text{distance}
+v = \sqrt { \frac { 2 G M } { r } } \\
+G = 6.67 \times 10 ^ { - 11 } \\
+m = \text { mass } \\
+r = \text { distance }
 \end{aligned}
 $$
 
@@ -183,7 +183,7 @@ $$
 
 ---
 ### keplers 3rd law
-- $T^2 \propto a^3$ where *T* equal period and *a* equal semi major axis
+- $T ^ 2 \propto a ^ 3$ where *T* equal period and *a* equal semi major axis
 ![[4 Physics/Images/keplers 3rd law.png|400]]
 
 ---

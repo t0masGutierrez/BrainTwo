@@ -5,9 +5,9 @@
 ### integration by parts formula
 $$
 \begin{aligned}
-\int u(x)dv = uv - \int v(x)du \\
-dv = v'(x)dx \\
-du = u'(x)dx
+\int u ( x ) d v = u v - \int v ( x ) d u \\
+d v = v ' ( x ) d x \\
+d u = u ' ( x ) d x
 \end{aligned}
 $$
 
@@ -28,20 +28,20 @@ $$
 ### integration by parts strategy formula
 $$
 \begin{aligned}
-\int x^n e^x dx, \ \int x^n \sin(x)dx, \ \int x^n \cos(x)dx \
+\int x ^ n e ^ x d x , \  \int x ^ n \sin ( x ) d x , \  \int x ^ n \cos ( x ) d x \
 \begin{cases}
-u = x^n \\
-dv = e^x dx, \ \sin(x)dx, \ \cos(x)dx
-\end{cases} \\
-\int x^n \ln(x) dx, \ \int x^n \arcsin(x)dx, \ \int x^n \arccos(x)dx \
+u = x ^ n \\
+d v = e ^ x d x , \  \sin ( x ) d x , \  \cos ( x ) d x
+\end { c a s e s } \\
+\int x ^ n \ln ( x ) d x , \  \int x ^ n \arcsin ( x ) d x , \  \int x ^ n \arccos ( x ) d x \
 \begin{cases}
-u = \ln(x), \ \arcsin(x), \ \arccos(x) \\
-dv = x^n dx
-\end{cases} \\
-\int e^x \sin(x) dx, \ \int e^x \cos(x)dx \
+u = \ln ( x ) , \  \arcsin ( x ) , \  \arccos ( x ) \\
+d v = x ^ n d x
+\end { c a s e s } \\
+\int e ^ x \sin ( x ) d x , \  \int e ^ x \cos ( x ) d x \
 \begin{cases}
-u = \sin(x), \ \cos(x) \\
-dv = e^x dx
+u = \sin ( x ) , \  \cos ( x ) \\
+d v = e ^ x d x
 \end{cases}
 \end{aligned}
 $$
@@ -67,8 +67,8 @@ $$
 ### trigonometric integral formula
 $$
 \begin{aligned}
-\int \sin^m(x)\cos^n(x)dx \\
-\int \sec^m(x)\tan^n(x)dx
+\int \sin ^ m ( x ) \cos ^ n ( x ) d x \\
+\int \sec ^ m ( x ) \tan ^ n ( x ) d x
 \end{aligned}
 $$
 
@@ -76,9 +76,9 @@ $$
 ### trigonometric integral sine cosine formula
 $$
 \begin{aligned}
-\int \textcolor{yellow}{\sin^{2k + 1}(x)} \cos^n(x)dx = \int \textcolor{yellow}{(\sin^2 x)^k} \cos^n(x) \textcolor{cyan}{\sin(x)dx} = \int \textcolor{yellow}{(1 - \cos^2x)^k} \cos^n(x) \textcolor{cyan}{\sin(x)dx} \\
-\int \sin^m(x) \textcolor{yellow}{\cos^{2k + 1}(x)} dx = \int \sin^m(x) \textcolor{yellow}{(\cos^2 x)^k} \textcolor{cyan}{\cos(x)dx} = \int \sin^m(x) \textcolor{yellow}{(1 - \sin^2x)^k} \textcolor{cyan}{\cos(x)dx} \\
-\int \sin^{2k}(x)\cos^{2k}(x)dx = \int (\frac{1 - \cos 2x}{2})^k (\frac{1 + \cos 2x}{2})^k dx
+\int \textcolor { y e l l o w } { \sin ^ { 2 k + 1 } ( x ) } \cos ^ n ( x ) d x = \int \textcolor { y e l l o w } { ( \sin ^ 2 x ) ^ k } \cos ^ n ( x ) \textcolor { c y a n } { \sin ( x ) d x } = \int \textcolor { y e l l o w } { ( 1 - \cos ^ 2 x ) ^ k } \cos ^ n ( x ) \textcolor { c y a n } { \sin ( x ) d x } \\
+\int \sin ^ m ( x ) \textcolor { y e l l o w } { \cos ^ { 2 k + 1 } ( x ) } d x = \int \sin ^ m ( x ) \textcolor { y e l l o w } { ( \cos ^ 2 x ) ^ k } \textcolor { c y a n } { \cos ( x ) d x } = \int \sin ^ m ( x ) \textcolor { y e l l o w } { ( 1 - \sin ^ 2 x ) ^ k } \textcolor { c y a n } { \cos ( x ) d x } \\
+\int \sin ^ { 2 k } ( x ) \cos ^ { 2 k } ( x ) d x = \int ( \frac { 1 - \cos 2 x } { 2 } ) ^ k ( \frac { 1 + \cos 2 x } { 2 } ) ^ k d x
 \end{aligned}
 $$
 
@@ -86,10 +86,10 @@ $$
 ### trigonometric integral secant tangent formula
 $$
 \begin{aligned}
-\int \textcolor{yellow}{\sec^{2k}(x)} \tan^n(x)dx = \int \textcolor{yellow}{(\sec^2 x)^{k - 1}} \tan^n(x) \textcolor{cyan}{\sec^2(x)dx} = \int \textcolor{yellow}{(1 + \tan^2x)^{k - 1}} \tan^n(x) \textcolor{cyan}{\sec^2(x)dx} \\
-\small{\int \sec^m(x) \textcolor{yellow}{\tan^{2k + 1}(x)} dx = \int \sec^{m - 1}(x) \textcolor{yellow}{(\tan^2 x)^k} \textcolor{cyan}{\sec(x)\tan(x) dx} = \int \sec^m(x) \textcolor{yellow}{(\sec^2x - 1)^k} \textcolor{cyan}{\sec(x)\tan(x) dx}} \\
-\int \tan^n(x) = \int \textcolor{yellow}{(\tan^2 x)}\tan^{n - 2}(x)dx = \int \textcolor{yellow}{(\sec^2 x - 1)} \tan^{n - 2}(x) dx \\
-\int \sec^m(x)dx = \int u(x)dv = uv - \int v(x)du \\ 
+\int \textcolor { y e l l o w } { \sec ^ { 2 k } ( x ) } \tan ^ n ( x ) d x = \int \textcolor { y e l l o w } { ( \sec ^ 2 x ) ^ { k - 1 } } \tan ^ n ( x ) \textcolor { c y a n } { \sec ^ 2 ( x ) d x } = \int \textcolor { y e l l o w } { ( 1 + \tan ^ 2 x ) ^ { k - 1 } } \tan ^ n ( x ) \textcolor { c y a n } { \sec ^ 2 ( x ) d x } \\
+\small { \int \sec ^ m ( x ) \textcolor { y e l l o w } { \tan ^ { 2 k + 1 } ( x ) } d x = \int \sec ^ { m - 1 } ( x ) \textcolor { y e l l o w } { ( \tan ^ 2 x ) ^ k } \textcolor { c y a n } { \sec ( x ) \tan ( x ) d x } = \int \sec ^ m ( x ) \textcolor { y e l l o w } { ( \sec ^ 2 x - 1 ) ^ k } \textcolor { c y a n } { \sec ( x ) \tan ( x ) d x } } \\
+\int \tan ^ n ( x ) = \int \textcolor { y e l l o w } { ( \tan ^ 2 x ) } \tan ^ { n - 2 } ( x ) d x = \int \textcolor { y e l l o w } { ( \sec ^ 2 x - 1 ) } \tan ^ { n - 2 } ( x ) d x \\
+\int \sec ^ m ( x ) d x = \int u ( x ) d v = u v - \int v ( x ) d u \\
 \end{aligned}
 $$
 
@@ -108,20 +108,20 @@ $$
 ### trigonometric substitution formula
 $$
 \begin{aligned}
-\sqrt{a^2 - u^2} = a \cos(\theta)  
+\sqrt { a ^ 2 - u ^ 2 } = a \cos ( \theta )
 \begin{cases}
-u = a \sin(\theta) \\
-du = a \cos(\theta)  d\theta
-\end{cases} \\
-\sqrt{a^2 + u^2} = a \sec(\theta)
+u = a \sin ( \theta ) \\
+d u = a \cos ( \theta ) d \theta
+\end { c a s e s } \\
+\sqrt { a ^ 2 + u ^ 2 } = a \sec ( \theta )
 \begin{cases}
-u = a \tan(\theta) \\
-du = a \sec^2(\theta) d\theta \\
-\end{cases} \\
-\sqrt{u^2 - a^2} = a \tan(\theta)
+u = a \tan ( \theta ) \\
+d u = a \sec ^ 2 ( \theta ) d \theta \\
+\end { c a s e s } \\
+\sqrt { u ^ 2 - a ^ 2 } = a \tan ( \theta )
 \begin{cases}
-u = a \sec(\theta) \\
-du = a \sec(\theta)\tan(\theta) d\theta \\
+u = a \sec ( \theta ) \\
+d u = a \sec ( \theta ) \tan ( \theta ) d \theta \\
 \end{cases}
 \end{aligned}
 $$
@@ -141,19 +141,19 @@ $$
 ### partial fraction decomposition formula
 $$
 \begin{aligned}
-\frac{N(x)}{(px + q)^m} = \frac{A_{1}}{(px+1)^1} + \frac{A_{2}}{(px+1)^2} + ... + \frac{A_{m}}{(px+1)^m} \\
-\frac{N(x)}{(ax^2 + bx + c)^n} = \frac{B_1x +C_{1}}{(ax^2 + bx + c)^1} + \frac{B_2x +C_{2}}{(ax^2 + bx + c)^2} + ... + \frac{B_nx +C_{n}}{(ax^2 + bx + c)^n} \\
+\frac { N ( x ) } { ( p x + q ) ^ m } = \frac { A _ { 1 } } { ( p x + 1 ) ^ 1 } + \frac { A _ { 2 } } { ( p x + 1 ) ^ 2 } + . . . + \frac { A _ { m } } { ( p x + 1 ) ^ m } \\
+\frac { N ( x ) } { ( a x ^ 2 + b x + c ) ^ n } = \frac { B _ 1 x + C _ { 1 } } { ( a x ^ 2 + b x + c ) ^ 1 } + \frac { B _ 2 x + C _ { 2 } } { ( a x ^ 2 + b x + c ) ^ 2 } + . . . + \frac { B _ n x + C _ { n } } { ( a x ^ 2 + b x + c ) ^ n } \\
 \end{aligned}
 $$
 
 ---
 ### calculate partial fraction decomposition
 - perform long division before integrating improper fraction
-- factor denominator into $(px + q)^m$ and $(ax^2 + bx + c)^n$ 
-- for every $(px + q)^m$ the partial fraction decomposition must include the sum of the following *m* fractions $\frac{A_{m}}{(px + q)^m}$ 
-- for every $(ax^2 + bx + c)^n$ the partial fraction decomposition must include the sum of the following *n* fractions $\frac{B_nx + C_{n}}{(ax^2 + bx + c)^n}$ 
+- factor denominator into $( p x + q ) ^ m$ and $( a x ^ 2 + b x + c ) ^ n$ 
+- for every $( p x + q ) ^ m$ the partial fraction decomposition must include the sum of the following *m* fractions $\frac { A _ { m } } { ( p x + q ) ^ m }$ 
+- for every $( a x ^ 2 + b x + c ) ^ n$ the partial fraction decomposition must include the sum of the following *n* fractions $\frac { B _ n x + C _ { n } } { ( a x ^ 2 + b x + c ) ^ n }$ 
 - eliminate left denominator by multiplying partial fractions with left denominator
-- sum of partial fractions equal $N(x)$ 
+- sum of partial fractions equal $N ( x )$ 
 - solve distinct linear factors by substituting roots
 - solve repeat linear factors or quadratic factors by equating coefficients
 
@@ -184,9 +184,9 @@ $$
 ### trapezoidal formula
 $$
 \begin{aligned}
-\int_{a}^b f(x)dx = \frac{\Delta x}{2}[f(x_{0}) + 2f(x_{1}) + 2f(x_{2}) + 2f(x_{3}) + ... + 2f(x_{n - 1}) + f(x_{n})] \\
-k = 1, 2, 2, 2, ... 2, 1 \\
-\Delta x = \frac{b - a}{n}
+\int _ { a } ^ b f ( x ) d x = \frac { \Delta x } { 2 } [ f ( x _ { 0 } ) + 2 f ( x _ { 1 } ) + 2 f ( x _ { 2 } ) + 2 f ( x _ { 3 } ) + . . . + 2 f ( x _ { n - 1 } ) + f ( x _ { n } ) ] \\
+k = 1 , 2 , 2 , 2 , . . . 2 , 1 \\
+\Delta x = \frac { b - a } { n }
 \end{aligned}
 $$
 
@@ -199,9 +199,9 @@ $$
 ### simpsons formula
 $$
 \begin{aligned}
-\int_{a}^b f(x)dx = \frac{\Delta x}{3}[f(x_{0}) + 4f(x_{1}) + 2f(x_{2}) + 4f(x_{3}) + ... + 4f(x_{n - 1}) + f(x_{n})] \\
-k = 1, 4, 2, 4, ... 4, 1 \\
-\Delta x = \frac{b - a}{n}
+\int _ { a } ^ b f ( x ) d x = \frac { \Delta x } { 3 } [ f ( x _ { 0 } ) + 4 f ( x _ { 1 } ) + 2 f ( x _ { 2 } ) + 4 f ( x _ { 3 } ) + . . . + 4 f ( x _ { n - 1 } ) + f ( x _ { n } ) ] \\
+k = 1 , 4 , 2 , 4 , . . . 4 , 1 \\
+\Delta x = \frac { b - a } { n }
 \end{aligned}
 $$
 
@@ -218,9 +218,9 @@ $$
 ### discontinuous integrand formula
 $$
 \begin{aligned}
-(a, b] \implies \int_{a}^b f(x)dx = \lim_{c \rightarrow b^-} \int_{a}^c f(x)dx \\
-{}[a, b) \implies \int_{a}^b f(x)dx = \lim_{c \rightarrow a^+} \int_{c}^b f(x)dx \\
-\exists c[a, b] \implies \int_{a}^b f(x)dx = \lim_{c \rightarrow b^-} \int_{a}^c f(x)dx + \lim_{c \rightarrow a^+} \int_{c}^b f(x)dx
+( a , b ] \implies \int _ { a } ^ b f ( x ) d x = \lim _ { c \rightarrow b ^ - } \int _ { a } ^ c f ( x ) d x \\
+{}[ a , b ) \implies \int _ { a } ^ b f ( x ) d x = \lim _ { c \rightarrow a ^ + } \int _ { c } ^ b f ( x ) d x \\
+\exists c [ a , b ] \implies \int _ { a } ^ b f ( x ) d x = \lim _ { c \rightarrow b ^ - } \int _ { a } ^ c f ( x ) d x + \lim _ { c \rightarrow a ^ + } \int _ { c } ^ b f ( x ) d x
 \end{aligned}
 $$
 
@@ -233,7 +233,7 @@ $$
 ### infinite lower limit of integration formula
 $$
 \begin{aligned}
-\int_{-\infty}^b f(x)dx = \lim_{a \rightarrow -\infty} \int_{a}^b f(x)dx
+\int _ { - \infty } ^ b f ( x ) d x = \lim _ { a \rightarrow - \infty } \int _ { a } ^ b f ( x ) d x
 \end{aligned}
 $$
 
@@ -246,7 +246,7 @@ $$
 ### infinite lower limit of integration formula
 $$
 \begin{aligned}
-\int_{a}^{\infty} f(x)dx = \lim_{b \rightarrow \infty} \int_{a}^b f(x)dx
+\int _ { a } ^ { \infty } f ( x ) d x = \lim _ { b \rightarrow \infty } \int _ { a } ^ b f ( x ) d x
 \end{aligned}
 $$
 
@@ -259,7 +259,7 @@ $$
 ### infinite limit of integration formula
 $$
 \begin{aligned}
-\int_{-\infty}^{\infty} f(x)dx = \int_{-\infty}^c f(x)dx + \int_{c}^{\infty} f(x)dx
+\int _ { - \infty } ^ { \infty } f ( x ) d x = \int _ { - \infty } ^ c f ( x ) d x + \int _ { c } ^ { \infty } f ( x ) d x
 \end{aligned}
 $$
 

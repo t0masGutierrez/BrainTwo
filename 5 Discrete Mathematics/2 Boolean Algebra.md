@@ -1,5 +1,5 @@
 ### boolean algebra
-- set ${\{0, 1}\}$ with two binary operations ${\{\land, \lor}\}$ and single unary operation $\{\overline{\ }\}$ such that these hold for all ${\{x, y, z}\}$
+- set ${ \{ 0 , 1 } \}$ with two binary operations ${ \{ \land , \lor } \}$ and single unary operation $\{ \overline { \  } \}$ such that these hold for all ${ \{ x , y , z } \}$
 ![[5 Discrete Mathematics/Images/boolean algebra.png]]
 
 ---
@@ -11,8 +11,8 @@
 ### boolean complement formula
 $$
 \begin{aligned}
-\overline{1} = 0 \\
-\overline{0} = 1
+\overline { 1 } = 0 \\
+\overline { 0 } = 1
 \end{aligned}
 $$
 
@@ -57,8 +57,8 @@ $$
 ### boolean function formula
 $$
 \begin{aligned}
-f : \{0, 1\}^n \rightarrow \{0, 1\} \\
-n = \text{number of variables}
+f : \{ 0 , 1 \} ^ n \rightarrow \{ 0 , 1 \} \\
+n = \text { number of variables }
 \end{aligned}
 $$
 
@@ -70,8 +70,8 @@ $$
 ### boolean complexity formula
 $$
 \begin{aligned}
-N = 2^n \\
-n = \text{number of variables}
+N = 2 ^ n \\
+n = \text { number of variables }
 \end{aligned}
 $$
 

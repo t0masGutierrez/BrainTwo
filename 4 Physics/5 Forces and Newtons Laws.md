@@ -5,7 +5,7 @@
 ### dynamics formula
 $$
 \begin{aligned}
-\vec F_{A} \rightarrow \vec x_{A} = ?
+\vec F _ A \rightarrow \vec x _ A = ?
 \end{aligned}
 $$
 
@@ -18,15 +18,15 @@ $$
 ### force formula
 $$
 \begin{aligned}
-\vec F = F_{x}\hat i + F_{y}\hat j \\
-F = \sqrt{F_{x}^2 + F_{y}^2} \\
-\theta = \arctan(\frac{F_{y}}{F_{x}}) \\
-F_{x} = F \cos (\theta) \\
-F_{y} = F \sin (\theta) \\
-F = \text{force} \\
-\hat i = \text{x direction} \\
-\hat j = \text{y direction} \\
-\theta = \text{angle between vectors}
+\vec F = F _ x \hat i + F _ y \hat j \\
+F = \sqrt { F _ { x } ^ 2 + F _ { y } ^ 2 } \\
+\theta = \arctan ( \frac { F _ { y } } { F _ { x } } ) \\
+F _ { x } = F \cos ( \theta ) \\
+F _ { y } = F \sin ( \theta ) \\
+F = \text { force } \\
+\hat i = \text { x direction } \\
+\hat j = \text { y direction } \\
+\theta = \text { angle between vectors }
 \end{aligned}
 $$
 
@@ -39,10 +39,10 @@ $$
 ### net force formula
 $$
 \begin{aligned}
-\vec F_{net} = \sum_{n} \vec F_{n} = (\sum_{n} F_{nx}) \hat i + (\sum_{n} F_{ny}) \hat j \\
-\vec F = \text{force} \\
-\hat i = \text{x direction} \\
-\hat j = \text{y direction} \\
+\vec F _ { n e t } = \sum _ n \vec F _ n = ( \sum _ n F _ { n x } ) \hat i + ( \sum _ n F _ { n y } ) \hat j \\
+\vec F = \text { force } \\
+\hat i = \text { x direction } \\
+\hat j = \text { y direction } \\
 \end{aligned}
 $$
 
@@ -55,9 +55,9 @@ $$
 ### normal force formula
 $$
 \begin{aligned}
-\vec F_{N} = m \vec a_{N} \\
-m = \text{mass} \\
-\vec a = \text{acceleration}
+\vec F _ N = m \vec a _ N \\
+m = \text { mass } \\
+\vec a = \text { acceleration }
 \end{aligned}
 $$
 
@@ -72,11 +72,11 @@ $$
 ### friction force formula
 $$
 \begin{aligned}
-\vec f_{s} \le \mu_{s} \vec F_{N} \\
-\vec f_{k} = \mu_{k} \vec F_{N} \\
-\mu_{s} = \text{static friction coefficient} \\
-\mu_{k} = \text{kinetic friction coefficient} \\
-\vec F = \text{force}
+\vec f _ s \le \mu _ s \vec F _ N \\
+\vec f _ k = \mu _ k \vec F _ N \\
+\mu _ s = \text { static friction coefficient } \\
+\mu _ k = \text { kinetic friction coefficient } \\
+\vec F = \text { force }
 \end{aligned}
 $$
 
@@ -89,9 +89,9 @@ $$
 ### tension force formula
 $$
 \begin{aligned}
-\vec F_{T} = m\vec a_{T} \\
-m = \text{mass} \\
-\vec a = \text{acceleration} 
+\vec F _ T = m \vec a _ T \\
+m = \text { mass } \\
+\vec a = \text { acceleration }
 \end{aligned}
 $$
 
@@ -105,8 +105,8 @@ $$
 $$
 \begin{aligned}
 \vec w = m \vec g \\
-m = \text{mass} \\
-\vec g = \text{gravity} 
+m = \text { mass } \\
+\vec g = \text { gravity }
 \end{aligned}
 $$
 
@@ -119,9 +119,9 @@ $$
 ### centripetal force formula
 $$
 \begin{aligned}
-\vec F_{c} = m \vec a_{rad}  \\
-m = \text{mass} \\
-\vec a = \text{acceleration}
+\vec F _ { c } = m \vec a _ { r a d } \\
+m = \text { mass } \\
+\vec a = \text { acceleration }
 \end{aligned}
 $$
 
@@ -134,9 +134,9 @@ $$
 ### spring force formula
 $$
 \begin{aligned}
-\vec F_{s} = -k\Delta \vec x \\
-k = \text{spring constant} \\
-\vec x = \text{position}
+\vec F _ s = - k \Delta \vec x \\
+k = \text { spring constant } \\
+\vec x = \text { position }
 \end{aligned}
 $$
 
@@ -148,13 +148,13 @@ $$
 ### drag force formula
 $$
 \begin{aligned}
-\vec F_{d} = -k\vec v \\
-\vec F_{d} = \frac{-1}{2}\rho C_{d} A \vec v^2 \\
-k = \text{linear drag coefficient} \\
-\vec v = \text{velocity} \\
-\rho = \text{density} \\
-C_{d} = \text{drag coefficient} \\
-A = \text{cross-section area}
+\vec F _ d = - k \vec v \\
+\vec F _ d = \frac { - 1 } { 2 } \rho C _ d A \vec v ^ 2 \\
+k = \text { linear drag coefficient } \\
+\vec v = \text { velocity } \\
+\rho = \text { density } \\
+C _ d = \text { drag coefficient } \\
+A = \text { cross-section area }
 \end{aligned}
 $$
 
@@ -166,10 +166,10 @@ $$
 ### buoyant force formula
 $$
 \begin{aligned}
-\vec F_{b} = \rho_{f} V_{f} \vec g \\
-\rho_{f} = \text{fluid density} \\
-V_{f} = \text{fluid volume} \\
-\vec g = \text{gravity}
+\vec F _ { b } = \rho _ f V _ f \vec g \\
+\rho _ f = \text { fluid density } \\
+V _ f = \text { fluid volume } \\
+\vec g = \text { gravity }
 \end{aligned}
 $$
 
@@ -202,7 +202,7 @@ $$
 - sketch all forces acting on the body as vectors
 - resolve all vectors into scalar components
 - if equilibrium then newtons first law $\sum F = 0$ 
-- if nonequilibrium then newtons second law $\sum F = ma$ 
+- if nonequilibrium then newtons second law $\sum F = m a$ 
 ![[4 Physics/Images/free body diagram.png|200]]
 
 ---
@@ -213,11 +213,11 @@ $$
 ### gravitational interaction formula
 $$
 \begin{aligned}
-\vec F_{G} = G\frac{m_1m_{2}}{r^2}\hat r \\
-G = \text{gravitational constant} \\
-m = \text{mass} \\
-r = \text{distance between centers} \\
-\hat r = \text{direction}
+\vec F _ G = G \frac { m _ 1 m _ 2 } { r ^ 2 } \hat r \\
+G = \text { gravitational constant } \\
+m = \text { mass } \\
+r = \text { distance between centers } \\
+\hat r = \text { direction }
 \end{aligned}
 $$
 
@@ -229,11 +229,11 @@ $$
 ### electromagnetic interaction formula
 $$
 \begin{aligned}
-\vec F_{EM} = q(\vec E + \vec v \times \vec B) \\
-q = \text{electric charge} \\
-\vec E = \text{electric field} \\
-\vec v = \text{velocity} \\
-\vec B = \text{magnetic field}
+\vec F _ { E M } = q ( \vec E + \vec v \times \vec B ) \\
+q = \text { electric charge } \\
+\vec E = \text { electric field } \\
+\vec v = \text { velocity } \\
+\vec B = \text { magnetic field }
 \end{aligned}
 $$
 
@@ -245,7 +245,7 @@ $$
 ### strong nuclear interaction formula
 $$
 \begin{aligned}
-F_{strong}
+F _ { s t r o n g }
 \end{aligned}
 $$
 
@@ -257,7 +257,7 @@ $$
 ### weak nuclear interaction formula
 $$
 \begin{aligned}
-F_{weak}
+F _ { w e a k }
 \end{aligned}
 $$
 
@@ -270,9 +270,9 @@ $$
 ### newtons 1st formula
 $$
 \begin{aligned}
-\vec F_{net} = 0 \implies \vec a = 0 \\
-\vec F = \text{force} \\
-\vec a = \text{acceleration}
+\vec F _ { n e t } = 0 \implies \vec a = 0 \\
+\vec F = \text { force } \\
+\vec a = \text { acceleration }
 \end{aligned}
 $$
 
@@ -285,14 +285,14 @@ $$
 ### newtons 2nd formula
 $$
 \begin{aligned}
-\vec F_{net} = m\vec a =
+\vec F _ { n e t } = m \vec a =
 \begin{cases}
-F_{x} = ma_{x} \\
-F_{y} = ma_{y}
-\end{cases} \\
-m = \text{mass} \\
-\vec a = \text{acceleration} \\
-F = \text{force}
+F _ { x } = m a _ { x } \\
+F _ { y } = m a _ { y }
+\end { c a s e s } \\
+m = \text { mass } \\
+\vec a = \text { acceleration } \\
+F = \text { force }
 \end{aligned}
 $$
 
@@ -306,9 +306,9 @@ $$
 ### newtons 3rd formula
 $$
 \begin{aligned}
-\vec F_{AB} = -\vec F_{BA} \\
-\vec F = \text{force} \\
-A, B = \text{object}
+\vec F _ { A B } = - \vec F _ { B A } \\
+\vec F = \text { force } \\
+A , B = \text { object }
 \end{aligned}
 $$
 

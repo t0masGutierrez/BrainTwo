@@ -41,7 +41,7 @@
 ### proof by cases formula
 $$
 \begin{aligned}
-p_{1} \lor p_{2} \lor ... \lor p_{n} \implies q
+p _ { 1 } \lor p _ { 2 } \lor . . . \lor p _ { n } \implies q
 \end{aligned}
 $$
 
@@ -53,7 +53,7 @@ $$
 ### proof by exhaustion formula
 $$
 \begin{aligned}
-(p_{1} \implies q) \land (p_{2} \implies q) \land ... \land (p_{n} \implies q)
+( p _ { 1 } \implies q ) \land ( p _ { 2 } \implies q ) \land . . . \land ( p _ { n } \implies q )
 \end{aligned}
 $$
 

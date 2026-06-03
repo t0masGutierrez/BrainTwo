@@ -18,9 +18,9 @@
 ### inverse type I row operation formula
 $$
 \begin{aligned}
-\langle i\rangle \implies (\frac{1}{c})\langle i\rangle  \\
-i = \text{row index} \\
-c = \text{scalar}
+\langle i \rangle \implies ( \frac { 1 } { c } ) \langle i \rangle \\
+i = \text { row index } \\
+c = \text { scalar }
 \end{aligned}
 $$
 
@@ -32,9 +32,9 @@ $$
 ### inverse type II row operation formula
 $$
 \begin{aligned}
-\langle i\rangle \implies \langle i\rangle - c\langle j\rangle \\
-i, j = \text{row index} \\
-c = \text{scalar}
+\langle i \rangle \implies \langle i \rangle - c \langle j \rangle \\
+i , j = \text { row index } \\
+c = \text { scalar }
 \end{aligned}
 $$
 
@@ -47,7 +47,7 @@ $$
 $$
 \begin{aligned}
 \langle j \rangle \iff \langle i \rangle \\
-i, j = \text{row index} \\
+i , j = \text { row index } \\
 \end{aligned}
 $$
 
@@ -60,9 +60,9 @@ $$
 ### rank formula
 $$
 \begin{aligned}
-\text{rank}(A) = k \\
-k = \text{number of RREF nonzero rows} \\
-k = \text{number of RREF pivot columns}
+\text { rank } ( A ) = k \\
+k = \text { number of RREF nonzero rows } \\
+k = \text { number of RREF pivot columns }
 \end{aligned}
 $$
 
@@ -74,11 +74,11 @@ $$
 ### row space formula
 $$
 \begin{aligned}
-\text{Row}(A) = \{\sum_{i=1}^m c_{i}\vec a_{i} \mid c \in \mathbb R, \vec a \in \mathbb R^n\} \\
-m = \text{number of rows} \\
-n = \text{number of columns} \\
-c = \text{scalar} \\
-\vec a = \text{row vector} 
+\text { Row } ( A ) = \{ \sum _ { i = 1 } ^ m c _ { i } \vec a _ { i } \mid c \in \mathbb R , \vec a \in \mathbb R ^ n \} \\
+m = \text { number of rows } \\
+n = \text { number of columns } \\
+c = \text { scalar } \\
+\vec a = \text { row vector }
 \end{aligned}
 $$
 
@@ -97,10 +97,10 @@ $$
 ### system equivalence property formula
 $$
 \begin{aligned}
-A \mid B \sim C \mid D \implies AX=B \sim CX = D \\
-A, C = \text{coefficient matrix} \\
-D, B = \text{constant matrix} \\
-X = \text{variable matrix}
+A \mid B \sim C \mid D \implies A X = B \sim C X = D \\
+A , C = \text { coefficient matrix } \\
+D , B = \text { constant matrix } \\
+X = \text { variable matrix }
 \end{aligned}
 $$
 
@@ -114,7 +114,7 @@ $$
 $$
 \begin{aligned}
 A \sim B \implies B \sim A \\
-(A \sim B) \land (B \sim C) \implies A \sim C
+( A \sim B ) \land ( B \sim C ) \implies A \sim C
 \end{aligned}
 $$
 
@@ -126,9 +126,9 @@ $$
 ### row equivalence RREF property formula
 $$
 \begin{aligned}
- A \sim B \iff \text{RREF}(A) = \text{RREF}(B) \\
- A, B = \text{matrix} \\
- \text{RREF} = \text{reduced row echelon form}
+ A \sim B \iff \text { RREF } ( A ) = \text { RREF } ( B ) \\
+ A , B = \text { matrix } \\
+ \text { RREF } = \text { reduced row echelon form }
 \end{aligned}
 $$
 
@@ -141,12 +141,12 @@ $$
 ### rank size property formula
 $$
 \begin{aligned}
-\text{rank}(A) = n \iff Y = \set{0} \\
-\text{rank}(A) < n \iff Y \ne \set{0} \\
-AX = 0 \\
-A = \text{square matrix} \\
-n = \text{dimension} \\
-Y = \text{complete solution set}
+\text { rank } ( A ) = n \iff Y = \set { 0 } \\
+\text { rank } ( A ) < n \iff Y \ne \set { 0 } \\
+A X = 0 \\
+A = \text { square matrix } \\
+n = \text { dimension } \\
+Y = \text { complete solution set }
 \end{aligned}
 $$
 
@@ -158,8 +158,8 @@ $$
 ### row space transitivity property formula
 $$
 \begin{aligned}
-(a \in \text{Row} \ A) \land (\text{Row} \ A \subset \text{Row} \ B) \implies a \in \text{Row}(B) \\
-A, B = \text{matrix}
+( a \in \text { Row } \  A ) \land ( \text { Row } \  A \subset \text { Row } \  B ) \implies a \in \text { Row } ( B ) \\
+A , B = \text { matrix }
 \end{aligned}
 $$
 
@@ -171,7 +171,7 @@ $$
 ### row space equivalence property formula
 $$
 \begin{aligned}
-A \sim B \iff \text{Row}(A) = \text{Row}(B)
+A \sim B \iff \text { Row } ( A ) = \text { Row } ( B )
 \end{aligned}
 $$
 
@@ -183,9 +183,9 @@ $$
 ### row space zero property formula
 $$
 \begin{aligned}
-\vec 0 = 0a_{1} + \dots + 0a_{m} \\
-a = \text{row} \\
-m = \text{number of rows}
+\vec 0 = 0 a _ { 1 } + \dots + 0 a _ { m } \\
+a = \text { row } \\
+m = \text { number of rows }
 \end{aligned}
 $$
 
@@ -197,10 +197,10 @@ $$
 ### row space row property formula
 $$
 \begin{aligned}
-\vec a_{i} = 0a_{1} + \dots + 1a_{i} + \dots + 0a_{m} \\
-a = \text{row} \\
-i = \text{row index} \\
-m = \text{number of rows} \\
+\vec a _ { i } = 0 a _ { 1 } + \dots + 1 a _ { i } + \dots + 0 a _ { m } \\
+a = \text { row } \\
+i = \text { row index } \\
+m = \text { number of rows } \\
 \end{aligned}
 $$
 
@@ -213,8 +213,8 @@ $$
 ### row space dimension property formula
 $$
 \begin{aligned}
-\text{Rank}(A) = \text{Rank}(A^T) \\
-\dim(\text{Row} \ A) = \dim(\text{Col} \ A) 
+\text { Rank } ( A ) = \text { Rank } ( A ^ T ) \\
+\dim ( \text { Row } \  A ) = \dim ( \text { Col } \  A )
 \end{aligned}
 $$
 

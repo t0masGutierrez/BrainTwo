@@ -26,8 +26,8 @@
 ### argument formula
 $$
 \begin{aligned}
-\because \text{premise(s)} \\
-\therefore \text{conclusion}
+\because \text { premise(s) } \\
+\therefore \text { conclusion }
 \end{aligned}
 $$
 

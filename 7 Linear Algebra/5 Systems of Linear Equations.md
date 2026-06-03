@@ -5,10 +5,10 @@
 ### linear equation formula
 $$
 \begin{aligned}
-\sum_{i=1}^n a_ix_{i} = b \\
-a = \text{coefficient} \\
-x = \text{variable} \\
-b = \text{constant} 
+\sum _ { i = 1 } ^ n a _ i x _ i = b \\
+a = \text { coefficient } \\
+x = \text { variable } \\
+b = \text { constant }
 \end{aligned}
 $$
 
@@ -20,15 +20,15 @@ $$
 ### system of linear equations formula
 $$
 \begin{aligned}
-\begin{array}{l}
-a_{11}x_{1} + a_{12}x_{2} + \cdots + a_{1n}x_{n} = b_{1} \\
-a_{21}x_{1} + a_{22}x_{2} + \cdots + a_{2n}x_{n} = b_{2} \\
+\begin { a r r a y } { l }
+a _ { 11 } x _ { 1 } + a _ { 12 } x _ { 2 } + \cdots + a _ { 1 n } x _ { n } = b _ { 1 } \\
+a _ { 21 } x _ { 1 } + a _ { 22 } x _ { 2 } + \cdots + a _ { 2 n } x _ { n } = b _ { 2 } \\
 \quad \vdots \quad \qquad \vdots \quad \qquad \ddots \qquad \vdots \qquad \vdots \\
-a_{m1}x_{1} + a_{m2}x_{2} + \cdots + a_{mn}x_{n} = b_{m}
-\end{array} \\
-a = \text{coefficient} \\
-x = \text{variable} \\
-b = \text{constant} 
+a _ { m 1 } x _ { 1 } + a _ { m 2 } x _ { 2 } + \cdots + a _ { m n } x _ { n } = b _ { m }
+\end { a r r a y } \\
+a = \text { coefficient } \\
+x = \text { variable } \\
+b = \text { constant }
 \end{aligned}
 $$
 
@@ -40,12 +40,12 @@ $$
 ### particular solution of system of linear equations formula
 $$
 \begin{aligned}
-y = (y_{1}, \dots, y_{n}) \iff \forall j \in \set{1, \dots, m}:\sum_{i=1}^n a_{ji}y_{i} = b_{j} \\
-m = \text{number of linear equations} \\
-n = \text{number of variables} \\
-a = \text{coefficient} \\
-y = \text{solution} \\
-b = \text{constant}
+y = ( y _ 1 , \dots , y _ n ) \iff \forall j \in \set { 1 , \dots , m } : \sum _ { i = 1 } ^ n a _ { j i } y _ { i } = b _ { j } \\
+m = \text { number of linear equations } \\
+n = \text { number of variables } \\
+a = \text { coefficient } \\
+y = \text { solution } \\
+b = \text { constant }
 \end{aligned}
 $$
 
@@ -57,13 +57,13 @@ $$
 ### complete solution of system of linear equations formula
 $$
 \begin{aligned}
-Y = \{(y_{1}, \dots, y_{n}) \in \mathbb R^n \mid  \forall j \in \set{1, \dots, m}:\sum_{i=1}^n a_{ji}y_{i} = b_{j}\} \\
-Y = \text{complete solution set} \\
-m = \text{number of linear equations} \\
-n = \text{number of variables} \\
-a = \text{coefficient} \\
-y = \text{solution} \\
-b = \text{constant}
+Y = \{ ( y _ 1 , \dots , y _ n ) \in \mathbb R ^ n \mid \forall j \in \set { 1 , \dots , m } : \sum _ { i = 1 } ^ n a _ { j i } y _ { i } = b _ { j } \} \\
+Y = \text { complete solution set } \\
+m = \text { number of linear equations } \\
+n = \text { number of variables } \\
+a = \text { coefficient } \\
+y = \text { solution } \\
+b = \text { constant }
 \end{aligned}
 $$
 
@@ -75,16 +75,16 @@ $$
 ### coefficient matrix formula
 $$
 \begin{aligned}
-A = \begin{bmatrix}
-a_{11} & a_{12} & \cdots & a_{1n} \\
-a_{21} & a_{22} & \cdots & a_{2n} \\
+A = \begin { b m a t r i x }
+a _ { 11 } & a _ { 12 } & \cdots & a _ { 1 n } \\
+a _ { 21 } & a _ { 22 } & \cdots & a _ { 2 n } \\
 \vdots & \vdots & \ddots & \vdots \\
-a_{m1} & a_{m2} & \cdots & a_{mn} \\
-\end{bmatrix} \\
-|A| = m \times n \\
-a = \text{coefficient} \\
-m = \text{number of rows} \\
-n = \text{number of columns}
+a _ { m 1 } & a _ { m 2 } & \cdots & a _ { m n } \\
+\end { b m a t r i x } \\
+| A | = m \times n \\
+a = \text { coefficient } \\
+m = \text { number of rows } \\
+n = \text { number of columns }
 \end{aligned}
 $$
 
@@ -96,14 +96,14 @@ $$
 ### variable matrix formula
 $$
 \begin{aligned}
-X = \begin{bmatrix}
-x_{1} \\
-x_{2} \\
+X = \begin { b m a t r i x }
+x _ { 1 } \\
+x _ { 2 } \\
 \vdots \\
-x_{n}
-\end{bmatrix} \\
-|X| = n \times 1 \\
-x = \text{variable}
+x _ { n }
+\end { b m a t r i x } \\
+| X | = n \times 1 \\
+x = \text { variable }
 \end{aligned}
 $$
 
@@ -115,14 +115,14 @@ $$
 ### constant matrix formula
 $$
 \begin{aligned}
-B = \begin{bmatrix}
-b_{1} \\
-b_{2} \\
+B = \begin { b m a t r i x }
+b _ { 1 } \\
+b _ { 2 } \\
 \vdots \\
-b_{m}
-\end{bmatrix} \\
-|B| = m \times 1 \\
-b = \text{constant}
+b _ { m }
+\end { b m a t r i x } \\
+| B | = m \times 1 \\
+b = \text { constant }
 \end{aligned}
 $$
 
@@ -134,26 +134,26 @@ $$
 ### system of linear equations formula
 $$
 \begin{aligned}
-AX = B \\
+A X = B \\
 \begin{bmatrix}
-a_{11} & a_{12} & \cdots & a_{1n} \\
-a_{21} & a_{22} & \cdots & a_{2n} \\
+a _ { 11 } & a _ { 12 } & \cdots & a _ { 1 n } \\
+a _ { 21 } & a _ { 22 } & \cdots & a _ { 2 n } \\
 \vdots & \vdots & \ddots & \vdots \\
-a_{m1} & a_{m2} & \cdots & a_{mn} \\
-\end{bmatrix}  \begin{bmatrix}
-x_{1} \\
-x_{2} \\
+a _ { m 1 } & a _ { m 2 } & \cdots & a _ { m n } \\
+\end { b m a t r i x } \begin { b m a t r i x }
+x _ { 1 } \\
+x _ { 2 } \\
 \vdots \\
-x_{n}
-\end{bmatrix} = \begin{bmatrix}
-b_{1} \\
-b_{2} \\
+x _ { n }
+\end { b m a t r i x } = \begin { b m a t r i x }
+b _ { 1 } \\
+b _ { 2 } \\
 \vdots \\
-b_{m}
-\end{bmatrix} \\
-A = \text{coefficient matrix} \\
-X = \text{variable matrix} \\
-B = \text{constant matrix}
+b _ { m }
+\end { b m a t r i x } \\
+A = \text { coefficient matrix } \\
+X = \text { variable matrix } \\
+B = \text { constant matrix }
 \end{aligned}
 $$
 
@@ -165,12 +165,12 @@ $$
 ### augmented matrix formula
 $$
 \begin{aligned}
-A \mid B = \left[\begin{array}{cccc|c}
-a_{11} & a_{12} & \cdots & a_{1n} & b_{1} \\
-a_{21} & a_{22} & \cdots & a_{2n} & b_{2} \\
+A \mid B = \left [ \begin { a r r a y } { c c c c | c }
+a _ { 11 } & a _ { 12 } & \cdots & a _ { 1 n } & b _ { 1 } \\
+a _ { 21 } & a _ { 22 } & \cdots & a _ { 2 n } & b _ { 2 } \\
 \vdots & \vdots & \ddots & \vdots & \vdots \\
-a_{m1} & a_{m2} & \cdots & a_{mn} & b_{m}
-\end{array}\right]
+a _ { m 1 } & a _ { m 2 } & \cdots & a _ { m n } & b _ { m }
+\end { a r r a y } \right ]
 \end{aligned}
 $$
 
@@ -182,12 +182,12 @@ $$
 ### simultaneous matrix formula
 $$
 \begin{aligned}
-A \mid B \mid B' = \left[\begin{array}{cccc|c|c}
-a_{11} & a_{12} & \cdots & a_{1n} & b_{1} & b_{1}' \\
-a_{21} & a_{22} & \cdots & a_{2n} & b_{2} & b_{2}' \\
+A \mid B \mid B ' = \left [ \begin { a r r a y } { c c c c | c | c }
+a _ { 11 } & a _ { 12 } & \cdots & a _ { 1 n } & b _ { 1 } & b _ { 1 } ' \\
+a _ { 21 } & a _ { 22 } & \cdots & a _ { 2 n } & b _ { 2 } & b _ { 2 } ' \\
 \vdots & \vdots & \ddots & \vdots & \vdots & \vdots \\
-a_{m1} & a_{m2} & \cdots & a_{mn} & b_{m} & b_{m}'
-\end{array}\right]
+a _ { m 1 } & a _ { m 2 } & \cdots & a _ { m n } & b _ { m } & b _ { m } '
+\end { a r r a y } \right ]
 \end{aligned}
 $$
 
@@ -225,9 +225,9 @@ $$
 ### type I row operation formula
 $$
 \begin{aligned}
-\langle i\rangle \implies c\langle i\rangle  \\
-i = \text{row index} \\
-c = \text{scalar}
+\langle i \rangle \implies c \langle i \rangle \\
+i = \text { row index } \\
+c = \text { scalar }
 \end{aligned}
 $$
 
@@ -239,9 +239,9 @@ $$
 ### type II row operation formula
 $$
 \begin{aligned}
-\langle i\rangle \implies \langle i\rangle + c\langle j\rangle \\
-i, j = \text{row index} \\
-c = \text{scalar}
+\langle i \rangle \implies \langle i \rangle + c \langle j \rangle \\
+i , j = \text { row index } \\
+c = \text { scalar }
 \end{aligned}
 $$
 
@@ -254,7 +254,7 @@ $$
 $$
 \begin{aligned}
 \langle i \rangle \iff \langle j \rangle \\
-i, j = \text{row index}
+i , j = \text { row index }
 \end{aligned}
 $$
 
@@ -304,8 +304,8 @@ $$
 ### row operation property formula
 $$
 \begin{aligned}
-R(AB) = (R(A))B \\
-R_{n}(\dots (R_{2}(R_{1}(AB))) \dots) = (R_{n}(\dots (R_{2}(R_{1}(A))) \dots))B \\
+R ( A B ) = ( R ( A ) ) B \\
+R _ { n } ( \dots ( R _ { 2 } ( R _ { 1 } ( A B ) ) ) \dots ) = ( R _ { n } ( \dots ( R _ { 2 } ( R _ { 1 } ( A ) ) ) \dots ) ) B \\
 \end{aligned}
 $$
 

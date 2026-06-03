@@ -10,9 +10,9 @@
 ### pulse formula
 $$
 \begin{aligned}
-\Delta x = v\Delta t \\
-v = \text{wave velocity} \\
-t = \text{time}
+\Delta x = v \Delta t \\
+v = \text { wave velocity } \\
+t = \text { time }
 \end{aligned}
 $$
 
@@ -38,12 +38,12 @@ $$
 ### wave position formula
 $$
 \begin{aligned}
-y(x, t) = A \cos(kx \mp \omega t) \\
-A = \text{amplitude} \\
-k = \text{wave number} \\
-x = \text{position} \\
-\omega = \text{angular frequency} \\
-t = \text{time}
+y ( x , t ) = A \cos ( k x \mp \omega t ) \\
+A = \text { amplitude } \\
+k = \text { wave number } \\
+x = \text { position } \\
+\omega = \text { angular frequency } \\
+t = \text { time }
 \end{aligned}
 $$
 
@@ -60,8 +60,8 @@ $$
 ### wave number formula
 $$
 \begin{aligned}
-k = \frac{2\pi}{\lambda} \\
-\lambda = \text{wavelength}
+k = \frac { 2 \pi } { \lambda } \\
+\lambda = \text { wavelength }
 \end{aligned}
 $$
 
@@ -73,8 +73,8 @@ $$
 ### angular frequency formula
 $$
 \begin{aligned}
-\omega = 2\pi f \\
-f = \text{oscillation frequency}
+\omega = 2 \pi f \\
+f = \text { oscillation frequency }
 \end{aligned}
 $$
 
@@ -87,10 +87,10 @@ $$
 ### wave function formula
 $$
 \begin{aligned}
-\frac{\partial^2 y}{\partial x^2} = \frac{1}{v^2}(\frac{\partial^2 y}{\partial t^2}) \\
-v = \text{wave velocity} \\
-y = \text{position} \\
-t = \text{time}
+\frac { \partial ^ 2 y } { \partial x ^ 2 } = \frac { 1 } { v ^ 2 } ( \frac { \partial ^ 2 y } { \partial t ^ 2 } ) \\
+v = \text { wave velocity } \\
+y = \text { position } \\
+t = \text { time }
 \end{aligned}
 $$
 
@@ -102,13 +102,13 @@ $$
 ### particle velocity formula
 $$
 \begin{aligned}
-v(x, t) = \frac{\partial y}{\partial t} = A\omega \sin(kx \mp \omega t) \\
-y = \text{position} \\
-t = \text{time} \\
-A = \text{amplitude} \\
-\omega = \text{angular frequency} \\
-k = \text{wave number} \\
-x = \text{position} 
+v ( x , t ) = \frac { \partial y } { \partial t } = A \omega \sin ( k x \mp \omega t ) \\
+y = \text { position } \\
+t = \text { time } \\
+A = \text { amplitude } \\
+\omega = \text { angular frequency } \\
+k = \text { wave number } \\
+x = \text { position }
 \end{aligned}
 $$
 
@@ -116,13 +116,13 @@ $$
 ### particle acceleration formula
 $$
 \begin{aligned}
-a(x, t) = \frac{\partial^2 y}{\partial t^2} = -A\omega^2 \cos(kx \mp \omega t) \\
-y = \text{position} \\
-t = \text{time} \\
-A = \text{amplitude} \\
-\omega = \text{angular frequency} \\
-k = \text{wave number} \\
-x = \text{position} 
+a ( x , t ) = \frac { \partial ^ 2 y } { \partial t ^ 2 } = - A \omega ^ 2 \cos ( k x \mp \omega t ) \\
+y = \text { position } \\
+t = \text { time } \\
+A = \text { amplitude } \\
+\omega = \text { angular frequency } \\
+k = \text { wave number } \\
+x = \text { position }
 \end{aligned}
 $$
 
@@ -134,9 +134,9 @@ $$
 ### linear mass density formula
 $$
 \begin{aligned}
-\mu = \frac{m}{L} \\
-m = \text{mass} \\
-L = \text{length}
+\mu = \frac { m } { L } \\
+m = \text { mass } \\
+L = \text { length }
 \end{aligned}
 $$
 
@@ -153,11 +153,11 @@ $$
 ### wave velocity formula
 $$
 \begin{aligned}
-v = \lambda f = \frac{\omega}{k} \\
-\lambda = \text{wavelength} \\
-f = \text{oscillation frequency} \\
-\omega = \text{angular frequency} \\
-k = \text{wave number}
+v = \lambda f = \frac { \omega } { k } \\
+\lambda = \text { wavelength } \\
+f = \text { oscillation frequency } \\
+\omega = \text { angular frequency } \\
+k = \text { wave number }
 \end{aligned}
 $$
 
@@ -169,9 +169,9 @@ $$
 ### wave velocity under tension formula
 $$
 \begin{aligned}
-v = \sqrt{\frac{F_{T}}{\mu}} \\
-F_{T} = \text{tension force} \\
-\mu = \text{linear mass density}
+v = \sqrt { \frac { F _ { T } } { \mu } } \\
+F _ { T } = \text { tension force } \\
+\mu = \text { linear mass density }
 \end{aligned}
 $$
 
@@ -263,9 +263,9 @@ $$
 ### resonant wavelength formula
 $$
 \begin{aligned}
-\lambda_{n} = \frac{2L}{n} \\
-L = \text{length} \\
-n = \text{number of antinodes} 
+\lambda _ { n } = \frac { 2 L } { n } \\
+L = \text { length } \\
+n = \text { number of antinodes }
 \end{aligned}
 $$
 
@@ -277,10 +277,10 @@ $$
 ### resonant frequency formula
 $$
 \begin{aligned}
-f_{n} = \frac{nv}{2L} \\
-n = \text{number of antinodes} \\
-v = \text{wave velocity} \\
-L = \text{length}
+f _ { n } = \frac { n v } { 2 L } \\
+n = \text { number of antinodes } \\
+v = \text { wave velocity } \\
+L = \text { length }
 \end{aligned}
 $$
 
@@ -292,12 +292,12 @@ $$
 ### standing wave position formula
 $$
 \begin{aligned}
-y(x, t) = 2A\sin(kx)\sin(\omega t) \\
-A = \text{amplitude} \\
-k = \text{wave number} \\
-x = \text{position} \\
-\omega = \text{angular frequency} \\
-t = \text{time}
+y ( x , t ) = 2 A \sin ( k x ) \sin ( \omega t ) \\
+A = \text { amplitude } \\
+k = \text { wave number } \\
+x = \text { position } \\
+\omega = \text { angular frequency } \\
+t = \text { time }
 \end{aligned}
 $$
 

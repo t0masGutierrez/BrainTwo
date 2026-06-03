@@ -45,9 +45,9 @@
 ### constructive interference formula
 $$
 \begin{aligned}
-\Delta r = m\lambda \\
-m = \pm 0, \pm1, \pm2 ... \\
-\lambda = \text{wavelength}
+\Delta r = m \lambda \\
+m = \pm 0 , \pm 1 , \pm 2 . . . \\
+\lambda = \text { wavelength }
 \end{aligned}
 $$
 
@@ -61,9 +61,9 @@ $$
 ### destructive interference formula
 $$
 \begin{aligned}
-\Delta r = (m + \frac{1}{2})\lambda \\
-m = \pm 0, \pm1, \pm2 ... \\
-\lambda = \text{wavelength}
+\Delta r = ( m + \frac { 1 } { 2 } ) \lambda \\
+m = \pm 0 , \pm 1 , \pm 2 . . . \\
+\lambda = \text { wavelength }
 \end{aligned}
 $$
 
@@ -76,11 +76,11 @@ $$
 ### constructive path difference formula
 $$
 \begin{aligned}
-d \sin(\theta) = m\lambda \\
-d = \text{distance} \\
-\theta = \text{angular position} \\
-m = \text{interference order} \\
-\lambda = \text{wavelength}
+d \sin ( \theta ) = m \lambda \\
+d = \text { distance } \\
+\theta = \text { angular position } \\
+m = \text { interference order } \\
+\lambda = \text { wavelength }
 \end{aligned}
 $$
 
@@ -88,28 +88,28 @@ $$
 ### destructive path difference formula
 $$
 \begin{aligned}
-d \sin(\theta) = (m + \frac{1}{2})\lambda \\
-d = \text{distance} \\
-\theta = \text{angular position} \\
-m = \text{interference order} \\
-\lambda = \text{wavelength}
+d \sin ( \theta ) = ( m + \frac { 1 } { 2 } ) \lambda \\
+d = \text { distance } \\
+\theta = \text { angular position } \\
+m = \text { interference order } \\
+\lambda = \text { wavelength }
 \end{aligned}
 $$
 
 ---
 ### small angle approximation
-- small angular position between central fringe and $m^{th}$ fringe
+- small angular position between central fringe and $m ^ { t h }$ fringe
 ![[4 Physics/Images/small angle approximation.png|300]]
 
 ---
 ### small angle approximation formula
 $$
 \begin{aligned}
-\sin(\theta) \approx \tan(\theta) = \frac{y}{L} \\
-y << L \\
-\theta = \text{angular position} \\
-y = \text{position} \\
-L = \text{length}
+\sin ( \theta ) \approx \tan ( \theta ) = \frac { y } { L } \\
+y < < L \\
+\theta = \text { angular position } \\
+y = \text { position } \\
+L = \text { length }
 \end{aligned}
 $$
 
@@ -130,8 +130,8 @@ $$
 ---
 ### calculate principal maxima
 - as the number of slits increase the principal maxima get brighter
-- number of principal maxima equal $2\lfloor d/\lambda \rfloor + 1$   
-- intensity directly proportional $N^2$ 
+- number of principal maxima equal $2 \lfloor d / \lambda \rfloor + 1$   
+- intensity directly proportional $N ^ 2$ 
 - width inversely proportional $N$ 
 
 ---
@@ -140,8 +140,8 @@ $$
 
 ---
 ### calculate secondary maxima
-- number of secondary maxima equal $N-2$ 
-- intensity inversely proportional $N^2$ 
+- number of secondary maxima equal $N - 2$ 
+- intensity inversely proportional $N ^ 2$ 
 - width inversely proportional $N$ 
 
 ---
@@ -153,9 +153,9 @@ $$
 ### double slit amplitude formula
 $$
 \begin{aligned}
-E = 2E_{12}\cos(\frac{\phi}{2}) \\
-E = \text{electric field} \\
-\phi = \text{phase angle}
+E = 2 E _ { 12 } \cos ( \frac { \phi } { 2 } ) \\
+E = \text { electric field } \\
+\phi = \text { phase angle }
 \end{aligned}
 $$
 
@@ -169,9 +169,9 @@ $$
 ### double slit intensity formula
 $$
 \begin{aligned}
-I = I_{0} \cos^2(\frac{\phi}{2}) \\
-I = \text{intensity} \\
-\phi = \text{phase angle}
+I = I _ { 0 } \cos ^ 2 ( \frac { \phi } { 2 } ) \\
+I = \text { intensity } \\
+\phi = \text { phase angle }
 \end{aligned}
 $$
 
@@ -179,12 +179,12 @@ $$
 ### double slit intensity phase angle formula
 $$
 \begin{aligned}
-\phi = (\frac{2\pi}{\lambda})\Delta r = k d\sin\theta \\
-\lambda = \text{wavelength} \\
-\Delta r = \text{path difference} \\
-k = \text{wave number} \\
-d = \text{distance} \\
-\theta = \text{angular position}
+\phi = ( \frac { 2 \pi } { \lambda } ) \Delta r = k d \sin \theta \\
+\lambda = \text { wavelength } \\
+\Delta r = \text { path difference } \\
+k = \text { wave number } \\
+d = \text { distance } \\
+\theta = \text { angular position }
 \end{aligned}
 $$
 
@@ -210,9 +210,9 @@ $$
 ### fringe spacing formula
 $$
 \begin{aligned}
-\tan(\theta) = \frac{y'}{L'} = \frac{y}{L} \\
-y = \text{position} \\
-L = \text{length}
+\tan ( \theta ) = \frac { y ' } { L ' } = \frac { y } { L } \\
+y = \text { position } \\
+L = \text { length }
 \end{aligned}
 $$
 
@@ -226,11 +226,11 @@ $$
 ### same constructive interference formula
 $$
 \begin{aligned}
-2nt = m \lambda \\
-n = \text{refraction index} \\
-t = \text{thickness} \\
-m = \text{interference order} \\
-\lambda = \text{wavelength}
+2 n t = m \lambda \\
+n = \text { refraction index } \\
+t = \text { thickness } \\
+m = \text { interference order } \\
+\lambda = \text { wavelength }
 \end{aligned}
 $$
 
@@ -238,11 +238,11 @@ $$
 ### same destructive interference formula
 $$
 \begin{aligned}
-2nt = (m + \frac{1}{2})\lambda \\
-n = \text{refraction index} \\
-t = \text{thickness} \\
-m = \text{interference order} \\
-\lambda = \text{wavelength} 
+2 n t = ( m + \frac { 1 } { 2 } ) \lambda \\
+n = \text { refraction index } \\
+t = \text { thickness } \\
+m = \text { interference order } \\
+\lambda = \text { wavelength }
 \end{aligned}
 $$
 
@@ -256,11 +256,11 @@ $$
 ### different constructive interference formula
 $$
 \begin{aligned}
-2nt = (m + \frac{1}{2})\lambda \\
-n = \text{refraction index} \\
-t = \text{thickness} \\
-m = \text{interference order} \\
-\lambda = \text{wavelength} 
+2 n t = ( m + \frac { 1 } { 2 } ) \lambda \\
+n = \text { refraction index } \\
+t = \text { thickness } \\
+m = \text { interference order } \\
+\lambda = \text { wavelength }
 \end{aligned}
 $$
 
@@ -268,11 +268,11 @@ $$
 ### different destructive interference formula
 $$
 \begin{aligned}
-2nt = m \lambda \\
-n = \text{refraction index} \\
-t = \text{thickness} \\
-m = \text{interference order} \\
-\lambda = \text{wavelength}
+2 n t = m \lambda \\
+n = \text { refraction index } \\
+t = \text { thickness } \\
+m = \text { interference order } \\
+\lambda = \text { wavelength }
 \end{aligned}
 $$
 

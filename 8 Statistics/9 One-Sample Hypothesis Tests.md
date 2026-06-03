@@ -24,7 +24,7 @@
 ### null hypothesis formula
 $$
 \begin{aligned}
-H_{0}: \quad \ge, \quad =, \quad  \le
+H _ { 0 } : \quad \ge , \quad = , \quad \le
 \end{aligned}
 $$
 
@@ -37,7 +37,7 @@ $$
 ### alternative hypothesis formula
 $$
 \begin{aligned}
-H_{a}: \quad >, \quad \ne, \quad <
+H _ { a } : \quad > , \quad \ne , \quad <
 \end{aligned}
 $$
 
@@ -58,7 +58,7 @@ $$
 ### type I error formula
 $$
 \begin{aligned}
-\alpha = \text{rejecting } H_{0} \text{ | } H_{0} \text{ true}
+\alpha = \text { rejecting } H _ { 0 } \text { | } H _ { 0 } \text { true }
 \end{aligned}
 $$
 
@@ -71,7 +71,7 @@ $$
 ### type II error formula
 $$
 \begin{aligned}
-\beta = \text{failing to reject } H_{0} \text{ | } H_{0} \text{ false}
+\beta = \text { failing to reject } H _ { 0 } \text { | } H _ { 0 } \text { false }
 \end{aligned}
 $$
 
@@ -83,7 +83,7 @@ $$
 ### power of hypothesis test formula
 $$
 \begin{aligned}
-1-\beta = P(\text{rejecting } H_{0} \text{ | } H_{0} \text{ false})
+1 - \beta = P ( \text { rejecting } H _ { 0 } \text { | } H _ { 0 } \text { false } )
 \end{aligned}
 $$
 
@@ -95,10 +95,10 @@ $$
 ### test statistic formula
 $$
 \begin{aligned}
-T = \frac{X - X_{0}}{SE(X)} \\
-X = \text{sample statistic} \\
-X_{0} = \text{null hypothesis} \\
-SE = \text{standard error}
+T = \frac { X - X _ 0 } { S E ( X ) } \\
+X = \text { sample statistic } \\
+X _ 0 = \text { null hypothesis } \\
+S E = \text { standard error }
 \end{aligned}
 $$
 
@@ -114,7 +114,7 @@ $$
 ### two-tail test formula
 $$
 \begin{aligned}
-H_{a} : \quad \ne 
+H _ a : \quad \ne
 \end{aligned}
 $$
 
@@ -126,7 +126,7 @@ $$
 ### left-tail test formula
 $$
 \begin{aligned}
-H_{a} : \quad <
+H _ a : \quad <
 \end{aligned}
 $$
 
@@ -138,7 +138,7 @@ $$
 ### right-tail test formula
 $$
 \begin{aligned}
-H_{a} : \quad > 
+H _ a : \quad >
 \end{aligned}
 $$
 
@@ -194,12 +194,12 @@ $$
 ### mean z-test formula
 $$
 \begin{aligned}
-\text{avgZ-test}(\mu_{0}, \sigma, \overline x, n, \mu_{a}) \\
-\mu_{0} = \text{null hypothesis} \\
-\sigma = \text{standard deviation} \\
-\overline x = \text{sample mean} \\
-n = \text{sample size} \\
-\mu_{a} = \text{alternative hypothesis}
+\text { avgZ-test } ( \mu _ { 0 } , \sigma , \overline x , n , \mu _ { a } ) \\
+\mu _ { 0 } = \text { null hypothesis } \\
+\sigma = \text { standard deviation } \\
+\overline x = \text { sample mean } \\
+n = \text { sample size } \\
+\mu _ { a } = \text { alternative hypothesis }
 \end{aligned}
 $$
 
@@ -216,12 +216,12 @@ $$
 ### mean t-test formula
 $$
 \begin{aligned}
-\text{avgT-test}(\mu_{0}, \overline x, s, n, \mu_{a}) \\
-\mu_{0} = \text{null hypothesis} \\
-\overline x = \text{sample mean} \\
-s = \text{sample standard deviation} \\
-n = \text{sample size} \\
-\mu_{a} = \text{alternative hypothesis}
+\text { avgT-test } ( \mu _ { 0 } , \overline x , s , n , \mu _ { a } ) \\
+\mu _ { 0 } = \text { null hypothesis } \\
+\overline x = \text { sample mean } \\
+s = \text { sample standard deviation } \\
+n = \text { sample size } \\
+\mu _ { a } = \text { alternative hypothesis }
 \end{aligned}
 $$
 
@@ -236,12 +236,12 @@ $$
 ### proportion z-test formula
 $$
 \begin{aligned}
-\text{propZ-test}(\mu_{0}, \sigma, \overline x, n, \mu_{a}) \\
-\mu_{0} = \text{null hypothesis} \\
-\sigma = \text{standard deviation} \\
-\overline x = \text{sample mean} \\
-n = \text{sample size} \\
-\mu_{a} = \text{alternative hypothesis}
+\text { propZ-test } ( \mu _ { 0 } , \sigma , \overline x , n , \mu _ { a } ) \\
+\mu _ { 0 } = \text { null hypothesis } \\
+\sigma = \text { standard deviation } \\
+\overline x = \text { sample mean } \\
+n = \text { sample size } \\
+\mu _ { a } = \text { alternative hypothesis }
 \end{aligned}
 $$
 

@@ -28,9 +28,9 @@
 ### average power formula
 $$
 \begin{aligned}
-P_{avg} = \frac{E}{t} \\
-E = \text{energy} \\
-t = \text{time}
+P _ { a v g } = \frac { E } { t } \\
+E = \text { energy } \\
+t = \text { time }
 \end{aligned}
 $$
 
@@ -43,8 +43,8 @@ $$
 $$
 \begin{aligned}
 P = \vec F \cdot \vec v \\
-F = \text{force} \\
-v = \text{velocity}
+F = \text { force } \\
+v = \text { velocity }
 \end{aligned}
 $$
 
@@ -57,9 +57,9 @@ $$
 ### sound intensity formula
 $$
 \begin{aligned}
-I = \frac{P}{A} \\
-P = \text{power} \\
-A = \text{area}
+I = \frac { P } { A } \\
+P = \text { power } \\
+A = \text { area }
 \end{aligned}
 $$
 
@@ -72,9 +72,9 @@ $$
 ### sphere sound intensity formula
 $$
 \begin{aligned}
-I = \frac{P}{4\pi r^2} \\
-P = \text{power} \\
-r = \text{distance}
+I = \frac { P } { 4 \pi r ^ 2 } \\
+P = \text { power } \\
+r = \text { distance }
 \end{aligned}
 $$
 
@@ -87,9 +87,9 @@ $$
 ### sound intensity level formula
 $$
 \begin{aligned}
-\beta = 10 \log(\frac{I}{I_{0}}) \\
-I = \text{sound intensity} \\
-I_{0} = 10^{-12}
+\beta = 10 \log ( \frac { I } { I _ { 0 } } ) \\
+I = \text { sound intensity } \\
+I _ { 0 } = 10 ^ { - 12 }
 \end{aligned}
 $$
 
@@ -102,9 +102,9 @@ $$
 ### sound perception formula
 $$
 \begin{aligned}
-\Delta I^n \implies \Delta \beta = 10n \\
-I = \text{sound intensity} \\
-\beta = \text{sound intensity level}
+\Delta I ^ n \implies \Delta \beta = 10 n \\
+I = \text { sound intensity } \\
+\beta = \text { sound intensity level }
 \end{aligned}
 $$
 
@@ -117,10 +117,10 @@ $$
 ### moving observer sound perception formula
 $$
 \begin{aligned}
-f_{o} = (\frac{v \pm v_{0}}{v})f_{s} \\
-v = \text{343} \\
-v_{o} = \text{observer velocity} \\
-f_{s} = \text{source frequency}
+f _ { o } = ( \frac { v \pm v _ { 0 } } { v } ) f _ { s } \\
+v = \text { 343 } \\
+v _ { o } = \text { observer velocity } \\
+f _ { s } = \text { source frequency }
 \end{aligned}
 $$
 
@@ -133,10 +133,10 @@ $$
 ### moving source sound perception formula
 $$
 \begin{aligned}
-f_{o} = (\frac{v}{v \mp v_{s}})f_{s} \\
+f _ { o } = ( \frac { v } { v \mp v _ { s } } ) f _ { s } \\
 v = 343 \\
-v_{s} = \text{source velocity} \\
-f_{s} = \text{source frequency}
+v _ { s } = \text { source velocity } \\
+f _ { s } = \text { source frequency }
 \end{aligned}
 $$
 
@@ -151,11 +151,11 @@ $$
 ### doppler formula
 $$
 \begin{aligned}
-f_{o} = (\frac{v \pm v_{o}}{v \mp v_{s}})f_{s} \\
+f _ { o } = ( \frac { v \pm v _ { o } } { v \mp v _ { s } } ) f _ { s } \\
 v = 343 \\
-v_{o} = \text{observer velocity} \\
-v_{s} = \text{source velocity} \\
-f_{s} = \text{source frequency} \\
+v _ { o } = \text { observer velocity } \\
+v _ { s } = \text { source velocity } \\
+f _ { s } = \text { source frequency } \\
 \end{aligned}
 $$
 
@@ -173,9 +173,9 @@ $$
 ### constructive interference formula
 $$
 \begin{aligned}
-\Delta r = n\lambda \\
-n = Z^+ \\
-\lambda = \text{wavelength}
+\Delta r = n \lambda \\
+n = Z ^ + \\
+\lambda = \text { wavelength }
 \end{aligned}
 $$
 
@@ -183,9 +183,9 @@ $$
 ### destructive interference formula
 $$
 \begin{aligned}
-\Delta r = (n + \frac{1}{2})\lambda \\
-n = Z^+ \\
-\lambda = \text{wavelength}
+\Delta r = ( n + \frac { 1 } { 2 } ) \lambda \\
+n = Z ^ + \\
+\lambda = \text { wavelength }
 \end{aligned}
 $$
 
@@ -198,9 +198,9 @@ $$
 ### beat frequency formula
 $$
 \begin{aligned}
-f = |f_{2} - f_{1}| \\
-f_{2} = \text{reflect frequency} \\
-f_{1} = \text{incident frequency}
+f = | f _ { 2 } - f _ { 1 } | \\
+f _ { 2 } = \text { reflect frequency } \\
+f _ { 1 } = \text { incident frequency }
 \end{aligned}
 $$
 
@@ -217,9 +217,9 @@ $$
 ### asymmetric resonant wavelength formula
 $$
 \begin{aligned}
-\lambda_{n} = \frac{4L}{n} \\
-L = \text{length} \\
-n = 1, 3, 5, ...
+\lambda _ { n } = \frac { 4 L } { n } \\
+L = \text { length } \\
+n = 1 , 3 , 5 , . . .
 \end{aligned}
 $$
 
@@ -231,10 +231,10 @@ $$
 ### asymmetric resonant frequency formula
 $$
 \begin{aligned}
-f_{n} = \frac{nv}{4L} \\
-n = 1, 3, 5, ... \\
-v = \text{wave velocity} \\
-L = \text{length}
+f _ { n } = \frac { n v } { 4 L } \\
+n = 1 , 3 , 5 , . . . \\
+v = \text { wave velocity } \\
+L = \text { length }
 \end{aligned}
 $$
 

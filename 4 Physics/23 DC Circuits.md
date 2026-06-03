@@ -16,8 +16,8 @@
 ### series resistance formula
 $$
 \begin{aligned}
-R_{eq} = \sum_{i} R_{i} \\
-R = \text{resistance}
+R _ { e q } = \sum _ { i } R _ { i } \\
+R = \text { resistance }
 \end{aligned}
 $$
 
@@ -36,8 +36,8 @@ $$
 ### parallel resistance formula
 $$
 \begin{aligned}
-\frac{1}{R_{eq}} = \sum_{i} \frac{1}{R_{i}} \\
-R = \text{resistance}
+\frac { 1 } { R _ { e q } } = \sum _ { i } \frac { 1 } { R _ { i } } \\
+R = \text { resistance }
 \end{aligned}
 $$
 
@@ -66,8 +66,8 @@ $$
 ### kirchhoff junction formula
 $$
 \begin{aligned}
-\sum I_{in} = \sum I_{out} \\
-I = \text{electric current}
+\sum I _ { i n } = \sum I _ { o u t } \\
+I = \text { electric current }
 \end{aligned}
 $$
 
@@ -94,7 +94,7 @@ $$
 $$
 \begin{aligned}
 \sum V = 0 \\
-V = \text{voltage}
+V = \text { voltage }
 \end{aligned}
 $$
 
@@ -143,9 +143,9 @@ $$
 ### time constant formula
 $$
 \begin{aligned}
-\tau = RC \\
-R = \text{resistance} \\
-C = \text{capacitance}
+\tau = R C \\
+R = \text { resistance } \\
+C = \text { capacitance }
 \end{aligned}
 $$
 
@@ -163,13 +163,13 @@ $$
 ### charging electric charge formula
 $$
 \begin{aligned}
-q(t) = CV(1 - e^{-t/RC}) = Q(1 - e^{-t/\tau}) \\
-C = \text{capacitance} \\
-V = \text{voltage} \\
-t = \text{time} \\
-R = \text{resistance} \\
-Q = \text{electric charge} \\
-\tau = \text{time constant}
+q ( t ) = C V ( 1 - e ^ { - t / R C } ) = Q ( 1 - e ^ { - t / \tau } ) \\
+C = \text { capacitance } \\
+V = \text { voltage } \\
+t = \text { time } \\
+R = \text { resistance } \\
+Q = \text { electric charge } \\
+\tau = \text { time constant }
 \end{aligned}
 $$
 
@@ -182,10 +182,10 @@ $$
 ### discharging electric charge formula
 $$
 \begin{aligned}
-q(t) = Q(e^{-t/\tau}) \\
-Q = \text{electric charge} \\
-t = \text{time} \\
-\tau = \text{time constant}
+q ( t ) = Q ( e ^ { - t / \tau } ) \\
+Q = \text { electric charge } \\
+t = \text { time } \\
+\tau = \text { time constant }
 \end{aligned}
 $$
 
@@ -198,13 +198,13 @@ $$
 ### charging electric current formula
 $$
 \begin{aligned}
-i(t) = \frac{V}{R}(e^{-t/RC}) = I(e^{-t/\tau}) \\
-V = \text{voltage} \\
-R = \text{resistance} \\
-t = \text{time} \\
-C = \text{capacitance} \\
-I = \text{electric current} \\
-\tau = \text{time constant}
+i ( t ) = \frac { V } { R } ( e ^ { - t / R C } ) = I ( e ^ { - t / \tau } ) \\
+V = \text { voltage } \\
+R = \text { resistance } \\
+t = \text { time } \\
+C = \text { capacitance } \\
+I = \text { electric current } \\
+\tau = \text { time constant }
 \end{aligned}
 $$
 
@@ -217,10 +217,10 @@ $$
 ### discharging electric current formula
 $$
 \begin{aligned}
-i(t) = I(e^{-t/\tau}) \\
-I = \text{electric current} \\
-t = \text{time} \\
-\tau = \text{time constant}
+i ( t ) = I ( e ^ { - t / \tau } ) \\
+I = \text { electric current } \\
+t = \text { time } \\
+\tau = \text { time constant }
 \end{aligned}
 $$
 
@@ -232,8 +232,8 @@ $$
 ### voltage formula
 $$
 \begin{aligned}
-V = v_{C} + v_{R} \\
-v = \text{voltage}
+V = v _ { C } + v _ { R } \\
+v = \text { voltage }
 \end{aligned}
 $$
 
@@ -252,9 +252,9 @@ $$
 ### capacitor voltage formula
 $$
 \begin{aligned}
-v_{C} = \frac{q}{C} \\
-q = \text{electric charge} \\
-C = \text{capacitance}
+v _ { C } = \frac { q } { C } \\
+q = \text { electric charge } \\
+C = \text { capacitance }
 \end{aligned}
 $$
 
@@ -268,9 +268,9 @@ $$
 ### resistor voltage formula
 $$
 \begin{aligned}
-v_{R} = iR \\
-i = \text{electric current} \\
-R = \text{resistance}
+v _ { R } = i R \\
+i = \text { electric current } \\
+R = \text { resistance }
 \end{aligned}
 $$
 

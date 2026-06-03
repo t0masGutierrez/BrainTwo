@@ -1,36 +1,36 @@
 ### natural number
 - set of counting numbers excluding zero
-- $N = \{1, 2, 3, ...\}$
+- $N = \{ 1 , 2 , 3 , . . . \}$
 
 ---
 ### whole number
 - set of natural numbers including zero
-- $W = \{0, 1, 2, 3, ...\}$
+- $W = \{ 0 , 1 , 2 , 3 , . . . \}$
 
 ---
 ### integer
 - set of whole numbers including negative
-- $Z = \{..., ⁻2, ⁻1, 0, 1, 2, ...\}$
+- $Z = \{ . . . , ⁻ 2 , ⁻ 1 , 0 , 1 , 2 , . . . \}$
 
 ---
 ### rational number
 - set of numbers expressible as ratio of two integers
-- $Q = \{\frac{p}{q} | p ∈ Z, q ∈ Z, q ≠ 0\}$
+- $Q = \{ \frac { p } { q } | p ∈ Z , q ∈ Z , q ≠ 0 \}$
 
 ---
 ### irrational number
 - set of numbers not expressible as ratio of two integers
-- $R\backslash Q = \{x ∈ R | x ∉ Q\}$
+- $R \backslash Q = \{ x ∈ R | x ∉ Q \}$
 
 ---
 ### real number
 - set of numbers including rational and irrational
-- $R = \{x | ⁻∞ < x < ⁺∞\}$
+- $R = \{ x | ⁻ ∞ < x < ⁺ ∞ \}$
 
 ---
 ### complex number
 - set of imaginary numbers including imaginary part
-- $C = \{a + bi | a, b ∈ R, i² = ⁻1\}$
+- $C = \{ a + b i | a , b ∈ R , i ² = ⁻ 1 \}$
 
 ---
 ### set
@@ -40,9 +40,9 @@
 ### set formula
 $$
 \begin{aligned}
-x \in A = \text{x is element of set A} \\
-A \ni x = \text{set A contains element x} \\
-x \notin A = \text{x is not element of set A} \\
+x \in A = \text { x is element of set A } \\
+A \ni x = \text { set A contains element x } \\
+x \notin A = \text { x is not element of set A } \\
 \end{aligned}
 $$
 
@@ -54,7 +54,7 @@ $$
 ### roster formula
 $$
 \begin{aligned}
-A = \{x_{1}, x_{2}, ... x_{n}\}
+A = \{ x _ { 1 } , x _ { 2 } , . . . x _ { n } \}
 \end{aligned}
 $$
 
@@ -66,8 +66,8 @@ $$
 ### set builder formula
 $$
 \begin{aligned}
-A = \{x | P(x)\} \\
-P(x) = \text{proposition function}
+A = \{ x | P ( x ) \} \\
+P ( x ) = \text { proposition function }
 \end{aligned}
 $$
 
@@ -80,10 +80,10 @@ $$
 ### interval formula
 $$
 \begin{aligned}
-{}[a, b] \\
-{}[a, b) \\
-(a, b] \\
-(a, b)
+{}[ a , b ] \\
+{}[ a , b ) \\
+( a , b ] \\
+( a , b )
 \end{aligned}
 $$
 
@@ -95,7 +95,7 @@ $$
 ### set equality formula
 $$
 \begin{aligned}
-A = B \iff \forall x(x \in A \iff x \in B) \\
+A = B \iff \forall x ( x \in A \iff x \in B ) \\
 \end{aligned}
 $$
 
@@ -107,7 +107,7 @@ $$
 ### null set formula
 $$
 \begin{aligned}
-\emptyset = \{\}
+\emptyset = \{ \}
 \end{aligned}
 $$
 
@@ -119,7 +119,7 @@ $$
 ### singleton set formula
 $$
 \begin{aligned}
-A = \{x_{1}\}
+A = \{ x _ { 1 } \}
 \end{aligned}
 $$
 
@@ -143,7 +143,7 @@ $$
 ### improper subset formula
 $$
 \begin{aligned}
-A \subseteq B \equiv \forall x(x \in A \implies x \in B)
+A \subseteq B \equiv \forall x ( x \in A \implies x \in B )
 \end{aligned}
 $$
 
@@ -155,7 +155,7 @@ $$
 ### improper superset formula
 $$
 \begin{aligned}
-B \supseteq A \equiv \forall x(x \in B \implies x \in A)
+B \supseteq A \equiv \forall x ( x \in B \implies x \in A )
 \end{aligned}
 $$
 
@@ -167,7 +167,7 @@ $$
 ### two subset formula
 $$
 \begin{aligned}
-\forall A(A \ne \emptyset)(\emptyset \subset A \land A \subseteq A)
+\forall A ( A \ne \emptyset ) ( \emptyset \subset A \land A \subseteq A )
 \end{aligned}
 $$
 
@@ -191,7 +191,7 @@ $$
 ### proper superset formula
 $$
 \begin{aligned}
-B \supset A \equiv (\forall x \in A: x \in B) \land (\exists y \in B: y \not\in A)
+B \supset A \equiv ( \forall x \in A : x \in B ) \land ( \exists y \in B : y \not \in A )
 \end{aligned}
 $$
 
@@ -223,8 +223,8 @@ $$
 ### cardinality formula
 $$
 \begin{aligned}
-|A| = n \\
-n = \text{number of elements}
+| A | = n \\
+n = \text { number of elements }
 \end{aligned}
 $$
 
@@ -236,8 +236,8 @@ $$
 ### power set formula
 $$
 \begin{aligned}
-\mathcal{P}(A) = 2^n \\
-n = \text{number of elements}
+\mathcal { P } ( A ) = 2 ^ n \\
+n = \text { number of elements }
 \end{aligned}
 $$
 
@@ -249,7 +249,7 @@ $$
 ### tuple formula
 $$
 \begin{aligned}
-a = (x_{1}, x_{2}, ... x_{n})
+a = ( x _ { 1 } , x _ { 2 } , . . . x _ { n } )
 \end{aligned}
 $$
 
@@ -261,7 +261,7 @@ $$
 ### tuple equality formula
 $$
 \begin{aligned}
-a = b \iff \forall n(a_{n} = b_{n})
+a = b \iff \forall n ( a _ { n } = b _ { n } )
 \end{aligned}
 $$
 
@@ -273,7 +273,7 @@ $$
 ### cartesian product formula
 $$
 \begin{aligned}
-A \times B = \{(a, b) | a \in A, b \in B\} \ne B \times A
+A \times B = \{ ( a , b ) | a \in A , b \in B \} \ne B \times A
 \end{aligned}
 $$
 
@@ -319,7 +319,7 @@ $$
 ### universal domain restriction formula
 $$
 \begin{aligned}
-\forall x \in A:P(x) \equiv x \in A \implies P(x)
+\forall x \in A : P ( x ) \equiv x \in A \implies P ( x )
 \end{aligned}
 $$
 
@@ -331,7 +331,7 @@ $$
 ### existential domain restriction formula
 $$
 \begin{aligned}
-\exists x \in A:P(x) \equiv x \in A \land P(x)
+\exists x \in A : P ( x ) \equiv x \in A \land P ( x )
 \end{aligned}
 $$
 
@@ -343,8 +343,8 @@ $$
 ### truth set formula
 $$
 \begin{aligned}
-T = \{x \in D | P(x)\} \\
-D = \text{domain of discourse}
+T = \{ x \in D | P ( x ) \} \\
+D = \text { domain of discourse }
 \end{aligned}
 $$
 
@@ -357,8 +357,8 @@ $$
 ### truth set property formula
 $$
 \begin{aligned}
-\forall (x \in D)P(x) \iff T = D \\
-\exists (x \in D)P(x) \iff T \ne \emptyset
+\forall ( x \in D ) P ( x ) \iff T = D \\
+\exists ( x \in D ) P ( x ) \iff T \ne \emptyset
 \end{aligned}
 $$
 

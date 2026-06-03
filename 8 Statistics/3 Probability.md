@@ -13,9 +13,9 @@
 ### probability formula
 $$
 \begin{aligned}
-0 \le P(A) \le 1 \\
-A \cap B = \emptyset \implies P(A \cup B) = P(A) + P(B) \\
-P(\Omega) = 1
+0 \le P ( A ) \le 1 \\
+A \cap B = \emptyset \implies P ( A \cup B ) = P ( A ) + P ( B ) \\
+P ( \Omega ) = 1
 \end{aligned}
 $$
 
@@ -27,9 +27,9 @@ $$
 ### frequentist probability formula
 $$
 \begin{aligned}
-P(A) = \lim_{n \to \infty} \frac{m}{n} \\
-m = \text{number of events} \\
-n = \text{number of trials}
+P ( A ) = \lim _ { n \to \infty } \frac { m } { n } \\
+m = \text { number of events } \\
+n = \text { number of trials }
 \end{aligned}
 $$
 
@@ -41,9 +41,9 @@ $$
 ### classical probability formula
 $$
 \begin{aligned}
-P(A) = \frac{\text{m}}{\text{n}} \\
-m = \text{number of favorable outcomes} \\
-n = \text{total number of outcomes}
+P ( A ) = \frac { \text { m } } { \text { n } } \\
+m = \text { number of favorable outcomes } \\
+n = \text { total number of outcomes }
 \end{aligned}
 $$
 
@@ -55,7 +55,7 @@ $$
 ### complimentary probability formula
 $$
 \begin{aligned}
-P(A') = 1 - P(A)
+P ( A ' ) = 1 - P ( A )
 \end{aligned}
 $$
 
@@ -67,7 +67,7 @@ $$
 ### conditional probability formula
 $$
 \begin{aligned}
-P(A | B) = \frac{P(A \cap B)}{P(B)}
+P ( A | B ) = \frac { P ( A \cap B ) } { P ( B ) }
 \end{aligned}
 $$
 
@@ -84,7 +84,7 @@ $$
 ### independent multiplication formula
 $$
 \begin{aligned}
-P(A \cap B) = P(A) P(B)
+P ( A \cap B ) = P ( A ) P ( B )
 \end{aligned}
 $$
 
@@ -101,7 +101,7 @@ $$
 ### dependent multiplication formula
 $$
 \begin{aligned}
-P(A \cap B) = P(A) P(B | A)
+P ( A \cap B ) = P ( A ) P ( B | A )
 \end{aligned}
 $$
 
@@ -117,7 +117,7 @@ $$
 ### disjoint addition formula
 $$
 \begin{aligned}
-P(A \cup B) = P(A) + P(B)
+P ( A \cup B ) = P ( A ) + P ( B )
 \end{aligned}
 $$
 
@@ -133,7 +133,7 @@ $$
 ### joint addition formula
 $$
 \begin{aligned}
-P(A \cup B) = P(A) + P(B) - P(A \cap B)
+P ( A \cup B ) = P ( A ) + P ( B ) - P ( A \cap B )
 \end{aligned}
 $$
 
@@ -163,9 +163,9 @@ $$
 ### bayes formula
 $$
 \begin{aligned}
-P(A|B) = \frac{P(A)P(B|A)}{P(B)} \\
-A = \text{hypothesis} \\
-B = \text{condition}
+P ( A | B ) = \frac { P ( A ) P ( B | A ) } { P ( B ) } \\
+A = \text { hypothesis } \\
+B = \text { condition }
 \end{aligned}
 $$
 
@@ -177,9 +177,9 @@ $$
 ### law of total probability formula
 $$
 \begin{aligned}
-P(A) = \sum_{i=1}^n P(A|B_{i})P(B_{i}) \\
-A = \text{hypothesis} \\
-B = \text{condition}
+P ( A ) = \sum _ { i = 1 } ^ n P ( A | B _ { i } ) P ( B _ { i } ) \\
+A = \text { hypothesis } \\
+B = \text { condition }
 \end{aligned}
 $$
 
@@ -191,9 +191,9 @@ $$
 ### permutation formula
 $$
 \begin{aligned}
-_nP_{k} = \frac{n!}{(n-k)!} = k!\begin{pmatrix} n \\ k \end{pmatrix}\\
-n = \text{number of objects} \\
-k = \text{number of arrangements}
+_ n P _ { k } = \frac { n ! } { ( n - k ) ! } = k ! \begin { p m a t r i x } n \\ k \end { p m a t r i x } \\
+n = \text { number of objects } \\
+k = \text { number of arrangements }
 \end{aligned}
 $$
 
@@ -205,9 +205,9 @@ $$
 ### combination formula
 $$
 \begin{aligned}
-\begin{pmatrix} n \\ k \end{pmatrix} = \frac{n!}{k!(n-k)!} \\
-n = \text{number of objects} \\
-k = \text{number of choices}
+\begin { p m a t r i x } n \\ k \end { p m a t r i x } = \frac { n ! } { k ! ( n - k ) ! } \\
+n = \text { number of objects } \\
+k = \text { number of choices }
 \end{aligned}
 $$
 

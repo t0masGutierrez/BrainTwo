@@ -33,9 +33,9 @@
 ### volume formula
 $$
 \begin{aligned}
-\text{cube} = lwh \\
-\text{sphere} = \frac{4}{3}\pi r^3 \\
-\text{cyclinder} = \pi r^2h
+\text { cube } = l w h \\
+\text { sphere } = \frac { 4 } { 3 } \pi r ^ 3 \\
+\text { cyclinder } = \pi r ^ 2 h
 \end{aligned}
 $$
 
@@ -48,9 +48,9 @@ $$
 ### density formula
 $$
 \begin{aligned}
-\rho = \frac{m}{V} \\
-m = \text{mass} \\
-V = \text{volume}
+\rho = \frac { m } { V } \\
+m = \text { mass } \\
+V = \text { volume }
 \end{aligned}
 $$
 
@@ -62,8 +62,8 @@ $$
 ### relative density formula
 $$
 \begin{aligned}
-\rho' = \frac{\rho}{\rho_{water}} \\
-\rho = \text{density}
+\rho ' = \frac { \rho } { \rho _ { w a t e r } } \\
+\rho = \text { density }
 \end{aligned}
 $$
 
@@ -76,9 +76,9 @@ $$
 ### pressure formula
 $$
 \begin{aligned}
-p = \frac{F_\perp}{A} \\
-F = \text{force} \\
-A = \text{area}
+p = \frac { F _ \perp } { A } \\
+F = \text { force } \\
+A = \text { area }
 \end{aligned}
 $$
 
@@ -91,7 +91,7 @@ $$
 ### atmospheric pressure formula
 $$
 \begin{aligned}
-\text{1 atm} = \text{101325 Pa}
+\text { 1 atm } = \text { 101325 Pa }
 \end{aligned}
 $$
 
@@ -104,12 +104,12 @@ $$
 ### hydrostatic pressure formula
 $$
 \begin{aligned}
-p - p_{0} = \rho gy \\
-p_{2} - p_{1} = -\rho g(y_{2} - y_{1}) \\
-p = \text{pressure} \\
-\rho = \text{density} \\
-g = \text{gravity} \\
-y = \text{position}
+p - p _ { 0 } = \rho g y \\
+p _ 2 - p _ 1 = - \rho g ( y _ 2 - y _ 1 ) \\
+p = \text { pressure } \\
+\rho = \text { density } \\
+g = \text { gravity } \\
+y = \text { position }
 \end{aligned}
 $$
 
@@ -121,12 +121,12 @@ $$
 ### absolute pressure formula
 $$
 \begin{aligned}
-p_{abs} = p_{g} + p_{atm} = \rho g y + p_{atm} \\
-p_{g} = \text{gauge pressure} \\
-p_{atm} = \text{atmospheric pressure} \\
-\rho = \text{density} \\
-g = \text{gravity} \\
-y = \text{position}
+p _ { a b s } = p _ g + p _ { a t m } = \rho g y + p _ { a t m } \\
+p _ g = \text { gauge pressure } \\
+p _ { a t m } = \text { atmospheric pressure } \\
+\rho = \text { density } \\
+g = \text { gravity } \\
+y = \text { position }
 \end{aligned}
 $$
 
@@ -138,12 +138,12 @@ $$
 ### gauge pressure formula
 $$
 \begin{aligned}
-p_{g} = p_{abs} - p_{atm} = \rho g y \\
-p_{abs} = \text{absolute pressure} \\
-p_{atm} = \text{atmospheric pressure} \\
-\rho = \text{density} \\
-g = \text{gravity} \\
-y = \text{position}
+p _ { g } = p _ { a b s } - p _ { a t m } = \rho g y \\
+p _ { a b s } = \text { absolute pressure } \\
+p _ { a t m } = \text { atmospheric pressure } \\
+\rho = \text { density } \\
+g = \text { gravity } \\
+y = \text { position }
 \end{aligned}
 $$
 
@@ -166,9 +166,9 @@ $$
 ### pascals principle formula
 $$
 \begin{aligned}
-p = \frac{F_{1}}{A_{1}} = \frac{F_{2}}{A_{2}} \\
-F = \text{force} \\
-A = \text{area}
+p = \frac { F _ { 1 } } { A _ { 1 } } = \frac { F _ { 2 } } { A _ { 2 } } \\
+F = \text { force } \\
+A = \text { area }
 \end{aligned}
 $$
 
@@ -181,8 +181,8 @@ $$
 ### archimedes principle formula
 $$
 \begin{aligned}
-\vec F_{b} = \vec w_{f} \\
-\vec w = \text{weight}
+\vec F _ b = \vec w _ f \\
+\vec w = \text { weight }
 \end{aligned}
 $$
 
@@ -194,9 +194,9 @@ $$
 ### apparent weight formula
 $$
 \begin{aligned}
-\vec w_{app} = \vec w - \vec F_{b} \\
-\vec w = \text{weight} \\
-\vec F = \text{force}
+\vec w _ { a p p } = \vec w - \vec F _ { b } \\
+\vec w = \text { weight } \\
+\vec F = \text { force }
 \end{aligned}
 $$
 
@@ -209,10 +209,10 @@ $$
 ### buoyant force formula
 $$
 \begin{aligned}
-\vec F_{b} = \rho_{f} V_{f} \vec g \\
-\rho_{f} = \text{fluid density} \\
-V_{f} = \text{fluid volume} \\
-\vec g = \text{gravity}
+\vec F _ { b } = \rho _ f V _ f \vec g \\
+\rho _ f = \text { fluid density } \\
+V _ f = \text { fluid volume } \\
+\vec g = \text { gravity }
 \end{aligned}
 $$
 
@@ -226,9 +226,9 @@ $$
 ### buoyant force direction property formula
 $$
 \begin{aligned}
-\vec F_{b} > \vec w \implies \uparrow \\
-\vec F_{b} < \vec w \implies \downarrow \\
-\vec F_{b} = \vec w \implies \leftrightarrow 
+\vec F _ b > \vec w \implies \uparrow \\
+\vec F _ b < \vec w \implies \downarrow \\
+\vec F _ b = \vec w \implies \leftrightarrow
 \end{aligned}
 $$
 
@@ -241,9 +241,9 @@ $$
 ### submergence formula
 $$
 \begin{aligned}
-S = \frac{\rho}{\rho_{f}} \\
-\rho = \text{density} \\
-\rho_{f} = \text{fluid density}
+S = \frac { \rho } { \rho _ f } \\
+\rho = \text { density } \\
+\rho _ f = \text { fluid density }
 \end{aligned}
 $$
 
@@ -257,9 +257,9 @@ $$
 ### submergence direction property formula
 $$
 \begin{aligned}
-\rho_{f} > \rho \implies \uparrow \\
-\rho_{f} < \rho \implies \downarrow \\
-\rho_{f} = \rho \implies \leftrightarrow 
+\rho _ f > \rho \implies \uparrow \\
+\rho _ f < \rho \implies \downarrow \\
+\rho _ f = \rho \implies \leftrightarrow
 \end{aligned}
 $$
 
@@ -273,11 +273,11 @@ $$
 ### surface tension formula
 $$
 \begin{aligned}
-\gamma = \frac{F_\parallel}{L} = \frac{\Delta E}{\Delta A} \\
-F = \text{force} \\
-L = \text{length} \\
-E = \text{mechanical energy} \\
-A = \text{surface area}
+\gamma = \frac { F _ \parallel } { L } = \frac { \Delta E } { \Delta A } \\
+F = \text { force } \\
+L = \text { length } \\
+E = \text { mechanical energy } \\
+A = \text { surface area }
 \end{aligned}
 $$
 
@@ -289,10 +289,10 @@ $$
 ### fluid flow formula
 $$
 \begin{aligned}
-\vec v(\vec r, t) \\
-\vec v = \text{velocity} \\
-\vec r = \text{position} \\
-t = \text{time}
+\vec v ( \vec r , t ) \\
+\vec v = \text { velocity } \\
+\vec r = \text { position } \\
+t = \text { time }
 \end{aligned}
 $$
 
@@ -354,11 +354,11 @@ $$
 ### volume flow rate formula
 $$
 \begin{aligned}
-\frac{dV}{dt} = A v \\
-V = \text{volume} \\
-t = \text{time} \\
-A = \text{cross-section area} \\
-v = \text{velocity}
+\frac { d V } { d t } = A v \\
+V = \text { volume } \\
+t = \text { time } \\
+A = \text { cross-section area } \\
+v = \text { velocity }
 \end{aligned}
 $$
 
@@ -371,9 +371,9 @@ $$
 ### continuity formula
 $$
 \begin{aligned}
-A_{1} v_{1} = A_{2} v_{2} \\
-A = \text{area} \\
-v = \text{velocity}
+A _ { 1 } v _ { 1 } = A _ { 2 } v _ { 2 } \\
+A = \text { area } \\
+v = \text { velocity }
 \end{aligned}
 $$
 
@@ -386,12 +386,12 @@ $$
 ### bernoulli principle formula
 $$
 \begin{aligned}
-p_{1} + \frac{1}{2}\rho v_{1}^2 + \rho gy_{1} = p_{2} + \frac{1}{2}\rho v_{2}^2 + \rho gy_{2} \\
-p = \text{pressure} \\
-\rho = \text{density} \\
-v = \text{velocity} \\
-g = \text{gravity} \\
-y = \text{position}
+p _ { 1 } + \frac { 1 } { 2 } \rho v _ { 1 } ^ 2 + \rho g y _ { 1 } = p _ { 2 } + \frac { 1 } { 2 } \rho v _ { 2 } ^ 2 + \rho g y _ { 2 } \\
+p = \text { pressure } \\
+\rho = \text { density } \\
+v = \text { velocity } \\
+g = \text { gravity } \\
+y = \text { position }
 \end{aligned}
 $$
 
@@ -403,13 +403,13 @@ $$
 ### drag force formula
 $$
 \begin{aligned}
-\vec F_{d} = -k\vec v \\
-\vec F_{d} = \frac{-1}{2}\rho C_{d} A \vec v^2 \\
-k = \text{linear drag coefficient} \\
-\vec v = \text{velocity} \\
-\rho = \text{density} \\
-C_{d} = \text{drag coefficient} \\
-A = \text{cross-section area}
+\vec F _ d = - k \vec v \\
+\vec F _ d = \frac { - 1 } { 2 } \rho C _ d A \vec v ^ 2 \\
+k = \text { linear drag coefficient } \\
+\vec v = \text { velocity } \\
+\rho = \text { density } \\
+C _ d = \text { drag coefficient } \\
+A = \text { cross-section area }
 \end{aligned}
 $$
 
@@ -421,13 +421,13 @@ $$
 ### terminal velocity formula
 $$
 \begin{aligned}
-\vec w = \vec F_{d} \implies \vec v = \sqrt{\frac{2\vec w}{\rho C_dA}} \\
-\vec w = \text{weight} \\
-\vec F = \text{force} \\
-\vec v = \text{velocity} \\
-\rho = \text{density} \\
-C_{d} = \text{drag coefficient} \\
-A = \text{cross-section area}
+\vec w = \vec F _ { d } \implies \vec v = \sqrt { \frac { 2 \vec w } { \rho C _ d A } } \\
+\vec w = \text { weight } \\
+\vec F = \text { force } \\
+\vec v = \text { velocity } \\
+\rho = \text { density } \\
+C _ { d } = \text { drag coefficient } \\
+A = \text { cross-section area }
 \end{aligned}
 $$
 

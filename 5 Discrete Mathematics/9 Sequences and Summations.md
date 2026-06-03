@@ -6,7 +6,7 @@
 ### sequence formula
 $$
 \begin{aligned}
-a_{n} = a_{1}, a_{2}, ... a_{n}
+a _ { n } = a _ { 1 } , a _ { 2 } , . . . a _ { n }
 \end{aligned}
 $$
 
@@ -18,10 +18,10 @@ $$
 ### nth term of geometric sequence formula
 $$
 \begin{aligned}
-a_{n} = a_1r^{n - 1} \\
-a_{1} = \text{1st term} \\
-r = \text{common ratio} \\
-n = \text{index}
+a _ { n } = a _ 1 r ^ { n - 1 } \\
+a _ { 1 } = \text { 1st term } \\
+r = \text { common ratio } \\
+n = \text { index }
 \end{aligned}
 $$
 
@@ -33,10 +33,10 @@ $$
 ### nth term of arithmetic sequence formula
 $$
 \begin{aligned}
-a_{n} = a_{1} + (n - 1)d \\
-a_{1} = \text{1st term} \\
-d = \text{common difference} \\
-n = \text{index}
+a _ { n } = a _ { 1 } + ( n - 1 ) d \\
+a _ { 1 } = \text { 1st term } \\
+d = \text { common difference } \\
+n = \text { index }
 \end{aligned}
 $$
 
@@ -48,8 +48,8 @@ $$
 ### recurrence relation formula
 $$
 \begin{aligned}
-a_{n} = a_{n - 1}, a_{n - 2}, ... a_{n - k} \\
-k = \text{number of preceding terms}
+a _ { n } = a _ { n - 1 } , a _ { n - 2 } , . . . a _ { n - k } \\
+k = \text { number of preceding terms }
 \end{aligned}
 $$
 
@@ -61,9 +61,9 @@ $$
 ### fibonacci sequence formula
 $$
 \begin{aligned}
-f_{n} = f_{n - 1} + f_{n - 2} + ... + f_{n} \\
-f_{0} = 0 \\
-f_{1} = 1 \\
+f _ { n } = f _ { n - 1 } + f _ { n - 2 } + . . . + f _ { n } \\
+f _ { 0 } = 0 \\
+f _ { 1 } = 1 \\
 2 \le n \le \infty
 \end{aligned}
 $$
@@ -85,11 +85,11 @@ $$
 ### summation formula
 $$
 \begin{aligned}
-\sum_{k = 1}^n a_{k} = a_{1} + a_{2} + ... + a_{n} \\
-k = \text{index} \\
-n = \text{number of terms} \\
-\sum = \text{summation} \\
-a_{k} = \text{kth term}
+\sum _ { k = 1 } ^ n a _ { k } = a _ { 1 } + a _ { 2 } + . . . + a _ { n } \\
+k = \text { index } \\
+n = \text { number of terms } \\
+\sum = \text { summation } \\
+a _ { k } = \text { kth term }
 \end{aligned}
 $$
 
@@ -101,7 +101,7 @@ $$
 ### change of summation index formula
 $$
 \begin{aligned}
-\sum_{k = m}^n = \sum_{k = 1}^n - \sum_{k = 1}^{m - 1}
+\sum _ { k = m } ^ n = \sum _ { k = 1 } ^ n - \sum _ { k = 1 } ^ { m - 1 }
 \end{aligned}
 $$
 
@@ -113,9 +113,9 @@ $$
 ### arithmetic series formula
 $$
 \begin{aligned}
-S_{n} = \frac{n(a_{1} + a_{n})}{2} \\
-a_{1} = \text{1st term} \\
-a_{n} = \text{nth term}
+S _ { n } = \frac { n ( a _ { 1 } + a _ { n } ) } { 2 } \\
+a _ { 1 } = \text { 1st term } \\
+a _ { n } = \text { nth term }
 \end{aligned}
 $$
 
@@ -127,9 +127,9 @@ $$
 ### finite geometric series formula
 $$
 \begin{aligned}
-S_{n} = \frac{a_{1}(1 - r^n)}{1 - r} \\
-a_{1} = \text{1st term} \\
-r = \text{common ratio}
+S _ { n } = \frac { a _ { 1 } ( 1 - r ^ n ) } { 1 - r } \\
+a _ { 1 } = \text { 1st term } \\
+r = \text { common ratio }
 \end{aligned}
 $$
 
@@ -141,9 +141,9 @@ $$
 ### infinite geometric series formula
 $$
 \begin{aligned}
-S = \frac{a_{1}}{1 - r} \\
-a_{1} = \text{1st term} \\
-r = \text{common ratio}
+S = \frac { a _ { 1 } } { 1 - r } \\
+a _ { 1 } = \text { 1st term } \\
+r = \text { common ratio }
 \end{aligned}
 $$
 

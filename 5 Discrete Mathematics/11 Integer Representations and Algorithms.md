@@ -9,9 +9,9 @@
 ### base b expansion of integer n formula
 $$
 \begin{aligned}
-n = a_kb^k + a_{k - 1}b^{k - 1} + ... + a_1b^1 + a_0b^0 \\
-k = \{0, 1, 2, ... b\} \\
-a_{k} = \text{digit}
+n = a _ k b ^ k + a _ { k - 1 } b ^ { k - 1 } + . . . + a _ 1 b ^ 1 + a _ 0 b ^ 0 \\
+k = \{ 0 , 1 , 2 , . . . b \} \\
+a _ { k } = \text { digit }
 \end{aligned}
 $$
 
@@ -23,7 +23,7 @@ $$
 ### binary formula
 $$
 \begin{aligned}
-n_{2} = \{0, 1\}
+n _ { 2 } = \{ 0 , 1 \}
 \end{aligned}
 $$
 
@@ -35,7 +35,7 @@ $$
 ### octal formula
 $$
 \begin{aligned}
-n_{8} = \{0, 1, 3, 4, 5, 6, 7\}
+n _ { 8 } = \{ 0 , 1 , 3 , 4 , 5 , 6 , 7 \}
 \end{aligned}
 $$
 
@@ -47,7 +47,7 @@ $$
 ### decimal formula
 $$
 \begin{aligned}
-n_{10} = \{0, 1, 3, 4, 5, 6, 7, 8, 9\}
+n _ { 10 } = \{ 0 , 1 , 3 , 4 , 5 , 6 , 7 , 8 , 9 \}
 \end{aligned}
 $$
 
@@ -59,7 +59,7 @@ $$
 ### hexadecimal formula
 $$
 \begin{aligned}
-n_{16} = \{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F\}
+n _ { 16 } = \{ 0 , 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , A , B , C , D , E , F \}
 \end{aligned}
 $$
 
@@ -72,10 +72,10 @@ $$
 ### base conversion formula
 $$
 \begin{aligned}
-n = bq + r \\
-b = \text{base} \\
-q = \text{quotient} \\
-r = \text{remainder}
+n = b q + r \\
+b = \text { base } \\
+q = \text { quotient } \\
+r = \text { remainder }
 \end{aligned}
 $$
 
@@ -95,12 +95,12 @@ $$
 ### addition formula
 $$
 \begin{aligned}
-p_{k} + q_{k} + c_{k - 1} = bc_{k} + s_{k} \\
-p = \text{addend} \\
-q = \text{addend} \\
-c = \text{carry} \\
-b = \text{base} \\
-s = \text{sum}
+p _ { k } + q _ { k } + c _ { k - 1 } = b c _ { k } + s _ { k } \\
+p = \text { addend } \\
+q = \text { addend } \\
+c = \text { carry } \\
+b = \text { base } \\
+s = \text { sum }
 \end{aligned}
 $$
 
@@ -113,8 +113,8 @@ $$
 ### multiplication formula
 $$
 \begin{aligned}
-\sum_{k = 0}^n p_{k_{1}} q_{k_{2}} b^{k_{1} + k_{2}} = p_0q_0b^0 + p_1q_1b^2 + ... + p_{n - 1}q_{n - 1}b^{2n - 2} \\
-k = \{0, 1, 2, ... n - 1\}
+\sum _ { k = 0 } ^ n p _ { k _ { 1 } } q _ { k _ { 2 } } b ^ { k _ { 1 } + k _ { 2 } } = p _ 0 q _ 0 b ^ 0 + p _ 1 q _ 1 b ^ 2 + . . . + p _ { n - 1 } q _ { n - 1 } b ^ { 2 n - 2 } \\
+k = \{ 0 , 1 , 2 , . . . n - 1 \}
 \end{aligned}
 $$
 
@@ -126,8 +126,8 @@ $$
 ### modular exponentiation formula
 $$
 \begin{aligned}
-b^n \ \text{mod} \ m \\
-m = \text{modulus}
+b ^ n \  \text { mod } \  m \\
+m = \text { modulus }
 \end{aligned}
 $$
 

@@ -5,9 +5,9 @@
 ### bounded above formula
 $$
 \begin{aligned}
-\exists u \in \mathbb R, \forall x \in S \subset \mathbb R: x \le u \\
-S = \text{bounded above set} \\
-u = \text{upper bound} 
+\exists u \in \mathbb R , \forall x \in S \subset \mathbb R : x \le u \\
+S = \text { bounded above set } \\
+u = \text { upper bound }
 \end{aligned}
 $$
 
@@ -19,9 +19,9 @@ $$
 ### bounded below formula
 $$
 \begin{aligned}
-\exists w \in \mathbb R, \forall x \in S \subset \mathbb R: w \le x \\
-S = \text{bounded below set} \\
-w = \text{lower bound} 
+\exists w \in \mathbb R , \forall x \in S \subset \mathbb R : w \le x \\
+S = \text { bounded below set } \\
+w = \text { lower bound }
 \end{aligned}
 $$
 
@@ -33,10 +33,10 @@ $$
 ### bounded formula
 $$
 \begin{aligned}
-\exists u, w \in \mathbb R, \forall x \in S \subset \mathbb R: w \le x \le u \\
-S = \text{bounded set} \\
-u = \text{upper bound} \\
-w = \text{lower bound} 
+\exists u , w \in \mathbb R , \forall x \in S \subset \mathbb R : w \le x \le u \\
+S = \text { bounded set } \\
+u = \text { upper bound } \\
+w = \text { lower bound }
 \end{aligned}
 $$
 
@@ -48,10 +48,10 @@ $$
 ### unbounded formula
 $$
 \begin{aligned}
-\exists u, w \in \mathbb R, \exists x \in S \subset \mathbb R: (x < w) \lor (x > u) \\
-S = \text{unbounded set} \\
-u = \text{upper bound} \\
-w = \text{lower bound}
+\exists u , w \in \mathbb R , \exists x \in S \subset \mathbb R : ( x < w ) \lor ( x > u ) \\
+S = \text { unbounded set } \\
+u = \text { upper bound } \\
+w = \text { lower bound }
 \end{aligned}
 $$
 
@@ -63,9 +63,9 @@ $$
 ### supremum formula
 $$
 \begin{aligned}
-(\forall x \in S \subset \mathbb R: x \le u) \land (\exists u' \in \mathbb R: u' < u \implies \exists x \in S: x > u') \implies u = \sup S \\
-S = \text{bounded above set} \\
-u = \text{supremum} \\
+( \forall x \in S \subset \mathbb R : x \le u ) \land ( \exists u ' \in \mathbb R : u ' < u \implies \exists x \in S : x > u ' ) \implies u = \sup S \\
+S = \text { bounded above set } \\
+u = \text { supremum } \\
 \end{aligned}
 $$
 
@@ -77,9 +77,9 @@ $$
 ### infimum formula
 $$
 \begin{aligned}
-(\forall x \in S \subset \mathbb R: w \le x) \land (\exists w' \in \mathbb R: w' > w \implies \exists x \in S: x < w') \implies w = \inf S \\
-S = \text{bounded below set} \\
-w = \text{infimum} \\
+( \forall x \in S \subset \mathbb R : w \le x ) \land ( \exists w ' \in \mathbb R : w ' > w \implies \exists x \in S : x < w ' ) \implies w = \inf S \\
+S = \text { bounded below set } \\
+w = \text { infimum } \\
 \end{aligned}
 $$
 
@@ -91,9 +91,9 @@ $$
 ### least upper bound property formula
 $$
 \begin{aligned}
-\exists u \in \mathbb R, \forall x \in S \subset \mathbb R: x \le u \implies \exists \sup S \in \mathbb R \\
-S = \text{bounded above set} \\
-u = \text{upper bound} \\
+\exists u \in \mathbb R , \forall x \in S \subset \mathbb R : x \le u \implies \exists \sup S \in \mathbb R \\
+S = \text { bounded above set } \\
+u = \text { upper bound } \\
 \end{aligned}
 $$
 
@@ -105,9 +105,9 @@ $$
 ### greatest lower bound property formula
 $$
 \begin{aligned}
-\exists w \in \mathbb R, \forall x \in S \subset \mathbb R: w \le x \implies \exists \inf S \in \mathbb R \\
-S = \text{bounded below set} \\
-w = \text{lower bound} 
+\exists w \in \mathbb R , \forall x \in S \subset \mathbb R : w \le x \implies \exists \inf S \in \mathbb R \\
+S = \text { bounded below set } \\
+w = \text { lower bound }
 \end{aligned}
 $$
 
@@ -119,8 +119,8 @@ $$
 ### negative supremum property formula
 $$
 \begin{aligned}
-\inf S = -\sup (-S) \\
-S = \text{bounded set}
+\inf S = - \sup ( - S ) \\
+S = \text { bounded set }
 \end{aligned}
 $$
 
@@ -132,9 +132,9 @@ $$
 ### epsilon supremum property formula
 $$
 \begin{aligned}
-\forall \epsilon > 0, \exists x \in S \subset \mathbb R: u - \epsilon < x < u \implies u = \sup S \\
-S = \text{bounded above set} \\
-u = \text{supremum}
+\forall \epsilon > 0 , \exists x \in S \subset \mathbb R : u - \epsilon < x < u \implies u = \sup S \\
+S = \text { bounded above set } \\
+u = \text { supremum }
 \end{aligned}
 $$
 
@@ -146,8 +146,8 @@ $$
 ### subset supremum property formula
 $$
 \begin{aligned}
-S_{2} \subset S_{1} \subset \mathbb R \implies \sup S_{2} \le \sup S_{1} \\
-S = \text{bounded above set}
+S _ { 2 } \subset S _ { 1 } \subset \mathbb R \implies \sup S _ { 2 } \le \sup S _ { 1 } \\
+S = \text { bounded above set }
 \end{aligned}
 $$
 
@@ -160,7 +160,7 @@ $$
 $$
 \begin{aligned}
 \sup S \in S \implies \sup S = \max S \\
-S = \text{bounded above set}
+S = \text { bounded above set }
 \end{aligned}
 $$
 
@@ -172,8 +172,8 @@ $$
 ### addition supremum property formula
 $$
 \begin{aligned}
-\sup(S_{1} + S_{2}) = \sup S_{1} + \sup S_{2} \\
-S = \text{bounded above set}
+\sup ( S _ { 1 } + S _ { 2 } ) = \sup S _ { 1 } + \sup S _ { 2 } \\
+S = \text { bounded above set }
 \end{aligned}
 $$
 
@@ -185,8 +185,8 @@ $$
 ### union supremum property formula
 $$
 \begin{aligned}
-\sup(S_{1} \cup S_{2}) = \max \set{\sup S_{1}, \sup S_{2}} \\
-S = \text{bounded above set}
+\sup ( S _ { 1 } \cup S _ { 2 } ) = \max \set { \sup S _ { 1 } , \sup S _ { 2 } } \\
+S = \text { bounded above set }
 \end{aligned}
 $$
 
@@ -198,7 +198,7 @@ $$
 ### archimedean property formula
 $$
 \begin{aligned}
-\forall x \in \mathbb R^+, \forall y \in \mathbb R, \exists n \in \mathbb N: y < nx 
+\forall x \in \mathbb R ^ + , \forall y \in \mathbb R , \exists n \in \mathbb N : y < n x
 \end{aligned}
 $$
 
@@ -210,7 +210,7 @@ $$
 ### density property formula
 $$
 \begin{aligned}
-(x, y \in \mathbb R) \land (x < y) \implies \exists q \in \mathbb Q: x < q < y
+( x , y \in \mathbb R ) \land ( x < y ) \implies \exists q \in \mathbb Q : x < q < y
 \end{aligned}
 $$
 

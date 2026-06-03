@@ -7,8 +7,8 @@
 ### why natural numbers formula
 $$
 \begin{aligned}
-S = \emptyset \implies |S| \not\in S \\ 
-S = \emptyset \implies x_{n} \not \in x_{n+1} \\
+S = \emptyset \implies | S | \not \in S \\
+S = \emptyset \implies x _ { n } \not \in x _ { n + 1 } \\
 S = \emptyset \implies \infty \not \in S \\
 \end{aligned}
 $$
@@ -21,7 +21,7 @@ $$
 ### natural numbers formula
 $$
 \begin{aligned}
-\mathbb N = \{0, 1, 2, \dots, \infty\}
+\mathbb N = \{ 0 , 1 , 2 , \dots , \infty \}
 \end{aligned}
 $$
 
@@ -37,9 +37,9 @@ $$
 $$
 \begin{aligned}
 0 \in \mathbb N \\
-S(n) = n + 1 \implies \forall n \in \mathbb N: S(n) \in \mathbb N \\
-S(n) = S(m) \implies n = m \\
-(K \subset \mathbb N) \land (0 \in K) \land (\forall n \in K: S(n) \in K) \implies K = \mathbb N
+S ( n ) = n + 1 \implies \forall n \in \mathbb N : S ( n ) \in \mathbb N \\
+S ( n ) = S ( m ) \implies n = m \\
+( K \subset \mathbb N ) \land ( 0 \in K ) \land ( \forall n \in K : S ( n ) \in K ) \implies K = \mathbb N
 \end{aligned}
 $$
 
@@ -53,12 +53,12 @@ $$
 ### construct natural numbers formula
 $$
 \begin{aligned}
-0 &= \emptyset \\
-1 &= S(0) = 0 \cup \{0\} = \{0\} \\
-2 &= S(1) = 1 \cup \{1\} = \{0\} \cup \{1\} = \{0, 1\} \\
-3 &= S(2) = 2 \cup \{2\} = \{0, 1\} \cup \{2\} = \{0, 1, 2\} \\
-\vdots \\ 
-\mathbb N &= \{S(n) | 0 \le n < \infty\}
+0 & = \emptyset \\
+1 & = S ( 0 ) = 0 \cup \{ 0 \} = \{ 0 \} \\
+2 & = S ( 1 ) = 1 \cup \{ 1 \} = \{ 0 \} \cup \{ 1 \} = \{ 0 , 1 \} \\
+3 & = S ( 2 ) = 2 \cup \{ 2 \} = \{ 0 , 1 \} \cup \{ 2 \} = \{ 0 , 1 , 2 \} \\
+\vdots \\
+\mathbb N & = \{ S ( n ) | 0 \le n < \infty \}
 \end{aligned}
 $$
 
@@ -70,7 +70,7 @@ $$
 ### why integers formula
 $$
 \begin{aligned}
-\forall(m>n) \in \mathbb N: n - m \not\in \mathbb N
+\forall ( m > n ) \in \mathbb N : n - m \not \in \mathbb N
 \end{aligned}
 $$
 
@@ -82,7 +82,7 @@ $$
 ### integers formula
 $$
 \begin{aligned}
-\mathbb Z = \{n - m| n, m \in \mathbb N \}
+\mathbb Z = \{ n - m | n , m \in \mathbb N \}
 \end{aligned}
 $$
 
@@ -95,8 +95,8 @@ $$
 ### integers arithmetic formula
 $$
 \begin{aligned}
-{}[(m, n)] + [(m', n')] = [(m + m', n + n')] \\
-{}[(m, n)] \cdot [(m', n')] = [(mm' + nn', mn' + nm')]
+{}[ ( m , n ) ] + [ ( m ' , n ' ) ] = [ ( m + m ' , n + n ' ) ] \\
+{}[ ( m , n ) ] \cdot [ ( m ' , n ' ) ] = [ ( m m ' + n n ' , m n ' + n m ' ) ]
 \end{aligned}
 $$
 
@@ -110,9 +110,9 @@ $$
 ### construct integers formula
 $$
 \begin{aligned}
-(m, n) \sim (m', n') \iff m + n' = m' + n \\
-{}[(m, n)] = \{(m', n') \in \mathbb N \times \mathbb N |(m, n) \sim (m', n')\} \\
-\mathbb Z = \{[(m, n)] | (m, n) \in \mathbb N \times \mathbb N\}
+( m , n ) \sim ( m ' , n ' ) \iff m + n ' = m ' + n \\
+{}[ ( m , n ) ] = \{ ( m ' , n ' ) \in \mathbb N \times \mathbb N | ( m , n ) \sim ( m ' , n ' ) \} \\
+\mathbb Z = \{ [ ( m , n ) ] | ( m , n ) \in \mathbb N \times \mathbb N \}
 \end{aligned}
 $$
 
@@ -124,7 +124,7 @@ $$
 ### why rational numbers formula
 $$
 \begin{aligned}
-\exists p, q \in \mathbb Z, q \ne 0: \frac{p}{q} \not\in \mathbb Z
+\exists p , q \in \mathbb Z , q \ne 0 : \frac { p } { q } \not \in \mathbb Z
 \end{aligned}
 $$
 
@@ -136,7 +136,7 @@ $$
 ### rational numbers formula
 $$
 \begin{aligned}
-\mathbb Q = \{\frac{p}{q}| p, q \in \mathbb Z, q \ne 0\} \\
+\mathbb Q = \{ \frac { p } { q } | p , q \in \mathbb Z , q \ne 0 \} \\
 \end{aligned}
 $$
 
@@ -149,8 +149,8 @@ $$
 ### rational numbers arithmetic formula
 $$
 \begin{aligned}
-{}[(p, q)] + [(p', q')] = [(pq' + qp', qq')] \\
-{}[(p, q)] \cdot [(p', q')] = [(pp', qq')]
+{}[ ( p , q ) ] + [ ( p ' , q ' ) ] = [ ( p q ' + q p ' , q q ' ) ] \\
+{}[ ( p , q ) ] \cdot [ ( p ' , q ' ) ] = [ ( p p ' , q q ' ) ]
 \end{aligned}
 $$
 
@@ -164,9 +164,9 @@ $$
 ### construct rational numbers formula
 $$
 \begin{aligned}
-(p, q) \sim (p', q') \iff pq' = qp' \\
-{}[(p, q)] = \{(p', q') \in \mathbb Z \times \mathbb Z |(p, q) \sim (p', q')\} \\
-\mathbb Q = \{[(p, q)] | (p, q) \in \mathbb Z \times \mathbb Z\}
+( p , q ) \sim ( p ' , q ' ) \iff p q ' = q p ' \\
+{}[ ( p , q ) ] = \{ ( p ' , q ' ) \in \mathbb Z \times \mathbb Z | ( p , q ) \sim ( p ' , q ' ) \} \\
+\mathbb Q = \{ [ ( p , q ) ] | ( p , q ) \in \mathbb Z \times \mathbb Z \}
 \end{aligned}
 $$
 
@@ -178,7 +178,7 @@ $$
 ### why real numbers formula
 $$
 \begin{aligned}
-\exists p, q \in \mathbb Z, q \ne 0: \frac{p}{q} \not\in \mathbb Q
+\exists p , q \in \mathbb Z , q \ne 0 : \frac { p } { q } \not \in \mathbb Q
 \end{aligned}
 $$
 
@@ -190,7 +190,7 @@ $$
 ### real numbers formula
 $$
 \begin{aligned}
-\mathbb R = \mathbb Q \cup \{\mathbb R ∖ \mathbb Q \}
+\mathbb R = \mathbb Q \cup \{ \mathbb R ∖ \mathbb Q \}
 \end{aligned}
 $$
 
@@ -202,8 +202,8 @@ $$
 ### field formula
 $$
 \begin{aligned}
-(+) : F \times F \rightarrow F \\
-(\cdot ) : F \times F \rightarrow F
+( + ) : F \times F \rightarrow F \\
+( \cdot ) : F \times F \rightarrow F
 \end{aligned}
 $$
 
@@ -224,14 +224,14 @@ $$
 $$
 \begin{aligned}
 x + y = y + x \\
-x + (y + z) = (x + y) + z \\
+x + ( y + z ) = ( x + y ) + z \\
 x + 0 = x \\
-x + (-x) = 0 \\
-x\cdot (y + z) = x \cdot y + x \cdot z \\
+x + ( - x ) = 0 \\
+x \cdot ( y + z ) = x \cdot y + x \cdot z \\
 x \cdot y = y \cdot x \\
-x \cdot (y \cdot z) = (x \cdot y) \cdot z \\
+x \cdot ( y \cdot z ) = ( x \cdot y ) \cdot z \\
 x \cdot 1 = x \\
-x \cdot (\frac{1}{x}) = 1
+x \cdot ( \frac { 1 } { x } ) = 1
 \end{aligned}
 $$
 
@@ -247,11 +247,11 @@ $$
 ### ordinality field property formula
 $$
 \begin{aligned}
-(x, y, z \in F) \land (x < y) \implies x + z < y + z \\
-(x, y \in F) \land (x < y) \land (z > 0) \implies x \cdot z < y \cdot z \\
-(x, y \in F) \land (x < y) \land (z < 0) \implies x \cdot z > y \cdot z \\
-x, y \in F \implies (x < y) \lor (x = y) \lor (y < x) \\
-(x, y, z \in F) \land (x < y) \land (y < z) \implies x < z 
+( x , y , z \in F ) \land ( x < y ) \implies x + z < y + z \\
+( x , y \in F ) \land ( x < y ) \land ( z > 0 ) \implies x \cdot z < y \cdot z \\
+( x , y \in F ) \land ( x < y ) \land ( z < 0 ) \implies x \cdot z > y \cdot z \\
+x , y \in F \implies ( x < y ) \lor ( x = y ) \lor ( y < x ) \\
+( x , y , z \in F ) \land ( x < y ) \land ( y < z ) \implies x < z
 \end{aligned}
 $$
 
@@ -263,10 +263,10 @@ $$
 ### complex number formula
 $$
 \begin{aligned}
-z = a + bi \\
-a = \text{real part} \\
-b = \text{imaginary part} \\
-i = \text{imaginary number}
+z = a + b i \\
+a = \text { real part } \\
+b = \text { imaginary part } \\
+i = \text { imaginary number }
 \end{aligned}
 $$
 
@@ -282,11 +282,11 @@ $$
 ### complex number property formula
 $$
 \begin{aligned}
-|z|^2 = (z)(\overline z) \\
-|\overline z| = |z| \\
-|zw| = (|z|)(|w|) \\
-|z + w| \le |z| + |w| \\
-|\text{Re}(z)| \le |z| 
+| z | ^ 2 = ( z ) ( \overline z ) \\
+| \overline z | = | z | \\
+| z w | = ( | z | ) ( | w | ) \\
+| z + w | \le | z | + | w | \\
+| \text { Re } ( z ) | \le | z |
 \end{aligned}
 $$
 
@@ -298,10 +298,10 @@ $$
 ### complex conjugate formula
 $$
 \begin{aligned}
-\overline z = a - bi \\
-a = \text{Re}(z) \\
-b = \text{Im}(z) \\
-i = \sqrt {-1}
+\overline z = a - b i \\
+a = \text { Re } ( z ) \\
+b = \text { Im } ( z ) \\
+i = \sqrt { - 1 }
 \end{aligned}
 $$
 
@@ -317,11 +317,11 @@ $$
 ### complex conjugate property formula
 $$
 \begin{aligned}
-\overline {z + w} = \overline z + \overline w \\
-\overline {z \cdot w} = \overline z \cdot \overline w \\ 
-z + \overline z = \text{Re}(z) \\
-z - \overline z = \text{Im}(z) \\
-z \cdot \overline z \in \mathbb R^+ \iff z \ne 0
+\overline { z + w } = \overline z + \overline w \\
+\overline { z \cdot w } = \overline z \cdot \overline w \\
+z + \overline z = \text { Re } ( z ) \\
+z - \overline z = \text { Im } ( z ) \\
+z \cdot \overline z \in \mathbb R ^ + \iff z \ne 0
 \end{aligned}
 $$
 

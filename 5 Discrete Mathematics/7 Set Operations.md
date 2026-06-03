@@ -23,7 +23,7 @@ $$
 ### union formula
 $$
 \begin{aligned}
-A \cup B = \{x | x \in A \lor x \in B\}
+A \cup B = \{ x | x \in A \lor x \in B \}
 \end{aligned}
 $$
 
@@ -37,7 +37,7 @@ $$
 ### intersection formula
 $$
 \begin{aligned}
-A \cap B = \{x | x \in A \land x \in B\}
+A \cap B = \{ x | x \in A \land x \in B \}
 \end{aligned}
 $$
 
@@ -51,7 +51,7 @@ $$
 ### subtraction formula
 $$
 \begin{aligned}
-B - A = \{x | x \in B \land x \notin A\}
+B - A = \{ x | x \in B \land x \notin A \}
 \end{aligned}
 $$
 
@@ -65,7 +65,7 @@ $$
 ### complementation formula
 $$
 \begin{aligned}
-A' = \{x | x \in U \land x \notin A\}
+A ' = \{ x | x \in U \land x \notin A \}
 \end{aligned}
 $$
 
@@ -85,7 +85,7 @@ $$
 ### union cardinality formula
 $$
 \begin{aligned}
-|A \cup B| = |A| + |B| - |A \cap B|
+| A \cup B | = | A | + | B | - | A \cap B |
 \end{aligned}
 $$
 
@@ -97,7 +97,7 @@ $$
 ### intersection cardinality formula
 $$
 \begin{aligned}
-|A \cap B| = |A| + |B| - |A \cup B|
+| A \cap B | = | A | + | B | - | A \cup B |
 \end{aligned}
 $$
 
@@ -121,10 +121,10 @@ $$
 ### union of set collection formula
 $$
 \begin{aligned}
-\bigcup_{k \in K}^n A_{k} = A_{1} \cup A_{2} \cup ... \cup A_{n} \\
-k = \text{index} \\
-K = \{1, 2, ... n\} \\
-n = \text{number of sets}
+\bigcup _ { k \in K } ^ n A _ { k } = A _ { 1 } \cup A _ { 2 } \cup . . . \cup A _ { n } \\
+k = \text { index } \\
+K = \{ 1 , 2 , . . . n \} \\
+n = \text { number of sets }
 \end{aligned}
 $$
 
@@ -136,10 +136,10 @@ $$
 ### intersection of set collection formula
 $$
 \begin{aligned}
-\bigcap_{k \in K}^n A_{k} = A_{1} \cap A_{2} \cap ... \cap A_{n} \\
-k = \text{index} \\
-K = \{1, 2, ... n\} \\
-n = \text{number of sets}
+\bigcap _ { k \in K } ^ n A _ { k } = A _ { 1 } \cap A _ { 2 } \cap . . . \cap A _ { n } \\
+k = \text { index } \\
+K = \{ 1 , 2 , . . . n \} \\
+n = \text { number of sets }
 \end{aligned}
 $$
 
@@ -152,9 +152,9 @@ $$
 ### computer set formula
 $$
 \begin{aligned}
-\{x, y \in \{0, 1\} | x + y = A \cup B\} \\
-\{x, y \in \{0, 1\} | x \times y = A \cap B\} \\
-\{x \in \{0, 1\} | \overline x = A'\}
+\{ x , y \in \{ 0 , 1 \} | x + y = A \cup B \} \\
+\{ x , y \in \{ 0 , 1 \} | x \times y = A \cap B \} \\
+\{ x \in \{ 0 , 1 \} | \overline x = A ' \}
 \end{aligned}
 $$
 
@@ -166,8 +166,8 @@ $$
 ### multiple membership set formula
 $$
 \begin{aligned}
-A = \{n_{1} \times x_{1}, n_{2} \times x_{2}, ... n_{n} \times x_{n}\} \\
-n = \text{multiplicity}
+A = \{ n _ { 1 } \times x _ { 1 } , n _ { 2 } \times x _ { 2 } , . . . n _ { n } \times x _ { n } \} \\
+n = \text { multiplicity }
 \end{aligned}
 $$
 
@@ -179,7 +179,7 @@ $$
 ### multiset union formula
 $$
 \begin{aligned}
-A \cup B = \max(n_{A}, n_{B})(x)
+A \cup B = \max ( n _ { A } , n _ { B } ) ( x )
 \end{aligned}
 $$
 
@@ -191,7 +191,7 @@ $$
 ### multiset intersection formula
 $$
 \begin{aligned}
-A \cap B = \min(n_{A}, n_{B})(x)
+A \cap B = \min ( n _ { A } , n _ { B } ) ( x )
 \end{aligned}
 $$
 
@@ -203,7 +203,7 @@ $$
 ### multiset subtraction formula
 $$
 \begin{aligned}
-A - B = (n_{A} - n_{B})(x)
+A - B = ( n _ { A } - n _ { B } ) ( x )
 \end{aligned}
 $$
 
@@ -215,7 +215,7 @@ $$
 ### multiset addition formula
 $$
 \begin{aligned}
-A + B = (n_{A} + n_{B})(x)
+A + B = ( n _ { A } + n _ { B } ) ( x )
 \end{aligned}
 $$
 

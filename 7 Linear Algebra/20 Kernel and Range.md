@@ -6,11 +6,11 @@
 ### kernel formula
 $$
 \begin{aligned}
-\text{ker}(L) = \{\vec v \mid \vec v \in \mathcal V, L: \mathcal V \rightarrow \mathcal W, L(\vec v) = \vec 0_{\mathcal W}\} \\
-L = \text{linear transformation} \\
-\mathcal V = \text{domain vector space} \\
-\mathcal W = \text{codomain vector space} \\
-\vec v = \text{preimage}
+\text { ker } ( L ) = \{ \vec v \mid \vec v \in \mathcal V , L : \mathcal V \rightarrow \mathcal W , L ( \vec v ) = \vec 0 _ { \mathcal W } \} \\
+L = \text { linear transformation } \\
+\mathcal V = \text { domain vector space } \\
+\mathcal W = \text { codomain vector space } \\
+\vec v = \text { preimage }
 \end{aligned}
 $$
 
@@ -22,12 +22,12 @@ $$
 ### range formula
 $$
 \begin{aligned}
-\text{range}(L) = \{L(\vec v) \mid \vec v \in \mathcal V, L: \mathcal V \rightarrow \mathcal W\} \\
-L = \text{linear transformation} \\
-\mathcal V = \text{domain vector space} \\
-\mathcal W = \text{codomain vector space} \\
-\vec v = \text{preimage} \\
-L(\vec v) = \text{image}
+\text { range } ( L ) = \{ L ( \vec v ) \mid \vec v \in \mathcal V , L : \mathcal V \rightarrow \mathcal W \} \\
+L = \text { linear transformation } \\
+\mathcal V = \text { domain vector space } \\
+\mathcal W = \text { codomain vector space } \\
+\vec v = \text { preimage } \\
+L ( \vec v ) = \text { image }
 \end{aligned}
 $$
 
@@ -49,13 +49,13 @@ $$
 ### dimension property formula
 $$
 \begin{aligned}
-\dim(\mathcal V) \ne \infty \implies  \dim(\mathcal W \ne \infty) \land \dim(\text{ker} \ L) + \dim(\text{range} \ L) = \text{dim}(\mathcal V) \\
-L: \mathcal V \rightarrow \mathcal W \\
-\text{dim}(\mathcal V) = n \\
-\text{dim}(\mathcal W) = m \\
-\mathcal V = \text{domain vector space} \\
-\mathcal W = \text{codomain vector space} \\
-L = \text{linear transformation} 
+\dim ( \mathcal V ) \ne \infty \implies \dim ( \mathcal W \ne \infty ) \land \dim ( \text { ker } \  L ) + \dim ( \text { range } \  L ) = \text { dim } ( \mathcal V ) \\
+L : \mathcal V \rightarrow \mathcal W \\
+\text { dim } ( \mathcal V ) = n \\
+\text { dim } ( \mathcal W ) = m \\
+\mathcal V = \text { domain vector space } \\
+\mathcal W = \text { codomain vector space } \\
+L = \text { linear transformation }
 \end{aligned}
 $$
 
@@ -67,11 +67,11 @@ $$
 ### kernel subspace property formula
 $$
 \begin{aligned}
-\text{ker}(L) \le \mathcal V \\
-L: \mathcal V \rightarrow \mathcal W \\
-L = \text{linear transformation} \\
-\mathcal V = \text{domain vector space} \\
-\mathcal W = \text{codomain vector space} 
+\text { ker } ( L ) \le \mathcal V \\
+L : \mathcal V \rightarrow \mathcal W \\
+L = \text { linear transformation } \\
+\mathcal V = \text { domain vector space } \\
+\mathcal W = \text { codomain vector space }
 \end{aligned}
 $$
 
@@ -83,11 +83,11 @@ $$
 ### kernel solution property formula
 $$
 \begin{aligned}
-\text{ker}(L) = \{\vec x \mid \vec x \in \mathbb R^n, A \in \mathcal M_{mn}, L: \mathbb R^n \rightarrow \mathbb R^m, A\vec x = 0\} \\
-L = \text{linear transformation} \\
-A = \text{matrix transformation} \\
-\vec x = \text{preimage} \\
-A\vec x = \text{image}
+\text { ker } ( L ) = \{ \vec x \mid \vec x \in \mathbb R ^ n , A \in \mathcal M _ { m n } , L : \mathbb R ^ n \rightarrow \mathbb R ^ m , A \vec x = 0 \} \\
+L = \text { linear transformation } \\
+A = \text { matrix transformation } \\
+\vec x = \text { preimage } \\
+A \vec x = \text { image }
 \end{aligned}
 $$
 
@@ -99,16 +99,16 @@ $$
 ### kernel dimension property formula
 $$
 \begin{aligned}
-{}[L(\vec v)]_{C} = A_{BC} [\vec v]_{B} \implies \dim(\text{ker} \ L) = \text{dim}(\mathcal V) - \text{rank}(A) \\
-L: \mathcal V \rightarrow \mathcal W \\
-L = \text{linear transformation} \\
-{}[\vec v]_{B} = \text{preimage coordinate vector} \\
-{}[L(\vec v)]_{C} = \text{image coordinate vector} \\
-A = \text{matrix transformation} \\
-B = \text{domain basis} \\
-C = \text{codomain basis} \\
-\mathcal V = \text{domain vector space} \\
-\mathcal W = \text{codomain vector space} 
+{}[ L ( \vec v ) ] _ { C } = A _ { B C } [ \vec v ] _ { B } \implies \dim ( \text { ker } \  L ) = \text { dim } ( \mathcal V ) - \text { rank } ( A ) \\
+L : \mathcal V \rightarrow \mathcal W \\
+L = \text { linear transformation } \\
+{}[ \vec v ] _ B = \text { preimage coordinate vector } \\
+{}[ L ( \vec v ) ] _ C = \text { image coordinate vector } \\
+A = \text { matrix transformation } \\
+B = \text { domain basis } \\
+C = \text { codomain basis } \\
+\mathcal V = \text { domain vector space } \\
+\mathcal W = \text { codomain vector space }
 \end{aligned}
 $$
 
@@ -120,11 +120,11 @@ $$
 ### range subspace property formula
 $$
 \begin{aligned}
-\text{range}(L) \le \mathcal W \\
-L: \mathcal V \rightarrow \mathcal W \\
-L = \text{linear transformation} \\
-\mathcal V = \text{domain vector space} \\
-\mathcal W = \text{codomain vector space} 
+\text { range } ( L ) \le \mathcal W \\
+L : \mathcal V \rightarrow \mathcal W \\
+L = \text { linear transformation } \\
+\mathcal V = \text { domain vector space } \\
+\mathcal W = \text { codomain vector space }
 \end{aligned}
 $$
 
@@ -136,13 +136,13 @@ $$
 ### range column property formula
 $$
 \begin{aligned}
-\text{range}(L) = \{A_{BC}\vec x \mid \vec x \in \mathbb R^n, A_{BC} \in \mathcal M_{mn}, L: \mathbb R^n \rightarrow \mathbb R^m\} = \text{Col}(A_{BC}) \\
-L = \text{linear transformation} \\
-A = \text{matrix transformation} \\
-B = \text{domain basis} \\
-C = \text{codomain basis} \\
-\vec x = \text{preimage} \\
-A\vec x = \text{image}
+\text { range } ( L ) = \{ A _ { B C } \vec x \mid \vec x \in \mathbb R ^ n , A _ { B C } \in \mathcal M _ { m n } , L : \mathbb R ^ n \rightarrow \mathbb R ^ m \} = \text { Col } ( A _ { B C } ) \\
+L = \text { linear transformation } \\
+A = \text { matrix transformation } \\
+B = \text { domain basis } \\
+C = \text { codomain basis } \\
+\vec x = \text { preimage } \\
+A \vec x = \text { image }
 \end{aligned}
 $$
 
@@ -154,16 +154,16 @@ $$
 ### range dimension property formula
 $$
 \begin{aligned}
-{}[L(\vec v)]_{C} = A_{BC} [\vec v]_{B} \implies \dim(\text{range} \ L) = \text{rank}(A_{BC}) \\
-L: \mathcal V \rightarrow \mathcal W \\
-L = \text{linear transformation} \\
-{}[\vec v]_{B} = \text{preimage coordinate vector} \\
-{}[L(\vec v)]_{C} = \text{image coordinate vector} \\
-A = \text{matrix transformation} \\
-B = \text{domain basis} \\
-C = \text{codomain basis} \\
-\mathcal V = \text{domain vector space} \\
-\mathcal W = \text{codomain vector space} 
+{}[ L ( \vec v ) ] _ { C } = A _ { B C } [ \vec v ] _ { B } \implies \dim ( \text { range } \  L ) = \text { rank } ( A _ { B C } ) \\
+L : \mathcal V \rightarrow \mathcal W \\
+L = \text { linear transformation } \\
+{}[ \vec v ] _ B = \text { preimage coordinate vector } \\
+{}[ L ( \vec v ) ] _ C = \text { image coordinate vector } \\
+A = \text { matrix transformation } \\
+B = \text { domain basis } \\
+C = \text { codomain basis } \\
+\mathcal V = \text { domain vector space } \\
+\mathcal W = \text { codomain vector space }
 \end{aligned}
 $$
 

@@ -5,8 +5,8 @@
 ### function formula
 $$
 \begin{aligned}
-f: A \rightarrow B \\
-f(a) = b
+f : A \rightarrow B \\
+f ( a ) = b
 \end{aligned}
 $$
 
@@ -20,11 +20,11 @@ $$
 
 ---
 ### preimage
-- if $f(a) = b$ then *a* is preimage of *b*
+- if $f ( a ) = b$ then *a* is preimage of *b*
 
 ---
 ### image
-- if $f(a) = b$ then *b* is image of *a*
+- if $f ( a ) = b$ then *b* is image of *a*
 
 ---
 ### range
@@ -38,7 +38,7 @@ $$
 ### function equality formula
 $$
 \begin{aligned}
-f = g \iff \forall a, \forall b: f(a) = g(b)
+f = g \iff \forall a , \forall b : f ( a ) = g ( b )
 \end{aligned}
 $$
 
@@ -51,7 +51,7 @@ $$
 ### injection formula
 $$
 \begin{aligned}
-\forall a, \forall b: f(a) = f(b) \implies a = b
+\forall a , \forall b : f ( a ) = f ( b ) \implies a = b
 \end{aligned}
 $$
 
@@ -63,21 +63,21 @@ $$
 ### injective property formula
 $$
 \begin{aligned}
-\forall a, \forall b: a < b \implies f(a) \le f(b) \\
-\forall a,\forall b: a > b \implies f(a) \ge f(b)
+\forall a , \forall b : a < b \implies f ( a ) \le f ( b ) \\
+\forall a , \forall b : a > b \implies f ( a ) \ge f ( b )
 \end{aligned}
 $$
 
 ---
 ### surjection
-- every element of codomain map to $\ge1$ element of domain
+- every element of codomain map to $\ge 1$ element of domain
 - onto
 
 ---
 ### surjection formula
 $$
 \begin{aligned}
-\forall b, \exists a: f(a) = b
+\forall b , \exists a : f ( a ) = b
 \end{aligned}
 $$
 
@@ -90,14 +90,14 @@ $$
 ### bijection formula
 $$
 \begin{aligned}
-\forall b, \exists !a: f(a) = b
+\forall b , \exists ! a : f ( a ) = b
 \end{aligned}
 $$
 
 ---
 ### function summary
 - if injective then every input has 1 output
-- if surjective then every output has $\ge1$ input
+- if surjective then every output has $\ge 1$ input
 - if bijective then every output has 1 input
 ![[5 Discrete Mathematics/Images/function summary.png]]
 
@@ -111,7 +111,7 @@ $$
 $$
 \begin{aligned}
 f : B \to A \\
-f^{-1}(b) = a
+f ^ { - 1 } ( b ) = a
 \end{aligned}
 $$
 
@@ -123,8 +123,8 @@ $$
 ### invertibility formula
 $$
 \begin{aligned}
-\forall a \in A: (f^{-1} \circ f)(a) = f^{-1}(b) = a \\
-\forall b \in B:(f \circ f^{-1})(b) = f(a) = b
+\forall a \in A : ( f ^ { - 1 } \circ f ) ( a ) = f ^ { - 1 } ( b ) = a \\
+\forall b \in B : ( f \circ f ^ { - 1 } ) ( b ) = f ( a ) = b
 \end{aligned}
 $$
 
@@ -138,7 +138,7 @@ $$
 $$
 \begin{aligned}
 f : A \to B \to C \\
-(f \circ g)(a) = c
+( f \circ g ) ( a ) = c
 \end{aligned}
 $$
 
@@ -151,7 +151,7 @@ $$
 ### identity function formula
 $$
 \begin{aligned}
-f(a) = a
+f ( a ) = a
 \end{aligned}
 $$
 
@@ -163,7 +163,7 @@ $$
 ### identity formula
 $$
 \begin{aligned}
-f = (f^{-1})^{-1}
+f = ( f ^ { - 1 } ) ^ { - 1 }
 \end{aligned}
 $$
 
@@ -175,7 +175,7 @@ $$
 ### graph formula
 $$
 \begin{aligned}
-\{(a, b) | a \in A, f(a) = b\}
+\{ ( a , b ) | a \in A , f ( a ) = b \}
 \end{aligned}
 $$
 

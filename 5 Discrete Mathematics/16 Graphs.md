@@ -6,9 +6,9 @@
 ### graph formula
 $$
 \begin{aligned}
-G = (V, E) \\
-V = \text{set of vertices} \\
-E = \text{set of edges}
+G = ( V , E ) \\
+V = \text { set of vertices } \\
+E = \text { set of edges }
 \end{aligned}
 $$
 
@@ -102,9 +102,9 @@ $$
 ### undirect neighborhood formula
 $$
 \begin{aligned}
-N(v) = \{u \in V | (v, u) \in E \} \\
-v = \text{home vertex} \\
-u = \text{neighbor vertex}
+N ( v ) = \{ u \in V | ( v , u ) \in E \} \\
+v = \text { home vertex } \\
+u = \text { neighbor vertex }
 \end{aligned}
 $$
 
@@ -112,8 +112,8 @@ $$
 ### direct neighborhood formula
 $$
 \begin{aligned}
-N^-(v) = \{u \in V | (u, v) \in E \} \\
-N^+(v) = \{u \in V | (v, u) \in E \} 
+N ^ - ( v ) = \{ u \in V | ( u , v ) \in E \} \\
+N ^ + ( v ) = \{ u \in V | ( v , u ) \in E \}
 \end{aligned}
 $$
 
@@ -125,7 +125,7 @@ $$
 ### degree of vertex formula
 $$
 \begin{aligned}
-deg(v) = N(v)
+d e g ( v ) = N ( v )
 \end{aligned}
 $$
 
@@ -145,8 +145,8 @@ $$
 ### undirect handshaking formula
 $$
 \begin{aligned}
-\sum_{v \in V} deg(v) = 2|E| \\
-|E| = \text{number of edges}
+\sum _ { v \in V } d e g ( v ) = 2 | E | \\
+| E | = \text { number of edges }
 \end{aligned}
 $$
 
@@ -158,9 +158,9 @@ $$
 ### edge parity formula
 $$
 \begin{aligned}
-\mathbb{E} = 2k \\
-\sum_{v \in V} deg(v) = 2|E| \\
-\therefore \sum_{v \in V} deg(v) \in \mathbb{E}
+\mathbb { E } = 2 k \\
+\sum _ { v \in V } d e g ( v ) = 2 | E | \\
+\therefore \sum _ { v \in V } d e g ( v ) \in \mathbb { E }
 \end{aligned}
 $$
 
@@ -172,9 +172,9 @@ $$
 ### in degree of vertex formula
 $$
 \begin{aligned}
-deg^-(v) = \{u \in V | (u, v) \in E \} \\
-u = \text{initial vertex} \\
-v = \text{terminal vertex}
+d e g ^ - ( v ) = \{ u \in V | ( u , v ) \in E \} \\
+u = \text { initial vertex } \\
+v = \text { terminal vertex }
 \end{aligned}
 $$
 
@@ -186,9 +186,9 @@ $$
 ### out degree of vertex formula
 $$
 \begin{aligned}
-deg^+(v) = \{u \in V | (v, u) \in E \} \\
-v = \text{initial vertex} \\
-u = \text{terminal vertex}
+d e g ^ + ( v ) = \{ u \in V | ( v , u ) \in E \} \\
+v = \text { initial vertex } \\
+u = \text { terminal vertex }
 \end{aligned}
 $$
 
@@ -200,8 +200,8 @@ $$
 ### direct handshaking formula
 $$
 \begin{aligned}
-\sum_{v \in V} deg^-(v) = \sum_{v \in V} deg^+(v) = |E| \\
-|E| = \text{number of edges}
+\sum _ { v \in V } d e g ^ - ( v ) = \sum _ { v \in V } d e g ^ + ( v ) = | E | \\
+| E | = \text { number of edges }
 \end{aligned}
 $$
 
@@ -214,8 +214,8 @@ $$
 ### complete graph formula
 $$
 \begin{aligned}
-|E| = \frac{n(n - 1)}{2} \\
-n = \text{number of vertices}
+| E | = \frac { n ( n - 1 ) } { 2 } \\
+n = \text { number of vertices }
 \end{aligned}
 $$
 
@@ -228,8 +228,8 @@ $$
 ### cycle graph formula
 $$
 \begin{aligned}
-|E| = n \\
-n = \text{number of vertices}
+| E | = n \\
+n = \text { number of vertices }
 \end{aligned}
 $$
 
@@ -241,22 +241,22 @@ $$
 ---
 $$
 \begin{aligned}
-|E| = 2(n - 1) \\
-n = \text{number of vertices}
+| E | = 2 ( n - 1 ) \\
+n = \text { number of vertices }
 \end{aligned}
 $$
 
 ---
 ### hypercube graph
-- graph where vertices equal $2^n$ bit strings of length *n* and two vertices adjacent if and only if bit strings differ by exactly 1 bit
+- graph where vertices equal $2 ^ n$ bit strings of length *n* and two vertices adjacent if and only if bit strings differ by exactly 1 bit
 ![[5 Discrete Mathematics/Images/hypercube graph.png]]
 
 ---
 ### hypercube graph formula
 $$
 \begin{aligned}
-|E| = n \times 2^{n - 1} \\
-n = \text{number of vertices}
+| E | = n \times 2 ^ { n - 1 } \\
+n = \text { number of vertices }
 \end{aligned}
 $$
 
@@ -269,7 +269,7 @@ $$
 ### bipartition formula
 $$
 \begin{aligned}
-V_{1} \cup V_{2} = V \land V_{1} \cap V_{2} = \emptyset
+V _ { 1 } \cup V _ { 2 } = V \land V _ { 1 } \cap V _ { 2 } = \emptyset
 \end{aligned}
 $$
 
@@ -299,7 +299,7 @@ $$
 
 ---
 ### hall marriage theorem
-- bipartite graph $G = (V, E)$ with bipartition $(V_{1}, V_{2})$ has complete matching if and only if $|N(A)| \ge |A|$ for all subsets $A$ of subset $V_{1}$
+- bipartite graph $G = ( V , E )$ with bipartition $( V _ { 1 } , V _ { 2 } )$ has complete matching if and only if $| N ( A ) | \ge | A |$ for all subsets $A$ of subset $V _ { 1 }$
 
 ---
 ### subgraph
@@ -310,8 +310,8 @@ $$
 $$
 \begin{aligned}
 W \subseteq V \land F \subseteq E \\
-H = (W, F) \\
-G = (V, E)
+H = ( W , F ) \\
+G = ( V , E )
 \end{aligned}
 $$
 
@@ -323,9 +323,9 @@ $$
 ### induce subgraph formula
 $$
 \begin{aligned}
-e \in F \iff (v_{1}, v_{2}) \in W \\
-H = (W, F) \\
-G = (V, E)
+e \in F \iff ( v _ { 1 } , v _ { 2 } ) \in W \\
+H = ( W , F ) \\
+G = ( V , E )
 \end{aligned}
 $$
 
@@ -337,7 +337,7 @@ $$
 ### edge addition formula
 $$
 \begin{aligned}
-G + e = (V, E \cup \{e\})
+G + e = ( V , E \cup \{ e \} )
 \end{aligned}
 $$
 
@@ -349,7 +349,7 @@ $$
 ### edge subtraction formula
 $$
 \begin{aligned}
-G - e = (V, E - \{e\})
+G - e = ( V , E - \{ e \} )
 \end{aligned}
 $$
 
@@ -361,9 +361,9 @@ $$
 ### edge contraction formula
 $$
 \begin{aligned}
-V' = V - \{v_{1}, v_{2}\} \cup \{w\} \\
-E' = \{e \in E | e \ne w\} \\
-w = \text{merge vertex}
+V ' = V - \{ v _ { 1 } , v _ { 2 } \} \cup \{ w \} \\
+E ' = \{ e \in E | e \ne w \} \\
+w = \text { merge vertex }
 \end{aligned}
 $$
 
@@ -375,8 +375,8 @@ $$
 ### vertex subtraction formula
 $$
 \begin{aligned}
-G - v = (V - {v}, E') \\
-G = (V, E)
+G - v = ( V - { v } , E ' ) \\
+G = ( V , E )
 \end{aligned}
 $$
 
@@ -388,9 +388,9 @@ $$
 ### graph union formula
 $$
 \begin{aligned}
-G_{1} \cup G_{2} = V_{1} \cup V_{2} \land E_{1} \cup E_{2} \\
-G_{1} = (V_{1}, E_{1}) \\
-G_{2} = (V_{2}, E_{2})
+G _ { 1 } \cup G _ { 2 } = V _ { 1 } \cup V _ { 2 } \land E _ { 1 } \cup E _ { 2 } \\
+G _ { 1 } = ( V _ { 1 } , E _ { 1 } ) \\
+G _ { 2 } = ( V _ { 2 } , E _ { 2 } )
 \end{aligned}
 $$
 

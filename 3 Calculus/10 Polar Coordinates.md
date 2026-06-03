@@ -6,9 +6,9 @@
 ### polar coordinate formula
 $$
 \begin{aligned}
-(r, \theta) = (r, \theta + 2\pi n) \\
-r = \text{distance} \\
-\theta = \text{angle}
+( r , \theta ) = ( r , \theta + 2 \pi n ) \\
+r = \text { distance } \\
+\theta = \text { angle }
 \end{aligned}
 $$
 
@@ -21,15 +21,15 @@ $$
 ### coordinate conversion formula
 $$
 \begin{aligned}
-\begin{cases} x = r\cos(\theta) \\
-y = r\sin(\theta) \\
-\end{cases} \iff \begin{cases} 
-r = \sqrt{x^2 + y^2} \\
-\theta = \arctan(\frac{y}{x}) 
-\end{cases} \\
-x, y = \text{dependent variable} \\
-r = \text{distance} \\
-\theta = \text{angle}
+\begin { c a s e s } x = r \cos ( \theta ) \\
+y = r \sin ( \theta ) \\
+\end { c a s e s } \iff \begin { c a s e s }
+r = \sqrt { x ^ 2 + y ^ 2 } \\
+\theta = \arctan ( \frac { y } { x } )
+\end { c a s e s } \\
+x , y = \text { dependent variable } \\
+r = \text { distance } \\
+\theta = \text { angle }
 \end{aligned}
 $$
 
@@ -43,7 +43,7 @@ $$
 
 ---
 ### graph polar curve
-- graph $r = f(\theta)$ as rectangular coordinate where $r = y$ and $\theta = x$ 
+- graph $r = f ( \theta )$ as rectangular coordinate where $r = y$ and $\theta = x$ 
 ![[3 Calculus/Images/graph polar curve.png]]
 
 ---
@@ -57,36 +57,35 @@ $$
 ### polar symmetry formula
 $$
 \begin{aligned}
-(r, \theta), (r, -\theta) \in C \implies f(\theta) = f(-\theta) \\
-(r, \theta), (-r, \theta) \in C \implies f(\theta) = f(\pi + \theta) \\
-(r, \theta), (-r, -\theta) \in C \implies  f(\theta) = f(\pi - \theta) \\
+( r , \theta ) , ( r , - \theta ) \in C \implies f ( \theta ) = f ( - \theta ) \\
+( r , \theta ) , ( - r , \theta ) \in C \implies f ( \theta ) = f ( \pi + \theta ) \\
+( r , \theta ) , ( - r , - \theta ) \in C \implies f ( \theta ) = f ( \pi - \theta ) \\
 \end{aligned}
 $$
 
 ---
-
 ### derivative
 - slope of secant segment as $\Delta x$ approaches zero
 ![[3 Calculus/Images/derivative.png]]
 
 ---
-### polar derivative formula
+### derivative formula
 $$
 \begin{aligned}
-\frac{dy}{dx} = \frac{f'(\theta)\sin(\theta) + f(\theta)\cos(\theta)}{f'(\theta)\cos(\theta) - f(\theta)\sin(\theta)}
+\frac { d y } { d x } = \frac { f ' ( \theta ) \sin ( \theta ) + f ( \theta ) \cos ( \theta ) } { f ' ( \theta ) \cos ( \theta ) - f ( \theta ) \sin ( \theta ) }
 \end{aligned}
 $$
 
 ---
-### definite integration
+### integral
 - operation of finding the area under curve between two limits of integration
-![[3 Calculus/Images/definite integration.png]]
+![[3 Calculus/Images/polar integral.png]]
 
 ---
-### polar definite integral formula
+### integral formula
 $$
 \begin{aligned}
-\frac{1}{2}\int_{\theta_{1}}^{\theta_{2}} [R^2 - r^2]d\theta
+A = \frac { 1 } { 2 } \int _ { \theta _ { 1 } } ^ { \theta _ { 2 } } [ R ^ 2 - r ^ 2 ] d \theta
 \end{aligned}
 $$
 
@@ -98,7 +97,7 @@ $$
 ### polar arc length formula
 $$
 \begin{aligned}
-\int_{\theta_{1}}^{\theta_{2}} \sqrt{r^2 + (\frac{dr}{d\theta})^2}d\theta
+\int _ { \theta _ { 1 } } ^ { \theta _ { 2 } } \sqrt { r ^ 2 + ( \frac { d r } { d \theta } ) ^ 2 } d \theta
 \end{aligned}
 $$
 
@@ -110,8 +109,8 @@ $$
 ### polar surface area formula
 $$
 \begin{aligned}
-y = 2\pi \int_{\theta_{1}}^{\theta_{2}} r\sin(\theta) \sqrt{r^2 + (\frac{dr}{d\theta})^2}d\theta \\
-x = 2\pi \int_{\theta_{1}}^{\theta_{2}} r\cos(\theta) \sqrt{r^2 + (\frac{dr}{d\theta})^2}d\theta \\
+y = 2 \pi \int _ { \theta _ { 1 } } ^ { \theta _ { 2 } } r \sin ( \theta ) \sqrt { r ^ 2 + ( \frac { d r } { d \theta } ) ^ 2 } d \theta \\
+x = 2 \pi \int _ { \theta _ { 1 } } ^ { \theta _ { 2 } } r \cos ( \theta ) \sqrt { r ^ 2 + ( \frac { d r } { d \theta } ) ^ 2 } d \theta \\
 \end{aligned}
 $$
 

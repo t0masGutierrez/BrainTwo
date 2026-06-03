@@ -6,11 +6,11 @@
 ### space curve formula
 $$
 \begin{aligned}
-\vec{r}(t) = x(t)\hat{i} + y(t)\hat{j} + z(t)\hat{k} \\
-x = \text{x position} \\
-y = \text{y position} \\
-z = \text{z position} \\
-t = \text{parameter}
+\vec { r } ( t ) = x ( t ) \hat { i } + y ( t ) \hat { j } + z ( t ) \hat { k } \\
+x = \text { x position } \\
+y = \text { y position } \\
+z = \text { z position } \\
+t = \text { parameter }
 \end{aligned}
 $$
 
@@ -20,13 +20,13 @@ $$
 
 ---
 ### limit
-- $\vec r(t)$ behavior as *t* approaches value
+- $\vec r ( t )$ behavior as *t* approaches value
 
 ---
 ### limit formula
 $$
 \begin{aligned}
-\lim_{t \to n} \vec r(t) = \lim_{t \to n} x(t) \hat i + \lim_{t \to n} y(t) \hat j + \lim_{t \to n} z(t) \hat k
+\lim _ { t \to n } \vec r ( t ) = \lim _ { t \to n } x ( t ) \hat i + \lim _ { t \to n } y ( t ) \hat j + \lim _ { t \to n } z ( t ) \hat k
 \end{aligned}
 $$
 
@@ -40,9 +40,9 @@ $$
 ### continuity
 $$
 \begin{aligned}
-\lim_{t \to n} \vec r(t) = \vec r(n) \\
-\lim_{t \to n^-} \vec r(t) = \lim_{t \to n^+}  \vec r(t) \\
-\lim_{t \to n} \vec r(t) \ne \pm \infty
+\lim _ { t \to n } \vec r ( t ) = \vec r ( n ) \\
+\lim _ { t \to n ^ - } \vec r ( t ) = \lim _ { t \to n ^ + } \vec r ( t ) \\
+\lim _ { t \to n } \vec r ( t ) \ne \pm \infty
 \end{aligned}
 $$
 
@@ -54,7 +54,7 @@ $$
 ### instantaneous rate of change formula
 $$
 \begin{aligned}
-\vec r \ '(n) = \lim_{t \to n} \frac{\vec r(t) - \vec r(n)}{t - n}
+\vec r \  ' ( n ) = \lim _ { t \to n } \frac { \vec r ( t ) - \vec r ( n ) } { t - n }
 \end{aligned}
 $$
 
@@ -67,7 +67,7 @@ $$
 ### derivative formula
 $$
 \begin{aligned}
-\frac{d}{dt}\vec r(t) = \lim_{\Delta t \to 0} \frac{\vec r(t + \Delta t) - \vec r(n)}{\Delta t}
+\frac { d } { d t } \vec r ( t ) = \lim _ { \Delta t \to 0 } \frac { \vec r ( t + \Delta t ) - \vec r ( n ) } { \Delta t }
 \end{aligned}
 $$
 
@@ -89,8 +89,8 @@ $$
 ### definite integral formula
 $$
 \begin{aligned}
-\int_{a}^b \vec r(t)dt = \vec R(b) - \vec R(a) \\
-\int_{a}^b \vec r(t)dt = \hat i \int_{a}^b x(t)dt + \hat j \int_{a}^b y(t)dt + \hat k \int_{a}^b z(t)dt
+\int _ { a } ^ b \vec r ( t ) d t = \vec R ( b ) - \vec R ( a ) \\
+\int _ { a } ^ b \vec r ( t ) d t = \hat i \int _ { a } ^ b x ( t ) d t + \hat j \int _ { a } ^ b y ( t ) d t + \hat k \int _ { a } ^ b z ( t ) d t
 \end{aligned}
 $$
 
@@ -114,7 +114,7 @@ $$
 ### unit tangent vector
 $$
 \begin{aligned}
-\vec T(t) = \frac{\vec r \ '(t)}{r'(t)}
+\vec T ( t ) = \frac { \vec r \  ' ( t ) } { r ' ( t ) }
 \end{aligned}
 $$
 
@@ -126,7 +126,7 @@ $$
 ### unit normal vector
 $$
 \begin{aligned}
-\vec N(t) = \frac{\vec T \ '(t)}{T'(t)}
+\vec N ( t ) = \frac { \vec T \  ' ( t ) } { T ' ( t ) }
 \end{aligned}
 $$
 
@@ -138,7 +138,7 @@ $$
 ### unit binormal vector
 $$
 \begin{aligned}
-\vec B(t) = \vec T(t) \times \vec N(t) 
+\vec B ( t ) = \vec T ( t ) \times \vec N ( t )
 \end{aligned}
 $$
 
@@ -150,7 +150,7 @@ $$
 ### curvature formula
 $$
 \begin{aligned}
-\kappa(t) = \frac{T'(t)}{r'(t)}
+\kappa ( t ) = \frac { T ' ( t ) } { r ' ( t ) }
 \end{aligned}
 $$
 
@@ -162,7 +162,7 @@ $$
 ### acceleration component formula
 $$
 \begin{aligned}
-\vec a(t) = a_{T} \vec T + a_{N} \vec N 
+\vec a ( t ) = a _ { T } \vec T + a _ { N } \vec N
 \end{aligned}
 $$
 
@@ -170,7 +170,7 @@ $$
 ### tangential acceleration formula
 $$
 \begin{aligned}
-a_{T} = \frac{\vec r \ '(t) \cdot \vec r \ ''(t)}{r'(t)}
+a _ { T } = \frac { \vec r \  ' ( t ) \cdot \vec r \  ' ' ( t ) } { r ' ( t ) }
 \end{aligned}
 $$
 
@@ -178,7 +178,7 @@ $$
 ### normal acceleration formula
 $$
 \begin{aligned}
-a_{N} = \frac{r'(t) \times r''(t)}{r'(t)}
+a _ { N } = \frac { r ' ( t ) \times r ' ' ( t ) } { r ' ( t ) }
 \end{aligned}
 $$
 
@@ -190,7 +190,7 @@ $$
 ### arc length formula
 $$
 \begin{aligned}
-r(t) = \int_{a}^t \sqrt{(\frac{dx}{dt})^2 + (\frac{dy}{dt})^2 + (\frac{dz}{dt})^2}dt = \int_{a}^t \vec r \ '(u)du
+r ( t ) = \int _ { a } ^ t \sqrt { ( \frac { d x } { d t } ) ^ 2 + ( \frac { d y } { d t } ) ^ 2 + ( \frac { d z } { d t } ) ^ 2 } d t = \int _ { a } ^ t \vec r \  ' ( u ) d u
 \end{aligned}
 $$
 
