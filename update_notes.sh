@@ -38,9 +38,30 @@ main() {
     }'
 
     git commit --quiet -m "update notes"
-    git push --quiet
+    push_with_rebase_retry
 
     echo "Everything up-to-date"
+}
+
+push_with_rebase_retry() {
+    local attempt=1
+    local max_attempts=3
+
+    while true; do
+        if git push --quiet; then
+            return 0
+        fi
+
+        if [ "$attempt" -ge "$max_attempts" ]; then
+            echo "Push failed after $max_attempts attempts. Resolve manually with: git fetch && git rebase @{u} && git push" >&2
+            return 1
+        fi
+
+        echo "Remote changed before push completed; rebasing and retrying push ($attempt/$max_attempts)." >&2
+        git fetch --quiet
+        git rebase --quiet @{u}
+        attempt=$((attempt + 1))
+    done
 }
 
 main "$@"
