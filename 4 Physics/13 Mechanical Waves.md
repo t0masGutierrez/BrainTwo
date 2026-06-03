@@ -87,7 +87,7 @@ $$
 ### wave function formula
 $$
 \begin{aligned}
-\frac { \partial ^ 2 y } { \partial x ^ 2 } = \frac { 1 } { v ^ 2 } ( \frac { \partial ^ 2 y } { \partial t ^ 2 } ) \\
+\frac { \partial ^ { 2 } y } { \partial x ^ { 2 } } = \frac { 1 } { v ^ { 2 } } ( \frac { \partial ^ { 2 } y } { \partial t ^ { 2 } } ) \\
 v = \text { wave velocity } \\
 y = \text { position } \\
 t = \text { time }
@@ -116,7 +116,7 @@ $$
 ### particle acceleration formula
 $$
 \begin{aligned}
-a ( x , t ) = \frac { \partial ^ 2 y } { \partial t ^ 2 } = - A \omega ^ 2 \cos ( k x \mp \omega t ) \\
+a ( x , t ) = \frac { \partial ^ { 2 } y } { \partial t ^ { 2 } } = - A \omega ^ { 2 } \cos ( k x \mp \omega t ) \\
 y = \text { position } \\
 t = \text { time } \\
 A = \text { amplitude } \\

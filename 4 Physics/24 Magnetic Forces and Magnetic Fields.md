@@ -96,7 +96,7 @@ $$
 ### centripetal force formula
 $$
 \begin{aligned}
-\vec F _ { c } = m \vec a _ { r a d } = m \frac { \vec v _ { t a n } ^ 2 } { R } \\
+\vec F _ { c } = m \vec a _ { r a d } = m \frac { \vec v _ { t a n } ^ { 2 } } { R } \\
 m = \text { mass } \\
 a _ { r a d } = \text { radial acceleration } \\
 v _ { t a n } = \text { tangential velocity } \\
@@ -180,7 +180,7 @@ $$
 ### parallel electric current magnetic force formula
 $$
 \begin{aligned}
-F = \frac { \mu _ { 0 } I _ 1 I _ 2 L } { 2 \pi r } \\
+F = \frac { \mu _ { 0 } I _ { 1 } I _ { 2 } L } { 2 \pi r } \\
 \mu _ { 0 } = 4 \pi \times 10 ^ { - 7 } \\
 I = \text { electric current } \\
 L = \text { length } \\
@@ -216,7 +216,7 @@ $$
 ### magnetic dipole magnetic field formula
 $$
 \begin{aligned}
-\vec B = \frac { \mu _ { 0 } \vec \mu } { 2 \pi r ^ 3 } \\
+\vec B = \frac { \mu _ { 0 } \vec \mu } { 2 \pi r ^ { 3 } } \\
 \mu _ { 0 } = 4 \pi \times 10 ^ { - 7 } \\
 \mu = \text { magnetic dipole } \\
 r = \text { distance }
@@ -254,7 +254,7 @@ $$
 ### hall effect formula
 $$
 \begin{aligned}
-n q = \frac { - J _ x B _ { y } } { E _ { z } } \\
+n q = \frac { - J _ { x } B _ { y } } { E _ { z } } \\
 J = \text { electric current density } \\
 B = \text { magnetic field } \\
 E = \text { electric field }

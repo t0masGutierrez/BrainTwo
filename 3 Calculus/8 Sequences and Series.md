@@ -56,7 +56,7 @@ $$
 ### geometric sequence formula
 $$
 \begin{aligned}
-a _ { n } = a _ 1 r ^ { n - 1 } \\
+a _ { n } = a _ { 1 } r ^ { n - 1 } \\
 a _ { 1 } = \text { 1st term } \\
 r = \text { common ratio }
 \end{aligned}
@@ -278,8 +278,8 @@ $$
 ### geometric series formula
 $$
 \begin{aligned}
-| r | < 1 \to \sum _ { n = 1 } ^ { \infty } a _ 1 r ^ { n - 1 } = \frac { a _ { 1 } } { 1 - r } \\
-| r | \ge 1 \to \sum _ { n = 1 } ^ { \infty } a _ 1 r ^ { n - 1 } \ne S \\
+| r | < 1 \to \sum _ { n = 1 } ^ { \infty } a _ { 1 } r ^ { n - 1 } = \frac { a _ { 1 } } { 1 - r } \\
+| r | \ge 1 \to \sum _ { n = 1 } ^ { \infty } a _ { 1 } r ^ { n - 1 } \ne S \\
 a _ { 1 } = \text { 1st term } \\
 r = \text { common ratio }
 \end{aligned}
@@ -335,8 +335,8 @@ $$
 ### p series formula
 $$
 \begin{aligned}
-p > 1 \to \sum _ { n = 1 } ^ { \infty } \frac { 1 } { n ^ p } = \frac { 1 } { 1 ^ p } + \frac { 1 } { 2 ^ p } + . . . + \frac { 1 } { n ^ p } . . . = S \\
-p \le 1 \to \sum _ { n = 1 } ^ { \infty } \frac { 1 } { n ^ p } = \frac { 1 } { 1 ^ p } + \frac { 1 } { 2 ^ p } + . . . + \frac { 1 } { n ^ p } . . . \ne S \\
+p > 1 \to \sum _ { n = 1 } ^ { \infty } \frac { 1 } { n ^ { p } } = \frac { 1 } { 1 ^ { p } } + \frac { 1 } { 2 ^ { p } } + . . . + \frac { 1 } { n ^ { p } } . . . = S \\
+p \le 1 \to \sum _ { n = 1 } ^ { \infty } \frac { 1 } { n ^ { p } } = \frac { 1 } { 1 ^ { p } } + \frac { 1 } { 2 ^ { p } } + . . . + \frac { 1 } { n ^ { p } } . . . \ne S \\
 p = \text { power }
 \end{aligned}
 $$
@@ -350,8 +350,8 @@ $$
 ### comparison test formula
 $$
 \begin{aligned}
-\forall n ( a _ { n } \le b _ { n } ) \sum _ { n = 1 } ^ \infty b _ { n } = S \to \sum _ { n = 1 } ^ \infty a _ { n } = S \\
-\forall n ( a _ { n } \le b _ { n } ) \sum _ { n = 1 } ^ \infty a _ { n } \ne S \to \sum _ { n = 1 } ^ \infty b _ { n } \ne S \\
+\forall n ( a _ { n } \le b _ { n } ) \sum _ { n = 1 } ^ { \infty } b _ { n } = S \to \sum _ { n = 1 } ^ { \infty } a _ { n } = S \\
+\forall n ( a _ { n } \le b _ { n } ) \sum _ { n = 1 } ^ { \infty } a _ { n } \ne S \to \sum _ { n = 1 } ^ { \infty } b _ { n } \ne S \\
 \end{aligned}
 $$
 
@@ -455,7 +455,7 @@ $$
 ### taylor polynomial formula
 $$
 \begin{aligned}
-P _ { n } ( x ) = f ( c ) + f ' ( c ) ( x - c ) + \frac { f ' ' ( c ) } { 2 ! } ( x - c ) ^ 2 + . . . + \frac { f ^ { n ' } ( c ) } { n ! } ( x - c ) ^ n \\
+P _ { n } ( x ) = f ( c ) + f ' ( c ) ( x - c ) + \frac { f ' ' ( c ) } { 2 ! } ( x - c ) ^ { 2 } + . . . + \frac { f ^ { n ' } ( c ) } { n ! } ( x - c ) ^ { n } \\
 c = \text { center }
 \end{aligned}
 $$
@@ -468,7 +468,7 @@ $$
 ### mclaurin polynomial formula
 $$
 \begin{aligned}
-P _ { n } ( x ) = f ( 0 ) + f ' ( 0 ) x + \frac { f ' ' ( 0 ) } { 2 ! } x ^ 2 + . . . + \frac { f ^ { n ' } ( 0 ) } { n ! } x ^ n \\
+P _ { n } ( x ) = f ( 0 ) + f ' ( 0 ) x + \frac { f ' ' ( 0 ) } { 2 ! } x ^ { 2 } + . . . + \frac { f ^ { n ' } ( 0 ) } { n ! } x ^ { n } \\
 c = 0
 \end{aligned}
 $$
@@ -481,7 +481,7 @@ $$
 ### power series formula
 $$
 \begin{aligned}
-f ( x ) = \sum _ { n = 1 } ^ { \infty } a _ { n } ( x - c ) ^ n
+f ( x ) = \sum _ { n = 1 } ^ { \infty } a _ { n } ( x - c ) ^ { n }
 \end{aligned}
 $$
 
@@ -523,7 +523,7 @@ $$
 ### power series differentiation property
 $$
 \begin{aligned}
-f ' ( x ) = \sum _ { n = 1 } ^ \infty [ n a _ { n } ( x - c ) ^ { n - 1 } ] \\
+f ' ( x ) = \sum _ { n = 1 } ^ { \infty } [ n a _ { n } ( x - c ) ^ { n - 1 } ] \\
 \end{aligned}
 $$
 
@@ -531,7 +531,7 @@ $$
 ### power series integration property
 $$
 \begin{aligned}
-\int f ( x ) d x = \sum _ { n = 1 } ^ \infty [ \frac { a _ { n } } { n + 1 } ( x - c ) ^ { n + 1 } ]
+\int f ( x ) d x = \sum _ { n = 1 } ^ { \infty } [ \frac { a _ { n } } { n + 1 } ( x - c ) ^ { n + 1 } ]
 \end{aligned}
 $$
 
@@ -567,7 +567,7 @@ $$
 ### taylor series formula
 $$
 \begin{aligned}
-P _ { n } ( x ) = \sum _ { n = 1 } ^ \infty \frac { f ^ { n ' } ( c ) } { n ! } ( x - c ) ^ n \\
+P _ { n } ( x ) = \sum _ { n = 1 } ^ { \infty } \frac { f ^ { n ' } ( c ) } { n ! } ( x - c ) ^ { n } \\
 c = \text { center }
 \end{aligned}
 $$

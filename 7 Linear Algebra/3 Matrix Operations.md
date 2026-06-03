@@ -43,7 +43,7 @@ $$
 ### main diagonal formula
 $$
 \begin{aligned}
-\text { diag } ( A ) = ( a _ { i i } ) _ { i = 1 } ^ n \\
+\text { diag } ( A ) = ( a _ { i i } ) _ { i = 1 } ^ { n } \\
 a = \text { entry } \\
 i = \text { row index } \\
 i = \text { column index } \\
@@ -155,7 +155,7 @@ $$
 ### trace formula
 $$
 \begin{aligned}
-\text { tr } ( A ) = \sum _ { i = 1 } ^ n a _ { i i } \\
+\text { tr } ( A ) = \sum _ { i = 1 } ^ { n } a _ { i i } \\
 a = \text { entry } \\
 i = \text { row index } \\
 i = \text { column index } \\
@@ -208,7 +208,7 @@ $$
 ### linear combination formula
 $$
 \begin{aligned}
-B = \sum _ { i = 1 } ^ k c _ i A _ { i } \\
+B = \sum _ { i = 1 } ^ { k } c _ { i } A _ { i } \\
 c = \text { scalar } \\
 A = \text { matrix } \\
 k = \text { number of matrices }
@@ -227,7 +227,7 @@ A = \begin { b m a t r i x }
 a _ { 11 } & a _ { 12 } & a _ { 13 } \\
 a _ { 21 } & a _ { 22 } & a _ { 23 } \\
 a _ { 31 } & a _ { 32 } & a _ { 33 } \\
-\end { b m a t r i x } \implies A ^ T = \begin { b m a t r i x }
+\end { b m a t r i x } \implies A ^ { T } = \begin { b m a t r i x }
 a _ { 11 } & a _ { 21 } & a _ { 31 } \\
 a _ { 12 } & a _ { 22 } & a _ { 32 } \\
 a _ { 13 } & a _ { 23 } & a _ { 33 }
@@ -247,7 +247,7 @@ $$
 ### symmetric formula
 $$
 \begin{aligned}
-A = A ^ T \\
+A = A ^ { T } \\
 A = \text { square matrix } \\
 T = \text { transposition }
 \end{aligned}
@@ -261,7 +261,7 @@ $$
 ### skew symmetric formula
 $$
 \begin{aligned}
-A = - A ^ T \\
+A = - A ^ { T } \\
 A = \text { square matrix } \\
 T = \text { transposition }
 \end{aligned}
@@ -318,9 +318,9 @@ $$
 ### matrix transposition property formula
 $$
 \begin{aligned}
-( A ^ T ) ^ T = A \\
-( A \pm B ) ^ T = A ^ T \pm B ^ T \\
-( c A ) ^ T = c ( A ^ T )
+( A ^ { T } ) ^ { T } = A \\
+( A \pm B ) ^ { T } = A ^ { T } \pm B ^ { T } \\
+( c A ) ^ { T } = c ( A ^ { T } )
 \end{aligned}
 $$
 
@@ -333,8 +333,8 @@ $$
 $$
 \begin{aligned}
 A = S + V \\
-S = ( \frac { 1 } { 2 } ) ( A + A ^ T ) = ( \frac { 1 } { 2 } ) ( A + A ^ T ) ^ T \\
-V = ( \frac { 1 } { 2 } ) ( A - A ^ T ) = ( \frac { 1 } { 2 } ) ( A ^ T - A ) ^ T \\
+S = ( \frac { 1 } { 2 } ) ( A + A ^ { T } ) = ( \frac { 1 } { 2 } ) ( A + A ^ { T } ) ^ { T } \\
+V = ( \frac { 1 } { 2 } ) ( A - A ^ { T } ) = ( \frac { 1 } { 2 } ) ( A ^ { T } - A ) ^ { T } \\
 A = \text { square matrix } \\
 S = \text { symmetric matrix } \\
 V = \text { skew symmetric matrix } \\

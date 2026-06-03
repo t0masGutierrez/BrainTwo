@@ -43,9 +43,9 @@ $$
 $$
 \begin{aligned}
 \vec v _ { a v g } = \frac { \Delta \vec r } { \Delta t } \\
-\vec { v } = \frac { d \vec { r } } { d t } = \frac { d x } { d t } \hat i + \frac { d y } { d t } \hat j = v _ x \hat i + v _ y \hat j \\
-v = | \vec v | = \sqrt { v _ x ^ 2 + v _ y ^ 2 } \\
-\theta = \arctan ( \frac { v _ y } { v _ x } ) \\
+\vec { v } = \frac { d \vec { r } } { d t } = \frac { d x } { d t } \hat i + \frac { d y } { d t } \hat j = v _ { x } \hat i + v _ { y } \hat j \\
+v = | \vec v | = \sqrt { v _ { x } ^ { 2 } + v _ { y } ^ { 2 } } \\
+\theta = \arctan ( \frac { v _ { y } } { v _ { x } } ) \\
 \vec r = \text { position } \\
 t = \text { time } \\
 \vec v = \text { velocity }
@@ -61,9 +61,9 @@ $$
 $$
 \begin{aligned}
 \vec a _ { a v g } = \frac { \Delta \vec v } { \Delta t } \\
-\vec { a } = \frac { d \vec { v } } { d t } = \frac { d ^ 2 \vec { r } } { d t ^ 2 } = a _ x \hat i + a _ y \hat j \\
-a = | \vec a | = \sqrt { a _ x ^ 2 + a _ y ^ 2 } \\
-\theta = \arctan ( \frac { a _ y } { a _ x } ) \\
+\vec { a } = \frac { d \vec { v } } { d t } = \frac { d ^ { 2 } \vec { r } } { d t ^ { 2 } } = a _ { x } \hat i + a _ { y } \hat j \\
+a = | \vec a | = \sqrt { a _ { x } ^ { 2 } + a _ { y } ^ { 2 } } \\
+\theta = \arctan ( \frac { a _ { y } } { a _ { x } } ) \\
 \vec v = \text { velocity } \\
 t = \text { time } \\
 \vec r = \text { position } \\
@@ -84,7 +84,7 @@ $$
 \begin{aligned}
 v _ { 0 x } = v _ { 0 } \cos ( \theta ) \\
 v _ { 0 y } = v _ { 0 } \sin ( \theta ) \\
-v _ 0 = \text { initial velocity } \\
+v _ { 0 } = \text { initial velocity } \\
 \theta = \text { angle between vectors }
 \end{aligned}
 $$
@@ -94,7 +94,7 @@ $$
 $$
 \begin{aligned}
 v _ { x } = v _ { 0 x } \\
-v _ 0 = \text { initial velocity } \\
+v _ { 0 } = \text { initial velocity } \\
 x = \text { position }
 \end{aligned}
 $$
@@ -104,9 +104,9 @@ $$
 $$
 \begin{aligned}
 v _ { y } = v _ { 0 y } - g t \\
-y = y _ { 0 } + v _ { 0 y } t - \frac { 1 } { 2 } g t ^ 2 \\
+y = y _ { 0 } + v _ { 0 y } t - \frac { 1 } { 2 } g t ^ { 2 } \\
 y - y _ { 0 } = \frac { 1 } { 2 } ( v _ { y } + v _ { 0 y } ) t \\
-v _ { y } ^ 2 = v _ { 0 y } ^ 2 - 2 g ( y - y _ { 0 } ) \\
+v _ { y } ^ { 2 } = v _ { 0 y } ^ { 2 } - 2 g ( y - y _ { 0 } ) \\
 g = 9.8
 \end{aligned}
 $$
@@ -146,7 +146,7 @@ $$
 ### uniform radial acceleration formula
 $$
 \begin{aligned}
-a _ { r a d } = \frac { v _ { t a n } ^ 2 } { r } \\
+a _ { r a d } = \frac { v _ { t a n } ^ { 2 } } { r } \\
 v = \text { velocity } \\
 r = \text { radius }
 \end{aligned}
@@ -178,7 +178,7 @@ $$
 ### nonuniform radial acceleration formula
 $$
 \begin{aligned}
-a = a _ { r a d } + a _ { t a n } = \frac { v _ { t a n } ^ 2 } { r } + \frac { d v _ { t a n } } { d t } \\
+a = a _ { r a d } + a _ { t a n } = \frac { v _ { t a n } ^ { 2 } } { r } + \frac { d v _ { t a n } } { d t } \\
 v = \text { velocity } \\
 r = \text { radius } \\
 t = \text { time }
@@ -196,9 +196,9 @@ $$
 ### projectile motion versus uniform circular motion formula
 $$
 \begin{aligned}
-a ( t ) = a _ 0 \\
-\hat a ( t ) = \hat a _ 0 \\
-\hat a ( t ) \ne \hat a _ 0
+a ( t ) = a _ { 0 } \\
+\hat a ( t ) = \hat a _ { 0 } \\
+\hat a ( t ) \ne \hat a _ { 0 }
 \end{aligned}
 $$
 

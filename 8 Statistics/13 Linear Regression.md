@@ -5,7 +5,7 @@
 ### slope formula
 $$
 \begin{aligned}
-b = \frac { y _ 2 - y _ 1 } { x _ 2 - x _ 1 } \\
+b = \frac { y _ { 2 } - y _ { 1 } } { x _ { 2 } - x _ { 1 } } \\
 x = \text { independent variable } \\
 y = \text { dependent variable }
 \end{aligned}
@@ -91,9 +91,9 @@ $$
 ### regression slope formula
 $$
 \begin{aligned}
-b = r \frac { s _ y } { s _ x } \\
+b = r \frac { s _ { y } } { s _ { x } } \\
 r = \text { correlation } \\
-s _ x , s _ y = \text { sample standard deviation }
+s _ { x } , s _ { y } = \text { sample standard deviation }
 \end{aligned}
 $$
 
@@ -133,7 +133,7 @@ $$
 ### unexplained variation formula
 $$
 \begin{aligned}
-S S E = \sum _ i ^ n e _ i ^ 2 \\
+S S E = \sum _ { i } ^ { n } e _ { i } ^ { 2 } \\
 n = \text { sample size } \\
 e = \text { residual }
 \end{aligned}
@@ -147,7 +147,7 @@ $$
 ### explained variation formula
 $$
 \begin{aligned}
-S S R = \sum _ i ^ n ( \overline y _ i - \hat y _ i ) ^ 2 \\
+S S R = \sum _ { i } ^ { n } ( \overline y _ { i } - \hat y _ { i } ) ^ { 2 } \\
 n = \text { sample size } \\
 \overline y = \text { sample mean } \\
 \hat y = \text { prediction }
@@ -162,7 +162,7 @@ $$
 ### total variation formula
 $$
 \begin{aligned}
-S S T = \sum _ i ^ n ( y _ i - \overline y _ i ) ^ 2 = S S E + S S R \\
+S S T = \sum _ { i } ^ { n } ( y _ { i } - \overline y _ { i } ) ^ { 2 } = S S E + S S R \\
 n = \text { sample size } \\
 \hat y = \text { prediction } \\
 \overline y = \text { sample mean }
@@ -177,8 +177,8 @@ $$
 ### coefficient of determination
 $$
 \begin{aligned}
-R ^ 2 = \frac { S S R } { S S T } \\
-0 \le R ^ 2 \le 1 \\
+R ^ { 2 } = \frac { S S R } { S S T } \\
+0 \le R ^ { 2 } \le 1 \\
 S S R = \text { explained variation } \\
 S S T = \text { total variation }
 \end{aligned}
@@ -192,7 +192,7 @@ $$
 ### correlation formula
 $$
 \begin{aligned}
-# # # r = \frac { \sum z _ x z _ y } { n - 1 } \\
+# # # r = \frac { \sum z _ { x } z _ { y } } { n - 1 } \\
 - 1 \le r \le 1 \\
 z = \text { z-score } \\
 n = \text { sample size } \\
@@ -219,7 +219,7 @@ $$
 ### multiple linear regression formula
 $$
 \begin{aligned}
-\hat y = a + \sum _ { j = 1 } ^ k b _ j x _ j \\
+\hat y = a + \sum _ { j = 1 } ^ { k } b _ { j } x _ { j } \\
 a = \text { y-intercept } \\
 k = \text { number of independent variables } \\
 b = \text { slope } \\
@@ -236,7 +236,7 @@ $$
 ### correlation standard error formula
 $$
 \begin{aligned}
-S E ( r ) = \sqrt { \frac { 1 - r ^ 2 } { n - 2 } } \\
+S E ( r ) = \sqrt { \frac { 1 - r ^ { 2 } } { n - 2 } } \\
 r = \text { correlation } \\
 n = \text { sample size }
 \end{aligned}
@@ -265,7 +265,7 @@ $$
 ### simple linear regression null hypothesis formula
 $$
 \begin{aligned}
-H _ 0 : \rho = 0
+H _ { 0 } : \rho = 0
 \end{aligned}
 $$
 
@@ -277,7 +277,7 @@ $$
 ### simple linear regression alternative hypothesis formula
 $$
 \begin{aligned}
-H _ a : \rho \ne 0
+H _ { a } : \rho \ne 0
 \end{aligned}
 $$
 
@@ -289,11 +289,11 @@ $$
 ### regression slope standard error formula
 $$
 \begin{aligned}
-S E ( b ) = \sqrt { \frac { S S E } { ( n - k - 1 ) ( 1 - R _ i ^ 2 ) \sum _ { i = 1 } ^ n ( x _ { i j } - \overline x _ j ) ^ 2 } } \\
+S E ( b ) = \sqrt { \frac { S S E } { ( n - k - 1 ) ( 1 - R _ { i } ^ { 2 } ) \sum _ { i = 1 } ^ { n } ( x _ { i j } - \overline x _ { j } ) ^ { 2 } } } \\
 S S E = \text { unexplained variation } \\
 n = \text { sample size } \\
 k = \text { number of independent variables } \\
-R ^ 2 = \text { coefficient of determination } \\
+R ^ { 2 } = \text { coefficient of determination } \\
 x = \text { independent variable } \\
 \overline x = \text { sample mean }
 \end{aligned}
@@ -307,7 +307,7 @@ $$
 ### regression slope t-score formula
 $$
 \begin{aligned}
-t = \frac { b _ j - 0 } { S E ( b _ j ) } \\
+t = \frac { b _ { j } - 0 } { S E ( b _ { j } ) } \\
 d f = n - k - 1 \\
 b = \text { slope } \\
 S E = \text { standard error }
@@ -322,7 +322,7 @@ $$
 ### multiple linear regression null hypothesis formula
 $$
 \begin{aligned}
-H _ 0 : \beta = 0
+H _ { 0 } : \beta = 0
 \end{aligned}
 $$
 
@@ -334,7 +334,7 @@ $$
 ### multiple linear regression alternative hypothesis formula
 $$
 \begin{aligned}
-H _ a : \beta \ne 0
+H _ { a } : \beta \ne 0
 \end{aligned}
 $$
 
@@ -346,7 +346,7 @@ $$
 ### line of best fit formula
 $$
 \begin{aligned}
-\min \sum _ i ^ n e _ i ^ 2 \\
+\min \sum _ { i } ^ { n } e _ { i } ^ { 2 } \\
 n = \text { sample size } \\
 e = \text { residual }
 \end{aligned}

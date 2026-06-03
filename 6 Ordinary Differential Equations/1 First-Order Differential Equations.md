@@ -5,7 +5,7 @@
 ### ordinary differential equation formula
 $$
 \begin{aligned}
-f ( t , y , \frac { d y } { d t } , \dots , \frac { d ^ n y } { d t ^ n } ) = 0 \\
+f ( t , y , \frac { d y } { d t } , \dots , \frac { d ^ { n } y } { d t ^ { n } } ) = 0 \\
 t = \text { independent variable } \\
 y = \text { solution }
 \end{aligned}
@@ -47,9 +47,9 @@ $$
 ### particular solution of 1st-order ode formula
 $$
 \begin{aligned}
-y ( t ) = \phi ( t , t _ 0 , y _ 0 ) \\
+y ( t ) = \phi ( t , t _ { 0 } , y _ { 0 } ) \\
 t = \text { independent variable } \\
-t _ 0 , y _ 0 = \text { initial condition }
+t _ { 0 } , y _ { 0 } = \text { initial condition }
 \end{aligned}
 $$
 
@@ -81,7 +81,7 @@ $$
 ### particular solution of separable ode formula
 $$
 \begin{aligned}
-\int _ { y _ { 0 } } ^ y f ( r ) d r = \int _ { t _ { 0 } } ^ t g ( s ) d s \\
+\int _ { y _ { 0 } } ^ { y } f ( r ) d r = \int _ { t _ { 0 } } ^ { t } g ( s ) d s \\
 y = \text { solution } \\
 r , s = \text { dummy variable } \\
 t = \text { independent variable }
@@ -149,8 +149,8 @@ $$
 ### particular solution of 1st-order homogeneous linear ode formula
 $$
 \begin{aligned}
-y ( t ) = y ( t _ { 0 } ) \exp ( - \int _ { t _ { 0 } } ^ t a ( r ) d r ) \\
-t _ 0 = \text { initial condition } \\
+y ( t ) = y ( t _ { 0 } ) \exp ( - \int _ { t _ { 0 } } ^ { t } a ( r ) d r ) \\
+t _ { 0 } = \text { initial condition } \\
 t = \text { independent variable } \\
 a = \text { coefficient } \\
 r = \text { dummy variable }
@@ -188,10 +188,10 @@ $$
 ### particular solution of 1st-order nonhomogeneous linear ode formula
 $$
 \begin{aligned}
-y ( t ) = \frac { 1 } { \mu ( t ) } [ y ( t _ { 0 } ) + \int _ { t _ { 0 } } ^ t \mu ( r ) b ( r ) d r ] \\
+y ( t ) = \frac { 1 } { \mu ( t ) } [ y ( t _ { 0 } ) + \int _ { t _ { 0 } } ^ { t } \mu ( r ) b ( r ) d r ] \\
 \mu = \text { integrating factor } \\
 t = \text { independent variable } \\
-t _ 0 = \text { initial condition } \\
+t _ { 0 } = \text { initial condition } \\
 r = \text { dummy variable }
 \end{aligned}
 $$
@@ -230,13 +230,13 @@ $$
 ### particular solution of exact ode formula
 $$
 \begin{aligned}
-\Phi ( t , y ) = \Phi ( t _ 0 , y _ 0 ) = C \\
+\Phi ( t , y ) = \Phi ( t _ { 0 } , y _ { 0 } ) = C \\
 M = \frac { \partial \Phi } { \partial t } \\
 N = \frac { \partial \Phi } { \partial y } \\
 \Phi = \text { potential function } \\
 t = \text { independent variable } \\
 y = \text { solution } \\
-t _ 0 , y _ 0 = \text { initial condition } \\
+t _ { 0 } , y _ { 0 } = \text { initial condition } \\
 C = \text { constant }
 \end{aligned}
 $$

@@ -112,8 +112,8 @@ $$
 ### direct neighborhood formula
 $$
 \begin{aligned}
-N ^ - ( v ) = \{ u \in V | ( u , v ) \in E \} \\
-N ^ + ( v ) = \{ u \in V | ( v , u ) \in E \}
+N ^ { - } ( v ) = \{ u \in V | ( u , v ) \in E \} \\
+N ^ { + } ( v ) = \{ u \in V | ( v , u ) \in E \}
 \end{aligned}
 $$
 
@@ -172,7 +172,7 @@ $$
 ### in degree of vertex formula
 $$
 \begin{aligned}
-d e g ^ - ( v ) = \{ u \in V | ( u , v ) \in E \} \\
+d e g ^ { - } ( v ) = \{ u \in V | ( u , v ) \in E \} \\
 u = \text { initial vertex } \\
 v = \text { terminal vertex }
 \end{aligned}
@@ -186,7 +186,7 @@ $$
 ### out degree of vertex formula
 $$
 \begin{aligned}
-d e g ^ + ( v ) = \{ u \in V | ( v , u ) \in E \} \\
+d e g ^ { + } ( v ) = \{ u \in V | ( v , u ) \in E \} \\
 v = \text { initial vertex } \\
 u = \text { terminal vertex }
 \end{aligned}
@@ -200,7 +200,7 @@ $$
 ### direct handshaking formula
 $$
 \begin{aligned}
-\sum _ { v \in V } d e g ^ - ( v ) = \sum _ { v \in V } d e g ^ + ( v ) = | E | \\
+\sum _ { v \in V } d e g ^ { - } ( v ) = \sum _ { v \in V } d e g ^ { + } ( v ) = | E | \\
 | E | = \text { number of edges }
 \end{aligned}
 $$
@@ -248,7 +248,7 @@ $$
 
 ---
 ### hypercube graph
-- graph where vertices equal $2 ^ n$ bit strings of length *n* and two vertices adjacent if and only if bit strings differ by exactly 1 bit
+- graph where vertices equal $2 ^ { n }$ bit strings of length *n* and two vertices adjacent if and only if bit strings differ by exactly 1 bit
 ![[5 Discrete Mathematics/Images/hypercube graph.png]]
 
 ---

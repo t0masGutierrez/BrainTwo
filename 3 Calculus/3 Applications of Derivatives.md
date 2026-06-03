@@ -6,25 +6,25 @@ $$
 \frac { d } { d x } c u = c u ' \\
 \frac { d } { d x } u \pm v = u ' \pm v ' \\
 \frac { d } { d x } u v = u ' v + u v ' \\
-\frac { d } { d x } \frac { u } { v } = \frac { u ' v - u v ' } { v ^ 2 } \\
-\frac { d } { d x } u ^ n = n u ^ { n - 1 } u ' \\
+\frac { d } { d x } \frac { u } { v } = \frac { u ' v - u v ' } { v ^ { 2 } } \\
+\frac { d } { d x } u ^ { n } = n u ^ { n - 1 } u ' \\
 \frac { d } { d x } | u | = \frac { u } { | u | } u ' \\
 \frac { d } { d x } \ln ( u ) = \frac { u ' } { u } \\
-\frac { d } { d x } e ^ u = e ^ u u ' \\
+\frac { d } { d x } e ^ { u } = e ^ { u } u ' \\
 \frac { d } { d x } \log _ { a } ( u ) = \frac { u ' } { \ln ( a ) u } \\
-\frac { d } { d x } a ^ u = \ln ( a ) a ^ u u ' \\
+\frac { d } { d x } a ^ { u } = \ln ( a ) a ^ { u } u ' \\
 \frac { d } { d x } \sin ( u ) = \cos ( u ) u ' \\
 \frac { d } { d x } \cos ( u ) = - \sin ( u ) u ' \\
-\frac { d } { d x } \tan ( u ) = \sec ^ 2 ( u ) u ' \\
-\frac { d } { d x } \cot ( u ) = - \csc ^ 2 ( u ) u ' \\
+\frac { d } { d x } \tan ( u ) = \sec ^ { 2 } ( u ) u ' \\
+\frac { d } { d x } \cot ( u ) = - \csc ^ { 2 } ( u ) u ' \\
 \frac { d } { d x } \sec ( u ) = \sec ( u ) \tan ( u ) u ' \\
 \frac { d } { d x } \csc ( u ) = - \csc ( u ) \cot ( u ) u ' \\
-\frac { d } { d x } \arcsin ( u ) = \frac { u ' } { \sqrt { 1 - u ^ 2 } } \\
-\frac { d } { d x } \arccos ( u ) = \frac { - u ' } { \sqrt { 1 - u ^ 2 } } \\
-\frac { d } { d x } \arctan ( u ) = \frac { u ' } { 1 + u ^ 2 } \\
-\frac { d } { d x } \text { arccot } ( u ) = \frac { - u ' } { 1 + u ^ 2 } \\
-\frac { d } { d x } \text { arcsec } ( u ) = \frac { u ' } { | u | \sqrt { u ^ 2 - 1 } } \\
-\frac { d } { d x } \text { arccsc } ( u ) = \frac { - u ' } { | u | \sqrt { u ^ 2 - 1 } }
+\frac { d } { d x } \arcsin ( u ) = \frac { u ' } { \sqrt { 1 - u ^ { 2 } } } \\
+\frac { d } { d x } \arccos ( u ) = \frac { - u ' } { \sqrt { 1 - u ^ { 2 } } } \\
+\frac { d } { d x } \arctan ( u ) = \frac { u ' } { 1 + u ^ { 2 } } \\
+\frac { d } { d x } \text { arccot } ( u ) = \frac { - u ' } { 1 + u ^ { 2 } } \\
+\frac { d } { d x } \text { arcsec } ( u ) = \frac { u ' } { | u | \sqrt { u ^ { 2 } - 1 } } \\
+\frac { d } { d x } \text { arccsc } ( u ) = \frac { - u ' } { | u | \sqrt { u ^ { 2 } - 1 } }
 \end{aligned}
 $$
 
@@ -98,12 +98,12 @@ $$
 ### inverse trigonometric derivative rules
 $$
 \begin{aligned}
-\frac { d } { d x } \arcsin ( u ) = \frac { u ' } { \sqrt { 1 - u ^ 2 } } \\
-\frac { d } { d x } \arccos ( u ) = \frac { - u ' } { \sqrt { 1 - u ^ 2 } } \\
-\frac { d } { d x } \arctan ( u ) = \frac { u ' } { 1 + u ^ 2 } \\
-\frac { d } { d x } \text { arccot } ( u ) = \frac { - u ' } { 1 + u ^ 2 } \\
-\frac { d } { d x } \text { arcsec } ( u ) = \frac { u ' } { | u | \sqrt { u ^ 2 - 1 } } \\
-\frac { d } { d x } \text { arccsc } ( u ) = \frac { - u ' } { | u | \sqrt { u ^ 2 - 1 } }
+\frac { d } { d x } \arcsin ( u ) = \frac { u ' } { \sqrt { 1 - u ^ { 2 } } } \\
+\frac { d } { d x } \arccos ( u ) = \frac { - u ' } { \sqrt { 1 - u ^ { 2 } } } \\
+\frac { d } { d x } \arctan ( u ) = \frac { u ' } { 1 + u ^ { 2 } } \\
+\frac { d } { d x } \text { arccot } ( u ) = \frac { - u ' } { 1 + u ^ { 2 } } \\
+\frac { d } { d x } \text { arcsec } ( u ) = \frac { u ' } { | u | \sqrt { u ^ { 2 } - 1 } } \\
+\frac { d } { d x } \text { arccsc } ( u ) = \frac { - u ' } { | u | \sqrt { u ^ { 2 } - 1 } }
 \end{aligned}
 $$
 

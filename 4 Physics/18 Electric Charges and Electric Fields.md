@@ -104,7 +104,7 @@
 ### coulomb formula
 $$
 \begin{aligned}
-\vec F _ { e } = k \frac { | q _ 1 q _ { 2 } | } { r ^ 2 } \hat r \\
+\vec F _ { e } = k \frac { | q _ { 1 } q _ { 2 } | } { r ^ { 2 } } \hat r \\
 k = \frac { 1 } { 4 \pi \epsilon _ { 0 } } \\
 q = \text { electric charge } \\
 r = \text { distance } \\
@@ -129,8 +129,8 @@ $$
 ### electric field formula
 $$
 \begin{aligned}
-\vec E = k \frac { | Q | } { r ^ 2 } \hat r = \frac { \vec F _ { e } } { q } \\
-k = 9.0 \times 10 ^ 9 \\
+\vec E = k \frac { | Q | } { r ^ { 2 } } \hat r = \frac { \vec F _ { e } } { q } \\
+k = 9.0 \times 10 ^ { 9 } \\
 Q = \text { source electric charge } \\
 r = \text { distance } \\
 \hat r = \text { direction } \\
@@ -196,7 +196,7 @@ $$
 ### electric dipole electric field formula
 $$
 \begin{aligned}
-\vec E = \frac { \vec p } { 2 \pi \epsilon _ 0 r ^ 3 } \\
+\vec E = \frac { \vec p } { 2 \pi \epsilon _ { 0 } r ^ { 3 } } \\
 p = \text { electric dipole } \\
 q = \text { electric charge } \\
 \epsilon _ { 0 } = 8.85 \times 10 ^ { - 12 } \\

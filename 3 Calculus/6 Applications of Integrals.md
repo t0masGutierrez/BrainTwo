@@ -4,10 +4,10 @@ $$
 \int d u = u + c \\
 \int c f ( u ) d u = c \int f ( u ) d u + c \\
 \int [ f ( u ) \pm g ( u ) ] d u = \int f ( u ) d u \pm \int g ( u ) d u + c \\
-\int u ^ n d u = \frac { u ^ { n + 1 } } { n + 1 } + c \\
+\int u ^ { n } d u = \frac { u ^ { n + 1 } } { n + 1 } + c \\
 \int \frac { d u } { u } = \ln | u | + c \\
-\int e ^ u d u = e ^ u + c \\
-\int a ^ u d u = \frac { a ^ u } { \ln ( a ) } + c \\
+\int e ^ { u } d u = e ^ { u } + c \\
+\int a ^ { u } d u = \frac { a ^ { u } } { \ln ( a ) } + c \\
 \int \log _ { a } ( u ) d u = \frac { u \ln ( u ) - u } { \ln ( a ) } + c \\
 \int \sin ( u ) d u = - \cos ( u ) + c \\
 \int \cos ( u ) d u = \sin ( u ) + c \\
@@ -15,13 +15,13 @@ $$
 \int \cot ( u ) d u = \ln ( \sin u ) + c \\
 \int \sec ( u ) d u = \ln ( \sec u + \tan u ) + c \\
 \int \csc ( u ) d u = \ln ( \csc u - \cot u ) + c \\
-\int \sec ^ 2 ( u ) d u = \tan ( u ) + c \\
-\int \csc ^ 2 ( u ) d u = - \cot ( u ) + c \\
+\int \sec ^ { 2 } ( u ) d u = \tan ( u ) + c \\
+\int \csc ^ { 2 } ( u ) d u = - \cot ( u ) + c \\
 \int \sec ( u ) \tan ( u ) d u = \sec ( u ) + c \\
 \int \csc ( u ) \cot ( u ) d u = - \csc ( u ) + c \\
-\int \frac { d u } { \sqrt { a ^ 2 - u ^ 2 } } = \arcsin ( \frac { u } { a } ) + c \\
-\int \frac { d u } { a ^ 2 + u ^ 2 } = \frac { 1 } { a } \arctan ( \frac { u } { a } ) + c \\
-\int \frac { d u } { u \sqrt { u ^ 2 - a ^ 2 } } = \frac { 1 } { a } \text { arcsec } ( \frac { u } { a } ) + c \\
+\int \frac { d u } { \sqrt { a ^ { 2 } - u ^ { 2 } } } = \arcsin ( \frac { u } { a } ) + c \\
+\int \frac { d u } { a ^ { 2 } + u ^ { 2 } } = \frac { 1 } { a } \arctan ( \frac { u } { a } ) + c \\
+\int \frac { d u } { u \sqrt { u ^ { 2 } - a ^ { 2 } } } = \frac { 1 } { a } \text { arcsec } ( \frac { u } { a } ) + c \\
 \end{aligned}
 $$
 
@@ -35,12 +35,12 @@ $$
 
 ---
 ### binomial expansion
-- $( a + b ) ^ 0 = 1$ 
-- $( a + b ) ^ 1 = a + b$ 
-- $( a + b ) ^ 2 = a ^ 2 + 2 a b + b ^ 2$ 
-- $( a + b ) ^ 3 = a ^ 3 + 3 a ^ 2 b + 3 a b ^ 2 + b ^ 3$ 
-- $( a + b ) ^ 4 = a ^ 4 + 4 a ^ 3 b + 6 a ^ 2 b ^ 2 + 4 a b ^ 3 + b ^ 4$ 
-- $( a + b ) ^ 5 = a ^ 5 + 5 a ^ 4 b + 10 a ^ 3 b ^ 2 + 10 a ^ 2 b ^ 3 + 5 a b ^ 4 + b ^ 5$ 
+- $( a + b ) ^ { 0 } = 1$ 
+- $( a + b ) ^ { 1 } = a + b$ 
+- $( a + b ) ^ { 2 } = a ^ { 2 } + 2 a b + b ^ { 2 }$ 
+- $( a + b ) ^ { 3 } = a ^ { 3 } + 3 a ^ { 2 } b + 3 a b ^ { 2 } + b ^ { 3 }$ 
+- $( a + b ) ^ { 4 } = a ^ { 4 } + 4 a ^ { 3 } b + 6 a ^ { 2 } b ^ { 2 } + 4 a b ^ { 3 } + b ^ { 4 }$ 
+- $( a + b ) ^ { 5 } = a ^ { 5 } + 5 a ^ { 4 } b + 10 a ^ { 3 } b ^ { 2 } + 10 a ^ { 2 } b ^ { 3 } + 5 a b ^ { 4 } + b ^ { 5 }$ 
 
 ---
 ### trigonometric identify
@@ -48,8 +48,8 @@ $$
 - $\cos ( a \pm b ) = \cos ( a ) \cos ( b ) \mp \sin ( a ) \sin ( b )$ 
 - $\tan ( a \pm b ) = \frac { \tan ( a ) \pm \tan ( b ) } { 1 \mp \tan ( a ) \tan ( b ) }$ 
 - $\sin ( 2 a ) = 2 \sin ( a ) \cos ( a )$ 
-- $\cos ( 2 a ) = 1 - 2 \sin ^ 2 ( a ) = 2 \cos ^ 2 ( a ) - 1 = \cos ^ 2 ( a ) - \sin ^ 2 ( a )$ 
-- $\tan ( 2 a ) = \frac { 2 \tan ( a ) } { 1 - \tan ^ 2 ( a ) }$ 
+- $\cos ( 2 a ) = 1 - 2 \sin ^ { 2 } ( a ) = 2 \cos ^ { 2 } ( a ) - 1 = \cos ^ { 2 } ( a ) - \sin ^ { 2 } ( a )$ 
+- $\tan ( 2 a ) = \frac { 2 \tan ( a ) } { 1 - \tan ^ { 2 } ( a ) }$ 
 - $\sin ( \frac { \theta } { 2 } ) = \pm \sqrt { \frac { 1 - \cos ( \theta ) } { 2 } }$ 
 - $\cos ( \frac { \theta } { 2 } ) = \pm \sqrt { \frac { 1 + \cos ( \theta ) } { 2 } }$ 
 - $\tan ( \frac { \theta } { 2 } ) = \pm \sqrt { \frac { 1 - \cos ( \theta ) } { 1 + \cos ( \theta ) } } = \frac { 1 - \cos ( \theta ) } { \sin ( \theta ) } = \frac { \sin ( \theta ) } { 1 + \cos ( \theta ) }$ 
@@ -59,19 +59,19 @@ $$
 - $\sin ( a ) \cos ( b ) = \frac { 1 } { 2 } \sin ( a - b ) \pm \frac { 1 } { 2 } \sin ( a + b )$ 
 - $\cos ( a ) \cos ( b ) = \frac { 1 } { 2 } \cos ( a - b ) + \frac { 1 } { 2 } \cos ( a + b )$ 
 - $\sin ( a ) \sin ( b ) = \frac { 1 } { 2 } \cos ( a - b ) - \frac { 1 } { 2 } \cos ( a + b )$ 
-- $\sin ^ 2 ( a ) = \frac { 1 - \cos ( 2 x ) } { 2 }$ 
-- $\cos ^ 2 ( a ) = \frac { 1 + \cos ( 2 x ) } { 2 }$ 
-- $\tan ^ 2 ( a ) = \frac { 1 - \cos ( 2 x ) } { 1 + \cos ( 2 x ) }$ 
+- $\sin ^ { 2 } ( a ) = \frac { 1 - \cos ( 2 x ) } { 2 }$ 
+- $\cos ^ { 2 } ( a ) = \frac { 1 + \cos ( 2 x ) } { 2 }$ 
+- $\tan ^ { 2 } ( a ) = \frac { 1 - \cos ( 2 x ) } { 1 + \cos ( 2 x ) }$ 
 
 ---
 ### pythagorean conjugate
 - addition or subtraction with trigonometric function
-- $\cos ^ 2 ( \theta ) + \sin ^ 2 ( \theta ) = 1$ 
+- $\cos ^ { 2 } ( \theta ) + \sin ^ { 2 } ( \theta ) = 1$ 
 
 ---
 ### square completion
 - incomplete quadratic function
-- $x ^ 2 + b x + ( \frac { b } { 2 } ) ^ 2 - ( \frac { b } { 2 } ) ^ 2 + c$ 
+- $x ^ { 2 } + b x + ( \frac { b } { 2 } ) ^ { 2 } - ( \frac { b } { 2 } ) ^ { 2 } + c$ 
 
 ---
 ### long division
@@ -89,7 +89,7 @@ $$
 ### area of region between two curves formula
 $$
 \begin{aligned}
-A = \int _ { a } ^ b [ f ( x ) - g ( x ) ] d x \\
+A = \int _ { a } ^ { b } [ f ( x ) - g ( x ) ] d x \\
 \end{aligned}
 $$
 
@@ -120,7 +120,7 @@ $$
 ### disk method formula
 $$
 \begin{aligned}
-V = \pi \int _ { a } ^ b R ( x ) ^ 2 d x \\
+V = \pi \int _ { a } ^ { b } R ( x ) ^ { 2 } d x \\
 R ( x ) = \text { distance from axis of revolution }
 \end{aligned}
 $$
@@ -146,7 +146,7 @@ $$
 ### washer method formula
 $$
 \begin{aligned}
-V = \pi \int _ { a } ^ b [ R ( x ) ^ 2 - r ( x ) ^ 2 ] d x \\
+V = \pi \int _ { a } ^ { b } [ R ( x ) ^ { 2 } - r ( x ) ^ { 2 } ] d x \\
 R ( x ) = \text { big radius } \\
 r ( x ) = \text { small radius } \\
 \end{aligned}
@@ -166,7 +166,7 @@ $$
 ### shell formula
 $$
 \begin{aligned}
-V = 2 \pi \int _ { a } ^ b R ( x ) f ( x ) d x \\
+V = 2 \pi \int _ { a } ^ { b } R ( x ) f ( x ) d x \\
 R ( x ) = \text { distance from the axis of revolution } \\
 \end{aligned}
 $$
@@ -193,7 +193,7 @@ $$
 ### arc length formula
 $$
 \begin{aligned}
-s = \int _ { a } ^ b \sqrt { 1 + ( \frac { d y } { d x } ) ^ 2 } d x
+s = \int _ { a } ^ { b } \sqrt { 1 + ( \frac { d y } { d x } ) ^ { 2 } } d x
 \end{aligned}
 $$
 
@@ -212,8 +212,8 @@ $$
 ### surface area formula
 $$
 \begin{aligned}
-S ( x ) = 2 \pi \int _ { a } ^ b R ( x ) \sqrt { 1 + ( \frac { d y } { d x } ) ^ 2 } d x \\
-S ( y ) = 2 \pi \int _ { a } ^ b R ( y ) \sqrt { 1 + ( \frac { d x } { d y } ) ^ 2 } d y
+S ( x ) = 2 \pi \int _ { a } ^ { b } R ( x ) \sqrt { 1 + ( \frac { d y } { d x } ) ^ { 2 } } d x \\
+S ( y ) = 2 \pi \int _ { a } ^ { b } R ( y ) \sqrt { 1 + ( \frac { d x } { d y } ) ^ { 2 } } d y
 \end{aligned}
 $$
 

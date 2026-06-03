@@ -17,7 +17,7 @@ $$
 ### euclidean metric formula
 $$
 \begin{aligned}
-x , y \in \mathbb R ^ n \implies d ( x , y ) = \| x - y \| = \sum _ { i = 1 } ^ n \sqrt { ( x _ i - y _ i ) ^ 2 } \\
+x , y \in \mathbb R ^ { n } \implies d ( x , y ) = \| x - y \| = \sum _ { i = 1 } ^ { n } \sqrt { ( x _ { i } - y _ { i } ) ^ { 2 } } \\
 x , y = \text { coordinate } \\
 \| \cdot \| = \text { norm } \\
 
@@ -189,7 +189,7 @@ $$
 ### boundary formula
 $$
 \begin{aligned}
-\partial S = \overline S \setminus S ^ { \circ } = \overline S \cap \overline { S ^ c } \\
+\partial S = \overline S \setminus S ^ { \circ } = \overline S \cap \overline { S ^ { c } } \\
 \overline S = \text { closure } \\
 S ^ { \circ } = \text { interior } \\
 c = \text { complement }
@@ -250,7 +250,7 @@ $$
 ### totally bounded formula
 $$
 \begin{aligned}
-\forall r > 0 , \exists \set { x _ { i } } _ { i = 1 } ^ { n } \subset X : S \subset \bigcup _ { i = 1 } ^ n B _ { r } ( x _ { i } ) \subset X \\
+\forall r > 0 , \exists \set { x _ { i } } _ { i = 1 } ^ { n } \subset X : S \subset \bigcup _ { i = 1 } ^ { n } B _ { r } ( x _ { i } ) \subset X \\
 r = \text { radius } \\
 x _ { i } = \text { center } \\
 \set { x _ { i } } = \text { sequence } \\
@@ -278,7 +278,7 @@ $$
 $$
 \begin{aligned}
 | x | = | - x | \\
-| x | = \sqrt { x ^ 2 } \\
+| x | = \sqrt { x ^ { 2 } } \\
 | x | \le c \iff - c \le x \le c \\
 | x | \ge c \iff x \ge c \lor x \le - c \\
 | x \cdot y | = ( | x | ) ( | y | ) \\
@@ -311,7 +311,7 @@ $$
 ### join complement property formula
 $$
 \begin{aligned}
-( \bigcup _ { i \in I } S _ { i } ) ^ c = \bigcap _ { i \in I } ( S _ { i } ^ c ) \\
+( \bigcup _ { i \in I } S _ { i } ) ^ { c } = \bigcap _ { i \in I } ( S _ { i } ^ { c } ) \\
 c = \text { complement }
 \end{aligned}
 $$
@@ -325,8 +325,8 @@ $$
 ### cover complement property formula
 $$
 \begin{aligned}
-S ' \subset S \subset X \iff \forall x \in S ^ c , \exists r > 0 : B _ { r } ( x ) \subset S ^ c \\
-\forall x \in S \subset X , \exists r > 0 : B _ { r } ( x ) \subset S \iff ( S ' ) ^ c \subset S ^ c \\
+S ' \subset S \subset X \iff \forall x \in S ^ { c } , \exists r > 0 : B _ { r } ( x ) \subset S ^ { c } \\
+\forall x \in S \subset X , \exists r > 0 : B _ { r } ( x ) \subset S \iff ( S ' ) ^ { c } \subset S ^ { c } \\
 S ' = \text { derived set } \\
 c = \text { complement } \\
 r = \text { radius } \\
@@ -347,8 +347,8 @@ $$
 \begin{aligned}
 \forall x \in S \subset X , \exists r > 0 : B _ { r } ( x ) \subset S \implies B _ { r } ( x ) \subset \bigcup _ { i \in I } S _ { i } \\
 S ' \subset S \subset X \implies S ' \subset \bigcap _ { i \in I } S _ { i } \\
-\forall x \in S \subset X , \exists r > 0 : B _ { r } ( x ) \subset S \implies B _ { r } ( x ) \subset \bigcap _ { i = 1 } ^ n S _ { i } \\
-S ' \subset S \subset X \implies S ' \subset \bigcup _ { i = 1 } ^ n S _ { i } \\
+\forall x \in S \subset X , \exists r > 0 : B _ { r } ( x ) \subset S \implies B _ { r } ( x ) \subset \bigcap _ { i = 1 } ^ { n } S _ { i } \\
+S ' \subset S \subset X \implies S ' \subset \bigcup _ { i = 1 } ^ { n } S _ { i } \\
 \end{aligned}
 $$
 
@@ -382,9 +382,9 @@ $$
 ### totally bounded property formula
 $$
 \begin{aligned}
-\forall r > 0 , \exists \set { x _ { i } } _ { i = 1 } ^ { n } \subset X : S \subset \bigcup _ { i = 1 } ^ n B _ { r } ( x _ { i } ) \subset X \implies \exists x _ { 0 } \in X , \exists r > 0 : S \subset B _ { r } ( x _ { 0 } ) \\
-\exists x _ { 0 } \in X , \exists r > 0 : S \subset B _ { r } ( x _ { 0 } ) \subset X \not \implies \forall r > 0 , \exists \set { x _ { i } } _ { i = 1 } ^ { n } \subset X : S \subset \bigcup _ { i = 1 } ^ n B _ { r } ( x _ { i } ) \\
-\forall r > 0 , \exists \set { x _ { i } } _ { i = 1 } ^ { n } \subset \mathbb R ^ k : S \subset \bigcup _ { i = 1 } ^ n B _ { r } ( x _ { i } ) \subset \mathbb R ^ k \iff \exists x _ { 0 } \in \mathbb R ^ k , \exists r > 0 : S \subset B _ { r } ( x _ { 0 } )
+\forall r > 0 , \exists \set { x _ { i } } _ { i = 1 } ^ { n } \subset X : S \subset \bigcup _ { i = 1 } ^ { n } B _ { r } ( x _ { i } ) \subset X \implies \exists x _ { 0 } \in X , \exists r > 0 : S \subset B _ { r } ( x _ { 0 } ) \\
+\exists x _ { 0 } \in X , \exists r > 0 : S \subset B _ { r } ( x _ { 0 } ) \subset X \not \implies \forall r > 0 , \exists \set { x _ { i } } _ { i = 1 } ^ { n } \subset X : S \subset \bigcup _ { i = 1 } ^ { n } B _ { r } ( x _ { i } ) \\
+\forall r > 0 , \exists \set { x _ { i } } _ { i = 1 } ^ { n } \subset \mathbb R ^ { k } : S \subset \bigcup _ { i = 1 } ^ { n } B _ { r } ( x _ { i } ) \subset \mathbb R ^ { k } \iff \exists x _ { 0 } \in \mathbb R ^ { k } , \exists r > 0 : S \subset B _ { r } ( x _ { 0 } )
 \end{aligned}
 $$
 

@@ -56,7 +56,7 @@ $$
 ### magnitude formula
 $$
 \begin{aligned}
-A = \sqrt { A _ { x } ^ 2 + A _ { y } ^ 2 } \\
+A = \sqrt { A _ { x } ^ { 2 } + A _ { y } ^ { 2 } } \\
 A _ { x } = \text { x scalar component } \\
 A _ { y } = \text { y scalar component }
 \end{aligned}
@@ -188,7 +188,7 @@ $$
 ### dot product formula
 $$
 \begin{aligned}
-\vec { A } \cdot \vec { B } = A _ x B _ { x } + A _ y B _ { y } + A _ z B _ { z } \\
+\vec { A } \cdot \vec { B } = A _ { x } B _ { x } + A _ { y } B _ { y } + A _ { z } B _ { z } \\
 A _ { x } = \text { x scalar component } \\
 A _ { y } = \text { y scalar component } \\
 A _ { z } = \text { z scalar component }
@@ -226,7 +226,7 @@ $$
 ### cross product formula
 $$
 \begin{aligned}
-\vec { A } \times \vec { B } = ( A _ y B _ { z } - A _ z B _ { y } ) \hat { i } - ( A _ x B _ { z } - A _ z B _ { x } ) \hat { j } + ( A _ x B _ { y } - A _ y B _ { x } ) \hat { k } \\
+\vec { A } \times \vec { B } = ( A _ { y } B _ { z } - A _ { z } B _ { y } ) \hat { i } - ( A _ { x } B _ { z } - A _ { z } B _ { x } ) \hat { j } + ( A _ { x } B _ { y } - A _ { y } B _ { x } ) \hat { k } \\
 A _ { x } = \text { x scalar component } \\
 \hat i = \text { x direction } \\
 A _ { y } = \text { y scalar component } \\
@@ -277,7 +277,7 @@ $$
 ### parallel projection vector formula
 $$
 \begin{aligned}
-\text { proj } _ { \vec B } ( \vec A \parallel ) = ( \frac { \vec A \cdot \vec B } { B ^ 2 } ) \cdot \vec B
+\text { proj } _ { \vec B } ( \vec A \parallel ) = ( \frac { \vec A \cdot \vec B } { B ^ { 2 } } ) \cdot \vec B
 \end{aligned}
 $$
 
@@ -289,7 +289,7 @@ $$
 ### perpendicular projection vector formula
 $$
 \begin{aligned}
-\text { proj } _ { \vec B } ( \vec A \perp ) = \vec A - ( \frac { \vec A \cdot \vec B } { B ^ 2 } ) \cdot \vec B
+\text { proj } _ { \vec B } ( \vec A \perp ) = \vec A - ( \frac { \vec A \cdot \vec B } { B ^ { 2 } } ) \cdot \vec B
 \end{aligned}
 $$
 
@@ -323,7 +323,7 @@ $$
 ### linear direction vector formula
 $$
 \begin{aligned}
-\vec v = \vec { P _ 0 P } = \langle x - x _ { 0 } , y - y _ { 0 } , z - z _ { 0 } \rangle = \langle a , b , c \rangle \\
+\vec v = \vec { P _ { 0 } P } = \langle x - x _ { 0 } , y - y _ { 0 } , z - z _ { 0 } \rangle = \langle a , b , c \rangle \\
 a = \text { x scalar component } \\
 b = \text { y scalar component } \\
 c = \text { z scalar component }
@@ -373,7 +373,7 @@ $$
 ### planar direction angle formula
 $$
 \begin{aligned}
-\cos ( \theta ) = \frac { \vec v _ { 1 } \cdot \vec v _ { 2 } } { v _ 1 v _ { 2 } } \\
+\cos ( \theta ) = \frac { \vec v _ { 1 } \cdot \vec v _ { 2 } } { v _ { 1 } v _ { 2 } } \\
 \end{aligned}
 $$
 
@@ -386,7 +386,7 @@ $$
 ### planar direction vector formula
 $$
 \begin{aligned}
-\vec v = \vec { P _ 0 P } \perp = \vec { P _ 0 P _ { 1 } } \times \vec { P _ 0 P _ { 2 } } = \langle a , b , c \rangle \\
+\vec v = \vec { P _ { 0 } P } \perp = \vec { P _ { 0 } P _ { 1 } } \times \vec { P _ { 0 } P _ { 2 } } = \langle a , b , c \rangle \\
 a = \text { x scalar component } \\
 b = \text { y scalar component } \\
 c = \text { z scalar component }
@@ -441,7 +441,7 @@ $$
 ### linear distance formula
 $$
 \begin{aligned}
-d = \frac { | \vec v \times \vec { P _ 0 P } | } { v }
+d = \frac { | \vec v \times \vec { P _ { 0 } P } | } { v }
 \end{aligned}
 $$
 

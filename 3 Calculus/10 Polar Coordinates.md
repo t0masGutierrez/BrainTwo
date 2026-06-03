@@ -24,7 +24,7 @@ $$
 \begin { c a s e s } x = r \cos ( \theta ) \\
 y = r \sin ( \theta ) \\
 \end { c a s e s } \iff \begin { c a s e s }
-r = \sqrt { x ^ 2 + y ^ 2 } \\
+r = \sqrt { x ^ { 2 } + y ^ { 2 } } \\
 \theta = \arctan ( \frac { y } { x } )
 \end { c a s e s } \\
 x , y = \text { dependent variable } \\
@@ -85,7 +85,7 @@ $$
 ### integral formula
 $$
 \begin{aligned}
-A = \frac { 1 } { 2 } \int _ { \theta _ { 1 } } ^ { \theta _ { 2 } } [ R ^ 2 - r ^ 2 ] d \theta
+A = \frac { 1 } { 2 } \int _ { \theta _ { 1 } } ^ { \theta _ { 2 } } [ R ^ { 2 } - r ^ { 2 } ] d \theta
 \end{aligned}
 $$
 
@@ -97,7 +97,7 @@ $$
 ### polar arc length formula
 $$
 \begin{aligned}
-\int _ { \theta _ { 1 } } ^ { \theta _ { 2 } } \sqrt { r ^ 2 + ( \frac { d r } { d \theta } ) ^ 2 } d \theta
+\int _ { \theta _ { 1 } } ^ { \theta _ { 2 } } \sqrt { r ^ { 2 } + ( \frac { d r } { d \theta } ) ^ { 2 } } d \theta
 \end{aligned}
 $$
 
@@ -109,8 +109,8 @@ $$
 ### polar surface area formula
 $$
 \begin{aligned}
-y = 2 \pi \int _ { \theta _ { 1 } } ^ { \theta _ { 2 } } r \sin ( \theta ) \sqrt { r ^ 2 + ( \frac { d r } { d \theta } ) ^ 2 } d \theta \\
-x = 2 \pi \int _ { \theta _ { 1 } } ^ { \theta _ { 2 } } r \cos ( \theta ) \sqrt { r ^ 2 + ( \frac { d r } { d \theta } ) ^ 2 } d \theta \\
+y = 2 \pi \int _ { \theta _ { 1 } } ^ { \theta _ { 2 } } r \sin ( \theta ) \sqrt { r ^ { 2 } + ( \frac { d r } { d \theta } ) ^ { 2 } } d \theta \\
+x = 2 \pi \int _ { \theta _ { 1 } } ^ { \theta _ { 2 } } r \cos ( \theta ) \sqrt { r ^ { 2 } + ( \frac { d r } { d \theta } ) ^ { 2 } } d \theta \\
 \end{aligned}
 $$
 

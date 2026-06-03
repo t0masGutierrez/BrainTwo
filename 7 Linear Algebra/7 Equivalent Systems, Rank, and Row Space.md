@@ -74,7 +74,7 @@ $$
 ### row space formula
 $$
 \begin{aligned}
-\text { Row } ( A ) = \{ \sum _ { i = 1 } ^ m c _ { i } \vec a _ { i } \mid c \in \mathbb R , \vec a \in \mathbb R ^ n \} \\
+\text { Row } ( A ) = \{ \sum _ { i = 1 } ^ { m } c _ { i } \vec a _ { i } \mid c \in \mathbb R , \vec a \in \mathbb R ^ { n } \} \\
 m = \text { number of rows } \\
 n = \text { number of columns } \\
 c = \text { scalar } \\
@@ -213,7 +213,7 @@ $$
 ### row space dimension property formula
 $$
 \begin{aligned}
-\text { Rank } ( A ) = \text { Rank } ( A ^ T ) \\
+\text { Rank } ( A ) = \text { Rank } ( A ^ { T } ) \\
 \dim ( \text { Row } \  A ) = \dim ( \text { Col } \  A )
 \end{aligned}
 $$

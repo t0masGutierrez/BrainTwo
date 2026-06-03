@@ -17,8 +17,8 @@ $$
 \begin{aligned}
 \hat { i } = \frac { \vec { A _ { x } } } { A _ { x } } \\
 \hat { j } = \frac { \vec { A _ { y } } } { A _ { y } } \\
-\vec A _ x , \vec A _ y = \text { vector component } \\
-A _ x , A _ y = \text { scalar component }
+\vec A _ { x } , \vec A _ { y } = \text { vector component } \\
+A _ { x } , A _ { y } = \text { scalar component }
 \end{aligned}
 $$
 
@@ -43,9 +43,9 @@ $$
 ### vector component formula
 $$
 \begin{aligned}
-\vec { A } = \vec A _ x + \vec A _ y = A _ { x } \hat { i } + A _ { y } \hat { j } \\
-\vec A _ x = \text { x vector component } \\
-\vec A _ y = \text { y vector component } \\
+\vec { A } = \vec A _ { x } + \vec A _ { y } = A _ { x } \hat { i } + A _ { y } \hat { j } \\
+\vec A _ { x } = \text { x vector component } \\
+\vec A _ { y } = \text { y vector component } \\
 A _ { x } = \text { x scalar component } \\
 A _ { y } = \text { y scalar component } \\
 \hat { i } = \text { x direction } \\
@@ -61,7 +61,7 @@ $$
 ### magnitude formula
 $$
 \begin{aligned}
-A = \sqrt { A _ { x } ^ 2 + A _ { y } ^ 2 } \\
+A = \sqrt { A _ { x } ^ { 2 } + A _ { y } ^ { 2 } } \\
 A _ { x } = \text { x scalar component } \\
 A _ { y } = \text { y scalar component }
 \end{aligned}
@@ -77,8 +77,8 @@ $$
 $$
 \begin{aligned}
 \theta = \begin { c a s e s }
-\arctan ( \frac { A _ { y } } { A _ { x } } ) , \  A _ x > 0 \\
-\arctan ( \frac { A _ { y } } { A _ { x } } ) + 180 ^ \circ , \  A _ x < 0
+\arctan ( \frac { A _ { y } } { A _ { x } } ) , \  A _ { x } > 0 \\
+\arctan ( \frac { A _ { y } } { A _ { x } } ) + 180 ^ { \circ } , \  A _ { x } < 0
 \end { c a s e s } \\
 A _ { y } = \text { y scalar component } \\
 A _ { x } = \text { x scalar component }
@@ -155,12 +155,12 @@ $$
 ### dot product formula
 $$
 \begin{aligned}
-\vec { A } \cdot \vec { B } = ( | A | ) ( | B | ) \cos ( \theta ) = A _ x B _ { x } + A _ y B _ { y } + A _ z B _ z \\
+\vec { A } \cdot \vec { B } = ( | A | ) ( | B | ) \cos ( \theta ) = A _ { x } B _ { x } + A _ { y } B _ { y } + A _ { z } B _ { z } \\
 | A | , | B | = \text { magnitude } \\
 \theta = \text { angle between vectors } \\
-A _ x , B _ x = \text { x scalar component } \\
-A _ y , B _ y = \text { y scalar component } \\
-A _ z , B _ z = \text { z scalar component }
+A _ { x } , B _ { x } = \text { x scalar component } \\
+A _ { y } , B _ { y } = \text { y scalar component } \\
+A _ { z } , B _ { z } = \text { z scalar component }
 \end{aligned}
 $$
 
@@ -198,7 +198,7 @@ $$
 ### vector cross product formula
 $$
 \begin{aligned}
-\vec { A } \times \vec { B } = ( A _ y B _ { z } - A _ z B _ { y } ) \hat { i } + ( A _ z B _ { x } - A _ x B _ { z } ) \hat { j } + ( A _ x B _ { y } - A _ y B _ { x } ) \hat { k } \\
+\vec { A } \times \vec { B } = ( A _ { y } B _ { z } - A _ { z } B _ { y } ) \hat { i } + ( A _ { z } B _ { x } - A _ { x } B _ { z } ) \hat { j } + ( A _ { x } B _ { y } - A _ { y } B _ { x } ) \hat { k } \\
 A _ { x } , B _ { x } = \text { x scalar component } \\
 \hat i = \text { x direction } \\
 A _ { y } , B _ { y } = \text { y scalar component } \\
@@ -257,8 +257,8 @@ A _ { x } = B _ { x } \\
 A _ { y } = B _ { y }
 \end { c a s e s } \\
 \vec A , \vec B = \text { vector } \\
-A _ x , B _ x = \text { x scalar component } \\
-A _ y , B _ y = \text { y scalar component }
+A _ { x } , B _ { x } = \text { x scalar component } \\
+A _ { y } , B _ { y } = \text { y scalar component }
 \end{aligned}
 $$
 
@@ -297,12 +297,12 @@ $$
 ### dot product direction property formula
 $$
 \begin{aligned}
-0 ^ \circ \le \theta < 90 ^ \circ \iff \vec A \cdot \vec B > 0 \\
-90 ^ \circ \le \theta < 180 ^ \circ \iff \vec A \cdot \vec B < 0 \\
-\theta = 90 ^ \circ \iff \vec A \cdot \vec B = 0 \\
-\theta = 0 ^ \circ \iff \vec A \cdot \vec B = A B \\
-\theta = 180 ^ \circ \iff \vec A \cdot \vec B = - A B \\
-\vec A = \vec B \implies ( \theta = 0 ^ \circ ) \land ( \vec A \cdot \vec B = A ^ 2 )
+0 ^ { \circ } \le \theta < 90 ^ { \circ } \iff \vec A \cdot \vec B > 0 \\
+90 ^ { \circ } \le \theta < 180 ^ { \circ } \iff \vec A \cdot \vec B < 0 \\
+\theta = 90 ^ { \circ } \iff \vec A \cdot \vec B = 0 \\
+\theta = 0 ^ { \circ } \iff \vec A \cdot \vec B = A B \\
+\theta = 180 ^ { \circ } \iff \vec A \cdot \vec B = - A B \\
+\vec A = \vec B \implies ( \theta = 0 ^ { \circ } ) \land ( \vec A \cdot \vec B = A ^ { 2 } )
 \end{aligned}
 $$
 
@@ -317,10 +317,10 @@ $$
 ### cross product direction property formula
 $$
 \begin{aligned}
-\theta = 90 ^ \circ & \iff \| \vec A \times \vec B \| = ( | A | ) ( | B | ) \\
-\theta = 0 ^ \circ & \iff \| \vec A \times \vec B \| = 0 \\
-\theta = 180 ^ \circ & \iff \| \vec A \times \vec B \| = 0 \\
-\vec A = \vec B & \implies ( \theta = 0 ^ \circ ) \land ( \| \vec A \times \vec B \| = 0 )
+\theta = 90 ^ { \circ } & \iff \| \vec A \times \vec B \| = ( | A | ) ( | B | ) \\
+\theta = 0 ^ { \circ } & \iff \| \vec A \times \vec B \| = 0 \\
+\theta = 180 ^ { \circ } & \iff \| \vec A \times \vec B \| = 0 \\
+\vec A = \vec B & \implies ( \theta = 0 ^ { \circ } ) \land ( \| \vec A \times \vec B \| = 0 )
 \end{aligned}
 $$
 

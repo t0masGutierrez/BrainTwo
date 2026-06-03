@@ -77,7 +77,7 @@ $$
 ### subspace intersection property formula
 $$
 \begin{aligned}
-\forall i \in I : \mathcal W _ i \le \mathcal V \implies \bigcap _ { i \in I } \mathcal W _ i \le \mathcal V \\
+\forall i \in I : \mathcal W _ { i } \le \mathcal V \implies \bigcap _ { i \in I } \mathcal W _ { i } \le \mathcal V \\
 I = \text { index set } \\
 \mathcal W = \text { subspace } \\
 \mathcal V = \text { vector space }
@@ -92,7 +92,7 @@ $$
 ### subspace eigenspace property formula
 $$
 \begin{aligned}
-E _ { \lambda } \le \mathbb R ^ n \\
+E _ { \lambda } \le \mathbb R ^ { n } \\
 E _ { \lambda } = \text { eigenspace } \\
 \lambda = \text { eigenvalue }
 \end{aligned}

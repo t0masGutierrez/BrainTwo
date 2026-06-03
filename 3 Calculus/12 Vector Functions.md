@@ -41,7 +41,7 @@ $$
 $$
 \begin{aligned}
 \lim _ { t \to n } \vec r ( t ) = \vec r ( n ) \\
-\lim _ { t \to n ^ - } \vec r ( t ) = \lim _ { t \to n ^ + } \vec r ( t ) \\
+\lim _ { t \to n ^ { - } } \vec r ( t ) = \lim _ { t \to n ^ { + } } \vec r ( t ) \\
 \lim _ { t \to n } \vec r ( t ) \ne \pm \infty
 \end{aligned}
 $$
@@ -89,8 +89,8 @@ $$
 ### definite integral formula
 $$
 \begin{aligned}
-\int _ { a } ^ b \vec r ( t ) d t = \vec R ( b ) - \vec R ( a ) \\
-\int _ { a } ^ b \vec r ( t ) d t = \hat i \int _ { a } ^ b x ( t ) d t + \hat j \int _ { a } ^ b y ( t ) d t + \hat k \int _ { a } ^ b z ( t ) d t
+\int _ { a } ^ { b } \vec r ( t ) d t = \vec R ( b ) - \vec R ( a ) \\
+\int _ { a } ^ { b } \vec r ( t ) d t = \hat i \int _ { a } ^ { b } x ( t ) d t + \hat j \int _ { a } ^ { b } y ( t ) d t + \hat k \int _ { a } ^ { b } z ( t ) d t
 \end{aligned}
 $$
 
@@ -190,7 +190,7 @@ $$
 ### arc length formula
 $$
 \begin{aligned}
-r ( t ) = \int _ { a } ^ t \sqrt { ( \frac { d x } { d t } ) ^ 2 + ( \frac { d y } { d t } ) ^ 2 + ( \frac { d z } { d t } ) ^ 2 } d t = \int _ { a } ^ t \vec r \  ' ( u ) d u
+r ( t ) = \int _ { a } ^ { t } \sqrt { ( \frac { d x } { d t } ) ^ { 2 } + ( \frac { d y } { d t } ) ^ { 2 } + ( \frac { d z } { d t } ) ^ { 2 } } d t = \int _ { a } ^ { t } \vec r \  ' ( u ) d u
 \end{aligned}
 $$
 

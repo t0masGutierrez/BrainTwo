@@ -11,7 +11,7 @@
 ### generating magnetic field via point formula
 $$
 \begin{aligned}
-\vec B = ( \frac { \mu _ { 0 } } { 4 \pi } ) \frac { q \vec v \times \hat r } { r ^ 2 } = ( \frac { \mu _ { 0 } } { 4 \pi } ) \frac { q v \sin ( \theta ) } { r ^ 2 } \\
+\vec B = ( \frac { \mu _ { 0 } } { 4 \pi } ) \frac { q \vec v \times \hat r } { r ^ { 2 } } = ( \frac { \mu _ { 0 } } { 4 \pi } ) \frac { q v \sin ( \theta ) } { r ^ { 2 } } \\
 \mu _ { 0 } = 4 \pi \times 10 ^ { - 7 } \\
 q = \text { electric charge } \\
 v = \text { velocity } \\
@@ -30,7 +30,7 @@ $$
 ### biot savart formula
 $$
 \begin{aligned}
-d \vec B = ( \frac { \mu _ { 0 } } { 4 \pi } ) \frac { I d \vec L \times \hat r } { r ^ 2 } = ( \frac { \mu _ { 0 } } { 4 \pi } ) \frac { I d L \sin ( \theta ) } { r ^ 2 } \\
+d \vec B = ( \frac { \mu _ { 0 } } { 4 \pi } ) \frac { I d \vec L \times \hat r } { r ^ { 2 } } = ( \frac { \mu _ { 0 } } { 4 \pi } ) \frac { I d L \sin ( \theta ) } { r ^ { 2 } } \\
 \mu _ { 0 } = 4 \pi \times 10 ^ { - 7 } \\
 I = \text { electric current } \\
 L = \text { length } \\
@@ -49,7 +49,7 @@ $$
 ### generating magnetic field via line formula
 $$
 \begin{aligned}
-B = \frac { \mu _ 0 I } { 2 \pi r } \\
+B = \frac { \mu _ { 0 } I } { 2 \pi r } \\
 \mu _ { 0 } = 4 \pi \times 10 ^ { - 7 } \\
 I = \text { electric current } \\
 r = \text { distance }
@@ -65,7 +65,7 @@ $$
 ### generating magnetic field via loop formula
 $$
 \begin{aligned}
-B _ { y } = \frac { \mu _ { 0 } N I R ^ 2 } { 2 ( y ^ 2 + R ^ 2 ) ^ { 3 / 2 } } \\
+B _ { y } = \frac { \mu _ { 0 } N I R ^ { 2 } } { 2 ( y ^ { 2 } + R ^ { 2 } ) ^ { 3 / 2 } } \\
 \mu _ { 0 } = 4 \pi \times 10 ^ { - 7 } \\
 N = \text { number of loops } \\
 I = \text { electric current } \\
@@ -177,7 +177,7 @@ $$
 ### symmetrical electric current distribution formula
 $$
 \begin{aligned}
-B = \frac { \mu _ 0 I _ { e n c } } { L } \\
+B = \frac { \mu _ { 0 } I _ { e n c } } { L } \\
 \mu _ { 0 } = 4 \pi \times 10 ^ { - 7 } \\
 I = \text { electric current } \\
 L = \text { length }
@@ -193,7 +193,7 @@ $$
 ### circular electric current distribution formula
 $$
 \begin{aligned}
-B = \frac { \mu _ 0 I _ { e n c } } { 2 \pi r } \\
+B = \frac { \mu _ { 0 } I _ { e n c } } { 2 \pi r } \\
 \mu _ { 0 } = 4 \pi \times 10 ^ { - 7 } \\
 I = \text { electric current } \\
 r = \text { distance }

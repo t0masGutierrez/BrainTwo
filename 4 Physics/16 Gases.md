@@ -30,7 +30,7 @@ $$
 ### radiation formula
 $$
 \begin{aligned}
-P = \sigma A e ( T ^ 4 - T _ { 0 } ^ 4 ) \\
+P = \sigma A e ( T ^ { 4 } - T _ { 0 } ^ { 4 } ) \\
 \sigma = 5.67 \times 10 ^ { - 8 } \\
 A = \text { area } \\
 e = \text { emmisivity coefficient } \\
@@ -75,7 +75,7 @@ $$
 ### boyles formula
 $$
 \begin{aligned}
-p _ 1 V _ { 1 } = p _ 2 V _ { 2 } \\
+p _ { 1 } V _ { 1 } = p _ { 2 } V _ { 2 } \\
 p = \text { pressure } \\
 V = \text { volume }
 \end{aligned}
@@ -122,7 +122,7 @@ $$
 ### microscopic ideal gas formula
 $$
 \begin{aligned}
-p V = N k _ b T _ { k } \\
+p V = N k _ { b } T _ { k } \\
 N = \text { number of molecules } \\
 k _ { b } = 1.38 \times 10 ^ { - 23 } \\
 T _ { k } = \text { kelvin }
@@ -144,7 +144,7 @@ $$
 ### ideal gas conversion formula
 $$
 \begin{aligned}
-R = k _ b N _ { A } \\
+R = k _ { b } N _ { A } \\
 k _ { b } = 1.38 \times 10 ^ { - 23 } \\
 N _ { A } = 6.02 \times 10 ^ { 23 }
 \end{aligned}
@@ -205,7 +205,7 @@ $$
 ### average translational kinetic energy formula
 $$
 \begin{aligned}
-K _ { a v g } = \frac { 3 } { 2 } k _ b T _ { k } = \frac { 1 } { 2 } m v _ { r m s } ^ 2 \\
+K _ { a v g } = \frac { 3 } { 2 } k _ { b } T _ { k } = \frac { 1 } { 2 } m v _ { r m s } ^ { 2 } \\
 k _ { b } = 1.38 \times 10 ^ { - 23 } \\
 T _ { k } = \text { kelvin } \\
 v _ { r m s } = \text { rms velocity } \\
@@ -222,7 +222,7 @@ $$
 ### rms velocity formula
 $$
 \begin{aligned}
-v _ { r m s } = \sqrt { \frac { 3 k _ b T _ { k } } { m } } = \sqrt { \frac { 3 R T _ { k } } { M } } \\
+v _ { r m s } = \sqrt { \frac { 3 k _ { b } T _ { k } } { m } } = \sqrt { \frac { 3 R T _ { k } } { M } } \\
 k _ { b } = 1.38 \times 10 ^ { - 23 } \\
 T _ { k } = \text { kelvin } \\
 m = \text { mass } \\
@@ -240,7 +240,7 @@ $$
 ### molecular velocity formula
 $$
 \begin{aligned}
-f ( v ) = \frac { 4 } { \sqrt \pi { } } ( \frac { m } { 2 k _ b T _ { k } } ) ^ { \frac { 3 } { 2 } } v ^ 2 e ^ { ( \frac { - m v ^ 2 } { 2 k _ b T _ { k } } ) } \\
+f ( v ) = \frac { 4 } { \sqrt \pi { } } ( \frac { m } { 2 k _ { b } T _ { k } } ) ^ { \frac { 3 } { 2 } } v ^ { 2 } e ^ { ( \frac { - m v ^ { 2 } } { 2 k _ { b } T _ { k } } ) } \\
 m = \text { mass } \\
 k _ { b } = 1.38 \times 10 ^ { - 23 } \\
 T _ { k } = \text { kelvin } \\
@@ -257,7 +257,7 @@ $$
 ### internal energy formula
 $$
 \begin{aligned}
-E = \frac { f } { 2 } N k _ b T _ { k } = \frac { f } { 2 } n R T _ { k } \\
+E = \frac { f } { 2 } N k _ { b } T _ { k } = \frac { f } { 2 } n R T _ { k } \\
 f = \text { degrees of freedom } \\
 N = \text { number of molecules } \\
 k _ { b } = 1.38 \times 10 ^ { - 23 } \\
@@ -269,7 +269,7 @@ $$
 
 ---
 ### equipartition of energy
-- average kinetic energy per molecule of ideal gas equal $\frac { 1 } { 2 } k _ b T$ for every degree of freedom
+- average kinetic energy per molecule of ideal gas equal $\frac { 1 } { 2 } k _ { b } T$ for every degree of freedom
 - average kinetic energy per mole of ideal gas equal $\frac { 1 } { 2 } R T$ for every degree of freedom
 
 ---

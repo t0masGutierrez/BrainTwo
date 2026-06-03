@@ -5,7 +5,7 @@
 ### linear equation formula
 $$
 \begin{aligned}
-\sum _ { i = 1 } ^ n a _ i x _ i = b \\
+\sum _ { i = 1 } ^ { n } a _ { i } x _ { i } = b \\
 a = \text { coefficient } \\
 x = \text { variable } \\
 b = \text { constant }
@@ -40,7 +40,7 @@ $$
 ### particular solution of system of linear equations formula
 $$
 \begin{aligned}
-y = ( y _ 1 , \dots , y _ n ) \iff \forall j \in \set { 1 , \dots , m } : \sum _ { i = 1 } ^ n a _ { j i } y _ { i } = b _ { j } \\
+y = ( y _ { 1 } , \dots , y _ { n } ) \iff \forall j \in \set { 1 , \dots , m } : \sum _ { i = 1 } ^ { n } a _ { j i } y _ { i } = b _ { j } \\
 m = \text { number of linear equations } \\
 n = \text { number of variables } \\
 a = \text { coefficient } \\
@@ -57,7 +57,7 @@ $$
 ### complete solution of system of linear equations formula
 $$
 \begin{aligned}
-Y = \{ ( y _ 1 , \dots , y _ n ) \in \mathbb R ^ n \mid \forall j \in \set { 1 , \dots , m } : \sum _ { i = 1 } ^ n a _ { j i } y _ { i } = b _ { j } \} \\
+Y = \{ ( y _ { 1 } , \dots , y _ { n } ) \in \mathbb R ^ { n } \mid \forall j \in \set { 1 , \dots , m } : \sum _ { i = 1 } ^ { n } a _ { j i } y _ { i } = b _ { j } \} \\
 Y = \text { complete solution set } \\
 m = \text { number of linear equations } \\
 n = \text { number of variables } \\

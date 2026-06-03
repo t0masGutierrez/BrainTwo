@@ -63,10 +63,10 @@ $$
 ### equilibrium solution formula
 $$
 \begin{aligned}
-\forall t \ge 0 : u ( t ) = u _ * \iff f ( u _ * ) = 0 \\
+\forall t \ge 0 : u ( t ) = u _ { * } \iff f ( u _ { * } ) = 0 \\
 u = \text { solution } \\
 t = \text { time } \\
-u _ * = \text { equilibrium point }
+u _ { * } = \text { equilibrium point }
 \end{aligned}
 $$
 
@@ -92,8 +92,8 @@ $$
 ### equilibrium stability formula
 $$
 \begin{aligned}
-N _ { \rho } ( u _ * ) = ( u _ * - \rho , u _ * + \rho ) \\
-u _ * = \text { equilibrium point } \\
+N _ { \rho } ( u _ { * } ) = ( u _ { * } - \rho , u _ { * } + \rho ) \\
+u _ { * } = \text { equilibrium point } \\
 \rho = \text { radius }
 \end{aligned}
 $$
@@ -108,11 +108,11 @@ $$
 ### asymptotic equilibrium stability formula
 $$
 \begin{aligned}
-\forall \epsilon > 0 , \exists \delta > 0 , \forall t \ge 0 : u _ { 0 } \in N _ { \delta } ( u _ * ) \implies u ( t ) \in N _ { \epsilon } ( u _ * )
-\land \forall u _ { 0 } \in \mathbb R : \lim _ { t \rightarrow \infty } u ( t ) = u _ * \\
+\forall \epsilon > 0 , \exists \delta > 0 , \forall t \ge 0 : u _ { 0 } \in N _ { \delta } ( u _ { * } ) \implies u ( t ) \in N _ { \epsilon } ( u _ { * } )
+\land \forall u _ { 0 } \in \mathbb R : \lim _ { t \rightarrow \infty } u ( t ) = u _ { * } \\
 u _ { 0 } = \text { initial condition } \\
 N = \text { neighborhood } \\
-u _ * = \text { equilibrium point } \\
+u _ { * } = \text { equilibrium point } \\
 u = \text { solution } \\
 t = \text { time }
 \end{aligned}
@@ -128,11 +128,11 @@ $$
 ### neutral equilibrium stability formula
 $$
 \begin{aligned}
-\forall \epsilon > 0 , \exists \delta > 0 , \forall t \ge 0 : u _ { 0 } \in N _ { \delta } ( u _ * ) \implies u ( t ) \in N _ { \epsilon } ( u _ * )
-\land \exists u _ { 0 } \in \mathbb R : \lim _ { t \rightarrow \infty } u ( t ) \ne u _ * \\
+\forall \epsilon > 0 , \exists \delta > 0 , \forall t \ge 0 : u _ { 0 } \in N _ { \delta } ( u _ { * } ) \implies u ( t ) \in N _ { \epsilon } ( u _ { * } )
+\land \exists u _ { 0 } \in \mathbb R : \lim _ { t \rightarrow \infty } u ( t ) \ne u _ { * } \\
 u _ { 0 } = \text { initial condition } \\
 N = \text { neighborhood } \\
-u _ * = \text { equilibrium point } \\
+u _ { * } = \text { equilibrium point } \\
 u = \text { solution } \\
 t = \text { time }
 \end{aligned}
@@ -147,11 +147,11 @@ $$
 ### equilibrium instability formula
 $$
 \begin{aligned}
-\exists \epsilon > 0 , \forall \delta > 0 , \exists t \ge 0 : u _ { 0 } \in N _ { \delta } ( u _ * ) \land u ( t ) \not \in N _ { \epsilon } ( u _ * )
-\land \forall u _ { 0 } \in \mathbb R : \lim _ { t \rightarrow \infty } u ( t ) \ne u _ * \\
+\exists \epsilon > 0 , \forall \delta > 0 , \exists t \ge 0 : u _ { 0 } \in N _ { \delta } ( u _ { * } ) \land u ( t ) \not \in N _ { \epsilon } ( u _ { * } )
+\land \forall u _ { 0 } \in \mathbb R : \lim _ { t \rightarrow \infty } u ( t ) \ne u _ { * } \\
 u _ { 0 } = \text { initial condition } \\
 N = \text { neighborhood } \\
-u _ * = \text { equilibrium point } \\
+u _ { * } = \text { equilibrium point } \\
 u = \text { solution } \\
 t = \text { time }
 \end{aligned}
@@ -165,8 +165,8 @@ $$
 ### stability derivative test formula
 $$
 \begin{aligned}
-f ' ( u _ * ) < 0 \implies \lim _ { t \rightarrow \infty } u ( t ) = u _ * \\
-f ' ( u _ * ) > 0 \implies \lim _ { t \rightarrow \infty } u ( t ) \ne u _ * \\
+f ' ( u _ { * } ) < 0 \implies \lim _ { t \rightarrow \infty } u ( t ) = u _ { * } \\
+f ' ( u _ { * } ) > 0 \implies \lim _ { t \rightarrow \infty } u ( t ) \ne u _ { * } \\
 \end{aligned}
 $$
 
@@ -178,14 +178,14 @@ $$
 ### bifurcation formula
 $$
 \begin{aligned}
-\Delta h \implies \Delta ( h \times u _ * )
+\Delta h \implies \Delta ( h \times u _ { * } )
 \end{aligned}
 $$
 
 ---
 ### bifurcation example
-- $f ( u ) = u ^ 3 - u h$ 
-- $u _ * = 0 , \pm \sqrt h$ 
+- $f ( u ) = u ^ { 3 } - u h$ 
+- $u _ { * } = 0 , \pm \sqrt h$ 
 
 ---
 ### bifurcation example formula
@@ -210,9 +210,9 @@ $$
 ### bifurcation diagram formula
 $$
 \begin{aligned}
-h \times u _ * = \{ ( h , u _ * ) | f ( h , u _ * ) = 0 \} \\
+h \times u _ { * } = \{ ( h , u _ { * } ) | f ( h , u _ { * } ) = 0 \} \\
 h = \text { parameter } \\
-u _ * = \text { equilibrium point }
+u _ { * } = \text { equilibrium point }
 \end{aligned}
 $$
 
@@ -224,7 +224,7 @@ $$
 ### saddle-node bifurcation formula
 $$
 \begin{aligned}
-\frac { d u } { d t } = h - u ^ 2
+\frac { d u } { d t } = h - u ^ { 2 }
 \end{aligned}
 $$
 
@@ -236,7 +236,7 @@ $$
 ### transcritical bifurcation formula
 $$
 \begin{aligned}
-\frac { d u } { d t } = h u - u ^ 2
+\frac { d u } { d t } = h u - u ^ { 2 }
 \end{aligned}
 $$
 
@@ -248,7 +248,7 @@ $$
 ### pitchfork bifurcation formula
 $$
 \begin{aligned}
-\frac { d u } { d t } = h u - u ^ 3
+\frac { d u } { d t } = h u - u ^ { 3 }
 \end{aligned}
 $$
 

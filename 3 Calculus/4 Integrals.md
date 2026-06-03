@@ -64,7 +64,7 @@ $$
 ### position formula
 $$
 \begin{aligned}
-s ( t ) = \frac { 1 } { 2 } g t ^ 2 + v _ 0 t + s _ { 0 } \\
+s ( t ) = \frac { 1 } { 2 } g t ^ { 2 } + v _ { 0 } t + s _ { 0 } \\
 g = \text { gravity } \\
 v = \text { velocity } \\
 s = \text { position }
@@ -88,7 +88,7 @@ $$
 ### sigma formula
 $$
 \begin{aligned}
-\sum _ { k = 1 } ^ n f ( x _ { k } ) = f ( x _ { 1 } ) + f ( x _ { 2 } ) + . . . + f ( x _ { n } ) \\
+\sum _ { k = 1 } ^ { n } f ( x _ { k } ) = f ( x _ { 1 } ) + f ( x _ { 2 } ) + . . . + f ( x _ { n } ) \\
 k = \text { index } \\
 n = \text { number of terms } \\
 \sum = \text { summation } \\
@@ -180,7 +180,7 @@ $$
 ### lower sum formula
 $$
 \begin{aligned}
-s ( n ) = \sum _ { k = 1 } ^ n f ( m _ { k } ) \Delta x
+s ( n ) = \sum _ { k = 1 } ^ { n } f ( m _ { k } ) \Delta x
 \end{aligned}
 $$
 
@@ -193,7 +193,7 @@ $$
 ### upper sum formula
 $$
 \begin{aligned}
-S ( n ) = \sum _ { k = 1 } ^ n f ( M _ { k } ) \Delta x
+S ( n ) = \sum _ { k = 1 } ^ { n } f ( M _ { k } ) \Delta x
 \end{aligned}
 $$
 
@@ -205,8 +205,8 @@ $$
 ### limit of sums formula
 $$
 \begin{aligned}
-\lim _ { n \to \infty } s ( n ) = \lim _ { n \to \infty } \sum _ { k = 1 } ^ n f ( m _ { k } ) \Delta x \\
-\lim _ { n \to \infty } S ( n ) = \lim _ { n \to \infty } \sum _ { k = 1 } ^ n f ( M _ { k } ) \Delta x \\
+\lim _ { n \to \infty } s ( n ) = \lim _ { n \to \infty } \sum _ { k = 1 } ^ { n } f ( m _ { k } ) \Delta x \\
+\lim _ { n \to \infty } S ( n ) = \lim _ { n \to \infty } \sum _ { k = 1 } ^ { n } f ( M _ { k } ) \Delta x \\
 \lim _ { n \to \infty } s ( n ) = \lim _ { n \to \infty } S ( n )
 \end{aligned}
 $$
@@ -221,7 +221,7 @@ $$
 ### area of planar region formula
 $$
 \begin{aligned}
-\text { area } = \lim _ { n \to \infty } \sum _ { k = 1 } ^ n f ( c _ { k } ) \\
+\text { area } = \lim _ { n \to \infty } \sum _ { k = 1 } ^ { n } f ( c _ { k } ) \\
 x _ { k - 1 } \le c _ { k } \le x _ { k }
 \end{aligned}
 $$
@@ -235,7 +235,7 @@ $$
 ### riemann sum formula
 $$
 \begin{aligned}
-S = \sum _ { k = 1 } ^ n f ( x _ { k } ) \Delta x \\
+S = \sum _ { k = 1 } ^ { n } f ( x _ { k } ) \Delta x \\
 \Delta x = x _ { k } - x _ { k - 1 }
 \end{aligned}
 $$
@@ -269,7 +269,7 @@ $$
 ### definite integral formula
 $$
 \begin{aligned}
-\int _ { a } ^ b f ( x ) d x = \lim _ { n \to \infty } \sum _ { k = 1 } ^ n f ( x _ { k } ) \Delta x
+\int _ { a } ^ { b } f ( x ) d x = \lim _ { n \to \infty } \sum _ { k = 1 } ^ { n } f ( x _ { k } ) \Delta x
 \end{aligned}
 $$
 
@@ -281,7 +281,7 @@ $$
 ### negative rule
 $$
 \begin{aligned}
-\int _ { b } ^ a f ( x ) d x = - \int _ { a } ^ b f ( x ) d x
+\int _ { b } ^ { a } f ( x ) d x = - \int _ { a } ^ { b } f ( x ) d x
 \end{aligned}
 $$
 
@@ -289,7 +289,7 @@ $$
 ### zero rule
 $$
 \begin{aligned}
-\int _ { a } ^ a f ( x ) d x = 0
+\int _ { a } ^ { a } f ( x ) d x = 0
 \end{aligned}
 $$
 
@@ -297,7 +297,7 @@ $$
 ### constant multiple rule
 $$
 \begin{aligned}
-\int _ { a } ^ b c f ( x ) d x = c \times \int _ { a } ^ b f ( x ) d x
+\int _ { a } ^ { b } c f ( x ) d x = c \times \int _ { a } ^ { b } f ( x ) d x
 \end{aligned}
 $$
 
@@ -305,7 +305,7 @@ $$
 ### sum difference rule
 $$
 \begin{aligned}
-\int _ { a } ^ b [ f ( x ) \pm g ( x ) ] d x = \int _ { a } ^ b f ( x ) d x \pm \int _ { a } ^ b g ( x ) d x
+\int _ { a } ^ { b } [ f ( x ) \pm g ( x ) ] d x = \int _ { a } ^ { b } f ( x ) d x \pm \int _ { a } ^ { b } g ( x ) d x
 \end{aligned}
 $$
 
@@ -313,7 +313,7 @@ $$
 ### additive rule
 $$
 \begin{aligned}
-\int _ { a } ^ c f ( x ) d x = \int _ { a } ^ b f ( x ) d x + \int _ { b } ^ c f ( x ) d x
+\int _ { a } ^ { c } f ( x ) d x = \int _ { a } ^ { b } f ( x ) d x + \int _ { b } ^ { c } f ( x ) d x
 \end{aligned}
 $$
 
@@ -321,7 +321,7 @@ $$
 ### inequality rule
 $$
 \begin{aligned}
-f ( x ) \le g ( x ) \to 0 \le \int _ { a } ^ b f ( x ) d x \le \int _ { a } ^ b g ( x ) d x
+f ( x ) \le g ( x ) \to 0 \le \int _ { a } ^ { b } f ( x ) d x \le \int _ { a } ^ { b } g ( x ) d x
 \end{aligned}
 $$
 
@@ -334,7 +334,7 @@ $$
 ### fundamental formula of calculus
 $$
 \begin{aligned}
-\int _ { a } ^ b f ( x ) d x = F ( b ) - F ( a )
+\int _ { a } ^ { b } f ( x ) d x = F ( b ) - F ( a )
 \end{aligned}
 $$
 
@@ -347,7 +347,7 @@ $$
 ### mean value formula of integration
 $$
 \begin{aligned}
-\int _ { a } ^ b f ( x ) d x = f ( x ) ( b - a )
+\int _ { a } ^ { b } f ( x ) d x = f ( x ) ( b - a )
 \end{aligned}
 $$
 
@@ -360,7 +360,7 @@ $$
 ### average function value formula
 $$
 \begin{aligned}
-f ( c ) = \frac { 1 } { b - a } \int _ { a } ^ b f ( x ) d x
+f ( c ) = \frac { 1 } { b - a } \int _ { a } ^ { b } f ( x ) d x
 \end{aligned}
 $$
 
@@ -372,7 +372,7 @@ $$
 ### accumulation formula
 $$
 \begin{aligned}
-\int _ { a } ^ x f ( t ) d t = F ( x ) - F ( a ) \\
+\int _ { a } ^ { x } f ( t ) d t = F ( x ) - F ( a ) \\
 x = \text { variable endpoint }
 \end{aligned}
 $$
@@ -390,7 +390,7 @@ $$
 ### fundamental formula of calculus
 $$
 \begin{aligned}
-\frac { d } { d x } \int _ { a } ^ u f ( t ) d t = f ( u ) \frac { d u } { d x } \\
+\frac { d } { d x } \int _ { a } ^ { u } f ( t ) d t = f ( u ) \frac { d u } { d x } \\
 u = \text { variable function endpoint }
 \end{aligned}
 $$
@@ -411,7 +411,7 @@ $$
 ### net change formula
 $$
 \begin{aligned}
-\int _ { a } ^ b f ' ( x ) d x = f ( b ) - f ( a )
+\int _ { a } ^ { b } f ' ( x ) d x = f ( b ) - f ( a )
 \end{aligned}
 $$
 
@@ -424,7 +424,7 @@ $$
 ### displacement formula
 $$
 \begin{aligned}
-\int _ { a } ^ b v ( t ) d t = s ( b ) - s ( a ) \\
+\int _ { a } ^ { b } v ( t ) d t = s ( b ) - s ( a ) \\
 v = \text { velocity }
 \end{aligned}
 $$
@@ -442,7 +442,7 @@ $$
 ### distance formula
 $$
 \begin{aligned}
-\int _ { a } ^ b | v ( t ) | d t = \sum | s ( b ) - s ( a ) | \\
+\int _ { a } ^ { b } | v ( t ) | d t = \sum | s ( b ) - s ( a ) | \\
 v = \text { velocity }
 \end{aligned}
 $$
@@ -460,7 +460,7 @@ $$
 ### antiderivative of composite formula
 $$
 \begin{aligned}
-\int _ { a } ^ b ( f \circ g ) ( x ) g ' ( x ) d x = ( F \circ g ) ( x ) + c
+\int _ { a } ^ { b } ( f \circ g ) ( x ) g ' ( x ) d x = ( F \circ g ) ( x ) + c
 \end{aligned}
 $$
 
@@ -476,7 +476,7 @@ $$
 ### constant multiple rule
 $$
 \begin{aligned}
-\int _ { a } ^ b ( f \circ g ) ( x ) c g ' ( x ) d x = \frac { 1 } { c } ( F \circ g ) ( x ) + c
+\int _ { a } ^ { b } ( f \circ g ) ( x ) c g ' ( x ) d x = \frac { 1 } { c } ( F \circ g ) ( x ) + c
 \end{aligned}
 $$
 
@@ -510,7 +510,7 @@ $$
 ### definite integral change of variable formula
 $$
 \begin{aligned}
-\int _ { a } ^ b ( f \circ g ) ( x ) g ' ( x ) d x = \int _ { g ( a ) } ^ { g ( b ) } f ( u ) d u = F ( u ) + c \\
+\int _ { a } ^ { b } ( f \circ g ) ( x ) g ' ( x ) d x = \int _ { g ( a ) } ^ { g ( b ) } f ( u ) d u = F ( u ) + c \\
 u = g ( x ) \\
 d u = g ' ( x ) d x
 \end{aligned}
@@ -526,7 +526,7 @@ $$
 ### definite integration of even function formula
 $$
 \begin{aligned}
-\int _ { - a } ^ a f ( x ) d x = 2 \int _ { 0 } ^ a f ( x ) d x
+\int _ { - a } ^ { a } f ( x ) d x = 2 \int _ { 0 } ^ { a } f ( x ) d x
 \end{aligned}
 $$
 
@@ -540,7 +540,7 @@ $$
 ### definite integration of odd function formula
 $$
 \begin{aligned}
-\int _ { - a } ^ a f ( x ) d x = 0
+\int _ { - a } ^ { a } f ( x ) d x = 0
 \end{aligned}
 $$
 

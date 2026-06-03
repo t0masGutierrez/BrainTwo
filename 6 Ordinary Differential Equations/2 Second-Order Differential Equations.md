@@ -5,7 +5,7 @@
 ### 2nd-order ode formula
 $$
 \begin{aligned}
-\frac { d ^ 2 y } { d t ^ 2 } = f ( t , y , \frac { d y } { d t } ) \\
+\frac { d ^ { 2 } y } { d t ^ { 2 } } = f ( t , y , \frac { d y } { d t } ) \\
 t = \text { independent variable } \\
 y = \text { solution }
 \end{aligned}
@@ -15,7 +15,7 @@ $$
 ### 2nd-order linear ode formula
 $$
 \begin{aligned}
-a _ 2 ( t ) y ' ' ( t ) + a _ 1 ( t ) y ' ( t ) + a _ 0 ( t ) y ( t ) = b ( t ) \\
+a _ { 2 } ( t ) y ' ' ( t ) + a _ { 1 } ( t ) y ' ( t ) + a _ { 0 } ( t ) y ( t ) = b ( t ) \\
 y = \text { solution } \\
 t = \text { independent variable } \\
 a = \text { coefficient }
@@ -26,7 +26,7 @@ $$
 ### general solution of 2nd-order homogeneous linear ode formula
 $$
 \begin{aligned}
-y ( t ) = C _ 1 y _ { 1 } ( t ) + C _ 2 y _ { 2 } ( t ) \\
+y ( t ) = C _ { 1 } y _ { 1 } ( t ) + C _ { 2 } y _ { 2 } ( t ) \\
 C = \text { constant } \\
 t = \text { independent variable } \\
 y = \text { solution }
@@ -37,10 +37,10 @@ $$
 ### general solution of 2nd-order nonhomogeneous linear ode formula
 $$
 \begin{aligned}
-y ( t ) = y _ { h } ( t ) + y _ p ( t ) \\
+y ( t ) = y _ { h } ( t ) + y _ { p } ( t ) \\
 t = \text { independent variable } \\
-y _ h = \text { homogeneous solution } \\
-y _ p = \text { particular solution } \\
+y _ { h } = \text { homogeneous solution } \\
+y _ { p } = \text { particular solution } \\
 \end{aligned}
 $$
 
@@ -65,7 +65,7 @@ $$
 ### linear transformation property formula
 $$
 \begin{aligned}
-L [ y _ 1 ] = L [ y _ 2 ] = 0 \implies L [ C _ 1 y _ 1 + C _ 2 y _ 2 ] = 0 \\
+L [ y _ { 1 } ] = L [ y _ { 2 } ] = 0 \implies L [ C _ { 1 } y _ { 1 } + C _ { 2 } y _ { 2 } ] = 0 \\
 L = \text { linear transformation } \\
 y = \text { solution } \\
 C = \text { constant }
@@ -80,7 +80,7 @@ $$
 ### linear independence formula
 $$
 \begin{aligned}
-C _ 1 y _ 1 ( t ) + C _ 2 y _ 2 ( t ) = 0 \implies C _ 1 = C _ 2 = 0 \\
+C _ { 1 } y _ { 1 } ( t ) + C _ { 2 } y _ { 2 } ( t ) = 0 \implies C _ { 1 } = C _ { 2 } = 0 \\
 C = \text { constant } \\
 y = \text { solution } \\
 t = \text { independent variable }
@@ -109,7 +109,7 @@ $$
 ### fundamental set formula
 $$
 \begin{aligned}
-L [ y _ 1 ] = L [ y _ 2 ] = 0 \ne W [ y _ 1 , y _ 2 ] ( t ) \implies \mathcal F = \set { y _ 1 , y _ 2 } \\
+L [ y _ { 1 } ] = L [ y _ { 2 } ] = 0 \ne W [ y _ { 1 } , y _ { 2 } ] ( t ) \implies \mathcal F = \set { y _ { 1 } , y _ { 2 } } \\
 L = \text { linear transformation } \\
 y = \text { solution } \\
 W = \text { wronskian } \\
@@ -126,7 +126,7 @@ $$
 ### constant coefficient ode formula
 $$
 \begin{aligned}
-a _ 2 y ' ' ( t ) + a _ 1 y ' ( t ) + a _ 0 y ( t ) = 0 \\
+a _ { 2 } y ' ' ( t ) + a _ { 1 } y ' ( t ) + a _ { 0 } y ( t ) = 0 \\
 a = \text { coefficient } \\
 y = \text { solution } \\
 t = \text { independent variable }
@@ -142,10 +142,10 @@ $$
 $$
 \begin{aligned}
 \begin{cases}
-y ' ' = r ^ 2 \exp ( r t ) \\
+y ' ' = r ^ { 2 } \exp ( r t ) \\
 y ' = r \exp ( r t ) \\
 y = \exp ( r t ) \\
-\end { c a s e s } \implies a _ 2 r ^ 2 + a _ 1 r + a _ 0 = 0 \\
+\end { c a s e s } \implies a _ { 2 } r ^ { 2 } + a _ { 1 } r + a _ { 0 } = 0 \\
 r = \text { root } \\
 \exp ( r t ) = \text { guess } \\
 t = \text { independent variable } \\
@@ -161,7 +161,7 @@ $$
 ### general solution of characteristic polynomial formula
 $$
 \begin{aligned}
-r = \frac { - a _ 1 \pm \sqrt { a _ 1 ^ 2 - 4 a _ 2 a _ 0 } } { 2 a _ 2 } \\
+r = \frac { - a _ { 1 } \pm \sqrt { a _ { 1 } ^ { 2 } - 4 a _ { 2 } a _ { 0 } } } { 2 a _ { 2 } } \\
 a = \text { coefficient }
 \end{aligned}
 $$
@@ -174,7 +174,7 @@ $$
 ### distinct real roots formula
 $$
 \begin{aligned}
-r _ 1 \ne r _ 2 \implies y = C _ { 1 } \exp ( r _ 1 t ) + C _ { 2 } \exp ( r _ 2 t ) \\
+r _ { 1 } \ne r _ { 2 } \implies y = C _ { 1 } \exp ( r _ { 1 } t ) + C _ { 2 } \exp ( r _ { 2 } t ) \\
 y = \text { solution } \\
 C = \text { constant } \\
 r = \text { root } \\
@@ -190,7 +190,7 @@ $$
 ### repeated real roots formula
 $$
 \begin{aligned}
-r _ 1 = r _ 2 \implies y = \exp ( r t ) ( C _ { 1 } + C _ 2 t ) \\
+r _ { 1 } = r _ { 2 } \implies y = \exp ( r t ) ( C _ { 1 } + C _ { 2 } t ) \\
 y = \text { solution } \\
 C = \text { constant } \\
 r = \text { root } \\
@@ -229,7 +229,7 @@ $$
 \begin{aligned}
 b ( t ) = \exp ( c t ) \implies y _ { p } = C \exp ( c t ) \\
 b ( t ) = \sin c t \lor \cos c t \implies y _ { p } = C _ { 1 } \cos ( c t ) + C _ { 2 } \sin ( c t ) \\
-b ( t ) = P _ { n } ( t ) \implies y _ { p } = C _ { 0 } + C _ 1 t + \dots + C _ n t ^ n \\
+b ( t ) = P _ { n } ( t ) \implies y _ { p } = C _ { 0 } + C _ { 1 } t + \dots + C _ { n } t ^ { n } \\
 \end{aligned}
 $$
 
@@ -244,7 +244,7 @@ $$
 ### variation of parameters formula
 $$
 \begin{aligned}
-y _ { p } = u _ 1 y _ { 1 } + u _ 2 y _ { 2 } \\
+y _ { p } = u _ { 1 } y _ { 1 } + u _ { 2 } y _ { 2 } \\
 u _ { 1 } = - \int \frac { b ( t ) y _ { 2 } ( t ) } { W [ y _ { 1 } , y _ { 2 } ] ( t ) } d t \\
 u _ { 2 } = \int \frac { b ( t ) y _ { 1 } ( t ) } { W [ y _ { 1 } , y _ { 2 } ] ( t ) } d t \\
 u = \text { coefficient } \\
@@ -267,9 +267,9 @@ $$
 ### series solution formula
 $$
 \begin{aligned}
-y = \sum _ { n = 0 } ^ \infty a _ { n } ( x − x _ { 0 } ) ^ n \\
-y ' = \sum _ { n = 1 } ^ \infty a _ n n ( x − x _ { 0 } ) ^ { n - 1 } \\
-y ' ' = \sum _ { n = 1 } ^ \infty a _ n n ( n - 1 ) ( x − x _ { 0 } ) ^ { n - 2 }
+y = \sum _ { n = 0 } ^ { \infty } a _ { n } ( x − x _ { 0 } ) ^ { n } \\
+y ' = \sum _ { n = 1 } ^ { \infty } a _ { n } n ( x − x _ { 0 } ) ^ { n - 1 } \\
+y ' ' = \sum _ { n = 1 } ^ { \infty } a _ { n } n ( n - 1 ) ( x − x _ { 0 } ) ^ { n - 2 }
 \end{aligned}
 $$
 
@@ -281,7 +281,7 @@ $$
 ### reduction of order formula
 $$
 \begin{aligned}
-y _ 2 ( t ) = y _ 1 ( t ) \int \frac { \exp ( - \int a _ 1 ( t ) d t ) } { y _ 1 ^ 2 ( t ) } d t \\
+y _ { 2 } ( t ) = y _ { 1 } ( t ) \int \frac { \exp ( - \int a _ { 1 } ( t ) d t ) } { y _ { 1 } ^ { 2 } ( t ) } d t \\
 y = \text { solution } \\
 t = \text { independent variable } \\
 a = \text { coefficient }
@@ -325,11 +325,11 @@ $$
 ### cauchy-euler ode formula
 $$
 \begin{aligned}
-y = x ^ r \\
-a _ 2 x ^ 2 y ' ' ( t ) + a _ 1 x y ' ( t ) + a _ 0 y ( t ) = b ( t ) \implies a _ 2 r ( r - 1 ) + a _ 1 r + a _ 0 = b ( t ) \\
-r _ 1 \ne r _ 2 \implies y _ h = C _ 1 x ^ { r _ 1 } + C _ 2 x ^ { r _ 2 } \\
-r _ 1 = r _ 2 \implies y _ h = x ^ r ( C _ 1 + C _ 2 \ln | x | ) \\
-r = \alpha \pm \beta i \implies y _ h = x ^ { \alpha } C _ 1 \cos \beta \ln | x | + x ^ { \alpha } C _ 2 \sin ( \beta \ln | x |
+y = x ^ { r } \\
+a _ { 2 } x ^ { 2 } y ' ' ( t ) + a _ { 1 } x y ' ( t ) + a _ { 0 } y ( t ) = b ( t ) \implies a _ { 2 } r ( r - 1 ) + a _ { 1 } r + a _ { 0 } = b ( t ) \\
+r _ { 1 } \ne r _ { 2 } \implies y _ { h } = C _ { 1 } x ^ { r _ { 1 } } + C _ { 2 } x ^ { r _ { 2 } } \\
+r _ { 1 } = r _ { 2 } \implies y _ { h } = x ^ { r } ( C _ { 1 } + C _ { 2 } \ln | x | ) \\
+r = \alpha \pm \beta i \implies y _ { h } = x ^ { \alpha } C _ { 1 } \cos \beta \ln | x | + x ^ { \alpha } C _ { 2 } \sin ( \beta \ln | x |
 \end{aligned}
 $$
 
@@ -343,7 +343,7 @@ $$
 \begin{aligned}
 y ' ' ( t ) = f ( y ) \\
 y ' ( t ) y ' ' ( t ) = f ( y ) y ' \\
-\frac { 1 } { 2 } ( \frac { d y } { d t } ) ^ 2 = \int f ( y ) d y + C
+\frac { 1 } { 2 } ( \frac { d y } { d t } ) ^ { 2 } = \int f ( y ) d y + C
 \end{aligned}
 $$
 

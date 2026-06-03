@@ -73,7 +73,7 @@ $$
 $$
 \begin{aligned}
 U = k \frac { q _ { 1 } q _ { 2 } } { r } \\
-k = 9 \times 10 ^ 9 \\
+k = 9 \times 10 ^ { 9 } \\
 q = \text { electric charge } \\
 r = \text { distance }
 \end{aligned}
@@ -118,7 +118,7 @@ $$
 V = \frac { U } { q } = k \sum _ { i } \frac { Q _ { i } } { r _ { i } } \\
 U = \text { potential energy } \\
 q = \text { test electric charge } \\
-k = 9 \times 10 ^ 9 \\
+k = 9 \times 10 ^ { 9 } \\
 Q = \text { source electric charge } \\
 r = \text { distance }
 \end{aligned}
@@ -153,7 +153,7 @@ $$
 \Delta V = \frac { \Delta U } { q } = k \int \frac { d Q } { r } \\
 U = \text { potential energy } \\
 q = \text { test electric charge } \\
-k = 9 \times 10 ^ 9 \\
+k = 9 \times 10 ^ { 9 } \\
 Q = \text { source electric charge } \\
 r = \text { distance }
 \end{aligned}

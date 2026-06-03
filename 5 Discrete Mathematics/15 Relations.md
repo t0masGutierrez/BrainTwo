@@ -93,7 +93,7 @@ $$
 ### composite self relation formula
 $$
 \begin{aligned}
-R ^ n = R ^ { n - 1 } \circ R
+R ^ { n } = R ^ { n - 1 } \circ R
 \end{aligned}
 $$
 
@@ -238,7 +238,7 @@ $$
 A _ { i } = \{ A _ { 1 } , A _ { 2 } , . . . A _ { k } \} \\
 \forall i ( A _ { i } \ne \emptyset ) \\
 \forall i \forall j ( i \ne j ) ( A _ { i } \cap A _ { j } = \emptyset ) \\
-\bigcup _ { i = 1 } ^ k A _ { i } = A \\
+\bigcup _ { i = 1 } ^ { k } A _ { i } = A \\
 \therefore A _ { i } = \{ x \in A | x \sim a _ { i } \}
 \end{aligned}
 $$

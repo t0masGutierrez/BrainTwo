@@ -5,7 +5,7 @@
 ### heat equation formula
 $$
 \begin{aligned}
-\frac { \partial u } { \partial t } = k \frac { \partial ^ 2 u } { \partial x ^ 2 } \\
+\frac { \partial u } { \partial t } = k \frac { \partial ^ { 2 } u } { \partial x ^ { 2 } } \\
 u ( 0 , t ) = u ( L , t ) = 0 \\
 u ( x , 0 ) = f ( x ) \\
 u = \text { heat } \\
@@ -70,7 +70,7 @@ $$
 ### general solution of temporal heat equation formula
 $$
 \begin{aligned}
-T ( t ) = \exp ( - k \frac { n ^ 2 \pi ^ 2 } { L ^ 2 } t ) \\
+T ( t ) = \exp ( - k \frac { n ^ { 2 } \pi ^ { 2 } } { L ^ { 2 } } t ) \\
 k = \text { thermal diffusivity } \\
 n = \text { natural number } \\
 L = \text { length } \\
@@ -86,7 +86,7 @@ $$
 ### general solution of heat equation formula
 $$
 \begin{aligned}
-u ( x , t ) = \sum _ { n = 1 } ^ N c _ { n } \exp ( - k \frac { n ^ 2 \pi ^ 2 } { L ^ 2 } t ) \sin ( \frac { n \pi } { L } x ) \\
+u ( x , t ) = \sum _ { n = 1 } ^ { N } c _ { n } \exp ( - k \frac { n ^ { 2 } \pi ^ { 2 } } { L ^ { 2 } } t ) \sin ( \frac { n \pi } { L } x ) \\
 c = \text { fourier sine series } \\
 k = \text { thermal diffusivity } \\
 n = \text { natural number } \\
@@ -105,7 +105,7 @@ $$
 ### fourier sine series formula
 $$
 \begin{aligned}
-c _ { n } = \frac { 2 } { L } \int _ { 0 } ^ L f ( x ) \sin ( \frac { n \pi } { L } x ) d x \\
+c _ { n } = \frac { 2 } { L } \int _ { 0 } ^ { L } f ( x ) \sin ( \frac { n \pi } { L } x ) d x \\
 L = \text { length } \\
 n = \text { natural number } \\
 x = \text { space } \\

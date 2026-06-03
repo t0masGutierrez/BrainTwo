@@ -177,7 +177,7 @@ $$
 ### law of total probability formula
 $$
 \begin{aligned}
-P ( A ) = \sum _ { i = 1 } ^ n P ( A | B _ { i } ) P ( B _ { i } ) \\
+P ( A ) = \sum _ { i = 1 } ^ { n } P ( A | B _ { i } ) P ( B _ { i } ) \\
 A = \text { hypothesis } \\
 B = \text { condition }
 \end{aligned}
@@ -191,7 +191,7 @@ $$
 ### permutation formula
 $$
 \begin{aligned}
-_ n P _ { k } = \frac { n ! } { ( n - k ) ! } = k ! \begin { p m a t r i x } n \\ k \end { p m a t r i x } \\
+_ { n } P _ { k } = \frac { n ! } { ( n - k ) ! } = k ! \begin { p m a t r i x } n \\ k \end { p m a t r i x } \\
 n = \text { number of objects } \\
 k = \text { number of arrangements }
 \end{aligned}

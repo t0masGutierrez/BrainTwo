@@ -164,7 +164,7 @@ $$
 ### linear transformation linearity property formula
 $$
 \begin{aligned}
-L ( \sum _ { i = 1 } ^ n c _ { i } \vec v _ { i } ) = \sum _ { i = 1 } ^ n c _ i L ( \vec v _ { i } ) \\
+L ( \sum _ { i = 1 } ^ { n } c _ { i } \vec v _ { i } ) = \sum _ { i = 1 } ^ { n } c _ { i } L ( \vec v _ { i } ) \\
 L = \text { linear transformation } \\
 n = \text { dimension } \\
 c = \text { scalar } \\

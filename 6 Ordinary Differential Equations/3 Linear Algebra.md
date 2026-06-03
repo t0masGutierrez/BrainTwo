@@ -5,11 +5,11 @@
 ### simultaneity property formula
 $$
 \begin{aligned}
-a _ { n } ( t ) \frac { d ^ n y } { d t ^ n } + a _ { n - 1 } ( t ) \frac { d ^ { n - 1 } y } { d t ^ { n - 1 } } + \dots + a _ 0 y = 0 \implies \begin { c a s e s } \frac { d x _ { 1 } } { d t } = x _ { 2 } \\
+a _ { n } ( t ) \frac { d ^ { n } y } { d t ^ { n } } + a _ { n - 1 } ( t ) \frac { d ^ { n - 1 } y } { d t ^ { n - 1 } } + \dots + a _ { 0 } y = 0 \implies \begin { c a s e s } \frac { d x _ { 1 } } { d t } = x _ { 2 } \\
 \frac { d x _ { 2 } } { d t } = x _ { 3 } \\
 \  \  \  \vdots \\
 \frac { d x _ { n - 1 } } { d t } = x _ { n } \\
-\frac { d x _ { n } } { d t } = - ( \frac { a _ { n - 1 } ( t ) x _ { n } + a _ { n - 2 } ( t ) x _ { n - 1 } + \dots + a _ 0 x _ { 1 } } { a _ { n } ( t ) } )
+\frac { d x _ { n } } { d t } = - ( \frac { a _ { n - 1 } ( t ) x _ { n } + a _ { n - 2 } ( t ) x _ { n - 1 } + \dots + a _ { 0 } x _ { 1 } } { a _ { n } ( t ) } )
 \end { c a s e s } \\
 x _ { 1 } ( t ) = y \\
 x _ { 2 } ( t ) = \frac { d y } { d t } \\
@@ -73,7 +73,7 @@ $$
 ### distinct eigenvalues formula
 $$
 \begin{aligned}
-\vec x ( t ) = \sum _ { i = 1 } ^ n C _ i e ^ { \lambda _ i t } \vec v _ i \\
+\vec x ( t ) = \sum _ { i = 1 } ^ { n } C _ { i } e ^ { \lambda _ { i } t } \vec v _ { i } \\
 \lambda = \text { eigenvalue } \\
 t = \text { independent variable } \\
 \vec v = \text { eigenvector }
@@ -88,7 +88,7 @@ $$
 ### complex eigenvalues formula
 $$
 \begin{aligned}
-\vec x ( t ) = C _ 1 e ^ { \alpha t } ( \vec p \cos \beta t - \vec q \sin \beta t ) + C _ 2 e ^ { \alpha t } ( \vec p \sin \beta t + \vec q \cos \beta t ) \\
+\vec x ( t ) = C _ { 1 } e ^ { \alpha t } ( \vec p \cos \beta t - \vec q \sin \beta t ) + C _ { 2 } e ^ { \alpha t } ( \vec p \sin \beta t + \vec q \cos \beta t ) \\
 \lambda = \alpha + \beta i \\
 \vec v = \vec p + \vec q i \\
 C = \text { constant } \\
@@ -124,7 +124,7 @@ $$
 ### generalized eigenvector formula
 $$
 \begin{aligned}
-( A - \lambda I ) \vec v _ k = \vec v _ { k - 1 } \\
+( A - \lambda I ) \vec v _ { k } = \vec v _ { k - 1 } \\
 A = \text { coefficient matrix } \\
 \lambda = \text { eigenvalue } \\
 I = \text { identity matrix } \\
@@ -142,7 +142,7 @@ $$
 ### repeated eigenvalues formula
 $$
 \begin{aligned}
-\vec x ( t ) = e ^ { \lambda t } \sum _ { m = 1 } ^ k C _ m \sum _ { j = 1 } ^ { m } \frac { t ^ { m - j } } { ( m - j ) ! } \vec v _ j \\
+\vec x ( t ) = e ^ { \lambda t } \sum _ { m = 1 } ^ { k } C _ { m } \sum _ { j = 1 } ^ { m } \frac { t ^ { m - j } } { ( m - j ) ! } \vec v _ { j } \\
 \lambda = \text { eigenvalue } \\
 t = \text { independent variable } \\
 k = \text { number of generalized eigenvectors } \\
@@ -161,7 +161,7 @@ $$
 $$
 \begin{aligned}
 \Phi ( t ) = \begin { b m a t r i x } \vert & \vert & & \vert \\
-\vec { x } _ 1 ( t ) & \vec { x } _ 2 ( t ) & \cdots & \vec { x } _ n ( t ) \\
+\vec { x } _ { 1 } ( t ) & \vec { x } _ { 2 } ( t ) & \cdots & \vec { x } _ { n } ( t ) \\
 \vert & \vert & & \vert \end { b m a t r i x } \\
 \vec x = \text { solution } \\
 t = \text { independent variable }
@@ -176,7 +176,7 @@ $$
 ### matrix exponential formula
 $$
 \begin{aligned}
-e ^ { A t } = \sum _ { i = 0 } ^ \infty \frac { A ^ i t ^ i } { i ! } = \Phi ( t ) \Phi ^ { - 1 } ( 0 ) \implies \vec x ( t ) = e ^ { A t } \vec x ( 0 ) \\
+e ^ { A t } = \sum _ { i = 0 } ^ { \infty } \frac { A ^ { i } t ^ { i } } { i ! } = \Phi ( t ) \Phi ^ { - 1 } ( 0 ) \implies \vec x ( t ) = e ^ { A t } \vec x ( 0 ) \\
 A = \text { coefficient matrix } \\
 t = \text { independent variable } \\
 \Phi = \text { fundamental matrix } \\

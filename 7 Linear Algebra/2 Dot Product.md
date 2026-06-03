@@ -5,7 +5,7 @@
 ### dot product formula
 $$
 \begin{aligned}
-\vec x \cdot \vec y = \sum _ { i = 1 } ^ n x _ i y _ { i } = ( \| \vec x \| ) ( \| \vec y \| ) \cos ( \theta ) \\
+\vec x \cdot \vec y = \sum _ { i = 1 } ^ { n } x _ { i } y _ { i } = ( \| \vec x \| ) ( \| \vec y \| ) \cos ( \theta ) \\
 x , y = \text { coordinate } \\
 i = \text { index } \\
 n = \text { number of coordinates } \\
@@ -39,7 +39,7 @@ $$
 ### parallel projection formula
 $$
 \begin{aligned}
-\text { proj } _ { x } ( y \parallel ) = ( \frac { \vec x \cdot \vec y } { \| \vec x \| ^ 2 } ) \vec x \\
+\text { proj } _ { x } ( y \parallel ) = ( \frac { \vec x \cdot \vec y } { \| \vec x \| ^ { 2 } } ) \vec x \\
 \vec x , \vec y = \text { vector } \\
 \| \vec x \| = \text { magnitude }
 \end{aligned}
@@ -54,7 +54,7 @@ $$
 ### orthogonal projection formula
 $$
 \begin{aligned}
-\text { proj } _ { x } ( y \perp ) = \vec y - ( \frac { \vec x \cdot \vec y } { \| \vec x \| ^ 2 } ) \vec x \\
+\text { proj } _ { x } ( y \perp ) = \vec y - ( \frac { \vec x \cdot \vec y } { \| \vec x \| ^ { 2 } } ) \vec x \\
 \vec x , \vec y = \text { vector } \\
 \| \vec x \| = \text { magnitude }
 \end{aligned}
@@ -89,7 +89,7 @@ $$
 $$
 \begin{aligned}
 \vec x \cdot \vec y = \vec y \cdot \vec x \\
-\vec x \cdot \vec x = \| \vec x \| ^ 2 \ge 0 \\
+\vec x \cdot \vec x = \| \vec x \| ^ { 2 } \ge 0 \\
 \vec x \cdot \vec x = 0 \iff \vec x = \vec 0 \\
 c ( \vec x \cdot \vec y ) = ( c \vec x ) \cdot \vec y = \vec x \cdot ( c \vec y ) \\
 \vec x \cdot ( \vec y + \vec z ) = ( \vec x \cdot \vec y ) + ( \vec x \cdot \vec z ) = ( \vec x + \vec y ) \cdot \vec z

@@ -198,7 +198,7 @@ $$
 ### archimedean property formula
 $$
 \begin{aligned}
-\forall x \in \mathbb R ^ + , \forall y \in \mathbb R , \exists n \in \mathbb N : y < n x
+\forall x \in \mathbb R ^ { + } , \forall y \in \mathbb R , \exists n \in \mathbb N : y < n x
 \end{aligned}
 $$
 

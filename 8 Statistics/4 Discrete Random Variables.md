@@ -36,7 +36,7 @@ $$
 $$
 \begin{aligned}
 P ( X ) = \sum _ { i } P ( X = x _ { i } ) = 1 \\
-P ( a \le X \le b ) = \sum _ { i = a } ^ b P ( X = x _ { i } )
+P ( a \le X \le b ) = \sum _ { i = a } ^ { b } P ( X = x _ { i } )
 \end{aligned}
 $$
 
@@ -44,7 +44,7 @@ $$
 ### discrete PMF mean formula
 $$
 \begin{aligned}
-\mu = \sum _ { i } x _ i P ( X = x _ { i } ) \\
+\mu = \sum _ { i } x _ { i } P ( X = x _ { i } ) \\
 x = \text { real number } \\
 X = \text { random variable }
 \end{aligned}
@@ -54,7 +54,7 @@ $$
 ### discrete PMF standard deviation formula
 $$
 \begin{aligned}
-\sigma = \sqrt { \sum _ { i } ( x _ { i } - \mu ) ^ 2 P ( X = x _ { i } ) } \\
+\sigma = \sqrt { \sum _ { i } ( x _ { i } - \mu ) ^ { 2 } P ( X = x _ { i } ) } \\
 x = \text { real number } \\
 \mu = \text { mean } \\
 X = \text { random variable }
@@ -116,7 +116,7 @@ $$
 ### binomial PMF probability formula
 $$
 \begin{aligned}
-P ( X = k ) = \begin { p m a t r i x } n \\ k \end { p m a t r i x } p ^ k q ^ { n - k } \\
+P ( X = k ) = \begin { p m a t r i x } n \\ k \end { p m a t r i x } p ^ { k } q ^ { n - k } \\
 X = \text { random variable } \\
 n = \text { number of trials } \\
 k = \text { number of successes } \\
@@ -162,8 +162,8 @@ $$
 ### negative binomial PMF probability formula
 $$
 \begin{aligned}
-P ( X _ { 1 } = k _ { 1 } ) = \begin { p m a t r i x } k - 1 \\ r - 1 \end { p m a t r i x } p ^ r q ^ { k - r } \\
-P ( X _ { 2 } = k _ { 2 } ) = \begin { p m a t r i x } k + r - 1 \\ r - 1 \end { p m a t r i x } p ^ r q ^ k \\
+P ( X _ { 1 } = k _ { 1 } ) = \begin { p m a t r i x } k - 1 \\ r - 1 \end { p m a t r i x } p ^ { r } q ^ { k - r } \\
+P ( X _ { 2 } = k _ { 2 } ) = \begin { p m a t r i x } k + r - 1 \\ r - 1 \end { p m a t r i x } p ^ { r } q ^ { k } \\
 X = \text { random variable } \\
 k _ { 1 } = \text { number of trials until r successes } \\
 k _ { 2 } = \text { number of failures before rth success } \\
@@ -189,7 +189,7 @@ $$
 ### negative binomial PMF standard deviation formula
 $$
 \begin{aligned}
-\sigma = \sqrt \frac { r q } { p ^ 2 } \\
+\sigma = \sqrt \frac { r q } { p ^ { 2 } } \\
 r = \text { success number } \\
 q = \text { probability of failure } \\
 p = \text { probability of success }
@@ -237,7 +237,7 @@ $$
 ### geometric PMF standard deviation formula
 $$
 \begin{aligned}
-\sigma = \sqrt \frac { q } { p ^ 2 } \\
+\sigma = \sqrt \frac { q } { p ^ { 2 } } \\
 q = \text { probability of failure } \\
 p = \text { probability of success }
 \end{aligned}
@@ -304,7 +304,7 @@ $$
 ### poisson PMF probability formula
 $$
 \begin{aligned}
-P ( X = k ) = \frac { e ^ { - \lambda } \lambda ^ k } { k ! } \\
+P ( X = k ) = \frac { e ^ { - \lambda } \lambda ^ { k } } { k ! } \\
 X = \text { random variable } \\
 k = \text { number of events within interval } \\
 \lambda = \text { average number of events per interval }

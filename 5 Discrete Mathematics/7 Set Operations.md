@@ -121,7 +121,7 @@ $$
 ### union of set collection formula
 $$
 \begin{aligned}
-\bigcup _ { k \in K } ^ n A _ { k } = A _ { 1 } \cup A _ { 2 } \cup . . . \cup A _ { n } \\
+\bigcup _ { k \in K } ^ { n } A _ { k } = A _ { 1 } \cup A _ { 2 } \cup . . . \cup A _ { n } \\
 k = \text { index } \\
 K = \{ 1 , 2 , . . . n \} \\
 n = \text { number of sets }
@@ -136,7 +136,7 @@ $$
 ### intersection of set collection formula
 $$
 \begin{aligned}
-\bigcap _ { k \in K } ^ n A _ { k } = A _ { 1 } \cap A _ { 2 } \cap . . . \cap A _ { n } \\
+\bigcap _ { k \in K } ^ { n } A _ { k } = A _ { 1 } \cap A _ { 2 } \cap . . . \cap A _ { n } \\
 k = \text { index } \\
 K = \{ 1 , 2 , . . . n \} \\
 n = \text { number of sets }

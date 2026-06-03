@@ -57,7 +57,7 @@ $$
 ### boolean function formula
 $$
 \begin{aligned}
-f : \{ 0 , 1 \} ^ n \rightarrow \{ 0 , 1 \} \\
+f : \{ 0 , 1 \} ^ { n } \rightarrow \{ 0 , 1 \} \\
 n = \text { number of variables }
 \end{aligned}
 $$
@@ -70,7 +70,7 @@ $$
 ### boolean complexity formula
 $$
 \begin{aligned}
-N = 2 ^ n \\
+N = 2 ^ { n } \\
 n = \text { number of variables }
 \end{aligned}
 $$

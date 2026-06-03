@@ -95,9 +95,9 @@ $$
 ### test statistic formula
 $$
 \begin{aligned}
-T = \frac { X - X _ 0 } { S E ( X ) } \\
+T = \frac { X - X _ { 0 } } { S E ( X ) } \\
 X = \text { sample statistic } \\
-X _ 0 = \text { null hypothesis } \\
+X _ { 0 } = \text { null hypothesis } \\
 S E = \text { standard error }
 \end{aligned}
 $$
@@ -114,7 +114,7 @@ $$
 ### two-tail test formula
 $$
 \begin{aligned}
-H _ a : \quad \ne
+H _ { a } : \quad \ne
 \end{aligned}
 $$
 
@@ -126,7 +126,7 @@ $$
 ### left-tail test formula
 $$
 \begin{aligned}
-H _ a : \quad <
+H _ { a } : \quad <
 \end{aligned}
 $$
 
@@ -138,7 +138,7 @@ $$
 ### right-tail test formula
 $$
 \begin{aligned}
-H _ a : \quad >
+H _ { a } : \quad >
 \end{aligned}
 $$
 

@@ -77,7 +77,7 @@ K = \text { dielectric constant } \\
 \epsilon _ { 0 } = 8.85 \times 10 ^ { - 12 } \\
 K _ { m } = \text { relative permeability } \\
 \mu _ { 0 } = 4 \pi \times 10 ^ { - 7 } \\
-c = 3 \times 10 ^ 8
+c = 3 \times 10 ^ { 8 }
 \end{aligned}
 $$
 
@@ -96,7 +96,7 @@ $$
 ### average energy density formula
 $$
 \begin{aligned}
-u _ { a v g } = \frac { \epsilon _ { 0 } E _ { 0 } ^ 2 } { 2 } = \frac { B _ { 0 } ^ 2 } { 2 \mu _ { 0 } } \\
+u _ { a v g } = \frac { \epsilon _ { 0 } E _ { 0 } ^ { 2 } } { 2 } = \frac { B _ { 0 } ^ { 2 } } { 2 \mu _ { 0 } } \\
 \epsilon _ { 0 } = 8.85 \times 10 ^ { - 12 } \\
 E = \text { electric field } \\
 B = \text { magnetic field } \\
@@ -108,7 +108,7 @@ $$
 ### instantaneous energy density formula
 $$
 \begin{aligned}
-u = \epsilon _ { 0 } E ^ 2 = \frac { B ^ 2 } { \mu _ { 0 } } \\
+u = \epsilon _ { 0 } E ^ { 2 } = \frac { B ^ { 2 } } { \mu _ { 0 } } \\
 \epsilon _ { 0 } = 8.85 \times 10 ^ { - 12 } \\
 E = \text { electric field } \\
 B = \text { magnetic field } \\
@@ -125,8 +125,8 @@ $$
 ### average poynting formula
 $$
 \begin{aligned}
-S _ { a v g } = c ( \frac { \epsilon _ { 0 } E _ { 0 } ^ 2 } { 2 } ) = c ( \frac { B _ { 0 } ^ 2 } { 2 \mu _ { 0 } } ) \\
-c = 3 \times 10 ^ 8 \\
+S _ { a v g } = c ( \frac { \epsilon _ { 0 } E _ { 0 } ^ { 2 } } { 2 } ) = c ( \frac { B _ { 0 } ^ { 2 } } { 2 \mu _ { 0 } } ) \\
+c = 3 \times 10 ^ { 8 } \\
 u = \text { energy density } \\
 \epsilon _ { 0 } = 8.85 \times 10 ^ { - 12 } \\
 E = \text { electric field } \\
@@ -209,7 +209,7 @@ p _ { r a d } = \frac { F _ { \perp } } { A } = \frac { I } { c } \\
 F = \text { force } \\
 A = \text { area } \\
 I = \text { intensity } \\
-c = 3 \times 10 ^ 8
+c = 3 \times 10 ^ { 8 }
 \end{aligned}
 $$
 
@@ -221,7 +221,7 @@ p _ { r a d } = \frac { F _ { \perp } } { A } = \frac { 2 I } { c } \\
 F = \text { force } \\
 A = \text { area } \\
 I = \text { intensity } \\
-c = 3 \times 10 ^ 8
+c = 3 \times 10 ^ { 8 }
 \end{aligned}
 $$
 

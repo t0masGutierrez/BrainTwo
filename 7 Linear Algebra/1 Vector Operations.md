@@ -39,7 +39,7 @@ $$
 ### magnitude formula
 $$
 \begin{aligned}
-\| \vec x \| = \sqrt { x _ { 1 } ^ 2 + . . . + x _ { n } ^ 2 } \\
+\| \vec x \| = \sqrt { x _ { 1 } ^ { 2 } + . . . + x _ { n } ^ { 2 } } \\
 x , y = \text { coordinate } \\
 n = \text { number of coordinates }
 \end{aligned}
@@ -110,7 +110,7 @@ $$
 ### linear combination formula
 $$
 \begin{aligned}
-\vec y = \sum _ { i = 1 } ^ k c _ { i } \vec x _ { i } \\
+\vec y = \sum _ { i = 1 } ^ { k } c _ { i } \vec x _ { i } \\
 c = \text { scalar } \\
 \vec x = \text { vector } \\
 k = \text { number of vectors }

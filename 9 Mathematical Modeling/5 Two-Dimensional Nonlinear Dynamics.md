@@ -29,8 +29,8 @@ $$
 ### nonlinear system formula
 $$
 \begin{aligned}
-u _ 1 u _ { 2 } \\
-u ^ 2 \\
+u _ { 1 } u _ { 2 } \\
+u ^ { 2 } \\
 \sin ( u ) \\
 \exp ( u ) \\
 u _ { 1 } \circ u _ { 2 }
@@ -45,7 +45,7 @@ $$
 ### taylor series formula
 $$
 \begin{aligned}
-f ( u ) = \sum _ { n = 0 } ^ \infty \frac { f ^ { ( n ) } ( a ) } { n ! } ( u - a ) ^ n \\
+f ( u ) = \sum _ { n = 0 } ^ { \infty } \frac { f ^ { ( n ) } ( a ) } { n ! } ( u - a ) ^ { n } \\
 f ^ { ( n ) } = \text { nth derivative } \\
 a = \text { center }
 \end{aligned}
@@ -59,14 +59,14 @@ $$
 ### linearization formula
 $$
 \begin{aligned}
-\frac { d v } { d t } = A _ * v + R \\
-A _ * = \begin { b m a t r i x }
-\frac { \partial f } { \partial x } ( v _ * ) & \frac { \partial f } { \partial y } ( v _ * ) \\
-\frac { \partial g } { \partial x } ( v _ * ) & \frac { \partial g } { \partial y } ( v _ * )
+\frac { d v } { d t } = A _ { * } v + R \\
+A _ { * } = \begin { b m a t r i x }
+\frac { \partial f } { \partial x } ( v _ { * } ) & \frac { \partial f } { \partial y } ( v _ { * } ) \\
+\frac { \partial g } { \partial x } ( v _ { * } ) & \frac { \partial g } { \partial y } ( v _ { * } )
 \end { b m a t r i x } \\
 v = \begin { b m a t r i x }
-x - x _ * \\
-y - y _ *
+x - x _ { * } \\
+y - y _ { * }
 \end { b m a t r i x } \\
 R = \begin { b m a t r i x }
 R _ { 1 } \\
@@ -75,7 +75,7 @@ R _ { 2 }
 f , g = \text { velocity } \\
 v = \text { solution } \\
 t = \text { time } \\
-v _ * = \text { equilibrium point } \\
+v _ { * } = \text { equilibrium point } \\
 A = \text { jacobian } \\
 R = \text { remainder }
 \end{aligned}
@@ -89,9 +89,9 @@ $$
 ### continuous differentiable formula
 $$
 \begin{aligned}
-f , g : D \subset \mathbb R ^ 2 \rightarrow \mathbb R ^ 2 \land f , g \in C ^ 1 ( D ) \\
+f , g : D \subset \mathbb R ^ { 2 } \rightarrow \mathbb R ^ { 2 } \land f , g \in C ^ { 1 } ( D ) \\
 f , g = \text { velocity } \\
-C ^ 1 = \text { continuous differentiable } \\
+C ^ { 1 } = \text { continuous differentiable } \\
 D = \text { domain }
 \end{aligned}
 $$
@@ -117,9 +117,9 @@ $$
 ### hartman-grobman property formula
 $$
 \begin{aligned}
-\lambda _ { 1 } , \lambda _ { 2 } < 0 \implies \forall v _ { 0 } \in N _ \epsilon ( v _ * ) : \lim _ { t \rightarrow \infty } v ( t ) = v _ * \\
-( \lambda _ { 1 } > 0 ) \land ( \lambda _ { 2 } < 0 ) \implies \forall v _ { 0 } \in N _ \epsilon ( v _ * ) : \lim _ { t \rightarrow \infty } v ( t ) \ne v _ * \\
-\lambda _ { 1 } , \lambda _ { 2 } > 0 \implies \forall v _ { 0 } \in N _ \epsilon ( v _ * ) : \lim _ { t \rightarrow \infty } v ( t ) \ne v _ * \\
+\lambda _ { 1 } , \lambda _ { 2 } < 0 \implies \forall v _ { 0 } \in N _ { \epsilon } ( v _ { * } ) : \lim _ { t \rightarrow \infty } v ( t ) = v _ { * } \\
+( \lambda _ { 1 } > 0 ) \land ( \lambda _ { 2 } < 0 ) \implies \forall v _ { 0 } \in N _ { \epsilon } ( v _ { * } ) : \lim _ { t \rightarrow \infty } v ( t ) \ne v _ { * } \\
+\lambda _ { 1 } , \lambda _ { 2 } > 0 \implies \forall v _ { 0 } \in N _ { \epsilon } ( v _ { * } ) : \lim _ { t \rightarrow \infty } v ( t ) \ne v _ { * } \\
 \end{aligned}
 $$
 
@@ -148,12 +148,12 @@ $$
 ### periodic equilibrium property formula
 $$
 \begin{aligned}
-U = \{ v | \forall t \ge 0 : v ( t + P ) = v ( t ) \} \implies \exists v _ * \in U \\
+U = \{ v | \forall t \ge 0 : v ( t + P ) = v ( t ) \} \implies \exists v _ { * } \in U \\
 U = \text { range } \\
 v = \text { solution } \\
 t = \text { time } \\
 P = \text { period } \\
-v _ * = \text { equilibrium point }
+v _ { * } = \text { equilibrium point }
 \end{aligned}
 $$
 
@@ -166,8 +166,8 @@ $$
 ### poincare-bendixson property formula
 $$
 \begin{aligned}
-( R ' \subset R \subset \mathbb R ^ 2 ) \land \\
-( R \subset \mathbb R ^ 2 , \exists v _ { 0 } \in \mathbb R ^ 2 , \exists ( r > 0 ) \in \mathbb R : B _ { r } ( v _ { 0 } ) \supset R ) \land \\
+( R ' \subset R \subset \mathbb R ^ { 2 } ) \land \\
+( R \subset \mathbb R ^ { 2 } , \exists v _ { 0 } \in \mathbb R ^ { 2 } , \exists ( r > 0 ) \in \mathbb R : B _ { r } ( v _ { 0 } ) \supset R ) \land \\
 ( \forall x \in R : f ( x ) \ne 0 ) \land \\
 ( \partial R \le 0 ) \implies \\
 \exists v \in R , \forall t \ge 0 : v ( t + P ) = v ( t ) \\
@@ -188,11 +188,11 @@ $$
 ### nonlinear center property formula
 $$
 \begin{aligned}
-\frac { d E } { d t } ( v _ * ) = 0 \implies \exists \epsilon > 0 , \forall v \in N _ { \epsilon } ( v _ * ) , \forall t \ge 0 : v ( t + P ) = v ( t ) \\
+\frac { d E } { d t } ( v _ { * } ) = 0 \implies \exists \epsilon > 0 , \forall v \in N _ { \epsilon } ( v _ { * } ) , \forall t \ge 0 : v ( t + P ) = v ( t ) \\
 E = \text { first integral } \\
 v = \text { solution } \\
 t = \text { time } \\
-v _ * = \text { equilibrium point } \\
+v _ { * } = \text { equilibrium point } \\
 N = \text { neighborhood } \\
 P = \text { period }
 \end{aligned}
@@ -206,14 +206,14 @@ $$
 ### bifurcation formula
 $$
 \begin{aligned}
-\Delta h \implies \Delta ( h \times u _ * )
+\Delta h \implies \Delta ( h \times u _ { * } )
 \end{aligned}
 $$
 
 ---
 ### bifurcation example
-- $f ( u ) = u ^ 3 - u h$ 
-- $u _ * = 0 , \pm \sqrt h$ 
+- $f ( u ) = u ^ { 3 } - u h$ 
+- $u _ { * } = 0 , \pm \sqrt h$ 
 
 ---
 ### bifurcation example formula
@@ -238,9 +238,9 @@ $$
 ### bifurcation diagram formula
 $$
 \begin{aligned}
-h \times u _ * = \{ ( h , u _ * ) | f ( h , u _ * ) = 0 \} \\
+h \times u _ { * } = \{ ( h , u _ { * } ) | f ( h , u _ { * } ) = 0 \} \\
 h = \text { parameter } \\
-u _ * = \text { equilibrium point }
+u _ { * } = \text { equilibrium point }
 \end{aligned}
 $$
 

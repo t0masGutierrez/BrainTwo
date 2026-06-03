@@ -197,7 +197,7 @@ $$
 ### power formula
 $$
 \begin{aligned}
-P = I V = I ^ 2 R = \frac { V ^ 2 } { R } \\
+P = I V = I ^ { 2 } R = \frac { V ^ { 2 } } { R } \\
 I = \text { electric current } \\
 V = \text { voltage } \\
 R = \text { resistance }
@@ -272,7 +272,7 @@ $$
 ### power output
 $$
 \begin{aligned}
-P = I ^ 2 r \\
+P = I ^ { 2 } r \\
 I = \text { electric current } \\
 r = \text { internal resistance }
 \end{aligned}
@@ -287,7 +287,7 @@ $$
 ### net power formula
 $$
 \begin{aligned}
-P = I \epsilon \pm I ^ 2 r \\
+P = I \epsilon \pm I ^ { 2 } r \\
 I = \text { electric current } \\
 \epsilon = \text { emf } \\
 ( + ) = \text { charging } \\

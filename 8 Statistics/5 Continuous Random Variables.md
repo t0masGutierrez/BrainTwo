@@ -37,7 +37,7 @@ $$
 \begin{aligned}
 P ( X = x ) = 0 \\
 P ( X ) = \int _ { - \infty } ^ { \infty } f ( x ) d x = 1 \\
-P ( a \le X \le b ) = \int _ { a } ^ b f ( x ) d x
+P ( a \le X \le b ) = \int _ { a } ^ { b } f ( x ) d x
 \end{aligned}
 $$
 
@@ -53,7 +53,7 @@ $$
 ### continuous PDF standard deviation formula
 $$
 \begin{aligned}
-\sigma = \sqrt { \int _ { - \infty } ^ { \infty } ( x - \mu ) ^ 2 f ( x ) d x }
+\sigma = \sqrt { \int _ { - \infty } ^ { \infty } ( x - \mu ) ^ { 2 } f ( x ) d x }
 \end{aligned}
 $$
 
@@ -85,7 +85,7 @@ $$
 ### uniform PDF standard deviation formula
 $$
 \begin{aligned}
-\sigma = \sqrt { \frac { ( b - a ) ^ 2 } { 12 } } \\
+\sigma = \sqrt { \frac { ( b - a ) ^ { 2 } } { 12 } } \\
 a = \text { lower endpoint } \\
 b = \text { upper endpoint }
 \end{aligned}
@@ -99,7 +99,7 @@ $$
 ### normal PDF probability formula
 $$
 \begin{aligned}
-f ( x ) = \frac { \exp ( \frac { - ( x - \mu ) ^ 2 } { 2 \sigma ^ 2 } ) } { \sigma \sqrt { 2 \pi } } \\
+f ( x ) = \frac { \exp ( \frac { - ( x - \mu ) ^ { 2 } } { 2 \sigma ^ { 2 } } ) } { \sigma \sqrt { 2 \pi } } \\
 \mu = \text { mean } \\
 \sigma = \text { standard deviation }
 \end{aligned}
@@ -131,7 +131,7 @@ $$
 ### standard normal PDF probability formula
 $$
 \begin{aligned}
-f ( x ) = \frac { e ^ { - x ^ 2 / 2 } } { \sqrt { 2 \pi } } \\
+f ( x ) = \frac { e ^ { - x ^ { 2 } / 2 } } { \sqrt { 2 \pi } } \\
 x = \text { z-score }
 \end{aligned}
 $$
@@ -215,7 +215,7 @@ $$
 ### gamma PDF standard deviation formula
 $$
 \begin{aligned}
-\sigma = \sqrt \frac { \alpha } { \lambda ^ 2 } \\
+\sigma = \sqrt \frac { \alpha } { \lambda ^ { 2 } } \\
 \alpha = \text { event number } \\
 \lambda = \text { average number of events per time }
 \end{aligned}
@@ -229,7 +229,7 @@ $$
 ### t PDF probability formula
 $$
 \begin{aligned}
-f ( x ) = \frac { \Gamma ( \frac { d + 1 } { 2 } ) } { \Gamma ( \frac { d } { 2 } ) \sqrt { d \pi } } ( 1 + \frac { x ^ 2 } { d } ) ^ { - ( d + 1 ) / 2 } \\
+f ( x ) = \frac { \Gamma ( \frac { d + 1 } { 2 } ) } { \Gamma ( \frac { d } { 2 } ) \sqrt { d \pi } } ( 1 + \frac { x ^ { 2 } } { d } ) ^ { - ( d + 1 ) / 2 } \\
 
 \Gamma = \text { gamma } \\
 d = \text { degrees of freedom } \\
@@ -258,7 +258,7 @@ $$
 
 ---
 ### chi-square probability density function
-- probability as function of $\chi ^ 2$-statistic
+- probability as function of $\chi ^ { 2 }$-statistic
 
 ---
 ### chi-square PDF probability formula
@@ -324,7 +324,7 @@ $$
 ### F PDF standard deviation formula
 $$
 \begin{aligned}
-\sigma = \sqrt { \frac { 2 d _ { 2 } ^ 2 ( d _ { 1 } + d _ { 2 } - 2 ) } { d _ { 1 } ( d _ { 2 } - 2 ) ^ 2 ( d _ { 2 } - 4 ) } } \\
+\sigma = \sqrt { \frac { 2 d _ { 2 } ^ { 2 } ( d _ { 1 } + d _ { 2 } - 2 ) } { d _ { 1 } ( d _ { 2 } - 2 ) ^ { 2 } ( d _ { 2 } - 4 ) } } \\
 d = \text { degrees of freedom } \\
 n = \text { sample size }
 \end{aligned}

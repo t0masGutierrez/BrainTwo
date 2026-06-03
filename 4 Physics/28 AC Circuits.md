@@ -197,7 +197,7 @@ $$
 ### impedance formula
 $$
 \begin{aligned}
-Z = \sqrt { R ^ 2 + ( X _ { L } - X _ { C } ) ^ 2 } \\
+Z = \sqrt { R ^ { 2 } + ( X _ { L } - X _ { C } ) ^ { 2 } } \\
 R = \text { resistance } \\
 X = \text { reactance }
 \end{aligned}
@@ -226,7 +226,7 @@ $$
 ### average power formula
 $$
 \begin{aligned}
-P = I _ { r m s } V _ { r m s } \cos ( \phi ) = I _ { r m s } ^ 2 Z \cos ( \phi ) = \frac { V _ { r m s } ^ 2 } { Z } \cos ( \phi ) \\
+P = I _ { r m s } V _ { r m s } \cos ( \phi ) = I _ { r m s } ^ { 2 } Z \cos ( \phi ) = \frac { V _ { r m s } ^ { 2 } } { Z } \cos ( \phi ) \\
 I = \text { electric current } \\
 V = \text { voltage } \\
 \phi = \text { phase angle } \\
@@ -321,7 +321,7 @@ $$
 ### step down transformer power formula
 $$
 \begin{aligned}
-I _ 1 V _ { 1 } = I _ 2 V _ { 2 } \\
+I _ { 1 } V _ { 1 } = I _ { 2 } V _ { 2 } \\
 I = \text { electric current } \\
 V = \text { voltage }
 \end{aligned}

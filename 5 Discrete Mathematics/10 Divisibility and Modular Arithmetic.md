@@ -90,7 +90,7 @@ $$
 \begin{aligned}
 a \equiv b ( \text { mod } \  m ) \iff k = m | ( a - b ) \\
 n = \text { modulus } \\
-k = Z ^ +
+k = Z ^ { + }
 \end{aligned}
 $$
 

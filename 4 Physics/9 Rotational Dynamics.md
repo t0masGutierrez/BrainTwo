@@ -22,9 +22,9 @@ $$
 ### tangential torque formula
 $$
 \begin{aligned}
-\tau = r F _ \perp \\
+\tau = r F _ { \perp } \\
 r = \text { radius } \\
-F _ \perp = \text { perpendicular force }
+F _ { \perp } = \text { perpendicular force }
 \end{aligned}
 $$
 
@@ -37,7 +37,7 @@ $$
 ### lever torque formula
 $$
 \begin{aligned}
-\tau = r _ \perp F \\
+\tau = r _ { \perp } F \\
 r = \text { perpendicular radius } \\
 F = \text { force }
 \end{aligned}
@@ -111,7 +111,7 @@ $$
 ### net rotational work formula
 $$
 \begin{aligned}
-W _ { n e t } = \frac { 1 } { 2 } I ( \omega _ f ^ 2 - \omega _ i ^ 2 ) \\
+W _ { n e t } = \frac { 1 } { 2 } I ( \omega _ { f } ^ { 2 } - \omega _ { i } ^ { 2 } ) \\
 I = \text { moment of inertia } \\
 \omega = \text { angular velocity }
 \end{aligned}
@@ -141,7 +141,7 @@ $$
 ### rolling kinetic energy formula
 $$
 \begin{aligned}
-K = \frac { 1 } { 2 } M v _ { c m } ^ 2 + \frac { 1 } { 2 } I _ { c m } \omega ^ 2 \\
+K = \frac { 1 } { 2 } M v _ { c m } ^ { 2 } + \frac { 1 } { 2 } I _ { c m } \omega ^ { 2 } \\
 M = \text { system mass } \\
 v = \text { velocity } \\
 I = \text { moment of inertia } \\
@@ -373,7 +373,7 @@ $$
 ### center of uniform gravity property formula
 $$
 \begin{aligned}
-\vec g ( \vec r ) = \vec g _ 0 \implies \vec r _ { c g } = \vec r _ { c m } \\
+\vec g ( \vec r ) = \vec g _ { 0 } \implies \vec r _ { c g } = \vec r _ { c m } \\
 \vec g = \text { gravity } \\
 \vec r = \text { position }
 \end{aligned}
@@ -403,9 +403,9 @@ $$
 ### stress formula
 $$
 \begin{aligned}
-\sigma _ Y = \frac { F } { A } \\
-\sigma _ B = \Delta p \\
-\sigma _ S = \frac { F _ \parallel } { A } \\
+\sigma _ { Y } = \frac { F } { A } \\
+\sigma _ { B } = \Delta p \\
+\sigma _ { S } = \frac { F _ { \parallel } } { A } \\
 F = \text { force } \\
 A = \text { cross-section area } \\
 p = \text { pressure }
@@ -420,9 +420,9 @@ $$
 ### strain formula
 $$
 \begin{aligned}
-\epsilon _ Y = \frac { \Delta L } { L _ 0 } \\
-\epsilon _ B = \frac { \Delta V } { V _ 0 } \\
-\epsilon _ S = \frac { \Delta x } { h } \\
+\epsilon _ { Y } = \frac { \Delta L } { L _ { 0 } } \\
+\epsilon _ { B } = \frac { \Delta V } { V _ { 0 } } \\
+\epsilon _ { S } = \frac { \Delta x } { h } \\
 L = \text { length } \\
 V = \text { volume } \\
 x = \text { position } \\
@@ -440,8 +440,8 @@ $$
 $$
 \begin{aligned}
 Y = \frac { \sigma } { \epsilon } \\
-B = \frac { - \Delta p } { \Delta V / V _ 0 } \\
-S = \frac { F _ \parallel / A } { \Delta x / h } \\
+B = \frac { - \Delta p } { \Delta V / V _ { 0 } } \\
+S = \frac { F _ { \parallel } / A } { \Delta x / h } \\
 \sigma = \text { stress } \\
 \epsilon = \text { strain } \\
 p = \text { pressure } \\

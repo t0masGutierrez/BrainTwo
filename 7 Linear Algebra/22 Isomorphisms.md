@@ -99,17 +99,17 @@ $$
 ### isomorphism matrix kernel property formula
 $$
 \begin{aligned}
-( L : \mathcal V \rightarrow \mathcal W ) \land ( L _ { 1 } : \mathcal V \rightarrow \mathbb R ^ n ) \land ( [ L ( \vec v ) ] _ { C } = A _ { B C } [ \vec v ] _ { B } ) \implies \ker ( L ) = L ^ { - 1 } _ { 1 } ( \ker \  A _ { B C } ) \\
-( L : \mathcal V \rightarrow \mathcal W ) \land ( L _ { 1 } : \mathcal V \rightarrow \mathbb R ^ n ) \land ( [ L ( \vec v ) ] _ { C } = A _ { B C } [ \vec v ] _ { B } ) \implies \ker ( A _ { B C } ) = L _ { 1 } ( \ker \  L ) \\
-\vec v \in \text { ker } ( L ) \iff [ \vec v ] _ B \in \text { ker } ( A _ { B C } ) \\
-L ( \vec v ) = 0 _ { \mathcal W } \iff [ L ( \vec v ) ] _ C = 0 _ { \mathbb R ^ m } \\
+( L : \mathcal V \rightarrow \mathcal W ) \land ( L _ { 1 } : \mathcal V \rightarrow \mathbb R ^ { n } ) \land ( [ L ( \vec v ) ] _ { C } = A _ { B C } [ \vec v ] _ { B } ) \implies \ker ( L ) = L ^ { - 1 } _ { 1 } ( \ker \  A _ { B C } ) \\
+( L : \mathcal V \rightarrow \mathcal W ) \land ( L _ { 1 } : \mathcal V \rightarrow \mathbb R ^ { n } ) \land ( [ L ( \vec v ) ] _ { C } = A _ { B C } [ \vec v ] _ { B } ) \implies \ker ( A _ { B C } ) = L _ { 1 } ( \ker \  L ) \\
+\vec v \in \text { ker } ( L ) \iff [ \vec v ] _ { B } \in \text { ker } ( A _ { B C } ) \\
+L ( \vec v ) = 0 _ { \mathcal W } \iff [ L ( \vec v ) ] _ { C } = 0 _ { \mathbb R ^ { m } } \\
 L = \text { linear transformation } \\
-L _ 1 = \text { isomorphism } \\
+L _ { 1 } = \text { isomorphism } \\
 A = \text { matrix transformation } \\
 B = \text { domain basis } \\
 C = \text { codomain basis } \\
-{}[ L ( \vec v ) ] _ C = \text { image coordinate vector } \\
-{}[ \vec v ] _ B = \text { preimage coordinate vector }
+{}[ L ( \vec v ) ] _ { C } = \text { image coordinate vector } \\
+{}[ \vec v ] _ { B } = \text { preimage coordinate vector }
 \end{aligned}
 $$
 
@@ -122,15 +122,15 @@ $$
 ### isomorphism matrix range property formula
 $$
 \begin{aligned}
-( L : \mathcal V \rightarrow \mathcal W ) \land ( L _ { 2 } : \mathcal W \rightarrow \mathbb R ^ m ) \land ( [ L ( \vec v ) ] _ { C } = A _ { B C } [ \vec v ] _ { B } ) \implies \text { range } ( L ) = L ^ { - 1 } _ { 2 } ( \text { range } \  A _ { B C } ) \\
-L ( \vec v ) \in \text { range } ( L ) \iff [ L ( \vec v ) ] _ C \in \text { range } ( A _ { B C } ) \\
+( L : \mathcal V \rightarrow \mathcal W ) \land ( L _ { 2 } : \mathcal W \rightarrow \mathbb R ^ { m } ) \land ( [ L ( \vec v ) ] _ { C } = A _ { B C } [ \vec v ] _ { B } ) \implies \text { range } ( L ) = L ^ { - 1 } _ { 2 } ( \text { range } \  A _ { B C } ) \\
+L ( \vec v ) \in \text { range } ( L ) \iff [ L ( \vec v ) ] _ { C } \in \text { range } ( A _ { B C } ) \\
 L = \text { linear transformation } \\
-L _ 2 = \text { isomorphism } \\
+L _ { 2 } = \text { isomorphism } \\
 A = \text { matrix transformation } \\
 B = \text { domain basis } \\
 C = \text { codomain basis } \\
 L ( \vec v ) = \text { image } \\
-{}[ L ( \vec v ) ] _ C = \text { image coordinate vector }
+{}[ L ( \vec v ) ] _ { C } = \text { image coordinate vector }
 \end{aligned}
 $$
 
@@ -149,8 +149,8 @@ L = \text { linear transformation } \\
 A = \text { matrix transformation } \\
 B = \text { domain basis } \\
 C = \text { codomain basis } \\
-{}[ L ( \vec v ) ] _ C = \text { image coordinate vector } \\
-{}[ \vec v ] _ B = \text { preimage coordinate vector }
+{}[ L ( \vec v ) ] _ { C } = \text { image coordinate vector } \\
+{}[ \vec v ] _ { B } = \text { preimage coordinate vector }
 \end{aligned}
 $$
 
@@ -175,8 +175,8 @@ $$
 ### isomorphic real property formula
 $$
 \begin{aligned}
-\dim ( \mathcal V ) = n \implies \mathcal V \cong \mathbb R ^ n \\
-\mathcal V , \mathbb R ^ n = \text { isomorphic vector space } \\
+\dim ( \mathcal V ) = n \implies \mathcal V \cong \mathbb R ^ { n } \\
+\mathcal V , \mathbb R ^ { n } = \text { isomorphic vector space } \\
 n = \text { dimension } \\
 \end{aligned}
 $$

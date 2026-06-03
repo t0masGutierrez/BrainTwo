@@ -80,7 +80,7 @@ $$
 ### permutation formula
 $$
 \begin{aligned}
-P ( n , r ) = n ^ r \\
+P ( n , r ) = n ^ { r } \\
 n = \text { number of objects with replacement } \\
 r = \text { number of arrangements }
 \end{aligned}

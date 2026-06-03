@@ -131,7 +131,7 @@ $$
 ### calculate principal maxima
 - as the number of slits increase the principal maxima get brighter
 - number of principal maxima equal $2 \lfloor d / \lambda \rfloor + 1$   
-- intensity directly proportional $N ^ 2$ 
+- intensity directly proportional $N ^ { 2 }$ 
 - width inversely proportional $N$ 
 
 ---
@@ -141,7 +141,7 @@ $$
 ---
 ### calculate secondary maxima
 - number of secondary maxima equal $N - 2$ 
-- intensity inversely proportional $N ^ 2$ 
+- intensity inversely proportional $N ^ { 2 }$ 
 - width inversely proportional $N$ 
 
 ---
@@ -169,7 +169,7 @@ $$
 ### double slit intensity formula
 $$
 \begin{aligned}
-I = I _ { 0 } \cos ^ 2 ( \frac { \phi } { 2 } ) \\
+I = I _ { 0 } \cos ^ { 2 } ( \frac { \phi } { 2 } ) \\
 I = \text { intensity } \\
 \phi = \text { phase angle }
 \end{aligned}

@@ -37,7 +37,7 @@ $$
 \begin{aligned}
 P ( X ) = \sum _ { i } P ( X = x _ { i } ) = 1 \\
 P ( X = x ) = P ( X \le x ) - P ( X \le x - 1 ) \\
-P ( a \le X \le b ) = \sum _ { i = a } ^ b P ( X = x _ { i } ) \\
+P ( a \le X \le b ) = \sum _ { i = a } ^ { b } P ( X = x _ { i } ) \\
 P ( X \le x ) = \sum _ { x _ { i } \le x } P ( X = x _ { i } )
 \end{aligned}
 $$
@@ -64,7 +64,7 @@ $$
 ### expectation formula
 $$
 \begin{aligned}
-E [ X ] = \sum _ { i } x _ i P ( X = x _ { i } ) \\
+E [ X ] = \sum _ { i } x _ { i } P ( X = x _ { i } ) \\
 x = \text { real number } \\
 X = \text { random variable }
 \end{aligned}
@@ -78,7 +78,7 @@ $$
 ### variance formula
 $$
 \begin{aligned}
-\text { Var } ( X ) = E [ X ^ 2 ] - ( E [ X ] ) ^ 2 = E [ ( X - E [ X ] ) ^ 2 ] \\
+\text { Var } ( X ) = E [ X ^ { 2 } ] - ( E [ X ] ) ^ { 2 } = E [ ( X - E [ X ] ) ^ { 2 } ] \\
 E = \text { expectation } \\
 X = \text { random variable }
 \end{aligned}
@@ -108,7 +108,7 @@ $$
 $$
 \begin{aligned}
 \text { Var } ( X + c ) = \text { Var } ( X ) \\
-\text { Var } ( c X ) = c ^ 2 \text { Var } ( X )
+\text { Var } ( c X ) = c ^ { 2 } \text { Var } ( X )
 \end{aligned}
 $$
 
@@ -125,7 +125,7 @@ $$
 ### bernoulli PMF probability formula
 $$
 \begin{aligned}
-P ( X = k ) = \begin { p m a t r i x } 1 \\ k \end { p m a t r i x } p ^ k q ^ { 1 - k } \\
+P ( X = k ) = \begin { p m a t r i x } 1 \\ k \end { p m a t r i x } p ^ { k } q ^ { 1 - k } \\
 X = \text { random variable } \\
 k = \text { number of successes } \\
 p = \text { probability of success } \\
@@ -169,7 +169,7 @@ $$
 ### binomial PMF probability formula
 $$
 \begin{aligned}
-P ( X = k ) = \begin { p m a t r i x } n \\ k \end { p m a t r i x } p ^ k q ^ { n - k } \\
+P ( X = k ) = \begin { p m a t r i x } n \\ k \end { p m a t r i x } p ^ { k } q ^ { n - k } \\
 X = \text { random variable } \\
 n = \text { number of trials } \\
 k = \text { number of successes } \\
@@ -243,7 +243,7 @@ $$
 ### geometric PMF variance formula
 $$
 \begin{aligned}
-\text { Var } ( X ) = \frac { q } { p ^ 2 } \\
+\text { Var } ( X ) = \frac { q } { p ^ { 2 } } \\
 X = \text { random variable } \\
 q = \text { probability of failure } \\
 p = \text { probability of success }
@@ -266,8 +266,8 @@ $$
 ### negative binomial PMF probability formula
 $$
 \begin{aligned}
-P ( X _ { 1 } = k _ { 1 } ) = \begin { p m a t r i x } k - 1 \\ r - 1 \end { p m a t r i x } p ^ r q ^ { k - r } \\
-P ( X _ { 2 } = k _ { 2 } ) = \begin { p m a t r i x } k + r - 1 \\ r - 1 \end { p m a t r i x } p ^ r q ^ k \\
+P ( X _ { 1 } = k _ { 1 } ) = \begin { p m a t r i x } k - 1 \\ r - 1 \end { p m a t r i x } p ^ { r } q ^ { k - r } \\
+P ( X _ { 2 } = k _ { 2 } ) = \begin { p m a t r i x } k + r - 1 \\ r - 1 \end { p m a t r i x } p ^ { r } q ^ { k } \\
 X = \text { random variable } \\
 k _ { 1 } = \text { number of trials until rth success } \\
 k _ { 2 } = \text { number of failures before rth success } \\
@@ -293,7 +293,7 @@ $$
 ### negative binomial PMF variance formula
 $$
 \begin{aligned}
-\text { Var } ( X ) = \frac { r q } { p ^ 2 } \\
+\text { Var } ( X ) = \frac { r q } { p ^ { 2 } } \\
 r = \text { success number } \\
 q = \text { probability of failure } \\
 p = \text { probability of success }
@@ -363,7 +363,7 @@ $$
 ### poisson PMF probability formula
 $$
 \begin{aligned}
-P ( X = k ) = \frac { e ^ { - \lambda } \lambda ^ k } { k ! } \\
+P ( X = k ) = \frac { e ^ { - \lambda } \lambda ^ { k } } { k ! } \\
 \lambda \approx n p \\
 X = \text { random variable } \\
 k = \text { number of events within interval } \\

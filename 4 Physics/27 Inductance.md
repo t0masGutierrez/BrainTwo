@@ -52,7 +52,7 @@ $$
 ### solenoid self inductance formula
 $$
 \begin{aligned}
-L = \frac { \mu _ { 0 } N ^ 2 A } { L ' } \\
+L = \frac { \mu _ { 0 } N ^ { 2 } A } { L ' } \\
 \mu _ { 0 } = 4 \pi \times 10 ^ { - 7 } \\
 N = \text { number of loops } \\
 A = \text { area } \\
@@ -64,7 +64,7 @@ $$
 ### toroid self inductance formula
 $$
 \begin{aligned}
-L = \frac { \mu _ 0 N ^ 2 A } { 2 \pi R } \\
+L = \frac { \mu _ { 0 } N ^ { 2 } A } { 2 \pi R } \\
 \mu _ { 0 } = 4 \pi \times 10 ^ { - 7 } \\
 N = \text { number of loops } \\
 A = \text { area } \\
@@ -135,7 +135,7 @@ $$
 ### magnetic potential energy formula
 $$
 \begin{aligned}
-U = \frac { L I ^ 2 } { 2 } \\
+U = \frac { L I ^ { 2 } } { 2 } \\
 L = \text { self inductance } \\
 I = \text { electric current }
 \end{aligned}
@@ -149,7 +149,7 @@ $$
 ### energy density formula
 $$
 \begin{aligned}
-u = \frac { B ^ 2 } { 2 \mu _ { 0 } } \\
+u = \frac { B ^ { 2 } } { 2 \mu _ { 0 } } \\
 B = \text { magnetic field } \\
 \mu _ { 0 } = 4 \pi \times 10 ^ { - 7 }
 \end{aligned}
@@ -257,7 +257,7 @@ $$
 ### LC potential energy formula
 $$
 \begin{aligned}
-U = \frac { q ^ 2 } { 2 C } + \frac { L i ^ 2 } { 2 } = \frac { Q ^ 2 } { 2 C } = \frac { L I ^ 2 } { 2 } \\
+U = \frac { q ^ { 2 } } { 2 C } + \frac { L i ^ { 2 } } { 2 } = \frac { Q ^ { 2 } } { 2 C } = \frac { L I ^ { 2 } } { 2 } \\
 q = \text { electric charge } \\
 C = \text { capacitance } \\
 L = \text { self inductance } \\
@@ -281,7 +281,7 @@ $$
 \begin{aligned}
 x ( t ) = A \cos ( \omega t + \phi ) \\
 v ( t ) = - A \omega \sin ( \omega t + \phi ) \\
-a ( t ) = - A \omega ^ 2 \cos ( \omega t + \phi ) \\
+a ( t ) = - A \omega ^ { 2 } \cos ( \omega t + \phi ) \\
 \omega = \sqrt { \frac { k } { m } } \\
 A = \text { amplitude } \\
 \omega = \text { angular frequency } \\
@@ -312,7 +312,7 @@ $$
 \begin{aligned}
 q ( t ) = Q \cos ( \omega t + \phi ) \\
 \frac { d q } { d t } = - Q \omega \sin ( \omega t + \phi ) \\
-\frac { d i } { d t } = - Q \omega ^ 2 \cos ( \omega t + \phi ) \\
+\frac { d i } { d t } = - Q \omega ^ { 2 } \cos ( \omega t + \phi ) \\
 \omega = \sqrt { \frac { 1 } { L C } } \\
 Q = \text { electric charge } \\
 \omega = \text { angular frequency } \\
@@ -347,7 +347,7 @@ $$
 $$
 \begin{aligned}
 x ( t ) = A ( e ^ { - b t / 2 m } ) \cos ( \omega t + \phi ) \\
-\omega = \sqrt { ( \frac { k } { m } ) - ( \frac { b ^ 2 } { 4 m ^ 2 } ) } \\
+\omega = \sqrt { ( \frac { k } { m } ) - ( \frac { b ^ { 2 } } { 4 m ^ { 2 } } ) } \\
 A = \text { amplitude } \\
 b = \text { damping coefficient } \\
 t = \text { time } \\
@@ -368,7 +368,7 @@ $$
 $$
 \begin{aligned}
 q ( t ) = Q ( e ^ { - R t / 2 L } ) \cos ( \omega t + \phi ) \\
-\omega = \sqrt { ( \frac { 1 } { L C } ) - ( \frac { R ^ 2 } { 4 L ^ 2 } ) } \\
+\omega = \sqrt { ( \frac { 1 } { L C } ) - ( \frac { R ^ { 2 } } { 4 L ^ { 2 } } ) } \\
 Q = \text { electric charge } \\
 R = \text { resistance } \\
 t = \text { time } \\

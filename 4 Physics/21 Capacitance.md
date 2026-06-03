@@ -62,7 +62,7 @@ $$
 ### spherical capacitance formula
 $$
 \begin{aligned}
-C = 4 \pi \epsilon _ { 0 } \frac { R _ 1 R _ { 2 } } { R _ { 2 } - R _ { 1 } } \\
+C = 4 \pi \epsilon _ { 0 } \frac { R _ { 1 } R _ { 2 } } { R _ { 2 } - R _ { 1 } } \\
 \epsilon _ { 0 } = 8.85 \times 10 ^ { - 12 } \\
 R = \text { radius }
 \end{aligned}
@@ -111,7 +111,7 @@ $$
 ### electric potential energy formula
 $$
 \begin{aligned}
-U = \frac { Q V } { 2 } = \frac { C V ^ 2 } { 2 } = \frac { Q ^ 2 } { 2 C } \\
+U = \frac { Q V } { 2 } = \frac { C V ^ { 2 } } { 2 } = \frac { Q ^ { 2 } } { 2 C } \\
 Q = \text { electric charge } \\
 V = \text { voltage } \\
 C = \text { capacitance }
@@ -126,7 +126,7 @@ $$
 ### energy density formula
 $$
 \begin{aligned}
-u = \frac { 1 } { 2 } \epsilon _ { 0 } E ^ 2 \\
+u = \frac { 1 } { 2 } \epsilon _ { 0 } E ^ { 2 } \\
 \epsilon _ { 0 } = 8.85 \times 10 ^ { - 12 } \\
 E = \text { electric field }
 \end{aligned}

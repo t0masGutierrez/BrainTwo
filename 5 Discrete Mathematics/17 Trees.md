@@ -106,7 +106,7 @@ $$
 
 ---
 ### tree height upper bound
-- if N-ary tree of height *h* then there exists $N ^ h$ leaves
+- if N-ary tree of height *h* then there exists $N ^ { h }$ leaves
 
 ---
 ### balance N-ary tree

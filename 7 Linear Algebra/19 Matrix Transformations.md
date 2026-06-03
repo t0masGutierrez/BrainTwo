@@ -6,7 +6,7 @@
 $$
 \begin{aligned}
 ( L : \mathcal V \rightarrow \mathcal W ) \land ( B = \set { \vec b _ { 1 } , \dots , \vec b _ { n } } ) \implies \\
-\forall \vec v \in \mathcal V : L ( \vec v ) = L ( \sum _ { i = 1 } ^ n c _ i \vec b _ i ) = \sum _ { i = 1 } ^ n c _ i L ( \vec b _ i ) \\
+\forall \vec v \in \mathcal V : L ( \vec v ) = L ( \sum _ { i = 1 } ^ { n } c _ { i } \vec b _ { i } ) = \sum _ { i = 1 } ^ { n } c _ { i } L ( \vec b _ { i } ) \\
 L = \text { linear transformation } \\
 \mathcal V = \text { domain vector space } \\
 \mathcal W = \text { codomain vector space } \\

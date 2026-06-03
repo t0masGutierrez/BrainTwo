@@ -236,7 +236,7 @@ $$
 ### power set formula
 $$
 \begin{aligned}
-\mathcal { P } ( A ) = 2 ^ n \\
+\mathcal { P } ( A ) = 2 ^ { n } \\
 n = \text { number of elements }
 \end{aligned}
 $$

@@ -9,7 +9,7 @@
 ### base b expansion of integer n formula
 $$
 \begin{aligned}
-n = a _ k b ^ k + a _ { k - 1 } b ^ { k - 1 } + . . . + a _ 1 b ^ 1 + a _ 0 b ^ 0 \\
+n = a _ { k } b ^ { k } + a _ { k - 1 } b ^ { k - 1 } + . . . + a _ { 1 } b ^ { 1 } + a _ { 0 } b ^ { 0 } \\
 k = \{ 0 , 1 , 2 , . . . b \} \\
 a _ { k } = \text { digit }
 \end{aligned}
@@ -113,7 +113,7 @@ $$
 ### multiplication formula
 $$
 \begin{aligned}
-\sum _ { k = 0 } ^ n p _ { k _ { 1 } } q _ { k _ { 2 } } b ^ { k _ { 1 } + k _ { 2 } } = p _ 0 q _ 0 b ^ 0 + p _ 1 q _ 1 b ^ 2 + . . . + p _ { n - 1 } q _ { n - 1 } b ^ { 2 n - 2 } \\
+\sum _ { k = 0 } ^ { n } p _ { k _ { 1 } } q _ { k _ { 2 } } b ^ { k _ { 1 } + k _ { 2 } } = p _ { 0 } q _ { 0 } b ^ { 0 } + p _ { 1 } q _ { 1 } b ^ { 2 } + . . . + p _ { n - 1 } q _ { n - 1 } b ^ { 2 n - 2 } \\
 k = \{ 0 , 1 , 2 , . . . n - 1 \}
 \end{aligned}
 $$
@@ -126,7 +126,7 @@ $$
 ### modular exponentiation formula
 $$
 \begin{aligned}
-b ^ n \  \text { mod } \  m \\
+b ^ { n } \  \text { mod } \  m \\
 m = \text { modulus }
 \end{aligned}
 $$

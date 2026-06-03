@@ -282,7 +282,7 @@ $$
 ### complex number property formula
 $$
 \begin{aligned}
-| z | ^ 2 = ( z ) ( \overline z ) \\
+| z | ^ { 2 } = ( z ) ( \overline z ) \\
 | \overline z | = | z | \\
 | z w | = ( | z | ) ( | w | ) \\
 | z + w | \le | z | + | w | \\
@@ -321,7 +321,7 @@ $$
 \overline { z \cdot w } = \overline z \cdot \overline w \\
 z + \overline z = \text { Re } ( z ) \\
 z - \overline z = \text { Im } ( z ) \\
-z \cdot \overline z \in \mathbb R ^ + \iff z \ne 0
+z \cdot \overline z \in \mathbb R ^ { + } \iff z \ne 0
 \end{aligned}
 $$
 

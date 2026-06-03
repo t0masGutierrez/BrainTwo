@@ -22,8 +22,8 @@ $$
 \begin{aligned}
 \vec F _ { n e t } = \frac { d \vec p } { d t } =
 \begin{cases}
-F _ { x } = m \frac { d v _ x } { d t } \\
-F _ { y } = m \frac { d v _ y } { d t }
+F _ { x } = m \frac { d v _ { x } } { d t } \\
+F _ { y } = m \frac { d v _ { y } } { d t }
 \end { c a s e s } \\
 \vec p = \text { momentum } \\
 t = \text { time } \\
@@ -102,7 +102,7 @@ $$
 ### collision formula
 $$
 \begin{aligned}
-m _ 1 \rightarrow \leftarrow m _ 2 \implies \vec p _ i = \vec p _ f \\
+m _ { 1 } \rightarrow \leftarrow m _ { 2 } \implies \vec p _ { i } = \vec p _ { f } \\
 m = \text { mass } \\
 \vec p = \text { momentum }
 \end{aligned}
@@ -118,8 +118,8 @@ $$
 ### explosion formula
 $$
 \begin{aligned}
-v _ { 1 f } = \frac { - m _ 2 } { m _ 1 } v _ { 2 f } \\
-v _ { 2 f } = \frac { - m _ 1 } { m _ 2 } v _ { 1 f } \\
+v _ { 1 f } = \frac { - m _ { 2 } } { m _ { 1 } } v _ { 2 f } \\
+v _ { 2 f } = \frac { - m _ { 1 } } { m _ { 2 } } v _ { 1 f } \\
 m = \text { mass } \\
 v = \text { velocity }
 \end{aligned}
@@ -135,8 +135,8 @@ $$
 ### elastic collision formula
 $$
 \begin{aligned}
-v _ { 1 f } = \frac { m _ 1 - m _ 2 } { m _ 1 + m _ 2 } v _ { 1 i } + \frac { 2 m _ 2 } { m _ 1 + m _ 2 } v _ { 2 i } \\
-v _ { 2 f } = \frac { 2 m _ 1 } { m _ 1 + m _ 2 } v _ { 1 i } + \frac { m _ 2 - m _ 1 } { m _ 1 + m _ 2 } v _ { 2 i } \\
+v _ { 1 f } = \frac { m _ { 1 } - m _ { 2 } } { m _ { 1 } + m _ { 2 } } v _ { 1 i } + \frac { 2 m _ { 2 } } { m _ { 1 } + m _ { 2 } } v _ { 2 i } \\
+v _ { 2 f } = \frac { 2 m _ { 1 } } { m _ { 1 } + m _ { 2 } } v _ { 1 i } + \frac { m _ { 2 } - m _ { 1 } } { m _ { 1 } + m _ { 2 } } v _ { 2 i } \\
 m = \text { mass } \\
 v = \text { velocity }
 \end{aligned}
@@ -152,8 +152,8 @@ $$
 ### inelastic collision formula
 $$
 \begin{aligned}
-K _ i > K _ f \\
-\vec p _ i = \vec p _ f \\
+K _ { i } > K _ { f } \\
+\vec p _ { i } = \vec p _ { f } \\
 K = \text { kinetic energy } \\
 \vec p = \text { momentum }
 \end{aligned}
@@ -169,7 +169,7 @@ $$
 ### complete inelastic collision formula
 $$
 \begin{aligned}
-v _ f = \frac { m _ 1 v _ { 1 i } + m _ 2 v _ { 2 i } } { m _ 1 + m _ 2 } \\
+v _ { f } = \frac { m _ { 1 } v _ { 1 i } + m _ { 2 } v _ { 2 i } } { m _ { 1 } + m _ { 2 } } \\
 m = \text { mass } \\
 v = \text { velocity }
 \end{aligned}
@@ -236,7 +236,7 @@ $$
 $$
 \begin{aligned}
 \vec F _ { t h r u s t } = \vec v _ { e x } \frac { d m } { d t } \\
-\Delta \vec v = \vec v _ { e x } \ln ( \frac { m _ i } { m _ f } ) \\
+\Delta \vec v = \vec v _ { e x } \ln ( \frac { m _ { i } } { m _ { f } } ) \\
 \vec v = \text { velocity } \\
 m = \text { mass } \\
 t = \text { time }

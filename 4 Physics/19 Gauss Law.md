@@ -74,7 +74,7 @@ $$
 - uniform electric charge density equal total electric charge
 - non uniform electric charge density equal differential electric charge
 - uniform electric charge distribution equal $Q \frac { V _ { e n c } } { V }$ 
-- non uniform electric charge distribution equal $\int \rho \cdot 4 \pi r ^ 2 d r$ 
+- non uniform electric charge distribution equal $\int \rho \cdot 4 \pi r ^ { 2 } d r$ 
 
 ---
 ### gaussian surface
@@ -91,7 +91,7 @@ $$
 ### symmetrical electric charge distribution formula
 $$
 \begin{aligned}
-E = \frac { Q _ { e n c } } { \epsilon _ 0 A } \\
+E = \frac { Q _ { e n c } } { \epsilon _ { 0 } A } \\
 Q = \text { electric charge } \\
 \epsilon _ { 0 } = 8.85 \times 10 ^ { - 12 } \\
 A = \text { area }
@@ -107,7 +107,7 @@ $$
 ### spherical electric charge distribution formula
 $$
 \begin{aligned}
-E = \frac { Q _ { e n c } } { 4 \pi \epsilon _ { 0 } r ^ 2 } \\
+E = \frac { Q _ { e n c } } { 4 \pi \epsilon _ { 0 } r ^ { 2 } } \\
 Q = \text { electric charge } \\
 \epsilon _ { 0 } = 8.85 \times 10 ^ { - 12 } \\
 r = \text { distance }

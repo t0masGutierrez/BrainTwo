@@ -20,7 +20,7 @@ $$
 ### coordinatization formula
 $$
 \begin{aligned}
-{}[ \vec w ] _ { B } = [ c _ { 1 } , \dots , c _ { n } ] \iff \vec w = \sum _ { i = 1 } ^ n c _ i \vec v _ i \\
+{}[ \vec w ] _ { B } = [ c _ { 1 } , \dots , c _ { n } ] \iff \vec w = \sum _ { i = 1 } ^ { n } c _ { i } \vec v _ { i } \\
 {}[ \vec w ] _ { B } = \text { coordinate vector } \\
 B = \text { ordered basis } \\
 c = \text { coordinate } \\
@@ -57,7 +57,7 @@ $$
 ### change of coordinates formula
 $$
 \begin{aligned}
-{}[ \vec w ] _ B \rightarrow [ \vec w ] _ C
+{}[ \vec w ] _ { B } \rightarrow [ \vec w ] _ { C }
 \end{aligned}
 $$
 
@@ -106,7 +106,7 @@ $$
 \begin{aligned}
 {}[ \vec v _ { 1 } + \vec v _ { 2 } ] _ { B } = [ \vec v _ { 1 } ] _ { B } + [ \vec v _ { 2 } ] _ { B } \\
 {}[ c \vec v ] _ { B } = c [ \vec v ] _ { B } \\
-{}[ \sum _ { i = 1 } ^ k c _ { i } \vec v _ { i } ] _ { B } = \sum _ { i = 1 } ^ k c _ i [ \vec v _ { i } ] _ { B }
+{}[ \sum _ { i = 1 } ^ { k } c _ { i } \vec v _ { i } ] _ { B } = \sum _ { i = 1 } ^ { k } c _ { i } [ \vec v _ { i } ] _ { B }
 \end{aligned}
 $$
 

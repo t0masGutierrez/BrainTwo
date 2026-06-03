@@ -83,7 +83,7 @@ $$
 ### kernel solution property formula
 $$
 \begin{aligned}
-\text { ker } ( L ) = \{ \vec x \mid \vec x \in \mathbb R ^ n , A \in \mathcal M _ { m n } , L : \mathbb R ^ n \rightarrow \mathbb R ^ m , A \vec x = 0 \} \\
+\text { ker } ( L ) = \{ \vec x \mid \vec x \in \mathbb R ^ { n } , A \in \mathcal M _ { m n } , L : \mathbb R ^ { n } \rightarrow \mathbb R ^ { m } , A \vec x = 0 \} \\
 L = \text { linear transformation } \\
 A = \text { matrix transformation } \\
 \vec x = \text { preimage } \\
@@ -102,8 +102,8 @@ $$
 {}[ L ( \vec v ) ] _ { C } = A _ { B C } [ \vec v ] _ { B } \implies \dim ( \text { ker } \  L ) = \text { dim } ( \mathcal V ) - \text { rank } ( A ) \\
 L : \mathcal V \rightarrow \mathcal W \\
 L = \text { linear transformation } \\
-{}[ \vec v ] _ B = \text { preimage coordinate vector } \\
-{}[ L ( \vec v ) ] _ C = \text { image coordinate vector } \\
+{}[ \vec v ] _ { B } = \text { preimage coordinate vector } \\
+{}[ L ( \vec v ) ] _ { C } = \text { image coordinate vector } \\
 A = \text { matrix transformation } \\
 B = \text { domain basis } \\
 C = \text { codomain basis } \\
@@ -136,7 +136,7 @@ $$
 ### range column property formula
 $$
 \begin{aligned}
-\text { range } ( L ) = \{ A _ { B C } \vec x \mid \vec x \in \mathbb R ^ n , A _ { B C } \in \mathcal M _ { m n } , L : \mathbb R ^ n \rightarrow \mathbb R ^ m \} = \text { Col } ( A _ { B C } ) \\
+\text { range } ( L ) = \{ A _ { B C } \vec x \mid \vec x \in \mathbb R ^ { n } , A _ { B C } \in \mathcal M _ { m n } , L : \mathbb R ^ { n } \rightarrow \mathbb R ^ { m } \} = \text { Col } ( A _ { B C } ) \\
 L = \text { linear transformation } \\
 A = \text { matrix transformation } \\
 B = \text { domain basis } \\
@@ -157,8 +157,8 @@ $$
 {}[ L ( \vec v ) ] _ { C } = A _ { B C } [ \vec v ] _ { B } \implies \dim ( \text { range } \  L ) = \text { rank } ( A _ { B C } ) \\
 L : \mathcal V \rightarrow \mathcal W \\
 L = \text { linear transformation } \\
-{}[ \vec v ] _ B = \text { preimage coordinate vector } \\
-{}[ L ( \vec v ) ] _ C = \text { image coordinate vector } \\
+{}[ \vec v ] _ { B } = \text { preimage coordinate vector } \\
+{}[ L ( \vec v ) ] _ { C } = \text { image coordinate vector } \\
 A = \text { matrix transformation } \\
 B = \text { domain basis } \\
 C = \text { codomain basis } \\

@@ -37,8 +37,8 @@ $$
 \begin{aligned}
 P ( X = a ) = 0 \\
 P ( X ) = \int _ { - \infty } ^ { \infty } f ( x ) d x = 1 \\
-P ( X \le a ) = \int _ { - \infty } ^ a f ( x ) d x = F ( a ) \\
-P ( a \le X \le b ) = \int _ { a } ^ b f ( x ) d x = F ( b ) - F ( a )
+P ( X \le a ) = \int _ { - \infty } ^ { a } f ( x ) d x = F ( a ) \\
+P ( a \le X \le b ) = \int _ { a } ^ { b } f ( x ) d x = F ( b ) - F ( a )
 \end{aligned}
 $$
 
@@ -64,7 +64,7 @@ $$
 ### variance formula
 $$
 \begin{aligned}
-\text { Var } ( X ) = E [ X ^ 2 ] - ( E [ X ] ) ^ 2 = E [ ( X - E [ X ] ) ^ 2 ] \\
+\text { Var } ( X ) = E [ X ^ { 2 } ] - ( E [ X ] ) ^ { 2 } = E [ ( X - E [ X ] ) ^ { 2 } ] \\
 E = \text { expectation } \\
 X = \text { random variable }
 \end{aligned}
@@ -98,7 +98,7 @@ $$
 ### uniform PDF variance formula
 $$
 \begin{aligned}
-\text { Var } ( X ) = { \frac { ( b - a ) ^ 2 } { 12 } } \\
+\text { Var } ( X ) = { \frac { ( b - a ) ^ { 2 } } { 12 } } \\
 a = \text { lower endpoint } \\
 b = \text { upper endpoint }
 \end{aligned}
@@ -112,7 +112,7 @@ $$
 ### normal PDF probability formula
 $$
 \begin{aligned}
-f ( x ) = \frac { \exp ( \frac { - ( x - \mu ) ^ 2 } { 2 \sigma ^ 2 } ) } { \sigma \sqrt { 2 \pi } } \\
+f ( x ) = \frac { \exp ( \frac { - ( x - \mu ) ^ { 2 } } { 2 \sigma ^ { 2 } } ) } { \sigma \sqrt { 2 \pi } } \\
 \mu = \text { mean } \\
 \sigma = \text { standard deviation }
 \end{aligned}
@@ -131,7 +131,7 @@ $$
 ### normal PDF variance formula
 $$
 \begin{aligned}
-\text { Var } ( X ) = \sigma ^ 2 \\
+\text { Var } ( X ) = \sigma ^ { 2 } \\
 \sigma = \text { standard deviation }
 \end{aligned}
 $$
@@ -144,7 +144,7 @@ $$
 ### standard normal PDF probability formula
 $$
 \begin{aligned}
-f ( x ) = \frac { \exp ( \frac { - x ^ 2 } { 2 } ) } { \sqrt { 2 \pi } } \\
+f ( x ) = \frac { \exp ( \frac { - x ^ { 2 } } { 2 } ) } { \sqrt { 2 \pi } } \\
 x = \text { z-score }
 \end{aligned}
 $$
@@ -192,7 +192,7 @@ $$
 ### exponential PDF variance formula
 $$
 \begin{aligned}
-\text { Var } ( X ) = \frac { 1 } { \lambda ^ 2 } \\
+\text { Var } ( X ) = \frac { 1 } { \lambda ^ { 2 } } \\
 \lambda = \text { average number of events per time }
 \end{aligned}
 $$
@@ -205,7 +205,7 @@ $$
 ### gamma PDF probability formula
 $$
 \begin{aligned}
-f ( x ) = \frac { \lambda ^ r e ^ { - \lambda x } x ^ { r - 1 } } { \Gamma ( r ) } \\
+f ( x ) = \frac { \lambda ^ { r } e ^ { - \lambda x } x ^ { r - 1 } } { \Gamma ( r ) } \\
 \Gamma ( r ) = \int _ { 0 } ^ { \infty } e ^ { - x } x ^ { r - 1 } d x \\
 \lambda = \text { average number of events per time } \\
 r = \text { event number } \\
@@ -228,7 +228,7 @@ $$
 ### gamma PDF variance formula
 $$
 \begin{aligned}
-\text { Var } ( X ) = \frac { r } { \lambda ^ 2 } \\
+\text { Var } ( X ) = \frac { r } { \lambda ^ { 2 } } \\
 r = \text { event number } \\
 \lambda = \text { average number of events per time }
 \end{aligned}
@@ -243,7 +243,7 @@ $$
 $$
 \begin{aligned}
 f ( x ) = \frac { x ^ { r - 1 } ( 1 - x ) ^ { k - 1 } } { \beta ( r , k ) } \\
-\beta ( r , k ) = \int _ { 0 } ^ 1 x ^ { r - 1 } ( 1 - x ) ^ { k - 1 } d x \\
+\beta ( r , k ) = \int _ { 0 } ^ { 1 } x ^ { r - 1 } ( 1 - x ) ^ { k - 1 } d x \\
 x = \text { unit number } \\
 r , k = \text { parameter } \\
 \beta = \text { beta }
@@ -263,7 +263,7 @@ $$
 ### beta PDF variance formula
 $$
 \begin{aligned}
-\text { Var } ( X ) = \frac { r k } { ( r + k ) ^ 2 ( r + k + 1 ) } \\
+\text { Var } ( X ) = \frac { r k } { ( r + k ) ^ { 2 } ( r + k + 1 ) } \\
 r , k = \text { parameter }
 \end{aligned}
 $$

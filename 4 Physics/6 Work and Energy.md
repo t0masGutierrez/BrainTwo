@@ -34,9 +34,9 @@ $$
 ### work direction property formula
 $$
 \begin{aligned}
-0 ^ \circ \le \theta < 90 ^ \circ \implies W > 0 \\
-90 ^ \circ < \theta \le 180 ^ \circ \implies W < 0 \\
-\theta = 90 ^ \circ \implies W = 0
+0 ^ { \circ } \le \theta < 90 ^ { \circ } \implies W > 0 \\
+90 ^ { \circ } < \theta \le 180 ^ { \circ } \implies W < 0 \\
+\theta = 90 ^ { \circ } \implies W = 0
 \end{aligned}
 $$
 
@@ -51,7 +51,7 @@ $$
 ### kinetic energy formula
 $$
 \begin{aligned}
-K = \frac { 1 } { 2 } m v ^ 2 \\
+K = \frac { 1 } { 2 } m v ^ { 2 } \\
 m = \text { mass } \\
 v = \text { velocity }
 \end{aligned}
@@ -65,7 +65,7 @@ $$
 ### net work formula
 $$
 \begin{aligned}
-W _ { n e t } = K _ f - K _ i \\
+W _ { n e t } = K _ { f } - K _ { i } \\
 K = \text { kinetic energy }
 \end{aligned}
 $$
@@ -119,7 +119,7 @@ $$
 ### gravitational potential energy formula
 $$
 \begin{aligned}
-U _ g = m g y \\
+U _ { g } = m g y \\
 m = \text { mass } \\
 g = \text { gravity } \\
 y = \text { position }
@@ -134,7 +134,7 @@ $$
 ### elastic potential energy formula
 $$
 \begin{aligned}
-U _ { e l } = \frac { 1 } { 2 } k x ^ 2 \\
+U _ { e l } = \frac { 1 } { 2 } k x ^ { 2 } \\
 k = \text { spring constant } \\
 x = \text { displacement }
 \end{aligned}
@@ -175,7 +175,7 @@ $$
 ### nonconservative work formula
 $$
 \begin{aligned}
-E _ i + W _ { n o n c o n s } = E _ f \\
+E _ { i } + W _ { n o n c o n s } = E _ { f } \\
 E = \text { mechanical energy } \\
 W = \text { work }
 \end{aligned}
@@ -191,7 +191,7 @@ $$
 $$
 \begin{aligned}
 E _ { i } = E _ { f } \\
-K _ i + U _ i = K _ f + U _ f \\
+K _ { i } + U _ { i } = K _ { f } + U _ { f } \\
 E = \text { mechanical energy } \\
 K = \text { kinetic energy } \\
 U = \text { potential energy }
@@ -235,7 +235,7 @@ $$
 ### equilibrium point formula
 $$
 \begin{aligned}
-F _ x = 0
+F _ { x } = 0
 \end{aligned}
 $$
 
@@ -247,7 +247,7 @@ $$
 ### stable equilibrium point formula
 $$
 \begin{aligned}
-\frac { d ^ 2 E } { d x ^ 2 } > 0 \\
+\frac { d ^ { 2 } E } { d x ^ { 2 } } > 0 \\
 E = \text { mechanical energy } \\
 x = \text { position }
 \end{aligned}
@@ -261,7 +261,7 @@ $$
 ### unstable equilibrium point formula
 $$
 \begin{aligned}
-\frac { d ^ 2 E } { d x ^ 2 } < 0 \\
+\frac { d ^ { 2 } E } { d x ^ { 2 } } < 0 \\
 E = \text { mechanical energy } \\
 x = \text { position }
 \end{aligned}

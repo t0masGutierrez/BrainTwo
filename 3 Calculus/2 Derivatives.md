@@ -61,7 +61,7 @@ $$
 $$
 \begin{aligned}
 \lim _ { x \to c } f ( x ) = f ( c ) \\
-\lim _ { x \to c ^ - } f ( x ) = \lim _ { x \to c ^ + } f ( x ) \\
+\lim _ { x \to c ^ { - } } f ( x ) = \lim _ { x \to c ^ { + } } f ( x ) \\
 \lim _ { x \to c } f ( x ) \ne \pm \infty
 \end{aligned}
 $$
@@ -112,7 +112,7 @@ $$
 ### power rule formula
 $$
 \begin{aligned}
-\frac { d } { d x } x ^ n = n x ^ { n - 1 }
+\frac { d } { d x } x ^ { n } = n x ^ { n - 1 }
 \end{aligned}
 $$
 
@@ -148,7 +148,7 @@ $$
 ### quotient rule formula
 $$
 \begin{aligned}
-\frac { d } { d x } f ( x ) \div g ( x ) = \frac { f ' ( x ) g ( x ) - f ( x ) g ' ( x ) } { g ^ 2 ( x ) }
+\frac { d } { d x } f ( x ) \div g ( x ) = \frac { f ' ( x ) g ( x ) - f ( x ) g ' ( x ) } { g ^ { 2 } ( x ) }
 \end{aligned}
 $$
 

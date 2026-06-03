@@ -8,7 +8,7 @@ $$
 \begin{aligned}
 \log ( 1 ) = 0 \\
 \log ( 10 ) = 1 \\
-\log ( a ^ n ) = n \times \log ( a ) \\
+\log ( a ^ { n } ) = n \times \log ( a ) \\
 \log ( a b ) = \log ( a ) + \log ( b ) \\
 \log ( \frac { a } { b } ) = \log ( a ) - \log ( b ) \\
 \end{aligned}
@@ -18,8 +18,8 @@ $$
 ### natural logarithm property
 $$
 \begin{aligned}
-\ln ( e ^ x ) = x \\
-y = \ln ( x ) \to x = e ^ y \\
+\ln ( e ^ { x } ) = x \\
+y = \ln ( x ) \to x = e ^ { y } \\
 e ^ { \ln ( x ) } = x
 \end{aligned}
 $$
@@ -53,13 +53,13 @@ $$
 ### exponential property
 $$
 \begin{aligned}
-n ^ 0 = 1 \\
-n ^ 1 = n \\
+n ^ { 0 } = 1 \\
+n ^ { 1 } = n \\
 n ^ { - 1 } = \frac { 1 } { n } \\
-\sqrt [ b ] { x ^ a } = n ^ { \frac { a } { b } } \\
-\frac { n ^ a } { n ^ b } = n ^ { a - b } \\
-( n ^ a ) ^ b = n ^ { a b } \\
-n ^ a \times n ^ b = n ^ { a + b } \\
+\sqrt [ b ] { x ^ { a } } = n ^ { \frac { a } { b } } \\
+\frac { n ^ { a } } { n ^ { b } } = n ^ { a - b } \\
+( n ^ { a } ) ^ { b } = n ^ { a b } \\
+n ^ { a } \times n ^ { b } = n ^ { a + b } \\
 \end{aligned}
 $$
 
@@ -68,8 +68,8 @@ $$
 $$
 \begin{aligned}
 e ^ { \ln ( x ) } = x \\
-y = e ^ x \to x = \ln ( y ) \\
-\ln ( e ^ x ) = x
+y = e ^ { x } \to x = \ln ( y ) \\
+\ln ( e ^ { x } ) = x
 \end{aligned}
 $$
 
@@ -77,7 +77,7 @@ $$
 ### natural exponential derivative
 $$
 \begin{aligned}
-\frac { d } { d x } e ^ u = e ^ u d u \\
+\frac { d } { d x } e ^ { u } = e ^ { u } d u \\
 u = g ( x ) \\
 d u = g ' ( x ) d x
 \end{aligned}
@@ -87,7 +87,7 @@ $$
 ### natural exponential integral
 $$
 \begin{aligned}
-\int e ^ u d u = e ^ u + c \\
+\int e ^ { u } d u = e ^ { u } + c \\
 u = g ( x ) \\
 d u = g ' ( x ) d x
 \end{aligned}
@@ -106,8 +106,8 @@ $$
 $$
 \begin{aligned}
 a ^ { \log _ { x } ( x ) } = x \\
-x = \log _ { a } ( y ) \to y = a ^ x \\
-\log _ { a } ( a ^ x ) = x
+x = \log _ { a } ( y ) \to y = a ^ { x } \\
+\log _ { a } ( a ^ { x } ) = x
 \end{aligned}
 $$
 
@@ -119,7 +119,7 @@ $$
 ### base exponential formula
 $$
 \begin{aligned}
-a ^ x = e ^ { x \ln ( a ) }
+a ^ { x } = e ^ { x \ln ( a ) }
 \end{aligned}
 $$
 
@@ -135,7 +135,7 @@ $$
 ### different base derivative rules
 $$
 \begin{aligned}
-\frac { d } { d x } a ^ u = \ln ( a ) a ^ u \frac { d u } { d x } \\
+\frac { d } { d x } a ^ { u } = \ln ( a ) a ^ { u } \frac { d u } { d x } \\
 \frac { d } { d x } \log _ { a } ( u ) = \frac { 1 } { \ln ( a ) u } \frac { d u } { d x }
 \end{aligned}
 $$
@@ -144,7 +144,7 @@ $$
 ### different base integral rules
 $$
 \begin{aligned}
-\int a ^ u d u = \frac { a ^ u } { \ln ( a ) } + c \\
+\int a ^ { u } d u = \frac { a ^ { u } } { \ln ( a ) } + c \\
 \int \log _ { a } ( u ) d u = \frac { \ln ( u ) } { \ln ( a ) } + c
 \end{aligned}
 $$
@@ -182,12 +182,12 @@ $$
 ### inverse trigonometric derivative rules
 $$
 \begin{aligned}
-\frac { d } { d x } \arcsin ( u ) = \frac { u ' } { \sqrt { 1 - u ^ 2 } } \\
-\frac { d } { d x } \arccos ( u ) = \frac { - u ' } { \sqrt { 1 - u ^ 2 } } \\
-\frac { d } { d x } \arctan ( u ) = \frac { u ' } { 1 + u ^ 2 } \\
-\frac { d } { d x } \text { arccot } ( u ) = \frac { - u ' } { 1 + u ^ 2 } \\
-\frac { d } { d x } \text { arcsec } ( u ) = \frac { u ' } { | u | \sqrt { u ^ 2 - 1 } } \\
-\frac { d } { d x } \text { arccsc } ( u ) = \frac { - u ' } { | u | \sqrt { u ^ 2 - 1 } }
+\frac { d } { d x } \arcsin ( u ) = \frac { u ' } { \sqrt { 1 - u ^ { 2 } } } \\
+\frac { d } { d x } \arccos ( u ) = \frac { - u ' } { \sqrt { 1 - u ^ { 2 } } } \\
+\frac { d } { d x } \arctan ( u ) = \frac { u ' } { 1 + u ^ { 2 } } \\
+\frac { d } { d x } \text { arccot } ( u ) = \frac { - u ' } { 1 + u ^ { 2 } } \\
+\frac { d } { d x } \text { arcsec } ( u ) = \frac { u ' } { | u | \sqrt { u ^ { 2 } - 1 } } \\
+\frac { d } { d x } \text { arccsc } ( u ) = \frac { - u ' } { | u | \sqrt { u ^ { 2 } - 1 } }
 \end{aligned}
 $$
 
@@ -195,9 +195,9 @@ $$
 ### inverse trigonometric integral rules
 $$
 \begin{aligned}
-\int \frac { d u } { \sqrt { a ^ 2 - u ^ 2 } } = \arcsin ( \frac { u } { a } ) + c \\
-\int \frac { d u } { a ^ 2 + u ^ 2 } = \frac { 1 } { a } \arctan ( \frac { u } { a } ) + c \\
-\int \frac { d u } { u \sqrt { u ^ 2 - a ^ 2 } } = \frac { 1 } { a } \text { arcsec } ( \frac { | u | } { a } ) + c
+\int \frac { d u } { \sqrt { a ^ { 2 } - u ^ { 2 } } } = \arcsin ( \frac { u } { a } ) + c \\
+\int \frac { d u } { a ^ { 2 } + u ^ { 2 } } = \frac { 1 } { a } \arctan ( \frac { u } { a } ) + c \\
+\int \frac { d u } { u \sqrt { u ^ { 2 } - a ^ { 2 } } } = \frac { 1 } { a } \text { arcsec } ( \frac { | u | } { a } ) + c
 \end{aligned}
 $$
 
@@ -210,8 +210,8 @@ $$
 ### hyperbolic formula
 $$
 \begin{aligned}
-\sinh ( u ) = \frac { e ^ u - e ^ { - u } } { 2 } \\
-\cosh ( u ) = \frac { e ^ u + e ^ { - u } } { 2 } \\
+\sinh ( u ) = \frac { e ^ { u } - e ^ { - u } } { 2 } \\
+\cosh ( u ) = \frac { e ^ { u } + e ^ { - u } } { 2 } \\
 \tanh ( u ) = \frac { \sinh ( u ) } { \cosh ( u ) } \\
 \text { csch } ( u ) = \frac { 1 } { \sinh ( u ) } \\
 \text { sech } ( u ) = \frac { 1 } { \cosh ( u ) } \\
@@ -235,8 +235,8 @@ $$
 \begin{aligned}
 \frac { d } { d x } \sinh ( u ) = \cosh ( u ) u ' \\
 \frac { d } { d x } \cosh ( u ) = \sinh ( u ) u ' \\
-\frac { d } { d x } \tanh ( u ) = \text { sech } ^ 2 ( u ) u ' \\
-\frac { d } { d x } \coth ( u ) = - \text { csch } ^ 2 ( u ) u ' \\
+\frac { d } { d x } \tanh ( u ) = \text { sech } ^ { 2 } ( u ) u ' \\
+\frac { d } { d x } \coth ( u ) = - \text { csch } ^ { 2 } ( u ) u ' \\
 \frac { d } { d x } \text { sech } ( u ) = - \text { sech } ( u ) \tanh ( u ) u ' \\
 \frac { d } { d x } \text { csch } ( u ) = - \text { csch } ( u ) \coth ( u ) u '
 \end{aligned}
@@ -248,8 +248,8 @@ $$
 \begin{aligned}
 \int \cosh ( u ) d u = \sinh ( u ) + c \\
 \int \sinh ( u ) d u = \cosh ( u ) + c \\
-\int \text { sech } ^ 2 ( u ) d u = \tanh ( u ) + c \\
-\int \text { csch } ^ 2 ( u ) d u = - \text { coth } ( u ) + c \\
+\int \text { sech } ^ { 2 } ( u ) d u = \tanh ( u ) + c \\
+\int \text { csch } ^ { 2 } ( u ) d u = - \text { coth } ( u ) + c \\
 \int \text { sech } ( u ) \tanh ( u ) d u = - \text { sech } ( u ) + c \\
 \int \text { csch } ( u ) \text { coth } ( u ) d u = - \text { csch } ( u ) + c \\
 \end{aligned}
@@ -271,12 +271,12 @@ $$
 ### inverse hyperbolic formula
 $$
 \begin{aligned}
-\text { arcsinh } ( u ) = \ln ( u + \sqrt { u ^ 2 + 1 } ) \\
-\text { arccosh } ( u ) = \ln ( u + \sqrt { u ^ 2 - 1 } ) \\
+\text { arcsinh } ( u ) = \ln ( u + \sqrt { u ^ { 2 } + 1 } ) \\
+\text { arccosh } ( u ) = \ln ( u + \sqrt { u ^ { 2 } - 1 } ) \\
 \text { arctanh } ( u ) = \frac { 1 } { 2 } \ln ( \frac { 1 + u } { 1 - u } ) \\
 \text { arccoth } ( u ) = \frac { 1 } { 2 } \ln ( \frac { u + 1 } { u - 1 } ) \\
-\text { arccsch } ( u ) = \ln ( \frac { 1 } { u } + \frac { \sqrt { 1 + u ^ 2 } } { | u | } ) \\
-\text { arcsech } ( u ) = \ln ( \frac { 1 + \sqrt { 1 - u ^ 2 } } { u } )
+\text { arccsch } ( u ) = \ln ( \frac { 1 } { u } + \frac { \sqrt { 1 + u ^ { 2 } } } { | u | } ) \\
+\text { arcsech } ( u ) = \ln ( \frac { 1 + \sqrt { 1 - u ^ { 2 } } } { u } )
 \end{aligned}
 $$
 
@@ -294,12 +294,12 @@ $$
 ### inverse hyperbolic derivative rules
 $$
 \begin{aligned}
-\frac { d } { d x } \text { arcsinh } ( u ) = \frac { u ' } { \sqrt { u ^ 2 + 1 } } \\
-\frac { d } { d x } \text { arccosh } ( u ) = \frac { u ' } { \sqrt { u ^ 2 - 1 } } \\
-\frac { d } { d x } \text { arctanh } ( u ) = \frac { u ' } { 1 - u ^ 2 } \\
-\frac { d } { d x } \text { arccoth } ( u ) = \frac { u ' } { 1 - u ^ 2 } \\
-\frac { d } { d x } \text { arcsech } ( u ) = \frac { - u ' } { u \sqrt { 1 - u ^ 2 } } \\
-\frac { d } { d x } \text { arccsch } ( u ) = \frac { - u ' } { | u | \sqrt { 1 + u ^ 2 } }
+\frac { d } { d x } \text { arcsinh } ( u ) = \frac { u ' } { \sqrt { u ^ { 2 } + 1 } } \\
+\frac { d } { d x } \text { arccosh } ( u ) = \frac { u ' } { \sqrt { u ^ { 2 } - 1 } } \\
+\frac { d } { d x } \text { arctanh } ( u ) = \frac { u ' } { 1 - u ^ { 2 } } \\
+\frac { d } { d x } \text { arccoth } ( u ) = \frac { u ' } { 1 - u ^ { 2 } } \\
+\frac { d } { d x } \text { arcsech } ( u ) = \frac { - u ' } { u \sqrt { 1 - u ^ { 2 } } } \\
+\frac { d } { d x } \text { arccsch } ( u ) = \frac { - u ' } { | u | \sqrt { 1 + u ^ { 2 } } }
 \end{aligned}
 $$
 
@@ -307,9 +307,9 @@ $$
 ### inverse hyperbolic integral rules
 $$
 \begin{aligned}
-\int \frac { d u } { \sqrt { a ^ 2 \pm u ^ 2 } } = \ln ( u + \sqrt { a ^ 2 \pm u ^ 2 } ) + c \\
-\int \frac { d u } { a ^ 2 - u ^ 2 } = \frac { 1 } { 2 a } \ln | \frac { a + u } { a - u } | + c \\
-\int \frac { d u } { u \sqrt { a ^ 2 \pm u ^ 2 } } = \frac { 1 } { a } \ln ( \frac { a + \sqrt { a ^ 2 \pm u ^ 2 } } { | u | } ) + c
+\int \frac { d u } { \sqrt { a ^ { 2 } \pm u ^ { 2 } } } = \ln ( u + \sqrt { a ^ { 2 } \pm u ^ { 2 } } ) + c \\
+\int \frac { d u } { a ^ { 2 } - u ^ { 2 } } = \frac { 1 } { 2 a } \ln | \frac { a + u } { a - u } | + c \\
+\int \frac { d u } { u \sqrt { a ^ { 2 } \pm u ^ { 2 } } } = \frac { 1 } { a } \ln ( \frac { a + \sqrt { a ^ { 2 } \pm u ^ { 2 } } } { | u | } ) + c
 \end{aligned}
 $$
 

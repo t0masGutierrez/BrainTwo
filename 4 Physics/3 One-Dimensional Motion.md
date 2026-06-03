@@ -19,7 +19,7 @@ $$
 ### distance formula
 $$
 \begin{aligned}
-d = \sum _ n | \Delta x _ n | \\
+d = \sum _ { n } | \Delta x _ { n } | \\
 x = \text { position }
 \end{aligned}
 $$
@@ -90,7 +90,7 @@ $$
 ### instantaneous velocity formula
 $$
 \begin{aligned}
-v = \frac { d x } { d t } = v _ 0 + \int a \cdot d t \\
+v = \frac { d x } { d t } = v _ { 0 } + \int a \cdot d t \\
 x = \text { position } \\
 t = \text { time } \\
 v = \text { velocity } \\
@@ -121,7 +121,7 @@ $$
 ### instantaneous acceleration formula
 $$
 \begin{aligned}
-a = \frac { d v } { d t } = \frac { d ^ 2 x } { d t ^ 2 } \\
+a = \frac { d v } { d t } = \frac { d ^ { 2 } x } { d t ^ { 2 } } \\
 v = \text { velocity } \\
 t = \text { time } \\
 x = \text { position }
@@ -153,7 +153,7 @@ $$
 ### kinematics formula
 $$
 \begin{aligned}
-x , x _ 0 , v , v _ 0 , a , t = \  ?
+x , x _ { 0 } , v , v _ { 0 } , a , t = \  ?
 \end{aligned}
 $$
 
@@ -165,7 +165,7 @@ $$
 ### 1st formula of motion
 $$
 \begin{aligned}
-a ( t ) = a _ 0 \implies v = v _ { 0 } + a t \\
+a ( t ) = a _ { 0 } \implies v = v _ { 0 } + a t \\
 a = \text { acceleration } \\
 v _ { 0 } = \text { initial velocity } \\
 t = \text { time }
@@ -180,7 +180,7 @@ $$
 ### 2nd formula of motion
 $$
 \begin{aligned}
-a ( t ) = a _ 0 \implies x = x _ { 0 } + v _ 0 t + \frac { 1 } { 2 } a t ^ 2 \\
+a ( t ) = a _ { 0 } \implies x = x _ { 0 } + v _ { 0 } t + \frac { 1 } { 2 } a t ^ { 2 } \\
 a = \text { acceleration } \\
 x = \text { position } \\
 x _ { 0 } = \text { initial position } \\
@@ -197,7 +197,7 @@ $$
 ### 3rd formula of motion
 $$
 \begin{aligned}
-a ( t ) = a _ 0 \implies x - x _ { 0 } = \frac { 1 } { 2 } ( v + v _ { 0 } ) t \\
+a ( t ) = a _ { 0 } \implies x - x _ { 0 } = \frac { 1 } { 2 } ( v + v _ { 0 } ) t \\
 a = \text { acceleration } \\
 x = \text { position } \\
 x _ { 0 } = \text { initial position } \\
@@ -215,7 +215,7 @@ $$
 ### 4th formula of motion
 $$
 \begin{aligned}
-a ( t ) = a _ 0 \implies v ^ 2 = v _ { 0 } ^ 2 + 2 a ( x - x _ { 0 } ) \\
+a ( t ) = a _ { 0 } \implies v ^ { 2 } = v _ { 0 } ^ { 2 } + 2 a ( x - x _ { 0 } ) \\
 a = \text { acceleration } \\
 v = \text { velocity } \\
 v _ { 0 } = \text { initial velocity } \\
@@ -235,9 +235,9 @@ $$
 $$
 \begin{aligned}
 v = v _ { 0 } - g t \\
-y = y _ { 0 } + v _ 0 t - \frac { 1 } { 2 } g t ^ 2 \\
+y = y _ { 0 } + v _ { 0 } t - \frac { 1 } { 2 } g t ^ { 2 } \\
 y - y _ { 0 } = \frac { 1 } { 2 } ( v + v _ { 0 } ) t \\
-v ^ 2 = v _ { 0 } ^ 2 - 2 g ( y - y _ { 0 } ) \\
+v ^ { 2 } = v _ { 0 } ^ { 2 } - 2 g ( y - y _ { 0 } ) \\
 g = 9.8
 \end{aligned}
 $$
@@ -251,9 +251,9 @@ $$
 ### relative motion formula
 $$
 \begin{aligned}
-x _ { A / B } = x _ A - x _ B \\
-v _ { A / B } = v _ A - v _ B \\
-a _ { A / B } = a _ A - a _ B \\
+x _ { A / B } = x _ { A } - x _ { B } \\
+v _ { A / B } = v _ { A } - v _ { B } \\
+a _ { A / B } = a _ { A } - a _ { B } \\
 x = \text { position } \\
 v = \text { velocity } \\
 a = \text { acceleration }

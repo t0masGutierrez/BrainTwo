@@ -22,7 +22,7 @@ $$
 ### compact formula
 $$
 \begin{aligned}
-\forall \set { Y _ { i } } _ { i \in I } \subset X , \exists \{ Y _ { i _ { j } } \} _ { j = 1 } ^ n \subset \{ Y _ { i } \} _ { i \in I } : S \subset \bigcup _ { j = 1 } ^ n Y _ { i _ { j } } \subset X \\
+\forall \set { Y _ { i } } _ { i \in I } \subset X , \exists \{ Y _ { i _ { j } } \} _ { j = 1 } ^ { n } \subset \{ Y _ { i } \} _ { i \in I } : S \subset \bigcup _ { j = 1 } ^ { n } Y _ { i _ { j } } \subset X \\
 Y = \text { open set } \\
 \set { Y } = \text { open cover } \\
 I , J = \text { index set } \\
@@ -55,7 +55,7 @@ $$
 ### equivalent compactness property formula
 $$
 \begin{aligned}
-\forall \set { Y _ { i } } \subset X , \exists \{ Y _ { i _ { 1 } } , \dots Y _ { i _ { n } } \} \subset \{ Y _ { i } \} : S \subset \bigcup _ { k = 1 } ^ n Y _ { i _ { k } } \subset X \\
+\forall \set { Y _ { i } } \subset X , \exists \{ Y _ { i _ { 1 } } , \dots Y _ { i _ { n } } \} \subset \{ Y _ { i } \} : S \subset \bigcup _ { k = 1 } ^ { n } Y _ { i _ { k } } \subset X \\
 \iff \forall \set { a _ { n } } \subset S \subset X , \exists \set { a _ { n _ { k } } } \subset \set { a _ { n } } , \exists L \in S : \lim _ { k \rightarrow \infty } a _ { n _ { k } } = L \\
 S = \text { compact set } \\
 Y = \text { open set } \\
@@ -76,7 +76,7 @@ $$
 ( S ' \subset S \subset X ) \land \\
 ( S \subset X , \exists x _ { 0 } \in X , \exists r > 0 : B _ { r } ( x _ { 0 } ) \supset S ) \implies \\
 \forall \set { a _ { n } } \subset S \subset X , \exists \set { a _ { n _ { k } } } \subset \set { a _ { n } } , \exists L \in S : \lim _ { k \rightarrow \infty } a _ { n _ { k } } = L \lor \\
-\forall \set { Y _ { i } } \subset X , \exists \{ Y _ { i _ { 1 } } , \dots Y _ { i _ { n } } \} \subset \{ Y _ { i } \} : S \subset \bigcup _ { k = 1 } ^ n Y _ { i _ { k } } \subset X \\
+\forall \set { Y _ { i } } \subset X , \exists \{ Y _ { i _ { 1 } } , \dots Y _ { i _ { n } } \} \subset \{ Y _ { i } \} : S \subset \bigcup _ { k = 1 } ^ { n } Y _ { i _ { k } } \subset X \\
 S ' = \text { derived set } \\
 S = \text { compact set } \\
 X = \text { metric space } \\
@@ -118,7 +118,7 @@ $$
 \begin{aligned}
 ( S ' \subset S \subset X ) \land \\
 ( S \subset X , \exists x _ { 0 } \in X , \exists r > 0 : B _ { r } ( x _ { 0 } ) \supset S ) \iff \\
-\forall \set { Y _ { i } } _ { i \in I } \subset X , \exists \{ Y _ { i _ { j } } \} _ { j = 1 } ^ n \subset \{ Y _ { i } \} _ { i \in I } : S \subset \bigcup _ { j = 1 } ^ n Y _ { i _ { j } } \subset X \\
+\forall \set { Y _ { i } } _ { i \in I } \subset X , \exists \{ Y _ { i _ { j } } \} _ { j = 1 } ^ { n } \subset \{ Y _ { i } \} _ { i \in I } : S \subset \bigcup _ { j = 1 } ^ { n } Y _ { i _ { j } } \subset X \\
 S = \text { compact set } \\
 S ' = \text { derived set } \\
 X = \text { metric space } \\
@@ -139,7 +139,7 @@ $$
 ### bolzano-weierstrass compactness property formula
 $$  
 \begin{aligned}  
-( S \subset \mathbb R ^ k ) \land ( \set { 0 , 1 , 2 , 3 , \dots , n } \not \sim S ) \implies \exists x _ { 0 } \in \mathbb R ^ k , \forall r > 0 : N _ { r } ( x _ { 0 } ) \setminus \{ x _ { 0 } \} \cap \mathbb R ^ k \ne \emptyset \\
+( S \subset \mathbb R ^ { k } ) \land ( \set { 0 , 1 , 2 , 3 , \dots , n } \not \sim S ) \implies \exists x _ { 0 } \in \mathbb R ^ { k } , \forall r > 0 : N _ { r } ( x _ { 0 } ) \setminus \{ x _ { 0 } \} \cap \mathbb R ^ { k } \ne \emptyset \\
 S = \text { bounded set } \\
 r = \text { radius } \\
 N = \text { neighborhood } \\
@@ -155,7 +155,7 @@ $$
 ### closed subset compactness property formula
 $$
 \begin{aligned}
-S ' \subset S \subset K \implies \forall \set { Y _ { i } } _ { i \in I } \subset X , \exists \{ Y _ { i _ { j } } \} _ { j = 1 } ^ n \subset \{ Y _ { i } \} _ { i \in I } : S \subset \bigcup _ { j = 1 } ^ n Y _ { i _ { j } } \subset X \\
+S ' \subset S \subset K \implies \forall \set { Y _ { i } } _ { i \in I } \subset X , \exists \{ Y _ { i _ { j } } \} _ { j = 1 } ^ { n } \subset \{ Y _ { i } \} _ { i \in I } : S \subset \bigcup _ { j = 1 } ^ { n } Y _ { i _ { j } } \subset X \\
 S ' = \text { derived set } \\
 S = \text { closed set } \\
 K = \text { compact set } \\
@@ -175,7 +175,7 @@ $$
 ### intersection compactness property formula
 $$
 \begin{aligned}
-\bigcap _ { j = 1 } ^ n S _ { i _ { j } } \ne \emptyset \implies \bigcap _ { i } S _ { i } \ne \emptyset \\
+\bigcap _ { j = 1 } ^ { n } S _ { i _ { j } } \ne \emptyset \implies \bigcap _ { i } S _ { i } \ne \emptyset \\
 S = \text { compact set }
 \end{aligned}
 $$
@@ -188,12 +188,12 @@ $$
 ### k-cell compactness property formula
 $$
 \begin{aligned}
-\forall \set { Y _ { i } } _ { i \in I } \subset X , \exists \{ Y _ { i _ { j } } \} _ { j = 1 } ^ n \subset \{ Y _ { i } \} _ { i \in I } : \prod _ { i = 1 } ^ k [ a _ { i } , b _ { i } ] \subset \bigcup _ { j = 1 } ^ n Y _ { i _ { j } } \subset X \\
+\forall \set { Y _ { i } } _ { i \in I } \subset X , \exists \{ Y _ { i _ { j } } \} _ { j = 1 } ^ { n } \subset \{ Y _ { i } \} _ { i \in I } : \prod _ { i = 1 } ^ { k } [ a _ { i } , b _ { i } ] \subset \bigcup _ { j = 1 } ^ { n } Y _ { i _ { j } } \subset X \\
 Y = \text { open set } \\
 \set { Y } = \text { open cover } \\
 I , J = \text { index set } \\
 X = \text { metric space } \\
-\prod _ { i = 1 } ^ k [ a _ { i } , b _ { i } ] = \text { k-cell }
+\prod _ { i = 1 } ^ { k } [ a _ { i } , b _ { i } ] = \text { k-cell }
 \end{aligned}
 $$
 

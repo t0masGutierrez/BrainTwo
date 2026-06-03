@@ -50,7 +50,7 @@ $$
 ### single slit intensity formula
 $$
 \begin{aligned}
-I = I _ { o } [ \frac { \sin ( \beta / 2 ) } { \beta / 2 } ] ^ 2 \\
+I = I _ { o } [ \frac { \sin ( \beta / 2 ) } { \beta / 2 } ] ^ { 2 } \\
 I = \text { intensity } \\
 \beta = \text { phase angle }
 \end{aligned}
@@ -76,7 +76,7 @@ $$
 ### double slit intensity formula
 $$
 \begin{aligned}
-I = I _ { o } [ \frac { \sin ( \beta / 2 ) } { \beta / 2 } ] ^ 2 \cos ^ 2 ( \frac { \phi } { 2 } ) \\
+I = I _ { o } [ \frac { \sin ( \beta / 2 ) } { \beta / 2 } ] ^ { 2 } \cos ^ { 2 } ( \frac { \phi } { 2 } ) \\
 I = \text { intensity } \\
 \beta = \text { phase angle } \\
 \phi = \text { phase angle }

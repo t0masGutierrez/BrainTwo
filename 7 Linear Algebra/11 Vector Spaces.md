@@ -22,11 +22,11 @@ $$
 ### vector space example formula
 $$
 \begin{aligned}
-\mathbb R ^ n \\
+\mathbb R ^ { n } \\
 \mathcal M _ { m n } ( \mathbb R ) \\
-\mathcal P _ n ( \mathbb R ) = \{ p ( x ) \in \mathbb R ( x ) \mid \deg ( p ) \le n \} \\
+\mathcal P _ { n } ( \mathbb R ) = \{ p ( x ) \in \mathbb R ( x ) \mid \deg ( p ) \le n \} \\
 \mathcal F ( X , \mathbb R ) = \{ f \mid f : X \to \mathbb R \} \\
-Y = \{ \vec x \in \mathbb R ^ n \mid A \vec x = \vec 0 \}
+Y = \{ \vec x \in \mathbb R ^ { n } \mid A \vec x = \vec 0 \}
 \end{aligned}
 $$
 

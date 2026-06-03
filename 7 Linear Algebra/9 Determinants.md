@@ -116,8 +116,8 @@ $$
 ### nxn determinant formula
 $$
 \begin{aligned}
-\det ( A ) = \sum _ { j = 1 } ^ n a _ { i j } \mathcal A _ { i j } \\
-\det ( A ) = \sum _ { i = 1 } ^ n a _ { i j } \mathcal A _ { i j } \\
+\det ( A ) = \sum _ { j = 1 } ^ { n } a _ { i j } \mathcal A _ { i j } \\
+\det ( A ) = \sum _ { i = 1 } ^ { n } a _ { i j } \mathcal A _ { i j } \\
 A = \text { square matrix } \\
 i = \text { row index } \\
 j = \text { column index } \\
@@ -206,7 +206,7 @@ $$
 ### upper triangular matrix determinant formula
 $$
 \begin{aligned}
-A \in \mathcal U _ n \implies \det ( A ) = \prod _ { i = 1 } ^ n a _ { i i } \\
+A \in \mathcal U _ { n } \implies \det ( A ) = \prod _ { i = 1 } ^ { n } a _ { i i } \\
 a = \text { entry } \\
 i = \text { diagonal index }
 \end{aligned}
@@ -233,7 +233,7 @@ $$
 ### scalar multiplication determinant formula
 $$
 \begin{align}
-\det ( c A ) = c ^ n \det ( A ) \\
+\det ( c A ) = c ^ { n } \det ( A ) \\
 A = \text { square matrix } \\
 c = \text { scalar } \\
 n = \text { dimension }
@@ -277,9 +277,9 @@ $$
 ### matrix transposition determinant formula
 $$
 \begin{aligned}
-\det R ( I ) = | ( R ( I ) ) ^ T | \\
-\det R _ { k } ( \dots R _ { 1 } ( I ) \dots ) = | ( R _ { k } ( \dots R _ { 1 } ( I ) \dots ) ) ^ T | \\
-\det R ( B ) = | ( R ( B ) ) ^ T | \\
+\det R ( I ) = | ( R ( I ) ) ^ { T } | \\
+\det R _ { k } ( \dots R _ { 1 } ( I ) \dots ) = | ( R _ { k } ( \dots R _ { 1 } ( I ) \dots ) ) ^ { T } | \\
+\det R ( B ) = | ( R ( B ) ) ^ { T } | \\
 \end{aligned}
 $$
 
@@ -291,7 +291,7 @@ $$
 ### symmetric determinant formula
 $$
 \begin{aligned}
-\det ( A ) = \det ( A ^ T ) \\
+\det ( A ) = \det ( A ^ { T } ) \\
 A = \text { symmetric matrix } \\
 T = \text { transposition }
 \end{aligned}
@@ -307,7 +307,7 @@ $$
 $$
 \begin{aligned}
 ( \vec a _ { i * } = 0 ) \lor ( \vec a _ { * j } = 0 ) \implies \det ( A ) = 0 \\
-( \vec a _ { i _ 1 * } = \vec a _ { i _ 2 * } ) \lor ( \vec a _ { * j _ 1 } = \vec a _ { * j _ 2 } ) \implies \det ( A ) = 0
+( \vec a _ { i _ { 1 } * } = \vec a _ { i _ { 2 } * } ) \lor ( \vec a _ { * j _ { 1 } } = \vec a _ { * j _ { 2 } } ) \implies \det ( A ) = 0
 \end{aligned}
 $$
 

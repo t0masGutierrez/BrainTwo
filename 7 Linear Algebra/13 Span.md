@@ -5,7 +5,7 @@
 ### span formula
 $$
 \begin{aligned}
-\text { span } ( S ) = \{ \sum _ { i = 1 } ^ n c _ { i } \vec v _ { i } \mid c \in \mathbb R , \vec v \in S \} \\
+\text { span } ( S ) = \{ \sum _ { i = 1 } ^ { n } c _ { i } \vec v _ { i } \mid c \in \mathbb R , \vec v \in S \} \\
 S = \text { set } \\
 n = \text { dimension } \\
 c = \text { scalar } \\
@@ -21,7 +21,7 @@ $$
 ### spanning formula
 $$
 \begin{aligned}
-\text { span } ( \set { \vec v _ 1 , \dots , \vec v _ n } ) = \mathcal V \\
+\text { span } ( \set { \vec v _ { 1 } , \dots , \vec v _ { n } } ) = \mathcal V \\
 \vec v = \text { vector } \\
 n = \text { dimension } \\
 \mathcal V = \text { vector space }
@@ -38,8 +38,8 @@ $$
 ### spanning example formula
 $$
 \begin{aligned}
-\text { span } ( \{ \vec e _ { 1 } , \vec e _ { 2 } , \dots , \vec e _ { n } \} ) = \mathbb R ^ n \\
-\text { span } ( \{ 1 , x , x ^ 2 , \dots , x ^ n \} ) = \mathcal P _ n ( x ) \\
+\text { span } ( \{ \vec e _ { 1 } , \vec e _ { 2 } , \dots , \vec e _ { n } \} ) = \mathbb R ^ { n } \\
+\text { span } ( \{ 1 , x , x ^ { 2 } , \dots , x ^ { n } \} ) = \mathcal P _ { n } ( x ) \\
 \text { span } ( \psi _ { i j } ) = \mathcal M _ { m n } \\
 \end{aligned}
 $$
@@ -139,9 +139,9 @@ $$
 ### span row space property formula
 $$
 \begin{aligned}
-A = \begin { b m a t r i x } \vec a _ 1 \\ \vec a _ 2 \\ \vdots \\ \vec a _ m \end { b m a t r i x }
+A = \begin { b m a t r i x } \vec a _ { 1 } \\ \vec a _ { 2 } \\ \vdots \\ \vec a _ { m } \end { b m a t r i x }
 \implies
-\text { Row } ( A ) = \text { span } \{ \vec a _ 1 , \vec a _ 2 , \dots , \vec a _ m \} \\
+\text { Row } ( A ) = \text { span } \{ \vec a _ { 1 } , \vec a _ { 2 } , \dots , \vec a _ { m } \} \\
 A = \text { matrix } \\
 \vec a = \text { row vector }
 \end{aligned}

@@ -28,20 +28,20 @@ $$
 ### integration by parts strategy formula
 $$
 \begin{aligned}
-\int x ^ n e ^ x d x , \  \int x ^ n \sin ( x ) d x , \  \int x ^ n \cos ( x ) d x \
+\int x ^ { n } e ^ { x } d x , \  \int x ^ { n } \sin ( x ) d x , \  \int x ^ { n } \cos ( x ) d x \
 \begin{cases}
-u = x ^ n \\
-d v = e ^ x d x , \  \sin ( x ) d x , \  \cos ( x ) d x
+u = x ^ { n } \\
+d v = e ^ { x } d x , \  \sin ( x ) d x , \  \cos ( x ) d x
 \end { c a s e s } \\
-\int x ^ n \ln ( x ) d x , \  \int x ^ n \arcsin ( x ) d x , \  \int x ^ n \arccos ( x ) d x \
+\int x ^ { n } \ln ( x ) d x , \  \int x ^ { n } \arcsin ( x ) d x , \  \int x ^ { n } \arccos ( x ) d x \
 \begin{cases}
 u = \ln ( x ) , \  \arcsin ( x ) , \  \arccos ( x ) \\
-d v = x ^ n d x
+d v = x ^ { n } d x
 \end { c a s e s } \\
-\int e ^ x \sin ( x ) d x , \  \int e ^ x \cos ( x ) d x \
+\int e ^ { x } \sin ( x ) d x , \  \int e ^ { x } \cos ( x ) d x \
 \begin{cases}
 u = \sin ( x ) , \  \cos ( x ) \\
-d v = e ^ x d x
+d v = e ^ { x } d x
 \end{cases}
 \end{aligned}
 $$
@@ -67,8 +67,8 @@ $$
 ### trigonometric integral formula
 $$
 \begin{aligned}
-\int \sin ^ m ( x ) \cos ^ n ( x ) d x \\
-\int \sec ^ m ( x ) \tan ^ n ( x ) d x
+\int \sin ^ { m } ( x ) \cos ^ { n } ( x ) d x \\
+\int \sec ^ { m } ( x ) \tan ^ { n } ( x ) d x
 \end{aligned}
 $$
 
@@ -76,9 +76,9 @@ $$
 ### trigonometric integral sine cosine formula
 $$
 \begin{aligned}
-\int \textcolor { y e l l o w } { \sin ^ { 2 k + 1 } ( x ) } \cos ^ n ( x ) d x = \int \textcolor { y e l l o w } { ( \sin ^ 2 x ) ^ k } \cos ^ n ( x ) \textcolor { c y a n } { \sin ( x ) d x } = \int \textcolor { y e l l o w } { ( 1 - \cos ^ 2 x ) ^ k } \cos ^ n ( x ) \textcolor { c y a n } { \sin ( x ) d x } \\
-\int \sin ^ m ( x ) \textcolor { y e l l o w } { \cos ^ { 2 k + 1 } ( x ) } d x = \int \sin ^ m ( x ) \textcolor { y e l l o w } { ( \cos ^ 2 x ) ^ k } \textcolor { c y a n } { \cos ( x ) d x } = \int \sin ^ m ( x ) \textcolor { y e l l o w } { ( 1 - \sin ^ 2 x ) ^ k } \textcolor { c y a n } { \cos ( x ) d x } \\
-\int \sin ^ { 2 k } ( x ) \cos ^ { 2 k } ( x ) d x = \int ( \frac { 1 - \cos 2 x } { 2 } ) ^ k ( \frac { 1 + \cos 2 x } { 2 } ) ^ k d x
+\int \textcolor { y e l l o w } { \sin ^ { 2 k + 1 } ( x ) } \cos ^ { n } ( x ) d x = \int \textcolor { y e l l o w } { ( \sin ^ { 2 } x ) ^ { k } } \cos ^ { n } ( x ) \textcolor { c y a n } { \sin ( x ) d x } = \int \textcolor { y e l l o w } { ( 1 - \cos ^ { 2 } x ) ^ { k } } \cos ^ { n } ( x ) \textcolor { c y a n } { \sin ( x ) d x } \\
+\int \sin ^ { m } ( x ) \textcolor { y e l l o w } { \cos ^ { 2 k + 1 } ( x ) } d x = \int \sin ^ { m } ( x ) \textcolor { y e l l o w } { ( \cos ^ { 2 } x ) ^ { k } } \textcolor { c y a n } { \cos ( x ) d x } = \int \sin ^ { m } ( x ) \textcolor { y e l l o w } { ( 1 - \sin ^ { 2 } x ) ^ { k } } \textcolor { c y a n } { \cos ( x ) d x } \\
+\int \sin ^ { 2 k } ( x ) \cos ^ { 2 k } ( x ) d x = \int ( \frac { 1 - \cos 2 x } { 2 } ) ^ { k } ( \frac { 1 + \cos 2 x } { 2 } ) ^ { k } d x
 \end{aligned}
 $$
 
@@ -86,10 +86,10 @@ $$
 ### trigonometric integral secant tangent formula
 $$
 \begin{aligned}
-\int \textcolor { y e l l o w } { \sec ^ { 2 k } ( x ) } \tan ^ n ( x ) d x = \int \textcolor { y e l l o w } { ( \sec ^ 2 x ) ^ { k - 1 } } \tan ^ n ( x ) \textcolor { c y a n } { \sec ^ 2 ( x ) d x } = \int \textcolor { y e l l o w } { ( 1 + \tan ^ 2 x ) ^ { k - 1 } } \tan ^ n ( x ) \textcolor { c y a n } { \sec ^ 2 ( x ) d x } \\
-\small { \int \sec ^ m ( x ) \textcolor { y e l l o w } { \tan ^ { 2 k + 1 } ( x ) } d x = \int \sec ^ { m - 1 } ( x ) \textcolor { y e l l o w } { ( \tan ^ 2 x ) ^ k } \textcolor { c y a n } { \sec ( x ) \tan ( x ) d x } = \int \sec ^ m ( x ) \textcolor { y e l l o w } { ( \sec ^ 2 x - 1 ) ^ k } \textcolor { c y a n } { \sec ( x ) \tan ( x ) d x } } \\
-\int \tan ^ n ( x ) = \int \textcolor { y e l l o w } { ( \tan ^ 2 x ) } \tan ^ { n - 2 } ( x ) d x = \int \textcolor { y e l l o w } { ( \sec ^ 2 x - 1 ) } \tan ^ { n - 2 } ( x ) d x \\
-\int \sec ^ m ( x ) d x = \int u ( x ) d v = u v - \int v ( x ) d u \\
+\int \textcolor { y e l l o w } { \sec ^ { 2 k } ( x ) } \tan ^ { n } ( x ) d x = \int \textcolor { y e l l o w } { ( \sec ^ { 2 } x ) ^ { k - 1 } } \tan ^ { n } ( x ) \textcolor { c y a n } { \sec ^ { 2 } ( x ) d x } = \int \textcolor { y e l l o w } { ( 1 + \tan ^ { 2 } x ) ^ { k - 1 } } \tan ^ { n } ( x ) \textcolor { c y a n } { \sec ^ { 2 } ( x ) d x } \\
+\small { \int \sec ^ { m } ( x ) \textcolor { y e l l o w } { \tan ^ { 2 k + 1 } ( x ) } d x = \int \sec ^ { m - 1 } ( x ) \textcolor { y e l l o w } { ( \tan ^ { 2 } x ) ^ { k } } \textcolor { c y a n } { \sec ( x ) \tan ( x ) d x } = \int \sec ^ { m } ( x ) \textcolor { y e l l o w } { ( \sec ^ { 2 } x - 1 ) ^ { k } } \textcolor { c y a n } { \sec ( x ) \tan ( x ) d x } } \\
+\int \tan ^ { n } ( x ) = \int \textcolor { y e l l o w } { ( \tan ^ { 2 } x ) } \tan ^ { n - 2 } ( x ) d x = \int \textcolor { y e l l o w } { ( \sec ^ { 2 } x - 1 ) } \tan ^ { n - 2 } ( x ) d x \\
+\int \sec ^ { m } ( x ) d x = \int u ( x ) d v = u v - \int v ( x ) d u \\
 \end{aligned}
 $$
 
@@ -108,17 +108,17 @@ $$
 ### trigonometric substitution formula
 $$
 \begin{aligned}
-\sqrt { a ^ 2 - u ^ 2 } = a \cos ( \theta )
+\sqrt { a ^ { 2 } - u ^ { 2 } } = a \cos ( \theta )
 \begin{cases}
 u = a \sin ( \theta ) \\
 d u = a \cos ( \theta ) d \theta
 \end { c a s e s } \\
-\sqrt { a ^ 2 + u ^ 2 } = a \sec ( \theta )
+\sqrt { a ^ { 2 } + u ^ { 2 } } = a \sec ( \theta )
 \begin{cases}
 u = a \tan ( \theta ) \\
-d u = a \sec ^ 2 ( \theta ) d \theta \\
+d u = a \sec ^ { 2 } ( \theta ) d \theta \\
 \end { c a s e s } \\
-\sqrt { u ^ 2 - a ^ 2 } = a \tan ( \theta )
+\sqrt { u ^ { 2 } - a ^ { 2 } } = a \tan ( \theta )
 \begin{cases}
 u = a \sec ( \theta ) \\
 d u = a \sec ( \theta ) \tan ( \theta ) d \theta \\
@@ -141,17 +141,17 @@ $$
 ### partial fraction decomposition formula
 $$
 \begin{aligned}
-\frac { N ( x ) } { ( p x + q ) ^ m } = \frac { A _ { 1 } } { ( p x + 1 ) ^ 1 } + \frac { A _ { 2 } } { ( p x + 1 ) ^ 2 } + . . . + \frac { A _ { m } } { ( p x + 1 ) ^ m } \\
-\frac { N ( x ) } { ( a x ^ 2 + b x + c ) ^ n } = \frac { B _ 1 x + C _ { 1 } } { ( a x ^ 2 + b x + c ) ^ 1 } + \frac { B _ 2 x + C _ { 2 } } { ( a x ^ 2 + b x + c ) ^ 2 } + . . . + \frac { B _ n x + C _ { n } } { ( a x ^ 2 + b x + c ) ^ n } \\
+\frac { N ( x ) } { ( p x + q ) ^ { m } } = \frac { A _ { 1 } } { ( p x + 1 ) ^ { 1 } } + \frac { A _ { 2 } } { ( p x + 1 ) ^ { 2 } } + . . . + \frac { A _ { m } } { ( p x + 1 ) ^ { m } } \\
+\frac { N ( x ) } { ( a x ^ { 2 } + b x + c ) ^ { n } } = \frac { B _ { 1 } x + C _ { 1 } } { ( a x ^ { 2 } + b x + c ) ^ { 1 } } + \frac { B _ { 2 } x + C _ { 2 } } { ( a x ^ { 2 } + b x + c ) ^ { 2 } } + . . . + \frac { B _ { n } x + C _ { n } } { ( a x ^ { 2 } + b x + c ) ^ { n } } \\
 \end{aligned}
 $$
 
 ---
 ### calculate partial fraction decomposition
 - perform long division before integrating improper fraction
-- factor denominator into $( p x + q ) ^ m$ and $( a x ^ 2 + b x + c ) ^ n$ 
-- for every $( p x + q ) ^ m$ the partial fraction decomposition must include the sum of the following *m* fractions $\frac { A _ { m } } { ( p x + q ) ^ m }$ 
-- for every $( a x ^ 2 + b x + c ) ^ n$ the partial fraction decomposition must include the sum of the following *n* fractions $\frac { B _ n x + C _ { n } } { ( a x ^ 2 + b x + c ) ^ n }$ 
+- factor denominator into $( p x + q ) ^ { m }$ and $( a x ^ { 2 } + b x + c ) ^ { n }$ 
+- for every $( p x + q ) ^ { m }$ the partial fraction decomposition must include the sum of the following *m* fractions $\frac { A _ { m } } { ( p x + q ) ^ { m } }$ 
+- for every $( a x ^ { 2 } + b x + c ) ^ { n }$ the partial fraction decomposition must include the sum of the following *n* fractions $\frac { B _ { n } x + C _ { n } } { ( a x ^ { 2 } + b x + c ) ^ { n } }$ 
 - eliminate left denominator by multiplying partial fractions with left denominator
 - sum of partial fractions equal $N ( x )$ 
 - solve distinct linear factors by substituting roots
@@ -184,7 +184,7 @@ $$
 ### trapezoidal formula
 $$
 \begin{aligned}
-\int _ { a } ^ b f ( x ) d x = \frac { \Delta x } { 2 } [ f ( x _ { 0 } ) + 2 f ( x _ { 1 } ) + 2 f ( x _ { 2 } ) + 2 f ( x _ { 3 } ) + . . . + 2 f ( x _ { n - 1 } ) + f ( x _ { n } ) ] \\
+\int _ { a } ^ { b } f ( x ) d x = \frac { \Delta x } { 2 } [ f ( x _ { 0 } ) + 2 f ( x _ { 1 } ) + 2 f ( x _ { 2 } ) + 2 f ( x _ { 3 } ) + . . . + 2 f ( x _ { n - 1 } ) + f ( x _ { n } ) ] \\
 k = 1 , 2 , 2 , 2 , . . . 2 , 1 \\
 \Delta x = \frac { b - a } { n }
 \end{aligned}
@@ -199,7 +199,7 @@ $$
 ### simpsons formula
 $$
 \begin{aligned}
-\int _ { a } ^ b f ( x ) d x = \frac { \Delta x } { 3 } [ f ( x _ { 0 } ) + 4 f ( x _ { 1 } ) + 2 f ( x _ { 2 } ) + 4 f ( x _ { 3 } ) + . . . + 4 f ( x _ { n - 1 } ) + f ( x _ { n } ) ] \\
+\int _ { a } ^ { b } f ( x ) d x = \frac { \Delta x } { 3 } [ f ( x _ { 0 } ) + 4 f ( x _ { 1 } ) + 2 f ( x _ { 2 } ) + 4 f ( x _ { 3 } ) + . . . + 4 f ( x _ { n - 1 } ) + f ( x _ { n } ) ] \\
 k = 1 , 4 , 2 , 4 , . . . 4 , 1 \\
 \Delta x = \frac { b - a } { n }
 \end{aligned}
@@ -218,9 +218,9 @@ $$
 ### discontinuous integrand formula
 $$
 \begin{aligned}
-( a , b ] \implies \int _ { a } ^ b f ( x ) d x = \lim _ { c \rightarrow b ^ - } \int _ { a } ^ c f ( x ) d x \\
-{}[ a , b ) \implies \int _ { a } ^ b f ( x ) d x = \lim _ { c \rightarrow a ^ + } \int _ { c } ^ b f ( x ) d x \\
-\exists c [ a , b ] \implies \int _ { a } ^ b f ( x ) d x = \lim _ { c \rightarrow b ^ - } \int _ { a } ^ c f ( x ) d x + \lim _ { c \rightarrow a ^ + } \int _ { c } ^ b f ( x ) d x
+( a , b ] \implies \int _ { a } ^ { b } f ( x ) d x = \lim _ { c \rightarrow b ^ { - } } \int _ { a } ^ { c } f ( x ) d x \\
+{}[ a , b ) \implies \int _ { a } ^ { b } f ( x ) d x = \lim _ { c \rightarrow a ^ { + } } \int _ { c } ^ { b } f ( x ) d x \\
+\exists c [ a , b ] \implies \int _ { a } ^ { b } f ( x ) d x = \lim _ { c \rightarrow b ^ { - } } \int _ { a } ^ { c } f ( x ) d x + \lim _ { c \rightarrow a ^ { + } } \int _ { c } ^ { b } f ( x ) d x
 \end{aligned}
 $$
 
@@ -233,7 +233,7 @@ $$
 ### infinite lower limit of integration formula
 $$
 \begin{aligned}
-\int _ { - \infty } ^ b f ( x ) d x = \lim _ { a \rightarrow - \infty } \int _ { a } ^ b f ( x ) d x
+\int _ { - \infty } ^ { b } f ( x ) d x = \lim _ { a \rightarrow - \infty } \int _ { a } ^ { b } f ( x ) d x
 \end{aligned}
 $$
 
@@ -246,7 +246,7 @@ $$
 ### infinite lower limit of integration formula
 $$
 \begin{aligned}
-\int _ { a } ^ { \infty } f ( x ) d x = \lim _ { b \rightarrow \infty } \int _ { a } ^ b f ( x ) d x
+\int _ { a } ^ { \infty } f ( x ) d x = \lim _ { b \rightarrow \infty } \int _ { a } ^ { b } f ( x ) d x
 \end{aligned}
 $$
 
@@ -259,7 +259,7 @@ $$
 ### infinite limit of integration formula
 $$
 \begin{aligned}
-\int _ { - \infty } ^ { \infty } f ( x ) d x = \int _ { - \infty } ^ c f ( x ) d x + \int _ { c } ^ { \infty } f ( x ) d x
+\int _ { - \infty } ^ { \infty } f ( x ) d x = \int _ { - \infty } ^ { c } f ( x ) d x + \int _ { c } ^ { \infty } f ( x ) d x
 \end{aligned}
 $$
 

@@ -149,10 +149,10 @@ $$
 ### equilibrium solution formula
 $$
 \begin{aligned}
-\forall t \ge 0 : ( x , y ) ( t ) = ( x _ * , y _ * ) \iff f ( x _ * , y _ * ) = g ( x _ * , y _ * ) = 0 \\
+\forall t \ge 0 : ( x , y ) ( t ) = ( x _ { * } , y _ { * } ) \iff f ( x _ { * } , y _ { * } ) = g ( x _ { * } , y _ { * } ) = 0 \\
 x , y = \text { solution } \\
 t = \text { time } \\
-x _ * , y _ * = \text { equilibrium point }
+x _ { * } , y _ { * } = \text { equilibrium point }
 \end{aligned}
 $$
 
@@ -164,8 +164,8 @@ $$
 ### equilibrium stability formula
 $$
 \begin{aligned}
-N _ { \rho } ( x _ * , y _ * ) = ( x _ * - \rho , x _ * + \rho ) \times ( y _ * - \rho , y _ * + \rho ) \\
-x _ * , y _ * = \text { equilibrium point } \\
+N _ { \rho } ( x _ { * } , y _ { * } ) = ( x _ { * } - \rho , x _ { * } + \rho ) \times ( y _ { * } - \rho , y _ { * } + \rho ) \\
+x _ { * } , y _ { * } = \text { equilibrium point } \\
 \rho = \text { radius }
 \end{aligned}
 $$
@@ -180,11 +180,11 @@ $$
 ### asymptotic equilibrium stability formula
 $$
 \begin{aligned}
-\forall \epsilon > 0 , \exists \delta > 0 , \forall t \ge 0 : ( x _ { 0 } , y _ { 0 } ) \in N _ { \delta } ( x _ * , y _ * ) \implies ( x , y ) ( t ) \in N _ { \epsilon } ( x _ * , y _ * ) \land \\
-\forall x _ { 0 } , y _ { 0 } \in \mathbb R : \lim _ { t \rightarrow \infty } ( x , y ) ( t ) = ( x _ * , y _ * ) \\
+\forall \epsilon > 0 , \exists \delta > 0 , \forall t \ge 0 : ( x _ { 0 } , y _ { 0 } ) \in N _ { \delta } ( x _ { * } , y _ { * } ) \implies ( x , y ) ( t ) \in N _ { \epsilon } ( x _ { * } , y _ { * } ) \land \\
+\forall x _ { 0 } , y _ { 0 } \in \mathbb R : \lim _ { t \rightarrow \infty } ( x , y ) ( t ) = ( x _ { * } , y _ { * } ) \\
 x _ { 0 } , y _ { 0 } = \text { initial condition } \\
 N = \text { neighborhood } \\
-x _ * , y _ * = \text { equilibrium point } \\
+x _ { * } , y _ { * } = \text { equilibrium point } \\
 x , y = \text { solution } \\
 t = \text { time }
 \end{aligned}
@@ -200,11 +200,11 @@ $$
 ### neutral equilibrium stability formula
 $$
 \begin{aligned}
-\forall \epsilon > 0 , \exists \delta > 0 , \forall t \ge 0 : ( x _ { 0 } , y _ { 0 } ) \in N _ { \delta } ( x _ * , y _ * ) \implies ( x , y ) ( t ) \in N _ { \epsilon } ( x _ * , y _ * ) \land \\
-\exists x _ { 0 } , y _ { 0 } \in \mathbb R : \lim _ { t \rightarrow \infty } ( x , y ) ( t ) \ne ( x _ * , y _ * ) \\
+\forall \epsilon > 0 , \exists \delta > 0 , \forall t \ge 0 : ( x _ { 0 } , y _ { 0 } ) \in N _ { \delta } ( x _ { * } , y _ { * } ) \implies ( x , y ) ( t ) \in N _ { \epsilon } ( x _ { * } , y _ { * } ) \land \\
+\exists x _ { 0 } , y _ { 0 } \in \mathbb R : \lim _ { t \rightarrow \infty } ( x , y ) ( t ) \ne ( x _ { * } , y _ { * } ) \\
 x _ { 0 } , y _ { 0 } = \text { initial condition } \\
 N = \text { neighborhood } \\
-x _ * , y _ * = \text { equilibrium point } \\
+x _ { * } , y _ { * } = \text { equilibrium point } \\
 x , y = \text { solution } \\
 t = \text { time }
 \end{aligned}
@@ -219,11 +219,11 @@ $$
 ### equilibrium instability formula
 $$
 \begin{aligned}
-\exists \epsilon > 0 , \forall \delta > 0 , \forall t \ge 0 : ( x _ { 0 } , y _ { 0 } ) \in N _ { \delta } ( x _ * , y _ * ) \land ( x , y ) ( t ) \not \in N _ { \epsilon } ( x _ * , y _ * ) \land \\
-\forall x _ { 0 } , y _ { 0 } \in \mathbb R : \lim _ { t \rightarrow \infty } ( x , y ) ( t ) \ne ( x _ * , y _ * ) \\
+\exists \epsilon > 0 , \forall \delta > 0 , \forall t \ge 0 : ( x _ { 0 } , y _ { 0 } ) \in N _ { \delta } ( x _ { * } , y _ { * } ) \land ( x , y ) ( t ) \not \in N _ { \epsilon } ( x _ { * } , y _ { * } ) \land \\
+\forall x _ { 0 } , y _ { 0 } \in \mathbb R : \lim _ { t \rightarrow \infty } ( x , y ) ( t ) \ne ( x _ { * } , y _ { * } ) \\
 x _ { 0 } , y _ { 0 } = \text { initial condition } \\
 N = \text { neighborhood } \\
-x _ * , y _ * = \text { equilibrium point } \\
+x _ { * } , y _ { * } = \text { equilibrium point } \\
 x , y = \text { solution } \\
 t = \text { time }
 \end{aligned}
@@ -255,11 +255,11 @@ $$
 ### asymptotic periodic stability formula
 $$
 \begin{aligned}
-\forall \epsilon > 0 , \exists \delta > 0 , \forall t \ge 0 : ( x _ { 0 } , y _ { 0 } ) \in N _ { \delta } ( x _ * , y _ * ) \implies ( x , y ) ( t ) \in N _ { \epsilon } ( x _ * , y _ * ) \land \\
-\forall x _ { 0 } , y _ { 0 } \in \mathbb R : \lim _ { t \rightarrow \infty } ( x , y ) ( t ) = ( x _ * , y _ * ) \\
+\forall \epsilon > 0 , \exists \delta > 0 , \forall t \ge 0 : ( x _ { 0 } , y _ { 0 } ) \in N _ { \delta } ( x _ { * } , y _ { * } ) \implies ( x , y ) ( t ) \in N _ { \epsilon } ( x _ { * } , y _ { * } ) \land \\
+\forall x _ { 0 } , y _ { 0 } \in \mathbb R : \lim _ { t \rightarrow \infty } ( x , y ) ( t ) = ( x _ { * } , y _ { * } ) \\
 x _ { 0 } , y _ { 0 } = \text { initial condition } \\
 N = \text { neighborhood } \\
-x _ * , y _ * = \text { equilibrium point } \\
+x _ { * } , y _ { * } = \text { equilibrium point } \\
 x , y = \text { solution } \\
 t = \text { time }
 \end{aligned}
@@ -275,11 +275,11 @@ $$
 ### neutral periodic stability formula
 $$
 \begin{aligned}
-\forall \epsilon > 0 , \exists \delta > 0 , \forall t \ge 0 : ( x _ { 0 } , y _ { 0 } ) \in N _ { \delta } ( x _ * , y _ * ) \implies ( x , y ) ( t ) \in N _ { \epsilon } ( x _ * , y _ * ) \land \\
-\exists x _ { 0 } , y _ { 0 } \in \mathbb R : \lim _ { t \rightarrow \infty } ( x , y ) ( t ) \ne ( x _ * , y _ * ) \\
+\forall \epsilon > 0 , \exists \delta > 0 , \forall t \ge 0 : ( x _ { 0 } , y _ { 0 } ) \in N _ { \delta } ( x _ { * } , y _ { * } ) \implies ( x , y ) ( t ) \in N _ { \epsilon } ( x _ { * } , y _ { * } ) \land \\
+\exists x _ { 0 } , y _ { 0 } \in \mathbb R : \lim _ { t \rightarrow \infty } ( x , y ) ( t ) \ne ( x _ { * } , y _ { * } ) \\
 x _ { 0 } , y _ { 0 } = \text { initial condition } \\
 N = \text { neighborhood } \\
-x _ * , y _ * = \text { equilibrium point } \\
+x _ { * } , y _ { * } = \text { equilibrium point } \\
 x , y = \text { solution } \\
 t = \text { time }
 \end{aligned}
@@ -294,11 +294,11 @@ $$
 ### periodic instability formula
 $$
 \begin{aligned}
-\exists \epsilon > 0 , \forall \delta > 0 , \exists t \ge 0 : ( x _ { 0 } , y _ { 0 } ) \in N _ { \delta } ( x _ * , y _ * ) \land ( x , y ) ( t ) \not \in N _ { \epsilon } ( x _ * , y _ * ) \land \\
-\forall x _ { 0 } , y _ { 0 } \in \mathbb R : \lim _ { t \rightarrow \infty } ( x , y ) ( t ) \ne ( x _ * , y _ * ) \\
+\exists \epsilon > 0 , \forall \delta > 0 , \exists t \ge 0 : ( x _ { 0 } , y _ { 0 } ) \in N _ { \delta } ( x _ { * } , y _ { * } ) \land ( x , y ) ( t ) \not \in N _ { \epsilon } ( x _ { * } , y _ { * } ) \land \\
+\forall x _ { 0 } , y _ { 0 } \in \mathbb R : \lim _ { t \rightarrow \infty } ( x , y ) ( t ) \ne ( x _ { * } , y _ { * } ) \\
 x _ { 0 } , y _ { 0 } = \text { initial condition } \\
 N = \text { neighborhood } \\
-x _ * , y _ * = \text { equilibrium point } \\
+x _ { * } , y _ { * } = \text { equilibrium point } \\
 x , y = \text { solution } \\
 t = \text { time }
 \end{aligned}
@@ -348,9 +348,9 @@ $$
 ### nondegenerate system formula
 $$
 \begin{aligned}
-\det ( A ) \ne 0 \implies \# v _ * = 1 \\
+\det ( A ) \ne 0 \implies \# v _ { * } = 1 \\
 A = \text { coefficient matrix } \\
-v _ * = \text { equilibrium point }
+v _ { * } = \text { equilibrium point }
 \end{aligned}
 $$
 
@@ -362,9 +362,9 @@ $$
 ### degenerate system formula
 $$
 \begin{aligned}
-\det ( A ) = 0 \implies \# v _ * = \infty \\
+\det ( A ) = 0 \implies \# v _ { * } = \infty \\
 A = \text { coefficient matrix } \\
-v _ * = \text { equilibrium point }
+v _ { * } = \text { equilibrium point }
 \end{aligned}
 $$
 
@@ -376,7 +376,7 @@ $$
 ### distinct real eigenvalues formula
 $$
 \begin{aligned}
-v ( t ) = C _ 1 e ^ { \lambda _ { 1 } t } \hat u _ { 1 } + C _ 2 e ^ { \lambda _ { 2 } t } \hat u _ { 2 } \\
+v ( t ) = C _ { 1 } e ^ { \lambda _ { 1 } t } \hat u _ { 1 } + C _ { 2 } e ^ { \lambda _ { 2 } t } \hat u _ { 2 } \\
 v = [ x , y ] \\
 A = \begin { b m a t r i x }
 a & b \\
@@ -401,9 +401,9 @@ $$
 ### distinct real eigenvalues property formula
 $$
 \begin{aligned}
-\lambda _ { 1 } , \lambda _ { 2 } < 0 \implies \forall v _ { 0 } \in \mathbb R ^ 2 : \lim _ { t \rightarrow \infty } v ( t ) = v _ * \\
-( \lambda _ { 1 } > 0 ) \land ( \lambda _ { 2 } < 0 ) \implies \forall v _ { 0 } \in \mathbb R ^ 2 : \lim _ { t \rightarrow \infty } v ( t ) \ne v _ * \\
-\lambda _ { 1 } , \lambda _ { 2 } > 0 \implies \forall v _ { 0 } \in \mathbb R ^ 2 : \lim _ { t \rightarrow \infty } v ( t ) \ne v _ *
+\lambda _ { 1 } , \lambda _ { 2 } < 0 \implies \forall v _ { 0 } \in \mathbb R ^ { 2 } : \lim _ { t \rightarrow \infty } v ( t ) = v _ { * } \\
+( \lambda _ { 1 } > 0 ) \land ( \lambda _ { 2 } < 0 ) \implies \forall v _ { 0 } \in \mathbb R ^ { 2 } : \lim _ { t \rightarrow \infty } v ( t ) \ne v _ { * } \\
+\lambda _ { 1 } , \lambda _ { 2 } > 0 \implies \forall v _ { 0 } \in \mathbb R ^ { 2 } : \lim _ { t \rightarrow \infty } v ( t ) \ne v _ { * }
 \end{aligned}
 $$
 
@@ -417,7 +417,7 @@ $$
 $$
 \begin{aligned}
 \hat u _ { 1 } \ne \hat u _ { 2 } \implies v ( t ) = e ^ { \lambda t } ( C _ { 1 } \hat u _ { 1 } + C _ { 2 } \hat u _ { 2 } ) \\
-\hat u _ { 1 } = \hat u _ { 2 } \implies v ( t ) = C _ { 1 } e ^ { \lambda t } \hat u + C _ 2 e ^ { \lambda t } ( \hat u t + \hat w ) \land ( A - \lambda I ) \hat w = \hat u \\
+\hat u _ { 1 } = \hat u _ { 2 } \implies v ( t ) = C _ { 1 } e ^ { \lambda t } \hat u + C _ { 2 } e ^ { \lambda t } ( \hat u t + \hat w ) \land ( A - \lambda I ) \hat w = \hat u \\
 v = [ x , y ] \\
 A = \begin { b m a t r i x }
 a & b \\
@@ -442,8 +442,8 @@ $$
 ### repeated real eigenvalues property formula
 $$
 \begin{aligned}
-\lambda < 0 \implies \forall v _ { 0 } \in \mathbb R ^ 2 : \lim _ { t \rightarrow \infty } v ( t ) = v _ * \\
-\lambda > 0 \implies \forall v _ { 0 } \in \mathbb R ^ 2 : \lim _ { t \rightarrow \infty } v ( t ) \ne v _ * \\
+\lambda < 0 \implies \forall v _ { 0 } \in \mathbb R ^ { 2 } : \lim _ { t \rightarrow \infty } v ( t ) = v _ { * } \\
+\lambda > 0 \implies \forall v _ { 0 } \in \mathbb R ^ { 2 } : \lim _ { t \rightarrow \infty } v ( t ) \ne v _ { * } \\
 \end{aligned}
 $$
 
@@ -456,7 +456,7 @@ $$
 ### complex eigenvalues formula
 $$
 \begin{aligned}
-v ( t ) = C _ 1 e ^ { \alpha t } ( \gamma \cos \beta t - \lambda \sin \beta t ) + C _ 2 e ^ { \alpha t } ( \gamma \cos \beta t + \lambda \sin \beta t ) \\
+v ( t ) = C _ { 1 } e ^ { \alpha t } ( \gamma \cos \beta t - \lambda \sin \beta t ) + C _ { 2 } e ^ { \alpha t } ( \gamma \cos \beta t + \lambda \sin \beta t ) \\
 \alpha = 0 \implies v ( t ) = v _ { 0 } ( \cos \beta t + \frac { A \sin \beta t } { \beta } ) \\
 v = \text { solution } \\
 t = \text { time } \\
@@ -479,9 +479,9 @@ $$
 ### complex eigenvalues property formula
 $$
 \begin{aligned}
-\alpha < 0 \implies \forall v _ { 0 } \in \mathbb R ^ 2 : \lim _ { t \rightarrow \infty } v ( t ) = v _ * \\
-\alpha = 0 \implies \exists v _ { 0 } \in \mathbb R ^ 2 : \lim _ { t \rightarrow \infty } v ( t ) \ne v _ * \\
-\alpha > 0 \implies \forall v _ { 0 } \in \mathbb R ^ 2 : \lim _ { t \rightarrow \infty } v ( t ) \ne v _ *
+\alpha < 0 \implies \forall v _ { 0 } \in \mathbb R ^ { 2 } : \lim _ { t \rightarrow \infty } v ( t ) = v _ { * } \\
+\alpha = 0 \implies \exists v _ { 0 } \in \mathbb R ^ { 2 } : \lim _ { t \rightarrow \infty } v ( t ) \ne v _ { * } \\
+\alpha > 0 \implies \forall v _ { 0 } \in \mathbb R ^ { 2 } : \lim _ { t \rightarrow \infty } v ( t ) \ne v _ { * }
 \end{aligned}
 $$
 

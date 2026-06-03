@@ -32,7 +32,7 @@ $$
 $$
 \begin{aligned}
 n = \frac { c } { v } = \frac { \lambda _ { 0 } } { \lambda } = \sqrt { K K _ { m } } \\
-c = 3 \times 10 ^ 8 \\
+c = 3 \times 10 ^ { 8 } \\
 v = \text { wave velocity } \\
 \lambda = \text { wavelength } \\
 K = \text { dielectric constant } \\
@@ -176,7 +176,7 @@ $$
 ### malus formula
 $$
 \begin{aligned}
-I = I _ { 0 } \cos ^ 2 ( \theta ) \\
+I = I _ { 0 } \cos ^ { 2 } ( \theta ) \\
 I = \text { intensity } \\
 \theta = \text { angular position }
 \end{aligned}
@@ -230,7 +230,7 @@ $$
 ### polarization by scattering formula
 $$
 \begin{aligned}
-I \propto f ^ 4 \propto \frac { 1 } { \lambda ^ 4 } \\
+I \propto f ^ { 4 } \propto \frac { 1 } { \lambda ^ { 4 } } \\
 I = \text { intensity } \\
 f = \text { oscillation frequency } \\
 \lambda = \text { wavelength }

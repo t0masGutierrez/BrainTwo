@@ -5,7 +5,7 @@
 ### linear independence formula
 $$
 \begin{aligned}
-\sum _ { i = 1 } ^ n c _ i \vec v _ i = \vec 0 \implies \forall i : c _ i = 0 \\
+\sum _ { i = 1 } ^ { n } c _ { i } \vec v _ { i } = \vec 0 \implies \forall i : c _ { i } = 0 \\
 S = \{ \vec v _ { 1 } , \dots , \vec v _ { n } \} \subset \mathcal V \\
 n = \text { number of columns } \\
 c = \text { scalar } \\
@@ -23,7 +23,7 @@ $$
 ### linear dependence formula
 $$
 \begin{aligned}
-\exists c _ i \ne 0 : \sum _ { i = 1 } ^ n c _ i \vec v _ i = \vec 0 \\
+\exists c _ { i } \ne 0 : \sum _ { i = 1 } ^ { n } c _ { i } \vec v _ { i } = \vec 0 \\
 S = \{ \vec v _ { 1 } , \dots , \vec v _ { n } \} \subset \mathcal V \\
 n = \text { number of columns } \\
 c = \text { scalar } \\
@@ -91,7 +91,7 @@ $$
 ### linear independence size property formula
 $$
 \begin{aligned}
-( \vec v \in \mathbb R ^ m ) \land ( n > m ) \implies \text { rank } ( \{ \vec v _ { 1 } \dots , \vec v _ { n } \} ) \ne n \\
+( \vec v \in \mathbb R ^ { m } ) \land ( n > m ) \implies \text { rank } ( \{ \vec v _ { 1 } \dots , \vec v _ { n } \} ) \ne n \\
 \vec v = \text { vector } \\
 m = \text { number of coordinates } \\
 n = \text { number of vectors }
@@ -106,7 +106,7 @@ $$
 ### linear independence scalar property formula
 $$
 \begin{aligned}
-( \sum _ { i = 1 } ^ n c _ { i } \vec v _ { i } = \vec 0 ) \land ( \exists i \ne j : \vec v _ { i } = c \vec v _ { j } ) \implies \text { rank } ( S ) < n \\
+( \sum _ { i = 1 } ^ { n } c _ { i } \vec v _ { i } = \vec 0 ) \land ( \exists i \ne j : \vec v _ { i } = c \vec v _ { j } ) \implies \text { rank } ( S ) < n \\
 n = \text { number of columns } \\
 c = \text { scalar } \\
 \vec v = \text { vector } \\
@@ -138,8 +138,8 @@ $$
 ### linear independence subset property formula
 $$
 \begin{aligned}
-\forall S _ k = \set { \vec v _ 1 , \dots , \vec v _ k } \subset S : \text { rank } ( S _ k ) = k \iff \text { rank } ( S ) = n \\
-S = \set { \vec v _ 1 , \dots , \vec v _ n } \\
+\forall S _ { k } = \set { \vec v _ { 1 } , \dots , \vec v _ { k } } \subset S : \text { rank } ( S _ { k } ) = k \iff \text { rank } ( S ) = n \\
+S = \set { \vec v _ { 1 } , \dots , \vec v _ { n } } \\
 n = \text { number of columns } \\
 S = \text { set }
 \end{aligned}
@@ -153,7 +153,7 @@ $$
 ### linear independence uniqueness property formula
 $$
 \begin{aligned}
-\forall \vec v \in \text { span } ( S ) , \exists ! ( \sum _ { i = 1 } ^ k c _ i \vec v _ i ) \implies \text { rank } ( S ) = n \\
+\forall \vec v \in \text { span } ( S ) , \exists ! ( \sum _ { i = 1 } ^ { k } c _ { i } \vec v _ { i } ) \implies \text { rank } ( S ) = n \\
 \vec v = \text { vector } \\
 S = \text { set } \\
 c = \text { scalar } \\

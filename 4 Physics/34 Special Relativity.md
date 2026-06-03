@@ -41,9 +41,9 @@
 ### lorentz factor formula
 $$
 \begin{aligned}
-\gamma = \sqrt [ - 2 ] { 1 - \frac { v _ { A / B } ^ 2 } { c ^ 2 } } \ge 1 \\
+\gamma = \sqrt [ - 2 ] { 1 - \frac { v _ { A / B } ^ { 2 } } { c ^ { 2 } } } \ge 1 \\
 v = \text { velocity } \\
-c = 3 \times 10 ^ 8
+c = 3 \times 10 ^ { 8 }
 \end{aligned}
 $$
 
@@ -127,12 +127,12 @@ $$
 x = ( x ' + v t ' ) \gamma \\
 y = y ' \\
 z = z ' \\
-t = ( t ' + \frac { v x ' } { c ^ 2 } ) \gamma \\
+t = ( t ' + \frac { v x ' } { c ^ { 2 } } ) \gamma \\
 x = \text { position } \\
 v = \text { velocity } \\
 t = \text { time } \\
 \gamma = \text { lorentz factor } \\
-c = 3 \times 10 ^ 8
+c = 3 \times 10 ^ { 8 }
 \end{aligned}
 $$
 
@@ -140,7 +140,7 @@ $$
 ### lorentz velocity transformation formula
 $$
 \begin{aligned}
-v = \frac { v ' + v _ { A / B } } { 1 + v _ { A / B } v ' / c ^ 2 }
+v = \frac { v ' + v _ { A / B } } { 1 + v _ { A / B } v ' / c ^ { 2 } }
 \end{aligned}
 $$
 
@@ -152,8 +152,8 @@ $$
 ### spacetime interval formula
 $$
 \begin{aligned}
-\Delta s ^ 2 = c ^ 2 \Delta t ^ 2 - \Delta x ^ 2 - \Delta y ^ 2 - \Delta z ^ 2 \\
-c = 3 \times 10 ^ 8 \\
+\Delta s ^ { 2 } = c ^ { 2 } \Delta t ^ { 2 } - \Delta x ^ { 2 } - \Delta y ^ { 2 } - \Delta z ^ { 2 } \\
+c = 3 \times 10 ^ { 8 } \\
 t = \text { time } \\
 x = \text { position }
 \end{aligned}
@@ -167,7 +167,7 @@ $$
 ### lorentz invariance formula
 $$
 \begin{aligned}
-\Delta s ^ 2 = ( \Delta s ' ) ^ 2 \\
+\Delta s ^ { 2 } = ( \Delta s ' ) ^ { 2 } \\
 s = \text { spacetime }
 \end{aligned}
 $$
@@ -207,7 +207,7 @@ $$
 \begin{aligned}
 f = f _ { 0 } \sqrt { \frac { c \pm v _ { A / B } } { c \mp v _ { A / B } } } \\
 f _ { 0 } = \text { proper frequency } \\
-c = 3 \times 10 ^ 8 \\
+c = 3 \times 10 ^ { 8 } \\
 v = \text { velocity }
 \end{aligned}
 $$
@@ -247,10 +247,10 @@ $$
 ### relativistic kinetic energy formula
 $$
 \begin{aligned}
-K = ( \gamma - 1 ) m c ^ 2 \\
+K = ( \gamma - 1 ) m c ^ { 2 } \\
 \gamma = \text { lorentz factor } \\
 m = \text { mass } \\
-c = 3 \times 10 ^ 8
+c = 3 \times 10 ^ { 8 }
 \end{aligned}
 $$
 
@@ -263,10 +263,10 @@ $$
 ### total relativistic energy formula
 $$
 \begin{aligned}
-E = \gamma m c ^ 2 \\
+E = \gamma m c ^ { 2 } \\
 \gamma = \text { lorentz factor } \\
 m = \text { mass } \\
-c = 3 \times 10 ^ 8
+c = 3 \times 10 ^ { 8 }
 \end{aligned}
 $$
 
@@ -274,9 +274,9 @@ $$
 ### rest relativistic energy formula
 $$
 \begin{aligned}
-E _ { 0 } = m c ^ 2 \\
+E _ { 0 } = m c ^ { 2 } \\
 m = \text { mass } \\
-c = 3 \times 10 ^ 8
+c = 3 \times 10 ^ { 8 }
 \end{aligned}
 $$
 
@@ -288,9 +288,9 @@ $$
 ### energy and momentum formula
 $$
 \begin{aligned}
-E ^ 2 = ( m c ^ 2 ) ^ 2 + ( p c ) ^ 2 \\
+E ^ { 2 } = ( m c ^ { 2 } ) ^ { 2 } + ( p c ) ^ { 2 } \\
 m = \text { mass } \\
-c = 3 \times 10 ^ 8 \\
+c = 3 \times 10 ^ { 8 } \\
 p = \text { momentum }
 \end{aligned}
 $$

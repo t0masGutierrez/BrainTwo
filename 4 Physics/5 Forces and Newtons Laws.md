@@ -5,7 +5,7 @@
 ### dynamics formula
 $$
 \begin{aligned}
-\vec F _ A \rightarrow \vec x _ A = ?
+\vec F _ { A } \rightarrow \vec x _ { A } = ?
 \end{aligned}
 $$
 
@@ -18,8 +18,8 @@ $$
 ### force formula
 $$
 \begin{aligned}
-\vec F = F _ x \hat i + F _ y \hat j \\
-F = \sqrt { F _ { x } ^ 2 + F _ { y } ^ 2 } \\
+\vec F = F _ { x } \hat i + F _ { y } \hat j \\
+F = \sqrt { F _ { x } ^ { 2 } + F _ { y } ^ { 2 } } \\
 \theta = \arctan ( \frac { F _ { y } } { F _ { x } } ) \\
 F _ { x } = F \cos ( \theta ) \\
 F _ { y } = F \sin ( \theta ) \\
@@ -39,7 +39,7 @@ $$
 ### net force formula
 $$
 \begin{aligned}
-\vec F _ { n e t } = \sum _ n \vec F _ n = ( \sum _ n F _ { n x } ) \hat i + ( \sum _ n F _ { n y } ) \hat j \\
+\vec F _ { n e t } = \sum _ { n } \vec F _ { n } = ( \sum _ { n } F _ { n x } ) \hat i + ( \sum _ { n } F _ { n y } ) \hat j \\
 \vec F = \text { force } \\
 \hat i = \text { x direction } \\
 \hat j = \text { y direction } \\
@@ -55,7 +55,7 @@ $$
 ### normal force formula
 $$
 \begin{aligned}
-\vec F _ N = m \vec a _ N \\
+\vec F _ { N } = m \vec a _ { N } \\
 m = \text { mass } \\
 \vec a = \text { acceleration }
 \end{aligned}
@@ -72,10 +72,10 @@ $$
 ### friction force formula
 $$
 \begin{aligned}
-\vec f _ s \le \mu _ s \vec F _ N \\
-\vec f _ k = \mu _ k \vec F _ N \\
-\mu _ s = \text { static friction coefficient } \\
-\mu _ k = \text { kinetic friction coefficient } \\
+\vec f _ { s } \le \mu _ { s } \vec F _ { N } \\
+\vec f _ { k } = \mu _ { k } \vec F _ { N } \\
+\mu _ { s } = \text { static friction coefficient } \\
+\mu _ { k } = \text { kinetic friction coefficient } \\
 \vec F = \text { force }
 \end{aligned}
 $$
@@ -89,7 +89,7 @@ $$
 ### tension force formula
 $$
 \begin{aligned}
-\vec F _ T = m \vec a _ T \\
+\vec F _ { T } = m \vec a _ { T } \\
 m = \text { mass } \\
 \vec a = \text { acceleration }
 \end{aligned}
@@ -134,7 +134,7 @@ $$
 ### spring force formula
 $$
 \begin{aligned}
-\vec F _ s = - k \Delta \vec x \\
+\vec F _ { s } = - k \Delta \vec x \\
 k = \text { spring constant } \\
 \vec x = \text { position }
 \end{aligned}
@@ -148,12 +148,12 @@ $$
 ### drag force formula
 $$
 \begin{aligned}
-\vec F _ d = - k \vec v \\
-\vec F _ d = \frac { - 1 } { 2 } \rho C _ d A \vec v ^ 2 \\
+\vec F _ { d } = - k \vec v \\
+\vec F _ { d } = \frac { - 1 } { 2 } \rho C _ { d } A \vec v ^ { 2 } \\
 k = \text { linear drag coefficient } \\
 \vec v = \text { velocity } \\
 \rho = \text { density } \\
-C _ d = \text { drag coefficient } \\
+C _ { d } = \text { drag coefficient } \\
 A = \text { cross-section area }
 \end{aligned}
 $$
@@ -166,9 +166,9 @@ $$
 ### buoyant force formula
 $$
 \begin{aligned}
-\vec F _ { b } = \rho _ f V _ f \vec g \\
-\rho _ f = \text { fluid density } \\
-V _ f = \text { fluid volume } \\
+\vec F _ { b } = \rho _ { f } V _ { f } \vec g \\
+\rho _ { f } = \text { fluid density } \\
+V _ { f } = \text { fluid volume } \\
 \vec g = \text { gravity }
 \end{aligned}
 $$
@@ -213,7 +213,7 @@ $$
 ### gravitational interaction formula
 $$
 \begin{aligned}
-\vec F _ G = G \frac { m _ 1 m _ 2 } { r ^ 2 } \hat r \\
+\vec F _ { G } = G \frac { m _ { 1 } m _ { 2 } } { r ^ { 2 } } \hat r \\
 G = \text { gravitational constant } \\
 m = \text { mass } \\
 r = \text { distance between centers } \\

@@ -63,7 +63,7 @@ $$
 ### internal energy formula
 $$
 \begin{aligned}
-E = \frac { f } { 2 } N k _ b T _ { k } = \frac { f } { 2 } n R T _ { k } \\
+E = \frac { f } { 2 } N k _ { b } T _ { k } = \frac { f } { 2 } n R T _ { k } \\
 f = \text { degrees of freedom } \\
 N = \text { number of molecules } \\
 k _ { b } = 1.38 \times 10 ^ { - 23 } \\
@@ -123,7 +123,7 @@ $$
 ### isothermal formula
 $$
 \begin{aligned}
-p _ 1 V _ { 1 } = p _ 2 V _ { 2 } \\
+p _ { 1 } V _ { 1 } = p _ { 2 } V _ { 2 } \\
 p = \text { pressure } \\
 V = \text { volume }
 \end{aligned}
@@ -180,8 +180,8 @@ $$
 ### adiabatic formula
 $$
 \begin{aligned}
-p _ 1 V _ { 1 } ^ { \gamma } = p _ 2 V _ { 2 } ^ { \gamma } \\
-T _ 1 V _ { 1 } ^ { \gamma - 1 } = T _ 2 V _ { 2 } ^ { \gamma - 1 } \\
+p _ { 1 } V _ { 1 } ^ { \gamma } = p _ { 2 } V _ { 2 } ^ { \gamma } \\
+T _ { 1 } V _ { 1 } ^ { \gamma - 1 } = T _ { 2 } V _ { 2 } ^ { \gamma - 1 } \\
 \gamma = \frac { c _ { p } } { c _ { v } } \\
 p = \text { pressure } \\
 V = \text { volume } \\

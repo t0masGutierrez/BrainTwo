@@ -18,7 +18,7 @@ $$
 ### nth term of geometric sequence formula
 $$
 \begin{aligned}
-a _ { n } = a _ 1 r ^ { n - 1 } \\
+a _ { n } = a _ { 1 } r ^ { n - 1 } \\
 a _ { 1 } = \text { 1st term } \\
 r = \text { common ratio } \\
 n = \text { index }
@@ -85,7 +85,7 @@ $$
 ### summation formula
 $$
 \begin{aligned}
-\sum _ { k = 1 } ^ n a _ { k } = a _ { 1 } + a _ { 2 } + . . . + a _ { n } \\
+\sum _ { k = 1 } ^ { n } a _ { k } = a _ { 1 } + a _ { 2 } + . . . + a _ { n } \\
 k = \text { index } \\
 n = \text { number of terms } \\
 \sum = \text { summation } \\
@@ -101,7 +101,7 @@ $$
 ### change of summation index formula
 $$
 \begin{aligned}
-\sum _ { k = m } ^ n = \sum _ { k = 1 } ^ n - \sum _ { k = 1 } ^ { m - 1 }
+\sum _ { k = m } ^ { n } = \sum _ { k = 1 } ^ { n } - \sum _ { k = 1 } ^ { m - 1 }
 \end{aligned}
 $$
 
@@ -127,7 +127,7 @@ $$
 ### finite geometric series formula
 $$
 \begin{aligned}
-S _ { n } = \frac { a _ { 1 } ( 1 - r ^ n ) } { 1 - r } \\
+S _ { n } = \frac { a _ { 1 } ( 1 - r ^ { n } ) } { 1 - r } \\
 a _ { 1 } = \text { 1st term } \\
 r = \text { common ratio }
 \end{aligned}

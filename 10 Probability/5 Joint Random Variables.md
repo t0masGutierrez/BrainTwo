@@ -5,7 +5,7 @@
 ### joint random variable formula
 $$
 \begin{aligned}
-( X , Y ) : \Omega \rightarrow \mathbb R ^ 2 \\
+( X , Y ) : \Omega \rightarrow \mathbb R ^ { 2 } \\
 X ( \omega ) , Y ( \omega ) = ( x , y ) \\
 X , Y = \text { random variable } \\
 \Omega = \text { sample space } \\
@@ -23,9 +23,9 @@ $$
 $$
 \begin{aligned}
 F _ { X , Y } ( x , y ) = P ( X \le x , Y \le y ) \\
-1 - F _ X ( x ) - F _ Y ( y ) + F _ { X , Y } ( x , y ) = P ( X > x , Y > y ) \\
-F _ X ( x ) - F _ { X , Y } = P ( X \le x , Y > y ) \\
-F _ Y ( x ) - F _ { X , Y } = P ( X > x , Y \le y ) \\
+1 - F _ { X } ( x ) - F _ { Y } ( y ) + F _ { X , Y } ( x , y ) = P ( X > x , Y > y ) \\
+F _ { X } ( x ) - F _ { X , Y } = P ( X \le x , Y > y ) \\
+F _ { Y } ( x ) - F _ { X , Y } = P ( X > x , Y \le y ) \\
 \end{aligned}
 $$
 
@@ -37,7 +37,7 @@ $$
 ### joint probability mass function formula
 $$
 \begin{aligned}
-P ( a \le X \le b , c \le Y \le d ) = \sum _ { a \le x _ i \le b } \sum _ { c \le y _ j \le d } P ( X = x _ { i } , Y = y _ { j } ) \\
+P ( a \le X \le b , c \le Y \le d ) = \sum _ { a \le x _ { i } \le b } \sum _ { c \le y _ { j } \le d } P ( X = x _ { i } , Y = y _ { j } ) \\
 P ( X \le x , Y \le y ) = \sum _ { x _ { i } \le x } \sum _ { y _ { j } \le y } P ( X = x _ { i } , Y = y _ { j } ) \\
 P ( X , Y ) = \sum _ { i } \sum _ { j } P ( X = x _ { i } , Y = y _ { j } ) = 1 \\
 P ( X = x , Y = y ) = P ( X \le x , Y \le y ) - \\
@@ -56,9 +56,9 @@ $$
 $$
 \begin{aligned}
 P ( X = x , Y = y ) = 0 \\
-P ( X \in A , Y \in B ) = \int _ A \int _ B f _ { X , Y } ( x , y ) d y d x = 1 \\
+P ( X \in A , Y \in B ) = \int _ { A } \int _ { B } f _ { X , Y } ( x , y ) d y d x = 1 \\
 P ( X \le a , Y \le b ) = \int _ { - \infty } ^ { a } \int _ { - \infty } ^ { b } f _ { X , Y } ( x , y ) d y d x = F _ { X , Y } ( a , b ) \\
-P ( a \le X \le b , c \le Y \le d ) = \int _ a ^ b \int _ c ^ d f _ { X , Y } ( x , y ) d y d x = F _ { X , Y } ( b , d ) - \\
+P ( a \le X \le b , c \le Y \le d ) = \int _ { a } ^ { b } \int _ { c } ^ { d } f _ { X , Y } ( x , y ) d y d x = F _ { X , Y } ( b , d ) - \\
 F _ { X , Y } ( a , d ) - \\
 F _ { X , Y } ( b , c ) + \\
 F _ { X , Y } ( a , c )
@@ -73,8 +73,8 @@ $$
 ### marginal probability mass function formula
 $$
 \begin{aligned}
-P ( X = x ) = \sum _ y P ( X = x , Y = y ) \\
-P ( Y = y ) = \sum _ x P ( X = x , Y = y ) \\
+P ( X = x ) = \sum _ { y } P ( X = x , Y = y ) \\
+P ( Y = y ) = \sum _ { x } P ( X = x , Y = y ) \\
 X , Y = \text { random variable } \\
 x , y = \text { real number }
 \end{aligned}
@@ -88,8 +88,8 @@ $$
 ### marginal probability density function formula
 $$
 \begin{aligned}
-f _ X ( x ) = \int _ { - \infty } ^ \infty f _ { X , Y } ( x , y ) d y \\
-f _ Y ( y ) = \int _ { - \infty } ^ \infty f _ { X , Y } ( x , y ) d x \\
+f _ { X } ( x ) = \int _ { - \infty } ^ { \infty } f _ { X , Y } ( x , y ) d y \\
+f _ { Y } ( y ) = \int _ { - \infty } ^ { \infty } f _ { X , Y } ( x , y ) d x \\
 X , Y = \text { random variable } \\
 x , y = \text { real number }
 \end{aligned}
@@ -103,7 +103,7 @@ $$
 ### indicator random variable formula
 $$
 \begin{aligned}
-I = \begin { c a s e s } 1 , \quad A \\ 0 , \quad A ^ c \end { c a s e s } \\
+I = \begin { c a s e s } 1 , \quad A \\ 0 , \quad A ^ { c } \end { c a s e s } \\
 A = \text { event }
 \end{aligned}
 $$
@@ -116,7 +116,7 @@ $$
 ### indicator expectation formula
 $$
 \begin{aligned}
-E [ X ] = E [ \sum _ { i = 1 } ^ n I _ i ] = \sum _ { i = 1 } ^ n P ( A _ i ) \\
+E [ X ] = E [ \sum _ { i = 1 } ^ { n } I _ { i } ] = \sum _ { i = 1 } ^ { n } P ( A _ { i } ) \\
 X , I = \text { random variable } \\
 A = \text { event }
 \end{aligned}
@@ -130,7 +130,7 @@ $$
 ### indicator variance formula
 $$
 \begin{aligned}
-\text { Var } ( X ) = \text { Var } ( \sum _ { i = 1 } ^ n I _ i ) = \sum _ { i = 1 } ^ n P ( A _ i ) Q ( A _ i ) \\
+\text { Var } ( X ) = \text { Var } ( \sum _ { i = 1 } ^ { n } I _ { i } ) = \sum _ { i = 1 } ^ { n } P ( A _ { i } ) Q ( A _ { i } ) \\
 Q ( A ) = 1 - P ( A ) \\
 X , I = \text { random variable } \\
 A = \text { event }
@@ -145,10 +145,10 @@ $$
 ### convolution formula
 $$
 \begin{aligned}
-P ( X + Y = z ) = \sum _ x P ( Y = z - x ) P ( X = x ) \\
-P ( X + Y = z ) = \sum _ y P ( X = z - y ) P ( Y = y ) \\
-f _ { X + Y } ( z ) = \int _ { - \infty } ^ \infty f _ Y ( z - x ) f _ X ( x ) d x \\
-f _ { X + Y } ( z ) = \int _ { - \infty } ^ \infty f _ X ( z - y ) f _ Y ( y ) d y
+P ( X + Y = z ) = \sum _ { x } P ( Y = z - x ) P ( X = x ) \\
+P ( X + Y = z ) = \sum _ { y } P ( X = z - y ) P ( Y = y ) \\
+f _ { X + Y } ( z ) = \int _ { - \infty } ^ { \infty } f _ { Y } ( z - x ) f _ { X } ( x ) d x \\
+f _ { X + Y } ( z ) = \int _ { - \infty } ^ { \infty } f _ { X } ( z - y ) f _ { Y } ( y ) d y
 \end{aligned}
 $$
 
@@ -176,7 +176,7 @@ $$
 $$
 \begin{aligned}
 P ( X = x , Y = y ) \ne P ( X = x ) P ( Y = y ) \\
-f _ { X , Y } ( x , y ) \ne f _ X ( x ) f _ Y ( y ) \\
+f _ { X , Y } ( x , y ) \ne f _ { X } ( x ) f _ { Y } ( y ) \\
 X , Y = \text { random variable } \\
 x , y = \text { real number }
 \end{aligned}
@@ -191,7 +191,7 @@ $$
 $$
 \begin{aligned}
 P ( X = x \mid Y = y ) = \frac { P ( X = x , Y = y ) } { P ( Y = y ) } \\
-f _ { X \mid Y } ( x \mid y ) = \frac { f _ { X , Y } ( x , y ) } { f _ Y ( y ) }
+f _ { X \mid Y } ( x \mid y ) = \frac { f _ { X , Y } ( x , y ) } { f _ { Y } ( y ) }
 \end{aligned}
 $$
 
@@ -203,8 +203,8 @@ $$
 ### joint expectation formula
 $$
 \begin{aligned}
-E [ g ( X , Y ) ] = \sum _ x \sum _ y g ( x , y ) P ( X = x , Y = y ) \\
-E [ g ( X , Y ) ] = \int _ { - \infty } ^ \infty \int _ { - \infty } ^ \infty g ( x , y ) f ( x , y ) d y d x \\
+E [ g ( X , Y ) ] = \sum _ { x } \sum _ { y } g ( x , y ) P ( X = x , Y = y ) \\
+E [ g ( X , Y ) ] = \int _ { - \infty } ^ { \infty } \int _ { - \infty } ^ { \infty } g ( x , y ) f ( x , y ) d y d x \\
 X , Y = \text { random variable } \\
 x , y = \text { real number }
 \end{aligned}
@@ -258,8 +258,8 @@ $$
 ### conditional expectation formula
 $$
 \begin{aligned}
-E [ X | Y = y ] = \sum _ x x P ( X = x | Y = y ) \\
-E [ X | Y = y ] = \int _ { - \infty } ^ \infty x f _ { X | Y } ( x , y ) d x \\
+E [ X | Y = y ] = \sum _ { x } x P ( X = x | Y = y ) \\
+E [ X | Y = y ] = \int _ { - \infty } ^ { \infty } x f _ { X | Y } ( x , y ) d x \\
 X , Y = \text { random variable }
 \end{aligned}
 $$
@@ -316,8 +316,8 @@ $$
 ### iid formula
 $$  
 \begin{aligned}  
-\forall i , j \in ( 1 , \dots , m ) : P ( X _ i \in A , X _ j \in B ) = P ( X _ i \in A ) P ( X _ j \in B ) \\
-\forall i \in ( 1 , \dots , m ) : X _ i \sim N ( \mu , \sigma ^ 2 ) \\
+\forall i , j \in ( 1 , \dots , m ) : P ( X _ { i } \in A , X _ { j } \in B ) = P ( X _ { i } \in A ) P ( X _ { j } \in B ) \\
+\forall i \in ( 1 , \dots , m ) : X _ { i } \sim N ( \mu , \sigma ^ { 2 } ) \\
 X , Y = \text { random variable } \\
 m = \text { number of random variables } \\
 N = \text { probability distribution }
@@ -332,7 +332,7 @@ $$
 ### iid expectation formula
 $$
 \begin{aligned}
-E [ \sum _ { i = 1 } ^ n X _ i ] = n \mu \\
+E [ \sum _ { i = 1 } ^ { n } X _ { i } ] = n \mu \\
 X = \text { iid random variable } \\
 n = \text { sample size } \\
 \mu = \text { mean } \\
@@ -347,10 +347,10 @@ $$
 ### iid variance formula
 $$
 \begin{aligned}
-\text { Var } ( \sum _ { i = 1 } ^ n X _ i ) = n \sigma ^ 2 \\
+\text { Var } ( \sum _ { i = 1 } ^ { n } X _ { i } ) = n \sigma ^ { 2 } \\
 X = \text { iid random variable } \\
 n = \text { sample size } \\
-\sigma ^ 2 = \text { variance } \\
+\sigma ^ { 2 } = \text { variance } \\
 \end{aligned}
 $$
 

@@ -73,7 +73,7 @@ $$
 ### like term formula
 $$
 \begin{aligned}
-a x ^ n + b x ^ n = ( a + b ) x ^ n
+a x ^ { n } + b x ^ { n } = ( a + b ) x ^ { n }
 \end{aligned}
 $$
 
@@ -89,7 +89,7 @@ $$
 ( - ) = \text { subtraction } \\
 ( \cdot ) = \text { multiplication } \\
 ( \div ) = \text { division } \\
-( ^ n ) = \text { exponentiation }
+( ^ { n } ) = \text { exponentiation }
 \end{aligned}
 $$
 

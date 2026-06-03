@@ -40,7 +40,7 @@ $$
 ### eigenspace formula
 $$
 \begin{aligned}
-E _ { \lambda } = \{ \vec x \in \mathbb R ^ n \mid ( A - \lambda I ) \vec x = 0 \} \\
+E _ { \lambda } = \{ \vec x \in \mathbb R ^ { n } \mid ( A - \lambda I ) \vec x = 0 \} \\
 \vec x = \text { eigenvector } \\
 A = \text { square matrix } \\
 \lambda = \text { eigenvalue } \\
@@ -56,7 +56,7 @@ $$
 ### number of eigenvectors formula
 $$
 \begin{aligned}
-( c \in \mathbb R ) \land ( \vec x \in E _ \lambda ) \implies c \vec x \in E _ { \lambda } \\
+( c \in \mathbb R ) \land ( \vec x \in E _ { \lambda } ) \implies c \vec x \in E _ { \lambda } \\
 c = \text { scalar } \\
 \vec x = \text { eigenvector } \\
 E _ { \lambda } = \text { eigenspace }
@@ -139,7 +139,7 @@ $$
 ### algebraic multiplicity formula
 $$
 \begin{aligned}
-p _ { A } ( x ) = \prod _ { i = 1 } ^ r ( x - \lambda _ i ) ^ { k _ i } \\
+p _ { A } ( x ) = \prod _ { i = 1 } ^ { r } ( x - \lambda _ { i } ) ^ { k _ { i } } \\
 r = \text { number of eigenvalues } \\
 \lambda = \text { eigenvalue } \\
 k = \text { algebraic multiplicity }
@@ -154,9 +154,9 @@ $$
 ### geometric multiplicity formula
 $$
 \begin{aligned}
-k = \sum _ { i = 1 } ^ r \dim ( E _ { \lambda _ i } ) \\
+k = \sum _ { i = 1 } ^ { r } \dim ( E _ { \lambda _ { i } } ) \\
 r = \text { number of eigenvalues } \\
-E _ \lambda = \text { eigenspace }
+E _ { \lambda } = \text { eigenspace }
 \end{aligned}
 $$
 
@@ -193,7 +193,7 @@ $$
 ### similar exponentiation property formula
 $$
 \begin{aligned}
-A ^ k = P D ^ k P ^ { - 1 } \\
+A ^ { k } = P D ^ { k } P ^ { - 1 } \\
 k \in \mathbb N \\
 A = \text { square matrix } \\
 P = \text { eigenmatrix } \\

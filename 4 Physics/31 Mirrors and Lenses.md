@@ -383,7 +383,7 @@ $$
 ### intensity formula
 $$
 \begin{aligned}
-I \propto \frac { 1 } { ( f / \# ) ^ 2 } \\
+I \propto \frac { 1 } { ( f / \# ) ^ { 2 } } \\
 f / \# = \text { f number }
 \end{aligned}
 $$
@@ -473,7 +473,7 @@ $$
 ### microscope magnification formula
 $$
 \begin{aligned}
-M = m _ { o b j } \times M _ { e y e } = \frac { - r _ { o } ' } { r _ { o } } \times \frac { N } { f _ { e } } \approx \frac { - r _ { o } ' N } { f _ o f _ { e } } \\
+M = m _ { o b j } \times M _ { e y e } = \frac { - r _ { o } ' } { r _ { o } } \times \frac { N } { f _ { e } } \approx \frac { - r _ { o } ' N } { f _ { o } f _ { e } } \\
 L = r _ { o } ' + f _ { e } \\
 r _ { o } ' = \text { objective image distance } \\
 r _ { o } = \text { objective object distance } \\

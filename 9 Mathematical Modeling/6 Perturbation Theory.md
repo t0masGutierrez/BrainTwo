@@ -39,7 +39,7 @@ $$
 $$
 \begin{aligned}
 \frac { d x } { d t } = f ( t , x , \epsilon ) \\
-x ( t _ 0 , \epsilon ) = x _ { 0 } ( \epsilon ) \\
+x ( t _ { 0 } , \epsilon ) = x _ { 0 } ( \epsilon ) \\
 t \ge 0 \\
 f = \text { perturbed equation } \\
 t = \text { time } \\
@@ -90,7 +90,7 @@ $$
 ### analytic formula
 $$
 \begin{aligned}
-f ( t , x , \epsilon ) = \sum _ { i , j , k = 0 } ^ { \infty } c _ { i j k } ( t - t _ { 0 } ) ^ i ( x - x _ { 0 } ) ^ j ( \epsilon - \epsilon _ { 0 } ) ^ k \\
+f ( t , x , \epsilon ) = \sum _ { i , j , k = 0 } ^ { \infty } c _ { i j k } ( t - t _ { 0 } ) ^ { i } ( x - x _ { 0 } ) ^ { j } ( \epsilon - \epsilon _ { 0 } ) ^ { k } \\
 | t - t _ { 0 } | < \sigma , | x - x _ { 0 } | < \eta , | \epsilon - \epsilon _ { 0 } | < \rho \\
 f = \text { perturbed equation } \\
 t = \text { time } \\
@@ -109,8 +109,8 @@ $$
 ### function notation formula
 $$
 \begin{aligned}
-f ( \epsilon ) = \sum _ { n = 0 } ^ \infty c _ { n } \epsilon ^ n \\
-\frac { f ( \epsilon ) } { \epsilon ^ r } = \sum _ { n = 0 } ^ \infty c _ { n } \epsilon ^ { n - r } \\
+f ( \epsilon ) = \sum _ { n = 0 } ^ { \infty } c _ { n } \epsilon ^ { n } \\
+\frac { f ( \epsilon ) } { \epsilon ^ { r } } = \sum _ { n = 0 } ^ { \infty } c _ { n } \epsilon ^ { n - r } \\
 f = \text { perturbed equation } \\
 c = \text { coefficient } \\
 \epsilon = \text { parameter }
@@ -125,7 +125,7 @@ $$
 ### big-O notation formula
 $$
 \begin{aligned}
-\lim _ { \epsilon \rightarrow 0 } | \frac { f ( \epsilon ) } { \epsilon ^ r } | \le C \implies f ( \epsilon ) \le O ( \epsilon ^ r ) \\
+\lim _ { \epsilon \rightarrow 0 } | \frac { f ( \epsilon ) } { \epsilon ^ { r } } | \le C \implies f ( \epsilon ) \le O ( \epsilon ^ { r } ) \\
 f = \text { perturbed equation } \\
 \epsilon = \text { parameter } \\
 C = \text { constant } \\
@@ -141,7 +141,7 @@ $$
 ### little-o notation formula
 $$
 \begin{aligned}
-\lim _ { \epsilon \rightarrow 0 } \frac { f ( \epsilon ) } { \epsilon ^ r } = 0 \implies f ( \epsilon ) \ll o ( \epsilon ^ r ) \\
+\lim _ { \epsilon \rightarrow 0 } \frac { f ( \epsilon ) } { \epsilon ^ { r } } = 0 \implies f ( \epsilon ) \ll o ( \epsilon ^ { r } ) \\
 f = \text { perturbed equation } \\
 \epsilon = \text { parameter } \\
 o = \text { order }
@@ -156,9 +156,9 @@ $$
 ### mclaurin series formula
 $$
 \begin{aligned}
-f ( \epsilon ) = \sum _ { n = 0 } ^ \infty \frac { f ^ { ( n ) } ( 0 ) } { n ! } \epsilon ^ n \\
+f ( \epsilon ) = \sum _ { n = 0 } ^ { \infty } \frac { f ^ { ( n ) } ( 0 ) } { n ! } \epsilon ^ { n } \\
 f = \text { perturbed equation } \\
-f ^ n = \text { nth derivative } \\
+f ^ { n } = \text { nth derivative } \\
 \epsilon = \text { parameter }
 \end{aligned}
 $$
@@ -177,7 +177,7 @@ $$
 $$
 \begin{aligned}
 F ( x , \epsilon ) = 0 \\
-x ( \epsilon _ 0 ) = x _ { 0 } \\
+x ( \epsilon _ { 0 } ) = x _ { 0 } \\
 0 \le \epsilon \ll 1 \\
 F = \text { regular algebraic equation } \\
 x = \text { solution } \\
@@ -193,7 +193,7 @@ $$
 ### regular algebraic property formula
 $$
 \begin{aligned}
-\frac { \partial F } { \partial x } ( x _ { 0 } , \epsilon _ 0 ) \ne 0 \\
+\frac { \partial F } { \partial x } ( x _ { 0 } , \epsilon _ { 0 } ) \ne 0 \\
 F = \text { algebraic equation } \\
 x = \text { solution } \\
 \epsilon = \text { parameter }
@@ -208,7 +208,7 @@ $$
 ### simple root formula
 $$
 \begin{aligned}
-\frac { \partial F } { \partial x } ( x _ { 0 } , \epsilon _ 0 ) \ne 0 \implies x ( \epsilon ) = \sum _ { n = 0 } ^ { \infty } x _ { n } \epsilon ^ n \\
+\frac { \partial F } { \partial x } ( x _ { 0 } , \epsilon _ { 0 } ) \ne 0 \implies x ( \epsilon ) = \sum _ { n = 0 } ^ { \infty } x _ { n } \epsilon ^ { n } \\
 F = \text { algebraic equation } \\
 x = \text { solution } \\
 \epsilon = \text { parameter }
@@ -223,7 +223,7 @@ $$
 ### multiple root formula
 $$
 \begin{aligned}
-\frac { \partial F } { \partial x } ( x _ { 0 } , \epsilon _ 0 ) = 0 \implies x ( \delta ) = \sum _ { n = 0 } ^ { \infty } x _ { n } \delta ^ n \\
+\frac { \partial F } { \partial x } ( x _ { 0 } , \epsilon _ { 0 } ) = 0 \implies x ( \delta ) = \sum _ { n = 0 } ^ { \infty } x _ { n } \delta ^ { n } \\
 \delta = \epsilon ^ { 1 / m } \\
 F = \text { algebraic equation } \\
 x = \text { solution } \\
@@ -246,7 +246,7 @@ $$
 $$
 \begin{aligned}
 \frac { d u } { d t } = F ( t , u , \epsilon ) \\
-u ( t _ 0 , \epsilon ) = u _ { 0 } ( \epsilon ) \\
+u ( t _ { 0 } , \epsilon ) = u _ { 0 } ( \epsilon ) \\
 0 \le \epsilon \ll 1 \\
 t \ge 0 \\
 F = \text { regular differential equation } \\
@@ -263,7 +263,7 @@ $$
 ### regular differential property formula
 $$
 \begin{aligned}
-\frac { \partial F } { \partial u ' } ( t _ 0 , u _ { 0 } , u _ { 0 } ' , \epsilon _ 0 ) \ne 0 \\
+\frac { \partial F } { \partial u ' } ( t _ { 0 } , u _ { 0 } , u _ { 0 } ' , \epsilon _ { 0 } ) \ne 0 \\
 F = \text { algebraic equation } \\
 u = \text { solution } \\
 \epsilon = \text { parameter }
@@ -306,8 +306,8 @@ $$
 x ' ' ( t ) + x ( t ) = \epsilon f ( t , x , x ' ' ) \\
 0 \le \epsilon \ll 1 \\
 \tau = \omega ( \epsilon ) t \\
-\omega ( \epsilon ) = \sum _ { n = 1 } ^ { \infty } \omega _ { n } \epsilon ^ n \\
-x ( t ) = \sum _ { n = 1 } ^ { \infty } x _ { n } ( \tau ) \epsilon ^ n
+\omega ( \epsilon ) = \sum _ { n = 1 } ^ { \infty } \omega _ { n } \epsilon ^ { n } \\
+x ( t ) = \sum _ { n = 1 } ^ { \infty } x _ { n } ( \tau ) \epsilon ^ { n }
 \end{aligned}
 $$
 
@@ -327,7 +327,7 @@ $$
 $$
 \begin{aligned}
 F ( x , \epsilon ) = 0 \\
-x ( \epsilon _ 0 ) = x _ { 0 } \\
+x ( \epsilon _ { 0 } ) = x _ { 0 } \\
 x = \epsilon ^ { - n } y \\
 0 \le \epsilon \ll 1 \\
 F = \text { singular algebraic equation } \\
@@ -364,8 +364,8 @@ $$
 $$
 \begin{aligned}
 \epsilon y ' ' + \phi ( x ) y ' = f ( x ) \\
-\tau = \frac { x - q _ { i n } } { \epsilon ^ n } \\
-\frac { 1 } { \epsilon ^ { 2 n } } ( \frac { d ^ 2 y } { d \tau ^ 2 } ) + \frac { \phi ( x ) } { \epsilon ^ n } ( \frac { d y } { d \tau } ) = f ( x ) \\
+\tau = \frac { x - q _ { i n } } { \epsilon ^ { n } } \\
+\frac { 1 } { \epsilon ^ { 2 n } } ( \frac { d ^ { 2 } y } { d \tau ^ { 2 } } ) + \frac { \phi ( x ) } { \epsilon ^ { n } } ( \frac { d y } { d \tau } ) = f ( x ) \\
 y ( q _ { i n } ) = A e ^ { r _ { 1 } q _ { i n } } + B e ^ { r _ { 2 } q _ { i n } } \\
 y _ { i n } ( \tau )
 \end{aligned}
@@ -379,7 +379,7 @@ $$
 ### matching problem formula
 $$
 \begin{aligned}
-\lim _ { x \rightarrow 0 ^ + } y _ { o u t } ( x ) = \lim _ { \tau \rightarrow \infty } y _ { i n } ( \tau ) \\
+\lim _ { x \rightarrow 0 ^ { + } } y _ { o u t } ( x ) = \lim _ { \tau \rightarrow \infty } y _ { i n } ( \tau ) \\
 y _ { o u t } = \text { outer solution } \\
 y _ { i n } = \text { inner solution }
 \end{aligned}

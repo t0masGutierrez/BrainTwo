@@ -179,7 +179,7 @@ $$
 ### law of total probability formula
 $$
 \begin{aligned}
-P ( A ) = \sum _ { i = 1 } ^ n P ( A | B _ { i } ) P ( B _ { i } ) \\
+P ( A ) = \sum _ { i = 1 } ^ { n } P ( A | B _ { i } ) P ( B _ { i } ) \\
 A = \text { hypothesis } \\
 B = \text { condition }
 \end{aligned}

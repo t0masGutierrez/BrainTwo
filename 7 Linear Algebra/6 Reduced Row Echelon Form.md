@@ -72,7 +72,7 @@ $$
 ### fundamental solution of system of linear equations formula
 $$
 \begin{aligned}
-\text { ker } ( A ) = \{ \sum _ { i = 1 } ^ k a _ { i } \vec x _ { i } \mid a \in \mathbb R , \vec x \in \mathbb R ^ n \} \\
+\text { ker } ( A ) = \{ \sum _ { i = 1 } ^ { k } a _ { i } \vec x _ { i } \mid a \in \mathbb R , \vec x \in \mathbb R ^ { n } \} \\
 k = \text { number of independent variables } \\
 a = \text { coefficient } \\
 \vec x = \text { vector }

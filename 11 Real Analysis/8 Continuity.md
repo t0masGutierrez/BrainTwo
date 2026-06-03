@@ -36,7 +36,7 @@ $$
 ### lipschitz formula
 $$
 \begin{aligned}
-\exists M \ge 0 , \forall x _ 1 , x _ 2 \in X : \frac { d ( f ( x _ 1 ) , f ( x _ 2 ) ) } { d ( x _ 1 , x _ 2 ) } \le M \\
+\exists M \ge 0 , \forall x _ { 1 } , x _ { 2 } \in X : \frac { d ( f ( x _ { 1 } ) , f ( x _ { 2 } ) ) } { d ( x _ { 1 } , x _ { 2 } ) } \le M \\
 f : X \rightarrow Y \\
 M = \text { lipschitz constant } \\
 f = \text { M-lipschitz function }
@@ -81,10 +81,10 @@ $$
 ### path formula
 $$
 \begin{aligned}
-\gamma ( 0 ) = x _ 0 \land \gamma ( 1 ) = x _ { 1 } \\
+\gamma ( 0 ) = x _ { 0 } \land \gamma ( 1 ) = x _ { 1 } \\
 \gamma : [ 0 , 1 ] \rightarrow X \\
 \gamma = \text { continuous function } \\
-x _ 0 , x _ { 1 } = \text { coordinate } \\
+x _ { 0 } , x _ { 1 } = \text { coordinate } \\
 X = \text { metric space }
 \end{aligned} 
 $$
@@ -97,9 +97,9 @@ $$
 ### path connected formula
 $$
 \begin{aligned}
-\forall x _ 0 , x _ { 1 } \in S \subset X : \gamma ( 0 ) = x _ 0 \land \gamma ( 1 ) = x _ { 1 } \\
+\forall x _ { 0 } , x _ { 1 } \in S \subset X : \gamma ( 0 ) = x _ { 0 } \land \gamma ( 1 ) = x _ { 1 } \\
 \gamma : [ 0 , 1 ] \rightarrow S \\
-x _ 0 , x _ { 1 } = \text { coordinate } \\
+x _ { 0 } , x _ { 1 } = \text { coordinate } \\
 S = \text { path connected set } \\
 \gamma = \text { continuous function } \\
 X = \text { metric space }
@@ -158,7 +158,7 @@ B ' \subset B \implies f ^ { - 1 } ( B ' ) \subset f ^ { - 1 } ( B ) \\
 A \subset f ^ { - 1 } \circ f ( A ) \\
 f \circ f ^ { - 1 } ( B ) \subset B \\
 f ( \bigcup _ { i } A _ { i } ) = \bigcup _ { i } f ( A _ { i } ) \\
-f ^ { - 1 } ( B ^ c ) = f ^ { - 1 } ( B ) ^ c
+f ^ { - 1 } ( B ^ { c } ) = f ^ { - 1 } ( B ) ^ { c }
 \end{aligned}
 $$
 
@@ -296,7 +296,7 @@ $$
 ### compact continuity property formula
 $$
 \begin{aligned}
-\forall \set { A _ { i } } _ { i \in I } \subset Y , \exists \{ A _ { i _ { j } } \} _ { j = 1 } ^ n \subset \{ A _ { i } \} _ { i \in I } : f ( X ) \subset \bigcup _ { j = 1 } ^ n A _ { i _ { j } } \subset Y \\
+\forall \set { A _ { i } } _ { i \in I } \subset Y , \exists \{ A _ { i _ { j } } \} _ { j = 1 } ^ { n } \subset \{ A _ { i } \} _ { i \in I } : f ( X ) \subset \bigcup _ { j = 1 } ^ { n } A _ { i _ { j } } \subset Y \\
 f : X \rightarrow Y \\
 A = \text { open set } \\
 \set { A } = \text { open cover } \\
@@ -314,7 +314,7 @@ $$
 ### extremum continuity property formula
 $$
 \begin{aligned}
-\exists x _ 0 , x _ 1 \in X : f ( x _ 0 ) \le f ( X ) \le f ( x _ 1 ) \\
+\exists x _ { 0 } , x _ { 1 } \in X : f ( x _ { 0 } ) \le f ( X ) \le f ( x _ { 1 } ) \\
 f : X \rightarrow \mathbb R \\
 f = \text { continuous function } \\
 X = \text { compact set }
@@ -331,7 +331,7 @@ $$
 \begin{aligned}
 \forall \delta > 0 , \exists N \in \mathbb N , \forall n , m \ge N : d ( a _ { n } , a _ { m } ) < \delta \implies \forall \epsilon > 0 , \exists N \in \mathbb N , \forall n , m \ge N : d ( f ( a _ { n } ) , f ( a _ { m } ) ) < \epsilon \\
 f : X \rightarrow Y \\
-\{ _ { c } a _ { n } \} , \{ _ { c } f ( a _ n ) \} = \text { cauchy sequence } \\
+\{ _ { c } a _ { n } \} , \{ _ { c } f ( a _ { n } ) \} = \text { cauchy sequence } \\
 f = \text { uniform continuous function }
 \end{aligned}
 $$
@@ -397,11 +397,11 @@ $$
 ### hierarchy lipschitz property formula
 $$
 \begin{aligned}
-\mathcal A \subset C ^ \infty \subset \dots \subset C ^ m \subset \dots \subset C ^ 1 \subset L I P \subset C _ u \subset C \\
+\mathcal A \subset C ^ { \infty } \subset \dots \subset C ^ { m } \subset \dots \subset C ^ { 1 } \subset L I P \subset C _ { u } \subset C \\
 \mathcal A = \text { analytic } \\
-C ^ n = \text { continuous differentiable } \\
+C ^ { n } = \text { continuous differentiable } \\
 L I P = \text { lipschitz } \\
-C _ u = \text { uniform continuous } \\
+C _ { u } = \text { uniform continuous } \\
 C = \text { continuous }
 \end{aligned}
 $$
@@ -441,9 +441,9 @@ $$
 ### path connected property formula
 $$
 \begin{aligned}
-\forall x _ 0 , x _ { 1 } \in S \subset X : \gamma ( 0 ) = x _ 0 \land \gamma ( 1 ) = x _ { 1 } \implies \not \exists A , B \in X : S = A \cup B \\
+\forall x _ { 0 } , x _ { 1 } \in S \subset X : \gamma ( 0 ) = x _ { 0 } \land \gamma ( 1 ) = x _ { 1 } \implies \not \exists A , B \in X : S = A \cup B \\
 \gamma : [ 0 , 1 ] \rightarrow S \\
-x _ 0 , x _ { 1 } = \text { coordinate } \\
+x _ { 0 } , x _ { 1 } = \text { coordinate } \\
 S = \text { connected set } \\
 \gamma = \text { continuous function } \\
 A , B = \text { separated set } \\

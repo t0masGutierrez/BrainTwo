@@ -72,7 +72,7 @@ $$
 ### sphere sound intensity formula
 $$
 \begin{aligned}
-I = \frac { P } { 4 \pi r ^ 2 } \\
+I = \frac { P } { 4 \pi r ^ { 2 } } \\
 P = \text { power } \\
 r = \text { distance }
 \end{aligned}
@@ -102,7 +102,7 @@ $$
 ### sound perception formula
 $$
 \begin{aligned}
-\Delta I ^ n \implies \Delta \beta = 10 n \\
+\Delta I ^ { n } \implies \Delta \beta = 10 n \\
 I = \text { sound intensity } \\
 \beta = \text { sound intensity level }
 \end{aligned}
@@ -174,7 +174,7 @@ $$
 $$
 \begin{aligned}
 \Delta r = n \lambda \\
-n = Z ^ + \\
+n = Z ^ { + } \\
 \lambda = \text { wavelength }
 \end{aligned}
 $$
@@ -184,7 +184,7 @@ $$
 $$
 \begin{aligned}
 \Delta r = ( n + \frac { 1 } { 2 } ) \lambda \\
-n = Z ^ + \\
+n = Z ^ { + } \\
 \lambda = \text { wavelength }
 \end{aligned}
 $$

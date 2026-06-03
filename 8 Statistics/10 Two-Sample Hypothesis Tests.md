@@ -31,8 +31,8 @@
 ### two sample null hypothesis formula
 $$
 \begin{aligned}
-H _ { 0 } : \mu _ 1 - \mu _ 2 = 0 \\
-H _ { 0 } : p _ 1 - p _ 2 = 0 \\
+H _ { 0 } : \mu _ { 1 } - \mu _ { 2 } = 0 \\
+H _ { 0 } : p _ { 1 } - p _ { 2 } = 0 \\
 \end{aligned}
 $$
 
@@ -56,8 +56,8 @@ $$
 ### unpooled variance formula
 $$
 \begin{aligned}
-s _ 1 ^ 2 = \frac { \sum _ { i = 1 } ^ n ( x _ { 1 i } - \overline x _ 1 ) ^ 2 } { n _ 1 - 1 } \\
-s _ 2 ^ 2 = \frac { \sum _ { i = 1 } ^ n ( x _ { 2 i } - \overline x _ 2 ) ^ 2 } { n _ 2 - 1 } \\
+s _ { 1 } ^ { 2 } = \frac { \sum _ { i = 1 } ^ { n } ( x _ { 1 i } - \overline x _ { 1 } ) ^ { 2 } } { n _ { 1 } - 1 } \\
+s _ { 2 } ^ { 2 } = \frac { \sum _ { i = 1 } ^ { n } ( x _ { 2 i } - \overline x _ { 2 } ) ^ { 2 } } { n _ { 2 } - 1 } \\
 x = \text { data } \\
 \overline x = \text { sample mean } \\
 n = \text { sample size }
@@ -72,7 +72,7 @@ $$
 ### pooled variance formula
 $$
 \begin{aligned}
-s ^ 2 = \frac { ( n _ 1 - 1 ) s _ 1 ^ 2 + ( n _ 2 - 1 ) s _ 2 ^ 2 } { n _ 1 + n _ 2 - 2 } \\
+s ^ { 2 } = \frac { ( n _ { 1 } - 1 ) s _ { 1 } ^ { 2 } + ( n _ { 2 } - 1 ) s _ { 2 } ^ { 2 } } { n _ { 1 } + n _ { 2 } - 2 } \\
 s = \text { sample standard deviation } \\
 n = \text { sample size }
 \end{aligned}
@@ -86,7 +86,7 @@ $$
 ### mean unpooled standard error formula
 $$
 \begin{aligned}
-S E ( \overline x _ { 1 } - \overline x _ { 2 } ) = \sqrt { \frac { s _ 1 ^ 2 } { n _ { 1 } } + \frac { s _ 2 ^ 2 } { n _ { 2 } } } \\
+S E ( \overline x _ { 1 } - \overline x _ { 2 } ) = \sqrt { \frac { s _ { 1 } ^ { 2 } } { n _ { 1 } } + \frac { s _ { 2 } ^ { 2 } } { n _ { 2 } } } \\
 s = \text { sample standard deviation } \\
 n = \text { sample size }
 \end{aligned}
@@ -110,8 +110,8 @@ $$
 ### unpooled proportion formula
 $$
 \begin{aligned}
-\hat p _ 1 = \frac { x _ 1 } { n _ 1 } \\
-\hat p _ 2 = \frac { x _ 2 } { n _ 2 } \\
+\hat p _ { 1 } = \frac { x _ { 1 } } { n _ { 1 } } \\
+\hat p _ { 2 } = \frac { x _ { 2 } } { n _ { 2 } } \\
 x = \text { data } \\
 n = \text { sample size }
 \end{aligned}
@@ -125,7 +125,7 @@ $$
 ### pooled proportion formula
 $$
 \begin{aligned}
-\hat p = \frac { x _ 1 + x _ 2 } { n _ 1 + n _ 2 } \\
+\hat p = \frac { x _ { 1 } + x _ { 2 } } { n _ { 1 } + n _ { 2 } } \\
 x = \text { data } \\
 n = \text { sample size }
 \end{aligned}
@@ -175,8 +175,8 @@ $$
 $$
 \begin{aligned}
 t = \frac { \overline d - 0 } { S E ( \overline d ) } \\
-\overline d = \overline x _ 1 - \overline x _ 2 \\
-d f = n _ 1 + n _ 2 - 2 \\
+\overline d = \overline x _ { 1 } - \overline x _ { 2 } \\
+d f = n _ { 1 } + n _ { 2 } - 2 \\
 \overline x = \text { sample mean } \\
 S E = \text { standard error } \\
 n = \text { sample size }
@@ -199,8 +199,8 @@ $$
 $$
 \begin{aligned}
 t = \frac { \overline d - 0 } { S E ( \overline d ) } \\
-\overline d = \frac { \sum _ i \overline d _ i } { n } \\
-d _ i = \overline x _ { 1 i } - \overline x _ { 2 i } \\
+\overline d = \frac { \sum _ { i } \overline d _ { i } } { n } \\
+d _ { i } = \overline x _ { 1 i } - \overline x _ { 2 i } \\
 d f = n - 1 \\
 \overline x = \text { sample mean } \\
 S E = \text { standard error } \\
@@ -228,7 +228,7 @@ $$
 $$
 \begin{aligned}
 z = \frac { \hat d - 0 } { S E ( \hat d ) } \\
-\hat d = \hat p _ 1 - \hat p _ 2 \\
+\hat d = \hat p _ { 1 } - \hat p _ { 2 } \\
 \hat p = \text { sample proportion } \\
 S E = \text { standard error }
 \end{aligned}
@@ -251,7 +251,7 @@ $$
 ### two variance independent F-score formula
 $$
 \begin{aligned}
-F = \frac { s _ 1 ^ 2 } { s _ 2 ^ 2 } \\
+F = \frac { s _ { 1 } ^ { 2 } } { s _ { 2 } ^ { 2 } } \\
 s = \text { sample standard deviation }
 \end{aligned}
 $$
@@ -266,12 +266,12 @@ $$
 ### two sample hypothesis test method formula
 $$
 \begin{aligned}
-| X | > c ^ * \implies \not H _ 0 \\
-| X | \le c ^ * \implies H _ 0 \\
-p \le \alpha \implies \not H _ 0 \\
-p > \alpha \implies H _ 0 \\
-0 \not \in C I \implies \not H _ 0 \\
-0 \in C I \implies H _ 0
+| X | > c ^ { * } \implies \not H _ { 0 } \\
+| X | \le c ^ { * } \implies H _ { 0 } \\
+p \le \alpha \implies \not H _ { 0 } \\
+p > \alpha \implies H _ { 0 } \\
+0 \not \in C I \implies \not H _ { 0 } \\
+0 \in C I \implies H _ { 0 }
 \end{aligned}
 $$
 

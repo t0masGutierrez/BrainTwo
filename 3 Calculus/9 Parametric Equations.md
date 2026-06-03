@@ -99,7 +99,7 @@ $$
 $$
 \begin{aligned}
 \frac { d y } { d x } = \frac { d y / d t } { d x / d t } = \frac { g ' ( t ) } { f ' ( t ) } \\
-\frac { d ^ 2 y } { d x ^ 2 } = \frac { \frac { d } { d t } ( d y / d x ) } { d x / d t }
+\frac { d ^ { 2 } y } { d x ^ { 2 } } = \frac { \frac { d } { d t } ( d y / d x ) } { d x / d t }
 \end{aligned}
 $$
 
@@ -112,8 +112,8 @@ $$
 ### integral formula
 $$
 \begin{aligned}
-\int _ \alpha ^ \beta y d x = \int _ a ^ b g ( t ) f ' ( t ) d t \\
-\int _ \alpha ^ \beta x d y = \int _ a ^ b f ( t ) g ' ( t ) d t \\
+\int _ { \alpha } ^ { \beta } y d x = \int _ { a } ^ { b } g ( t ) f ' ( t ) d t \\
+\int _ { \alpha } ^ { \beta } x d y = \int _ { a } ^ { b } f ( t ) g ' ( t ) d t \\
 \end{aligned}
 $$
 
@@ -126,7 +126,7 @@ $$
 ### arc length formula
 $$
 \begin{aligned}
-L = \int _ a ^ b \sqrt { ( \frac { d x } { d t } ) ^ 2 + ( \frac { d y } { d t } ) ^ 2 } d t
+L = \int _ { a } ^ { b } \sqrt { ( \frac { d x } { d t } ) ^ { 2 } + ( \frac { d y } { d t } ) ^ { 2 } } d t
 \end{aligned}
 $$
 
@@ -139,8 +139,8 @@ $$
 ### surface area formula
 $$
 \begin{aligned}
-y = 2 \pi \int _ a ^ b g ( t ) \sqrt { ( \frac { d x } { d t } ) ^ 2 + ( \frac { d y } { d t } ) ^ 2 } d t \\
-x = 2 \pi \int _ a ^ b f ( t ) \sqrt { ( \frac { d x } { d t } ) ^ 2 + ( \frac { d y } { d t } ) ^ 2 } d t
+y = 2 \pi \int _ { a } ^ { b } g ( t ) \sqrt { ( \frac { d x } { d t } ) ^ { 2 } + ( \frac { d y } { d t } ) ^ { 2 } } d t \\
+x = 2 \pi \int _ { a } ^ { b } f ( t ) \sqrt { ( \frac { d x } { d t } ) ^ { 2 } + ( \frac { d y } { d t } ) ^ { 2 } } d t
 \end{aligned}
 $$
 
@@ -152,7 +152,7 @@ $$
 ### linear parameterization formula
 $$
 \begin{aligned}
-x ^ 2 + y ^ 2 = r ^ 2 \implies \vec r ( t ) = ( r \cos t , r \sin t ) \\
+x ^ { 2 } + y ^ { 2 } = r ^ { 2 } \implies \vec r ( t ) = ( r \cos t , r \sin t ) \\
 x , y = \text { dependent variable } \\
 r = \text { radius } \\
 \vec r = \text { position } \\
@@ -168,7 +168,7 @@ $$
 ### circular parameterization formula
 $$
 \begin{aligned}
-\frac { x ^ 2 } { a ^ 2 } + \frac { y ^ 2 } { b ^ 2 } = 1 \implies \vec r ( t ) = ( a \cos t , b \sin t ) \\
+\frac { x ^ { 2 } } { a ^ { 2 } } + \frac { y ^ { 2 } } { b ^ { 2 } } = 1 \implies \vec r ( t ) = ( a \cos t , b \sin t ) \\
 x , y = \text { dependent variable } \\
 a = \text { horizontal radius } \\
 b = \text { vertical radius } \\
@@ -185,7 +185,7 @@ $$
 ### elliptical parameterization formula
 $$
 \begin{aligned}
-\frac { x ^ 2 } { a ^ 2 } + \frac { y ^ 2 } { b ^ 2 } = 1 \implies \vec r ( t ) = ( a \cos t , b \sin t ) \\
+\frac { x ^ { 2 } } { a ^ { 2 } } + \frac { y ^ { 2 } } { b ^ { 2 } } = 1 \implies \vec r ( t ) = ( a \cos t , b \sin t ) \\
 x , y = \text { dependent variable } \\
 a = \text { horizontal radius } \\
 b = \text { vertical radius } \\
@@ -202,7 +202,7 @@ $$
 ### hyperbolic parameterization formula
 $$
 \begin{aligned}
-\frac { x ^ 2 } { a ^ 2 } - \frac { y ^ 2 } { b ^ 2 } = 1 \implies \vec r ( t ) = ( a \sec t , b \tan t ) \\
+\frac { x ^ { 2 } } { a ^ { 2 } } - \frac { y ^ { 2 } } { b ^ { 2 } } = 1 \implies \vec r ( t ) = ( a \sec t , b \tan t ) \\
 x , y = \text { dependent variable } \\
 a = \text { horizontal radius } \\
 b = \text { vertical radius } \\

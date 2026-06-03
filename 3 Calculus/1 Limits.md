@@ -98,11 +98,11 @@ $$
 
 ---
 ### right handed limit formula
-- $x \implies n ^ +$  = as *x* approaches from values above *n*
+- $x \implies n ^ { + }$  = as *x* approaches from values above *n*
 
 ---
 ### left handed limit formula
-- $x \implies n ^ -$ = as *x* approaches from values below *n*
+- $x \implies n ^ { - }$ = as *x* approaches from values below *n*
 
 ---
 ### unbounded limit
@@ -134,7 +134,7 @@ $$
 ### difference of squares
 $$
 \begin{aligned}
-a ^ 2 - b ^ 2 = ( a + b ) ( a - b )
+a ^ { 2 } - b ^ { 2 } = ( a + b ) ( a - b )
 \end{aligned}
 $$
 
@@ -148,7 +148,7 @@ $$
 ### conjugate root theorem
 $$
 \begin{aligned}
-( a + \sqrt { b } ) ( a - \sqrt { b } ) = a ^ 2 - b
+( a + \sqrt { b } ) ( a - \sqrt { b } ) = a ^ { 2 } - b
 \end{aligned}
 $$
 
@@ -177,7 +177,7 @@ $$
 ### pythagorean identity
 $$
 \begin{aligned}
-\sin ^ 2 ( x ) + \cos ^ 2 ( x ) = 1
+\sin ^ { 2 } ( x ) + \cos ^ { 2 } ( x ) = 1
 \end{aligned}
 $$
 
@@ -204,7 +204,7 @@ $$
 $$
 \begin{aligned}
 \lim _ { x \to n } f ( x ) = f ( n ) \\
-\lim _ { x \to n ^ - } f ( x ) = \lim _ { x \to n ^ + } f ( x ) \\
+\lim _ { x \to n ^ { - } } f ( x ) = \lim _ { x \to n ^ { + } } f ( x ) \\
 \lim _ { x \to n } f ( x ) \ne \pm \infty
 \end{aligned}
 $$
@@ -256,12 +256,12 @@ $$
 ---
 ### negative infinite limit
 - division with infinitely small negative number equal negative infinity
-- $\lim _ { x \to n ^ - } \frac { 1 } { x - n } = - \infty$
+- $\lim _ { x \to n ^ { - } } \frac { 1 } { x - n } = - \infty$
 
 ---
 ### positive infinite limit
 - division with infinitely small positive number equal positive infinity
-- $\lim _ { x \to n ^ + } \frac { 1 } { x - n } = + \infty$
+- $\lim _ { x \to n ^ { + } } \frac { 1 } { x - n } = + \infty$
 
 ---
 ### vertical asymptote
@@ -358,9 +358,9 @@ $$
 \begin{aligned}
 \infty - \infty \\
 0 \times \infty \\
-1 ^ \infty \\
-\infty ^ 0 \\
-0 ^ 0
+1 ^ { \infty } \\
+\infty ^ { 0 } \\
+0 ^ { 0 }
 \end{aligned}
 $$
 
@@ -370,9 +370,9 @@ $$
 \begin{aligned}
 - \infty - \infty = - \infty \\
 \infty + \infty = \infty \\
-0 ^ - \infty = \infty \\
+0 ^ { - } \infty = \infty \\
 \frac { 1 } { 0 } = \infty \\
-0 ^ \infty = 0
+0 ^ { \infty } = 0
 \end{aligned}
 $$
 

@@ -31,7 +31,7 @@ $$
 ### k-cell formula
 $$
 \begin{aligned}
-\forall ( a \le b ) \in \mathbb R : \prod _ { i = 1 } ^ k [ a _ { i } , b _ { i } ] = \{ x \in \mathbb R ^ k | a _ { i } \le x _ { i } \le b _ { i } \} \\
+\forall ( a \le b ) \in \mathbb R : \prod _ { i = 1 } ^ { k } [ a _ { i } , b _ { i } ] = \{ x \in \mathbb R ^ { k } | a _ { i } \le x _ { i } \le b _ { i } \} \\
 a = \text { lower endpoint } \\
 b = \text { upper endpoint }
 \end{aligned}
@@ -196,7 +196,7 @@ $$
 $$
 \begin{aligned}
 ( \mathbb N \sim S ) \land ( S _ { 1 } \subset S ) \implies \mathbb N \sim S _ { 1 } \\
-S , S _ 1 = \text { countable set }
+S , S _ { 1 } = \text { countable set }
 \end{aligned}
 $$
 
@@ -208,7 +208,7 @@ $$
 ### union cardinality property formula
 $$
 \begin{aligned}
-\forall \in \mathbb N : \mathbb N \sim S _ n \implies \mathbb N \sim \bigcup _ { n = 1 } ^ \infty S _ { n } \\
+\forall \in \mathbb N : \mathbb N \sim S _ { n } \implies \mathbb N \sim \bigcup _ { n = 1 } ^ { \infty } S _ { n } \\
 S = \text { countable set }
 \end{aligned}
 $$
@@ -221,7 +221,7 @@ $$
 ### product cardinality property formula
 $$
 \begin{aligned}
-\forall \in \mathbb N : \mathbb N \sim S _ n \implies \mathbb N \sim S ^ n \\
+\forall \in \mathbb N : \mathbb N \sim S _ { n } \implies \mathbb N \sim S ^ { n } \\
 S = \text { countable set }
 \end{aligned}
 $$
@@ -299,7 +299,7 @@ $$
 \begin{aligned}
 f : ( 0 , 1 ) \rightarrow ( 0 , \infty ) \implies f ( x ) = \frac { x } { 1 - x } \\
 f : ( 0 , \infty ) \rightarrow ( 0 , 1 ) \implies f ( x ) = \frac { x } { 1 + x } \\
-f : \mathbb R \rightarrow ( 0 , \infty ) \implies f ( x ) = e ^ x \\
+f : \mathbb R \rightarrow ( 0 , \infty ) \implies f ( x ) = e ^ { x } \\
 f : ( 0 , 1 ) \rightarrow \mathbb R \implies f ( x ) = \ln x \\
 f : \mathbb R \rightarrow ( 0 , 1 ) \implies f ( x ) = \frac { 1 } { 1 + e ^ { - x } } \\
 \end{aligned}

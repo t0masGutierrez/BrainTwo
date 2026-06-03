@@ -24,7 +24,7 @@ $$
 \begin{aligned}
 \exists L \in \mathbb R : \lim _ { x \rightarrow t } \frac { f ( x ) - f ( t ) } { x - t } = L \implies ( f + g ) ' ( x ) = f ' ( x ) + g ' ( x ) \\
 \exists L \in \mathbb R : \lim _ { x \rightarrow t } \frac { f ( x ) - f ( t ) } { x - t } = L \implies ( f \cdot g ) ' ( x ) = f ' ( x ) \cdot g ( x ) + f ( x ) \cdot g ' ( x ) \\
-\exists L \in \mathbb R : \lim _ { x \rightarrow t } \frac { f ( x ) - f ( t ) } { x - t } = L \implies ( \frac { f } { g } ) ' ( x ) = \frac { f ' ( x ) \cdot g ( x ) - f ( x ) \cdot g ' ( x ) } { g ^ 2 ( x ) } \\
+\exists L \in \mathbb R : \lim _ { x \rightarrow t } \frac { f ( x ) - f ( t ) } { x - t } = L \implies ( \frac { f } { g } ) ' ( x ) = \frac { f ' ( x ) \cdot g ( x ) - f ( x ) \cdot g ' ( x ) } { g ^ { 2 } ( x ) } \\
 \end{aligned}
 $$
 

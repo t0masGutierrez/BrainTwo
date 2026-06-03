@@ -1,6 +1,6 @@
 ### celsius
-- freezing point equal $0 ^ \circ C$ 
-- boiling point equal $100 ^ \circ C$ 
+- freezing point equal $0 ^ { \circ } C$ 
+- boiling point equal $100 ^ { \circ } C$ 
 
 ---
 ### celsius formula
@@ -13,8 +13,8 @@ $$
 
 ---
 ### fahrenheit
-- freezing point equal $32 ^ \circ F$ 
-- boiling point equal $212 ^ \circ F$ 
+- freezing point equal $32 ^ { \circ } F$ 
+- boiling point equal $212 ^ { \circ } F$ 
 
 ---
 ### fahrenheit formula
@@ -109,7 +109,7 @@ $$
 
 ---
 ### kilocalorie
-- amount of heat necessary to change temperature of 1 kg of water by $1 ^ \circ C$ 
+- amount of heat necessary to change temperature of 1 kg of water by $1 ^ { \circ } C$ 
 - temperature change possible via work done or heat transfer
 ![[4 Physics/Images/kilocalorie.png]]
 

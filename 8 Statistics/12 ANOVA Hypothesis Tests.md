@@ -33,7 +33,7 @@ $$
 ### one-way ANOVA null hypothesis formula
 $$
 \begin{aligned}
-H _ { 0 } : \mu _ 1 = \dots = \mu _ k
+H _ { 0 } : \mu _ { 1 } = \dots = \mu _ { k }
 \end{aligned}
 $$
 
@@ -45,7 +45,7 @@ $$
 ### one-way ANOVA alternative hypothesis formula
 $$
 \begin{aligned}
-H _ { a } : \mu _ i \ne \mu _ j
+H _ { a } : \mu _ { i } \ne \mu _ { j }
 \end{aligned}
 $$
 

@@ -51,7 +51,7 @@ $$
 k \mapsto a _ { n _ { k } } \\
 \forall k \in \mathbb N : n _ { k } < n _ { k + 1 } \\
 \{ a _ { n _ { k } } \} = \text { subsequence } \\
-a _ { n _ k } = \text { term }
+a _ { n _ { k } } = \text { term }
 \end{aligned}
 $$
 
@@ -92,9 +92,9 @@ $$
 $$
 \begin{aligned}
 S = \{ a \in \mathbb R | \lim _ { k \rightarrow \infty } a _ { n _ { k } } = a \} \implies \lim _ { n \rightarrow \infty } \sup a _ { n } = \sup S \\
-\lim _ { n \rightarrow \infty } \sup a _ n = \lim _ { n \rightarrow \infty } \sup _ { k \ge n } x _ k \\
+\lim _ { n \rightarrow \infty } \sup a _ { n } = \lim _ { n \rightarrow \infty } \sup _ { k \ge n } x _ { k } \\
 a = \text { sequential limit } \\
-\set { a _ { n _ k } } = \text { subsequence } \\
+\set { a _ { n _ { k } } } = \text { subsequence } \\
 S = \text { derived set } \\
 \sup S = \text { limit superior }
 \end{aligned}
@@ -109,9 +109,9 @@ $$
 $$
 \begin{aligned}
 S = \{ a \in \mathbb R | \lim _ { k \rightarrow \infty } a _ { n _ { k } } = a \} \implies \lim _ { n \rightarrow \infty } \inf a _ { n } = \inf S \\
-\lim _ { n \rightarrow \infty } \inf a _ n = \lim _ { n \rightarrow \infty } \inf _ { k \ge n } x _ k \\
+\lim _ { n \rightarrow \infty } \inf a _ { n } = \lim _ { n \rightarrow \infty } \inf _ { k \ge n } x _ { k } \\
 a = \text { sequential limit } \\
-\set { a _ { n _ k } } = \text { subsequence } \\
+\set { a _ { n _ { k } } } = \text { subsequence } \\
 S = \text { derived set } \\
 \sup S = \text { limit inferior }
 \end{aligned}
@@ -182,8 +182,8 @@ $$
 $$
 \begin{aligned}
 \exists a \in X : \lim _ { n \rightarrow \infty } a _ { n } = a \implies \{ a _ { n } \} = \{ _ { c } a _ { n } \} \\
-\forall \set { Y _ { i } } \subset X , \exists \{ Y _ { i _ { 1 } } , \dots Y _ { i _ { n } } \} \subset \{ Y _ { i } \} : S \subset \bigcup _ { k = 1 } ^ n Y _ { i _ { k } } \implies \forall \{ _ { c } a _ { n } \} \subset S , \exists a \in X : \lim _ { n \rightarrow \infty } { } _ { c } a _ { n } = a \\
-\forall \{ _ { c } a _ { n } \} \subset \mathbb R ^ k , \exists a \in \mathbb R ^ k : \lim _ { n \rightarrow \infty } { } _ { c } a _ { n } = a \\
+\forall \set { Y _ { i } } \subset X , \exists \{ Y _ { i _ { 1 } } , \dots Y _ { i _ { n } } \} \subset \{ Y _ { i } \} : S \subset \bigcup _ { k = 1 } ^ { n } Y _ { i _ { k } } \implies \forall \{ _ { c } a _ { n } \} \subset S , \exists a \in X : \lim _ { n \rightarrow \infty } { } _ { c } a _ { n } = a \\
+\forall \{ _ { c } a _ { n } \} \subset \mathbb R ^ { k } , \exists a \in \mathbb R ^ { k } : \lim _ { n \rightarrow \infty } { } _ { c } a _ { n } = a \\
 \end{aligned}
 $$
 
