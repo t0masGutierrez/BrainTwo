@@ -21,12 +21,12 @@ $$
 ### coordinate conversion formula
 $$
 \begin{aligned}
-\begin { c a s e s } x = r \cos ( \theta ) \\
+\begin{cases} x = r \cos ( \theta ) \\
 y = r \sin ( \theta ) \\
-\end { c a s e s } \iff \begin { c a s e s }
+\end{cases} \iff \begin{cases}
 r = \sqrt { x ^ { 2 } + y ^ { 2 } } \\
 \theta = \arctan ( \frac { y } { x } )
-\end { c a s e s } \\
+\end{cases} \\
 x , y = \text { dependent variable } \\
 r = \text { distance } \\
 \theta = \text { angle }

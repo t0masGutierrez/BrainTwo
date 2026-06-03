@@ -33,7 +33,7 @@ $$
 ### permutation formula
 $$
 \begin{aligned}
-_ { n } P _ { k } = \frac { n ! } { ( n - k ) ! } = k ! \begin { p m a t r i x } n \\ k \end { p m a t r i x } \\
+_ { n } P _ { k } = \frac { n ! } { ( n - k ) ! } = k ! \begin{pmatrix} n \\ k \end{pmatrix} \\
 n = \text { number of objects } \\
 k = \text { number of arrangements }
 \end{aligned}
@@ -47,7 +47,7 @@ $$
 ### combination formula
 $$
 \begin{aligned}
-\begin { p m a t r i x } n \\ k \end { p m a t r i x } = \frac { n ! } { k ! ( n - k ) ! } \\
+\begin{pmatrix} n \\ k \end{pmatrix} = \frac { n ! } { k ! ( n - k ) ! } \\
 n = \text { number of objects } \\
 k = \text { number of choices }
 \end{aligned}
@@ -61,7 +61,7 @@ $$
 ### binomial theorem formula
 $$
 \begin{aligned}
-( x + y ) ^ { n } = \sum _ { k = 0 } ^ { n } \begin { p m a t r i x } n \\ k \end { p m a t r i x } x ^ { k } y ^ { n - k } \\
+( x + y ) ^ { n } = \sum _ { k = 0 } ^ { n } \begin{pmatrix} n \\ k \end{pmatrix} x ^ { k } y ^ { n - k } \\
 n , k = \text { parameter }
 \end{aligned}
 $$

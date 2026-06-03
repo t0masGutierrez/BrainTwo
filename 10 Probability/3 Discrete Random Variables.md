@@ -125,7 +125,7 @@ $$
 ### bernoulli PMF probability formula
 $$
 \begin{aligned}
-P ( X = k ) = \begin { p m a t r i x } 1 \\ k \end { p m a t r i x } p ^ { k } q ^ { 1 - k } \\
+P ( X = k ) = \begin{pmatrix} 1 \\ k \end{pmatrix} p ^ { k } q ^ { 1 - k } \\
 X = \text { random variable } \\
 k = \text { number of successes } \\
 p = \text { probability of success } \\
@@ -169,7 +169,7 @@ $$
 ### binomial PMF probability formula
 $$
 \begin{aligned}
-P ( X = k ) = \begin { p m a t r i x } n \\ k \end { p m a t r i x } p ^ { k } q ^ { n - k } \\
+P ( X = k ) = \begin{pmatrix} n \\ k \end{pmatrix} p ^ { k } q ^ { n - k } \\
 X = \text { random variable } \\
 n = \text { number of trials } \\
 k = \text { number of successes } \\
@@ -217,8 +217,8 @@ $$
 ### geometric PMF probability formula
 $$
 \begin{aligned}
-P ( X _ { 1 } = k _ { 1 } ) = \begin { p m a t r i x } k - 1 \\ 0 \end { p m a t r i x } p q ^ { k - 1 } \\
-P ( X _ { 2 } = k _ { 2 } ) = \begin { p m a t r i x } k \\ 0 \end { p m a t r i x } p q ^ { k } \\
+P ( X _ { 1 } = k _ { 1 } ) = \begin{pmatrix} k - 1 \\ 0 \end{pmatrix} p q ^ { k - 1 } \\
+P ( X _ { 2 } = k _ { 2 } ) = \begin{pmatrix} k \\ 0 \end{pmatrix} p q ^ { k } \\
 X = \text { random variable } \\
 p = \text { probability of success } \\
 q = \text { probability of failure } \\
@@ -266,8 +266,8 @@ $$
 ### negative binomial PMF probability formula
 $$
 \begin{aligned}
-P ( X _ { 1 } = k _ { 1 } ) = \begin { p m a t r i x } k - 1 \\ r - 1 \end { p m a t r i x } p ^ { r } q ^ { k - r } \\
-P ( X _ { 2 } = k _ { 2 } ) = \begin { p m a t r i x } k + r - 1 \\ r - 1 \end { p m a t r i x } p ^ { r } q ^ { k } \\
+P ( X _ { 1 } = k _ { 1 } ) = \begin{pmatrix} k - 1 \\ r - 1 \end{pmatrix} p ^ { r } q ^ { k - r } \\
+P ( X _ { 2 } = k _ { 2 } ) = \begin{pmatrix} k + r - 1 \\ r - 1 \end{pmatrix} p ^ { r } q ^ { k } \\
 X = \text { random variable } \\
 k _ { 1 } = \text { number of trials until rth success } \\
 k _ { 2 } = \text { number of failures before rth success } \\
@@ -314,7 +314,7 @@ $$
 ### hypergeometric PMF probability formula
 $$
 \begin{aligned}
-P ( X = k ) = \frac { \begin { p m a t r i x } K \\ k \end { p m a t r i x } \begin { p m a t r i x } N - K \\ n - k \end { p m a t r i x } } { \begin { p m a t r i x } N \\ n \end { p m a t r i x } } \\
+P ( X = k ) = \frac { \begin{pmatrix} K \\ k \end{pmatrix} \begin{pmatrix} N - K \\ n - k \end{pmatrix} } { \begin{pmatrix} N \\ n \end{pmatrix} } \\
 X = \text { random variable } \\
 K = \text { interest size } \\
 k = \text { number of interest items drawn } \\

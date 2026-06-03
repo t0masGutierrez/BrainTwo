@@ -5,12 +5,12 @@
 ### simultaneity property formula
 $$
 \begin{aligned}
-a _ { n } ( t ) \frac { d ^ { n } y } { d t ^ { n } } + a _ { n - 1 } ( t ) \frac { d ^ { n - 1 } y } { d t ^ { n - 1 } } + \dots + a _ { 0 } y = 0 \implies \begin { c a s e s } \frac { d x _ { 1 } } { d t } = x _ { 2 } \\
+a _ { n } ( t ) \frac { d ^ { n } y } { d t ^ { n } } + a _ { n - 1 } ( t ) \frac { d ^ { n - 1 } y } { d t ^ { n - 1 } } + \dots + a _ { 0 } y = 0 \implies \begin{cases} \frac { d x _ { 1 } } { d t } = x _ { 2 } \\
 \frac { d x _ { 2 } } { d t } = x _ { 3 } \\
 \  \  \  \vdots \\
 \frac { d x _ { n - 1 } } { d t } = x _ { n } \\
 \frac { d x _ { n } } { d t } = - ( \frac { a _ { n - 1 } ( t ) x _ { n } + a _ { n - 2 } ( t ) x _ { n - 1 } + \dots + a _ { 0 } x _ { 1 } } { a _ { n } ( t ) } )
-\end { c a s e s } \\
+\end{cases} \\
 x _ { 1 } ( t ) = y \\
 x _ { 2 } ( t ) = \frac { d y } { d t } \\
 \vdots \\
@@ -160,9 +160,9 @@ $$
 ### fundamental matrix formula
 $$
 \begin{aligned}
-\Phi ( t ) = \begin { b m a t r i x } \vert & \vert & & \vert \\
+\Phi ( t ) = \begin{bmatrix} \vert & \vert & & \vert \\
 \vec { x } _ { 1 } ( t ) & \vec { x } _ { 2 } ( t ) & \cdots & \vec { x } _ { n } ( t ) \\
-\vert & \vert & & \vert \end { b m a t r i x } \\
+\vert & \vert & & \vert \end{bmatrix} \\
 \vec x = \text { solution } \\
 t = \text { independent variable }
 \end{aligned}

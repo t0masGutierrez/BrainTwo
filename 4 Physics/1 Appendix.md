@@ -1,7 +1,7 @@
 ### SI base unit formula
 $$
 \begin{aligned}
-\begin { a r r a y } { c | c | c }
+\begin{array} { c | c | c }
 \text { quantity } & \text { unit } & \text { symbol } \\
 \hline
 \text { length } & \text { meter } & \text { m } \\
@@ -19,7 +19,7 @@ $$
 ### SI derived unit formula
 $$
 \begin{aligned}
-\begin { a r r a y } { c | c | c }
+\begin{array} { c | c | c }
 \text { quantity } & \text { unit } & \text { symbol } \\
 \hline
 \text { area } & \text { square meter } & \text { m } ^ { 2 } \\
@@ -65,7 +65,7 @@ $$
 ### SI supplementary unit formula
 $$
 \begin{aligned}
-\begin { a r r a y } { c | c | c }
+\begin{array} { c | c | c }
 \text { quantity } & \text { unit } & \text { symbol } \\
 \hline
 \text { plane angle } & \text { radian } & \text { rad } \\
@@ -78,7 +78,7 @@ $$
 ### physical constant formula
 $$
 \begin{aligned}
-\begin { a r r a y } { c | c | c }
+\begin{array} { c | c | c }
 \text { name } & \text { symbol } & \text { value } \\
 \hline
 \text { Speed of light in vacuum } & c & 2.99792458 \times 10 ^ { 8 } \text { m/s } \\
@@ -262,7 +262,7 @@ $$
 ### greek alphabet formula
 $$
 \begin{aligned}
-\begin { a r r a y } { c | c | c }
+\begin{array} { c | c | c }
 \text { name } & \text { uppercase } & \text { lowercase } \\
 \hline
 \text { Alpha } & A & \alpha \\
@@ -297,7 +297,7 @@ $$
 ### astronomical data formula
 $$
 \begin{aligned}
-\begin { a r r a y } { c | c | c | c | c }
+\begin{array} { c | c | c | c | c }
 \text { body } & \text { mass (kg) } & \text { radius (m) } & \text { orbital radius (m) } & \text { orbital period } \\
 \hline
 \text { Sun } & 1.99 \times 10 ^ { 30 } & 6.96 \times 10 ^ { 8 } & \text { — } & \text { — } \\
@@ -319,7 +319,7 @@ $$
 ### power of ten formula
 $$
 \begin{aligned}
-\begin { a r r a y } { c | c | c }
+\begin{array} { c | c | c }
 \text { power of ten } & \text { prefix } & \text { abbreviation } \\
 \hline
 10 ^ { - 24 } & \text { yocto- } & \text { y } \\

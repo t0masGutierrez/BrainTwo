@@ -5,11 +5,11 @@
 ### matrix formula
 $$
 \begin{aligned}
-A = \begin { b m a t r i x }
+A = \begin{bmatrix}
 a _ { 11 } & \dots & a _ { 1 n } \\
 \vdots & \ddots & \vdots \\
 a _ { m 1 } & \dots & a _ { m n }
-\end { b m a t r i x } \\
+\end{bmatrix} \\
 | A | = m \times n \\
 a = \text { entry } \\
 m = \text { number of rows } \\
@@ -25,11 +25,11 @@ $$
 ### square matrix formula
 $$
 \begin{aligned}
-A = \begin { b m a t r i x }
+A = \begin{bmatrix}
 a _ { 11 } & a _ { 12 } & a _ { 13 } \\
 a _ { 21 } & a _ { 22 } & a _ { 23 } \\
 a _ { 31 } & a _ { 32 } & a _ { 33 }
-\end { b m a t r i x } \\
+\end{bmatrix} \\
 | A | = 3 \times 3 \\
 a = \text { entry }
 \end{aligned}
@@ -59,11 +59,11 @@ $$
 ### diagonal matrix formula
 $$
 \begin{aligned}
-D = \begin { b m a t r i x }
+D = \begin{bmatrix}
 d _ { 11 } & 0 & 0 \\
 0 & d _ { 22 } & 0 \\
 0 & 0 & d _ { 33 }
-\end { b m a t r i x } \iff \forall ( i \ne j ) : d _ { i j } = 0 \\
+\end{bmatrix} \iff \forall ( i \ne j ) : d _ { i j } = 0 \\
 | D | = 3 \times 3 \\
 d = \text { entry } \\
 i = \text { row index } \\
@@ -79,11 +79,11 @@ $$
 ### identity matrix formula
 $$
 \begin{aligned}
-I = \begin { b m a t r i x }
+I = \begin{bmatrix}
 1 & 0 & 0 \\
 0 & 1 & 0 \\
 0 & 0 & 1
-\end { b m a t r i x } \iff \forall ( i \ne j ) : ( a _ { i j } = 0 ) \land \forall ( i = j ) : ( a _ { i j } = 1 ) \\
+\end{bmatrix} \iff \forall ( i \ne j ) : ( a _ { i j } = 0 ) \land \forall ( i = j ) : ( a _ { i j } = 1 ) \\
 | I | = 3 \times 3 \\
 i = \text { row index } \\
 j = \text { column index }
@@ -98,11 +98,11 @@ $$
 ### upper triangular matrix formula
 $$
 \begin{aligned}
-U = \begin { b m a t r i x }
+U = \begin{bmatrix}
 u _ { 11 } & u _ { 12 } & u _ { 13 } \\
 0 & u _ { 22 } & u _ { 23 } \\
 0 & 0 & u _ { 33 }
-\end { b m a t r i x } \iff \forall ( i > j ) : u _ { i j } = 0 \\
+\end{bmatrix} \iff \forall ( i > j ) : u _ { i j } = 0 \\
 | U | = 3 \times 3 \\
 u = \text { entry } \\
 i = \text { row index } \\
@@ -118,11 +118,11 @@ $$
 ### lower triangular matrix formula
 $$
 \begin{aligned}
-L = \begin { b m a t r i x }
+L = \begin{bmatrix}
 l _ { 11 } & 0 & 0 \\
 l _ { 21 } & l _ { 22 } & 0 \\
 l _ { 31 } & l _ { 32 } & l _ { 33 } \\
-\end { b m a t r i x } \iff \forall ( i < j ) : l _ { i j } = 0 \\
+\end{bmatrix} \iff \forall ( i < j ) : l _ { i j } = 0 \\
 | L | = 3 \times 3 \\
 l = \text { entry } \\
 i = \text { row index } \\
@@ -138,11 +138,11 @@ $$
 ### zero matrix formula
 $$
 \begin{aligned}
-A = \begin { b m a t r i x }
+A = \begin{bmatrix}
 0 & 0 & 0 \\
 0 & 0 & 0 \\
 0 & 0 & 0
-\end { b m a t r i x } \\
+\end{bmatrix} \\
 | A | = 3 \times 3
 \end{aligned}
 $$
@@ -171,11 +171,11 @@ $$
 ### scalar multiplication formula
 $$
 \begin{aligned}
-c A = \begin { b m a t r i x }
+c A = \begin{bmatrix}
 c a _ { 11 } & c a _ { 12 } & c a _ { 13 } \\
 c a _ { 21 } & c a _ { 22 } & c a _ { 23 } \\
 c a _ { 31 } & c a _ { 32 } & c a _ { 33 }
-\end { b m a t r i x } \\
+\end{bmatrix} \\
 | c A | = 3 \times 3 \\
 c = \text { scalar } \\
 a = \text { entry }
@@ -190,11 +190,11 @@ $$
 ### matrix addition formula
 $$
 \begin{aligned}
-A + B = \begin { b m a t r i x }
+A + B = \begin{bmatrix}
 a _ { 11 } + b _ { 11 } & a _ { 12 } + b _ { 12 } & a _ { 13 } + b _ { 13 } \\
 a _ { 21 } + b _ { 21 } & a _ { 22 } + b _ { 22 } & a _ { 23 } + b _ { 23 } \\
 a _ { 31 } + b _ { 31 } & a _ { 32 } + b _ { 32 } & a _ { 33 } + b _ { 33 }
-\end { b m a t r i x } \\
+\end{bmatrix} \\
 | A + B | = 3 \times 3 \\
 a , b = \text { entry }
 \end{aligned}
@@ -223,15 +223,15 @@ $$
 ### matrix transposition formula
 $$
 \begin{aligned}
-A = \begin { b m a t r i x }
+A = \begin{bmatrix}
 a _ { 11 } & a _ { 12 } & a _ { 13 } \\
 a _ { 21 } & a _ { 22 } & a _ { 23 } \\
 a _ { 31 } & a _ { 32 } & a _ { 33 } \\
-\end { b m a t r i x } \implies A ^ { T } = \begin { b m a t r i x }
+\end{bmatrix} \implies A ^ { T } = \begin{bmatrix}
 a _ { 11 } & a _ { 21 } & a _ { 31 } \\
 a _ { 12 } & a _ { 22 } & a _ { 32 } \\
 a _ { 13 } & a _ { 23 } & a _ { 33 }
-\end { b m a t r i x } \\
+\end{bmatrix} \\
 m \times n \implies n \times m \\
 a _ { i j } \implies a _ { j i } \\
 a = \text { entry } \\

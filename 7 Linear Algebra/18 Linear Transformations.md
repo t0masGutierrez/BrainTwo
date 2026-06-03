@@ -23,7 +23,7 @@ $$
 ### linear transformation formula
 $$
 \begin{aligned}
-L : \mathcal V \rightarrow \mathcal W \iff \begin { c a s e s }
+L : \mathcal V \rightarrow \mathcal W \iff \begin{cases}
 L ( \vec v ) = \vec w \\
 L ( \vec v _ { 1 } + \vec v _ { 2 } ) = L ( \vec v _ { 1 } ) + L ( \vec v _ { 2 } ) \\
 L ( c \vec v ) = c L ( \vec v )
@@ -137,7 +137,7 @@ $$
 ### rotation formula
 $$
 \begin{aligned}
-{}[ v _ { 1 } , \dots , v _ { i } , \dots , v _ { n } ] \mapsto \begin { b m a t r i x } \cos \theta & - \sin \theta \\ \sin \theta & \cos \theta \end { b m a t r i x } \begin { b m a t r i x } v _ { 1 } \\ \vdots \\ v _ { i } \\ \vdots \\ v _ { n } \end { b m a t r i x }
+{}[ v _ { 1 } , \dots , v _ { i } , \dots , v _ { n } ] \mapsto \begin{bmatrix} \cos \theta & - \sin \theta \\ \sin \theta & \cos \theta \end{bmatrix} \begin{bmatrix} v _ { 1 } \\ \vdots \\ v _ { i } \\ \vdots \\ v _ { n } \end{bmatrix}
 \end{aligned}
 $$
 

@@ -60,18 +60,18 @@ $$
 $$
 \begin{aligned}
 \frac { d v } { d t } = A _ { * } v + R \\
-A _ { * } = \begin { b m a t r i x }
+A _ { * } = \begin{bmatrix}
 \frac { \partial f } { \partial x } ( v _ { * } ) & \frac { \partial f } { \partial y } ( v _ { * } ) \\
 \frac { \partial g } { \partial x } ( v _ { * } ) & \frac { \partial g } { \partial y } ( v _ { * } )
-\end { b m a t r i x } \\
-v = \begin { b m a t r i x }
+\end{bmatrix} \\
+v = \begin{bmatrix}
 x - x _ { * } \\
 y - y _ { * }
-\end { b m a t r i x } \\
-R = \begin { b m a t r i x }
+\end{bmatrix} \\
+R = \begin{bmatrix}
 R _ { 1 } \\
 R _ { 2 }
-\end { b m a t r i x } \\
+\end{bmatrix} \\
 f , g = \text { velocity } \\
 v = \text { solution } \\
 t = \text { time } \\

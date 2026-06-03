@@ -139,7 +139,7 @@ $$
 ### span row space property formula
 $$
 \begin{aligned}
-A = \begin { b m a t r i x } \vec a _ { 1 } \\ \vec a _ { 2 } \\ \vdots \\ \vec a _ { m } \end { b m a t r i x }
+A = \begin{bmatrix} \vec a _ { 1 } \\ \vec a _ { 2 } \\ \vdots \\ \vec a _ { m } \end{bmatrix}
 \implies
 \text { Row } ( A ) = \text { span } \{ \vec a _ { 1 } , \vec a _ { 2 } , \dots , \vec a _ { m } \} \\
 A = \text { matrix } \\

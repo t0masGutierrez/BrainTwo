@@ -20,12 +20,12 @@ $$
 ### system of linear equations formula
 $$
 \begin{aligned}
-\begin { a r r a y } { l }
+\begin{array} { l }
 a _ { 11 } x _ { 1 } + a _ { 12 } x _ { 2 } + \cdots + a _ { 1 n } x _ { n } = b _ { 1 } \\
 a _ { 21 } x _ { 1 } + a _ { 22 } x _ { 2 } + \cdots + a _ { 2 n } x _ { n } = b _ { 2 } \\
 \quad \vdots \quad \qquad \vdots \quad \qquad \ddots \qquad \vdots \qquad \vdots \\
 a _ { m 1 } x _ { 1 } + a _ { m 2 } x _ { 2 } + \cdots + a _ { m n } x _ { n } = b _ { m }
-\end { a r r a y } \\
+\end{array} \\
 a = \text { coefficient } \\
 x = \text { variable } \\
 b = \text { constant }
@@ -75,12 +75,12 @@ $$
 ### coefficient matrix formula
 $$
 \begin{aligned}
-A = \begin { b m a t r i x }
+A = \begin{bmatrix}
 a _ { 11 } & a _ { 12 } & \cdots & a _ { 1 n } \\
 a _ { 21 } & a _ { 22 } & \cdots & a _ { 2 n } \\
 \vdots & \vdots & \ddots & \vdots \\
 a _ { m 1 } & a _ { m 2 } & \cdots & a _ { m n } \\
-\end { b m a t r i x } \\
+\end{bmatrix} \\
 | A | = m \times n \\
 a = \text { coefficient } \\
 m = \text { number of rows } \\
@@ -96,12 +96,12 @@ $$
 ### variable matrix formula
 $$
 \begin{aligned}
-X = \begin { b m a t r i x }
+X = \begin{bmatrix}
 x _ { 1 } \\
 x _ { 2 } \\
 \vdots \\
 x _ { n }
-\end { b m a t r i x } \\
+\end{bmatrix} \\
 | X | = n \times 1 \\
 x = \text { variable }
 \end{aligned}
@@ -115,12 +115,12 @@ $$
 ### constant matrix formula
 $$
 \begin{aligned}
-B = \begin { b m a t r i x }
+B = \begin{bmatrix}
 b _ { 1 } \\
 b _ { 2 } \\
 \vdots \\
 b _ { m }
-\end { b m a t r i x } \\
+\end{bmatrix} \\
 | B | = m \times 1 \\
 b = \text { constant }
 \end{aligned}
@@ -140,17 +140,17 @@ a _ { 11 } & a _ { 12 } & \cdots & a _ { 1 n } \\
 a _ { 21 } & a _ { 22 } & \cdots & a _ { 2 n } \\
 \vdots & \vdots & \ddots & \vdots \\
 a _ { m 1 } & a _ { m 2 } & \cdots & a _ { m n } \\
-\end { b m a t r i x } \begin { b m a t r i x }
+\end{bmatrix} \begin{bmatrix}
 x _ { 1 } \\
 x _ { 2 } \\
 \vdots \\
 x _ { n }
-\end { b m a t r i x } = \begin { b m a t r i x }
+\end{bmatrix} = \begin{bmatrix}
 b _ { 1 } \\
 b _ { 2 } \\
 \vdots \\
 b _ { m }
-\end { b m a t r i x } \\
+\end{bmatrix} \\
 A = \text { coefficient matrix } \\
 X = \text { variable matrix } \\
 B = \text { constant matrix }
@@ -165,12 +165,12 @@ $$
 ### augmented matrix formula
 $$
 \begin{aligned}
-A \mid B = \left [ \begin { a r r a y } { c c c c | c }
+A \mid B = \left [ \begin{array} { c c c c | c }
 a _ { 11 } & a _ { 12 } & \cdots & a _ { 1 n } & b _ { 1 } \\
 a _ { 21 } & a _ { 22 } & \cdots & a _ { 2 n } & b _ { 2 } \\
 \vdots & \vdots & \ddots & \vdots & \vdots \\
 a _ { m 1 } & a _ { m 2 } & \cdots & a _ { m n } & b _ { m }
-\end { a r r a y } \right ]
+\end{array} \right ]
 \end{aligned}
 $$
 
@@ -182,12 +182,12 @@ $$
 ### simultaneous matrix formula
 $$
 \begin{aligned}
-A \mid B \mid B ' = \left [ \begin { a r r a y } { c c c c | c | c }
+A \mid B \mid B ' = \left [ \begin{array} { c c c c | c | c }
 a _ { 11 } & a _ { 12 } & \cdots & a _ { 1 n } & b _ { 1 } & b _ { 1 } ' \\
 a _ { 21 } & a _ { 22 } & \cdots & a _ { 2 n } & b _ { 2 } & b _ { 2 } ' \\
 \vdots & \vdots & \ddots & \vdots & \vdots & \vdots \\
 a _ { m 1 } & a _ { m 2 } & \cdots & a _ { m n } & b _ { m } & b _ { m } '
-\end { a r r a y } \right ]
+\end{array} \right ]
 \end{aligned}
 $$
 

@@ -95,7 +95,7 @@ $$
 ### wronskian formula
 $$
 \begin{aligned}
-W [ y _ { 1 } , y _ { 2 } ] ( t ) = \begin { v m a t r i x } y _ { 1 } & y _ { 2 } \\ y _ { 1 } ' & y _ { 2 } ' \end { v m a t r i x } = y _ { 1 } y _ { 2 } ' - y _ { 2 } y _ { 1 } ' \\
+W [ y _ { 1 } , y _ { 2 } ] ( t ) = \begin{vmatrix} y _ { 1 } & y _ { 2 } \\ y _ { 1 } ' & y _ { 2 } ' \end{vmatrix} = y _ { 1 } y _ { 2 } ' - y _ { 2 } y _ { 1 } ' \\
 y = \text { solution } \\
 t = \text { independent variable }
 \end{aligned}
@@ -145,7 +145,7 @@ $$
 y ' ' = r ^ { 2 } \exp ( r t ) \\
 y ' = r \exp ( r t ) \\
 y = \exp ( r t ) \\
-\end { c a s e s } \implies a _ { 2 } r ^ { 2 } + a _ { 1 } r + a _ { 0 } = 0 \\
+\end{cases} \implies a _ { 2 } r ^ { 2 } + a _ { 1 } r + a _ { 0 } = 0 \\
 r = \text { root } \\
 \exp ( r t ) = \text { guess } \\
 t = \text { independent variable } \\

@@ -640,7 +640,7 @@ $$
 +
 \lambda
 \dfrac { \partial \widetilde G } { \partial \varepsilon _ { 2 } } ( 0 , 0 ) \\
-\end { b m a t r i x } = \begin { b m a t r i x } 0 \\ 0 \end { b m a t r i x } \\
+\end{bmatrix} = \begin{bmatrix} 0 \\ 0 \end{bmatrix} \\
 \tilde F = F [ f _ { * } + \epsilon _ { 1 } h _ { 1 } + \epsilon _ { 2 } h _ { 2 } ] \\
 \tilde G = G [ g _ { * } + \epsilon _ { 1 } h _ { 1 } + \epsilon _ { 2 } h _ { 2 } ] \\
 F = \text { objective functional } \\

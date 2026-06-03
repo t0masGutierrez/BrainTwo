@@ -77,11 +77,11 @@ $$
 a _ { 11 } - \lambda & \dots & a _ { 1 n } \\
 \vdots & a _ { i i } - \lambda & \vdots \\
 a _ { n 1 } & \dots & a _ { n n } - \lambda
-\end { b m a t r i x } \begin { b m a t r i x }
+\end{bmatrix} \begin{bmatrix}
 x _ { 1 } \\
 \vdots \\
 x _ { n }
-\end { b m a t r i x } = 0 \\
+\end{bmatrix} = 0 \\
 A = \text { square matrix } \\
 \lambda = \text { eigenvalue } \\
 I = \text { identity matrix } \\

@@ -32,12 +32,12 @@ $$
 \begin{cases}
 u = x ^ { n } \\
 d v = e ^ { x } d x , \  \sin ( x ) d x , \  \cos ( x ) d x
-\end { c a s e s } \\
+\end{cases} \\
 \int x ^ { n } \ln ( x ) d x , \  \int x ^ { n } \arcsin ( x ) d x , \  \int x ^ { n } \arccos ( x ) d x \
 \begin{cases}
 u = \ln ( x ) , \  \arcsin ( x ) , \  \arccos ( x ) \\
 d v = x ^ { n } d x
-\end { c a s e s } \\
+\end{cases} \\
 \int e ^ { x } \sin ( x ) d x , \  \int e ^ { x } \cos ( x ) d x \
 \begin{cases}
 u = \sin ( x ) , \  \cos ( x ) \\
@@ -76,8 +76,8 @@ $$
 ### trigonometric integral sine cosine formula
 $$
 \begin{aligned}
-\int \textcolor { y e l l o w } { \sin ^ { 2 k + 1 } ( x ) } \cos ^ { n } ( x ) d x = \int \textcolor { y e l l o w } { ( \sin ^ { 2 } x ) ^ { k } } \cos ^ { n } ( x ) \textcolor { c y a n } { \sin ( x ) d x } = \int \textcolor { y e l l o w } { ( 1 - \cos ^ { 2 } x ) ^ { k } } \cos ^ { n } ( x ) \textcolor { c y a n } { \sin ( x ) d x } \\
-\int \sin ^ { m } ( x ) \textcolor { y e l l o w } { \cos ^ { 2 k + 1 } ( x ) } d x = \int \sin ^ { m } ( x ) \textcolor { y e l l o w } { ( \cos ^ { 2 } x ) ^ { k } } \textcolor { c y a n } { \cos ( x ) d x } = \int \sin ^ { m } ( x ) \textcolor { y e l l o w } { ( 1 - \sin ^ { 2 } x ) ^ { k } } \textcolor { c y a n } { \cos ( x ) d x } \\
+\int \textcolor{yellow} { \sin ^ { 2 k + 1 } ( x ) } \cos ^ { n } ( x ) d x = \int \textcolor{yellow} { ( \sin ^ { 2 } x ) ^ { k } } \cos ^ { n } ( x ) \textcolor{cyan} { \sin ( x ) d x } = \int \textcolor{yellow} { ( 1 - \cos ^ { 2 } x ) ^ { k } } \cos ^ { n } ( x ) \textcolor{cyan} { \sin ( x ) d x } \\
+\int \sin ^ { m } ( x ) \textcolor{yellow} { \cos ^ { 2 k + 1 } ( x ) } d x = \int \sin ^ { m } ( x ) \textcolor{yellow} { ( \cos ^ { 2 } x ) ^ { k } } \textcolor{cyan} { \cos ( x ) d x } = \int \sin ^ { m } ( x ) \textcolor{yellow} { ( 1 - \sin ^ { 2 } x ) ^ { k } } \textcolor{cyan} { \cos ( x ) d x } \\
 \int \sin ^ { 2 k } ( x ) \cos ^ { 2 k } ( x ) d x = \int ( \frac { 1 - \cos 2 x } { 2 } ) ^ { k } ( \frac { 1 + \cos 2 x } { 2 } ) ^ { k } d x
 \end{aligned}
 $$
@@ -86,9 +86,9 @@ $$
 ### trigonometric integral secant tangent formula
 $$
 \begin{aligned}
-\int \textcolor { y e l l o w } { \sec ^ { 2 k } ( x ) } \tan ^ { n } ( x ) d x = \int \textcolor { y e l l o w } { ( \sec ^ { 2 } x ) ^ { k - 1 } } \tan ^ { n } ( x ) \textcolor { c y a n } { \sec ^ { 2 } ( x ) d x } = \int \textcolor { y e l l o w } { ( 1 + \tan ^ { 2 } x ) ^ { k - 1 } } \tan ^ { n } ( x ) \textcolor { c y a n } { \sec ^ { 2 } ( x ) d x } \\
-\small { \int \sec ^ { m } ( x ) \textcolor { y e l l o w } { \tan ^ { 2 k + 1 } ( x ) } d x = \int \sec ^ { m - 1 } ( x ) \textcolor { y e l l o w } { ( \tan ^ { 2 } x ) ^ { k } } \textcolor { c y a n } { \sec ( x ) \tan ( x ) d x } = \int \sec ^ { m } ( x ) \textcolor { y e l l o w } { ( \sec ^ { 2 } x - 1 ) ^ { k } } \textcolor { c y a n } { \sec ( x ) \tan ( x ) d x } } \\
-\int \tan ^ { n } ( x ) = \int \textcolor { y e l l o w } { ( \tan ^ { 2 } x ) } \tan ^ { n - 2 } ( x ) d x = \int \textcolor { y e l l o w } { ( \sec ^ { 2 } x - 1 ) } \tan ^ { n - 2 } ( x ) d x \\
+\int \textcolor{yellow} { \sec ^ { 2 k } ( x ) } \tan ^ { n } ( x ) d x = \int \textcolor{yellow} { ( \sec ^ { 2 } x ) ^ { k - 1 } } \tan ^ { n } ( x ) \textcolor{cyan} { \sec ^ { 2 } ( x ) d x } = \int \textcolor{yellow} { ( 1 + \tan ^ { 2 } x ) ^ { k - 1 } } \tan ^ { n } ( x ) \textcolor{cyan} { \sec ^ { 2 } ( x ) d x } \\
+\small { \int \sec ^ { m } ( x ) \textcolor{yellow} { \tan ^ { 2 k + 1 } ( x ) } d x = \int \sec ^ { m - 1 } ( x ) \textcolor{yellow} { ( \tan ^ { 2 } x ) ^ { k } } \textcolor{cyan} { \sec ( x ) \tan ( x ) d x } = \int \sec ^ { m } ( x ) \textcolor{yellow} { ( \sec ^ { 2 } x - 1 ) ^ { k } } \textcolor{cyan} { \sec ( x ) \tan ( x ) d x } } \\
+\int \tan ^ { n } ( x ) = \int \textcolor{yellow} { ( \tan ^ { 2 } x ) } \tan ^ { n - 2 } ( x ) d x = \int \textcolor{yellow} { ( \sec ^ { 2 } x - 1 ) } \tan ^ { n - 2 } ( x ) d x \\
 \int \sec ^ { m } ( x ) d x = \int u ( x ) d v = u v - \int v ( x ) d u \\
 \end{aligned}
 $$
@@ -112,12 +112,12 @@ $$
 \begin{cases}
 u = a \sin ( \theta ) \\
 d u = a \cos ( \theta ) d \theta
-\end { c a s e s } \\
+\end{cases} \\
 \sqrt { a ^ { 2 } + u ^ { 2 } } = a \sec ( \theta )
 \begin{cases}
 u = a \tan ( \theta ) \\
 d u = a \sec ^ { 2 } ( \theta ) d \theta \\
-\end { c a s e s } \\
+\end{cases} \\
 \sqrt { u ^ { 2 } - a ^ { 2 } } = a \tan ( \theta )
 \begin{cases}
 u = a \sec ( \theta ) \\

@@ -5,9 +5,9 @@
 ### 1x1 determinant formula
 $$
 \begin{aligned}
-A = \begin { b m a t r i x }
+A = \begin{bmatrix}
 a _ { 11 }
-\end { b m a t r i x } \implies
+\end{bmatrix} \implies
 \det ( A ) = a _ { 11 } \\
 A = \text { square matrix } \\
 a = \text { entry }
@@ -22,10 +22,10 @@ $$
 ### 2x2 determinant formula
 $$
 \begin{aligned}
-A = \begin { b m a t r i x }
+A = \begin{bmatrix}
 a _ { 11 } & a _ { 12 } \\
 a _ { 21 } & a _ { 22 }
-\end { b m a t r i x } \implies
+\end{bmatrix} \implies
 \det ( A ) = a _ { 11 } a _ { 22 } - a _ { 12 } a _ { 21 } \\
 A = \text { square matrix } \\
 a = \text { entry }
@@ -40,11 +40,11 @@ $$
 ### 3x3 determinant formula
 $$
 \begin{aligned}
-A = \begin { b m a t r i x }
+A = \begin{bmatrix}
 a _ { 11 } & a _ { 12 } & a _ { 13 } \\
 a _ { 21 } & a _ { 22 } & a _ { 23 } \\
 a _ { 31 } & a _ { 32 } & a _ { 33 }
-\end { b m a t r i x } \implies
+\end{bmatrix} \implies
 \det ( A ) = a _ { 11 } a _ { 22 } a _ { 33 } + a _ { 12 } a _ { 23 } a _ { 31 } + a _ { 13 } a _ { 21 } a _ { 32 } \\ - a _ { 13 } a _ { 22 } a _ { 31 } - a _ { 11 } a _ { 23 } a _ { 32 } - a _ { 12 } a _ { 21 } a _ { 33 } \\
 A = \text { square matrix } \\
 a = \text { entry }

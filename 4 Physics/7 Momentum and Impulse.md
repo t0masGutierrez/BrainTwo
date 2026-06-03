@@ -24,7 +24,7 @@ $$
 \begin{cases}
 F _ { x } = m \frac { d v _ { x } } { d t } \\
 F _ { y } = m \frac { d v _ { y } } { d t }
-\end { c a s e s } \\
+\end{cases} \\
 \vec p = \text { momentum } \\
 t = \text { time } \\
 F = \text { force } \\

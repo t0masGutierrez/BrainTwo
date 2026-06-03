@@ -37,9 +37,9 @@ $$
 ### system of heat equations formula
 $$
 \begin{aligned}
-\frac { X ' ' ( x ) } { X ( x ) } = \frac { T ' ( t ) } { k T ( t ) } = - \lambda \implies \begin { c a s e s } X ' ' ( x ) + \lambda X ( x ) = 0 \\
+\frac { X ' ' ( x ) } { X ( x ) } = \frac { T ' ( t ) } { k T ( t ) } = - \lambda \implies \begin{cases} X ' ' ( x ) + \lambda X ( x ) = 0 \\
 T ' ( t ) + \lambda k T ( t ) = 0 \\
-\end { c a s e s } \\
+\end{cases} \\
 x = \text { space } \\
 t = \text { time } \\
 k = \text { thermal diffusivity } \\

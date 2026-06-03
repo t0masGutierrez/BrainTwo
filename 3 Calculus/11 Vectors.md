@@ -258,11 +258,11 @@ $$
 ### scalar triple product formula
 $$
 \begin{aligned}
-V = \vec { C } \cdot ( \vec { A } \times \vec { B } ) = \vec C \begin { v m a t r i x }
+V = \vec { C } \cdot ( \vec { A } \times \vec { B } ) = \vec C \begin{vmatrix}
 \hat i & \hat j & \hat k \\
 A _ { x } & A _ { y } & A _ { z } \\
 B _ { x } & B _ { y } & B _ { z }
-\end { v m a t r i x } \\
+\end{vmatrix} \\
 A _ { x } = \text { x scalar component } \\
 B _ { y } = \text { y scalar component } \\
 C _ { z } = \text { z scalar component }

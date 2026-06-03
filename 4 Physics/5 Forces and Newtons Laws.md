@@ -289,7 +289,7 @@ $$
 \begin{cases}
 F _ { x } = m a _ { x } \\
 F _ { y } = m a _ { y }
-\end { c a s e s } \\
+\end{cases} \\
 m = \text { mass } \\
 \vec a = \text { acceleration } \\
 F = \text { force }

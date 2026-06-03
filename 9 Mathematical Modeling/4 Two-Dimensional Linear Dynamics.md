@@ -329,10 +329,10 @@ $$
 $$
 \begin{aligned}
 ( \frac { d x } { d t } = a x + b y ) \land ( \frac { d y } { d t } = c x + d y ) \implies \frac { d v } { d t } = A v \\
-A = \begin { b m a t r i x }
+A = \begin{bmatrix}
 a & b \\
 c & d \\
-\end { b m a t r i x } \\
+\end{bmatrix} \\
 v = [ x , y ] \\
 x , y , v = \text { solution } \\
 t = \text { time } \\
@@ -378,10 +378,10 @@ $$
 \begin{aligned}
 v ( t ) = C _ { 1 } e ^ { \lambda _ { 1 } t } \hat u _ { 1 } + C _ { 2 } e ^ { \lambda _ { 2 } t } \hat u _ { 2 } \\
 v = [ x , y ] \\
-A = \begin { b m a t r i x }
+A = \begin{bmatrix}
 a & b \\
 c & d \\
-\end { b m a t r i x } \\
+\end{bmatrix} \\
 v = \text { solution } \\
 t = \text { time } \\
 a , b , c , d = \text { coefficient } \\
@@ -419,10 +419,10 @@ $$
 \hat u _ { 1 } \ne \hat u _ { 2 } \implies v ( t ) = e ^ { \lambda t } ( C _ { 1 } \hat u _ { 1 } + C _ { 2 } \hat u _ { 2 } ) \\
 \hat u _ { 1 } = \hat u _ { 2 } \implies v ( t ) = C _ { 1 } e ^ { \lambda t } \hat u + C _ { 2 } e ^ { \lambda t } ( \hat u t + \hat w ) \land ( A - \lambda I ) \hat w = \hat u \\
 v = [ x , y ] \\
-A = \begin { b m a t r i x }
+A = \begin{bmatrix}
 a & b \\
 c & d \\
-\end { b m a t r i x } \\
+\end{bmatrix} \\
 v = \text { solution } \\
 t = \text { time } \\
 a , b , c , d = \text { coefficient } \\

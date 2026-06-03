@@ -76,10 +76,10 @@ $$
 ### direction formula
 $$
 \begin{aligned}
-\theta = \begin { c a s e s }
+\theta = \begin{cases}
 \arctan ( \frac { A _ { y } } { A _ { x } } ) , \  A _ { x } > 0 \\
 \arctan ( \frac { A _ { y } } { A _ { x } } ) + 180 ^ { \circ } , \  A _ { x } < 0
-\end { c a s e s } \\
+\end{cases} \\
 A _ { y } = \text { y scalar component } \\
 A _ { x } = \text { x scalar component }
 \end{aligned}
@@ -255,7 +255,7 @@ $$
 \begin{cases}
 A _ { x } = B _ { x } \\
 A _ { y } = B _ { y }
-\end { c a s e s } \\
+\end{cases} \\
 \vec A , \vec B = \text { vector } \\
 A _ { x } , B _ { x } = \text { x scalar component } \\
 A _ { y } , B _ { y } = \text { y scalar component }

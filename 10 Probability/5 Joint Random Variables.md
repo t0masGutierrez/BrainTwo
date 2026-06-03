@@ -103,7 +103,7 @@ $$
 ### indicator random variable formula
 $$
 \begin{aligned}
-I = \begin { c a s e s } 1 , \quad A \\ 0 , \quad A ^ { c } \end { c a s e s } \\
+I = \begin{cases} 1 , \quad A \\ 0 , \quad A ^ { c } \end{cases} \\
 A = \text { event }
 \end{aligned}
 $$
@@ -231,8 +231,8 @@ $$
 ### joint variance formula
 $$
 \begin{aligned}
-\text { Var } ( X , Y ) = \begin { b m a t r i x } \text { Var } ( X ) & \text { Cov } ( X , Y ) \\
-\text { Cov } ( Y , X ) & \text { Var } ( Y ) \end { b m a t r i x } \\
+\text { Var } ( X , Y ) = \begin{bmatrix} \text { Var } ( X ) & \text { Cov } ( X , Y ) \\
+\text { Cov } ( Y , X ) & \text { Var } ( Y ) \end{bmatrix} \\
 X , Y = \text { random variable }
 \end{aligned}
 $$
