@@ -38,8 +38,8 @@ $$
 ### potential energy formula
 $$
 \begin{aligned}
-U = \int _ { r _ { 2 } } ^ { r _ { 1 } } \vec F _ { c o n s } \cdot d \vec r \\
-F _ { c o n s } = \text { conservative force } \\
+U = \int _ { r _ { 2 } } ^ { r _ { 1 } } \vec F _ { cons } \cdot d \vec r \\
+F _ { cons } = \text { conservative force } \\
 r = \text { position }
 \end{aligned}
 $$
@@ -58,7 +58,7 @@ $$
 ### work energy formula
 $$
 \begin{aligned}
-W _ { c o n s } = U _ { i } - U _ { f } \\
+W _ { cons } = U _ { i } - U _ { f } \\
 U = \text { potential energy }
 \end{aligned}
 $$
@@ -150,7 +150,7 @@ $$
 ### electric potential difference formula
 $$
 \begin{aligned}
-\Delta V = \frac { \Delta U } { q } = k \int \frac { d Q } { r } \\
+\Delta V = \frac { \Delta U } { q } = k \int \frac { dQ } { r } \\
 U = \text { potential energy } \\
 q = \text { test electric charge } \\
 k = 9 \times 10 ^ { 9 } \\
@@ -200,7 +200,7 @@ $$
 ### non uniform electric field formula
 $$
 \begin{aligned}
-E = \frac { - d V } { d r } \\
+E = \frac { - d V } { dr } \\
 V = \text { electric potential } \\
 r = \text { distance }
 \end{aligned}

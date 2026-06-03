@@ -72,7 +72,7 @@ $$
 ### submatrix formula
 $$
 \begin{aligned}
-A _ { i j } = A - ( a _ { i * } + a _ { * j } ) \\
+A _ { ij } = A - ( a _ { i * } + a _ { * j } ) \\
 A = \text { matrix } \\
 a _ { i * } = \text { ith row } \\
 a _ { * j } = \text { jth column } \\
@@ -87,8 +87,8 @@ $$
 ### minor formula
 $$
 \begin{aligned}
-\forall n \ge 2 : | A _ { i j } | = ( n - 1 ) \times ( n - 1 ) \implies \det ( A _ { i j } ) \\
-A _ { i j } = \text { square submatrix }
+\forall n \ge 2 : | A _ { ij } | = ( n - 1 ) \times ( n - 1 ) \implies \det ( A _ { ij } ) \\
+A _ { ij } = \text { square submatrix }
 \end{aligned}
 $$
 
@@ -100,10 +100,10 @@ $$
 ### cofactor formula
 $$
 \begin{aligned}
-\mathcal A _ { i j } = ( - 1 ) ^ { i + j } \det ( A _ { i j } ) \\
+\mathcal A _ { ij } = ( - 1 ) ^ { i + j } \det ( A _ { ij } ) \\
 i = \text { row index } \\
 j = \text { column index } \\
-\det ( A _ { i j } ) = \text { minor }
+\det ( A _ { ij } ) = \text { minor }
 \end{aligned}
 $$
 
@@ -116,8 +116,8 @@ $$
 ### nxn determinant formula
 $$
 \begin{aligned}
-\det ( A ) = \sum _ { j = 1 } ^ { n } a _ { i j } \mathcal A _ { i j } \\
-\det ( A ) = \sum _ { i = 1 } ^ { n } a _ { i j } \mathcal A _ { i j } \\
+\det ( A ) = \sum _ { j = 1 } ^ { n } a _ { ij } \mathcal A _ { ij } \\
+\det ( A ) = \sum _ { i = 1 } ^ { n } a _ { ij } \mathcal A _ { ij } \\
 A = \text { square matrix } \\
 i = \text { row index } \\
 j = \text { column index } \\
@@ -206,7 +206,7 @@ $$
 ### upper triangular matrix determinant formula
 $$
 \begin{aligned}
-A \in \mathcal U _ { n } \implies \det ( A ) = \prod _ { i = 1 } ^ { n } a _ { i i } \\
+A \in \mathcal U _ { n } \implies \det ( A ) = \prod _ { i = 1 } ^ { n } a _ { ii } \\
 a = \text { entry } \\
 i = \text { diagonal index }
 \end{aligned}

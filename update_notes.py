@@ -82,6 +82,11 @@ def math_tokens(text):
             tokens.append(command)
             continue
 
+        if char == "{":
+            argument, i = read_braced_argument(text, i)
+            tokens.extend(math_braced_tokens(argument))
+            continue
+
         if char.isalpha():
             tokens.append(char)
             i += 1
@@ -106,10 +111,22 @@ def read_script_tokens(text, start):
 
     if text[i] == "{":
         argument, end_i = read_braced_argument(text, i)
-        return [marker, "{", *math_tokens(argument), "}"], end_i
+        return [marker, *math_braced_tokens(argument)], end_i
 
     atom_tokens, end_i = read_script_atom_tokens(text, i)
     return [marker, "{", *atom_tokens, "}"], end_i
+
+def math_braced_tokens(argument):
+    normalized = normalize_text_argument(argument)
+    if is_letter_argument(normalized):
+        return ["{", collapse_letter_argument(normalized), "}"]
+    return ["{", *math_tokens(argument), "}"]
+
+def is_letter_argument(text):
+    return bool(re.fullmatch(r"[A-Za-z](?:\s*[A-Za-z])*", text))
+
+def collapse_letter_argument(text):
+    return re.sub(r"\s+", "", text)
 
 def read_script_atom_tokens(text, start):
     char = text[start]

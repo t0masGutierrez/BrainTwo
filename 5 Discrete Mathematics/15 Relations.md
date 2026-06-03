@@ -105,8 +105,8 @@ $$
 ### binary matrix relation formula
 $$
 \begin{aligned}
-( a _ { i } , b _ { j } ) \in R \implies m _ { i j } = 1 \\
-( a _ { i } , b _ { j } ) \notin R \implies m _ { i j } = 0 \\
+( a _ { i } , b _ { j } ) \in R \implies m _ { ij } = 1 \\
+( a _ { i } , b _ { j } ) \notin R \implies m _ { ij } = 0 \\
 i = \text { row index } \\
 j = \text { column index }
 \end{aligned}

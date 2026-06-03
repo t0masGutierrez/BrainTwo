@@ -5,7 +5,7 @@
 ### dynamical system formula
 $$
 \begin{aligned}
-\frac { d u } { d t } = f ( u , c _ { 1 } , \dots , c _ { n } ) , u ( t = 0 ) = u _ { 0 } , t \ge 0 \\
+\frac { du } { dt } = f ( u , c _ { 1 } , \dots , c _ { n } ) , u ( t = 0 ) = u _ { 0 } , t \ge 0 \\
 u = \text { solution } \\
 t = \text { time } \\
 u _ { 0 } = \text { initial condition } \\
@@ -22,7 +22,7 @@ $$
 ### time view formula
 $$
 \begin{aligned}
-\frac { d u } { d t } = f ( u ) \\
+\frac { du } { dt } = f ( u ) \\
 f = \text { slope }
 \end{aligned}
 $$
@@ -36,7 +36,7 @@ $$
 ### phase view formula
 $$
 \begin{aligned}
-\frac { d u } { d t } = f ( u ) \\
+\frac { du } { dt } = f ( u ) \\
 f = \text { velocity }
 \end{aligned}
 $$
@@ -49,8 +49,8 @@ $$
 ### solvability property formula
 $$
 \begin{aligned}
-\forall u _ { 0 } \in \mathbb R , \exists t \in ( T _ { 0 } , T _ { 1 } ) : u ( t ) \in D = \{ u \in \mathbb R | \exists \frac { d u } { d t } \} \\
-( t \le T _ { 0 } ) \lor ( t \ge T _ { 1 } ) \implies u ( t ) \not \in D = \{ u \in \mathbb R | \exists \frac { d u } { d t } \} \\
+\forall u _ { 0 } \in \mathbb R , \exists t \in ( T _ { 0 } , T _ { 1 } ) : u ( t ) \in D = \{ u \in \mathbb R | \exists \frac { du } { dt } \} \\
+( t \le T _ { 0 } ) \lor ( t \ge T _ { 1 } ) \implies u ( t ) \not \in D = \{ u \in \mathbb R | \exists \frac { du } { dt } \} \\
 u _ { 0 } \ne \hat u _ { 0 } \implies \forall t \in ( T _ { 0 } , T _ { 1 } ) : u ( t ) \ne \hat u ( t )
 \end{aligned}
 $$
@@ -224,7 +224,7 @@ $$
 ### saddle-node bifurcation formula
 $$
 \begin{aligned}
-\frac { d u } { d t } = h - u ^ { 2 }
+\frac { du } { dt } = h - u ^ { 2 }
 \end{aligned}
 $$
 
@@ -236,7 +236,7 @@ $$
 ### transcritical bifurcation formula
 $$
 \begin{aligned}
-\frac { d u } { d t } = h u - u ^ { 2 }
+\frac { du } { dt } = h u - u ^ { 2 }
 \end{aligned}
 $$
 
@@ -248,7 +248,7 @@ $$
 ### pitchfork bifurcation formula
 $$
 \begin{aligned}
-\frac { d u } { d t } = h u - u ^ { 3 }
+\frac { du } { dt } = h u - u ^ { 3 }
 \end{aligned}
 $$
 

@@ -43,7 +43,7 @@ $$
 ### rms electric current
 $$
 \begin{aligned}
-I _ { r m s } = \frac { I } { \sqrt 2 } \\
+I _ { rms } = \frac { I } { \sqrt 2 } \\
 I = \text { electric current }
 \end{aligned}
 $$
@@ -56,7 +56,7 @@ $$
 ### rms voltage
 $$
 \begin{aligned}
-V _ { r m s } = \frac { V } { \sqrt 2 } \\
+V _ { rms } = \frac { V } { \sqrt 2 } \\
 V = \text { voltage }
 \end{aligned}
 $$
@@ -85,7 +85,7 @@ $$
 ### inductor formula
 $$
 \begin{aligned}
-v _ { L } = L \frac { d i } { d t } \\
+v _ { L } = L \frac { di } { dt } \\
 L = \text { self inductance } \\
 i = \text { electric current } \\
 t = \text { time }
@@ -226,7 +226,7 @@ $$
 ### average power formula
 $$
 \begin{aligned}
-P = I _ { r m s } V _ { r m s } \cos ( \phi ) = I _ { r m s } ^ { 2 } Z \cos ( \phi ) = \frac { V _ { r m s } ^ { 2 } } { Z } \cos ( \phi ) \\
+P = I _ { rms } V _ { rms } \cos ( \phi ) = I _ { rms } ^ { 2 } Z \cos ( \phi ) = \frac { V _ { rms } ^ { 2 } } { Z } \cos ( \phi ) \\
 I = \text { electric current } \\
 V = \text { voltage } \\
 \phi = \text { phase angle } \\
@@ -263,7 +263,7 @@ $$
 ### resonant angular frequency formula
 $$
 \begin{aligned}
-\omega = \sqrt { \frac { 1 } { L C } } \\
+\omega = \sqrt { \frac { 1 } { LC } } \\
 L = \text { self inductance } \\
 C = \text { capacitance }
 \end{aligned}
@@ -345,7 +345,7 @@ $$
 ### average full wave rectification electric current formula
 $$
 \begin{aligned}
-I _ { a v g } = ( \frac { 2 } { \pi } ) I = 0.637 I \\
+I _ { avg } = ( \frac { 2 } { \pi } ) I = 0.637 I \\
 I = \text { electric current }
 \end{aligned}
 $$

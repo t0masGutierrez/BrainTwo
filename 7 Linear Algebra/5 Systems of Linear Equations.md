@@ -24,7 +24,7 @@ $$
 a _ { 11 } x _ { 1 } + a _ { 12 } x _ { 2 } + \cdots + a _ { 1 n } x _ { n } = b _ { 1 } \\
 a _ { 21 } x _ { 1 } + a _ { 22 } x _ { 2 } + \cdots + a _ { 2 n } x _ { n } = b _ { 2 } \\
 \quad \vdots \quad \qquad \vdots \quad \qquad \ddots \qquad \vdots \qquad \vdots \\
-a _ { m 1 } x _ { 1 } + a _ { m 2 } x _ { 2 } + \cdots + a _ { m n } x _ { n } = b _ { m }
+a _ { m 1 } x _ { 1 } + a _ { m 2 } x _ { 2 } + \cdots + a _ { mn } x _ { n } = b _ { m }
 \end{array} \\
 a = \text { coefficient } \\
 x = \text { variable } \\
@@ -40,7 +40,7 @@ $$
 ### particular solution of system of linear equations formula
 $$
 \begin{aligned}
-y = ( y _ { 1 } , \dots , y _ { n } ) \iff \forall j \in \set { 1 , \dots , m } : \sum _ { i = 1 } ^ { n } a _ { j i } y _ { i } = b _ { j } \\
+y = ( y _ { 1 } , \dots , y _ { n } ) \iff \forall j \in \set { 1 , \dots , m } : \sum _ { i = 1 } ^ { n } a _ { ji } y _ { i } = b _ { j } \\
 m = \text { number of linear equations } \\
 n = \text { number of variables } \\
 a = \text { coefficient } \\
@@ -57,7 +57,7 @@ $$
 ### complete solution of system of linear equations formula
 $$
 \begin{aligned}
-Y = \{ ( y _ { 1 } , \dots , y _ { n } ) \in \mathbb R ^ { n } \mid \forall j \in \set { 1 , \dots , m } : \sum _ { i = 1 } ^ { n } a _ { j i } y _ { i } = b _ { j } \} \\
+Y = \{ ( y _ { 1 } , \dots , y _ { n } ) \in \mathbb R ^ { n } \mid \forall j \in \set { 1 , \dots , m } : \sum _ { i = 1 } ^ { n } a _ { ji } y _ { i } = b _ { j } \} \\
 Y = \text { complete solution set } \\
 m = \text { number of linear equations } \\
 n = \text { number of variables } \\
@@ -79,7 +79,7 @@ A = \begin{bmatrix}
 a _ { 11 } & a _ { 12 } & \cdots & a _ { 1 n } \\
 a _ { 21 } & a _ { 22 } & \cdots & a _ { 2 n } \\
 \vdots & \vdots & \ddots & \vdots \\
-a _ { m 1 } & a _ { m 2 } & \cdots & a _ { m n } \\
+a _ { m 1 } & a _ { m 2 } & \cdots & a _ { mn } \\
 \end{bmatrix} \\
 | A | = m \times n \\
 a = \text { coefficient } \\
@@ -139,7 +139,7 @@ A X = B \\
 a _ { 11 } & a _ { 12 } & \cdots & a _ { 1 n } \\
 a _ { 21 } & a _ { 22 } & \cdots & a _ { 2 n } \\
 \vdots & \vdots & \ddots & \vdots \\
-a _ { m 1 } & a _ { m 2 } & \cdots & a _ { m n } \\
+a _ { m 1 } & a _ { m 2 } & \cdots & a _ { mn } \\
 \end{bmatrix} \begin{bmatrix}
 x _ { 1 } \\
 x _ { 2 } \\
@@ -169,7 +169,7 @@ A \mid B = \left [ \begin{array} { c c c c | c }
 a _ { 11 } & a _ { 12 } & \cdots & a _ { 1 n } & b _ { 1 } \\
 a _ { 21 } & a _ { 22 } & \cdots & a _ { 2 n } & b _ { 2 } \\
 \vdots & \vdots & \ddots & \vdots & \vdots \\
-a _ { m 1 } & a _ { m 2 } & \cdots & a _ { m n } & b _ { m }
+a _ { m 1 } & a _ { m 2 } & \cdots & a _ { mn } & b _ { m }
 \end{array} \right ]
 \end{aligned}
 $$
@@ -186,7 +186,7 @@ A \mid B \mid B ' = \left [ \begin{array} { c c c c | c | c }
 a _ { 11 } & a _ { 12 } & \cdots & a _ { 1 n } & b _ { 1 } & b _ { 1 } ' \\
 a _ { 21 } & a _ { 22 } & \cdots & a _ { 2 n } & b _ { 2 } & b _ { 2 } ' \\
 \vdots & \vdots & \ddots & \vdots & \vdots & \vdots \\
-a _ { m 1 } & a _ { m 2 } & \cdots & a _ { m n } & b _ { m } & b _ { m } '
+a _ { m 1 } & a _ { m 2 } & \cdots & a _ { mn } & b _ { m } & b _ { m } '
 \end{array} \right ]
 \end{aligned}
 $$

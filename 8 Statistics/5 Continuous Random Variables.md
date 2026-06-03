@@ -300,7 +300,7 @@ $$
 ### F PDF probability formula
 $$
 \begin{aligned}
-f ( x ) = \frac { x ^ { 0.5 d _ { 1 } - 1 } \Gamma ( \frac { d _ { 1 } + d _ { 2 } } { 2 } ) ( \frac { d _ { 1 } } { d _ { 2 } } ) ^ { 0.5 d _ { 1 } }
+f ( x ) = \frac { x ^ { 0.5 d _ { 1 } - 1 } \Gamma ( \frac { d _ { 1 } + d _ { 2 } } { 2 } ) ( \frac { d _ { 1 } } { d _ { 2 } } ) ^ { 0.5 d _ { 1 } } }
 }
 { \Gamma ( \frac { d _ { 1 } } { 2 } ) \Gamma ( \frac { d _ { 2 } } { 2 } ) ( 1 + \frac { d _ { 1 } } { d _ { 2 } } x ) ^ { \frac { - d _ { 1 } - d _ { 2 } } { 2 } } } \\
 x = \text { F-statistic } \\

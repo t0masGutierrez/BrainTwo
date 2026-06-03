@@ -5,8 +5,8 @@
 ### dynamical system formula
 $$
 \begin{aligned}
-\frac { d x } { d t } = f ( x , y , c _ { 1 } , \dots , c _ { n } ) \\
-\frac { d y } { d t } = g ( x , y , c _ { 1 } , \dots , c _ { n } ) \\
+\frac { dx } { dt } = f ( x , y , c _ { 1 } , \dots , c _ { n } ) \\
+\frac { dy } { dt } = g ( x , y , c _ { 1 } , \dots , c _ { n } ) \\
 x ( t = 0 ) = x _ { 0 } \\
 y ( t = 0 ) = y _ { 0 } \\
 t \ge 0 \\
@@ -26,8 +26,8 @@ $$
 ### time view formula
 $$
 \begin{aligned}
-\frac { d x } { d t } = f ( x , y ) \\
-\frac { d y } { d t } = g ( x , y ) \\
+\frac { dx } { dt } = f ( x , y ) \\
+\frac { dy } { dt } = g ( x , y ) \\
 f , g = \text { slope }
 \end{aligned}
 $$
@@ -55,8 +55,8 @@ $$
 ### solvability property formula
 $$
 \begin{aligned}
-\forall ( x _ { 0 } , y _ { 0 } ) \in \mathbb R , \exists t \in ( T _ { 0 } , T _ { 1 } ) : ( x , y ) ( t ) \in D = \{ ( x , y ) \in \mathbb R | \exists ! ( \frac { d x } { d t } , \frac { d y } { d t } ) \} \\
-( t \le T _ { 0 } ) \lor ( t \ge T _ { 1 } ) \implies ( x , y ) ( t ) \not \in D = \{ ( x , y ) \in \mathbb R | \exists ! ( \frac { d x } { d t } , \frac { d y } { d t } ) \} \\
+\forall ( x _ { 0 } , y _ { 0 } ) \in \mathbb R , \exists t \in ( T _ { 0 } , T _ { 1 } ) : ( x , y ) ( t ) \in D = \{ ( x , y ) \in \mathbb R | \exists ! ( \frac { dx } { dt } , \frac { dy } { dt } ) \} \\
+( t \le T _ { 0 } ) \lor ( t \ge T _ { 1 } ) \implies ( x , y ) ( t ) \not \in D = \{ ( x , y ) \in \mathbb R | \exists ! ( \frac { dx } { dt } , \frac { dy } { dt } ) \} \\
 ( x _ { 0 } , y _ { 0 } ) \ne ( \hat x _ { 0 } , \hat y _ { 0 } ) \implies \forall t \in ( T _ { 0 } , T _ { 1 } ) : ( x , y ) ( t ) \ne ( \hat x , \hat y ) ( t )
 \end{aligned}
 $$
@@ -70,8 +70,8 @@ $$
 ### vector field formula
 $$
 \begin{aligned}
-v ( t ) = \{ ( \frac { d x } { d t } , \frac { d y } { d t } ) | x , y \in D \} \\
-\frac { d x } { d t } , \frac { d y } { d t } = \text { velocity } \\
+v ( t ) = \{ ( \frac { dx } { dt } , \frac { dy } { dt } ) | x , y \in D \} \\
+\frac { dx } { dt } , \frac { dy } { dt } = \text { velocity } \\
 D = \text { domain }
 \end{aligned}
 $$
@@ -100,11 +100,11 @@ $$
 ### nullcline curve formula
 $$
 \begin{aligned}
-F ( x , y ) = \{ ( x , y ) | \frac { d x } { d t } = 0 \} \\
-G ( x , y ) = \{ ( x , y ) | \frac { d y } { d t } = 0 \} \\
+F ( x , y ) = \{ ( x , y ) | \frac { dx } { dt } = 0 \} \\
+G ( x , y ) = \{ ( x , y ) | \frac { dy } { dt } = 0 \} \\
 x , y = \text { solution } \\
 t = \text { time } \\
-\frac { d x } { d t } , \frac { d y } { d t } = \text { velocity }
+\frac { dx } { dt } , \frac { dy } { dt } = \text { velocity }
 \end{aligned}
 $$
 
@@ -116,7 +116,7 @@ $$
 ### path equation formula
 $$
 \begin{aligned}
-\frac { d y } { d x } = \frac { g ( x , y ) } { f ( x , y ) } \\
+\frac { dy } { dx } = \frac { g ( x , y ) } { f ( x , y ) } \\
 x , y = \text { solution } \\
 f , g = \text { velocity }
 \end{aligned}
@@ -130,7 +130,7 @@ $$
 ### first integral formula
 $$
 \begin{aligned}
-\forall ( x , y ) \in D : \frac { d E } { d t } ( x , y ) ( t ) = 0 \implies E ( x , y ) ( t ) = C \\
+\forall ( x , y ) \in D : \frac { dE } { dt } ( x , y ) ( t ) = 0 \implies E ( x , y ) ( t ) = C \\
 \frac { \partial } { \partial x } ( \phi f ) = \frac { \partial } { \partial y } ( - \phi g ) \implies ( \frac { \partial E } { \partial x } = - \phi g ) \land ( \frac { \partial E } { \partial y } = \phi f ) \\
 x , y = \text { solution } \\
 t = \text { time } \\
@@ -315,7 +315,7 @@ $$
 $$
 \begin{aligned}
 f ( a x + b y ) = a f ( x ) + b f ( y ) \\
-\exists A \in \mathcal M : \frac { d v } { d t } = A v \\
+\exists A \in \mathcal M : \frac { dv } { dt } = A v \\
 f ( 0 ) = 0
 \end{aligned}
 $$
@@ -328,7 +328,7 @@ $$
 ### linear system formula
 $$
 \begin{aligned}
-( \frac { d x } { d t } = a x + b y ) \land ( \frac { d y } { d t } = c x + d y ) \implies \frac { d v } { d t } = A v \\
+( \frac { dx } { dt } = a x + b y ) \land ( \frac { dy } { dt } = c x + d y ) \implies \frac { dv } { dt } = A v \\
 A = \begin{bmatrix}
 a & b \\
 c & d \\

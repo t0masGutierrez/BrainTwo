@@ -71,7 +71,7 @@ $$
 ### newton 2nd rotational formula
 $$
 \begin{aligned}
-\vec \tau _ { n e t } = I \vec \alpha \\
+\vec \tau _ { net } = I \vec \alpha \\
 I = \text { moment of inertia } \\
 \vec \alpha = \text { angular acceleration }
 \end{aligned}
@@ -111,7 +111,7 @@ $$
 ### net rotational work formula
 $$
 \begin{aligned}
-W _ { n e t } = \frac { 1 } { 2 } I ( \omega _ { f } ^ { 2 } - \omega _ { i } ^ { 2 } ) \\
+W _ { net } = \frac { 1 } { 2 } I ( \omega _ { f } ^ { 2 } - \omega _ { i } ^ { 2 } ) \\
 I = \text { moment of inertia } \\
 \omega = \text { angular velocity }
 \end{aligned}
@@ -141,7 +141,7 @@ $$
 ### rolling kinetic energy formula
 $$
 \begin{aligned}
-K = \frac { 1 } { 2 } M v _ { c m } ^ { 2 } + \frac { 1 } { 2 } I _ { c m } \omega ^ { 2 } \\
+K = \frac { 1 } { 2 } M v _ { cm } ^ { 2 } + \frac { 1 } { 2 } I _ { cm } \omega ^ { 2 } \\
 M = \text { system mass } \\
 v = \text { velocity } \\
 I = \text { moment of inertia } \\
@@ -159,9 +159,9 @@ $$
 ### rolling without slipping formula
 $$
 \begin{aligned}
-d _ { c m } = r \theta \\
-v _ { c m } = r \omega \\
-a _ { c m } = r \alpha \\
+d _ { cm } = r \theta \\
+v _ { cm } = r \omega \\
+a _ { cm } = r \alpha \\
 r = \text { radius } \\
 \theta = \text { angular position } \\
 \omega = \text { angular velocity } \\
@@ -178,9 +178,9 @@ $$
 ### rolling with slipping formula
 $$
 \begin{aligned}
-d = d _ { c m } - r \theta \\
-v = v _ { c m } - r \omega \\
-a = a _ { c m } - r \alpha \\
+d = d _ { cm } - r \theta \\
+v = v _ { cm } - r \omega \\
+a = a _ { cm } - r \alpha \\
 d = \text { distance } \\
 r = \text { radius } \\
 \theta = \text { angular position } \\
@@ -231,7 +231,7 @@ $$
 ### newtons second angular momentum formula
 $$
 \begin{aligned}
-\vec \tau _ { n e t } = \frac { d \vec L } { d t } \\
+\vec \tau _ { net } = \frac { d \vec L } { dt } \\
 \vec L = \text { angular momentum } \\
 t = \text { time }
 \end{aligned}
@@ -246,7 +246,7 @@ $$
 ### constant angular impulse formula
 $$
 \begin{aligned}
-\vec H = \Delta \vec L = \vec \tau _ { n e t } \Delta t \\
+\vec H = \Delta \vec L = \vec \tau _ { net } \Delta t \\
 \vec L = \text { angular momentum } \\
 \vec \tau = \text { torque } \\
 t = \text { time }
@@ -257,7 +257,7 @@ $$
 ### variable angular impulse formula
 $$
 \begin{aligned}
-\vec H = \Delta \vec L = \int \vec \tau _ { n e t } \cdot d t \\
+\vec H = \Delta \vec L = \int \vec \tau _ { net } \cdot d t \\
 \vec L = \text { angular momentum } \\
 \vec \tau = \text { torque } \\
 t = \text { time }
@@ -272,7 +272,7 @@ $$
 ### conservation of angular momentum formula
 $$
 \begin{aligned}
-\vec \tau _ { n e t } = 0 \implies \vec L _ { i } = \vec L _ { f } \\
+\vec \tau _ { net } = 0 \implies \vec L _ { i } = \vec L _ { f } \\
 \vec \tau = \text { torque } \\
 \vec L = \text { angular momentum }
 \end{aligned}
@@ -287,7 +287,7 @@ $$
 ### precession formula
 $$
 \begin{aligned}
-\Omega = \frac { w r } { I \omega } \\
+\Omega = \frac { wr } { I \omega } \\
 w = \text { weight } \\
 r = \text { radius } \\
 I = \text { moment of inertia } \\
@@ -316,7 +316,7 @@ $$
 ### dynamic equilibrium formula
 $$
 \begin{aligned}
-\frac { d \vec v } { d t } = 0 \\
+\frac { d \vec v } { dt } = 0 \\
 \vec v = \text { velocity } \\
 t = \text { time }
 \end{aligned}
@@ -330,7 +330,7 @@ $$
 ### translational equilibrium formula
 $$
 \begin{aligned}
-\vec F _ { n e t } = 0 \\
+\vec F _ { net } = 0 \\
 \vec F = \text { force }
 \end{aligned}
 $$
@@ -343,7 +343,7 @@ $$
 ### rotational equilibrium formula
 $$
 \begin{aligned}
-\vec \tau _ { n e t } = 0 \\
+\vec \tau _ { net } = 0 \\
 \vec \tau = \text { torque }
 \end{aligned}
 $$
@@ -357,7 +357,7 @@ $$
 ### center of gravity formula
 $$
 \begin{aligned}
-\vec r _ { c g } = \frac { \sum _ { n } m _ { n } \vec r _ { n } } { M } \\
+\vec r _ { cg } = \frac { \sum _ { n } m _ { n } \vec r _ { n } } { M } \\
 m = \text { mass } \\
 \vec r = \text { position } \\
 M = \text { system mass }
@@ -373,7 +373,7 @@ $$
 ### center of uniform gravity property formula
 $$
 \begin{aligned}
-\vec g ( \vec r ) = \vec g _ { 0 } \implies \vec r _ { c g } = \vec r _ { c m } \\
+\vec g ( \vec r ) = \vec g _ { 0 } \implies \vec r _ { cg } = \vec r _ { cm } \\
 \vec g = \text { gravity } \\
 \vec r = \text { position }
 \end{aligned}
@@ -388,7 +388,7 @@ $$
 ### area of support formula
 $$
 \begin{aligned}
-\vec r _ { c g } \not \in A \implies \downarrow \\
+\vec r _ { cg } \not \in A \implies \downarrow \\
 \vec r = \text { position } \\
 A = \text { area }
 \end{aligned}

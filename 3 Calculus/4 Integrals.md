@@ -390,7 +390,7 @@ $$
 ### fundamental formula of calculus
 $$
 \begin{aligned}
-\frac { d } { d x } \int _ { a } ^ { u } f ( t ) d t = f ( u ) \frac { d u } { d x } \\
+\frac { d } { dx } \int _ { a } ^ { u } f ( t ) d t = f ( u ) \frac { du } { dx } \\
 u = \text { variable function endpoint }
 \end{aligned}
 $$
@@ -399,7 +399,7 @@ $$
 ### chain rule
 $$
 \begin{aligned}
-\frac { d F } { d x } = \frac { d F } { d u } \times \frac { d u } { d x }
+\frac { dF } { dx } = \frac { dF } { du } \times \frac { du } { dx }
 \end{aligned}
 $$
 

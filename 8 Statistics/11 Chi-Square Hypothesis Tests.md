@@ -61,9 +61,9 @@ $$
 ### independence chi-square-score formula
 $$
 \begin{aligned}
-\chi ^ { 2 } = \sum _ { i = 1 } ^ { r } \sum _ { j = 1 } ^ { c } \frac { ( O _ { i j } - E _ { i j } ) ^ { 2 } } { E _ { i j } } \\
+\chi ^ { 2 } = \sum _ { i = 1 } ^ { r } \sum _ { j = 1 } ^ { c } \frac { ( O _ { ij } - E _ { ij } ) ^ { 2 } } { E _ { ij } } \\
 d f = ( r - 1 ) ( c - 1 ) \\
-E = \frac { r c } { r + c } \\
+E = \frac { rc } { r + c } \\
 k = \text { number of categories } \\
 O = \text { observed counts } \\
 E = \text { expected counts } \\

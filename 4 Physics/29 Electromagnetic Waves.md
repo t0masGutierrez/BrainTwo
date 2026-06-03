@@ -96,7 +96,7 @@ $$
 ### average energy density formula
 $$
 \begin{aligned}
-u _ { a v g } = \frac { \epsilon _ { 0 } E _ { 0 } ^ { 2 } } { 2 } = \frac { B _ { 0 } ^ { 2 } } { 2 \mu _ { 0 } } \\
+u _ { avg } = \frac { \epsilon _ { 0 } E _ { 0 } ^ { 2 } } { 2 } = \frac { B _ { 0 } ^ { 2 } } { 2 \mu _ { 0 } } \\
 \epsilon _ { 0 } = 8.85 \times 10 ^ { - 12 } \\
 E = \text { electric field } \\
 B = \text { magnetic field } \\
@@ -125,7 +125,7 @@ $$
 ### average poynting formula
 $$
 \begin{aligned}
-S _ { a v g } = c ( \frac { \epsilon _ { 0 } E _ { 0 } ^ { 2 } } { 2 } ) = c ( \frac { B _ { 0 } ^ { 2 } } { 2 \mu _ { 0 } } ) \\
+S _ { avg } = c ( \frac { \epsilon _ { 0 } E _ { 0 } ^ { 2 } } { 2 } ) = c ( \frac { B _ { 0 } ^ { 2 } } { 2 \mu _ { 0 } } ) \\
 c = 3 \times 10 ^ { 8 } \\
 u = \text { energy density } \\
 \epsilon _ { 0 } = 8.85 \times 10 ^ { - 12 } \\
@@ -170,7 +170,7 @@ $$
 ### intensity formula
 $$
 \begin{aligned}
-I = \frac { P } { A } = S _ { a v g } \\
+I = \frac { P } { A } = S _ { avg } \\
 P = \text { power } \\
 A = \text { area } \\
 S = \text { poynting }
@@ -205,7 +205,7 @@ $$
 ### radiation pressure absorption formula
 $$
 \begin{aligned}
-p _ { r a d } = \frac { F _ { \perp } } { A } = \frac { I } { c } \\
+p _ { rad } = \frac { F _ { \perp } } { A } = \frac { I } { c } \\
 F = \text { force } \\
 A = \text { area } \\
 I = \text { intensity } \\
@@ -217,7 +217,7 @@ $$
 ### radiation pressure reflection formula
 $$
 \begin{aligned}
-p _ { r a d } = \frac { F _ { \perp } } { A } = \frac { 2 I } { c } \\
+p _ { rad } = \frac { F _ { \perp } } { A } = \frac { 2 I } { c } \\
 F = \text { force } \\
 A = \text { area } \\
 I = \text { intensity } \\
@@ -292,7 +292,7 @@ $$
 ### resonant frequency formula
 $$
 \begin{aligned}
-f _ { n } = \frac { n v } { 2 L } \\
+f _ { n } = \frac { nv } { 2 L } \\
 n = \text { harmonic number } \\
 v = \text { wave velocity } \\
 L = \text { length }

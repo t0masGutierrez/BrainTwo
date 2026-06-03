@@ -53,13 +53,13 @@ $$
 
 ---
 ### gauss law
-- electric flux directly proportional net electric charge inside gaussian surface 
+- electric flux directly proportional net electric charge inside gaussian surface
 
 ---
 ### gauss formula
 $$
 \begin{aligned}
-\pm \Phi = \oint _ { A _ { 1 } } ^ { A _ { 2 } } \vec E \cdot d \vec A = \frac { \pm Q _ { e n c } } { \epsilon _ { 0 } } \\
+\pm \Phi = \oint _ { A _ { 1 } } ^ { A _ { 2 } } \vec E \cdot d \vec A = \frac { \pm Q _ { enc } } { \epsilon _ { 0 } } \\
 E = \text { electric field } \\
 A = \text { area } \\
 Q = \text { electric charge } \\
@@ -73,8 +73,8 @@ $$
 - compute vector components of electric field parallel area
 - uniform electric charge density equal total electric charge
 - non uniform electric charge density equal differential electric charge
-- uniform electric charge distribution equal $Q \frac { V _ { e n c } } { V }$ 
-- non uniform electric charge distribution equal $\int \rho \cdot 4 \pi r ^ { 2 } d r$ 
+- uniform electric charge distribution equal $Q \frac { V _ { enc } } { V }$
+- non uniform electric charge distribution equal $\int \rho \cdot 4 \pi r ^ { 2 } d r$
 
 ---
 ### gaussian surface
@@ -91,7 +91,7 @@ $$
 ### symmetrical electric charge distribution formula
 $$
 \begin{aligned}
-E = \frac { Q _ { e n c } } { \epsilon _ { 0 } A } \\
+E = \frac { Q _ { enc } } { \epsilon _ { 0 } A } \\
 Q = \text { electric charge } \\
 \epsilon _ { 0 } = 8.85 \times 10 ^ { - 12 } \\
 A = \text { area }
@@ -107,7 +107,7 @@ $$
 ### spherical electric charge distribution formula
 $$
 \begin{aligned}
-E = \frac { Q _ { e n c } } { 4 \pi \epsilon _ { 0 } r ^ { 2 } } \\
+E = \frac { Q _ { enc } } { 4 \pi \epsilon _ { 0 } r ^ { 2 } } \\
 Q = \text { electric charge } \\
 \epsilon _ { 0 } = 8.85 \times 10 ^ { - 12 } \\
 r = \text { distance }
@@ -123,7 +123,7 @@ $$
 ### cylindrical electric charge distribution formula
 $$
 \begin{aligned}
-E = \frac { \lambda _ { e n c } } { 2 \pi \epsilon _ { 0 } r } \\
+E = \frac { \lambda _ { enc } } { 2 \pi \epsilon _ { 0 } r } \\
 \lambda = \text { linear density } \\
 \epsilon _ { 0 } = 8.85 \times 10 ^ { - 12 } \\
 r = \text { distance }
@@ -139,7 +139,7 @@ $$
 ### planar electric charge distribution formula
 $$
 \begin{aligned}
-E = \frac { \sigma _ { e n c } } { 2 \epsilon _ { 0 } } \\
+E = \frac { \sigma _ { enc } } { 2 \epsilon _ { 0 } } \\
 \sigma = \text { surface density } \\
 \epsilon _ { 0 } = 8.85 \times 10 ^ { - 12 } \\
 \end{aligned}
@@ -154,7 +154,7 @@ $$
 ### parallel planar electric charge distribution formula
 $$
 \begin{aligned}
-E = \frac { \sigma _ { e n c } } { \epsilon _ { 0 } } \\
+E = \frac { \sigma _ { enc } } { \epsilon _ { 0 } } \\
 \sigma = \text { surface density } \\
 \epsilon _ { 0 } = 8.85 \times 10 ^ { - 12 } \\
 \end{aligned}

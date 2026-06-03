@@ -5,7 +5,7 @@
 ### matrix multiplication formula
 $$
 \begin{aligned}
-c _ { i j } = \sum _ { k } ^ { n } a _ { i k } b _ { k j } = \vec a _ { i } \cdot \vec b _ { j } \\
+c _ { ij } = \sum _ { k } ^ { n } a _ { ik } b _ { kj } = \vec a _ { i } \cdot \vec b _ { j } \\
 a , b = \text { entry } \\
 i = \text { A row index } \\
 k = \text { A column index } \\
@@ -16,7 +16,7 @@ $$
 
 ---
 ### ith row
-- $i ^ { t h }$ row of $A B$ equal $i ^ { t h }$ row of $A$ multiplication with $B$ 
+- $i ^ { th }$ row of $A B$ equal $i ^ { th }$ row of $A$ multiplication with $B$
 
 ---
 ### ith row formula
@@ -30,7 +30,7 @@ $$
 
 ---
 ### jth column
-- $j ^ { t h }$ column of $A B$ equal $j ^ { t h }$ column of $B$ multiplication with $A$ 
+- $j ^ { th }$ column of $A B$ equal $j ^ { th }$ column of $B$ multiplication with $A$
 
 ---
 ### jth column formula
@@ -57,7 +57,7 @@ $$
 
 ---
 ### matrix size property
-- number of columns of $A$ must equal number of rows of $B$ 
+- number of columns of $A$ must equal number of rows of $B$
 
 ---
 ### matrix size property formula
@@ -101,7 +101,7 @@ $$
 $$
 \begin{aligned}
 A ^ { k } = ( A ^ { k - 1 } ) ( A ) \\
-( A ^ { s } ) ^ { t } = A ^ { s t } = ( A ^ { t } ) ^ { s } \\
+( A ^ { s } ) ^ { t } = A ^ { st } = ( A ^ { t } ) ^ { s } \\
 A ^ { s } A ^ { t } = A ^ { s + t } \\
 A ^ { 1 } = A \\
 A ^ { 0 } = I

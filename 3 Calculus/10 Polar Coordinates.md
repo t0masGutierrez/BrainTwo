@@ -72,7 +72,7 @@ $$
 ### derivative formula
 $$
 \begin{aligned}
-\frac { d y } { d x } = \frac { f ' ( \theta ) \sin ( \theta ) + f ( \theta ) \cos ( \theta ) } { f ' ( \theta ) \cos ( \theta ) - f ( \theta ) \sin ( \theta ) }
+\frac { dy } { dx } = \frac { f ' ( \theta ) \sin ( \theta ) + f ( \theta ) \cos ( \theta ) } { f ' ( \theta ) \cos ( \theta ) - f ( \theta ) \sin ( \theta ) }
 \end{aligned}
 $$
 
@@ -97,7 +97,7 @@ $$
 ### polar arc length formula
 $$
 \begin{aligned}
-\int _ { \theta _ { 1 } } ^ { \theta _ { 2 } } \sqrt { r ^ { 2 } + ( \frac { d r } { d \theta } ) ^ { 2 } } d \theta
+\int _ { \theta _ { 1 } } ^ { \theta _ { 2 } } \sqrt { r ^ { 2 } + ( \frac { dr } { d \theta } ) ^ { 2 } } d \theta
 \end{aligned}
 $$
 
@@ -109,8 +109,8 @@ $$
 ### polar surface area formula
 $$
 \begin{aligned}
-y = 2 \pi \int _ { \theta _ { 1 } } ^ { \theta _ { 2 } } r \sin ( \theta ) \sqrt { r ^ { 2 } + ( \frac { d r } { d \theta } ) ^ { 2 } } d \theta \\
-x = 2 \pi \int _ { \theta _ { 1 } } ^ { \theta _ { 2 } } r \cos ( \theta ) \sqrt { r ^ { 2 } + ( \frac { d r } { d \theta } ) ^ { 2 } } d \theta \\
+y = 2 \pi \int _ { \theta _ { 1 } } ^ { \theta _ { 2 } } r \sin ( \theta ) \sqrt { r ^ { 2 } + ( \frac { dr } { d \theta } ) ^ { 2 } } d \theta \\
+x = 2 \pi \int _ { \theta _ { 1 } } ^ { \theta _ { 2 } } r \cos ( \theta ) \sqrt { r ^ { 2 } + ( \frac { dr } { d \theta } ) ^ { 2 } } d \theta \\
 \end{aligned}
 $$
 

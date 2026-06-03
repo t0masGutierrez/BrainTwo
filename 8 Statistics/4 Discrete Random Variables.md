@@ -95,7 +95,7 @@ $$
 ### bernoulli PMF standard deviation formula
 $$
 \begin{aligned}
-\sigma = \sqrt { p q } \\
+\sigma = \sqrt { pq } \\
 p = \text { probability of success } \\
 q = \text { probability of failure }
 \end{aligned}
@@ -139,7 +139,7 @@ $$
 ### binomial PMF standard deviation formula
 $$
 \begin{aligned}
-\sigma = \sqrt { n p q } \\
+\sigma = \sqrt { npq } \\
 n = \text { number of successes } \\
 p = \text { probability of success } \\
 q = \text { probability of failure }
@@ -178,7 +178,7 @@ $$
 $$
 \begin{aligned}
 \mu _ { 1 } = \frac { r } { p } \\
-\mu _ { 2 } = \frac { r q } { p } \\
+\mu _ { 2 } = \frac { rq } { p } \\
 r = \text { success number } \\
 p = \text { probability of success } \\
 q = \text { probability of failure }
@@ -189,7 +189,7 @@ $$
 ### negative binomial PMF standard deviation formula
 $$
 \begin{aligned}
-\sigma = \sqrt \frac { r q } { p ^ { 2 } } \\
+\sigma = \sqrt \frac { rq } { p ^ { 2 } } \\
 r = \text { success number } \\
 q = \text { probability of failure } \\
 p = \text { probability of success }
@@ -270,7 +270,7 @@ $$
 ### hypergeometric PMF mean formula 
 $$
 \begin{aligned}
-\mu = \frac { n K } { N } \\
+\mu = \frac { nK } { N } \\
 n = \text { number of items drawn } \\
 K = \text { interest group size } \\
 N = \text { population size }
@@ -281,7 +281,7 @@ $$
 ### hypergeometric PMF standard deviation formula
 $$
 \begin{aligned}
-\sigma = \sqrt { ( \frac { n K } { N } ) ( 1 - \frac { K } { N } ) ( \frac { N - n } { N - 1 } ) } \\
+\sigma = \sqrt { ( \frac { nK } { N } ) ( 1 - \frac { K } { N } ) ( \frac { N - n } { N - 1 } ) } \\
 n = \text { number of items drawn } \\
 K = \text { interest group size } \\
 N = \text { population size }

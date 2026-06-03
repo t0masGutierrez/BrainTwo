@@ -67,13 +67,13 @@ $$
 
 ---
 ### calculate gravitational potential energy
-- $\sum U _ { g } = - G \sum _ { i j } \frac { m _ { i } m _ { j } } { r _ { i j } }$ 
-- $U _ { g } = - G ( \frac { m _ { 1 } m _ { 2 } } { r _ { 12 } } + \frac { m _ { 1 } m _ { 3 } } { r _ { 13 } } + \frac { m _ { 1 } m _ { 4 } } { r _ { 14 } } + \frac { m _ { 2 } m _ { 3 } } { r _ { 23 } } + \frac { m _ { 2 } m _ { 4 } } { r _ { 24 } } + \frac { m _ { 3 } m _ { 4 } } { r _ { 34 } } )$ 
+- $\sum U _ { g } = - G \sum _ { ij } \frac { m _ { i } m _ { j } } { r _ { ij } }$
+- $U _ { g } = - G ( \frac { m _ { 1 } m _ { 2 } } { r _ { 12 } } + \frac { m _ { 1 } m _ { 3 } } { r _ { 13 } } + \frac { m _ { 1 } m _ { 4 } } { r _ { 14 } } + \frac { m _ { 2 } m _ { 3 } } { r _ { 23 } } + \frac { m _ { 2 } m _ { 4 } } { r _ { 24 } } + \frac { m _ { 3 } m _ { 4 } } { r _ { 34 } } )$
 
 ---
-### calculate moving gravitational potential energy 
-- $\sum U _ { g } = - G m \sum _ { i } \frac { m _ { i } } { r _ { i } }$ 
-- $U _ { g } = - G m ( \frac { m _ { 1 } } { r _ { 1 } } + \frac { m _ { 2 } } { r _ { 2 } } + \frac { m _ { 3 } } { r _ { 3 } } )$ 
+### calculate moving gravitational potential energy
+- $\sum U _ { g } = - G m \sum _ { i } \frac { m _ { i } } { r _ { i } }$
+- $U _ { g } = - G m ( \frac { m _ { 1 } } { r _ { 1 } } + \frac { m _ { 2 } } { r _ { 2 } } + \frac { m _ { 3 } } { r _ { 3 } } )$
 
 ---
 ### energy conservation
@@ -84,7 +84,7 @@ $$
 $$
 \begin{aligned}
 \frac { 1 } { 2 } m v _ { 1 } ^ { 2 } + \frac { - G M m } { r _ { 1 } } = \frac { 1 } { 2 } m v _ { 2 } ^ { 2 } + \frac { - G M m } { r _ { 2 } } \\
-\frac { 1 } { 2 } m v _ { 2 } ^ { 2 } - \frac { 1 } { 2 } m v _ { 1 } ^ { 2 } = \frac { G M m } { r _ { 1 } } - \frac { G M m } { r _ { 2 } } \\
+\frac { 1 } { 2 } m v _ { 2 } ^ { 2 } - \frac { 1 } { 2 } m v _ { 1 } ^ { 2 } = \frac { GMm } { r _ { 1 } } - \frac { GMm } { r _ { 2 } } \\
 m = \text { mass } \\
 v = \text { velocity } \\
 G = 6.67 \times 10 ^ { - 11 } \\
@@ -119,7 +119,7 @@ $$
 ### circular orbit velocity formula
 $$
 \begin{aligned}
-v = \sqrt { \frac { G m } { r } } \\
+v = \sqrt { \frac { Gm } { r } } \\
 G = 6.67 \times 10 ^ { - 11 } \\
 m = \text { mass } \\
 r = \text { distance }
@@ -130,7 +130,7 @@ $$
 ### circular orbit period formula
 $$
 \begin{aligned}
-T = 2 \pi \sqrt { \frac { r ^ { 3 } } { G m } } \\
+T = 2 \pi \sqrt { \frac { r ^ { 3 } } { Gm } } \\
 r = \text { distance } \\
 G = 6.67 \times 10 ^ { - 11 } \\
 m = \text { mass }

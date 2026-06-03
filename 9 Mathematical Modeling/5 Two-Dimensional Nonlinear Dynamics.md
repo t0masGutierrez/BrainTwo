@@ -5,8 +5,8 @@
 ### dynamical system formula
 $$
 \begin{aligned}
-\frac { d x } { d t } = f ( x , y , c _ { 1 } , \dots , c _ { n } ) \\
-\frac { d y } { d t } = g ( x , y , c _ { 1 } , \dots , c _ { n } ) \\
+\frac { dx } { dt } = f ( x , y , c _ { 1 } , \dots , c _ { n } ) \\
+\frac { dy } { dt } = g ( x , y , c _ { 1 } , \dots , c _ { n } ) \\
 x ( t = 0 ) = x _ { 0 } \\
 y ( t = 0 ) = y _ { 0 } \\
 t \ge 0 \\
@@ -59,7 +59,7 @@ $$
 ### linearization formula
 $$
 \begin{aligned}
-\frac { d v } { d t } = A _ { * } v + R \\
+\frac { dv } { dt } = A _ { * } v + R \\
 A _ { * } = \begin{bmatrix}
 \frac { \partial f } { \partial x } ( v _ { * } ) & \frac { \partial f } { \partial y } ( v _ { * } ) \\
 \frac { \partial g } { \partial x } ( v _ { * } ) & \frac { \partial g } { \partial y } ( v _ { * } )
@@ -188,7 +188,7 @@ $$
 ### nonlinear center property formula
 $$
 \begin{aligned}
-\frac { d E } { d t } ( v _ { * } ) = 0 \implies \exists \epsilon > 0 , \forall v \in N _ { \epsilon } ( v _ { * } ) , \forall t \ge 0 : v ( t + P ) = v ( t ) \\
+\frac { dE } { dt } ( v _ { * } ) = 0 \implies \exists \epsilon > 0 , \forall v \in N _ { \epsilon } ( v _ { * } ) , \forall t \ge 0 : v ( t + P ) = v ( t ) \\
 E = \text { first integral } \\
 v = \text { solution } \\
 t = \text { time } \\

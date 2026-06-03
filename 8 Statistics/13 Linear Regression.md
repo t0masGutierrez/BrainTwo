@@ -177,7 +177,7 @@ $$
 ### coefficient of determination
 $$
 \begin{aligned}
-R ^ { 2 } = \frac { S S R } { S S T } \\
+R ^ { 2 } = \frac { SSR } { SST } \\
 0 \le R ^ { 2 } \le 1 \\
 S S R = \text { explained variation } \\
 S S T = \text { total variation }
@@ -289,7 +289,7 @@ $$
 ### regression slope standard error formula
 $$
 \begin{aligned}
-S E ( b ) = \sqrt { \frac { S S E } { ( n - k - 1 ) ( 1 - R _ { i } ^ { 2 } ) \sum _ { i = 1 } ^ { n } ( x _ { i j } - \overline x _ { j } ) ^ { 2 } } } \\
+S E ( b ) = \sqrt { \frac { SSE } { ( n - k - 1 ) ( 1 - R _ { i } ^ { 2 } ) \sum _ { i = 1 } ^ { n } ( x _ { ij } - \overline x _ { j } ) ^ { 2 } } } \\
 S S E = \text { unexplained variation } \\
 n = \text { sample size } \\
 k = \text { number of independent variables } \\

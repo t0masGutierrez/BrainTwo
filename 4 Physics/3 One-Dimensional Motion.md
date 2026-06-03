@@ -48,7 +48,7 @@ $$
 ### average speed formula
 $$
 \begin{aligned}
-s _ { a v g } = \frac { d } { \Delta t } \\
+s _ { avg } = \frac { d } { \Delta t } \\
 d = \text { distance } \\
 t = \text { time }
 \end{aligned}
@@ -75,7 +75,7 @@ $$
 ### average velocity formula
 $$
 \begin{aligned}
-v _ { a v g } = \frac { \Delta x } { \Delta t } \\
+v _ { avg } = \frac { \Delta x } { \Delta t } \\
 x = \text { position } \\
 t = \text { time }
 \end{aligned}
@@ -90,7 +90,7 @@ $$
 ### instantaneous velocity formula
 $$
 \begin{aligned}
-v = \frac { d x } { d t } = v _ { 0 } + \int a \cdot d t \\
+v = \frac { dx } { dt } = v _ { 0 } + \int a \cdot d t \\
 x = \text { position } \\
 t = \text { time } \\
 v = \text { velocity } \\
@@ -106,7 +106,7 @@ $$
 ### average acceleration formula
 $$
 \begin{aligned}
-a _ { a v g } = \frac { \Delta v } { \Delta t } \\
+a _ { avg } = \frac { \Delta v } { \Delta t } \\
 v = \text { velocity } \\
 t = \text { time }
 \end{aligned}
@@ -121,7 +121,7 @@ $$
 ### instantaneous acceleration formula
 $$
 \begin{aligned}
-a = \frac { d v } { d t } = \frac { d ^ { 2 } x } { d t ^ { 2 } } \\
+a = \frac { dv } { dt } = \frac { d ^ { 2 } x } { d t ^ { 2 } } \\
 v = \text { velocity } \\
 t = \text { time } \\
 x = \text { position }

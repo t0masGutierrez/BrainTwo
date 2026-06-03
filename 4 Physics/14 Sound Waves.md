@@ -28,7 +28,7 @@
 ### average power formula
 $$
 \begin{aligned}
-P _ { a v g } = \frac { E } { t } \\
+P _ { avg } = \frac { E } { t } \\
 E = \text { energy } \\
 t = \text { time }
 \end{aligned}
@@ -231,7 +231,7 @@ $$
 ### asymmetric resonant frequency formula
 $$
 \begin{aligned}
-f _ { n } = \frac { n v } { 4 L } \\
+f _ { n } = \frac { nv } { 4 L } \\
 n = 1 , 3 , 5 , . . . \\
 v = \text { wave velocity } \\
 L = \text { length }

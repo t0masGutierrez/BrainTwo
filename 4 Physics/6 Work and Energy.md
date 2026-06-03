@@ -65,7 +65,7 @@ $$
 ### net work formula
 $$
 \begin{aligned}
-W _ { n e t } = K _ { f } - K _ { i } \\
+W _ { net } = K _ { f } - K _ { i } \\
 K = \text { kinetic energy }
 \end{aligned}
 $$
@@ -80,7 +80,7 @@ $$
 ### conservative force formula
 $$
 \begin{aligned}
-\vec F _ { c o n s } = - \nabla U \\
+\vec F _ { cons } = - \nabla U \\
 U = \text { potential energy }
 \end{aligned}
 $$
@@ -105,7 +105,7 @@ $$
 ### potential energy formula
 $$
 \begin{aligned}
-U = \int \vec F _ { c o n s } \cdot d \vec r \\
+U = \int \vec F _ { cons } \cdot d \vec r \\
 \vec F = \text { force } \\
 \vec r = \text { position }
 \end{aligned}
@@ -134,7 +134,7 @@ $$
 ### elastic potential energy formula
 $$
 \begin{aligned}
-U _ { e l } = \frac { 1 } { 2 } k x ^ { 2 } \\
+U _ { el } = \frac { 1 } { 2 } k x ^ { 2 } \\
 k = \text { spring constant } \\
 x = \text { displacement }
 \end{aligned}
@@ -162,7 +162,7 @@ $$
 ### conservative work formula
 $$
 \begin{aligned}
-W _ { c o n s } = U _ { i } - U _ { f } \\
+W _ { cons } = U _ { i } - U _ { f } \\
 U = \text { potential energy }
 \end{aligned}
 $$
@@ -175,7 +175,7 @@ $$
 ### nonconservative work formula
 $$
 \begin{aligned}
-E _ { i } + W _ { n o n c o n s } = E _ { f } \\
+E _ { i } + W _ { noncons } = E _ { f } \\
 E = \text { mechanical energy } \\
 W = \text { work }
 \end{aligned}
@@ -275,7 +275,7 @@ $$
 ### average power formula
 $$
 \begin{aligned}
-P _ { a v g } = \frac { W } { \Delta t } = \frac { \Delta E } { \Delta t } \\
+P _ { avg } = \frac { W } { \Delta t } = \frac { \Delta E } { \Delta t } \\
 W = \text { work } \\
 t = \text { time } \\
 E = \text { mechanical energy }
@@ -304,9 +304,9 @@ $$
 ### efficiency formula
 $$
 \begin{aligned}
-\varepsilon = \frac { P _ { o u t } } { P _ { i n } } \times 100 \\
-P _ { o u t } = \text { output power } \\
-P _ { i n } = \text { input power }
+\varepsilon = \frac { P _ { out } } { P _ { in } } \times 100 \\
+P _ { out } = \text { output power } \\
+P _ { in } = \text { input power }
 \end{aligned}
 $$
 

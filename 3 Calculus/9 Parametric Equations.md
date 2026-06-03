@@ -98,8 +98,8 @@ $$
 ### derivative formula
 $$
 \begin{aligned}
-\frac { d y } { d x } = \frac { d y / d t } { d x / d t } = \frac { g ' ( t ) } { f ' ( t ) } \\
-\frac { d ^ { 2 } y } { d x ^ { 2 } } = \frac { \frac { d } { d t } ( d y / d x ) } { d x / d t }
+\frac { dy } { dx } = \frac { d y / d t } { d x / d t } = \frac { g ' ( t ) } { f ' ( t ) } \\
+\frac { d ^ { 2 } y } { d x ^ { 2 } } = \frac { \frac { d } { dt } ( d y / d x ) } { d x / d t }
 \end{aligned}
 $$
 
@@ -126,7 +126,7 @@ $$
 ### arc length formula
 $$
 \begin{aligned}
-L = \int _ { a } ^ { b } \sqrt { ( \frac { d x } { d t } ) ^ { 2 } + ( \frac { d y } { d t } ) ^ { 2 } } d t
+L = \int _ { a } ^ { b } \sqrt { ( \frac { dx } { dt } ) ^ { 2 } + ( \frac { dy } { dt } ) ^ { 2 } } d t
 \end{aligned}
 $$
 
@@ -139,8 +139,8 @@ $$
 ### surface area formula
 $$
 \begin{aligned}
-y = 2 \pi \int _ { a } ^ { b } g ( t ) \sqrt { ( \frac { d x } { d t } ) ^ { 2 } + ( \frac { d y } { d t } ) ^ { 2 } } d t \\
-x = 2 \pi \int _ { a } ^ { b } f ( t ) \sqrt { ( \frac { d x } { d t } ) ^ { 2 } + ( \frac { d y } { d t } ) ^ { 2 } } d t
+y = 2 \pi \int _ { a } ^ { b } g ( t ) \sqrt { ( \frac { dx } { dt } ) ^ { 2 } + ( \frac { dy } { dt } ) ^ { 2 } } d t \\
+x = 2 \pi \int _ { a } ^ { b } f ( t ) \sqrt { ( \frac { dx } { dt } ) ^ { 2 } + ( \frac { dy } { dt } ) ^ { 2 } } d t
 \end{aligned}
 $$
 

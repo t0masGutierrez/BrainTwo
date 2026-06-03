@@ -40,7 +40,7 @@ $$
 \begin{aligned}
 \text { span } ( \{ \vec e _ { 1 } , \vec e _ { 2 } , \dots , \vec e _ { n } \} ) = \mathbb R ^ { n } \\
 \text { span } ( \{ 1 , x , x ^ { 2 } , \dots , x ^ { n } \} ) = \mathcal P _ { n } ( x ) \\
-\text { span } ( \psi _ { i j } ) = \mathcal M _ { m n } \\
+\text { span } ( \psi _ { ij } ) = \mathcal M _ { mn } \\
 \end{aligned}
 $$
 

@@ -98,7 +98,7 @@ $$
 
 ---
 ### small angle approximation
-- small angular position between central fringe and $m ^ { t h }$ fringe
+- small angular position between central fringe and $m ^ { th }$ fringe
 ![[4 Physics/Images/small angle approximation.png|300]]
 
 ---

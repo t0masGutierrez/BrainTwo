@@ -20,10 +20,10 @@ $$
 ### newtons 2nd momentum formula
 $$
 \begin{aligned}
-\vec F _ { n e t } = \frac { d \vec p } { d t } =
+\vec F _ { net } = \frac { d \vec p } { dt } =
 \begin{cases}
-F _ { x } = m \frac { d v _ { x } } { d t } \\
-F _ { y } = m \frac { d v _ { y } } { d t }
+F _ { x } = m \frac { d v _ { x } } { dt } \\
+F _ { y } = m \frac { d v _ { y } } { dt }
 \end{cases} \\
 \vec p = \text { momentum } \\
 t = \text { time } \\
@@ -42,7 +42,7 @@ $$
 ### constant impulse formula
 $$
 \begin{aligned}
-\vec J = \Delta \vec p = \vec F _ { n e t } \Delta t \\
+\vec J = \Delta \vec p = \vec F _ { net } \Delta t \\
 \vec p = \text { momentum } \\
 \vec F = \text { force } \\
 t = \text { time }
@@ -53,7 +53,7 @@ $$
 ### variable impulse formula
 $$
 \begin{aligned}
-\vec J = \Delta \vec p = \int \vec F _ { n e t } \cdot d t \\
+\vec J = \Delta \vec p = \int \vec F _ { net } \cdot d t \\
 \vec p = \text { momentum } \\
 \vec F = \text { force } \\
 t = \text { time }
@@ -70,7 +70,7 @@ $$
 $$
 \begin{aligned}
 \vec J ( t ) = \Delta \vec p \\
-W _ { n e t } ( \vec r ) = \Delta K \\
+W _ { net } ( \vec r ) = \Delta K \\
 \vec J = \text { impulse } \\
 t = \text { time } \\
 \vec p = \text { momentum } \\
@@ -88,7 +88,7 @@ $$
 ### conservation of momentum formula
 $$
 \begin{aligned}
-\vec F _ { n e t } = 0 \implies \vec p _ { i } = \vec p _ { f } \\
+\vec F _ { net } = 0 \implies \vec p _ { i } = \vec p _ { f } \\
 \vec F = \text { force } \\
 \vec p = \text { momentum }
 \end{aligned}
@@ -185,7 +185,7 @@ $$
 ### center of mass formula
 $$
 \begin{aligned}
-\vec r _ { c m } = \frac { \sum _ { n } m _ { n } \vec r _ { n } } { M } \\
+\vec r _ { cm } = \frac { \sum _ { n } m _ { n } \vec r _ { n } } { M } \\
 m = \text { mass } \\
 \vec r = \text { position } \\
 M = \text { system mass }
@@ -200,8 +200,8 @@ $$
 ### center of mass velocity formula
 $$
 \begin{aligned}
-\vec v _ { c m } = \frac { \sum _ { n } m _ { n } \vec v _ { n } } { M } \\
-\vec p = M \vec v _ { c m } \\
+\vec v _ { cm } = \frac { \sum _ { n } m _ { n } \vec v _ { n } } { M } \\
+\vec p = M \vec v _ { cm } \\
 m = \text { mass } \\
 \vec v = \text { velocity } \\
 M = \text { system mass } \\
@@ -217,8 +217,8 @@ $$
 ### center of mass acceleration formula
 $$
 \begin{aligned}
-\vec a _ { c m } = \frac { \sum _ { n } m _ { n } \vec a _ { n } } { M } \\
-\vec F _ { n e t } = M \vec a _ { c m } \\
+\vec a _ { cm } = \frac { \sum _ { n } m _ { n } \vec a _ { n } } { M } \\
+\vec F _ { net } = M \vec a _ { cm } \\
 m = \text { mass } \\
 \vec a = \text { acceleration } \\
 M = \text { system mass } \\
@@ -235,8 +235,8 @@ $$
 ### rocket formula
 $$
 \begin{aligned}
-\vec F _ { t h r u s t } = \vec v _ { e x } \frac { d m } { d t } \\
-\Delta \vec v = \vec v _ { e x } \ln ( \frac { m _ { i } } { m _ { f } } ) \\
+\vec F _ { thrust } = \vec v _ { ex } \frac { dm } { dt } \\
+\Delta \vec v = \vec v _ { ex } \ln ( \frac { m _ { i } } { m _ { f } } ) \\
 \vec v = \text { velocity } \\
 m = \text { mass } \\
 t = \text { time }

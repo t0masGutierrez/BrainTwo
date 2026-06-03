@@ -277,7 +277,7 @@ $$
 ### resonant frequency formula
 $$
 \begin{aligned}
-f _ { n } = \frac { n v } { 2 L } \\
+f _ { n } = \frac { nv } { 2 L } \\
 n = \text { number of antinodes } \\
 v = \text { wave velocity } \\
 L = \text { length }

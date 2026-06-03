@@ -8,7 +8,7 @@ $$
 A = \begin{bmatrix}
 a _ { 11 } & \dots & a _ { 1 n } \\
 \vdots & \ddots & \vdots \\
-a _ { m 1 } & \dots & a _ { m n }
+a _ { m 1 } & \dots & a _ { mn }
 \end{bmatrix} \\
 | A | = m \times n \\
 a = \text { entry } \\
@@ -43,7 +43,7 @@ $$
 ### main diagonal formula
 $$
 \begin{aligned}
-\text { diag } ( A ) = ( a _ { i i } ) _ { i = 1 } ^ { n } \\
+\text { diag } ( A ) = ( a _ { ii } ) _ { i = 1 } ^ { n } \\
 a = \text { entry } \\
 i = \text { row index } \\
 i = \text { column index } \\
@@ -63,7 +63,7 @@ D = \begin{bmatrix}
 d _ { 11 } & 0 & 0 \\
 0 & d _ { 22 } & 0 \\
 0 & 0 & d _ { 33 }
-\end{bmatrix} \iff \forall ( i \ne j ) : d _ { i j } = 0 \\
+\end{bmatrix} \iff \forall ( i \ne j ) : d _ { ij } = 0 \\
 | D | = 3 \times 3 \\
 d = \text { entry } \\
 i = \text { row index } \\
@@ -83,7 +83,7 @@ I = \begin{bmatrix}
 1 & 0 & 0 \\
 0 & 1 & 0 \\
 0 & 0 & 1
-\end{bmatrix} \iff \forall ( i \ne j ) : ( a _ { i j } = 0 ) \land \forall ( i = j ) : ( a _ { i j } = 1 ) \\
+\end{bmatrix} \iff \forall ( i \ne j ) : ( a _ { ij } = 0 ) \land \forall ( i = j ) : ( a _ { ij } = 1 ) \\
 | I | = 3 \times 3 \\
 i = \text { row index } \\
 j = \text { column index }
@@ -102,7 +102,7 @@ U = \begin{bmatrix}
 u _ { 11 } & u _ { 12 } & u _ { 13 } \\
 0 & u _ { 22 } & u _ { 23 } \\
 0 & 0 & u _ { 33 }
-\end{bmatrix} \iff \forall ( i > j ) : u _ { i j } = 0 \\
+\end{bmatrix} \iff \forall ( i > j ) : u _ { ij } = 0 \\
 | U | = 3 \times 3 \\
 u = \text { entry } \\
 i = \text { row index } \\
@@ -122,7 +122,7 @@ L = \begin{bmatrix}
 l _ { 11 } & 0 & 0 \\
 l _ { 21 } & l _ { 22 } & 0 \\
 l _ { 31 } & l _ { 32 } & l _ { 33 } \\
-\end{bmatrix} \iff \forall ( i < j ) : l _ { i j } = 0 \\
+\end{bmatrix} \iff \forall ( i < j ) : l _ { ij } = 0 \\
 | L | = 3 \times 3 \\
 l = \text { entry } \\
 i = \text { row index } \\
@@ -155,7 +155,7 @@ $$
 ### trace formula
 $$
 \begin{aligned}
-\text { tr } ( A ) = \sum _ { i = 1 } ^ { n } a _ { i i } \\
+\text { tr } ( A ) = \sum _ { i = 1 } ^ { n } a _ { ii } \\
 a = \text { entry } \\
 i = \text { row index } \\
 i = \text { column index } \\
@@ -233,7 +233,7 @@ a _ { 12 } & a _ { 22 } & a _ { 32 } \\
 a _ { 13 } & a _ { 23 } & a _ { 33 }
 \end{bmatrix} \\
 m \times n \implies n \times m \\
-a _ { i j } \implies a _ { j i } \\
+a _ { ij } \implies a _ { ji } \\
 a = \text { entry } \\
 T = \text { transposition }
 \end{aligned}
@@ -275,7 +275,7 @@ $$
 ### matrix equality property formula
 $$
 \begin{aligned}
-A = B \iff \forall i , j \le m , n : ( a _ { i j } = b _ { i j } ) \land ( | A | = | B | ) \\
+A = B \iff \forall i , j \le m , n : ( a _ { ij } = b _ { ij } ) \land ( | A | = | B | ) \\
 A , B = \text { matrix } \\
 a , b = \text { entry } \\
 i = \text { row index } \\

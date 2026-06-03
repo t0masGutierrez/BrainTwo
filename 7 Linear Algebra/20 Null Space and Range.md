@@ -83,7 +83,7 @@ $$
 ### null space solution property formula
 $$
 \begin{aligned}
-\text { null } ( L ) = \{ \vec x \mid \vec x \in \mathbb R ^ { n } , A \in \mathcal M _ { m n } , L : \mathbb R ^ { n } \rightarrow \mathbb R ^ { m } , A \vec x = 0 \} \\
+\text { null } ( L ) = \{ \vec x \mid \vec x \in \mathbb R ^ { n } , A \in \mathcal M _ { mn } , L : \mathbb R ^ { n } \rightarrow \mathbb R ^ { m } , A \vec x = 0 \} \\
 L = \text { linear transformation } \\
 A = \text { matrix transformation } \\
 \vec x = \text { preimage } \\
@@ -99,7 +99,7 @@ $$
 ### null space dimension property formula
 $$
 \begin{aligned}
-{}[ L ( \vec v ) ] _ { C } = A _ { B C } [ \vec v ] _ { B } \implies \dim ( \text { null } \  L ) = \text { dim } ( \mathcal V ) - \text { rank } ( A ) \\
+{}[ L ( \vec v ) ] _ { C } = A _ { BC } [ \vec v ] _ { B } \implies \dim ( \text { null } \  L ) = \text { dim } ( \mathcal V ) - \text { rank } ( A ) \\
 L : \mathcal V \rightarrow \mathcal W \\
 L = \text { linear transformation } \\
 {}[ \vec v ] _ { B } = \text { preimage coordinate vector } \\
@@ -136,7 +136,7 @@ $$
 ### range column property formula
 $$
 \begin{aligned}
-\text { range } ( L ) = \{ A _ { B C } \vec x \mid \vec x \in \mathbb R ^ { n } , A _ { B C } \in \mathcal M _ { m n } , L : \mathbb R ^ { n } \rightarrow \mathbb R ^ { m } \} = \text { Col } ( A _ { B C } ) \\
+\text { range } ( L ) = \{ A _ { BC } \vec x \mid \vec x \in \mathbb R ^ { n } , A _ { BC } \in \mathcal M _ { mn } , L : \mathbb R ^ { n } \rightarrow \mathbb R ^ { m } \} = \text { Col } ( A _ { BC } ) \\
 L = \text { linear transformation } \\
 A = \text { matrix transformation } \\
 B = \text { domain basis } \\
@@ -154,7 +154,7 @@ $$
 ### range dimension property formula
 $$
 \begin{aligned}
-{}[ L ( \vec v ) ] _ { C } = A _ { B C } [ \vec v ] _ { B } \implies \dim ( \text { range } \  L ) = \text { rank } ( A _ { B C } ) \\
+{}[ L ( \vec v ) ] _ { C } = A _ { BC } [ \vec v ] _ { B } \implies \dim ( \text { range } \  L ) = \text { rank } ( A _ { BC } ) \\
 L : \mathcal V \rightarrow \mathcal W \\
 L = \text { linear transformation } \\
 {}[ \vec v ] _ { B } = \text { preimage coordinate vector } \\

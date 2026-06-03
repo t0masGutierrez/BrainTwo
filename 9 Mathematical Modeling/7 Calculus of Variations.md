@@ -374,7 +374,7 @@ $$
 ### first-order fixed-fixed euler-lagrange equation formula
 $$
 \begin{aligned}
-\frac { \partial L } { \partial f } - \frac { d } { d x } ( \frac { \partial L } { \partial f ' } ) = 0 \\
+\frac { \partial L } { \partial f } - \frac { d } { dx } ( \frac { \partial L } { \partial f ' } ) = 0 \\
 L = \text { lagrangian } \\
 f = \text { admissible function } \\
 x = \text { independent variable }
@@ -425,7 +425,7 @@ $$
 $$
 \begin{aligned}
 I ( h ) \ge 0 \implies \forall x \in [ a , b ] : \phi _ { \nu \nu } ( x ) \ge 0 \\
-I ( h ) = \int _ { a } ^ { b } \sum _ { i = 0 } ^ { \nu } \sum _ { j = 0 } ^ { \nu } \phi _ { i j } ( x ) h ^ { ( i ) } ( x ) h ^ { ( j ) } ( x ) d x \\
+I ( h ) = \int _ { a } ^ { b } \sum _ { i = 0 } ^ { \nu } \sum _ { j = 0 } ^ { \nu } \phi _ { ij } ( x ) h ^ { ( i ) } ( x ) h ^ { ( j ) } ( x ) d x \\
 h ^ { ( k ) } ( a ) = h ^ { ( k ) } ( b ) = 0 \\
 k = 0 , \dots , \mu \\
 h = \text { admissible variation } \\
@@ -492,7 +492,7 @@ $$
 ### fixed-free euler-lagrange equation formula
 $$
 \begin{aligned}
-\frac { \partial L } { \partial f } - \frac { d } { d x } ( \frac { \partial L } { \partial f ' } ) = 0 \\
+\frac { \partial L } { \partial f } - \frac { d } { dx } ( \frac { \partial L } { \partial f ' } ) = 0 \\
 L = \text { lagrangian } \\
 f = \text { admissible function } \\
 x = \text { independent variable }
@@ -586,7 +586,7 @@ $$
 ### second-order euler-lagrange equation formula
 $$
 \begin{aligned}
-\frac { \partial L } { \partial f } - \frac { d } { d x } ( \frac { \partial L } { \partial f ' } ) + \frac { d ^ { 2 } } { d x ^ { 2 } } ( \frac { \partial L } { \partial f ' ' } ) = 0 \\
+\frac { \partial L } { \partial f } - \frac { d } { dx } ( \frac { \partial L } { \partial f ' } ) + \frac { d ^ { 2 } } { d x ^ { 2 } } ( \frac { \partial L } { \partial f ' ' } ) = 0 \\
 L = \text { lagrangian } \\
 f , f ' = \text { admissible function } \\
 x = \text { independent variable }
@@ -616,9 +616,9 @@ $$
 ### second-order natural boundary condition formula
 $$
 \begin{aligned}
-f ( a ) = \text { free } \implies [ \frac { \partial L } { \partial f ' } - \frac { d } { d x } ( \frac { \partial L } { \partial f ' ' } ) ] _ { x = a } = 0 \\
+f ( a ) = \text { free } \implies [ \frac { \partial L } { \partial f ' } - \frac { d } { dx } ( \frac { \partial L } { \partial f ' ' } ) ] _ { x = a } = 0 \\
 f ' ( a ) = \text { free } \implies [ \frac { \partial L } { \partial f ' ' } ] _ { x = a } = 0 \\
-f ( b ) = \text { free } \implies [ \frac { \partial L } { \partial f ' } - \frac { d } { d x } ( \frac { \partial L } { \partial f ' ' } ) ] _ { x = b } = 0 \\
+f ( b ) = \text { free } \implies [ \frac { \partial L } { \partial f ' } - \frac { d } { dx } ( \frac { \partial L } { \partial f ' ' } ) ] _ { x = b } = 0 \\
 f ' ( b ) = \text { free } \implies [ \frac { \partial L } { \partial f ' ' } ] _ { x = b } = 0
 \end{aligned}
 $$
@@ -681,7 +681,7 @@ $$
 ### constraint euler-lagrange equation formula
 $$
 \begin{aligned}
-\frac { \partial N } { \partial f } - \frac { d } { d x } ( \frac { \partial N } { \partial f ' } ) = 0 \\
+\frac { \partial N } { \partial f } - \frac { d } { dx } ( \frac { \partial N } { \partial f ' } ) = 0 \\
 N = \text { lagrangian } \\
 f = \text { admissible function } \\
 x = \text { independent variable }

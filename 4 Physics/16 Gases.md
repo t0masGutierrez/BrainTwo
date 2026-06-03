@@ -18,7 +18,7 @@
 ### conduction formula
 $$
 \begin{aligned}
-\frac { d Q } { d t } = \frac { k A \Delta T _ { k } } { L } \\
+\frac { dQ } { dt } = \frac { k A \Delta T _ { k } } { L } \\
 k = \text { conductivity coefficient } \\
 A = \text { area } \\
 T _ { k } = \text { kelvin } \\
@@ -58,7 +58,7 @@ $$
 ### newtons formula of cooling
 $$
 \begin{aligned}
-\frac { d T } { d t } = k ( T - T _ { 0 } ) \\
+\frac { dT } { dt } = k ( T - T _ { 0 } ) \\
 k = \text { cooling constant } \\
 T = \text { system temperature } \\
 T _ { 0 } = \text { surrounding temperature }
@@ -205,10 +205,10 @@ $$
 ### average translational kinetic energy formula
 $$
 \begin{aligned}
-K _ { a v g } = \frac { 3 } { 2 } k _ { b } T _ { k } = \frac { 1 } { 2 } m v _ { r m s } ^ { 2 } \\
+K _ { avg } = \frac { 3 } { 2 } k _ { b } T _ { k } = \frac { 1 } { 2 } m v _ { rms } ^ { 2 } \\
 k _ { b } = 1.38 \times 10 ^ { - 23 } \\
 T _ { k } = \text { kelvin } \\
-v _ { r m s } = \text { rms velocity } \\
+v _ { rms } = \text { rms velocity } \\
 m = \text { mass } \\
 v = \text { velocity }
 \end{aligned}
@@ -222,7 +222,7 @@ $$
 ### rms velocity formula
 $$
 \begin{aligned}
-v _ { r m s } = \sqrt { \frac { 3 k _ { b } T _ { k } } { m } } = \sqrt { \frac { 3 R T _ { k } } { M } } \\
+v _ { rms } = \sqrt { \frac { 3 k _ { b } T _ { k } } { m } } = \sqrt { \frac { 3 R T _ { k } } { M } } \\
 k _ { b } = 1.38 \times 10 ^ { - 23 } \\
 T _ { k } = \text { kelvin } \\
 m = \text { mass } \\

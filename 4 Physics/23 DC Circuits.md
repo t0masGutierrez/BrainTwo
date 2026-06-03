@@ -16,7 +16,7 @@
 ### series resistance formula
 $$
 \begin{aligned}
-R _ { e q } = \sum _ { i } R _ { i } \\
+R _ { eq } = \sum _ { i } R _ { i } \\
 R = \text { resistance }
 \end{aligned}
 $$
@@ -36,7 +36,7 @@ $$
 ### parallel resistance formula
 $$
 \begin{aligned}
-\frac { 1 } { R _ { e q } } = \sum _ { i } \frac { 1 } { R _ { i } } \\
+\frac { 1 } { R _ { eq } } = \sum _ { i } \frac { 1 } { R _ { i } } \\
 R = \text { resistance }
 \end{aligned}
 $$
@@ -66,7 +66,7 @@ $$
 ### kirchhoff junction formula
 $$
 \begin{aligned}
-\sum I _ { i n } = \sum I _ { o u t } \\
+\sum I _ { in } = \sum I _ { out } \\
 I = \text { electric current }
 \end{aligned}
 $$

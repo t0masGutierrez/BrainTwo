@@ -25,7 +25,7 @@ $$
 ### mutual inductance emf formula
 $$
 \begin{aligned}
-\epsilon _ { 2 } = - M \frac { d i _ { 1 } } { d t } \\
+\epsilon _ { 2 } = - M \frac { d i _ { 1 } } { dt } \\
 M = \text { mutual inductance } \\
 i = \text { electric current } \\
 t = \text { time }
@@ -81,7 +81,7 @@ $$
 ### self inductance emf formula
 $$
 \begin{aligned}
-\epsilon = - L \frac { d i } { d t } \\
+\epsilon = - L \frac { di } { dt } \\
 L = \text { self inductance } \\
 i = \text { electric current } \\
 t = \text { time }
@@ -97,7 +97,7 @@ $$
 ### inductor formula
 $$
 \begin{aligned}
-v _ { L } = L \frac { d i } { d t } \\
+v _ { L } = L \frac { di } { dt } \\
 L = \text { self inductance } \\
 i = \text { electric current } \\
 t = \text { time }
@@ -311,9 +311,9 @@ $$
 $$
 \begin{aligned}
 q ( t ) = Q \cos ( \omega t + \phi ) \\
-\frac { d q } { d t } = - Q \omega \sin ( \omega t + \phi ) \\
-\frac { d i } { d t } = - Q \omega ^ { 2 } \cos ( \omega t + \phi ) \\
-\omega = \sqrt { \frac { 1 } { L C } } \\
+\frac { dq } { dt } = - Q \omega \sin ( \omega t + \phi ) \\
+\frac { di } { dt } = - Q \omega ^ { 2 } \cos ( \omega t + \phi ) \\
+\omega = \sqrt { \frac { 1 } { LC } } \\
 Q = \text { electric charge } \\
 \omega = \text { angular frequency } \\
 t = \text { time } \\
@@ -368,7 +368,7 @@ $$
 $$
 \begin{aligned}
 q ( t ) = Q ( e ^ { - R t / 2 L } ) \cos ( \omega t + \phi ) \\
-\omega = \sqrt { ( \frac { 1 } { L C } ) - ( \frac { R ^ { 2 } } { 4 L ^ { 2 } } ) } \\
+\omega = \sqrt { ( \frac { 1 } { LC } ) - ( \frac { R ^ { 2 } } { 4 L ^ { 2 } } ) } \\
 Q = \text { electric charge } \\
 R = \text { resistance } \\
 t = \text { time } \\

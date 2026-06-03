@@ -5,14 +5,14 @@
 ### simultaneity property formula
 $$
 \begin{aligned}
-a _ { n } ( t ) \frac { d ^ { n } y } { d t ^ { n } } + a _ { n - 1 } ( t ) \frac { d ^ { n - 1 } y } { d t ^ { n - 1 } } + \dots + a _ { 0 } y = 0 \implies \begin{cases} \frac { d x _ { 1 } } { d t } = x _ { 2 } \\
-\frac { d x _ { 2 } } { d t } = x _ { 3 } \\
+a _ { n } ( t ) \frac { d ^ { n } y } { d t ^ { n } } + a _ { n - 1 } ( t ) \frac { d ^ { n - 1 } y } { d t ^ { n - 1 } } + \dots + a _ { 0 } y = 0 \implies \begin{cases} \frac { d x _ { 1 } } { dt } = x _ { 2 } \\
+\frac { d x _ { 2 } } { dt } = x _ { 3 } \\
 \  \  \  \vdots \\
-\frac { d x _ { n - 1 } } { d t } = x _ { n } \\
-\frac { d x _ { n } } { d t } = - ( \frac { a _ { n - 1 } ( t ) x _ { n } + a _ { n - 2 } ( t ) x _ { n - 1 } + \dots + a _ { 0 } x _ { 1 } } { a _ { n } ( t ) } )
+\frac { d x _ { n - 1 } } { dt } = x _ { n } \\
+\frac { d x _ { n } } { dt } = - ( \frac { a _ { n - 1 } ( t ) x _ { n } + a _ { n - 2 } ( t ) x _ { n - 1 } + \dots + a _ { 0 } x _ { 1 } } { a _ { n } ( t ) } )
 \end{cases} \\
 x _ { 1 } ( t ) = y \\
-x _ { 2 } ( t ) = \frac { d y } { d t } \\
+x _ { 2 } ( t ) = \frac { dy } { dt } \\
 \vdots \\
 x _ { n } ( t ) = \frac { d ^ { n - 1 } y } { d t ^ { n - 1 } }
 \end{aligned}
@@ -26,7 +26,7 @@ $$
 ### linear system ode formula
 $$
 \begin{aligned}
-\frac { d \vec x } { d t } = A \vec x ( t ) \\
+\frac { d \vec x } { dt } = A \vec x ( t ) \\
 \vec x = \text { solution } \\
 t = \text { independent variable } \\
 A = \text { coefficient matrix }
@@ -41,7 +41,7 @@ $$
 ### general solution of linear system ode formula
 $$
 \begin{aligned}
-\frac { d \vec x } { d t } = A \vec x \implies \vec x ( t ) = \exp ( \lambda t ) \vec v \\
+\frac { d \vec x } { dt } = A \vec x \implies \vec x ( t ) = \exp ( \lambda t ) \vec v \\
 \vec x = \text { solution } \\
 t = \text { independent variable } \\
 A = \text { coefficient matrix } \\
@@ -176,7 +176,7 @@ $$
 ### matrix exponential formula
 $$
 \begin{aligned}
-e ^ { A t } = \sum _ { i = 0 } ^ { \infty } \frac { A ^ { i } t ^ { i } } { i ! } = \Phi ( t ) \Phi ^ { - 1 } ( 0 ) \implies \vec x ( t ) = e ^ { A t } \vec x ( 0 ) \\
+e ^ { At } = \sum _ { i = 0 } ^ { \infty } \frac { A ^ { i } t ^ { i } } { i ! } = \Phi ( t ) \Phi ^ { - 1 } ( 0 ) \implies \vec x ( t ) = e ^ { At } \vec x ( 0 ) \\
 A = \text { coefficient matrix } \\
 t = \text { independent variable } \\
 \Phi = \text { fundamental matrix } \\

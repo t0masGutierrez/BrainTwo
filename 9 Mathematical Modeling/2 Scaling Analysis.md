@@ -94,7 +94,7 @@ $$
 $$
 \begin{aligned}
 b = \max _ { t \in I } | y | \\
-a = \frac { b } { \max _ { t \in I } | \frac { d y } { d t } | }
+a = \frac { b } { \max _ { t \in I } | \frac { dy } { dt } | }
 \end{aligned}
 $$
 

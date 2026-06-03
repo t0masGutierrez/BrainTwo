@@ -28,7 +28,7 @@ $$
 ### faradays formula
 $$
 \begin{aligned}
-\epsilon = N \frac { - d \Phi } { d t } = N \frac { - d } { d t } \int _ { A _ { 1 } } ^ { A _ { 2 } } \vec B \cdot d \vec A \\
+\epsilon = N \frac { - d \Phi } { dt } = N \frac { - d } { dt } \int _ { A _ { 1 } } ^ { A _ { 2 } } \vec B \cdot d \vec A \\
 N = \text { number of loops } \\
 \Phi = \text { magnetic flux } \\
 t = \text { time } \\
@@ -64,7 +64,7 @@ $$
 ### uniform motional emf formula
 $$
 \begin{aligned}
-\epsilon = B L \frac { d x } { d t } = B L v \\
+\epsilon = B L \frac { dx } { dt } = B L v \\
 B = \text { magnetic field } \\
 L = \text { length } \\
 x = \text { position } \\
@@ -113,7 +113,7 @@ $$
 ### induced electric field formula
 $$
 \begin{aligned}
-\oint _ { L _ { 1 } } ^ { L _ { 2 } } \vec E \cdot d \vec L = \frac { - d \Phi } { d t } \\
+\oint _ { L _ { 1 } } ^ { L _ { 2 } } \vec E \cdot d \vec L = \frac { - d \Phi } { dt } \\
 E = \text { electric field } \\
 L = \text { length } \\
 \Phi = \text { magnetic flux }
@@ -157,7 +157,7 @@ $$
 ### displacement current formula
 $$
 \begin{aligned}
-I _ { d } = \epsilon _ { 0 } \frac { d \Phi } { d t } \\
+I _ { d } = \epsilon _ { 0 } \frac { d \Phi } { dt } \\
 \epsilon _ { 0 } = 8.85 \times 10 ^ { - 12 } \\
 \Phi = \text { electric flux }
 \end{aligned}
@@ -173,7 +173,7 @@ $$
 $$
 \begin{aligned}
 \oint _ { L _ { 1 } } ^ { L _ { 2 } } \vec B \cdot d \vec L = \mu _ { 0 } ( I _ { c } + I
-_ { d } ) _ { e n c } \\
+_ { d } ) _ { enc } \\
 B = \text { magnetic field } \\
 L = \text { length } \\
 \mu _ { 0 } = 4 \pi \times 10 ^ { - 7 } \\
@@ -194,10 +194,10 @@ $$
 ### electromagnetism formula
 $$
 \begin{aligned}
-\oint _ { A _ { 1 } } ^ { A _ { 2 } } \vec E \cdot d \vec A = \frac { Q _ { e n c } } { \epsilon _ { 0 } } \\
+\oint _ { A _ { 1 } } ^ { A _ { 2 } } \vec E \cdot d \vec A = \frac { Q _ { enc } } { \epsilon _ { 0 } } \\
 \oint _ { A _ { 1 } } ^ { A _ { 2 } } \vec B \cdot d \vec A = 0 \\
-\oint _ { L _ { 1 } } ^ { L _ { 2 } } \vec E \cdot d \vec L = \frac { - d \Phi _ { B } } { d t } \\
-\oint _ { L _ { 1 } } ^ { L _ { 2 } } \vec B \cdot d \vec L = \mu _ { 0 } ( I _ { c } + \epsilon _ { 0 } \frac { d \Phi _ { E } } { d t } ) _ { e n c } \\
+\oint _ { L _ { 1 } } ^ { L _ { 2 } } \vec E \cdot d \vec L = \frac { - d \Phi _ { B } } { dt } \\
+\oint _ { L _ { 1 } } ^ { L _ { 2 } } \vec B \cdot d \vec L = \mu _ { 0 } ( I _ { c } + \epsilon _ { 0 } \frac { d \Phi _ { E } } { dt } ) _ { enc } \\
 \end{aligned}
 $$
 
@@ -209,7 +209,7 @@ $$
 ### lorentz force formula
 $$
 \begin{aligned}
-\vec F _ { n e t } = q ( \vec E + \vec v \times \vec B ) \\
+\vec F _ { net } = q ( \vec E + \vec v \times \vec B ) \\
 q = \text { electric charge } \\
 E = \text { electric field } \\
 v = \text { velocity } \\
@@ -245,7 +245,7 @@ $$
 ### electric motor formula
 $$
 \begin{aligned}
-\epsilon = \epsilon _ { 0 } - \epsilon _ { i n d u c e d } \\
+\epsilon = \epsilon _ { 0 } - \epsilon _ { induced } \\
 \epsilon = \text { emf }
 \end{aligned}
 $$

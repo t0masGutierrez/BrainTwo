@@ -5,7 +5,7 @@
 ### 2nd-order ode formula
 $$
 \begin{aligned}
-\frac { d ^ { 2 } y } { d t ^ { 2 } } = f ( t , y , \frac { d y } { d t } ) \\
+\frac { d ^ { 2 } y } { d t ^ { 2 } } = f ( t , y , \frac { dy } { dt } ) \\
 t = \text { independent variable } \\
 y = \text { solution }
 \end{aligned}
@@ -312,8 +312,8 @@ $$
 \begin{aligned}
 y ' ' ( t ) = f ( y , y ' ) \\
 v ( t ) = y ' ( t ) \\
-y ' ' ( t ) = \frac { d v } { d t } = ( \frac { d v } { d y } ) ( \frac { d y } { d t } ) = v \frac { d v } { d y } \\
-v \frac { d v } { d y } = f ( y , y ' )
+y ' ' ( t ) = \frac { dv } { dt } = ( \frac { dv } { dy } ) ( \frac { dy } { dt } ) = v \frac { dv } { dy } \\
+v \frac { dv } { dy } = f ( y , y ' )
 \end{aligned}
 $$
 
@@ -343,7 +343,7 @@ $$
 \begin{aligned}
 y ' ' ( t ) = f ( y ) \\
 y ' ( t ) y ' ' ( t ) = f ( y ) y ' \\
-\frac { 1 } { 2 } ( \frac { d y } { d t } ) ^ { 2 } = \int f ( y ) d y + C
+\frac { 1 } { 2 } ( \frac { dy } { dt } ) ^ { 2 } = \int f ( y ) d y + C
 \end{aligned}
 $$
 

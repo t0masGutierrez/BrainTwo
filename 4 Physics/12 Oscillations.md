@@ -79,9 +79,9 @@ $$
 ### maximum simple harmonic motion formula
 $$
 \begin{aligned}
-x _ { m a x } = A \\
-v _ { m a x } = \omega A \\
-a _ { m a x } = \omega ^ { 2 } A \\
+x _ { max } = A \\
+v _ { max } = \omega A \\
+a _ { max } = \omega ^ { 2 } A \\
 A = \text { amplitude } \\
 \omega = \text { angular frequency }
 \end{aligned}
@@ -162,7 +162,7 @@ $$
 ### angular frequency formula
 $$
 \begin{aligned}
-\omega = \sqrt { \frac { m g L } { I } } \\
+\omega = \sqrt { \frac { mgL } { I } } \\
 m = \text { mass } \\
 g = 9.8 \\
 L = \text { length } \\
@@ -179,7 +179,7 @@ $$
 ### damped oscillation formula
 $$
 \begin{aligned}
-m \frac { d ^ { 2 } x } { d t ^ { 2 } } + b \frac { d x } { d t } + k x = 0 \\
+m \frac { d ^ { 2 } x } { d t ^ { 2 } } + b \frac { dx } { dt } + k x = 0 \\
 x ( t ) = A _ { 0 } ( e ^ { - b t / 2 m } \cos ( \omega t + \phi ) \\
 \omega = \sqrt { ( \frac { k } { m } ) - ( \frac { b } { 2 m } ) ^ { 2 } } \\
 m = \text { mass } \\
@@ -215,7 +215,7 @@ $$
 ### driven oscillation formula
 $$
 \begin{aligned}
-m \frac { d ^ { 2 } x } { d t ^ { 2 } } + b \frac { d x } { d t } + k x = F _ { 0 } \cos ( \omega t + \phi ) \\
+m \frac { d ^ { 2 } x } { d t ^ { 2 } } + b \frac { dx } { dt } + k x = F _ { 0 } \cos ( \omega t + \phi ) \\
 x ( t ) = A _ { 0 } \cos ( \omega t + \phi ) \\
 A _ { 0 } = \frac { F _ { 0 } } { \sqrt { m ^ { 2 } \omega ^ { 2 } - m k + b ^ { 2 } \omega ^ { 2 } } } \\
 m = \text { mass } \\

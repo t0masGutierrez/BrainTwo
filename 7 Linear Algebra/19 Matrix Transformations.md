@@ -28,10 +28,10 @@ $$
 $$
 \begin{aligned}
 ( L : \mathcal V \rightarrow \mathcal W ) \land ( B = \set { \vec b _ { 1 } , \dots , \vec b _ { n } } ) \land ( C = \set { \vec c _ { 1 } , \dots \vec c _ { m } } ) \implies \\
-\forall \vec v \in \mathcal V : [ L ( \vec v ) ] _ { C } = A _ { B C } [ \vec v ] _ { B } \\
+\forall \vec v \in \mathcal V : [ L ( \vec v ) ] _ { C } = A _ { BC } [ \vec v ] _ { B } \\
 \dim ( \mathcal V ) = n \\
 \dim ( \mathcal W ) = m \\
-| A _ { B C } | = m \times n \\
+| A _ { BC } | = m \times n \\
 L = \text { linear transformation } \\
 \mathcal V = \text { domain vector space } \\
 \mathcal W = \text { codomain vector space } \\
@@ -47,7 +47,7 @@ $$
 
 ---
 ### terminology
-- matrix $A _ { B C }$ equal matrix $A$ of the linear transformation $L$ with respect to the domain basis $B$ and codomain basis $C$ 
+- matrix $A _ { BC }$ equal matrix $A$ of the linear transformation $L$ with respect to the domain basis $B$ and codomain basis $C$
 
 ---
 ### matrix transformation transition property
@@ -57,7 +57,7 @@ $$
 ### matrix transformation transition property formula
 $$
 \begin{aligned}
-( L : \mathcal V \rightarrow \mathcal W ) \land ( [ \vec v ] _ { D } = P _ { B D } [ \vec v ] _ { B } ) \land ( [ L ( \vec v ) ] _ { E } = Q _ { C E } [ L ( \vec v ) ] _ { C } ) \implies A _ { D E } = Q _ { C E } A _ { B C } P _ { B D } ^ { - 1 } \\
+( L : \mathcal V \rightarrow \mathcal W ) \land ( [ \vec v ] _ { D } = P _ { BD } [ \vec v ] _ { B } ) \land ( [ L ( \vec v ) ] _ { E } = Q _ { CE } [ L ( \vec v ) ] _ { C } ) \implies A _ { DE } = Q _ { CE } A _ { BC } P _ { BD } ^ { - 1 } \\
 L = \text { linear transformation } \\
 \mathcal V = \text { domain vector space } \\
 \mathcal W = \text { codomain vector space } \\
@@ -79,9 +79,9 @@ $$
 ### matrix transformation similarity property formula
 $$
 \begin{aligned}
-( L : \mathcal V \rightarrow \mathcal V ) \land ( [ L ( \vec v ) ] _ { B } = A _ { B B } [ \vec v ] _ { B } ) \land ( [ L ( \vec v ) ] _ { D } = A _ { D D } [ \vec v ] _ { D } ) \land ( [ \vec v ] _ { D } = P _ { B D } [ \vec v ] _ { B } ) \implies A _ { B B } \sim A _ { D D } \\
-A _ { B B } = P _ { B D } ^ { - 1 } A _ { D D } P _ { B D } \\
-A _ { D D } = P _ { B D } A _ { B B } P _ { B D } ^ { - 1 } \\
+( L : \mathcal V \rightarrow \mathcal V ) \land ( [ L ( \vec v ) ] _ { B } = A _ { BB } [ \vec v ] _ { B } ) \land ( [ L ( \vec v ) ] _ { D } = A _ { DD } [ \vec v ] _ { D } ) \land ( [ \vec v ] _ { D } = P _ { BD } [ \vec v ] _ { B } ) \implies A _ { BB } \sim A _ { DD } \\
+A _ { BB } = P _ { BD } ^ { - 1 } A _ { DD } P _ { BD } \\
+A _ { DD } = P _ { BD } A _ { BB } P _ { BD } ^ { - 1 } \\
 L = \text { linear transformation } \\
 \mathcal V = \text { vector space } \\
 {}[ \vec v ] _ { B } , [ \vec v ] _ { D } = \text { coordinate vector } \\
@@ -101,7 +101,7 @@ $$
 $$
 \begin{aligned}
 ( L _ { 1 } : \mathcal V _ { 1 } \rightarrow \mathcal V _ { 2 } ) \land ( L _ { 2 } : \mathcal V _ { 2 } \rightarrow \mathcal V _ { 3 } ) \implies L _ { 2 } \circ L _ { 1 } : \mathcal V _ { 1 } \rightarrow \mathcal V _ { 3 } \\
-( [ L ( \vec v _ { 1 } ) ] _ { C } = A _ { B C } [ \vec v _ { 1 } ] _ { B } ) \land ( [ L ( \vec v _ { 2 } ) ] _ { D } = A _ { C D } [ \vec v _ { 2 } ] _ { C } ) \implies A _ { B D } = A _ { C D } A _ { B C } \\
+( [ L ( \vec v _ { 1 } ) ] _ { C } = A _ { BC } [ \vec v _ { 1 } ] _ { B } ) \land ( [ L ( \vec v _ { 2 } ) ] _ { D } = A _ { CD } [ \vec v _ { 2 } ] _ { C } ) \implies A _ { BD } = A _ { CD } A _ { BC } \\
 L = \text { linear transformation } \\
 \mathcal V = \text { vector space } \\
 B = \text { 1st basis } \\

@@ -7,7 +7,7 @@
 ### drift velocity formula
 $$
 \begin{aligned}
-\vec v _ { d } = \frac { I } { n q A } \\
+\vec v _ { d } = \frac { I } { nqA } \\
 I = \text { electric current } \\
 n = \text { number density } \\
 q = \text { electric charge } \\
@@ -43,7 +43,7 @@ $$
 ### electric current formula
 $$
 \begin{aligned}
-I = \frac { d q } { d t } \\
+I = \frac { dq } { dt } \\
 q = \text { electric charge } \\
 t = \text { time }
 \end{aligned}

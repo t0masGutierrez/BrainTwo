@@ -82,7 +82,7 @@ $$
 ### isomorphism matrix property formula
 $$
 \begin{aligned}
-( L : \mathcal V \rightarrow \mathcal W ) \land ( \exists A \in \mathcal M _ { n n } : \vec v \mapsto A \vec v ) \iff \det ( A ) \ne 0 \\
+( L : \mathcal V \rightarrow \mathcal W ) \land ( \exists A \in \mathcal M _ { nn } : \vec v \mapsto A \vec v ) \iff \det ( A ) \ne 0 \\
 L = \text { isomorphism } \\
 A = \text { matrix transformation } \\
 \vec v = \text { preimage } \\
@@ -99,9 +99,9 @@ $$
 ### isomorphism matrix kernel property formula
 $$
 \begin{aligned}
-( L : \mathcal V \rightarrow \mathcal W ) \land ( L _ { 1 } : \mathcal V \rightarrow \mathbb R ^ { n } ) \land ( [ L ( \vec v ) ] _ { C } = A _ { B C } [ \vec v ] _ { B } ) \implies \ker ( L ) = L ^ { - 1 } _ { 1 } ( \ker \  A _ { B C } ) \\
-( L : \mathcal V \rightarrow \mathcal W ) \land ( L _ { 1 } : \mathcal V \rightarrow \mathbb R ^ { n } ) \land ( [ L ( \vec v ) ] _ { C } = A _ { B C } [ \vec v ] _ { B } ) \implies \ker ( A _ { B C } ) = L _ { 1 } ( \ker \  L ) \\
-\vec v \in \text { ker } ( L ) \iff [ \vec v ] _ { B } \in \text { ker } ( A _ { B C } ) \\
+( L : \mathcal V \rightarrow \mathcal W ) \land ( L _ { 1 } : \mathcal V \rightarrow \mathbb R ^ { n } ) \land ( [ L ( \vec v ) ] _ { C } = A _ { BC } [ \vec v ] _ { B } ) \implies \ker ( L ) = L ^ { - 1 } _ { 1 } ( \ker \  A _ { BC } ) \\
+( L : \mathcal V \rightarrow \mathcal W ) \land ( L _ { 1 } : \mathcal V \rightarrow \mathbb R ^ { n } ) \land ( [ L ( \vec v ) ] _ { C } = A _ { BC } [ \vec v ] _ { B } ) \implies \ker ( A _ { BC } ) = L _ { 1 } ( \ker \  L ) \\
+\vec v \in \text { ker } ( L ) \iff [ \vec v ] _ { B } \in \text { ker } ( A _ { BC } ) \\
 L ( \vec v ) = 0 _ { \mathcal W } \iff [ L ( \vec v ) ] _ { C } = 0 _ { \mathbb R ^ { m } } \\
 L = \text { linear transformation } \\
 L _ { 1 } = \text { isomorphism } \\
@@ -122,8 +122,8 @@ $$
 ### isomorphism matrix range property formula
 $$
 \begin{aligned}
-( L : \mathcal V \rightarrow \mathcal W ) \land ( L _ { 2 } : \mathcal W \rightarrow \mathbb R ^ { m } ) \land ( [ L ( \vec v ) ] _ { C } = A _ { B C } [ \vec v ] _ { B } ) \implies \text { range } ( L ) = L ^ { - 1 } _ { 2 } ( \text { range } \  A _ { B C } ) \\
-L ( \vec v ) \in \text { range } ( L ) \iff [ L ( \vec v ) ] _ { C } \in \text { range } ( A _ { B C } ) \\
+( L : \mathcal V \rightarrow \mathcal W ) \land ( L _ { 2 } : \mathcal W \rightarrow \mathbb R ^ { m } ) \land ( [ L ( \vec v ) ] _ { C } = A _ { BC } [ \vec v ] _ { B } ) \implies \text { range } ( L ) = L ^ { - 1 } _ { 2 } ( \text { range } \  A _ { BC } ) \\
+L ( \vec v ) \in \text { range } ( L ) \iff [ L ( \vec v ) ] _ { C } \in \text { range } ( A _ { BC } ) \\
 L = \text { linear transformation } \\
 L _ { 2 } = \text { isomorphism } \\
 A = \text { matrix transformation } \\
@@ -143,8 +143,8 @@ $$
 ### isomorphism matrix dimension property formula
 $$
 \begin{aligned}
-( L : \mathcal V \rightarrow \mathcal W ) \land ( [ L ( \vec v ) ] _ { C } = A _ { B C } [ \vec v ] _ { B } ) \implies \dim ( \ker \  A _ { B C } ) = \dim ( \ker \  L ) \\
-( L : \mathcal V \rightarrow \mathcal W ) \land ( [ L ( \vec v ) ] _ { C } = A _ { B C } [ \vec v ] _ { B } ) \implies \dim ( \text { range } \  A _ { B C } ) = \dim ( \text { range } \  L ) \\
+( L : \mathcal V \rightarrow \mathcal W ) \land ( [ L ( \vec v ) ] _ { C } = A _ { BC } [ \vec v ] _ { B } ) \implies \dim ( \ker \  A _ { BC } ) = \dim ( \ker \  L ) \\
+( L : \mathcal V \rightarrow \mathcal W ) \land ( [ L ( \vec v ) ] _ { C } = A _ { BC } [ \vec v ] _ { B } ) \implies \dim ( \text { range } \  A _ { BC } ) = \dim ( \text { range } \  L ) \\
 L = \text { linear transformation } \\
 A = \text { matrix transformation } \\
 B = \text { domain basis } \\

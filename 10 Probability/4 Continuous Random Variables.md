@@ -263,7 +263,7 @@ $$
 ### beta PDF variance formula
 $$
 \begin{aligned}
-\text { Var } ( X ) = \frac { r k } { ( r + k ) ^ { 2 } ( r + k + 1 ) } \\
+\text { Var } ( X ) = \frac { rk } { ( r + k ) ^ { 2 } ( r + k + 1 ) } \\
 r , k = \text { parameter }
 \end{aligned}
 $$

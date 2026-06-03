@@ -5,7 +5,7 @@ $$
 \int c f ( u ) d u = c \int f ( u ) d u + c \\
 \int [ f ( u ) \pm g ( u ) ] d u = \int f ( u ) d u \pm \int g ( u ) d u + c \\
 \int u ^ { n } d u = \frac { u ^ { n + 1 } } { n + 1 } + c \\
-\int \frac { d u } { u } = \ln | u | + c \\
+\int \frac { du } { u } = \ln | u | + c \\
 \int e ^ { u } d u = e ^ { u } + c \\
 \int a ^ { u } d u = \frac { a ^ { u } } { \ln ( a ) } + c \\
 \int \log _ { a } ( u ) d u = \frac { u \ln ( u ) - u } { \ln ( a ) } + c \\
@@ -19,9 +19,9 @@ $$
 \int \csc ^ { 2 } ( u ) d u = - \cot ( u ) + c \\
 \int \sec ( u ) \tan ( u ) d u = \sec ( u ) + c \\
 \int \csc ( u ) \cot ( u ) d u = - \csc ( u ) + c \\
-\int \frac { d u } { \sqrt { a ^ { 2 } - u ^ { 2 } } } = \arcsin ( \frac { u } { a } ) + c \\
-\int \frac { d u } { a ^ { 2 } + u ^ { 2 } } = \frac { 1 } { a } \arctan ( \frac { u } { a } ) + c \\
-\int \frac { d u } { u \sqrt { u ^ { 2 } - a ^ { 2 } } } = \frac { 1 } { a } \text { arcsec } ( \frac { u } { a } ) + c \\
+\int \frac { du } { \sqrt { a ^ { 2 } - u ^ { 2 } } } = \arcsin ( \frac { u } { a } ) + c \\
+\int \frac { du } { a ^ { 2 } + u ^ { 2 } } = \frac { 1 } { a } \arctan ( \frac { u } { a } ) + c \\
+\int \frac { du } { u \sqrt { u ^ { 2 } - a ^ { 2 } } } = \frac { 1 } { a } \text { arcsec } ( \frac { u } { a } ) + c \\
 \end{aligned}
 $$
 
@@ -76,8 +76,8 @@ $$
 ---
 ### long division
 - numerator degree $\ge$ denominator degree
-- $n ^ { t h }$ dividend division with $n ^ { t h }$ divisor term equal $n ^ { t h }$ quotient term
-- $n ^ { t h }$ quotient term multiplication with divisor
+- $n ^ { th }$ dividend division with $n ^ { th }$ divisor term equal $n ^ { th }$ quotient term
+- $n ^ { th }$ quotient term multiplication with divisor
 - dividend subtraction with divisor
 
 ---
@@ -193,7 +193,7 @@ $$
 ### arc length formula
 $$
 \begin{aligned}
-s = \int _ { a } ^ { b } \sqrt { 1 + ( \frac { d y } { d x } ) ^ { 2 } } d x
+s = \int _ { a } ^ { b } \sqrt { 1 + ( \frac { dy } { dx } ) ^ { 2 } } d x
 \end{aligned}
 $$
 
@@ -212,8 +212,8 @@ $$
 ### surface area formula
 $$
 \begin{aligned}
-S ( x ) = 2 \pi \int _ { a } ^ { b } R ( x ) \sqrt { 1 + ( \frac { d y } { d x } ) ^ { 2 } } d x \\
-S ( y ) = 2 \pi \int _ { a } ^ { b } R ( y ) \sqrt { 1 + ( \frac { d x } { d y } ) ^ { 2 } } d y
+S ( x ) = 2 \pi \int _ { a } ^ { b } R ( x ) \sqrt { 1 + ( \frac { dy } { dx } ) ^ { 2 } } d x \\
+S ( y ) = 2 \pi \int _ { a } ^ { b } R ( y ) \sqrt { 1 + ( \frac { dx } { dy } ) ^ { 2 } } d y
 \end{aligned}
 $$
 

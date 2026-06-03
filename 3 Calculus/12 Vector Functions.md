@@ -67,7 +67,7 @@ $$
 ### derivative formula
 $$
 \begin{aligned}
-\frac { d } { d t } \vec r ( t ) = \lim _ { \Delta t \to 0 } \frac { \vec r ( t + \Delta t ) - \vec r ( n ) } { \Delta t }
+\frac { d } { dt } \vec r ( t ) = \lim _ { \Delta t \to 0 } \frac { \vec r ( t + \Delta t ) - \vec r ( n ) } { \Delta t }
 \end{aligned}
 $$
 
@@ -190,7 +190,7 @@ $$
 ### arc length formula
 $$
 \begin{aligned}
-r ( t ) = \int _ { a } ^ { t } \sqrt { ( \frac { d x } { d t } ) ^ { 2 } + ( \frac { d y } { d t } ) ^ { 2 } + ( \frac { d z } { d t } ) ^ { 2 } } d t = \int _ { a } ^ { t } \vec r \  ' ( u ) d u
+r ( t ) = \int _ { a } ^ { t } \sqrt { ( \frac { dx } { dt } ) ^ { 2 } + ( \frac { dy } { dt } ) ^ { 2 } + ( \frac { dz } { dt } ) ^ { 2 } } d t = \int _ { a } ^ { t } \vec r \  ' ( u ) d u
 \end{aligned}
 $$
 

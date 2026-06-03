@@ -28,9 +28,9 @@ $$
 
 ---
 ### dimension example
-- $\mathbb R ^ { n }$ 
-- $\mathcal P _ { n }$ 
-- $\mathcal M _ { m n }$ 
+- $\mathbb R ^ { n }$
+- $\mathcal P _ { n }$
+- $\mathcal M _ { mn }$
 
 ---
 ### dimension example formula
@@ -38,7 +38,7 @@ $$
 \begin{aligned}
 \dim ( \mathbb R ^ { n } ) = n \\
 \dim ( \mathcal P _ { n } ) = n + 1 \\
-\dim ( \mathcal M _ { m n } ) = m \cdot n \\
+\dim ( \mathcal M _ { mn } ) = m \cdot n \\
 \end{aligned}
 $$
 

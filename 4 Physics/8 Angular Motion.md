@@ -51,7 +51,7 @@ $$
 ### average angular velocity formula
 $$
 \begin{aligned}
-\vec \omega _ { a v g } = \frac { \Delta \vec \theta } { \Delta t } \\
+\vec \omega _ { avg } = \frac { \Delta \vec \theta } { \Delta t } \\
 \vec \theta = \text { angular position } \\
 t = \text { time }
 \end{aligned}
@@ -66,7 +66,7 @@ $$
 ### instantaneous angular velocity formula
 $$
 \begin{aligned}
-\vec \omega = \frac { d \vec \theta } { d t } \\
+\vec \omega = \frac { d \vec \theta } { dt } \\
 \vec \theta = \text { angular position } \\
 t = \text { time }
 \end{aligned}
@@ -81,7 +81,7 @@ $$
 ### average angular acceleration formula
 $$
 \begin{aligned}
-\vec \alpha _ { a v g } = \frac { \Delta \vec \omega } { \Delta t } \\
+\vec \alpha _ { avg } = \frac { \Delta \vec \omega } { \Delta t } \\
 \vec \omega = \text { angular velocity } \\
 t = \text { time }
 \end{aligned}
@@ -96,7 +96,7 @@ $$
 ### instantaneous angular acceleration formula
 $$
 \begin{aligned}
-\vec \alpha = \frac { d \vec \omega } { d t } = \frac { d ^ { 2 } \vec \theta } { d t ^ { 2 } } \\
+\vec \alpha = \frac { d \vec \omega } { dt } = \frac { d ^ { 2 } \vec \theta } { d t ^ { 2 } } \\
 \vec \omega = \text { angular velocity } \\
 t = \text { time } \\
 \vec \theta = \text { angular position }
@@ -126,7 +126,7 @@ $$
 ### tangential velocity formula
 $$
 \begin{aligned}
-\vec v _ { t a n } = \vec r \times \vec \omega \\
+\vec v _ { tan } = \vec r \times \vec \omega \\
 \vec r = \text { radius } \\
 \vec \omega = \text { angular velocity }
 \end{aligned}
@@ -140,7 +140,7 @@ $$
 ### tangential acceleration formula
 $$
 \begin{aligned}
-\vec a _ { t a n } = \vec r \times \vec \alpha \\
+\vec a _ { tan } = \vec r \times \vec \alpha \\
 \vec r = \text { radius } \\
 \vec \alpha = \text { angular acceleration }
 \end{aligned}
@@ -154,7 +154,7 @@ $$
 ### radial acceleration formula
 $$
 \begin{aligned}
-\vec a _ { r a d } = \vec r \times \vec \omega ^ { 2 } = \frac { \vec v _ { t a n } ^ { 2 } } { \vec r } \\
+\vec a _ { rad } = \vec r \times \vec \omega ^ { 2 } = \frac { \vec v _ { tan } ^ { 2 } } { \vec r } \\
 \vec r = \text { radius } \\
 \vec \omega = \text { angular velocity } \\
 \vec v = \text { velocity }
@@ -170,9 +170,9 @@ $$
 ### total acceleration formula
 $$
 \begin{aligned}
-a = \sqrt { a _ { t a n } ^ { 2 } + a _ { r a d } ^ { 2 } } \\
-a _ { t a n } = \text { tangential acceleration } \\
-a _ { r a d } = \text { radial acceleration }
+a = \sqrt { a _ { tan } ^ { 2 } + a _ { rad } ^ { 2 } } \\
+a _ { tan } = \text { tangential acceleration } \\
+a _ { rad } = \text { radial acceleration }
 \end{aligned}
 $$
 
@@ -199,7 +199,7 @@ $$
 ### inertia formula
 $$
 \begin{aligned}
-I _ { t a n } = m \\
+I _ { tan } = m \\
 m = \text { mass }
 \end{aligned}
 $$
@@ -269,7 +269,7 @@ $$
 ### parallel axis formula
 $$
 \begin{aligned}
-I _ { p } = I _ { c m } + M d ^ { 2 } \\
+I _ { p } = I _ { cm } + M d ^ { 2 } \\
 I = \text { moment of inertia } \\
 M = \text { system mass } \\
 d = \text { distance }

@@ -67,7 +67,7 @@ $$
 $$
 \begin{aligned}
 \exists x \in S : \lim _ { t \rightarrow x } \lim _ { n \rightarrow \infty } f _ { n } ( t ) \ne \lim _ { n \rightarrow \infty } \lim _ { t \rightarrow x } f _ { n } ( t ) \\
-\exists x \in S : \frac { d } { d x } \lim _ { n \rightarrow \infty } f _ { n } ( x ) \ne \lim _ { n \rightarrow \infty } f _ { n } ' ( x ) \\
+\exists x \in S : \frac { d } { dx } \lim _ { n \rightarrow \infty } f _ { n } ( x ) \ne \lim _ { n \rightarrow \infty } f _ { n } ' ( x ) \\
 \exists a < b : \int _ { a } ^ { b } \lim _ { n \rightarrow \infty } f _ { n } ( x ) d x \ne \lim _ { n \rightarrow \infty } \int _ { a } ^ { b } f _ { n } ( x ) d x \\
 \end{aligned}
 $$
@@ -110,7 +110,7 @@ $$
 ### differentiable uniform convergence property formula
 $$
 \begin{aligned}
-\frac { d } { d x } \lim _ { n \rightarrow \infty } f _ { n } ( x ) = \lim _ { n \rightarrow \infty } f _ { n } ' ( x ) \\
+\frac { d } { dx } \lim _ { n \rightarrow \infty } f _ { n } ( x ) = \lim _ { n \rightarrow \infty } f _ { n } ' ( x ) \\
 f _ { n } = \text { continuous function } \\
 \set { f _ { n } } = \text { uniform convergent sequence }
 \end{aligned}

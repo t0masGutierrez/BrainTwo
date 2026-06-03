@@ -75,8 +75,8 @@ $$
 ( A - \lambda I ) \vec x = 0 \\
 \begin{bmatrix}
 a _ { 11 } - \lambda & \dots & a _ { 1 n } \\
-\vdots & a _ { i i } - \lambda & \vdots \\
-a _ { n 1 } & \dots & a _ { n n } - \lambda
+\vdots & a _ { ii } - \lambda & \vdots \\
+a _ { n 1 } & \dots & a _ { nn } - \lambda
 \end{bmatrix} \begin{bmatrix}
 x _ { 1 } \\
 \vdots \\

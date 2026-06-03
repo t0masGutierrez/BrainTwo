@@ -42,8 +42,8 @@ $$
 ### velocity vector formula
 $$
 \begin{aligned}
-\vec v _ { a v g } = \frac { \Delta \vec r } { \Delta t } \\
-\vec { v } = \frac { d \vec { r } } { d t } = \frac { d x } { d t } \hat i + \frac { d y } { d t } \hat j = v _ { x } \hat i + v _ { y } \hat j \\
+\vec v _ { avg } = \frac { \Delta \vec r } { \Delta t } \\
+\vec { v } = \frac { d \vec { r } } { dt } = \frac { dx } { dt } \hat i + \frac { dy } { dt } \hat j = v _ { x } \hat i + v _ { y } \hat j \\
 v = | \vec v | = \sqrt { v _ { x } ^ { 2 } + v _ { y } ^ { 2 } } \\
 \theta = \arctan ( \frac { v _ { y } } { v _ { x } } ) \\
 \vec r = \text { position } \\
@@ -60,8 +60,8 @@ $$
 ### acceleration vector formula
 $$
 \begin{aligned}
-\vec a _ { a v g } = \frac { \Delta \vec v } { \Delta t } \\
-\vec { a } = \frac { d \vec { v } } { d t } = \frac { d ^ { 2 } \vec { r } } { d t ^ { 2 } } = a _ { x } \hat i + a _ { y } \hat j \\
+\vec a _ { avg } = \frac { \Delta \vec v } { \Delta t } \\
+\vec { a } = \frac { d \vec { v } } { dt } = \frac { d ^ { 2 } \vec { r } } { d t ^ { 2 } } = a _ { x } \hat i + a _ { y } \hat j \\
 a = | \vec a | = \sqrt { a _ { x } ^ { 2 } + a _ { y } ^ { 2 } } \\
 \theta = \arctan ( \frac { a _ { y } } { a _ { x } } ) \\
 \vec v = \text { velocity } \\
@@ -120,7 +120,7 @@ $$
 ### uniform circular motion formula
 $$
 \begin{aligned}
-a _ { r a d } \perp v _ { t a n }
+a _ { rad } \perp v _ { tan }
 \end{aligned}
 $$
 
@@ -132,7 +132,7 @@ $$
 ### uniform tangential velocity formula
 $$
 \begin{aligned}
-v _ { t a n } = \frac { 2 \pi r } { T } \\
+v _ { tan } = \frac { 2 \pi r } { T } \\
 r = \text { radius } \\
 T = \text { period }
 \end{aligned}
@@ -146,7 +146,7 @@ $$
 ### uniform radial acceleration formula
 $$
 \begin{aligned}
-a _ { r a d } = \frac { v _ { t a n } ^ { 2 } } { r } \\
+a _ { rad } = \frac { v _ { tan } ^ { 2 } } { r } \\
 v = \text { velocity } \\
 r = \text { radius }
 \end{aligned}
@@ -163,8 +163,8 @@ $$
 ### nonuniform circular motion formula
 $$
 \begin{aligned}
-a _ { r a d } \perp a _ { t a n } \\
-a _ { t a n } \parallel \pm v _ { t a n }
+a _ { rad } \perp a _ { tan } \\
+a _ { tan } \parallel \pm v _ { tan }
 \end{aligned}
 $$
 
@@ -178,7 +178,7 @@ $$
 ### nonuniform radial acceleration formula
 $$
 \begin{aligned}
-a = a _ { r a d } + a _ { t a n } = \frac { v _ { t a n } ^ { 2 } } { r } + \frac { d v _ { t a n } } { d t } \\
+a = a _ { rad } + a _ { tan } = \frac { v _ { tan } ^ { 2 } } { r } + \frac { d v _ { tan } } { dt } \\
 v = \text { velocity } \\
 r = \text { radius } \\
 t = \text { time }

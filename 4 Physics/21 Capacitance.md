@@ -78,7 +78,7 @@ $$
 ### series capacitance formula
 $$
 \begin{aligned}
-\frac { 1 } { C _ { e q } } = \sum _ { i } \frac { 1 } { C _ { i } } \\
+\frac { 1 } { C _ { eq } } = \sum _ { i } \frac { 1 } { C _ { i } } \\
 C = \text { capacitance }
 \end{aligned}
 $$
@@ -93,7 +93,7 @@ $$
 ### parallel capacitance formula
 $$
 \begin{aligned}
-C _ { e q } = \sum _ { i } C _ { i } \\
+C _ { eq } = \sum _ { i } C _ { i } \\
 C = \text { capacitance }
 \end{aligned}
 $$
@@ -111,7 +111,7 @@ $$
 ### electric potential energy formula
 $$
 \begin{aligned}
-U = \frac { Q V } { 2 } = \frac { C V ^ { 2 } } { 2 } = \frac { Q ^ { 2 } } { 2 C } \\
+U = \frac { QV } { 2 } = \frac { C V ^ { 2 } } { 2 } = \frac { Q ^ { 2 } } { 2 C } \\
 Q = \text { electric charge } \\
 V = \text { voltage } \\
 C = \text { capacitance }
@@ -193,7 +193,7 @@ $$
 ### gauss formula
 $$
 \begin{aligned}
-\pm \Phi = K \oint _ { A _ { 1 } } ^ { A _ { 2 } } \vec E \cdot d \vec A = \frac { \pm Q _ { e n c } } { \epsilon _ { 0 } } \\
+\pm \Phi = K \oint _ { A _ { 1 } } ^ { A _ { 2 } } \vec E \cdot d \vec A = \frac { \pm Q _ { enc } } { \epsilon _ { 0 } } \\
 K = \text { dielectric constant } \\
 E = \text { electric field } \\
 A = \text { area } \\

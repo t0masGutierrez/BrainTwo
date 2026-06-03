@@ -38,7 +38,7 @@ $$
 ### differential equation formula
 $$
 \begin{aligned}
-\frac { d x } { d t } = f ( t , x , \epsilon ) \\
+\frac { dx } { dt } = f ( t , x , \epsilon ) \\
 x ( t _ { 0 } , \epsilon ) = x _ { 0 } ( \epsilon ) \\
 t \ge 0 \\
 f = \text { perturbed equation } \\
@@ -90,7 +90,7 @@ $$
 ### analytic formula
 $$
 \begin{aligned}
-f ( t , x , \epsilon ) = \sum _ { i , j , k = 0 } ^ { \infty } c _ { i j k } ( t - t _ { 0 } ) ^ { i } ( x - x _ { 0 } ) ^ { j } ( \epsilon - \epsilon _ { 0 } ) ^ { k } \\
+f ( t , x , \epsilon ) = \sum _ { i , j , k = 0 } ^ { \infty } c _ { ijk } ( t - t _ { 0 } ) ^ { i } ( x - x _ { 0 } ) ^ { j } ( \epsilon - \epsilon _ { 0 } ) ^ { k } \\
 | t - t _ { 0 } | < \sigma , | x - x _ { 0 } | < \eta , | \epsilon - \epsilon _ { 0 } | < \rho \\
 f = \text { perturbed equation } \\
 t = \text { time } \\
@@ -245,7 +245,7 @@ $$
 ### regular differential equation formula
 $$
 \begin{aligned}
-\frac { d u } { d t } = F ( t , u , \epsilon ) \\
+\frac { du } { dt } = F ( t , u , \epsilon ) \\
 u ( t _ { 0 } , \epsilon ) = u _ { 0 } ( \epsilon ) \\
 0 \le \epsilon \ll 1 \\
 t \ge 0 \\
@@ -348,10 +348,10 @@ $$
 \epsilon y ' ' + \phi ( x ) y ' = f ( x ) \\
 a \le x \le b \\
 \epsilon = 0 \implies \phi ( x ) y ' = f ( x ) \\
-\phi ( x ) > 0 \implies q _ { i n } = a \\
-\phi ( x ) < 0 \implies q _ { i n } = b \\
-y ( q _ { o u t } ) = C e ^ { r q _ { o u t } } \\
-y _ { o u t } ( x )
+\phi ( x ) > 0 \implies q _ { in } = a \\
+\phi ( x ) < 0 \implies q _ { in } = b \\
+y ( q _ { out } ) = C e ^ { r q _ { out } } \\
+y _ { out } ( x )
 \end{aligned}
 $$
 
@@ -364,10 +364,10 @@ $$
 $$
 \begin{aligned}
 \epsilon y ' ' + \phi ( x ) y ' = f ( x ) \\
-\tau = \frac { x - q _ { i n } } { \epsilon ^ { n } } \\
-\frac { 1 } { \epsilon ^ { 2 n } } ( \frac { d ^ { 2 } y } { d \tau ^ { 2 } } ) + \frac { \phi ( x ) } { \epsilon ^ { n } } ( \frac { d y } { d \tau } ) = f ( x ) \\
-y ( q _ { i n } ) = A e ^ { r _ { 1 } q _ { i n } } + B e ^ { r _ { 2 } q _ { i n } } \\
-y _ { i n } ( \tau )
+\tau = \frac { x - q _ { in } } { \epsilon ^ { n } } \\
+\frac { 1 } { \epsilon ^ { 2 n } } ( \frac { d ^ { 2 } y } { d \tau ^ { 2 } } ) + \frac { \phi ( x ) } { \epsilon ^ { n } } ( \frac { dy } { d \tau } ) = f ( x ) \\
+y ( q _ { in } ) = A e ^ { r _ { 1 } q _ { in } } + B e ^ { r _ { 2 } q _ { in } } \\
+y _ { in } ( \tau )
 \end{aligned}
 $$
 
@@ -379,9 +379,9 @@ $$
 ### matching problem formula
 $$
 \begin{aligned}
-\lim _ { x \rightarrow 0 ^ { + } } y _ { o u t } ( x ) = \lim _ { \tau \rightarrow \infty } y _ { i n } ( \tau ) \\
-y _ { o u t } = \text { outer solution } \\
-y _ { i n } = \text { inner solution }
+\lim _ { x \rightarrow 0 ^ { + } } y _ { out } ( x ) = \lim _ { \tau \rightarrow \infty } y _ { in } ( \tau ) \\
+y _ { out } = \text { outer solution } \\
+y _ { in } = \text { inner solution }
 \end{aligned}
 $$
 
@@ -403,10 +403,10 @@ $$
 ### singular differential equation formula
 $$
 \begin{aligned}
-y ( x ) = y _ { o u t } ( x ) + y _ { i n } ( x ) - y _ { m a t c h } ( x ) \\
-y _ { o u t } = \text { outer solution } \\
-y _ { i n } = \text { inner solution } \\
-y _ { m a t c h } = \text { matching solution }
+y ( x ) = y _ { out } ( x ) + y _ { in } ( x ) - y _ { match } ( x ) \\
+y _ { out } = \text { outer solution } \\
+y _ { in } = \text { inner solution } \\
+y _ { match } = \text { matching solution }
 \end{aligned}
 $$
 

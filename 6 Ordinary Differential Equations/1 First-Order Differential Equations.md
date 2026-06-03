@@ -5,7 +5,7 @@
 ### ordinary differential equation formula
 $$
 \begin{aligned}
-f ( t , y , \frac { d y } { d t } , \dots , \frac { d ^ { n } y } { d t ^ { n } } ) = 0 \\
+f ( t , y , \frac { dy } { dt } , \dots , \frac { d ^ { n } y } { d t ^ { n } } ) = 0 \\
 t = \text { independent variable } \\
 y = \text { solution }
 \end{aligned}
@@ -19,7 +19,7 @@ $$
 ### 1st-order ode formula
 $$
 \begin{aligned}
-\frac { d y } { d t } = f ( t , y ) \\
+\frac { dy } { dt } = f ( t , y ) \\
 t = \text { independent variable } \\
 y = \text { solution }
 \end{aligned}
@@ -61,7 +61,7 @@ $$
 ### separable ode formula
 $$
 \begin{aligned}
-\frac { d y } { d t } = \frac { g ( t ) } { f ( y ) } \\
+\frac { dy } { dt } = \frac { g ( t ) } { f ( y ) } \\
 y = \text { solution } \\
 t = \text { independent variable }
 \end{aligned}
@@ -96,7 +96,7 @@ $$
 ### homogeneous ode formula
 $$
 \begin{aligned}
-f ( t , y , \frac { d y } { d t } ) = 0 \\
+f ( t , y , \frac { dy } { dt } ) = 0 \\
 t = \text { independent variable } \\
 y = \text { solution }
 \end{aligned}
@@ -110,7 +110,7 @@ $$
 ### nonhomogeneous ode formula
 $$
 \begin{aligned}
-f ( t , y , \frac { d y } { d t } ) \ne 0 \\
+f ( t , y , \frac { dy } { dt } ) \ne 0 \\
 t = \text { independent variable } \\
 y = \text { solution }
 \end{aligned}
@@ -127,7 +127,7 @@ $$
 ### linear ode formula
 $$
 \begin{aligned}
-\frac { d y } { d t } + a ( t ) y ( t ) = b ( t ) \\
+\frac { dy } { dt } + a ( t ) y ( t ) = b ( t ) \\
 y = \text { solution } \\
 t = \text { independent variable } \\
 a = \text { coefficient } \\
@@ -165,7 +165,7 @@ $$
 ### integrating factor formula
 $$
 \begin{aligned}
-\mu = \exp ( \int a ( t ) d t ) \implies \frac { d } { d t } [ \mu y ] = \mu ( t ) \frac { d y } { d t } + \mu ( t ) a ( t ) y ( t ) \\
+\mu = \exp ( \int a ( t ) d t ) \implies \frac { d } { dt } [ \mu y ] = \mu ( t ) \frac { dy } { dt } + \mu ( t ) a ( t ) y ( t ) \\
 \mu = \text { integrating factor } \\
 t = \text { independent variable } \\
 a = \text { coefficient } \\

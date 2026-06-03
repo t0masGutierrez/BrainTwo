@@ -282,7 +282,7 @@ $$
 $$
 \begin{aligned}
 E [ X _ { 1 } ] = \frac { r } { p } \\
-E [ X _ { 2 } ] = \frac { r q } { p } \\
+E [ X _ { 2 } ] = \frac { rq } { p } \\
 r = \text { success number } \\
 p = \text { probability of success } \\
 q = \text { probability of failure }
@@ -293,7 +293,7 @@ $$
 ### negative binomial PMF variance formula
 $$
 \begin{aligned}
-\text { Var } ( X ) = \frac { r q } { p ^ { 2 } } \\
+\text { Var } ( X ) = \frac { rq } { p ^ { 2 } } \\
 r = \text { success number } \\
 q = \text { probability of failure } \\
 p = \text { probability of success }
@@ -327,7 +327,7 @@ $$
 ### hypergeometric PMF expectation formula 
 $$
 \begin{aligned}
-E [ X ] = \frac { n K } { N } \\
+E [ X ] = \frac { nK } { N } \\
 X = \text { random variable } \\
 n = \text { number of items drawn } \\
 K = \text { interest size } \\
@@ -339,7 +339,7 @@ $$
 ### hypergeometric PMF variance formula
 $$
 \begin{aligned}
-\text { Var } ( X ) = ( \frac { n K } { N } ) ( 1 - \frac { K } { N } ) ( \frac { N - n } { N - 1 } ) \\
+\text { Var } ( X ) = ( \frac { nK } { N } ) ( 1 - \frac { K } { N } ) ( \frac { N - n } { N - 1 } ) \\
 X = \text { random variable } \\
 n = \text { number of items drawn } \\
 K = \text { interest size } \\

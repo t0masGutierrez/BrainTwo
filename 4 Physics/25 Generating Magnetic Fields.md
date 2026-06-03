@@ -147,7 +147,7 @@ $$
 ### amperes formula
 $$
 \begin{aligned}
-\oint _ { L _ { 1 } } ^ { L _ { 2 } } \vec B \cdot d \vec L = \mu _ { 0 } I _ { e n c } \\
+\oint _ { L _ { 1 } } ^ { L _ { 2 } } \vec B \cdot d \vec L = \mu _ { 0 } I _ { enc } \\
 B = \text { magnetic field } \\
 L = \text { length } \\
 \mu _ { 0 } = 4 \pi \times 10 ^ { - 7 } \\
@@ -159,10 +159,10 @@ $$
 ### calculate amperes law
 - identify amperian loop
 - compute vector components of magnetic field parallel length
-- uniform electric current density equal total electric current 
+- uniform electric current density equal total electric current
 - non uniform electric current density equal differential electric current
-- uniform electric current distribution equal $I \frac { A _ { e n c } } { A }$ 
-- non uniform electric current distribution equal $\int J \cdot 2 \pi r d r$ 
+- uniform electric current distribution equal $I \frac { A _ { enc } } { A }$
+- non uniform electric current distribution equal $\int J \cdot 2 \pi r d r$
 
 ---
 ### amperian loop
@@ -177,7 +177,7 @@ $$
 ### symmetrical electric current distribution formula
 $$
 \begin{aligned}
-B = \frac { \mu _ { 0 } I _ { e n c } } { L } \\
+B = \frac { \mu _ { 0 } I _ { enc } } { L } \\
 \mu _ { 0 } = 4 \pi \times 10 ^ { - 7 } \\
 I = \text { electric current } \\
 L = \text { length }
@@ -193,7 +193,7 @@ $$
 ### circular electric current distribution formula
 $$
 \begin{aligned}
-B = \frac { \mu _ { 0 } I _ { e n c } } { 2 \pi r } \\
+B = \frac { \mu _ { 0 } I _ { enc } } { 2 \pi r } \\
 \mu _ { 0 } = 4 \pi \times 10 ^ { - 7 } \\
 I = \text { electric current } \\
 r = \text { distance }

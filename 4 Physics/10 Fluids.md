@@ -62,7 +62,7 @@ $$
 ### relative density formula
 $$
 \begin{aligned}
-\rho ' = \frac { \rho } { \rho _ { w a t e r } } \\
+\rho ' = \frac { \rho } { \rho _ { water } } \\
 \rho = \text { density }
 \end{aligned}
 $$
@@ -121,9 +121,9 @@ $$
 ### absolute pressure formula
 $$
 \begin{aligned}
-p _ { a b s } = p _ { g } + p _ { a t m } = \rho g y + p _ { a t m } \\
+p _ { abs } = p _ { g } + p _ { atm } = \rho g y + p _ { atm } \\
 p _ { g } = \text { gauge pressure } \\
-p _ { a t m } = \text { atmospheric pressure } \\
+p _ { atm } = \text { atmospheric pressure } \\
 \rho = \text { density } \\
 g = \text { gravity } \\
 y = \text { position }
@@ -138,9 +138,9 @@ $$
 ### gauge pressure formula
 $$
 \begin{aligned}
-p _ { g } = p _ { a b s } - p _ { a t m } = \rho g y \\
-p _ { a b s } = \text { absolute pressure } \\
-p _ { a t m } = \text { atmospheric pressure } \\
+p _ { g } = p _ { abs } - p _ { atm } = \rho g y \\
+p _ { abs } = \text { absolute pressure } \\
+p _ { atm } = \text { atmospheric pressure } \\
 \rho = \text { density } \\
 g = \text { gravity } \\
 y = \text { position }
@@ -194,7 +194,7 @@ $$
 ### apparent weight formula
 $$
 \begin{aligned}
-\vec w _ { a p p } = \vec w - \vec F _ { b } \\
+\vec w _ { app } = \vec w - \vec F _ { b } \\
 \vec w = \text { weight } \\
 \vec F = \text { force }
 \end{aligned}
@@ -354,7 +354,7 @@ $$
 ### volume flow rate formula
 $$
 \begin{aligned}
-\frac { d V } { d t } = A v \\
+\frac { dV } { dt } = A v \\
 V = \text { volume } \\
 t = \text { time } \\
 A = \text { cross-section area } \\
