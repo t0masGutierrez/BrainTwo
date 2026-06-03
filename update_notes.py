@@ -13,6 +13,21 @@ REMOTE_IMAGE_PATTERN = re.compile(r"^(?:https?:|data:|blob:)", re.IGNORECASE)
 IMAGE_FOLDER_NAME = "Images"
 IGNORED_VAULT_FOLDERS = {"Templates", "BrainTwo.base"}
 TEXT_ARGUMENT_COMMANDS = {"\\operatorname", "\\text"}
+COMPACT_WORD_ARGUMENT_COMMANDS = {
+    "\\begin",
+    "\\end",
+    "\\textcolor",
+    "\\color",
+}
+SPACED_WORD_ARGUMENT_COMMANDS = {
+    *TEXT_ARGUMENT_COMMANDS,
+    "\\mathrm",
+    "\\mathbf",
+    "\\mathbb",
+    "\\mathcal",
+    "\\mathfrak",
+}
+WORD_ARGUMENT_COMMANDS = COMPACT_WORD_ARGUMENT_COMMANDS | SPACED_WORD_ARGUMENT_COMMANDS
 VAULT_ROOT = os.path.join(os.path.expanduser("~"), "Obsidian", "BrainTwo")
 OUTPUT_ROOT = os.path.join(os.path.expanduser("~"), "GitHub", "BrainTwo")
 
@@ -53,11 +68,15 @@ def math_tokens(text):
 
         if char == "\\":
             command, i = read_latex_command(text, i)
-            if command in TEXT_ARGUMENT_COMMANDS:
+            if command in WORD_ARGUMENT_COMMANDS:
                 next_i = skip_spaces(text, i)
                 if next_i < len(text) and text[next_i] == "{":
                     argument, end_i = read_braced_argument(text, next_i)
-                    tokens.extend([command, "{", normalize_text_argument(argument), "}"])
+                    normalized_argument = normalize_word_argument(argument)
+                    if command in COMPACT_WORD_ARGUMENT_COMMANDS:
+                        tokens.append(f"{command}{{{normalized_argument}}}")
+                    else:
+                        tokens.extend([command, "{", normalized_argument, "}"])
                     i = end_i
                     continue
             tokens.append(command)
@@ -146,6 +165,14 @@ def read_braced_argument(text, start):
 
 def normalize_text_argument(text):
     return re.sub(r"\s+", " ", text.strip())
+
+def normalize_word_argument(text):
+    normalized = normalize_text_argument(text)
+    return re.sub(
+        r"(?<![A-Za-z])(?:[A-Za-z]\s+){2,}[A-Za-z](?![A-Za-z])",
+        lambda match: match.group(0).replace(" ", ""),
+        normalized,
+    )
 
 def read_number(text, start):
     i = start
