@@ -23,10 +23,10 @@ F = \sqrt { F _ { x } ^ { 2 } + F _ { y } ^ { 2 } } \\
 \theta = \arctan ( \frac { F _ { y } } { F _ { x } } ) \\
 F _ { x } = F \cos ( \theta ) \\
 F _ { y } = F \sin ( \theta ) \\
-F = \text { force } \\
-\hat i = \text { x direction } \\
-\hat j = \text { y direction } \\
-\theta = \text { angle between vectors }
+F = \text {force} \\
+\hat i = \text {x direction} \\
+\hat j = \text {y direction} \\
+\theta = \text {angle between vectors}
 \end{aligned}
 $$
 
@@ -40,9 +40,9 @@ $$
 $$
 \begin{aligned}
 \vec F _ { net } = \sum _ { n } \vec F _ { n } = ( \sum _ { n } F _ { nx } ) \hat i + ( \sum _ { n } F _ { ny } ) \hat j \\
-\vec F = \text { force } \\
-\hat i = \text { x direction } \\
-\hat j = \text { y direction } \\
+\vec F = \text {force} \\
+\hat i = \text {x direction} \\
+\hat j = \text {y direction} \\
 \end{aligned}
 $$
 
@@ -56,8 +56,8 @@ $$
 $$
 \begin{aligned}
 \vec F _ { N } = m \vec a _ { N } \\
-m = \text { mass } \\
-\vec a = \text { acceleration }
+m = \text {mass} \\
+\vec a = \text {acceleration}
 \end{aligned}
 $$
 
@@ -74,9 +74,9 @@ $$
 \begin{aligned}
 \vec f _ { s } \le \mu _ { s } \vec F _ { N } \\
 \vec f _ { k } = \mu _ { k } \vec F _ { N } \\
-\mu _ { s } = \text { static friction coefficient } \\
-\mu _ { k } = \text { kinetic friction coefficient } \\
-\vec F = \text { force }
+\mu _ { s } = \text {static friction coefficient} \\
+\mu _ { k } = \text {kinetic friction coefficient} \\
+\vec F = \text {force}
 \end{aligned}
 $$
 
@@ -90,8 +90,8 @@ $$
 $$
 \begin{aligned}
 \vec F _ { T } = m \vec a _ { T } \\
-m = \text { mass } \\
-\vec a = \text { acceleration }
+m = \text {mass} \\
+\vec a = \text {acceleration}
 \end{aligned}
 $$
 
@@ -105,8 +105,8 @@ $$
 $$
 \begin{aligned}
 \vec w = m \vec g \\
-m = \text { mass } \\
-\vec g = \text { gravity }
+m = \text {mass} \\
+\vec g = \text {gravity}
 \end{aligned}
 $$
 
@@ -120,8 +120,8 @@ $$
 $$
 \begin{aligned}
 \vec F _ { c } = m \vec a _ { rad } \\
-m = \text { mass } \\
-\vec a = \text { acceleration }
+m = \text {mass} \\
+\vec a = \text {acceleration}
 \end{aligned}
 $$
 
@@ -135,8 +135,8 @@ $$
 $$
 \begin{aligned}
 \vec F _ { s } = - k \Delta \vec x \\
-k = \text { spring constant } \\
-\vec x = \text { position }
+k = \text {spring constant} \\
+\vec x = \text {position}
 \end{aligned}
 $$
 
@@ -150,11 +150,11 @@ $$
 \begin{aligned}
 \vec F _ { d } = - k \vec v \\
 \vec F _ { d } = \frac { - 1 } { 2 } \rho C _ { d } A \vec v ^ { 2 } \\
-k = \text { linear drag coefficient } \\
-\vec v = \text { velocity } \\
-\rho = \text { density } \\
-C _ { d } = \text { drag coefficient } \\
-A = \text { cross-section area }
+k = \text {linear drag coefficient} \\
+\vec v = \text {velocity} \\
+\rho = \text {density} \\
+C _ { d } = \text {drag coefficient} \\
+A = \text {cross-section area}
 \end{aligned}
 $$
 
@@ -167,9 +167,9 @@ $$
 $$
 \begin{aligned}
 \vec F _ { b } = \rho _ { f } V _ { f } \vec g \\
-\rho _ { f } = \text { fluid density } \\
-V _ { f } = \text { fluid volume } \\
-\vec g = \text { gravity }
+\rho _ { f } = \text {fluid density} \\
+V _ { f } = \text {fluid volume} \\
+\vec g = \text {gravity}
 \end{aligned}
 $$
 
@@ -214,10 +214,10 @@ $$
 $$
 \begin{aligned}
 \vec F _ { G } = G \frac { m _ { 1 } m _ { 2 } } { r ^ { 2 } } \hat r \\
-G = \text { gravitational constant } \\
-m = \text { mass } \\
-r = \text { distance between centers } \\
-\hat r = \text { direction }
+G = \text {gravitational constant} \\
+m = \text {mass} \\
+r = \text {distance between centers} \\
+\hat r = \text {direction}
 \end{aligned}
 $$
 
@@ -230,10 +230,10 @@ $$
 $$
 \begin{aligned}
 \vec F _ { EM } = q ( \vec E + \vec v \times \vec B ) \\
-q = \text { electric charge } \\
-\vec E = \text { electric field } \\
-\vec v = \text { velocity } \\
-\vec B = \text { magnetic field }
+q = \text {electric charge} \\
+\vec E = \text {electric field} \\
+\vec v = \text {velocity} \\
+\vec B = \text {magnetic field}
 \end{aligned}
 $$
 
@@ -271,8 +271,8 @@ $$
 $$
 \begin{aligned}
 \vec F _ { net } = 0 \implies \vec a = 0 \\
-\vec F = \text { force } \\
-\vec a = \text { acceleration }
+\vec F = \text {force} \\
+\vec a = \text {acceleration}
 \end{aligned}
 $$
 
@@ -290,9 +290,9 @@ $$
 F _ { x } = m a _ { x } \\
 F _ { y } = m a _ { y }
 \end{cases} \\
-m = \text { mass } \\
-\vec a = \text { acceleration } \\
-F = \text { force }
+m = \text {mass} \\
+\vec a = \text {acceleration} \\
+F = \text {force}
 \end{aligned}
 $$
 
@@ -307,8 +307,8 @@ $$
 $$
 \begin{aligned}
 \vec F _ { AB } = - \vec F _ { BA } \\
-\vec F = \text { force } \\
-A , B = \text { object }
+\vec F = \text {force} \\
+A , B = \text {object}
 \end{aligned}
 $$
 

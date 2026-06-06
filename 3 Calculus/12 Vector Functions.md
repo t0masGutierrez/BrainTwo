@@ -7,10 +7,10 @@
 $$
 \begin{aligned}
 \vec { r } ( t ) = x ( t ) \hat { i } + y ( t ) \hat { j } + z ( t ) \hat { k } \\
-x = \text { x position } \\
-y = \text { y position } \\
-z = \text { z position } \\
-t = \text { parameter }
+x = \text {x position} \\
+y = \text {y position} \\
+z = \text {z position} \\
+t = \text {parameter}
 \end{aligned}
 $$
 

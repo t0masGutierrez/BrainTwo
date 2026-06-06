@@ -19,10 +19,10 @@
 $$
 \begin{aligned}
 \frac { dQ } { dt } = \frac { k A \Delta T _ { k } } { L } \\
-k = \text { conductivity coefficient } \\
-A = \text { area } \\
-T _ { k } = \text { kelvin } \\
-L = \text { length }
+k = \text {conductivity coefficient} \\
+A = \text {area} \\
+T _ { k } = \text {kelvin} \\
+L = \text {length}
 \end{aligned}
 $$
 
@@ -32,9 +32,9 @@ $$
 \begin{aligned}
 P = \sigma A e ( T ^ { 4 } - T _ { 0 } ^ { 4 } ) \\
 \sigma = 5.67 \times 10 ^ { - 8 } \\
-A = \text { area } \\
-e = \text { emmisivity coefficient } \\
-T = \text { temperature }
+A = \text {area} \\
+e = \text {emmisivity coefficient} \\
+T = \text {temperature}
 \end{aligned}
 $$
 
@@ -59,9 +59,9 @@ $$
 $$
 \begin{aligned}
 \frac { dT } { dt } = k ( T - T _ { 0 } ) \\
-k = \text { cooling constant } \\
-T = \text { system temperature } \\
-T _ { 0 } = \text { surrounding temperature }
+k = \text {cooling constant} \\
+T = \text {system temperature} \\
+T _ { 0 } = \text {surrounding temperature}
 \end{aligned}
 $$
 
@@ -76,8 +76,8 @@ $$
 $$
 \begin{aligned}
 p _ { 1 } V _ { 1 } = p _ { 2 } V _ { 2 } \\
-p = \text { pressure } \\
-V = \text { volume }
+p = \text {pressure} \\
+V = \text {volume}
 \end{aligned}
 $$
 
@@ -92,8 +92,8 @@ $$
 $$
 \begin{aligned}
 \frac { V _ { 1 } } { T _ { 1 } } = \frac { V _ { 2 } } { T _ { 2 } } \\
-V = \text { volume } \\
-T = \text { temperature }
+V = \text {volume} \\
+T = \text {temperature}
 \end{aligned}
 $$
 
@@ -108,8 +108,8 @@ $$
 $$
 \begin{aligned}
 \frac { V _ { 1 } } { n _ { 1 } } = \frac { V _ { 2 } } { n _ { 2 } } \\
-V = \text { volume } \\
-n = \text { number of moles }
+V = \text {volume} \\
+n = \text {number of moles}
 \end{aligned}
 $$
 
@@ -123,9 +123,9 @@ $$
 $$
 \begin{aligned}
 p V = N k _ { b } T _ { k } \\
-N = \text { number of molecules } \\
+N = \text {number of molecules} \\
 k _ { b } = 1.38 \times 10 ^ { - 23 } \\
-T _ { k } = \text { kelvin }
+T _ { k } = \text {kelvin}
 \end{aligned}
 $$
 
@@ -134,9 +134,9 @@ $$
 $$
 \begin{aligned}
 p V = n R T _ { k } \\
-n = \text { number of moles } \\
+n = \text {number of moles} \\
 R = 8.31 \\
-T _ { k } = \text { kelvin }
+T _ { k } = \text {kelvin}
 \end{aligned}
 $$
 
@@ -159,8 +159,8 @@ $$
 $$
 \begin{aligned}
 M = \frac { m } { n } \\
-m = \text { mass } \\
-n = \text { number of moles }
+m = \text {mass} \\
+n = \text {number of moles}
 \end{aligned}
 $$
 
@@ -173,8 +173,8 @@ $$
 $$
 \begin{aligned}
 N _ { A } = \frac { N } { n } = 6.02 \times 10 ^ { 23 } \\
-N = \text { number of molecules } \\
-n = \text { number of moles }
+N = \text {number of molecules} \\
+n = \text {number of moles}
 \end{aligned}
 $$
 
@@ -187,8 +187,8 @@ $$
 $$
 \begin{aligned}
 \rho = \frac { N } { V } \\
-N = \text { number of molecules } \\
-V = \text { volume }
+N = \text {number of molecules} \\
+V = \text {volume}
 \end{aligned}
 $$
 
@@ -207,10 +207,10 @@ $$
 \begin{aligned}
 K _ { avg } = \frac { 3 } { 2 } k _ { b } T _ { k } = \frac { 1 } { 2 } m v _ { rms } ^ { 2 } \\
 k _ { b } = 1.38 \times 10 ^ { - 23 } \\
-T _ { k } = \text { kelvin } \\
-v _ { rms } = \text { rms velocity } \\
-m = \text { mass } \\
-v = \text { velocity }
+T _ { k } = \text {kelvin} \\
+v _ { rms } = \text {rms velocity} \\
+m = \text {mass} \\
+v = \text {velocity}
 \end{aligned}
 $$
 
@@ -224,10 +224,10 @@ $$
 \begin{aligned}
 v _ { rms } = \sqrt { \frac { 3 k _ { b } T _ { k } } { m } } = \sqrt { \frac { 3 R T _ { k } } { M } } \\
 k _ { b } = 1.38 \times 10 ^ { - 23 } \\
-T _ { k } = \text { kelvin } \\
-m = \text { mass } \\
+T _ { k } = \text {kelvin} \\
+m = \text {mass} \\
 R = 8.31 \\
-M = \text { molar mass }
+M = \text {molar mass}
 \end{aligned}
 $$
 
@@ -241,10 +241,10 @@ $$
 $$
 \begin{aligned}
 f ( v ) = \frac { 4 } { \sqrt \pi { } } ( \frac { m } { 2 k _ { b } T _ { k } } ) ^ { \frac { 3 } { 2 } } v ^ { 2 } e ^ { ( \frac { - m v ^ { 2 } } { 2 k _ { b } T _ { k } } ) } \\
-m = \text { mass } \\
+m = \text {mass} \\
 k _ { b } = 1.38 \times 10 ^ { - 23 } \\
-T _ { k } = \text { kelvin } \\
-v = \text { velocity }
+T _ { k } = \text {kelvin} \\
+v = \text {velocity}
 \end{aligned}
 $$
 
@@ -258,11 +258,11 @@ $$
 $$
 \begin{aligned}
 E = \frac { f } { 2 } N k _ { b } T _ { k } = \frac { f } { 2 } n R T _ { k } \\
-f = \text { degrees of freedom } \\
-N = \text { number of molecules } \\
+f = \text {degrees of freedom} \\
+N = \text {number of molecules} \\
 k _ { b } = 1.38 \times 10 ^ { - 23 } \\
-T _ { k } = \text { kelvin } \\
-n = \text { number of moles } \\
+T _ { k } = \text {kelvin} \\
+n = \text {number of moles} \\
 R = 8.31
 \end{aligned}
 $$
@@ -284,8 +284,8 @@ $$
 \begin{aligned}
 f _ { 1 } = 3 _ { t } \\
 f _ { 2 } = 3 _ { t } + 2 _ { r } \\
-t = \text { translation } \\
-r = \text { rotation }
+t = \text {translation} \\
+r = \text {rotation}
 \end{aligned}
 $$
 
@@ -299,9 +299,9 @@ $$
 $$
 \begin{aligned}
 Q = n c \Delta T _ { k } \\
-n = \text { number of moles } \\
-c = \text { specific heat capacity } \\
-T _ { k } = \text { kelvin }
+n = \text {number of moles} \\
+c = \text {specific heat capacity} \\
+T _ { k } = \text {kelvin}
 \end{aligned}
 $$
 
@@ -315,7 +315,7 @@ $$
 $$
 \begin{aligned}
 c _ { v } = \frac { f } { 2 } R \\
-f = \text { degrees of freedom } \\
+f = \text {degrees of freedom} \\
 R = 8.31
 \end{aligned}
 $$

@@ -6,8 +6,8 @@
 $$
 \begin{aligned}
 y = f ( x ) \\
-x = \text { independent variable } \\
-y = \text { dependent variable }
+x = \text {independent variable} \\
+y = \text {dependent variable}
 \end{aligned}
 $$
 
@@ -22,10 +22,10 @@ $$
 \vec r ( t ) = ( x , y ) \\
 x = f ( t ) \\
 y = g ( t ) \\
-\vec r = \text { position } \\
-x , y = \text { dependent variable } \\
-f , g = \text { function } \\
-t = \text { parameter }
+\vec r = \text {position} \\
+x , y = \text {dependent variable} \\
+f , g = \text {function} \\
+t = \text {parameter}
 \end{aligned}
 $$
 
@@ -39,11 +39,11 @@ $$
 $$
 \begin{aligned}
 C = \set { ( x , y ) \mid x = f ( t ) , y = g ( t ) , t \in I } = \vec r ( I ) \\
-x , y = \text { dependent variable } \\
-f , g = \text { function } \\
-t = \text { parameter } \\
-I = \text { interval } \\
-\vec r = \text { position }
+x , y = \text {dependent variable} \\
+f , g = \text {function} \\
+t = \text {parameter} \\
+I = \text {interval} \\
+\vec r = \text {position}
 \end{aligned}
 $$
 
@@ -59,12 +59,12 @@ $$
 $$
 \begin{aligned}
 y = f ( x ) \implies \vec r ( t ) = ( t , f ( t ) ) , \  t \in I \\
-y = \text { dependent variable } \\
-f = \text { function } \\
-x = \text { independent variable } \\
-\vec r = \text { position } \\
-t = \text { parameter } \\
-I = \text { interval }
+y = \text {dependent variable} \\
+f = \text {function} \\
+x = \text {independent variable} \\
+\vec r = \text {position} \\
+t = \text {parameter} \\
+I = \text {interval}
 \end{aligned}
 $$
 
@@ -80,12 +80,12 @@ $$
 $$
 \begin{aligned}
 \vec r ( t ) = ( t , f ( t ) ) \implies y = f ( x ) , \  x \in f ( I ) \\
-\vec r = \text { position } \\
-t = \text { parameter } \\
-f = \text { function } \\
-y = \text { dependent variable } \\
-x = \text { independent variable } \\
-I = \text { interval }
+\vec r = \text {position} \\
+t = \text {parameter} \\
+f = \text {function} \\
+y = \text {dependent variable} \\
+x = \text {independent variable} \\
+I = \text {interval}
 \end{aligned}
 $$
 
@@ -153,10 +153,10 @@ $$
 $$
 \begin{aligned}
 x ^ { 2 } + y ^ { 2 } = r ^ { 2 } \implies \vec r ( t ) = ( r \cos t , r \sin t ) \\
-x , y = \text { dependent variable } \\
-r = \text { radius } \\
-\vec r = \text { position } \\
-t = \text { parameter }
+x , y = \text {dependent variable} \\
+r = \text {radius} \\
+\vec r = \text {position} \\
+t = \text {parameter}
 \end{aligned}
 $$
 
@@ -169,11 +169,11 @@ $$
 $$
 \begin{aligned}
 \frac { x ^ { 2 } } { a ^ { 2 } } + \frac { y ^ { 2 } } { b ^ { 2 } } = 1 \implies \vec r ( t ) = ( a \cos t , b \sin t ) \\
-x , y = \text { dependent variable } \\
-a = \text { horizontal radius } \\
-b = \text { vertical radius } \\
-\vec r = \text { position } \\
-t = \text { parameter }
+x , y = \text {dependent variable} \\
+a = \text {horizontal radius} \\
+b = \text {vertical radius} \\
+\vec r = \text {position} \\
+t = \text {parameter}
 \end{aligned}
 $$
 
@@ -186,11 +186,11 @@ $$
 $$
 \begin{aligned}
 \frac { x ^ { 2 } } { a ^ { 2 } } + \frac { y ^ { 2 } } { b ^ { 2 } } = 1 \implies \vec r ( t ) = ( a \cos t , b \sin t ) \\
-x , y = \text { dependent variable } \\
-a = \text { horizontal radius } \\
-b = \text { vertical radius } \\
-\vec r = \text { position } \\
-t = \text { parameter }
+x , y = \text {dependent variable} \\
+a = \text {horizontal radius} \\
+b = \text {vertical radius} \\
+\vec r = \text {position} \\
+t = \text {parameter}
 \end{aligned}
 $$
 
@@ -203,11 +203,11 @@ $$
 $$
 \begin{aligned}
 \frac { x ^ { 2 } } { a ^ { 2 } } - \frac { y ^ { 2 } } { b ^ { 2 } } = 1 \implies \vec r ( t ) = ( a \sec t , b \tan t ) \\
-x , y = \text { dependent variable } \\
-a = \text { horizontal radius } \\
-b = \text { vertical radius } \\
-\vec r = \text { position } \\
-t = \text { parameter }
+x , y = \text {dependent variable} \\
+a = \text {horizontal radius} \\
+b = \text {vertical radius} \\
+\vec r = \text {position} \\
+t = \text {parameter}
 \end{aligned}
 $$
 

@@ -6,11 +6,11 @@
 $$
 \begin{aligned}
 c _ { ij } = \sum _ { k } ^ { n } a _ { ik } b _ { kj } = \vec a _ { i } \cdot \vec b _ { j } \\
-a , b = \text { entry } \\
-i = \text { A row index } \\
-k = \text { A column index } \\
-j = \text { B column index } \\
-k = \text { B row index }
+a , b = \text {entry} \\
+i = \text {A row index} \\
+k = \text {A column index} \\
+j = \text {B column index} \\
+k = \text {B row index}
 \end{aligned}
 $$
 
@@ -23,8 +23,8 @@ $$
 $$
 \begin{aligned}
 C _ { i * } = \vec a _ { i } \cdot B \\
-\vec a = \text { row vector } \\
-B = \text { matrix }
+\vec a = \text {row vector} \\
+B = \text {matrix}
 \end{aligned}
 $$
 
@@ -37,8 +37,8 @@ $$
 $$
 \begin{aligned}
 C _ { * j } = \vec b _ { j } \cdot A \\
-\vec b = \text { column vector } \\
-A = \text { matrix }
+\vec b = \text {column vector} \\
+A = \text {matrix}
 \end{aligned}
 $$
 
@@ -51,7 +51,7 @@ $$
 $$
 \begin{aligned}
 A ^ { 2 } = A \\
-A = \text { square matrix }
+A = \text {square matrix}
 \end{aligned}
 $$
 
@@ -64,11 +64,11 @@ $$
 $$
 \begin{aligned}
 ( | A | = m \times n ) \land ( | B | = n \times p ) \implies | A B | = m \times p \\
-A , B = \text { matrix } \\
-m = \text { number of A rows } \\
-n = \text { number of A columns } \\
-n = \text { number of B rows } \\
-p = \text { number of B columns }
+A , B = \text {matrix} \\
+m = \text {number of A rows} \\
+n = \text {number of A columns} \\
+n = \text {number of B rows} \\
+p = \text {number of B columns}
 \end{aligned}
 $$
 
@@ -119,8 +119,8 @@ $$
 ( A B ) ^ { T } = B ^ { T } A ^ { T } \\
 | B ^ { T } | = p \times n \\
 | A ^ { T } | = n \times m \\
-A , B = \text { matrix } \\
-T = \text { transposition }
+A , B = \text {matrix} \\
+T = \text {transposition}
 \end{aligned}
 $$
 

@@ -46,7 +46,7 @@ $$
 $$
 \begin{aligned}
 {}[ x ] = \set { y \in S | y \sim x } \\
-x = \text { representative }
+x = \text {representative}
 \end{aligned}
 $$
 
@@ -60,7 +60,7 @@ $$
 \begin{aligned}
 \forall a \in A , \forall b \in B : f ( a _ { 1 } ) = f ( a _ { 2 } ) \implies a _ { 1 } = a _ { 2 } \\
 f : A \rightarrow B \\
-f = \text { injection }
+f = \text {injection}
 \end{aligned}
 $$
 
@@ -74,7 +74,7 @@ $$
 \begin{aligned}
 \forall b \in B , \exists a \in A : f ( a ) = b \\
 f : A \rightarrow B \\
-f = \text { surjection }
+f = \text {surjection}
 \end{aligned}
 $$
 
@@ -88,7 +88,7 @@ $$
 \begin{aligned}
 \forall b \in B , \exists ! a \in A : f ( a ) = b \\
 f : A \rightarrow B \\
-f = \text { bijection }
+f = \text {bijection}
 \end{aligned}
 $$
 

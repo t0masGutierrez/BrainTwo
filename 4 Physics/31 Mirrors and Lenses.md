@@ -54,8 +54,8 @@
 $$
 \begin{aligned}
 m = \frac { y ' } { y } = \frac { - r ' } { r } \\
-y = \text { position } \\
-r = \text { distance }
+y = \text {position} \\
+r = \text {distance}
 \end{aligned}
 $$
 
@@ -127,7 +127,7 @@ $$
 $$
 \begin{aligned}
 f = \frac { R } { 2 } \\
-R = \text { radius }
+R = \text {radius}
 \end{aligned}
 $$
 
@@ -141,7 +141,7 @@ $$
 $$
 \begin{aligned}
 \sin ( \theta ) \approx \theta \\
-\theta = \text { angular position }
+\theta = \text {angular position}
 \end{aligned}
 $$
 
@@ -189,8 +189,8 @@ $$
 $$
 \begin{aligned}
 \frac { 1 } { f } = \frac { 1 } { r } + \frac { 1 } { r ' } \\
-r = \text { object distance } \\
-r ' = \text { image distance }
+r = \text {object distance} \\
+r ' = \text {image distance}
 \end{aligned}
 $$
 
@@ -269,8 +269,8 @@ $$
 $$
 \begin{aligned}
 \frac { 1 } { f } = ( \frac { n _ { 2 } } { n _ { 1 } } - 1 ) ( \frac { 1 } { R _ { 1 } } - \frac { 1 } { R _ { 2 } } ) \\
-n = \text { refraction index } \\
-R = \text { radius }
+n = \text {refraction index} \\
+R = \text {radius}
 \end{aligned}
 $$
 
@@ -332,7 +332,7 @@ $$
 $$
 \begin{aligned}
 P = \frac { 1 } { f } \\
-f = \text { focal length }
+f = \text {focal length}
 \end{aligned}
 $$
 
@@ -370,8 +370,8 @@ $$
 $$
 \begin{aligned}
 f / \# = \frac { f } { D } \\
-f = \text { focal length } \\
-D = \text { diameter }
+f = \text {focal length} \\
+D = \text {diameter}
 \end{aligned}
 $$
 
@@ -384,7 +384,7 @@ $$
 $$
 \begin{aligned}
 I \propto \frac { 1 } { ( f / \# ) ^ { 2 } } \\
-f / \# = \text { f number }
+f / \# = \text {f number}
 \end{aligned}
 $$
 
@@ -398,7 +398,7 @@ $$
 $$
 \begin{aligned}
 M = \frac { \theta ' } { \theta } \\
-\theta = \text { angular position }
+\theta = \text {angular position}
 \end{aligned}
 $$
 
@@ -422,8 +422,8 @@ $$
 $$
 \begin{aligned}
 M = \frac { N } { f } \\
-N = \text { near point distance } \\
-f = \text { focal length }
+N = \text {near point distance} \\
+f = \text {focal length}
 \end{aligned}
 $$
 
@@ -436,8 +436,8 @@ $$
 $$
 \begin{aligned}
 M = \frac { N } { f } + 1 \\
-N = \text { near point distance } \\
-f = \text { focal length }
+N = \text {near point distance} \\
+f = \text {focal length}
 \end{aligned}
 $$
 
@@ -475,11 +475,11 @@ $$
 \begin{aligned}
 M = m _ { obj } \times M _ { eye } = \frac { - r _ { o } ' } { r _ { o } } \times \frac { N } { f _ { e } } \approx \frac { - r _ { o } ' N } { f _ { o } f _ { e } } \\
 L = r _ { o } ' + f _ { e } \\
-r _ { o } ' = \text { objective image distance } \\
-r _ { o } = \text { objective object distance } \\
-N = \text { near point distance } \\
-f _ { e } = \text { eyepiece focal length } \\
-f _ { o } = \text { objective focal length }
+r _ { o } ' = \text {objective image distance} \\
+r _ { o } = \text {objective object distance} \\
+N = \text {near point distance} \\
+f _ { e } = \text {eyepiece focal length} \\
+f _ { o } = \text {objective focal length}
 \end{aligned}
 $$
 
@@ -499,10 +499,10 @@ $$
 \begin{aligned}
 M = \frac { \theta ' } { \theta } \approx \frac { - y } { f _ { e } } \times \frac { f _ { o } } { y } = \frac { - f _ { o } } { f _ { e } } \\
 L = f _ { o } + f _ { e } \\
-\theta = \text { angular position } \\
-y = \text { position } \\
-f _ { o } = \text { objective focal length } \\
-f _ { e } = \text { eyepiece focal length }
+\theta = \text {angular position} \\
+y = \text {position} \\
+f _ { o } = \text {objective focal length} \\
+f _ { e } = \text {eyepiece focal length}
 \end{aligned}
 $$
 

@@ -6,8 +6,8 @@
 $$
 \begin{aligned}
 \omega _ { 1 } , \omega _ { 2 } \subset \Omega \implies X _ { 1 } \ne X _ { 2 } \\
-\omega = \text { sample } \\
-X = \text { sample statistic }
+\omega = \text {sample} \\
+X = \text {sample statistic}
 \end{aligned}
 $$
 
@@ -20,9 +20,9 @@ $$
 $$
 \begin{aligned}
 X \sim ( \mu _ { X } , \sigma _ { X } ) \\
-X = \text { sample statistic } \\
-\mu = \text { mean } \\
-\sigma = \text { standard deviation }
+X = \text {sample statistic} \\
+\mu = \text {mean} \\
+\sigma = \text {standard deviation}
 \end{aligned}
 $$
 
@@ -35,9 +35,9 @@ $$
 $$
 \begin{aligned}
 S E ( \overline x ) = \frac { \sigma } { \sqrt n } \approx \frac { s } { \sqrt n } \\
-\sigma = \text { sample standard deviation } \\
-n = \text { sample size } \\
-s = \text { sample standard deviation }
+\sigma = \text {sample standard deviation} \\
+n = \text {sample size} \\
+s = \text {sample standard deviation}
 \end{aligned}
 $$
 
@@ -46,9 +46,9 @@ $$
 $$
 \begin{aligned}
 S E ( \hat p ) = \sqrt { \frac { p ( 1 - p ) } { n } } \approx \sqrt { \frac { \hat p ( 1 - \hat p ) } { n } } \\
-p = \text { proportion } \\
-n = \text { sample size } \\
-\hat p = \text { sample proportion }
+p = \text {proportion} \\
+n = \text {sample size} \\
+\hat p = \text {sample proportion}
 \end{aligned}
 $$
 
@@ -61,9 +61,9 @@ $$
 $$
 \begin{aligned}
 \lim _ { n \rightarrow \infty } X = \mathcal X \\
-n = \text { sample size } \\
-X = \text { sample statistic } \\
-\mathcal X = \text { population parameter }
+n = \text {sample size} \\
+X = \text {sample statistic} \\
+\mathcal X = \text {population parameter}
 \end{aligned}
 $$
 
@@ -76,10 +76,10 @@ $$
 $$
 \begin{aligned}
 \forall n \ge 30 : X \sim N ( \mu , \frac { \sigma } { \sqrt n } ) \\
-n = \text { sample size } \\
-X = \text { sample statistic } \\
-\mu = \text { mean } \\
-\sigma = \text { standard deviation }
+n = \text {sample size} \\
+X = \text {sample statistic} \\
+\mu = \text {mean} \\
+\sigma = \text {standard deviation}
 \end{aligned}
 $$
 

@@ -29,8 +29,8 @@
 $$
 \begin{aligned}
 P _ { avg } = \frac { E } { t } \\
-E = \text { energy } \\
-t = \text { time }
+E = \text {energy} \\
+t = \text {time}
 \end{aligned}
 $$
 
@@ -43,8 +43,8 @@ $$
 $$
 \begin{aligned}
 P = \vec F \cdot \vec v \\
-F = \text { force } \\
-v = \text { velocity }
+F = \text {force} \\
+v = \text {velocity}
 \end{aligned}
 $$
 
@@ -58,8 +58,8 @@ $$
 $$
 \begin{aligned}
 I = \frac { P } { A } \\
-P = \text { power } \\
-A = \text { area }
+P = \text {power} \\
+A = \text {area}
 \end{aligned}
 $$
 
@@ -73,8 +73,8 @@ $$
 $$
 \begin{aligned}
 I = \frac { P } { 4 \pi r ^ { 2 } } \\
-P = \text { power } \\
-r = \text { distance }
+P = \text {power} \\
+r = \text {distance}
 \end{aligned}
 $$
 
@@ -88,7 +88,7 @@ $$
 $$
 \begin{aligned}
 \beta = 10 \log ( \frac { I } { I _ { 0 } } ) \\
-I = \text { sound intensity } \\
+I = \text {sound intensity} \\
 I _ { 0 } = 10 ^ { - 12 }
 \end{aligned}
 $$
@@ -103,8 +103,8 @@ $$
 $$
 \begin{aligned}
 \Delta I ^ { n } \implies \Delta \beta = 10 n \\
-I = \text { sound intensity } \\
-\beta = \text { sound intensity level }
+I = \text {sound intensity} \\
+\beta = \text {sound intensity level}
 \end{aligned}
 $$
 
@@ -118,9 +118,9 @@ $$
 $$
 \begin{aligned}
 f _ { o } = ( \frac { v \pm v _ { 0 } } { v } ) f _ { s } \\
-v = \text { 343 } \\
-v _ { o } = \text { observer velocity } \\
-f _ { s } = \text { source frequency }
+v = \text {343} \\
+v _ { o } = \text {observer velocity} \\
+f _ { s } = \text {source frequency}
 \end{aligned}
 $$
 
@@ -135,8 +135,8 @@ $$
 \begin{aligned}
 f _ { o } = ( \frac { v } { v \mp v _ { s } } ) f _ { s } \\
 v = 343 \\
-v _ { s } = \text { source velocity } \\
-f _ { s } = \text { source frequency }
+v _ { s } = \text {source velocity} \\
+f _ { s } = \text {source frequency}
 \end{aligned}
 $$
 
@@ -153,9 +153,9 @@ $$
 \begin{aligned}
 f _ { o } = ( \frac { v \pm v _ { o } } { v \mp v _ { s } } ) f _ { s } \\
 v = 343 \\
-v _ { o } = \text { observer velocity } \\
-v _ { s } = \text { source velocity } \\
-f _ { s } = \text { source frequency } \\
+v _ { o } = \text {observer velocity} \\
+v _ { s } = \text {source velocity} \\
+f _ { s } = \text {source frequency} \\
 \end{aligned}
 $$
 
@@ -175,7 +175,7 @@ $$
 \begin{aligned}
 \Delta r = n \lambda \\
 n = Z ^ { + } \\
-\lambda = \text { wavelength }
+\lambda = \text {wavelength}
 \end{aligned}
 $$
 
@@ -185,7 +185,7 @@ $$
 \begin{aligned}
 \Delta r = ( n + \frac { 1 } { 2 } ) \lambda \\
 n = Z ^ { + } \\
-\lambda = \text { wavelength }
+\lambda = \text {wavelength}
 \end{aligned}
 $$
 
@@ -199,8 +199,8 @@ $$
 $$
 \begin{aligned}
 f = | f _ { 2 } - f _ { 1 } | \\
-f _ { 2 } = \text { reflect frequency } \\
-f _ { 1 } = \text { incident frequency }
+f _ { 2 } = \text {reflect frequency} \\
+f _ { 1 } = \text {incident frequency}
 \end{aligned}
 $$
 
@@ -218,7 +218,7 @@ $$
 $$
 \begin{aligned}
 \lambda _ { n } = \frac { 4 L } { n } \\
-L = \text { length } \\
+L = \text {length} \\
 n = 1 , 3 , 5 , . . .
 \end{aligned}
 $$
@@ -233,8 +233,8 @@ $$
 \begin{aligned}
 f _ { n } = \frac { nv } { 4 L } \\
 n = 1 , 3 , 5 , . . . \\
-v = \text { wave velocity } \\
-L = \text { length }
+v = \text {wave velocity} \\
+L = \text {length}
 \end{aligned}
 $$
 

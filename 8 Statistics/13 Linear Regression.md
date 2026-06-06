@@ -6,8 +6,8 @@
 $$
 \begin{aligned}
 b = \frac { y _ { 2 } - y _ { 1 } } { x _ { 2 } - x _ { 1 } } \\
-x = \text { independent variable } \\
-y = \text { dependent variable }
+x = \text {independent variable} \\
+y = \text {dependent variable}
 \end{aligned}
 $$
 
@@ -20,9 +20,9 @@ $$
 $$
 \begin{aligned}
 x = 0 \implies a = y \\
-x = \text { independent variable } \\
-y = \text { dependent variable } \\
-a = \text { y-intercept }
+x = \text {independent variable} \\
+y = \text {dependent variable} \\
+a = \text {y-intercept}
 \end{aligned}
 $$
 
@@ -35,10 +35,10 @@ $$
 $$
 \begin{aligned}
 y = a + b x \\
-a = \text { y-intercept } \\
-b = \text { slope } \\
-x = \text { independent variable } \\
-y = \text { dependent variable }
+a = \text {y-intercept} \\
+b = \text {slope} \\
+x = \text {independent variable} \\
+y = \text {dependent variable}
 \end{aligned}
 $$
 
@@ -52,8 +52,8 @@ $$
 $$
 \begin{aligned}
 X \times Y = \set { ( x , y ) \mid x \in X , y \in Y } \\
-x = \text { independent variable } \\
-y = \text { dependent variable }
+x = \text {independent variable} \\
+y = \text {dependent variable}
 \end{aligned}
 $$
 
@@ -76,10 +76,10 @@ $$
 $$
 \begin{aligned}
 \hat y = a + b x \\
-a = \text { y-intercept } \\
-b = \text { slope } \\
-x = \text { independent variable } \\
-\hat y = \text { prediction }
+a = \text {y-intercept} \\
+b = \text {slope} \\
+x = \text {independent variable} \\
+\hat y = \text {prediction}
 \end{aligned}
 $$
 
@@ -92,8 +92,8 @@ $$
 $$
 \begin{aligned}
 b = r \frac { s _ { y } } { s _ { x } } \\
-r = \text { correlation } \\
-s _ { x } , s _ { y } = \text { sample standard deviation }
+r = \text {correlation} \\
+s _ { x } , s _ { y } = \text {sample standard deviation}
 \end{aligned}
 $$
 
@@ -106,8 +106,8 @@ $$
 $$
 \begin{aligned}
 a = \overline y - b \overline x \\
-\overline x , \overline y = \text { sample mean } \\
-b = \text { slope }
+\overline x , \overline y = \text {sample mean} \\
+b = \text {slope}
 \end{aligned}
 $$
 
@@ -120,8 +120,8 @@ $$
 $$
 \begin{aligned}
 e = y - \hat y \\
-y = \text { dependent variable } \\
-\hat y = \text { prediction }
+y = \text {dependent variable} \\
+\hat y = \text {prediction}
 \end{aligned}
 $$
 
@@ -134,8 +134,8 @@ $$
 $$
 \begin{aligned}
 S S E = \sum _ { i } ^ { n } e _ { i } ^ { 2 } \\
-n = \text { sample size } \\
-e = \text { residual }
+n = \text {sample size} \\
+e = \text {residual}
 \end{aligned}
 $$
 
@@ -148,9 +148,9 @@ $$
 $$
 \begin{aligned}
 S S R = \sum _ { i } ^ { n } ( \overline y _ { i } - \hat y _ { i } ) ^ { 2 } \\
-n = \text { sample size } \\
-\overline y = \text { sample mean } \\
-\hat y = \text { prediction }
+n = \text {sample size} \\
+\overline y = \text {sample mean} \\
+\hat y = \text {prediction}
 \end{aligned}
 $$
 
@@ -163,9 +163,9 @@ $$
 $$
 \begin{aligned}
 S S T = \sum _ { i } ^ { n } ( y _ { i } - \overline y _ { i } ) ^ { 2 } = S S E + S S R \\
-n = \text { sample size } \\
-\hat y = \text { prediction } \\
-\overline y = \text { sample mean }
+n = \text {sample size} \\
+\hat y = \text {prediction} \\
+\overline y = \text {sample mean}
 \end{aligned}
 $$
 
@@ -179,8 +179,8 @@ $$
 \begin{aligned}
 R ^ { 2 } = \frac { SSR } { SST } \\
 0 \le R ^ { 2 } \le 1 \\
-S S R = \text { explained variation } \\
-S S T = \text { total variation }
+S S R = \text {explained variation} \\
+S S T = \text {total variation}
 \end{aligned}
 $$
 
@@ -194,10 +194,10 @@ $$
 \begin{aligned}
 # # # r = \frac { \sum z _ { x } z _ { y } } { n - 1 } \\
 - 1 \le r \le 1 \\
-z = \text { z-score } \\
-n = \text { sample size } \\
-x = \text { independent variable } \\
-y = \text { dependent variable }
+z = \text {z-score} \\
+n = \text {sample size} \\
+x = \text {independent variable} \\
+y = \text {dependent variable}
 \end{aligned}
 $$
 
@@ -220,11 +220,11 @@ $$
 $$
 \begin{aligned}
 \hat y = a + \sum _ { j = 1 } ^ { k } b _ { j } x _ { j } \\
-a = \text { y-intercept } \\
-k = \text { number of independent variables } \\
-b = \text { slope } \\
-x = \text { independent variable } \\
-\hat y = \text { prediction }
+a = \text {y-intercept} \\
+k = \text {number of independent variables} \\
+b = \text {slope} \\
+x = \text {independent variable} \\
+\hat y = \text {prediction}
 \end{aligned}
 $$
 
@@ -237,8 +237,8 @@ $$
 $$
 \begin{aligned}
 S E ( r ) = \sqrt { \frac { 1 - r ^ { 2 } } { n - 2 } } \\
-r = \text { correlation } \\
-n = \text { sample size }
+r = \text {correlation} \\
+n = \text {sample size}
 \end{aligned}
 $$
 
@@ -252,8 +252,8 @@ $$
 \begin{aligned}
 t = \frac { r - 0 } { S E ( r ) } \\
 d f = n - 2 \\
-r = \text { correlation } \\
-S E = \text { standard error }
+r = \text {correlation} \\
+S E = \text {standard error}
 \end{aligned}
 $$
 
@@ -290,12 +290,12 @@ $$
 $$
 \begin{aligned}
 S E ( b ) = \sqrt { \frac { SSE } { ( n - k - 1 ) ( 1 - R _ { i } ^ { 2 } ) \sum _ { i = 1 } ^ { n } ( x _ { ij } - \overline x _ { j } ) ^ { 2 } } } \\
-S S E = \text { unexplained variation } \\
-n = \text { sample size } \\
-k = \text { number of independent variables } \\
-R ^ { 2 } = \text { coefficient of determination } \\
-x = \text { independent variable } \\
-\overline x = \text { sample mean }
+S S E = \text {unexplained variation} \\
+n = \text {sample size} \\
+k = \text {number of independent variables} \\
+R ^ { 2 } = \text {coefficient of determination} \\
+x = \text {independent variable} \\
+\overline x = \text {sample mean}
 \end{aligned}
 $$
 
@@ -309,8 +309,8 @@ $$
 \begin{aligned}
 t = \frac { b _ { j } - 0 } { S E ( b _ { j } ) } \\
 d f = n - k - 1 \\
-b = \text { slope } \\
-S E = \text { standard error }
+b = \text {slope} \\
+S E = \text {standard error}
 \end{aligned}
 $$
 
@@ -347,8 +347,8 @@ $$
 $$
 \begin{aligned}
 \min \sum _ { i } ^ { n } e _ { i } ^ { 2 } \\
-n = \text { sample size } \\
-e = \text { residual }
+n = \text {sample size} \\
+e = \text {residual}
 \end{aligned}
 $$
 

@@ -6,9 +6,9 @@
 $$
 \begin{aligned}
 A A ^ { - 1 } = A ^ { - 1 } A = I \\
-A = \text { square matrix } \\
-A ^ { - 1 } = \text { inverse matrix } \\
-I = \text { identity matrix }
+A = \text {square matrix} \\
+A ^ { - 1 } = \text {inverse matrix} \\
+I = \text {identity matrix}
 \end{aligned}
 $$
 
@@ -44,10 +44,10 @@ $$
 ### nxn matrix inversion formula
 $$
 \begin{aligned}
-\text { RREF } ( A \mid I ) = I \mid A ^ { - 1 } \\
-A = \text { square matrix } \\
-I = \text { identity matrix } \\
-A ^ { - 1 } = \text { inverse matrix }
+\text {RREF} ( A \mid I ) = I \mid A ^ { - 1 } \\
+A = \text {square matrix} \\
+I = \text {identity matrix} \\
+A ^ { - 1 } = \text {inverse matrix}
 \end{aligned}
 $$
 
@@ -60,9 +60,9 @@ $$
 $$
 \begin{aligned}
 ( A B = I ) \land ( A C = I ) \implies B = C \\
-A = \text { square matrix } \\
-B , C = \text { inverse matrix } \\
-I = \text { identity matrix }
+A = \text {square matrix} \\
+B , C = \text {inverse matrix} \\
+I = \text {identity matrix}
 \end{aligned}
 $$
 
@@ -102,11 +102,11 @@ $$
 ### nonsingular rank property formula
 $$
 \begin{aligned}
-\exists A ^ { - 1 } \iff \text { rank } ( A ) = n \\
+\exists A ^ { - 1 } \iff \text {rank} ( A ) = n \\
 | A | = n \times n \\
-A ^ { - 1 } = \text { inverse matrix } \\
-A = \text { nonsingular matrix } \\
-n = \text { dimension }
+A ^ { - 1 } = \text {inverse matrix} \\
+A = \text {nonsingular matrix} \\
+n = \text {dimension}
 \end{aligned}
 $$
 
@@ -122,11 +122,11 @@ $$
 \begin{aligned}
 ( A X = B ) \land ( \exists A ^ { - 1 } ) \implies Y = \set { A ^ { - 1 } B } \\
 ( A X = B ) \land ( \not \exists A ^ { - 1 } ) \implies Y = \emptyset \lor | Y | = \infty \\
-A = \text { coefficient matrix } \\
-X = \text { variable matrix } \\
-B = \text { constant matrix } \\
-A ^ { - 1 } = \text { inverse matrix } \\
-Y = \text { complete solution set }
+A = \text {coefficient matrix} \\
+X = \text {variable matrix} \\
+B = \text {constant matrix} \\
+A ^ { - 1 } = \text {inverse matrix} \\
+Y = \text {complete solution set}
 \end{aligned}
 $$
 

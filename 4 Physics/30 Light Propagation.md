@@ -13,10 +13,10 @@ $$
 \begin{aligned}
 v = \lambda f = \frac { \omega } { k } \\
 c = \sqrt { \frac { 1 } { \epsilon _ { 0 } \mu _ { 0 } } } = 3 \times 10 ^ { 8 } \\
-\lambda = \text { wavelength } \\
-f = \text { oscillation frequency } \\
-\omega = \text { angular frequency } \\
-k = \text { wave number } \\
+\lambda = \text {wavelength} \\
+f = \text {oscillation frequency} \\
+\omega = \text {angular frequency} \\
+k = \text {wave number} \\
 \epsilon _ { 0 } = 8.85 \times 10 ^ { - 12 } \\
 \mu _ { 0 } = 4 \pi \times 10 ^ { - 7 } \\
 \end{aligned}
@@ -33,10 +33,10 @@ $$
 \begin{aligned}
 n = \frac { c } { v } = \frac { \lambda _ { 0 } } { \lambda } = \sqrt { K K _ { m } } \\
 c = 3 \times 10 ^ { 8 } \\
-v = \text { wave velocity } \\
-\lambda = \text { wavelength } \\
-K = \text { dielectric constant } \\
-K _ { m } = \text { relative permeability }
+v = \text {wave velocity} \\
+\lambda = \text {wavelength} \\
+K = \text {dielectric constant} \\
+K _ { m } = \text {relative permeability}
 \end{aligned}
 $$
 
@@ -69,8 +69,8 @@ $$
 $$
 \begin{aligned}
 \theta _ { 1 } = \theta _ { r } \\
-\theta _ { 1 } = \text { angular incidence } \\
-\theta _ { r } = \text { angular reflection }
+\theta _ { 1 } = \text {angular incidence} \\
+\theta _ { r } = \text {angular reflection}
 \end{aligned}
 $$
 
@@ -89,9 +89,9 @@ $$
 $$
 \begin{aligned}
 n _ { 1 } \sin ( \theta _ { 1 } ) = n _ { 2 } \sin ( \theta _ { 2 } ) \\
-n = \text { refraction index } \\
-\theta _ { 1 } = \text { angular incidence } \\
-\theta _ { 2 } = \text { angular refraction }
+n = \text {refraction index} \\
+\theta _ { 1 } = \text {angular incidence} \\
+\theta _ { 2 } = \text {angular refraction}
 \end{aligned}
 $$
 
@@ -106,7 +106,7 @@ $$
 \begin{aligned}
 \theta _ { c } = \arcsin ( \frac { n _ { 2 } } { n _ { 1 } } ) \\
 n _ { 2 } < n _ { 1 } \\
-n = \text { refraction index }
+n = \text {refraction index}
 \end{aligned}
 $$
 
@@ -177,8 +177,8 @@ $$
 $$
 \begin{aligned}
 I = I _ { 0 } \cos ^ { 2 } ( \theta ) \\
-I = \text { intensity } \\
-\theta = \text { angular position }
+I = \text {intensity} \\
+\theta = \text {angular position}
 \end{aligned}
 $$
 
@@ -206,7 +206,7 @@ $$
 \begin{aligned}
 \theta _ { 1 } = \arctan ( \frac { n _ { 2 } } { n _ { 1 } } ) \\
 \theta _ { 1 } + \theta _ { 2 } = 90 \\
-n = \text { refraction index }
+n = \text {refraction index}
 \end{aligned}
 $$
 
@@ -231,9 +231,9 @@ $$
 $$
 \begin{aligned}
 I \propto f ^ { 4 } \propto \frac { 1 } { \lambda ^ { 4 } } \\
-I = \text { intensity } \\
-f = \text { oscillation frequency } \\
-\lambda = \text { wavelength }
+I = \text {intensity} \\
+f = \text {oscillation frequency} \\
+\lambda = \text {wavelength}
 \end{aligned}
 $$
 

@@ -11,9 +11,9 @@
 $$
 \begin{aligned}
 i ( t ) = I \cos ( \omega t ) \\
-I = \text { electric current } \\
-\omega = \text { angular frequency } \\
-t = \text { time }
+I = \text {electric current} \\
+\omega = \text {angular frequency} \\
+t = \text {time}
 \end{aligned}
 $$
 
@@ -27,10 +27,10 @@ $$
 $$
 \begin{aligned}
 v ( t ) = V \cos ( \omega t + \phi ) \\
-V = \text { voltage } \\
-\omega = \text { angular frequency } \\
-t = \text { time } \\
-\phi = \text { phase angle }
+V = \text {voltage} \\
+\omega = \text {angular frequency} \\
+t = \text {time} \\
+\phi = \text {phase angle}
 \end{aligned}
 $$
 
@@ -44,7 +44,7 @@ $$
 $$
 \begin{aligned}
 I _ { rms } = \frac { I } { \sqrt 2 } \\
-I = \text { electric current }
+I = \text {electric current}
 \end{aligned}
 $$
 
@@ -57,7 +57,7 @@ $$
 $$
 \begin{aligned}
 V _ { rms } = \frac { V } { \sqrt 2 } \\
-V = \text { voltage }
+V = \text {voltage}
 \end{aligned}
 $$
 
@@ -71,8 +71,8 @@ $$
 $$
 \begin{aligned}
 v _ { R } = i R \\
-i = \text { electric current } \\
-R = \text { resistance }
+i = \text {electric current} \\
+R = \text {resistance}
 \end{aligned}
 $$
 
@@ -86,9 +86,9 @@ $$
 $$
 \begin{aligned}
 v _ { L } = L \frac { di } { dt } \\
-L = \text { self inductance } \\
-i = \text { electric current } \\
-t = \text { time }
+L = \text {self inductance} \\
+i = \text {electric current} \\
+t = \text {time}
 \end{aligned}
 $$
 
@@ -102,8 +102,8 @@ $$
 $$
 \begin{aligned}
 v _ { C } = \frac { q } { C } \\
-q = \text { electric charge } \\
-C = \text { capacitance }
+q = \text {electric charge} \\
+C = \text {capacitance}
 \end{aligned}
 $$
 
@@ -128,9 +128,9 @@ $$
 $$
 \begin{aligned}
 X _ { R } = \frac { V _ { R } } { I } = R \\
-V = \text { voltage } \\
-I = \text { electric current } \\
-R = \text { resistance }
+V = \text {voltage} \\
+I = \text {electric current} \\
+R = \text {resistance}
 \end{aligned}
 $$
 
@@ -144,10 +144,10 @@ $$
 $$
 \begin{aligned}
 X _ { L } = \frac { V _ { L } } { I } = \omega L \\
-V = \text { voltage } \\
-I = \text { electric current } \\
-\omega = \text { angular frequency } \\
-L = \text { self inductance }
+V = \text {voltage} \\
+I = \text {electric current} \\
+\omega = \text {angular frequency} \\
+L = \text {self inductance}
 \end{aligned}
 $$
 
@@ -161,10 +161,10 @@ $$
 $$
 \begin{aligned}
 X _ { C } = \frac { V _ { C } } { I } = \frac { 1 } { \omega C } \\
-V = \text { voltage } \\
-I = \text { electric current } \\
-\omega = \text { angular frequency } \\
-C = \text { capacitance }
+V = \text {voltage} \\
+I = \text {electric current} \\
+\omega = \text {angular frequency} \\
+C = \text {capacitance}
 \end{aligned}
 $$
 
@@ -178,8 +178,8 @@ $$
 $$
 \begin{aligned}
 \phi = \arctan ( \frac { X _ { L } - X _ { C } } { R } ) \\
-X = \text { reactance } \\
-R = \text { resistance }
+X = \text {reactance} \\
+R = \text {resistance}
 \end{aligned}
 $$
 
@@ -198,8 +198,8 @@ $$
 $$
 \begin{aligned}
 Z = \sqrt { R ^ { 2 } + ( X _ { L } - X _ { C } ) ^ { 2 } } \\
-R = \text { resistance } \\
-X = \text { reactance }
+R = \text {resistance} \\
+X = \text {reactance}
 \end{aligned}
 $$
 
@@ -212,8 +212,8 @@ $$
 $$
 \begin{aligned}
 V = I Z
-I = \text { electric current } \\
-Z = \text { impedance }
+I = \text {electric current} \\
+Z = \text {impedance}
 \end{aligned}
 $$
 
@@ -227,10 +227,10 @@ $$
 $$
 \begin{aligned}
 P = I _ { rms } V _ { rms } \cos ( \phi ) = I _ { rms } ^ { 2 } Z \cos ( \phi ) = \frac { V _ { rms } ^ { 2 } } { Z } \cos ( \phi ) \\
-I = \text { electric current } \\
-V = \text { voltage } \\
-\phi = \text { phase angle } \\
-Z = \text { impedance }
+I = \text {electric current} \\
+V = \text {voltage} \\
+\phi = \text {phase angle} \\
+Z = \text {impedance}
 \end{aligned}
 $$
 
@@ -244,8 +244,8 @@ $$
 $$
 \begin{aligned}
 \cos ( \phi ) = \frac { R } { Z } \\
-R = \text { resistance } \\
-Z = \text { impedance }
+R = \text {resistance} \\
+Z = \text {impedance}
 \end{aligned}
 $$
 
@@ -264,8 +264,8 @@ $$
 $$
 \begin{aligned}
 \omega = \sqrt { \frac { 1 } { LC } } \\
-L = \text { self inductance } \\
-C = \text { capacitance }
+L = \text {self inductance} \\
+C = \text {capacitance}
 \end{aligned}
 $$
 
@@ -285,10 +285,10 @@ $$
 $$
 \begin{aligned}
 Q = \frac { \omega } { \Delta \omega } = \frac { \omega L } { R } \\
-\omega = \text { angular frequency } \\
-\Delta \omega = \text { bandwidth } \\
-L = \text { self inductance } \\
-R = \text { resistance }
+\omega = \text {angular frequency} \\
+\Delta \omega = \text {bandwidth} \\
+L = \text {self inductance} \\
+R = \text {resistance}
 \end{aligned}
 $$
 
@@ -307,8 +307,8 @@ $$
 $$
 \begin{aligned}
 \frac { V _ { 2 } } { V _ { 1 } } = \frac { N _ { 2 } } { N _ { 1 } } \\
-V = \text { voltage } \\
-N = \text { number of loops }
+V = \text {voltage} \\
+N = \text {number of loops}
 \end{aligned}
 $$
 
@@ -322,8 +322,8 @@ $$
 $$
 \begin{aligned}
 I _ { 1 } V _ { 1 } = I _ { 2 } V _ { 2 } \\
-I = \text { electric current } \\
-V = \text { voltage }
+I = \text {electric current} \\
+V = \text {voltage}
 \end{aligned}
 $$
 
@@ -346,7 +346,7 @@ $$
 $$
 \begin{aligned}
 I _ { avg } = ( \frac { 2 } { \pi } ) I = 0.637 I \\
-I = \text { electric current }
+I = \text {electric current}
 \end{aligned}
 $$
 

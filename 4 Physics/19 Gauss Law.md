@@ -7,9 +7,9 @@
 $$
 \begin{aligned}
 \Phi = \vec E \cdot \vec A = E A \cos ( \theta ) \\
-E = \text { electric field } \\
-A = \text { area } \\
-\theta = \text { angular position }
+E = \text {electric field} \\
+A = \text {area} \\
+\theta = \text {angular position}
 \end{aligned}
 $$
 
@@ -23,8 +23,8 @@ $$
 $$
 \begin{aligned}
 \Phi = \int _ { A _ { 1 } } ^ { A _ { 2 } } \vec E \cdot d \vec A \\
-E = \text { electric field } \\
-A = \text { area }
+E = \text {electric field} \\
+A = \text {area}
 \end{aligned}
 $$
 
@@ -39,8 +39,8 @@ $$
 $$
 \begin{aligned}
 \Phi = \oint _ { A _ { 1 } } ^ { A _ { 2 } } \vec E \cdot d \vec A \\
-E = \text { electric field } \\
-A = \text { area }
+E = \text {electric field} \\
+A = \text {area}
 \end{aligned}
 $$
 
@@ -60,9 +60,9 @@ $$
 $$
 \begin{aligned}
 \pm \Phi = \oint _ { A _ { 1 } } ^ { A _ { 2 } } \vec E \cdot d \vec A = \frac { \pm Q _ { enc } } { \epsilon _ { 0 } } \\
-E = \text { electric field } \\
-A = \text { area } \\
-Q = \text { electric charge } \\
+E = \text {electric field} \\
+A = \text {area} \\
+Q = \text {electric charge} \\
 \epsilon _ { 0 } = 8.85 \times 10 ^ { - 12 } \\
 \end{aligned}
 $$
@@ -92,9 +92,9 @@ $$
 $$
 \begin{aligned}
 E = \frac { Q _ { enc } } { \epsilon _ { 0 } A } \\
-Q = \text { electric charge } \\
+Q = \text {electric charge} \\
 \epsilon _ { 0 } = 8.85 \times 10 ^ { - 12 } \\
-A = \text { area }
+A = \text {area}
 \end{aligned}
 $$
 
@@ -108,9 +108,9 @@ $$
 $$
 \begin{aligned}
 E = \frac { Q _ { enc } } { 4 \pi \epsilon _ { 0 } r ^ { 2 } } \\
-Q = \text { electric charge } \\
+Q = \text {electric charge} \\
 \epsilon _ { 0 } = 8.85 \times 10 ^ { - 12 } \\
-r = \text { distance }
+r = \text {distance}
 \end{aligned}
 $$
 
@@ -124,9 +124,9 @@ $$
 $$
 \begin{aligned}
 E = \frac { \lambda _ { enc } } { 2 \pi \epsilon _ { 0 } r } \\
-\lambda = \text { linear density } \\
+\lambda = \text {linear density} \\
 \epsilon _ { 0 } = 8.85 \times 10 ^ { - 12 } \\
-r = \text { distance }
+r = \text {distance}
 \end{aligned}
 $$
 
@@ -140,7 +140,7 @@ $$
 $$
 \begin{aligned}
 E = \frac { \sigma _ { enc } } { 2 \epsilon _ { 0 } } \\
-\sigma = \text { surface density } \\
+\sigma = \text {surface density} \\
 \epsilon _ { 0 } = 8.85 \times 10 ^ { - 12 } \\
 \end{aligned}
 $$
@@ -155,7 +155,7 @@ $$
 $$
 \begin{aligned}
 E = \frac { \sigma _ { enc } } { \epsilon _ { 0 } } \\
-\sigma = \text { surface density } \\
+\sigma = \text {surface density} \\
 \epsilon _ { 0 } = 8.85 \times 10 ^ { - 12 } \\
 \end{aligned}
 $$
@@ -172,10 +172,10 @@ $$
 d Q = \lambda \  d L \\
 d Q = \sigma \  d A \\
 d Q = \rho \  d V \\
-Q = \text { electric charge } \\
-L = \text { length } \\
-A = \text { area } \\
-V = \text { volume }
+Q = \text {electric charge} \\
+L = \text {length} \\
+A = \text {area} \\
+V = \text {volume}
 \end{aligned}
 $$
 

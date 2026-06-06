@@ -21,9 +21,9 @@
 $$
 \begin{aligned}
 {}[ q ] = \prod _ { i = 1 } ^ { m } D _ { i } ^ { a _ { i } } \iff \Delta _ { q } = [ a _ { 1 } , \dots , a _ { m } ] \in \mathbb R ^ { m } \\
-q = \text { quantity } \\
-D = \text { dimension } \\
-a = \text { dimensional exponent }
+q = \text {quantity} \\
+D = \text {dimension} \\
+a = \text {dimensional exponent}
 \end{aligned}
 $$
 
@@ -50,8 +50,8 @@ $$
 ### dimensional basis formula
 $$
 \begin{aligned}
-\text { Span } ( D ) = \mathcal V \\
-\text { Rank } ( D ) = m
+\text {Span} ( D ) = \mathcal V \\
+\text {Rank} ( D ) = m
 \end{aligned}
 $$
 
@@ -103,7 +103,7 @@ $$
 $$
 \begin{aligned}
 {}[ q ] = 1 \iff \Delta _ { q } = 0 \\
-q = \text { pure number }
+q = \text {pure number}
 \end{aligned}
 $$
 
@@ -116,9 +116,9 @@ $$
 $$
 \begin{aligned}
 q ' = q \prod _ { i = 1 } ^ { m } \lambda _ { i } ^ { a _ { i } } \\
-q = \text { quantity } \\
-\lambda = \text { unit conversion factor } \\
-a = \text { dimensional exponent }
+q = \text {quantity} \\
+\lambda = \text {unit conversion factor} \\
+a = \text {dimensional exponent}
 \end{aligned}
 $$
 
@@ -160,8 +160,8 @@ $$
 $$
 \begin{aligned}
 \pi = \prod _ { i = 1 } ^ { n } q _ { i } ^ { b _ { i } } > 0 \\
-q = \text { quantity } \\
-b = \text { quantitative exponent }
+q = \text {quantity} \\
+b = \text {quantitative exponent}
 \end{aligned}
 $$
 
@@ -182,9 +182,9 @@ q _ { 1 } = f ( q _ { 2 } , \dots , q _ { n } ) \sim \pi _ { 1 } = \phi ( \pi _ 
 {}[ \pi ] = 1 \iff \Delta _ { \pi } = \sum _ { i = 1 } ^ { n } b _ { i } \Delta _ { q _ { i } } = A \vec b = 0 \\
 A = [ \Delta q _ { 1 } , \dots , \Delta q _ { n } ] \in \mathcal M _ { mn } \\
 \vec b = [ b _ { 1 } , \dots , b _ { n } ] \in \mathbb R ^ { n } \\
-q = \text { quantity } \\
-\pi = \text { dimensionless power product } \\
-b = \text { quantitative exponent }
+q = \text {quantity} \\
+\pi = \text {dimensionless power product} \\
+b = \text {quantitative exponent}
 \end{aligned}
 $$
 

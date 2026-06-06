@@ -7,10 +7,10 @@ $$
 \begin{aligned}
 ( X , Y ) : \Omega \rightarrow \mathbb R ^ { 2 } \\
 X ( \omega ) , Y ( \omega ) = ( x , y ) \\
-X , Y = \text { random variable } \\
-\Omega = \text { sample space } \\
-x , y = \text { real number } \\
-\omega = \text { outcome }
+X , Y = \text {random variable} \\
+\Omega = \text {sample space} \\
+x , y = \text {real number} \\
+\omega = \text {outcome}
 \end{aligned}
 $$
 
@@ -75,8 +75,8 @@ $$
 \begin{aligned}
 P ( X = x ) = \sum _ { y } P ( X = x , Y = y ) \\
 P ( Y = y ) = \sum _ { x } P ( X = x , Y = y ) \\
-X , Y = \text { random variable } \\
-x , y = \text { real number }
+X , Y = \text {random variable} \\
+x , y = \text {real number}
 \end{aligned}
 $$
 
@@ -90,8 +90,8 @@ $$
 \begin{aligned}
 f _ { X } ( x ) = \int _ { - \infty } ^ { \infty } f _ { X , Y } ( x , y ) d y \\
 f _ { Y } ( y ) = \int _ { - \infty } ^ { \infty } f _ { X , Y } ( x , y ) d x \\
-X , Y = \text { random variable } \\
-x , y = \text { real number }
+X , Y = \text {random variable} \\
+x , y = \text {real number}
 \end{aligned}
 $$
 
@@ -104,7 +104,7 @@ $$
 $$
 \begin{aligned}
 I = \begin{cases} 1 , \quad A \\ 0 , \quad A ^ { c } \end{cases} \\
-A = \text { event }
+A = \text {event}
 \end{aligned}
 $$
 
@@ -117,8 +117,8 @@ $$
 $$
 \begin{aligned}
 E [ X ] = E [ \sum _ { i = 1 } ^ { n } I _ { i } ] = \sum _ { i = 1 } ^ { n } P ( A _ { i } ) \\
-X , I = \text { random variable } \\
-A = \text { event }
+X , I = \text {random variable} \\
+A = \text {event}
 \end{aligned}
 $$
 
@@ -130,10 +130,10 @@ $$
 ### indicator variance formula
 $$
 \begin{aligned}
-\text { Var } ( X ) = \text { Var } ( \sum _ { i = 1 } ^ { n } I _ { i } ) = \sum _ { i = 1 } ^ { n } P ( A _ { i } ) Q ( A _ { i } ) \\
+\text {Var} ( X ) = \text {Var} ( \sum _ { i = 1 } ^ { n } I _ { i } ) = \sum _ { i = 1 } ^ { n } P ( A _ { i } ) Q ( A _ { i } ) \\
 Q ( A ) = 1 - P ( A ) \\
-X , I = \text { random variable } \\
-A = \text { event }
+X , I = \text {random variable} \\
+A = \text {event}
 \end{aligned}
 $$
 
@@ -162,8 +162,8 @@ $$
 \begin{aligned}
 P ( X = x \mid Y = y ) = P ( X = x ) \\
 P ( Y = y \mid X = x ) = P ( Y = y ) \\
-X , Y = \text { random variable } \\
-x , y = \text { real number }
+X , Y = \text {random variable} \\
+x , y = \text {real number}
 \end{aligned}
 $$
 
@@ -177,8 +177,8 @@ $$
 \begin{aligned}
 P ( X = x , Y = y ) \ne P ( X = x ) P ( Y = y ) \\
 f _ { X , Y } ( x , y ) \ne f _ { X } ( x ) f _ { Y } ( y ) \\
-X , Y = \text { random variable } \\
-x , y = \text { real number }
+X , Y = \text {random variable} \\
+x , y = \text {real number}
 \end{aligned}
 $$
 
@@ -205,8 +205,8 @@ $$
 \begin{aligned}
 E [ g ( X , Y ) ] = \sum _ { x } \sum _ { y } g ( x , y ) P ( X = x , Y = y ) \\
 E [ g ( X , Y ) ] = \int _ { - \infty } ^ { \infty } \int _ { - \infty } ^ { \infty } g ( x , y ) f ( x , y ) d y d x \\
-X , Y = \text { random variable } \\
-x , y = \text { real number }
+X , Y = \text {random variable} \\
+x , y = \text {real number}
 \end{aligned}
 $$
 
@@ -219,7 +219,7 @@ $$
 $$
 \begin{aligned}
 P ( X \in A , Y \in B ) = P ( X \in A ) P ( Y \in B ) \implies E [ X Y ] = E [ X ] E [ Y ] \\
-X , Y = \text { random variable } \\
+X , Y = \text {random variable} \\
 \end{aligned}
 $$
 
@@ -231,9 +231,9 @@ $$
 ### joint variance formula
 $$
 \begin{aligned}
-\text { Var } ( X , Y ) = \begin{bmatrix} \text { Var } ( X ) & \text { Cov } ( X , Y ) \\
-\text { Cov } ( Y , X ) & \text { Var } ( Y ) \end{bmatrix} \\
-X , Y = \text { random variable }
+\text {Var} ( X , Y ) = \begin{bmatrix} \text {Var} ( X ) & \text {Cov} ( X , Y ) \\
+\text {Cov} ( Y , X ) & \text {Var} ( Y ) \end{bmatrix} \\
+X , Y = \text {random variable}
 \end{aligned}
 $$
 
@@ -245,8 +245,8 @@ $$
 ### variance addition property formula
 $$
 \begin{aligned}
-\text { Var } ( X + Y ) = \text { Var } ( X ) + \text { Var } ( Y ) + 2 \text { Cov } ( X , Y ) \\
-X , Y = \text { random variable }
+\text {Var} ( X + Y ) = \text {Var} ( X ) + \text {Var} ( Y ) + 2 \text {Cov} ( X , Y ) \\
+X , Y = \text {random variable}
 \end{aligned}
 $$
 
@@ -260,7 +260,7 @@ $$
 \begin{aligned}
 E [ X | Y = y ] = \sum _ { x } x P ( X = x | Y = y ) \\
 E [ X | Y = y ] = \int _ { - \infty } ^ { \infty } x f _ { X | Y } ( x , y ) d x \\
-X , Y = \text { random variable }
+X , Y = \text {random variable}
 \end{aligned}
 $$
 
@@ -273,7 +273,7 @@ $$
 $$
 \begin{aligned}
 E [ X ] = E ( E [ X \mid Y ] ) \\
-X , Y = \text { random variable }
+X , Y = \text {random variable}
 \end{aligned}
 $$
 
@@ -285,7 +285,7 @@ $$
 ### covariance formula
 $$
 \begin{aligned}
-\text { Cov } ( X , Y ) = E [ ( X - E [ X ] ) ( Y - E [ Y ] ) ] = E [ X Y ] - E [ X ] E [ Y ] \\
+\text {Cov} ( X , Y ) = E [ ( X - E [ X ] ) ( Y - E [ Y ] ) ] = E [ X Y ] - E [ X ] E [ Y ] \\
 
 \end{aligned}
 $$
@@ -301,10 +301,10 @@ $$
 ### covariance property formula
 $$
 \begin{aligned}
-\text { Cov } ( X , Y ) = \text { Cov } ( Y , X ) \\
-\text { Cov } ( X , X ) = \text { Cov } ( X ) \\
-\text { Cov } ( a X + b Y , Z + c ) = a \text { Cov } ( X , Z ) + b \text { Cov } ( Y , Z ) \\
-P ( X \in A , Y \in B ) = P ( X \in A ) P ( Y \in B ) \implies \text { Cov } ( X , Y ) = 0
+\text {Cov} ( X , Y ) = \text {Cov} ( Y , X ) \\
+\text {Cov} ( X , X ) = \text {Cov} ( X ) \\
+\text {Cov} ( a X + b Y , Z + c ) = a \text {Cov} ( X , Z ) + b \text {Cov} ( Y , Z ) \\
+P ( X \in A , Y \in B ) = P ( X \in A ) P ( Y \in B ) \implies \text {Cov} ( X , Y ) = 0
 \end{aligned}
 $$
 
@@ -318,9 +318,9 @@ $$
 \begin{aligned}  
 \forall i , j \in ( 1 , \dots , m ) : P ( X _ { i } \in A , X _ { j } \in B ) = P ( X _ { i } \in A ) P ( X _ { j } \in B ) \\
 \forall i \in ( 1 , \dots , m ) : X _ { i } \sim N ( \mu , \sigma ^ { 2 } ) \\
-X , Y = \text { random variable } \\
-m = \text { number of random variables } \\
-N = \text { probability distribution }
+X , Y = \text {random variable} \\
+m = \text {number of random variables} \\
+N = \text {probability distribution}
 \end{aligned}  
 $$
 
@@ -333,9 +333,9 @@ $$
 $$
 \begin{aligned}
 E [ \sum _ { i = 1 } ^ { n } X _ { i } ] = n \mu \\
-X = \text { iid random variable } \\
-n = \text { sample size } \\
-\mu = \text { mean } \\
+X = \text {iid random variable} \\
+n = \text {sample size} \\
+\mu = \text {mean} \\
 \end{aligned}
 $$
 
@@ -347,10 +347,10 @@ $$
 ### iid variance formula
 $$
 \begin{aligned}
-\text { Var } ( \sum _ { i = 1 } ^ { n } X _ { i } ) = n \sigma ^ { 2 } \\
-X = \text { iid random variable } \\
-n = \text { sample size } \\
-\sigma ^ { 2 } = \text { variance } \\
+\text {Var} ( \sum _ { i = 1 } ^ { n } X _ { i } ) = n \sigma ^ { 2 } \\
+X = \text {iid random variable} \\
+n = \text {sample size} \\
+\sigma ^ { 2 } = \text {variance} \\
 \end{aligned}
 $$
 

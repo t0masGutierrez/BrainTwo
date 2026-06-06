@@ -33,9 +33,9 @@
 ### volume formula
 $$
 \begin{aligned}
-\text { cube } = l w h \\
-\text { sphere } = \frac { 4 } { 3 } \pi r ^ { 3 } \\
-\text { cyclinder } = \pi r ^ { 2 } h
+\text {cube} = l w h \\
+\text {sphere} = \frac { 4 } { 3 } \pi r ^ { 3 } \\
+\text {cyclinder} = \pi r ^ { 2 } h
 \end{aligned}
 $$
 
@@ -49,8 +49,8 @@ $$
 $$
 \begin{aligned}
 \rho = \frac { m } { V } \\
-m = \text { mass } \\
-V = \text { volume }
+m = \text {mass} \\
+V = \text {volume}
 \end{aligned}
 $$
 
@@ -63,7 +63,7 @@ $$
 $$
 \begin{aligned}
 \rho ' = \frac { \rho } { \rho _ { water } } \\
-\rho = \text { density }
+\rho = \text {density}
 \end{aligned}
 $$
 
@@ -77,8 +77,8 @@ $$
 $$
 \begin{aligned}
 p = \frac { F _ { \perp } } { A } \\
-F = \text { force } \\
-A = \text { area }
+F = \text {force} \\
+A = \text {area}
 \end{aligned}
 $$
 
@@ -91,7 +91,7 @@ $$
 ### atmospheric pressure formula
 $$
 \begin{aligned}
-\text { 1 atm } = \text { 101325 Pa }
+\text {1 atm} = \text {101325 Pa}
 \end{aligned}
 $$
 
@@ -106,10 +106,10 @@ $$
 \begin{aligned}
 p - p _ { 0 } = \rho g y \\
 p _ { 2 } - p _ { 1 } = - \rho g ( y _ { 2 } - y _ { 1 } ) \\
-p = \text { pressure } \\
-\rho = \text { density } \\
-g = \text { gravity } \\
-y = \text { position }
+p = \text {pressure} \\
+\rho = \text {density} \\
+g = \text {gravity} \\
+y = \text {position}
 \end{aligned}
 $$
 
@@ -122,11 +122,11 @@ $$
 $$
 \begin{aligned}
 p _ { abs } = p _ { g } + p _ { atm } = \rho g y + p _ { atm } \\
-p _ { g } = \text { gauge pressure } \\
-p _ { atm } = \text { atmospheric pressure } \\
-\rho = \text { density } \\
-g = \text { gravity } \\
-y = \text { position }
+p _ { g } = \text {gauge pressure} \\
+p _ { atm } = \text {atmospheric pressure} \\
+\rho = \text {density} \\
+g = \text {gravity} \\
+y = \text {position}
 \end{aligned}
 $$
 
@@ -139,11 +139,11 @@ $$
 $$
 \begin{aligned}
 p _ { g } = p _ { abs } - p _ { atm } = \rho g y \\
-p _ { abs } = \text { absolute pressure } \\
-p _ { atm } = \text { atmospheric pressure } \\
-\rho = \text { density } \\
-g = \text { gravity } \\
-y = \text { position }
+p _ { abs } = \text {absolute pressure} \\
+p _ { atm } = \text {atmospheric pressure} \\
+\rho = \text {density} \\
+g = \text {gravity} \\
+y = \text {position}
 \end{aligned}
 $$
 
@@ -167,8 +167,8 @@ $$
 $$
 \begin{aligned}
 p = \frac { F _ { 1 } } { A _ { 1 } } = \frac { F _ { 2 } } { A _ { 2 } } \\
-F = \text { force } \\
-A = \text { area }
+F = \text {force} \\
+A = \text {area}
 \end{aligned}
 $$
 
@@ -182,7 +182,7 @@ $$
 $$
 \begin{aligned}
 \vec F _ { b } = \vec w _ { f } \\
-\vec w = \text { weight }
+\vec w = \text {weight}
 \end{aligned}
 $$
 
@@ -195,8 +195,8 @@ $$
 $$
 \begin{aligned}
 \vec w _ { app } = \vec w - \vec F _ { b } \\
-\vec w = \text { weight } \\
-\vec F = \text { force }
+\vec w = \text {weight} \\
+\vec F = \text {force}
 \end{aligned}
 $$
 
@@ -210,9 +210,9 @@ $$
 $$
 \begin{aligned}
 \vec F _ { b } = \rho _ { f } V _ { f } \vec g \\
-\rho _ { f } = \text { fluid density } \\
-V _ { f } = \text { fluid volume } \\
-\vec g = \text { gravity }
+\rho _ { f } = \text {fluid density} \\
+V _ { f } = \text {fluid volume} \\
+\vec g = \text {gravity}
 \end{aligned}
 $$
 
@@ -242,8 +242,8 @@ $$
 $$
 \begin{aligned}
 S = \frac { \rho } { \rho _ { f } } \\
-\rho = \text { density } \\
-\rho _ { f } = \text { fluid density }
+\rho = \text {density} \\
+\rho _ { f } = \text {fluid density}
 \end{aligned}
 $$
 
@@ -274,10 +274,10 @@ $$
 $$
 \begin{aligned}
 \gamma = \frac { F _ { \parallel } } { L } = \frac { \Delta E } { \Delta A } \\
-F = \text { force } \\
-L = \text { length } \\
-E = \text { mechanical energy } \\
-A = \text { surface area }
+F = \text {force} \\
+L = \text {length} \\
+E = \text {mechanical energy} \\
+A = \text {surface area}
 \end{aligned}
 $$
 
@@ -290,9 +290,9 @@ $$
 $$
 \begin{aligned}
 \vec v ( \vec r , t ) \\
-\vec v = \text { velocity } \\
-\vec r = \text { position } \\
-t = \text { time }
+\vec v = \text {velocity} \\
+\vec r = \text {position} \\
+t = \text {time}
 \end{aligned}
 $$
 
@@ -355,10 +355,10 @@ $$
 $$
 \begin{aligned}
 \frac { dV } { dt } = A v \\
-V = \text { volume } \\
-t = \text { time } \\
-A = \text { cross-section area } \\
-v = \text { velocity }
+V = \text {volume} \\
+t = \text {time} \\
+A = \text {cross-section area} \\
+v = \text {velocity}
 \end{aligned}
 $$
 
@@ -372,8 +372,8 @@ $$
 $$
 \begin{aligned}
 A _ { 1 } v _ { 1 } = A _ { 2 } v _ { 2 } \\
-A = \text { area } \\
-v = \text { velocity }
+A = \text {area} \\
+v = \text {velocity}
 \end{aligned}
 $$
 
@@ -387,11 +387,11 @@ $$
 $$
 \begin{aligned}
 p _ { 1 } + \frac { 1 } { 2 } \rho v _ { 1 } ^ { 2 } + \rho g y _ { 1 } = p _ { 2 } + \frac { 1 } { 2 } \rho v _ { 2 } ^ { 2 } + \rho g y _ { 2 } \\
-p = \text { pressure } \\
-\rho = \text { density } \\
-v = \text { velocity } \\
-g = \text { gravity } \\
-y = \text { position }
+p = \text {pressure} \\
+\rho = \text {density} \\
+v = \text {velocity} \\
+g = \text {gravity} \\
+y = \text {position}
 \end{aligned}
 $$
 
@@ -405,11 +405,11 @@ $$
 \begin{aligned}
 \vec F _ { d } = - k \vec v \\
 \vec F _ { d } = \frac { - 1 } { 2 } \rho C _ { d } A \vec v ^ { 2 } \\
-k = \text { linear drag coefficient } \\
-\vec v = \text { velocity } \\
-\rho = \text { density } \\
-C _ { d } = \text { drag coefficient } \\
-A = \text { cross-section area }
+k = \text {linear drag coefficient} \\
+\vec v = \text {velocity} \\
+\rho = \text {density} \\
+C _ { d } = \text {drag coefficient} \\
+A = \text {cross-section area}
 \end{aligned}
 $$
 
@@ -422,12 +422,12 @@ $$
 $$
 \begin{aligned}
 \vec w = \vec F _ { d } \implies \vec v = \sqrt { \frac { 2 \vec w } { \rho C _ { d } A } } \\
-\vec w = \text { weight } \\
-\vec F = \text { force } \\
-\vec v = \text { velocity } \\
-\rho = \text { density } \\
-C _ { d } = \text { drag coefficient } \\
-A = \text { cross-section area }
+\vec w = \text {weight} \\
+\vec F = \text {force} \\
+\vec v = \text {velocity} \\
+\rho = \text {density} \\
+C _ { d } = \text {drag coefficient} \\
+A = \text {cross-section area}
 \end{aligned}
 $$
 

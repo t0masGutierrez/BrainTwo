@@ -6,11 +6,11 @@
 $$
 \begin{aligned}
 S \subset \bigcup _ { i \in I } Y _ { i } \subset X \\
-S = \text { covered set } \\
-I = \text { index set } \\
-Y = \text { open set } \\
-\set { Y } = \text { open cover } \\
-X = \text { metric space }
+S = \text {covered set} \\
+I = \text {index set} \\
+Y = \text {open set} \\
+\set { Y } = \text {open cover} \\
+X = \text {metric space}
 \end{aligned}
 $$
 
@@ -23,11 +23,11 @@ $$
 $$
 \begin{aligned}
 \forall \set { Y _ { i } } _ { i \in I } \subset X , \exists \{ Y _ { i _ { j } } \} _ { j = 1 } ^ { n } \subset \{ Y _ { i } \} _ { i \in I } : S \subset \bigcup _ { j = 1 } ^ { n } Y _ { i _ { j } } \subset X \\
-Y = \text { open set } \\
-\set { Y } = \text { open cover } \\
-I , J = \text { index set } \\
-X = \text { metric space } \\
-S = \text { compact set }
+Y = \text {open set} \\
+\set { Y } = \text {open cover} \\
+I , J = \text {index set} \\
+X = \text {metric space} \\
+S = \text {compact set}
 \end{aligned}
 $$
 
@@ -40,10 +40,10 @@ $$
 $$
 \begin{aligned}
 \forall \set { a _ { n } } \subset S \subset X , \exists \set { a _ { n _ { k } } } \subset \set { a _ { n } } , \exists L \in S : \lim _ { k \rightarrow \infty } a _ { n _ { k } } = L \\
-\set { a _ { n } } = \text { sequence } \\
-\set { a _ { n _ { k } } } = \text { subsequence } \\
-X = \text { metric space } \\
-L = \text { subsequential limit }
+\set { a _ { n } } = \text {sequence} \\
+\set { a _ { n _ { k } } } = \text {subsequence} \\
+X = \text {metric space} \\
+L = \text {subsequential limit}
 \end{aligned}
 $$
 
@@ -57,11 +57,11 @@ $$
 \begin{aligned}
 \forall \set { Y _ { i } } \subset X , \exists \{ Y _ { i _ { 1 } } , \dots Y _ { i _ { n } } \} \subset \{ Y _ { i } \} : S \subset \bigcup _ { k = 1 } ^ { n } Y _ { i _ { k } } \subset X \\
 \iff \forall \set { a _ { n } } \subset S \subset X , \exists \set { a _ { n _ { k } } } \subset \set { a _ { n } } , \exists L \in S : \lim _ { k \rightarrow \infty } a _ { n _ { k } } = L \\
-S = \text { compact set } \\
-Y = \text { open set } \\
-\set { Y } = \text { open cover } \\
-X = \text { metric space } \\
-\set { a _ { n } } = \text { sequence }
+S = \text {compact set} \\
+Y = \text {open set} \\
+\set { Y } = \text {open cover} \\
+X = \text {metric space} \\
+\set { a _ { n } } = \text {sequence}
 \end{aligned}
 $$
 
@@ -77,17 +77,17 @@ $$
 ( S \subset X , \exists x _ { 0 } \in X , \exists r > 0 : B _ { r } ( x _ { 0 } ) \supset S ) \implies \\
 \forall \set { a _ { n } } \subset S \subset X , \exists \set { a _ { n _ { k } } } \subset \set { a _ { n } } , \exists L \in S : \lim _ { k \rightarrow \infty } a _ { n _ { k } } = L \lor \\
 \forall \set { Y _ { i } } \subset X , \exists \{ Y _ { i _ { 1 } } , \dots Y _ { i _ { n } } \} \subset \{ Y _ { i } \} : S \subset \bigcup _ { k = 1 } ^ { n } Y _ { i _ { k } } \subset X \\
-S ' = \text { derived set } \\
-S = \text { compact set } \\
-X = \text { metric space } \\
-x _ { 0 } = \text { center } \\
-r = \text { radius } \\
-B = \text { open ball } \\
-\set { a _ { n } } = \text { sequence } \\
-\set { a _ { n _ { k } } } = \text { subsequence } \\
-L = \text { subsequential limit } \\
-Y = \text { open set } \\
-\set { Y } = \text { open cover }
+S ' = \text {derived set} \\
+S = \text {compact set} \\
+X = \text {metric space} \\
+x _ { 0 } = \text {center} \\
+r = \text {radius} \\
+B = \text {open ball} \\
+\set { a _ { n } } = \text {sequence} \\
+\set { a _ { n _ { k } } } = \text {subsequence} \\
+L = \text {subsequential limit} \\
+Y = \text {open set} \\
+\set { Y } = \text {open cover}
 \end{aligned}
 $$
 
@@ -100,11 +100,11 @@ $$
 $$
 \begin{aligned}
 ( S \subset K ) \land ( | S | = \infty ) \implies \exists x _ { 0 } \in S , \forall r > 0 : N _ { r } ( x _ { 0 } ) \setminus \{ x _ { 0 } \} \cap S \ne \emptyset \\
-K = \text { compact set } \\
-X = \text { metric space } \\
-r = \text { radius } \\
-N = \text { neighborhood } \\
-x _ { 0 } = \text { limit point }
+K = \text {compact set} \\
+X = \text {metric space} \\
+r = \text {radius} \\
+N = \text {neighborhood} \\
+x _ { 0 } = \text {limit point}
 \end{aligned}
 $$
 
@@ -119,15 +119,15 @@ $$
 ( S ' \subset S \subset X ) \land \\
 ( S \subset X , \exists x _ { 0 } \in X , \exists r > 0 : B _ { r } ( x _ { 0 } ) \supset S ) \iff \\
 \forall \set { Y _ { i } } _ { i \in I } \subset X , \exists \{ Y _ { i _ { j } } \} _ { j = 1 } ^ { n } \subset \{ Y _ { i } \} _ { i \in I } : S \subset \bigcup _ { j = 1 } ^ { n } Y _ { i _ { j } } \subset X \\
-S = \text { compact set } \\
-S ' = \text { derived set } \\
-X = \text { metric space } \\
-x _ { 0 } = \text { center } \\
-r = \text { radius } \\
-B = \text { open ball } \\
-Y = \text { open set } \\
-\set { Y } = \text { open cover } \\
-I , J = \text { index set }
+S = \text {compact set} \\
+S ' = \text {derived set} \\
+X = \text {metric space} \\
+x _ { 0 } = \text {center} \\
+r = \text {radius} \\
+B = \text {open ball} \\
+Y = \text {open set} \\
+\set { Y } = \text {open cover} \\
+I , J = \text {index set}
 \end{aligned}
 $$
 
@@ -140,10 +140,10 @@ $$
 $$  
 \begin{aligned}  
 ( S \subset \mathbb R ^ { k } ) \land ( \set { 0 , 1 , 2 , 3 , \dots , n } \not \sim S ) \implies \exists x _ { 0 } \in \mathbb R ^ { k } , \forall r > 0 : N _ { r } ( x _ { 0 } ) \setminus \{ x _ { 0 } \} \cap \mathbb R ^ { k } \ne \emptyset \\
-S = \text { bounded set } \\
-r = \text { radius } \\
-N = \text { neighborhood } \\
-x _ { 0 } = \text { limit point }
+S = \text {bounded set} \\
+r = \text {radius} \\
+N = \text {neighborhood} \\
+x _ { 0 } = \text {limit point}
 \end{aligned} 
 $$
 
@@ -156,13 +156,13 @@ $$
 $$
 \begin{aligned}
 S ' \subset S \subset K \implies \forall \set { Y _ { i } } _ { i \in I } \subset X , \exists \{ Y _ { i _ { j } } \} _ { j = 1 } ^ { n } \subset \{ Y _ { i } \} _ { i \in I } : S \subset \bigcup _ { j = 1 } ^ { n } Y _ { i _ { j } } \subset X \\
-S ' = \text { derived set } \\
-S = \text { closed set } \\
-K = \text { compact set } \\
-Y = \text { open set } \\
-\set { Y } = \text { open cover } \\
-I , J = \text { index set } \\
-X = \text { metric space } \\
+S ' = \text {derived set} \\
+S = \text {closed set} \\
+K = \text {compact set} \\
+Y = \text {open set} \\
+\set { Y } = \text {open cover} \\
+I , J = \text {index set} \\
+X = \text {metric space} \\
 \end{aligned}
 $$
 
@@ -176,7 +176,7 @@ $$
 $$
 \begin{aligned}
 \bigcap _ { j = 1 } ^ { n } S _ { i _ { j } } \ne \emptyset \implies \bigcap _ { i } S _ { i } \ne \emptyset \\
-S = \text { compact set }
+S = \text {compact set}
 \end{aligned}
 $$
 
@@ -189,11 +189,11 @@ $$
 $$
 \begin{aligned}
 \forall \set { Y _ { i } } _ { i \in I } \subset X , \exists \{ Y _ { i _ { j } } \} _ { j = 1 } ^ { n } \subset \{ Y _ { i } \} _ { i \in I } : \prod _ { i = 1 } ^ { k } [ a _ { i } , b _ { i } ] \subset \bigcup _ { j = 1 } ^ { n } Y _ { i _ { j } } \subset X \\
-Y = \text { open set } \\
-\set { Y } = \text { open cover } \\
-I , J = \text { index set } \\
-X = \text { metric space } \\
-\prod _ { i = 1 } ^ { k } [ a _ { i } , b _ { i } ] = \text { k-cell }
+Y = \text {open set} \\
+\set { Y } = \text {open cover} \\
+I , J = \text {index set} \\
+X = \text {metric space} \\
+\prod _ { i = 1 } ^ { k } [ a _ { i } , b _ { i } ] = \text {k-cell}
 \end{aligned}
 $$
 

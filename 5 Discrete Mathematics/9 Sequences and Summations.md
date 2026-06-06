@@ -19,9 +19,9 @@ $$
 $$
 \begin{aligned}
 a _ { n } = a _ { 1 } r ^ { n - 1 } \\
-a _ { 1 } = \text { 1st term } \\
-r = \text { common ratio } \\
-n = \text { index }
+a _ { 1 } = \text {1st term} \\
+r = \text {common ratio} \\
+n = \text {index}
 \end{aligned}
 $$
 
@@ -34,9 +34,9 @@ $$
 $$
 \begin{aligned}
 a _ { n } = a _ { 1 } + ( n - 1 ) d \\
-a _ { 1 } = \text { 1st term } \\
-d = \text { common difference } \\
-n = \text { index }
+a _ { 1 } = \text {1st term} \\
+d = \text {common difference} \\
+n = \text {index}
 \end{aligned}
 $$
 
@@ -49,7 +49,7 @@ $$
 $$
 \begin{aligned}
 a _ { n } = a _ { n - 1 } , a _ { n - 2 } , . . . a _ { n - k } \\
-k = \text { number of preceding terms }
+k = \text {number of preceding terms}
 \end{aligned}
 $$
 
@@ -86,10 +86,10 @@ $$
 $$
 \begin{aligned}
 \sum _ { k = 1 } ^ { n } a _ { k } = a _ { 1 } + a _ { 2 } + . . . + a _ { n } \\
-k = \text { index } \\
-n = \text { number of terms } \\
-\sum = \text { summation } \\
-a _ { k } = \text { kth term }
+k = \text {index} \\
+n = \text {number of terms} \\
+\sum = \text {summation} \\
+a _ { k } = \text {kth term}
 \end{aligned}
 $$
 
@@ -114,8 +114,8 @@ $$
 $$
 \begin{aligned}
 S _ { n } = \frac { n ( a _ { 1 } + a _ { n } ) } { 2 } \\
-a _ { 1 } = \text { 1st term } \\
-a _ { n } = \text { nth term }
+a _ { 1 } = \text {1st term} \\
+a _ { n } = \text {nth term}
 \end{aligned}
 $$
 
@@ -128,8 +128,8 @@ $$
 $$
 \begin{aligned}
 S _ { n } = \frac { a _ { 1 } ( 1 - r ^ { n } ) } { 1 - r } \\
-a _ { 1 } = \text { 1st term } \\
-r = \text { common ratio }
+a _ { 1 } = \text {1st term} \\
+r = \text {common ratio}
 \end{aligned}
 $$
 
@@ -142,8 +142,8 @@ $$
 $$
 \begin{aligned}
 S = \frac { a _ { 1 } } { 1 - r } \\
-a _ { 1 } = \text { 1st term } \\
-r = \text { common ratio }
+a _ { 1 } = \text {1st term} \\
+r = \text {common ratio}
 \end{aligned}
 $$
 

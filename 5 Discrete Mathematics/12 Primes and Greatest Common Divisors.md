@@ -26,8 +26,8 @@
 $$
 \begin{aligned}
 \forall ( p \le \sqrt n ) \  ( p \nmid n ) \implies n \in P \\
-p = \text { prime number } \\
-n = \text { integer } \\
+p = \text {prime number} \\
+n = \text {integer} \\
 P = \{ 2 , 3 , 5 , 6 , 9 , 13 , 17 , 19 , 23 , 29 , . . . \infty \}
 \end{aligned}
 $$
@@ -63,7 +63,7 @@ $$
 $$
 \begin{aligned}
 \lim _ { x \implies \infty } \frac { \pi ( x ) } { \frac { x } { \ln ( x ) } } = 1 \\
-\pi ( x ) = \text { prime counting function }
+\pi ( x ) = \text {prime counting function}
 \end{aligned}
 $$
 
@@ -142,8 +142,8 @@ $$
 $$
 \begin{aligned}
 \gcd ( a , b ) = \prod _ { p \in P } p ^ { \min ( a _ { p } , \  b _ { p } ) } \\
-a _ { p } , b _ { p } = \text { prime factor exponent } \\
-p = \text { prime number }
+a _ { p } , b _ { p } = \text {prime factor exponent} \\
+p = \text {prime number}
 \end{aligned}
 $$
 
@@ -156,9 +156,9 @@ $$
 ### lcm by prime factorization formula
 $$
 \begin{aligned}
-\text { lcm } ( a , b ) = \prod _ { p \in P } p ^ { \max ( a _ { p } , \  b _ { p } ) } \\
-a _ { p } , b _ { p } = \text { prime factor exponent } \\
-p = \text { prime number }
+\text {lcm} ( a , b ) = \prod _ { p \in P } p ^ { \max ( a _ { p } , \  b _ { p } ) } \\
+a _ { p } , b _ { p } = \text {prime factor exponent} \\
+p = \text {prime number}
 \end{aligned}
 $$
 
@@ -170,7 +170,7 @@ $$
 ### commonality formula
 $$
 \begin{aligned}
-a \times b = \gcd ( a , b ) \times \text { lcm } ( a , b )
+a \times b = \gcd ( a , b ) \times \text {lcm} ( a , b )
 \end{aligned}
 $$
 
@@ -182,7 +182,7 @@ $$
 ### gcd by euclidian formula
 $$
 \begin{aligned}
-\gcd ( a , b ) = \gcd ( b , a \  \text { mod } \  b ) = \gcd ( b , r ) \\
+\gcd ( a , b ) = \gcd ( b , a \  \text {mod} \  b ) = \gcd ( b , r ) \\
 a = b q + r
 \end{aligned}
 $$
@@ -202,7 +202,7 @@ $$
 $$
 \begin{aligned}
 \gcd ( a , b ) = a x + b y \\
-x , y = \text { bezout coefficient }
+x , y = \text {bezout coefficient}
 \end{aligned}
 $$
 

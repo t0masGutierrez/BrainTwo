@@ -7,10 +7,10 @@ $$
 \begin{aligned}
 X : \Omega \rightarrow \mathbb R \\
 X ( \omega ) = x \\
-X = \text { random variable } \\
-\Omega = \text { sample space } \\
-x = \text { real number } \\
-\omega = \text { outcome }
+X = \text {random variable} \\
+\Omega = \text {sample space} \\
+x = \text {real number} \\
+\omega = \text {outcome}
 \end{aligned}
 $$
 
@@ -23,7 +23,7 @@ $$
 $$
 \begin{aligned}
 ( \{ 0 , 1 , 2 , 3 , \dots , n \} \sim X ) \lor ( \mathbb N \sim X ) \\
-X = \text { random variable }
+X = \text {random variable}
 \end{aligned}
 $$
 
@@ -45,8 +45,8 @@ $$
 $$
 \begin{aligned}
 \mu = \sum _ { i } x _ { i } P ( X = x _ { i } ) \\
-x = \text { real number } \\
-X = \text { random variable }
+x = \text {real number} \\
+X = \text {random variable}
 \end{aligned}
 $$
 
@@ -55,9 +55,9 @@ $$
 $$
 \begin{aligned}
 \sigma = \sqrt { \sum _ { i } ( x _ { i } - \mu ) ^ { 2 } P ( X = x _ { i } ) } \\
-x = \text { real number } \\
-\mu = \text { mean } \\
-X = \text { random variable }
+x = \text {real number} \\
+\mu = \text {mean} \\
+X = \text {random variable}
 \end{aligned}
 $$
 
@@ -75,10 +75,10 @@ $$
 $$
 \begin{aligned}
 P ( X = k ) = p q ^ { 1 - k } \\
-X = \text { random variable } \\
-k = \text { number of successes } \\
-p = \text { probability of success } \\
-q = \text { probability of failure }
+X = \text {random variable} \\
+k = \text {number of successes} \\
+p = \text {probability of success} \\
+q = \text {probability of failure}
 \end{aligned}
 $$
 
@@ -87,7 +87,7 @@ $$
 $$
 \begin{aligned}
 \mu = p \\
-p = \text { probability of success }
+p = \text {probability of success}
 \end{aligned}
 $$
 
@@ -96,8 +96,8 @@ $$
 $$
 \begin{aligned}
 \sigma = \sqrt { pq } \\
-p = \text { probability of success } \\
-q = \text { probability of failure }
+p = \text {probability of success} \\
+q = \text {probability of failure}
 \end{aligned}
 $$
 
@@ -117,11 +117,11 @@ $$
 $$
 \begin{aligned}
 P ( X = k ) = \begin{pmatrix} n \\ k \end{pmatrix} p ^ { k } q ^ { n - k } \\
-X = \text { random variable } \\
-n = \text { number of trials } \\
-k = \text { number of successes } \\
-p = \text { probability of success } \\
-q = \text { probability of failure }
+X = \text {random variable} \\
+n = \text {number of trials} \\
+k = \text {number of successes} \\
+p = \text {probability of success} \\
+q = \text {probability of failure}
 \end{aligned}
 $$
 
@@ -130,8 +130,8 @@ $$
 $$
 \begin{aligned}
 \mu = n p \\
-n = \text { number of trials } \\
-p = \text { probability of success }
+n = \text {number of trials} \\
+p = \text {probability of success}
 \end{aligned}
 $$
 
@@ -140,9 +140,9 @@ $$
 $$
 \begin{aligned}
 \sigma = \sqrt { npq } \\
-n = \text { number of successes } \\
-p = \text { probability of success } \\
-q = \text { probability of failure }
+n = \text {number of successes} \\
+p = \text {probability of success} \\
+q = \text {probability of failure}
 \end{aligned}
 $$
 
@@ -164,12 +164,12 @@ $$
 \begin{aligned}
 P ( X _ { 1 } = k _ { 1 } ) = \begin{pmatrix} k - 1 \\ r - 1 \end{pmatrix} p ^ { r } q ^ { k - r } \\
 P ( X _ { 2 } = k _ { 2 } ) = \begin{pmatrix} k + r - 1 \\ r - 1 \end{pmatrix} p ^ { r } q ^ { k } \\
-X = \text { random variable } \\
-k _ { 1 } = \text { number of trials until r successes } \\
-k _ { 2 } = \text { number of failures before rth success } \\
-r = \text { success number } \\
-p = \text { probability of success } \\
-q = \text { probability of failure }
+X = \text {random variable} \\
+k _ { 1 } = \text {number of trials until r successes} \\
+k _ { 2 } = \text {number of failures before rth success} \\
+r = \text {success number} \\
+p = \text {probability of success} \\
+q = \text {probability of failure}
 \end{aligned}
 $$
 
@@ -179,9 +179,9 @@ $$
 \begin{aligned}
 \mu _ { 1 } = \frac { r } { p } \\
 \mu _ { 2 } = \frac { rq } { p } \\
-r = \text { success number } \\
-p = \text { probability of success } \\
-q = \text { probability of failure }
+r = \text {success number} \\
+p = \text {probability of success} \\
+q = \text {probability of failure}
 \end{aligned}
 $$
 
@@ -190,9 +190,9 @@ $$
 $$
 \begin{aligned}
 \sigma = \sqrt \frac { rq } { p ^ { 2 } } \\
-r = \text { success number } \\
-q = \text { probability of failure } \\
-p = \text { probability of success }
+r = \text {success number} \\
+q = \text {probability of failure} \\
+p = \text {probability of success}
 \end{aligned}
 $$
 
@@ -214,11 +214,11 @@ $$
 \begin{aligned}
 P ( X _ { 1 } = k _ { 1 } ) = p q ^ { k - 1 } \\
 P ( X _ { 2 } = k _ { 2 } ) = p q ^ { k } \\
-X = \text { random variable } \\
-p = \text { probability of success } \\
-q = \text { probability of failure } \\
-k _ { 1 } = \text { number of trials until 1st success } \\
-k _ { 2 } = \text { number of failures before 1st success }
+X = \text {random variable} \\
+p = \text {probability of success} \\
+q = \text {probability of failure} \\
+k _ { 1 } = \text {number of trials until 1st success} \\
+k _ { 2 } = \text {number of failures before 1st success}
 \end{aligned}
 $$
 
@@ -228,8 +228,8 @@ $$
 \begin{aligned}
 \mu _ { 1 } = \frac { 1 } { p } \\
 \mu _ { 2 } = \frac { q } { p } \\
-p = \text { probability of success } \\
-q = \text { probability of failure }
+p = \text {probability of success} \\
+q = \text {probability of failure}
 \end{aligned}
 $$
 
@@ -238,8 +238,8 @@ $$
 $$
 \begin{aligned}
 \sigma = \sqrt \frac { q } { p ^ { 2 } } \\
-q = \text { probability of failure } \\
-p = \text { probability of success }
+q = \text {probability of failure} \\
+p = \text {probability of success}
 \end{aligned}
 $$
 
@@ -258,11 +258,11 @@ $$
 $$
 \begin{aligned}
 P ( X = k ) = \frac { \begin{pmatrix} K \\ k \end{pmatrix} \begin{pmatrix} N - K \\ n - k \end{pmatrix} } { \begin{pmatrix} N \\ n \end{pmatrix} } \\
-X = \text { random variable } \\
-K = \text { interest group size } \\
-k = \text { number of interest items drawn } \\
-N = \text { population size } \\
-n = \text { number of items drawn }
+X = \text {random variable} \\
+K = \text {interest group size} \\
+k = \text {number of interest items drawn} \\
+N = \text {population size} \\
+n = \text {number of items drawn}
 \end{aligned}
 $$
 
@@ -271,9 +271,9 @@ $$
 $$
 \begin{aligned}
 \mu = \frac { nK } { N } \\
-n = \text { number of items drawn } \\
-K = \text { interest group size } \\
-N = \text { population size }
+n = \text {number of items drawn} \\
+K = \text {interest group size} \\
+N = \text {population size}
 \end{aligned}
 $$
 
@@ -282,9 +282,9 @@ $$
 $$
 \begin{aligned}
 \sigma = \sqrt { ( \frac { nK } { N } ) ( 1 - \frac { K } { N } ) ( \frac { N - n } { N - 1 } ) } \\
-n = \text { number of items drawn } \\
-K = \text { interest group size } \\
-N = \text { population size }
+n = \text {number of items drawn} \\
+K = \text {interest group size} \\
+N = \text {population size}
 \end{aligned}
 $$
 
@@ -305,9 +305,9 @@ $$
 $$
 \begin{aligned}
 P ( X = k ) = \frac { e ^ { - \lambda } \lambda ^ { k } } { k ! } \\
-X = \text { random variable } \\
-k = \text { number of events within interval } \\
-\lambda = \text { average number of events per interval }
+X = \text {random variable} \\
+k = \text {number of events within interval} \\
+\lambda = \text {average number of events per interval}
 \end{aligned}
 $$
 
@@ -316,7 +316,7 @@ $$
 $$
 \begin{aligned}
 \mu = \lambda \\
-\lambda = \text { average number of events per interval }
+\lambda = \text {average number of events per interval}
 \end{aligned}
 $$
 
@@ -325,7 +325,7 @@ $$
 $$
 \begin{aligned}
 \sigma = \sqrt \lambda \\
-\lambda = \text { average number of events per interval }
+\lambda = \text {average number of events per interval}
 \end{aligned}
 $$
 

@@ -7,8 +7,8 @@
 $$
 \begin{aligned}
 \vec p = m \vec v \\
-m = \text { mass } \\
-\vec v = \text { velocity }
+m = \text {mass} \\
+\vec v = \text {velocity}
 \end{aligned}
 $$
 
@@ -25,11 +25,11 @@ $$
 F _ { x } = m \frac { d v _ { x } } { dt } \\
 F _ { y } = m \frac { d v _ { y } } { dt }
 \end{cases} \\
-\vec p = \text { momentum } \\
-t = \text { time } \\
-F = \text { force } \\
-m = \text { mass } \\
-v = \text { velocity }
+\vec p = \text {momentum} \\
+t = \text {time} \\
+F = \text {force} \\
+m = \text {mass} \\
+v = \text {velocity}
 \end{aligned}
 $$
 
@@ -43,9 +43,9 @@ $$
 $$
 \begin{aligned}
 \vec J = \Delta \vec p = \vec F _ { net } \Delta t \\
-\vec p = \text { momentum } \\
-\vec F = \text { force } \\
-t = \text { time }
+\vec p = \text {momentum} \\
+\vec F = \text {force} \\
+t = \text {time}
 \end{aligned}
 $$
 
@@ -54,9 +54,9 @@ $$
 $$
 \begin{aligned}
 \vec J = \Delta \vec p = \int \vec F _ { net } \cdot d t \\
-\vec p = \text { momentum } \\
-\vec F = \text { force } \\
-t = \text { time }
+\vec p = \text {momentum} \\
+\vec F = \text {force} \\
+t = \text {time}
 \end{aligned}
 $$
 
@@ -71,12 +71,12 @@ $$
 \begin{aligned}
 \vec J ( t ) = \Delta \vec p \\
 W _ { net } ( \vec r ) = \Delta K \\
-\vec J = \text { impulse } \\
-t = \text { time } \\
-\vec p = \text { momentum } \\
-W = \text { work } \\
-\vec r = \text { position } \\
-K = \text { kinetic energy }
+\vec J = \text {impulse} \\
+t = \text {time} \\
+\vec p = \text {momentum} \\
+W = \text {work} \\
+\vec r = \text {position} \\
+K = \text {kinetic energy}
 \end{aligned} 
 $$
 
@@ -89,8 +89,8 @@ $$
 $$
 \begin{aligned}
 \vec F _ { net } = 0 \implies \vec p _ { i } = \vec p _ { f } \\
-\vec F = \text { force } \\
-\vec p = \text { momentum }
+\vec F = \text {force} \\
+\vec p = \text {momentum}
 \end{aligned}
 $$
 
@@ -103,8 +103,8 @@ $$
 $$
 \begin{aligned}
 m _ { 1 } \rightarrow \leftarrow m _ { 2 } \implies \vec p _ { i } = \vec p _ { f } \\
-m = \text { mass } \\
-\vec p = \text { momentum }
+m = \text {mass} \\
+\vec p = \text {momentum}
 \end{aligned}
 $$
 
@@ -120,8 +120,8 @@ $$
 \begin{aligned}
 v _ { 1 f } = \frac { - m _ { 2 } } { m _ { 1 } } v _ { 2 f } \\
 v _ { 2 f } = \frac { - m _ { 1 } } { m _ { 2 } } v _ { 1 f } \\
-m = \text { mass } \\
-v = \text { velocity }
+m = \text {mass} \\
+v = \text {velocity}
 \end{aligned}
 $$
 
@@ -137,8 +137,8 @@ $$
 \begin{aligned}
 v _ { 1 f } = \frac { m _ { 1 } - m _ { 2 } } { m _ { 1 } + m _ { 2 } } v _ { 1 i } + \frac { 2 m _ { 2 } } { m _ { 1 } + m _ { 2 } } v _ { 2 i } \\
 v _ { 2 f } = \frac { 2 m _ { 1 } } { m _ { 1 } + m _ { 2 } } v _ { 1 i } + \frac { m _ { 2 } - m _ { 1 } } { m _ { 1 } + m _ { 2 } } v _ { 2 i } \\
-m = \text { mass } \\
-v = \text { velocity }
+m = \text {mass} \\
+v = \text {velocity}
 \end{aligned}
 $$
 
@@ -154,8 +154,8 @@ $$
 \begin{aligned}
 K _ { i } > K _ { f } \\
 \vec p _ { i } = \vec p _ { f } \\
-K = \text { kinetic energy } \\
-\vec p = \text { momentum }
+K = \text {kinetic energy} \\
+\vec p = \text {momentum}
 \end{aligned}
 $$
 
@@ -170,8 +170,8 @@ $$
 $$
 \begin{aligned}
 v _ { f } = \frac { m _ { 1 } v _ { 1 i } + m _ { 2 } v _ { 2 i } } { m _ { 1 } + m _ { 2 } } \\
-m = \text { mass } \\
-v = \text { velocity }
+m = \text {mass} \\
+v = \text {velocity}
 \end{aligned}
 $$
 
@@ -186,9 +186,9 @@ $$
 $$
 \begin{aligned}
 \vec r _ { cm } = \frac { \sum _ { n } m _ { n } \vec r _ { n } } { M } \\
-m = \text { mass } \\
-\vec r = \text { position } \\
-M = \text { system mass }
+m = \text {mass} \\
+\vec r = \text {position} \\
+M = \text {system mass}
 \end{aligned}
 $$
 
@@ -202,10 +202,10 @@ $$
 \begin{aligned}
 \vec v _ { cm } = \frac { \sum _ { n } m _ { n } \vec v _ { n } } { M } \\
 \vec p = M \vec v _ { cm } \\
-m = \text { mass } \\
-\vec v = \text { velocity } \\
-M = \text { system mass } \\
-\vec p = \text { momentum }
+m = \text {mass} \\
+\vec v = \text {velocity} \\
+M = \text {system mass} \\
+\vec p = \text {momentum}
 \end{aligned}
 $$
 
@@ -219,10 +219,10 @@ $$
 \begin{aligned}
 \vec a _ { cm } = \frac { \sum _ { n } m _ { n } \vec a _ { n } } { M } \\
 \vec F _ { net } = M \vec a _ { cm } \\
-m = \text { mass } \\
-\vec a = \text { acceleration } \\
-M = \text { system mass } \\
-\vec F = \text { force }
+m = \text {mass} \\
+\vec a = \text {acceleration} \\
+M = \text {system mass} \\
+\vec F = \text {force}
 \end{aligned}
 $$
 
@@ -237,9 +237,9 @@ $$
 \begin{aligned}
 \vec F _ { thrust } = \vec v _ { ex } \frac { dm } { dt } \\
 \Delta \vec v = \vec v _ { ex } \ln ( \frac { m _ { i } } { m _ { f } } ) \\
-\vec v = \text { velocity } \\
-m = \text { mass } \\
-t = \text { time }
+\vec v = \text {velocity} \\
+m = \text {mass} \\
+t = \text {time}
 \end{aligned}
 $$
 

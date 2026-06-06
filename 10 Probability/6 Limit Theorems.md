@@ -6,7 +6,7 @@
 $$
 \begin{aligned}
 \mu = E [ X ] \\
-X = \text { random variable }
+X = \text {random variable}
 \end{aligned}
 $$
 
@@ -19,7 +19,7 @@ $$
 $$
 \begin{aligned}
 \overline X _ { n } = \frac { 1 } { n } \sum _ { i = 1 } ^ { n } X _ { i } \\
-X = \text { random variable }
+X = \text {random variable}
 \end{aligned}
 $$
 
@@ -31,8 +31,8 @@ $$
 ### variance formula
 $$
 \begin{aligned}
-\sigma ^ { 2 } = \text { Var } ( X ) \\
-X = \text { random variable }
+\sigma ^ { 2 } = \text {Var} ( X ) \\
+X = \text {random variable}
 \end{aligned}
 $$
 
@@ -44,9 +44,9 @@ $$
 ### sample variance formula
 $$
 \begin{aligned}
-s ^ { 2 } = \text { Var } ( \overline X _ { n } ) = \frac { \sigma ^ { 2 } } { n } \\
-\sigma ^ { 2 } = \text { variance } \\
-X = \text { random variable }
+s ^ { 2 } = \text {Var} ( \overline X _ { n } ) = \frac { \sigma ^ { 2 } } { n } \\
+\sigma ^ { 2 } = \text {variance} \\
+X = \text {random variable}
 \end{aligned}
 $$
 
@@ -60,8 +60,8 @@ $$
 \begin{aligned}
 P ( X \ge c ) \le \frac { E [ X ] } { c } \\
 X \ge 0 \\
-X = \text { random variable } \\
-c = \text { real number }
+X = \text {random variable} \\
+c = \text {real number}
 \end{aligned}
 $$
 
@@ -76,11 +76,11 @@ $$
 P ( | X - \mu | \ge k \sigma ) \le \frac { 1 } { k ^ { 2 } } \\
 P ( | X - \mu | < c ) \le 1 - \frac { \sigma ^ { 2 } } { c ^ { 2 } } \\
 \mu , \sigma ^ { 2 } < \infty \\
-X = \text { random variable } \\
-\mu = \text { mean } \\
-k = \text { number of standard deviations } \\
-\sigma ^ { 2 } = \text { variance } \\
-c = \text { real number }
+X = \text {random variable} \\
+\mu = \text {mean} \\
+k = \text {number of standard deviations} \\
+\sigma ^ { 2 } = \text {variance} \\
+c = \text {real number}
 \end{aligned}
 $$
 
@@ -93,8 +93,8 @@ $$
 $$
 \begin{aligned}
 \forall \epsilon > 0 : P ( | \lim _ { n \rightarrow \infty } \overline X _ { n } - \mu | > \epsilon ) = 0 \\
-\overline X = \text { sample mean } \\
-\mu = \text { mean }
+\overline X = \text {sample mean} \\
+\mu = \text {mean}
 \end{aligned}
 $$
 
@@ -107,8 +107,8 @@ $$
 $$
 \begin{aligned}
 P ( \lim _ { n \rightarrow \infty } \overline X _ { n } = \mu ) = 1 \\
-\overline X = \text { sample mean } \\
-\mu = \text { mean }
+\overline X = \text {sample mean} \\
+\mu = \text {mean}
 \end{aligned}
 $$
 

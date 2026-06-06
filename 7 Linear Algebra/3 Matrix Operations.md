@@ -11,9 +11,9 @@ a _ { 11 } & \dots & a _ { 1 n } \\
 a _ { m 1 } & \dots & a _ { mn }
 \end{bmatrix} \\
 | A | = m \times n \\
-a = \text { entry } \\
-m = \text { number of rows } \\
-n = \text { number of columns }
+a = \text {entry} \\
+m = \text {number of rows} \\
+n = \text {number of columns}
 \end{aligned}
 $$
 
@@ -31,7 +31,7 @@ a _ { 21 } & a _ { 22 } & a _ { 23 } \\
 a _ { 31 } & a _ { 32 } & a _ { 33 }
 \end{bmatrix} \\
 | A | = 3 \times 3 \\
-a = \text { entry }
+a = \text {entry}
 \end{aligned}
 $$
 
@@ -43,11 +43,11 @@ $$
 ### main diagonal formula
 $$
 \begin{aligned}
-\text { diag } ( A ) = ( a _ { ii } ) _ { i = 1 } ^ { n } \\
-a = \text { entry } \\
-i = \text { row index } \\
-i = \text { column index } \\
-n = \text { dimension }
+\text {diag} ( A ) = ( a _ { ii } ) _ { i = 1 } ^ { n } \\
+a = \text {entry} \\
+i = \text {row index} \\
+i = \text {column index} \\
+n = \text {dimension}
 \end{aligned}
 $$
 
@@ -65,9 +65,9 @@ d _ { 11 } & 0 & 0 \\
 0 & 0 & d _ { 33 }
 \end{bmatrix} \iff \forall ( i \ne j ) : d _ { ij } = 0 \\
 | D | = 3 \times 3 \\
-d = \text { entry } \\
-i = \text { row index } \\
-j = \text { column index }
+d = \text {entry} \\
+i = \text {row index} \\
+j = \text {column index}
 \end{aligned}
 $$
 
@@ -85,8 +85,8 @@ I = \begin{bmatrix}
 0 & 0 & 1
 \end{bmatrix} \iff \forall ( i \ne j ) : ( a _ { ij } = 0 ) \land \forall ( i = j ) : ( a _ { ij } = 1 ) \\
 | I | = 3 \times 3 \\
-i = \text { row index } \\
-j = \text { column index }
+i = \text {row index} \\
+j = \text {column index}
 \end{aligned}
 $$
 
@@ -104,9 +104,9 @@ u _ { 11 } & u _ { 12 } & u _ { 13 } \\
 0 & 0 & u _ { 33 }
 \end{bmatrix} \iff \forall ( i > j ) : u _ { ij } = 0 \\
 | U | = 3 \times 3 \\
-u = \text { entry } \\
-i = \text { row index } \\
-j = \text { column index }
+u = \text {entry} \\
+i = \text {row index} \\
+j = \text {column index}
 \end{aligned}
 $$
 
@@ -124,9 +124,9 @@ l _ { 21 } & l _ { 22 } & 0 \\
 l _ { 31 } & l _ { 32 } & l _ { 33 } \\
 \end{bmatrix} \iff \forall ( i < j ) : l _ { ij } = 0 \\
 | L | = 3 \times 3 \\
-l = \text { entry } \\
-i = \text { row index } \\
-j = \text { column index }
+l = \text {entry} \\
+i = \text {row index} \\
+j = \text {column index}
 \end{aligned}
 $$
 
@@ -155,11 +155,11 @@ $$
 ### trace formula
 $$
 \begin{aligned}
-\text { tr } ( A ) = \sum _ { i = 1 } ^ { n } a _ { ii } \\
-a = \text { entry } \\
-i = \text { row index } \\
-i = \text { column index } \\
-n = \text { dimension }
+\text {tr} ( A ) = \sum _ { i = 1 } ^ { n } a _ { ii } \\
+a = \text {entry} \\
+i = \text {row index} \\
+i = \text {column index} \\
+n = \text {dimension}
 \end{aligned}
 $$
 
@@ -177,8 +177,8 @@ c a _ { 21 } & c a _ { 22 } & c a _ { 23 } \\
 c a _ { 31 } & c a _ { 32 } & c a _ { 33 }
 \end{bmatrix} \\
 | c A | = 3 \times 3 \\
-c = \text { scalar } \\
-a = \text { entry }
+c = \text {scalar} \\
+a = \text {entry}
 \end{aligned}
 $$
 
@@ -196,7 +196,7 @@ a _ { 21 } + b _ { 21 } & a _ { 22 } + b _ { 22 } & a _ { 23 } + b _ { 23 } \\
 a _ { 31 } + b _ { 31 } & a _ { 32 } + b _ { 32 } & a _ { 33 } + b _ { 33 }
 \end{bmatrix} \\
 | A + B | = 3 \times 3 \\
-a , b = \text { entry }
+a , b = \text {entry}
 \end{aligned}
 $$
 
@@ -209,9 +209,9 @@ $$
 $$
 \begin{aligned}
 B = \sum _ { i = 1 } ^ { k } c _ { i } A _ { i } \\
-c = \text { scalar } \\
-A = \text { matrix } \\
-k = \text { number of matrices }
+c = \text {scalar} \\
+A = \text {matrix} \\
+k = \text {number of matrices}
 \end{aligned}
 $$
 
@@ -234,8 +234,8 @@ a _ { 13 } & a _ { 23 } & a _ { 33 }
 \end{bmatrix} \\
 m \times n \implies n \times m \\
 a _ { ij } \implies a _ { ji } \\
-a = \text { entry } \\
-T = \text { transposition }
+a = \text {entry} \\
+T = \text {transposition}
 \end{aligned}
 $$
 
@@ -248,8 +248,8 @@ $$
 $$
 \begin{aligned}
 A = A ^ { T } \\
-A = \text { square matrix } \\
-T = \text { transposition }
+A = \text {square matrix} \\
+T = \text {transposition}
 \end{aligned}
 $$
 
@@ -262,8 +262,8 @@ $$
 $$
 \begin{aligned}
 A = - A ^ { T } \\
-A = \text { square matrix } \\
-T = \text { transposition }
+A = \text {square matrix} \\
+T = \text {transposition}
 \end{aligned}
 $$
 
@@ -276,12 +276,12 @@ $$
 $$
 \begin{aligned}
 A = B \iff \forall i , j \le m , n : ( a _ { ij } = b _ { ij } ) \land ( | A | = | B | ) \\
-A , B = \text { matrix } \\
-a , b = \text { entry } \\
-i = \text { row index } \\
-j = \text { column index } \\
-m = \text { number of rows } \\
-n = \text { number of columns }
+A , B = \text {matrix} \\
+a , b = \text {entry} \\
+i = \text {row index} \\
+j = \text {column index} \\
+m = \text {number of rows} \\
+n = \text {number of columns}
 \end{aligned}
 $$
 
@@ -335,10 +335,10 @@ $$
 A = S + V \\
 S = ( \frac { 1 } { 2 } ) ( A + A ^ { T } ) = ( \frac { 1 } { 2 } ) ( A + A ^ { T } ) ^ { T } \\
 V = ( \frac { 1 } { 2 } ) ( A - A ^ { T } ) = ( \frac { 1 } { 2 } ) ( A ^ { T } - A ) ^ { T } \\
-A = \text { square matrix } \\
-S = \text { symmetric matrix } \\
-V = \text { skew symmetric matrix } \\
-T = \text { transposition }
+A = \text {square matrix} \\
+S = \text {symmetric matrix} \\
+V = \text {skew symmetric matrix} \\
+T = \text {transposition}
 \end{aligned}
 $$
 

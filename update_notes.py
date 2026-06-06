@@ -73,7 +73,9 @@ def math_tokens(text):
                 if next_i < len(text) and text[next_i] == "{":
                     argument, end_i = read_braced_argument(text, next_i)
                     normalized_argument = normalize_word_argument(argument)
-                    if command in COMPACT_WORD_ARGUMENT_COMMANDS:
+                    if command == "\\text":
+                        tokens.append(f"{command} {{{normalized_argument}}}")
+                    elif command in COMPACT_WORD_ARGUMENT_COMMANDS:
                         tokens.append(f"{command}{{{normalized_argument}}}")
                     else:
                         tokens.extend([command, "{", normalized_argument, "}"])

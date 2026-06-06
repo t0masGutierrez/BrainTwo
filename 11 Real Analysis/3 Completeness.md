@@ -6,8 +6,8 @@
 $$
 \begin{aligned}
 \exists u \in \mathbb R , \forall x \in S \subset \mathbb R : x \le u \\
-S = \text { bounded above set } \\
-u = \text { upper bound }
+S = \text {bounded above set} \\
+u = \text {upper bound}
 \end{aligned}
 $$
 
@@ -20,8 +20,8 @@ $$
 $$
 \begin{aligned}
 \exists w \in \mathbb R , \forall x \in S \subset \mathbb R : w \le x \\
-S = \text { bounded below set } \\
-w = \text { lower bound }
+S = \text {bounded below set} \\
+w = \text {lower bound}
 \end{aligned}
 $$
 
@@ -34,9 +34,9 @@ $$
 $$
 \begin{aligned}
 \exists u , w \in \mathbb R , \forall x \in S \subset \mathbb R : w \le x \le u \\
-S = \text { bounded set } \\
-u = \text { upper bound } \\
-w = \text { lower bound }
+S = \text {bounded set} \\
+u = \text {upper bound} \\
+w = \text {lower bound}
 \end{aligned}
 $$
 
@@ -49,9 +49,9 @@ $$
 $$
 \begin{aligned}
 \exists u , w \in \mathbb R , \exists x \in S \subset \mathbb R : ( x < w ) \lor ( x > u ) \\
-S = \text { unbounded set } \\
-u = \text { upper bound } \\
-w = \text { lower bound }
+S = \text {unbounded set} \\
+u = \text {upper bound} \\
+w = \text {lower bound}
 \end{aligned}
 $$
 
@@ -64,8 +64,8 @@ $$
 $$
 \begin{aligned}
 ( \forall x \in S \subset \mathbb R : x \le u ) \land ( \exists u ' \in \mathbb R : u ' < u \implies \exists x \in S : x > u ' ) \implies u = \sup S \\
-S = \text { bounded above set } \\
-u = \text { supremum } \\
+S = \text {bounded above set} \\
+u = \text {supremum} \\
 \end{aligned}
 $$
 
@@ -78,8 +78,8 @@ $$
 $$
 \begin{aligned}
 ( \forall x \in S \subset \mathbb R : w \le x ) \land ( \exists w ' \in \mathbb R : w ' > w \implies \exists x \in S : x < w ' ) \implies w = \inf S \\
-S = \text { bounded below set } \\
-w = \text { infimum } \\
+S = \text {bounded below set} \\
+w = \text {infimum} \\
 \end{aligned}
 $$
 
@@ -92,8 +92,8 @@ $$
 $$
 \begin{aligned}
 \exists u \in \mathbb R , \forall x \in S \subset \mathbb R : x \le u \implies \exists \sup S \in \mathbb R \\
-S = \text { bounded above set } \\
-u = \text { upper bound } \\
+S = \text {bounded above set} \\
+u = \text {upper bound} \\
 \end{aligned}
 $$
 
@@ -106,8 +106,8 @@ $$
 $$
 \begin{aligned}
 \exists w \in \mathbb R , \forall x \in S \subset \mathbb R : w \le x \implies \exists \inf S \in \mathbb R \\
-S = \text { bounded below set } \\
-w = \text { lower bound }
+S = \text {bounded below set} \\
+w = \text {lower bound}
 \end{aligned}
 $$
 
@@ -120,7 +120,7 @@ $$
 $$
 \begin{aligned}
 \inf S = - \sup ( - S ) \\
-S = \text { bounded set }
+S = \text {bounded set}
 \end{aligned}
 $$
 
@@ -133,8 +133,8 @@ $$
 $$
 \begin{aligned}
 \forall \epsilon > 0 , \exists x \in S \subset \mathbb R : u - \epsilon < x < u \implies u = \sup S \\
-S = \text { bounded above set } \\
-u = \text { supremum }
+S = \text {bounded above set} \\
+u = \text {supremum}
 \end{aligned}
 $$
 
@@ -147,7 +147,7 @@ $$
 $$
 \begin{aligned}
 S _ { 2 } \subset S _ { 1 } \subset \mathbb R \implies \sup S _ { 2 } \le \sup S _ { 1 } \\
-S = \text { bounded above set }
+S = \text {bounded above set}
 \end{aligned}
 $$
 
@@ -160,7 +160,7 @@ $$
 $$
 \begin{aligned}
 \sup S \in S \implies \sup S = \max S \\
-S = \text { bounded above set }
+S = \text {bounded above set}
 \end{aligned}
 $$
 
@@ -173,7 +173,7 @@ $$
 $$
 \begin{aligned}
 \sup ( S _ { 1 } + S _ { 2 } ) = \sup S _ { 1 } + \sup S _ { 2 } \\
-S = \text { bounded above set }
+S = \text {bounded above set}
 \end{aligned}
 $$
 
@@ -186,7 +186,7 @@ $$
 $$
 \begin{aligned}
 \sup ( S _ { 1 } \cup S _ { 2 } ) = \max \set { \sup S _ { 1 } , \sup S _ { 2 } } \\
-S = \text { bounded above set }
+S = \text {bounded above set}
 \end{aligned}
 $$
 

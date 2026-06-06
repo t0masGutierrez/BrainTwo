@@ -42,7 +42,7 @@
 $$
 \begin{aligned}
 \gamma = \sqrt [ - 2 ] { 1 - \frac { v _ { A / B } ^ { 2 } } { c ^ { 2 } } } \ge 1 \\
-v = \text { velocity } \\
+v = \text {velocity} \\
 c = 3 \times 10 ^ { 8 }
 \end{aligned}
 $$
@@ -62,8 +62,8 @@ $$
 $$
 \begin{aligned}
 \Delta t = \Delta t _ { o } \gamma \\
-t _ { 0 } = \text { proper time } \\
-\gamma = \text { lorentz factor }
+t _ { 0 } = \text {proper time} \\
+\gamma = \text {lorentz factor}
 \end{aligned}
 $$
 
@@ -83,8 +83,8 @@ $$
 $$
 \begin{aligned}
 L = \frac { L _ { 0 } } { \gamma } \\
-L _ { 0 } = \text { proper length } \\
-\gamma = \text { lorentz factor }
+L _ { 0 } = \text {proper length} \\
+\gamma = \text {lorentz factor}
 \end{aligned}
 $$
 
@@ -100,9 +100,9 @@ x = x ' + v t \\
 y = y ' \\
 z = z ' \\
 t = t ' \\
-x = \text { position } \\
-v = \text { velocity } \\
-t = \text { time }
+x = \text {position} \\
+v = \text {velocity} \\
+t = \text {time}
 \end{aligned}
 $$
 
@@ -111,7 +111,7 @@ $$
 $$
 \begin{aligned}
 v = v ' + v _ { A / B } \\
-v = \text { velocity }
+v = \text {velocity}
 \end{aligned}
 $$
 
@@ -128,10 +128,10 @@ x = ( x ' + v t ' ) \gamma \\
 y = y ' \\
 z = z ' \\
 t = ( t ' + \frac { v x ' } { c ^ { 2 } } ) \gamma \\
-x = \text { position } \\
-v = \text { velocity } \\
-t = \text { time } \\
-\gamma = \text { lorentz factor } \\
+x = \text {position} \\
+v = \text {velocity} \\
+t = \text {time} \\
+\gamma = \text {lorentz factor} \\
 c = 3 \times 10 ^ { 8 }
 \end{aligned}
 $$
@@ -154,8 +154,8 @@ $$
 \begin{aligned}
 \Delta s ^ { 2 } = c ^ { 2 } \Delta t ^ { 2 } - \Delta x ^ { 2 } - \Delta y ^ { 2 } - \Delta z ^ { 2 } \\
 c = 3 \times 10 ^ { 8 } \\
-t = \text { time } \\
-x = \text { position }
+t = \text {time} \\
+x = \text {position}
 \end{aligned}
 $$
 
@@ -168,7 +168,7 @@ $$
 $$
 \begin{aligned}
 \Delta s ^ { 2 } = ( \Delta s ' ) ^ { 2 } \\
-s = \text { spacetime }
+s = \text {spacetime}
 \end{aligned}
 $$
 
@@ -206,9 +206,9 @@ $$
 $$
 \begin{aligned}
 f = f _ { 0 } \sqrt { \frac { c \pm v _ { A / B } } { c \mp v _ { A / B } } } \\
-f _ { 0 } = \text { proper frequency } \\
+f _ { 0 } = \text {proper frequency} \\
 c = 3 \times 10 ^ { 8 } \\
-v = \text { velocity }
+v = \text {velocity}
 \end{aligned}
 $$
 
@@ -232,9 +232,9 @@ $$
 $$
 \begin{aligned}
 \vec p = \gamma m \vec v \\
-\gamma = \text { lorentz factor } \\
-m = \text { mass } \\
-v = \text { velocity }
+\gamma = \text {lorentz factor} \\
+m = \text {mass} \\
+v = \text {velocity}
 \end{aligned}
 $$
 
@@ -248,8 +248,8 @@ $$
 $$
 \begin{aligned}
 K = ( \gamma - 1 ) m c ^ { 2 } \\
-\gamma = \text { lorentz factor } \\
-m = \text { mass } \\
+\gamma = \text {lorentz factor} \\
+m = \text {mass} \\
 c = 3 \times 10 ^ { 8 }
 \end{aligned}
 $$
@@ -264,8 +264,8 @@ $$
 $$
 \begin{aligned}
 E = \gamma m c ^ { 2 } \\
-\gamma = \text { lorentz factor } \\
-m = \text { mass } \\
+\gamma = \text {lorentz factor} \\
+m = \text {mass} \\
 c = 3 \times 10 ^ { 8 }
 \end{aligned}
 $$
@@ -275,7 +275,7 @@ $$
 $$
 \begin{aligned}
 E _ { 0 } = m c ^ { 2 } \\
-m = \text { mass } \\
+m = \text {mass} \\
 c = 3 \times 10 ^ { 8 }
 \end{aligned}
 $$
@@ -289,9 +289,9 @@ $$
 $$
 \begin{aligned}
 E ^ { 2 } = ( m c ^ { 2 } ) ^ { 2 } + ( p c ) ^ { 2 } \\
-m = \text { mass } \\
+m = \text {mass} \\
 c = 3 \times 10 ^ { 8 } \\
-p = \text { momentum }
+p = \text {momentum}
 \end{aligned}
 $$
 

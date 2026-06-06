@@ -11,8 +11,8 @@
 $$
 \begin{aligned}
 \Delta x = v \Delta t \\
-v = \text { wave velocity } \\
-t = \text { time }
+v = \text {wave velocity} \\
+t = \text {time}
 \end{aligned}
 $$
 
@@ -39,11 +39,11 @@ $$
 $$
 \begin{aligned}
 y ( x , t ) = A \cos ( k x \mp \omega t ) \\
-A = \text { amplitude } \\
-k = \text { wave number } \\
-x = \text { position } \\
-\omega = \text { angular frequency } \\
-t = \text { time }
+A = \text {amplitude} \\
+k = \text {wave number} \\
+x = \text {position} \\
+\omega = \text {angular frequency} \\
+t = \text {time}
 \end{aligned}
 $$
 
@@ -61,7 +61,7 @@ $$
 $$
 \begin{aligned}
 k = \frac { 2 \pi } { \lambda } \\
-\lambda = \text { wavelength }
+\lambda = \text {wavelength}
 \end{aligned}
 $$
 
@@ -74,7 +74,7 @@ $$
 $$
 \begin{aligned}
 \omega = 2 \pi f \\
-f = \text { oscillation frequency }
+f = \text {oscillation frequency}
 \end{aligned}
 $$
 
@@ -88,9 +88,9 @@ $$
 $$
 \begin{aligned}
 \frac { \partial ^ { 2 } y } { \partial x ^ { 2 } } = \frac { 1 } { v ^ { 2 } } ( \frac { \partial ^ { 2 } y } { \partial t ^ { 2 } } ) \\
-v = \text { wave velocity } \\
-y = \text { position } \\
-t = \text { time }
+v = \text {wave velocity} \\
+y = \text {position} \\
+t = \text {time}
 \end{aligned}
 $$
 
@@ -103,12 +103,12 @@ $$
 $$
 \begin{aligned}
 v ( x , t ) = \frac { \partial y } { \partial t } = A \omega \sin ( k x \mp \omega t ) \\
-y = \text { position } \\
-t = \text { time } \\
-A = \text { amplitude } \\
-\omega = \text { angular frequency } \\
-k = \text { wave number } \\
-x = \text { position }
+y = \text {position} \\
+t = \text {time} \\
+A = \text {amplitude} \\
+\omega = \text {angular frequency} \\
+k = \text {wave number} \\
+x = \text {position}
 \end{aligned}
 $$
 
@@ -117,12 +117,12 @@ $$
 $$
 \begin{aligned}
 a ( x , t ) = \frac { \partial ^ { 2 } y } { \partial t ^ { 2 } } = - A \omega ^ { 2 } \cos ( k x \mp \omega t ) \\
-y = \text { position } \\
-t = \text { time } \\
-A = \text { amplitude } \\
-\omega = \text { angular frequency } \\
-k = \text { wave number } \\
-x = \text { position }
+y = \text {position} \\
+t = \text {time} \\
+A = \text {amplitude} \\
+\omega = \text {angular frequency} \\
+k = \text {wave number} \\
+x = \text {position}
 \end{aligned}
 $$
 
@@ -135,8 +135,8 @@ $$
 $$
 \begin{aligned}
 \mu = \frac { m } { L } \\
-m = \text { mass } \\
-L = \text { length }
+m = \text {mass} \\
+L = \text {length}
 \end{aligned}
 $$
 
@@ -154,10 +154,10 @@ $$
 $$
 \begin{aligned}
 v = \lambda f = \frac { \omega } { k } \\
-\lambda = \text { wavelength } \\
-f = \text { oscillation frequency } \\
-\omega = \text { angular frequency } \\
-k = \text { wave number }
+\lambda = \text {wavelength} \\
+f = \text {oscillation frequency} \\
+\omega = \text {angular frequency} \\
+k = \text {wave number}
 \end{aligned}
 $$
 
@@ -170,8 +170,8 @@ $$
 $$
 \begin{aligned}
 v = \sqrt { \frac { F _ { T } } { \mu } } \\
-F _ { T } = \text { tension force } \\
-\mu = \text { linear mass density }
+F _ { T } = \text {tension force} \\
+\mu = \text {linear mass density}
 \end{aligned}
 $$
 
@@ -264,8 +264,8 @@ $$
 $$
 \begin{aligned}
 \lambda _ { n } = \frac { 2 L } { n } \\
-L = \text { length } \\
-n = \text { number of antinodes }
+L = \text {length} \\
+n = \text {number of antinodes}
 \end{aligned}
 $$
 
@@ -278,9 +278,9 @@ $$
 $$
 \begin{aligned}
 f _ { n } = \frac { nv } { 2 L } \\
-n = \text { number of antinodes } \\
-v = \text { wave velocity } \\
-L = \text { length }
+n = \text {number of antinodes} \\
+v = \text {wave velocity} \\
+L = \text {length}
 \end{aligned}
 $$
 
@@ -293,11 +293,11 @@ $$
 $$
 \begin{aligned}
 y ( x , t ) = 2 A \sin ( k x ) \sin ( \omega t ) \\
-A = \text { amplitude } \\
-k = \text { wave number } \\
-x = \text { position } \\
-\omega = \text { angular frequency } \\
-t = \text { time }
+A = \text {amplitude} \\
+k = \text {wave number} \\
+x = \text {position} \\
+\omega = \text {angular frequency} \\
+t = \text {time}
 \end{aligned}
 $$
 

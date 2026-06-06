@@ -8,7 +8,7 @@ $$
 \begin{aligned}
 R \subseteq A \times B \implies ( a _ { i } , b _ { j } ) \in R \\
 i , j = 1 , 2 , . . . n \\
-i , j = \text { index }
+i , j = \text {index}
 
 \end{aligned}
 $$
@@ -107,8 +107,8 @@ $$
 \begin{aligned}
 ( a _ { i } , b _ { j } ) \in R \implies m _ { ij } = 1 \\
 ( a _ { i } , b _ { j } ) \notin R \implies m _ { ij } = 0 \\
-i = \text { row index } \\
-j = \text { column index }
+i = \text {row index} \\
+j = \text {column index}
 \end{aligned}
 $$
 
@@ -145,8 +145,8 @@ $$
 $$
 \begin{aligned}
 ( a , b ) \in R \\
-a = \text { initial vertex } \\
-b = \text { terminal vertex }
+a = \text {initial vertex} \\
+b = \text {terminal vertex}
 \end{aligned}
 $$
 
@@ -222,7 +222,7 @@ $$
 ### modulo congruence class formula
 $$
 \begin{aligned}
-{}[ a ] = \{ x \in Z | x \equiv a \  \text { mod } \  n \}
+{}[ a ] = \{ x \in Z | x \equiv a \  \text {mod} \  n \}
 \end{aligned}
 $$
 

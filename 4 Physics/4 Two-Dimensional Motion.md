@@ -7,11 +7,11 @@
 $$
 \begin{aligned}
 \vec { r } ( t ) = x ( t ) \hat { i } + y ( t ) \hat { j } \\
-t = \text { time } \\
-x = \text { x position } \\
-y = \text { y position } \\
-\hat i = \text { x direction } \\
-\hat j = \text { y direction }
+t = \text {time} \\
+x = \text {x position} \\
+y = \text {y position} \\
+\hat i = \text {x direction} \\
+\hat j = \text {y direction}
 \end{aligned}
 $$
 
@@ -25,11 +25,11 @@ $$
 $$
 \begin{aligned}
 \Delta \vec { r } = \vec { r } - \vec { r } _ { 0 } = \Delta x \hat i + \Delta y \hat j \\
-\vec r = \text { position } \\
-x = \text { x position } \\
-y = \text { y position } \\
-\hat i = \text { x direction } \\
-\hat j = \text { y direction }
+\vec r = \text {position} \\
+x = \text {x position} \\
+y = \text {y position} \\
+\hat i = \text {x direction} \\
+\hat j = \text {y direction}
 \end{aligned}
 $$
 
@@ -46,9 +46,9 @@ $$
 \vec { v } = \frac { d \vec { r } } { dt } = \frac { dx } { dt } \hat i + \frac { dy } { dt } \hat j = v _ { x } \hat i + v _ { y } \hat j \\
 v = | \vec v | = \sqrt { v _ { x } ^ { 2 } + v _ { y } ^ { 2 } } \\
 \theta = \arctan ( \frac { v _ { y } } { v _ { x } } ) \\
-\vec r = \text { position } \\
-t = \text { time } \\
-\vec v = \text { velocity }
+\vec r = \text {position} \\
+t = \text {time} \\
+\vec v = \text {velocity}
 \end{aligned}
 $$
 
@@ -64,10 +64,10 @@ $$
 \vec { a } = \frac { d \vec { v } } { dt } = \frac { d ^ { 2 } \vec { r } } { d t ^ { 2 } } = a _ { x } \hat i + a _ { y } \hat j \\
 a = | \vec a | = \sqrt { a _ { x } ^ { 2 } + a _ { y } ^ { 2 } } \\
 \theta = \arctan ( \frac { a _ { y } } { a _ { x } } ) \\
-\vec v = \text { velocity } \\
-t = \text { time } \\
-\vec r = \text { position } \\
-\vec a = \text { acceleration }
+\vec v = \text {velocity} \\
+t = \text {time} \\
+\vec r = \text {position} \\
+\vec a = \text {acceleration}
 \end{aligned}
 $$
 
@@ -84,8 +84,8 @@ $$
 \begin{aligned}
 v _ { 0 x } = v _ { 0 } \cos ( \theta ) \\
 v _ { 0 y } = v _ { 0 } \sin ( \theta ) \\
-v _ { 0 } = \text { initial velocity } \\
-\theta = \text { angle between vectors }
+v _ { 0 } = \text {initial velocity} \\
+\theta = \text {angle between vectors}
 \end{aligned}
 $$
 
@@ -94,8 +94,8 @@ $$
 $$
 \begin{aligned}
 v _ { x } = v _ { 0 x } \\
-v _ { 0 } = \text { initial velocity } \\
-x = \text { position }
+v _ { 0 } = \text {initial velocity} \\
+x = \text {position}
 \end{aligned}
 $$
 
@@ -133,8 +133,8 @@ $$
 $$
 \begin{aligned}
 v _ { tan } = \frac { 2 \pi r } { T } \\
-r = \text { radius } \\
-T = \text { period }
+r = \text {radius} \\
+T = \text {period}
 \end{aligned}
 $$
 
@@ -147,8 +147,8 @@ $$
 $$
 \begin{aligned}
 a _ { rad } = \frac { v _ { tan } ^ { 2 } } { r } \\
-v = \text { velocity } \\
-r = \text { radius }
+v = \text {velocity} \\
+r = \text {radius}
 \end{aligned}
 $$
 
@@ -179,9 +179,9 @@ $$
 $$
 \begin{aligned}
 a = a _ { rad } + a _ { tan } = \frac { v _ { tan } ^ { 2 } } { r } + \frac { d v _ { tan } } { dt } \\
-v = \text { velocity } \\
-r = \text { radius } \\
-t = \text { time }
+v = \text {velocity} \\
+r = \text {radius} \\
+t = \text {time}
 \end{aligned}
 $$
 

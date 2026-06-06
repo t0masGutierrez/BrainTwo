@@ -9,8 +9,8 @@ A = \begin{bmatrix}
 a _ { 11 }
 \end{bmatrix} \implies
 \det ( A ) = a _ { 11 } \\
-A = \text { square matrix } \\
-a = \text { entry }
+A = \text {square matrix} \\
+a = \text {entry}
 \end{aligned}
 $$
 
@@ -27,8 +27,8 @@ a _ { 11 } & a _ { 12 } \\
 a _ { 21 } & a _ { 22 }
 \end{bmatrix} \implies
 \det ( A ) = a _ { 11 } a _ { 22 } - a _ { 12 } a _ { 21 } \\
-A = \text { square matrix } \\
-a = \text { entry }
+A = \text {square matrix} \\
+a = \text {entry}
 \end{aligned}
 $$
 
@@ -46,8 +46,8 @@ a _ { 21 } & a _ { 22 } & a _ { 23 } \\
 a _ { 31 } & a _ { 32 } & a _ { 33 }
 \end{bmatrix} \implies
 \det ( A ) = a _ { 11 } a _ { 22 } a _ { 33 } + a _ { 12 } a _ { 23 } a _ { 31 } + a _ { 13 } a _ { 21 } a _ { 32 } \\ - a _ { 13 } a _ { 22 } a _ { 31 } - a _ { 11 } a _ { 23 } a _ { 32 } - a _ { 12 } a _ { 21 } a _ { 33 } \\
-A = \text { square matrix } \\
-a = \text { entry }
+A = \text {square matrix} \\
+a = \text {entry}
 \end{aligned}
 $$
 
@@ -59,8 +59,8 @@ $$
 ### nxn determinant formula
 $$
 \begin{aligned}
-| A | = n \times n \implies \text { det } ( A ) \in \mathbb R \\
-A = \text { square matrix } \\
+| A | = n \times n \implies \text {det} ( A ) \in \mathbb R \\
+A = \text {square matrix} \\
 \end{aligned}
 $$
 
@@ -73,9 +73,9 @@ $$
 $$
 \begin{aligned}
 A _ { ij } = A - ( a _ { i * } + a _ { * j } ) \\
-A = \text { matrix } \\
-a _ { i * } = \text { ith row } \\
-a _ { * j } = \text { jth column } \\
+A = \text {matrix} \\
+a _ { i * } = \text {ith row} \\
+a _ { * j } = \text {jth column} \\
 \end{aligned}
 $$
 
@@ -88,7 +88,7 @@ $$
 $$
 \begin{aligned}
 \forall n \ge 2 : | A _ { ij } | = ( n - 1 ) \times ( n - 1 ) \implies \det ( A _ { ij } ) \\
-A _ { ij } = \text { square submatrix }
+A _ { ij } = \text {square submatrix}
 \end{aligned}
 $$
 
@@ -101,9 +101,9 @@ $$
 $$
 \begin{aligned}
 \mathcal A _ { ij } = ( - 1 ) ^ { i + j } \det ( A _ { ij } ) \\
-i = \text { row index } \\
-j = \text { column index } \\
-\det ( A _ { ij } ) = \text { minor }
+i = \text {row index} \\
+j = \text {column index} \\
+\det ( A _ { ij } ) = \text {minor}
 \end{aligned}
 $$
 
@@ -118,12 +118,12 @@ $$
 \begin{aligned}
 \det ( A ) = \sum _ { j = 1 } ^ { n } a _ { ij } \mathcal A _ { ij } \\
 \det ( A ) = \sum _ { i = 1 } ^ { n } a _ { ij } \mathcal A _ { ij } \\
-A = \text { square matrix } \\
-i = \text { row index } \\
-j = \text { column index } \\
-n = \text { dimension } \\
-a = \text { entry } \\
-\mathcal A = \text { cofactor }
+A = \text {square matrix} \\
+i = \text {row index} \\
+j = \text {column index} \\
+n = \text {dimension} \\
+a = \text {entry} \\
+\mathcal A = \text {cofactor}
 \end{aligned}
 $$
 
@@ -136,9 +136,9 @@ $$
 $$
 \begin{aligned}
 \det R _ { 1 } ( A ) = c \det ( A ) \\
-R _ { 1 } = \text { type I row operation } \\
-A = \text { square matrix } \\
-c = \text { scalar }
+R _ { 1 } = \text {type I row operation} \\
+A = \text {square matrix} \\
+c = \text {scalar}
 \end{aligned}
 $$
 
@@ -151,8 +151,8 @@ $$
 $$
 \begin{aligned}
 \det R _ { 2 } ( A ) = \det ( A ) \\
-R _ { 2 } = \text { type II row operation } \\
-A = \text { square matrix }
+R _ { 2 } = \text {type II row operation} \\
+A = \text {square matrix}
 \end{aligned}
 $$
 
@@ -165,8 +165,8 @@ $$
 $$
 \begin{aligned}
 \det R _ { 3 } ( A ) = - \det ( A ) \\
-R _ { 3 } = \text { type III row operation } \\
-A = \text { square matrix }
+R _ { 3 } = \text {type III row operation} \\
+A = \text {square matrix}
 \end{aligned}
 $$
 
@@ -182,9 +182,9 @@ $$
 $$
 \begin{aligned}
 B = R _ { k } ( \dots R _ { 1 } ( A ) \dots ) \in \mathcal U \implies \det ( A ) = \frac { 1 } { c } \det ( B ) \\
-R = \text { row operation } \\
-A = \text { square matrix } \\
-c = \text { scalar }
+R = \text {row operation} \\
+A = \text {square matrix} \\
+c = \text {scalar}
 \end{aligned}
 $$
 
@@ -207,8 +207,8 @@ $$
 $$
 \begin{aligned}
 A \in \mathcal U _ { n } \implies \det ( A ) = \prod _ { i = 1 } ^ { n } a _ { ii } \\
-a = \text { entry } \\
-i = \text { diagonal index }
+a = \text {entry} \\
+i = \text {diagonal index}
 \end{aligned}
 $$
 
@@ -221,7 +221,7 @@ $$
 $$
 \begin{aligned}
 \det ( I ) = 1 \\
-I = \text { identity matrix }
+I = \text {identity matrix}
 \end{aligned}
 $$
 
@@ -234,9 +234,9 @@ $$
 $$
 \begin{align}
 \det ( c A ) = c ^ { n } \det ( A ) \\
-A = \text { square matrix } \\
-c = \text { scalar } \\
-n = \text { dimension }
+A = \text {square matrix} \\
+c = \text {scalar} \\
+n = \text {dimension}
 \end{align}
 $$
 
@@ -249,7 +249,7 @@ $$
 $$
 \begin{aligned}
 \det ( A B ) = \det ( A ) \det ( B ) \\
-A , B = \text { square matrix }
+A , B = \text {square matrix}
 \end{aligned}
 $$
 
@@ -263,7 +263,7 @@ $$
 \begin{aligned}
 \det ( A ^ { - 1 } ) = \frac { 1 } { \det ( A ) } \\
 \det ( A ) \ne 0 \\
-A = \text { square matrix }
+A = \text {square matrix}
 \end{aligned}
 $$
 
@@ -292,8 +292,8 @@ $$
 $$
 \begin{aligned}
 \det ( A ) = \det ( A ^ { T } ) \\
-A = \text { symmetric matrix } \\
-T = \text { transposition }
+A = \text {symmetric matrix} \\
+T = \text {transposition}
 \end{aligned}
 $$
 
@@ -319,8 +319,8 @@ $$
 ### determinant singularity property formula
 $$
 \begin{aligned}
-\text { det } ( A ) \ne 0 \iff \exists A ^ { - 1 } \\
-A = \text { nonsingular matrix } \\
+\text {det} ( A ) \ne 0 \iff \exists A ^ { - 1 } \\
+A = \text {nonsingular matrix} \\
 \end{aligned}
 $$
 
@@ -332,9 +332,9 @@ $$
 ### determinant rank property formula
 $$
 \begin{aligned}
-\det ( A ) \ne 0 \iff \text { rank } ( A ) = n \\
-A = \text { square matrix } \\
-n = \text { dimension }
+\det ( A ) \ne 0 \iff \text {rank} ( A ) = n \\
+A = \text {square matrix} \\
+n = \text {dimension}
 \end{aligned}
 $$
 

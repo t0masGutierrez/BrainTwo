@@ -57,8 +57,8 @@ $$
 $$
 \begin{aligned}
 k = \lceil \frac { a } { b } \rceil \\
-a = \text { number of pigeons } \\
-b = \text { number of pigeonholes }
+a = \text {number of pigeons} \\
+b = \text {number of pigeonholes}
 \end{aligned}
 $$
 
@@ -71,8 +71,8 @@ $$
 $$
 \begin{aligned}
 P ( n , r ) = \frac { n ! } { ( n - r ) ! } = n ( n - 1 ) ( n - 2 ) . . . ( n - r + 1 ) \\
-n = \text { number of objects without replacement } \\
-r = \text { number of arrangements }
+n = \text {number of objects without replacement} \\
+r = \text {number of arrangements}
 \end{aligned}
 $$
 
@@ -81,8 +81,8 @@ $$
 $$
 \begin{aligned}
 P ( n , r ) = n ^ { r } \\
-n = \text { number of objects with replacement } \\
-r = \text { number of arrangements }
+n = \text {number of objects with replacement} \\
+r = \text {number of arrangements}
 \end{aligned}
 $$
 
@@ -95,8 +95,8 @@ $$
 $$
 \begin{aligned}
 C ( n , r ) = \frac { n ! } { r ! ( n - r ) ! } = \frac { n ( n - 1 ) ( n - 2 ) . . . ( n - r + 1 ) } { r ! } \\
-n = \text { number of objects without replacement } \\
-r = \text { number of choices }
+n = \text {number of objects without replacement} \\
+r = \text {number of choices}
 \end{aligned}
 $$
 
@@ -116,7 +116,7 @@ $$
 ### probability formula
 $$
 \begin{aligned}
-P ( A ) = \frac { \text { number of favorable outcomes } } { \text { total number of possible outcomes } }
+P ( A ) = \frac { \text {number of favorable outcomes} } { \text {total number of possible outcomes} }
 \end{aligned}
 $$
 

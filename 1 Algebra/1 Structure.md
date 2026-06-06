@@ -30,8 +30,8 @@ $$
 $$
 \begin{aligned}
 a x \\
-a = \text { coefficient } \\
-x = \text { variable }
+a = \text {coefficient} \\
+x = \text {variable}
 \end{aligned}
 $$
 
@@ -44,9 +44,9 @@ $$
 $$
 \begin{aligned}
 a x + b \\
-a = \text { coefficient } \\
-x = \text { variable } \\
-b = \text { constant }
+a = \text {coefficient} \\
+x = \text {variable} \\
+b = \text {constant}
 \end{aligned}
 $$
 
@@ -59,9 +59,9 @@ $$
 $$
 \begin{aligned}
 a x + b y + c \implies a x , b y , c \\
-a , b = \text { coefficient } \\
-x , y = \text { variable } \\
-c = \text { constant }
+a , b = \text {coefficient} \\
+x , y = \text {variable} \\
+c = \text {constant}
 \end{aligned}
 $$
 
@@ -85,11 +85,11 @@ $$
 ### operation formula
 $$
 \begin{aligned}
-( + ) = \text { addition } \\
-( - ) = \text { subtraction } \\
-( \cdot ) = \text { multiplication } \\
-( \div ) = \text { division } \\
-( ^ { n } ) = \text { exponentiation }
+( + ) = \text {addition} \\
+( - ) = \text {subtraction} \\
+( \cdot ) = \text {multiplication} \\
+( \div ) = \text {division} \\
+( ^ { n } ) = \text {exponentiation}
 \end{aligned}
 $$
 
@@ -101,12 +101,12 @@ $$
 ### order of operations formula
 $$
 \begin{aligned}
-1 . \text { parenthesis } \\
-2 . \text { exponents } \\
-3 . \text { multiplication } \\
-4 . \text { division } \\
-5 . \text { addition } \\
-6 . \text { subtraction } \\
+1 . \text {parenthesis} \\
+2 . \text {exponents} \\
+3 . \text {multiplication} \\
+4 . \text {division} \\
+5 . \text {addition} \\
+6 . \text {subtraction} \\
 \end{aligned}
 $$
 

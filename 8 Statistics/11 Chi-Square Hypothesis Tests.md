@@ -15,11 +15,11 @@ $$
 \chi ^ { 2 } = \sum _ { i = 1 } ^ { k } \frac { ( O _ { i } - E _ { i } ) ^ { 2 } } { E _ { i } } \\
 d f = k - 1 \\
 E = n p _ { i } \\
-k = \text { number of categories } \\
-O = \text { observed counts } \\
-E = \text { expected counts } \\
-n = \text { sample size } \\
-p = \text { proportion }
+k = \text {number of categories} \\
+O = \text {observed counts} \\
+E = \text {expected counts} \\
+n = \text {sample size} \\
+p = \text {proportion}
 \end{aligned}
 $$
 
@@ -64,11 +64,11 @@ $$
 \chi ^ { 2 } = \sum _ { i = 1 } ^ { r } \sum _ { j = 1 } ^ { c } \frac { ( O _ { ij } - E _ { ij } ) ^ { 2 } } { E _ { ij } } \\
 d f = ( r - 1 ) ( c - 1 ) \\
 E = \frac { rc } { r + c } \\
-k = \text { number of categories } \\
-O = \text { observed counts } \\
-E = \text { expected counts } \\
-r = \text { number of rows } \\
-c = \text { number of columns }
+k = \text {number of categories} \\
+O = \text {observed counts} \\
+E = \text {expected counts} \\
+r = \text {number of rows} \\
+c = \text {number of columns}
 \end{aligned}
 $$
 

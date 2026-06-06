@@ -22,9 +22,9 @@ $$
 \frac { d } { dx } \arcsin ( u ) = \frac { u ' } { \sqrt { 1 - u ^ { 2 } } } \\
 \frac { d } { dx } \arccos ( u ) = \frac { - u ' } { \sqrt { 1 - u ^ { 2 } } } \\
 \frac { d } { dx } \arctan ( u ) = \frac { u ' } { 1 + u ^ { 2 } } \\
-\frac { d } { dx } \text { arccot } ( u ) = \frac { - u ' } { 1 + u ^ { 2 } } \\
-\frac { d } { dx } \text { arcsec } ( u ) = \frac { u ' } { | u | \sqrt { u ^ { 2 } - 1 } } \\
-\frac { d } { dx } \text { arccsc } ( u ) = \frac { - u ' } { | u | \sqrt { u ^ { 2 } - 1 } }
+\frac { d } { dx } \text {arccot} ( u ) = \frac { - u ' } { 1 + u ^ { 2 } } \\
+\frac { d } { dx } \text {arcsec} ( u ) = \frac { u ' } { | u | \sqrt { u ^ { 2 } - 1 } } \\
+\frac { d } { dx } \text {arccsc} ( u ) = \frac { - u ' } { | u | \sqrt { u ^ { 2 } - 1 } }
 \end{aligned}
 $$
 
@@ -101,9 +101,9 @@ $$
 \frac { d } { dx } \arcsin ( u ) = \frac { u ' } { \sqrt { 1 - u ^ { 2 } } } \\
 \frac { d } { dx } \arccos ( u ) = \frac { - u ' } { \sqrt { 1 - u ^ { 2 } } } \\
 \frac { d } { dx } \arctan ( u ) = \frac { u ' } { 1 + u ^ { 2 } } \\
-\frac { d } { dx } \text { arccot } ( u ) = \frac { - u ' } { 1 + u ^ { 2 } } \\
-\frac { d } { dx } \text { arcsec } ( u ) = \frac { u ' } { | u | \sqrt { u ^ { 2 } - 1 } } \\
-\frac { d } { dx } \text { arccsc } ( u ) = \frac { - u ' } { | u | \sqrt { u ^ { 2 } - 1 } }
+\frac { d } { dx } \text {arccot} ( u ) = \frac { - u ' } { 1 + u ^ { 2 } } \\
+\frac { d } { dx } \text {arcsec} ( u ) = \frac { u ' } { | u | \sqrt { u ^ { 2 } - 1 } } \\
+\frac { d } { dx } \text {arccsc} ( u ) = \frac { - u ' } { | u | \sqrt { u ^ { 2 } - 1 } }
 \end{aligned}
 $$
 
@@ -359,7 +359,7 @@ $$
 $$
 \begin{aligned}
 \Delta y = f ' ( x ) \Delta x \\
-\Delta x = \text { error }
+\Delta x = \text {error}
 \end{aligned}
 $$
 

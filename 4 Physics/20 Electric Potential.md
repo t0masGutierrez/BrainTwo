@@ -7,9 +7,9 @@
 $$
 \begin{aligned}
 W = \vec F \cdot d \vec r = F \Delta r \cos ( \theta ) \\
-F = \text { force } \\
-r = \text { position } \\
-\theta = \text { angular position }
+F = \text {force} \\
+r = \text {position} \\
+\theta = \text {angular position}
 \end{aligned}
 $$
 
@@ -18,8 +18,8 @@ $$
 $$
 \begin{aligned}
 W = \sum _ { i } F _ { i } \Delta r _ { i } = \int _ { r _ { 1 } } ^ { r _ { 2 } } \vec F \cdot d \vec r \\
-F = \text { force } \\
-r = \text { position }
+F = \text {force} \\
+r = \text {position}
 \end{aligned}
 $$
 
@@ -39,8 +39,8 @@ $$
 $$
 \begin{aligned}
 U = \int _ { r _ { 2 } } ^ { r _ { 1 } } \vec F _ { cons } \cdot d \vec r \\
-F _ { cons } = \text { conservative force } \\
-r = \text { position }
+F _ { cons } = \text {conservative force} \\
+r = \text {position}
 \end{aligned}
 $$
 
@@ -59,7 +59,7 @@ $$
 $$
 \begin{aligned}
 W _ { cons } = U _ { i } - U _ { f } \\
-U = \text { potential energy }
+U = \text {potential energy}
 \end{aligned}
 $$
 
@@ -74,8 +74,8 @@ $$
 \begin{aligned}
 U = k \frac { q _ { 1 } q _ { 2 } } { r } \\
 k = 9 \times 10 ^ { 9 } \\
-q = \text { electric charge } \\
-r = \text { distance }
+q = \text {electric charge} \\
+r = \text {distance}
 \end{aligned}
 $$
 
@@ -94,9 +94,9 @@ $$
 $$
 \begin{aligned}
 U = q E y \\
-q = \text { electric charge } \\
-E = \text { electric field } \\
-y = \text { position }
+q = \text {electric charge} \\
+E = \text {electric field} \\
+y = \text {position}
 \end{aligned}
 $$
 
@@ -116,11 +116,11 @@ $$
 $$
 \begin{aligned}
 V = \frac { U } { q } = k \sum _ { i } \frac { Q _ { i } } { r _ { i } } \\
-U = \text { potential energy } \\
-q = \text { test electric charge } \\
+U = \text {potential energy} \\
+q = \text {test electric charge} \\
 k = 9 \times 10 ^ { 9 } \\
-Q = \text { source electric charge } \\
-r = \text { distance }
+Q = \text {source electric charge} \\
+r = \text {distance}
 \end{aligned}
 $$
 
@@ -151,11 +151,11 @@ $$
 $$
 \begin{aligned}
 \Delta V = \frac { \Delta U } { q } = k \int \frac { dQ } { r } \\
-U = \text { potential energy } \\
-q = \text { test electric charge } \\
+U = \text {potential energy} \\
+q = \text {test electric charge} \\
 k = 9 \times 10 ^ { 9 } \\
-Q = \text { source electric charge } \\
-r = \text { distance }
+Q = \text {source electric charge} \\
+r = \text {distance}
 \end{aligned}
 $$
 
@@ -186,8 +186,8 @@ $$
 $$
 \begin{aligned}
 E = \frac { \Delta V } { r } \\
-V = \text { electric potential } \\
-r = \text { distance }
+V = \text {electric potential} \\
+r = \text {distance}
 \end{aligned}
 $$
 
@@ -201,8 +201,8 @@ $$
 $$
 \begin{aligned}
 E = \frac { - d V } { dr } \\
-V = \text { electric potential } \\
-r = \text { distance }
+V = \text {electric potential} \\
+r = \text {distance}
 \end{aligned}
 $$
 
@@ -217,7 +217,7 @@ $$
 $$
 \begin{aligned}
 E \perp = \frac { \sigma } { \epsilon _ { 0 } } \\
-\sigma = \text { surface density } \\
+\sigma = \text {surface density} \\
 \epsilon _ { 0 } = 8.85 \times 10 ^ { - 12 }
 \end{aligned}
 $$

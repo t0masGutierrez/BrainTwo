@@ -27,9 +27,9 @@ $$
 $$
 \begin{aligned}
 \frac { d \vec x } { dt } = A \vec x ( t ) \\
-\vec x = \text { solution } \\
-t = \text { independent variable } \\
-A = \text { coefficient matrix }
+\vec x = \text {solution} \\
+t = \text {independent variable} \\
+A = \text {coefficient matrix}
 \end{aligned}
 $$
 
@@ -42,11 +42,11 @@ $$
 $$
 \begin{aligned}
 \frac { d \vec x } { dt } = A \vec x \implies \vec x ( t ) = \exp ( \lambda t ) \vec v \\
-\vec x = \text { solution } \\
-t = \text { independent variable } \\
-A = \text { coefficient matrix } \\
-\lambda = \text { eigenvalue } \\
-\vec v = \text { eigenvector }
+\vec x = \text {solution} \\
+t = \text {independent variable} \\
+A = \text {coefficient matrix} \\
+\lambda = \text {eigenvalue} \\
+\vec v = \text {eigenvector}
 \end{aligned}
 $$
 
@@ -59,9 +59,9 @@ $$
 $$
 \begin{aligned}
 \det ( A - \lambda I ) = 0 \\
-A = \text { coefficient matrix } \\
-\lambda = \text { eigenvalue } \\
-I = \text { identity matrix }
+A = \text {coefficient matrix} \\
+\lambda = \text {eigenvalue} \\
+I = \text {identity matrix}
 \end{aligned}
 $$
 
@@ -74,9 +74,9 @@ $$
 $$
 \begin{aligned}
 \vec x ( t ) = \sum _ { i = 1 } ^ { n } C _ { i } e ^ { \lambda _ { i } t } \vec v _ { i } \\
-\lambda = \text { eigenvalue } \\
-t = \text { independent variable } \\
-\vec v = \text { eigenvector }
+\lambda = \text {eigenvalue} \\
+t = \text {independent variable} \\
+\vec v = \text {eigenvector}
 \end{aligned}
 $$
 
@@ -91,12 +91,12 @@ $$
 \vec x ( t ) = C _ { 1 } e ^ { \alpha t } ( \vec p \cos \beta t - \vec q \sin \beta t ) + C _ { 2 } e ^ { \alpha t } ( \vec p \sin \beta t + \vec q \cos \beta t ) \\
 \lambda = \alpha + \beta i \\
 \vec v = \vec p + \vec q i \\
-C = \text { constant } \\
-\lambda = \text { eigenvalue } \\
-\alpha , \vec p = \text { real part } \\
-\beta , \vec q = \text { imaginary part } \\
-t = \text { independent variable } \\
-\vec v = \text { eigenvector }
+C = \text {constant} \\
+\lambda = \text {eigenvalue} \\
+\alpha , \vec p = \text {real part} \\
+\beta , \vec q = \text {imaginary part} \\
+t = \text {independent variable} \\
+\vec v = \text {eigenvector}
 \end{aligned}
 $$
 
@@ -109,10 +109,10 @@ $$
 $$
 \begin{aligned}
 \dim \ker ( A - \lambda I ) < m \\
-A = \text { coefficient matrix } \\
-\lambda = \text { eigenvalue } \\
-I = \text { identity matrix } \\
-m = \text { algebraic multiplicity }
+A = \text {coefficient matrix} \\
+\lambda = \text {eigenvalue} \\
+I = \text {identity matrix} \\
+m = \text {algebraic multiplicity}
 \end{aligned}
 $$
 
@@ -125,12 +125,12 @@ $$
 $$
 \begin{aligned}
 ( A - \lambda I ) \vec v _ { k } = \vec v _ { k - 1 } \\
-A = \text { coefficient matrix } \\
-\lambda = \text { eigenvalue } \\
-I = \text { identity matrix } \\
-k = \text { generalized rank } \\
-\vec w = \text { generalized eigenvector } \\
-\vec v = \text { eigenvector }
+A = \text {coefficient matrix} \\
+\lambda = \text {eigenvalue} \\
+I = \text {identity matrix} \\
+k = \text {generalized rank} \\
+\vec w = \text {generalized eigenvector} \\
+\vec v = \text {eigenvector}
 \end{aligned}
 $$
 
@@ -143,12 +143,12 @@ $$
 $$
 \begin{aligned}
 \vec x ( t ) = e ^ { \lambda t } \sum _ { m = 1 } ^ { k } C _ { m } \sum _ { j = 1 } ^ { m } \frac { t ^ { m - j } } { ( m - j ) ! } \vec v _ { j } \\
-\lambda = \text { eigenvalue } \\
-t = \text { independent variable } \\
-k = \text { number of generalized eigenvectors } \\
-m = \text { generalized rank } \\
-C = \text { constant } \\
-\vec v = \text { generalized eigenvector }
+\lambda = \text {eigenvalue} \\
+t = \text {independent variable} \\
+k = \text {number of generalized eigenvectors} \\
+m = \text {generalized rank} \\
+C = \text {constant} \\
+\vec v = \text {generalized eigenvector}
 \end{aligned}
 $$
 
@@ -163,8 +163,8 @@ $$
 \Phi ( t ) = \begin{bmatrix} \vert & \vert & & \vert \\
 \vec { x } _ { 1 } ( t ) & \vec { x } _ { 2 } ( t ) & \cdots & \vec { x } _ { n } ( t ) \\
 \vert & \vert & & \vert \end{bmatrix} \\
-\vec x = \text { solution } \\
-t = \text { independent variable }
+\vec x = \text {solution} \\
+t = \text {independent variable}
 \end{aligned}
 $$
 
@@ -177,10 +177,10 @@ $$
 $$
 \begin{aligned}
 e ^ { At } = \sum _ { i = 0 } ^ { \infty } \frac { A ^ { i } t ^ { i } } { i ! } = \Phi ( t ) \Phi ^ { - 1 } ( 0 ) \implies \vec x ( t ) = e ^ { At } \vec x ( 0 ) \\
-A = \text { coefficient matrix } \\
-t = \text { independent variable } \\
-\Phi = \text { fundamental matrix } \\
-\vec x = \text { solution }
+A = \text {coefficient matrix} \\
+t = \text {independent variable} \\
+\Phi = \text {fundamental matrix} \\
+\vec x = \text {solution}
 \end{aligned}
 $$
 

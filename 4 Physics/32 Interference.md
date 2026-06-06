@@ -47,7 +47,7 @@ $$
 \begin{aligned}
 \Delta r = m \lambda \\
 m = \pm 0 , \pm 1 , \pm 2 . . . \\
-\lambda = \text { wavelength }
+\lambda = \text {wavelength}
 \end{aligned}
 $$
 
@@ -63,7 +63,7 @@ $$
 \begin{aligned}
 \Delta r = ( m + \frac { 1 } { 2 } ) \lambda \\
 m = \pm 0 , \pm 1 , \pm 2 . . . \\
-\lambda = \text { wavelength }
+\lambda = \text {wavelength}
 \end{aligned}
 $$
 
@@ -77,10 +77,10 @@ $$
 $$
 \begin{aligned}
 d \sin ( \theta ) = m \lambda \\
-d = \text { distance } \\
-\theta = \text { angular position } \\
-m = \text { interference order } \\
-\lambda = \text { wavelength }
+d = \text {distance} \\
+\theta = \text {angular position} \\
+m = \text {interference order} \\
+\lambda = \text {wavelength}
 \end{aligned}
 $$
 
@@ -89,10 +89,10 @@ $$
 $$
 \begin{aligned}
 d \sin ( \theta ) = ( m + \frac { 1 } { 2 } ) \lambda \\
-d = \text { distance } \\
-\theta = \text { angular position } \\
-m = \text { interference order } \\
-\lambda = \text { wavelength }
+d = \text {distance} \\
+\theta = \text {angular position} \\
+m = \text {interference order} \\
+\lambda = \text {wavelength}
 \end{aligned}
 $$
 
@@ -107,9 +107,9 @@ $$
 \begin{aligned}
 \sin ( \theta ) \approx \tan ( \theta ) = \frac { y } { L } \\
 y < < L \\
-\theta = \text { angular position } \\
-y = \text { position } \\
-L = \text { length }
+\theta = \text {angular position} \\
+y = \text {position} \\
+L = \text {length}
 \end{aligned}
 $$
 
@@ -154,8 +154,8 @@ $$
 $$
 \begin{aligned}
 E = 2 E _ { 12 } \cos ( \frac { \phi } { 2 } ) \\
-E = \text { electric field } \\
-\phi = \text { phase angle }
+E = \text {electric field} \\
+\phi = \text {phase angle}
 \end{aligned}
 $$
 
@@ -170,8 +170,8 @@ $$
 $$
 \begin{aligned}
 I = I _ { 0 } \cos ^ { 2 } ( \frac { \phi } { 2 } ) \\
-I = \text { intensity } \\
-\phi = \text { phase angle }
+I = \text {intensity} \\
+\phi = \text {phase angle}
 \end{aligned}
 $$
 
@@ -180,11 +180,11 @@ $$
 $$
 \begin{aligned}
 \phi = ( \frac { 2 \pi } { \lambda } ) \Delta r = k d \sin \theta \\
-\lambda = \text { wavelength } \\
-\Delta r = \text { path difference } \\
-k = \text { wave number } \\
-d = \text { distance } \\
-\theta = \text { angular position }
+\lambda = \text {wavelength} \\
+\Delta r = \text {path difference} \\
+k = \text {wave number} \\
+d = \text {distance} \\
+\theta = \text {angular position}
 \end{aligned}
 $$
 
@@ -211,8 +211,8 @@ $$
 $$
 \begin{aligned}
 \tan ( \theta ) = \frac { y ' } { L ' } = \frac { y } { L } \\
-y = \text { position } \\
-L = \text { length }
+y = \text {position} \\
+L = \text {length}
 \end{aligned}
 $$
 
@@ -227,10 +227,10 @@ $$
 $$
 \begin{aligned}
 2 n t = m \lambda \\
-n = \text { refraction index } \\
-t = \text { thickness } \\
-m = \text { interference order } \\
-\lambda = \text { wavelength }
+n = \text {refraction index} \\
+t = \text {thickness} \\
+m = \text {interference order} \\
+\lambda = \text {wavelength}
 \end{aligned}
 $$
 
@@ -239,10 +239,10 @@ $$
 $$
 \begin{aligned}
 2 n t = ( m + \frac { 1 } { 2 } ) \lambda \\
-n = \text { refraction index } \\
-t = \text { thickness } \\
-m = \text { interference order } \\
-\lambda = \text { wavelength }
+n = \text {refraction index} \\
+t = \text {thickness} \\
+m = \text {interference order} \\
+\lambda = \text {wavelength}
 \end{aligned}
 $$
 
@@ -257,10 +257,10 @@ $$
 $$
 \begin{aligned}
 2 n t = ( m + \frac { 1 } { 2 } ) \lambda \\
-n = \text { refraction index } \\
-t = \text { thickness } \\
-m = \text { interference order } \\
-\lambda = \text { wavelength }
+n = \text {refraction index} \\
+t = \text {thickness} \\
+m = \text {interference order} \\
+\lambda = \text {wavelength}
 \end{aligned}
 $$
 
@@ -269,10 +269,10 @@ $$
 $$
 \begin{aligned}
 2 n t = m \lambda \\
-n = \text { refraction index } \\
-t = \text { thickness } \\
-m = \text { interference order } \\
-\lambda = \text { wavelength }
+n = \text {refraction index} \\
+t = \text {thickness} \\
+m = \text {interference order} \\
+\lambda = \text {wavelength}
 \end{aligned}
 $$
 

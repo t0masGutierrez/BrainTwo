@@ -14,8 +14,8 @@
 $$
 \begin{aligned}
 \vec x = [ x _ { 1 } , . . . , x _ { n } ] \\
-x = \text { coordinate } \\
-n = \text { number of coordinates }
+x = \text {coordinate} \\
+n = \text {number of coordinates}
 \end{aligned}
 $$
 
@@ -40,8 +40,8 @@ $$
 $$
 \begin{aligned}
 \| \vec x \| = \sqrt { x _ { 1 } ^ { 2 } + . . . + x _ { n } ^ { 2 } } \\
-x , y = \text { coordinate } \\
-n = \text { number of coordinates }
+x , y = \text {coordinate} \\
+n = \text {number of coordinates}
 \end{aligned}
 $$
 
@@ -54,8 +54,8 @@ $$
 $$
 \begin{aligned}
 \hat x = \frac { \vec x } { \| \vec x \| } \\
-\vec x = \text { vector } \\
-\| \vec x \| = \text { magnitude }
+\vec x = \text {vector} \\
+\| \vec x \| = \text {magnitude}
 \end{aligned}
 $$
 
@@ -82,9 +82,9 @@ $$
 $$
 \begin{aligned}
 c \vec { x } = [ c x _ { 1 } , . . . , c x _ { n } ] \\
-c = \text { scalar } \\
-x = \text { coordinate } \\
-n = \text { number of coordinates }
+c = \text {scalar} \\
+x = \text {coordinate} \\
+n = \text {number of coordinates}
 \end{aligned}
 $$
 
@@ -97,8 +97,8 @@ $$
 $$
 \begin{aligned}
 \vec x + \vec y = [ x _ { 1 } + y _ { 1 } , . . . , x _ { n } + y _ { n } ] \\
-x , y = \text { coordinate } \\
-n = \text { number of coordinates }
+x , y = \text {coordinate} \\
+n = \text {number of coordinates}
 \end{aligned}
 $$
 
@@ -111,9 +111,9 @@ $$
 $$
 \begin{aligned}
 \vec y = \sum _ { i = 1 } ^ { k } c _ { i } \vec x _ { i } \\
-c = \text { scalar } \\
-\vec x = \text { vector } \\
-k = \text { number of vectors }
+c = \text {scalar} \\
+\vec x = \text {vector} \\
+k = \text {number of vectors}
 \end{aligned}
 $$
 
@@ -129,8 +129,8 @@ $$
 \begin{aligned}
 x _ { 1 } = \| \vec x \| \cos ( \theta ) \\
 x _ { 2 } = \| \vec x \| \sin ( \theta ) \\
-\| \vec x \| = \text { magnitude } \\
-\theta = \text { direction }
+\| \vec x \| = \text {magnitude} \\
+\theta = \text {direction}
 \end{aligned}
 $$
 
@@ -139,8 +139,8 @@ $$
 $$
 \begin{aligned}
 \vec { x } = x _ { 1 } \vec e _ { 1 } + x _ { 2 } \vec e _ { 2 } \\
-x = \text { coordinate } \\
-\vec e = \text { standard unit vector }
+x = \text {coordinate} \\
+\vec e = \text {standard unit vector}
 \end{aligned}
 $$
 
@@ -171,8 +171,8 @@ $$
 $$
 \begin{aligned}
 \vec x \parallel \vec y \iff \exists c : \vec x = c \vec y \\
-\vec x , \vec y = \text { vector } \\
-c = \text { scalar }
+\vec x , \vec y = \text {vector} \\
+c = \text {scalar}
 \end{aligned}
 $$
 
@@ -197,8 +197,8 @@ $$
 $$
 \begin{aligned}
 \vec x = \vec y \iff [ x _ { 1 } , . . . , x _ { n } ] = [ y _ { 1 } , . . . , y _ { n } ] \\
-\vec x , \vec y = \text { vector } \\
-x , y = \text { coordinate }
+\vec x , \vec y = \text {vector} \\
+x , y = \text {coordinate}
 \end{aligned}
 $$
 

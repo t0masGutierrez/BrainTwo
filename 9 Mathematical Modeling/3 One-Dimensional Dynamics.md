@@ -6,10 +6,10 @@
 $$
 \begin{aligned}
 \frac { du } { dt } = f ( u , c _ { 1 } , \dots , c _ { n } ) , u ( t = 0 ) = u _ { 0 } , t \ge 0 \\
-u = \text { solution } \\
-t = \text { time } \\
-u _ { 0 } = \text { initial condition } \\
-c = \text { parameter }
+u = \text {solution} \\
+t = \text {time} \\
+u _ { 0 } = \text {initial condition} \\
+c = \text {parameter}
 \end{aligned}
 $$
 
@@ -23,7 +23,7 @@ $$
 $$
 \begin{aligned}
 \frac { du } { dt } = f ( u ) \\
-f = \text { slope }
+f = \text {slope}
 \end{aligned}
 $$
 
@@ -37,7 +37,7 @@ $$
 $$
 \begin{aligned}
 \frac { du } { dt } = f ( u ) \\
-f = \text { velocity }
+f = \text {velocity}
 \end{aligned}
 $$
 
@@ -64,9 +64,9 @@ $$
 $$
 \begin{aligned}
 \forall t \ge 0 : u ( t ) = u _ { * } \iff f ( u _ { * } ) = 0 \\
-u = \text { solution } \\
-t = \text { time } \\
-u _ { * } = \text { equilibrium point }
+u = \text {solution} \\
+t = \text {time} \\
+u _ { * } = \text {equilibrium point}
 \end{aligned}
 $$
 
@@ -93,8 +93,8 @@ $$
 $$
 \begin{aligned}
 N _ { \rho } ( u _ { * } ) = ( u _ { * } - \rho , u _ { * } + \rho ) \\
-u _ { * } = \text { equilibrium point } \\
-\rho = \text { radius }
+u _ { * } = \text {equilibrium point} \\
+\rho = \text {radius}
 \end{aligned}
 $$
 
@@ -110,11 +110,11 @@ $$
 \begin{aligned}
 \forall \epsilon > 0 , \exists \delta > 0 , \forall t \ge 0 : u _ { 0 } \in N _ { \delta } ( u _ { * } ) \implies u ( t ) \in N _ { \epsilon } ( u _ { * } )
 \land \forall u _ { 0 } \in \mathbb R : \lim _ { t \rightarrow \infty } u ( t ) = u _ { * } \\
-u _ { 0 } = \text { initial condition } \\
-N = \text { neighborhood } \\
-u _ { * } = \text { equilibrium point } \\
-u = \text { solution } \\
-t = \text { time }
+u _ { 0 } = \text {initial condition} \\
+N = \text {neighborhood} \\
+u _ { * } = \text {equilibrium point} \\
+u = \text {solution} \\
+t = \text {time}
 \end{aligned}
 $$
 
@@ -130,11 +130,11 @@ $$
 \begin{aligned}
 \forall \epsilon > 0 , \exists \delta > 0 , \forall t \ge 0 : u _ { 0 } \in N _ { \delta } ( u _ { * } ) \implies u ( t ) \in N _ { \epsilon } ( u _ { * } )
 \land \exists u _ { 0 } \in \mathbb R : \lim _ { t \rightarrow \infty } u ( t ) \ne u _ { * } \\
-u _ { 0 } = \text { initial condition } \\
-N = \text { neighborhood } \\
-u _ { * } = \text { equilibrium point } \\
-u = \text { solution } \\
-t = \text { time }
+u _ { 0 } = \text {initial condition} \\
+N = \text {neighborhood} \\
+u _ { * } = \text {equilibrium point} \\
+u = \text {solution} \\
+t = \text {time}
 \end{aligned}
 $$
 
@@ -149,11 +149,11 @@ $$
 \begin{aligned}
 \exists \epsilon > 0 , \forall \delta > 0 , \exists t \ge 0 : u _ { 0 } \in N _ { \delta } ( u _ { * } ) \land u ( t ) \not \in N _ { \epsilon } ( u _ { * } )
 \land \forall u _ { 0 } \in \mathbb R : \lim _ { t \rightarrow \infty } u ( t ) \ne u _ { * } \\
-u _ { 0 } = \text { initial condition } \\
-N = \text { neighborhood } \\
-u _ { * } = \text { equilibrium point } \\
-u = \text { solution } \\
-t = \text { time }
+u _ { 0 } = \text {initial condition} \\
+N = \text {neighborhood} \\
+u _ { * } = \text {equilibrium point} \\
+u = \text {solution} \\
+t = \text {time}
 \end{aligned}
 $$
 
@@ -211,8 +211,8 @@ $$
 $$
 \begin{aligned}
 h \times u _ { * } = \{ ( h , u _ { * } ) | f ( h , u _ { * } ) = 0 \} \\
-h = \text { parameter } \\
-u _ { * } = \text { equilibrium point }
+h = \text {parameter} \\
+u _ { * } = \text {equilibrium point}
 \end{aligned}
 $$
 

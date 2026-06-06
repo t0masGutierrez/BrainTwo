@@ -21,7 +21,7 @@ $$
 \int \csc ( u ) \cot ( u ) d u = - \csc ( u ) + c \\
 \int \frac { du } { \sqrt { a ^ { 2 } - u ^ { 2 } } } = \arcsin ( \frac { u } { a } ) + c \\
 \int \frac { du } { a ^ { 2 } + u ^ { 2 } } = \frac { 1 } { a } \arctan ( \frac { u } { a } ) + c \\
-\int \frac { du } { u \sqrt { u ^ { 2 } - a ^ { 2 } } } = \frac { 1 } { a } \text { arcsec } ( \frac { u } { a } ) + c \\
+\int \frac { du } { u \sqrt { u ^ { 2 } - a ^ { 2 } } } = \frac { 1 } { a } \text {arcsec} ( \frac { u } { a } ) + c \\
 \end{aligned}
 $$
 
@@ -121,7 +121,7 @@ $$
 $$
 \begin{aligned}
 V = \pi \int _ { a } ^ { b } R ( x ) ^ { 2 } d x \\
-R ( x ) = \text { distance from axis of revolution }
+R ( x ) = \text {distance from axis of revolution}
 \end{aligned}
 $$
 
@@ -147,8 +147,8 @@ $$
 $$
 \begin{aligned}
 V = \pi \int _ { a } ^ { b } [ R ( x ) ^ { 2 } - r ( x ) ^ { 2 } ] d x \\
-R ( x ) = \text { big radius } \\
-r ( x ) = \text { small radius } \\
+R ( x ) = \text {big radius} \\
+r ( x ) = \text {small radius} \\
 \end{aligned}
 $$
 
@@ -167,7 +167,7 @@ $$
 $$
 \begin{aligned}
 V = 2 \pi \int _ { a } ^ { b } R ( x ) f ( x ) d x \\
-R ( x ) = \text { distance from the axis of revolution } \\
+R ( x ) = \text {distance from the axis of revolution} \\
 \end{aligned}
 $$
 

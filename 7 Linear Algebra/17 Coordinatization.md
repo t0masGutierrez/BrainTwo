@@ -6,8 +6,8 @@
 $$
 \begin{aligned}
 B = ( \vec v _ { 1 } , \dots \vec v _ { n } ) \\
-\vec v = \text { basis vector } \\
-n = \text { dimension }
+\vec v = \text {basis vector} \\
+n = \text {dimension}
 \end{aligned}
 $$
 
@@ -21,12 +21,12 @@ $$
 $$
 \begin{aligned}
 {}[ \vec w ] _ { B } = [ c _ { 1 } , \dots , c _ { n } ] \iff \vec w = \sum _ { i = 1 } ^ { n } c _ { i } \vec v _ { i } \\
-{}[ \vec w ] _ { B } = \text { coordinate vector } \\
-B = \text { ordered basis } \\
-c = \text { coordinate } \\
-n = \text { dimension } \\
-\vec w = \text { coordinatized vector } \\
-\vec v = \text { basis vector }
+{}[ \vec w ] _ { B } = \text {coordinate vector} \\
+B = \text {ordered basis} \\
+c = \text {coordinate} \\
+n = \text {dimension} \\
+\vec w = \text {coordinatized vector} \\
+\vec v = \text {basis vector}
 \end{aligned}
 $$
 
@@ -41,11 +41,11 @@ $$
 ### coordinatization via RREF formula
 $$
 \begin{aligned}
-\text { RREF } ( B \mid \vec w ) = I \mid [ \vec w ] _ { B } \\
-B = \text { ordered basis } \\
-\vec w = \text { coordinatized vector } \\
-I = \text { identity matrix } \\
-{}[ \vec w ] _ { B } = \text { coordinate vector }
+\text {RREF} ( B \mid \vec w ) = I \mid [ \vec w ] _ { B } \\
+B = \text {ordered basis} \\
+\vec w = \text {coordinatized vector} \\
+I = \text {identity matrix} \\
+{}[ \vec w ] _ { B } = \text {coordinate vector}
 \end{aligned}
 $$
 
@@ -72,11 +72,11 @@ $$
 ### transition matrix formula
 $$
 \begin{aligned}
-\text { RREF } ( C \mid B ) = I \mid P _ { BC } \\
-C = \text { 2nd ordered basis } \\
-B = \text { 1st ordered basis } \\
-I = \text { identity matrix } \\
-P = \text { transition matrix }
+\text {RREF} ( C \mid B ) = I \mid P _ { BC } \\
+C = \text {2nd ordered basis} \\
+B = \text {1st ordered basis} \\
+I = \text {identity matrix} \\
+P = \text {transition matrix}
 \end{aligned}
 $$
 
@@ -89,8 +89,8 @@ $$
 $$
 \begin{aligned}
 {}[ \vec v ] _ { S } = \vec v \\
-\vec v = \text { coordinatized vector } \\
-S = \text { standard basis }
+\vec v = \text {coordinatized vector} \\
+S = \text {standard basis}
 \end{aligned}
 $$
 
@@ -119,11 +119,11 @@ $$
 $$
 \begin{aligned}
 P _ { BC } \iff \forall \vec v \in \mathcal V : [ \vec v ] _ { C } = P _ { BC } [ \vec v ] _ { B } \\
-P = \text { transition matrix } \\
-B , C = \text { ordered basis } \\
-\vec v = \text { coordinatized vector } \\
-\mathcal V = \text { vector space } \\
-{}[ \vec v ] _ { B } , [ \vec v ] _ { C } = \text { coordinate vector }
+P = \text {transition matrix} \\
+B , C = \text {ordered basis} \\
+\vec v = \text {coordinatized vector} \\
+\mathcal V = \text {vector space} \\
+{}[ \vec v ] _ { B } , [ \vec v ] _ { C } = \text {coordinate vector}
 \end{aligned}
 $$
 
@@ -136,10 +136,10 @@ $$
 $$
 \begin{aligned}
 ( [ \vec v ] _ { C } = P _ { BC } [ \vec v ] _ { B } ) \land ( [ \vec v ] _ { D } = Q _ { CD } [ \vec v ] _ { C } ) \implies ( [ \vec v ] _ { D } = Q _ { CD } P _ { BC } [ \vec v ] _ { B } ) \\
-\vec v = \text { coordinatized vector } \\
-{}[ \vec v ] _ { B } , [ \vec v ] _ { C } , [ \vec v ] _ { D } = \text { coordinate vector } \\
-B , C , D = \text { ordered basis } \\
-P , Q = \text { transition matrix }
+\vec v = \text {coordinatized vector} \\
+{}[ \vec v ] _ { B } , [ \vec v ] _ { C } , [ \vec v ] _ { D } = \text {coordinate vector} \\
+B , C , D = \text {ordered basis} \\
+P , Q = \text {transition matrix}
 \end{aligned}
 $$
 
@@ -152,11 +152,11 @@ $$
 $$
 \begin{aligned}
 {}[ \vec v ] _ { C } = P _ { BC } [ \vec v ] _ { B } \implies ( | P | \ne 0 ) \land ( [ \vec v ] _ { B } = P _ { BC } ^ { - 1 } [ \vec v ] _ { C } ) \\
-\vec v = \text { coordinatized vector } \\
-{}[ \vec v ] _ { B } , [ \vec v ] _ { C } = \text { coordinate vector } \\
-B , C = \text { ordered basis } \\
-P = \text { transition matrix } \\
-P ^ { - 1 } = \text { inverse transition matrix }
+\vec v = \text {coordinatized vector} \\
+{}[ \vec v ] _ { B } , [ \vec v ] _ { C } = \text {coordinate vector} \\
+B , C = \text {ordered basis} \\
+P = \text {transition matrix} \\
+P ^ { - 1 } = \text {inverse transition matrix}
 \end{aligned}
 $$
 
@@ -171,13 +171,13 @@ $$
 \begin{aligned}
 {}[ \vec v ] _ { S } = P [ \vec v ] _ { B } \\
 D [ \vec v ] _ { B } = [ A \vec v ] _ { B } \\
-\vec v = \text { coordinatized vector } \\
-{}[ \vec v ] _ { S } , [ \vec v ] _ { B } , [ A \vec v ] _ { B } = \text { coordinate vector } \\
-S = \text { standard ordered basis } \\
-B = \text { ordered basis } \\
-P = \text { eigenmatrix } \\
-D = \text { diagonal matrix } \\
-A = \text { square matrix }
+\vec v = \text {coordinatized vector} \\
+{}[ \vec v ] _ { S } , [ \vec v ] _ { B } , [ A \vec v ] _ { B } = \text {coordinate vector} \\
+S = \text {standard ordered basis} \\
+B = \text {ordered basis} \\
+P = \text {eigenmatrix} \\
+D = \text {diagonal matrix} \\
+A = \text {square matrix}
 \end{aligned}
 $$
 

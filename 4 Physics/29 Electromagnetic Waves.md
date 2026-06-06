@@ -18,12 +18,12 @@ $$
 \begin{aligned}
 \vec E ( x , t ) = E _ { 0 } \cos ( k x \mp \omega t ) \  \hat j \\
 \vec B ( x , t ) = B _ { 0 } \cos ( k x \mp \omega t ) \  \hat k \\
-E = \text { electric field } \\
-B = \text { magnetic field } \\
-k = \text { wave number } \\
-x = \text { position } \\
-\omega = \text { angular frequency } \\
-t = \text { time }
+E = \text {electric field} \\
+B = \text {magnetic field} \\
+k = \text {wave number} \\
+x = \text {position} \\
+\omega = \text {angular frequency} \\
+t = \text {time}
 \end{aligned}
 $$
 
@@ -37,8 +37,8 @@ $$
 $$
 \begin{aligned}
 c = \frac { E } { B } \\
-E = \text { electric field } \\
-B = \text { magnetic field }
+E = \text {electric field} \\
+B = \text {magnetic field}
 \end{aligned}
 $$
 
@@ -53,10 +53,10 @@ $$
 \begin{aligned}
 v = \lambda f = \frac { \omega } { k } \\
 c = \sqrt { \frac { 1 } { \epsilon _ { 0 } \mu _ { 0 } } } = 3 \times 10 ^ { 8 } \\
-\lambda = \text { wavelength } \\
-f = \text { oscillation frequency } \\
-\omega = \text { angular frequency } \\
-k = \text { wave number } \\
+\lambda = \text {wavelength} \\
+f = \text {oscillation frequency} \\
+\omega = \text {angular frequency} \\
+k = \text {wave number} \\
 \epsilon _ { 0 } = 8.85 \times 10 ^ { - 12 } \\
 \mu _ { 0 } = 4 \pi \times 10 ^ { - 7 } \\
 \end{aligned}
@@ -71,11 +71,11 @@ $$
 $$
 \begin{aligned}
 v = \sqrt { \frac { 1 } { \epsilon \mu } } = \sqrt { \frac { 1 } { K \epsilon _ { 0 } K _ { m } \mu _ { 0 } } } = c \sqrt { \frac { 1 } { K K _ { m } } } \\
-\epsilon = \text { permittivity } \\
-\mu = \text { permeability } \\
-K = \text { dielectric constant } \\
+\epsilon = \text {permittivity} \\
+\mu = \text {permeability} \\
+K = \text {dielectric constant} \\
 \epsilon _ { 0 } = 8.85 \times 10 ^ { - 12 } \\
-K _ { m } = \text { relative permeability } \\
+K _ { m } = \text {relative permeability} \\
 \mu _ { 0 } = 4 \pi \times 10 ^ { - 7 } \\
 c = 3 \times 10 ^ { 8 }
 \end{aligned}
@@ -98,8 +98,8 @@ $$
 \begin{aligned}
 u _ { avg } = \frac { \epsilon _ { 0 } E _ { 0 } ^ { 2 } } { 2 } = \frac { B _ { 0 } ^ { 2 } } { 2 \mu _ { 0 } } \\
 \epsilon _ { 0 } = 8.85 \times 10 ^ { - 12 } \\
-E = \text { electric field } \\
-B = \text { magnetic field } \\
+E = \text {electric field} \\
+B = \text {magnetic field} \\
 \mu _ { 0 } = 4 \pi \times 10 ^ { - 7 }
 \end{aligned}
 $$
@@ -110,8 +110,8 @@ $$
 \begin{aligned}
 u = \epsilon _ { 0 } E ^ { 2 } = \frac { B ^ { 2 } } { \mu _ { 0 } } \\
 \epsilon _ { 0 } = 8.85 \times 10 ^ { - 12 } \\
-E = \text { electric field } \\
-B = \text { magnetic field } \\
+E = \text {electric field} \\
+B = \text {magnetic field} \\
 \mu _ { 0 } = 4 \pi \times 10 ^ { - 7 }
 \end{aligned}
 $$
@@ -127,10 +127,10 @@ $$
 \begin{aligned}
 S _ { avg } = c ( \frac { \epsilon _ { 0 } E _ { 0 } ^ { 2 } } { 2 } ) = c ( \frac { B _ { 0 } ^ { 2 } } { 2 \mu _ { 0 } } ) \\
 c = 3 \times 10 ^ { 8 } \\
-u = \text { energy density } \\
+u = \text {energy density} \\
 \epsilon _ { 0 } = 8.85 \times 10 ^ { - 12 } \\
-E = \text { electric field } \\
-B = \text { magnetic field } \\
+E = \text {electric field} \\
+B = \text {magnetic field} \\
 \mu _ { 0 } = 4 \pi \times 10 ^ { - 7 }
 \end{aligned}
 $$
@@ -140,8 +140,8 @@ $$
 $$
 \begin{aligned}
 \vec S = \frac { \vec E \times \vec B } { \mu _ { 0 } } \\
-E = \text { electric field } \\
-B = \text { magnetic field } \\
+E = \text {electric field} \\
+B = \text {magnetic field} \\
 \mu _ { 0 } = 4 \pi \times 10 ^ { - 7 }
 \end{aligned}
 $$
@@ -155,10 +155,10 @@ $$
 $$
 \begin{aligned}
 P = \frac { U } { t } = I A \\
-U = \text { energy } \\
-t = \text { time } \\
-I = \text { intensity } \\
-A = \text { area }
+U = \text {energy} \\
+t = \text {time} \\
+I = \text {intensity} \\
+A = \text {area}
 \end{aligned}
 $$
 
@@ -171,9 +171,9 @@ $$
 $$
 \begin{aligned}
 I = \frac { P } { A } = S _ { avg } \\
-P = \text { power } \\
-A = \text { area } \\
-S = \text { poynting }
+P = \text {power} \\
+A = \text {area} \\
+S = \text {poynting}
 \end{aligned}
 $$
 
@@ -206,9 +206,9 @@ $$
 $$
 \begin{aligned}
 p _ { rad } = \frac { F _ { \perp } } { A } = \frac { I } { c } \\
-F = \text { force } \\
-A = \text { area } \\
-I = \text { intensity } \\
+F = \text {force} \\
+A = \text {area} \\
+I = \text {intensity} \\
 c = 3 \times 10 ^ { 8 }
 \end{aligned}
 $$
@@ -218,9 +218,9 @@ $$
 $$
 \begin{aligned}
 p _ { rad } = \frac { F _ { \perp } } { A } = \frac { 2 I } { c } \\
-F = \text { force } \\
-A = \text { area } \\
-I = \text { intensity } \\
+F = \text {force} \\
+A = \text {area} \\
+I = \text {intensity} \\
 c = 3 \times 10 ^ { 8 }
 \end{aligned}
 $$
@@ -240,12 +240,12 @@ $$
 \begin{aligned}
 \vec E ( x , t ) = - 2 E _ { 0 } \sin ( k x ) \sin ( \omega t ) \  \hat j \\
 \vec B ( x , t ) = - 2 B _ { 0 } \cos ( k x ) \cos ( \omega t ) \  \hat k \\
-E = \text { electric field } \\
-B = \text { magnetic field } \\
-k = \text { wave number } \\
-x = \text { position } \\
-\omega = \text { angular frequency } \\
-t = \text { time }
+E = \text {electric field} \\
+B = \text {magnetic field} \\
+k = \text {wave number} \\
+x = \text {position} \\
+\omega = \text {angular frequency} \\
+t = \text {time}
 \end{aligned}
 $$
 
@@ -279,8 +279,8 @@ $$
 $$
 \begin{aligned}
 \lambda _ { n } = \frac { 2 L } { n } \\
-L = \text { length } \\
-n = \text { harmonic number }
+L = \text {length} \\
+n = \text {harmonic number}
 \end{aligned}
 $$
 
@@ -293,9 +293,9 @@ $$
 $$
 \begin{aligned}
 f _ { n } = \frac { nv } { 2 L } \\
-n = \text { harmonic number } \\
-v = \text { wave velocity } \\
-L = \text { length }
+n = \text {harmonic number} \\
+v = \text {wave velocity} \\
+L = \text {length}
 \end{aligned}
 $$
 

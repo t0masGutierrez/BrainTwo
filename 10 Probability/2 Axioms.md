@@ -32,8 +32,8 @@ $$
 $$
 \begin{aligned}
 P ( A ) = \lim _ { n \to \infty } \frac { m } { n } \\
-m = \text { number of successes } \\
-n = \text { total number of trials }
+m = \text {number of successes} \\
+n = \text {total number of trials}
 \end{aligned}
 $$
 
@@ -46,8 +46,8 @@ $$
 $$
 \begin{aligned}
 P ( A ) = \frac { m } { n } \\
-m = \text { number of favorable outcomes } \\
-n = \text { total number of outcomes }
+m = \text {number of favorable outcomes} \\
+n = \text {total number of outcomes}
 \end{aligned}
 $$
 
@@ -166,8 +166,8 @@ $$
 $$
 \begin{aligned}
 P ( A | B ) = \frac { P ( A ) P ( B | A ) } { P ( B ) } \\
-A = \text { hypothesis } \\
-B = \text { condition }
+A = \text {hypothesis} \\
+B = \text {condition}
 \end{aligned}
 $$
 
@@ -180,8 +180,8 @@ $$
 $$
 \begin{aligned}
 P ( A ) = \sum _ { i = 1 } ^ { n } P ( A | B _ { i } ) P ( B _ { i } ) \\
-A = \text { hypothesis } \\
-B = \text { condition }
+A = \text {hypothesis} \\
+B = \text {condition}
 \end{aligned}
 $$
 

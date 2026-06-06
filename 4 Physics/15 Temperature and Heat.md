@@ -7,7 +7,7 @@
 $$
 \begin{aligned}
 T _ { c } = \frac { 5 } { 9 } ( T _ { f } - 32 ) \\
-T _ { f } = \text { fahrenheit }
+T _ { f } = \text {fahrenheit}
 \end{aligned}
 $$
 
@@ -21,7 +21,7 @@ $$
 $$
 \begin{aligned}
 T _ { f } = ( \frac { 9 } { 5 } ) T _ { c } + 32 \\
-T _ { c } = \text { celcius }
+T _ { c } = \text {celcius}
 \end{aligned}
 $$
 
@@ -35,7 +35,7 @@ $$
 $$
 \begin{aligned}
 K = T _ { c } + 273.15 \\
-T _ { c } = \text { celcius }
+T _ { c } = \text {celcius}
 \end{aligned}
 $$
 
@@ -54,9 +54,9 @@ $$
 $$
 \begin{aligned}
 \frac { \Delta L } { L } = \alpha \Delta T _ { c } \\
-\alpha = \text { linear expansion coefficient } \\
-T _ { c } = \text { celcius } \\
-L = \text { length }
+\alpha = \text {linear expansion coefficient} \\
+T _ { c } = \text {celcius} \\
+L = \text {length}
 \end{aligned}
 $$
 
@@ -65,9 +65,9 @@ $$
 $$
 \begin{aligned}
 \frac { \Delta A } { A } = 2 \alpha \Delta T _ { c } \\
-\alpha = \text { linear expansion coefficient } \\
-T _ { c } = \text { celcius } \\
-A = \text { area }
+\alpha = \text {linear expansion coefficient} \\
+T _ { c } = \text {celcius} \\
+A = \text {area}
 \end{aligned}
 $$
 
@@ -76,9 +76,9 @@ $$
 $$
 \begin{aligned}
 \frac { \Delta V } { V } = 3 \alpha \Delta T _ { c } \\
-\alpha = \text { linear expansion coefficient } \\
-T _ { c } = \text { celcius } \\
-V = \text { volume }
+\alpha = \text {linear expansion coefficient} \\
+T _ { c } = \text {celcius} \\
+V = \text {volume}
 \end{aligned}
 $$
 
@@ -92,9 +92,9 @@ $$
 $$
 \begin{aligned}
 \frac { \Delta V } { V } = \beta \Delta T _ { c } \\
-\beta = \text { volume expansion coefficient } \\
-T _ { c } = \text { celcius } \\
-V = \text { volue }
+\beta = \text {volume expansion coefficient} \\
+T _ { c } = \text {celcius} \\
+V = \text {volue}
 \end{aligned}
 $$
 
@@ -117,7 +117,7 @@ $$
 ### kilocalorie formula
 $$
 \begin{aligned}
-1 \  \text { kcal } = 4186 \  \text { J }
+1 \  \text {kcal} = 4186 \  \text {J}
 \end{aligned}
 $$
 
@@ -132,9 +132,9 @@ $$
 $$
 \begin{aligned}
 Q = m c \Delta T _ { c } \\
-m = \text { mass } \\
-c = \text { specific heat capacity } \\
-T _ { c } = \text { celcius }
+m = \text {mass} \\
+c = \text {specific heat capacity} \\
+T _ { c } = \text {celcius}
 \end{aligned}
 $$
 
@@ -196,8 +196,8 @@ $$
 $$
 \begin{aligned}
 Q = \pm m L \\
-m = \text { mass } \\
-L = \text { latent heat }
+m = \text {mass} \\
+L = \text {latent heat}
 \end{aligned}
 $$
 

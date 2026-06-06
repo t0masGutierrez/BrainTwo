@@ -264,9 +264,9 @@ $$
 $$
 \begin{aligned}
 z = a + b i \\
-a = \text { real part } \\
-b = \text { imaginary part } \\
-i = \text { imaginary number }
+a = \text {real part} \\
+b = \text {imaginary part} \\
+i = \text {imaginary number}
 \end{aligned}
 $$
 
@@ -286,7 +286,7 @@ $$
 | \overline z | = | z | \\
 | z w | = ( | z | ) ( | w | ) \\
 | z + w | \le | z | + | w | \\
-| \text { Re } ( z ) | \le | z |
+| \text {Re} ( z ) | \le | z |
 \end{aligned}
 $$
 
@@ -299,8 +299,8 @@ $$
 $$
 \begin{aligned}
 \overline z = a - b i \\
-a = \text { Re } ( z ) \\
-b = \text { Im } ( z ) \\
+a = \text {Re} ( z ) \\
+b = \text {Im} ( z ) \\
 i = \sqrt { - 1 }
 \end{aligned}
 $$
@@ -319,8 +319,8 @@ $$
 \begin{aligned}
 \overline { z + w } = \overline z + \overline w \\
 \overline { z \cdot w } = \overline z \cdot \overline w \\
-z + \overline z = \text { Re } ( z ) \\
-z - \overline z = \text { Im } ( z ) \\
+z + \overline z = \text {Re} ( z ) \\
+z - \overline z = \text {Im} ( z ) \\
 z \cdot \overline z \in \mathbb R ^ { + } \iff z \ne 0
 \end{aligned}
 $$

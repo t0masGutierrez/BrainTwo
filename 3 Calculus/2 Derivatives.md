@@ -16,9 +16,9 @@
 $$
 \begin{aligned}
 m = \frac { f ( b ) - f ( a ) } { b - a } \\
-f = \text { function } \\
-a = \text { initial point } \\
-b = \text { terminal point }
+f = \text {function} \\
+a = \text {initial point} \\
+b = \text {terminal point}
 \end{aligned}
 $$
 
@@ -31,9 +31,9 @@ $$
 $$
 \begin{aligned}
 f ' ( c ) = \lim _ { x \to c } \frac { f ( x ) - f ( c ) } { x - c } \\
-x = \text { independent variable } \\
-c = \text { constant } \\
-f = \text { function }
+x = \text {independent variable} \\
+c = \text {constant} \\
+f = \text {function}
 \end{aligned}
 $$
 
@@ -46,9 +46,9 @@ $$
 $$
 \begin{aligned}
 f ' ( x ) = \lim _ { h \to 0 } \frac { f ( x + h ) - f ( x ) } { h } \\
-x = \text { independent variable } \\
-h = \text { change } \\
-f = \text { function }
+x = \text {independent variable} \\
+h = \text {change} \\
+f = \text {function}
 \end{aligned}
 $$
 
@@ -75,8 +75,8 @@ $$
 $$
 \begin{aligned}
 \exists \frac { d } { dx } f ( x ) < \infty \\
-f = \text { function } \\
-x = \text { independent variable }
+f = \text {function} \\
+x = \text {independent variable}
 \end{aligned}
 $$
 

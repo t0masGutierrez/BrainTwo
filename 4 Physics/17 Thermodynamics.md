@@ -21,7 +21,7 @@ $$
 \begin{aligned}
 T _ { a } = T _ { b } \land T _ { b } = T _ { c } \implies T _ { a } = T _ { c } \\
 \sum _ { i } Q _ { i } = 0 \\
-T = \text { temperature }
+T = \text {temperature}
 \end{aligned}
 $$
 
@@ -40,8 +40,8 @@ $$
 $$
 \begin{aligned}
 W = \sum _ { i } p _ { i } \Delta V _ { i } = \int _ { V _ { 1 } } ^ { V _ { 2 } } \vec p \cdot d \vec V \\
-p = \text { pressure } \\
-V = \text { volume }
+p = \text {pressure} \\
+V = \text {volume}
 \end{aligned}
 $$
 
@@ -64,11 +64,11 @@ $$
 $$
 \begin{aligned}
 E = \frac { f } { 2 } N k _ { b } T _ { k } = \frac { f } { 2 } n R T _ { k } \\
-f = \text { degrees of freedom } \\
-N = \text { number of molecules } \\
+f = \text {degrees of freedom} \\
+N = \text {number of molecules} \\
 k _ { b } = 1.38 \times 10 ^ { - 23 } \\
-T _ { k } = \text { kelvin } \\
-n = \text { number of moles } \\
+T _ { k } = \text {kelvin} \\
+n = \text {number of moles} \\
 R = 8.31
 \end{aligned}
 $$
@@ -83,8 +83,8 @@ $$
 $$
 \begin{aligned}
 \Delta E = Q - W \\
-Q = \text { heat } \\
-W = \text { work }
+Q = \text {heat} \\
+W = \text {work}
 \end{aligned}
 $$
 
@@ -124,8 +124,8 @@ $$
 $$
 \begin{aligned}
 p _ { 1 } V _ { 1 } = p _ { 2 } V _ { 2 } \\
-p = \text { pressure } \\
-V = \text { volume }
+p = \text {pressure} \\
+V = \text {volume}
 \end{aligned}
 $$
 
@@ -143,8 +143,8 @@ $$
 $$
 \begin{aligned}
 \frac { p _ { 1 } } { T _ { 1 } } = \frac { p _ { 2 } } { T _ { 2 } } \\
-p = \text { pressure } \\
-T = \text { temperature }
+p = \text {pressure} \\
+T = \text {temperature}
 \end{aligned}
 $$
 
@@ -162,8 +162,8 @@ $$
 $$
 \begin{aligned}
 \frac { V _ { 1 } } { T _ { 1 } } = \frac { V _ { 2 } } { T _ { 2 } } \\
-V = \text { volume } \\
-T = \text { temperature }
+V = \text {volume} \\
+T = \text {temperature}
 \end{aligned}
 $$
 
@@ -183,10 +183,10 @@ $$
 p _ { 1 } V _ { 1 } ^ { \gamma } = p _ { 2 } V _ { 2 } ^ { \gamma } \\
 T _ { 1 } V _ { 1 } ^ { \gamma - 1 } = T _ { 2 } V _ { 2 } ^ { \gamma - 1 } \\
 \gamma = \frac { c _ { p } } { c _ { v } } \\
-p = \text { pressure } \\
-V = \text { volume } \\
-T = \text { temperature } \\
-c = \text { specific heat capacity }
+p = \text {pressure} \\
+V = \text {volume} \\
+T = \text {temperature} \\
+c = \text {specific heat capacity}
 \end{aligned}
 $$
 
@@ -205,9 +205,9 @@ $$
 $$
 \begin{aligned}
 Q = n c \Delta T _ { c } \\
-n = \text { number of moles } \\
-c = \text { specific heat capacity } \\
-T _ { c } = \text { celcius }
+n = \text {number of moles} \\
+c = \text {specific heat capacity} \\
+T _ { c } = \text {celcius}
 \end{aligned}
 $$
 
@@ -223,7 +223,7 @@ $$
 c _ { v } = \frac { f } { 2 } R \\
 c _ { 1 } = \frac { 3 } { 2 } R \\
 c _ { 2 } = \frac { 5 } { 2 } R \\
-f = \text { degrees of freedom } \\
+f = \text {degrees of freedom} \\
 R = 8.31
 \end{aligned}
 $$
@@ -238,7 +238,7 @@ $$
 $$
 \begin{aligned}
 c _ { p } = c _ { v } + R \\
-c = \text { specific heat capacity } \\
+c = \text {specific heat capacity} \\
 R = 8.31
 \end{aligned}
 $$
@@ -252,7 +252,7 @@ $$
 $$
 \begin{aligned}
 \gamma = \frac { c _ { p } } { c _ { v } } \\
-c = \text { specific heat capacity }
+c = \text {specific heat capacity}
 \end{aligned}
 $$
 
@@ -289,8 +289,8 @@ $$
 $$
 \begin{aligned}
 T _ { a } < T _ { b } \implies T _ { a } + Q = T _ { b } \\
-T = \text { temperature } \\
-Q = \text { heat }
+T = \text {temperature} \\
+Q = \text {heat}
 \end{aligned}
 $$
 
@@ -305,8 +305,8 @@ $$
 $$
 \begin{aligned}
 e = \frac { W } { Q _ { h } } \\
-W = \text { work } \\
-Q = \text { heat }
+W = \text {work} \\
+Q = \text {heat}
 \end{aligned}
 $$
 
@@ -321,7 +321,7 @@ $$
 $$
 \begin{aligned}
 C O P = \frac { Q _ { c } } { Q _ { h } - Q _ { c } } \\
-Q = \text { heat }
+Q = \text {heat}
 \end{aligned}
 $$
 
@@ -336,7 +336,7 @@ $$
 $$
 \begin{aligned}
 C O P = \frac { Q _ { h } } { Q _ { h } - Q _ { c } } \\
-Q = \text { heat }
+Q = \text {heat}
 \end{aligned}
 $$
 
@@ -352,7 +352,7 @@ $$
 e = \frac { T _ { h } - T _ { c } } { T _ { h } } \\
 C O P = \frac { T _ { c } } { T _ { h } - T _ { c } } \\
 C O P = \frac { T _ { h } } { T _ { h } - T _ { c } } \\
-T = \text { temperature }
+T = \text {temperature}
 \end{aligned}
 $$
 
@@ -366,8 +366,8 @@ $$
 $$
 \begin{aligned}
 \Delta S = \Delta S _ { x } + \Delta S _ { y } \ge 0 \\
-S _ { x } = \text { system entropy } \\
-S _ { y } = \text { surrounding entropy }
+S _ { x } = \text {system entropy} \\
+S _ { y } = \text {surrounding entropy}
 \end{aligned}
 $$
 
@@ -381,8 +381,8 @@ $$
 $$
 \begin{aligned}
 \Delta S = \frac { Q } { T _ { k } } \\
-Q = \text { heat } \\
-T _ { k } = \text { kelvin }
+Q = \text {heat} \\
+T _ { k } = \text {kelvin}
 \end{aligned}
 $$
 
@@ -406,7 +406,7 @@ $$
 \begin{aligned}
 S = k _ { b } \ln ( \Omega ) \\
 k _ { b } = 1.38 \times 10 ^ { - 23 } \\
-\Omega = \text { number of microstates }
+\Omega = \text {number of microstates}
 \end{aligned}
 $$
 

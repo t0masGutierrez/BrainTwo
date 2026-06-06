@@ -6,8 +6,8 @@
 $$
 \begin{aligned}
 N = \prod _ { i = 1 } ^ { k } n _ { i } \\
-n = \text { number of possible outcomes } \\
-k = \text { number of experiments }
+n = \text {number of possible outcomes} \\
+k = \text {number of experiments}
 \end{aligned}
 $$
 
@@ -20,8 +20,8 @@ $$
 $$
 \begin{aligned}
 N = \sum _ { i = 1 } ^ { k } n _ { i } \\
-n = \text { number of possible outcomes } \\
-k = \text { number of experiments }
+n = \text {number of possible outcomes} \\
+k = \text {number of experiments}
 \end{aligned}
 $$
 
@@ -34,8 +34,8 @@ $$
 $$
 \begin{aligned}
 _ { n } P _ { k } = \frac { n ! } { ( n - k ) ! } = k ! \begin{pmatrix} n \\ k \end{pmatrix} \\
-n = \text { number of objects } \\
-k = \text { number of arrangements }
+n = \text {number of objects} \\
+k = \text {number of arrangements}
 \end{aligned}
 $$
 
@@ -48,8 +48,8 @@ $$
 $$
 \begin{aligned}
 \begin{pmatrix} n \\ k \end{pmatrix} = \frac { n ! } { k ! ( n - k ) ! } \\
-n = \text { number of objects } \\
-k = \text { number of choices }
+n = \text {number of objects} \\
+k = \text {number of choices}
 \end{aligned}
 $$
 
@@ -62,7 +62,7 @@ $$
 $$
 \begin{aligned}
 ( x + y ) ^ { n } = \sum _ { k = 0 } ^ { n } \begin{pmatrix} n \\ k \end{pmatrix} x ^ { k } y ^ { n - k } \\
-n , k = \text { parameter }
+n , k = \text {parameter}
 \end{aligned}
 $$
 

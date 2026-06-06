@@ -14,9 +14,9 @@
 $$
 \begin{aligned}
 P ( x ) = p \\
-x = \text { subject } \\
-p = \text { proposition } \\
-P = \text { predicate }
+x = \text {subject} \\
+p = \text {proposition} \\
+P = \text {predicate}
 \end{aligned}
 $$
 

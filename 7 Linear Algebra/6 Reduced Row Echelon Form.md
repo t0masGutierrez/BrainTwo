@@ -24,8 +24,8 @@
 $$
 \begin{aligned}
 A X = 0 \\
-A = \text { cofficient matrix } \\
-X = \text { variable matrix }
+A = \text {cofficient matrix} \\
+X = \text {variable matrix}
 \end{aligned}
 $$
 
@@ -38,8 +38,8 @@ $$
 $$
 \begin{aligned}
 A X \ne 0 \\
-A = \text { cofficient matrix } \\
-X = \text { variable matrix }
+A = \text {cofficient matrix} \\
+X = \text {variable matrix}
 \end{aligned}
 $$
 
@@ -72,10 +72,10 @@ $$
 ### fundamental solution of system of linear equations formula
 $$
 \begin{aligned}
-\text { ker } ( A ) = \{ \sum _ { i = 1 } ^ { k } a _ { i } \vec x _ { i } \mid a \in \mathbb R , \vec x \in \mathbb R ^ { n } \} \\
-k = \text { number of independent variables } \\
-a = \text { coefficient } \\
-\vec x = \text { vector }
+\text {ker} ( A ) = \{ \sum _ { i = 1 } ^ { k } a _ { i } \vec x _ { i } \mid a \in \mathbb R , \vec x \in \mathbb R ^ { n } \} \\
+k = \text {number of independent variables} \\
+a = \text {coefficient} \\
+\vec x = \text {vector}
 \end{aligned}
 $$
 

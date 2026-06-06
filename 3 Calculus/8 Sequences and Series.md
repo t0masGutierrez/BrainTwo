@@ -6,7 +6,7 @@
 $$
 \begin{aligned}
 \{ a _ { n } \} _ { n = 1 } ^ { \infty } = a _ { 1 } , a _ { 2 } , . . . a _ { n } . . . \\
-n = \text { index }
+n = \text {index}
 \end{aligned}
 $$
 
@@ -43,8 +43,8 @@ $$
 $$
 \begin{aligned}
 a _ { n } = a _ { 1 } + ( n - 1 ) d \\
-a _ { 1 } = \text { 1st term } \\
-d = \text { common difference }
+a _ { 1 } = \text {1st term} \\
+d = \text {common difference}
 \end{aligned}
 $$
 
@@ -57,8 +57,8 @@ $$
 $$
 \begin{aligned}
 a _ { n } = a _ { 1 } r ^ { n - 1 } \\
-a _ { 1 } = \text { 1st term } \\
-r = \text { common ratio }
+a _ { 1 } = \text {1st term} \\
+r = \text {common ratio}
 \end{aligned}
 $$
 
@@ -161,7 +161,7 @@ $$
 $$
 \begin{aligned}
 \forall ( n \in N ) ( a _ { n } > m ) \\
-m = \text { lower bound }
+m = \text {lower bound}
 \end{aligned}
 $$
 
@@ -174,7 +174,7 @@ $$
 $$
 \begin{aligned}
 \forall ( n \in N ) ( a _ { n } < M ) \\
-M = \text { upper bound }
+M = \text {upper bound}
 \end{aligned}
 $$
 
@@ -203,7 +203,7 @@ $$
 $$
 \begin{aligned}
 \sum _ { n = 1 } ^ { \infty } a _ { n } = a _ { 1 } + a _ { 2 } + . . . + a _ { n } . . . \\
-n = \text { index }
+n = \text {index}
 \end{aligned}
 $$
 
@@ -216,8 +216,8 @@ $$
 $$
 \begin{aligned}
 S _ { n } = \sum _ { k = 1 } ^ { n } a _ { k } = a _ { 1 } + a _ { 2 } + . . . + a _ { n } \\
-n = \text { number of terms } \\
-k = \text { index }
+n = \text {number of terms} \\
+k = \text {index}
 \end{aligned}
 $$
 
@@ -280,8 +280,8 @@ $$
 \begin{aligned}
 | r | < 1 \to \sum _ { n = 1 } ^ { \infty } a _ { 1 } r ^ { n - 1 } = \frac { a _ { 1 } } { 1 - r } \\
 | r | \ge 1 \to \sum _ { n = 1 } ^ { \infty } a _ { 1 } r ^ { n - 1 } \ne S \\
-a _ { 1 } = \text { 1st term } \\
-r = \text { common ratio }
+a _ { 1 } = \text {1st term} \\
+r = \text {common ratio}
 \end{aligned}
 $$
 
@@ -337,7 +337,7 @@ $$
 \begin{aligned}
 p > 1 \to \sum _ { n = 1 } ^ { \infty } \frac { 1 } { n ^ { p } } = \frac { 1 } { 1 ^ { p } } + \frac { 1 } { 2 ^ { p } } + . . . + \frac { 1 } { n ^ { p } } . . . = S \\
 p \le 1 \to \sum _ { n = 1 } ^ { \infty } \frac { 1 } { n ^ { p } } = \frac { 1 } { 1 ^ { p } } + \frac { 1 } { 2 ^ { p } } + . . . + \frac { 1 } { n ^ { p } } . . . \ne S \\
-p = \text { power }
+p = \text {power}
 \end{aligned}
 $$
 
@@ -456,7 +456,7 @@ $$
 $$
 \begin{aligned}
 P _ { n } ( x ) = f ( c ) + f ' ( c ) ( x - c ) + \frac { f ' ' ( c ) } { 2 ! } ( x - c ) ^ { 2 } + . . . + \frac { f ^ { n ' } ( c ) } { n ! } ( x - c ) ^ { n } \\
-c = \text { center }
+c = \text {center}
 \end{aligned}
 $$
 
@@ -568,7 +568,7 @@ $$
 $$
 \begin{aligned}
 P _ { n } ( x ) = \sum _ { n = 1 } ^ { \infty } \frac { f ^ { n ' } ( c ) } { n ! } ( x - c ) ^ { n } \\
-c = \text { center }
+c = \text {center}
 \end{aligned}
 $$
 

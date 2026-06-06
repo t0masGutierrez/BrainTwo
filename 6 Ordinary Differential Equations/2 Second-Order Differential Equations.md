@@ -6,8 +6,8 @@
 $$
 \begin{aligned}
 \frac { d ^ { 2 } y } { d t ^ { 2 } } = f ( t , y , \frac { dy } { dt } ) \\
-t = \text { independent variable } \\
-y = \text { solution }
+t = \text {independent variable} \\
+y = \text {solution}
 \end{aligned}
 $$
 
@@ -16,9 +16,9 @@ $$
 $$
 \begin{aligned}
 a _ { 2 } ( t ) y ' ' ( t ) + a _ { 1 } ( t ) y ' ( t ) + a _ { 0 } ( t ) y ( t ) = b ( t ) \\
-y = \text { solution } \\
-t = \text { independent variable } \\
-a = \text { coefficient }
+y = \text {solution} \\
+t = \text {independent variable} \\
+a = \text {coefficient}
 \end{aligned}
 $$
 
@@ -27,9 +27,9 @@ $$
 $$
 \begin{aligned}
 y ( t ) = C _ { 1 } y _ { 1 } ( t ) + C _ { 2 } y _ { 2 } ( t ) \\
-C = \text { constant } \\
-t = \text { independent variable } \\
-y = \text { solution }
+C = \text {constant} \\
+t = \text {independent variable} \\
+y = \text {solution}
 \end{aligned}
 $$
 
@@ -38,9 +38,9 @@ $$
 $$
 \begin{aligned}
 y ( t ) = y _ { h } ( t ) + y _ { p } ( t ) \\
-t = \text { independent variable } \\
-y _ { h } = \text { homogeneous solution } \\
-y _ { p } = \text { particular solution } \\
+t = \text {independent variable} \\
+y _ { h } = \text {homogeneous solution} \\
+y _ { p } = \text {particular solution} \\
 \end{aligned}
 $$
 
@@ -66,9 +66,9 @@ $$
 $$
 \begin{aligned}
 L [ y _ { 1 } ] = L [ y _ { 2 } ] = 0 \implies L [ C _ { 1 } y _ { 1 } + C _ { 2 } y _ { 2 } ] = 0 \\
-L = \text { linear transformation } \\
-y = \text { solution } \\
-C = \text { constant }
+L = \text {linear transformation} \\
+y = \text {solution} \\
+C = \text {constant}
 \end{aligned}
 $$
 
@@ -81,9 +81,9 @@ $$
 $$
 \begin{aligned}
 C _ { 1 } y _ { 1 } ( t ) + C _ { 2 } y _ { 2 } ( t ) = 0 \implies C _ { 1 } = C _ { 2 } = 0 \\
-C = \text { constant } \\
-y = \text { solution } \\
-t = \text { independent variable }
+C = \text {constant} \\
+y = \text {solution} \\
+t = \text {independent variable}
 \end{aligned}
 $$
 
@@ -96,8 +96,8 @@ $$
 $$
 \begin{aligned}
 W [ y _ { 1 } , y _ { 2 } ] ( t ) = \begin{vmatrix} y _ { 1 } & y _ { 2 } \\ y _ { 1 } ' & y _ { 2 } ' \end{vmatrix} = y _ { 1 } y _ { 2 } ' - y _ { 2 } y _ { 1 } ' \\
-y = \text { solution } \\
-t = \text { independent variable }
+y = \text {solution} \\
+t = \text {independent variable}
 \end{aligned}
 $$
 
@@ -110,11 +110,11 @@ $$
 $$
 \begin{aligned}
 L [ y _ { 1 } ] = L [ y _ { 2 } ] = 0 \ne W [ y _ { 1 } , y _ { 2 } ] ( t ) \implies \mathcal F = \set { y _ { 1 } , y _ { 2 } } \\
-L = \text { linear transformation } \\
-y = \text { solution } \\
-W = \text { wronskian } \\
-t = \text { independent variable } \\
-\mathcal F = \text { fundamental set }
+L = \text {linear transformation} \\
+y = \text {solution} \\
+W = \text {wronskian} \\
+t = \text {independent variable} \\
+\mathcal F = \text {fundamental set}
 \end{aligned}
 $$
 
@@ -127,9 +127,9 @@ $$
 $$
 \begin{aligned}
 a _ { 2 } y ' ' ( t ) + a _ { 1 } y ' ( t ) + a _ { 0 } y ( t ) = 0 \\
-a = \text { coefficient } \\
-y = \text { solution } \\
-t = \text { independent variable }
+a = \text {coefficient} \\
+y = \text {solution} \\
+t = \text {independent variable}
 \end{aligned}
 $$
 
@@ -146,10 +146,10 @@ y ' ' = r ^ { 2 } \exp ( r t ) \\
 y ' = r \exp ( r t ) \\
 y = \exp ( r t ) \\
 \end{cases} \implies a _ { 2 } r ^ { 2 } + a _ { 1 } r + a _ { 0 } = 0 \\
-r = \text { root } \\
-\exp ( r t ) = \text { guess } \\
-t = \text { independent variable } \\
-a = \text { coefficient }
+r = \text {root} \\
+\exp ( r t ) = \text {guess} \\
+t = \text {independent variable} \\
+a = \text {coefficient}
 \end{aligned}
 $$
 
@@ -162,7 +162,7 @@ $$
 $$
 \begin{aligned}
 r = \frac { - a _ { 1 } \pm \sqrt { a _ { 1 } ^ { 2 } - 4 a _ { 2 } a _ { 0 } } } { 2 a _ { 2 } } \\
-a = \text { coefficient }
+a = \text {coefficient}
 \end{aligned}
 $$
 
@@ -175,10 +175,10 @@ $$
 $$
 \begin{aligned}
 r _ { 1 } \ne r _ { 2 } \implies y = C _ { 1 } \exp ( r _ { 1 } t ) + C _ { 2 } \exp ( r _ { 2 } t ) \\
-y = \text { solution } \\
-C = \text { constant } \\
-r = \text { root } \\
-t = \text { independent variable }
+y = \text {solution} \\
+C = \text {constant} \\
+r = \text {root} \\
+t = \text {independent variable}
 \end{aligned}
 $$
 
@@ -191,10 +191,10 @@ $$
 $$
 \begin{aligned}
 r _ { 1 } = r _ { 2 } \implies y = \exp ( r t ) ( C _ { 1 } + C _ { 2 } t ) \\
-y = \text { solution } \\
-C = \text { constant } \\
-r = \text { root } \\
-t = \text { independent variable }
+y = \text {solution} \\
+C = \text {constant} \\
+r = \text {root} \\
+t = \text {independent variable}
 \end{aligned}
 $$
 
@@ -207,11 +207,11 @@ $$
 $$
 \begin{aligned}
 r = \alpha \pm \beta i \implies y = \exp ( \alpha t ) ( C _ { 1 } \cos \beta t + C _ { 2 } \sin \beta t ) \\
-y = \text { solution } \\
-C = \text { constant } \\
-\alpha = \text { real part } \\
-\beta = \text { imaginary part } \\
-t = \text { independent variable }
+y = \text {solution} \\
+C = \text {constant} \\
+\alpha = \text {real part} \\
+\beta = \text {imaginary part} \\
+t = \text {independent variable}
 \end{aligned}
 $$
 
@@ -247,9 +247,9 @@ $$
 y _ { p } = u _ { 1 } y _ { 1 } + u _ { 2 } y _ { 2 } \\
 u _ { 1 } = - \int \frac { b ( t ) y _ { 2 } ( t ) } { W [ y _ { 1 } , y _ { 2 } ] ( t ) } d t \\
 u _ { 2 } = \int \frac { b ( t ) y _ { 1 } ( t ) } { W [ y _ { 1 } , y _ { 2 } ] ( t ) } d t \\
-u = \text { coefficient } \\
-y = \text { solution } \\
-W = \text { wronskian }
+u = \text {coefficient} \\
+y = \text {solution} \\
+W = \text {wronskian}
 \end{aligned}
 $$
 
@@ -282,9 +282,9 @@ $$
 $$
 \begin{aligned}
 y _ { 2 } ( t ) = y _ { 1 } ( t ) \int \frac { \exp ( - \int a _ { 1 } ( t ) d t ) } { y _ { 1 } ^ { 2 } ( t ) } d t \\
-y = \text { solution } \\
-t = \text { independent variable } \\
-a = \text { coefficient }
+y = \text {solution} \\
+t = \text {independent variable} \\
+a = \text {coefficient}
 \end{aligned}
 $$
 

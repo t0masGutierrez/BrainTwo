@@ -58,9 +58,9 @@ $$
 \begin{aligned}
 s _ { 1 } ^ { 2 } = \frac { \sum _ { i = 1 } ^ { n } ( x _ { 1 i } - \overline x _ { 1 } ) ^ { 2 } } { n _ { 1 } - 1 } \\
 s _ { 2 } ^ { 2 } = \frac { \sum _ { i = 1 } ^ { n } ( x _ { 2 i } - \overline x _ { 2 } ) ^ { 2 } } { n _ { 2 } - 1 } \\
-x = \text { data } \\
-\overline x = \text { sample mean } \\
-n = \text { sample size }
+x = \text {data} \\
+\overline x = \text {sample mean} \\
+n = \text {sample size}
 \end{aligned}
 $$
 
@@ -73,8 +73,8 @@ $$
 $$
 \begin{aligned}
 s ^ { 2 } = \frac { ( n _ { 1 } - 1 ) s _ { 1 } ^ { 2 } + ( n _ { 2 } - 1 ) s _ { 2 } ^ { 2 } } { n _ { 1 } + n _ { 2 } - 2 } \\
-s = \text { sample standard deviation } \\
-n = \text { sample size }
+s = \text {sample standard deviation} \\
+n = \text {sample size}
 \end{aligned}
 $$
 
@@ -87,8 +87,8 @@ $$
 $$
 \begin{aligned}
 S E ( \overline x _ { 1 } - \overline x _ { 2 } ) = \sqrt { \frac { s _ { 1 } ^ { 2 } } { n _ { 1 } } + \frac { s _ { 2 } ^ { 2 } } { n _ { 2 } } } \\
-s = \text { sample standard deviation } \\
-n = \text { sample size }
+s = \text {sample standard deviation} \\
+n = \text {sample size}
 \end{aligned}
 $$
 
@@ -97,8 +97,8 @@ $$
 $$
 \begin{aligned}
 S E ( \overline x _ { 1 } - \overline x _ { 2 } ) = s \sqrt { \frac { 1 } { n _ { 1 } } + \frac { 1 } { n _ { 2 } } } \\
-s = \text { sample standard deviation } \\
-n = \text { sample size }
+s = \text {sample standard deviation} \\
+n = \text {sample size}
 \end{aligned}
 $$
 
@@ -112,8 +112,8 @@ $$
 \begin{aligned}
 \hat p _ { 1 } = \frac { x _ { 1 } } { n _ { 1 } } \\
 \hat p _ { 2 } = \frac { x _ { 2 } } { n _ { 2 } } \\
-x = \text { data } \\
-n = \text { sample size }
+x = \text {data} \\
+n = \text {sample size}
 \end{aligned}
 $$
 
@@ -126,8 +126,8 @@ $$
 $$
 \begin{aligned}
 \hat p = \frac { x _ { 1 } + x _ { 2 } } { n _ { 1 } + n _ { 2 } } \\
-x = \text { data } \\
-n = \text { sample size }
+x = \text {data} \\
+n = \text {sample size}
 \end{aligned}
 $$
 
@@ -140,8 +140,8 @@ $$
 $$
 \begin{aligned}
 S E ( \hat p _ { 1 } - \hat p _ { 2 } ) = \sqrt { \frac { \hat p _ { 1 } ( 1 - \hat p _ { 1 } ) } { n _ { 1 } } + \frac { \hat p _ { 2 } ( 1 - \hat p _ { 2 } ) } { n _ { 2 } } } \\
-\hat p = \text { sample proportion } \\
-n = \text { sample size }
+\hat p = \text {sample proportion} \\
+n = \text {sample size}
 \end{aligned}
 $$
 
@@ -150,8 +150,8 @@ $$
 $$
 \begin{aligned}
 S E ( \hat p _ { 1 } - \hat p _ { 2 } ) = \sqrt { \hat p ( 1 - \hat p ) ( \frac { 1 } { n _ { 1 } } + \frac { 1 } { n _ { 2 } ) } } \\
-\hat p = \text { sample proportion } \\
-n = \text { sample size }
+\hat p = \text {sample proportion} \\
+n = \text {sample size}
 \end{aligned}
 $$
 
@@ -177,9 +177,9 @@ $$
 t = \frac { \overline d - 0 } { S E ( \overline d ) } \\
 \overline d = \overline x _ { 1 } - \overline x _ { 2 } \\
 d f = n _ { 1 } + n _ { 2 } - 2 \\
-\overline x = \text { sample mean } \\
-S E = \text { standard error } \\
-n = \text { sample size }
+\overline x = \text {sample mean} \\
+S E = \text {standard error} \\
+n = \text {sample size}
 \end{aligned}
 $$
 
@@ -202,9 +202,9 @@ t = \frac { \overline d - 0 } { S E ( \overline d ) } \\
 \overline d = \frac { \sum _ { i } \overline d _ { i } } { n } \\
 d _ { i } = \overline x _ { 1 i } - \overline x _ { 2 i } \\
 d f = n - 1 \\
-\overline x = \text { sample mean } \\
-S E = \text { standard error } \\
-n = \text { sample size }
+\overline x = \text {sample mean} \\
+S E = \text {standard error} \\
+n = \text {sample size}
 \end{aligned}
 $$
 
@@ -229,8 +229,8 @@ $$
 \begin{aligned}
 z = \frac { \hat d - 0 } { S E ( \hat d ) } \\
 \hat d = \hat p _ { 1 } - \hat p _ { 2 } \\
-\hat p = \text { sample proportion } \\
-S E = \text { standard error }
+\hat p = \text {sample proportion} \\
+S E = \text {standard error}
 \end{aligned}
 $$
 
@@ -252,7 +252,7 @@ $$
 $$
 \begin{aligned}
 F = \frac { s _ { 1 } ^ { 2 } } { s _ { 2 } ^ { 2 } } \\
-s = \text { sample standard deviation }
+s = \text {sample standard deviation}
 \end{aligned}
 $$
 

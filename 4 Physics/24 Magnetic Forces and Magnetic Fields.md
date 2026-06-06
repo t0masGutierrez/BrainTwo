@@ -13,10 +13,10 @@
 $$
 \begin{aligned}
 \vec F = q \vec v \times \vec B = q v B \sin ( \theta ) \\
-q = \text { electric charge } \\
-v = \text { velocity } \\
-B = \text { magnetic field } \\
-\theta = \text { angular position }
+q = \text {electric charge} \\
+v = \text {velocity} \\
+B = \text {magnetic field} \\
+\theta = \text {angular position}
 \end{aligned}
 $$
 
@@ -36,10 +36,10 @@ $$
 $$
 \begin{aligned}
 B = \frac { F } { q v \sin ( \theta ) } \\
-F = \text { magnetic force } \\
-q = \text { electric charge } \\
-v = \text { velocity } \\
-\theta = \text { angular position }
+F = \text {magnetic force} \\
+q = \text {electric charge} \\
+v = \text {velocity} \\
+\theta = \text {angular position}
 \end{aligned}
 $$
 
@@ -66,9 +66,9 @@ $$
 $$
 \begin{aligned}
 \Phi = \vec B \cdot \vec A = B A \cos ( \theta ) \\
-B = \text { magnetic field } \\
-A = \text { area } \\
-\theta = \text { angular position }
+B = \text {magnetic field} \\
+A = \text {area} \\
+\theta = \text {angular position}
 \end{aligned}
 $$
 
@@ -81,8 +81,8 @@ $$
 $$
 \begin{aligned}
 \Phi = \oint _ { A _ { 1 } } ^ { A _ { 2 } } \vec B \cdot d \vec A = 0 \\
-B = \text { magnetic field } \\
-A = \text { area }
+B = \text {magnetic field} \\
+A = \text {area}
 \end{aligned}
 $$
 
@@ -97,10 +97,10 @@ $$
 $$
 \begin{aligned}
 \vec F _ { c } = m \vec a _ { rad } = m \frac { \vec v _ { tan } ^ { 2 } } { R } \\
-m = \text { mass } \\
-a _ { rad } = \text { radial acceleration } \\
-v _ { tan } = \text { tangential velocity } \\
-R = \text { radius }
+m = \text {mass} \\
+a _ { rad } = \text {radial acceleration} \\
+v _ { tan } = \text {tangential velocity} \\
+R = \text {radius}
 \end{aligned}
 $$
 
@@ -118,9 +118,9 @@ $$
 $$
 \begin{aligned}
 v = \sqrt { \frac { 2 q V } { m } } \\
-q = \text { electric charge } \\
-V = \text { voltage } \\
-m = \text { mass }
+q = \text {electric charge} \\
+V = \text {voltage} \\
+m = \text {mass}
 \end{aligned}
 $$
 
@@ -134,8 +134,8 @@ $$
 $$
 \begin{aligned}
 v = \frac { E } { B } \\
-E = \text { electric field } \\
-B = \text { magnetic field }
+E = \text {electric field} \\
+B = \text {magnetic field}
 \end{aligned}
 $$
 
@@ -148,9 +148,9 @@ $$
 $$
 \begin{aligned}
 \frac { m } { q } = \frac { B B ' R } { E } \\
-B = \text { magnetic field } \\
-R = \text { radius } \\
-E = \text { electric field }
+B = \text {magnetic field} \\
+R = \text {radius} \\
+E = \text {electric field}
 \end{aligned}
 $$
 
@@ -164,10 +164,10 @@ $$
 $$
 \begin{aligned}
 \vec F = I \vec L \times \vec B = I L B \sin ( \theta ) \\
-I = \text { electric current } \\
-L = \text { length } \\
-B = \text { magnetic field } \\
-\theta = \text { angular position }
+I = \text {electric current} \\
+L = \text {length} \\
+B = \text {magnetic field} \\
+\theta = \text {angular position}
 \end{aligned}
 $$
 
@@ -182,9 +182,9 @@ $$
 \begin{aligned}
 F = \frac { \mu _ { 0 } I _ { 1 } I _ { 2 } L } { 2 \pi r } \\
 \mu _ { 0 } = 4 \pi \times 10 ^ { - 7 } \\
-I = \text { electric current } \\
-L = \text { length } \\
-r = \text { distance }
+I = \text {electric current} \\
+L = \text {length} \\
+r = \text {distance}
 \end{aligned}
 $$
 
@@ -198,9 +198,9 @@ $$
 $$
 \begin{aligned}
 \vec \mu = N I \vec A \\
-N = \text { number of loops } \\
-I = \text { electric current } \\
-A = \text { area }
+N = \text {number of loops} \\
+I = \text {electric current} \\
+A = \text {area}
 \end{aligned}
 $$
 
@@ -218,8 +218,8 @@ $$
 \begin{aligned}
 \vec B = \frac { \mu _ { 0 } \vec \mu } { 2 \pi r ^ { 3 } } \\
 \mu _ { 0 } = 4 \pi \times 10 ^ { - 7 } \\
-\mu = \text { magnetic dipole } \\
-r = \text { distance }
+\mu = \text {magnetic dipole} \\
+r = \text {distance}
 \end{aligned}
 $$
 
@@ -228,9 +228,9 @@ $$
 $$
 \begin{aligned}
 \vec \tau = \vec \mu \times \vec B = \mu B \sin ( \theta ) \\
-\mu = \text { magnetic dipole } \\
-B = \text { magnetic field } \\
-\theta = \text { angular position }
+\mu = \text {magnetic dipole} \\
+B = \text {magnetic field} \\
+\theta = \text {angular position}
 \end{aligned}
 $$
 
@@ -239,9 +239,9 @@ $$
 $$
 \begin{aligned}
 U = - \vec \mu \cdot \vec B = - \mu B \cos ( \theta ) \\
-\mu = \text { magnetic dipole } \\
-B = \text { magnetic field } \\
-\theta = \text { angular position }
+\mu = \text {magnetic dipole} \\
+B = \text {magnetic field} \\
+\theta = \text {angular position}
 \end{aligned}
 $$
 
@@ -255,9 +255,9 @@ $$
 $$
 \begin{aligned}
 n q = \frac { - J _ { x } B _ { y } } { E _ { z } } \\
-J = \text { electric current density } \\
-B = \text { magnetic field } \\
-E = \text { electric field }
+J = \text {electric current density} \\
+B = \text {magnetic field} \\
+E = \text {electric field}
 \end{aligned}
 $$
 

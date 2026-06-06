@@ -8,10 +8,10 @@
 $$
 \begin{aligned}
 \vec v _ { d } = \frac { I } { nqA } \\
-I = \text { electric current } \\
-n = \text { number density } \\
-q = \text { electric charge } \\
-A = \text { area }
+I = \text {electric current} \\
+n = \text {number density} \\
+q = \text {electric charge} \\
+A = \text {area}
 \end{aligned}
 $$
 
@@ -29,8 +29,8 @@ $$
 $$
 \begin{aligned}
 n = \frac { N } { V } \\
-N = \text { number of unbound electric charge } \\
-V = \text { volume }
+N = \text {number of unbound electric charge} \\
+V = \text {volume}
 \end{aligned}
 $$
 
@@ -44,8 +44,8 @@ $$
 $$
 \begin{aligned}
 I = \frac { dq } { dt } \\
-q = \text { electric charge } \\
-t = \text { time }
+q = \text {electric charge} \\
+t = \text {time}
 \end{aligned}
 $$
 
@@ -66,11 +66,11 @@ $$
 $$
 \begin{aligned}
 \vec J = \frac { I } { A } = n q \vec v _ { d } \\
-I = \text { electric current } \\
-A = \text { area } \\
-n = \text { number density } \\
-q = \text { electric charge } \\
-v _ { d } = \text { drift velocity }
+I = \text {electric current} \\
+A = \text {area} \\
+n = \text {number density} \\
+q = \text {electric charge} \\
+v _ { d } = \text {drift velocity}
 \end{aligned}
 $$
 
@@ -91,8 +91,8 @@ $$
 $$
 \begin{aligned}
 \sigma = \frac { \vec J } { \vec E } \\
-J = \text { electric current density } \\
-E = \text { electric field }
+J = \text {electric current density} \\
+E = \text {electric field}
 \end{aligned}
 $$
 
@@ -106,8 +106,8 @@ $$
 $$
 \begin{aligned}
 \rho = \frac { \vec E } { \vec J } \\
-E = \text { electric field } \\
-J = \text { electric current density }
+E = \text {electric field} \\
+J = \text {electric current density}
 \end{aligned}
 $$
 
@@ -121,9 +121,9 @@ $$
 $$
 \begin{aligned}
 \rho ( T ) = \rho _ { 0 } ( 1 + \alpha \Delta T ) \\
-\rho = \text { resistivity } \\
-\alpha = \text { temperature coefficient } \\
-T = \text { temperature }
+\rho = \text {resistivity} \\
+\alpha = \text {temperature coefficient} \\
+T = \text {temperature}
 \end{aligned}
 $$
 
@@ -137,9 +137,9 @@ $$
 $$
 \begin{aligned}
 R = \rho \frac { L } { A } \\
-\rho = \text { resistivity } \\
-L = \text { length } \\
-A = \text { area }
+\rho = \text {resistivity} \\
+L = \text {length} \\
+A = \text {area}
 \end{aligned}
 $$
 
@@ -157,9 +157,9 @@ $$
 $$
 \begin{aligned}
 R ( T ) = R _ { 0 } ( 1 + \alpha \Delta T ) \\
-R = \text { resistance } \\
-\alpha = \text { temperature coefficient } \\
-T = \text { temperature }
+R = \text {resistance} \\
+\alpha = \text {temperature coefficient} \\
+T = \text {temperature}
 \end{aligned}
 $$
 
@@ -184,8 +184,8 @@ $$
 $$
 \begin{aligned}
 V = I R \\
-I = \text { electric current } \\
-R = \text { resistance }
+I = \text {electric current} \\
+R = \text {resistance}
 \end{aligned}
 $$
 
@@ -198,9 +198,9 @@ $$
 $$
 \begin{aligned}
 P = I V = I ^ { 2 } R = \frac { V ^ { 2 } } { R } \\
-I = \text { electric current } \\
-V = \text { voltage } \\
-R = \text { resistance }
+I = \text {electric current} \\
+V = \text {voltage} \\
+R = \text {resistance}
 \end{aligned}
 $$
 
@@ -222,10 +222,10 @@ $$
 $$
 \begin{aligned}
 \epsilon = I ( r + R ) \\
-V = \text { voltage } \\
-I = \text { electric current } \\
-r = \text { internal resistance } \\
-R = \text { resistance }
+V = \text {voltage} \\
+I = \text {electric current} \\
+r = \text {internal resistance} \\
+R = \text {resistance}
 \end{aligned}
 $$
 
@@ -244,9 +244,9 @@ $$
 $$
 \begin{aligned}
 V = \epsilon - I r \\
-\epsilon = \text { emf } \\
-I = \text { electric current } \\
-r = \text { internal resistance }
+\epsilon = \text {emf} \\
+I = \text {electric current} \\
+r = \text {internal resistance}
 \end{aligned}
 $$
 
@@ -259,8 +259,8 @@ $$
 $$
 \begin{aligned}
 P = I \epsilon \\
-I = \text { electric current } \\
-\epsilon = \text { emf }
+I = \text {electric current} \\
+\epsilon = \text {emf}
 \end{aligned}
 $$
 
@@ -273,8 +273,8 @@ $$
 $$
 \begin{aligned}
 P = I ^ { 2 } r \\
-I = \text { electric current } \\
-r = \text { internal resistance }
+I = \text {electric current} \\
+r = \text {internal resistance}
 \end{aligned}
 $$
 
@@ -288,11 +288,11 @@ $$
 $$
 \begin{aligned}
 P = I \epsilon \pm I ^ { 2 } r \\
-I = \text { electric current } \\
-\epsilon = \text { emf } \\
-( + ) = \text { charging } \\
-( - ) = \text { discharging } \\
-r = \text { internal resistance }
+I = \text {electric current} \\
+\epsilon = \text {emf} \\
+( + ) = \text {charging} \\
+( - ) = \text {discharging} \\
+r = \text {internal resistance}
 \end{aligned}
 $$
 

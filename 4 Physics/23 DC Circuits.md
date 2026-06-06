@@ -17,7 +17,7 @@
 $$
 \begin{aligned}
 R _ { eq } = \sum _ { i } R _ { i } \\
-R = \text { resistance }
+R = \text {resistance}
 \end{aligned}
 $$
 
@@ -37,7 +37,7 @@ $$
 $$
 \begin{aligned}
 \frac { 1 } { R _ { eq } } = \sum _ { i } \frac { 1 } { R _ { i } } \\
-R = \text { resistance }
+R = \text {resistance}
 \end{aligned}
 $$
 
@@ -67,7 +67,7 @@ $$
 $$
 \begin{aligned}
 \sum I _ { in } = \sum I _ { out } \\
-I = \text { electric current }
+I = \text {electric current}
 \end{aligned}
 $$
 
@@ -94,7 +94,7 @@ $$
 $$
 \begin{aligned}
 \sum V = 0 \\
-V = \text { voltage }
+V = \text {voltage}
 \end{aligned}
 $$
 
@@ -144,8 +144,8 @@ $$
 $$
 \begin{aligned}
 \tau = R C \\
-R = \text { resistance } \\
-C = \text { capacitance }
+R = \text {resistance} \\
+C = \text {capacitance}
 \end{aligned}
 $$
 
@@ -164,12 +164,12 @@ $$
 $$
 \begin{aligned}
 q ( t ) = C V ( 1 - e ^ { - t / R C } ) = Q ( 1 - e ^ { - t / \tau } ) \\
-C = \text { capacitance } \\
-V = \text { voltage } \\
-t = \text { time } \\
-R = \text { resistance } \\
-Q = \text { electric charge } \\
-\tau = \text { time constant }
+C = \text {capacitance} \\
+V = \text {voltage} \\
+t = \text {time} \\
+R = \text {resistance} \\
+Q = \text {electric charge} \\
+\tau = \text {time constant}
 \end{aligned}
 $$
 
@@ -183,9 +183,9 @@ $$
 $$
 \begin{aligned}
 q ( t ) = Q ( e ^ { - t / \tau } ) \\
-Q = \text { electric charge } \\
-t = \text { time } \\
-\tau = \text { time constant }
+Q = \text {electric charge} \\
+t = \text {time} \\
+\tau = \text {time constant}
 \end{aligned}
 $$
 
@@ -199,12 +199,12 @@ $$
 $$
 \begin{aligned}
 i ( t ) = \frac { V } { R } ( e ^ { - t / R C } ) = I ( e ^ { - t / \tau } ) \\
-V = \text { voltage } \\
-R = \text { resistance } \\
-t = \text { time } \\
-C = \text { capacitance } \\
-I = \text { electric current } \\
-\tau = \text { time constant }
+V = \text {voltage} \\
+R = \text {resistance} \\
+t = \text {time} \\
+C = \text {capacitance} \\
+I = \text {electric current} \\
+\tau = \text {time constant}
 \end{aligned}
 $$
 
@@ -218,9 +218,9 @@ $$
 $$
 \begin{aligned}
 i ( t ) = I ( e ^ { - t / \tau } ) \\
-I = \text { electric current } \\
-t = \text { time } \\
-\tau = \text { time constant }
+I = \text {electric current} \\
+t = \text {time} \\
+\tau = \text {time constant}
 \end{aligned}
 $$
 
@@ -233,7 +233,7 @@ $$
 $$
 \begin{aligned}
 V = v _ { C } + v _ { R } \\
-v = \text { voltage }
+v = \text {voltage}
 \end{aligned}
 $$
 
@@ -253,8 +253,8 @@ $$
 $$
 \begin{aligned}
 v _ { C } = \frac { q } { C } \\
-q = \text { electric charge } \\
-C = \text { capacitance }
+q = \text {electric charge} \\
+C = \text {capacitance}
 \end{aligned}
 $$
 
@@ -269,8 +269,8 @@ $$
 $$
 \begin{aligned}
 v _ { R } = i R \\
-i = \text { electric current } \\
-R = \text { resistance }
+i = \text {electric current} \\
+R = \text {resistance}
 \end{aligned}
 $$
 

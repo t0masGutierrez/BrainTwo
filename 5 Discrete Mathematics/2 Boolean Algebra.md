@@ -58,7 +58,7 @@ $$
 $$
 \begin{aligned}
 f : \{ 0 , 1 \} ^ { n } \rightarrow \{ 0 , 1 \} \\
-n = \text { number of variables }
+n = \text {number of variables}
 \end{aligned}
 $$
 
@@ -71,7 +71,7 @@ $$
 $$
 \begin{aligned}
 N = 2 ^ { n } \\
-n = \text { number of variables }
+n = \text {number of variables}
 \end{aligned}
 $$
 

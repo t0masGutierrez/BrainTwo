@@ -10,7 +10,7 @@
 ### period formula
 $$
 \begin{aligned}
-T = \frac { \text { seconds } } { \text { 1 revolution } }
+T = \frac { \text {seconds} } { \text {1 revolution} }
 \end{aligned}
 $$
 
@@ -23,7 +23,7 @@ $$
 $$
 \begin{aligned}
 f = \frac { 1 } { T } \\
-T = \text { period }
+T = \text {period}
 \end{aligned}
 $$
 
@@ -36,7 +36,7 @@ $$
 $$
 \begin{aligned}
 \omega = 2 \pi f \\
-f = \text { oscillation frequency }
+f = \text {oscillation frequency}
 \end{aligned}
 $$
 
@@ -52,10 +52,10 @@ $$
 x ( t ) = A \cos ( \omega t + \phi ) \\
 v ( t ) = - A \omega \sin ( \omega t + \phi ) \\
 a ( t ) = - A \omega ^ { 2 } \cos ( \omega t + \phi ) \\
-A = \text { amplitude } \\
-\omega = \text { angular frequency } \\
-t = \text { time } \\
-\phi = \text { phase angle }
+A = \text {amplitude} \\
+\omega = \text {angular frequency} \\
+t = \text {time} \\
+\phi = \text {phase angle}
 \end{aligned}
 $$
 
@@ -82,8 +82,8 @@ $$
 x _ { max } = A \\
 v _ { max } = \omega A \\
 a _ { max } = \omega ^ { 2 } A \\
-A = \text { amplitude } \\
-\omega = \text { angular frequency }
+A = \text {amplitude} \\
+\omega = \text {angular frequency}
 \end{aligned}
 $$
 
@@ -97,10 +97,10 @@ $$
 $$
 \begin{aligned}
 E = K + U = \frac { 1 } { 2 } k A ^ { 2 } \\
-K = \text { kinetic energy } \\
-U = \text { potential energy } \\
-k = \text { spring constant } \\
-A = \text { amplitude }
+K = \text {kinetic energy} \\
+U = \text {potential energy} \\
+k = \text {spring constant} \\
+A = \text {amplitude}
 \end{aligned}
 $$
 
@@ -133,8 +133,8 @@ $$
 $$
 \begin{aligned}
 \omega = \sqrt { \frac { k } { m } } \\
-k = \text { spring constant } \\
-m = \text { mass }
+k = \text {spring constant} \\
+m = \text {mass}
 \end{aligned}
 $$
 
@@ -149,7 +149,7 @@ $$
 \begin{aligned}
 \omega = \sqrt { \frac { g } { L } } \\
 g = 9.8 \\
-L = \text { length }
+L = \text {length}
 \end{aligned}
 $$
 
@@ -163,10 +163,10 @@ $$
 $$
 \begin{aligned}
 \omega = \sqrt { \frac { mgL } { I } } \\
-m = \text { mass } \\
+m = \text {mass} \\
 g = 9.8 \\
-L = \text { length } \\
-I = \text { moment of inertia }
+L = \text {length} \\
+I = \text {moment of inertia}
 \end{aligned}
 $$
 
@@ -182,13 +182,13 @@ $$
 m \frac { d ^ { 2 } x } { d t ^ { 2 } } + b \frac { dx } { dt } + k x = 0 \\
 x ( t ) = A _ { 0 } ( e ^ { - b t / 2 m } \cos ( \omega t + \phi ) \\
 \omega = \sqrt { ( \frac { k } { m } ) - ( \frac { b } { 2 m } ) ^ { 2 } } \\
-m = \text { mass } \\
-x = \text { position } \\
-t = \text { time } \\
-b = \text { damping coefficient } \\
-k = \text { spring constant } \\
-A = \text { amplitude } \\
-\omega = \text { angular frequency }
+m = \text {mass} \\
+x = \text {position} \\
+t = \text {time} \\
+b = \text {damping coefficient} \\
+k = \text {spring constant} \\
+A = \text {amplitude} \\
+\omega = \text {angular frequency}
 \end{aligned}
 $$
 
@@ -218,15 +218,15 @@ $$
 m \frac { d ^ { 2 } x } { d t ^ { 2 } } + b \frac { dx } { dt } + k x = F _ { 0 } \cos ( \omega t + \phi ) \\
 x ( t ) = A _ { 0 } \cos ( \omega t + \phi ) \\
 A _ { 0 } = \frac { F _ { 0 } } { \sqrt { m ^ { 2 } \omega ^ { 2 } - m k + b ^ { 2 } \omega ^ { 2 } } } \\
-m = \text { mass } \\
-x = \text { position } \\
-t = \text { time } \\
-b = \text { damping coefficient } \\
-k = \text { spring constant } \\
-F = \text { force } \\
-\omega = \text { angular frequency } \\
-\phi = \text { phase angle } \\
-A = \text { amplitude }
+m = \text {mass} \\
+x = \text {position} \\
+t = \text {time} \\
+b = \text {damping coefficient} \\
+k = \text {spring constant} \\
+F = \text {force} \\
+\omega = \text {angular frequency} \\
+\phi = \text {phase angle} \\
+A = \text {amplitude}
 \end{aligned}
 $$
 

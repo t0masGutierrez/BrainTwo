@@ -10,11 +10,11 @@ $$
 x ( t = 0 ) = x _ { 0 } \\
 y ( t = 0 ) = y _ { 0 } \\
 t \ge 0 \\
-f , g = \text { velocity } \\
-x , y = \text { solution } \\
-t = \text { time } \\
-x _ { 0 } , y _ { 0 } = \text { initial condition } \\
-c = \text { parameter }
+f , g = \text {velocity} \\
+x , y = \text {solution} \\
+t = \text {time} \\
+x _ { 0 } , y _ { 0 } = \text {initial condition} \\
+c = \text {parameter}
 \end{aligned}
 $$
 
@@ -46,8 +46,8 @@ $$
 $$
 \begin{aligned}
 f ( u ) = \sum _ { n = 0 } ^ { \infty } \frac { f ^ { ( n ) } ( a ) } { n ! } ( u - a ) ^ { n } \\
-f ^ { ( n ) } = \text { nth derivative } \\
-a = \text { center }
+f ^ { ( n ) } = \text {nth derivative} \\
+a = \text {center}
 \end{aligned}
 $$
 
@@ -72,12 +72,12 @@ R = \begin{bmatrix}
 R _ { 1 } \\
 R _ { 2 }
 \end{bmatrix} \\
-f , g = \text { velocity } \\
-v = \text { solution } \\
-t = \text { time } \\
-v _ { * } = \text { equilibrium point } \\
-A = \text { jacobian } \\
-R = \text { remainder }
+f , g = \text {velocity} \\
+v = \text {solution} \\
+t = \text {time} \\
+v _ { * } = \text {equilibrium point} \\
+A = \text {jacobian} \\
+R = \text {remainder}
 \end{aligned}
 $$
 
@@ -90,9 +90,9 @@ $$
 $$
 \begin{aligned}
 f , g : D \subset \mathbb R ^ { 2 } \rightarrow \mathbb R ^ { 2 } \land f , g \in C ^ { 1 } ( D ) \\
-f , g = \text { velocity } \\
-C ^ { 1 } = \text { continuous differentiable } \\
-D = \text { domain }
+f , g = \text {velocity} \\
+C ^ { 1 } = \text {continuous differentiable} \\
+D = \text {domain}
 \end{aligned}
 $$
 
@@ -104,8 +104,8 @@ $$
 ### hyperbolicity formula
 $$
 \begin{aligned}
-\forall i \le n : \text { Re } ( \lambda _ { i } ) \ne 0 \\
-\lambda = \text { eigenvalue }
+\forall i \le n : \text {Re} ( \lambda _ { i } ) \ne 0 \\
+\lambda = \text {eigenvalue}
 \end{aligned}
 $$
 
@@ -133,9 +133,9 @@ $$
 $$
 \begin{aligned}
 \forall t \ge 0 : v ( t + P ) = v ( t ) \\
-v = \text { solution } \\
-t = \text { time } \\
-P = \text { period }
+v = \text {solution} \\
+t = \text {time} \\
+P = \text {period}
 \end{aligned}
 $$
 
@@ -149,11 +149,11 @@ $$
 $$
 \begin{aligned}
 U = \{ v | \forall t \ge 0 : v ( t + P ) = v ( t ) \} \implies \exists v _ { * } \in U \\
-U = \text { range } \\
-v = \text { solution } \\
-t = \text { time } \\
-P = \text { period } \\
-v _ { * } = \text { equilibrium point }
+U = \text {range} \\
+v = \text {solution} \\
+t = \text {time} \\
+P = \text {period} \\
+v _ { * } = \text {equilibrium point}
 \end{aligned}
 $$
 
@@ -171,12 +171,12 @@ $$
 ( \forall x \in R : f ( x ) \ne 0 ) \land \\
 ( \partial R \le 0 ) \implies \\
 \exists v \in R , \forall t \ge 0 : v ( t + P ) = v ( t ) \\
-R = \text { compact set } \\
-R ' = \text { derived set } \\
-f = \text { velocity } \\
-v = \text { solution } \\
-t = \text { time } \\
-P = \text { period }
+R = \text {compact set} \\
+R ' = \text {derived set} \\
+f = \text {velocity} \\
+v = \text {solution} \\
+t = \text {time} \\
+P = \text {period}
 \end{aligned}
 $$
 
@@ -189,12 +189,12 @@ $$
 $$
 \begin{aligned}
 \frac { dE } { dt } ( v _ { * } ) = 0 \implies \exists \epsilon > 0 , \forall v \in N _ { \epsilon } ( v _ { * } ) , \forall t \ge 0 : v ( t + P ) = v ( t ) \\
-E = \text { first integral } \\
-v = \text { solution } \\
-t = \text { time } \\
-v _ { * } = \text { equilibrium point } \\
-N = \text { neighborhood } \\
-P = \text { period }
+E = \text {first integral} \\
+v = \text {solution} \\
+t = \text {time} \\
+v _ { * } = \text {equilibrium point} \\
+N = \text {neighborhood} \\
+P = \text {period}
 \end{aligned}
 $$
 
@@ -239,8 +239,8 @@ $$
 $$
 \begin{aligned}
 h \times u _ { * } = \{ ( h , u _ { * } ) | f ( h , u _ { * } ) = 0 \} \\
-h = \text { parameter } \\
-u _ { * } = \text { equilibrium point }
+h = \text {parameter} \\
+u _ { * } = \text {equilibrium point}
 \end{aligned}
 $$
 

@@ -8,8 +8,8 @@
 $$
 \begin{aligned}
 \forall i , j \in \set { 1 , \dots , n } : | \vec r _ { i } - \vec r _ { j } | = 0 \\
-i , j = \text { index } \\
-\vec r = \text { position }
+i , j = \text {index} \\
+\vec r = \text {position}
 \end{aligned}
 $$
 
@@ -23,8 +23,8 @@ $$
 $$
 \begin{aligned}
 \vec \theta = \frac { s } { r } \\
-s = \text { arc length } \\
-r = \text { radius }
+s = \text {arc length} \\
+r = \text {radius}
 \end{aligned}
 $$
 
@@ -38,7 +38,7 @@ $$
 $$
 \begin{aligned}
 \Delta \vec \theta = \vec \theta - \vec \theta _ { 0 } \\
-\theta = \text { angular position }
+\theta = \text {angular position}
 \end{aligned}
 $$
 
@@ -52,8 +52,8 @@ $$
 $$
 \begin{aligned}
 \vec \omega _ { avg } = \frac { \Delta \vec \theta } { \Delta t } \\
-\vec \theta = \text { angular position } \\
-t = \text { time }
+\vec \theta = \text {angular position} \\
+t = \text {time}
 \end{aligned}
 $$
 
@@ -67,8 +67,8 @@ $$
 $$
 \begin{aligned}
 \vec \omega = \frac { d \vec \theta } { dt } \\
-\vec \theta = \text { angular position } \\
-t = \text { time }
+\vec \theta = \text {angular position} \\
+t = \text {time}
 \end{aligned}
 $$
 
@@ -82,8 +82,8 @@ $$
 $$
 \begin{aligned}
 \vec \alpha _ { avg } = \frac { \Delta \vec \omega } { \Delta t } \\
-\vec \omega = \text { angular velocity } \\
-t = \text { time }
+\vec \omega = \text {angular velocity} \\
+t = \text {time}
 \end{aligned}
 $$
 
@@ -97,9 +97,9 @@ $$
 $$
 \begin{aligned}
 \vec \alpha = \frac { d \vec \omega } { dt } = \frac { d ^ { 2 } \vec \theta } { d t ^ { 2 } } \\
-\vec \omega = \text { angular velocity } \\
-t = \text { time } \\
-\vec \theta = \text { angular position }
+\vec \omega = \text {angular velocity} \\
+t = \text {time} \\
+\vec \theta = \text {angular position}
 \end{aligned}
 $$
 
@@ -112,8 +112,8 @@ $$
 $$
 \begin{aligned}
 \vec s = \vec r \times \vec \theta \\
-\vec r = \text { radius } \\
-\vec \theta = \text { angular position }
+\vec r = \text {radius} \\
+\vec \theta = \text {angular position}
 \end{aligned}
 $$
 
@@ -127,8 +127,8 @@ $$
 $$
 \begin{aligned}
 \vec v _ { tan } = \vec r \times \vec \omega \\
-\vec r = \text { radius } \\
-\vec \omega = \text { angular velocity }
+\vec r = \text {radius} \\
+\vec \omega = \text {angular velocity}
 \end{aligned}
 $$
 
@@ -141,8 +141,8 @@ $$
 $$
 \begin{aligned}
 \vec a _ { tan } = \vec r \times \vec \alpha \\
-\vec r = \text { radius } \\
-\vec \alpha = \text { angular acceleration }
+\vec r = \text {radius} \\
+\vec \alpha = \text {angular acceleration}
 \end{aligned}
 $$
 
@@ -155,9 +155,9 @@ $$
 $$
 \begin{aligned}
 \vec a _ { rad } = \vec r \times \vec \omega ^ { 2 } = \frac { \vec v _ { tan } ^ { 2 } } { \vec r } \\
-\vec r = \text { radius } \\
-\vec \omega = \text { angular velocity } \\
-\vec v = \text { velocity }
+\vec r = \text {radius} \\
+\vec \omega = \text {angular velocity} \\
+\vec v = \text {velocity}
 \end{aligned}
 $$
 
@@ -171,8 +171,8 @@ $$
 $$
 \begin{aligned}
 a = \sqrt { a _ { tan } ^ { 2 } + a _ { rad } ^ { 2 } } \\
-a _ { tan } = \text { tangential acceleration } \\
-a _ { rad } = \text { radial acceleration }
+a _ { tan } = \text {tangential acceleration} \\
+a _ { rad } = \text {radial acceleration}
 \end{aligned}
 $$
 
@@ -200,7 +200,7 @@ $$
 $$
 \begin{aligned}
 I _ { tan } = m \\
-m = \text { mass }
+m = \text {mass}
 \end{aligned}
 $$
 
@@ -214,8 +214,8 @@ $$
 $$
 \begin{aligned}
 I = \sum _ { n } m _ { n } r _ { n } ^ { 2 } \\
-m = \text { mass } \\
-r = \text { radius }
+m = \text {mass} \\
+r = \text {radius}
 \end{aligned}
 $$
 
@@ -224,10 +224,10 @@ $$
 $$
 \begin{aligned}
 I = \int r ^ { 2 } d m = \int r ^ { 2 } \rho d V \\
-r = \text { radius } \\
-m = \text { mass } \\
-\rho = \text { density } \\
-V = \text { volume }
+r = \text {radius} \\
+m = \text {mass} \\
+\rho = \text {density} \\
+V = \text {volume}
 \end{aligned}
 $$
 
@@ -270,9 +270,9 @@ $$
 $$
 \begin{aligned}
 I _ { p } = I _ { cm } + M d ^ { 2 } \\
-I = \text { moment of inertia } \\
-M = \text { system mass } \\
-d = \text { distance }
+I = \text {moment of inertia} \\
+M = \text {system mass} \\
+d = \text {distance}
 \end{aligned}
 $$
 
@@ -286,8 +286,8 @@ $$
 $$
 \begin{aligned}
 K = \frac { 1 } { 2 } m v ^ { 2 } \\
-m = \text { mass } \\
-v = \text { velocity }
+m = \text {mass} \\
+v = \text {velocity}
 \end{aligned}
 $$
 
@@ -301,8 +301,8 @@ $$
 $$
 \begin{aligned}
 K = \frac { 1 } { 2 } I \omega ^ { 2 } \\
-I = \text { moment of inertia } \\
-\omega = \text { angular velocity }
+I = \text {moment of inertia} \\
+\omega = \text {angular velocity}
 \end{aligned}
 $$
 

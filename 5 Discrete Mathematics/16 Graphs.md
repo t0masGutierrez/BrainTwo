@@ -7,8 +7,8 @@
 $$
 \begin{aligned}
 G = ( V , E ) \\
-V = \text { set of vertices } \\
-E = \text { set of edges }
+V = \text {set of vertices} \\
+E = \text {set of edges}
 \end{aligned}
 $$
 
@@ -103,8 +103,8 @@ $$
 $$
 \begin{aligned}
 N ( v ) = \{ u \in V | ( v , u ) \in E \} \\
-v = \text { home vertex } \\
-u = \text { neighbor vertex }
+v = \text {home vertex} \\
+u = \text {neighbor vertex}
 \end{aligned}
 $$
 
@@ -146,7 +146,7 @@ $$
 $$
 \begin{aligned}
 \sum _ { v \in V } d e g ( v ) = 2 | E | \\
-| E | = \text { number of edges }
+| E | = \text {number of edges}
 \end{aligned}
 $$
 
@@ -173,8 +173,8 @@ $$
 $$
 \begin{aligned}
 d e g ^ { - } ( v ) = \{ u \in V | ( u , v ) \in E \} \\
-u = \text { initial vertex } \\
-v = \text { terminal vertex }
+u = \text {initial vertex} \\
+v = \text {terminal vertex}
 \end{aligned}
 $$
 
@@ -187,8 +187,8 @@ $$
 $$
 \begin{aligned}
 d e g ^ { + } ( v ) = \{ u \in V | ( v , u ) \in E \} \\
-v = \text { initial vertex } \\
-u = \text { terminal vertex }
+v = \text {initial vertex} \\
+u = \text {terminal vertex}
 \end{aligned}
 $$
 
@@ -201,7 +201,7 @@ $$
 $$
 \begin{aligned}
 \sum _ { v \in V } d e g ^ { - } ( v ) = \sum _ { v \in V } d e g ^ { + } ( v ) = | E | \\
-| E | = \text { number of edges }
+| E | = \text {number of edges}
 \end{aligned}
 $$
 
@@ -215,7 +215,7 @@ $$
 $$
 \begin{aligned}
 | E | = \frac { n ( n - 1 ) } { 2 } \\
-n = \text { number of vertices }
+n = \text {number of vertices}
 \end{aligned}
 $$
 
@@ -229,7 +229,7 @@ $$
 $$
 \begin{aligned}
 | E | = n \\
-n = \text { number of vertices }
+n = \text {number of vertices}
 \end{aligned}
 $$
 
@@ -242,7 +242,7 @@ $$
 $$
 \begin{aligned}
 | E | = 2 ( n - 1 ) \\
-n = \text { number of vertices }
+n = \text {number of vertices}
 \end{aligned}
 $$
 
@@ -256,7 +256,7 @@ $$
 $$
 \begin{aligned}
 | E | = n \times 2 ^ { n - 1 } \\
-n = \text { number of vertices }
+n = \text {number of vertices}
 \end{aligned}
 $$
 
@@ -363,7 +363,7 @@ $$
 \begin{aligned}
 V ' = V - \{ v _ { 1 } , v _ { 2 } \} \cup \{ w \} \\
 E ' = \{ e \in E | e \ne w \} \\
-w = \text { merge vertex }
+w = \text {merge vertex}
 \end{aligned}
 $$
 

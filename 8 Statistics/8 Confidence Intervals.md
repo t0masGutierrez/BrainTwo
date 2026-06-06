@@ -10,8 +10,8 @@
 $$
 \begin{aligned}
 \mu _ { X } \ne \mathcal X \\
-X = \text { sample statistic } \\
-\mathcal X = \text { population parameter }
+X = \text {sample statistic} \\
+\mathcal X = \text {population parameter}
 \end{aligned}
 $$
 
@@ -24,8 +24,8 @@ $$
 $$
 \begin{aligned}
 \mu _ { X } = \mathcal X \\
-X = \text { sample statistic } \\
-\mathcal X = \text { population parameter }
+X = \text {sample statistic} \\
+\mathcal X = \text {population parameter}
 \end{aligned}
 $$
 
@@ -38,9 +38,9 @@ $$
 $$
 \begin{aligned}
 P ( X \le c ^ { * } ) = \alpha \implies c ^ { * } = X ^ { - 1 } ( \alpha ) \\
-X = \text { sample statistic } \\
-c ^ { * } = \text { critical value } \\
-\alpha = \text { significance level }
+X = \text {sample statistic} \\
+c ^ { * } = \text {critical value} \\
+\alpha = \text {significance level}
 \end{aligned}
 $$
 
@@ -52,9 +52,9 @@ $$
 ### critical z-value formula
 $$
 \begin{aligned}
-P ( Z \le z ^ { * } ) = \alpha \implies z ^ { * } = N ^ { - 1 } ( \alpha , 0 , 1 , \text { tail } ) \\
-P ( Z > z ^ { * } ) = \alpha \implies z ^ { * } = N ^ { - 1 } ( 1 - \alpha , 0 , 1 , \text { tail } ) \\
-P ( - z ^ { * } \le Z \le z ^ { * } ) = 1 - \alpha \implies z ^ { * } = N ^ { - 1 } ( 1 - \alpha / 2 , 0 , 1 , \text { tail } ) \\
+P ( Z \le z ^ { * } ) = \alpha \implies z ^ { * } = N ^ { - 1 } ( \alpha , 0 , 1 , \text {tail} ) \\
+P ( Z > z ^ { * } ) = \alpha \implies z ^ { * } = N ^ { - 1 } ( 1 - \alpha , 0 , 1 , \text {tail} ) \\
+P ( - z ^ { * } \le Z \le z ^ { * } ) = 1 - \alpha \implies z ^ { * } = N ^ { - 1 } ( 1 - \alpha / 2 , 0 , 1 , \text {tail} ) \\
 \end{aligned}
 $$
 
@@ -95,9 +95,9 @@ $$
 $$
 \begin{aligned}
 C I = X \pm ( c ^ { * } ) ( S E ) \\
-X = \text { sample statistic } \\
-c ^ { * } = \text { critical value } \\
-S E = \text { standard error }
+X = \text {sample statistic} \\
+c ^ { * } = \text {critical value} \\
+S E = \text {standard error}
 \end{aligned}
 $$
 
@@ -107,11 +107,11 @@ $$
 \begin{aligned}
 C I = \overline x \pm z ^ { * } ( \frac { \sigma } { \sqrt n } ) \\
 C I = \overline x \pm t ^ { * } ( \frac { s } { \sqrt n } ) \\
-\overline x = \text { sample mean } \\
-z ^ { * } , t ^ { * } = \text { critical value } \\
-\sigma = \text { standard deviation } \\
-s = \text { sample standard deviation } \\
-n = \text { sample size }
+\overline x = \text {sample mean} \\
+z ^ { * } , t ^ { * } = \text {critical value} \\
+\sigma = \text {standard deviation} \\
+s = \text {sample standard deviation} \\
+n = \text {sample size}
 \end{aligned}
 $$
 
@@ -120,9 +120,9 @@ $$
 $$
 \begin{aligned}
 C I = \hat p \pm z ^ { * } \sqrt { \frac { \hat p ( 1 - \hat p ) } { n } } \\
-\hat p = \text { sample proportion } \\
-z ^ { * } = \text { critical value } \\
-n = \text { sample size }
+\hat p = \text {sample proportion} \\
+z ^ { * } = \text {critical value} \\
+n = \text {sample size}
 \end{aligned}
 $$
 
@@ -131,9 +131,9 @@ $$
 $$
 \begin{aligned}
 C I = \sqrt { \frac { ( n - 1 ) s ^ { 2 } } { \chi ^ { 2 } _ { \alpha / 2 } } } \leq \sigma \leq \sqrt { \frac { ( n - 1 ) s ^ { 2 } } { \chi ^ { 2 } _ { 1 - \alpha / 2 } } } \\
-n = \text { sample size } \\
-s = \text { sample standard deviation } \\
-\chi ^ { 2 } _ { * } = \text { critical value }
+n = \text {sample size} \\
+s = \text {sample standard deviation} \\
+\chi ^ { 2 } _ { * } = \text {critical value}
 \end{aligned}
 $$
 
@@ -154,9 +154,9 @@ $$
 ### confidence level formula
 $$
 \begin{aligned}
-\text { 1-tail CI } = 1 - 2 \alpha \\
-\text { 2-tail CI } = 1 - \alpha \\
-\alpha = \text { significance level }
+\text {1-tail CI} = 1 - 2 \alpha \\
+\text {2-tail CI} = 1 - \alpha \\
+\alpha = \text {significance level}
 \end{aligned}
 $$
 
@@ -169,8 +169,8 @@ $$
 $$
 \begin{aligned}
 E = ( c ^ { * } ) ( S E ) \\
-c ^ { * } = \text { critical value } \\
-S E = \text { standard error }
+c ^ { * } = \text {critical value} \\
+S E = \text {standard error}
 \end{aligned}
 $$
 
@@ -183,7 +183,7 @@ $$
 $$
 \begin{aligned}
 d f = n - 1 \\
-n = \text { sample size }
+n = \text {sample size}
 \end{aligned}
 $$
 
@@ -196,8 +196,8 @@ $$
 $$
 \begin{aligned}
 X \approx \mathcal X \\
-X = \text { sample statistic } \\
-\mathcal X = \text { population parameter } \\
+X = \text {sample statistic} \\
+\mathcal X = \text {population parameter} \\
 \end{aligned}
 $$
 
@@ -223,11 +223,11 @@ $$
 ### mean z-interval formula
 $$
 \begin{aligned}
-\text { avgZ-int } ( \sigma , \overline x , n , 1 - \alpha ) \\
-\sigma = \text { standard deviation } \\
-\overline x = \text { sample mean } \\
-n = \text { sample size } \\
-\alpha = \text { significance level }
+\text {avgZ-int} ( \sigma , \overline x , n , 1 - \alpha ) \\
+\sigma = \text {standard deviation} \\
+\overline x = \text {sample mean} \\
+n = \text {sample size} \\
+\alpha = \text {significance level}
 \end{aligned}
 $$
 
@@ -235,11 +235,11 @@ $$
 ### mean t-interval formula
 $$
 \begin{aligned}
-\text { avgT-int } ( \overline x , s , n , 1 - \alpha ) \\
-\sigma = \text { standard deviation } \\
-\overline x = \text { sample mean } \\
-n = \text { sample size } \\
-\alpha = \text { significance level }
+\text {avgT-int} ( \overline x , s , n , 1 - \alpha ) \\
+\sigma = \text {standard deviation} \\
+\overline x = \text {sample mean} \\
+n = \text {sample size} \\
+\alpha = \text {significance level}
 \end{aligned}
 $$
 
@@ -267,10 +267,10 @@ $$
 ### proportion z-interval formula
 $$
 \begin{aligned}
-\text { propZ-int } ( x , n , 1 - \alpha ) \\
-x = \text { number of successes } \\
-n = \text { sample size } \\
-\alpha = \text { significance level }
+\text {propZ-int} ( x , n , 1 - \alpha ) \\
+x = \text {number of successes} \\
+n = \text {sample size} \\
+\alpha = \text {significance level}
 \end{aligned}
 $$
 

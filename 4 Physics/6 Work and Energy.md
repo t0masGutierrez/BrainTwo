@@ -7,9 +7,9 @@
 $$
 \begin{aligned}
 W = \vec F \cdot \Delta \vec r = F \Delta r \cos ( \theta ) \\
-\vec F = \text { force } \\
-\vec r = \text { position } \\
-\theta = \text { angle between vectors }
+\vec F = \text {force} \\
+\vec r = \text {position} \\
+\theta = \text {angle between vectors}
 \end{aligned}
 $$
 
@@ -18,8 +18,8 @@ $$
 $$
 \begin{aligned}
 W = \int \vec F \cdot d \vec r \\
-\vec F = \text { force } \\
-\vec r = \text { position }
+\vec F = \text {force} \\
+\vec r = \text {position}
 \end{aligned}
 $$
 
@@ -52,8 +52,8 @@ $$
 $$
 \begin{aligned}
 K = \frac { 1 } { 2 } m v ^ { 2 } \\
-m = \text { mass } \\
-v = \text { velocity }
+m = \text {mass} \\
+v = \text {velocity}
 \end{aligned}
 $$
 
@@ -66,7 +66,7 @@ $$
 $$
 \begin{aligned}
 W _ { net } = K _ { f } - K _ { i } \\
-K = \text { kinetic energy }
+K = \text {kinetic energy}
 \end{aligned}
 $$
 
@@ -81,7 +81,7 @@ $$
 $$
 \begin{aligned}
 \vec F _ { cons } = - \nabla U \\
-U = \text { potential energy }
+U = \text {potential energy}
 \end{aligned}
 $$
 
@@ -106,8 +106,8 @@ $$
 $$
 \begin{aligned}
 U = \int \vec F _ { cons } \cdot d \vec r \\
-\vec F = \text { force } \\
-\vec r = \text { position }
+\vec F = \text {force} \\
+\vec r = \text {position}
 \end{aligned}
 $$
 
@@ -120,9 +120,9 @@ $$
 $$
 \begin{aligned}
 U _ { g } = m g y \\
-m = \text { mass } \\
-g = \text { gravity } \\
-y = \text { position }
+m = \text {mass} \\
+g = \text {gravity} \\
+y = \text {position}
 \end{aligned}
 $$
 
@@ -135,8 +135,8 @@ $$
 $$
 \begin{aligned}
 U _ { el } = \frac { 1 } { 2 } k x ^ { 2 } \\
-k = \text { spring constant } \\
-x = \text { displacement }
+k = \text {spring constant} \\
+x = \text {displacement}
 \end{aligned}
 $$
 
@@ -149,8 +149,8 @@ $$
 $$
 \begin{aligned}
 E = K + U \\
-K = \text { kinetic energy } \\
-U = \text { potential energy }
+K = \text {kinetic energy} \\
+U = \text {potential energy}
 \end{aligned}
 $$
 
@@ -163,7 +163,7 @@ $$
 $$
 \begin{aligned}
 W _ { cons } = U _ { i } - U _ { f } \\
-U = \text { potential energy }
+U = \text {potential energy}
 \end{aligned}
 $$
 
@@ -176,8 +176,8 @@ $$
 $$
 \begin{aligned}
 E _ { i } + W _ { noncons } = E _ { f } \\
-E = \text { mechanical energy } \\
-W = \text { work }
+E = \text {mechanical energy} \\
+W = \text {work}
 \end{aligned}
 $$
 
@@ -192,9 +192,9 @@ $$
 \begin{aligned}
 E _ { i } = E _ { f } \\
 K _ { i } + U _ { i } = K _ { f } + U _ { f } \\
-E = \text { mechanical energy } \\
-K = \text { kinetic energy } \\
-U = \text { potential energy }
+E = \text {mechanical energy} \\
+K = \text {kinetic energy} \\
+U = \text {potential energy}
 \end{aligned}
 $$
 
@@ -208,8 +208,8 @@ $$
 $$
 \begin{aligned}
 E ( x ) \\
-E = \text { mechanical energy } \\
-x = \text { position }
+E = \text {mechanical energy} \\
+x = \text {position}
 \end{aligned}
 $$
 
@@ -222,7 +222,7 @@ $$
 $$
 \begin{aligned}
 E = U \\
-U = \text { potential energy }
+U = \text {potential energy}
 \end{aligned}
 $$
 
@@ -248,8 +248,8 @@ $$
 $$
 \begin{aligned}
 \frac { d ^ { 2 } E } { d x ^ { 2 } } > 0 \\
-E = \text { mechanical energy } \\
-x = \text { position }
+E = \text {mechanical energy} \\
+x = \text {position}
 \end{aligned}
 $$
 
@@ -262,8 +262,8 @@ $$
 $$
 \begin{aligned}
 \frac { d ^ { 2 } E } { d x ^ { 2 } } < 0 \\
-E = \text { mechanical energy } \\
-x = \text { position }
+E = \text {mechanical energy} \\
+x = \text {position}
 \end{aligned}
 $$
 
@@ -276,9 +276,9 @@ $$
 $$
 \begin{aligned}
 P _ { avg } = \frac { W } { \Delta t } = \frac { \Delta E } { \Delta t } \\
-W = \text { work } \\
-t = \text { time } \\
-E = \text { mechanical energy }
+W = \text {work} \\
+t = \text {time} \\
+E = \text {mechanical energy}
 \end{aligned}
 $$
 
@@ -291,8 +291,8 @@ $$
 $$
 \begin{aligned}
 P = \vec F \cdot \vec v = F v \cos ( \theta ) \\
-\vec F = \text { force } \\
-\vec v = \text { velocity }
+\vec F = \text {force} \\
+\vec v = \text {velocity}
 \end{aligned}
 $$
 
@@ -305,8 +305,8 @@ $$
 $$
 \begin{aligned}
 \varepsilon = \frac { P _ { out } } { P _ { in } } \times 100 \\
-P _ { out } = \text { output power } \\
-P _ { in } = \text { input power }
+P _ { out } = \text {output power} \\
+P _ { in } = \text {input power}
 \end{aligned}
 $$
 

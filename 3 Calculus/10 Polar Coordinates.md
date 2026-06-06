@@ -7,8 +7,8 @@
 $$
 \begin{aligned}
 ( r , \theta ) = ( r , \theta + 2 \pi n ) \\
-r = \text { distance } \\
-\theta = \text { angle }
+r = \text {distance} \\
+\theta = \text {angle}
 \end{aligned}
 $$
 
@@ -27,9 +27,9 @@ y = r \sin ( \theta ) \\
 r = \sqrt { x ^ { 2 } + y ^ { 2 } } \\
 \theta = \arctan ( \frac { y } { x } )
 \end{cases} \\
-x , y = \text { dependent variable } \\
-r = \text { distance } \\
-\theta = \text { angle }
+x , y = \text {dependent variable} \\
+r = \text {distance} \\
+\theta = \text {angle}
 \end{aligned}
 $$
 

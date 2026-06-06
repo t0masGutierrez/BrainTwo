@@ -10,10 +10,10 @@ $$
 x ( t = 0 ) = x _ { 0 } \\
 y ( t = 0 ) = y _ { 0 } \\
 t \ge 0 \\
-x , y = \text { solution } \\
-t = \text { time } \\
-x _ { 0 } , y _ { 0 } = \text { initial condition } \\
-c = \text { parameter }
+x , y = \text {solution} \\
+t = \text {time} \\
+x _ { 0 } , y _ { 0 } = \text {initial condition} \\
+c = \text {parameter}
 \end{aligned}
 $$
 
@@ -28,7 +28,7 @@ $$
 \begin{aligned}
 \frac { dx } { dt } = f ( x , y ) \\
 \frac { dy } { dt } = g ( x , y ) \\
-f , g = \text { slope }
+f , g = \text {slope}
 \end{aligned}
 $$
 
@@ -42,7 +42,7 @@ $$
 $$
 \begin{aligned}
 v = [ f , g ] \\
-f , g = \text { velocity }
+f , g = \text {velocity}
 \end{aligned}
 $$
 
@@ -71,8 +71,8 @@ $$
 $$
 \begin{aligned}
 v ( t ) = \{ ( \frac { dx } { dt } , \frac { dy } { dt } ) | x , y \in D \} \\
-\frac { dx } { dt } , \frac { dy } { dt } = \text { velocity } \\
-D = \text { domain }
+\frac { dx } { dt } , \frac { dy } { dt } = \text {velocity} \\
+D = \text {domain}
 \end{aligned}
 $$
 
@@ -86,8 +86,8 @@ $$
 $$
 \begin{aligned}
 ( f , g ) ( x , y ) = \{ ( \hat x , \hat y ) | x , y \in D \} \\
-\hat x , \hat y = \text { unit vector } \\
-D = \text { domain }
+\hat x , \hat y = \text {unit vector} \\
+D = \text {domain}
 \end{aligned}
 $$
 
@@ -102,9 +102,9 @@ $$
 \begin{aligned}
 F ( x , y ) = \{ ( x , y ) | \frac { dx } { dt } = 0 \} \\
 G ( x , y ) = \{ ( x , y ) | \frac { dy } { dt } = 0 \} \\
-x , y = \text { solution } \\
-t = \text { time } \\
-\frac { dx } { dt } , \frac { dy } { dt } = \text { velocity }
+x , y = \text {solution} \\
+t = \text {time} \\
+\frac { dx } { dt } , \frac { dy } { dt } = \text {velocity}
 \end{aligned}
 $$
 
@@ -117,8 +117,8 @@ $$
 $$
 \begin{aligned}
 \frac { dy } { dx } = \frac { g ( x , y ) } { f ( x , y ) } \\
-x , y = \text { solution } \\
-f , g = \text { velocity }
+x , y = \text {solution} \\
+f , g = \text {velocity}
 \end{aligned}
 $$
 
@@ -132,12 +132,12 @@ $$
 \begin{aligned}
 \forall ( x , y ) \in D : \frac { dE } { dt } ( x , y ) ( t ) = 0 \implies E ( x , y ) ( t ) = C \\
 \frac { \partial } { \partial x } ( \phi f ) = \frac { \partial } { \partial y } ( - \phi g ) \implies ( \frac { \partial E } { \partial x } = - \phi g ) \land ( \frac { \partial E } { \partial y } = \phi f ) \\
-x , y = \text { solution } \\
-t = \text { time } \\
-D = \text { domain } \\
-E = \text { first integral } \\
-C = \text { constant } \\
-\phi = \text { integrating factor }
+x , y = \text {solution} \\
+t = \text {time} \\
+D = \text {domain} \\
+E = \text {first integral} \\
+C = \text {constant} \\
+\phi = \text {integrating factor}
 \end{aligned}
 $$
 
@@ -150,9 +150,9 @@ $$
 $$
 \begin{aligned}
 \forall t \ge 0 : ( x , y ) ( t ) = ( x _ { * } , y _ { * } ) \iff f ( x _ { * } , y _ { * } ) = g ( x _ { * } , y _ { * } ) = 0 \\
-x , y = \text { solution } \\
-t = \text { time } \\
-x _ { * } , y _ { * } = \text { equilibrium point }
+x , y = \text {solution} \\
+t = \text {time} \\
+x _ { * } , y _ { * } = \text {equilibrium point}
 \end{aligned}
 $$
 
@@ -165,8 +165,8 @@ $$
 $$
 \begin{aligned}
 N _ { \rho } ( x _ { * } , y _ { * } ) = ( x _ { * } - \rho , x _ { * } + \rho ) \times ( y _ { * } - \rho , y _ { * } + \rho ) \\
-x _ { * } , y _ { * } = \text { equilibrium point } \\
-\rho = \text { radius }
+x _ { * } , y _ { * } = \text {equilibrium point} \\
+\rho = \text {radius}
 \end{aligned}
 $$
 
@@ -182,11 +182,11 @@ $$
 \begin{aligned}
 \forall \epsilon > 0 , \exists \delta > 0 , \forall t \ge 0 : ( x _ { 0 } , y _ { 0 } ) \in N _ { \delta } ( x _ { * } , y _ { * } ) \implies ( x , y ) ( t ) \in N _ { \epsilon } ( x _ { * } , y _ { * } ) \land \\
 \forall x _ { 0 } , y _ { 0 } \in \mathbb R : \lim _ { t \rightarrow \infty } ( x , y ) ( t ) = ( x _ { * } , y _ { * } ) \\
-x _ { 0 } , y _ { 0 } = \text { initial condition } \\
-N = \text { neighborhood } \\
-x _ { * } , y _ { * } = \text { equilibrium point } \\
-x , y = \text { solution } \\
-t = \text { time }
+x _ { 0 } , y _ { 0 } = \text {initial condition} \\
+N = \text {neighborhood} \\
+x _ { * } , y _ { * } = \text {equilibrium point} \\
+x , y = \text {solution} \\
+t = \text {time}
 \end{aligned}
 $$
 
@@ -202,11 +202,11 @@ $$
 \begin{aligned}
 \forall \epsilon > 0 , \exists \delta > 0 , \forall t \ge 0 : ( x _ { 0 } , y _ { 0 } ) \in N _ { \delta } ( x _ { * } , y _ { * } ) \implies ( x , y ) ( t ) \in N _ { \epsilon } ( x _ { * } , y _ { * } ) \land \\
 \exists x _ { 0 } , y _ { 0 } \in \mathbb R : \lim _ { t \rightarrow \infty } ( x , y ) ( t ) \ne ( x _ { * } , y _ { * } ) \\
-x _ { 0 } , y _ { 0 } = \text { initial condition } \\
-N = \text { neighborhood } \\
-x _ { * } , y _ { * } = \text { equilibrium point } \\
-x , y = \text { solution } \\
-t = \text { time }
+x _ { 0 } , y _ { 0 } = \text {initial condition} \\
+N = \text {neighborhood} \\
+x _ { * } , y _ { * } = \text {equilibrium point} \\
+x , y = \text {solution} \\
+t = \text {time}
 \end{aligned}
 $$
 
@@ -221,11 +221,11 @@ $$
 \begin{aligned}
 \exists \epsilon > 0 , \forall \delta > 0 , \forall t \ge 0 : ( x _ { 0 } , y _ { 0 } ) \in N _ { \delta } ( x _ { * } , y _ { * } ) \land ( x , y ) ( t ) \not \in N _ { \epsilon } ( x _ { * } , y _ { * } ) \land \\
 \forall x _ { 0 } , y _ { 0 } \in \mathbb R : \lim _ { t \rightarrow \infty } ( x , y ) ( t ) \ne ( x _ { * } , y _ { * } ) \\
-x _ { 0 } , y _ { 0 } = \text { initial condition } \\
-N = \text { neighborhood } \\
-x _ { * } , y _ { * } = \text { equilibrium point } \\
-x , y = \text { solution } \\
-t = \text { time }
+x _ { 0 } , y _ { 0 } = \text {initial condition} \\
+N = \text {neighborhood} \\
+x _ { * } , y _ { * } = \text {equilibrium point} \\
+x , y = \text {solution} \\
+t = \text {time}
 \end{aligned}
 $$
 
@@ -239,9 +239,9 @@ $$
 $$
 \begin{aligned}
 \forall t \ge 0 : ( x , y ) ( t + P ) = ( x , y ) ( t ) \\
-x , y = \text { solution } \\
-t = \text { time } \\
-P = \text { period }
+x , y = \text {solution} \\
+t = \text {time} \\
+P = \text {period}
 \end{aligned}
 $$
 
@@ -257,11 +257,11 @@ $$
 \begin{aligned}
 \forall \epsilon > 0 , \exists \delta > 0 , \forall t \ge 0 : ( x _ { 0 } , y _ { 0 } ) \in N _ { \delta } ( x _ { * } , y _ { * } ) \implies ( x , y ) ( t ) \in N _ { \epsilon } ( x _ { * } , y _ { * } ) \land \\
 \forall x _ { 0 } , y _ { 0 } \in \mathbb R : \lim _ { t \rightarrow \infty } ( x , y ) ( t ) = ( x _ { * } , y _ { * } ) \\
-x _ { 0 } , y _ { 0 } = \text { initial condition } \\
-N = \text { neighborhood } \\
-x _ { * } , y _ { * } = \text { equilibrium point } \\
-x , y = \text { solution } \\
-t = \text { time }
+x _ { 0 } , y _ { 0 } = \text {initial condition} \\
+N = \text {neighborhood} \\
+x _ { * } , y _ { * } = \text {equilibrium point} \\
+x , y = \text {solution} \\
+t = \text {time}
 \end{aligned}
 $$
 
@@ -277,11 +277,11 @@ $$
 \begin{aligned}
 \forall \epsilon > 0 , \exists \delta > 0 , \forall t \ge 0 : ( x _ { 0 } , y _ { 0 } ) \in N _ { \delta } ( x _ { * } , y _ { * } ) \implies ( x , y ) ( t ) \in N _ { \epsilon } ( x _ { * } , y _ { * } ) \land \\
 \exists x _ { 0 } , y _ { 0 } \in \mathbb R : \lim _ { t \rightarrow \infty } ( x , y ) ( t ) \ne ( x _ { * } , y _ { * } ) \\
-x _ { 0 } , y _ { 0 } = \text { initial condition } \\
-N = \text { neighborhood } \\
-x _ { * } , y _ { * } = \text { equilibrium point } \\
-x , y = \text { solution } \\
-t = \text { time }
+x _ { 0 } , y _ { 0 } = \text {initial condition} \\
+N = \text {neighborhood} \\
+x _ { * } , y _ { * } = \text {equilibrium point} \\
+x , y = \text {solution} \\
+t = \text {time}
 \end{aligned}
 $$
 
@@ -296,11 +296,11 @@ $$
 \begin{aligned}
 \exists \epsilon > 0 , \forall \delta > 0 , \exists t \ge 0 : ( x _ { 0 } , y _ { 0 } ) \in N _ { \delta } ( x _ { * } , y _ { * } ) \land ( x , y ) ( t ) \not \in N _ { \epsilon } ( x _ { * } , y _ { * } ) \land \\
 \forall x _ { 0 } , y _ { 0 } \in \mathbb R : \lim _ { t \rightarrow \infty } ( x , y ) ( t ) \ne ( x _ { * } , y _ { * } ) \\
-x _ { 0 } , y _ { 0 } = \text { initial condition } \\
-N = \text { neighborhood } \\
-x _ { * } , y _ { * } = \text { equilibrium point } \\
-x , y = \text { solution } \\
-t = \text { time }
+x _ { 0 } , y _ { 0 } = \text {initial condition} \\
+N = \text {neighborhood} \\
+x _ { * } , y _ { * } = \text {equilibrium point} \\
+x , y = \text {solution} \\
+t = \text {time}
 \end{aligned}
 $$
 
@@ -334,9 +334,9 @@ a & b \\
 c & d \\
 \end{bmatrix} \\
 v = [ x , y ] \\
-x , y , v = \text { solution } \\
-t = \text { time } \\
-a , b , c , d = \text { coefficient }
+x , y , v = \text {solution} \\
+t = \text {time} \\
+a , b , c , d = \text {coefficient}
 \end{aligned}
 $$
 
@@ -349,8 +349,8 @@ $$
 $$
 \begin{aligned}
 \det ( A ) \ne 0 \implies \# v _ { * } = 1 \\
-A = \text { coefficient matrix } \\
-v _ { * } = \text { equilibrium point }
+A = \text {coefficient matrix} \\
+v _ { * } = \text {equilibrium point}
 \end{aligned}
 $$
 
@@ -363,8 +363,8 @@ $$
 $$
 \begin{aligned}
 \det ( A ) = 0 \implies \# v _ { * } = \infty \\
-A = \text { coefficient matrix } \\
-v _ { * } = \text { equilibrium point }
+A = \text {coefficient matrix} \\
+v _ { * } = \text {equilibrium point}
 \end{aligned}
 $$
 
@@ -382,11 +382,11 @@ A = \begin{bmatrix}
 a & b \\
 c & d \\
 \end{bmatrix} \\
-v = \text { solution } \\
-t = \text { time } \\
-a , b , c , d = \text { coefficient } \\
-\lambda = \text { eigenvalue } \\
-\hat u = \text { eigenvector }
+v = \text {solution} \\
+t = \text {time} \\
+a , b , c , d = \text {coefficient} \\
+\lambda = \text {eigenvalue} \\
+\hat u = \text {eigenvector}
 \end{aligned}
 $$
 
@@ -423,12 +423,12 @@ A = \begin{bmatrix}
 a & b \\
 c & d \\
 \end{bmatrix} \\
-v = \text { solution } \\
-t = \text { time } \\
-a , b , c , d = \text { coefficient } \\
-\lambda = \text { eigenvalue } \\
-\hat u = \text { eigenvector } \\
-\hat w = \text { generalized eigenvector }
+v = \text {solution} \\
+t = \text {time} \\
+a , b , c , d = \text {coefficient} \\
+\lambda = \text {eigenvalue} \\
+\hat u = \text {eigenvector} \\
+\hat w = \text {generalized eigenvector}
 \end{aligned}
 $$
 
@@ -458,14 +458,14 @@ $$
 \begin{aligned}
 v ( t ) = C _ { 1 } e ^ { \alpha t } ( \gamma \cos \beta t - \lambda \sin \beta t ) + C _ { 2 } e ^ { \alpha t } ( \gamma \cos \beta t + \lambda \sin \beta t ) \\
 \alpha = 0 \implies v ( t ) = v _ { 0 } ( \cos \beta t + \frac { A \sin \beta t } { \beta } ) \\
-v = \text { solution } \\
-t = \text { time } \\
-\alpha = \text { real eigenvalue part } \\
-\beta = \text { imaginary eigenvalue part } \\
-\gamma = \text { real eigenvector part } \\
-\lambda = \text { imaginary eigenvector part } \\
-A = \text { coefficient matrix } \\
-v _ { 0 } = \text { initial condition }
+v = \text {solution} \\
+t = \text {time} \\
+\alpha = \text {real eigenvalue part} \\
+\beta = \text {imaginary eigenvalue part} \\
+\gamma = \text {real eigenvector part} \\
+\lambda = \text {imaginary eigenvector part} \\
+A = \text {coefficient matrix} \\
+v _ { 0 } = \text {initial condition}
 \end{aligned}
 $$
 

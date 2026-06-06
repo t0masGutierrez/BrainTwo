@@ -15,7 +15,7 @@
 ### one-way ANOVA F-score formula
 $$
 \begin{aligned}
-F = \frac { M S _ { \text { group } } } { M S _ { \text { error } } } \\
+F = \frac { M S _ { \text {group} } } { M S _ { \text {error} } } \\
 S S _ { total } = S S _ { group } + S S _ { error } \\
 d f _ { group } = k - 1 \\
 d f _ { error } = n - k \\

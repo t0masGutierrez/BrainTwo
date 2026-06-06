@@ -7,9 +7,9 @@
 $$
 \begin{aligned}
 \Phi = \vec B \cdot \vec A = B A \cos ( \theta ) \\
-B = \text { magnetic field } \\
-A = \text { area } \\
-\theta = \text { angular position }
+B = \text {magnetic field} \\
+A = \text {area} \\
+\theta = \text {angular position}
 \end{aligned}
 $$
 
@@ -29,11 +29,11 @@ $$
 $$
 \begin{aligned}
 \epsilon = N \frac { - d \Phi } { dt } = N \frac { - d } { dt } \int _ { A _ { 1 } } ^ { A _ { 2 } } \vec B \cdot d \vec A \\
-N = \text { number of loops } \\
-\Phi = \text { magnetic flux } \\
-t = \text { time } \\
-B = \text { magnetic field } \\
-A = \text { area }
+N = \text {number of loops} \\
+\Phi = \text {magnetic flux} \\
+t = \text {time} \\
+B = \text {magnetic field} \\
+A = \text {area}
 \end{aligned}
 $$
 
@@ -65,11 +65,11 @@ $$
 $$
 \begin{aligned}
 \epsilon = B L \frac { dx } { dt } = B L v \\
-B = \text { magnetic field } \\
-L = \text { length } \\
-x = \text { position } \\
-t = \text { time } \\
-v = \text { velocity }
+B = \text {magnetic field} \\
+L = \text {length} \\
+x = \text {position} \\
+t = \text {time} \\
+v = \text {velocity}
 \end{aligned}
 $$
 
@@ -83,9 +83,9 @@ $$
 $$
 \begin{aligned}
 \epsilon = \oint _ { L _ { 1 } } ^ { L _ { 2 } } ( \vec v \times \vec B ) \cdot d \vec L \\
-v = \text { velocity } \\
-B = \text { magnetic field } \\
-L = \text { length }
+v = \text {velocity} \\
+B = \text {magnetic field} \\
+L = \text {length}
 \end{aligned}
 $$
 
@@ -99,8 +99,8 @@ $$
 $$
 \begin{aligned}
 \oint _ { L _ { 1 } } ^ { L _ { 2 } } \vec E \cdot d \vec L = 0 \\
-E = \text { electric field } \\
-L = \text { length }
+E = \text {electric field} \\
+L = \text {length}
 \end{aligned}
 $$
 
@@ -114,9 +114,9 @@ $$
 $$
 \begin{aligned}
 \oint _ { L _ { 1 } } ^ { L _ { 2 } } \vec E \cdot d \vec L = \frac { - d \Phi } { dt } \\
-E = \text { electric field } \\
-L = \text { length } \\
-\Phi = \text { magnetic flux }
+E = \text {electric field} \\
+L = \text {length} \\
+\Phi = \text {magnetic flux}
 \end{aligned}
 $$
 
@@ -130,8 +130,8 @@ $$
 $$
 \begin{aligned}
 I = \frac { \epsilon } { R } \\
-\epsilon = \text { emf } \\
-R = \text { resistance }
+\epsilon = \text {emf} \\
+R = \text {resistance}
 \end{aligned}
 $$
 
@@ -144,8 +144,8 @@ $$
 $$
 \begin{aligned}
 I _ { c } = \int _ { A _ { 1 } } ^ { A _ { 2 } } \vec J \cdot d \vec A \\
-J = \text { electric current density } \\
-A = \text { area }
+J = \text {electric current density} \\
+A = \text {area}
 \end{aligned}
 $$
 
@@ -159,7 +159,7 @@ $$
 \begin{aligned}
 I _ { d } = \epsilon _ { 0 } \frac { d \Phi } { dt } \\
 \epsilon _ { 0 } = 8.85 \times 10 ^ { - 12 } \\
-\Phi = \text { electric flux }
+\Phi = \text {electric flux}
 \end{aligned}
 $$
 
@@ -174,11 +174,11 @@ $$
 \begin{aligned}
 \oint _ { L _ { 1 } } ^ { L _ { 2 } } \vec B \cdot d \vec L = \mu _ { 0 } ( I _ { c } + I
 _ { d } ) _ { enc } \\
-B = \text { magnetic field } \\
-L = \text { length } \\
+B = \text {magnetic field} \\
+L = \text {length} \\
 \mu _ { 0 } = 4 \pi \times 10 ^ { - 7 } \\
-I _ { c } = \text { conduction current } \\
-I _ { d } = \text { displacement current }
+I _ { c } = \text {conduction current} \\
+I _ { d } = \text {displacement current}
 \end{aligned}
 $$
 
@@ -210,10 +210,10 @@ $$
 $$
 \begin{aligned}
 \vec F _ { net } = q ( \vec E + \vec v \times \vec B ) \\
-q = \text { electric charge } \\
-E = \text { electric field } \\
-v = \text { velocity } \\
-B = \text { magnetic field }
+q = \text {electric charge} \\
+E = \text {electric field} \\
+v = \text {velocity} \\
+B = \text {magnetic field}
 \end{aligned}
 $$
 
@@ -227,12 +227,12 @@ $$
 $$
 \begin{aligned}
 \epsilon = \epsilon _ { 0 } \sin ( \omega t ) = N B A \omega \sin ( \omega t ) \\
-\epsilon _ { 0 } = \text { amplitude } \\
-\omega = \text { angular frequency } \\
-t = \text { time } \\
-N = \text { number of loops } \\
-B = \text { magnetic field } \\
-A = \text { area }
+\epsilon _ { 0 } = \text {amplitude} \\
+\omega = \text {angular frequency} \\
+t = \text {time} \\
+N = \text {number of loops} \\
+B = \text {magnetic field} \\
+A = \text {area}
 \end{aligned}
 $$
 
@@ -246,7 +246,7 @@ $$
 $$
 \begin{aligned}
 \epsilon = \epsilon _ { 0 } - \epsilon _ { induced } \\
-\epsilon = \text { emf }
+\epsilon = \text {emf}
 \end{aligned}
 $$
 

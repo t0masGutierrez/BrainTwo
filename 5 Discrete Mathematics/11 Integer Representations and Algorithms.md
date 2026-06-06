@@ -11,7 +11,7 @@ $$
 \begin{aligned}
 n = a _ { k } b ^ { k } + a _ { k - 1 } b ^ { k - 1 } + . . . + a _ { 1 } b ^ { 1 } + a _ { 0 } b ^ { 0 } \\
 k = \{ 0 , 1 , 2 , . . . b \} \\
-a _ { k } = \text { digit }
+a _ { k } = \text {digit}
 \end{aligned}
 $$
 
@@ -73,9 +73,9 @@ $$
 $$
 \begin{aligned}
 n = b q + r \\
-b = \text { base } \\
-q = \text { quotient } \\
-r = \text { remainder }
+b = \text {base} \\
+q = \text {quotient} \\
+r = \text {remainder}
 \end{aligned}
 $$
 
@@ -96,11 +96,11 @@ $$
 $$
 \begin{aligned}
 p _ { k } + q _ { k } + c _ { k - 1 } = b c _ { k } + s _ { k } \\
-p = \text { addend } \\
-q = \text { addend } \\
-c = \text { carry } \\
-b = \text { base } \\
-s = \text { sum }
+p = \text {addend} \\
+q = \text {addend} \\
+c = \text {carry} \\
+b = \text {base} \\
+s = \text {sum}
 \end{aligned}
 $$
 
@@ -126,8 +126,8 @@ $$
 ### modular exponentiation formula
 $$
 \begin{aligned}
-b ^ { n } \  \text { mod } \  m \\
-m = \text { modulus }
+b ^ { n } \  \text {mod} \  m \\
+m = \text {modulus}
 \end{aligned}
 $$
 

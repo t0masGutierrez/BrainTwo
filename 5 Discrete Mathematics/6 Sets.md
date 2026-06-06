@@ -40,9 +40,9 @@
 ### set formula
 $$
 \begin{aligned}
-x \in A = \text { x is element of set A } \\
-A \ni x = \text { set A contains element x } \\
-x \notin A = \text { x is not element of set A } \\
+x \in A = \text {x is element of set A} \\
+A \ni x = \text {set A contains element x} \\
+x \notin A = \text {x is not element of set A} \\
 \end{aligned}
 $$
 
@@ -67,7 +67,7 @@ $$
 $$
 \begin{aligned}
 A = \{ x | P ( x ) \} \\
-P ( x ) = \text { proposition function }
+P ( x ) = \text {proposition function}
 \end{aligned}
 $$
 
@@ -224,7 +224,7 @@ $$
 $$
 \begin{aligned}
 | A | = n \\
-n = \text { number of elements }
+n = \text {number of elements}
 \end{aligned}
 $$
 
@@ -237,7 +237,7 @@ $$
 $$
 \begin{aligned}
 \mathcal { P } ( A ) = 2 ^ { n } \\
-n = \text { number of elements }
+n = \text {number of elements}
 \end{aligned}
 $$
 
@@ -344,7 +344,7 @@ $$
 $$
 \begin{aligned}
 T = \{ x \in D | P ( x ) \} \\
-D = \text { domain of discourse }
+D = \text {domain of discourse}
 \end{aligned}
 $$
 

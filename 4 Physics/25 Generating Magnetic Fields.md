@@ -13,11 +13,11 @@ $$
 \begin{aligned}
 \vec B = ( \frac { \mu _ { 0 } } { 4 \pi } ) \frac { q \vec v \times \hat r } { r ^ { 2 } } = ( \frac { \mu _ { 0 } } { 4 \pi } ) \frac { q v \sin ( \theta ) } { r ^ { 2 } } \\
 \mu _ { 0 } = 4 \pi \times 10 ^ { - 7 } \\
-q = \text { electric charge } \\
-v = \text { velocity } \\
-\hat r = \text { direction } \\
-r = \text { distance } \\
-\theta = \text { angular position }
+q = \text {electric charge} \\
+v = \text {velocity} \\
+\hat r = \text {direction} \\
+r = \text {distance} \\
+\theta = \text {angular position}
 \end{aligned}
 $$
 
@@ -32,11 +32,11 @@ $$
 \begin{aligned}
 d \vec B = ( \frac { \mu _ { 0 } } { 4 \pi } ) \frac { I d \vec L \times \hat r } { r ^ { 2 } } = ( \frac { \mu _ { 0 } } { 4 \pi } ) \frac { I d L \sin ( \theta ) } { r ^ { 2 } } \\
 \mu _ { 0 } = 4 \pi \times 10 ^ { - 7 } \\
-I = \text { electric current } \\
-L = \text { length } \\
-\hat r = \text { direction } \\
-r = \text { distance } \\
-\theta = \text { angular position }
+I = \text {electric current} \\
+L = \text {length} \\
+\hat r = \text {direction} \\
+r = \text {distance} \\
+\theta = \text {angular position}
 \end{aligned}
 $$
 
@@ -51,8 +51,8 @@ $$
 \begin{aligned}
 B = \frac { \mu _ { 0 } I } { 2 \pi r } \\
 \mu _ { 0 } = 4 \pi \times 10 ^ { - 7 } \\
-I = \text { electric current } \\
-r = \text { distance }
+I = \text {electric current} \\
+r = \text {distance}
 \end{aligned}
 $$
 
@@ -67,10 +67,10 @@ $$
 \begin{aligned}
 B _ { y } = \frac { \mu _ { 0 } N I R ^ { 2 } } { 2 ( y ^ { 2 } + R ^ { 2 } ) ^ { 3 / 2 } } \\
 \mu _ { 0 } = 4 \pi \times 10 ^ { - 7 } \\
-N = \text { number of loops } \\
-I = \text { electric current } \\
-R = \text { radius } \\
-y = \text { position }
+N = \text {number of loops} \\
+I = \text {electric current} \\
+R = \text {radius} \\
+y = \text {position}
 \end{aligned}
 $$
 
@@ -85,9 +85,9 @@ $$
 \begin{aligned}
 B = \frac { \mu _ { 0 } N I } { 2 R } \\
 \mu _ { 0 } = 4 \pi \times 10 ^ { - 7 } \\
-N = \text { number of loops } \\
-I = \text { electric current } \\
-r = \text { radius }
+N = \text {number of loops} \\
+I = \text {electric current} \\
+r = \text {radius}
 \end{aligned}
 $$
 
@@ -102,8 +102,8 @@ $$
 \begin{aligned}
 B = \mu _ { 0 } n I \\
 \mu _ { 0 } = 4 \pi \times 10 ^ { - 7 } \\
-n = \text { number density } \\
-I = \text { electric current }
+n = \text {number density} \\
+I = \text {electric current}
 \end{aligned}
 $$
 
@@ -116,8 +116,8 @@ $$
 $$
 \begin{aligned}
 n = \frac { N } { L } \\
-N = \text { number of loops } \\
-L = \text { length }
+N = \text {number of loops} \\
+L = \text {length}
 \end{aligned}
 $$
 
@@ -132,9 +132,9 @@ $$
 \begin{aligned}
 B = \frac { \mu _ { 0 } N I } { 2 \pi R } \\
 \mu _ { 0 } = 4 \pi \times 10 ^ { - 7 } \\
-N = \text { number of loops } \\
-I = \text { electric current } \\
-R = \text { radius }
+N = \text {number of loops} \\
+I = \text {electric current} \\
+R = \text {radius}
 \end{aligned}
 $$
 
@@ -148,10 +148,10 @@ $$
 $$
 \begin{aligned}
 \oint _ { L _ { 1 } } ^ { L _ { 2 } } \vec B \cdot d \vec L = \mu _ { 0 } I _ { enc } \\
-B = \text { magnetic field } \\
-L = \text { length } \\
+B = \text {magnetic field} \\
+L = \text {length} \\
 \mu _ { 0 } = 4 \pi \times 10 ^ { - 7 } \\
-I = \text { electric current }
+I = \text {electric current}
 \end{aligned}
 $$
 
@@ -179,8 +179,8 @@ $$
 \begin{aligned}
 B = \frac { \mu _ { 0 } I _ { enc } } { L } \\
 \mu _ { 0 } = 4 \pi \times 10 ^ { - 7 } \\
-I = \text { electric current } \\
-L = \text { length }
+I = \text {electric current} \\
+L = \text {length}
 \end{aligned}
 $$
 
@@ -195,8 +195,8 @@ $$
 \begin{aligned}
 B = \frac { \mu _ { 0 } I _ { enc } } { 2 \pi r } \\
 \mu _ { 0 } = 4 \pi \times 10 ^ { - 7 } \\
-I = \text { electric current } \\
-r = \text { distance }
+I = \text {electric current} \\
+r = \text {distance}
 \end{aligned}
 $$
 
@@ -210,8 +210,8 @@ $$
 $$
 \begin{aligned}
 d I = J \  d A \\
-J = \text { electric current density } \\
-A = \text { area } \\
+J = \text {electric current density} \\
+A = \text {area} \\
 \end{aligned}
 $$
 
@@ -236,8 +236,8 @@ $$
 $$
 \begin{aligned}
 \vec B = \vec B _ { 0 } ( 1 + \chi _ { m } ) \\
-B = \text { magnetic field } \\
-\chi _ { m } = \text { magnetic susceptibility }
+B = \text {magnetic field} \\
+\chi _ { m } = \text {magnetic susceptibility}
 \end{aligned}
 $$
 
@@ -252,8 +252,8 @@ $$
 $$
 \begin{aligned}
 \vec B = \vec B _ { 0 } ( 1 + \chi _ { m } ) \\
-B = \text { magnetic field } \\
-\chi _ { m } = \text { magnetic susceptibility }
+B = \text {magnetic field} \\
+\chi _ { m } = \text {magnetic susceptibility}
 \end{aligned}
 $$
 
@@ -268,9 +268,9 @@ $$
 $$
 \begin{aligned}
 \vec B = \vec B _ { 0 } + \mu _ { 0 } \vec M \\
-B = \text { magnetic field } \\
+B = \text {magnetic field} \\
 \mu _ { 0 } = 4 \pi \times 10 ^ { - 7 } \\
-M = \text { magnetization }
+M = \text {magnetization}
 \end{aligned}
 $$
 
@@ -283,8 +283,8 @@ $$
 $$
 \begin{aligned}
 \vec M = \frac { \vec \mu } { V } \\
-\mu = \text { magnetic dipole } \\
-V = \text { volume }
+\mu = \text {magnetic dipole} \\
+V = \text {volume}
 \end{aligned}
 $$
 
@@ -298,7 +298,7 @@ $$
 $$
 \begin{aligned}
 \chi _ { m } = K _ { m } - 1 \\
-K _ { m } = \text { relative permeability }
+K _ { m } = \text {relative permeability}
 \end{aligned}
 $$
 
@@ -311,8 +311,8 @@ $$
 $$
 \begin{aligned}
 K _ { m } = \frac { \vec B } { \vec B _ { 0 } } = \frac { \mu } { \mu _ { 0 } } \\
-B = \text { magnetic field } \\
-\mu = \text { permeability }
+B = \text {magnetic field} \\
+\mu = \text {permeability}
 \end{aligned}
 $$
 

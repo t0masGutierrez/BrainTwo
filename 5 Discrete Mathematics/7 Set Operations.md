@@ -122,9 +122,9 @@ $$
 $$
 \begin{aligned}
 \bigcup _ { k \in K } ^ { n } A _ { k } = A _ { 1 } \cup A _ { 2 } \cup . . . \cup A _ { n } \\
-k = \text { index } \\
+k = \text {index} \\
 K = \{ 1 , 2 , . . . n \} \\
-n = \text { number of sets }
+n = \text {number of sets}
 \end{aligned}
 $$
 
@@ -137,9 +137,9 @@ $$
 $$
 \begin{aligned}
 \bigcap _ { k \in K } ^ { n } A _ { k } = A _ { 1 } \cap A _ { 2 } \cap . . . \cap A _ { n } \\
-k = \text { index } \\
+k = \text {index} \\
 K = \{ 1 , 2 , . . . n \} \\
-n = \text { number of sets }
+n = \text {number of sets}
 \end{aligned}
 $$
 
@@ -167,7 +167,7 @@ $$
 $$
 \begin{aligned}
 A = \{ n _ { 1 } \times x _ { 1 } , n _ { 2 } \times x _ { 2 } , . . . n _ { n } \times x _ { n } \} \\
-n = \text { multiplicity }
+n = \text {multiplicity}
 \end{aligned}
 $$
 

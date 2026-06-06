@@ -7,10 +7,10 @@ $$
 \begin{aligned}
 X : \Omega \rightarrow \mathbb R \\
 X ( \omega ) = x \\
-X = \text { random variable } \\
-\Omega = \text { sample space } \\
-x = \text { real number } \\
-\omega = \text { outcome }
+X = \text {random variable} \\
+\Omega = \text {sample space} \\
+x = \text {real number} \\
+\omega = \text {outcome}
 \end{aligned}
 $$
 
@@ -23,7 +23,7 @@ $$
 $$
 \begin{aligned}
 ( \{ 0 , 1 , 2 , 3 , \dots , n \} \not \sim X ) \land ( \mathbb N \not \sim X ) \\
-X = \text { random variable }
+X = \text {random variable}
 \end{aligned}
 $$
 
@@ -66,8 +66,8 @@ $$
 $$
 \begin{aligned}
 f ( x ) = \frac { 1 } { b - a } \\
-a = \text { lower endpoint } \\
-b = \text { upper endpoint }
+a = \text {lower endpoint} \\
+b = \text {upper endpoint}
 \end{aligned}
 $$
 
@@ -76,8 +76,8 @@ $$
 $$
 \begin{aligned}
 \mu = \frac { a + b } { 2 } \\
-a = \text { lower endpoint } \\
-b = \text { upper endpoint }
+a = \text {lower endpoint} \\
+b = \text {upper endpoint}
 \end{aligned}
 $$
 
@@ -86,8 +86,8 @@ $$
 $$
 \begin{aligned}
 \sigma = \sqrt { \frac { ( b - a ) ^ { 2 } } { 12 } } \\
-a = \text { lower endpoint } \\
-b = \text { upper endpoint }
+a = \text {lower endpoint} \\
+b = \text {upper endpoint}
 \end{aligned}
 $$
 
@@ -100,8 +100,8 @@ $$
 $$
 \begin{aligned}
 f ( x ) = \frac { \exp ( \frac { - ( x - \mu ) ^ { 2 } } { 2 \sigma ^ { 2 } } ) } { \sigma \sqrt { 2 \pi } } \\
-\mu = \text { mean } \\
-\sigma = \text { standard deviation }
+\mu = \text {mean} \\
+\sigma = \text {standard deviation}
 \end{aligned}
 $$
 
@@ -110,7 +110,7 @@ $$
 $$
 \begin{aligned}
 \mu = \mu \\
-\mu = \text { mean }
+\mu = \text {mean}
 \end{aligned}
 $$
 
@@ -119,7 +119,7 @@ $$
 $$
 \begin{aligned}
 \sigma = \sigma \\
-\sigma = \text { standard deviation }
+\sigma = \text {standard deviation}
 \end{aligned}
 $$
 
@@ -132,7 +132,7 @@ $$
 $$
 \begin{aligned}
 f ( x ) = \frac { e ^ { - x ^ { 2 } / 2 } } { \sqrt { 2 \pi } } \\
-x = \text { z-score }
+x = \text {z-score}
 \end{aligned}
 $$
 
@@ -161,8 +161,8 @@ $$
 $$
 \begin{aligned}
 f ( x ) = \lambda e ^ { - \lambda x } \\
-x = \text { amount of time between events } \\
-\lambda = \text { average number of events per time }
+x = \text {amount of time between events} \\
+\lambda = \text {average number of events per time}
 \end{aligned}
 $$
 
@@ -171,7 +171,7 @@ $$
 $$
 \begin{aligned}
 \mu = \frac { 1 } { \lambda } \\
-\lambda = \text { average number of events per time }
+\lambda = \text {average number of events per time}
 \end{aligned}
 $$
 
@@ -180,7 +180,7 @@ $$
 $$
 \begin{aligned}
 \sigma = \frac { 1 } { \lambda } \\
-\lambda = \text { average number of events per time }
+\lambda = \text {average number of events per time}
 \end{aligned}
 $$
 
@@ -194,10 +194,10 @@ $$
 \begin{aligned}
 f ( x ) = \frac { \lambda e ^ { - \lambda x } ( \lambda x ) ^ { \alpha - 1 } } { \Gamma ( \alpha ) } \\
 \Gamma ( \alpha ) = \int _ { 0 } ^ { \infty } e ^ { - x } x ^ { \alpha - 1 } d x \\
-\lambda = \text { average number of events per time } \\
-x = \text { amount of time between events } \\
-\Gamma = \text { gamma } \\
-\alpha = \text { event number }
+\lambda = \text {average number of events per time} \\
+x = \text {amount of time between events} \\
+\Gamma = \text {gamma} \\
+\alpha = \text {event number}
 \end{aligned}
 $$
 
@@ -206,8 +206,8 @@ $$
 $$
 \begin{aligned}
 \mu = \frac { \alpha } { \lambda } \\
-\alpha = \text { event number } \\
-\lambda = \text { average number of events per time }
+\alpha = \text {event number} \\
+\lambda = \text {average number of events per time}
 \end{aligned}
 $$
 
@@ -216,8 +216,8 @@ $$
 $$
 \begin{aligned}
 \sigma = \sqrt \frac { \alpha } { \lambda ^ { 2 } } \\
-\alpha = \text { event number } \\
-\lambda = \text { average number of events per time }
+\alpha = \text {event number} \\
+\lambda = \text {average number of events per time}
 \end{aligned}
 $$
 
@@ -231,10 +231,10 @@ $$
 \begin{aligned}
 f ( x ) = \frac { \Gamma ( \frac { d + 1 } { 2 } ) } { \Gamma ( \frac { d } { 2 } ) \sqrt { d \pi } } ( 1 + \frac { x ^ { 2 } } { d } ) ^ { - ( d + 1 ) / 2 } \\
 
-\Gamma = \text { gamma } \\
-d = \text { degrees of freedom } \\
-n = \text { sample size } \\
-x = \text { t-statistic }
+\Gamma = \text {gamma} \\
+d = \text {degrees of freedom} \\
+n = \text {sample size} \\
+x = \text {t-statistic}
 \end{aligned}
 $$
 
@@ -251,8 +251,8 @@ $$
 $$
 \begin{aligned}
 \sigma = \sqrt \frac { d } { d - 2 } \\
-d = \text { degrees of freedom } \\
-n = \text { sample size } \\
+d = \text {degrees of freedom} \\
+n = \text {sample size} \\
 \end{aligned}
 $$
 
@@ -265,10 +265,10 @@ $$
 $$
 \begin{aligned}
 f ( x ) = \frac { x ^ { d / 2 - 1 } e ^ { - x / 2 } } { 2 ^ { d / 2 } \Gamma ( \frac { d } { 2 } ) } \\
-x = \text { $\chi^2$-statistic } \\
-\Gamma = \text { gamma } \\
-d = \text { degrees of freedom } \\
-n = \text { sample size }
+x = \text {$\chi^2$-statistic} \\
+\Gamma = \text {gamma} \\
+d = \text {degrees of freedom} \\
+n = \text {sample size}
 \end{aligned}
 $$
 
@@ -277,8 +277,8 @@ $$
 $$
 \begin{aligned}
 \mu = d \\
-d = \text { degrees of freedom } \\
-n = \text { sample size }
+d = \text {degrees of freedom} \\
+n = \text {sample size}
 \end{aligned}
 $$
 
@@ -287,8 +287,8 @@ $$
 $$
 \begin{aligned}
 \sigma = \sqrt { 2 d } \\
-d = \text { degrees of freedom } \\
-n = \text { sample size }
+d = \text {degrees of freedom} \\
+n = \text {sample size}
 \end{aligned}
 $$
 
@@ -303,10 +303,10 @@ $$
 f ( x ) = \frac { x ^ { 0.5 d _ { 1 } - 1 } \Gamma ( \frac { d _ { 1 } + d _ { 2 } } { 2 } ) ( \frac { d _ { 1 } } { d _ { 2 } } ) ^ { 0.5 d _ { 1 } } }
 }
 { \Gamma ( \frac { d _ { 1 } } { 2 } ) \Gamma ( \frac { d _ { 2 } } { 2 } ) ( 1 + \frac { d _ { 1 } } { d _ { 2 } } x ) ^ { \frac { - d _ { 1 } - d _ { 2 } } { 2 } } } \\
-x = \text { F-statistic } \\
-\Gamma = \text { gamma } \\
-d = \text { degrees of freedom } \\
-n = \text { sample size }
+x = \text {F-statistic} \\
+\Gamma = \text {gamma} \\
+d = \text {degrees of freedom} \\
+n = \text {sample size}
 \end{aligned}
 $$
 
@@ -315,8 +315,8 @@ $$
 $$
 \begin{aligned}
 \mu = \frac { d _ { 2 } } { d _ { 2 } - 2 } \\
-d = \text { degrees of freedom } \\
-n = \text { sample size }
+d = \text {degrees of freedom} \\
+n = \text {sample size}
 \end{aligned}
 $$
 
@@ -325,8 +325,8 @@ $$
 $$
 \begin{aligned}
 \sigma = \sqrt { \frac { 2 d _ { 2 } ^ { 2 } ( d _ { 1 } + d _ { 2 } - 2 ) } { d _ { 1 } ( d _ { 2 } - 2 ) ^ { 2 } ( d _ { 2 } - 4 ) } } \\
-d = \text { degrees of freedom } \\
-n = \text { sample size }
+d = \text {degrees of freedom} \\
+n = \text {sample size}
 \end{aligned}
 $$
 

@@ -6,9 +6,9 @@
 $$
 \begin{aligned}
 \sum _ { i = 1 } ^ { n } a _ { i } x _ { i } = b \\
-a = \text { coefficient } \\
-x = \text { variable } \\
-b = \text { constant }
+a = \text {coefficient} \\
+x = \text {variable} \\
+b = \text {constant}
 \end{aligned}
 $$
 
@@ -26,9 +26,9 @@ a _ { 21 } x _ { 1 } + a _ { 22 } x _ { 2 } + \cdots + a _ { 2 n } x _ { n } = b
 \quad \vdots \quad \qquad \vdots \quad \qquad \ddots \qquad \vdots \qquad \vdots \\
 a _ { m 1 } x _ { 1 } + a _ { m 2 } x _ { 2 } + \cdots + a _ { mn } x _ { n } = b _ { m }
 \end{array} \\
-a = \text { coefficient } \\
-x = \text { variable } \\
-b = \text { constant }
+a = \text {coefficient} \\
+x = \text {variable} \\
+b = \text {constant}
 \end{aligned}
 $$
 
@@ -41,11 +41,11 @@ $$
 $$
 \begin{aligned}
 y = ( y _ { 1 } , \dots , y _ { n } ) \iff \forall j \in \set { 1 , \dots , m } : \sum _ { i = 1 } ^ { n } a _ { ji } y _ { i } = b _ { j } \\
-m = \text { number of linear equations } \\
-n = \text { number of variables } \\
-a = \text { coefficient } \\
-y = \text { solution } \\
-b = \text { constant }
+m = \text {number of linear equations} \\
+n = \text {number of variables} \\
+a = \text {coefficient} \\
+y = \text {solution} \\
+b = \text {constant}
 \end{aligned}
 $$
 
@@ -58,12 +58,12 @@ $$
 $$
 \begin{aligned}
 Y = \{ ( y _ { 1 } , \dots , y _ { n } ) \in \mathbb R ^ { n } \mid \forall j \in \set { 1 , \dots , m } : \sum _ { i = 1 } ^ { n } a _ { ji } y _ { i } = b _ { j } \} \\
-Y = \text { complete solution set } \\
-m = \text { number of linear equations } \\
-n = \text { number of variables } \\
-a = \text { coefficient } \\
-y = \text { solution } \\
-b = \text { constant }
+Y = \text {complete solution set} \\
+m = \text {number of linear equations} \\
+n = \text {number of variables} \\
+a = \text {coefficient} \\
+y = \text {solution} \\
+b = \text {constant}
 \end{aligned}
 $$
 
@@ -82,9 +82,9 @@ a _ { 21 } & a _ { 22 } & \cdots & a _ { 2 n } \\
 a _ { m 1 } & a _ { m 2 } & \cdots & a _ { mn } \\
 \end{bmatrix} \\
 | A | = m \times n \\
-a = \text { coefficient } \\
-m = \text { number of rows } \\
-n = \text { number of columns }
+a = \text {coefficient} \\
+m = \text {number of rows} \\
+n = \text {number of columns}
 \end{aligned}
 $$
 
@@ -103,7 +103,7 @@ x _ { 2 } \\
 x _ { n }
 \end{bmatrix} \\
 | X | = n \times 1 \\
-x = \text { variable }
+x = \text {variable}
 \end{aligned}
 $$
 
@@ -122,7 +122,7 @@ b _ { 2 } \\
 b _ { m }
 \end{bmatrix} \\
 | B | = m \times 1 \\
-b = \text { constant }
+b = \text {constant}
 \end{aligned}
 $$
 
@@ -151,9 +151,9 @@ b _ { 2 } \\
 \vdots \\
 b _ { m }
 \end{bmatrix} \\
-A = \text { coefficient matrix } \\
-X = \text { variable matrix } \\
-B = \text { constant matrix }
+A = \text {coefficient matrix} \\
+X = \text {variable matrix} \\
+B = \text {constant matrix}
 \end{aligned}
 $$
 
@@ -226,8 +226,8 @@ $$
 $$
 \begin{aligned}
 \langle i \rangle \implies c \langle i \rangle \\
-i = \text { row index } \\
-c = \text { scalar }
+i = \text {row index} \\
+c = \text {scalar}
 \end{aligned}
 $$
 
@@ -240,8 +240,8 @@ $$
 $$
 \begin{aligned}
 \langle i \rangle \implies \langle i \rangle + c \langle j \rangle \\
-i , j = \text { row index } \\
-c = \text { scalar }
+i , j = \text {row index} \\
+c = \text {scalar}
 \end{aligned}
 $$
 
@@ -254,7 +254,7 @@ $$
 $$
 \begin{aligned}
 \langle i \rangle \iff \langle j \rangle \\
-i , j = \text { row index }
+i , j = \text {row index}
 \end{aligned}
 $$
 

@@ -7,8 +7,8 @@ $$
 \begin{aligned}
 \exists L \in \mathbb R : \lim _ { x \rightarrow t } \frac { f ( x ) - f ( t ) } { x - t } = L \implies f ' ( t ) = L \\
 f : [ a , b ] \rightarrow \mathbb R \\
-L = \text { limit } \\
-f ' = \text { derivative }
+L = \text {limit} \\
+f ' = \text {derivative}
 \end{aligned}
 $$
 
@@ -57,8 +57,8 @@ $$
 $$
 \begin{aligned}
 \exists L \in \mathbb R : \lim _ { x \rightarrow t } \frac { f ( x ) - f ( t ) } { x - t } = L \implies \lim _ { x \rightarrow t } f ( x ) = f ( t ) \\
-L = \text { limit } \\
-f = \text { continuous function }
+L = \text {limit} \\
+f = \text {continuous function}
 \end{aligned}
 $$
 

@@ -18,10 +18,10 @@
 $$
 \begin{aligned}
 a \sin ( \theta ) = m \lambda \\
-a = \text { width } \\
-\theta = \text { angular position } \\
-m = \text { diffraction order } \\
-\lambda = \text { wavelength }
+a = \text {width} \\
+\theta = \text {angular position} \\
+m = \text {diffraction order} \\
+\lambda = \text {wavelength}
 \end{aligned}
 $$
 
@@ -35,8 +35,8 @@ $$
 $$
 \begin{aligned}
 E = E _ { 12 } [ \frac { \sin ( \beta / 2 ) } { \beta / 2 } ] \\
-E = \text { electric field } \\
-\beta = \text { phase angle }
+E = \text {electric field} \\
+\beta = \text {phase angle}
 \end{aligned}
 $$
 
@@ -51,8 +51,8 @@ $$
 $$
 \begin{aligned}
 I = I _ { o } [ \frac { \sin ( \beta / 2 ) } { \beta / 2 } ] ^ { 2 } \\
-I = \text { intensity } \\
-\beta = \text { phase angle }
+I = \text {intensity} \\
+\beta = \text {phase angle}
 \end{aligned}
 $$
 
@@ -61,9 +61,9 @@ $$
 $$
 \begin{aligned}
 \beta = ( \frac { 2 \pi } { \lambda } ) a \sin ( \theta ) \\
-\lambda = \text { wavelength } \\
-a = \text { width } \\
-\theta = \text { angular position }
+\lambda = \text {wavelength} \\
+a = \text {width} \\
+\theta = \text {angular position}
 \end{aligned}
 $$
 
@@ -77,9 +77,9 @@ $$
 $$
 \begin{aligned}
 I = I _ { o } [ \frac { \sin ( \beta / 2 ) } { \beta / 2 } ] ^ { 2 } \cos ^ { 2 } ( \frac { \phi } { 2 } ) \\
-I = \text { intensity } \\
-\beta = \text { phase angle } \\
-\phi = \text { phase angle }
+I = \text {intensity} \\
+\beta = \text {phase angle} \\
+\phi = \text {phase angle}
 \end{aligned}
 $$
 
@@ -109,9 +109,9 @@ $$
 \sin ( \theta _ { 1 } ) = 1.22 ( \frac { \lambda } { D } ) \\
 \sin ( \theta _ { 2 } ) = 2.23 ( \frac { \lambda } { D } ) \\
 \sin ( \theta _ { 3 } ) = 3.24 ( \frac { \lambda } { D } ) \\
-\theta = \text { angular position } \\
-\lambda = \text { wavelength } \\
-D = \text { diameter }
+\theta = \text {angular position} \\
+\lambda = \text {wavelength} \\
+D = \text {diameter}
 \end{aligned}
 $$
 
@@ -122,9 +122,9 @@ $$
 \sin ( \theta _ { 1 } ) = 1.63 ( \frac { \lambda } { D } ) \\
 \sin ( \theta _ { 2 } ) = 2.68 ( \frac { \lambda } { D } ) \\
 \sin ( \theta _ { 3 } ) = 3.70 ( \frac { \lambda } { D } ) \\
-\theta = \text { angular position } \\
-\lambda = \text { wavelength } \\
-D = \text { diameter }
+\theta = \text {angular position} \\
+\lambda = \text {wavelength} \\
+D = \text {diameter}
 \end{aligned}
 $$
 
@@ -149,9 +149,9 @@ $$
 $$
 \begin{aligned}
 R = 1.22 ( \frac { \lambda f } { D } ) \\
-\lambda = \text { wavelength } \\
-f = \text { focal length } \\
-D = \text { diameter }
+\lambda = \text {wavelength} \\
+f = \text {focal length} \\
+D = \text {diameter}
 \end{aligned}
 $$
 

@@ -7,10 +7,10 @@ $$
 \begin{aligned}
 X : \Omega \rightarrow \mathbb R \\
 X ( \omega ) = x \\
-X = \text { random variable } \\
-\Omega = \text { sample space } \\
-x = \text { real number } \\
-\omega = \text { outcome }
+X = \text {random variable} \\
+\Omega = \text {sample space} \\
+x = \text {real number} \\
+\omega = \text {outcome}
 \end{aligned}
 $$
 
@@ -23,7 +23,7 @@ $$
 $$
 \begin{aligned}
 ( \{ 0 , 1 , 2 , 3 , \dots , n \} \not \sim X ) \land ( \mathbb N \not \sim X ) \\
-X = \text { random variable }
+X = \text {random variable}
 \end{aligned}
 $$
 
@@ -51,8 +51,8 @@ $$
 $$
 \begin{aligned}
 E [ X ] = \int _ { - \infty } ^ { \infty } x f ( x ) d x \\
-x = \text { real number } \\
-X = \text { random variable }
+x = \text {real number} \\
+X = \text {random variable}
 \end{aligned}
 $$
 
@@ -64,9 +64,9 @@ $$
 ### variance formula
 $$
 \begin{aligned}
-\text { Var } ( X ) = E [ X ^ { 2 } ] - ( E [ X ] ) ^ { 2 } = E [ ( X - E [ X ] ) ^ { 2 } ] \\
-E = \text { expectation } \\
-X = \text { random variable }
+\text {Var} ( X ) = E [ X ^ { 2 } ] - ( E [ X ] ) ^ { 2 } = E [ ( X - E [ X ] ) ^ { 2 } ] \\
+E = \text {expectation} \\
+X = \text {random variable}
 \end{aligned}
 $$
 
@@ -79,8 +79,8 @@ $$
 $$
 \begin{aligned}
 f ( x ) = \frac { 1 } { b - a } \\
-a = \text { lower endpoint } \\
-b = \text { upper endpoint }
+a = \text {lower endpoint} \\
+b = \text {upper endpoint}
 \end{aligned}
 $$
 
@@ -89,8 +89,8 @@ $$
 $$
 \begin{aligned}
 E [ X ] = \frac { a + b } { 2 } \\
-a = \text { lower endpoint } \\
-b = \text { upper endpoint }
+a = \text {lower endpoint} \\
+b = \text {upper endpoint}
 \end{aligned}
 $$
 
@@ -98,9 +98,9 @@ $$
 ### uniform PDF variance formula
 $$
 \begin{aligned}
-\text { Var } ( X ) = { \frac { ( b - a ) ^ { 2 } } { 12 } } \\
-a = \text { lower endpoint } \\
-b = \text { upper endpoint }
+\text {Var} ( X ) = { \frac { ( b - a ) ^ { 2 } } { 12 } } \\
+a = \text {lower endpoint} \\
+b = \text {upper endpoint}
 \end{aligned}
 $$
 
@@ -113,8 +113,8 @@ $$
 $$
 \begin{aligned}
 f ( x ) = \frac { \exp ( \frac { - ( x - \mu ) ^ { 2 } } { 2 \sigma ^ { 2 } } ) } { \sigma \sqrt { 2 \pi } } \\
-\mu = \text { mean } \\
-\sigma = \text { standard deviation }
+\mu = \text {mean} \\
+\sigma = \text {standard deviation}
 \end{aligned}
 $$
 
@@ -123,7 +123,7 @@ $$
 $$
 \begin{aligned}
 E [ X ] = \mu \\
-\mu = \text { mean }
+\mu = \text {mean}
 \end{aligned}
 $$
 
@@ -131,8 +131,8 @@ $$
 ### normal PDF variance formula
 $$
 \begin{aligned}
-\text { Var } ( X ) = \sigma ^ { 2 } \\
-\sigma = \text { standard deviation }
+\text {Var} ( X ) = \sigma ^ { 2 } \\
+\sigma = \text {standard deviation}
 \end{aligned}
 $$
 
@@ -145,7 +145,7 @@ $$
 $$
 \begin{aligned}
 f ( x ) = \frac { \exp ( \frac { - x ^ { 2 } } { 2 } ) } { \sqrt { 2 \pi } } \\
-x = \text { z-score }
+x = \text {z-score}
 \end{aligned}
 $$
 
@@ -161,7 +161,7 @@ $$
 ### standard normal PDF variance formula
 $$
 \begin{aligned}
-\text { Var } ( X ) = 1
+\text {Var} ( X ) = 1
 \end{aligned}
 $$
 
@@ -174,8 +174,8 @@ $$
 $$
 \begin{aligned}
 f ( x ) = \lambda e ^ { - \lambda x } \\
-x = \text { time } \\
-\lambda = \text { average number of events per time }
+x = \text {time} \\
+\lambda = \text {average number of events per time}
 \end{aligned}
 $$
 
@@ -184,7 +184,7 @@ $$
 $$
 \begin{aligned}
 E [ X ] = \frac { 1 } { \lambda } \\
-\lambda = \text { average number of events per time }
+\lambda = \text {average number of events per time}
 \end{aligned}
 $$
 
@@ -192,8 +192,8 @@ $$
 ### exponential PDF variance formula
 $$
 \begin{aligned}
-\text { Var } ( X ) = \frac { 1 } { \lambda ^ { 2 } } \\
-\lambda = \text { average number of events per time }
+\text {Var} ( X ) = \frac { 1 } { \lambda ^ { 2 } } \\
+\lambda = \text {average number of events per time}
 \end{aligned}
 $$
 
@@ -207,10 +207,10 @@ $$
 \begin{aligned}
 f ( x ) = \frac { \lambda ^ { r } e ^ { - \lambda x } x ^ { r - 1 } } { \Gamma ( r ) } \\
 \Gamma ( r ) = \int _ { 0 } ^ { \infty } e ^ { - x } x ^ { r - 1 } d x \\
-\lambda = \text { average number of events per time } \\
-r = \text { event number } \\
-x = \text { time } \\
-\Gamma = \text { gamma }
+\lambda = \text {average number of events per time} \\
+r = \text {event number} \\
+x = \text {time} \\
+\Gamma = \text {gamma}
 \end{aligned}
 $$
 
@@ -219,8 +219,8 @@ $$
 $$
 \begin{aligned}
 E [ X ] = \frac { r } { \lambda } \\
-r = \text { event number } \\
-\lambda = \text { average number of events per time }
+r = \text {event number} \\
+\lambda = \text {average number of events per time}
 \end{aligned}
 $$
 
@@ -228,9 +228,9 @@ $$
 ### gamma PDF variance formula
 $$
 \begin{aligned}
-\text { Var } ( X ) = \frac { r } { \lambda ^ { 2 } } \\
-r = \text { event number } \\
-\lambda = \text { average number of events per time }
+\text {Var} ( X ) = \frac { r } { \lambda ^ { 2 } } \\
+r = \text {event number} \\
+\lambda = \text {average number of events per time}
 \end{aligned}
 $$
 
@@ -244,9 +244,9 @@ $$
 \begin{aligned}
 f ( x ) = \frac { x ^ { r - 1 } ( 1 - x ) ^ { k - 1 } } { \beta ( r , k ) } \\
 \beta ( r , k ) = \int _ { 0 } ^ { 1 } x ^ { r - 1 } ( 1 - x ) ^ { k - 1 } d x \\
-x = \text { unit number } \\
-r , k = \text { parameter } \\
-\beta = \text { beta }
+x = \text {unit number} \\
+r , k = \text {parameter} \\
+\beta = \text {beta}
 \end{aligned}
 $$
 
@@ -255,7 +255,7 @@ $$
 $$
 \begin{aligned}
 E [ X ] = \frac { r } { r + k } \\
-r , k = \text { parameter }
+r , k = \text {parameter}
 \end{aligned}
 $$
 
@@ -263,8 +263,8 @@ $$
 ### beta PDF variance formula
 $$
 \begin{aligned}
-\text { Var } ( X ) = \frac { rk } { ( r + k ) ^ { 2 } ( r + k + 1 ) } \\
-r , k = \text { parameter }
+\text {Var} ( X ) = \frac { rk } { ( r + k ) ^ { 2 } ( r + k + 1 ) } \\
+r , k = \text {parameter}
 \end{aligned}
 $$
 

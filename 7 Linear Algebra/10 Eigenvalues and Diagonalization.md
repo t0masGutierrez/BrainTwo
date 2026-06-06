@@ -10,9 +10,9 @@
 $$
 \begin{aligned}
 \lambda \iff A \vec x = \lambda \vec x \\
-\lambda = \text { eigenvalue } \\
-A = \text { square matrix } \\
-\vec x = \text { eigenvector }
+\lambda = \text {eigenvalue} \\
+A = \text {square matrix} \\
+\vec x = \text {eigenvector}
 \end{aligned}
 $$
 
@@ -26,9 +26,9 @@ $$
 \begin{aligned}
 \vec x \iff A \vec x = \lambda \vec x \\
 \vec x \ne 0 \\
-\vec x = \text { eigenvector } \\
-A = \text { square matrix } \\
-\lambda = \text { eigenvalue }
+\vec x = \text {eigenvector} \\
+A = \text {square matrix} \\
+\lambda = \text {eigenvalue}
 \end{aligned}
 $$
 
@@ -41,10 +41,10 @@ $$
 $$
 \begin{aligned}
 E _ { \lambda } = \{ \vec x \in \mathbb R ^ { n } \mid ( A - \lambda I ) \vec x = 0 \} \\
-\vec x = \text { eigenvector } \\
-A = \text { square matrix } \\
-\lambda = \text { eigenvalue } \\
-I = \text { identity matrix }
+\vec x = \text {eigenvector} \\
+A = \text {square matrix} \\
+\lambda = \text {eigenvalue} \\
+I = \text {identity matrix}
 \end{aligned}
 $$
 
@@ -57,9 +57,9 @@ $$
 $$
 \begin{aligned}
 ( c \in \mathbb R ) \land ( \vec x \in E _ { \lambda } ) \implies c \vec x \in E _ { \lambda } \\
-c = \text { scalar } \\
-\vec x = \text { eigenvector } \\
-E _ { \lambda } = \text { eigenspace }
+c = \text {scalar} \\
+\vec x = \text {eigenvector} \\
+E _ { \lambda } = \text {eigenspace}
 \end{aligned}
 $$
 
@@ -82,10 +82,10 @@ x _ { 1 } \\
 \vdots \\
 x _ { n }
 \end{bmatrix} = 0 \\
-A = \text { square matrix } \\
-\lambda = \text { eigenvalue } \\
-I = \text { identity matrix } \\
-\vec x = \text { eigenvector }
+A = \text {square matrix} \\
+\lambda = \text {eigenvalue} \\
+I = \text {identity matrix} \\
+\vec x = \text {eigenvector}
 \end{aligned}
 $$
 
@@ -98,9 +98,9 @@ $$
 $$
 \begin{aligned}
 p _ { A } ( \lambda ) = \det ( A - \lambda I ) = 0 \\
-A = \text { square matrix } \\
-\lambda = \text { eigenvalue } \\
-I = \text { identity matrix }
+A = \text {square matrix} \\
+\lambda = \text {eigenvalue} \\
+I = \text {identity matrix}
 \end{aligned}
 $$
 
@@ -123,11 +123,11 @@ $$
 $$
 \begin{aligned}
 A \sim D \iff \exists P : D = P ^ { - 1 } A P \\
-\text { det } ( P ) \ne 0 \\
-A = \text { square matrix } \\
-D = \text { diagonal matrix } \\
-P = \text { eigenmatrix } \\
-P ^ { - 1 } = \text { inverse eigenmatrix }
+\text {det} ( P ) \ne 0 \\
+A = \text {square matrix} \\
+D = \text {diagonal matrix} \\
+P = \text {eigenmatrix} \\
+P ^ { - 1 } = \text {inverse eigenmatrix}
 \end{aligned}
 $$
 
@@ -140,9 +140,9 @@ $$
 $$
 \begin{aligned}
 p _ { A } ( x ) = \prod _ { i = 1 } ^ { r } ( x - \lambda _ { i } ) ^ { k _ { i } } \\
-r = \text { number of eigenvalues } \\
-\lambda = \text { eigenvalue } \\
-k = \text { algebraic multiplicity }
+r = \text {number of eigenvalues} \\
+\lambda = \text {eigenvalue} \\
+k = \text {algebraic multiplicity}
 \end{aligned}
 $$
 
@@ -155,8 +155,8 @@ $$
 $$
 \begin{aligned}
 k = \sum _ { i = 1 } ^ { r } \dim ( E _ { \lambda _ { i } } ) \\
-r = \text { number of eigenvalues } \\
-E _ { \lambda } = \text { eigenspace }
+r = \text {number of eigenvalues} \\
+E _ { \lambda } = \text {eigenspace}
 \end{aligned}
 $$
 
@@ -177,11 +177,11 @@ $$
 $$
 \begin{aligned}
 D = P ^ { - 1 } A P \iff A = P D P ^ { - 1 } \\
-\text { det } ( P ) \ne 0 \\
-D = \text { diagonal matrix } \\
-P ^ { - 1 } = \text { inverse eigenmatrix } \\
-A = \text { square matrix } \\
-P = \text { eigenmatrix }
+\text {det} ( P ) \ne 0 \\
+D = \text {diagonal matrix} \\
+P ^ { - 1 } = \text {inverse eigenmatrix} \\
+A = \text {square matrix} \\
+P = \text {eigenmatrix}
 \end{aligned}
 $$
 
@@ -195,10 +195,10 @@ $$
 \begin{aligned}
 A ^ { k } = P D ^ { k } P ^ { - 1 } \\
 k \in \mathbb N \\
-A = \text { square matrix } \\
-P = \text { eigenmatrix } \\
-D = \text { diagonal matrix } \\
-P ^ { - 1 } = \text { inverse eigenmatrix }
+A = \text {square matrix} \\
+P = \text {eigenmatrix} \\
+D = \text {diagonal matrix} \\
+P ^ { - 1 } = \text {inverse eigenmatrix}
 \end{aligned}
 $$
 
@@ -210,9 +210,9 @@ $$
 ### multiplicity comparison property formula
 $$
 \begin{aligned}
-1 \le \text { gm } ( \lambda ) \le \text { am } ( \lambda ) \\
-\text { gm } = \text { geometric multiplicity } \\
-\text { am } = \text { algebraic multiplicity }
+1 \le \text {gm} ( \lambda ) \le \text {am} ( \lambda ) \\
+\text {gm} = \text {geometric multiplicity} \\
+\text {am} = \text {algebraic multiplicity}
 \end{aligned}
 $$
 

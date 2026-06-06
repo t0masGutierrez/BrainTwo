@@ -185,9 +185,9 @@ $$
 \frac { d } { dx } \arcsin ( u ) = \frac { u ' } { \sqrt { 1 - u ^ { 2 } } } \\
 \frac { d } { dx } \arccos ( u ) = \frac { - u ' } { \sqrt { 1 - u ^ { 2 } } } \\
 \frac { d } { dx } \arctan ( u ) = \frac { u ' } { 1 + u ^ { 2 } } \\
-\frac { d } { dx } \text { arccot } ( u ) = \frac { - u ' } { 1 + u ^ { 2 } } \\
-\frac { d } { dx } \text { arcsec } ( u ) = \frac { u ' } { | u | \sqrt { u ^ { 2 } - 1 } } \\
-\frac { d } { dx } \text { arccsc } ( u ) = \frac { - u ' } { | u | \sqrt { u ^ { 2 } - 1 } }
+\frac { d } { dx } \text {arccot} ( u ) = \frac { - u ' } { 1 + u ^ { 2 } } \\
+\frac { d } { dx } \text {arcsec} ( u ) = \frac { u ' } { | u | \sqrt { u ^ { 2 } - 1 } } \\
+\frac { d } { dx } \text {arccsc} ( u ) = \frac { - u ' } { | u | \sqrt { u ^ { 2 } - 1 } }
 \end{aligned}
 $$
 
@@ -197,7 +197,7 @@ $$
 \begin{aligned}
 \int \frac { du } { \sqrt { a ^ { 2 } - u ^ { 2 } } } = \arcsin ( \frac { u } { a } ) + c \\
 \int \frac { du } { a ^ { 2 } + u ^ { 2 } } = \frac { 1 } { a } \arctan ( \frac { u } { a } ) + c \\
-\int \frac { du } { u \sqrt { u ^ { 2 } - a ^ { 2 } } } = \frac { 1 } { a } \text { arcsec } ( \frac { | u | } { a } ) + c
+\int \frac { du } { u \sqrt { u ^ { 2 } - a ^ { 2 } } } = \frac { 1 } { a } \text {arcsec} ( \frac { | u | } { a } ) + c
 \end{aligned}
 $$
 
@@ -213,9 +213,9 @@ $$
 \sinh ( u ) = \frac { e ^ { u } - e ^ { - u } } { 2 } \\
 \cosh ( u ) = \frac { e ^ { u } + e ^ { - u } } { 2 } \\
 \tanh ( u ) = \frac { \sinh ( u ) } { \cosh ( u ) } \\
-\text { csch } ( u ) = \frac { 1 } { \sinh ( u ) } \\
-\text { sech } ( u ) = \frac { 1 } { \cosh ( u ) } \\
-\text { coth } ( u ) = \frac { 1 } { \tanh ( u ) } \\
+\text {csch} ( u ) = \frac { 1 } { \sinh ( u ) } \\
+\text {sech} ( u ) = \frac { 1 } { \cosh ( u ) } \\
+\text {coth} ( u ) = \frac { 1 } { \tanh ( u ) } \\
 \end{aligned}
 $$
 
@@ -235,10 +235,10 @@ $$
 \begin{aligned}
 \frac { d } { dx } \sinh ( u ) = \cosh ( u ) u ' \\
 \frac { d } { dx } \cosh ( u ) = \sinh ( u ) u ' \\
-\frac { d } { dx } \tanh ( u ) = \text { sech } ^ { 2 } ( u ) u ' \\
-\frac { d } { dx } \coth ( u ) = - \text { csch } ^ { 2 } ( u ) u ' \\
-\frac { d } { dx } \text { sech } ( u ) = - \text { sech } ( u ) \tanh ( u ) u ' \\
-\frac { d } { dx } \text { csch } ( u ) = - \text { csch } ( u ) \coth ( u ) u '
+\frac { d } { dx } \tanh ( u ) = \text {sech} ^ { 2 } ( u ) u ' \\
+\frac { d } { dx } \coth ( u ) = - \text {csch} ^ { 2 } ( u ) u ' \\
+\frac { d } { dx } \text {sech} ( u ) = - \text {sech} ( u ) \tanh ( u ) u ' \\
+\frac { d } { dx } \text {csch} ( u ) = - \text {csch} ( u ) \coth ( u ) u '
 \end{aligned}
 $$
 
@@ -248,10 +248,10 @@ $$
 \begin{aligned}
 \int \cosh ( u ) d u = \sinh ( u ) + c \\
 \int \sinh ( u ) d u = \cosh ( u ) + c \\
-\int \text { sech } ^ { 2 } ( u ) d u = \tanh ( u ) + c \\
-\int \text { csch } ^ { 2 } ( u ) d u = - \text { coth } ( u ) + c \\
-\int \text { sech } ( u ) \tanh ( u ) d u = - \text { sech } ( u ) + c \\
-\int \text { csch } ( u ) \text { coth } ( u ) d u = - \text { csch } ( u ) + c \\
+\int \text {sech} ^ { 2 } ( u ) d u = \tanh ( u ) + c \\
+\int \text {csch} ^ { 2 } ( u ) d u = - \text {coth} ( u ) + c \\
+\int \text {sech} ( u ) \tanh ( u ) d u = - \text {sech} ( u ) + c \\
+\int \text {csch} ( u ) \text {coth} ( u ) d u = - \text {csch} ( u ) + c \\
 \end{aligned}
 $$
 
@@ -271,12 +271,12 @@ $$
 ### inverse hyperbolic formula
 $$
 \begin{aligned}
-\text { arcsinh } ( u ) = \ln ( u + \sqrt { u ^ { 2 } + 1 } ) \\
-\text { arccosh } ( u ) = \ln ( u + \sqrt { u ^ { 2 } - 1 } ) \\
-\text { arctanh } ( u ) = \frac { 1 } { 2 } \ln ( \frac { 1 + u } { 1 - u } ) \\
-\text { arccoth } ( u ) = \frac { 1 } { 2 } \ln ( \frac { u + 1 } { u - 1 } ) \\
-\text { arccsch } ( u ) = \ln ( \frac { 1 } { u } + \frac { \sqrt { 1 + u ^ { 2 } } } { | u | } ) \\
-\text { arcsech } ( u ) = \ln ( \frac { 1 + \sqrt { 1 - u ^ { 2 } } } { u } )
+\text {arcsinh} ( u ) = \ln ( u + \sqrt { u ^ { 2 } + 1 } ) \\
+\text {arccosh} ( u ) = \ln ( u + \sqrt { u ^ { 2 } - 1 } ) \\
+\text {arctanh} ( u ) = \frac { 1 } { 2 } \ln ( \frac { 1 + u } { 1 - u } ) \\
+\text {arccoth} ( u ) = \frac { 1 } { 2 } \ln ( \frac { u + 1 } { u - 1 } ) \\
+\text {arccsch} ( u ) = \ln ( \frac { 1 } { u } + \frac { \sqrt { 1 + u ^ { 2 } } } { | u | } ) \\
+\text {arcsech} ( u ) = \ln ( \frac { 1 + \sqrt { 1 - u ^ { 2 } } } { u } )
 \end{aligned}
 $$
 
@@ -294,12 +294,12 @@ $$
 ### inverse hyperbolic derivative rules
 $$
 \begin{aligned}
-\frac { d } { dx } \text { arcsinh } ( u ) = \frac { u ' } { \sqrt { u ^ { 2 } + 1 } } \\
-\frac { d } { dx } \text { arccosh } ( u ) = \frac { u ' } { \sqrt { u ^ { 2 } - 1 } } \\
-\frac { d } { dx } \text { arctanh } ( u ) = \frac { u ' } { 1 - u ^ { 2 } } \\
-\frac { d } { dx } \text { arccoth } ( u ) = \frac { u ' } { 1 - u ^ { 2 } } \\
-\frac { d } { dx } \text { arcsech } ( u ) = \frac { - u ' } { u \sqrt { 1 - u ^ { 2 } } } \\
-\frac { d } { dx } \text { arccsch } ( u ) = \frac { - u ' } { | u | \sqrt { 1 + u ^ { 2 } } }
+\frac { d } { dx } \text {arcsinh} ( u ) = \frac { u ' } { \sqrt { u ^ { 2 } + 1 } } \\
+\frac { d } { dx } \text {arccosh} ( u ) = \frac { u ' } { \sqrt { u ^ { 2 } - 1 } } \\
+\frac { d } { dx } \text {arctanh} ( u ) = \frac { u ' } { 1 - u ^ { 2 } } \\
+\frac { d } { dx } \text {arccoth} ( u ) = \frac { u ' } { 1 - u ^ { 2 } } \\
+\frac { d } { dx } \text {arcsech} ( u ) = \frac { - u ' } { u \sqrt { 1 - u ^ { 2 } } } \\
+\frac { d } { dx } \text {arccsch} ( u ) = \frac { - u ' } { | u | \sqrt { 1 + u ^ { 2 } } }
 \end{aligned}
 $$
 

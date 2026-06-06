@@ -6,7 +6,7 @@
 $$
 \begin{aligned}
 y = F ( x ) + c \\
-c = \text { constant of integration }
+c = \text {constant of integration}
 \end{aligned}
 $$
 
@@ -45,8 +45,8 @@ $$
 $$
 \begin{aligned}
 y = \int f ( x ) d x \\
-f ( x ) = \text { integrand } \\
-d x = \text { variable of integration }
+f ( x ) = \text {integrand} \\
+d x = \text {variable of integration}
 \end{aligned}
 $$
 
@@ -65,9 +65,9 @@ $$
 $$
 \begin{aligned}
 s ( t ) = \frac { 1 } { 2 } g t ^ { 2 } + v _ { 0 } t + s _ { 0 } \\
-g = \text { gravity } \\
-v = \text { velocity } \\
-s = \text { position }
+g = \text {gravity} \\
+v = \text {velocity} \\
+s = \text {position}
 \end{aligned}
 $$
 
@@ -89,10 +89,10 @@ $$
 $$
 \begin{aligned}
 \sum _ { k = 1 } ^ { n } f ( x _ { k } ) = f ( x _ { 1 } ) + f ( x _ { 2 } ) + . . . + f ( x _ { n } ) \\
-k = \text { index } \\
-n = \text { number of terms } \\
-\sum = \text { summation } \\
-f ( x _ { k } ) = \text { kth term }
+k = \text {index} \\
+n = \text {number of terms} \\
+\sum = \text {summation} \\
+f ( x _ { k } ) = \text {kth term}
 \end{aligned}
 $$
 
@@ -107,7 +107,7 @@ $$
 ### area formula
 $$
 \begin{aligned}
-\text { area } = \text { width } \times \text { height }
+\text {area} = \text {width} \times \text {height}
 \end{aligned}
 $$
 
@@ -116,9 +116,9 @@ $$
 $$
 \begin{aligned}
 \Delta x = \frac { b - a } { n } \\
-a = \text { lower endpoint } \\
-b = \text { upper endpoint } \\
-n = \text { number of subintervals }
+a = \text {lower endpoint} \\
+b = \text {upper endpoint} \\
+n = \text {number of subintervals}
 \end{aligned}
 $$
 
@@ -141,7 +141,7 @@ $$
 \begin{aligned}
 x _ { k } = a + ( k ) \Delta x \\
 x _ { k - 1 } = a + ( k - 1 ) \Delta x \\
-a = \text { lower endpoint }
+a = \text {lower endpoint}
 \end{aligned}
 $$
 
@@ -154,7 +154,7 @@ $$
 ### inscribed rectangle area formula
 $$
 \begin{aligned}
-\text { area } = f ( m _ { k } ) \Delta x
+\text {area} = f ( m _ { k } ) \Delta x
 \end{aligned}
 $$
 
@@ -167,7 +167,7 @@ $$
 ### circumscribed rectangle area formula
 $$
 \begin{aligned}
-\text { area } = f ( M _ { k } ) \Delta x
+\text {area} = f ( M _ { k } ) \Delta x
 \end{aligned}
 $$
 
@@ -221,7 +221,7 @@ $$
 ### area of planar region formula
 $$
 \begin{aligned}
-\text { area } = \lim _ { n \to \infty } \sum _ { k = 1 } ^ { n } f ( c _ { k } ) \\
+\text {area} = \lim _ { n \to \infty } \sum _ { k = 1 } ^ { n } f ( c _ { k } ) \\
 x _ { k - 1 } \le c _ { k } \le x _ { k }
 \end{aligned}
 $$
@@ -373,7 +373,7 @@ $$
 $$
 \begin{aligned}
 \int _ { a } ^ { x } f ( t ) d t = F ( x ) - F ( a ) \\
-x = \text { variable endpoint }
+x = \text {variable endpoint}
 \end{aligned}
 $$
 
@@ -391,7 +391,7 @@ $$
 $$
 \begin{aligned}
 \frac { d } { dx } \int _ { a } ^ { u } f ( t ) d t = f ( u ) \frac { du } { dx } \\
-u = \text { variable function endpoint }
+u = \text {variable function endpoint}
 \end{aligned}
 $$
 
@@ -425,7 +425,7 @@ $$
 $$
 \begin{aligned}
 \int _ { a } ^ { b } v ( t ) d t = s ( b ) - s ( a ) \\
-v = \text { velocity }
+v = \text {velocity}
 \end{aligned}
 $$
 
@@ -443,7 +443,7 @@ $$
 $$
 \begin{aligned}
 \int _ { a } ^ { b } | v ( t ) | d t = \sum | s ( b ) - s ( a ) | \\
-v = \text { velocity }
+v = \text {velocity}
 \end{aligned}
 $$
 

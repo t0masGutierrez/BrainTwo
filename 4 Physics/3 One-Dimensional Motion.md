@@ -6,7 +6,7 @@
 $$
 \begin{aligned}
 x = x ( t ) \\
-t = \text { time }
+t = \text {time}
 \end{aligned}
 $$
 
@@ -20,7 +20,7 @@ $$
 $$
 \begin{aligned}
 d = \sum _ { n } | \Delta x _ { n } | \\
-x = \text { position }
+x = \text {position}
 \end{aligned}
 $$
 
@@ -34,9 +34,9 @@ $$
 $$
 \begin{aligned}
 \Delta x = x - x _ { 0 } = \int v \cdot d t \\
-x = \text { position } \\
-t = \text { time } \\
-v = \text { velocity }
+x = \text {position} \\
+t = \text {time} \\
+v = \text {velocity}
 \end{aligned}
 $$
 
@@ -49,8 +49,8 @@ $$
 $$
 \begin{aligned}
 s _ { avg } = \frac { d } { \Delta t } \\
-d = \text { distance } \\
-t = \text { time }
+d = \text {distance} \\
+t = \text {time}
 \end{aligned}
 $$
 
@@ -63,7 +63,7 @@ $$
 $$
 \begin{aligned}
 s = | v | \\
-v = \text { velocity }
+v = \text {velocity}
 \end{aligned}
 $$
 
@@ -76,8 +76,8 @@ $$
 $$
 \begin{aligned}
 v _ { avg } = \frac { \Delta x } { \Delta t } \\
-x = \text { position } \\
-t = \text { time }
+x = \text {position} \\
+t = \text {time}
 \end{aligned}
 $$
 
@@ -91,10 +91,10 @@ $$
 $$
 \begin{aligned}
 v = \frac { dx } { dt } = v _ { 0 } + \int a \cdot d t \\
-x = \text { position } \\
-t = \text { time } \\
-v = \text { velocity } \\
-a = \text { acceleration }
+x = \text {position} \\
+t = \text {time} \\
+v = \text {velocity} \\
+a = \text {acceleration}
 \end{aligned}
 $$
 
@@ -107,8 +107,8 @@ $$
 $$
 \begin{aligned}
 a _ { avg } = \frac { \Delta v } { \Delta t } \\
-v = \text { velocity } \\
-t = \text { time }
+v = \text {velocity} \\
+t = \text {time}
 \end{aligned}
 $$
 
@@ -122,9 +122,9 @@ $$
 $$
 \begin{aligned}
 a = \frac { dv } { dt } = \frac { d ^ { 2 } x } { d t ^ { 2 } } \\
-v = \text { velocity } \\
-t = \text { time } \\
-x = \text { position }
+v = \text {velocity} \\
+t = \text {time} \\
+x = \text {position}
 \end{aligned}
 $$
 
@@ -140,8 +140,8 @@ $$
 \begin{aligned}
 \hat v = \hat a \implies v a > 0 \\
 \hat v \ne \hat a \implies v a < 0 \\
-v = \text { velocity } \\
-a = \text { acceleration }
+v = \text {velocity} \\
+a = \text {acceleration}
 \end{aligned}
 $$
 
@@ -166,9 +166,9 @@ $$
 $$
 \begin{aligned}
 a ( t ) = a _ { 0 } \implies v = v _ { 0 } + a t \\
-a = \text { acceleration } \\
-v _ { 0 } = \text { initial velocity } \\
-t = \text { time }
+a = \text {acceleration} \\
+v _ { 0 } = \text {initial velocity} \\
+t = \text {time}
 \end{aligned}
 $$
 
@@ -181,11 +181,11 @@ $$
 $$
 \begin{aligned}
 a ( t ) = a _ { 0 } \implies x = x _ { 0 } + v _ { 0 } t + \frac { 1 } { 2 } a t ^ { 2 } \\
-a = \text { acceleration } \\
-x = \text { position } \\
-x _ { 0 } = \text { initial position } \\
-v _ { 0 } = \text { initial velocity } \\
-t = \text { time }
+a = \text {acceleration} \\
+x = \text {position} \\
+x _ { 0 } = \text {initial position} \\
+v _ { 0 } = \text {initial velocity} \\
+t = \text {time}
 \end{aligned}
 $$
 
@@ -198,12 +198,12 @@ $$
 $$
 \begin{aligned}
 a ( t ) = a _ { 0 } \implies x - x _ { 0 } = \frac { 1 } { 2 } ( v + v _ { 0 } ) t \\
-a = \text { acceleration } \\
-x = \text { position } \\
-x _ { 0 } = \text { initial position } \\
-v = \text { velocity } \\
-v _ { 0 } = \text { initial velocity } \\
-t = \text { time }
+a = \text {acceleration} \\
+x = \text {position} \\
+x _ { 0 } = \text {initial position} \\
+v = \text {velocity} \\
+v _ { 0 } = \text {initial velocity} \\
+t = \text {time}
 \end{aligned}
 $$
 
@@ -216,12 +216,12 @@ $$
 $$
 \begin{aligned}
 a ( t ) = a _ { 0 } \implies v ^ { 2 } = v _ { 0 } ^ { 2 } + 2 a ( x - x _ { 0 } ) \\
-a = \text { acceleration } \\
-v = \text { velocity } \\
-v _ { 0 } = \text { initial velocity } \\
-a = \text { acceleration } \\
-x = \text { position } \\
-x _ { 0 } = \text { initial position } \\
+a = \text {acceleration} \\
+v = \text {velocity} \\
+v _ { 0 } = \text {initial velocity} \\
+a = \text {acceleration} \\
+x = \text {position} \\
+x _ { 0 } = \text {initial position} \\
 \end{aligned}
 $$
 
@@ -254,9 +254,9 @@ $$
 x _ { A / B } = x _ { A } - x _ { B } \\
 v _ { A / B } = v _ { A } - v _ { B } \\
 a _ { A / B } = a _ { A } - a _ { B } \\
-x = \text { position } \\
-v = \text { velocity } \\
-a = \text { acceleration }
+x = \text {position} \\
+v = \text {velocity} \\
+a = \text {acceleration}
 \end{aligned}
 $$
 

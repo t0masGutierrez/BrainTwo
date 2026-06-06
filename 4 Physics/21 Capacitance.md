@@ -11,8 +11,8 @@
 $$
 \begin{aligned}
 C = \frac { Q } { V } \\
-Q = \text { electric charge } \\
-V = \text { voltage }
+Q = \text {electric charge} \\
+V = \text {voltage}
 \end{aligned}
 $$
 
@@ -32,8 +32,8 @@ $$
 \begin{aligned}
 C = \epsilon _ { 0 } \frac { A } { r } \\
 \epsilon _ { 0 } = 8.85 \times 10 ^ { - 12 } \\
-A = \text { area } \\
-r = \text { distance }
+A = \text {area} \\
+r = \text {distance}
 \end{aligned}
 $$
 
@@ -48,8 +48,8 @@ $$
 \begin{aligned}
 C = 2 \pi \epsilon _ { 0 } \frac { L } { \ln ( \frac { R _ { 2 } } { R _ { 1 } } ) } \\
 \epsilon _ { 0 } = 8.85 \times 10 ^ { - 12 } \\
-L = \text { length } \\
-R = \text { radius }
+L = \text {length} \\
+R = \text {radius}
 \end{aligned}
 $$
 
@@ -64,7 +64,7 @@ $$
 \begin{aligned}
 C = 4 \pi \epsilon _ { 0 } \frac { R _ { 1 } R _ { 2 } } { R _ { 2 } - R _ { 1 } } \\
 \epsilon _ { 0 } = 8.85 \times 10 ^ { - 12 } \\
-R = \text { radius }
+R = \text {radius}
 \end{aligned}
 $$
 
@@ -79,7 +79,7 @@ $$
 $$
 \begin{aligned}
 \frac { 1 } { C _ { eq } } = \sum _ { i } \frac { 1 } { C _ { i } } \\
-C = \text { capacitance }
+C = \text {capacitance}
 \end{aligned}
 $$
 
@@ -94,7 +94,7 @@ $$
 $$
 \begin{aligned}
 C _ { eq } = \sum _ { i } C _ { i } \\
-C = \text { capacitance }
+C = \text {capacitance}
 \end{aligned}
 $$
 
@@ -112,9 +112,9 @@ $$
 $$
 \begin{aligned}
 U = \frac { QV } { 2 } = \frac { C V ^ { 2 } } { 2 } = \frac { Q ^ { 2 } } { 2 C } \\
-Q = \text { electric charge } \\
-V = \text { voltage } \\
-C = \text { capacitance }
+Q = \text {electric charge} \\
+V = \text {voltage} \\
+C = \text {capacitance}
 \end{aligned}
 $$
 
@@ -128,7 +128,7 @@ $$
 \begin{aligned}
 u = \frac { 1 } { 2 } \epsilon _ { 0 } E ^ { 2 } \\
 \epsilon _ { 0 } = 8.85 \times 10 ^ { - 12 } \\
-E = \text { electric field }
+E = \text {electric field}
 \end{aligned}
 $$
 
@@ -171,10 +171,10 @@ $$
 $$
 \begin{aligned}
 K = \frac { \epsilon } { \epsilon _ { 0 } } = \frac { C } { C _ { 0 } } = \frac { Q } { Q _ { 0 } } = \frac { V _ { 0 } } { V } \\
-\epsilon = \text { permittivity } \\
-C = \text { capacitance } \\
-Q = \text { electric charge } \\
-V = \text { voltage }
+\epsilon = \text {permittivity} \\
+C = \text {capacitance} \\
+Q = \text {electric charge} \\
+V = \text {voltage}
 \end{aligned}
 $$
 
@@ -194,10 +194,10 @@ $$
 $$
 \begin{aligned}
 \pm \Phi = K \oint _ { A _ { 1 } } ^ { A _ { 2 } } \vec E \cdot d \vec A = \frac { \pm Q _ { enc } } { \epsilon _ { 0 } } \\
-K = \text { dielectric constant } \\
-E = \text { electric field } \\
-A = \text { area } \\
-Q = \text { electric charge } \\
+K = \text {dielectric constant} \\
+E = \text {electric field} \\
+A = \text {area} \\
+Q = \text {electric charge} \\
 \epsilon _ { 0 } = 8.85 \times 10 ^ { - 12 } \\
 \end{aligned}
 $$

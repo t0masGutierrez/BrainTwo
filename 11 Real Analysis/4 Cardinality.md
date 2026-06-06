@@ -6,7 +6,7 @@
 $$
 \begin{aligned}
 \forall p , q \in S \subset \mathbb R , \forall \lambda \in [ 0 , 1 ] : \lambda p + ( 1 - q ) \lambda \in S \\
-S = \text { convex set }
+S = \text {convex set}
 \end{aligned}
 $$
 
@@ -19,7 +19,7 @@ $$
 $$
 \begin{aligned}
 \forall ( x < y ) \in I \subset \mathbb R : [ x , y ] = \{ z \in \mathbb R | x \le z \le y \} \subset I \\
-I = \text { interval }
+I = \text {interval}
 \end{aligned}
 $$
 
@@ -32,8 +32,8 @@ $$
 $$
 \begin{aligned}
 \forall ( a \le b ) \in \mathbb R : \prod _ { i = 1 } ^ { k } [ a _ { i } , b _ { i } ] = \{ x \in \mathbb R ^ { k } | a _ { i } \le x _ { i } \le b _ { i } \} \\
-a = \text { lower endpoint } \\
-b = \text { upper endpoint }
+a = \text {lower endpoint} \\
+b = \text {upper endpoint}
 \end{aligned}
 $$
 
@@ -46,8 +46,8 @@ $$
 $$
 \begin{aligned}
 ( a , b ) = \{ x \in \mathbb R | a < x < b \} \\
-a = \text { lower endpoint } \\
-b = \text { upper endpoint }
+a = \text {lower endpoint} \\
+b = \text {upper endpoint}
 \end{aligned}
 $$
 
@@ -60,8 +60,8 @@ $$
 $$
 \begin{aligned}
 {}[ a , b ] = \{ x \in \mathbb R | a \le x \le b \} \\
-a = \text { lower endpoint } \\
-b = \text { upper endpoint }
+a = \text {lower endpoint} \\
+b = \text {upper endpoint}
 \end{aligned}
 $$
 
@@ -74,8 +74,8 @@ $$
 $$
 \begin{aligned}
 \# A = \# B \iff f : A \rightarrow B , \forall b \in B , \exists ! a \in A : f ( a ) = b \\
-\# = \text { cardinality } \\
-f = \text { bijection }
+\# = \text {cardinality} \\
+f = \text {bijection}
 \end{aligned}
 $$
 
@@ -88,7 +88,7 @@ $$
 $$
 \begin{aligned}
  \# \mathbb N = \aleph _ { 0 } \\
-\# = \text { cardinality }
+\# = \text {cardinality}
 \end{aligned}
 $$
 
@@ -101,7 +101,7 @@ $$
 $$
 \begin{aligned}
 \# \mathbb R = 2 ^ { \aleph _ { 0 } } \\
-\# = \text { cardinality }
+\# = \text {cardinality}
 \end{aligned}
 $$
 
@@ -114,7 +114,7 @@ $$
 $$
 \begin{aligned}
 \exists n \in \mathbb N : \{ 0 , 1 , 2 , \dots , n \} \sim S \\
-S = \text { finite set }
+S = \text {finite set}
 \end{aligned}
 $$
 
@@ -127,7 +127,7 @@ $$
 $$
 \begin{aligned}
 \forall n \in \mathbb N : \{ 0 , 1 , 2 , \dots , n \} \not \sim S \\
-S = \text { infinite set }
+S = \text {infinite set}
 \end{aligned}
 $$
 
@@ -140,7 +140,7 @@ $$
 $$
 \begin{aligned}
 \mathbb N \sim S \\
-S = \text { countable set }
+S = \text {countable set}
 \end{aligned}
 $$
 
@@ -153,7 +153,7 @@ $$
 $$
 \begin{aligned}
 ( \{ 0 , 1 , 2 , \dots , n \} \not \sim S ) \land ( \mathbb N \not \sim S ) \\
-S = \text { uncountable set }
+S = \text {uncountable set}
 \end{aligned}
 $$
 
@@ -196,7 +196,7 @@ $$
 $$
 \begin{aligned}
 ( \mathbb N \sim S ) \land ( S _ { 1 } \subset S ) \implies \mathbb N \sim S _ { 1 } \\
-S , S _ { 1 } = \text { countable set }
+S , S _ { 1 } = \text {countable set}
 \end{aligned}
 $$
 
@@ -209,7 +209,7 @@ $$
 $$
 \begin{aligned}
 \forall \in \mathbb N : \mathbb N \sim S _ { n } \implies \mathbb N \sim \bigcup _ { n = 1 } ^ { \infty } S _ { n } \\
-S = \text { countable set }
+S = \text {countable set}
 \end{aligned}
 $$
 
@@ -222,7 +222,7 @@ $$
 $$
 \begin{aligned}
 \forall \in \mathbb N : \mathbb N \sim S _ { n } \implies \mathbb N \sim S ^ { n } \\
-S = \text { countable set }
+S = \text {countable set}
 \end{aligned}
 $$
 
@@ -235,7 +235,7 @@ $$
 $$
 \begin{aligned}
 ( a , b \in \mathbb R ) \land ( S = \{ x \in \mathbb R | a \le x \le b \} ) \implies \mathbb N \not \sim S \\
-S = \text { uncountable set }
+S = \text {uncountable set}
 \end{aligned}
 $$
 
@@ -248,10 +248,10 @@ $$
 $$
 \begin{aligned}
 ( f : A \rightarrow B ) \land ( \mathbb N \sim A ) \implies \mathbb N \sim f ( A ) \\
-f = \text { function } \\
-A = \text { domain } \\
-A , f ( A ) = \text { countable set } \\
-B = \text { codomain }
+f = \text {function} \\
+A = \text {domain} \\
+A , f ( A ) = \text {countable set} \\
+B = \text {codomain}
 \end{aligned}
 $$
 
@@ -264,9 +264,9 @@ $$
 $$
 \begin{aligned}
 ( f : A \rightarrow B ) \land ( \mathbb N \not \sim A ) \implies \mathbb N \not \sim B \\
-f = \text { injection } \\
-A = \text { domain } \\
-B = \text { codomain }
+f = \text {injection} \\
+A = \text {domain} \\
+B = \text {codomain}
 \end{aligned}
 $$
 
@@ -279,9 +279,9 @@ $$
 $$
 \begin{aligned}
 ( f : A \rightarrow B ) \land ( \mathbb N \not \sim B ) \implies \mathbb N \not \sim A \\
-f = \text { surjection } \\
-A = \text { domain } \\
-B = \text { codomain }
+f = \text {surjection} \\
+A = \text {domain} \\
+B = \text {codomain}
 \end{aligned}
 $$
 

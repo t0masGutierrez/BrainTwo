@@ -18,8 +18,8 @@ $$
 $$
 \begin{aligned}
 x , y \in \mathbb R ^ { n } \implies d ( x , y ) = \| x - y \| = \sum _ { i = 1 } ^ { n } \sqrt { ( x _ { i } - y _ { i } ) ^ { 2 } } \\
-x , y = \text { coordinate } \\
-\| \cdot \| = \text { norm } \\
+x , y = \text {coordinate} \\
+\| \cdot \| = \text {norm} \\
 
 \end{aligned}
 $$
@@ -48,9 +48,9 @@ $$
 $$
 \begin{aligned}
 B _ { r } ( x _ { 0 } ) = \{ x \in X | d ( x , x _ { 0 } ) < r \} \\
-r = \text { radius } \\
-x _ { 0 } = \text { center } \\
-X = \text { metric space }
+r = \text {radius} \\
+x _ { 0 } = \text {center} \\
+X = \text {metric space}
 \end{aligned}
 $$
 
@@ -63,11 +63,11 @@ $$
 $$
 \begin{aligned}
 \exists r > 0 : B _ { r } ( x _ { 0 } ) \subset N \subset X \\
-r = \text { radius } \\
-B = \text { open ball } \\
-x _ { 0 } = \text { center } \\
-N = \text { neighborhood } \\
-X = \text { metric space }
+r = \text {radius} \\
+B = \text {open ball} \\
+x _ { 0 } = \text {center} \\
+N = \text {neighborhood} \\
+X = \text {metric space}
 \end{aligned}
 $$
 
@@ -80,10 +80,10 @@ $$
 $$
 \begin{aligned}
 \exists r > 0 : B _ { r } ( x _ { 0 } ) \subset S \subset X \\
-r = \text { radius } \\
-B = \text { open ball } \\
-x _ { 0 } = \text { interior point } \\
-X = \text { metric space }
+r = \text {radius} \\
+B = \text {open ball} \\
+x _ { 0 } = \text {interior point} \\
+X = \text {metric space}
 \end{aligned}
 $$
 
@@ -96,10 +96,10 @@ $$
 $$
 \begin{aligned}
 \forall r > 0 : B _ { r } ( x _ { 0 } ) \setminus \{ x _ { 0 } \} \cap ( S \subset X ) \ne \emptyset \\
-r = \text { radius } \\
-B = \text { open ball } \\
-x _ { 0 } = \text { limit point } \\
-X = \text { metric space }
+r = \text {radius} \\
+B = \text {open ball} \\
+x _ { 0 } = \text {limit point} \\
+X = \text {metric space}
 \end{aligned}
 $$
 
@@ -112,11 +112,11 @@ $$
 $$
 \begin{aligned}
 \forall x \in S \subset X , \exists r > 0 : B _ { r } ( x ) \subset S \\
-x = \text { interior point } \\
-S = \text { open set } \\
-X = \text { metric space } \\
-r = \text { radius } \\
-B = \text { open ball }
+x = \text {interior point} \\
+S = \text {open set} \\
+X = \text {metric space} \\
+r = \text {radius} \\
+B = \text {open ball}
 \end{aligned}
 $$
 
@@ -129,11 +129,11 @@ $$
 $$
 \begin{aligned}
 \forall x \in S \subset Y \subset X , \exists r > 0 : B _ { r } ( x ) \cap Y \subset S \\
-x = \text { interior point } \\
-S = \text { relatively open set } \\
-X = \text { metric space } \\
-r = \text { radius } \\
-B = \text { open ball }
+x = \text {interior point} \\
+S = \text {relatively open set} \\
+X = \text {metric space} \\
+r = \text {radius} \\
+B = \text {open ball}
 \end{aligned}
 $$
 
@@ -146,9 +146,9 @@ $$
 $$
 \begin{aligned}
 S ' \subset S \subset X \\
-S ' = \text { derived set } \\
-S = \text { closed set } \\
-X = \text { metric space }
+S ' = \text {derived set} \\
+S = \text {closed set} \\
+X = \text {metric space}
 \end{aligned}
 $$
 
@@ -161,10 +161,10 @@ $$
 $$
 \begin{aligned}
 S ^ { \circ } = \{ x \in X | \exists r > 0 : B _ { r } ( x ) \subset S \subset X \} \\
-x = \text { interior point } \\
-X = \text { metric space } \\
-r = \text { radius } \\
-B = \text { open ball }
+x = \text {interior point} \\
+X = \text {metric space} \\
+r = \text {radius} \\
+B = \text {open ball}
 \end{aligned}
 $$
 
@@ -177,7 +177,7 @@ $$
 $$
 \begin{aligned}
 \overline S = S \cup S ' \\
-S ' = \text { derived set }
+S ' = \text {derived set}
 \end{aligned}
 $$
 
@@ -190,9 +190,9 @@ $$
 $$
 \begin{aligned}
 \partial S = \overline S \setminus S ^ { \circ } = \overline S \cap \overline { S ^ { c } } \\
-\overline S = \text { closure } \\
-S ^ { \circ } = \text { interior } \\
-c = \text { complement }
+\overline S = \text {closure} \\
+S ^ { \circ } = \text {interior} \\
+c = \text {complement}
 \end{aligned}
 $$
 
@@ -205,9 +205,9 @@ $$
 $$
 \begin{aligned}
 S ' = S \subset X \\
-S ' = \text { derived set } \\
-S = \text { perfect set } \\
-X = \text { metric space }
+S ' = \text {derived set} \\
+S = \text {perfect set} \\
+X = \text {metric space}
 \end{aligned}
 $$
 
@@ -220,9 +220,9 @@ $$
 $$
 \begin{aligned}
 S \subset \overline S = X \\
-S = \text { dense set } \\
-\overline S = \text { closure } \\
-X = \text { metric space } \\
+S = \text {dense set} \\
+\overline S = \text {closure} \\
+X = \text {metric space} \\
 \end{aligned}
 $$
 
@@ -235,10 +235,10 @@ $$
 $$
 \begin{aligned}
 \exists x _ { 0 } \in X , \exists r > 0 : S \subset B _ { r } ( x _ { 0 } ) \subset X \\
-x _ { 0 } = \text { center } \\
-X = \text { metric space } \\
-r = \text { radius } \\
-S = \text { bounded set }
+x _ { 0 } = \text {center} \\
+X = \text {metric space} \\
+r = \text {radius} \\
+S = \text {bounded set}
 \end{aligned}
 $$
 
@@ -251,12 +251,12 @@ $$
 $$
 \begin{aligned}
 \forall r > 0 , \exists \set { x _ { i } } _ { i = 1 } ^ { n } \subset X : S \subset \bigcup _ { i = 1 } ^ { n } B _ { r } ( x _ { i } ) \subset X \\
-r = \text { radius } \\
-x _ { i } = \text { center } \\
-\set { x _ { i } } = \text { sequence } \\
-X = \text { metric space } \\
-S = \text { totally bounded set } \\
-B = \text { open ball } \\
+r = \text {radius} \\
+x _ { i } = \text {center} \\
+\set { x _ { i } } = \text {sequence} \\
+X = \text {metric space} \\
+S = \text {totally bounded set} \\
+B = \text {open ball} \\
 
 
 \end{aligned}
@@ -297,9 +297,9 @@ $$
 $$
 \begin{aligned}
 S = ( a , b ) \subset X \implies S ' = [ a , b ] \\
-S = \text { interval } \\
-S ' = \text { derived set } \\
-X = \text { metric space }
+S = \text {interval} \\
+S ' = \text {derived set} \\
+X = \text {metric space}
 \end{aligned}
 $$
 
@@ -312,7 +312,7 @@ $$
 $$
 \begin{aligned}
 ( \bigcup _ { i \in I } S _ { i } ) ^ { c } = \bigcap _ { i \in I } ( S _ { i } ^ { c } ) \\
-c = \text { complement }
+c = \text {complement}
 \end{aligned}
 $$
 
@@ -327,10 +327,10 @@ $$
 \begin{aligned}
 S ' \subset S \subset X \iff \forall x \in S ^ { c } , \exists r > 0 : B _ { r } ( x ) \subset S ^ { c } \\
 \forall x \in S \subset X , \exists r > 0 : B _ { r } ( x ) \subset S \iff ( S ' ) ^ { c } \subset S ^ { c } \\
-S ' = \text { derived set } \\
-c = \text { complement } \\
-r = \text { radius } \\
-B = \text { open ball }
+S ' = \text {derived set} \\
+c = \text {complement} \\
+r = \text {radius} \\
+B = \text {open ball}
 \end{aligned}
 $$
 

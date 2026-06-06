@@ -28,8 +28,8 @@ $$
 $$
 \begin{aligned}
 P ( A ) = \lim _ { n \to \infty } \frac { m } { n } \\
-m = \text { number of events } \\
-n = \text { number of trials }
+m = \text {number of events} \\
+n = \text {number of trials}
 \end{aligned}
 $$
 
@@ -41,9 +41,9 @@ $$
 ### classical probability formula
 $$
 \begin{aligned}
-P ( A ) = \frac { \text { m } } { \text { n } } \\
-m = \text { number of favorable outcomes } \\
-n = \text { total number of outcomes }
+P ( A ) = \frac { \text {m} } { \text {n} } \\
+m = \text {number of favorable outcomes} \\
+n = \text {total number of outcomes}
 \end{aligned}
 $$
 
@@ -164,8 +164,8 @@ $$
 $$
 \begin{aligned}
 P ( A | B ) = \frac { P ( A ) P ( B | A ) } { P ( B ) } \\
-A = \text { hypothesis } \\
-B = \text { condition }
+A = \text {hypothesis} \\
+B = \text {condition}
 \end{aligned}
 $$
 
@@ -178,8 +178,8 @@ $$
 $$
 \begin{aligned}
 P ( A ) = \sum _ { i = 1 } ^ { n } P ( A | B _ { i } ) P ( B _ { i } ) \\
-A = \text { hypothesis } \\
-B = \text { condition }
+A = \text {hypothesis} \\
+B = \text {condition}
 \end{aligned}
 $$
 
@@ -192,8 +192,8 @@ $$
 $$
 \begin{aligned}
 _ { n } P _ { k } = \frac { n ! } { ( n - k ) ! } = k ! \begin{pmatrix} n \\ k \end{pmatrix} \\
-n = \text { number of objects } \\
-k = \text { number of arrangements }
+n = \text {number of objects} \\
+k = \text {number of arrangements}
 \end{aligned}
 $$
 
@@ -206,8 +206,8 @@ $$
 $$
 \begin{aligned}
 \begin{pmatrix} n \\ k \end{pmatrix} = \frac { n ! } { k ! ( n - k ) ! } \\
-n = \text { number of objects } \\
-k = \text { number of choices }
+n = \text {number of objects} \\
+k = \text {number of choices}
 \end{aligned}
 $$
 

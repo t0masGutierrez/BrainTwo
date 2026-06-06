@@ -6,12 +6,12 @@
 $$
 \begin{aligned}
 f : A \to B \iff \forall a \in A , \exists ! b \in B : f ( a ) = b \\
-f = \text { function } \\
-A = \text { domain } \\
-B = \text { codomain } \\
-a = \text { preimage } \\
-f ( a ) = \text { image } \\
-f ( A ) = \text { range }
+f = \text {function} \\
+A = \text {domain} \\
+B = \text {codomain} \\
+a = \text {preimage} \\
+f ( a ) = \text {image} \\
+f ( A ) = \text {range}
 \end{aligned}
 $$
 
@@ -29,12 +29,12 @@ L ( \vec v _ { 1 } + \vec v _ { 2 } ) = L ( \vec v _ { 1 } ) + L ( \vec v _ { 2 
 L ( c \vec v ) = c L ( \vec v )
 \end{cases}
 \\
-L = \text { linear transformation } \\
-\mathcal V = \text { domain vector space } \\
-\mathcal W = \text { codomain vector space } \\
-\vec v = \text { preimage } \\
-\vec w = \text { image } \\
-c = \text { scalar }
+L = \text {linear transformation} \\
+\mathcal V = \text {domain vector space} \\
+\mathcal W = \text {codomain vector space} \\
+\vec v = \text {preimage} \\
+\vec w = \text {image} \\
+c = \text {scalar}
 \end{aligned}
 $$
 
@@ -47,8 +47,8 @@ $$
 $$
 \begin{aligned}
 L : \mathcal V \rightarrow \mathcal V \\
-L = \text { linear operator } \\
-\mathcal V = \text { vector space }
+L = \text {linear operator} \\
+\mathcal V = \text {vector space}
 \end{aligned}
 $$
 
@@ -61,9 +61,9 @@ $$
 $$
 \begin{aligned}
 I : \mathcal V \rightarrow \mathcal V \iff L ( \vec v ) = \vec v \\
-L = \text { identity linear operator } \\
-\mathcal V = \text { vector space } \\
-\vec v = \text { vector }
+L = \text {identity linear operator} \\
+\mathcal V = \text {vector space} \\
+\vec v = \text {vector}
 \end{aligned}
 $$
 
@@ -150,9 +150,9 @@ $$
 $$
 \begin{aligned}
 L ( \vec 0 _ { \mathcal V } ) = \vec 0 _ { \mathcal W } \\
-L = \text { linear transformation } \\
-\mathcal V = \text { domain vector space } \\
-\mathcal W = \text { codomain vector space }
+L = \text {linear transformation} \\
+\mathcal V = \text {domain vector space} \\
+\mathcal W = \text {codomain vector space}
 \end{aligned}
 $$
 
@@ -165,10 +165,10 @@ $$
 $$
 \begin{aligned}
 L ( \sum _ { i = 1 } ^ { n } c _ { i } \vec v _ { i } ) = \sum _ { i = 1 } ^ { n } c _ { i } L ( \vec v _ { i } ) \\
-L = \text { linear transformation } \\
-n = \text { dimension } \\
-c = \text { scalar } \\
-\vec v = \text { preimage }
+L = \text {linear transformation} \\
+n = \text {dimension} \\
+c = \text {scalar} \\
+\vec v = \text {preimage}
 \end{aligned}
 $$
 
@@ -182,8 +182,8 @@ $$
 \begin{aligned}
 ( L _ { 1 } : \mathcal V _ { 1 } \rightarrow \mathcal V _ { 2 } ) \land ( L _ { 2 } : \mathcal V _ { 2 } \rightarrow \mathcal V _ { 3 } ) \implies L _ { 2 } \circ L _ { 1 } : \mathcal V _ { 1 } \rightarrow \mathcal V _ { 3 } \\
 ( L _ { 2 } \circ L _ { 1 } ) ( \vec v ) = L _ { 2 } ( L _ { 1 } ( \vec v ) ) \\
-L = \text { linear transformation } \\
-\mathcal V = \text { vector space }
+L = \text {linear transformation} \\
+\mathcal V = \text {vector space}
 \end{aligned}
 $$
 
@@ -198,11 +198,11 @@ $$
 \begin{aligned}
 ( L : \mathcal V \rightarrow \mathcal W ) \land ( \mathcal V ' \le \mathcal V ) \implies L ( \mathcal V ' ) = \{ L ( \vec v ) \mid \vec v \in \mathcal V ' \} \le \mathcal W \\
 ( L : \mathcal V \rightarrow \mathcal W ) \land ( \mathcal W ' \le \mathcal W ) \implies L ^ { - 1 } ( \mathcal W ' ) = \{ \vec v \mid L ( \vec v ) \in \mathcal W ' \} \le \mathcal V \\
-L = \text { linear transformation } \\
-\mathcal V = \text { domain vector space } \\
-\mathcal W = \text { codomain vector space } \\
-\vec v = \text { preimage } \\
-L ( \vec v ) = \text { image }
+L = \text {linear transformation} \\
+\mathcal V = \text {domain vector space} \\
+\mathcal W = \text {codomain vector space} \\
+\vec v = \text {preimage} \\
+L ( \vec v ) = \text {image}
 \end{aligned}
 $$
 

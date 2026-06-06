@@ -7,9 +7,9 @@
 $$
 \begin{aligned}
 \rho ( \vec r ) = m \delta ( \vec r - \vec r _ { 0 } ) \\
-m = \text { mass } \\
-\delta = \text { dirac } \\
-\vec r = \text { position }
+m = \text {mass} \\
+\delta = \text {dirac} \\
+\vec r = \text {position}
 \end{aligned}
 $$
 
@@ -24,9 +24,9 @@ $$
 \begin{aligned}
 \vec F _ { g } = G \frac { m _ { 1 } m _ { 2 } } { r ^ { 2 } } \hat r \\
 G = 6.67 \times 10 ^ { - 11 } \\
-m = \text { mass } \\
-r = \text { distance } \\
-\hat r = \text { direction }
+m = \text {mass} \\
+r = \text {distance} \\
+\hat r = \text {direction}
 \end{aligned}
 $$
 
@@ -41,11 +41,11 @@ $$
 \begin{aligned}
 \vec g = G \frac { M } { r ^ { 2 } } \hat r = \frac { \vec F _ { g } } { m } \\
 G = 6.67 \times 10 ^ { - 11 } \\
-M = \text { source mass } \\
-r = \text { distance } \\
-\hat r = \text { direction } \\
-\vec F = \text { force } \\
-m = \text { test mass }
+M = \text {source mass} \\
+r = \text {distance} \\
+\hat r = \text {direction} \\
+\vec F = \text {force} \\
+m = \text {test mass}
 \end{aligned}
 $$
 
@@ -60,8 +60,8 @@ $$
 \begin{aligned}
 U _ { g } = - G \frac { m _ { 1 } m _ { 2 } } { r } \\
 G = 6.67 \times 10 ^ { - 11 } \\
-m = \text { mass } \\
-r = \text { distance }
+m = \text {mass} \\
+r = \text {distance}
 \end{aligned}
 $$
 
@@ -85,10 +85,10 @@ $$
 \begin{aligned}
 \frac { 1 } { 2 } m v _ { 1 } ^ { 2 } + \frac { - G M m } { r _ { 1 } } = \frac { 1 } { 2 } m v _ { 2 } ^ { 2 } + \frac { - G M m } { r _ { 2 } } \\
 \frac { 1 } { 2 } m v _ { 2 } ^ { 2 } - \frac { 1 } { 2 } m v _ { 1 } ^ { 2 } = \frac { GMm } { r _ { 1 } } - \frac { GMm } { r _ { 2 } } \\
-m = \text { mass } \\
-v = \text { velocity } \\
+m = \text {mass} \\
+v = \text {velocity} \\
 G = 6.67 \times 10 ^ { - 11 } \\
-r = \text { distance }
+r = \text {distance}
 \end{aligned}
 $$
 
@@ -110,8 +110,8 @@ $$
 \begin{aligned}
 E = - G \frac { m _ { 1 } m _ { 2 } } { 2 r } \\
 G = 6.67 \times 10 ^ { - 11 } \\
-m = \text { mass } \\
-r = \text { distance }
+m = \text {mass} \\
+r = \text {distance}
 \end{aligned}
 $$
 
@@ -121,8 +121,8 @@ $$
 \begin{aligned}
 v = \sqrt { \frac { Gm } { r } } \\
 G = 6.67 \times 10 ^ { - 11 } \\
-m = \text { mass } \\
-r = \text { distance }
+m = \text {mass} \\
+r = \text {distance}
 \end{aligned}
 $$
 
@@ -131,9 +131,9 @@ $$
 $$
 \begin{aligned}
 T = 2 \pi \sqrt { \frac { r ^ { 3 } } { Gm } } \\
-r = \text { distance } \\
+r = \text {distance} \\
 G = 6.67 \times 10 ^ { - 11 } \\
-m = \text { mass }
+m = \text {mass}
 \end{aligned}
 $$
 
@@ -157,8 +157,8 @@ $$
 \begin{aligned}
 v = \sqrt { \frac { 2 G M } { r } } \\
 G = 6.67 \times 10 ^ { - 11 } \\
-m = \text { mass } \\
-r = \text { distance }
+m = \text {mass} \\
+r = \text {distance}
 \end{aligned}
 $$
 

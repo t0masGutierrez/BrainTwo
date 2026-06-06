@@ -7,9 +7,9 @@
 $$
 \begin{aligned}
 \vec \tau = \vec r \times \vec F = r F \sin ( \phi ) \\
-\vec r = \text { radius } \\
-\vec F = \text { force } \\
-\phi = \text { angle between vectors }
+\vec r = \text {radius} \\
+\vec F = \text {force} \\
+\phi = \text {angle between vectors}
 \end{aligned}
 $$
 
@@ -23,8 +23,8 @@ $$
 $$
 \begin{aligned}
 \tau = r F _ { \perp } \\
-r = \text { radius } \\
-F _ { \perp } = \text { perpendicular force }
+r = \text {radius} \\
+F _ { \perp } = \text {perpendicular force}
 \end{aligned}
 $$
 
@@ -38,8 +38,8 @@ $$
 $$
 \begin{aligned}
 \tau = r _ { \perp } F \\
-r = \text { perpendicular radius } \\
-F = \text { force }
+r = \text {perpendicular radius} \\
+F = \text {force}
 \end{aligned}
 $$
 
@@ -57,8 +57,8 @@ $$
 \hat F = z \implies \tau = 0 \\
 \circlearrowleft \implies \tau > 0 \\
 \circlearrowright \implies \tau < 0 \\
-F = \text { force } \\
-\tau = \text { torque }
+F = \text {force} \\
+\tau = \text {torque}
 \end{aligned}
 $$
 
@@ -72,8 +72,8 @@ $$
 $$
 \begin{aligned}
 \vec \tau _ { net } = I \vec \alpha \\
-I = \text { moment of inertia } \\
-\vec \alpha = \text { angular acceleration }
+I = \text {moment of inertia} \\
+\vec \alpha = \text {angular acceleration}
 \end{aligned}
 $$
 
@@ -87,9 +87,9 @@ $$
 $$
 \begin{aligned}
 W = \vec \tau \cdot \Delta \vec \theta = \tau \Delta \theta \cos ( \phi ) \\
-\tau = \text { torque } \\
-\theta = \text { angular position } \\
-\phi = \text { angle between vectors }
+\tau = \text {torque} \\
+\theta = \text {angular position} \\
+\phi = \text {angle between vectors}
 \end{aligned}
 $$
 
@@ -98,8 +98,8 @@ $$
 $$
 \begin{aligned}
 W = \int \vec \tau \cdot d \vec \theta \\
-\vec \tau = \text { torque } \\
-\vec \theta = \text { angular position }
+\vec \tau = \text {torque} \\
+\vec \theta = \text {angular position}
 \end{aligned}
 $$
 
@@ -112,8 +112,8 @@ $$
 $$
 \begin{aligned}
 W _ { net } = \frac { 1 } { 2 } I ( \omega _ { f } ^ { 2 } - \omega _ { i } ^ { 2 } ) \\
-I = \text { moment of inertia } \\
-\omega = \text { angular velocity }
+I = \text {moment of inertia} \\
+\omega = \text {angular velocity}
 \end{aligned}
 $$
 
@@ -126,9 +126,9 @@ $$
 $$
 \begin{aligned}
 P = \vec \tau \cdot \vec \omega = \tau \omega \cos ( \phi ) \\
-\vec \tau = \text { torque } \\
-\vec \omega = \text { angular velocity } \\
-\phi = \text { angle between vectors }
+\vec \tau = \text {torque} \\
+\vec \omega = \text {angular velocity} \\
+\phi = \text {angle between vectors}
 \end{aligned}
 $$
 
@@ -142,10 +142,10 @@ $$
 $$
 \begin{aligned}
 K = \frac { 1 } { 2 } M v _ { cm } ^ { 2 } + \frac { 1 } { 2 } I _ { cm } \omega ^ { 2 } \\
-M = \text { system mass } \\
-v = \text { velocity } \\
-I = \text { moment of inertia } \\
-\omega = \text { angular velocity }
+M = \text {system mass} \\
+v = \text {velocity} \\
+I = \text {moment of inertia} \\
+\omega = \text {angular velocity}
 \end{aligned}
 $$
 
@@ -162,10 +162,10 @@ $$
 d _ { cm } = r \theta \\
 v _ { cm } = r \omega \\
 a _ { cm } = r \alpha \\
-r = \text { radius } \\
-\theta = \text { angular position } \\
-\omega = \text { angular velocity } \\
-\alpha = \text { angular acceleration }
+r = \text {radius} \\
+\theta = \text {angular position} \\
+\omega = \text {angular velocity} \\
+\alpha = \text {angular acceleration}
 \end{aligned}
 $$
 
@@ -181,13 +181,13 @@ $$
 d = d _ { cm } - r \theta \\
 v = v _ { cm } - r \omega \\
 a = a _ { cm } - r \alpha \\
-d = \text { distance } \\
-r = \text { radius } \\
-\theta = \text { angular position } \\
-v = \text { velocity } \\
-\omega = \text { angular velocity } \\
-a = \text { acceleration } \\
-\alpha = \text { angular acceleration }
+d = \text {distance} \\
+r = \text {radius} \\
+\theta = \text {angular position} \\
+v = \text {velocity} \\
+\omega = \text {angular velocity} \\
+a = \text {acceleration} \\
+\alpha = \text {angular acceleration}
 \end{aligned}
 $$
 
@@ -201,10 +201,10 @@ $$
 $$
 \begin{aligned}
 \vec L = \vec r \times \vec p = I \vec \omega \\
-\vec r = \text { radius } \\
-\vec p = \text { momentum } \\
-I = \text { moment of inertia } \\
-\vec \omega = \text { angular velocity }
+\vec r = \text {radius} \\
+\vec p = \text {momentum} \\
+I = \text {moment of inertia} \\
+\vec \omega = \text {angular velocity}
 \end{aligned}
 $$
 
@@ -218,8 +218,8 @@ $$
 $$
 \begin{aligned}
 \hat \omega = \hat L \\
-\omega = \text { angular velocity } \\
-L = \text { angular momentum }
+\omega = \text {angular velocity} \\
+L = \text {angular momentum}
 \end{aligned}
 $$
 
@@ -232,8 +232,8 @@ $$
 $$
 \begin{aligned}
 \vec \tau _ { net } = \frac { d \vec L } { dt } \\
-\vec L = \text { angular momentum } \\
-t = \text { time }
+\vec L = \text {angular momentum} \\
+t = \text {time}
 \end{aligned}
 $$
 
@@ -247,9 +247,9 @@ $$
 $$
 \begin{aligned}
 \vec H = \Delta \vec L = \vec \tau _ { net } \Delta t \\
-\vec L = \text { angular momentum } \\
-\vec \tau = \text { torque } \\
-t = \text { time }
+\vec L = \text {angular momentum} \\
+\vec \tau = \text {torque} \\
+t = \text {time}
 \end{aligned}
 $$
 
@@ -258,9 +258,9 @@ $$
 $$
 \begin{aligned}
 \vec H = \Delta \vec L = \int \vec \tau _ { net } \cdot d t \\
-\vec L = \text { angular momentum } \\
-\vec \tau = \text { torque } \\
-t = \text { time }
+\vec L = \text {angular momentum} \\
+\vec \tau = \text {torque} \\
+t = \text {time}
 \end{aligned}
 $$
 
@@ -273,8 +273,8 @@ $$
 $$
 \begin{aligned}
 \vec \tau _ { net } = 0 \implies \vec L _ { i } = \vec L _ { f } \\
-\vec \tau = \text { torque } \\
-\vec L = \text { angular momentum }
+\vec \tau = \text {torque} \\
+\vec L = \text {angular momentum}
 \end{aligned}
 $$
 
@@ -288,10 +288,10 @@ $$
 $$
 \begin{aligned}
 \Omega = \frac { wr } { I \omega } \\
-w = \text { weight } \\
-r = \text { radius } \\
-I = \text { moment of inertia } \\
-\omega = \text { angular velocity }
+w = \text {weight} \\
+r = \text {radius} \\
+I = \text {moment of inertia} \\
+\omega = \text {angular velocity}
 \end{aligned}
 $$
 
@@ -304,7 +304,7 @@ $$
 $$
 \begin{aligned}
 \vec v = 0 \\
-\vec v = \text { velocity }
+\vec v = \text {velocity}
 \end{aligned}
 $$
 
@@ -317,8 +317,8 @@ $$
 $$
 \begin{aligned}
 \frac { d \vec v } { dt } = 0 \\
-\vec v = \text { velocity } \\
-t = \text { time }
+\vec v = \text {velocity} \\
+t = \text {time}
 \end{aligned}
 $$
 
@@ -331,7 +331,7 @@ $$
 $$
 \begin{aligned}
 \vec F _ { net } = 0 \\
-\vec F = \text { force }
+\vec F = \text {force}
 \end{aligned}
 $$
 
@@ -344,7 +344,7 @@ $$
 $$
 \begin{aligned}
 \vec \tau _ { net } = 0 \\
-\vec \tau = \text { torque }
+\vec \tau = \text {torque}
 \end{aligned}
 $$
 
@@ -358,9 +358,9 @@ $$
 $$
 \begin{aligned}
 \vec r _ { cg } = \frac { \sum _ { n } m _ { n } \vec r _ { n } } { M } \\
-m = \text { mass } \\
-\vec r = \text { position } \\
-M = \text { system mass }
+m = \text {mass} \\
+\vec r = \text {position} \\
+M = \text {system mass}
 \end{aligned}
 $$
 
@@ -374,8 +374,8 @@ $$
 $$
 \begin{aligned}
 \vec g ( \vec r ) = \vec g _ { 0 } \implies \vec r _ { cg } = \vec r _ { cm } \\
-\vec g = \text { gravity } \\
-\vec r = \text { position }
+\vec g = \text {gravity} \\
+\vec r = \text {position}
 \end{aligned}
 $$
 
@@ -389,8 +389,8 @@ $$
 $$
 \begin{aligned}
 \vec r _ { cg } \not \in A \implies \downarrow \\
-\vec r = \text { position } \\
-A = \text { area }
+\vec r = \text {position} \\
+A = \text {area}
 \end{aligned}
 $$
 
@@ -406,9 +406,9 @@ $$
 \sigma _ { Y } = \frac { F } { A } \\
 \sigma _ { B } = \Delta p \\
 \sigma _ { S } = \frac { F _ { \parallel } } { A } \\
-F = \text { force } \\
-A = \text { cross-section area } \\
-p = \text { pressure }
+F = \text {force} \\
+A = \text {cross-section area} \\
+p = \text {pressure}
 \end{aligned}
 $$
 
@@ -423,10 +423,10 @@ $$
 \epsilon _ { Y } = \frac { \Delta L } { L _ { 0 } } \\
 \epsilon _ { B } = \frac { \Delta V } { V _ { 0 } } \\
 \epsilon _ { S } = \frac { \Delta x } { h } \\
-L = \text { length } \\
-V = \text { volume } \\
-x = \text { position } \\
-h = \text { height }
+L = \text {length} \\
+V = \text {volume} \\
+x = \text {position} \\
+h = \text {height}
 \end{aligned}
 $$
 
@@ -442,14 +442,14 @@ $$
 Y = \frac { \sigma } { \epsilon } \\
 B = \frac { - \Delta p } { \Delta V / V _ { 0 } } \\
 S = \frac { F _ { \parallel } / A } { \Delta x / h } \\
-\sigma = \text { stress } \\
-\epsilon = \text { strain } \\
-p = \text { pressure } \\
-V = \text { volume } \\
-F = \text { force } \\
-A = \text { area } \\
-x = \text { position } \\
-h = \text { height }
+\sigma = \text {stress} \\
+\epsilon = \text {strain} \\
+p = \text {pressure} \\
+V = \text {volume} \\
+F = \text {force} \\
+A = \text {area} \\
+x = \text {position} \\
+h = \text {height}
 \end{aligned}
 $$
 

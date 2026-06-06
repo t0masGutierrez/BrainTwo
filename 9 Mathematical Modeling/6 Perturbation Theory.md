@@ -7,10 +7,10 @@ $$
 \begin{aligned}
 f ( t , x , \epsilon ) \\
 0 \le \epsilon \ll 1 \\
-f = \text { perturbed equation } \\
-t = \text { time } \\
-x = \text { solution } \\
-\epsilon = \text { parameter }
+f = \text {perturbed equation} \\
+t = \text {time} \\
+x = \text {solution} \\
+\epsilon = \text {parameter}
 \end{aligned}
 $$
 
@@ -23,10 +23,10 @@ $$
 $$
 \begin{aligned}
 y = f ( t , x , \epsilon ) \\
-f = \text { perturbed equation } \\
-t = \text { time } \\
-x = \text { solution } \\
-\epsilon = \text { parameter }
+f = \text {perturbed equation} \\
+t = \text {time} \\
+x = \text {solution} \\
+\epsilon = \text {parameter}
 \end{aligned}
 $$
 
@@ -41,10 +41,10 @@ $$
 \frac { dx } { dt } = f ( t , x , \epsilon ) \\
 x ( t _ { 0 } , \epsilon ) = x _ { 0 } ( \epsilon ) \\
 t \ge 0 \\
-f = \text { perturbed equation } \\
-t = \text { time } \\
-x = \text { solution } \\
-\epsilon = \text { parameter }
+f = \text {perturbed equation} \\
+t = \text {time} \\
+x = \text {solution} \\
+\epsilon = \text {parameter}
 \end{aligned}
 $$
 
@@ -57,11 +57,11 @@ $$
 $$
 \begin{aligned}
 ( \epsilon > 0 ) \land ( \# f ( t , x , \epsilon ) = k ) \implies ( \epsilon = 0 ) \land ( \# f ( t , x , \epsilon ) = k ) \\
-f = \text { perturbed equation } \\
-t = \text { time } \\
-x = \text { solution } \\
-\epsilon = \text { parameter } \\
-k = \text { number of solutions }
+f = \text {perturbed equation} \\
+t = \text {time} \\
+x = \text {solution} \\
+\epsilon = \text {parameter} \\
+k = \text {number of solutions}
 \end{aligned}
 $$
 
@@ -74,11 +74,11 @@ $$
 $$
 \begin{aligned}
 ( \epsilon > 0 ) \land ( \# f ( t , x , \epsilon ) = k ) \implies ( \epsilon = 0 ) \land ( \# f ( t , x , \epsilon ) \ne k ) \\
-f = \text { perturbed equation } \\
-t = \text { time } \\
-x = \text { solution } \\
-\epsilon = \text { parameter } \\
-k = \text { number of solutions }
+f = \text {perturbed equation} \\
+t = \text {time} \\
+x = \text {solution} \\
+\epsilon = \text {parameter} \\
+k = \text {number of solutions}
 \end{aligned}
 $$
 
@@ -92,12 +92,12 @@ $$
 \begin{aligned}
 f ( t , x , \epsilon ) = \sum _ { i , j , k = 0 } ^ { \infty } c _ { ijk } ( t - t _ { 0 } ) ^ { i } ( x - x _ { 0 } ) ^ { j } ( \epsilon - \epsilon _ { 0 } ) ^ { k } \\
 | t - t _ { 0 } | < \sigma , | x - x _ { 0 } | < \eta , | \epsilon - \epsilon _ { 0 } | < \rho \\
-f = \text { perturbed equation } \\
-t = \text { time } \\
-x = \text { solution } \\
-\epsilon = \text { parameter } \\
-c = \text { coefficient } \\
-\sigma , \eta , \rho = \text { radius of convergence }
+f = \text {perturbed equation} \\
+t = \text {time} \\
+x = \text {solution} \\
+\epsilon = \text {parameter} \\
+c = \text {coefficient} \\
+\sigma , \eta , \rho = \text {radius of convergence}
 \end{aligned}
 $$
 
@@ -111,9 +111,9 @@ $$
 \begin{aligned}
 f ( \epsilon ) = \sum _ { n = 0 } ^ { \infty } c _ { n } \epsilon ^ { n } \\
 \frac { f ( \epsilon ) } { \epsilon ^ { r } } = \sum _ { n = 0 } ^ { \infty } c _ { n } \epsilon ^ { n - r } \\
-f = \text { perturbed equation } \\
-c = \text { coefficient } \\
-\epsilon = \text { parameter }
+f = \text {perturbed equation} \\
+c = \text {coefficient} \\
+\epsilon = \text {parameter}
 \end{aligned}
 $$
 
@@ -126,10 +126,10 @@ $$
 $$
 \begin{aligned}
 \lim _ { \epsilon \rightarrow 0 } | \frac { f ( \epsilon ) } { \epsilon ^ { r } } | \le C \implies f ( \epsilon ) \le O ( \epsilon ^ { r } ) \\
-f = \text { perturbed equation } \\
-\epsilon = \text { parameter } \\
-C = \text { constant } \\
-r = \text { order }
+f = \text {perturbed equation} \\
+\epsilon = \text {parameter} \\
+C = \text {constant} \\
+r = \text {order}
 \end{aligned}
 $$
 
@@ -142,9 +142,9 @@ $$
 $$
 \begin{aligned}
 \lim _ { \epsilon \rightarrow 0 } \frac { f ( \epsilon ) } { \epsilon ^ { r } } = 0 \implies f ( \epsilon ) \ll o ( \epsilon ^ { r } ) \\
-f = \text { perturbed equation } \\
-\epsilon = \text { parameter } \\
-o = \text { order }
+f = \text {perturbed equation} \\
+\epsilon = \text {parameter} \\
+o = \text {order}
 \end{aligned}
 $$
 
@@ -157,9 +157,9 @@ $$
 $$
 \begin{aligned}
 f ( \epsilon ) = \sum _ { n = 0 } ^ { \infty } \frac { f ^ { ( n ) } ( 0 ) } { n ! } \epsilon ^ { n } \\
-f = \text { perturbed equation } \\
-f ^ { n } = \text { nth derivative } \\
-\epsilon = \text { parameter }
+f = \text {perturbed equation} \\
+f ^ { n } = \text {nth derivative} \\
+\epsilon = \text {parameter}
 \end{aligned}
 $$
 
@@ -179,9 +179,9 @@ $$
 F ( x , \epsilon ) = 0 \\
 x ( \epsilon _ { 0 } ) = x _ { 0 } \\
 0 \le \epsilon \ll 1 \\
-F = \text { regular algebraic equation } \\
-x = \text { solution } \\
-\epsilon = \text { parameter }
+F = \text {regular algebraic equation} \\
+x = \text {solution} \\
+\epsilon = \text {parameter}
 \end{aligned}
 $$
 
@@ -194,9 +194,9 @@ $$
 $$
 \begin{aligned}
 \frac { \partial F } { \partial x } ( x _ { 0 } , \epsilon _ { 0 } ) \ne 0 \\
-F = \text { algebraic equation } \\
-x = \text { solution } \\
-\epsilon = \text { parameter }
+F = \text {algebraic equation} \\
+x = \text {solution} \\
+\epsilon = \text {parameter}
 \end{aligned}
 $$
 
@@ -209,9 +209,9 @@ $$
 $$
 \begin{aligned}
 \frac { \partial F } { \partial x } ( x _ { 0 } , \epsilon _ { 0 } ) \ne 0 \implies x ( \epsilon ) = \sum _ { n = 0 } ^ { \infty } x _ { n } \epsilon ^ { n } \\
-F = \text { algebraic equation } \\
-x = \text { solution } \\
-\epsilon = \text { parameter }
+F = \text {algebraic equation} \\
+x = \text {solution} \\
+\epsilon = \text {parameter}
 \end{aligned}
 $$
 
@@ -225,10 +225,10 @@ $$
 \begin{aligned}
 \frac { \partial F } { \partial x } ( x _ { 0 } , \epsilon _ { 0 } ) = 0 \implies x ( \delta ) = \sum _ { n = 0 } ^ { \infty } x _ { n } \delta ^ { n } \\
 \delta = \epsilon ^ { 1 / m } \\
-F = \text { algebraic equation } \\
-x = \text { solution } \\
-\epsilon = \text { parameter } \\
-m = \text { multiplicity }
+F = \text {algebraic equation} \\
+x = \text {solution} \\
+\epsilon = \text {parameter} \\
+m = \text {multiplicity}
 \end{aligned}
 $$
 
@@ -249,9 +249,9 @@ $$
 u ( t _ { 0 } , \epsilon ) = u _ { 0 } ( \epsilon ) \\
 0 \le \epsilon \ll 1 \\
 t \ge 0 \\
-F = \text { regular differential equation } \\
-u = \text { solution } \\
-\epsilon = \text { parameter }
+F = \text {regular differential equation} \\
+u = \text {solution} \\
+\epsilon = \text {parameter}
 \end{aligned}
 $$
 
@@ -264,9 +264,9 @@ $$
 $$
 \begin{aligned}
 \frac { \partial F } { \partial u ' } ( t _ { 0 } , u _ { 0 } , u _ { 0 } ' , \epsilon _ { 0 } ) \ne 0 \\
-F = \text { algebraic equation } \\
-u = \text { solution } \\
-\epsilon = \text { parameter }
+F = \text {algebraic equation} \\
+u = \text {solution} \\
+\epsilon = \text {parameter}
 \end{aligned}
 $$
 
@@ -278,11 +278,11 @@ $$
 ### secularity formula
 $$
 \begin{aligned}
-x _ { 1 } ' ' + x _ { 1 } = f _ { 1 } ( t ) \in \text { span } \set { \cos t , \sin t } \implies t \cos \omega t , t \sin \omega t \subset x _ { 1 } ( t ) \\
-x = \text { solution } \\
-f = \text { force } \\
-t = \text { time } \\
-\omega = \text { frequency }
+x _ { 1 } ' ' + x _ { 1 } = f _ { 1 } ( t ) \in \text {span} \set { \cos t , \sin t } \implies t \cos \omega t , t \sin \omega t \subset x _ { 1 } ( t ) \\
+x = \text {solution} \\
+f = \text {force} \\
+t = \text {time} \\
+\omega = \text {frequency}
 \end{aligned}
 $$
 
@@ -330,10 +330,10 @@ F ( x , \epsilon ) = 0 \\
 x ( \epsilon _ { 0 } ) = x _ { 0 } \\
 x = \epsilon ^ { - n } y \\
 0 \le \epsilon \ll 1 \\
-F = \text { singular algebraic equation } \\
-x = \text { solution } \\
-y = \text { change of variable } \\
-\epsilon = \text { parameter }
+F = \text {singular algebraic equation} \\
+x = \text {solution} \\
+y = \text {change of variable} \\
+\epsilon = \text {parameter}
 \end{aligned}
 $$
 
@@ -380,8 +380,8 @@ $$
 $$
 \begin{aligned}
 \lim _ { x \rightarrow 0 ^ { + } } y _ { out } ( x ) = \lim _ { \tau \rightarrow \infty } y _ { in } ( \tau ) \\
-y _ { out } = \text { outer solution } \\
-y _ { in } = \text { inner solution }
+y _ { out } = \text {outer solution} \\
+y _ { in } = \text {inner solution}
 \end{aligned}
 $$
 
@@ -404,9 +404,9 @@ $$
 $$
 \begin{aligned}
 y ( x ) = y _ { out } ( x ) + y _ { in } ( x ) - y _ { match } ( x ) \\
-y _ { out } = \text { outer solution } \\
-y _ { in } = \text { inner solution } \\
-y _ { match } = \text { matching solution }
+y _ { out } = \text {outer solution} \\
+y _ { in } = \text {inner solution} \\
+y _ { match } = \text {matching solution}
 \end{aligned}
 $$
 

@@ -7,7 +7,7 @@ $$
 \begin{aligned}
 \{ a _ { n } \} _ { n = 1 } ^ { \infty } = a : \mathbb N \rightarrow S \\
 n \mapsto a _ { n } \\
-a _ { n } = \text { term }
+a _ { n } = \text {term}
 \end{aligned}
 $$
 
@@ -20,8 +20,8 @@ $$
 $$
 \begin{aligned}
 \exists a \in X : \lim _ { n \rightarrow \infty } a _ { n } = a \iff \forall \epsilon > 0 , \exists N \in \mathbb N , \forall n \ge N : d ( a _ { n } , a ) < \epsilon \\
-\set { a _ { n } } = \text { convergent sequence } \\
-a = \text { sequential limit }
+\set { a _ { n } } = \text {convergent sequence} \\
+a = \text {sequential limit}
 \end{aligned}
 $$
 
@@ -34,8 +34,8 @@ $$
 $$
 \begin{aligned}
 \not \exists a \in X : \lim _ { n \rightarrow \infty } a _ { n } = a \iff \exists \epsilon > 0 , \forall N \in \mathbb N , \exists n \ge N : d ( a _ { n } , a ) \ge \epsilon \\
-\set { a _ { n } } = \text { divergent sequence } \\
-a = \text { sequential limit }
+\set { a _ { n } } = \text {divergent sequence} \\
+a = \text {sequential limit}
 \end{aligned}
 $$
 
@@ -50,8 +50,8 @@ $$
 \{ a _ { n _ { k } } \} _ { k = 1 } ^ { \infty } = a \circ n : \mathbb N \rightarrow S \\
 k \mapsto a _ { n _ { k } } \\
 \forall k \in \mathbb N : n _ { k } < n _ { k + 1 } \\
-\{ a _ { n _ { k } } \} = \text { subsequence } \\
-a _ { n _ { k } } = \text { term }
+\{ a _ { n _ { k } } \} = \text {subsequence} \\
+a _ { n _ { k } } = \text {term}
 \end{aligned}
 $$
 
@@ -64,7 +64,7 @@ $$
 $$
 \begin{aligned}
 \forall \epsilon > 0 , \exists N \in \mathbb N , \forall n , m \ge N : d ( a _ { n } , a _ { m } ) < \epsilon \\
-\{ _ { c } a _ { n } \} = \text { cauchy sequence }
+\{ _ { c } a _ { n } \} = \text {cauchy sequence}
 \end{aligned}
 $$
 
@@ -77,9 +77,9 @@ $$
 $$
 \begin{aligned}
 \forall \{ _ { c } a _ { n } \} \subset X , \exists a \in X : \lim _ { n \rightarrow \infty } { } _ { c } a _ { n } = a \\
-\{ _ { c } a _ { n } \} = \text { cauchy sequence } \\
-X = \text { complete metric space } \\
-a = \text { sequential limit } \\
+\{ _ { c } a _ { n } \} = \text {cauchy sequence} \\
+X = \text {complete metric space} \\
+a = \text {sequential limit} \\
 \end{aligned}
 $$
 
@@ -93,10 +93,10 @@ $$
 \begin{aligned}
 S = \{ a \in \mathbb R | \lim _ { k \rightarrow \infty } a _ { n _ { k } } = a \} \implies \lim _ { n \rightarrow \infty } \sup a _ { n } = \sup S \\
 \lim _ { n \rightarrow \infty } \sup a _ { n } = \lim _ { n \rightarrow \infty } \sup _ { k \ge n } x _ { k } \\
-a = \text { sequential limit } \\
-\set { a _ { n _ { k } } } = \text { subsequence } \\
-S = \text { derived set } \\
-\sup S = \text { limit superior }
+a = \text {sequential limit} \\
+\set { a _ { n _ { k } } } = \text {subsequence} \\
+S = \text {derived set} \\
+\sup S = \text {limit superior}
 \end{aligned}
 $$
 
@@ -110,10 +110,10 @@ $$
 \begin{aligned}
 S = \{ a \in \mathbb R | \lim _ { k \rightarrow \infty } a _ { n _ { k } } = a \} \implies \lim _ { n \rightarrow \infty } \inf a _ { n } = \inf S \\
 \lim _ { n \rightarrow \infty } \inf a _ { n } = \lim _ { n \rightarrow \infty } \inf _ { k \ge n } x _ { k } \\
-a = \text { sequential limit } \\
-\set { a _ { n _ { k } } } = \text { subsequence } \\
-S = \text { derived set } \\
-\sup S = \text { limit inferior }
+a = \text {sequential limit} \\
+\set { a _ { n _ { k } } } = \text {subsequence} \\
+S = \text {derived set} \\
+\sup S = \text {limit inferior}
 \end{aligned}
 $$
 
@@ -126,8 +126,8 @@ $$
 $$
 \begin{aligned}
 \lim _ { n \rightarrow \infty } a _ { n } = a \implies \lim _ { n \rightarrow \infty } d ( a _ { n } , a ) = 0 \\
-\set { a _ { n } } = \text { convergent sequence } \\
-a = \text { sequential limit }
+\set { a _ { n } } = \text {convergent sequence} \\
+a = \text {sequential limit}
 \end{aligned}
 $$
 
@@ -196,11 +196,11 @@ $$
 $$
 \begin{aligned}
 S = \{ a | \lim _ { k \rightarrow \infty } a _ { n _ { k } } = a \} \implies S ' \subset S \subset X \\
-S = \text { closed set } \\
-a = \text { sequential limit } \\
-\set { a _ { n _ { k } } } = \text { subsequence } \\
-S ' = \text { derived set } \\
-X = \text { metric space }
+S = \text {closed set} \\
+a = \text {sequential limit} \\
+\set { a _ { n _ { k } } } = \text {subsequence} \\
+S ' = \text {derived set} \\
+X = \text {metric space}
 \end{aligned}
 $$
 

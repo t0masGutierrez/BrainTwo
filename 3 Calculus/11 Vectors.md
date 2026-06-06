@@ -31,8 +31,8 @@ $$
 \begin{aligned}
 A _ { x } = A \cos ( \theta ) \\
 A _ { y } = A \sin ( \theta ) \\
-A = \text { magnitude } \\
-\theta = \text { direction }
+A = \text {magnitude} \\
+\theta = \text {direction}
 \end{aligned}
 $$
 
@@ -41,10 +41,10 @@ $$
 $$
 \begin{aligned}
 \vec { A } = A _ { x } \hat { i } + A _ { y } \hat { j } \\
-A _ { x } = \text { x scalar component } \\
-\hat { i } = \text { x direction } \\
-A _ { y } = \text { y scalar component } \\
-\hat { j } = \text { y direction }
+A _ { x } = \text {x scalar component} \\
+\hat { i } = \text {x direction} \\
+A _ { y } = \text {y scalar component} \\
+\hat { j } = \text {y direction}
 \end{aligned}
 $$
 
@@ -57,8 +57,8 @@ $$
 $$
 \begin{aligned}
 A = \sqrt { A _ { x } ^ { 2 } + A _ { y } ^ { 2 } } \\
-A _ { x } = \text { x scalar component } \\
-A _ { y } = \text { y scalar component }
+A _ { x } = \text {x scalar component} \\
+A _ { y } = \text {y scalar component}
 \end{aligned}
 $$
 
@@ -72,8 +72,8 @@ $$
 $$
 \begin{aligned}
 \theta = \arctan ( \frac { A _ { y } } { A _ { x } } ) \\
-A _ { x } = \text { x scalar component } \\
-A _ { y } = \text { y scalar component }
+A _ { x } = \text {x scalar component} \\
+A _ { y } = \text {y scalar component}
 \end{aligned}
 $$
 
@@ -133,9 +133,9 @@ $$
 $$
 \begin{aligned}
 a \vec { A } = a A _ { x } \hat { i } + a A _ { y } \hat { j } \\
-a = \text { scalar quantity } \\
-A _ { x } \hat i = \text { x vector component } \\
-A _ { y } \hat j = \text { y vector component }
+a = \text {scalar quantity} \\
+A _ { x } \hat i = \text {x vector component} \\
+A _ { y } \hat j = \text {y vector component}
 \end{aligned}
 $$
 
@@ -148,10 +148,10 @@ $$
 $$
 \begin{aligned}
 \vec { R } = ( A _ { x } + B _ { x } ) \hat { i } + ( A _ { y } + B _ { y } ) \hat { j } \\
-A _ { x } = \text { x scalar component } \\
-\hat i = \text { x direction } \\
-A _ { y } = \text { y scalar component } \\
-\hat j = \text { y direction } \\
+A _ { x } = \text {x scalar component} \\
+\hat i = \text {x direction} \\
+A _ { y } = \text {y scalar component} \\
+\hat j = \text {y direction} \\
 \end{aligned}
 $$
 
@@ -179,8 +179,8 @@ $$
 $$
 \begin{aligned}
 \vec { A } \cdot \vec { B } = A B \cos ( \theta ) \\
-A = \text { magnitude } \\
-\theta = \text { angle between vectors }
+A = \text {magnitude} \\
+\theta = \text {angle between vectors}
 \end{aligned}
 $$
 
@@ -189,9 +189,9 @@ $$
 $$
 \begin{aligned}
 \vec { A } \cdot \vec { B } = A _ { x } B _ { x } + A _ { y } B _ { y } + A _ { z } B _ { z } \\
-A _ { x } = \text { x scalar component } \\
-A _ { y } = \text { y scalar component } \\
-A _ { z } = \text { z scalar component }
+A _ { x } = \text {x scalar component} \\
+A _ { y } = \text {y scalar component} \\
+A _ { z } = \text {z scalar component}
 \end{aligned}
 $$
 
@@ -200,9 +200,9 @@ $$
 $$
 \begin{aligned}
 \hat { i } \cdot \hat { j } = \hat { j } \cdot \hat { k } = \hat { k } \cdot \hat { i } = 0 \\
-\hat i = \text { x direction } \\
-\hat j = \text { y direction } \\
-\hat k = \text { z direction }
+\hat i = \text {x direction} \\
+\hat j = \text {y direction} \\
+\hat k = \text {z direction}
 \end{aligned}
 $$
 
@@ -217,8 +217,8 @@ $$
 $$
 \begin{aligned}
 | \vec { A } \times \vec { B } | = A B \sin ( \theta ) \\
-A = \text { magnitude } \\
-\theta = \text { angle between vectors }
+A = \text {magnitude} \\
+\theta = \text {angle between vectors}
 \end{aligned}
 $$
 
@@ -227,12 +227,12 @@ $$
 $$
 \begin{aligned}
 \vec { A } \times \vec { B } = ( A _ { y } B _ { z } - A _ { z } B _ { y } ) \hat { i } - ( A _ { x } B _ { z } - A _ { z } B _ { x } ) \hat { j } + ( A _ { x } B _ { y } - A _ { y } B _ { x } ) \hat { k } \\
-A _ { x } = \text { x scalar component } \\
-\hat i = \text { x direction } \\
-A _ { y } = \text { y scalar component } \\
-\hat j = \text { y direction } \\
-A _ { z } = \text { z scalar component } \\
-\hat k = \text { z direction }
+A _ { x } = \text {x scalar component} \\
+\hat i = \text {x direction} \\
+A _ { y } = \text {y scalar component} \\
+\hat j = \text {y direction} \\
+A _ { z } = \text {z scalar component} \\
+\hat k = \text {z direction}
 \end{aligned}
 $$
 
@@ -243,9 +243,9 @@ $$
 \hat { i } \times \hat { j } = \hat { k } \\
 \hat { j } \times \hat { k } = \hat { i } \\
 \hat { k } \times \hat { i } = \hat { j } \\
-\hat i = \text { x direction } \\
-\hat j = \text { y direction } \\
-\hat k = \text { z direction }
+\hat i = \text {x direction} \\
+\hat j = \text {y direction} \\
+\hat k = \text {z direction}
 \end{aligned}
 $$
 
@@ -263,9 +263,9 @@ V = \vec { C } \cdot ( \vec { A } \times \vec { B } ) = \vec C \begin{vmatrix}
 A _ { x } & A _ { y } & A _ { z } \\
 B _ { x } & B _ { y } & B _ { z }
 \end{vmatrix} \\
-A _ { x } = \text { x scalar component } \\
-B _ { y } = \text { y scalar component } \\
-C _ { z } = \text { z scalar component }
+A _ { x } = \text {x scalar component} \\
+B _ { y } = \text {y scalar component} \\
+C _ { z } = \text {z scalar component}
 \end{aligned}
 $$
 
@@ -277,7 +277,7 @@ $$
 ### parallel projection vector formula
 $$
 \begin{aligned}
-\text { proj } _ { \vec B } ( \vec A \parallel ) = ( \frac { \vec A \cdot \vec B } { B ^ { 2 } } ) \cdot \vec B
+\text {proj} _ { \vec B } ( \vec A \parallel ) = ( \frac { \vec A \cdot \vec B } { B ^ { 2 } } ) \cdot \vec B
 \end{aligned}
 $$
 
@@ -289,7 +289,7 @@ $$
 ### perpendicular projection vector formula
 $$
 \begin{aligned}
-\text { proj } _ { \vec B } ( \vec A \perp ) = \vec A - ( \frac { \vec A \cdot \vec B } { B ^ { 2 } } ) \cdot \vec B
+\text {proj} _ { \vec B } ( \vec A \perp ) = \vec A - ( \frac { \vec A \cdot \vec B } { B ^ { 2 } } ) \cdot \vec B
 \end{aligned}
 $$
 
@@ -324,9 +324,9 @@ $$
 $$
 \begin{aligned}
 \vec v = \vec { P _ { 0 } P } = \langle x - x _ { 0 } , y - y _ { 0 } , z - z _ { 0 } \rangle = \langle a , b , c \rangle \\
-a = \text { x scalar component } \\
-b = \text { y scalar component } \\
-c = \text { z scalar component }
+a = \text {x scalar component} \\
+b = \text {y scalar component} \\
+c = \text {z scalar component}
 \end{aligned}
 $$
 
@@ -342,7 +342,7 @@ $$
 \langle x , y , z \rangle = \langle x _ { 0 } , y _ { 0 } , z _ { 0 } \rangle + t \langle a , b , c \rangle \\
 \vec r = \langle x , y , z \rangle \\
 \vec r _ { 0 } = \langle x _ { 0 } , y _ { 0 } , z _ { 0 } \rangle \\
-t = \text { parameter } \\
+t = \text {parameter} \\
 \vec v = \langle a , b , c \rangle
 \end{aligned}
 $$
@@ -359,9 +359,9 @@ $$
 x = x _ { 0 } + a t \\
 y = y _ { 0 } + b t \\
 z = z _ { 0 } + c t \\
-x = \text { x scalar component } \\
-y = \text { y scalar component } \\
-z = \text { z scalar component }
+x = \text {x scalar component} \\
+y = \text {y scalar component} \\
+z = \text {z scalar component}
 \end{aligned}
 $$
 
@@ -387,9 +387,9 @@ $$
 $$
 \begin{aligned}
 \vec v = \vec { P _ { 0 } P } \perp = \vec { P _ { 0 } P _ { 1 } } \times \vec { P _ { 0 } P _ { 2 } } = \langle a , b , c \rangle \\
-a = \text { x scalar component } \\
-b = \text { y scalar component } \\
-c = \text { z scalar component }
+a = \text {x scalar component} \\
+b = \text {y scalar component} \\
+c = \text {z scalar component}
 \end{aligned}
 $$
 
