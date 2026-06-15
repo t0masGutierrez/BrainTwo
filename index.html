@@ -78,6 +78,10 @@
         .card-wrapper:last-child {
             border-bottom: none;
         }
+        .card-wrapper.search-highlight {
+            outline: 2px solid #f5c518;
+            outline-offset: 4px;
+        }
         .card-star {
             position: absolute;
             top: 50%;
@@ -673,6 +677,10 @@
     }
 
     class CardParser {
+        static splitSections(text) {
+            return String(text || '').split(/^\s*---\s*$/m).map(p => p.trim()).filter(Boolean);
+        }
+
         static stripImageEmbeds(text) {
             return text
                 .split('\n')
@@ -683,7 +691,7 @@
 
         static parseCards(text) {
             text = this.stripImageEmbeds(text);
-            const parts = text.split('---').map(p => p.trim()).filter(Boolean);
+            const parts = this.splitSections(text);
             const cards = [];
             const sections = parts.length > 1 ? parts : [parts[0]];
             for (const part of sections) {
@@ -693,15 +701,30 @@
             return cards;
         }
 
+        static displayTerm(term) {
+            return String(term || '').replace(/^#+\s*/, '').trim();
+        }
+
         static parseCard(part) {
             const lines = part.split('\n');
             let term = '';
             let defLines = [];
             let foundTerm = false;
             let foundDef = false;
+            let inMathBlock = false;
             for (let i = 0; i < lines.length; i++) {
                 const line = lines[i].trim();
-                if (!foundTerm && (line && line[0] !== '-' && !line.startsWith('$$'))) {
+                if (line === '$$') {
+                    if (foundTerm && !foundDef) foundDef = true;
+                    if (foundDef) defLines.push(lines[i]);
+                    inMathBlock = !inMathBlock;
+                    continue;
+                }
+                if (inMathBlock) {
+                    if (foundDef) defLines.push(lines[i]);
+                    continue;
+                }
+                if (!foundTerm && (line && line[0] !== '-' && !line.startsWith('\\'))) {
                     term = line;
                     foundTerm = true;
                     continue;
@@ -1066,12 +1089,23 @@
             return results
                 .map((result, index) => ({ ...result, _rankIndex: index }))
                 .sort((a, b) => {
+                    const priorityDiff = (a.priority || 0) - (b.priority || 0);
+                    if (priorityDiff !== 0) return priorityDiff;
                     const scoreDiff = (b.score || 0) - (a.score || 0);
                     if (scoreDiff !== 0) return scoreDiff;
                     if (a.type !== b.type) return a.type === 'file' ? -1 : 1;
                     return a._rankIndex - b._rankIndex;
                 })
                 .map(({ _rankIndex, ...result }) => result);
+        }
+
+        static async waitForImages(root) {
+            const images = Array.from(root?.querySelectorAll('img') || []).filter(img => !img.complete);
+            if (!images.length) return;
+            await Promise.all(images.map(img => new Promise(resolve => {
+                img.addEventListener('load', resolve, { once: true });
+                img.addEventListener('error', resolve, { once: true });
+            })));
         }
 
 	    async buildIndex() {
@@ -1088,10 +1122,10 @@
                                 .then(r => r.text())
                                 .then(text => {
                                     // Use raw split to preserve cardIndex alignment with loadFileContent
-                                    const parts = text.split('---').map(p => p.trim()).filter(Boolean);
-                                    parts.forEach((part, cardIndex) => {
-                                        const card = CardParser.parseCard(part);
-                                        if (card) {
+                    const parts = CardParser.splitSections(text);
+                    parts.forEach((part, cardIndex) => {
+                        const card = CardParser.parseCard(part);
+                        if (card) {
                                             this.index.push({
                                                 term: card.term,
                                                 definition: card.definition,
@@ -1159,10 +1193,11 @@
                 });
             }
 
-            const words = SearchEngine.searchWords(query);
+	            const words = SearchEngine.searchWords(query);
+                const normalizedQuery = SearchEngine.normalizeSearchText(query);
 
-            // File-level results
-            const fileResults = [];
+	            // File-level results
+	            const fileResults = [];
             const seenFiles = new Set();
             for (const folder of Object.keys(this.app.manifestData)) {
                 for (const file of this.app.manifestData[folder]) {
@@ -1172,13 +1207,14 @@
                     const folderClean = SearchEngine.normalizeTitleText(folder);
                     if (SearchEngine.allWordsMatch(folderClean + ' ' + fileClean, words)) {
                         seenFiles.add(key);
-                        const result = {
-                            type: 'file',
-                            folder,
-                            file,
-                            searchFields: [
-                                { text: fileClean, weight: 220 },
-                                { text: folderClean, weight: 80 },
+	                        const result = {
+	                            type: 'file',
+	                            folder,
+	                            file,
+                                priority: fileClean === normalizedQuery ? 1 : 3,
+	                            searchFields: [
+	                                { text: fileClean, weight: 220 },
+	                                { text: folderClean, weight: 80 },
                             ],
                         };
                         result.score = SearchEngine.scoreSearchResult(result, words);
@@ -1191,13 +1227,14 @@
                 const result = {
                     ...item,
                     type: 'term',
-                    searchFields: [
-                        { text: item.term, weight: 100 },
-                        { text: item.definition, weight: 35 },
-                        { text: SearchEngine.normalizeTitleText(item.file), weight: 65 },
-                        { text: SearchEngine.normalizeTitleText(item.folder), weight: 45 },
-                    ],
-                };
+	                    searchFields: [
+	                        { text: item.term, weight: 100 },
+	                        { text: item.definition, weight: 35 },
+	                        { text: SearchEngine.normalizeTitleText(item.file), weight: 65 },
+	                        { text: SearchEngine.normalizeTitleText(item.folder), weight: 45 },
+	                    ],
+                        priority: SearchEngine.normalizeSearchText(item.term) === normalizedQuery ? 0 : 2,
+	                };
                 const combined = result.searchFields.map(field => field.text).join(' ');
                 if (!SearchEngine.allWordsMatch(combined, words)) return null;
                 result.score = SearchEngine.scoreSearchResult(result, words);
@@ -1220,22 +1257,29 @@
                     div.innerHTML = `<div class="search-result-term">${escapeHtml(fileName)}</div><div class="search-result-meta">${escapeHtml(folderName)}</div>`;
                     div.onclick = () => { this.clear(); this.app.showFile(item.folder, item.file); };
                 } else {
-                    div.innerHTML = `<div class="search-result-term">${escapeHtml(item.term.replace(/^#+\s*/, ''))}</div><div class="search-result-meta">${escapeHtml(folderName)} › ${escapeHtml(fileName)}</div>`;
-                    div.onclick = () => this.navigateToCard(item.folder, item.file, item.cardIndex);
+                    div.innerHTML = `<div class="search-result-term">${escapeHtml(CardParser.displayTerm(item.term))}</div><div class="search-result-meta">${escapeHtml(folderName)} › ${escapeHtml(fileName)}</div>`;
+                    div.onclick = () => this.navigateToCard(item.folder, item.file, item.cardIndex, item.term);
                 }
                 resultsDiv.appendChild(div);
             });
             resultsDiv.style.display = 'block';
         }
 
-        async navigateToCard(folder, file, cardIndex) {
+        async navigateToCard(folder, file, cardIndex, term = '') {
             this.clear();
             await this.app.showFile(folder, file, { scrollToTop: false });
-            const cards = document.querySelectorAll('#file-content .card-wrapper');
-            if (cards[cardIndex]) {
-                cards[cardIndex].scrollIntoView({ behavior: 'smooth', block: 'center' });
-                cards[cardIndex].style.outline = '2px solid #f5c518';
-                setTimeout(() => { cards[cardIndex].style.outline = ''; }, 2000);
+            await SearchEngine.waitForImages(document.getElementById('file-content'));
+            const cards = Array.from(document.querySelectorAll('#file-content .card-wrapper'));
+            const expectedTerm = SearchEngine.normalizeSearchText(CardParser.displayTerm(term));
+            let target = cards[cardIndex] || null;
+            if (expectedTerm && SearchEngine.normalizeSearchText(target?.dataset.cardTerm || '') !== expectedTerm) {
+                target = cards.find(card => SearchEngine.normalizeSearchText(card.dataset.cardTerm || '') === expectedTerm) || target;
+            }
+            if (target) {
+                cards.forEach(card => card.classList.remove('search-highlight'));
+                target.classList.add('search-highlight');
+                target.scrollIntoView({ behavior: 'auto', block: 'center' });
+                setTimeout(() => { target.classList.remove('search-highlight'); }, 3000);
             }
         }
 
@@ -1893,12 +1937,16 @@
                 const text = await response.text();
                 const fileViewerText = MarkdownImageRenderer.expandObsidianImages(text, folder);
                 const contentDiv = document.getElementById('file-content');
-                const cards = fileViewerText.split('---').map(c => c.trim()).filter(Boolean);
+                const cards = CardParser.splitSections(fileViewerText);
                 const starred = StarManager.getIndices(folder, file);
                 contentDiv.innerHTML = '';
                 cards.forEach((cardText, i) => {
                     const wrapper = document.createElement('div');
                     wrapper.className = 'card-wrapper';
+                    const parsedCard = CardParser.parseCard(cardText);
+                    if (parsedCard) {
+                        wrapper.dataset.cardTerm = CardParser.displayTerm(parsedCard.term);
+                    }
                     const star = document.createElement('button');
                     star.className = 'card-star' + (starred.includes(i) ? ' starred' : '');
                     star.textContent = starred.includes(i) ? '★' : '☆';
