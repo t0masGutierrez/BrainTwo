@@ -1770,8 +1770,11 @@
             this._initRouteListeners();
             const initialSearch = this._getInitialSearchQuery();
             const initialRoute = RouteManager.getCurrentRoute(this.manifestData);
+            const savedState = SessionManager.getNavState();
             if (initialSearch) {
                 await this.showSearchResults(initialSearch);
+            } else if (this._shouldRestoreLearningRoute(initialRoute, savedState)) {
+                await this._restoreSession();
             } else if (initialRoute.view !== 'home' || initialRoute.replaceUrl) {
                 await this._showRoute(initialRoute, {
                     updateUrl: initialRoute.replaceUrl,
@@ -1782,6 +1785,17 @@
             }
             this._initScrollButton();
             this._initKeyboardListeners();
+        }
+
+        _shouldRestoreLearningRoute(route, state) {
+            return !!(
+                route && state &&
+                route.view === 'file' &&
+                state.view === 'file' &&
+                state.mode &&
+                route.folder === state.folder &&
+                route.file === state.file
+            );
         }
 
         _initSearchInput() {
@@ -1925,7 +1939,9 @@
             fileTitle.textContent = decodeURIComponent(file).replace(/^[0-9]+\s*/, '').replace('.md', '');
             fileTitle.style.textAlign = 'center';
             await this._loadFileContent(folder, file);
-            SessionManager.saveNavState('file', folder, file);
+            if (options.saveNavState !== false) {
+                SessionManager.saveNavState('file', folder, file);
+            }
             if (options.scrollToTop !== false) {
                 ViewManager.scrollToTop();
             }
@@ -2133,9 +2149,10 @@
         async _restoreSession() {
             const state = SessionManager.getNavState();
             if (!state) return;
+            const savedProgress = SessionManager.getLearnProgress();
             try {
                 if (state.view === 'file' && state.folder && state.file) {
-                    await this.showFile(state.folder, state.file);
+                    await this.showFile(state.folder, state.file, { saveNavState: false });
                     if (state.mode === 'learn-modal') {
                         this.showLearnModal();
                     } else if (state.mode && state.settings) {
@@ -2143,7 +2160,7 @@
                         this.lastLearnSettings = state.settings;
                         if (state.mode === 'flashcards') {
                             await this.flashcardMode.start(false);
-                            const fp = SessionManager.getLearnProgress();
+                            const fp = savedProgress;
                             if (fp.order && fp.order.length === this.flashcards.length) {
                                 const original = [...this.flashcards];
                                 this.flashcards = fp.order.map(i => original[i]);
@@ -2157,14 +2174,14 @@
                             this.flashcards = CardParser.parseCards(text);
                             if (state.mode === 'choice') {
                                 this.choiceMode.start(false);
-                                const cp = SessionManager.getLearnProgress();
+                                const cp = savedProgress;
                                 if (cp.order) this.choiceMode.order = cp.order;
                                 if (cp.cardIndex !== undefined) this.choiceMode.currentIndex = cp.cardIndex;
                                 this.choiceMode.retry.deserialize(cp);
                                 this.choiceMode.update();
                             } else {
                                 this.writeMode.start(false);
-                                const wp = SessionManager.getLearnProgress();
+                                const wp = savedProgress;
                                 if (wp.order) this.writeMode.order = wp.order;
                                 if (wp.cardIndex !== undefined) this.writeMode.currentIndex = wp.cardIndex;
                                 this.writeMode.retry.deserialize(wp);
