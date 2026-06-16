@@ -18,7 +18,7 @@ $$
 ### sample mean formula
 $$
 \begin{aligned}
-\overline X _ { n } = \frac { 1 } { n } \sum _ { i = 1 } ^ { n } X _ { i } \\
+\overline X = \frac { 1 } { n } \sum _ { i = 1 } ^ { n } X _ { i } \\
 X = \text {random variable}
 \end{aligned}
 $$
@@ -44,7 +44,7 @@ $$
 ### sample variance formula
 $$
 \begin{aligned}
-s ^ { 2 } = \text {Var} ( \overline X _ { n } ) = \frac { \sigma ^ { 2 } } { n } \\
+s ^ { 2 } = \text {Var} ( \overline X ) = \frac { \sigma ^ { 2 } } { n } \\
 \sigma ^ { 2 } = \text {variance} \\
 X = \text {random variable}
 \end{aligned}
@@ -52,7 +52,7 @@ $$
 
 ---
 ### markov inequality
-- upper boundary for the probability of nonnegative lower boundary
+- upper bound for probability of nonnegative lower boundary
 
 ---
 ### markov inequality formula
@@ -67,7 +67,7 @@ $$
 
 ---
 ### chebyshevs inequality
-- upper boundary for the probability of $k$ standard deviations from the mean
+- upper bound for probability of $k$ standard deviations from the mean
 
 ---
 ### chebyshevs inequality formula

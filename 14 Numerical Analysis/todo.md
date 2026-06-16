@@ -1,6 +1,4 @@
-term
+### term
 - definition
----
-term
-- definition
+
 ---

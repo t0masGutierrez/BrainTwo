@@ -22,7 +22,7 @@ $$
 ### newtons formula of gravitation
 $$
 \begin{aligned}
-\vec F _ { g } = G \frac { m _ { 1 } m _ { 2 } } { r ^ { 2 } } \hat r \\
+\vec F _ { g } = - G \frac { m _ { 1 } m _ { 2 } } { r ^ { 2 } } \hat r \\
 G = 6.67 \times 10 ^ { - 11 } \\
 m = \text {mass} \\
 r = \text {distance} \\
@@ -39,7 +39,7 @@ $$
 ### gravitational field formula
 $$
 \begin{aligned}
-\vec g = G \frac { M } { r ^ { 2 } } \hat r = \frac { \vec F _ { g } } { m } \\
+\vec g = - G \frac { M } { r ^ { 2 } } \hat r = \frac { \vec F _ { g } } { m } \\
 G = 6.67 \times 10 ^ { - 11 } \\
 M = \text {source mass} \\
 r = \text {distance} \\
@@ -51,29 +51,20 @@ $$
 
 ---
 ### gravitational potential energy
-- potential energy of gravity as function of distance
+- gravitational energy of position
 ![[4 Physics/Images/gravitational potential energy.png]]
 
 ---
 ### gravitational potential energy formula
 $$
 \begin{aligned}
-U _ { g } = - G \frac { m _ { 1 } m _ { 2 } } { r } \\
+U _ { g } = - G \frac { Mm } { r } \\
 G = 6.67 \times 10 ^ { - 11 } \\
+M = \text {source mass} \\
 m = \text {mass} \\
 r = \text {distance}
 \end{aligned}
 $$
-
----
-### calculate gravitational potential energy
-- $\sum U _ { g } = - G \sum _ { ij } \frac { m _ { i } m _ { j } } { r _ { ij } }$
-- $U _ { g } = - G ( \frac { m _ { 1 } m _ { 2 } } { r _ { 12 } } + \frac { m _ { 1 } m _ { 3 } } { r _ { 13 } } + \frac { m _ { 1 } m _ { 4 } } { r _ { 14 } } + \frac { m _ { 2 } m _ { 3 } } { r _ { 23 } } + \frac { m _ { 2 } m _ { 4 } } { r _ { 24 } } + \frac { m _ { 3 } m _ { 4 } } { r _ { 34 } } )$
-
----
-### calculate moving gravitational potential energy
-- $\sum U _ { g } = - G m \sum _ { i } \frac { m _ { i } } { r _ { i } }$
-- $U _ { g } = - G m ( \frac { m _ { 1 } } { r _ { 1 } } + \frac { m _ { 2 } } { r _ { 2 } } + \frac { m _ { 3 } } { r _ { 3 } } )$
 
 ---
 ### energy conservation

@@ -152,10 +152,9 @@ $$
 ### linear parameterization formula
 $$
 \begin{aligned}
-x ^ { 2 } + y ^ { 2 } = r ^ { 2 } \implies \vec r ( t ) = ( r \cos t , r \sin t ) \\
-x , y = \text {dependent variable} \\
-r = \text {radius} \\
-\vec r = \text {position} \\
+\vec r ( t ) = P _ { 0 } ( 1 - t ) + P _ { 1 } t \\
+0 \le t \le 1 \\
+P = \text {point} \\
 t = \text {parameter}
 \end{aligned}
 $$
@@ -168,7 +167,8 @@ $$
 ### circular parameterization formula
 $$
 \begin{aligned}
-\frac { x ^ { 2 } } { a ^ { 2 } } + \frac { y ^ { 2 } } { b ^ { 2 } } = 1 \implies \vec r ( t ) = ( a \cos t , b \sin t ) \\
+\frac { ( x - h ) ^ { 2 } } { a ^ { 2 } } + \frac { ( y - k ) ^ { 2 } } { b ^ { 2 } } = r ^ { 2 } \implies \vec r ( t ) = ( h + r \cos t , k + r \sin t ) \\
+0 \le t \le 2 \pi \\
 x , y = \text {dependent variable} \\
 a = \text {horizontal radius} \\
 b = \text {vertical radius} \\
@@ -185,7 +185,8 @@ $$
 ### elliptical parameterization formula
 $$
 \begin{aligned}
-\frac { x ^ { 2 } } { a ^ { 2 } } + \frac { y ^ { 2 } } { b ^ { 2 } } = 1 \implies \vec r ( t ) = ( a \cos t , b \sin t ) \\
+\frac { ( x - h ) ^ { 2 } } { a ^ { 2 } } + \frac { ( y - k ) ^ { 2 } } { b ^ { 2 } } = 1 \implies \vec r ( t ) = ( h + a \cos t , k + b \sin t ) \\
+0 \le t \le 2 \pi \\
 x , y = \text {dependent variable} \\
 a = \text {horizontal radius} \\
 b = \text {vertical radius} \\
@@ -202,7 +203,8 @@ $$
 ### hyperbolic parameterization formula
 $$
 \begin{aligned}
-\frac { x ^ { 2 } } { a ^ { 2 } } - \frac { y ^ { 2 } } { b ^ { 2 } } = 1 \implies \vec r ( t ) = ( a \sec t , b \tan t ) \\
+\frac { ( x - h ) ^ { 2 } } { a ^ { 2 } } - \frac { ( y - k ) ^ { 2 } } { b ^ { 2 } } = 1 \implies \vec r ( t ) = ( h + a \sec t , k + b \tan t ) \\
+0 \le t \le 2 \pi \\
 x , y = \text {dependent variable} \\
 a = \text {horizontal radius} \\
 b = \text {vertical radius} \\
