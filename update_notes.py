@@ -239,6 +239,51 @@ def is_heading_candidate(line):
     blocked_prefixes = ("- ", "### ", "$$", "---", "\\")
     return not stripped.startswith(blocked_prefixes)
 
+def format_generated_markdown_lines(lines):
+    formatted_lines = list(lines)
+    in_math_block = False
+
+    for i in range(len(formatted_lines)):
+        next_line = formatted_lines[i + 1] if i + 1 < len(formatted_lines) else ""
+        stripped_line = formatted_lines[i].strip()
+
+        # add newlines
+        if next_line.startswith("---"):
+            formatted_lines[i] = formatted_lines[i].rstrip("\n") + "\n\n"
+            stripped_line = formatted_lines[i].strip()
+
+        if stripped_line == "$$":
+            in_math_block = not in_math_block
+            continue
+
+        next_stripped_line = next_line.strip()
+        pattern0 = (
+            not in_math_block
+            and is_heading_candidate(formatted_lines[i])
+            and next_line.startswith("- ")
+        )
+        pattern1 = (
+            not in_math_block
+            and is_heading_candidate(formatted_lines[i])
+            and next_stripped_line == "$$"
+        )
+        pattern3 = formatted_lines[i].startswith("\\")
+
+        # add hashtags and newlines
+        if pattern0 or pattern1:
+            formatted_lines[i] = "### " + formatted_lines[i].rstrip("\n") + "\n"
+
+        # replace alignment
+        if pattern3:
+            formatted_lines[i] = formatted_lines[i].replace("align*", "aligned")
+
+        if in_math_block:
+            formatted_lines[i] = protect_mathjax_leading_square_bracket(sanitize_math_text(formatted_lines[i]))
+        else:
+            formatted_lines[i] = sanitize_inline_math(formatted_lines[i])
+
+    return formatted_lines
+
 def is_vault_note_folder(root, folder_name):
     return (
         not folder_name.startswith(".")
@@ -366,40 +411,7 @@ def update_notes():
                 with open(out_file, "r") as git:
                     lines = git.readlines()
 
-                    in_math_block = False
-
-                    # loop through lines inside file
-                    for i in range(len(lines)):
-                        next_line = lines[i + 1] if i + 1 < len(lines) else ""
-                        stripped_line = lines[i].strip()
-                        next_stripped_line = next_line.strip()
-
-                        pattern0 = is_heading_candidate(lines[i]) and next_line.startswith("- ")
-                        pattern1 = is_heading_candidate(lines[i]) and next_stripped_line == "$$"
-                        pattern2 = next_line.startswith("---")
-                        pattern3 = lines[i].startswith("\\")
-
-                        # add hashtags and newlines
-                        if pattern0 or pattern1:
-                            lines[i] = "### " + lines[i].rstrip("\n") + "\n"
-
-                        # add newlines
-                        if pattern2:
-                            lines[i] = lines[i].rstrip("\n") + "\n\n"
-
-                        # replace alignment
-                        if pattern3:
-                            lines[i] = lines[i].replace("align*", "aligned")
-
-                        stripped_line = lines[i].strip()
-                        if stripped_line == "$$":
-                            in_math_block = not in_math_block
-                            continue
-
-                        if in_math_block:
-                            lines[i] = protect_mathjax_leading_square_bracket(sanitize_math_text(lines[i]))
-                        else:
-                            lines[i] = sanitize_inline_math(lines[i])
+                    lines = format_generated_markdown_lines(lines)
 
                     # write to github files
                     with open(out_file, "w") as git:
