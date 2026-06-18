@@ -192,7 +192,7 @@ $$
 ### correlation formula
 $$
 \begin{aligned}
-# # # r = \frac { \sum z _ { x } z _ { y } } { n - 1 } \\
+r = \frac { \sum z _ { x } z _ { y } } { n - 1 } \\
 - 1 \le r \le 1 \\
 z = \text {z-score} \\
 n = \text {sample size} \\

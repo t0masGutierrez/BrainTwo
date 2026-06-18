@@ -238,8 +238,8 @@ $$
 ### right hand rule formula
 $$
 \begin{aligned}
-# # # C \perp A \hookrightarrow B \\
-- C \perp A \hookleftarrow B
+C \perp ( A \hookrightarrow B ) \\
+- C \perp ( A \hookleftarrow B )
 \end{aligned}
 $$
 
