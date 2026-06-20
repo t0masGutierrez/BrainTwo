@@ -141,6 +141,9 @@
             border: 1px solid #555;
             background: #1e1e1e;
             margin-top: 28px;
+            max-width: 100%;
+            overflow-x: hidden;
+            box-sizing: border-box;
         }
         .test-summary-header {
             padding: 16px;
@@ -152,6 +155,7 @@
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 0;
+            min-width: 0;
         }
         .test-summary-section {
             min-width: 0;
@@ -169,6 +173,11 @@
         .test-summary-card {
             padding: 12px;
             border-bottom: 1px solid #333;
+            min-width: 0;
+            max-width: 100%;
+            box-sizing: border-box;
+            overflow-wrap: anywhere;
+            word-break: break-word;
         }
         .test-summary-card:last-child {
             border-bottom: none;
@@ -181,6 +190,23 @@
             color: #ddd;
             font-size: 0.95em;
             line-height: 1.4;
+            min-width: 0;
+            max-width: 100%;
+            overflow-wrap: anywhere;
+            word-break: break-word;
+        }
+        .test-summary-definition mjx-container,
+        .test-summary-definition .mjx-container,
+        .test-summary-definition math[display="block"] {
+            display: block;
+            max-width: 100%;
+            overflow-x: visible;
+            overflow-y: visible;
+        }
+        .test-summary-definition mjx-container.summary-math-fit svg {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
         }
         .test-empty-state {
             padding: 12px;
@@ -345,6 +371,7 @@
         }
         .modal-content.session-summary-content {
             max-width: min(var(--modal-wide-width), calc(100vw - var(--modal-viewport-margin)));
+            overflow-x: hidden;
         }
         .summary-columns {
             display: grid;
@@ -355,10 +382,14 @@
             background: #1e1e1e;
             max-height: min(62vh, 420px);
             overflow-y: auto;
+            overflow-x: hidden;
+            min-width: 0;
         }
         .summary-list {
             min-height: 140px;
             border-right: 1px solid #555;
+            min-width: 0;
+            max-width: 100%;
         }
         .summary-list:last-child {
             border-right: none;
@@ -582,6 +613,7 @@
             max-width: 100%;
             box-sizing: border-box;
         }
+        .flashcard mjx-container,
         .flashcard .mjx-container,
         .flashcard math[display="block"] {
             max-width: 100%;
@@ -995,6 +1027,8 @@
     }
 
     class MathRenderer {
+        static SUMMARY_MATH_LINE_LENGTH = 46;
+
         static extractMathBlocks(md) {
             const mathBlocks = [];
             const regex = /\$\$[\s\S]+?\$\$|\$(?!\$)(?:\\.|[^\\$\n])+?\$/g;
@@ -1009,8 +1043,94 @@
             return html.replace(/<!--MATHBLOCK_(\d+)-->/g, (m, idx) => mathBlocks[parseInt(idx)]);
         }
 
-        static renderToHtml(content, replaceAllBackslash = true, wrapLongLines = false) {
-            const { text, mathBlocks } = this.extractMathBlocks(content);
+        static wrapDisplayMathLines(content, maxChars = this.SUMMARY_MATH_LINE_LENGTH) {
+            return String(content || '').replace(/\$\$([\s\S]+?)\$\$|\$(?!\$)((?:\\.|[^\\$\n])+?)\$/g, (match, displayBody, inlineBody) => {
+                if (displayBody !== undefined) {
+                    const wrapped = this._wrapDisplayMathBody(displayBody, maxChars);
+                    return `$$${wrapped}$$`;
+                }
+                if (inlineBody.length <= maxChars) return match;
+                const wrapped = this._wrapDisplayMathBody(`\n${inlineBody}\n`, maxChars).trim();
+                return `$$\n${wrapped}\n$$`;
+            });
+        }
+
+        static _wrapDisplayMathBody(body, maxChars) {
+            const lines = String(body || '').split('\n');
+            const containsEnvironment = /\\begin\{[^}]+\}/.test(body);
+            const supportedEnvironment = /\\begin\{(?:aligned|gathered|array)\}/.test(body);
+            if (containsEnvironment && !supportedEnvironment) return body;
+
+            const wrappedLines = lines.map(line => this._wrapDisplayMathLine(line, maxChars));
+            if (!containsEnvironment && wrappedLines.some((line, index) => line !== lines[index])) {
+                return `\n\\begin{aligned}\n${wrappedLines.join('\n')}\n\\end{aligned}\n`;
+            }
+            return wrappedLines.join('\n');
+        }
+
+        static _wrapDisplayMathLine(line, maxChars) {
+            const rawLine = String(line || '');
+            if (rawLine.length <= maxChars || /\\(?:begin|end)\{/.test(rawLine)) return rawLine;
+
+            const leading = rawLine.match(/^\s*/)[0];
+            const rowBreakMatch = rawLine.match(/^(.*?)(\s*\\\\\s*)$/);
+            let remaining = (rowBreakMatch ? rowBreakMatch[1] : rawLine).trim();
+            const trailingBreak = rowBreakMatch ? ' \\\\' : '';
+            const parts = [];
+
+            while (remaining.length > maxChars) {
+                const breakIndex = this._closestTopLevelSpaceIndex(remaining, maxChars);
+                if (breakIndex <= 0 || breakIndex >= remaining.length) break;
+                parts.push(remaining.slice(0, breakIndex).trimEnd());
+                remaining = remaining.slice(breakIndex + 1).trimStart();
+            }
+
+            parts.push(remaining);
+            if (parts.length === 1) return rawLine;
+            return leading + parts.join(` \\\\\n${leading}`) + trailingBreak;
+        }
+
+        static _closestTopLevelSpaceIndex(line, target) {
+            const spaces = [];
+            let braceDepth = 0;
+            let parenDepth = 0;
+            for (let i = 0; i < line.length; i++) {
+                const char = line[i];
+                if (char === '{') braceDepth++;
+                if (char === '}') braceDepth = Math.max(0, braceDepth - 1);
+                if (char === '(') parenDepth++;
+                if (char === ')') parenDepth = Math.max(0, parenDepth - 1);
+                if (
+                    char === ' ' &&
+                    braceDepth === 0 &&
+                    parenDepth === 0 &&
+                    !/[([{]/.test(line[i - 1] || '') &&
+                    !/[([{)\]}]/.test(line[i + 1] || '')
+                ) {
+                    spaces.push(i);
+                }
+            }
+            if (!spaces.length) return -1;
+            const score = index => {
+                const preferredBonus = this._isPreferredMathBreak(line, index) ? 12 : 0;
+                return Math.abs(index - target) - preferredBonus;
+            };
+            return spaces.reduce((best, index) => score(index) < score(best) ? index : best, spaces[0]);
+        }
+
+        static _isPreferredMathBreak(line, index) {
+            const before = line.slice(0, index);
+            const after = line.slice(index + 1);
+            const commandPattern = /\\(?:land|lor|implies|iff|le|ge|neq|equiv|subset|supset|subseteq|supseteq|in|notin|cup|cap|rightarrow|leftarrow|to|mapsto|pm|mp|times|cdot|div|approx|sim|propto)\b/;
+            return /[=+\-<>:,]$/.test(before) ||
+                /^[=+\-<>:,]/.test(after) ||
+                commandPattern.test(before.match(/\\[A-Za-z]+$/)?.[0] || '') ||
+                commandPattern.test(after.match(/^\\[A-Za-z]+/)?.[0] || '');
+        }
+
+        static renderToHtml(content, replaceAllBackslash = true, wrapLongLines = false, wrapMathLines = false) {
+            const displayContent = wrapMathLines ? this.wrapDisplayMathLines(content) : content;
+            const { text, mathBlocks } = this.extractMathBlocks(displayContent);
             const displayText = wrapLongLines ? CardTextFormatter.insertLineBreaks(text) : text;
             const processed = replaceAllBackslash
                 ? displayText.replace(/\\/g, '<br>')
@@ -1021,9 +1141,29 @@
 
         static typeset(element) {
             if (window.MathJax && window.MathJax.typesetPromise) {
-                return window.MathJax.typesetPromise([element]).catch(() => {});
+                return window.MathJax.typesetPromise([element])
+                    .then(() => this.fitSummaryMath(element))
+                    .catch(() => {});
             }
+            this.fitSummaryMath(element);
             return Promise.resolve();
+        }
+
+        static fitSummaryMath(element) {
+            const root = element || document;
+            root.querySelectorAll('.test-summary-definition mjx-container').forEach(math => {
+                const definition = math.closest('.test-summary-definition');
+                const svg = math.querySelector('svg');
+                if (!definition || !svg) return;
+
+                math.classList.remove('summary-math-fit');
+                const availableWidth = definition.clientWidth;
+                if (!availableWidth) return;
+
+                if (svg.getBoundingClientRect().width > availableWidth + 1) {
+                    math.classList.add('summary-math-fit');
+                }
+            });
         }
 
         static typesetClear() {
@@ -2943,7 +3083,23 @@
                 submit.onclick = () => this.retry();
             }
             this.app.saveLearnProgress();
-            ViewManager.scrollToTop();
+            this._scrollToRetryButton();
+        }
+
+        _scrollToRetryButton() {
+            const container = document.getElementById('test-container');
+            const actions = container ? container.querySelector('.test-actions') : null;
+            if (!actions) {
+                ViewManager.scrollToTop();
+                return;
+            }
+
+            const currentScrollY = window.pageYOffset
+                || document.documentElement.scrollTop
+                || document.body.scrollTop
+                || 0;
+            const targetTop = Math.max(0, currentScrollY + actions.getBoundingClientRect().top - 16);
+            window.scrollTo({ top: targetTop, behavior: 'auto' });
         }
 
         retry() {
@@ -2976,7 +3132,7 @@
             if (!items.length) return '<div class="test-empty-state">None</div>';
             return items.map(item => {
                 const term = escapeHtml(item.term);
-                const definition = MathRenderer.renderToHtml(item.definition);
+                const definition = MathRenderer.renderToHtml(item.definition, true, true, true);
                 return `
                     <div class="test-summary-card">
                         <div class="test-summary-term">${term}</div>
@@ -3350,7 +3506,7 @@
             }
             list.innerHTML += items.map(item => {
                 const term = escapeHtml(CardParser.displayTerm(item.term));
-                const definition = MathRenderer.renderToHtml(item.definition);
+                const definition = MathRenderer.renderToHtml(item.definition, true, true, true);
                 return `
                     <div class="test-summary-card">
                         <div class="test-summary-term">${term}</div>
