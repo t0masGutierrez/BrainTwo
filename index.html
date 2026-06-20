@@ -14,6 +14,11 @@
     <meta name="twitter:card" content="summary">
     <meta name="twitter:image" content="https://t0masgutierrez.github.io/BrainTwo/obsidian.png?v=2">
     <style>
+        :root {
+            --modal-standard-width: 400px;
+            --modal-wide-width: 760px;
+            --modal-viewport-margin: 32px;
+        }
         /* Only show write-answer-box when write-view is visible */
         #write-view:not([style*="display: flex"]) #write-answer-box {
             display: none !important;
@@ -66,6 +71,133 @@
         .choice-option * {
             text-align: left !important;
         }
+        .test-view {
+            display: none;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            padding-bottom: 64px;
+        }
+        .test-panel {
+            width: 100%;
+            max-width: 760px;
+            margin: 0 auto 64px auto;
+        }
+        .test-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 14px;
+            box-sizing: border-box;
+        }
+        .test-number {
+            flex: 0 0 34px;
+            color: #ddd;
+            font-size: 1.05em;
+            text-align: right;
+        }
+        .test-input {
+            flex: 1;
+            width: 100%;
+            font-size: 1.05em;
+            background: #23232b;
+            color: #fff;
+            border: 2px solid #555;
+            border-radius: 0;
+            padding: 12px 14px;
+            outline: none;
+            box-sizing: border-box;
+            font-family: inherit;
+        }
+        .test-input.correct {
+            border-color: #4caf50;
+            background: #183d1a;
+        }
+        .test-input.incorrect {
+            border-color: #f44336;
+            background: #3d1818;
+        }
+        .test-actions {
+            display: flex;
+            justify-content: flex-end;
+            gap: 12px;
+            margin-top: 24px;
+        }
+        .test-button {
+            background: #333;
+            color: #fff;
+            border: 1px solid #555;
+            border-radius: 0;
+            font-size: 1em;
+            padding: 7px 18px;
+            cursor: pointer;
+            font-family: inherit;
+        }
+        .test-button:hover {
+            background: #444;
+        }
+        .test-summary {
+            display: none;
+            border: 1px solid #555;
+            background: #1e1e1e;
+            margin-top: 28px;
+        }
+        .test-summary-header {
+            padding: 16px;
+            border-bottom: 1px solid #555;
+            font-size: 1.2em;
+            font-weight: 600;
+        }
+        .test-summary-columns {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0;
+        }
+        .test-summary-section {
+            min-width: 0;
+            border-right: 1px solid #555;
+        }
+        .test-summary-section:last-child {
+            border-right: none;
+        }
+        .test-summary-title {
+            padding: 10px 12px;
+            border-bottom: 1px solid #555;
+            background: #1a1a1a;
+            font-weight: 600;
+        }
+        .test-summary-card {
+            padding: 12px;
+            border-bottom: 1px solid #333;
+        }
+        .test-summary-card:last-child {
+            border-bottom: none;
+        }
+        .test-summary-term {
+            font-weight: 700;
+            margin-bottom: 6px;
+        }
+        .test-summary-definition {
+            color: #ddd;
+            font-size: 0.95em;
+            line-height: 1.4;
+        }
+        .test-empty-state {
+            padding: 12px;
+            color: #999;
+        }
+        @media (max-width: 700px) {
+            .test-summary-columns {
+                grid-template-columns: 1fr;
+            }
+            .test-summary-section {
+                border-right: none;
+                border-bottom: 1px solid #555;
+            }
+            .test-summary-section:last-child {
+                border-bottom: none;
+            }
+        }
         /* Hand cursor for Close and Start buttons in learn modal */
         #learn-modal .modal-content button[type="button"] {
             cursor: pointer !important;
@@ -106,20 +238,79 @@
             margin: 0 auto 24px auto;
             position: relative;
         }
+        .search-command-box {
+            position: relative;
+            width: 100%;
+            background: #23232b;
+            border: 1px solid #555;
+            box-sizing: border-box;
+        }
+        .search-highlight-layer {
+            position: absolute;
+            inset: 0;
+            padding: 10px 14px;
+            pointer-events: none;
+            white-space: pre-wrap;
+            overflow: hidden;
+            color: #fff;
+            font-family: inherit;
+            font-size: 1em;
+            line-height: normal;
+            box-sizing: border-box;
+        }
+        .search-highlight-layer:empty {
+            display: none;
+        }
+        .search-command-token {
+            background: #3c315f;
+            color: #c9b8ff;
+            border-radius: 3px;
+            box-shadow: 0 0 0 2px #3c315f;
+        }
+        .search-command-prefix {
+            visibility: hidden;
+        }
         .search-input {
             width: 100%;
             padding: 10px 14px;
             font-size: 1em;
-            background: #23232b;
-            color: #fff;
-            border: 1px solid #555;
+            background: transparent;
+            color: transparent;
+            caret-color: #fff;
+            border: 0;
             border-radius: 0;
             outline: none;
             box-sizing: border-box;
             font-family: inherit;
+            position: relative;
+            z-index: 1;
         }
         .search-input::placeholder {
             color: #888;
+        }
+        .search-command-menu {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background: #1e1e1e;
+            border: 1px solid #555;
+            border-top: none;
+            z-index: 120;
+            display: none;
+        }
+        .search-command-item {
+            padding: 10px 14px;
+            cursor: pointer;
+            border-bottom: 1px solid #333;
+            color: #ddd;
+        }
+        .search-command-item:last-child {
+            border-bottom: none;
+        }
+        .search-command-item.active {
+            background: #3c315f;
+            color: #fff;
         }
         .search-results {
             position: absolute;
@@ -151,6 +342,58 @@
             font-size: 0.75em;
             color: #888;
             margin-top: 2px;
+        }
+        .modal-content.session-summary-content {
+            max-width: min(var(--modal-wide-width), calc(100vw - var(--modal-viewport-margin)));
+        }
+        .summary-columns {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0;
+            margin: 18px 0;
+            border: 1px solid #555;
+            background: #1e1e1e;
+            max-height: min(62vh, 420px);
+            overflow-y: auto;
+        }
+        .summary-list {
+            min-height: 140px;
+            border-right: 1px solid #555;
+        }
+        .summary-list:last-child {
+            border-right: none;
+        }
+        .summary-list-title {
+            padding: 10px 12px;
+            border-bottom: 1px solid #555;
+            font-weight: bold;
+            background: #1a1a1a;
+        }
+        .summary-empty {
+            padding: 12px;
+            color: #888;
+        }
+        .summary-actions {
+            display: flex;
+            justify-content: flex-end;
+            gap: 12px;
+            margin-top: 16px;
+        }
+        .summary-actions button:disabled {
+            opacity: 0.45;
+            cursor: default;
+        }
+        @media (max-width: 640px) {
+            .summary-columns {
+                grid-template-columns: 1fr;
+            }
+            .summary-list {
+                border-right: none;
+                border-bottom: 1px solid #555;
+            }
+            .summary-list:last-child {
+                border-bottom: none;
+            }
         }
         body {
             background-color: #121212;
@@ -204,6 +447,47 @@
             height: auto;
             margin: 16px auto;
             border-radius: 4px;
+            cursor: zoom-in;
+        }
+        .content img.note-image:hover,
+        .content img.note-image:focus {
+            outline: 2px solid #777;
+            outline-offset: 4px;
+        }
+        .image-focus-overlay {
+            display: none;
+            position: fixed;
+            inset: 0;
+            z-index: 2000;
+            align-items: center;
+            justify-content: center;
+            padding: 32px;
+            box-sizing: border-box;
+            background: rgba(0, 0, 0, 0.9);
+            cursor: zoom-out;
+        }
+        .image-focus-overlay.open {
+            display: flex;
+        }
+        .image-focus-overlay img {
+            max-width: min(100%, 1200px);
+            max-height: calc(100vh - 64px);
+            object-fit: contain;
+            background: #111;
+            border: 1px solid #555;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+            cursor: zoom-out;
+        }
+        body.image-focus-open {
+            overflow: hidden;
+        }
+        @media (max-width: 700px) {
+            .image-focus-overlay {
+                padding: 16px;
+            }
+            .image-focus-overlay img {
+                max-height: calc(100vh - 32px);
+            }
         }
         .options-bar {
             display: flex;
@@ -235,8 +519,9 @@
             background-color: #222;
             padding: 20px;
             border: 1px solid #555;
-            max-width: 400px;
+            max-width: min(var(--modal-standard-width), calc(100vw - var(--modal-viewport-margin)));
             width: 100%;
+            box-sizing: border-box;
         }
         .form-group {
             margin: 10px 0;
@@ -436,7 +721,11 @@
     <div id="home" class="container">
         <h1></h1>
         <div class="search-container">
-            <input type="text" id="search-input" class="search-input" placeholder="Search BrainTwo" autocomplete="off" />
+            <div id="search-command-box" class="search-command-box">
+                <div id="search-highlight-layer" class="search-highlight-layer"></div>
+                <input type="text" id="search-input" class="search-input" placeholder="Search BrainTwo" autocomplete="off" />
+            </div>
+            <div id="search-command-menu" class="search-command-menu"></div>
             <div id="search-results" class="search-results"></div>
         </div>
         <div id="folder-list" class="folder-list"></div>
@@ -490,6 +779,13 @@
             </div>
         </div>
     </div>
+    <div id="test-view" class="test-view" style="display: none;">
+        <h1 id="test-title" class="learn-title page-title" style="text-align: center; margin-bottom: 24px; margin-top: 40px;"></h1>
+        <div class="learn-progress-row" style="margin-bottom: 20px;">
+            <button class="back-button learn-back-btn" onclick="app.goBackToLearnModal()">Back</button>
+        </div>
+        <div id="test-container" class="test-panel"></div>
+    </div>
     <div id="flashcard-view" class="flashcard-view">
         <h1 id="flashcard-title" class="learn-title page-title" style="text-align: center; margin-bottom: 24px; margin-top: 40px;"></h1>
         <div class="learn-progress-row" style="margin-bottom: 20px;">
@@ -503,6 +799,20 @@
         <div class="nav-arrows">
             <div class="arrow" onclick="app.flashcardMode.prev()">&#8592;</div>
             <div class="arrow" onclick="app.flashcardMode.next()">&#8594;</div>
+        </div>
+    </div>
+    <div id="session-summary-modal" class="modal">
+        <div class="modal-content session-summary-content">
+            <h2 style="margin-top: 0;">Summary</h2>
+            <div class="summary-columns">
+                <div class="summary-list" id="summary-correct-list"></div>
+                <div class="summary-list" id="summary-retried-list"></div>
+            </div>
+            <div class="summary-actions">
+                <button id="summary-review-btn" type="button" style="background: #fff; color: #222; border: 1px solid #222; border-radius: 0; font-size: 16px; padding: 5px 18px; font-weight: 400; font-family: inherit; cursor: pointer;" onclick="app.reviewRetriedSummary()">Review retried</button>
+                <button type="button" style="background: #fff; color: #222; border: 1px solid #222; border-radius: 0; font-size: 16px; padding: 5px 18px; font-weight: 400; font-family: inherit; cursor: pointer;" onclick="app.restartSummarySession()">Restart</button>
+                <button type="button" style="background: #fff; color: #222; border: 1px solid #222; border-radius: 0; font-size: 16px; padding: 5px 18px; font-weight: 400; font-family: inherit; cursor: pointer;" onclick="app.finishSummary()">Done</button>
+            </div>
         </div>
     </div>
     <div id="learn-modal" class="modal">
@@ -546,6 +856,9 @@
             </form>
         </div>
     </div>
+    <div id="image-focus-overlay" class="image-focus-overlay" role="dialog" aria-modal="true" aria-label="Focused image" tabindex="-1">
+        <img id="image-focus-img" alt="">
+    </div>
 
     <script>
     if ('scrollRestoration' in history) {
@@ -555,6 +868,131 @@
     // =====================================================================
     // UTILITY CLASSES
     // =====================================================================
+
+    class CardTextFormatter {
+        static FLASHCARD_LINE_LENGTH = 46;
+
+        static insertLineBreaks(content, maxChars = this.FLASHCARD_LINE_LENGTH) {
+            const normalizedMax = Math.max(12, Number(maxChars) || this.FLASHCARD_LINE_LENGTH);
+            const { text, mathSpans } = this._protectMath(content);
+            const wrapped = text
+                .split('\n')
+                .map(line => this._wrapLine(line, normalizedMax))
+                .join('\n');
+            return this._restoreMath(wrapped, mathSpans);
+        }
+
+        static _protectMath(content) {
+            const mathSpans = [];
+            const text = String(content || '').replace(/\$\$[\s\S]+?\$\$|\$(?!\$)(?:\\.|[^\\$\n])+?\$/g, match => {
+                mathSpans.push(match);
+                return `@@CARD_MATH_${mathSpans.length - 1}@@`;
+            });
+            return { text, mathSpans };
+        }
+
+        static _restoreMath(content, mathSpans) {
+            return content.replace(/@@CARD_MATH_(\d+)@@/g, (_match, idx) => mathSpans[Number(idx)]);
+        }
+
+        static _wrapLine(line, maxChars) {
+            let remaining = line;
+            const parts = [];
+
+            while (remaining.length > maxChars) {
+                const breakIndex = this._closestSpaceIndex(remaining, maxChars);
+                if (breakIndex <= 0 || breakIndex >= remaining.length) break;
+
+                parts.push(remaining.slice(0, breakIndex).trimEnd());
+                remaining = remaining.slice(breakIndex + 1).trimStart();
+            }
+
+            parts.push(remaining);
+            return parts.join('<br>');
+        }
+
+        static _closestSpaceIndex(line, target) {
+            const before = line.lastIndexOf(' ', target);
+            const after = line.indexOf(' ', target);
+
+            if (before === -1) return after;
+            if (after === -1) return before;
+            return target - before <= after - target ? before : after;
+        }
+    }
+
+    class TestAnswerGrader {
+        static normalizeAnswer(value) {
+            return String(value || '')
+                .replace(/^#+\s*/gm, '')
+                .replace(/^[-*]\s*/gm, '')
+                .replace(/[`*_]/g, '')
+                .replace(/\s+/g, ' ')
+                .trim()
+                .toLowerCase();
+        }
+
+        static displayTerm(card) {
+            return String(card?.term || '').replace(/^#+\s*/, '').trim();
+        }
+
+        static gradeTermAnswers(cards, answers, allowAnyOrder) {
+            const normalizedCards = cards.map((card, index) => ({
+                index,
+                term: this.displayTerm(card),
+                normalizedTerm: this.normalizeAnswer(this.displayTerm(card)),
+                card
+            }));
+            const cardResults = normalizedCards.map(item => ({
+                card: item.card,
+                term: item.term,
+                definition: item.card.definition,
+                isCorrect: false,
+                userAnswer: ''
+            }));
+            const usedCardIndexes = new Set();
+            const results = cards.map((_card, inputIndex) => {
+                const userAnswer = String(answers[inputIndex] || '').trim();
+                const normalizedAnswer = this.normalizeAnswer(userAnswer);
+                let matched = null;
+
+                if (allowAnyOrder) {
+                    matched = normalizedCards.find(item => (
+                        item.normalizedTerm &&
+                        item.normalizedTerm === normalizedAnswer &&
+                        !usedCardIndexes.has(item.index)
+                    )) || null;
+                } else {
+                    const expected = normalizedCards[inputIndex];
+                    if (expected?.normalizedTerm && expected.normalizedTerm === normalizedAnswer) {
+                        matched = expected;
+                    }
+                }
+
+                if (matched) {
+                    usedCardIndexes.add(matched.index);
+                    cardResults[matched.index].isCorrect = true;
+                    cardResults[matched.index].userAnswer = userAnswer;
+                }
+
+                return {
+                    inputIndex,
+                    userAnswer,
+                    expectedTerm: normalizedCards[inputIndex]?.term || '',
+                    matchedTerm: matched ? matched.term : '',
+                    matchedIndex: matched ? matched.index : -1,
+                    isCorrect: !!matched
+                };
+            });
+
+            return {
+                total: cards.length,
+                correctCount: cardResults.filter(item => item.isCorrect).length,
+                results,
+                cardResults
+            };
+        }
+    }
 
     class MathRenderer {
         static extractMathBlocks(md) {
@@ -571,11 +1009,12 @@
             return html.replace(/<!--MATHBLOCK_(\d+)-->/g, (m, idx) => mathBlocks[parseInt(idx)]);
         }
 
-        static renderToHtml(content, replaceAllBackslash = true) {
+        static renderToHtml(content, replaceAllBackslash = true, wrapLongLines = false) {
             const { text, mathBlocks } = this.extractMathBlocks(content);
+            const displayText = wrapLongLines ? CardTextFormatter.insertLineBreaks(text) : text;
             const processed = replaceAllBackslash
-                ? text.replace(/\\/g, '<br>')
-                : text.replace(/\\\\/g, '<br>');
+                ? displayText.replace(/\\/g, '<br>')
+                : displayText.replace(/\\\\/g, '<br>');
             let html = window.marked.parse(processed);
             return this.restoreMathBlocks(html, mathBlocks);
         }
@@ -676,6 +1115,75 @@
         }
     }
 
+    class ImageFocus {
+        constructor() {
+            this.overlay = null;
+            this.focusedImage = null;
+            this.lastSourceImage = null;
+        }
+
+        init() {
+            this.overlay = document.getElementById('image-focus-overlay');
+            this.focusedImage = document.getElementById('image-focus-img');
+            const content = document.getElementById('file-content');
+            if (!this.overlay || !this.focusedImage || !content) return;
+
+            content.addEventListener('click', event => {
+                const image = event.target.closest('img.note-image');
+                if (!image || !content.contains(image)) return;
+                event.preventDefault();
+                this.open(image);
+            });
+
+            content.addEventListener('keydown', event => {
+                const image = event.target.closest('img.note-image');
+                if (!image || !content.contains(image)) return;
+                if (event.key !== 'Enter' && event.key !== ' ') return;
+                event.preventDefault();
+                this.open(image);
+            });
+
+            this.overlay.addEventListener('click', () => this.close());
+            document.addEventListener('keydown', event => {
+                if (!this.isOpen() || (event.key !== 'Escape' && event.code !== 'Escape')) return;
+                event.preventDefault();
+                this.close();
+            }, true);
+        }
+
+        prepare(root) {
+            root.querySelectorAll('img.note-image').forEach(image => {
+                image.tabIndex = 0;
+                image.setAttribute('role', 'button');
+                image.setAttribute('aria-label', `Focus image: ${image.alt || 'image'}`);
+            });
+        }
+
+        open(sourceImage) {
+            this.lastSourceImage = sourceImage;
+            this.focusedImage.src = sourceImage.currentSrc || sourceImage.src;
+            this.focusedImage.alt = sourceImage.alt || '';
+            this.overlay.classList.add('open');
+            document.body.classList.add('image-focus-open');
+            this.overlay.focus({ preventScroll: true });
+        }
+
+        close() {
+            if (!this.isOpen()) return;
+            this.overlay.classList.remove('open');
+            document.body.classList.remove('image-focus-open');
+            this.focusedImage.removeAttribute('src');
+            if (this.lastSourceImage && this.lastSourceImage.isConnected) {
+                this.lastSourceImage.focus({ preventScroll: true });
+            }
+            this.lastSourceImage = null;
+        }
+
+        isOpen() {
+            return this.overlay && this.overlay.classList.contains('open');
+        }
+    }
+
     class CardParser {
         static splitSections(text) {
             return String(text || '').split(/^\s*---\s*$/m).map(p => p.trim()).filter(Boolean);
@@ -694,9 +1202,13 @@
             const parts = this.splitSections(text);
             const cards = [];
             const sections = parts.length > 1 ? parts : [parts[0]];
-            for (const part of sections) {
+            for (let cardIndex = 0; cardIndex < sections.length; cardIndex++) {
+                const part = sections[cardIndex];
                 const card = this.parseCard(part);
-                if (card) cards.push(card);
+                if (card) {
+                    card.cardIndex = cardIndex;
+                    cards.push(card);
+                }
             }
             return cards;
         }
@@ -748,6 +1260,296 @@
     function escapeHtml(text) {
         if (!text) return '';
         return text.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    }
+
+    class SearchCommandParser {
+        static COMMANDS = ['folder', 'file', 'term', 'definition'];
+
+        static emptyCommands() {
+            return { folder: '', file: '', term: '', definition: '' };
+        }
+
+        static parse(rawQuery) {
+            const raw = String(rawQuery || '');
+            const commands = this.emptyCommands();
+            const activeCommands = [];
+            const globalParts = [];
+            const tokenPattern = /\\(folder|file|term|definition)\b/g;
+            const tokens = Array.from(raw.matchAll(tokenPattern));
+
+            if (!tokens.length) {
+                const global = raw.trim();
+                return {
+                    raw,
+                    global,
+                    commands,
+                    activeCommands,
+                    hasCommands: false,
+                    hasText: !!this.normalizeSearchText(global),
+                };
+            }
+
+            if (tokens[0].index > 0) {
+                globalParts.push(raw.slice(0, tokens[0].index).trim());
+            }
+
+            tokens.forEach((token, index) => {
+                const name = token[1];
+                if (!activeCommands.includes(name)) activeCommands.push(name);
+                const start = token.index + token[0].length;
+                const end = index + 1 < tokens.length ? tokens[index + 1].index : raw.length;
+                const value = raw.slice(start, end).trim();
+                if (value) {
+                    commands[name] = [commands[name], value].filter(Boolean).join(' ');
+                }
+            });
+
+            const global = globalParts.filter(Boolean).join(' ');
+            const hasCommandText = Object.values(commands).some(value => !!this.normalizeSearchText(value));
+            return {
+                raw,
+                global,
+                commands,
+                activeCommands,
+                hasCommands: true,
+                hasText: hasCommandText || !!this.normalizeSearchText(global),
+            };
+        }
+
+        static normalizeSearchText(text) {
+            let decodedText = String(text || '');
+            try {
+                decodedText = decodeURIComponent(decodedText);
+            } catch (_error) {}
+            return decodedText
+                .normalize('NFKD')
+                .replace(/[\u0300-\u036f]/g, '')
+                .replace(/\.md\b/gi, ' ')
+                .replace(/!\[\[([^\]\n|]+)(?:\|[^\]\n]+)?\]\]/g, ' $1 ')
+                .replace(/!\[([^\]\n]*)\]\(([^)\n]+)\)/g, ' $1 $2 ')
+                .replace(/\\([a-zA-Z]+)/g, ' $1 ')
+                .replace(/\\./g, ' ')
+                .replace(/\\/g, ' ')
+                .replace(/&[a-z]+;/gi, ' ')
+                .replace(/[#*_`~$^{}\[\](),;:|=+\-<>\/]/g, ' ')
+                .replace(/\s+/g, ' ')
+                .toLowerCase()
+                .trim();
+        }
+
+        static words(text) {
+            return this.normalizeSearchText(text).split(/\s+/).filter(Boolean);
+        }
+
+        static commandPrefixAt(value, caret = null) {
+            const raw = String(value || '');
+            const cursor = caret === null || caret === undefined ? raw.length : caret;
+            const before = raw.slice(0, cursor);
+            const match = before.match(/(?:^|\s)(\\[a-zA-Z]*)$/);
+            return match ? match[1] : '';
+        }
+
+        static hasActiveCommandPrefix(value, caret = null) {
+            return !!this.commandPrefixAt(value, caret);
+        }
+    }
+
+    class SearchCommandController {
+        constructor(app) {
+            this.app = app;
+            this.input = null;
+            this.overlay = null;
+            this.menu = null;
+            this.menuOpen = false;
+            this.highlightedIndex = 0;
+        }
+
+        init() {
+            this.input = document.getElementById('search-input');
+            this.overlay = document.getElementById('search-highlight-layer');
+            this.menu = document.getElementById('search-command-menu');
+            this.renderOverlay();
+            this.input.addEventListener('input', () => {
+                this.app.searchEngine.selectedIndex = -1;
+                this.sync();
+                this.openMenuIfCommandPrefix();
+                this.app.searchEngine.search();
+            });
+            this.input.addEventListener('focus', () => {
+                this.sync();
+                this.app.searchEngine.search();
+            });
+            this.input.addEventListener('keydown', event => this.handleKeydown(event));
+        }
+
+        sync() {
+            this.renderOverlay();
+        }
+
+        handleKeydown(event) {
+            if (this.menuOpen) {
+                if (event.key === 'ArrowDown') {
+                    event.preventDefault();
+                    this.highlightedIndex = Math.min(this.highlightedIndex + 1, SearchCommandParser.COMMANDS.length - 1);
+                    this.renderMenu();
+                    return;
+                }
+                if (event.key === 'ArrowUp') {
+                    event.preventDefault();
+                    this.highlightedIndex = Math.max(this.highlightedIndex - 1, 0);
+                    this.renderMenu();
+                    return;
+                }
+                if (event.key === 'Tab' || event.key === 'Enter') {
+                    event.preventDefault();
+                    this.selectCommand(SearchCommandParser.COMMANDS[this.highlightedIndex]);
+                    return;
+                }
+                if (event.key === 'Escape') {
+                    event.preventDefault();
+                    this.closeMenu();
+                    return;
+                }
+            }
+
+            if (event.key === 'Backspace' && this.removeCommandNearCaret()) {
+                event.preventDefault();
+                this.closeMenu();
+                this.app.searchEngine.selectedIndex = -1;
+                this.app.searchEngine.search();
+                return;
+            }
+
+            this.app.searchEngine.handleKeydown(event);
+        }
+
+        openMenuIfCommandPrefix() {
+            const prefix = this.commandPrefixAtCaret();
+            if (!prefix) {
+                this.closeMenu();
+                return;
+            }
+            const typed = prefix.slice(1).toLowerCase();
+            const matchIndex = SearchCommandParser.COMMANDS.findIndex(command => command.startsWith(typed));
+            this.highlightedIndex = matchIndex >= 0 ? matchIndex : 0;
+            this.openMenu();
+        }
+
+        commandPrefixAtCaret() {
+            return SearchCommandParser.commandPrefixAt(this.input.value, this.input.selectionStart);
+        }
+
+        openMenu() {
+            this.menuOpen = true;
+            this.renderMenu();
+        }
+
+        closeMenu() {
+            this.menuOpen = false;
+            if (this.menu) this.menu.style.display = 'none';
+        }
+
+        renderMenu() {
+            if (!this.menu) return;
+            this.menu.innerHTML = SearchCommandParser.COMMANDS.map((command, index) => {
+                const activeClass = index === this.highlightedIndex ? ' active' : '';
+                return `<div class="search-command-item${activeClass}" data-command="${command}">${command}</div>`;
+            }).join('');
+            Array.from(this.menu.querySelectorAll('.search-command-item')).forEach(item => {
+                item.addEventListener('mousedown', event => {
+                    event.preventDefault();
+                    this.selectCommand(item.dataset.command);
+                });
+            });
+            this.menu.style.display = 'block';
+        }
+
+        selectCommand(command) {
+            const caret = this.input.selectionStart;
+            const value = this.input.value;
+            const before = value.slice(0, caret);
+            const after = value.slice(caret);
+            const prefixMatch = before.match(/(?:^|\s)(\\[a-zA-Z]*)$/);
+            const replaceStart = prefixMatch ? caret - prefixMatch[1].length : caret;
+            const leadingSpace = replaceStart > 0 && value[replaceStart - 1] !== ' ' ? ' ' : '';
+            const commandText = `${leadingSpace}\\${command} `;
+            const nextValue = value.slice(0, replaceStart) + commandText + after.replace(/^\s+/, '');
+            const nextCaret = replaceStart + commandText.length;
+
+            this.input.value = nextValue;
+            this.input.setSelectionRange(nextCaret, nextCaret);
+            this.closeMenu();
+            this.sync();
+            this.app.searchEngine.selectedIndex = -1;
+            this.app.searchEngine.search();
+        }
+
+        commandRanges(value = this.input.value) {
+            const ranges = [];
+            const pattern = /\\(folder|file|term|definition)\b/g;
+            let match;
+            while ((match = pattern.exec(value)) !== null) {
+                ranges.push({ start: match.index, end: match.index + match[0].length });
+            }
+            return ranges;
+        }
+
+        removeCommandNearCaret() {
+            if (!this.input) return false;
+            const value = this.input.value;
+            const start = this.input.selectionStart;
+            const end = this.input.selectionEnd;
+            const ranges = this.commandRanges(value);
+
+            if (start !== end) {
+                const selected = ranges.find(range => start === range.start && end === range.end);
+                if (!selected) return false;
+                this.removeRange(selected.start, selected.end);
+                return true;
+            }
+
+            const range = ranges.find(item => {
+                const afterToken = value.slice(item.end, start);
+                return (
+                    (start > item.start && start <= item.end) ||
+                    start === item.end ||
+                    (start > item.end && /^\s*$/.test(afterToken))
+                );
+            });
+            if (!range) return false;
+            this.removeRange(range.start, range.end);
+            return true;
+        }
+
+        removeRange(start, end) {
+            const value = this.input.value;
+            let removeStart = start;
+            let removeEnd = end;
+            if (value[removeEnd] === ' ') removeEnd++;
+            else if (removeStart > 0 && value[removeStart - 1] === ' ') removeStart--;
+            this.input.value = value.slice(0, removeStart) + value.slice(removeEnd);
+            this.input.setSelectionRange(removeStart, removeStart);
+            this.sync();
+        }
+
+        renderOverlay() {
+            if (!this.overlay || !this.input) return;
+            const value = this.input.value;
+            if (!value) {
+                this.overlay.innerHTML = '';
+                return;
+            }
+            const html = escapeHtml(value).replace(/\\(folder|file|term|definition)\b/g, (_match, command) => {
+                return `<span class="search-command-prefix">\\</span><span class="search-command-token">${command}</span>`;
+            });
+            this.overlay.innerHTML = html;
+        }
+
+        clear() {
+            if (this.input) this.input.value = '';
+            if (this.overlay) this.overlay.innerHTML = '';
+            this.closeMenu();
+        }
     }
 
     // =====================================================================
@@ -810,6 +1612,78 @@
 
         static clearProgress() {
             sessionStorage.removeItem('learnProgress');
+        }
+    }
+
+    class SessionSummaryTracker {
+        constructor() {
+            this.reset({});
+        }
+
+        reset(context = {}) {
+            this.context = { ...context };
+            this.correct = new Map();
+            this.retried = new Map();
+        }
+
+        keyFor(card) {
+            const cardIndex = card && card.cardIndex !== undefined ? card.cardIndex : '';
+            const term = card && card.term ? card.term : '';
+            return `${this.context.folder || ''}/${this.context.file || ''}/${cardIndex}/${term}`;
+        }
+
+        snapshot(card) {
+            return {
+                folder: this.context.folder || '',
+                file: this.context.file || '',
+                cardIndex: card && card.cardIndex !== undefined ? card.cardIndex : null,
+                term: card && card.term ? card.term : '',
+                definition: card && card.definition ? card.definition : '',
+            };
+        }
+
+        recordCorrect(card) {
+            const key = this.keyFor(card);
+            if (this.retried.has(key)) return;
+            this.correct.set(key, this.snapshot(card));
+        }
+
+        recordRetried(card) {
+            const key = this.keyFor(card);
+            this.correct.delete(key);
+            this.retried.set(key, this.snapshot(card));
+        }
+
+        overrideCorrect(card) {
+            const key = this.keyFor(card);
+            this.retried.delete(key);
+            this.correct.set(key, this.snapshot(card));
+        }
+
+        summary() {
+            return {
+                context: { ...this.context },
+                correct: Array.from(this.correct.values()),
+                retried: Array.from(this.retried.values()),
+            };
+        }
+
+        serialize() {
+            return {
+                context: { ...this.context },
+                correct: Array.from(this.correct.entries()),
+                retried: Array.from(this.retried.entries()),
+            };
+        }
+
+        deserialize(data) {
+            if (!data) {
+                this.reset({});
+                return;
+            }
+            this.context = { ...(data.context || {}) };
+            this.correct = new Map(data.correct || []);
+            this.retried = new Map(data.retried || []);
         }
     }
 
@@ -989,8 +1863,8 @@
     // =====================================================================
 
     class ViewManager {
-        static VIEWS = ['home', 'folder-view', 'file-view', 'flashcard-view', 'choice-view', 'write-view'];
-        static FLEX_VIEWS = new Set(['flashcard-view', 'choice-view', 'write-view']);
+        static VIEWS = ['home', 'folder-view', 'file-view', 'flashcard-view', 'choice-view', 'write-view', 'test-view'];
+        static FLEX_VIEWS = new Set(['flashcard-view', 'choice-view', 'write-view', 'test-view']);
 
         static show(viewName) {
             for (const id of this.VIEWS) {
@@ -1025,14 +1899,22 @@
 	        }
 
         static normalizeSearchText(text) {
-            const rawText = String(text || '');
-            let decodedText = rawText;
+            let decodedText = String(text || '');
             try {
-                decodedText = decodeURIComponent(rawText);
+                decodedText = decodeURIComponent(decodedText);
             } catch (_error) {}
             return decodedText
-                .replace(/\.md$/i, '')
-                .replace(/[#*_`]/g, '')
+                .normalize('NFKD')
+                .replace(/[\u0300-\u036f]/g, '')
+                .replace(/\.md\b/gi, ' ')
+                .replace(/!\[\[([^\]\n|]+)(?:\|[^\]\n]+)?\]\]/g, ' $1 ')
+                .replace(/!\[([^\]\n]*)\]\(([^)\n]+)\)/g, ' $1 $2 ')
+                .replace(/\\([a-zA-Z]+)/g, ' $1 ')
+                .replace(/\\./g, ' ')
+                .replace(/\\/g, ' ')
+                .replace(/&[a-z]+;/gi, ' ')
+                .replace(/[#*_`~$^{}\[\](),;:|=+\-<>\/]/g, ' ')
+                .replace(/\s+/g, ' ')
                 .toLowerCase()
                 .trim();
         }
@@ -1164,6 +2046,11 @@
                 if (this.selectedIndex >= 0 && items[this.selectedIndex]) {
                     items[this.selectedIndex].click();
                 }
+            } else if (e.key === 'Tab') {
+                if (this.selectedIndex >= 0 && items[this.selectedIndex]) {
+                    e.preventDefault();
+                    this.autocompleteSelectedResult(items[this.selectedIndex]);
+                }
             }
         }
 
@@ -1176,16 +2063,100 @@
             }
         }
 
+        static displayFolder(folder) {
+            return String(folder || '').replace(/^\d+\s*/, '');
+        }
+
+        static displayFile(file) {
+            return decodeURIComponent(file || '').replace(/^\d+\s*/, '').replace(/\.md$/i, '');
+        }
+
+        static autocompleteQueryValue(query, autocompleteText, caret = null) {
+            const value = String(query || '');
+            const text = String(autocompleteText || '').trim();
+            if (!text) return value;
+            const cursor = caret === null || caret === undefined ? value.length : caret;
+            const commandPattern = /\\(folder|file|term|definition)\b/g;
+            let activeCommand = null;
+            let nextCommandStart = value.length;
+            let match;
+
+            while ((match = commandPattern.exec(value)) !== null) {
+                if (match.index <= cursor) {
+                    activeCommand = {
+                        start: match.index,
+                        end: match.index + match[0].length,
+                    };
+                    nextCommandStart = value.length;
+                } else {
+                    nextCommandStart = match.index;
+                    break;
+                }
+            }
+
+            if (!activeCommand) return `${text} `;
+
+            const before = value.slice(0, activeCommand.end).replace(/\s*$/, '');
+            const after = value.slice(nextCommandStart).replace(/^\s+/, '');
+            return `${before} ${text} ${after}`.replace(/\s+$/, ' ');
+        }
+
+        static wordsMatchField(text, value) {
+            const words = SearchEngine.searchWords(value);
+            return !words.length || SearchEngine.allWordsMatch(text, words);
+        }
+
+        static scopedWords(parsed) {
+            const commandWords = {};
+            for (const command of SearchCommandParser.COMMANDS) {
+                commandWords[command] = SearchEngine.searchWords(parsed.commands[command]);
+            }
+            return {
+                global: SearchEngine.searchWords(parsed.global),
+                commands: commandWords,
+            };
+        }
+
+        static matchesScopedFilter(fields, scoped) {
+            const commands = scoped.commands;
+            if (commands.folder.length && !SearchEngine.allWordsMatch(fields.folder, commands.folder)) return false;
+            if (commands.file.length && !SearchEngine.allWordsMatch(fields.file, commands.file)) return false;
+            if (commands.term.length && !SearchEngine.allWordsMatch(fields.term, commands.term)) return false;
+            if (commands.definition.length && !SearchEngine.allWordsMatch(fields.definition, commands.definition)) return false;
+            if (scoped.global.length) {
+                const combined = [fields.folder, fields.file, fields.term, fields.definition].join(' ');
+                if (!SearchEngine.allWordsMatch(combined, scoped.global)) return false;
+            }
+            return true;
+        }
+
+        static allScopedWords(scoped) {
+            return [
+                ...scoped.global,
+                ...scoped.commands.folder,
+                ...scoped.commands.file,
+                ...scoped.commands.term,
+                ...scoped.commands.definition,
+            ];
+        }
+
         search() {
-            const query = document.getElementById('search-input').value.trim().toLowerCase();
+            const rawQuery = document.getElementById('search-input').value;
+            const query = rawQuery.trim();
             const resultsDiv = document.getElementById('search-results');
-            if (!query) {
+            if (SearchCommandParser.hasActiveCommandPrefix(rawQuery)) {
+                resultsDiv.innerHTML = '';
+                resultsDiv.style.display = 'none';
+                return;
+            }
+            const parsed = SearchCommandParser.parse(query);
+            if (!parsed.hasText) {
                 resultsDiv.style.display = 'none';
                 return;
             }
             if (!this.indexBuilt) {
                 this.buildIndex().then(() => {
-                    const latestQuery = document.getElementById('search-input').value.trim().toLowerCase();
+                    const latestQuery = document.getElementById('search-input').value.trim();
                     if (latestQuery === query) {
                         this.selectedIndex = -1;
                         this.search();
@@ -1193,19 +2164,46 @@
                 });
             }
 
-	            const words = SearchEngine.searchWords(query);
-                const normalizedQuery = SearchEngine.normalizeSearchText(query);
+            const words = parsed.hasCommands
+                ? SearchEngine.allScopedWords(SearchEngine.scopedWords(parsed))
+                : SearchEngine.searchWords(query);
+            const normalizedQuery = SearchEngine.normalizeSearchText(query);
 
-	            // File-level results
-	            const fileResults = [];
+            const folderResults = [];
+            if (parsed.hasCommands && parsed.activeCommands.includes('folder') && !parsed.activeCommands.includes('file') && !parsed.activeCommands.includes('term') && !parsed.activeCommands.includes('definition')) {
+                const scoped = SearchEngine.scopedWords(parsed);
+                for (const folder of Object.keys(this.app.manifestData)) {
+                    const folderName = SearchEngine.displayFolder(folder);
+                    const fields = {
+                        folder: folderName,
+                        file: '',
+                        term: '',
+                        definition: '',
+                    };
+                    if (!SearchEngine.matchesScopedFilter(fields, scoped)) continue;
+                    const result = {
+                        type: 'folder',
+                        folder,
+                        priority: SearchEngine.normalizeTitleText(folder) === SearchEngine.normalizeSearchText(parsed.commands.folder) ? 1 : 3,
+                        searchFields: [{ text: folderName, weight: 220 }],
+                    };
+                    result.score = SearchEngine.scoreSearchResult(result, words);
+                    folderResults.push(result);
+                }
+            }
+
+            const fileResults = [];
             const seenFiles = new Set();
             for (const folder of Object.keys(this.app.manifestData)) {
                 for (const file of this.app.manifestData[folder]) {
                     const key = folder + '/' + file;
                     if (seenFiles.has(key)) continue;
-                    const fileClean = SearchEngine.normalizeTitleText(file);
-                    const folderClean = SearchEngine.normalizeTitleText(folder);
-                    if (SearchEngine.allWordsMatch(folderClean + ' ' + fileClean, words)) {
+                    const fileClean = SearchEngine.displayFile(file);
+                    const folderClean = SearchEngine.displayFolder(folder);
+                    const includeFile = parsed.hasCommands
+                        ? this._matchesCommandFileResult(parsed, folderClean, fileClean)
+                        : SearchEngine.allWordsMatch(folderClean + ' ' + fileClean, words);
+                    if (includeFile) {
                         seenFiles.add(key);
 	                        const result = {
 	                            type: 'file',
@@ -1224,24 +2222,42 @@
             }
             // Term-level results
             const termResults = this.index.map(item => {
+                const fileClean = SearchEngine.displayFile(item.file);
+                const folderClean = SearchEngine.displayFolder(item.folder);
                 const result = {
                     ...item,
                     type: 'term',
 	                    searchFields: [
 	                        { text: item.term, weight: 100 },
 	                        { text: item.definition, weight: 35 },
-	                        { text: SearchEngine.normalizeTitleText(item.file), weight: 65 },
-	                        { text: SearchEngine.normalizeTitleText(item.folder), weight: 45 },
+	                        { text: fileClean, weight: 65 },
+	                        { text: folderClean, weight: 45 },
 	                    ],
                         priority: SearchEngine.normalizeSearchText(item.term) === normalizedQuery ? 0 : 2,
 	                };
                 const combined = result.searchFields.map(field => field.text).join(' ');
-                if (!SearchEngine.allWordsMatch(combined, words)) return null;
+                const includeTerm = parsed.hasCommands
+                    ? this._matchesCommandTermResult(parsed, item, folderClean, fileClean)
+                    : SearchEngine.allWordsMatch(combined, words);
+                if (!includeTerm) return null;
                 result.score = SearchEngine.scoreSearchResult(result, words);
                 return result;
             }).filter(Boolean);
 
-            const all = SearchEngine.rankSearchResults([...fileResults, ...termResults]).slice(0, 20);
+            let candidates;
+            if (parsed.hasCommands) {
+                if (parsed.activeCommands.includes('term') || parsed.activeCommands.includes('definition')) {
+                    candidates = termResults;
+                } else if (parsed.activeCommands.includes('file')) {
+                    candidates = fileResults;
+                } else {
+                    candidates = folderResults;
+                }
+            } else {
+                candidates = [...fileResults, ...termResults];
+            }
+
+            const all = SearchEngine.rankSearchResults(candidates).slice(0, 20);
             if (all.length === 0) {
                 resultsDiv.innerHTML = '<div style="padding: 10px 14px; color: #888;">No results</div>';
                 resultsDiv.style.display = 'block';
@@ -1251,18 +2267,55 @@
             all.forEach(item => {
                 const div = document.createElement('div');
                 div.className = 'search-result-item';
-                const folderName = item.folder.replace(/^\d+\s*/, '');
-                const fileName = decodeURIComponent(item.file).replace(/^\d+\s*/, '').replace('.md', '');
-                if (item.type === 'file') {
+                const folderName = SearchEngine.displayFolder(item.folder);
+                const fileName = SearchEngine.displayFile(item.file);
+                if (item.type === 'folder') {
+                    div.dataset.autocomplete = folderName;
+                    div.innerHTML = `<div class="search-result-term">${escapeHtml(folderName)}</div><div class="search-result-meta">Folder</div>`;
+                    div.onclick = () => { this.clear(); this.app.showFolder(item.folder); };
+                } else if (item.type === 'file') {
+                    div.dataset.autocomplete = fileName;
                     div.innerHTML = `<div class="search-result-term">${escapeHtml(fileName)}</div><div class="search-result-meta">${escapeHtml(folderName)}</div>`;
                     div.onclick = () => { this.clear(); this.app.showFile(item.folder, item.file); };
                 } else {
+                    div.dataset.autocomplete = CardParser.displayTerm(item.term);
                     div.innerHTML = `<div class="search-result-term">${escapeHtml(CardParser.displayTerm(item.term))}</div><div class="search-result-meta">${escapeHtml(folderName)} › ${escapeHtml(fileName)}</div>`;
                     div.onclick = () => this.navigateToCard(item.folder, item.file, item.cardIndex, item.term);
                 }
                 resultsDiv.appendChild(div);
             });
             resultsDiv.style.display = 'block';
+        }
+
+        autocompleteSelectedResult(item) {
+            const input = document.getElementById('search-input');
+            const autocompleteText = item.dataset.autocomplete || item.querySelector('.search-result-term')?.textContent || '';
+            input.value = SearchEngine.autocompleteQueryValue(input.value, autocompleteText, input.selectionStart);
+            input.setSelectionRange(input.value.length, input.value.length);
+            if (this.app.searchCommandController) this.app.searchCommandController.sync();
+            this.selectedIndex = -1;
+            this.search();
+        }
+
+        _matchesCommandFileResult(parsed, folderClean, fileClean) {
+            if (parsed.activeCommands.includes('term') || parsed.activeCommands.includes('definition')) return false;
+            const scoped = SearchEngine.scopedWords(parsed);
+            return SearchEngine.matchesScopedFilter({
+                folder: folderClean,
+                file: fileClean,
+                term: '',
+                definition: '',
+            }, scoped);
+        }
+
+        _matchesCommandTermResult(parsed, item, folderClean, fileClean) {
+            const scoped = SearchEngine.scopedWords(parsed);
+            return SearchEngine.matchesScopedFilter({
+                folder: folderClean,
+                file: fileClean,
+                term: item.term,
+                definition: item.definition,
+            }, scoped);
         }
 
         async navigateToCard(folder, file, cardIndex, term = '') {
@@ -1284,7 +2337,11 @@
         }
 
         clear() {
-            document.getElementById('search-input').value = '';
+            if (this.app.searchCommandController) {
+                this.app.searchCommandController.clear();
+            } else {
+                document.getElementById('search-input').value = '';
+            }
             document.getElementById('search-results').style.display = 'none';
         }
     }
@@ -1346,7 +2403,7 @@
             }
             const content = this.showingTerm ? showFront : showBack;
             const flashcardDiv = document.getElementById('flashcard');
-            const html = MathRenderer.renderToHtml(content);
+            const html = MathRenderer.renderToHtml(content, true, true);
 
             flashcardDiv.innerHTML = '';
             const contentWrapper = document.createElement('div');
@@ -1466,6 +2523,7 @@
             const opts = document.querySelectorAll('.choice-option');
             const isCorrect = btn.getAttribute('data-choice-value') === correct.trim();
             const idx = this.retry.getCurrentIdx(this.order[this.currentIndex]);
+            const card = this.app.flashcards[idx];
 
             if (isCorrect) {
                 opts.forEach(optBtn => {
@@ -1476,9 +2534,13 @@
                 });
                 if (this.gotWrong) {
                     this.retry.handleWrong(idx);
+                    this.app.summaryTracker.recordRetried(card);
                 } else if (this.retry.isRetry) {
                     this.retry.handleCorrect(idx);
+                } else {
+                    this.app.summaryTracker.recordCorrect(card);
                 }
+                this.app.saveLearnProgress();
                 const self = this;
                 function proceedNext(e) {
                     document.removeEventListener('keydown', proceedNext);
@@ -1494,6 +2556,8 @@
                 btn.classList.add('incorrect');
                 btn.style.pointerEvents = 'none';
                 this.gotWrong = true;
+                this.app.summaryTracker.recordRetried(card);
+                this.app.saveLearnProgress();
             }
         }
 
@@ -1515,8 +2579,7 @@
                 this.retry.isRetry = true;
                 this.update();
             } else {
-                ViewManager.show('file-view');
-                this.app.showLearnModal(true);
+                this.app.showSessionSummary();
             }
         }
     }
@@ -1535,6 +2598,28 @@
             return this.app.answerType === 'definition'
                 ? document.getElementById('write-input-multi')
                 : document.getElementById('write-input-single');
+        }
+
+        _setActionButtons(state) {
+            const overrideBtn = document.getElementById('write-override-btn');
+            const skipBtn = document.getElementById('write-skip-btn');
+            const submitBtn = document.getElementById('write-submit-btn');
+
+            if (state === 'incorrect') {
+                overrideBtn.style.display = 'inline-block';
+                overrideBtn.disabled = false;
+                skipBtn.style.display = 'none';
+                submitBtn.style.display = 'none';
+                skipBtn.disabled = true;
+                submitBtn.disabled = true;
+                return;
+            }
+
+            overrideBtn.style.display = 'none';
+            skipBtn.style.display = 'inline-block';
+            submitBtn.style.display = 'inline-block';
+            skipBtn.disabled = false;
+            submitBtn.disabled = false;
         }
 
         start(shuffle) {
@@ -1588,9 +2673,7 @@
             input.value = '';
             input.disabled = false;
             input.style.borderColor = '#555';
-            document.getElementById('write-skip-btn').disabled = false;
-            document.getElementById('write-submit-btn').disabled = false;
-            document.getElementById('write-override-btn').style.display = 'none';
+            this._setActionButtons('question');
             this.answered = false;
             input.focus();
             MathRenderer.typeset(document.getElementById('write-question'));
@@ -1606,11 +2689,7 @@
             const correct = this.app.answerType === 'definition' ? card.definition : card.term;
             const userInput = this._getInput().value.trim();
 
-            function normalize(s) { return s.replace(/\s+/g, ' ').trim().toLowerCase(); }
-            function stripMarkdown(s) {
-                return s.replace(/^#+\s*/gm, '').replace(/^[-*]\s*/gm, '').replace(/\s+/g, ' ').trim();
-            }
-            const isCorrect = normalize(stripMarkdown(userInput)) === normalize(stripMarkdown(correct));
+            const isCorrect = TestAnswerGrader.normalizeAnswer(userInput) === TestAnswerGrader.normalizeAnswer(correct);
 
             this._getInput().disabled = true;
             document.getElementById('write-skip-btn').disabled = true;
@@ -1622,7 +2701,10 @@
                 this.answered = true;
                 if (this.retry.isRetry) {
                     this.retry.handleCorrect(idx);
+                } else {
+                    this.app.summaryTracker.recordCorrect(card);
                 }
+                this.app.saveLearnProgress();
                 let submittedWithEnter = !!this._submittedWithEnter;
                 this._submittedWithEnter = false;
                 const self = this;
@@ -1647,8 +2729,10 @@
             } else {
                 this._getInput().style.borderColor = '#f44336';
                 this.retry.handleWrong(idx);
+                this.app.summaryTracker.recordRetried(card);
+                this.app.saveLearnProgress();
                 this._showCorrectAnswer(feedbackBox, correct);
-                document.getElementById('write-override-btn').style.display = 'inline-block';
+                this._setActionButtons('incorrect');
                 this.answered = true;
                 const self = this;
                 function proceedNext(e) {
@@ -1683,6 +2767,8 @@
             document.getElementById('write-submit-btn').disabled = true;
             this._getInput().style.borderColor = '#555';
             this.retry.handleWrong(idx);
+            this.app.summaryTracker.recordRetried(card);
+            this.app.saveLearnProgress();
             this._showCorrectAnswer(feedbackBox, correct);
             this.answered = true;
 
@@ -1731,16 +2817,173 @@
                 document.getElementById('write-feedback').innerHTML = '';
                 this.update();
             } else {
-                ViewManager.show('file-view');
-                this.app.showLearnModal(true);
+                this.app.showSessionSummary();
             }
         }
 
         override() {
             const idx = this.retry.getCurrentIdx(this.order[this.currentIndex]);
+            const card = this.app.flashcards[idx];
             this.retry.override(idx);
+            this.app.summaryTracker.overrideCorrect(card);
+            this.app.saveLearnProgress();
             document.getElementById('write-override-btn').style.display = 'none';
             this._getInput().style.borderColor = '#4caf50';
+        }
+    }
+
+    class TestMode {
+        constructor(app) {
+            this.app = app;
+            this.order = [];
+            this.answers = [];
+            this.shuffle = false;
+            this.grade = null;
+        }
+
+        start(shuffle) {
+            this.shuffle = !!shuffle;
+            this.answers = [];
+            this.grade = null;
+            this.order = [...Array(this.app.flashcards.length).keys()];
+            if (this.shuffle) this.order.sort(() => Math.random() - 0.5);
+            ViewManager.show('test-view');
+            this.update();
+        }
+
+        update() {
+            document.getElementById('test-title').textContent = document.getElementById('file-title').textContent;
+
+            const container = document.getElementById('test-container');
+            container.innerHTML = '';
+
+            this.order.forEach((cardIndex, displayIndex) => {
+                const item = document.createElement('div');
+                item.className = 'test-item';
+                item.dataset.cardIndex = String(cardIndex);
+
+                const number = document.createElement('span');
+                number.className = 'test-number';
+                number.textContent = `${displayIndex + 1}.`;
+                item.appendChild(number);
+
+                const input = document.createElement('input');
+                input.className = 'test-input';
+                input.type = 'text';
+                input.autocomplete = 'off';
+                input.placeholder = 'Term';
+                input.dataset.displayIndex = String(displayIndex);
+                input.value = this.answers[displayIndex] || '';
+                input.addEventListener('input', () => {
+                    this.answers[displayIndex] = input.value;
+                    this.app.saveLearnProgress();
+                });
+                item.appendChild(input);
+
+                container.appendChild(item);
+            });
+
+            const actions = document.createElement('div');
+            actions.className = 'test-actions';
+
+            const submit = document.createElement('button');
+            submit.type = 'button';
+            submit.className = 'test-button';
+            submit.textContent = 'Submit';
+            submit.onclick = () => this.submit();
+            actions.appendChild(submit);
+            container.appendChild(actions);
+
+            const summary = document.createElement('div');
+            summary.id = 'test-summary';
+            summary.className = 'test-summary';
+            container.appendChild(summary);
+
+            const firstInput = container.querySelector('.test-input');
+            if (firstInput) firstInput.focus();
+            MathRenderer.typeset(container);
+        }
+
+        getAnswers() {
+            const container = document.getElementById('test-container');
+            const inputs = container ? Array.from(container.querySelectorAll('.test-input')) : [];
+            if (inputs.length === this.order.length) {
+                this.answers = inputs.map(input => input.value);
+            }
+            return [...this.answers];
+        }
+
+        restoreProgress(progress = {}) {
+            if (Array.isArray(progress.order) && progress.order.length === this.app.flashcards.length) {
+                this.order = progress.order;
+            }
+            if (Array.isArray(progress.answers)) {
+                this.answers = progress.answers;
+            }
+            this.update();
+        }
+
+        submit() {
+            const container = document.getElementById('test-container');
+            const inputs = Array.from(container.querySelectorAll('.test-input'));
+            const orderedCards = this.order.map(index => this.app.flashcards[index]);
+            const answers = this.getAnswers();
+            this.grade = TestAnswerGrader.gradeTermAnswers(orderedCards, answers, this.shuffle);
+
+            inputs.forEach((input, index) => {
+                input.disabled = true;
+                input.classList.toggle('correct', !!this.grade.results[index]?.isCorrect);
+                input.classList.toggle('incorrect', !this.grade.results[index]?.isCorrect);
+            });
+
+            this._renderSummary();
+            const submit = container.querySelector('.test-button');
+            if (submit) {
+                submit.textContent = 'Retry';
+                submit.onclick = () => this.retry();
+            }
+            this.app.saveLearnProgress();
+            ViewManager.scrollToTop();
+        }
+
+        retry() {
+            this.start(this.shuffle);
+            this.app.saveLearnProgress();
+        }
+
+        _renderSummary() {
+            const summary = document.getElementById('test-summary');
+            const correctCards = this.grade.cardResults.filter(item => item.isCorrect);
+            const incorrectCards = this.grade.cardResults.filter(item => !item.isCorrect);
+
+            summary.style.display = 'block';
+            summary.innerHTML = `
+                <div class="test-summary-columns">
+                    <div class="test-summary-section">
+                        <div class="test-summary-title">Correct: ${correctCards.length}</div>
+                        ${this._summaryCardsHtml(correctCards)}
+                    </div>
+                    <div class="test-summary-section">
+                        <div class="test-summary-title">Incorrect: ${incorrectCards.length}</div>
+                        ${this._summaryCardsHtml(incorrectCards)}
+                    </div>
+                </div>
+            `;
+            MathRenderer.typeset(summary);
+        }
+
+        _summaryCardsHtml(items) {
+            if (!items.length) return '<div class="test-empty-state">None</div>';
+            return items.map(item => {
+                const term = escapeHtml(item.term);
+                const definition = MathRenderer.renderToHtml(item.definition);
+                return `
+                    <div class="test-summary-card">
+                        <div class="test-summary-term">${term}</div>
+                        <div class="test-summary-definition">${definition}</div>
+                    </div>
+                `;
+            }).join('');
         }
     }
 
@@ -1757,12 +3000,17 @@
             this.answerType = 'term';
             this.manifestData = {};
             this.lastLearnSettings = { type: 'flashcards', answer: 'term', shuffle: false };
+            this.reviewCardsOverride = null;
 
             this.searchEngine = new SearchEngine(this);
+            this.searchCommandController = new SearchCommandController(this);
+            this.summaryTracker = new SessionSummaryTracker();
             this.flashcardMode = new FlashcardMode(this);
-            this.choiceMode = new ChoiceMode(this);
-            this.writeMode = new WriteMode(this);
-        }
+                this.choiceMode = new ChoiceMode(this);
+                this.writeMode = new WriteMode(this);
+                this.testMode = new TestMode(this);
+                this.imageFocus = new ImageFocus();
+            }
 
         async init() {
             this._initSearchInput();
@@ -1785,6 +3033,7 @@
             }
             this._initScrollButton();
             this._initKeyboardListeners();
+            this.imageFocus.init();
         }
 
         _shouldRestoreLearningRoute(route, state) {
@@ -1799,13 +3048,7 @@
         }
 
         _initSearchInput() {
-            const input = document.getElementById('search-input');
-            input.addEventListener('input', () => {
-                this.searchEngine.selectedIndex = -1;
-                this.searchEngine.search();
-            });
-            input.addEventListener('focus', () => this.searchEngine.search());
-            input.addEventListener('keydown', event => this.searchEngine.handleKeydown(event));
+            this.searchCommandController.init();
         }
 
         _initRouteListeners() {
@@ -1836,6 +3079,7 @@
         async showSearchResults(query) {
             ViewManager.show('home');
             document.getElementById('learn-modal').style.display = 'none';
+            document.getElementById('session-summary-modal').style.display = 'none';
             this.currentFolder = '';
             this.currentFile = '';
             SessionManager.saveNavState('home');
@@ -1843,6 +3087,7 @@
             await this.searchEngine.buildIndex();
             const input = document.getElementById('search-input');
             input.value = query;
+            this.searchCommandController.sync();
             this.searchEngine.selectedIndex = -1;
             this.searchEngine.search();
             input.focus();
@@ -1885,6 +3130,7 @@
             ViewManager.scrollToTop();
             ViewManager.show('home');
             this.searchEngine.clear();
+            document.getElementById('session-summary-modal').style.display = 'none';
             this.currentFolder = '';
             this.currentFile = '';
             SessionManager.saveNavState('home');
@@ -1898,6 +3144,7 @@
             this.currentFolder = folder;
             ViewManager.show('folder-view');
             document.getElementById('learn-modal').style.display = 'none';
+            document.getElementById('session-summary-modal').style.display = 'none';
             document.getElementById('folder-title').textContent = folder.replace(/^\d+\s*/, '');
             this._loadFiles(folder);
             SessionManager.saveNavState('folder', folder);
@@ -1935,6 +3182,7 @@
             this.currentFolder = folder;
             this.currentFile = file;
             ViewManager.show('file-view');
+            document.getElementById('session-summary-modal').style.display = 'none';
             const fileTitle = document.getElementById('file-title');
             fileTitle.textContent = decodeURIComponent(file).replace(/^[0-9]+\s*/, '').replace('.md', '');
             fileTitle.style.textAlign = 'center';
@@ -1968,13 +3216,14 @@
                     star.textContent = starred.includes(i) ? '★' : '☆';
                     star.onclick = () => StarManager.toggle(folder, file, i, star);
                     wrapper.appendChild(star);
-                    const cardDiv = document.createElement('div');
-                    // File content uses double-backslash replacement only
-                    cardDiv.innerHTML = MathRenderer.renderToHtml(cardText, false);
-                    wrapper.appendChild(cardDiv);
-                    contentDiv.appendChild(wrapper);
-                });
-                await MathRenderer.typeset(contentDiv);
+	                    const cardDiv = document.createElement('div');
+	                    // File content uses double-backslash replacement only
+	                    cardDiv.innerHTML = MathRenderer.renderToHtml(cardText, false);
+	                    wrapper.appendChild(cardDiv);
+	                    contentDiv.appendChild(wrapper);
+	                });
+	                this.imageFocus.prepare(contentDiv);
+	                await MathRenderer.typeset(contentDiv);
             } catch (error) {
                 console.error('error loading file content:', error);
             }
@@ -2020,34 +3269,49 @@
         startLearning() {
             const type = document.getElementById('type').value;
             this.answerType = document.getElementById('answer').value;
+            if (type === 'test' && this.answerType !== 'term') {
+                this.answerType = 'term';
+                document.getElementById('answer').value = 'term';
+            }
             const shuffle = this.getShuffleState();
             const starOnly = this.getStarState();
             this.lastLearnSettings = { type, answer: this.answerType, shuffle, starOnly };
             const learnSettings = { type, answer: this.answerType, shuffle, starOnly };
+            const reviewCards = this.reviewCardsOverride;
+            this.reviewCardsOverride = null;
 
             if (type === 'flashcards') {
                 this.flashcardMode.start(shuffle, starOnly);
                 this.closeModal();
                 SessionManager.saveNavState('file', this.currentFolder, this.currentFile, 'flashcards', learnSettings);
-            } else if (type === 'choice' || type === 'write') {
+            } else if (type === 'choice' || type === 'write' || type === 'test') {
                 fetch(RouteManager.contentUrl(this.currentFolder, this.currentFile))
                     .then(r => r.text())
                     .then(text => {
-                        this.flashcards = CardParser.parseCards(text);
+                        const parsedCards = CardParser.parseCards(text);
+                        this.allFlashcards = [...parsedCards];
+                        let sessionCards = [...parsedCards];
+                        if (starOnly) {
+                            const starredIdx = StarManager.getIndices(this.currentFolder, this.currentFile);
+                            sessionCards = sessionCards.filter(c => starredIdx.includes(c.cardIndex));
+                        }
+                        if (reviewCards && reviewCards.length) {
+                            const reviewKeys = new Set(reviewCards.map(card => String(card.cardIndex)));
+                            sessionCards = sessionCards.filter(card => reviewKeys.has(String(card.cardIndex)));
+                        }
+                        this.flashcards = sessionCards;
+                        this.summaryTracker.reset({
+                            folder: this.currentFolder,
+                            file: this.currentFile,
+                            mode: type,
+                            settings: learnSettings,
+                        });
                         if (type === 'choice') {
-                            this.allFlashcards = [...this.flashcards];
-                            if (starOnly) {
-                                const starredIdx = StarManager.getIndices(this.currentFolder, this.currentFile);
-                                this.flashcards = this.flashcards.filter((c, i) => starredIdx.includes(i));
-                            }
                             this.choiceMode.start(shuffle);
-                        } else {
-                            this.allFlashcards = [...this.flashcards];
-                            if (starOnly) {
-                                const starredIdx = StarManager.getIndices(this.currentFolder, this.currentFile);
-                                this.flashcards = this.flashcards.filter((c, i) => starredIdx.includes(i));
-                            }
+                        } else if (type === 'write') {
                             this.writeMode.start(shuffle);
+                        } else {
+                            this.testMode.start(shuffle);
                         }
                         this.closeModal();
                         SessionManager.saveNavState('file', this.currentFolder, this.currentFile, type, learnSettings);
@@ -2055,6 +3319,105 @@
             } else {
                 this.closeModal();
             }
+        }
+
+        showSessionSummary() {
+            const summary = this.summaryTracker.summary();
+            const settings = summary.context.settings || this.lastLearnSettings;
+            this.lastLearnSettings = settings;
+            ViewManager.show('file-view');
+            document.getElementById('learn-modal').style.display = 'none';
+            this.renderSummaryList('summary-correct-list', 'Correct', summary.correct);
+            this.renderSummaryList('summary-retried-list', 'Retried', summary.retried);
+            const reviewButton = document.getElementById('summary-review-btn');
+            reviewButton.style.display = summary.retried.length ? 'inline-block' : 'none';
+            reviewButton.disabled = summary.retried.length === 0;
+            const modal = document.getElementById('session-summary-modal');
+            modal.style.display = 'flex';
+            this.resetSummaryScroll();
+            MathRenderer.typeset(modal).then(() => this.resetSummaryScroll());
+            SessionManager.saveNavState('file', this.currentFolder, this.currentFile, 'summary', settings);
+            this.saveLearnProgress();
+        }
+
+        renderSummaryList(id, title, items) {
+            const list = document.getElementById(id);
+            const header = title === 'Correct' ? `Correct: ${items.length}` : `Retried: ${items.length}`;
+            list.innerHTML = `<div class="summary-list-title">${escapeHtml(header)}</div>`;
+            if (!items.length) {
+                list.innerHTML += '<div class="summary-empty">None</div>';
+                return;
+            }
+            list.innerHTML += items.map(item => {
+                const term = escapeHtml(CardParser.displayTerm(item.term));
+                const definition = MathRenderer.renderToHtml(item.definition);
+                return `
+                    <div class="test-summary-card">
+                        <div class="test-summary-term">${term}</div>
+                        <div class="test-summary-definition">${definition}</div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        resetSummaryScroll() {
+            const modal = document.getElementById('session-summary-modal');
+            if (!modal) return;
+            const targets = [
+                modal,
+                modal.querySelector('.summary-columns'),
+                ...modal.querySelectorAll('.summary-list')
+            ].filter(Boolean);
+            const scrollToTop = () => {
+                targets.forEach(target => {
+                    target.scrollTop = 0;
+                });
+            };
+            scrollToTop();
+            requestAnimationFrame(() => {
+                scrollToTop();
+            });
+        }
+
+        async openSummaryCard(folder, file, cardIndex, term) {
+            document.getElementById('session-summary-modal').style.display = 'none';
+            await this.searchEngine.navigateToCard(folder, file, cardIndex, term);
+        }
+
+        applySummarySettings(settings) {
+            const nextSettings = settings || this.lastLearnSettings;
+            document.getElementById('type').value = nextSettings.type || 'choice';
+            document.getElementById('answer').value = nextSettings.answer || 'term';
+            this.setShuffleState(!!nextSettings.shuffle);
+            this.setStarState(!!nextSettings.starOnly);
+        }
+
+        reviewRetriedSummary() {
+            const summary = this.summaryTracker.summary();
+            if (!summary.retried.length) return;
+            this.currentFolder = summary.context.folder || this.currentFolder;
+            this.currentFile = summary.context.file || this.currentFile;
+            this.reviewCardsOverride = summary.retried;
+            document.getElementById('session-summary-modal').style.display = 'none';
+            this.applySummarySettings(summary.context.settings);
+            this.startLearning();
+        }
+
+        restartSummarySession() {
+            const summary = this.summaryTracker.summary();
+            this.currentFolder = summary.context.folder || this.currentFolder;
+            this.currentFile = summary.context.file || this.currentFile;
+            document.getElementById('session-summary-modal').style.display = 'none';
+            this.applySummarySettings(summary.context.settings);
+            this.startLearning();
+        }
+
+        finishSummary() {
+            const summary = this.summaryTracker.summary();
+            this.lastLearnSettings = summary.context.settings || this.lastLearnSettings;
+            document.getElementById('session-summary-modal').style.display = 'none';
+            ViewManager.show('file-view');
+            this.showLearnModal(true);
         }
 
         // --- Toggle Controls ---
@@ -2132,13 +3495,24 @@
                 progress = {
                     cardIndex: this.choiceMode.currentIndex,
                     order: this.choiceMode.order,
-                    ...this.choiceMode.retry.serialize()
+                    ...this.choiceMode.retry.serialize(),
+                    summary: this.summaryTracker.serialize()
                 };
             } else if (state.mode === 'write') {
                 progress = {
                     cardIndex: this.writeMode.currentIndex,
                     order: this.writeMode.order,
-                    ...this.writeMode.retry.serialize()
+                    ...this.writeMode.retry.serialize(),
+                    summary: this.summaryTracker.serialize()
+                };
+            } else if (state.mode === 'test') {
+                progress = {
+                    order: this.testMode.order,
+                    answers: this.testMode.getAnswers()
+                };
+            } else if (state.mode === 'summary') {
+                progress = {
+                    summary: this.summaryTracker.serialize()
                 };
             }
             SessionManager.saveLearnProgress(progress);
@@ -2155,6 +3529,11 @@
                     await this.showFile(state.folder, state.file, { saveNavState: false });
                     if (state.mode === 'learn-modal') {
                         this.showLearnModal();
+                    } else if (state.mode === 'summary') {
+                        this.answerType = state.settings?.answer || 'term';
+                        this.lastLearnSettings = state.settings || this.lastLearnSettings;
+                        this.summaryTracker.deserialize(savedProgress.summary);
+                        this.showSessionSummary();
                     } else if (state.mode && state.settings) {
                         this.answerType = state.settings.answer || 'term';
                         this.lastLearnSettings = state.settings;
@@ -2168,24 +3547,37 @@
                                 this.flashcardMode.update();
                             }
                             SessionManager.saveNavState('file', state.folder, state.file, 'flashcards', state.settings);
-                        } else if (state.mode === 'choice' || state.mode === 'write') {
+                        } else if (state.mode === 'choice' || state.mode === 'write' || state.mode === 'test') {
                             const response = await fetch(RouteManager.contentUrl(state.folder, state.file));
                             const text = await response.text();
-                            this.flashcards = CardParser.parseCards(text);
+                            const parsedCards = CardParser.parseCards(text);
+                            this.allFlashcards = [...parsedCards];
+                            this.flashcards = [...parsedCards];
+                            if (state.settings.starOnly) {
+                                const starredIdx = StarManager.getIndices(state.folder, state.file);
+                                this.flashcards = this.flashcards.filter(c => starredIdx.includes(c.cardIndex));
+                            }
+                            this.summaryTracker.deserialize(savedProgress.summary);
                             if (state.mode === 'choice') {
                                 this.choiceMode.start(false);
                                 const cp = savedProgress;
                                 if (cp.order) this.choiceMode.order = cp.order;
                                 if (cp.cardIndex !== undefined) this.choiceMode.currentIndex = cp.cardIndex;
                                 this.choiceMode.retry.deserialize(cp);
+                                this.summaryTracker.deserialize(cp.summary);
                                 this.choiceMode.update();
-                            } else {
+                            } else if (state.mode === 'write') {
                                 this.writeMode.start(false);
                                 const wp = savedProgress;
                                 if (wp.order) this.writeMode.order = wp.order;
                                 if (wp.cardIndex !== undefined) this.writeMode.currentIndex = wp.cardIndex;
                                 this.writeMode.retry.deserialize(wp);
+                                this.summaryTracker.deserialize(wp.summary);
                                 this.writeMode.update();
+                            } else {
+                                this.testMode.start(!!state.settings.shuffle);
+                                const tp = savedProgress;
+                                this.testMode.restoreProgress(tp);
                             }
                             SessionManager.saveNavState('file', state.folder, state.file, state.mode, state.settings);
                         }
