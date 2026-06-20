@@ -258,6 +258,13 @@
         .card-star.starred {
             color: #f5c518;
         }
+        .star-empty-message {
+            margin-left: 12px;
+            color: #f5c518;
+            font-size: 14px;
+            line-height: 1;
+            white-space: nowrap;
+        }
         .search-container {
             width: 100%;
             max-width: 400px;
@@ -853,8 +860,8 @@
                 <div class="form-group">
                     <label for="type">Mode:</label>
                     <select id="type">
-                        <option value="flashcards">Flashcards</option>
-                        <option value="choice">Choice</option>
+                        <option value="flashcards">Flash</option>
+                        <option value="choice">Choose</option>
                         <option value="write">Write</option>
                         <option value="test">Test</option>
                     </select>
@@ -879,6 +886,7 @@
                     <label style="margin: 0; min-width: 60px; display: block;">Star:</label>
                     <div style="display: flex; align-items: center; height: 28px;">
                         <span id="star-toggle" class="card-star" style="position: static; font-size: 1.4em; cursor: pointer; line-height: 1; transform: none;" onclick="app.toggleStar()">☆</span>
+                        <span id="star-empty-message" class="star-empty-message" aria-live="polite"></span>
                     </div>
                 </div>
                 <div style="display: flex; justify-content: space-between; margin-top: 16px;">
@@ -3424,13 +3432,14 @@
 
         startLearning() {
             const type = document.getElementById('type').value;
+            const shuffle = this.getShuffleState();
+            const starOnly = this.getStarState();
+            if (!this.validateStarredSelection()) return;
             this.answerType = document.getElementById('answer').value;
             if (type === 'test' && this.answerType !== 'term') {
                 this.answerType = 'term';
                 document.getElementById('answer').value = 'term';
             }
-            const shuffle = this.getShuffleState();
-            const starOnly = this.getStarState();
             this.lastLearnSettings = { type, answer: this.answerType, shuffle, starOnly };
             const learnSettings = { type, answer: this.answerType, shuffle, starOnly };
             const reviewCards = this.reviewCardsOverride;
@@ -3617,6 +3626,7 @@
                 toggle.classList.add('starred');
                 toggle.textContent = '★';
             }
+            this.validateStarredSelection();
         }
 
         getStarState() {
@@ -3634,6 +3644,25 @@
                 toggle.classList.remove('starred');
                 toggle.textContent = '☆';
             }
+            this.validateStarredSelection();
+        }
+
+        hasStarredTerms() {
+            return StarManager.getIndices(this.currentFolder, this.currentFile).length > 0;
+        }
+
+        setStarEmptyMessage(message = '') {
+            const messageEl = document.getElementById('star-empty-message');
+            if (messageEl) messageEl.textContent = message;
+        }
+
+        validateStarredSelection() {
+            if (this.getStarState() && !this.hasStarredTerms()) {
+                this.setStarEmptyMessage('No starred terms');
+                return false;
+            }
+            this.setStarEmptyMessage('');
+            return true;
         }
 
         // --- Progress Persistence ---
