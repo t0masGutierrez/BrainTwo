@@ -282,8 +282,8 @@ $$
 ### under damped oscillation formula
 $$
 \begin{aligned}
-b ^ { 2 } < 4 m k \implies x ( t ) = A _ { 0 } \exp ( \frac { - b } { 2 m } t ) \cos ( \omega _ { d } t + \phi ) \\
-\omega _ { d } = \sqrt { ( \frac { k } { m } ) - ( \frac { b } { 2 m } ) ^ { 2 } } \\
+b ^ { 2 } < 4 m k \implies x ( t ) = A _ { 0 } \exp ( \frac { - b } { 2 m } t ) \cos ( \omega t + \phi ) \\
+\omega = \sqrt { ( \frac { k } { m } ) - ( \frac { b } { 2 m } ) ^ { 2 } } \\
 b = \text {damping coefficient} \\
 m = \text {mass} \\
 k = \text {spring constant} \\
@@ -342,8 +342,8 @@ $$
 ### driven oscillation formula
 $$
 \begin{aligned}
-m \frac { d ^ { 2 } x } { d t ^ { 2 } } + b \frac { dx } { dt } + k x = F _ { max } \cos ( \omega _ { d } t + \phi ) \\
-A = \frac { F _ { max } } { \sqrt { ( k - m \omega _ { d } ^ { 2 } ) ^ { 2 } + ( b \omega _ { d } ) ^ { 2 } } } \\
+m \frac { d ^ { 2 } x } { d t ^ { 2 } } + b \frac { dx } { dt } + k x = F _ { max } \cos ( \omega t + \phi ) \\
+A = \frac { F _ { max } } { \sqrt { ( k - m \omega ^ { 2 } ) ^ { 2 } + ( b \omega ) ^ { 2 } } } \\
 m = \text {mass} \\
 x = \text {position} \\
 t = \text {time} \\
@@ -352,6 +352,20 @@ k = \text {spring constant} \\
 F = \text {force} \\
 \omega = \text {angular frequency} \\
 \phi = \text {phase angle} \\
+A = \text {amplitude}
+\end{aligned}
+$$
+
+---
+### resonance
+- if driving frequency equal natural frequency then maximum amplitude
+
+---
+### resonance formula
+$$
+\begin{aligned}
+\omega = \omega _ { 0 } \implies A = A _ { max } \\
+\omega = \text {angular frequency} \\
 A = \text {amplitude}
 \end{aligned}
 $$
