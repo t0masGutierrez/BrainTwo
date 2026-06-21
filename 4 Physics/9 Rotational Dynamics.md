@@ -365,12 +365,12 @@ M = \text {system mass}
 $$
 
 ---
-### center of uniform gravity property
+### center of uniform gravity
 - if uniform gravitational field then center of gravity equal center of mass
 ![[4 Physics/Images/center of gravity uniform property.png|200]]
 
 ---
-### center of uniform gravity property formula
+### center of uniform gravity formula
 $$
 \begin{aligned}
 \vec g ( \vec r ) = \vec g _ { 0 } \implies \vec r _ { cg } = \vec r _ { cm } \\
