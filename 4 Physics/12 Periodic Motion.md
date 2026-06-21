@@ -1,6 +1,17 @@
 ### periodic motion
 - motion that repeats itself at regular time intervals
-![[4 Physics/Images/periodic motion.png]]
+![300](4%20Physics/Images/periodic%20motion.gif)
+
+---
+### periodic motion formula
+$$
+\begin{aligned}
+x ( t + T ) = x ( t ) \\
+x = \text {position} \\
+t = \text {time} \\
+T = \text {period}
+\end{aligned}
+$$
 
 ---
 ### period
@@ -10,7 +21,7 @@
 ### period formula
 $$
 \begin{aligned}
-T = \frac { \text {seconds} } { \text {1 revolution} }
+T = \frac { \text {number of seconds} } { \text {number of revolutions} }
 \end{aligned}
 $$
 
@@ -29,21 +40,40 @@ $$
 
 ---
 ### angular frequency
-- number of phases per time 
+- number of radians per time
 
 ---
 ### angular frequency formula
 $$
 \begin{aligned}
-\omega = 2 \pi f \\
-f = \text {oscillation frequency}
+\omega = 2 \pi f = \frac { 2 \pi } { T } \\
+f = \text {oscillation frequency} \\
+T = \text {period}
+\end{aligned}
+$$
+
+---
+### hookes law
+- restoring force by spring on object directly proportional displacement and directly opposite displacement
+![250](4%20Physics/Images/hookes%20law.png)
+
+---
+### hookes law formula
+$$
+\begin{aligned}
+F _ { x } = - k x = m a _ { x } = - m \omega ^ { 2 } x \\
+k = \text {spring constant} \\
+x = \text {position} \\
+m = \text {mass} \\
+a = \text {acceleration} \\
+\omega = \text {angular frequency}
 \end{aligned}
 $$
 
 ---
 ### simple harmonic motion
 - periodic motion where object oscillate about equilibrium with restoring force directly proportional displacement
-![[4 Physics/Images/simple harmonic motion.png|400]]
+![](4%20Physics/Images/simple%20harmonic%20motion.png)
 
 ---
 ### simple harmonic motion formula
@@ -52,28 +82,54 @@ $$
 x ( t ) = A \cos ( \omega t + \phi ) \\
 v ( t ) = - A \omega \sin ( \omega t + \phi ) \\
 a ( t ) = - A \omega ^ { 2 } \cos ( \omega t + \phi ) \\
+T = 2 \pi \sqrt { \frac { m } { k } } \\
 A = \text {amplitude} \\
 \omega = \text {angular frequency} \\
 t = \text {time} \\
-\phi = \text {phase angle}
+\phi = \text {phase angle} \\
+T = \text {period} \\
+m = \text {mass} \\
+k = \text {spring constant}
 \end{aligned}
 $$
 
 ---
 ### amplitude
-- maximum displacement of medium from equilibrium
+- maximum displacement from equilibrium
+
+---
+### amplitude formula
+$$
+\begin{aligned}
+A = \max | x | = \sqrt { x _ { 0 } ^ { 2 } + \frac { v _ { 0 } ^ { 2 } } { \omega _ { 0 } ^ { 2 } } } \\
+x = \text {position} \\
+v = \text {velocity} \\
+\omega = \text {angular frequency}
+\end{aligned}
+$$
 
 ---
 ### phase angle
-- temporal difference of simple harmonic motion
-![[4 Physics/Images/phase angle1.png]]
+- initial position of periodic motion
+![300](4%20Physics/Images/phase%20angle1.png)
+
+---
+### phase angle formula
+$$
+\begin{aligned}
+\phi = \arctan ( \frac { - v _ { 0 } } { \omega ^ { 2 } x _ { 0 } } ) \\
+v = \text {velocity} \\
+\omega = \text {angular frequency} \\
+x = \text {position}
+\end{aligned}
+$$
 
 ---
 ### maximum simple harmonic motion
-- maximum displacement where $x = \pm A$ 
-- maximum velocity where $x = 0$ 
-- maximum acceleration where $x = \pm A$ 
-![[4 Physics/Images/maximum simple harmonic motion.png]]
+- if position equal amplitude then maximum displacement
+- if position equal zero then maximum velocity
+- if position equal amplitude then maximum acceleration
+![250](4%20Physics/Images/maximum%20simple%20harmonic%20motion.png)
 
 ---
 ### maximum simple harmonic motion formula
@@ -90,134 +146,204 @@ $$
 ---
 ### simple harmonic motion energy
 - constant oscillation between potential energy and kinetic energy
-![[4 Physics/Images/simple harmonic motion mechanical energy.png]]
+![400](4%20Physics/Images/simple%20harmonic%20motion%20energy.png)
 
 ---
 ### simple harmonic motion energy formula
 $$
 \begin{aligned}
-E = K + U = \frac { 1 } { 2 } k A ^ { 2 } \\
-K = \text {kinetic energy} \\
-U = \text {potential energy} \\
+E = \frac { 1 } { 2 } m v ^ { 2 } + \frac { 1 } { 2 } k x ^ { 2 } = \frac { 1 } { 2 } k A ^ { 2 } \\
+m = \text {mass} \\
+v = \text {velocity} \\
 k = \text {spring constant} \\
+x = \text {position} \\
 A = \text {amplitude}
 \end{aligned}
 $$
 
 ---
 ### energy diagram
-- energy as function of position
-![[4 Physics/Images/energy diagram1.png]]
+- mechanical energy as function of position
+![300](4%20Physics/Images/energy%20diagram1.png)
 
 ---
-### turning point
-- point where potential energy approaches total mechanical energy and turns around
-
----
-### equilibrium point
-- local extrema point where zero force acting on system
-![[4 Physics/Images/equilibrium point.png]]
-
----
-### equilibrium stability
-- stable equilibrium point equal minimum where changes return position 
-- unstable equilibrium point equal maximum where changes do not return position
-
----
-### spring mass
-- restoring force by spring on mass directly proportional displacement
-![[4 Physics/Images/spring mass.png|300]]
-
----
-### angular frequency formula
+### energy diagram formula
 $$
 \begin{aligned}
-\omega = \sqrt { \frac { k } { m } } \\
+E ( x ) \\
+E = \text {mechanical energy} \\
+x = \text {position}
+\end{aligned}
+$$
+
+---
+### vertical simple harmonic motion
+- simple harmonic motion except equilibrium position equal point where restoring force equal weight
+![350](4%20Physics/Images/vertical%20simple%20harmonic%20motion.png)
+
+---
+### vertical simple harmonic motion
+$$
+\begin{aligned}
+y ( t ) = \frac { mg } { k } + A \cos ( \omega t + \phi ) \\
+v ( t ) = - A \omega \sin ( \omega t + \phi ) \\
+a ( t ) = - A \omega ^ { 2 } \cos ( \omega t + \phi ) \\
+T = 2 \pi \sqrt { \frac { m } { k } } \\
+m = \text {mass} \\
+g = \text {gravity} \\
 k = \text {spring constant} \\
-m = \text {mass}
+A = \text {amplitude} \\
+\omega = \text {angular frequency} \\
+t = \text {time} \\
+\phi = \text {phase angle} \\
+T = \text {period}
+\end{aligned}
+$$
+
+---
+### angular simple harmonic motion
+- periodic motion where object oscillate about equilibrium with restoring torque directly proportional angular displacement
+![300](4%20Physics/Images/angular%20simple%20harmonic%20motion.png)
+
+---
+### angular simple harmonic motion formula
+$$
+\begin{aligned}
+\theta ( t ) = \Theta \cos ( \omega t + \phi ) \\
+\frac { d \theta } { dt } = - \Theta \omega \sin ( \omega t + \phi ) \\
+\frac { d ^ { 2 } \theta } { d t ^ { 2 } } = - \Theta \omega ^ { 2 } \cos ( \omega t + \phi ) \\
+T = 2 \pi \sqrt { \frac { I } { \kappa } } \\
+\Theta = \text {amplitude} \\
+\omega = \text {angular frequency} \\
+t = \text {time} \\
+\phi = \text {phase angle} \\
+T = \text {period} \\
+I = \text {moment of inertia} \\
+\kappa = \text {torsion constant}
 \end{aligned}
 $$
 
 ---
 ### simple pendulum
 - point mass swinging on string under the force of gravity
-![[4 Physics/Images/simple pendulum.png]]
+![300](4%20Physics/Images/simple%20pendulum.png)
 
 ---
-### angular frequency formula
+### simple pendulum formula
 $$
 \begin{aligned}
-\omega = \sqrt { \frac { g } { L } } \\
-g = 9.8 \\
-L = \text {length}
+T = 2 \pi \sqrt { \frac { L } { g } } \\
+L = \text {length} \\
+g = \text {gravity}
 \end{aligned}
 $$
 
 ---
 ### physical pendulum
-- distribution of mass swinging about axis of rotation under the force of gravity
-![[4 Physics/Images/physical pendulum.png]]
+- rigid body swinging about axis of rotation under the force of gravity
+![250](4%20Physics/Images/physical%20pendulum.png)
 
 ---
-### angular frequency formula
+### physical pendulum formula
 $$
 \begin{aligned}
-\omega = \sqrt { \frac { mgL } { I } } \\
+T = 2 \pi \sqrt { \frac { I } { mgL } } \\
+I = \text {moment of inertia} \\
 m = \text {mass} \\
-g = 9.8 \\
-L = \text {length} \\
-I = \text {moment of inertia}
+g = \text {gravity} \\
+L = \text {length}
 \end{aligned}
 $$
 
 ---
 ### damped oscillation
-- decreasing periodic motion by subtracting energy via damping force
-![[4 Physics/Images/damped oscillation.png|500]]
+- decreasing amplitude of periodic motion because of damping force
+![350](4%20Physics/Images/damped%20oscillation.png)
 
 ---
 ### damped oscillation formula
 $$
 \begin{aligned}
 m \frac { d ^ { 2 } x } { d t ^ { 2 } } + b \frac { dx } { dt } + k x = 0 \\
-x ( t ) = A _ { 0 } ( e ^ { - b t / 2 m } \cos ( \omega t + \phi ) \\
-\omega = \sqrt { ( \frac { k } { m } ) - ( \frac { b } { 2 m } ) ^ { 2 } } \\
 m = \text {mass} \\
 x = \text {position} \\
 t = \text {time} \\
 b = \text {damping coefficient} \\
-k = \text {spring constant} \\
-A = \text {amplitude} \\
-\omega = \text {angular frequency}
+k = \text {spring constant}
 \end{aligned}
 $$
 
 ---
 ### under damped oscillation
 - slow decrease of periodic motion
-- $b ^ { 2 } < 4 m k$ 
+![350](4%20Physics/Images/under%20damped%20oscillation.png)
+
+---
+### under damped oscillation formula
+$$
+\begin{aligned}
+b ^ { 2 } < 4 m k \implies x ( t ) = A _ { 0 } \exp ( \frac { - b } { 2 m } t ) \cos ( \omega _ { d } t + \phi ) \\
+\omega _ { d } = \sqrt { ( \frac { k } { m } ) - ( \frac { b } { 2 m } ) ^ { 2 } } \\
+b = \text {damping coefficient} \\
+m = \text {mass} \\
+k = \text {spring constant} \\
+x = \text {position} \\
+t = \text {time} \\
+A = \text {amplitude} \\
+\omega = \text {angular frequency} \\
+\phi = \text {phase angle}
+\end{aligned}
+$$
 
 ---
 ### critically damped oscillation
-- fast decrease of non periodic motion
-- $b ^ { 2 } = 4 m k$ 
+- fast decrease of nonperiodic motion
+
+---
+### critically damped oscillation formula
+$$
+\begin{aligned}
+b ^ { 2 } = 4 m k \implies x ( t ) = ( C _ { 1 } + C _ { 2 } ) \exp ( \frac { - b } { 2 m } t ) \\
+b = \text {damping coefficient} \\
+m = \text {mass} \\
+k = \text {spring constant} \\
+x = \text {position} \\
+t = \text {time} \\
+C = \text {constant}
+\end{aligned}
+$$
 
 ---
 ### over damped oscillation
-- slow decrease of non periodic motion
-- $b ^ { 2 } > 4 m k$ 
+- slow decrease of nonperiodic motion
+
+---
+### over damped oscillation
+$$
+\begin{aligned}
+b ^ { 2 } < 4 m k \implies x ( t ) = C _ { 1 } \exp ( r _ { 1 } t ) + C _ { 2 } \exp ( r _ { 2 } t ) \\
+r = \frac { - b \pm \sqrt { b ^ { 2 } - 4 m k } } { 2 m } \\
+b = \text {damping coefficient} \\
+m = \text {mass} \\
+k = \text {spring constant} \\
+x = \text {position} \\
+t = \text {time} \\
+C = \text {constant} \\
+r = \text {root}
+\end{aligned}
+$$
 
 ---
 ### driven oscillation
-- increasing periodic motion by adding energy via driving force
+- increasing amplitude of periodic motion because of driving force
+![250](4%20Physics/Images/driven%20oscillation.png)
 
 ---
 ### driven oscillation formula
 $$
 \begin{aligned}
-m \frac { d ^ { 2 } x } { d t ^ { 2 } } + b \frac { dx } { dt } + k x = F _ { 0 } \cos ( \omega t + \phi ) \\
-x ( t ) = A _ { 0 } \cos ( \omega t + \phi ) \\
-A _ { 0 } = \frac { F _ { 0 } } { \sqrt { m ^ { 2 } \omega ^ { 2 } - m k + b ^ { 2 } \omega ^ { 2 } } } \\
+m \frac { d ^ { 2 } x } { d t ^ { 2 } } + b \frac { dx } { dt } + k x = F _ { max } \cos ( \omega _ { d } t + \phi ) \\
+A = \frac { F _ { max } } { \sqrt { ( k - m \omega _ { d } ^ { 2 } ) ^ { 2 } + ( b \omega _ { d } ) ^ { 2 } } } \\
 m = \text {mass} \\
 x = \text {position} \\
 t = \text {time} \\

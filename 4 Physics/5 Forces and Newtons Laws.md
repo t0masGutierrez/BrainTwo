@@ -134,7 +134,7 @@ $$
 ### spring force formula
 $$
 \begin{aligned}
-\vec F _ { s } = - k \Delta \vec x \\
+\vec F _ { s } = - k \vec x \\
 k = \text {spring constant} \\
 \vec x = \text {position}
 \end{aligned}

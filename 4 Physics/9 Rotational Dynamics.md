@@ -407,7 +407,7 @@ $$
 \sigma _ { B } = \Delta p \\
 \sigma _ { S } = \frac { F _ { \parallel } } { A } \\
 F = \text {force} \\
-A = \text {cross-section area} \\
+A = \text {area} \\
 p = \text {pressure}
 \end{aligned}
 $$

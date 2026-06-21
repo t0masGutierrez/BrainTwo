@@ -241,7 +241,7 @@ $$
 
 ---
 ### stable equilibrium point
-- local minimum of mechanical energy where displacements restore position
+- local minimum of mechanical energy where displacement restore position
 
 ---
 ### stable equilibrium point formula
@@ -255,7 +255,7 @@ $$
 
 ---
 ### unstable equilibrium point
-- local maximum of mechanical energy where displacements do not restore position
+- local maximum of mechanical energy where displacement do not restore position
 
 ---
 ### unstable equilibrium point formula
