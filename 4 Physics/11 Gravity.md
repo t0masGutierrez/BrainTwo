@@ -196,3 +196,21 @@ M = \text {mass}
 $$
 
 ---
+### black hole
+- object whose escape velocity exceed the speed of light
+![250](4%20Physics/Images/black%20hole.png)
+
+---
+### black hole formula
+$$
+\begin{aligned}
+v _ { E } \ge c \implies R _ { S } = \frac { 2 G M } { c ^ { 2 } } \\
+v _ { E } = \text {escape velocity} \\
+c = 3.0 \times 10 ^ { 8 } \\
+R _ { S } = \text {schwarzschild radius} \\
+G = 6.67 \times 10 ^ { - 11 } \\
+M = \text {mass}
+\end{aligned}
+$$
+
+---
