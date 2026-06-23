@@ -21,7 +21,7 @@ $$
 ### period formula
 $$
 \begin{aligned}
-T = \frac { \text {number of seconds} } { \text {number of revolutions} }
+T = \frac { \text {time} } { \text {number of revolutions} }
 \end{aligned}
 $$
 

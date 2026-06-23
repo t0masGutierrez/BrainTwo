@@ -215,7 +215,7 @@ $$
 
 ---
 ### turning point
-- point where mechanical energy equal potential energy
+- point on energy diagram where mechanical energy equal potential energy
 
 ---
 ### turning point formula
@@ -228,7 +228,7 @@ $$
 
 ---
 ### equilibrium point
-- point where force acting on system equal zero
+- point on energy diagram where force acting on system equal zero
 ![[4 Physics/Images/equilibrium point.png|400]]
 
 ---

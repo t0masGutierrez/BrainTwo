@@ -136,7 +136,7 @@ $$
 \begin{aligned}
 \vec F _ { s } = - k \vec x \\
 k = \text {spring constant} \\
-\vec x = \text {position}
+\vec x = \text {displacement}
 \end{aligned}
 $$
 
