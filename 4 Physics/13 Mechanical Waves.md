@@ -1,29 +1,14 @@
 ### mechanical wave
-- oscillatory disturbance propagate through medium and transfer mechanical energy
+- disturbance propagating through medium and transferring mechanical energy without transporting matter
 
 ---
 ### mechanical wave formula
 $$
 \begin{aligned}
-f ( x , t ) = f ( x \pm v t ) \\
+y ( x , t ) = f ( x - v t ) + g ( x + v t ) \\
 x = \text {position} \\
 t = \text {time} \\
 v = \text {velocity}
-\end{aligned}
-$$
-
----
-### pulse
-- single nonoscillatory disturbance propagate through medium with constant amplitude
-![300](4%20Physics/Images/pulse.png)
-
----
-### pulse formula
-$$
-\begin{aligned}
-\Delta x = v \Delta t \\
-v = \text {velocity} \\
-t = \text {time}
 \end{aligned}
 $$
 
@@ -58,23 +43,60 @@ v = \text {velocity}
 $$
 
 ---
+### traveling wave
+- mechanical wave propagating through space
+
+---
+### traveling wave formula
+$$
+\begin{aligned}
+y ( x , t ) = f ( x \mp { vt } ) \\
+x = \text {position} \\
+v = \text {velocity} \\
+t = \text {time}
+\end{aligned}
+$$
+
+---
+### pulse wave
+- nonperiodic traveling wave
+![300](4%20Physics/Images/pulse%20wave.png)
+
+---
+### pulse wave formula
+$$
+\begin{aligned}
+x - v t = C \\
+x = \text {position} \\
+v = \text {velocity} \\
+t = \text {time} \\
+C = \text {constant}
+\end{aligned}
+$$
+
+---
 ### sinusoidal wave
-- wave whose particle displacement equal sine function of space and time
+- periodic traveling wave
 ![300](4%20Physics/Images/sinusoidal%20wave.png)
 
 ---
 ### sinusoidal wave formula
 $$
 \begin{aligned}
-y ( x , t ) = A \sin ( \theta ) \\
-A = \text {amplitude} \\
-\theta = \text {phase}
+k x \mp \omega t + \phi = C \\
+k = \text {wavenumber} \\
+x = \text {position} \\
+\omega = \text {angular frequency} \\
+t = \text {time} \\
+\phi = \text {phase angle} \\
+C = \text {constant}
 \end{aligned}
 $$
 
 ---
 ### particle displacement
-- vertical displacement of medium particle from equilibrium
+- displacement of medium particle from equilibrium
+![300](4%20Physics/Images/particle%20displacement.gif)
 
 ---
 ### particle displacement formula
@@ -82,13 +104,14 @@ $$
 \begin{aligned}
 y ( x , t ) = A \sin ( k x \mp \omega t + \phi ) \\
 y ( x , t ) = A \sin [ 2 \pi ( \frac { x } { \lambda } \mp \frac { t } { T } ) + \phi ] \\
-y ( x , t ) = A \sin [ \omega ( \frac { x } { v } \mp t ) + \phi ] \\
 A = \text {amplitude} \\
 k = \text {wave number} \\
 x = \text {position} \\
 \omega = \text {angular frequency} \\
 t = \text {time} \\
-\phi = \text {phase angle}
+\phi = \text {phase angle} \\
+\lambda = \text {wavelength} \\
+T = \text {period}
 \end{aligned}
 $$
 
@@ -156,8 +179,8 @@ $$
 
 ---
 ### wave equation
-- temporal acceleration directly proportional spatial curvature as result of linear restoring force
-![[4 Physics/Images/wave function.png]]
+- temporal acceleration directly proportional spatial curvature
+![300](4%20Physics/Images/wave%20equation.png)
 
 ---
 ### wave equation formula
@@ -180,13 +203,10 @@ $$
 ### wavefront formula
 $$
 \begin{aligned}
-k x \mp \omega t + \phi = C \\
-k = \text {wavenumber} \\
+\theta ( x , t ) = C \\
+\theta = \text {phase} \\
 x = \text {position} \\
-\omega = \text {angular frequency} \\
-t = \text {time} \\
-\phi = \text {phase angle} \\
-C = \text {constant}
+t = \text {time}
 \end{aligned}
 $$
 
@@ -219,21 +239,6 @@ v = \sqrt { \frac { \text {elasticity} } { \text {inertia} } }
 $$
 
 ---
-### tensed string wave velocity
-- rate of wavefront on string under tension
-![300](4%20Physics/Images/tensed%20string%20wave%20velocity.png)
-
----
-### tensed string wave velocity formula
-$$
-\begin{aligned}
-v = \sqrt { \frac { F _ { T } } { \mu } } \\
-F = \text {force} \\
-\mu = \text {linear mass density}
-\end{aligned}
-$$
-
----
 ### linear mass density
 - measure of string compactness
 
@@ -248,45 +253,193 @@ L = \text {length}
 $$
 
 ---
+### tensed string wave velocity
+- rate of wavefront along string under tension
+
+---
+### tensed string wave velocity formula
+$$
+\begin{aligned}
+v = \sqrt { \frac { F _ { T } } { \mu } } \\
+F = \text {force} \\
+\mu = \text {linear mass density}
+\end{aligned}
+$$
+
+---
+### tensed string wave energy
+- mechanical energy along string under tension
+
+---
+### tensed string wave energy formula
+$$
+\begin{aligned}
+K _ { m } = \frac { \mu L v _ { y } ^ { 2 } } { 2 } \implies K _ { \lambda } = \frac { \mu A ^ { 2 } \omega ^ { 2 } \lambda } { 4 } \\
+U _ { m } = \frac { m \omega ^ { 2 } x ^ { 2 } } { 2 } \implies U _ { \lambda } = \frac { \mu A ^ { 2 } \omega ^ { 2 } \lambda } { 4 } \\
+E _ { \lambda } = K _ { \lambda } + U _ { \lambda } = \frac { \mu A ^ { 2 } \omega ^ { 2 } \lambda } { 2 }
+\end{aligned}
+$$
+
+---
+### tensed string wave power
+- rate of doing work
+- rate of mechanical energy transfer
+![300](4%20Physics/Images/tensed%20string%20wave%20power.png)
+
+---
+### tensed string wave power formula
+$$
+\begin{aligned}
+P ( x , t ) = \omega A ^ { 2 } k F _ { T } \sin ^ { 2 } ( k x \mp \omega t + \phi ) \\
+P _ { avg } = \frac { 1 } { 2 } \omega ^ { 2 } A ^ { 2 } \sqrt { \mu F _ { T } } \\
+\omega = \text {angular frequency} \\
+A = \text {amplitude} \\
+k = \text {wavenumber} \\
+F = \text {force} \\
+x = \text {position} \\
+t = \text {time} \\
+\phi = \text {phase angle} \\
+\mu = \text {linear mass density}
+\end{aligned}
+$$
+
+---
 ### incident wave
-- wave before interaction with boundary
+- wave before interacting with boundary condition
 
 ---
-### reflect wave
-- wave after interaction with boundary
+### reflected wave
+- wave after interacting with boundary condition and propagating through original medium
 
 ---
-### moveable boundary
-- wave change horizontal direction
-![[4 Physics/Images/moveable boundary.png]]
+### refracted wave
+- wave after interacting with boundary condition and propagating through different medium
 
 ---
-### immoveable boundary
-- wave change horizontal direction and vertical direction
-![[4 Physics/Images/immoveable boundary.png]]
+### fixed boundary condition
+- amplitude of reflected wave equal negative amplitude of incident wave
+![350](4%20Physics/Images/fixed%20boundary%20condition.png)
 
 ---
-### superposition
+### fixed boundary condition formula
+$$
+\begin{aligned}
+A _ { R } = - A _ { I } \\
+A = \text {amplitude}
+\end{aligned}
+$$
+
+---
+### free boundary condition
+- amplitude of reflected wave equal amplitude of incident wave
+![350](4%20Physics/Images/free%20boundary%20condition.png)
+
+---
+### free boundary condition formula
+$$
+\begin{aligned}
+A _ { R } = A _ { I } \\
+A = \text {amplitude}
+\end{aligned}
+$$
+
+---
+### principle of superposition
 - combination of two or more waves equal the sum of amplitudes
-![[4 Physics/Images/superposition.png|500]]
+
+---
+### principle of superposition formula
+$$
+\begin{aligned}
+y ( x , t ) = y _ { 1 } ( x , t ) + y _ { 2 } ( x , t ) \\
+y = \text {displacement} \\
+x = \text {position} \\
+t = \text {time}
+\end{aligned}
+$$
 
 ---
 ### constructive interference
 - combination of two or more waves equal larger wave
-![[4 Physics/Images/constructive interference.png|300]]
+- waves with aligned crests and troughs are in phase
+![300](4%20Physics/Images/constructive%20interference.png)
+
+---
+### constructive interference formula
+$$
+\begin{aligned}
+\Delta \phi = 2 \pi n \implies A = A _ { 1 } + A _ { 2 } \\
+\phi = \text {phase angle} \\
+A = \text {amplitude}
+\end{aligned}
+$$
 
 ---
 ### destructive interference
 - combination of two or more waves equal smaller wave
-![[4 Physics/Images/destructive interference.png|300]]
+- waves with misaligned crests and troughs are out of phase
+![300](4%20Physics/Images/destructive%20interference.png)
 
 ---
-### in phase motion
-- waves with aligned crests and troughs
+### destructive interference formula
+$$
+\begin{aligned}
+\Delta \phi = ( 2 n + 1 ) \pi \implies A = | A _ { 1 } - A _ { 2 } | \\
+\phi = \text {phase angle} \\
+A = \text {amplitude}
+\end{aligned}
+$$
 
 ---
-### out phase motion
-- waves with misaligned crests and troughs
+### phase shifted wave
+- superposition of two identical waves with different phase angles
+
+---
+### phase shifted wave formula
+$$
+\begin{aligned}
+y _ { 1 } = A \sin ( k x \mp \omega t + \phi ) \land \\
+y _ { 2 } = A \sin ( k x \mp \omega t ) \implies \\
+y _ { 1 } ( x , t ) + y _ { 2 } ( x , t ) = 2 A \cos ( \frac { \phi } { 2 } ) \sin ( k x \mp \omega t + \frac { \phi } { 2 } ) \\
+A = \text {amplitude} \\
+k = \text {wavenumber} \\
+x = \text {position} \\
+\omega = \text {angular frequency} \\
+t = \text {time} \\
+\phi = \text {phase angle}
+\end{aligned}
+$$
+
+---
+### standing wave
+- superposition of two identical waves traveling opposite directions
+![[4 Physics/Images/standing wave.gif]]
+
+---
+### standing wave formula
+$$
+\begin{aligned}
+A \sin ( k x - \omega t ) + \\
+A \sin ( k x + \omega t ) = \\
+2 A \sin ( k x ) \cos ( \omega t ) \\
+A = \text {amplitude} \\
+k = \text {wavenumber} \\
+x = \text {position} \\
+\phi = \text {phase angle} \\
+\omega = \text {angular frequency} \\
+t = \text {time}
+\end{aligned}
+$$
+
+---
+### node
+- position of zero displacement
+![400](4%20Physics/Images/node.png)
+
+---
+### antinode
+- position of maximum displacement
+![300](4%20Physics/Images/antinode.png)
 
 ---
 ### driving frequency
@@ -300,21 +453,6 @@ $$
 ### resonance
 - driving frequency equal natural frequency thus maximizing amplitude
 ![[4 Physics/Images/resonance.png]]
-
----
-### standing wave
-- two identical waves traveling opposite directions that oscillate between constructive interference and destructive interference
-![[4 Physics/Images/standing wave.gif]]
-
----
-### node
-- position of zero displacement
-![[4 Physics/Images/node.png]]
-
----
-### antinode
-- position of maximum displacement
-![[4 Physics/Images/antinode.png]]
 
 ---
 ### fundamental mode

@@ -257,7 +257,7 @@ $$
 ---
 ### antinode
 - position of maximum displacement
-![[4 Physics/Images/node.png]]
+![[4 Physics/Images/antinode.png]]
 
 ---
 ### fundamental mode
