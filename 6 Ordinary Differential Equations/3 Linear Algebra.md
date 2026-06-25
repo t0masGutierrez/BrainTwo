@@ -129,8 +129,8 @@ A=\text{coefficient matrix}\\
 \lambda=\text{eigenvalue}\\
 I=\text{identity matrix}\\
 k=\text{generalized rank}\\
-\vec w=\text{generalized eigenvector}\\
-\vec v=\text{eigenvector}
+\vec v_k=\text{generalized eigenvector}\\
+\vec v_{k-1}=\text{eigenvector}
 \end{aligned}
 $$
 

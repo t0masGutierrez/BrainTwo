@@ -56,7 +56,6 @@ $$
 $$
 \begin{aligned}
 X(x)=\sin(\frac{n\pi}{L}x)\\
-n=\text{natural number}\\
 x=\text{space}\\
 L=\text{length}
 \end{aligned}
@@ -87,29 +86,25 @@ $$
 $$
 \begin{aligned}
 u(x,t)=\sum_{n=1}^{N}c_{n}\exp(-k\frac{n^{2}\pi^{2}}{L^{2}}t)\sin(\frac{n\pi}{L}x)\\
-c=\text{fourier sine series}\\
+c=\text{fourier coefficient}\\
 k=\text{thermal diffusivity}\\
-n=\text{natural number}\\
 L=\text{length}\\
 t=\text{time}\\
-x=\text{space}\\
-L=\text{length}
+x=\text{space}
 \end{aligned}
 $$
 
 ---
-### fourier sine series
-- represent function on the interval as infinite sum of sine functions
+### fourier series
+- fourier coefficient equal sum of sinusoidal functions
 
 ---
-### fourier sine series formula
+### fourier series formula
 $$
 \begin{aligned}
 c_{n}=\frac{2}{L}\int_{0}^{L}f(x)\sin(\frac{n\pi}{L}x)dx\\
 L=\text{length}\\
-n=\text{natural number}\\
-x=\text{space}\\
-L=\text{length}
+x=\text{space}
 \end{aligned}
 $$
 
