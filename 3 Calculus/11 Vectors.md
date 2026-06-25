@@ -14,8 +14,8 @@
 ### unit vector formula
 $$
 \begin{aligned}
-\hat { i } = \frac { \vec { A _ { x } } } { A _ { x } } \\
-\hat { j } = \frac { \vec { A _ { y } } } { A _ { y } }
+\hat{i}=\frac{\vec{A_{x}}}{A_{x}}\\
+\hat{j}=\frac{\vec{A_{y}}}{A_{y}}
 \end{aligned}
 $$
 
@@ -29,10 +29,10 @@ $$
 ### scalar component formula
 $$
 \begin{aligned}
-A _ { x } = A \cos ( \theta ) \\
-A _ { y } = A \sin ( \theta ) \\
-A = \text {magnitude} \\
-\theta = \text {direction}
+A_{x}=A\cos(\theta)\\
+A_{y}=A\sin(\theta)\\
+A=\text{magnitude}\\
+\theta=\text{direction}
 \end{aligned}
 $$
 
@@ -40,11 +40,11 @@ $$
 ### vector component formula
 $$
 \begin{aligned}
-\vec { A } = A _ { x } \hat { i } + A _ { y } \hat { j } \\
-A _ { x } = \text {x scalar component} \\
-\hat { i } = \text {x direction} \\
-A _ { y } = \text {y scalar component} \\
-\hat { j } = \text {y direction}
+\vec{A}=A_{x}\hat{i}+A_{y}\hat{j}\\
+A_{x}=\text{x scalar component}\\
+\hat{i}=\text{x direction}\\
+A_{y}=\text{y scalar component}\\
+\hat{j}=\text{y direction}
 \end{aligned}
 $$
 
@@ -56,9 +56,9 @@ $$
 ### magnitude formula
 $$
 \begin{aligned}
-A = \sqrt { A _ { x } ^ { 2 } + A _ { y } ^ { 2 } } \\
-A _ { x } = \text {x scalar component} \\
-A _ { y } = \text {y scalar component}
+A=\sqrt{A_{x}^{2}+A_{y}^{2}}\\
+A_{x}=\text{x scalar component}\\
+A_{y}=\text{y scalar component}
 \end{aligned}
 $$
 
@@ -71,30 +71,30 @@ $$
 ### direction formula
 $$
 \begin{aligned}
-\theta = \arctan ( \frac { A _ { y } } { A _ { x } } ) \\
-A _ { x } = \text {x scalar component} \\
-A _ { y } = \text {y scalar component}
+\theta=\arctan(\frac{A_{y}}{A_{x}})\\
+A_{x}=\text{x scalar component}\\
+A_{y}=\text{y scalar component}
 \end{aligned}
 $$
 
 ---
 ### inverse tangent range
-- $[ \frac { - \pi } { 2 } \le \theta \le \frac { \pi } { 2 } ] = [ - 90 \le \theta \le 90 ] = Q _ { 1 } \lor Q _ { 4 }$  
-- if $A _ { x } < 0$ then 180 addition with direction
+- $[\frac{-\pi}{2}\le\theta\le\frac{\pi}{2}]=[-90\le\theta\le90]=Q_{1}\lor Q_{4}$
+- if $A_{x}<0$ then 180 addition with direction
 ![[4 Physics/Images/inverse tangent range.png]]
 
 ---
 ### vector equality
-- if $A \ne B$ then unequal magnitude or unequal direction
+- if $A\ne B$ then unequal magnitude or unequal direction
 
 ---
 ### vector equality formula
 $$
 \begin{aligned}
-\vec { A } = \vec { B } \iff
+\vec{A}=\vec{B}\iff
 \begin{cases}
-A _ { x } = B _ { x } \\
-A _ { y } = B _ { y }
+A_{x}=B_{x}\\
+A_{y}=B_{y}
 \end{cases}
 \end{aligned}
 $$
@@ -113,13 +113,13 @@ $$
 ### vector property formula
 $$
 \begin{aligned}
-\vec A + \vec B = \vec B + \vec A \\
-( \vec A + \vec B ) + \vec C = \vec A + ( \vec B + \vec C ) \\
-\vec A + 0 = \vec A \\
-\vec A + ( - \vec A ) = 0 \\
-c ( \vec A + \vec B ) = c \vec A + c \vec B \\
-1 ( \vec A ) = \vec A \\
-0 ( \vec A ) = 0
+\vec A+\vec B=\vec B+\vec A\\
+(\vec A+\vec B)+\vec C=\vec A+(\vec B+\vec C)\\
+\vec A+0=\vec A\\
+\vec A+(-\vec A)=0\\
+c(\vec A+\vec B)=c\vec A+c\vec B\\
+1(\vec A)=\vec A\\
+0(\vec A)=0
 \end{aligned}
 $$
 
@@ -132,26 +132,26 @@ $$
 ### scalar multiplication formula
 $$
 \begin{aligned}
-a \vec { A } = a A _ { x } \hat { i } + a A _ { y } \hat { j } \\
-a = \text {scalar quantity} \\
-A _ { x } \hat i = \text {x vector component} \\
-A _ { y } \hat j = \text {y vector component}
+a\vec{A}=aA_{x}\hat{i}+aA_{y}\hat{j}\\
+a=\text{scalar quantity}\\
+A_{x}\hat i=\text{x vector component}\\
+A_{y}\hat j=\text{y vector component}
 \end{aligned}
 $$
 
 ---
 ### vector addition
-- vector *A* components addition with corresponding vector *B* components equal resultant vector *R* 
+- vector *A* components addition with corresponding vector *B* components equal resultant vector *R*
 
 ---
 ### vector addition formula
 $$
 \begin{aligned}
-\vec { R } = ( A _ { x } + B _ { x } ) \hat { i } + ( A _ { y } + B _ { y } ) \hat { j } \\
-A _ { x } = \text {x scalar component} \\
-\hat i = \text {x direction} \\
-A _ { y } = \text {y scalar component} \\
-\hat j = \text {y direction} \\
+\vec{R}=(A_{x}+B_{x})\hat{i}+(A_{y}+B_{y})\hat{j}\\
+A_{x}=\text{x scalar component}\\
+\hat i=\text{x direction}\\
+A_{y}=\text{y scalar component}\\
+\hat j=\text{y direction}\\
 \end{aligned}
 $$
 
@@ -178,9 +178,9 @@ $$
 ### dot product formula
 $$
 \begin{aligned}
-\vec { A } \cdot \vec { B } = A B \cos ( \theta ) \\
-A = \text {magnitude} \\
-\theta = \text {angle between vectors}
+\vec{A}\cdot\vec{B}=AB\cos(\theta)\\
+A=\text{magnitude}\\
+\theta=\text{angle between vectors}
 \end{aligned}
 $$
 
@@ -188,10 +188,10 @@ $$
 ### dot product formula
 $$
 \begin{aligned}
-\vec { A } \cdot \vec { B } = A _ { x } B _ { x } + A _ { y } B _ { y } + A _ { z } B _ { z } \\
-A _ { x } = \text {x scalar component} \\
-A _ { y } = \text {y scalar component} \\
-A _ { z } = \text {z scalar component}
+\vec{A}\cdot\vec{B}=A_{x}B_{x}+A_{y}B_{y}+A_{z}B_{z}\\
+A_{x}=\text{x scalar component}\\
+A_{y}=\text{y scalar component}\\
+A_{z}=\text{z scalar component}
 \end{aligned}
 $$
 
@@ -199,10 +199,10 @@ $$
 ### unit vector dot product formula
 $$
 \begin{aligned}
-\hat { i } \cdot \hat { j } = \hat { j } \cdot \hat { k } = \hat { k } \cdot \hat { i } = 0 \\
-\hat i = \text {x direction} \\
-\hat j = \text {y direction} \\
-\hat k = \text {z direction}
+\hat{i}\cdot\hat{j}=\hat{j}\cdot\hat{k}=\hat{k}\cdot\hat{i}=0\\
+\hat i=\text{x direction}\\
+\hat j=\text{y direction}\\
+\hat k=\text{z direction}
 \end{aligned}
 $$
 
@@ -216,9 +216,9 @@ $$
 ### cross product formula
 $$
 \begin{aligned}
-| \vec { A } \times \vec { B } | = A B \sin ( \theta ) \\
-A = \text {magnitude} \\
-\theta = \text {angle between vectors}
+|\vec{A}\times\vec{B}|=AB\sin(\theta)\\
+A=\text{magnitude}\\
+\theta=\text{angle between vectors}
 \end{aligned}
 $$
 
@@ -226,13 +226,13 @@ $$
 ### cross product formula
 $$
 \begin{aligned}
-\vec { A } \times \vec { B } = ( A _ { y } B _ { z } - A _ { z } B _ { y } ) \hat { i } - ( A _ { x } B _ { z } - A _ { z } B _ { x } ) \hat { j } + ( A _ { x } B _ { y } - A _ { y } B _ { x } ) \hat { k } \\
-A _ { x } = \text {x scalar component} \\
-\hat i = \text {x direction} \\
-A _ { y } = \text {y scalar component} \\
-\hat j = \text {y direction} \\
-A _ { z } = \text {z scalar component} \\
-\hat k = \text {z direction}
+\vec{A}\times\vec{B}=(A_{y}B_{z}-A_{z}B_{y})\hat{i}-(A_{x}B_{z}-A_{z}B_{x})\hat{j}+(A_{x}B_{y}-A_{y}B_{x})\hat{k}\\
+A_{x}=\text{x scalar component}\\
+\hat i=\text{x direction}\\
+A_{y}=\text{y scalar component}\\
+\hat j=\text{y direction}\\
+A_{z}=\text{z scalar component}\\
+\hat k=\text{z direction}
 \end{aligned}
 $$
 
@@ -240,12 +240,12 @@ $$
 ### unit vector cross product formula
 $$
 \begin{aligned}
-\hat { i } \times \hat { j } = \hat { k } \\
-\hat { j } \times \hat { k } = \hat { i } \\
-\hat { k } \times \hat { i } = \hat { j } \\
-\hat i = \text {x direction} \\
-\hat j = \text {y direction} \\
-\hat k = \text {z direction}
+\hat{i}\times\hat{j}=\hat{k}\\
+\hat{j}\times\hat{k}=\hat{i}\\
+\hat{k}\times\hat{i}=\hat{j}\\
+\hat i=\text{x direction}\\
+\hat j=\text{y direction}\\
+\hat k=\text{z direction}
 \end{aligned}
 $$
 
@@ -258,38 +258,38 @@ $$
 ### scalar triple product formula
 $$
 \begin{aligned}
-V = \vec { C } \cdot ( \vec { A } \times \vec { B } ) = \vec C \begin{vmatrix}
-\hat i & \hat j & \hat k \\
-A _ { x } & A _ { y } & A _ { z } \\
-B _ { x } & B _ { y } & B _ { z }
-\end{vmatrix} \\
-A _ { x } = \text {x scalar component} \\
-B _ { y } = \text {y scalar component} \\
-C _ { z } = \text {z scalar component}
+V=\vec{C}\cdot(\vec{A}\times\vec{B})=\vec C\begin{vmatrix}
+\hat i&\hat j&\hat k\\
+A_{x}&A_{y}&A_{z}\\
+B_{x}&B_{y}&B_{z}
+\end{vmatrix}\\
+A_{x}=\text{x scalar component}\\
+B_{y}=\text{y scalar component}\\
+C_{z}=\text{z scalar component}
 \end{aligned}
 $$
 
 ---
 ### parallel projection vector
-- parallel projection of $\vec A$ onto $\vec B$ equal vector component of $\vec A$ parallel $\vec B$ 
+- parallel projection of $\vec A$ onto $\vec B$ equal vector component of $\vec A$ parallel $\vec B$
 
 ---
 ### parallel projection vector formula
 $$
 \begin{aligned}
-\text {proj} _ { \vec B } ( \vec A \parallel ) = ( \frac { \vec A \cdot \vec B } { B ^ { 2 } } ) \cdot \vec B
+\text{proj}_{\vec B}(\vec A\parallel)=(\frac{\vec A\cdot\vec B}{B^{2}})\cdot\vec B
 \end{aligned}
 $$
 
 ---
 ### perpendicular projection vector
-- perpendicular projection of $\vec A$ onto $\vec B$ equal vector component of $\vec A$ perpendicular $\vec B$ 
+- perpendicular projection of $\vec A$ onto $\vec B$ equal vector component of $\vec A$ perpendicular $\vec B$
 
 ---
 ### perpendicular projection vector formula
 $$
 \begin{aligned}
-\text {proj} _ { \vec B } ( \vec A \perp ) = \vec A - ( \frac { \vec A \cdot \vec B } { B ^ { 2 } } ) \cdot \vec B
+\text{proj}_{\vec B}(\vec A\perp)=\vec A-(\frac{\vec A\cdot\vec B}{B^{2}})\cdot\vec B
 \end{aligned}
 $$
 
@@ -308,9 +308,9 @@ $$
 ### linear direction angle formula
 $$
 \begin{aligned}
-\cos ( \alpha ) = \frac { v _ { x } } { v } \\
-\cos ( \beta ) = \frac { v _ { y } } { v } \\
-\cos ( \gamma ) = \frac { v _ { z } } { v }
+\cos(\alpha)=\frac{v_{x}}{v}\\
+\cos(\beta)=\frac{v_{y}}{v}\\
+\cos(\gamma)=\frac{v_{z}}{v}
 \end{aligned}
 $$
 
@@ -323,10 +323,10 @@ $$
 ### linear direction vector formula
 $$
 \begin{aligned}
-\vec v = \vec { P _ { 0 } P } = \langle x - x _ { 0 } , y - y _ { 0 } , z - z _ { 0 } \rangle = \langle a , b , c \rangle \\
-a = \text {x scalar component} \\
-b = \text {y scalar component} \\
-c = \text {z scalar component}
+\vec v=\vec{P_{0}P}=\langle x-x_{0},y-y_{0},z-z_{0}\rangle=\langle a,b,c\rangle\\
+a=\text{x scalar component}\\
+b=\text{y scalar component}\\
+c=\text{z scalar component}
 \end{aligned}
 $$
 
@@ -339,11 +339,11 @@ $$
 ### vector formula of 3d line
 $$
 \begin{aligned}
-\langle x , y , z \rangle = \langle x _ { 0 } , y _ { 0 } , z _ { 0 } \rangle + t \langle a , b , c \rangle \\
-\vec r = \langle x , y , z \rangle \\
-\vec r _ { 0 } = \langle x _ { 0 } , y _ { 0 } , z _ { 0 } \rangle \\
-t = \text {parameter} \\
-\vec v = \langle a , b , c \rangle
+\langle x,y,z\rangle=\langle x_{0},y_{0},z_{0}\rangle+t\langle a,b,c\rangle\\
+\vec r=\langle x,y,z\rangle\\
+\vec r_{0}=\langle x_{0},y_{0},z_{0}\rangle\\
+t=\text{parameter}\\
+\vec v=\langle a,b,c\rangle
 \end{aligned}
 $$
 
@@ -356,12 +356,12 @@ $$
 ### parametric equation of 3d line
 $$
 \begin{aligned}
-x = x _ { 0 } + a t \\
-y = y _ { 0 } + b t \\
-z = z _ { 0 } + c t \\
-x = \text {x scalar component} \\
-y = \text {y scalar component} \\
-z = \text {z scalar component}
+x=x_{0}+at\\
+y=y_{0}+bt\\
+z=z_{0}+ct\\
+x=\text{x scalar component}\\
+y=\text{y scalar component}\\
+z=\text{z scalar component}
 \end{aligned}
 $$
 
@@ -373,7 +373,7 @@ $$
 ### planar direction angle formula
 $$
 \begin{aligned}
-\cos ( \theta ) = \frac { \vec v _ { 1 } \cdot \vec v _ { 2 } } { v _ { 1 } v _ { 2 } } \\
+\cos(\theta)=\frac{\vec v_{1}\cdot\vec v_{2}}{v_{1}v_{2}}\\
 \end{aligned}
 $$
 
@@ -386,10 +386,10 @@ $$
 ### planar direction vector formula
 $$
 \begin{aligned}
-\vec v = \vec { P _ { 0 } P } \perp = \vec { P _ { 0 } P _ { 1 } } \times \vec { P _ { 0 } P _ { 2 } } = \langle a , b , c \rangle \\
-a = \text {x scalar component} \\
-b = \text {y scalar component} \\
-c = \text {z scalar component}
+\vec v=\vec{P_{0}P}\perp=\vec{P_{0}P_{1}}\times\vec{P_{0}P_{2}}=\langle a,b,c\rangle\\
+a=\text{x scalar component}\\
+b=\text{y scalar component}\\
+c=\text{z scalar component}
 \end{aligned}
 $$
 
@@ -402,7 +402,7 @@ $$
 ### vector formula of 3d plane
 $$
 \begin{aligned}
-\vec v \cdot ( \vec r - \vec r _ { 0 } ) = 0
+\vec v\cdot(\vec r-\vec r_{0})=0
 \end{aligned}
 $$
 
@@ -414,7 +414,7 @@ $$
 ### scalar formula of 3d plane
 $$
 \begin{aligned}
-a ( x - x _ { 0 } ) + b ( y - y _ { 0 } ) + c ( z - z _ { 0 } ) = 0
+a(x-x_{0})+b(y-y_{0})+c(z-z_{0})=0
 \end{aligned}
 $$
 
@@ -441,7 +441,7 @@ $$
 ### linear distance formula
 $$
 \begin{aligned}
-d = \frac { | \vec v \times \vec { P _ { 0 } P } | } { v }
+d=\frac{|\vec v\times\vec{P_{0}P}|}{v}
 \end{aligned}
 $$
 
@@ -453,7 +453,7 @@ $$
 ### planar distance formula
 $$
 \begin{aligned}
-d = \frac { | c _ { 2 } - c _ { 1 } | } { v }
+d=\frac{|c_{2}-c_{1}|}{v}
 \end{aligned}
 $$
 

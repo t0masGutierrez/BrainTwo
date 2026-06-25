@@ -13,10 +13,10 @@
 ### proposition formula
 $$
 \begin{aligned}
-P ( x ) = p \\
-x = \text {subject} \\
-p = \text {proposition} \\
-P = \text {predicate}
+P(x)=p\\
+x=\text{subject}\\
+p=\text{proposition}\\
+P=\text{predicate}
 \end{aligned}
 $$
 
@@ -43,7 +43,7 @@ $$
 ### universal quantification formula
 $$
 \begin{aligned}
-\forall x P ( x )
+\forall xP(x)
 \end{aligned}
 $$
 
@@ -55,7 +55,7 @@ $$
 ### existential quantification formula
 $$
 \begin{aligned}
-\exists x P ( x )
+\exists xP(x)
 \end{aligned}
 $$
 
@@ -67,7 +67,7 @@ $$
 ### uniqueness quantification formula
 $$
 \begin{aligned}
-\exists ! x P ( x )
+\exists!xP(x)
 \end{aligned}
 $$
 

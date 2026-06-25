@@ -5,9 +5,9 @@
 ### ordinary differential equation formula
 $$
 \begin{aligned}
-f ( t , y , \frac { dy } { dt } , \dots , \frac { d ^ { n } y } { d t ^ { n } } ) = 0 \\
-t = \text {independent variable} \\
-y = \text {solution}
+f(t,y,\frac{dy}{dt},\dots,\frac{d^{n}y}{dt^{n}})=0\\
+t=\text{independent variable}\\
+y=\text{solution}
 \end{aligned}
 $$
 
@@ -19,9 +19,9 @@ $$
 ### 1st-order ode formula
 $$
 \begin{aligned}
-\frac { dy } { dt } = f ( t , y ) \\
-t = \text {independent variable} \\
-y = \text {solution}
+\frac{dy}{dt}=f(t,y)\\
+t=\text{independent variable}\\
+y=\text{solution}
 \end{aligned}
 $$
 
@@ -33,9 +33,9 @@ $$
 ### general solution of 1st-order ode formula
 $$
 \begin{aligned}
-y ( t ) = \phi ( t , C ) \\
-t = \text {independent variable} \\
-C = \text {constant}
+y(t)=\phi(t,C)\\
+t=\text{independent variable}\\
+C=\text{constant}
 \end{aligned}
 $$
 
@@ -47,9 +47,9 @@ $$
 ### particular solution of 1st-order ode formula
 $$
 \begin{aligned}
-y ( t ) = \phi ( t , t _ { 0 } , y _ { 0 } ) \\
-t = \text {independent variable} \\
-t _ { 0 } , y _ { 0 } = \text {initial condition}
+y(t)=\phi(t,t_{0},y_{0})\\
+t=\text{independent variable}\\
+t_{0},y_{0}=\text{initial condition}
 \end{aligned}
 $$
 
@@ -61,9 +61,9 @@ $$
 ### separable ode formula
 $$
 \begin{aligned}
-\frac { dy } { dt } = \frac { g ( t ) } { f ( y ) } \\
-y = \text {solution} \\
-t = \text {independent variable}
+\frac{dy}{dt}=\frac{g(t)}{f(y)}\\
+y=\text{solution}\\
+t=\text{independent variable}
 \end{aligned}
 $$
 
@@ -71,9 +71,9 @@ $$
 ### general solution of separable ode formula
 $$
 \begin{aligned}
-\int f ( y ) d y = \int g ( t ) d t \\
-y = \text {solution} \\
-t = \text {independent variable}
+\int f(y)dy=\int g(t)dt\\
+y=\text{solution}\\
+t=\text{independent variable}
 \end{aligned}
 $$
 
@@ -81,10 +81,10 @@ $$
 ### particular solution of separable ode formula
 $$
 \begin{aligned}
-\int _ { y _ { 0 } } ^ { y } f ( r ) d r = \int _ { t _ { 0 } } ^ { t } g ( s ) d s \\
-y = \text {solution} \\
-r , s = \text {dummy variable} \\
-t = \text {independent variable}
+\int_{y_{0}}^{y}f(r)dr=\int_{t_{0}}^{t}g(s)ds\\
+y=\text{solution}\\
+r,s=\text{dummy variable}\\
+t=\text{independent variable}
 \end{aligned}
 $$
 
@@ -96,9 +96,9 @@ $$
 ### homogeneous ode formula
 $$
 \begin{aligned}
-f ( t , y , \frac { dy } { dt } ) = 0 \\
-t = \text {independent variable} \\
-y = \text {solution}
+f(t,y,\frac{dy}{dt})=0\\
+t=\text{independent variable}\\
+y=\text{solution}
 \end{aligned}
 $$
 
@@ -110,9 +110,9 @@ $$
 ### nonhomogeneous ode formula
 $$
 \begin{aligned}
-f ( t , y , \frac { dy } { dt } ) \ne 0 \\
-t = \text {independent variable} \\
-y = \text {solution}
+f(t,y,\frac{dy}{dt})\ne0\\
+t=\text{independent variable}\\
+y=\text{solution}
 \end{aligned}
 $$
 
@@ -127,10 +127,10 @@ $$
 ### linear ode formula
 $$
 \begin{aligned}
-\frac { dy } { dt } + a ( t ) y ( t ) = b ( t ) \\
-y = \text {solution} \\
-t = \text {independent variable} \\
-a = \text {coefficient} \\
+\frac{dy}{dt}+a(t)y(t)=b(t)\\
+y=\text{solution}\\
+t=\text{independent variable}\\
+a=\text{coefficient}\\
 \end{aligned}
 $$
 
@@ -138,10 +138,10 @@ $$
 ### general solution of 1st-order homogeneous linear ode formula
 $$
 \begin{aligned}
-y ( t ) = C \exp ( - \int a ( t ) d t ) \\
-C = \text {constant} \\
-a = \text {coefficient} \\
-t = \text {independent variable}
+y(t)=C\exp(-\int a(t)dt)\\
+C=\text{constant}\\
+a=\text{coefficient}\\
+t=\text{independent variable}
 \end{aligned}
 $$
 
@@ -149,11 +149,11 @@ $$
 ### particular solution of 1st-order homogeneous linear ode formula
 $$
 \begin{aligned}
-y ( t ) = y ( t _ { 0 } ) \exp ( - \int _ { t _ { 0 } } ^ { t } a ( r ) d r ) \\
-t _ { 0 } = \text {initial condition} \\
-t = \text {independent variable} \\
-a = \text {coefficient} \\
-r = \text {dummy variable}
+y(t)=y(t_{0})\exp(-\int_{t_{0}}^{t}a(r)dr)\\
+t_{0}=\text{initial condition}\\
+t=\text{independent variable}\\
+a=\text{coefficient}\\
+r=\text{dummy variable}
 \end{aligned}
 $$
 
@@ -165,11 +165,11 @@ $$
 ### integrating factor formula
 $$
 \begin{aligned}
-\mu = \exp ( \int a ( t ) d t ) \implies \frac { d } { dt } [ \mu y ] = \mu ( t ) \frac { dy } { dt } + \mu ( t ) a ( t ) y ( t ) \\
-\mu = \text {integrating factor} \\
-t = \text {independent variable} \\
-a = \text {coefficient} \\
-y = \text {solution}
+\mu=\exp(\int a(t)dt)\implies\frac{d}{dt}[\mu y]=\mu(t)\frac{dy}{dt}+\mu(t)a(t)y(t)\\
+\mu=\text{integrating factor}\\
+t=\text{independent variable}\\
+a=\text{coefficient}\\
+y=\text{solution}
 \end{aligned}
 $$
 
@@ -177,10 +177,10 @@ $$
 ### general solution of 1st-order nonhomogeneous linear ode formula
 $$
 \begin{aligned}
-y ( t ) = \frac { 1 } { \mu ( t ) } ( C + \int \mu ( t ) b ( t ) d t ) \\
-\mu = \text {integrating factor} \\
-t = \text {independent variable} \\
-C = \text {constant}
+y(t)=\frac{1}{\mu(t)}(C+\int\mu(t)b(t)dt)\\
+\mu=\text{integrating factor}\\
+t=\text{independent variable}\\
+C=\text{constant}
 \end{aligned}
 $$
 
@@ -188,11 +188,11 @@ $$
 ### particular solution of 1st-order nonhomogeneous linear ode formula
 $$
 \begin{aligned}
-y ( t ) = \frac { 1 } { \mu ( t ) } [ y ( t _ { 0 } ) + \int _ { t _ { 0 } } ^ { t } \mu ( r ) b ( r ) d r ] \\
-\mu = \text {integrating factor} \\
-t = \text {independent variable} \\
-t _ { 0 } = \text {initial condition} \\
-r = \text {dummy variable}
+y(t)=\frac{1}{\mu(t)}[y(t_{0})+\int_{t_{0}}^{t}\mu(r)b(r)dr]\\
+\mu=\text{integrating factor}\\
+t=\text{independent variable}\\
+t_{0}=\text{initial condition}\\
+r=\text{dummy variable}
 \end{aligned}
 $$
 
@@ -204,11 +204,11 @@ $$
 ### exact ode formula
 $$
 \begin{aligned}
-\frac { \partial M } { \partial y } = \frac { \partial N } { \partial t } \implies d \Phi = M ( t , y ) d t + N ( t , y ) d y \\
-M ( t , y ) d t + N ( t , y ) d y = 0 \\
-t = \text {independent variable} \\
-y = \text {solution} \\
-\Phi = \text {potential function}
+\frac{\partial M}{\partial y}=\frac{\partial N}{\partial t}\implies d\Phi=M(t,y)dt+N(t,y)dy\\
+M(t,y)dt+N(t,y)dy=0\\
+t=\text{independent variable}\\
+y=\text{solution}\\
+\Phi=\text{potential function}
 \end{aligned}
 $$
 
@@ -216,13 +216,13 @@ $$
 ### general solution of exact ode formula
 $$
 \begin{aligned}
-\Phi ( t , y ) = \int M ( t , y ) d t + \int \left ( N ( t , y ) - \frac { \partial } { \partial y } \int M ( t , y ) d t \right ) d y \\
-M = \frac { \partial \Phi } { \partial t } \\
-N = \frac { \partial \Phi } { \partial y } \\
-\Phi = \text {potential function} \\
-t = \text {independent variable} \\
-y = \text {solution} \\
-C = \text {constant}
+\Phi(t,y)=\int M(t,y)dt+\int\left(N(t,y)-\frac{\partial}{\partial y}\int M(t,y)dt\right)dy\\
+M=\frac{\partial\Phi}{\partial t}\\
+N=\frac{\partial\Phi}{\partial y}\\
+\Phi=\text{potential function}\\
+t=\text{independent variable}\\
+y=\text{solution}\\
+C=\text{constant}
 \end{aligned}
 $$
 
@@ -230,14 +230,14 @@ $$
 ### particular solution of exact ode formula
 $$
 \begin{aligned}
-\Phi ( t , y ) = \Phi ( t _ { 0 } , y _ { 0 } ) = C \\
-M = \frac { \partial \Phi } { \partial t } \\
-N = \frac { \partial \Phi } { \partial y } \\
-\Phi = \text {potential function} \\
-t = \text {independent variable} \\
-y = \text {solution} \\
-t _ { 0 } , y _ { 0 } = \text {initial condition} \\
-C = \text {constant}
+\Phi(t,y)=\Phi(t_{0},y_{0})=C\\
+M=\frac{\partial\Phi}{\partial t}\\
+N=\frac{\partial\Phi}{\partial y}\\
+\Phi=\text{potential function}\\
+t=\text{independent variable}\\
+y=\text{solution}\\
+t_{0},y_{0}=\text{initial condition}\\
+C=\text{constant}
 \end{aligned}
 $$
 

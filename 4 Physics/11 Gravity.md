@@ -6,10 +6,10 @@
 ### point mass formula
 $$
 \begin{aligned}
-\rho ( \vec r ) = m \delta ( \vec r - \vec r _ { 0 } ) \\
-m = \text {mass} \\
-\delta = \text {dirac} \\
-\vec r = \text {position}
+\rho(\vec r)=m\delta(\vec r-\vec r_{0})\\
+m=\text{mass}\\
+\delta=\text{dirac}\\
+\vec r=\text{position}
 \end{aligned}
 $$
 
@@ -22,13 +22,13 @@ $$
 ### newtons formula of gravitation
 $$
 \begin{aligned}
-r > R \implies \vec F _ { g } = - G \frac { m _ { 1 } m _ { 2 } } { r ^ { 2 } } \hat r \\
-r \le R \implies \vec F _ { g } = 0 \\
-r = \text {distance} \\
-R = \text {radius} \\
-G = 6.67 \times 10 ^ { - 11 } \\
-m = \text {mass} \\
-\hat r = \text {direction}
+r>R\implies\vec F_{g}=-G\frac{m_{1}m_{2}}{r^{2}}\hat r\\
+r\le R\implies\vec F_{g}=0\\
+r=\text{distance}\\
+R=\text{radius}\\
+G=6.67\times10^{-11}\\
+m=\text{mass}\\
+\hat r=\text{direction}
 \end{aligned}
 $$
 
@@ -41,13 +41,13 @@ $$
 ### gravitational field formula
 $$
 \begin{aligned}
-\vec g = - G \frac { M } { r ^ { 2 } } \hat r = \frac { \vec F _ { g } } { m } \\
-G = 6.67 \times 10 ^ { - 11 } \\
-M = \text {source mass} \\
-r = \text {distance} \\
-\hat r = \text {direction} \\
-\vec F = \text {force} \\
-m = \text {test mass}
+\vec g=-G\frac{M}{r^{2}}\hat r=\frac{\vec F_{g}}{m}\\
+G=6.67\times10^{-11}\\
+M=\text{source mass}\\
+r=\text{distance}\\
+\hat r=\text{direction}\\
+\vec F=\text{force}\\
+m=\text{test mass}
 \end{aligned}
 $$
 
@@ -60,13 +60,13 @@ $$
 ### gravitational potential energy formula
 $$
 \begin{aligned}
-r > R \implies U _ { g } = - G \frac { Mm } { r } \\
-r \le R \implies U _ { g } = - G \frac { Mm } { R } \\
-r = \text {distance} \\
-R = \text {radius} \\
-G = 6.67 \times 10 ^ { - 11 } \\
-M = \text {source mass} \\
-m = \text {mass}
+r>R\implies U_{g}=-G\frac{Mm}{r}\\
+r\le R\implies U_{g}=-G\frac{Mm}{R}\\
+r=\text{distance}\\
+R=\text{radius}\\
+G=6.67\times10^{-11}\\
+M=\text{source mass}\\
+m=\text{mass}
 \end{aligned}
 $$
 
@@ -81,11 +81,11 @@ $$
 ### orbital motion formula
 $$
 \begin{aligned}
-v < v _ { C } \implies 0 < \epsilon < 1 \\
-v = v _ { C } \implies \epsilon = 0 \\
-v _ { C } < v < v _ { E } \implies 0 < \epsilon < 1 \\
-v = v _ { E } \implies \epsilon = 1 \\
-v > v _ { E } \implies \epsilon > 1
+v<v_{C}\implies0<\epsilon<1\\
+v=v_{C}\implies\epsilon=0\\
+v_{C}<v<v_{E}\implies0<\epsilon<1\\
+v=v_{E}\implies\epsilon=1\\
+v>v_{E}\implies\epsilon>1
 \end{aligned}
 $$
 
@@ -98,17 +98,17 @@ $$
 ### circular orbit formula
 $$
 \begin{aligned}
-E = - G \frac { Mm } { 2 r } = \frac { U } { 2 } = - K \\
-F _ { g } = - G \frac { Mm } { r ^ { 2 } } = \frac { m v ^ { 2 } } { r } \\
-T = 2 \pi \sqrt { \frac { r ^ { 3 } } { GM } } \\
-v = \sqrt { \frac { GM } { r } } \\
-a = \frac { GM } { r ^ { 2 } } \\
-G = 6.67 \times 10 ^ { - 11 } \\
-M = \text {source mass} \\
-m = \text {test mass} \\
-r = \text {distance} \\
-U = \text {potential energy} \\
-K = \text {kinetic energy}
+E=-G\frac{Mm}{2r}=\frac{U}{2}=-K\\
+F_{g}=-G\frac{Mm}{r^{2}}=\frac{mv^{2}}{r}\\
+T=2\pi\sqrt{\frac{r^{3}}{GM}}\\
+v=\sqrt{\frac{GM}{r}}\\
+a=\frac{GM}{r^{2}}\\
+G=6.67\times10^{-11}\\
+M=\text{source mass}\\
+m=\text{test mass}\\
+r=\text{distance}\\
+U=\text{potential energy}\\
+K=\text{kinetic energy}
 \end{aligned}
 $$
 
@@ -120,10 +120,10 @@ $$
 ### escape velocity formula
 $$
 \begin{aligned}
-v _ { E } = \sqrt { \frac { 2 G M } { r } } \\
-G = 6.67 \times 10 ^ { - 11 } \\
-m = \text {mass} \\
-r = \text {distance}
+v_{E}=\sqrt{\frac{2GM}{r}}\\
+G=6.67\times10^{-11}\\
+m=\text{mass}\\
+r=\text{distance}
 \end{aligned}
 $$
 
@@ -139,10 +139,10 @@ $$
 ### conic section formula
 $$
 \begin{aligned}
-( x - h ) ^ { 2 } + ( y - k ) ^ { 2 } = r ^ { 2 } \\
-\frac { ( x - h ) ^ { 2 } } { a ^ { 2 } } + \frac { ( y - k ) ^ { 2 } } { b ^ { 2 } } = 1 \\
-( x - h ) ^ { 2 } = 4 p ( y - k ) \\
-\frac { ( x - h ) ^ { 2 } } { a ^ { 2 } } - \frac { ( y - k ) ^ { 2 } } { b ^ { 2 } } = 1
+(x-h)^{2}+(y-k)^{2}=r^{2}\\
+\frac{(x-h)^{2}}{a^{2}}+\frac{(y-k)^{2}}{b^{2}}=1\\
+(x-h)^{2}=4p(y-k)\\
+\frac{(x-h)^{2}}{a^{2}}-\frac{(y-k)^{2}}{b^{2}}=1
 \end{aligned}
 $$
 
@@ -155,10 +155,10 @@ $$
 ### keplers 1st law formula
 $$
 \begin{aligned}
-r = \frac { a ( 1 - \epsilon ^ { 2 } ) } { \epsilon \cos \theta } \\
-a = \text {semi-major axis} \\
-\epsilon = \text {eccentricity} \\
-\theta = \text {angular position}
+r=\frac{a(1-\epsilon^{2})}{\epsilon\cos\theta}\\
+a=\text{semi-major axis}\\
+\epsilon=\text{eccentricity}\\
+\theta=\text{angular position}
 \end{aligned}
 $$
 
@@ -172,10 +172,10 @@ $$
 ### keplers 2nd law formula
 $$
 \begin{aligned}
-\frac { dA } { dt } = C \\
-A = \text {area} \\
-t = \text {time} \\
-C = \text {constant}
+\frac{dA}{dt}=C\\
+A=\text{area}\\
+t=\text{time}\\
+C=\text{constant}
 \end{aligned}
 $$
 
@@ -187,11 +187,11 @@ $$
 ### keplers 3rd law formula
 $$
 \begin{aligned}
-T ^ { 2 } = \frac { 4 \pi ^ { 2 } a ^ { 3 } } { GM } \\
-T = \text {period} \\
-a = \text {semi-major axis} \\
-G = 6.67 \times 10 ^ { - 11 } \\
-M = \text {mass}
+T^{2}=\frac{4\pi^{2}a^{3}}{GM}\\
+T=\text{period}\\
+a=\text{semi-major axis}\\
+G=6.67\times10^{-11}\\
+M=\text{mass}
 \end{aligned}
 $$
 
@@ -204,12 +204,12 @@ $$
 ### black hole formula
 $$
 \begin{aligned}
-v _ { E } \ge c \implies R _ { S } = \frac { 2 G M } { c ^ { 2 } } \\
-v _ { E } = \text {escape velocity} \\
-c = 3.0 \times 10 ^ { 8 } \\
-R _ { S } = \text {schwarzschild radius} \\
-G = 6.67 \times 10 ^ { - 11 } \\
-M = \text {mass}
+v_{E}\ge c\implies R_{S}=\frac{2GM}{c^{2}}\\
+v_{E}=\text{escape velocity}\\
+c=3.0\times10^{8}\\
+R_{S}=\text{schwarzschild radius}\\
+G=6.67\times10^{-11}\\
+M=\text{mass}
 \end{aligned}
 $$
 

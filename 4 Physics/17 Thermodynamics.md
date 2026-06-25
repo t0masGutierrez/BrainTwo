@@ -4,11 +4,11 @@
 
 ---
 ### closed system
-- can exchange energy with surrounding but not mass 
+- can exchange energy with surrounding but not mass
 
 ---
 ### open system
-- can exchange both energy and mass with surrounding 
+- can exchange both energy and mass with surrounding
 
 ---
 ### zeroth law of thermodynamics
@@ -19,9 +19,9 @@
 ### 0th formula of thermodynamics
 $$
 \begin{aligned}
-T _ { a } = T _ { b } \land T _ { b } = T _ { c } \implies T _ { a } = T _ { c } \\
-\sum _ { i } Q _ { i } = 0 \\
-T = \text {temperature}
+T_{a}=T_{b}\land T_{b}=T_{c}\implies T_{a}=T_{c}\\
+\sum_{i}Q_{i}=0\\
+T=\text{temperature}
 \end{aligned}
 $$
 
@@ -39,9 +39,9 @@ $$
 ### variable work formula
 $$
 \begin{aligned}
-W = \sum _ { i } p _ { i } \Delta V _ { i } = \int _ { V _ { 1 } } ^ { V _ { 2 } } \vec p \cdot d \vec V \\
-p = \text {pressure} \\
-V = \text {volume}
+W=\sum_{i}p_{i}\Delta V_{i}=\int_{V_{1}}^{V_{2}}\vec p\cdot d\vec V\\
+p=\text{pressure}\\
+V=\text{volume}
 \end{aligned}
 $$
 
@@ -63,13 +63,13 @@ $$
 ### internal energy formula
 $$
 \begin{aligned}
-E = \frac { f } { 2 } N k _ { b } T _ { k } = \frac { f } { 2 } n R T _ { k } \\
-f = \text {degrees of freedom} \\
-N = \text {number of molecules} \\
-k _ { b } = 1.38 \times 10 ^ { - 23 } \\
-T _ { k } = \text {kelvin} \\
-n = \text {number of moles} \\
-R = 8.31
+E=\frac{f}{2}Nk_{b}T_{k}=\frac{f}{2}nRT_{k}\\
+f=\text{degrees of freedom}\\
+N=\text{number of molecules}\\
+k_{b}=1.38\times10^{-23}\\
+T_{k}=\text{kelvin}\\
+n=\text{number of moles}\\
+R=8.31
 \end{aligned}
 $$
 
@@ -82,23 +82,23 @@ $$
 ### 1st formula of thermodynamics
 $$
 \begin{aligned}
-\Delta E = Q - W \\
-Q = \text {heat} \\
-W = \text {work}
+\Delta E=Q-W\\
+Q=\text{heat}\\
+W=\text{work}
 \end{aligned}
 $$
 
 ---
 ### isolated system
-- cannot exchange neither energy nor mass with surrounding 
+- cannot exchange neither energy nor mass with surrounding
 
 ---
 ### isolated system formula
 $$
 \begin{aligned}
-\Delta E = 0 \\
-Q = 0 \\
-W = 0
+\Delta E=0\\
+Q=0\\
+W=0
 \end{aligned}
 $$
 
@@ -123,15 +123,15 @@ $$
 ### isothermal formula
 $$
 \begin{aligned}
-p _ { 1 } V _ { 1 } = p _ { 2 } V _ { 2 } \\
-p = \text {pressure} \\
-V = \text {volume}
+p_{1}V_{1}=p_{2}V_{2}\\
+p=\text{pressure}\\
+V=\text{volume}
 \end{aligned}
 $$
 
 ---
 ### isothermal curve
-- $T _ { i } = T _ { f }$ 
+- $T_{i}=T_{f}$
 ![[4 Physics/Images/isothermal curve.png]]
 
 ---
@@ -142,15 +142,15 @@ $$
 ### isochoric formula
 $$
 \begin{aligned}
-\frac { p _ { 1 } } { T _ { 1 } } = \frac { p _ { 2 } } { T _ { 2 } } \\
-p = \text {pressure} \\
-T = \text {temperature}
+\frac{p_{1}}{T_{1}}=\frac{p_{2}}{T_{2}}\\
+p=\text{pressure}\\
+T=\text{temperature}
 \end{aligned}
 $$
 
 ---
 ### isochoric curve
-- $T _ { i } > T _ { f }$ 
+- $T_{i}>T_{f}$
 ![[4 Physics/Images/isochoric curve.png]]
 
 ---
@@ -161,15 +161,15 @@ $$
 ### isobaric formula
 $$
 \begin{aligned}
-\frac { V _ { 1 } } { T _ { 1 } } = \frac { V _ { 2 } } { T _ { 2 } } \\
-V = \text {volume} \\
-T = \text {temperature}
+\frac{V_{1}}{T_{1}}=\frac{V_{2}}{T_{2}}\\
+V=\text{volume}\\
+T=\text{temperature}
 \end{aligned}
 $$
 
 ---
 ### isobaric curve
-- $T _ { i } < T _ { f }$ 
+- $T_{i}<T_{f}$
 ![[4 Physics/Images/isobaric curve.png]]
 
 ---
@@ -180,34 +180,34 @@ $$
 ### adiabatic formula
 $$
 \begin{aligned}
-p _ { 1 } V _ { 1 } ^ { \gamma } = p _ { 2 } V _ { 2 } ^ { \gamma } \\
-T _ { 1 } V _ { 1 } ^ { \gamma - 1 } = T _ { 2 } V _ { 2 } ^ { \gamma - 1 } \\
-\gamma = \frac { c _ { p } } { c _ { v } } \\
-p = \text {pressure} \\
-V = \text {volume} \\
-T = \text {temperature} \\
-c = \text {specific heat capacity}
+p_{1}V_{1}^{\gamma}=p_{2}V_{2}^{\gamma}\\
+T_{1}V_{1}^{\gamma-1}=T_{2}V_{2}^{\gamma-1}\\
+\gamma=\frac{c_{p}}{c_{v}}\\
+p=\text{pressure}\\
+V=\text{volume}\\
+T=\text{temperature}\\
+c=\text{specific heat capacity}
 \end{aligned}
 $$
 
 ---
 ### adiabatic curve
-- $T _ { i } > T _ { f }$ 
+- $T_{i}>T_{f}$
 ![[4 Physics/Images/adiabatic curve.png]]
 
 ---
 ### specific heat
-- amount of heat that must enter substance to change temperature by $\Delta T$ 
+- amount of heat that must enter substance to change temperature by $\Delta T$
 - high specific heat resist temperature change more than low specific heat
 
 ---
 ### specific heat formula
 $$
 \begin{aligned}
-Q = n c \Delta T _ { c } \\
-n = \text {number of moles} \\
-c = \text {specific heat capacity} \\
-T _ { c } = \text {celcius}
+Q=nc\Delta T_{c}\\
+n=\text{number of moles}\\
+c=\text{specific heat capacity}\\
+T_{c}=\text{celcius}
 \end{aligned}
 $$
 
@@ -220,11 +220,11 @@ $$
 ### constant volume specific heat capacity formula
 $$
 \begin{aligned}
-c _ { v } = \frac { f } { 2 } R \\
-c _ { 1 } = \frac { 3 } { 2 } R \\
-c _ { 2 } = \frac { 5 } { 2 } R \\
-f = \text {degrees of freedom} \\
-R = 8.31
+c_{v}=\frac{f}{2}R\\
+c_{1}=\frac{3}{2}R\\
+c_{2}=\frac{5}{2}R\\
+f=\text{degrees of freedom}\\
+R=8.31
 \end{aligned}
 $$
 
@@ -237,9 +237,9 @@ $$
 ### constant pressure specific heat capacity formula
 $$
 \begin{aligned}
-c _ { p } = c _ { v } + R \\
-c = \text {specific heat capacity} \\
-R = 8.31
+c_{p}=c_{v}+R\\
+c=\text{specific heat capacity}\\
+R=8.31
 \end{aligned}
 $$
 
@@ -251,8 +251,8 @@ $$
 ### specific heat capacity ratio formula
 $$
 \begin{aligned}
-\gamma = \frac { c _ { p } } { c _ { v } } \\
-c = \text {specific heat capacity}
+\gamma=\frac{c_{p}}{c_{v}}\\
+c=\text{specific heat capacity}
 \end{aligned}
 $$
 
@@ -275,7 +275,7 @@ $$
 ### thermodynamic cycle formula
 $$
 \begin{aligned}
-Q = W
+Q=W
 \end{aligned}
 $$
 
@@ -288,9 +288,9 @@ $$
 ### 2nd formula of thermodynamics
 $$
 \begin{aligned}
-T _ { a } < T _ { b } \implies T _ { a } + Q = T _ { b } \\
-T = \text {temperature} \\
-Q = \text {heat}
+T_{a}<T_{b}\implies T_{a}+Q=T_{b}\\
+T=\text{temperature}\\
+Q=\text{heat}
 \end{aligned}
 $$
 
@@ -304,9 +304,9 @@ $$
 ### heat engine efficiency formula
 $$
 \begin{aligned}
-e = \frac { W } { Q _ { h } } \\
-W = \text {work} \\
-Q = \text {heat}
+e=\frac{W}{Q_{h}}\\
+W=\text{work}\\
+Q=\text{heat}
 \end{aligned}
 $$
 
@@ -320,8 +320,8 @@ $$
 ### refrigerator coefficient of performance formula
 $$
 \begin{aligned}
-C O P = \frac { Q _ { c } } { Q _ { h } - Q _ { c } } \\
-Q = \text {heat}
+COP=\frac{Q_{c}}{Q_{h}-Q_{c}}\\
+Q=\text{heat}
 \end{aligned}
 $$
 
@@ -335,8 +335,8 @@ $$
 ### heat pump coefficient of performance formula
 $$
 \begin{aligned}
-C O P = \frac { Q _ { h } } { Q _ { h } - Q _ { c } } \\
-Q = \text {heat}
+COP=\frac{Q_{h}}{Q_{h}-Q_{c}}\\
+Q=\text{heat}
 \end{aligned}
 $$
 
@@ -349,10 +349,10 @@ $$
 ### carnot cycle formula
 $$
 \begin{aligned}
-e = \frac { T _ { h } - T _ { c } } { T _ { h } } \\
-C O P = \frac { T _ { c } } { T _ { h } - T _ { c } } \\
-C O P = \frac { T _ { h } } { T _ { h } - T _ { c } } \\
-T = \text {temperature}
+e=\frac{T_{h}-T_{c}}{T_{h}}\\
+COP=\frac{T_{c}}{T_{h}-T_{c}}\\
+COP=\frac{T_{h}}{T_{h}-T_{c}}\\
+T=\text{temperature}
 \end{aligned}
 $$
 
@@ -365,9 +365,9 @@ $$
 ### 2nd formula of thermodynamics
 $$
 \begin{aligned}
-\Delta S = \Delta S _ { x } + \Delta S _ { y } \ge 0 \\
-S _ { x } = \text {system entropy} \\
-S _ { y } = \text {surrounding entropy}
+\Delta S=\Delta S_{x}+\Delta S_{y}\ge0\\
+S_{x}=\text{system entropy}\\
+S_{y}=\text{surrounding entropy}
 \end{aligned}
 $$
 
@@ -380,9 +380,9 @@ $$
 ### entropy formula
 $$
 \begin{aligned}
-\Delta S = \frac { Q } { T _ { k } } \\
-Q = \text {heat} \\
-T _ { k } = \text {kelvin}
+\Delta S=\frac{Q}{T_{k}}\\
+Q=\text{heat}\\
+T_{k}=\text{kelvin}
 \end{aligned}
 $$
 
@@ -404,23 +404,23 @@ $$
 ### microscopic entropy formula
 $$
 \begin{aligned}
-S = k _ { b } \ln ( \Omega ) \\
-k _ { b } = 1.38 \times 10 ^ { - 23 } \\
-\Omega = \text {number of microstates}
+S=k_{b}\ln(\Omega)\\
+k_{b}=1.38\times10^{-23}\\
+\Omega=\text{number of microstates}
 \end{aligned}
 $$
 
 ---
 ### third law of thermodynamics
-- entropy decreases as temperature decreases 
+- entropy decreases as temperature decreases
 ![[4 Physics/Images/third law of thermodynamics.png|400]]
 
 ---
 ### 3rd formula of thermodynamics
 $$
 \begin{aligned}
-S = k _ { b } \ln ( 1 ) = 0 \\
-k _ { b } = 1.38 \times 10 ^ { - 23 }
+S=k_{b}\ln(1)=0\\
+k_{b}=1.38\times10^{-23}
 \end{aligned}
 $$
 

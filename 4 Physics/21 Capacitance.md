@@ -10,9 +10,9 @@
 ### capacitance formula
 $$
 \begin{aligned}
-C = \frac { Q } { V } \\
-Q = \text {electric charge} \\
-V = \text {voltage}
+C=\frac{Q}{V}\\
+Q=\text{electric charge}\\
+V=\text{voltage}
 \end{aligned}
 $$
 
@@ -30,10 +30,10 @@ $$
 ### parallel planar capacitance formula
 $$
 \begin{aligned}
-C = \epsilon _ { 0 } \frac { A } { r } \\
-\epsilon _ { 0 } = 8.85 \times 10 ^ { - 12 } \\
-A = \text {area} \\
-r = \text {distance}
+C=\epsilon_{0}\frac{A}{r}\\
+\epsilon_{0}=8.85\times10^{-12}\\
+A=\text{area}\\
+r=\text{distance}
 \end{aligned}
 $$
 
@@ -46,10 +46,10 @@ $$
 ### cylindrical capacitance formula
 $$
 \begin{aligned}
-C = 2 \pi \epsilon _ { 0 } \frac { L } { \ln ( \frac { R _ { 2 } } { R _ { 1 } } ) } \\
-\epsilon _ { 0 } = 8.85 \times 10 ^ { - 12 } \\
-L = \text {length} \\
-R = \text {radius}
+C=2\pi\epsilon_{0}\frac{L}{\ln(\frac{R_{2}}{R_{1}})}\\
+\epsilon_{0}=8.85\times10^{-12}\\
+L=\text{length}\\
+R=\text{radius}
 \end{aligned}
 $$
 
@@ -62,9 +62,9 @@ $$
 ### spherical capacitance formula
 $$
 \begin{aligned}
-C = 4 \pi \epsilon _ { 0 } \frac { R _ { 1 } R _ { 2 } } { R _ { 2 } - R _ { 1 } } \\
-\epsilon _ { 0 } = 8.85 \times 10 ^ { - 12 } \\
-R = \text {radius}
+C=4\pi\epsilon_{0}\frac{R_{1}R_{2}}{R_{2}-R_{1}}\\
+\epsilon_{0}=8.85\times10^{-12}\\
+R=\text{radius}
 \end{aligned}
 $$
 
@@ -78,8 +78,8 @@ $$
 ### series capacitance formula
 $$
 \begin{aligned}
-\frac { 1 } { C _ { eq } } = \sum _ { i } \frac { 1 } { C _ { i } } \\
-C = \text {capacitance}
+\frac{1}{C_{eq}}=\sum_{i}\frac{1}{C_{i}}\\
+C=\text{capacitance}
 \end{aligned}
 $$
 
@@ -93,8 +93,8 @@ $$
 ### parallel capacitance formula
 $$
 \begin{aligned}
-C _ { eq } = \sum _ { i } C _ { i } \\
-C = \text {capacitance}
+C_{eq}=\sum_{i}C_{i}\\
+C=\text{capacitance}
 \end{aligned}
 $$
 
@@ -111,10 +111,10 @@ $$
 ### electric potential energy formula
 $$
 \begin{aligned}
-U = \frac { QV } { 2 } = \frac { C V ^ { 2 } } { 2 } = \frac { Q ^ { 2 } } { 2 C } \\
-Q = \text {electric charge} \\
-V = \text {voltage} \\
-C = \text {capacitance}
+U=\frac{QV}{2}=\frac{CV^{2}}{2}=\frac{Q^{2}}{2C}\\
+Q=\text{electric charge}\\
+V=\text{voltage}\\
+C=\text{capacitance}
 \end{aligned}
 $$
 
@@ -126,9 +126,9 @@ $$
 ### energy density formula
 $$
 \begin{aligned}
-u = \frac { 1 } { 2 } \epsilon _ { 0 } E ^ { 2 } \\
-\epsilon _ { 0 } = 8.85 \times 10 ^ { - 12 } \\
-E = \text {electric field}
+u=\frac{1}{2}\epsilon_{0}E^{2}\\
+\epsilon_{0}=8.85\times10^{-12}\\
+E=\text{electric field}
 \end{aligned}
 $$
 
@@ -170,11 +170,11 @@ $$
 ### dielectric constant formula
 $$
 \begin{aligned}
-K = \frac { \epsilon } { \epsilon _ { 0 } } = \frac { C } { C _ { 0 } } = \frac { Q } { Q _ { 0 } } = \frac { V _ { 0 } } { V } \\
-\epsilon = \text {permittivity} \\
-C = \text {capacitance} \\
-Q = \text {electric charge} \\
-V = \text {voltage}
+K=\frac{\epsilon}{\epsilon_{0}}=\frac{C}{C_{0}}=\frac{Q}{Q_{0}}=\frac{V_{0}}{V}\\
+\epsilon=\text{permittivity}\\
+C=\text{capacitance}\\
+Q=\text{electric charge}\\
+V=\text{voltage}
 \end{aligned}
 $$
 
@@ -193,12 +193,12 @@ $$
 ### gauss formula
 $$
 \begin{aligned}
-\pm \Phi = K \oint _ { A _ { 1 } } ^ { A _ { 2 } } \vec E \cdot d \vec A = \frac { \pm Q _ { enc } } { \epsilon _ { 0 } } \\
-K = \text {dielectric constant} \\
-E = \text {electric field} \\
-A = \text {area} \\
-Q = \text {electric charge} \\
-\epsilon _ { 0 } = 8.85 \times 10 ^ { - 12 } \\
+\pm\Phi=K\oint_{A_{1}}^{A_{2}}\vec E\cdot d\vec A=\frac{\pm Q_{enc}}{\epsilon_{0}}\\
+K=\text{dielectric constant}\\
+E=\text{electric field}\\
+A=\text{area}\\
+Q=\text{electric charge}\\
+\epsilon_{0}=8.85\times10^{-12}\\
 \end{aligned}
 $$
 

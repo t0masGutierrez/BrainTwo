@@ -5,12 +5,12 @@
 ### 1x1 determinant formula
 $$
 \begin{aligned}
-A = \begin{bmatrix}
-a _ { 11 }
-\end{bmatrix} \implies
-\det ( A ) = a _ { 11 } \\
-A = \text {square matrix} \\
-a = \text {entry}
+A=\begin{bmatrix}
+a_{11}
+\end{bmatrix}\implies
+\det(A)=a_{11}\\
+A=\text{square matrix}\\
+a=\text{entry}
 \end{aligned}
 $$
 
@@ -22,13 +22,13 @@ $$
 ### 2x2 determinant formula
 $$
 \begin{aligned}
-A = \begin{bmatrix}
-a _ { 11 } & a _ { 12 } \\
-a _ { 21 } & a _ { 22 }
-\end{bmatrix} \implies
-\det ( A ) = a _ { 11 } a _ { 22 } - a _ { 12 } a _ { 21 } \\
-A = \text {square matrix} \\
-a = \text {entry}
+A=\begin{bmatrix}
+a_{11}&a_{12}\\
+a_{21}&a_{22}
+\end{bmatrix}\implies
+\det(A)=a_{11}a_{22}-a_{12}a_{21}\\
+A=\text{square matrix}\\
+a=\text{entry}
 \end{aligned}
 $$
 
@@ -40,14 +40,14 @@ $$
 ### 3x3 determinant formula
 $$
 \begin{aligned}
-A = \begin{bmatrix}
-a _ { 11 } & a _ { 12 } & a _ { 13 } \\
-a _ { 21 } & a _ { 22 } & a _ { 23 } \\
-a _ { 31 } & a _ { 32 } & a _ { 33 }
-\end{bmatrix} \implies
-\det ( A ) = a _ { 11 } a _ { 22 } a _ { 33 } + a _ { 12 } a _ { 23 } a _ { 31 } + a _ { 13 } a _ { 21 } a _ { 32 } \\ - a _ { 13 } a _ { 22 } a _ { 31 } - a _ { 11 } a _ { 23 } a _ { 32 } - a _ { 12 } a _ { 21 } a _ { 33 } \\
-A = \text {square matrix} \\
-a = \text {entry}
+A=\begin{bmatrix}
+a_{11}&a_{12}&a_{13}\\
+a_{21}&a_{22}&a_{23}\\
+a_{31}&a_{32}&a_{33}
+\end{bmatrix}\implies
+\det(A)=a_{11}a_{22}a_{33}+a_{12}a_{23}a_{31}+a_{13}a_{21}a_{32}\\-a_{13}a_{22}a_{31}-a_{11}a_{23}a_{32}-a_{12}a_{21}a_{33}\\
+A=\text{square matrix}\\
+a=\text{entry}
 \end{aligned}
 $$
 
@@ -59,23 +59,23 @@ $$
 ### nxn determinant formula
 $$
 \begin{aligned}
-| A | = n \times n \implies \text {det} ( A ) \in \mathbb R \\
-A = \text {square matrix} \\
+|A|=n\times n\implies\text{det}(A)\in\mathbb R\\
+A=\text{square matrix}\\
 \end{aligned}
 $$
 
 ---
 ### submatrix
-- matrix formed by deleting all entries of the ith row and jth column 
+- matrix formed by deleting all entries of the ith row and jth column
 
 ---
 ### submatrix formula
 $$
 \begin{aligned}
-A _ { ij } = A - ( a _ { i * } + a _ { * j } ) \\
-A = \text {matrix} \\
-a _ { i * } = \text {ith row} \\
-a _ { * j } = \text {jth column} \\
+A_{ij}=A-(a_{i*}+a_{*j})\\
+A=\text{matrix}\\
+a_{i*}=\text{ith row}\\
+a_{*j}=\text{jth column}\\
 \end{aligned}
 $$
 
@@ -87,8 +87,8 @@ $$
 ### minor formula
 $$
 \begin{aligned}
-\forall n \ge 2 : | A _ { ij } | = ( n - 1 ) \times ( n - 1 ) \implies \det ( A _ { ij } ) \\
-A _ { ij } = \text {square submatrix}
+\forall n\ge2:|A_{ij}|=(n-1)\times(n-1)\implies\det(A_{ij})\\
+A_{ij}=\text{square submatrix}
 \end{aligned}
 $$
 
@@ -100,10 +100,10 @@ $$
 ### cofactor formula
 $$
 \begin{aligned}
-\mathcal A _ { ij } = ( - 1 ) ^ { i + j } \det ( A _ { ij } ) \\
-i = \text {row index} \\
-j = \text {column index} \\
-\det ( A _ { ij } ) = \text {minor}
+\mathcal A_{ij}=(-1)^{i+j}\det(A_{ij})\\
+i=\text{row index}\\
+j=\text{column index}\\
+\det(A_{ij})=\text{minor}
 \end{aligned}
 $$
 
@@ -116,14 +116,14 @@ $$
 ### nxn determinant formula
 $$
 \begin{aligned}
-\det ( A ) = \sum _ { j = 1 } ^ { n } a _ { ij } \mathcal A _ { ij } \\
-\det ( A ) = \sum _ { i = 1 } ^ { n } a _ { ij } \mathcal A _ { ij } \\
-A = \text {square matrix} \\
-i = \text {row index} \\
-j = \text {column index} \\
-n = \text {dimension} \\
-a = \text {entry} \\
-\mathcal A = \text {cofactor}
+\det(A)=\sum_{j=1}^{n}a_{ij}\mathcal A_{ij}\\
+\det(A)=\sum_{i=1}^{n}a_{ij}\mathcal A_{ij}\\
+A=\text{square matrix}\\
+i=\text{row index}\\
+j=\text{column index}\\
+n=\text{dimension}\\
+a=\text{entry}\\
+\mathcal A=\text{cofactor}
 \end{aligned}
 $$
 
@@ -135,10 +135,10 @@ $$
 ### type I determinant row operation formula
 $$
 \begin{aligned}
-\det R _ { 1 } ( A ) = c \det ( A ) \\
-R _ { 1 } = \text {type I row operation} \\
-A = \text {square matrix} \\
-c = \text {scalar}
+\det R_{1}(A)=c\det(A)\\
+R_{1}=\text{type I row operation}\\
+A=\text{square matrix}\\
+c=\text{scalar}
 \end{aligned}
 $$
 
@@ -150,9 +150,9 @@ $$
 ### type II determinant row operation formula
 $$
 \begin{aligned}
-\det R _ { 2 } ( A ) = \det ( A ) \\
-R _ { 2 } = \text {type II row operation} \\
-A = \text {square matrix}
+\det R_{2}(A)=\det(A)\\
+R_{2}=\text{type II row operation}\\
+A=\text{square matrix}
 \end{aligned}
 $$
 
@@ -164,9 +164,9 @@ $$
 ### type III determinant row operation formula
 $$
 \begin{aligned}
-\det R _ { 3 } ( A ) = - \det ( A ) \\
-R _ { 3 } = \text {type III row operation} \\
-A = \text {square matrix}
+\det R_{3}(A)=-\det(A)\\
+R_{3}=\text{type III row operation}\\
+A=\text{square matrix}
 \end{aligned}
 $$
 
@@ -181,10 +181,10 @@ $$
 ### determinant via gaussian elimination formula
 $$
 \begin{aligned}
-B = R _ { k } ( \dots R _ { 1 } ( A ) \dots ) \in \mathcal U \implies \det ( A ) = \frac { 1 } { c } \det ( B ) \\
-R = \text {row operation} \\
-A = \text {square matrix} \\
-c = \text {scalar}
+B=R_{k}(\dots R_{1}(A)\dots)\in\mathcal U\implies\det(A)=\frac{1}{c}\det(B)\\
+R=\text{row operation}\\
+A=\text{square matrix}\\
+c=\text{scalar}
 \end{aligned}
 $$
 
@@ -206,9 +206,9 @@ $$
 ### upper triangular matrix determinant formula
 $$
 \begin{aligned}
-A \in \mathcal U _ { n } \implies \det ( A ) = \prod _ { i = 1 } ^ { n } a _ { ii } \\
-a = \text {entry} \\
-i = \text {diagonal index}
+A\in\mathcal U_{n}\implies\det(A)=\prod_{i=1}^{n}a_{ii}\\
+a=\text{entry}\\
+i=\text{diagonal index}
 \end{aligned}
 $$
 
@@ -220,8 +220,8 @@ $$
 ### identity matrix determinant formula
 $$
 \begin{aligned}
-\det ( I ) = 1 \\
-I = \text {identity matrix}
+\det(I)=1\\
+I=\text{identity matrix}
 \end{aligned}
 $$
 
@@ -233,10 +233,10 @@ $$
 ### scalar multiplication determinant formula
 $$
 \begin{align}
-\det ( c A ) = c ^ { n } \det ( A ) \\
-A = \text {square matrix} \\
-c = \text {scalar} \\
-n = \text {dimension}
+\det(cA)=c^{n}\det(A)\\
+A=\text{square matrix}\\
+c=\text{scalar}\\
+n=\text{dimension}
 \end{align}
 $$
 
@@ -248,8 +248,8 @@ $$
 ### matrix multiplication determinant formula
 $$
 \begin{aligned}
-\det ( A B ) = \det ( A ) \det ( B ) \\
-A , B = \text {square matrix}
+\det(AB)=\det(A)\det(B)\\
+A,B=\text{square matrix}
 \end{aligned}
 $$
 
@@ -261,9 +261,9 @@ $$
 ### matrix inversion determinant formula
 $$
 \begin{aligned}
-\det ( A ^ { - 1 } ) = \frac { 1 } { \det ( A ) } \\
-\det ( A ) \ne 0 \\
-A = \text {square matrix}
+\det(A^{-1})=\frac{1}{\det(A)}\\
+\det(A)\ne0\\
+A=\text{square matrix}
 \end{aligned}
 $$
 
@@ -277,9 +277,9 @@ $$
 ### matrix transposition determinant formula
 $$
 \begin{aligned}
-\det R ( I ) = | ( R ( I ) ) ^ { T } | \\
-\det R _ { k } ( \dots R _ { 1 } ( I ) \dots ) = | ( R _ { k } ( \dots R _ { 1 } ( I ) \dots ) ) ^ { T } | \\
-\det R ( B ) = | ( R ( B ) ) ^ { T } | \\
+\det R(I)=|(R(I))^{T}|\\
+\det R_{k}(\dots R_{1}(I)\dots)=|(R_{k}(\dots R_{1}(I)\dots))^{T}|\\
+\det R(B)=|(R(B))^{T}|\\
 \end{aligned}
 $$
 
@@ -291,9 +291,9 @@ $$
 ### symmetric determinant formula
 $$
 \begin{aligned}
-\det ( A ) = \det ( A ^ { T } ) \\
-A = \text {symmetric matrix} \\
-T = \text {transposition}
+\det(A)=\det(A^{T})\\
+A=\text{symmetric matrix}\\
+T=\text{transposition}
 \end{aligned}
 $$
 
@@ -306,8 +306,8 @@ $$
 ### determinant zero property formula
 $$
 \begin{aligned}
-( \vec a _ { i * } = 0 ) \lor ( \vec a _ { * j } = 0 ) \implies \det ( A ) = 0 \\
-( \vec a _ { i _ { 1 } * } = \vec a _ { i _ { 2 } * } ) \lor ( \vec a _ { * j _ { 1 } } = \vec a _ { * j _ { 2 } } ) \implies \det ( A ) = 0
+(\vec a_{i*}=0)\lor(\vec a_{*j}=0)\implies\det(A)=0\\
+(\vec a_{i_{1}*}=\vec a_{i_{2}*})\lor(\vec a_{*j_{1}}=\vec a_{*j_{2}})\implies\det(A)=0
 \end{aligned}
 $$
 
@@ -319,8 +319,8 @@ $$
 ### determinant singularity property formula
 $$
 \begin{aligned}
-\text {det} ( A ) \ne 0 \iff \exists A ^ { - 1 } \\
-A = \text {nonsingular matrix} \\
+\text{det}(A)\ne0\iff\exists A^{-1}\\
+A=\text{nonsingular matrix}\\
 \end{aligned}
 $$
 
@@ -332,9 +332,9 @@ $$
 ### determinant rank property formula
 $$
 \begin{aligned}
-\det ( A ) \ne 0 \iff \text {rank} ( A ) = n \\
-A = \text {square matrix} \\
-n = \text {dimension}
+\det(A)\ne0\iff\text{rank}(A)=n\\
+A=\text{square matrix}\\
+n=\text{dimension}
 \end{aligned}
 $$
 

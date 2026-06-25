@@ -15,10 +15,10 @@
 ### average rate of change formula
 $$
 \begin{aligned}
-m = \frac { f ( b ) - f ( a ) } { b - a } \\
-f = \text {function} \\
-a = \text {initial point} \\
-b = \text {terminal point}
+m=\frac{f(b)-f(a)}{b-a}\\
+f=\text{function}\\
+a=\text{initial point}\\
+b=\text{terminal point}
 \end{aligned}
 $$
 
@@ -30,10 +30,10 @@ $$
 ### instantaneous rate of change formula
 $$
 \begin{aligned}
-f ' ( c ) = \lim _ { x \to c } \frac { f ( x ) - f ( c ) } { x - c } \\
-x = \text {independent variable} \\
-c = \text {constant} \\
-f = \text {function}
+f'(c)=\lim_{x\to c}\frac{f(x)-f(c)}{x-c}\\
+x=\text{independent variable}\\
+c=\text{constant}\\
+f=\text{function}
 \end{aligned}
 $$
 
@@ -45,10 +45,10 @@ $$
 ### derivative formula
 $$
 \begin{aligned}
-f ' ( x ) = \lim _ { h \to 0 } \frac { f ( x + h ) - f ( x ) } { h } \\
-x = \text {independent variable} \\
-h = \text {change} \\
-f = \text {function}
+f'(x)=\lim_{h\to0}\frac{f(x+h)-f(x)}{h}\\
+x=\text{independent variable}\\
+h=\text{change}\\
+f=\text{function}
 \end{aligned}
 $$
 
@@ -60,9 +60,9 @@ $$
 ### continuous formula
 $$
 \begin{aligned}
-\lim _ { x \to c } f ( x ) = f ( c ) \\
-\lim _ { x \to c ^ { - } } f ( x ) = \lim _ { x \to c ^ { + } } f ( x ) \\
-\lim _ { x \to c } f ( x ) \ne \pm \infty
+\lim_{x\to c}f(x)=f(c)\\
+\lim_{x\to c^{-}}f(x)=\lim_{x\to c^{+}}f(x)\\
+\lim_{x\to c}f(x)\ne\pm\infty
 \end{aligned}
 $$
 
@@ -74,9 +74,9 @@ $$
 ### differentiable formula
 $$
 \begin{aligned}
-\exists \frac { d } { dx } f ( x ) < \infty \\
-f = \text {function} \\
-x = \text {independent variable}
+\exists\frac{d}{dx}f(x)<\infty\\
+f=\text{function}\\
+x=\text{independent variable}
 \end{aligned}
 $$
 
@@ -88,7 +88,7 @@ $$
 ### constant derivative rule formula
 $$
 \begin{aligned}
-\frac { d } { dx } c = 0
+\frac{d}{dx}c=0
 \end{aligned}
 $$
 
@@ -100,7 +100,7 @@ $$
 ### constant multiple rule formula
 $$
 \begin{aligned}
-\frac { d } { dx } c f ( x ) = c f ' ( x )
+\frac{d}{dx}cf(x)=cf'(x)
 \end{aligned}
 $$
 
@@ -112,7 +112,7 @@ $$
 ### power rule formula
 $$
 \begin{aligned}
-\frac { d } { dx } x ^ { n } = n x ^ { n - 1 }
+\frac{d}{dx}x^{n}=nx^{n-1}
 \end{aligned}
 $$
 
@@ -124,7 +124,7 @@ sum rule
 ### sum rule formula
 $$
 \begin{aligned}
-\frac { d } { dx } f ( x ) \pm g ( x ) = f ' ( x ) \pm g ' ( x )
+\frac{d}{dx}f(x)\pm g(x)=f'(x)\pm g'(x)
 \end{aligned}
 $$
 
@@ -136,7 +136,7 @@ $$
 ### product rule formula
 $$
 \begin{aligned}
-\frac { d } { dx } f ( x ) \cdot g ( x ) = f ' ( x ) g ( x ) + f ( x ) g ' ( x )
+\frac{d}{dx}f(x)\cdot g(x)=f'(x)g(x)+f(x)g'(x)
 \end{aligned}
 $$
 
@@ -148,7 +148,7 @@ $$
 ### quotient rule formula
 $$
 \begin{aligned}
-\frac { d } { dx } f ( x ) \div g ( x ) = \frac { f ' ( x ) g ( x ) - f ( x ) g ' ( x ) } { g ^ { 2 } ( x ) }
+\frac{d}{dx}f(x)\div g(x)=\frac{f'(x)g(x)-f(x)g'(x)}{g^{2}(x)}
 \end{aligned}
 $$
 
@@ -160,8 +160,8 @@ $$
 ### chain rule formula
 $$
 \begin{aligned}
-\frac { d } { dx } { ( f \circ g ) ( x ) } = f ' ( g ( x ) ) \cdot g ' ( x ) \\
-\frac { dy } { dx } = \frac { dy } { du } \cdot \frac { du } { dx }
+\frac{d}{dx}{(f\circ g)(x)}=f'(g(x))\cdot g'(x)\\
+\frac{dy}{dx}=\frac{dy}{du}\cdot\frac{du}{dx}
 \end{aligned}
 $$
 
@@ -176,14 +176,14 @@ $$
 ---
 ### implicit differentiation formula
 $$
-\frac { dy } { dx } = \frac { dy } { du } \times \frac { du } { dx }
+\frac{dy}{dx}=\frac{dy}{du}\times\frac{du}{dx}
 $$
 
 ---
 ### calculate implicit differentiation
 - differentiate both sides of the equation with respect to *x*
-- collect terms with $\frac { dy } { dx }$ on the left side of the equation and shift terms without $\frac { dy } { dx }$ to the right side of the equation
+- collect terms with $\frac{dy}{dx}$ on the left side of the equation and shift terms without $\frac{dy}{dx}$ to the right side of the equation
 - factorization
-- isolate $\frac { dy } { dx }$
+- isolate $\frac{dy}{dx}$
 
 ---

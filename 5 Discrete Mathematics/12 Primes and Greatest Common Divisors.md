@@ -25,10 +25,10 @@
 ### trial division formula
 $$
 \begin{aligned}
-\forall ( p \le \sqrt n ) \  ( p \nmid n ) \implies n \in P \\
-p = \text {prime number} \\
-n = \text {integer} \\
-P = \{ 2 , 3 , 5 , 6 , 9 , 13 , 17 , 19 , 23 , 29 , . . . \infty \}
+\forall(p\le\sqrt n)\ (p\nmid n)\implies n\in P\\
+p=\text{prime number}\\
+n=\text{integer}\\
+P=\{2,3,5,6,9,13,17,19,23,29,...\infty\}
 \end{aligned}
 $$
 
@@ -62,8 +62,8 @@ $$
 ### prime number formula
 $$
 \begin{aligned}
-\lim _ { x \implies \infty } \frac { \pi ( x ) } { \frac { x } { \ln ( x ) } } = 1 \\
-\pi ( x ) = \text {prime counting function}
+\lim_{x\implies\infty}\frac{\pi(x)}{\frac{x}{\ln(x)}}=1\\
+\pi(x)=\text{prime counting function}
 \end{aligned}
 $$
 
@@ -75,9 +75,9 @@ $$
 ### prime arithmetic sequence formula
 $$
 \begin{aligned}
-a k + b \subset P \\
-\forall ( n > 1 ) ( n \nmid a \land n \nmid b ) \\
-k = \{ 0 , 1 , 2 , . . . \infty \}
+ak+b\subset P\\
+\forall(n>1)(n\nmid a\land n\nmid b)\\
+k=\{0,1,2,...\infty\}
 \end{aligned}
 $$
 
@@ -97,7 +97,7 @@ $$
 ### greatest common divisor formula
 $$
 \begin{aligned}
-\gcd ( a , b )
+\gcd(a,b)
 \end{aligned}
 $$
 
@@ -115,7 +115,7 @@ $$
 ### relatively prime formula
 $$
 \begin{aligned}
-\gcd ( a , b ) = 1
+\gcd(a,b)=1
 \end{aligned}
 $$
 
@@ -127,9 +127,9 @@ $$
 ### pairwise relatively prime formula
 $$
 \begin{aligned}
-\gcd ( a _ { k _ { 1 } } , a _ { k _ { 2 } } ) = 1 \\
-1 \le k _ { 1 } \le k _ { 2 } \le n \\
-A = \{ a _ { 1 } , a _ { 2 } , . . . a _ { n } \}
+\gcd(a_{k_{1}},a_{k_{2}})=1\\
+1\le k_{1}\le k_{2}\le n\\
+A=\{a_{1},a_{2},...a_{n}\}
 \end{aligned}
 $$
 
@@ -141,9 +141,9 @@ $$
 ### gcd by prime factorization formula
 $$
 \begin{aligned}
-\gcd ( a , b ) = \prod _ { p \in P } p ^ { \min ( a _ { p } , \  b _ { p } ) } \\
-a _ { p } , b _ { p } = \text {prime factor exponent} \\
-p = \text {prime number}
+\gcd(a,b)=\prod_{p\in P}p^{\min(a_{p},\ b_{p})}\\
+a_{p},b_{p}=\text{prime factor exponent}\\
+p=\text{prime number}
 \end{aligned}
 $$
 
@@ -156,9 +156,9 @@ $$
 ### lcm by prime factorization formula
 $$
 \begin{aligned}
-\text {lcm} ( a , b ) = \prod _ { p \in P } p ^ { \max ( a _ { p } , \  b _ { p } ) } \\
-a _ { p } , b _ { p } = \text {prime factor exponent} \\
-p = \text {prime number}
+\text{lcm}(a,b)=\prod_{p\in P}p^{\max(a_{p},\ b_{p})}\\
+a_{p},b_{p}=\text{prime factor exponent}\\
+p=\text{prime number}
 \end{aligned}
 $$
 
@@ -170,7 +170,7 @@ $$
 ### commonality formula
 $$
 \begin{aligned}
-a \times b = \gcd ( a , b ) \times \text {lcm} ( a , b )
+a\times b=\gcd(a,b)\times\text{lcm}(a,b)
 \end{aligned}
 $$
 
@@ -182,15 +182,15 @@ $$
 ### gcd by euclidian formula
 $$
 \begin{aligned}
-\gcd ( a , b ) = \gcd ( b , a \  \text {mod} \  b ) = \gcd ( b , r ) \\
-a = b q + r
+\gcd(a,b)=\gcd(b,a\ \text{mod}\ b)=\gcd(b,r)\\
+a=bq+r
 \end{aligned}
 $$
 
 ---
 ### calculate gcd by euclidian algorithm
 - larger integer *a* mod with smaller integer *b*
-- larger integer *a* becomes smaller integer *b* and smaller integer *b* becomes remainder *r* 
+- larger integer *a* becomes smaller integer *b* and smaller integer *b* becomes remainder *r*
 - gcd equal last nonzero remainder
 
 ---
@@ -201,8 +201,8 @@ $$
 ### bezout formula
 $$
 \begin{aligned}
-\gcd ( a , b ) = a x + b y \\
-x , y = \text {bezout coefficient}
+\gcd(a,b)=ax+by\\
+x,y=\text{bezout coefficient}
 \end{aligned}
 $$
 

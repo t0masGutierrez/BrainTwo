@@ -5,9 +5,9 @@
 ### independent multiplication rule formula
 $$
 \begin{aligned}
-N = \prod _ { i = 1 } ^ { k } n _ { i } \\
-n = \text {number of possible outcomes} \\
-k = \text {number of experiments}
+N=\prod_{i=1}^{k}n_{i}\\
+n=\text{number of possible outcomes}\\
+k=\text{number of experiments}
 \end{aligned}
 $$
 
@@ -19,9 +19,9 @@ $$
 ### disjoint addition rule formula
 $$
 \begin{aligned}
-N = \sum _ { i = 1 } ^ { k } n _ { i } \\
-n = \text {number of possible outcomes} \\
-k = \text {number of experiments}
+N=\sum_{i=1}^{k}n_{i}\\
+n=\text{number of possible outcomes}\\
+k=\text{number of experiments}
 \end{aligned}
 $$
 
@@ -33,9 +33,9 @@ $$
 ### permutation formula
 $$
 \begin{aligned}
-_ { n } P _ { k } = \frac { n ! } { ( n - k ) ! } = k ! \begin{pmatrix} n \\ k \end{pmatrix} \\
-n = \text {number of objects} \\
-k = \text {number of arrangements}
+_{n}P_{k}=\frac{n!}{(n-k)!}=k!\begin{pmatrix}n\\k\end{pmatrix}\\
+n=\text{number of objects}\\
+k=\text{number of arrangements}
 \end{aligned}
 $$
 
@@ -47,9 +47,9 @@ $$
 ### combination formula
 $$
 \begin{aligned}
-\begin{pmatrix} n \\ k \end{pmatrix} = \frac { n ! } { k ! ( n - k ) ! } \\
-n = \text {number of objects} \\
-k = \text {number of choices}
+\begin{pmatrix}n\\k\end{pmatrix}=\frac{n!}{k!(n-k)!}\\
+n=\text{number of objects}\\
+k=\text{number of choices}
 \end{aligned}
 $$
 
@@ -61,8 +61,8 @@ $$
 ### binomial theorem formula
 $$
 \begin{aligned}
-( x + y ) ^ { n } = \sum _ { k = 0 } ^ { n } \begin{pmatrix} n \\ k \end{pmatrix} x ^ { k } y ^ { n - k } \\
-n , k = \text {parameter}
+(x+y)^{n}=\sum_{k=0}^{n}\begin{pmatrix}n\\k\end{pmatrix}x^{k}y^{n-k}\\
+n,k=\text{parameter}
 \end{aligned}
 $$
 

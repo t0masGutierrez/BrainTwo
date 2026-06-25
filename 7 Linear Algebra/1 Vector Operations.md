@@ -13,9 +13,9 @@
 ### n-vector formula
 $$
 \begin{aligned}
-\vec x = [ x _ { 1 } , . . . , x _ { n } ] \\
-x = \text {coordinate} \\
-n = \text {number of coordinates}
+\vec x=[x_{1},...,x_{n}]\\
+x=\text{coordinate}\\
+n=\text{number of coordinates}
 \end{aligned}
 $$
 
@@ -27,7 +27,7 @@ $$
 ### zero n-vector formula
 $$
 \begin{aligned}
-\vec 0 = [ 0 , . . . , 0 ]
+\vec0=[0,...,0]
 \end{aligned}
 $$
 
@@ -39,9 +39,9 @@ $$
 ### magnitude formula
 $$
 \begin{aligned}
-\| \vec x \| = \sqrt { x _ { 1 } ^ { 2 } + . . . + x _ { n } ^ { 2 } } \\
-x , y = \text {coordinate} \\
-n = \text {number of coordinates}
+\|\vec x\|=\sqrt{x_{1}^{2}+...+x_{n}^{2}}\\
+x,y=\text{coordinate}\\
+n=\text{number of coordinates}
 \end{aligned}
 $$
 
@@ -53,9 +53,9 @@ $$
 ### unit vector formula
 $$
 \begin{aligned}
-\hat x = \frac { \vec x } { \| \vec x \| } \\
-\vec x = \text {vector} \\
-\| \vec x \| = \text {magnitude}
+\hat x=\frac{\vec x}{\|\vec x\|}\\
+\vec x=\text{vector}\\
+\|\vec x\|=\text{magnitude}
 \end{aligned}
 $$
 
@@ -67,9 +67,9 @@ $$
 ### standard unit vector formula
 $$
 \begin{aligned}
-\vec e _ { 1 } = [ 1 , 0 , 0 , . . . , 0 ] \\
-\vec e _ { 2 } = [ 0 , 1 , 0 , . . . , 0 ] \\
-\vec e _ { n } = [ 0 , 0 , 0 , . . . , 1 ]
+\vec e_{1}=[1,0,0,...,0]\\
+\vec e_{2}=[0,1,0,...,0]\\
+\vec e_{n}=[0,0,0,...,1]
 \end{aligned}
 $$
 
@@ -81,10 +81,10 @@ $$
 ### scalar multiplication formula
 $$
 \begin{aligned}
-c \vec { x } = [ c x _ { 1 } , . . . , c x _ { n } ] \\
-c = \text {scalar} \\
-x = \text {coordinate} \\
-n = \text {number of coordinates}
+c\vec{x}=[cx_{1},...,cx_{n}]\\
+c=\text{scalar}\\
+x=\text{coordinate}\\
+n=\text{number of coordinates}
 \end{aligned}
 $$
 
@@ -96,9 +96,9 @@ $$
 ### vector addition formula
 $$
 \begin{aligned}
-\vec x + \vec y = [ x _ { 1 } + y _ { 1 } , . . . , x _ { n } + y _ { n } ] \\
-x , y = \text {coordinate} \\
-n = \text {number of coordinates}
+\vec x+\vec y=[x_{1}+y_{1},...,x_{n}+y_{n}]\\
+x,y=\text{coordinate}\\
+n=\text{number of coordinates}
 \end{aligned}
 $$
 
@@ -110,10 +110,10 @@ $$
 ### linear combination formula
 $$
 \begin{aligned}
-\vec y = \sum _ { i = 1 } ^ { k } c _ { i } \vec x _ { i } \\
-c = \text {scalar} \\
-\vec x = \text {vector} \\
-k = \text {number of vectors}
+\vec y=\sum_{i=1}^{k}c_{i}\vec x_{i}\\
+c=\text{scalar}\\
+\vec x=\text{vector}\\
+k=\text{number of vectors}
 \end{aligned}
 $$
 
@@ -127,10 +127,10 @@ $$
 ### scalar component formula
 $$
 \begin{aligned}
-x _ { 1 } = \| \vec x \| \cos ( \theta ) \\
-x _ { 2 } = \| \vec x \| \sin ( \theta ) \\
-\| \vec x \| = \text {magnitude} \\
-\theta = \text {direction}
+x_{1}=\|\vec x\|\cos(\theta)\\
+x_{2}=\|\vec x\|\sin(\theta)\\
+\|\vec x\|=\text{magnitude}\\
+\theta=\text{direction}
 \end{aligned}
 $$
 
@@ -138,9 +138,9 @@ $$
 ### vector component formula
 $$
 \begin{aligned}
-\vec { x } = x _ { 1 } \vec e _ { 1 } + x _ { 2 } \vec e _ { 2 } \\
-x = \text {coordinate} \\
-\vec e = \text {standard unit vector}
+\vec{x}=x_{1}\vec e_{1}+x_{2}\vec e_{2}\\
+x=\text{coordinate}\\
+\vec e=\text{standard unit vector}
 \end{aligned}
 $$
 
@@ -155,10 +155,10 @@ $$
 ### scalar multiplication property formula
 $$
 \begin{aligned}
-c > 1 \implies ( + \Delta ) \| \vec x \| \\
-0 < c < 1 \implies ( - \Delta ) \| \vec x \| \\
-c < 0 \implies ( - ) \| \vec x \| \\
-| c | \implies \| c \vec x \|
+c>1\implies(+\Delta)\|\vec x\|\\
+0<c<1\implies(-\Delta)\|\vec x\|\\
+c<0\implies(-)\|\vec x\|\\
+|c|\implies\|c\vec x\|
 \end{aligned}
 $$
 
@@ -170,9 +170,9 @@ $$
 ### scalar parallel property formula
 $$
 \begin{aligned}
-\vec x \parallel \vec y \iff \exists c : \vec x = c \vec y \\
-\vec x , \vec y = \text {vector} \\
-c = \text {scalar}
+\vec x\parallel\vec y\iff\exists c:\vec x=c\vec y\\
+\vec x,\vec y=\text{vector}\\
+c=\text{scalar}
 \end{aligned}
 $$
 
@@ -184,21 +184,21 @@ $$
 ### scalar zero property formula
 $$
 \begin{aligned}
-c \vec x = \vec 0 \implies ( c = 0 ) \lor ( \vec x = \vec 0 )
+c\vec x=\vec0\implies(c=0)\lor(\vec x=\vec0)
 \end{aligned}
 $$
 
 ---
 ### vector equality property
-- two vectors equal if and only if all corresponding coordinates equal 
+- two vectors equal if and only if all corresponding coordinates equal
 
 ---
 ### vector equality property formula
 $$
 \begin{aligned}
-\vec x = \vec y \iff [ x _ { 1 } , . . . , x _ { n } ] = [ y _ { 1 } , . . . , y _ { n } ] \\
-\vec x , \vec y = \text {vector} \\
-x , y = \text {coordinate}
+\vec x=\vec y\iff[x_{1},...,x_{n}]=[y_{1},...,y_{n}]\\
+\vec x,\vec y=\text{vector}\\
+x,y=\text{coordinate}
 \end{aligned}
 $$
 
@@ -214,14 +214,14 @@ $$
 ### vector arithmetic property formula
 $$
 \begin{aligned}
-\vec x + \vec y = \vec y + \vec x \\
-( \vec x + \vec y ) + \vec z = \vec x + ( \vec y + \vec z ) \\
-c d ( \vec x ) = c ( d \vec x ) \\
-\vec x + \vec 0 = \vec x \\
-1 ( \vec x ) = \vec x \\
-\vec x + ( - \vec x ) = \vec 0 \\
-c ( \vec x + \vec y ) = c \vec x + c \vec y \\
-( c + d ) \vec x = c \vec x + d \vec x
+\vec x+\vec y=\vec y+\vec x\\
+(\vec x+\vec y)+\vec z=\vec x+(\vec y+\vec z)\\
+cd(\vec x)=c(d\vec x)\\
+\vec x+\vec0=\vec x\\
+1(\vec x)=\vec x\\
+\vec x+(-\vec x)=\vec0\\
+c(\vec x+\vec y)=c\vec x+c\vec y\\
+(c+d)\vec x=c\vec x+d\vec x
 \end{aligned}
 $$
 

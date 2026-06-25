@@ -1,31 +1,31 @@
 ### rectangular equation
-- $y$ dependent *x* 
+- $y$ dependent *x*
 
 ---
 ### rectangular equation formula
 $$
 \begin{aligned}
-y = f ( x ) \\
-x = \text {independent variable} \\
-y = \text {dependent variable}
+y=f(x)\\
+x=\text{independent variable}\\
+y=\text{dependent variable}
 \end{aligned}
 $$
 
 ---
 ### parametric equation
-- $( x , y )$ dependent *t* 
+- $(x,y)$ dependent *t*
 
 ---
 ### parametric equation
 $$
 \begin{aligned}
-\vec r ( t ) = ( x , y ) \\
-x = f ( t ) \\
-y = g ( t ) \\
-\vec r = \text {position} \\
-x , y = \text {dependent variable} \\
-f , g = \text {function} \\
-t = \text {parameter}
+\vec r(t)=(x,y)\\
+x=f(t)\\
+y=g(t)\\
+\vec r=\text{position}\\
+x,y=\text{dependent variable}\\
+f,g=\text{function}\\
+t=\text{parameter}
 \end{aligned}
 $$
 
@@ -38,12 +38,12 @@ $$
 ### parametric curve formula
 $$
 \begin{aligned}
-C = \set { ( x , y ) \mid x = f ( t ) , y = g ( t ) , t \in I } = \vec r ( I ) \\
-x , y = \text {dependent variable} \\
-f , g = \text {function} \\
-t = \text {parameter} \\
-I = \text {interval} \\
-\vec r = \text {position}
+C=\set{(x,y)\mid x=f(t),y=g(t),t\in I}=\vec r(I)\\
+x,y=\text{dependent variable}\\
+f,g=\text{function}\\
+t=\text{parameter}\\
+I=\text{interval}\\
+\vec r=\text{position}
 \end{aligned}
 $$
 
@@ -58,13 +58,13 @@ $$
 ### parameterization formula
 $$
 \begin{aligned}
-y = f ( x ) \implies \vec r ( t ) = ( t , f ( t ) ) , \  t \in I \\
-y = \text {dependent variable} \\
-f = \text {function} \\
-x = \text {independent variable} \\
-\vec r = \text {position} \\
-t = \text {parameter} \\
-I = \text {interval}
+y=f(x)\implies\vec r(t)=(t,f(t)),\ t\in I\\
+y=\text{dependent variable}\\
+f=\text{function}\\
+x=\text{independent variable}\\
+\vec r=\text{position}\\
+t=\text{parameter}\\
+I=\text{interval}
 \end{aligned}
 $$
 
@@ -79,13 +79,13 @@ $$
 ### deparameterization formula
 $$
 \begin{aligned}
-\vec r ( t ) = ( t , f ( t ) ) \implies y = f ( x ) , \  x \in f ( I ) \\
-\vec r = \text {position} \\
-t = \text {parameter} \\
-f = \text {function} \\
-y = \text {dependent variable} \\
-x = \text {independent variable} \\
-I = \text {interval}
+\vec r(t)=(t,f(t))\implies y=f(x),\ x\in f(I)\\
+\vec r=\text{position}\\
+t=\text{parameter}\\
+f=\text{function}\\
+y=\text{dependent variable}\\
+x=\text{independent variable}\\
+I=\text{interval}
 \end{aligned}
 $$
 
@@ -98,8 +98,8 @@ $$
 ### derivative formula
 $$
 \begin{aligned}
-\frac { dy } { dx } = \frac { d y / d t } { d x / d t } = \frac { g ' ( t ) } { f ' ( t ) } \\
-\frac { d ^ { 2 } y } { d x ^ { 2 } } = \frac { \frac { d } { dt } ( d y / d x ) } { d x / d t }
+\frac{dy}{dx}=\frac{dy/dt}{dx/dt}=\frac{g'(t)}{f'(t)}\\
+\frac{d^{2}y}{dx^{2}}=\frac{\frac{d}{dt}(dy/dx)}{dx/dt}
 \end{aligned}
 $$
 
@@ -112,8 +112,8 @@ $$
 ### integral formula
 $$
 \begin{aligned}
-\int _ { \alpha } ^ { \beta } y d x = \int _ { a } ^ { b } g ( t ) f ' ( t ) d t \\
-\int _ { \alpha } ^ { \beta } x d y = \int _ { a } ^ { b } f ( t ) g ' ( t ) d t \\
+\int_{\alpha}^{\beta}ydx=\int_{a}^{b}g(t)f'(t)dt\\
+\int_{\alpha}^{\beta}xdy=\int_{a}^{b}f(t)g'(t)dt\\
 \end{aligned}
 $$
 
@@ -126,7 +126,7 @@ $$
 ### arc length formula
 $$
 \begin{aligned}
-L = \int _ { a } ^ { b } \sqrt { ( \frac { dx } { dt } ) ^ { 2 } + ( \frac { dy } { dt } ) ^ { 2 } } d t
+L=\int_{a}^{b}\sqrt{(\frac{dx}{dt})^{2}+(\frac{dy}{dt})^{2}}dt
 \end{aligned}
 $$
 
@@ -139,8 +139,8 @@ $$
 ### surface area formula
 $$
 \begin{aligned}
-y = 2 \pi \int _ { a } ^ { b } g ( t ) \sqrt { ( \frac { dx } { dt } ) ^ { 2 } + ( \frac { dy } { dt } ) ^ { 2 } } d t \\
-x = 2 \pi \int _ { a } ^ { b } f ( t ) \sqrt { ( \frac { dx } { dt } ) ^ { 2 } + ( \frac { dy } { dt } ) ^ { 2 } } d t
+y=2\pi\int_{a}^{b}g(t)\sqrt{(\frac{dx}{dt})^{2}+(\frac{dy}{dt})^{2}}dt\\
+x=2\pi\int_{a}^{b}f(t)\sqrt{(\frac{dx}{dt})^{2}+(\frac{dy}{dt})^{2}}dt
 \end{aligned}
 $$
 
@@ -152,10 +152,10 @@ $$
 ### linear parameterization formula
 $$
 \begin{aligned}
-\vec r ( t ) = P _ { 0 } ( 1 - t ) + P _ { 1 } t \\
-0 \le t \le 1 \\
-P = \text {point} \\
-t = \text {parameter}
+\vec r(t)=P_{0}(1-t)+P_{1}t\\
+0\le t\le1\\
+P=\text{point}\\
+t=\text{parameter}
 \end{aligned}
 $$
 
@@ -167,13 +167,13 @@ $$
 ### circular parameterization formula
 $$
 \begin{aligned}
-\frac { ( x - h ) ^ { 2 } } { a ^ { 2 } } + \frac { ( y - k ) ^ { 2 } } { b ^ { 2 } } = r ^ { 2 } \implies \vec r ( t ) = ( h + r \cos t , k + r \sin t ) \\
-0 \le t \le 2 \pi \\
-x , y = \text {dependent variable} \\
-a = \text {horizontal radius} \\
-b = \text {vertical radius} \\
-\vec r = \text {position} \\
-t = \text {parameter}
+\frac{(x-h)^{2}}{a^{2}}+\frac{(y-k)^{2}}{b^{2}}=r^{2}\implies\vec r(t)=(h+r\cos t,k+r\sin t)\\
+0\le t\le2\pi\\
+x,y=\text{dependent variable}\\
+a=\text{horizontal radius}\\
+b=\text{vertical radius}\\
+\vec r=\text{position}\\
+t=\text{parameter}
 \end{aligned}
 $$
 
@@ -185,13 +185,13 @@ $$
 ### elliptical parameterization formula
 $$
 \begin{aligned}
-\frac { ( x - h ) ^ { 2 } } { a ^ { 2 } } + \frac { ( y - k ) ^ { 2 } } { b ^ { 2 } } = 1 \implies \vec r ( t ) = ( h + a \cos t , k + b \sin t ) \\
-0 \le t \le 2 \pi \\
-x , y = \text {dependent variable} \\
-a = \text {horizontal radius} \\
-b = \text {vertical radius} \\
-\vec r = \text {position} \\
-t = \text {parameter}
+\frac{(x-h)^{2}}{a^{2}}+\frac{(y-k)^{2}}{b^{2}}=1\implies\vec r(t)=(h+a\cos t,k+b\sin t)\\
+0\le t\le2\pi\\
+x,y=\text{dependent variable}\\
+a=\text{horizontal radius}\\
+b=\text{vertical radius}\\
+\vec r=\text{position}\\
+t=\text{parameter}
 \end{aligned}
 $$
 
@@ -203,13 +203,13 @@ $$
 ### hyperbolic parameterization formula
 $$
 \begin{aligned}
-\frac { ( x - h ) ^ { 2 } } { a ^ { 2 } } - \frac { ( y - k ) ^ { 2 } } { b ^ { 2 } } = 1 \implies \vec r ( t ) = ( h + a \sec t , k + b \tan t ) \\
-0 \le t \le 2 \pi \\
-x , y = \text {dependent variable} \\
-a = \text {horizontal radius} \\
-b = \text {vertical radius} \\
-\vec r = \text {position} \\
-t = \text {parameter}
+\frac{(x-h)^{2}}{a^{2}}-\frac{(y-k)^{2}}{b^{2}}=1\implies\vec r(t)=(h+a\sec t,k+b\tan t)\\
+0\le t\le2\pi\\
+x,y=\text{dependent variable}\\
+a=\text{horizontal radius}\\
+b=\text{vertical radius}\\
+\vec r=\text{position}\\
+t=\text{parameter}
 \end{aligned}
 $$
 

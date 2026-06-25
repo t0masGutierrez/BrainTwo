@@ -1,12 +1,12 @@
 ### limit
-- $f ( x )$ behavior as x approaches value
+- $f(x)$ behavior as x approaches value
 
 ---
 ### limit formula
 $$
 \begin{aligned}
-\lim _ { x \to n } f ( x ) = L \\
-\lim _ { x \to n } g ( x ) = K
+\lim_{x\to n}f(x)=L\\
+\lim_{x\to n}g(x)=K
 \end{aligned}
 $$
 
@@ -14,7 +14,7 @@ $$
 ### limit constant formula
 $$
 \begin{aligned}
-\lim _ { x \to n } c = c
+\lim_{x\to n}c=c
 \end{aligned}
 $$
 
@@ -22,7 +22,7 @@ $$
 ### limit constant multiple formula
 $$
 \begin{aligned}
-\lim _ { x \to n } c f ( x ) = c \times L
+\lim_{x\to n}cf(x)=c\times L
 \end{aligned}
 $$
 
@@ -30,22 +30,22 @@ $$
 ### limit sum formula
 $$
 \begin{aligned}
-\lim _ { x \to n } f ( x ) \pm g ( x ) = L \pm K
+\lim_{x\to n}f(x)\pm g(x)=L\pm K
 \end{aligned}
 $$
 
 ---
 ### limit product formula
 $$
-\lim _ { x \to n } f ( x ) \times g ( x ) = L \times K
+\lim_{x\to n}f(x)\times g(x)=L\times K
 $$
 
 ---
 ### limit quotient formula
 $$
 \begin{aligned}
-\lim _ { x \to n } f ( x ) \div g ( x ) = L \div K \\
-K \ne 0
+\lim_{x\to n}f(x)\div g(x)=L\div K\\
+K\ne0
 \end{aligned}
 $$
 
@@ -58,9 +58,9 @@ $$
 ### limit composition formula
 $$
 \begin{aligned}
-\lim _ { x \to n } ( f \circ g ) ( x ) = f [ \lim _ { x \to n } g ( x ) ] \\
-g ( x ) = L \\
-L \in f
+\lim_{x\to n}(f\circ g)(x)=f[\lim_{x\to n}g(x)]\\
+g(x)=L\\
+L\in f
 \end{aligned}
 $$
 
@@ -98,15 +98,15 @@ $$
 
 ---
 ### right handed limit formula
-- $x \implies n ^ { + }$  = as *x* approaches from values above *n*
+- $x\implies n^{+}$  = as *x* approaches from values above *n*
 
 ---
 ### left handed limit formula
-- $x \implies n ^ { - }$ = as *x* approaches from values below *n*
+- $x\implies n^{-}$ = as *x* approaches from values below *n*
 
 ---
 ### unbounded limit
-- $f ( x )$ behavior as *x* approaches value equal infinity
+- $f(x)$ behavior as *x* approaches value equal infinity
 
 ---
 ### approximate limit
@@ -134,7 +134,7 @@ $$
 ### difference of squares
 $$
 \begin{aligned}
-a ^ { 2 } - b ^ { 2 } = ( a + b ) ( a - b )
+a^{2}-b^{2}=(a+b)(a-b)
 \end{aligned}
 $$
 
@@ -148,7 +148,7 @@ $$
 ### conjugate root theorem
 $$
 \begin{aligned}
-( a + \sqrt { b } ) ( a - \sqrt { b } ) = a ^ { 2 } - b
+(a+\sqrt{b})(a-\sqrt{b})=a^{2}-b
 \end{aligned}
 $$
 
@@ -161,7 +161,7 @@ $$
 ### special sine identity
 $$
 \begin{aligned}
-\lim _ { x \to n } \frac { \sin ( x ) } { x } = 1
+\lim_{x\to n}\frac{\sin(x)}{x}=1
 \end{aligned}
 $$
 
@@ -169,7 +169,7 @@ $$
 ### special cosine identity
 $$
 \begin{aligned}
-\lim _ { x \to n } \frac { 1 - \cos ( x ) } { x } = 0
+\lim_{x\to n}\frac{1-\cos(x)}{x}=0
 \end{aligned}
 $$
 
@@ -177,7 +177,7 @@ $$
 ### pythagorean identity
 $$
 \begin{aligned}
-\sin ^ { 2 } ( x ) + \cos ^ { 2 } ( x ) = 1
+\sin^{2}(x)+\cos^{2}(x)=1
 \end{aligned}
 $$
 
@@ -193,19 +193,19 @@ $$
 
 ---
 ### squeeze theorem
-- approximate limit by squeezing $f ( x )$ between two functions 
-- $g ( x ) ≤ f ( x ) ≤ h ( x )$ for all *x* near *n*
-- $\lim _ { x \to n } g ( x ) = \lim _ { x \to n } h ( x ) = L$
-- if both conditions met then $\lim _ { x \to n } f ( x ) = L$
+- approximate limit by squeezing $f(x)$ between two functions
+- $g(x)≤f(x)≤h(x)$ for all *x* near *n*
+- $\lim_{x\to n}g(x)=\lim_{x\to n}h(x)=L$
+- if both conditions met then $\lim_{x\to n}f(x)=L$
 ![[3 Calculus/Images/squeeze theorem.png]]
 
 ---
 ### continuity
 $$
 \begin{aligned}
-\lim _ { x \to n } f ( x ) = f ( n ) \\
-\lim _ { x \to n ^ { - } } f ( x ) = \lim _ { x \to n ^ { + } } f ( x ) \\
-\lim _ { x \to n } f ( x ) \ne \pm \infty
+\lim_{x\to n}f(x)=f(n)\\
+\lim_{x\to n^{-}}f(x)=\lim_{x\to n^{+}}f(x)\\
+\lim_{x\to n}f(x)\ne\pm\infty
 \end{aligned}
 $$
 
@@ -217,32 +217,32 @@ $$
 
 ---
 ### hole discontinuity
-- missing $f ( x )$ value
-- $\lim _ { x \to n } f ( x ) \ne f ( n )$
+- missing $f(x)$ value
+- $\lim_{x\to n}f(x)\ne f(n)$
 
 ---
 ### jump discontinuity
-- different $f ( x )$ values at single *x* value
-- $\lim _ { x \to n } f ( x ) \ne f ( n )$
+- different $f(x)$ values at single *x* value
+- $\lim_{x\to n}f(x)\ne f(n)$
 
 ---
 ### infinite discontinuity
 - vertical asymptote
-- $\lim _ { x \to n } f ( x ) = \pm \infty$
+- $\lim_{x\to n}f(x)=\pm\infty$
 
 ---
 ### open interval continuity
 - function continuous for all *x* inner interval excluding endpoints
-- $( a , b )$
+- $(a,b)$
 
 ---
 ### closed interval continuity
 - function continuous for all *x* inner interval including one sided limit at endpoints
-- $[ a , b ]$
+- $[a,b]$
 
 ---
 ### test continuity
-- if f$( x )$ undefined then function discontinuous
+- if f$(x)$ undefined then function discontinuous
 - if one sided limits not equal then function discontinuous
 
 ---
@@ -251,17 +251,17 @@ $$
 
 ---
 ### infinite limit
-- $f ( x )$ behavior as *x* approaches value equal vertical asymptote
+- $f(x)$ behavior as *x* approaches value equal vertical asymptote
 
 ---
 ### negative infinite limit
 - division with infinitely small negative number equal negative infinity
-- $\lim _ { x \to n ^ { - } } \frac { 1 } { x - n } = - \infty$
+- $\lim_{x\to n^{-}}\frac{1}{x-n}=-\infty$
 
 ---
 ### positive infinite limit
 - division with infinitely small positive number equal positive infinity
-- $\lim _ { x \to n ^ { + } } \frac { 1 } { x - n } = + \infty$
+- $\lim_{x\to n^{+}}\frac{1}{x-n}=+\infty$
 
 ---
 ### vertical asymptote
@@ -281,7 +281,7 @@ $$
 
 ---
 ### limit at infinity
-- $f ( x )$ behavior as *x* approaches $\pm \infty$
+- $f(x)$ behavior as *x* approaches $\pm\infty$
 
 ---
 ### calculate limit at infinity
@@ -294,7 +294,7 @@ $$
 
 ---
 ### numerator degree quotient
-- if numerator degree greater than denominator degree then limit at infinity equal $\pm \infty$
+- if numerator degree greater than denominator degree then limit at infinity equal $\pm\infty$
 
 ---
 ### denominator degree quotient
@@ -322,8 +322,8 @@ $$
 ### intermediate value formula
 $$
 \begin{aligned}
-\exists x \in [ a , b ] \to f ( a ) \le f ( x ) \le f ( b ) \\
-\forall x \in [ a , b ] \lim _ { x \to n } f ( x ) = f ( n )
+\exists x\in[a,b]\to f(a)\le f(x)\le f(b)\\
+\forall x\in[a,b]\lim_{x\to n}f(x)=f(n)
 \end{aligned}
 $$
 
@@ -337,7 +337,7 @@ $$
 
 ---
 epsilon delta limit formula
-$$ \forall ( \epsilon > 0 ) \exists ( \delta > 0 ) ( 0 < | x - n | < \delta \to | f ( x ) - L | < \epsilon )$$
+$$\forall(\epsilon>0)\exists(\delta>0)(0<|x-n|<\delta\to|f(x)-L|<\epsilon)$$
 
 ---
 ### indeterminate
@@ -347,8 +347,8 @@ $$ \forall ( \epsilon > 0 ) \exists ( \delta > 0 ) ( 0 < | x - n | < \delta \to 
 ### indeterminate formula
 $$
 \begin{aligned}
-\frac { 0 } { 0 } \\
-\frac { \infty } { \infty }
+\frac{0}{0}\\
+\frac{\infty}{\infty}
 \end{aligned}
 $$
 
@@ -356,11 +356,11 @@ $$
 ### unknown indeterminate formula
 $$
 \begin{aligned}
-\infty - \infty \\
-0 \times \infty \\
-1 ^ { \infty } \\
-\infty ^ { 0 } \\
-0 ^ { 0 }
+\infty-\infty\\
+0\times\infty\\
+1^{\infty}\\
+\infty^{0}\\
+0^{0}
 \end{aligned}
 $$
 
@@ -368,11 +368,11 @@ $$
 ### known indeterminate formula
 $$
 \begin{aligned}
-- \infty - \infty = - \infty \\
-\infty + \infty = \infty \\
-0 ^ { - } \infty = \infty \\
-\frac { 1 } { 0 } = \infty \\
-0 ^ { \infty } = 0
+-\infty-\infty=-\infty\\
+\infty+\infty=\infty\\
+0^{-}\infty=\infty\\
+\frac{1}{0}=\infty\\
+0^{\infty}=0
 \end{aligned}
 $$
 
@@ -384,7 +384,7 @@ $$
 ### l'hopital formula
 $$
 \begin{aligned}
-\lim _ { x \to n } \frac { f ( x ) } { g ( x ) } = \lim _ { x \to n } \frac { f ' ( x ) } { g ' ( x ) }
+\lim_{x\to n}\frac{f(x)}{g(x)}=\lim_{x\to n}\frac{f'(x)}{g'(x)}
 \end{aligned}
 $$
 
@@ -401,9 +401,9 @@ $$
 ### fit l'hopital rule
 $$
 \begin{aligned}
-f ( x ) g ( x ) \to \frac { f ( x ) } { \frac { 1 } { g ( x ) } } \\
-y = f ( x ) ^ { g ( x ) } \to \ln ( y ) = g ( x ) \ln [ f ( x ) ] \\
-\frac { 1 } { f ( x ) } \pm \frac { 1 } { g ( x ) } \to \frac { f ( x ) \pm g ( x ) } { f ( x ) g ( x ) }
+f(x)g(x)\to\frac{f(x)}{\frac{1}{g(x)}}\\
+y=f(x)^{g(x)}\to\ln(y)=g(x)\ln[f(x)]\\
+\frac{1}{f(x)}\pm\frac{1}{g(x)}\to\frac{f(x)\pm g(x)}{f(x)g(x)}
 \end{aligned}
 $$
 

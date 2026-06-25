@@ -10,10 +10,10 @@
 ### mutual inductance formula
 $$
 \begin{aligned}
-M = \frac { N _ { 1 } \Phi _ { 12 } } { i _ { 2 } } = \frac { N _ { 2 } \Phi _ { 21 } } { i _ { 1 } } \\
-N = \text {number of loops} \\
-\Phi = \text {magnetic flux} \\
-i = \text {electric current}
+M=\frac{N_{1}\Phi_{12}}{i_{2}}=\frac{N_{2}\Phi_{21}}{i_{1}}\\
+N=\text{number of loops}\\
+\Phi=\text{magnetic flux}\\
+i=\text{electric current}
 \end{aligned}
 $$
 
@@ -25,10 +25,10 @@ $$
 ### mutual inductance emf formula
 $$
 \begin{aligned}
-\epsilon _ { 2 } = - M \frac { d i _ { 1 } } { dt } \\
-M = \text {mutual inductance} \\
-i = \text {electric current} \\
-t = \text {time}
+\epsilon_{2}=-M\frac{di_{1}}{dt}\\
+M=\text{mutual inductance}\\
+i=\text{electric current}\\
+t=\text{time}
 \end{aligned}
 $$
 
@@ -41,10 +41,10 @@ $$
 ### self inductance formula
 $$
 \begin{aligned}
-L = \frac { N \Phi } { i } \\
-N = \text {number of loops} \\
-\Phi = \text {magnetic flux} \\
-i = \text {electric current}
+L=\frac{N\Phi}{i}\\
+N=\text{number of loops}\\
+\Phi=\text{magnetic flux}\\
+i=\text{electric current}
 \end{aligned}
 $$
 
@@ -52,11 +52,11 @@ $$
 ### solenoid self inductance formula
 $$
 \begin{aligned}
-L = \frac { \mu _ { 0 } N ^ { 2 } A } { L ' } \\
-\mu _ { 0 } = 4 \pi \times 10 ^ { - 7 } \\
-N = \text {number of loops} \\
-A = \text {area} \\
-L ' = \text {length}
+L=\frac{\mu_{0}N^{2}A}{L'}\\
+\mu_{0}=4\pi\times10^{-7}\\
+N=\text{number of loops}\\
+A=\text{area}\\
+L'=\text{length}
 \end{aligned}
 $$
 
@@ -64,11 +64,11 @@ $$
 ### toroid self inductance formula
 $$
 \begin{aligned}
-L = \frac { \mu _ { 0 } N ^ { 2 } A } { 2 \pi R } \\
-\mu _ { 0 } = 4 \pi \times 10 ^ { - 7 } \\
-N = \text {number of loops} \\
-A = \text {area} \\
-R = \text {radius}
+L=\frac{\mu_{0}N^{2}A}{2\pi R}\\
+\mu_{0}=4\pi\times10^{-7}\\
+N=\text{number of loops}\\
+A=\text{area}\\
+R=\text{radius}
 \end{aligned}
 $$
 
@@ -81,10 +81,10 @@ $$
 ### self inductance emf formula
 $$
 \begin{aligned}
-\epsilon = - L \frac { di } { dt } \\
-L = \text {self inductance} \\
-i = \text {electric current} \\
-t = \text {time}
+\epsilon=-L\frac{di}{dt}\\
+L=\text{self inductance}\\
+i=\text{electric current}\\
+t=\text{time}
 \end{aligned}
 $$
 
@@ -97,10 +97,10 @@ $$
 ### inductor formula
 $$
 \begin{aligned}
-v _ { L } = L \frac { di } { dt } \\
-L = \text {self inductance} \\
-i = \text {electric current} \\
-t = \text {time}
+v_{L}=L\frac{di}{dt}\\
+L=\text{self inductance}\\
+i=\text{electric current}\\
+t=\text{time}
 \end{aligned}
 $$
 
@@ -114,8 +114,8 @@ $$
 ### kirchhoffs loop formula
 $$
 \begin{aligned}
-\sum V = 0 \\
-V = \text {voltage}
+\sum V=0\\
+V=\text{voltage}
 \end{aligned}
 $$
 
@@ -124,7 +124,7 @@ $$
 - identify loop
 - choose direction of travel
 - for every loop apply kirchhoffs loop rule
-- solve system of equations 
+- solve system of equations
 
 ---
 ### magnetic potential energy
@@ -135,9 +135,9 @@ $$
 ### magnetic potential energy formula
 $$
 \begin{aligned}
-U = \frac { L I ^ { 2 } } { 2 } \\
-L = \text {self inductance} \\
-I = \text {electric current}
+U=\frac{LI^{2}}{2}\\
+L=\text{self inductance}\\
+I=\text{electric current}
 \end{aligned}
 $$
 
@@ -149,9 +149,9 @@ $$
 ### energy density formula
 $$
 \begin{aligned}
-u = \frac { B ^ { 2 } } { 2 \mu _ { 0 } } \\
-B = \text {magnetic field} \\
-\mu _ { 0 } = 4 \pi \times 10 ^ { - 7 }
+u=\frac{B^{2}}{2\mu_{0}}\\
+B=\text{magnetic field}\\
+\mu_{0}=4\pi\times10^{-7}
 \end{aligned}
 $$
 
@@ -193,9 +193,9 @@ $$
 ### time constant formula
 $$
 \begin{aligned}
-\tau = \frac { L } { R } \\
-L = \text {self inductance} \\
-R = \text {resistance}
+\tau=\frac{L}{R}\\
+L=\text{self inductance}\\
+R=\text{resistance}
 \end{aligned}
 $$
 
@@ -213,13 +213,13 @@ $$
 ### increasing electric current formula
 $$
 \begin{aligned}
-i ( t ) = \frac { V } { R } ( 1 - e ^ { - R t / L } ) = I ( 1 - e ^ { - t / \tau } ) \\
-V = \text {voltage} \\
-R = \text {resistance} \\
-t = \text {time} \\
-L = \text {self inductance} \\
-I = \text {electric current} \\
-\tau = \text {time constant}
+i(t)=\frac{V}{R}(1-e^{-Rt/L})=I(1-e^{-t/\tau})\\
+V=\text{voltage}\\
+R=\text{resistance}\\
+t=\text{time}\\
+L=\text{self inductance}\\
+I=\text{electric current}\\
+\tau=\text{time constant}
 \end{aligned}
 $$
 
@@ -232,10 +232,10 @@ $$
 ### decreasing electric current formula
 $$
 \begin{aligned}
-i ( t ) = I ( e ^ { - t / \tau } ) \\
-I = \text {electric current} \\
-t = \text {time} \\
-\tau = \text {time constant}
+i(t)=I(e^{-t/\tau})\\
+I=\text{electric current}\\
+t=\text{time}\\
+\tau=\text{time constant}
 \end{aligned}
 $$
 
@@ -257,11 +257,11 @@ $$
 ### LC potential energy formula
 $$
 \begin{aligned}
-U = \frac { q ^ { 2 } } { 2 C } + \frac { L i ^ { 2 } } { 2 } = \frac { Q ^ { 2 } } { 2 C } = \frac { L I ^ { 2 } } { 2 } \\
-q = \text {electric charge} \\
-C = \text {capacitance} \\
-L = \text {self inductance} \\
-i = \text {electric current}
+U=\frac{q^{2}}{2C}+\frac{Li^{2}}{2}=\frac{Q^{2}}{2C}=\frac{LI^{2}}{2}\\
+q=\text{electric charge}\\
+C=\text{capacitance}\\
+L=\text{self inductance}\\
+i=\text{electric current}
 \end{aligned}
 $$
 
@@ -279,16 +279,16 @@ $$
 ### simple harmonic motion formula
 $$
 \begin{aligned}
-x ( t ) = A \cos ( \omega t + \phi ) \\
-v ( t ) = - A \omega \sin ( \omega t + \phi ) \\
-a ( t ) = - A \omega ^ { 2 } \cos ( \omega t + \phi ) \\
-\omega = \sqrt { \frac { k } { m } } \\
-A = \text {amplitude} \\
-\omega = \text {angular frequency} \\
-t = \text {time} \\
-\phi = \text {phase angle} \\
-k = \text {spring constant} \\
-m = \text {mass}
+x(t)=A\cos(\omega t+\phi)\\
+v(t)=-A\omega\sin(\omega t+\phi)\\
+a(t)=-A\omega^{2}\cos(\omega t+\phi)\\
+\omega=\sqrt{\frac{k}{m}}\\
+A=\text{amplitude}\\
+\omega=\text{angular frequency}\\
+t=\text{time}\\
+\phi=\text{phase angle}\\
+k=\text{spring constant}\\
+m=\text{mass}
 \end{aligned}
 $$
 
@@ -310,23 +310,23 @@ $$
 ### LC harmonic motion formula
 $$
 \begin{aligned}
-q ( t ) = Q \cos ( \omega t + \phi ) \\
-\frac { dq } { dt } = - Q \omega \sin ( \omega t + \phi ) \\
-\frac { di } { dt } = - Q \omega ^ { 2 } \cos ( \omega t + \phi ) \\
-\omega = \sqrt { \frac { 1 } { LC } } \\
-Q = \text {electric charge} \\
-\omega = \text {angular frequency} \\
-t = \text {time} \\
-\phi = \text {phase angle} \\
-L = \text {self inductance} \\
-C = \text {capacitance}
+q(t)=Q\cos(\omega t+\phi)\\
+\frac{dq}{dt}=-Q\omega\sin(\omega t+\phi)\\
+\frac{di}{dt}=-Q\omega^{2}\cos(\omega t+\phi)\\
+\omega=\sqrt{\frac{1}{LC}}\\
+Q=\text{electric charge}\\
+\omega=\text{angular frequency}\\
+t=\text{time}\\
+\phi=\text{phase angle}\\
+L=\text{self inductance}\\
+C=\text{capacitance}
 \end{aligned}
 $$
 
 ---
 ### calculate LC harmonic motion
-- maximum initial electric charge and zero initial electric current equal zero phase angle 
-- zero initial electric charge and minimum initial electric current equal $\pi / 2$ phase angle
+- maximum initial electric charge and zero initial electric current equal zero phase angle
+- zero initial electric charge and minimum initial electric current equal $\pi/2$ phase angle
 
 ---
 ### RLC electric circuit
@@ -346,15 +346,15 @@ $$
 ### damped oscillation formula
 $$
 \begin{aligned}
-x ( t ) = A ( e ^ { - b t / 2 m } ) \cos ( \omega t + \phi ) \\
-\omega = \sqrt { ( \frac { k } { m } ) - ( \frac { b ^ { 2 } } { 4 m ^ { 2 } } ) } \\
-A = \text {amplitude} \\
-b = \text {damping coefficient} \\
-t = \text {time} \\
-m = \text {mass} \\
-\omega = \text {angular frequency} \\
-k = \text {spring constant} \\
-\phi = \text {phase angle}
+x(t)=A(e^{-bt/2m})\cos(\omega t+\phi)\\
+\omega=\sqrt{(\frac{k}{m})-(\frac{b^{2}}{4m^{2}})}\\
+A=\text{amplitude}\\
+b=\text{damping coefficient}\\
+t=\text{time}\\
+m=\text{mass}\\
+\omega=\text{angular frequency}\\
+k=\text{spring constant}\\
+\phi=\text{phase angle}
 \end{aligned}
 $$
 
@@ -367,14 +367,14 @@ $$
 ### damped RLC oscillation formula
 $$
 \begin{aligned}
-q ( t ) = Q ( e ^ { - R t / 2 L } ) \cos ( \omega t + \phi ) \\
-\omega = \sqrt { ( \frac { 1 } { LC } ) - ( \frac { R ^ { 2 } } { 4 L ^ { 2 } } ) } \\
-Q = \text {electric charge} \\
-R = \text {resistance} \\
-t = \text {time} \\
-L = \text {self inductance} \\
-\omega = \text {angular frequency} \\
-\phi = \text {phase angle}
+q(t)=Q(e^{-Rt/2L})\cos(\omega t+\phi)\\
+\omega=\sqrt{(\frac{1}{LC})-(\frac{R^{2}}{4L^{2}})}\\
+Q=\text{electric charge}\\
+R=\text{resistance}\\
+t=\text{time}\\
+L=\text{self inductance}\\
+\omega=\text{angular frequency}\\
+\phi=\text{phase angle}
 \end{aligned}
 $$
 

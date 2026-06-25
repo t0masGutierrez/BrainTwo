@@ -6,12 +6,12 @@
 ### position vector formula
 $$
 \begin{aligned}
-\vec { r } ( t ) = x ( t ) \hat { i } + y ( t ) \hat { j } \\
-t = \text {time} \\
-x = \text {x position} \\
-y = \text {y position} \\
-\hat i = \text {x direction} \\
-\hat j = \text {y direction}
+\vec{r}(t)=x(t)\hat{i}+y(t)\hat{j}\\
+t=\text{time}\\
+x=\text{x position}\\
+y=\text{y position}\\
+\hat i=\text{x direction}\\
+\hat j=\text{y direction}
 \end{aligned}
 $$
 
@@ -24,12 +24,12 @@ $$
 ### displacement vector formula
 $$
 \begin{aligned}
-\Delta \vec { r } = \vec { r } - \vec { r } _ { 0 } = \Delta x \hat i + \Delta y \hat j \\
-\vec r = \text {position} \\
-x = \text {x position} \\
-y = \text {y position} \\
-\hat i = \text {x direction} \\
-\hat j = \text {y direction}
+\Delta\vec{r}=\vec{r}-\vec{r}_{0}=\Delta x\hat i+\Delta y\hat j\\
+\vec r=\text{position}\\
+x=\text{x position}\\
+y=\text{y position}\\
+\hat i=\text{x direction}\\
+\hat j=\text{y direction}
 \end{aligned}
 $$
 
@@ -42,13 +42,13 @@ $$
 ### velocity vector formula
 $$
 \begin{aligned}
-\vec v _ { avg } = \frac { \Delta \vec r } { \Delta t } \\
-\vec { v } = \frac { d \vec { r } } { dt } = \frac { dx } { dt } \hat i + \frac { dy } { dt } \hat j = v _ { x } \hat i + v _ { y } \hat j \\
-v = | \vec v | = \sqrt { v _ { x } ^ { 2 } + v _ { y } ^ { 2 } } \\
-\theta = \arctan ( \frac { v _ { y } } { v _ { x } } ) \\
-\vec r = \text {position} \\
-t = \text {time} \\
-\vec v = \text {velocity}
+\vec v_{avg}=\frac{\Delta\vec r}{\Delta t}\\
+\vec{v}=\frac{d\vec{r}}{dt}=\frac{dx}{dt}\hat i+\frac{dy}{dt}\hat j=v_{x}\hat i+v_{y}\hat j\\
+v=|\vec v|=\sqrt{v_{x}^{2}+v_{y}^{2}}\\
+\theta=\arctan(\frac{v_{y}}{v_{x}})\\
+\vec r=\text{position}\\
+t=\text{time}\\
+\vec v=\text{velocity}
 \end{aligned}
 $$
 
@@ -60,14 +60,14 @@ $$
 ### acceleration vector formula
 $$
 \begin{aligned}
-\vec a _ { avg } = \frac { \Delta \vec v } { \Delta t } \\
-\vec { a } = \frac { d \vec { v } } { dt } = \frac { d ^ { 2 } \vec { r } } { d t ^ { 2 } } = a _ { x } \hat i + a _ { y } \hat j \\
-a = | \vec a | = \sqrt { a _ { x } ^ { 2 } + a _ { y } ^ { 2 } } \\
-\theta = \arctan ( \frac { a _ { y } } { a _ { x } } ) \\
-\vec v = \text {velocity} \\
-t = \text {time} \\
-\vec r = \text {position} \\
-\vec a = \text {acceleration}
+\vec a_{avg}=\frac{\Delta\vec v}{\Delta t}\\
+\vec{a}=\frac{d\vec{v}}{dt}=\frac{d^{2}\vec{r}}{dt^{2}}=a_{x}\hat i+a_{y}\hat j\\
+a=|\vec a|=\sqrt{a_{x}^{2}+a_{y}^{2}}\\
+\theta=\arctan(\frac{a_{y}}{a_{x}})\\
+\vec v=\text{velocity}\\
+t=\text{time}\\
+\vec r=\text{position}\\
+\vec a=\text{acceleration}
 \end{aligned}
 $$
 
@@ -82,10 +82,10 @@ $$
 ### projectile motion initial velocity formula
 $$
 \begin{aligned}
-v _ { 0 x } = v _ { 0 } \cos ( \theta ) \\
-v _ { 0 y } = v _ { 0 } \sin ( \theta ) \\
-v _ { 0 } = \text {initial velocity} \\
-\theta = \text {angle between vectors}
+v_{0x}=v_{0}\cos(\theta)\\
+v_{0y}=v_{0}\sin(\theta)\\
+v_{0}=\text{initial velocity}\\
+\theta=\text{angle between vectors}
 \end{aligned}
 $$
 
@@ -93,9 +93,9 @@ $$
 ### projectile horizontal motion formula
 $$
 \begin{aligned}
-v _ { x } = v _ { 0 x } \\
-v _ { 0 } = \text {initial velocity} \\
-x = \text {position}
+v_{x}=v_{0x}\\
+v_{0}=\text{initial velocity}\\
+x=\text{position}
 \end{aligned}
 $$
 
@@ -103,11 +103,11 @@ $$
 ### projectile vertical motion formula
 $$
 \begin{aligned}
-v _ { y } = v _ { 0 y } - g t \\
-y = y _ { 0 } + v _ { 0 y } t - \frac { 1 } { 2 } g t ^ { 2 } \\
-y - y _ { 0 } = \frac { 1 } { 2 } ( v _ { y } + v _ { 0 y } ) t \\
-v _ { y } ^ { 2 } = v _ { 0 y } ^ { 2 } - 2 g ( y - y _ { 0 } ) \\
-g = 9.8
+v_{y}=v_{0y}-gt\\
+y=y_{0}+v_{0y}t-\frac{1}{2}gt^{2}\\
+y-y_{0}=\frac{1}{2}(v_{y}+v_{0y})t\\
+v_{y}^{2}=v_{0y}^{2}-2g(y-y_{0})\\
+g=9.8
 \end{aligned}
 $$
 
@@ -120,7 +120,7 @@ $$
 ### uniform circular motion formula
 $$
 \begin{aligned}
-a _ { rad } \perp v _ { tan }
+a_{rad}\perp v_{tan}
 \end{aligned}
 $$
 
@@ -132,9 +132,9 @@ $$
 ### uniform tangential velocity formula
 $$
 \begin{aligned}
-v _ { tan } = \frac { 2 \pi r } { T } \\
-r = \text {radius} \\
-T = \text {period}
+v_{tan}=\frac{2\pi r}{T}\\
+r=\text{radius}\\
+T=\text{period}
 \end{aligned}
 $$
 
@@ -146,9 +146,9 @@ $$
 ### uniform radial acceleration formula
 $$
 \begin{aligned}
-a _ { rad } = \frac { v _ { tan } ^ { 2 } } { r } \\
-v = \text {velocity} \\
-r = \text {radius}
+a_{rad}=\frac{v_{tan}^{2}}{r}\\
+v=\text{velocity}\\
+r=\text{radius}
 \end{aligned}
 $$
 
@@ -163,8 +163,8 @@ $$
 ### nonuniform circular motion formula
 $$
 \begin{aligned}
-a _ { rad } \perp a _ { tan } \\
-a _ { tan } \parallel \pm v _ { tan }
+a_{rad}\perp a_{tan}\\
+a_{tan}\parallel\pm v_{tan}
 \end{aligned}
 $$
 
@@ -178,10 +178,10 @@ $$
 ### nonuniform radial acceleration formula
 $$
 \begin{aligned}
-a = a _ { rad } + a _ { tan } = \frac { v _ { tan } ^ { 2 } } { r } + \frac { d v _ { tan } } { dt } \\
-v = \text {velocity} \\
-r = \text {radius} \\
-t = \text {time}
+a=a_{rad}+a_{tan}=\frac{v_{tan}^{2}}{r}+\frac{dv_{tan}}{dt}\\
+v=\text{velocity}\\
+r=\text{radius}\\
+t=\text{time}
 \end{aligned}
 $$
 
@@ -196,9 +196,9 @@ $$
 ### projectile motion versus uniform circular motion formula
 $$
 \begin{aligned}
-a ( t ) = a _ { 0 } \\
-\hat a ( t ) = \hat a _ { 0 } \\
-\hat a ( t ) \ne \hat a _ { 0 }
+a(t)=a_{0}\\
+\hat a(t)=\hat a_{0}\\
+\hat a(t)\ne\hat a_{0}
 \end{aligned}
 $$
 

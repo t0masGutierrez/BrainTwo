@@ -26,8 +26,8 @@
 ### argument formula
 $$
 \begin{aligned}
-\because \text {premise(s)} \\
-\therefore \text {conclusion}
+\because\text{premise(s)}\\
+\therefore\text{conclusion}
 \end{aligned}
 $$
 
@@ -48,8 +48,8 @@ $$
 ### formula of affirming the conclusion
 $$
 \begin{aligned}
-q \\
-p \implies q \\
+q\\
+p\implies q\\
 \therefore p
 \end{aligned}
 $$
@@ -62,9 +62,9 @@ $$
 ### formula of denying the hypothesis
 $$
 \begin{aligned}
-\neg p \\
-p \implies q \\
-\therefore \neg q
+\neg p\\
+p\implies q\\
+\therefore\neg q
 \end{aligned}
 $$
 

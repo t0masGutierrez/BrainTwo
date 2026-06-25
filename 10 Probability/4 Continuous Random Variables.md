@@ -5,12 +5,12 @@
 ### random variable formula
 $$
 \begin{aligned}
-X : \Omega \rightarrow \mathbb R \\
-X ( \omega ) = x \\
-X = \text {random variable} \\
-\Omega = \text {sample space} \\
-x = \text {real number} \\
-\omega = \text {outcome}
+X:\Omega\rightarrow\mathbb R\\
+X(\omega)=x\\
+X=\text{random variable}\\
+\Omega=\text{sample space}\\
+x=\text{real number}\\
+\omega=\text{outcome}
 \end{aligned}
 $$
 
@@ -22,8 +22,8 @@ $$
 ### continuous random variable formula
 $$
 \begin{aligned}
-( \{ 0 , 1 , 2 , 3 , \dots , n \} \not \sim X ) \land ( \mathbb N \not \sim X ) \\
-X = \text {random variable}
+(\{0,1,2,3,\dots,n\}\not\sim X)\land(\mathbb N\not\sim X)\\
+X=\text{random variable}
 \end{aligned}
 $$
 
@@ -35,10 +35,10 @@ $$
 ### probability density function formula
 $$
 \begin{aligned}
-P ( X = a ) = 0 \\
-P ( X ) = \int _ { - \infty } ^ { \infty } f ( x ) d x = 1 \\
-P ( X \le a ) = \int _ { - \infty } ^ { a } f ( x ) d x = F ( a ) \\
-P ( a \le X \le b ) = \int _ { a } ^ { b } f ( x ) d x = F ( b ) - F ( a )
+P(X=a)=0\\
+P(X)=\int_{-\infty}^{\infty}f(x)dx=1\\
+P(X\le a)=\int_{-\infty}^{a}f(x)dx=F(a)\\
+P(a\le X\le b)=\int_{a}^{b}f(x)dx=F(b)-F(a)
 \end{aligned}
 $$
 
@@ -50,9 +50,9 @@ $$
 ### expectation formula
 $$
 \begin{aligned}
-E [ X ] = \int _ { - \infty } ^ { \infty } x f ( x ) d x \\
-x = \text {real number} \\
-X = \text {random variable}
+E[X]=\int_{-\infty}^{\infty}xf(x)dx\\
+x=\text{real number}\\
+X=\text{random variable}
 \end{aligned}
 $$
 
@@ -64,9 +64,9 @@ $$
 ### variance formula
 $$
 \begin{aligned}
-\text {Var} ( X ) = E [ X ^ { 2 } ] - ( E [ X ] ) ^ { 2 } = E [ ( X - E [ X ] ) ^ { 2 } ] \\
-E = \text {expectation} \\
-X = \text {random variable}
+\text{Var}(X)=E[X^{2}]-(E[X])^{2}=E[(X-E[X])^{2}]\\
+E=\text{expectation}\\
+X=\text{random variable}
 \end{aligned}
 $$
 
@@ -78,9 +78,9 @@ $$
 ### uniform PDF probability formula
 $$
 \begin{aligned}
-f ( x ) = \frac { 1 } { b - a } \\
-a = \text {lower endpoint} \\
-b = \text {upper endpoint}
+f(x)=\frac{1}{b-a}\\
+a=\text{lower endpoint}\\
+b=\text{upper endpoint}
 \end{aligned}
 $$
 
@@ -88,9 +88,9 @@ $$
 ### uniform PDF expectation formula
 $$
 \begin{aligned}
-E [ X ] = \frac { a + b } { 2 } \\
-a = \text {lower endpoint} \\
-b = \text {upper endpoint}
+E[X]=\frac{a+b}{2}\\
+a=\text{lower endpoint}\\
+b=\text{upper endpoint}
 \end{aligned}
 $$
 
@@ -98,9 +98,9 @@ $$
 ### uniform PDF variance formula
 $$
 \begin{aligned}
-\text {Var} ( X ) = { \frac { ( b - a ) ^ { 2 } } { 12 } } \\
-a = \text {lower endpoint} \\
-b = \text {upper endpoint}
+\text{Var}(X)={\frac{(b-a)^{2}}{12}}\\
+a=\text{lower endpoint}\\
+b=\text{upper endpoint}
 \end{aligned}
 $$
 
@@ -112,9 +112,9 @@ $$
 ### normal PDF probability formula
 $$
 \begin{aligned}
-f ( x ) = \frac { \exp ( \frac { - ( x - \mu ) ^ { 2 } } { 2 \sigma ^ { 2 } } ) } { \sigma \sqrt { 2 \pi } } \\
-\mu = \text {mean} \\
-\sigma = \text {standard deviation}
+f(x)=\frac{\exp(\frac{-(x-\mu)^{2}}{2\sigma^{2}})}{\sigma\sqrt{2\pi}}\\
+\mu=\text{mean}\\
+\sigma=\text{standard deviation}
 \end{aligned}
 $$
 
@@ -122,8 +122,8 @@ $$
 ### normal PDF expectation formula
 $$
 \begin{aligned}
-E [ X ] = \mu \\
-\mu = \text {mean}
+E[X]=\mu\\
+\mu=\text{mean}
 \end{aligned}
 $$
 
@@ -131,8 +131,8 @@ $$
 ### normal PDF variance formula
 $$
 \begin{aligned}
-\text {Var} ( X ) = \sigma ^ { 2 } \\
-\sigma = \text {standard deviation}
+\text{Var}(X)=\sigma^{2}\\
+\sigma=\text{standard deviation}
 \end{aligned}
 $$
 
@@ -144,8 +144,8 @@ $$
 ### standard normal PDF probability formula
 $$
 \begin{aligned}
-f ( x ) = \frac { \exp ( \frac { - x ^ { 2 } } { 2 } ) } { \sqrt { 2 \pi } } \\
-x = \text {z-score}
+f(x)=\frac{\exp(\frac{-x^{2}}{2})}{\sqrt{2\pi}}\\
+x=\text{z-score}
 \end{aligned}
 $$
 
@@ -153,7 +153,7 @@ $$
 ### standard normal PDF expectation formula
 $$
 \begin{aligned}
-E [ X ] = 0
+E[X]=0
 \end{aligned}
 $$
 
@@ -161,7 +161,7 @@ $$
 ### standard normal PDF variance formula
 $$
 \begin{aligned}
-\text {Var} ( X ) = 1
+\text{Var}(X)=1
 \end{aligned}
 $$
 
@@ -173,9 +173,9 @@ $$
 ### exponential PDF probability formula
 $$
 \begin{aligned}
-f ( x ) = \lambda e ^ { - \lambda x } \\
-x = \text {time} \\
-\lambda = \text {average number of events per time}
+f(x)=\lambda e^{-\lambda x}\\
+x=\text{time}\\
+\lambda=\text{average number of events per time}
 \end{aligned}
 $$
 
@@ -183,8 +183,8 @@ $$
 ### exponential PDF expectation formula
 $$
 \begin{aligned}
-E [ X ] = \frac { 1 } { \lambda } \\
-\lambda = \text {average number of events per time}
+E[X]=\frac{1}{\lambda}\\
+\lambda=\text{average number of events per time}
 \end{aligned}
 $$
 
@@ -192,8 +192,8 @@ $$
 ### exponential PDF variance formula
 $$
 \begin{aligned}
-\text {Var} ( X ) = \frac { 1 } { \lambda ^ { 2 } } \\
-\lambda = \text {average number of events per time}
+\text{Var}(X)=\frac{1}{\lambda^{2}}\\
+\lambda=\text{average number of events per time}
 \end{aligned}
 $$
 
@@ -205,12 +205,12 @@ $$
 ### gamma PDF probability formula
 $$
 \begin{aligned}
-f ( x ) = \frac { \lambda ^ { r } e ^ { - \lambda x } x ^ { r - 1 } } { \Gamma ( r ) } \\
-\Gamma ( r ) = \int _ { 0 } ^ { \infty } e ^ { - x } x ^ { r - 1 } d x \\
-\lambda = \text {average number of events per time} \\
-r = \text {event number} \\
-x = \text {time} \\
-\Gamma = \text {gamma}
+f(x)=\frac{\lambda^{r}e^{-\lambda x}x^{r-1}}{\Gamma(r)}\\
+\Gamma(r)=\int_{0}^{\infty}e^{-x}x^{r-1}dx\\
+\lambda=\text{average number of events per time}\\
+r=\text{event number}\\
+x=\text{time}\\
+\Gamma=\text{gamma}
 \end{aligned}
 $$
 
@@ -218,9 +218,9 @@ $$
 ### gamma PDF expectation formula
 $$
 \begin{aligned}
-E [ X ] = \frac { r } { \lambda } \\
-r = \text {event number} \\
-\lambda = \text {average number of events per time}
+E[X]=\frac{r}{\lambda}\\
+r=\text{event number}\\
+\lambda=\text{average number of events per time}
 \end{aligned}
 $$
 
@@ -228,9 +228,9 @@ $$
 ### gamma PDF variance formula
 $$
 \begin{aligned}
-\text {Var} ( X ) = \frac { r } { \lambda ^ { 2 } } \\
-r = \text {event number} \\
-\lambda = \text {average number of events per time}
+\text{Var}(X)=\frac{r}{\lambda^{2}}\\
+r=\text{event number}\\
+\lambda=\text{average number of events per time}
 \end{aligned}
 $$
 
@@ -242,11 +242,11 @@ $$
 ### beta PDF probability formula
 $$
 \begin{aligned}
-f ( x ) = \frac { x ^ { r - 1 } ( 1 - x ) ^ { k - 1 } } { \beta ( r , k ) } \\
-\beta ( r , k ) = \int _ { 0 } ^ { 1 } x ^ { r - 1 } ( 1 - x ) ^ { k - 1 } d x \\
-x = \text {unit number} \\
-r , k = \text {parameter} \\
-\beta = \text {beta}
+f(x)=\frac{x^{r-1}(1-x)^{k-1}}{\beta(r,k)}\\
+\beta(r,k)=\int_{0}^{1}x^{r-1}(1-x)^{k-1}dx\\
+x=\text{unit number}\\
+r,k=\text{parameter}\\
+\beta=\text{beta}
 \end{aligned}
 $$
 
@@ -254,8 +254,8 @@ $$
 ### beta PDF expectation formula
 $$
 \begin{aligned}
-E [ X ] = \frac { r } { r + k } \\
-r , k = \text {parameter}
+E[X]=\frac{r}{r+k}\\
+r,k=\text{parameter}
 \end{aligned}
 $$
 
@@ -263,8 +263,8 @@ $$
 ### beta PDF variance formula
 $$
 \begin{aligned}
-\text {Var} ( X ) = \frac { rk } { ( r + k ) ^ { 2 } ( r + k + 1 ) } \\
-r , k = \text {parameter}
+\text{Var}(X)=\frac{rk}{(r+k)^{2}(r+k+1)}\\
+r,k=\text{parameter}
 \end{aligned}
 $$
 

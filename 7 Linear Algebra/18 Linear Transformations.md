@@ -5,13 +5,13 @@
 ### function formula
 $$
 \begin{aligned}
-f : A \to B \iff \forall a \in A , \exists ! b \in B : f ( a ) = b \\
-f = \text {function} \\
-A = \text {domain} \\
-B = \text {codomain} \\
-a = \text {preimage} \\
-f ( a ) = \text {image} \\
-f ( A ) = \text {range}
+f:A\to B\iff\forall a\in A,\exists!b\in B:f(a)=b\\
+f=\text{function}\\
+A=\text{domain}\\
+B=\text{codomain}\\
+a=\text{preimage}\\
+f(a)=\text{image}\\
+f(A)=\text{range}
 \end{aligned}
 $$
 
@@ -23,18 +23,18 @@ $$
 ### linear transformation formula
 $$
 \begin{aligned}
-L : \mathcal V \rightarrow \mathcal W \iff \begin{cases}
-L ( \vec v ) = \vec w \\
-L ( \vec v _ { 1 } + \vec v _ { 2 } ) = L ( \vec v _ { 1 } ) + L ( \vec v _ { 2 } ) \\
-L ( c \vec v ) = c L ( \vec v )
+L:\mathcal V\rightarrow\mathcal W\iff\begin{cases}
+L(\vec v)=\vec w\\
+L(\vec v_{1}+\vec v_{2})=L(\vec v_{1})+L(\vec v_{2})\\
+L(c\vec v)=cL(\vec v)
 \end{cases}
 \\
-L = \text {linear transformation} \\
-\mathcal V = \text {domain vector space} \\
-\mathcal W = \text {codomain vector space} \\
-\vec v = \text {preimage} \\
-\vec w = \text {image} \\
-c = \text {scalar}
+L=\text{linear transformation}\\
+\mathcal V=\text{domain vector space}\\
+\mathcal W=\text{codomain vector space}\\
+\vec v=\text{preimage}\\
+\vec w=\text{image}\\
+c=\text{scalar}
 \end{aligned}
 $$
 
@@ -46,9 +46,9 @@ $$
 ### linear operator formula
 $$
 \begin{aligned}
-L : \mathcal V \rightarrow \mathcal V \\
-L = \text {linear operator} \\
-\mathcal V = \text {vector space}
+L:\mathcal V\rightarrow\mathcal V\\
+L=\text{linear operator}\\
+\mathcal V=\text{vector space}
 \end{aligned}
 $$
 
@@ -60,10 +60,10 @@ $$
 ### identity linear operator formula
 $$
 \begin{aligned}
-I : \mathcal V \rightarrow \mathcal V \iff L ( \vec v ) = \vec v \\
-L = \text {identity linear operator} \\
-\mathcal V = \text {vector space} \\
-\vec v = \text {vector}
+I:\mathcal V\rightarrow\mathcal V\iff L(\vec v)=\vec v\\
+L=\text{identity linear operator}\\
+\mathcal V=\text{vector space}\\
+\vec v=\text{vector}
 \end{aligned}
 $$
 
@@ -75,7 +75,7 @@ $$
 ### translation formula
 $$
 \begin{aligned}
-{}[ v _ { 1 } , \dots , v _ { i } , \dots , v _ { n } ] \mapsto [ v _ { 1 } , \dots , v _ { i } + c , \dots , v _ { n } ]
+{}[v_{1},\dots,v_{i},\dots,v_{n}]\mapsto[v_{1},\dots,v_{i}+c,\dots,v_{n}]
 \end{aligned}
 $$
 
@@ -87,7 +87,7 @@ $$
 ### reflection formula
 $$
 \begin{aligned}
-{}[ v _ { 1 } , \dots , v _ { i } , \dots , v _ { n } ] \mapsto [ v _ { 1 } , \dots , - v _ { i } , \dots , v _ { n } ]
+{}[v_{1},\dots,v_{i},\dots,v_{n}]\mapsto[v_{1},\dots,-v_{i},\dots,v_{n}]
 \end{aligned}
 $$
 
@@ -99,8 +99,8 @@ $$
 ### contraction formula
 $$
 \begin{aligned}
-{}[ v _ { 1 } , \dots , v _ { i } , \dots , v _ { n } ] \mapsto [ v _ { 1 } , \dots , c v _ { i } , \dots , v _ { n } ] \\
-0 < c < 1
+{}[v_{1},\dots,v_{i},\dots,v_{n}]\mapsto[v_{1},\dots,cv_{i},\dots,v_{n}]\\
+0<c<1
 \end{aligned}
 $$
 
@@ -112,8 +112,8 @@ $$
 ### dilation formula
 $$
 \begin{aligned}
-{}[ v _ { 1 } , \dots , v _ { i } , \dots , v _ { n } ] \mapsto [ v _ { 1 } , \dots , c v _ { i } , \dots , v _ { n } ] \\
-c > 1
+{}[v_{1},\dots,v_{i},\dots,v_{n}]\mapsto[v_{1},\dots,cv_{i},\dots,v_{n}]\\
+c>1
 \end{aligned}
 $$
 
@@ -125,7 +125,7 @@ $$
 ### projection formula
 $$
 \begin{aligned}
-{}[ v _ { 1 } , \dots , v _ { i } , \dots , v _ { n } ] \mapsto [ v _ { 1 } , \dots , 0 , \dots , v _ { n } ]
+{}[v_{1},\dots,v_{i},\dots,v_{n}]\mapsto[v_{1},\dots,0,\dots,v_{n}]
 \end{aligned}
 $$
 
@@ -137,7 +137,7 @@ $$
 ### rotation formula
 $$
 \begin{aligned}
-{}[ v _ { 1 } , \dots , v _ { i } , \dots , v _ { n } ] \mapsto \begin{bmatrix} \cos \theta & - \sin \theta \\ \sin \theta & \cos \theta \end{bmatrix} \begin{bmatrix} v _ { 1 } \\ \vdots \\ v _ { i } \\ \vdots \\ v _ { n } \end{bmatrix}
+{}[v_{1},\dots,v_{i},\dots,v_{n}]\mapsto\begin{bmatrix}\cos\theta&-\sin\theta\\\sin\theta&\cos\theta\end{bmatrix}\begin{bmatrix}v_{1}\\\vdots\\v_{i}\\\vdots\\v_{n}\end{bmatrix}
 \end{aligned}
 $$
 
@@ -149,10 +149,10 @@ $$
 ### linear transformation zero property formula
 $$
 \begin{aligned}
-L ( \vec 0 _ { \mathcal V } ) = \vec 0 _ { \mathcal W } \\
-L = \text {linear transformation} \\
-\mathcal V = \text {domain vector space} \\
-\mathcal W = \text {codomain vector space}
+L(\vec0_{\mathcal V})=\vec0_{\mathcal W}\\
+L=\text{linear transformation}\\
+\mathcal V=\text{domain vector space}\\
+\mathcal W=\text{codomain vector space}
 \end{aligned}
 $$
 
@@ -164,26 +164,26 @@ $$
 ### linear transformation linearity property formula
 $$
 \begin{aligned}
-L ( \sum _ { i = 1 } ^ { n } c _ { i } \vec v _ { i } ) = \sum _ { i = 1 } ^ { n } c _ { i } L ( \vec v _ { i } ) \\
-L = \text {linear transformation} \\
-n = \text {dimension} \\
-c = \text {scalar} \\
-\vec v = \text {preimage}
+L(\sum_{i=1}^{n}c_{i}\vec v_{i})=\sum_{i=1}^{n}c_{i}L(\vec v_{i})\\
+L=\text{linear transformation}\\
+n=\text{dimension}\\
+c=\text{scalar}\\
+\vec v=\text{preimage}
 \end{aligned}
 $$
 
 ---
 ### linear transformation composite property
-- composition of linear transformation equal linear transformation 
+- composition of linear transformation equal linear transformation
 
 ---
 ### linear transformation composite property formula
 $$
 \begin{aligned}
-( L _ { 1 } : \mathcal V _ { 1 } \rightarrow \mathcal V _ { 2 } ) \land ( L _ { 2 } : \mathcal V _ { 2 } \rightarrow \mathcal V _ { 3 } ) \implies L _ { 2 } \circ L _ { 1 } : \mathcal V _ { 1 } \rightarrow \mathcal V _ { 3 } \\
-( L _ { 2 } \circ L _ { 1 } ) ( \vec v ) = L _ { 2 } ( L _ { 1 } ( \vec v ) ) \\
-L = \text {linear transformation} \\
-\mathcal V = \text {vector space}
+(L_{1}:\mathcal V_{1}\rightarrow\mathcal V_{2})\land(L_{2}:\mathcal V_{2}\rightarrow\mathcal V_{3})\implies L_{2}\circ L_{1}:\mathcal V_{1}\rightarrow\mathcal V_{3}\\
+(L_{2}\circ L_{1})(\vec v)=L_{2}(L_{1}(\vec v))\\
+L=\text{linear transformation}\\
+\mathcal V=\text{vector space}
 \end{aligned}
 $$
 
@@ -196,13 +196,13 @@ $$
 ### linear transformation subspace property formula
 $$
 \begin{aligned}
-( L : \mathcal V \rightarrow \mathcal W ) \land ( \mathcal V ' \le \mathcal V ) \implies L ( \mathcal V ' ) = \{ L ( \vec v ) \mid \vec v \in \mathcal V ' \} \le \mathcal W \\
-( L : \mathcal V \rightarrow \mathcal W ) \land ( \mathcal W ' \le \mathcal W ) \implies L ^ { - 1 } ( \mathcal W ' ) = \{ \vec v \mid L ( \vec v ) \in \mathcal W ' \} \le \mathcal V \\
-L = \text {linear transformation} \\
-\mathcal V = \text {domain vector space} \\
-\mathcal W = \text {codomain vector space} \\
-\vec v = \text {preimage} \\
-L ( \vec v ) = \text {image}
+(L:\mathcal V\rightarrow\mathcal W)\land(\mathcal V'\le\mathcal V)\implies L(\mathcal V')=\{L(\vec v)\mid\vec v\in\mathcal V'\}\le\mathcal W\\
+(L:\mathcal V\rightarrow\mathcal W)\land(\mathcal W'\le\mathcal W)\implies L^{-1}(\mathcal W')=\{\vec v\mid L(\vec v)\in\mathcal W'\}\le\mathcal V\\
+L=\text{linear transformation}\\
+\mathcal V=\text{domain vector space}\\
+\mathcal W=\text{codomain vector space}\\
+\vec v=\text{preimage}\\
+L(\vec v)=\text{image}
 \end{aligned}
 $$
 

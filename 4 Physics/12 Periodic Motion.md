@@ -6,10 +6,10 @@
 ### periodic motion formula
 $$
 \begin{aligned}
-x ( t + T ) = x ( t ) \\
-x = \text {position} \\
-t = \text {time} \\
-T = \text {period}
+x(t+T)=x(t)\\
+x=\text{position}\\
+t=\text{time}\\
+T=\text{period}
 \end{aligned}
 $$
 
@@ -22,7 +22,7 @@ $$
 ### period formula
 $$
 \begin{aligned}
-T = \frac { \text {time} } { \text {number of oscillations} }
+T=\frac{\text{time}}{\text{number of oscillations}}
 \end{aligned}
 $$
 
@@ -34,8 +34,8 @@ $$
 ### oscillation frequency formula
 $$
 \begin{aligned}
-f = \frac { 1 } { T } \\
-T = \text {period}
+f=\frac{1}{T}\\
+T=\text{period}
 \end{aligned}
 $$
 
@@ -47,9 +47,9 @@ $$
 ### angular frequency formula
 $$
 \begin{aligned}
-\omega = 2 \pi f = \frac { 2 \pi } { T } \\
-f = \text {oscillation frequency} \\
-T = \text {period}
+\omega=2\pi f=\frac{2\pi}{T}\\
+f=\text{oscillation frequency}\\
+T=\text{period}
 \end{aligned}
 $$
 
@@ -62,12 +62,12 @@ $$
 ### hookes law formula
 $$
 \begin{aligned}
-F _ { x } = - k x = m a _ { x } = - m \omega ^ { 2 } x \\
-k = \text {spring constant} \\
-x = \text {position} \\
-m = \text {mass} \\
-a = \text {acceleration} \\
-\omega = \text {angular frequency}
+F_{x}=-kx=ma_{x}=-m\omega^{2}x\\
+k=\text{spring constant}\\
+x=\text{position}\\
+m=\text{mass}\\
+a=\text{acceleration}\\
+\omega=\text{angular frequency}
 \end{aligned}
 $$
 
@@ -80,17 +80,17 @@ $$
 ### simple harmonic motion formula
 $$
 \begin{aligned}
-x ( t ) = A \cos ( \omega t + \phi ) \\
-v ( t ) = - A \omega \sin ( \omega t + \phi ) \\
-a ( t ) = - A \omega ^ { 2 } \cos ( \omega t + \phi ) \\
-T = 2 \pi \sqrt { \frac { m } { k } } \\
-A = \text {amplitude} \\
-\omega = \text {angular frequency} \\
-t = \text {time} \\
-\phi = \text {phase angle} \\
-T = \text {period} \\
-m = \text {mass} \\
-k = \text {spring constant}
+x(t)=A\cos(\omega t+\phi)\\
+v(t)=-A\omega\sin(\omega t+\phi)\\
+a(t)=-A\omega^{2}\cos(\omega t+\phi)\\
+T=2\pi\sqrt{\frac{m}{k}}\\
+A=\text{amplitude}\\
+\omega=\text{angular frequency}\\
+t=\text{time}\\
+\phi=\text{phase angle}\\
+T=\text{period}\\
+m=\text{mass}\\
+k=\text{spring constant}
 \end{aligned}
 $$
 
@@ -102,10 +102,10 @@ $$
 ### amplitude formula
 $$
 \begin{aligned}
-A = \max | x | = \sqrt { x _ { 0 } ^ { 2 } + \frac { v _ { 0 } ^ { 2 } } { \omega _ { 0 } ^ { 2 } } } \\
-x = \text {position} \\
-v = \text {velocity} \\
-\omega = \text {angular frequency}
+A=\max|x|=\sqrt{x_{0}^{2}+\frac{v_{0}^{2}}{\omega_{0}^{2}}}\\
+x=\text{position}\\
+v=\text{velocity}\\
+\omega=\text{angular frequency}
 \end{aligned}
 $$
 
@@ -118,10 +118,10 @@ $$
 ### phase angle formula
 $$
 \begin{aligned}
-\phi = \arctan ( \frac { - v _ { 0 } } { \omega ^ { 2 } x _ { 0 } } ) \\
-v = \text {velocity} \\
-\omega = \text {angular frequency} \\
-x = \text {position}
+\phi=\arctan(\frac{-v_{0}}{\omega^{2}x_{0}})\\
+v=\text{velocity}\\
+\omega=\text{angular frequency}\\
+x=\text{position}
 \end{aligned}
 $$
 
@@ -136,11 +136,11 @@ $$
 ### maximum simple harmonic motion formula
 $$
 \begin{aligned}
-x _ { max } = A \\
-v _ { max } = \omega A \\
-a _ { max } = \omega ^ { 2 } A \\
-A = \text {amplitude} \\
-\omega = \text {angular frequency}
+x_{max}=A\\
+v_{max}=\omega A\\
+a_{max}=\omega^{2}A\\
+A=\text{amplitude}\\
+\omega=\text{angular frequency}
 \end{aligned}
 $$
 
@@ -153,12 +153,12 @@ $$
 ### simple harmonic motion energy formula
 $$
 \begin{aligned}
-E = \frac { 1 } { 2 } m v ^ { 2 } + \frac { 1 } { 2 } k x ^ { 2 } = \frac { 1 } { 2 } k A ^ { 2 } \\
-m = \text {mass} \\
-v = \text {velocity} \\
-k = \text {spring constant} \\
-x = \text {position} \\
-A = \text {amplitude}
+E=\frac{1}{2}mv^{2}+\frac{1}{2}kx^{2}=\frac{1}{2}kA^{2}\\
+m=\text{mass}\\
+v=\text{velocity}\\
+k=\text{spring constant}\\
+x=\text{position}\\
+A=\text{amplitude}
 \end{aligned}
 $$
 
@@ -171,9 +171,9 @@ $$
 ### energy diagram formula
 $$
 \begin{aligned}
-E ( x ) \\
-E = \text {mechanical energy} \\
-x = \text {position}
+E(x)\\
+E=\text{mechanical energy}\\
+x=\text{position}
 \end{aligned}
 $$
 
@@ -186,18 +186,18 @@ $$
 ### vertical simple harmonic motion
 $$
 \begin{aligned}
-y ( t ) = \frac { mg } { k } + A \cos ( \omega t + \phi ) \\
-v ( t ) = - A \omega \sin ( \omega t + \phi ) \\
-a ( t ) = - A \omega ^ { 2 } \cos ( \omega t + \phi ) \\
-T = 2 \pi \sqrt { \frac { m } { k } } \\
-m = \text {mass} \\
-g = \text {gravity} \\
-k = \text {spring constant} \\
-A = \text {amplitude} \\
-\omega = \text {angular frequency} \\
-t = \text {time} \\
-\phi = \text {phase angle} \\
-T = \text {period}
+y(t)=\frac{mg}{k}+A\cos(\omega t+\phi)\\
+v(t)=-A\omega\sin(\omega t+\phi)\\
+a(t)=-A\omega^{2}\cos(\omega t+\phi)\\
+T=2\pi\sqrt{\frac{m}{k}}\\
+m=\text{mass}\\
+g=\text{gravity}\\
+k=\text{spring constant}\\
+A=\text{amplitude}\\
+\omega=\text{angular frequency}\\
+t=\text{time}\\
+\phi=\text{phase angle}\\
+T=\text{period}
 \end{aligned}
 $$
 
@@ -210,17 +210,17 @@ $$
 ### angular simple harmonic motion formula
 $$
 \begin{aligned}
-\theta ( t ) = \Theta \cos ( \omega t + \phi ) \\
-\frac { d \theta } { dt } = - \Theta \omega \sin ( \omega t + \phi ) \\
-\frac { d ^ { 2 } \theta } { d t ^ { 2 } } = - \Theta \omega ^ { 2 } \cos ( \omega t + \phi ) \\
-T = 2 \pi \sqrt { \frac { I } { \kappa } } \\
-\Theta = \text {amplitude} \\
-\omega = \text {angular frequency} \\
-t = \text {time} \\
-\phi = \text {phase angle} \\
-T = \text {period} \\
-I = \text {moment of inertia} \\
-\kappa = \text {torsion constant}
+\theta(t)=\Theta\cos(\omega t+\phi)\\
+\frac{d\theta}{dt}=-\Theta\omega\sin(\omega t+\phi)\\
+\frac{d^{2}\theta}{dt^{2}}=-\Theta\omega^{2}\cos(\omega t+\phi)\\
+T=2\pi\sqrt{\frac{I}{\kappa}}\\
+\Theta=\text{amplitude}\\
+\omega=\text{angular frequency}\\
+t=\text{time}\\
+\phi=\text{phase angle}\\
+T=\text{period}\\
+I=\text{moment of inertia}\\
+\kappa=\text{torsion constant}
 \end{aligned}
 $$
 
@@ -233,9 +233,9 @@ $$
 ### simple pendulum formula
 $$
 \begin{aligned}
-T = 2 \pi \sqrt { \frac { L } { g } } \\
-L = \text {length} \\
-g = \text {gravity}
+T=2\pi\sqrt{\frac{L}{g}}\\
+L=\text{length}\\
+g=\text{gravity}
 \end{aligned}
 $$
 
@@ -248,11 +248,11 @@ $$
 ### physical pendulum formula
 $$
 \begin{aligned}
-T = 2 \pi \sqrt { \frac { I } { mgL } } \\
-I = \text {moment of inertia} \\
-m = \text {mass} \\
-g = \text {gravity} \\
-L = \text {length}
+T=2\pi\sqrt{\frac{I}{mgL}}\\
+I=\text{moment of inertia}\\
+m=\text{mass}\\
+g=\text{gravity}\\
+L=\text{length}
 \end{aligned}
 $$
 
@@ -265,12 +265,12 @@ $$
 ### damped oscillation formula
 $$
 \begin{aligned}
-m \frac { d ^ { 2 } x } { d t ^ { 2 } } + b \frac { dx } { dt } + k x = 0 \\
-m = \text {mass} \\
-x = \text {position} \\
-t = \text {time} \\
-b = \text {damping coefficient} \\
-k = \text {spring constant}
+m\frac{d^{2}x}{dt^{2}}+b\frac{dx}{dt}+kx=0\\
+m=\text{mass}\\
+x=\text{position}\\
+t=\text{time}\\
+b=\text{damping coefficient}\\
+k=\text{spring constant}
 \end{aligned}
 $$
 
@@ -283,16 +283,16 @@ $$
 ### under damped oscillation formula
 $$
 \begin{aligned}
-b ^ { 2 } < 4 m k \implies x ( t ) = A _ { 0 } \exp ( \frac { - b } { 2 m } t ) \cos ( \omega t + \phi ) \\
-\omega = \sqrt { ( \frac { k } { m } ) - ( \frac { b } { 2 m } ) ^ { 2 } } \\
-b = \text {damping coefficient} \\
-m = \text {mass} \\
-k = \text {spring constant} \\
-x = \text {position} \\
-t = \text {time} \\
-A = \text {amplitude} \\
-\omega = \text {angular frequency} \\
-\phi = \text {phase angle}
+b^{2}<4mk\implies x(t)=A_{0}\exp(\frac{-b}{2m}t)\cos(\omega t+\phi)\\
+\omega=\sqrt{(\frac{k}{m})-(\frac{b}{2m})^{2}}\\
+b=\text{damping coefficient}\\
+m=\text{mass}\\
+k=\text{spring constant}\\
+x=\text{position}\\
+t=\text{time}\\
+A=\text{amplitude}\\
+\omega=\text{angular frequency}\\
+\phi=\text{phase angle}
 \end{aligned}
 $$
 
@@ -304,13 +304,13 @@ $$
 ### critically damped oscillation formula
 $$
 \begin{aligned}
-b ^ { 2 } = 4 m k \implies x ( t ) = ( C _ { 1 } + C _ { 2 } ) \exp ( \frac { - b } { 2 m } t ) \\
-b = \text {damping coefficient} \\
-m = \text {mass} \\
-k = \text {spring constant} \\
-x = \text {position} \\
-t = \text {time} \\
-C = \text {constant}
+b^{2}=4mk\implies x(t)=(C_{1}+C_{2})\exp(\frac{-b}{2m}t)\\
+b=\text{damping coefficient}\\
+m=\text{mass}\\
+k=\text{spring constant}\\
+x=\text{position}\\
+t=\text{time}\\
+C=\text{constant}
 \end{aligned}
 $$
 
@@ -322,15 +322,15 @@ $$
 ### over damped oscillation
 $$
 \begin{aligned}
-b ^ { 2 } < 4 m k \implies x ( t ) = C _ { 1 } \exp ( r _ { 1 } t ) + C _ { 2 } \exp ( r _ { 2 } t ) \\
-r = \frac { - b \pm \sqrt { b ^ { 2 } - 4 m k } } { 2 m } \\
-b = \text {damping coefficient} \\
-m = \text {mass} \\
-k = \text {spring constant} \\
-x = \text {position} \\
-t = \text {time} \\
-C = \text {constant} \\
-r = \text {root}
+b^{2}<4mk\implies x(t)=C_{1}\exp(r_{1}t)+C_{2}\exp(r_{2}t)\\
+r=\frac{-b\pm\sqrt{b^{2}-4mk}}{2m}\\
+b=\text{damping coefficient}\\
+m=\text{mass}\\
+k=\text{spring constant}\\
+x=\text{position}\\
+t=\text{time}\\
+C=\text{constant}\\
+r=\text{root}
 \end{aligned}
 $$
 
@@ -343,17 +343,17 @@ $$
 ### driven oscillation formula
 $$
 \begin{aligned}
-m \frac { d ^ { 2 } x } { d t ^ { 2 } } + b \frac { dx } { dt } + k x = F _ { max } \cos ( \omega t + \phi ) \\
-A = \frac { F _ { max } } { \sqrt { ( k - m \omega ^ { 2 } ) ^ { 2 } + ( b \omega ) ^ { 2 } } } \\
-m = \text {mass} \\
-x = \text {position} \\
-t = \text {time} \\
-b = \text {damping coefficient} \\
-k = \text {spring constant} \\
-F = \text {force} \\
-\omega = \text {angular frequency} \\
-\phi = \text {phase angle} \\
-A = \text {amplitude}
+m\frac{d^{2}x}{dt^{2}}+b\frac{dx}{dt}+kx=F_{max}\cos(\omega t+\phi)\\
+A=\frac{F_{max}}{\sqrt{(k-m\omega^{2})^{2}+(b\omega)^{2}}}\\
+m=\text{mass}\\
+x=\text{position}\\
+t=\text{time}\\
+b=\text{damping coefficient}\\
+k=\text{spring constant}\\
+F=\text{force}\\
+\omega=\text{angular frequency}\\
+\phi=\text{phase angle}\\
+A=\text{amplitude}
 \end{aligned}
 $$
 
@@ -373,9 +373,9 @@ $$
 ### resonance formula
 $$
 \begin{aligned}
-\omega = \omega _ { 0 } \implies A = A _ { max } \\
-\omega = \text {angular frequency} \\
-A = \text {amplitude}
+\omega=\omega_{0}\implies A=A_{max}\\
+\omega=\text{angular frequency}\\
+A=\text{amplitude}
 \end{aligned}
 $$
 

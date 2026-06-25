@@ -56,12 +56,12 @@
 
 ---
 ### cluster sampling
-- population division into clusters  
+- population division into clusters
 - randomly select clusters
 
 ---
 ### systemic sampling
-- define random starting point  
+- define random starting point
 - proportionately select random sample from each stratum
 
 ---

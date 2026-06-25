@@ -15,13 +15,13 @@
 ### one-way ANOVA F-score formula
 $$
 \begin{aligned}
-F = \frac { M S _ { \text {group} } } { M S _ { \text {error} } } \\
-S S _ { total } = S S _ { group } + S S _ { error } \\
-d f _ { group } = k - 1 \\
-d f _ { error } = n - k \\
-d f _ { total } = n - 1 \\
-M S _ { group } = \frac { S S _ { group } } { d f _ { group } } \\
-M S _ { error } = \frac { S S _ { error } } { d f _ { error } }
+F=\frac{MS_{\text{group}}}{MS_{\text{error}}}\\
+SS_{total}=SS_{group}+SS_{error}\\
+df_{group}=k-1\\
+df_{error}=n-k\\
+df_{total}=n-1\\
+MS_{group}=\frac{SS_{group}}{df_{group}}\\
+MS_{error}=\frac{SS_{error}}{df_{error}}
 \end{aligned}
 $$
 
@@ -33,7 +33,7 @@ $$
 ### one-way ANOVA null hypothesis formula
 $$
 \begin{aligned}
-H _ { 0 } : \mu _ { 1 } = \dots = \mu _ { k }
+H_{0}:\mu_{1}=\dots=\mu_{k}
 \end{aligned}
 $$
 
@@ -45,7 +45,7 @@ $$
 ### one-way ANOVA alternative hypothesis formula
 $$
 \begin{aligned}
-H _ { a } : \mu _ { i } \ne \mu _ { j }
+H_{a}:\mu_{i}\ne\mu_{j}
 \end{aligned}
 $$
 

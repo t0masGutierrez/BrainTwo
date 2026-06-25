@@ -7,11 +7,11 @@
 ### drift velocity formula
 $$
 \begin{aligned}
-\vec v _ { d } = \frac { I } { nqA } \\
-I = \text {electric current} \\
-n = \text {number density} \\
-q = \text {electric charge} \\
-A = \text {area}
+\vec v_{d}=\frac{I}{nqA}\\
+I=\text{electric current}\\
+n=\text{number density}\\
+q=\text{electric charge}\\
+A=\text{area}
 \end{aligned}
 $$
 
@@ -22,15 +22,15 @@ $$
 
 ---
 ### number density
-- measure of unbound electric charge compactness 
+- measure of unbound electric charge compactness
 
 ---
 ### number density formula
 $$
 \begin{aligned}
-n = \frac { N } { V } \\
-N = \text {number of unbound electric charge} \\
-V = \text {volume}
+n=\frac{N}{V}\\
+N=\text{number of unbound electric charge}\\
+V=\text{volume}
 \end{aligned}
 $$
 
@@ -43,9 +43,9 @@ $$
 ### electric current formula
 $$
 \begin{aligned}
-I = \frac { dq } { dt } \\
-q = \text {electric charge} \\
-t = \text {time}
+I=\frac{dq}{dt}\\
+q=\text{electric charge}\\
+t=\text{time}
 \end{aligned}
 $$
 
@@ -65,12 +65,12 @@ $$
 ### electric current density formula
 $$
 \begin{aligned}
-\vec J = \frac { I } { A } = n q \vec v _ { d } \\
-I = \text {electric current} \\
-A = \text {area} \\
-n = \text {number density} \\
-q = \text {electric charge} \\
-v _ { d } = \text {drift velocity}
+\vec J=\frac{I}{A}=nq\vec v_{d}\\
+I=\text{electric current}\\
+A=\text{area}\\
+n=\text{number density}\\
+q=\text{electric charge}\\
+v_{d}=\text{drift velocity}
 \end{aligned}
 $$
 
@@ -84,15 +84,15 @@ $$
 
 ---
 ### conductivity
-- how strongly material support the flow of electric charge 
+- how strongly material support the flow of electric charge
 
 ---
 ### conductivity formula
 $$
 \begin{aligned}
-\sigma = \frac { \vec J } { \vec E } \\
-J = \text {electric current density} \\
-E = \text {electric field}
+\sigma=\frac{\vec J}{\vec E}\\
+J=\text{electric current density}\\
+E=\text{electric field}
 \end{aligned}
 $$
 
@@ -105,9 +105,9 @@ $$
 ### resistivity formula
 $$
 \begin{aligned}
-\rho = \frac { \vec E } { \vec J } \\
-E = \text {electric field} \\
-J = \text {electric current density}
+\rho=\frac{\vec E}{\vec J}\\
+E=\text{electric field}\\
+J=\text{electric current density}
 \end{aligned}
 $$
 
@@ -120,10 +120,10 @@ $$
 ### temperature resistivity formula
 $$
 \begin{aligned}
-\rho ( T ) = \rho _ { 0 } ( 1 + \alpha \Delta T ) \\
-\rho = \text {resistivity} \\
-\alpha = \text {temperature coefficient} \\
-T = \text {temperature}
+\rho(T)=\rho_{0}(1+\alpha\Delta T)\\
+\rho=\text{resistivity}\\
+\alpha=\text{temperature coefficient}\\
+T=\text{temperature}
 \end{aligned}
 $$
 
@@ -136,10 +136,10 @@ $$
 ### resistance formula
 $$
 \begin{aligned}
-R = \rho \frac { L } { A } \\
-\rho = \text {resistivity} \\
-L = \text {length} \\
-A = \text {area}
+R=\rho\frac{L}{A}\\
+\rho=\text{resistivity}\\
+L=\text{length}\\
+A=\text{area}
 \end{aligned}
 $$
 
@@ -156,15 +156,15 @@ $$
 ### temperature resistance formula
 $$
 \begin{aligned}
-R ( T ) = R _ { 0 } ( 1 + \alpha \Delta T ) \\
-R = \text {resistance} \\
-\alpha = \text {temperature coefficient} \\
-T = \text {temperature}
+R(T)=R_{0}(1+\alpha\Delta T)\\
+R=\text{resistance}\\
+\alpha=\text{temperature coefficient}\\
+T=\text{temperature}
 \end{aligned}
 $$
 
 ---
-### calculate temperature resistance 
+### calculate temperature resistance
 - resistance of conductor directly proportional temperature
 - resistance of superconductor directly proportional temperature above zero
 - resistance of semiconductor inversely proportional temperature
@@ -183,9 +183,9 @@ $$
 ### ohms formula
 $$
 \begin{aligned}
-V = I R \\
-I = \text {electric current} \\
-R = \text {resistance}
+V=IR\\
+I=\text{electric current}\\
+R=\text{resistance}
 \end{aligned}
 $$
 
@@ -197,10 +197,10 @@ $$
 ### power formula
 $$
 \begin{aligned}
-P = I V = I ^ { 2 } R = \frac { V ^ { 2 } } { R } \\
-I = \text {electric current} \\
-V = \text {voltage} \\
-R = \text {resistance}
+P=IV=I^{2}R=\frac{V^{2}}{R}\\
+I=\text{electric current}\\
+V=\text{voltage}\\
+R=\text{resistance}
 \end{aligned}
 $$
 
@@ -221,11 +221,11 @@ $$
 ### electromotive force formula
 $$
 \begin{aligned}
-\epsilon = I ( r + R ) \\
-V = \text {voltage} \\
-I = \text {electric current} \\
-r = \text {internal resistance} \\
-R = \text {resistance}
+\epsilon=I(r+R)\\
+V=\text{voltage}\\
+I=\text{electric current}\\
+r=\text{internal resistance}\\
+R=\text{resistance}
 \end{aligned}
 $$
 
@@ -236,17 +236,17 @@ $$
 
 ---
 ### terminal voltage
-- electric potential difference after experiencing internal resistance 
+- electric potential difference after experiencing internal resistance
 ![[4 Physics/Images/terminal voltage.png]]
 
 ---
 ### terminal voltage formula
 $$
 \begin{aligned}
-V = \epsilon - I r \\
-\epsilon = \text {emf} \\
-I = \text {electric current} \\
-r = \text {internal resistance}
+V=\epsilon-Ir\\
+\epsilon=\text{emf}\\
+I=\text{electric current}\\
+r=\text{internal resistance}
 \end{aligned}
 $$
 
@@ -258,9 +258,9 @@ $$
 ### power input formula
 $$
 \begin{aligned}
-P = I \epsilon \\
-I = \text {electric current} \\
-\epsilon = \text {emf}
+P=I\epsilon\\
+I=\text{electric current}\\
+\epsilon=\text{emf}
 \end{aligned}
 $$
 
@@ -272,9 +272,9 @@ $$
 ### power output
 $$
 \begin{aligned}
-P = I ^ { 2 } r \\
-I = \text {electric current} \\
-r = \text {internal resistance}
+P=I^{2}r\\
+I=\text{electric current}\\
+r=\text{internal resistance}
 \end{aligned}
 $$
 
@@ -287,12 +287,12 @@ $$
 ### net power formula
 $$
 \begin{aligned}
-P = I \epsilon \pm I ^ { 2 } r \\
-I = \text {electric current} \\
-\epsilon = \text {emf} \\
-( + ) = \text {charging} \\
-( - ) = \text {discharging} \\
-r = \text {internal resistance}
+P=I\epsilon\pm I^{2}r\\
+I=\text{electric current}\\
+\epsilon=\text{emf}\\
+(+)=\text{charging}\\
+(-)=\text{discharging}\\
+r=\text{internal resistance}
 \end{aligned}
 $$
 

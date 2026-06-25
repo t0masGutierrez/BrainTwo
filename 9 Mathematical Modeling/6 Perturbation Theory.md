@@ -1,16 +1,16 @@
 ### perturbed equation
-- equation containing small nonnegative parameter 
+- equation containing small nonnegative parameter
 
 ---
 ### perturbed equation formula
 $$
 \begin{aligned}
-f ( t , x , \epsilon ) \\
-0 \le \epsilon \ll 1 \\
-f = \text {perturbed equation} \\
-t = \text {time} \\
-x = \text {solution} \\
-\epsilon = \text {parameter}
+f(t,x,\epsilon)\\
+0\le\epsilon\ll1\\
+f=\text{perturbed equation}\\
+t=\text{time}\\
+x=\text{solution}\\
+\epsilon=\text{parameter}
 \end{aligned}
 $$
 
@@ -22,11 +22,11 @@ $$
 ### algebraic equation formula
 $$
 \begin{aligned}
-y = f ( t , x , \epsilon ) \\
-f = \text {perturbed equation} \\
-t = \text {time} \\
-x = \text {solution} \\
-\epsilon = \text {parameter}
+y=f(t,x,\epsilon)\\
+f=\text{perturbed equation}\\
+t=\text{time}\\
+x=\text{solution}\\
+\epsilon=\text{parameter}
 \end{aligned}
 $$
 
@@ -38,13 +38,13 @@ $$
 ### differential equation formula
 $$
 \begin{aligned}
-\frac { dx } { dt } = f ( t , x , \epsilon ) \\
-x ( t _ { 0 } , \epsilon ) = x _ { 0 } ( \epsilon ) \\
-t \ge 0 \\
-f = \text {perturbed equation} \\
-t = \text {time} \\
-x = \text {solution} \\
-\epsilon = \text {parameter}
+\frac{dx}{dt}=f(t,x,\epsilon)\\
+x(t_{0},\epsilon)=x_{0}(\epsilon)\\
+t\ge0\\
+f=\text{perturbed equation}\\
+t=\text{time}\\
+x=\text{solution}\\
+\epsilon=\text{parameter}
 \end{aligned}
 $$
 
@@ -56,12 +56,12 @@ $$
 ### regular formula
 $$
 \begin{aligned}
-( \epsilon > 0 ) \land ( \# f ( t , x , \epsilon ) = k ) \implies ( \epsilon = 0 ) \land ( \# f ( t , x , \epsilon ) = k ) \\
-f = \text {perturbed equation} \\
-t = \text {time} \\
-x = \text {solution} \\
-\epsilon = \text {parameter} \\
-k = \text {number of solutions}
+(\epsilon>0)\land(\#f(t,x,\epsilon)=k)\implies(\epsilon=0)\land(\#f(t,x,\epsilon)=k)\\
+f=\text{perturbed equation}\\
+t=\text{time}\\
+x=\text{solution}\\
+\epsilon=\text{parameter}\\
+k=\text{number of solutions}
 \end{aligned}
 $$
 
@@ -73,12 +73,12 @@ $$
 ### singular formula
 $$
 \begin{aligned}
-( \epsilon > 0 ) \land ( \# f ( t , x , \epsilon ) = k ) \implies ( \epsilon = 0 ) \land ( \# f ( t , x , \epsilon ) \ne k ) \\
-f = \text {perturbed equation} \\
-t = \text {time} \\
-x = \text {solution} \\
-\epsilon = \text {parameter} \\
-k = \text {number of solutions}
+(\epsilon>0)\land(\#f(t,x,\epsilon)=k)\implies(\epsilon=0)\land(\#f(t,x,\epsilon)\ne k)\\
+f=\text{perturbed equation}\\
+t=\text{time}\\
+x=\text{solution}\\
+\epsilon=\text{parameter}\\
+k=\text{number of solutions}
 \end{aligned}
 $$
 
@@ -90,14 +90,14 @@ $$
 ### analytic formula
 $$
 \begin{aligned}
-f ( t , x , \epsilon ) = \sum _ { i , j , k = 0 } ^ { \infty } c _ { ijk } ( t - t _ { 0 } ) ^ { i } ( x - x _ { 0 } ) ^ { j } ( \epsilon - \epsilon _ { 0 } ) ^ { k } \\
-| t - t _ { 0 } | < \sigma , | x - x _ { 0 } | < \eta , | \epsilon - \epsilon _ { 0 } | < \rho \\
-f = \text {perturbed equation} \\
-t = \text {time} \\
-x = \text {solution} \\
-\epsilon = \text {parameter} \\
-c = \text {coefficient} \\
-\sigma , \eta , \rho = \text {radius of convergence}
+f(t,x,\epsilon)=\sum_{i,j,k=0}^{\infty}c_{ijk}(t-t_{0})^{i}(x-x_{0})^{j}(\epsilon-\epsilon_{0})^{k}\\
+|t-t_{0}|<\sigma,|x-x_{0}|<\eta,|\epsilon-\epsilon_{0}|<\rho\\
+f=\text{perturbed equation}\\
+t=\text{time}\\
+x=\text{solution}\\
+\epsilon=\text{parameter}\\
+c=\text{coefficient}\\
+\sigma,\eta,\rho=\text{radius of convergence}
 \end{aligned}
 $$
 
@@ -109,11 +109,11 @@ $$
 ### function notation formula
 $$
 \begin{aligned}
-f ( \epsilon ) = \sum _ { n = 0 } ^ { \infty } c _ { n } \epsilon ^ { n } \\
-\frac { f ( \epsilon ) } { \epsilon ^ { r } } = \sum _ { n = 0 } ^ { \infty } c _ { n } \epsilon ^ { n - r } \\
-f = \text {perturbed equation} \\
-c = \text {coefficient} \\
-\epsilon = \text {parameter}
+f(\epsilon)=\sum_{n=0}^{\infty}c_{n}\epsilon^{n}\\
+\frac{f(\epsilon)}{\epsilon^{r}}=\sum_{n=0}^{\infty}c_{n}\epsilon^{n-r}\\
+f=\text{perturbed equation}\\
+c=\text{coefficient}\\
+\epsilon=\text{parameter}
 \end{aligned}
 $$
 
@@ -125,11 +125,11 @@ $$
 ### big-O notation formula
 $$
 \begin{aligned}
-\lim _ { \epsilon \rightarrow 0 } | \frac { f ( \epsilon ) } { \epsilon ^ { r } } | \le C \implies f ( \epsilon ) \le O ( \epsilon ^ { r } ) \\
-f = \text {perturbed equation} \\
-\epsilon = \text {parameter} \\
-C = \text {constant} \\
-r = \text {order}
+\lim_{\epsilon\rightarrow0}|\frac{f(\epsilon)}{\epsilon^{r}}|\le C\implies f(\epsilon)\le O(\epsilon^{r})\\
+f=\text{perturbed equation}\\
+\epsilon=\text{parameter}\\
+C=\text{constant}\\
+r=\text{order}
 \end{aligned}
 $$
 
@@ -141,10 +141,10 @@ $$
 ### little-o notation formula
 $$
 \begin{aligned}
-\lim _ { \epsilon \rightarrow 0 } \frac { f ( \epsilon ) } { \epsilon ^ { r } } = 0 \implies f ( \epsilon ) \ll o ( \epsilon ^ { r } ) \\
-f = \text {perturbed equation} \\
-\epsilon = \text {parameter} \\
-o = \text {order}
+\lim_{\epsilon\rightarrow0}\frac{f(\epsilon)}{\epsilon^{r}}=0\implies f(\epsilon)\ll o(\epsilon^{r})\\
+f=\text{perturbed equation}\\
+\epsilon=\text{parameter}\\
+o=\text{order}
 \end{aligned}
 $$
 
@@ -156,10 +156,10 @@ $$
 ### mclaurin series formula
 $$
 \begin{aligned}
-f ( \epsilon ) = \sum _ { n = 0 } ^ { \infty } \frac { f ^ { ( n ) } ( 0 ) } { n ! } \epsilon ^ { n } \\
-f = \text {perturbed equation} \\
-f ^ { n } = \text {nth derivative} \\
-\epsilon = \text {parameter}
+f(\epsilon)=\sum_{n=0}^{\infty}\frac{f^{(n)}(0)}{n!}\epsilon^{n}\\
+f=\text{perturbed equation}\\
+f^{n}=\text{nth derivative}\\
+\epsilon=\text{parameter}
 \end{aligned}
 $$
 
@@ -169,19 +169,19 @@ $$
 - substitute series solution into variable
 - collect coefficient of ith order epsilon
 - solve perturbed algebraic equation for 1st order variable
-- ith order variable equal coefficient of ith order epsilon 
+- ith order variable equal coefficient of ith order epsilon
 ![[9 Mathematical Modeling/Images/regular algebraic equation.png]]
 
 ---
 ### regular algebraic equation formula
 $$
 \begin{aligned}
-F ( x , \epsilon ) = 0 \\
-x ( \epsilon _ { 0 } ) = x _ { 0 } \\
-0 \le \epsilon \ll 1 \\
-F = \text {regular algebraic equation} \\
-x = \text {solution} \\
-\epsilon = \text {parameter}
+F(x,\epsilon)=0\\
+x(\epsilon_{0})=x_{0}\\
+0\le\epsilon\ll1\\
+F=\text{regular algebraic equation}\\
+x=\text{solution}\\
+\epsilon=\text{parameter}
 \end{aligned}
 $$
 
@@ -193,10 +193,10 @@ $$
 ### regular algebraic property formula
 $$
 \begin{aligned}
-\frac { \partial F } { \partial x } ( x _ { 0 } , \epsilon _ { 0 } ) \ne 0 \\
-F = \text {algebraic equation} \\
-x = \text {solution} \\
-\epsilon = \text {parameter}
+\frac{\partial F}{\partial x}(x_{0},\epsilon_{0})\ne0\\
+F=\text{algebraic equation}\\
+x=\text{solution}\\
+\epsilon=\text{parameter}
 \end{aligned}
 $$
 
@@ -208,10 +208,10 @@ $$
 ### simple root formula
 $$
 \begin{aligned}
-\frac { \partial F } { \partial x } ( x _ { 0 } , \epsilon _ { 0 } ) \ne 0 \implies x ( \epsilon ) = \sum _ { n = 0 } ^ { \infty } x _ { n } \epsilon ^ { n } \\
-F = \text {algebraic equation} \\
-x = \text {solution} \\
-\epsilon = \text {parameter}
+\frac{\partial F}{\partial x}(x_{0},\epsilon_{0})\ne0\implies x(\epsilon)=\sum_{n=0}^{\infty}x_{n}\epsilon^{n}\\
+F=\text{algebraic equation}\\
+x=\text{solution}\\
+\epsilon=\text{parameter}
 \end{aligned}
 $$
 
@@ -223,12 +223,12 @@ $$
 ### multiple root formula
 $$
 \begin{aligned}
-\frac { \partial F } { \partial x } ( x _ { 0 } , \epsilon _ { 0 } ) = 0 \implies x ( \delta ) = \sum _ { n = 0 } ^ { \infty } x _ { n } \delta ^ { n } \\
-\delta = \epsilon ^ { 1 / m } \\
-F = \text {algebraic equation} \\
-x = \text {solution} \\
-\epsilon = \text {parameter} \\
-m = \text {multiplicity}
+\frac{\partial F}{\partial x}(x_{0},\epsilon_{0})=0\implies x(\delta)=\sum_{n=0}^{\infty}x_{n}\delta^{n}\\
+\delta=\epsilon^{1/m}\\
+F=\text{algebraic equation}\\
+x=\text{solution}\\
+\epsilon=\text{parameter}\\
+m=\text{multiplicity}
 \end{aligned}
 $$
 
@@ -245,13 +245,13 @@ $$
 ### regular differential equation formula
 $$
 \begin{aligned}
-\frac { du } { dt } = F ( t , u , \epsilon ) \\
-u ( t _ { 0 } , \epsilon ) = u _ { 0 } ( \epsilon ) \\
-0 \le \epsilon \ll 1 \\
-t \ge 0 \\
-F = \text {regular differential equation} \\
-u = \text {solution} \\
-\epsilon = \text {parameter}
+\frac{du}{dt}=F(t,u,\epsilon)\\
+u(t_{0},\epsilon)=u_{0}(\epsilon)\\
+0\le\epsilon\ll1\\
+t\ge0\\
+F=\text{regular differential equation}\\
+u=\text{solution}\\
+\epsilon=\text{parameter}
 \end{aligned}
 $$
 
@@ -263,10 +263,10 @@ $$
 ### regular differential property formula
 $$
 \begin{aligned}
-\frac { \partial F } { \partial u ' } ( t _ { 0 } , u _ { 0 } , u _ { 0 } ' , \epsilon _ { 0 } ) \ne 0 \\
-F = \text {algebraic equation} \\
-u = \text {solution} \\
-\epsilon = \text {parameter}
+\frac{\partial F}{\partial u'}(t_{0},u_{0},u_{0}',\epsilon_{0})\ne0\\
+F=\text{algebraic equation}\\
+u=\text{solution}\\
+\epsilon=\text{parameter}
 \end{aligned}
 $$
 
@@ -278,11 +278,11 @@ $$
 ### secularity formula
 $$
 \begin{aligned}
-x _ { 1 } ' ' + x _ { 1 } = f _ { 1 } ( t ) \in \text {span} \set { \cos t , \sin t } \implies t \cos \omega t , t \sin \omega t \subset x _ { 1 } ( t ) \\
-x = \text {solution} \\
-f = \text {force} \\
-t = \text {time} \\
-\omega = \text {frequency}
+x_{1}''+x_{1}=f_{1}(t)\in\text{span}\set{\cos t,\sin t}\implies t\cos\omega t,t\sin\omega t\subset x_{1}(t)\\
+x=\text{solution}\\
+f=\text{force}\\
+t=\text{time}\\
+\omega=\text{frequency}
 \end{aligned}
 $$
 
@@ -303,11 +303,11 @@ $$
 ### poincare-lindstedt formula
 $$
 \begin{aligned}
-x ' ' ( t ) + x ( t ) = \epsilon f ( t , x , x ' ' ) \\
-0 \le \epsilon \ll 1 \\
-\tau = \omega ( \epsilon ) t \\
-\omega ( \epsilon ) = \sum _ { n = 1 } ^ { \infty } \omega _ { n } \epsilon ^ { n } \\
-x ( t ) = \sum _ { n = 1 } ^ { \infty } x _ { n } ( \tau ) \epsilon ^ { n }
+x''(t)+x(t)=\epsilon f(t,x,x'')\\
+0\le\epsilon\ll1\\
+\tau=\omega(\epsilon)t\\
+\omega(\epsilon)=\sum_{n=1}^{\infty}\omega_{n}\epsilon^{n}\\
+x(t)=\sum_{n=1}^{\infty}x_{n}(\tau)\epsilon^{n}
 \end{aligned}
 $$
 
@@ -326,14 +326,14 @@ $$
 ### singular algebraic equation formula
 $$
 \begin{aligned}
-F ( x , \epsilon ) = 0 \\
-x ( \epsilon _ { 0 } ) = x _ { 0 } \\
-x = \epsilon ^ { - n } y \\
-0 \le \epsilon \ll 1 \\
-F = \text {singular algebraic equation} \\
-x = \text {solution} \\
-y = \text {change of variable} \\
-\epsilon = \text {parameter}
+F(x,\epsilon)=0\\
+x(\epsilon_{0})=x_{0}\\
+x=\epsilon^{-n}y\\
+0\le\epsilon\ll1\\
+F=\text{singular algebraic equation}\\
+x=\text{solution}\\
+y=\text{change of variable}\\
+\epsilon=\text{parameter}
 \end{aligned}
 $$
 
@@ -345,13 +345,13 @@ $$
 ### outer problem formula
 $$
 \begin{aligned}
-\epsilon y ' ' + \phi ( x ) y ' = f ( x ) \\
-a \le x \le b \\
-\epsilon = 0 \implies \phi ( x ) y ' = f ( x ) \\
-\phi ( x ) > 0 \implies q _ { in } = a \\
-\phi ( x ) < 0 \implies q _ { in } = b \\
-y ( q _ { out } ) = C e ^ { r q _ { out } } \\
-y _ { out } ( x )
+\epsilon y''+\phi(x)y'=f(x)\\
+a\le x\le b\\
+\epsilon=0\implies\phi(x)y'=f(x)\\
+\phi(x)>0\implies q_{in}=a\\
+\phi(x)<0\implies q_{in}=b\\
+y(q_{out})=Ce^{rq_{out}}\\
+y_{out}(x)
 \end{aligned}
 $$
 
@@ -363,11 +363,11 @@ $$
 ### inner problem formula
 $$
 \begin{aligned}
-\epsilon y ' ' + \phi ( x ) y ' = f ( x ) \\
-\tau = \frac { x - q _ { in } } { \epsilon ^ { n } } \\
-\frac { 1 } { \epsilon ^ { 2 n } } ( \frac { d ^ { 2 } y } { d \tau ^ { 2 } } ) + \frac { \phi ( x ) } { \epsilon ^ { n } } ( \frac { dy } { d \tau } ) = f ( x ) \\
-y ( q _ { in } ) = A e ^ { r _ { 1 } q _ { in } } + B e ^ { r _ { 2 } q _ { in } } \\
-y _ { in } ( \tau )
+\epsilon y''+\phi(x)y'=f(x)\\
+\tau=\frac{x-q_{in}}{\epsilon^{n}}\\
+\frac{1}{\epsilon^{2n}}(\frac{d^{2}y}{d\tau^{2}})+\frac{\phi(x)}{\epsilon^{n}}(\frac{dy}{d\tau})=f(x)\\
+y(q_{in})=Ae^{r_{1}q_{in}}+Be^{r_{2}q_{in}}\\
+y_{in}(\tau)
 \end{aligned}
 $$
 
@@ -379,9 +379,9 @@ $$
 ### matching problem formula
 $$
 \begin{aligned}
-\lim _ { x \rightarrow 0 ^ { + } } y _ { out } ( x ) = \lim _ { \tau \rightarrow \infty } y _ { in } ( \tau ) \\
-y _ { out } = \text {outer solution} \\
-y _ { in } = \text {inner solution}
+\lim_{x\rightarrow0^{+}}y_{out}(x)=\lim_{\tau\rightarrow\infty}y_{in}(\tau)\\
+y_{out}=\text{outer solution}\\
+y_{in}=\text{inner solution}
 \end{aligned}
 $$
 
@@ -403,10 +403,10 @@ $$
 ### singular differential equation formula
 $$
 \begin{aligned}
-y ( x ) = y _ { out } ( x ) + y _ { in } ( x ) - y _ { match } ( x ) \\
-y _ { out } = \text {outer solution} \\
-y _ { in } = \text {inner solution} \\
-y _ { match } = \text {matching solution}
+y(x)=y_{out}(x)+y_{in}(x)-y_{match}(x)\\
+y_{out}=\text{outer solution}\\
+y_{in}=\text{inner solution}\\
+y_{match}=\text{matching solution}
 \end{aligned}
 $$
 

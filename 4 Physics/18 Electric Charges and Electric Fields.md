@@ -9,7 +9,7 @@
 
 ---
 ### electric charge quantization
-- all electric charge equal integer multiple of electric charge $\pm e = 1.602 \times 10 ^ { - 19 }$ 
+- all electric charge equal integer multiple of electric charge $\pm e=1.602\times10^{-19}$
 
 ---
 ### electric charge conservation
@@ -18,23 +18,23 @@
 ---
 ### proton
 - positive electric charge particle
-- mass of $1.673 \times 10 ^ { - 27 }$ and electric charge of $+ 1.602 \times 10 ^ { - 19 }$ 
+- mass of $1.673\times10^{-27}$ and electric charge of $+1.602\times10^{-19}$
 
 ---
 ### electron
 - negative electric charge particle
-- mass of $9.109 \times 10 ^ { - 31 }$ and electric charge of $- 1.602 \times 10 ^ { - 19 }$ 
+- mass of $9.109\times10^{-31}$ and electric charge of $-1.602\times10^{-19}$
 
 ---
 ### neutron
 - zero electric charge particle
-- mass of $1.675 \times 10 ^ { - 27 }$ and electric charge of $0$ 
+- mass of $1.675\times10^{-27}$ and electric charge of $0$
 
 ---
 ### atomic structure
 - proton inside nucleus
 - electron inside cloud surrounding nucleus
-- neutron inside nucleus 
+- neutron inside nucleus
 ![[4 Physics/Images/atomic structure.png]]
 
 ---
@@ -104,11 +104,11 @@
 ### coulomb formula
 $$
 \begin{aligned}
-\vec F _ { e } = k \frac { | q _ { 1 } q _ { 2 } | } { r ^ { 2 } } \hat r \\
-k = \frac { 1 } { 4 \pi \epsilon _ { 0 } } \\
-q = \text {electric charge} \\
-r = \text {distance} \\
-\hat r = \text {direction}
+\vec F_{e}=k\frac{|q_{1}q_{2}|}{r^{2}}\hat r\\
+k=\frac{1}{4\pi\epsilon_{0}}\\
+q=\text{electric charge}\\
+r=\text{distance}\\
+\hat r=\text{direction}
 \end{aligned}
 $$
 
@@ -129,13 +129,13 @@ $$
 ### electric field formula
 $$
 \begin{aligned}
-\vec E = k \frac { | Q | } { r ^ { 2 } } \hat r = \frac { \vec F _ { e } } { q } \\
-k = 9.0 \times 10 ^ { 9 } \\
-Q = \text {source electric charge} \\
-r = \text {distance} \\
-\hat r = \text {direction} \\
-F _ { e } = \text {electric force} \\
-q = \text {test electric charge}
+\vec E=k\frac{|Q|}{r^{2}}\hat r=\frac{\vec F_{e}}{q}\\
+k=9.0\times10^{9}\\
+Q=\text{source electric charge}\\
+r=\text{distance}\\
+\hat r=\text{direction}\\
+F_{e}=\text{electric force}\\
+q=\text{test electric charge}
 \end{aligned}
 $$
 
@@ -161,16 +161,16 @@ $$
 
 ---
 ### electric dipole
-- separation of two electric charge with equal magnitude and opposite sign 
+- separation of two electric charge with equal magnitude and opposite sign
 ![[4 Physics/Images/electric dipole.png]]
 
 ---
 ### electric dipole formula
 $$
 \begin{aligned}
-\vec p = q \vec d \\
-q = \text {electric charge} \\
-d = \text {distance}
+\vec p=q\vec d\\
+q=\text{electric charge}\\
+d=\text{distance}
 \end{aligned}
 $$
 
@@ -183,7 +183,7 @@ $$
 ### electric dipole force formula
 $$
 \begin{aligned}
-\vec F _ { net } = 0
+\vec F_{net}=0
 \end{aligned}
 $$
 
@@ -196,11 +196,11 @@ $$
 ### electric dipole electric field formula
 $$
 \begin{aligned}
-\vec E = \frac { \vec p } { 2 \pi \epsilon _ { 0 } r ^ { 3 } } \\
-p = \text {electric dipole} \\
-q = \text {electric charge} \\
-\epsilon _ { 0 } = 8.85 \times 10 ^ { - 12 } \\
-r = \text {distance}
+\vec E=\frac{\vec p}{2\pi\epsilon_{0}r^{3}}\\
+p=\text{electric dipole}\\
+q=\text{electric charge}\\
+\epsilon_{0}=8.85\times10^{-12}\\
+r=\text{distance}
 \end{aligned}
 $$
 
@@ -213,10 +213,10 @@ $$
 ### electric dipole torque formula
 $$
 \begin{aligned}
-\vec \tau = \vec p \times \vec E = p E \sin ( \theta ) \\
-p = \text {electric dipole} \\
-E = \text {electric field} \\
-\theta = \text {angular position}
+\vec\tau=\vec p\times\vec E=pE\sin(\theta)\\
+p=\text{electric dipole}\\
+E=\text{electric field}\\
+\theta=\text{angular position}
 \end{aligned}
 $$
 
@@ -233,10 +233,10 @@ $$
 ### electric dipole potential energy formula
 $$
 \begin{aligned}
-U = - \vec p \cdot \vec E = - p E \cos ( \theta ) \\
-p = \text {electric dipole} \\
-E = \text {electric field} \\
-\theta = \text {angular position}
+U=-\vec p\cdot\vec E=-pE\cos(\theta)\\
+p=\text{electric dipole}\\
+E=\text{electric field}\\
+\theta=\text{angular position}
 \end{aligned}
 $$
 
@@ -254,13 +254,13 @@ $$
 ### electric charge density formula
 $$
 \begin{aligned}
-d Q = \lambda \  d L \\
-d Q = \sigma \  d A \\
-d Q = \rho \  d V \\
-Q = \text {electric charge} \\
-L = \text {length} \\
-A = \text {area} \\
-V = \text {volume}
+dQ=\lambda\ dL\\
+dQ=\sigma\ dA\\
+dQ=\rho\ dV\\
+Q=\text{electric charge}\\
+L=\text{length}\\
+A=\text{area}\\
+V=\text{volume}
 \end{aligned}
 $$
 

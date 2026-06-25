@@ -18,11 +18,11 @@
 ### conduction formula
 $$
 \begin{aligned}
-\frac { dQ } { dt } = \frac { k A \Delta T _ { k } } { L } \\
-k = \text {conductivity coefficient} \\
-A = \text {area} \\
-T _ { k } = \text {kelvin} \\
-L = \text {length}
+\frac{dQ}{dt}=\frac{kA\Delta T_{k}}{L}\\
+k=\text{conductivity coefficient}\\
+A=\text{area}\\
+T_{k}=\text{kelvin}\\
+L=\text{length}
 \end{aligned}
 $$
 
@@ -30,11 +30,11 @@ $$
 ### radiation formula
 $$
 \begin{aligned}
-P = \sigma A e ( T ^ { 4 } - T _ { 0 } ^ { 4 } ) \\
-\sigma = 5.67 \times 10 ^ { - 8 } \\
-A = \text {area} \\
-e = \text {emmisivity coefficient} \\
-T = \text {temperature}
+P=\sigma Ae(T^{4}-T_{0}^{4})\\
+\sigma=5.67\times10^{-8}\\
+A=\text{area}\\
+e=\text{emmisivity coefficient}\\
+T=\text{temperature}
 \end{aligned}
 $$
 
@@ -58,10 +58,10 @@ $$
 ### newtons formula of cooling
 $$
 \begin{aligned}
-\frac { dT } { dt } = k ( T - T _ { 0 } ) \\
-k = \text {cooling constant} \\
-T = \text {system temperature} \\
-T _ { 0 } = \text {surrounding temperature}
+\frac{dT}{dt}=k(T-T_{0})\\
+k=\text{cooling constant}\\
+T=\text{system temperature}\\
+T_{0}=\text{surrounding temperature}
 \end{aligned}
 $$
 
@@ -75,9 +75,9 @@ $$
 ### boyles formula
 $$
 \begin{aligned}
-p _ { 1 } V _ { 1 } = p _ { 2 } V _ { 2 } \\
-p = \text {pressure} \\
-V = \text {volume}
+p_{1}V_{1}=p_{2}V_{2}\\
+p=\text{pressure}\\
+V=\text{volume}
 \end{aligned}
 $$
 
@@ -91,9 +91,9 @@ $$
 ### charles formula
 $$
 \begin{aligned}
-\frac { V _ { 1 } } { T _ { 1 } } = \frac { V _ { 2 } } { T _ { 2 } } \\
-V = \text {volume} \\
-T = \text {temperature}
+\frac{V_{1}}{T_{1}}=\frac{V_{2}}{T_{2}}\\
+V=\text{volume}\\
+T=\text{temperature}
 \end{aligned}
 $$
 
@@ -107,9 +107,9 @@ $$
 ### avagadros formula
 $$
 \begin{aligned}
-\frac { V _ { 1 } } { n _ { 1 } } = \frac { V _ { 2 } } { n _ { 2 } } \\
-V = \text {volume} \\
-n = \text {number of moles}
+\frac{V_{1}}{n_{1}}=\frac{V_{2}}{n_{2}}\\
+V=\text{volume}\\
+n=\text{number of moles}
 \end{aligned}
 $$
 
@@ -122,10 +122,10 @@ $$
 ### microscopic ideal gas formula
 $$
 \begin{aligned}
-p V = N k _ { b } T _ { k } \\
-N = \text {number of molecules} \\
-k _ { b } = 1.38 \times 10 ^ { - 23 } \\
-T _ { k } = \text {kelvin}
+pV=Nk_{b}T_{k}\\
+N=\text{number of molecules}\\
+k_{b}=1.38\times10^{-23}\\
+T_{k}=\text{kelvin}
 \end{aligned}
 $$
 
@@ -133,10 +133,10 @@ $$
 ### macroscopic ideal gas formula
 $$
 \begin{aligned}
-p V = n R T _ { k } \\
-n = \text {number of moles} \\
-R = 8.31 \\
-T _ { k } = \text {kelvin}
+pV=nRT_{k}\\
+n=\text{number of moles}\\
+R=8.31\\
+T_{k}=\text{kelvin}
 \end{aligned}
 $$
 
@@ -144,9 +144,9 @@ $$
 ### ideal gas conversion formula
 $$
 \begin{aligned}
-R = k _ { b } N _ { A } \\
-k _ { b } = 1.38 \times 10 ^ { - 23 } \\
-N _ { A } = 6.02 \times 10 ^ { 23 }
+R=k_{b}N_{A}\\
+k_{b}=1.38\times10^{-23}\\
+N_{A}=6.02\times10^{23}
 \end{aligned}
 $$
 
@@ -158,9 +158,9 @@ $$
 ### molar mass formula
 $$
 \begin{aligned}
-M = \frac { m } { n } \\
-m = \text {mass} \\
-n = \text {number of moles}
+M=\frac{m}{n}\\
+m=\text{mass}\\
+n=\text{number of moles}
 \end{aligned}
 $$
 
@@ -172,9 +172,9 @@ $$
 ### avagadros formula
 $$
 \begin{aligned}
-N _ { A } = \frac { N } { n } = 6.02 \times 10 ^ { 23 } \\
-N = \text {number of molecules} \\
-n = \text {number of moles}
+N_{A}=\frac{N}{n}=6.02\times10^{23}\\
+N=\text{number of molecules}\\
+n=\text{number of moles}
 \end{aligned}
 $$
 
@@ -186,9 +186,9 @@ $$
 ### number density formula
 $$
 \begin{aligned}
-\rho = \frac { N } { V } \\
-N = \text {number of molecules} \\
-V = \text {volume}
+\rho=\frac{N}{V}\\
+N=\text{number of molecules}\\
+V=\text{volume}
 \end{aligned}
 $$
 
@@ -205,12 +205,12 @@ $$
 ### average translational kinetic energy formula
 $$
 \begin{aligned}
-K _ { avg } = \frac { 3 } { 2 } k _ { b } T _ { k } = \frac { 1 } { 2 } m v _ { rms } ^ { 2 } \\
-k _ { b } = 1.38 \times 10 ^ { - 23 } \\
-T _ { k } = \text {kelvin} \\
-v _ { rms } = \text {rms velocity} \\
-m = \text {mass} \\
-v = \text {velocity}
+K_{avg}=\frac{3}{2}k_{b}T_{k}=\frac{1}{2}mv_{rms}^{2}\\
+k_{b}=1.38\times10^{-23}\\
+T_{k}=\text{kelvin}\\
+v_{rms}=\text{rms velocity}\\
+m=\text{mass}\\
+v=\text{velocity}
 \end{aligned}
 $$
 
@@ -222,12 +222,12 @@ $$
 ### rms velocity formula
 $$
 \begin{aligned}
-v _ { rms } = \sqrt { \frac { 3 k _ { b } T _ { k } } { m } } = \sqrt { \frac { 3 R T _ { k } } { M } } \\
-k _ { b } = 1.38 \times 10 ^ { - 23 } \\
-T _ { k } = \text {kelvin} \\
-m = \text {mass} \\
-R = 8.31 \\
-M = \text {molar mass}
+v_{rms}=\sqrt{\frac{3k_{b}T_{k}}{m}}=\sqrt{\frac{3RT_{k}}{M}}\\
+k_{b}=1.38\times10^{-23}\\
+T_{k}=\text{kelvin}\\
+m=\text{mass}\\
+R=8.31\\
+M=\text{molar mass}
 \end{aligned}
 $$
 
@@ -240,11 +240,11 @@ $$
 ### molecular velocity formula
 $$
 \begin{aligned}
-f ( v ) = \frac { 4 } { \sqrt \pi { } } ( \frac { m } { 2 k _ { b } T _ { k } } ) ^ { \frac { 3 } { 2 } } v ^ { 2 } e ^ { ( \frac { - m v ^ { 2 } } { 2 k _ { b } T _ { k } } ) } \\
-m = \text {mass} \\
-k _ { b } = 1.38 \times 10 ^ { - 23 } \\
-T _ { k } = \text {kelvin} \\
-v = \text {velocity}
+f(v)=\frac{4}{\sqrt\pi{}}(\frac{m}{2k_{b}T_{k}})^{\frac{3}{2}}v^{2}e^{(\frac{-mv^{2}}{2k_{b}T_{k}})}\\
+m=\text{mass}\\
+k_{b}=1.38\times10^{-23}\\
+T_{k}=\text{kelvin}\\
+v=\text{velocity}
 \end{aligned}
 $$
 
@@ -257,20 +257,20 @@ $$
 ### internal energy formula
 $$
 \begin{aligned}
-E = \frac { f } { 2 } N k _ { b } T _ { k } = \frac { f } { 2 } n R T _ { k } \\
-f = \text {degrees of freedom} \\
-N = \text {number of molecules} \\
-k _ { b } = 1.38 \times 10 ^ { - 23 } \\
-T _ { k } = \text {kelvin} \\
-n = \text {number of moles} \\
-R = 8.31
+E=\frac{f}{2}Nk_{b}T_{k}=\frac{f}{2}nRT_{k}\\
+f=\text{degrees of freedom}\\
+N=\text{number of molecules}\\
+k_{b}=1.38\times10^{-23}\\
+T_{k}=\text{kelvin}\\
+n=\text{number of moles}\\
+R=8.31
 \end{aligned}
 $$
 
 ---
 ### equipartition of energy
-- average kinetic energy per molecule of ideal gas equal $\frac { 1 } { 2 } k _ { b } T$ for every degree of freedom
-- average kinetic energy per mole of ideal gas equal $\frac { 1 } { 2 } R T$ for every degree of freedom
+- average kinetic energy per molecule of ideal gas equal $\frac{1}{2}k_{b}T$ for every degree of freedom
+- average kinetic energy per mole of ideal gas equal $\frac{1}{2}RT$ for every degree of freedom
 
 ---
 ### degrees of freedom
@@ -282,26 +282,26 @@ $$
 ### degrees of freedom formula
 $$
 \begin{aligned}
-f _ { 1 } = 3 _ { t } \\
-f _ { 2 } = 3 _ { t } + 2 _ { r } \\
-t = \text {translation} \\
-r = \text {rotation}
+f_{1}=3_{t}\\
+f_{2}=3_{t}+2_{r}\\
+t=\text{translation}\\
+r=\text{rotation}
 \end{aligned}
 $$
 
 ---
 ### specific heat
-- amount of heat that must enter substance to change temperature by $\Delta T$ 
+- amount of heat that must enter substance to change temperature by $\Delta T$
 - high specific heat resist temperature change more than low specific heat
 
 ---
 ### specific heat formula
 $$
 \begin{aligned}
-Q = n c \Delta T _ { k } \\
-n = \text {number of moles} \\
-c = \text {specific heat capacity} \\
-T _ { k } = \text {kelvin}
+Q=nc\Delta T_{k}\\
+n=\text{number of moles}\\
+c=\text{specific heat capacity}\\
+T_{k}=\text{kelvin}
 \end{aligned}
 $$
 
@@ -314,9 +314,9 @@ $$
 ### constant volume specific heat capacity formula
 $$
 \begin{aligned}
-c _ { v } = \frac { f } { 2 } R \\
-f = \text {degrees of freedom} \\
-R = 8.31
+c_{v}=\frac{f}{2}R\\
+f=\text{degrees of freedom}\\
+R=8.31
 \end{aligned}
 $$
 

@@ -1,30 +1,30 @@
 ### derivative rules
 $$
 \begin{aligned}
-\frac { d } { dx } c = 0 \\
-\frac { d } { dx } u = 1 \\
-\frac { d } { dx } c u = c u ' \\
-\frac { d } { dx } u \pm v = u ' \pm v ' \\
-\frac { d } { dx } u v = u ' v + u v ' \\
-\frac { d } { dx } \frac { u } { v } = \frac { u ' v - u v ' } { v ^ { 2 } } \\
-\frac { d } { dx } u ^ { n } = n u ^ { n - 1 } u ' \\
-\frac { d } { dx } | u | = \frac { u } { | u | } u ' \\
-\frac { d } { dx } \ln ( u ) = \frac { u ' } { u } \\
-\frac { d } { dx } e ^ { u } = e ^ { u } u ' \\
-\frac { d } { dx } \log _ { a } ( u ) = \frac { u ' } { \ln ( a ) u } \\
-\frac { d } { dx } a ^ { u } = \ln ( a ) a ^ { u } u ' \\
-\frac { d } { dx } \sin ( u ) = \cos ( u ) u ' \\
-\frac { d } { dx } \cos ( u ) = - \sin ( u ) u ' \\
-\frac { d } { dx } \tan ( u ) = \sec ^ { 2 } ( u ) u ' \\
-\frac { d } { dx } \cot ( u ) = - \csc ^ { 2 } ( u ) u ' \\
-\frac { d } { dx } \sec ( u ) = \sec ( u ) \tan ( u ) u ' \\
-\frac { d } { dx } \csc ( u ) = - \csc ( u ) \cot ( u ) u ' \\
-\frac { d } { dx } \arcsin ( u ) = \frac { u ' } { \sqrt { 1 - u ^ { 2 } } } \\
-\frac { d } { dx } \arccos ( u ) = \frac { - u ' } { \sqrt { 1 - u ^ { 2 } } } \\
-\frac { d } { dx } \arctan ( u ) = \frac { u ' } { 1 + u ^ { 2 } } \\
-\frac { d } { dx } \text {arccot} ( u ) = \frac { - u ' } { 1 + u ^ { 2 } } \\
-\frac { d } { dx } \text {arcsec} ( u ) = \frac { u ' } { | u | \sqrt { u ^ { 2 } - 1 } } \\
-\frac { d } { dx } \text {arccsc} ( u ) = \frac { - u ' } { | u | \sqrt { u ^ { 2 } - 1 } }
+\frac{d}{dx}c=0\\
+\frac{d}{dx}u=1\\
+\frac{d}{dx}cu=cu'\\
+\frac{d}{dx}u\pm v=u'\pm v'\\
+\frac{d}{dx}uv=u'v+uv'\\
+\frac{d}{dx}\frac{u}{v}=\frac{u'v-uv'}{v^{2}}\\
+\frac{d}{dx}u^{n}=nu^{n-1}u'\\
+\frac{d}{dx}|u|=\frac{u}{|u|}u'\\
+\frac{d}{dx}\ln(u)=\frac{u'}{u}\\
+\frac{d}{dx}e^{u}=e^{u}u'\\
+\frac{d}{dx}\log_{a}(u)=\frac{u'}{\ln(a)u}\\
+\frac{d}{dx}a^{u}=\ln(a)a^{u}u'\\
+\frac{d}{dx}\sin(u)=\cos(u)u'\\
+\frac{d}{dx}\cos(u)=-\sin(u)u'\\
+\frac{d}{dx}\tan(u)=\sec^{2}(u)u'\\
+\frac{d}{dx}\cot(u)=-\csc^{2}(u)u'\\
+\frac{d}{dx}\sec(u)=\sec(u)\tan(u)u'\\
+\frac{d}{dx}\csc(u)=-\csc(u)\cot(u)u'\\
+\frac{d}{dx}\arcsin(u)=\frac{u'}{\sqrt{1-u^{2}}}\\
+\frac{d}{dx}\arccos(u)=\frac{-u'}{\sqrt{1-u^{2}}}\\
+\frac{d}{dx}\arctan(u)=\frac{u'}{1+u^{2}}\\
+\frac{d}{dx}\text{arccot}(u)=\frac{-u'}{1+u^{2}}\\
+\frac{d}{dx}\text{arcsec}(u)=\frac{u'}{|u|\sqrt{u^{2}-1}}\\
+\frac{d}{dx}\text{arccsc}(u)=\frac{-u'}{|u|\sqrt{u^{2}-1}}
 \end{aligned}
 $$
 
@@ -36,7 +36,7 @@ $$
 ### related rate formula
 $$
 \begin{aligned}
-\frac { dy } { dt } = \frac { dy } { du } \times \frac { du } { dt }
+\frac{dy}{dt}=\frac{dy}{du}\times\frac{du}{dt}
 \end{aligned}
 $$
 
@@ -54,7 +54,7 @@ $$
 ### inverse sine range
 $$
 \begin{aligned}
-{}[ \frac { - \pi } { 2 } , \frac { \pi } { 2 } ]
+{}[\frac{-\pi}{2},\frac{\pi}{2}]
 \end{aligned}
 $$
 
@@ -62,7 +62,7 @@ $$
 ### inverse cosine range
 $$
 \begin{aligned}
-{}[ 0 , \pi ]
+{}[0,\pi]
 \end{aligned}
 $$
 
@@ -70,7 +70,7 @@ $$
 ### inverse tangent range
 $$
 \begin{aligned}
-{}[ \frac { - \pi } { 2 } , \frac { \pi } { 2 } ]
+{}[\frac{-\pi}{2},\frac{\pi}{2}]
 \end{aligned}
 $$
 
@@ -89,8 +89,8 @@ $$
 ### inverse trigonometric formula
 $$
 \begin{aligned}
-y = \sin ^ { - 1 } ( x ) \\
-\sin ( y ) = x
+y=\sin^{-1}(x)\\
+\sin(y)=x
 \end{aligned}
 $$
 
@@ -98,12 +98,12 @@ $$
 ### inverse trigonometric derivative rules
 $$
 \begin{aligned}
-\frac { d } { dx } \arcsin ( u ) = \frac { u ' } { \sqrt { 1 - u ^ { 2 } } } \\
-\frac { d } { dx } \arccos ( u ) = \frac { - u ' } { \sqrt { 1 - u ^ { 2 } } } \\
-\frac { d } { dx } \arctan ( u ) = \frac { u ' } { 1 + u ^ { 2 } } \\
-\frac { d } { dx } \text {arccot} ( u ) = \frac { - u ' } { 1 + u ^ { 2 } } \\
-\frac { d } { dx } \text {arcsec} ( u ) = \frac { u ' } { | u | \sqrt { u ^ { 2 } - 1 } } \\
-\frac { d } { dx } \text {arccsc} ( u ) = \frac { - u ' } { | u | \sqrt { u ^ { 2 } - 1 } }
+\frac{d}{dx}\arcsin(u)=\frac{u'}{\sqrt{1-u^{2}}}\\
+\frac{d}{dx}\arccos(u)=\frac{-u'}{\sqrt{1-u^{2}}}\\
+\frac{d}{dx}\arctan(u)=\frac{u'}{1+u^{2}}\\
+\frac{d}{dx}\text{arccot}(u)=\frac{-u'}{1+u^{2}}\\
+\frac{d}{dx}\text{arcsec}(u)=\frac{u'}{|u|\sqrt{u^{2}-1}}\\
+\frac{d}{dx}\text{arccsc}(u)=\frac{-u'}{|u|\sqrt{u^{2}-1}}
 \end{aligned}
 $$
 
@@ -113,12 +113,12 @@ $$
 
 ---
 ### maxima formula
-- $f ( n ) ≥ f ( x )$
+- $f(n)≥f(x)$
 ![[3 Calculus/Images/maxima formula.png]]
 
 ---
 ### minima formula
-- $f ( n ) ≤ f ( x )$
+- $f(n)≤f(x)$
 ![[3 Calculus/Images/minima formula.png]]
 
 ---
@@ -154,7 +154,7 @@ $$
 
 ---
 ### extreme value theorem
-- if $f ( x )$ continuous on $[ a , b ]$ then $f ( x )$ contains both global minimum and global maximum on the interval
+- if $f(x)$ continuous on $[a,b]$ then $f(x)$ contains both global minimum and global maximum on the interval
 
 ---
 ### calculate global extrema
@@ -164,25 +164,25 @@ $$
 
 ---
 ### rolles theorem
-- if $f ( x )$ continuous on $[ a , b ]$ and differentiable on $( a , b )$ and $f ( a )$ equal $f ( b )$ then there exists local extrema on $( a , b )$
+- if $f(x)$ continuous on $[a,b]$ and differentiable on $(a,b)$ and $f(a)$ equal $f(b)$ then there exists local extrema on $(a,b)$
 ![[3 Calculus/Images/rolles theorem.png]]
 
 ---
 ### calculate rolles theorem
 - evaluate function at interval endpoints
 - differentiate function
-- find where $f ' ( x )$ equal zero within interval
+- find where $f'(x)$ equal zero within interval
 
 ---
 ### mean value theorem
-- if $f ( x )$ continuous on $[ a , b ]$ and differentiable on $( a , b )$ then there exists tangent segment parallel secant segment
+- if $f(x)$ continuous on $[a,b]$ and differentiable on $(a,b)$ then there exists tangent segment parallel secant segment
 ![[3 Calculus/Images/mean value theorem.png]]
 
 ---
 ### mean value formula
 $$
 \begin{aligned}
-f ' ( x ) = \frac { f ( b ) - f ( a ) } { b - a }
+f'(x)=\frac{f(b)-f(a)}{b-a}
 \end{aligned}
 $$
 
@@ -190,38 +190,38 @@ $$
 ### calculate mean value theorem
 - compute average rate of change over interval endpoints
 - differentiate function
-- find where $f ' ( x )$ equal average rate of change within interval
+- find where $f'(x)$ equal average rate of change within interval
 
 ---
 ### increasing function
-- $f ( x )$ increases as *x* increases
+- $f(x)$ increases as *x* increases
 
 ---
 ### decreasing function
-- $f ( x )$ decreases as *x* increases
+- $f(x)$ decreases as *x* increases
 
 ---
 ### constant function
-- $f ( x )$ constant as *x* increases
+- $f(x)$ constant as *x* increases
 
 ---
 ### increasing decreasing test
-- if $f ' ( x ) > 0$ where $a < x < b$ then function increasing
-- if $f ' ( x ) < 0$ where $a < x < b$ then function decreasing
-- if $f ' ( x ) = 0$ where $a < x < b$ then function constant
+- if $f'(x)>0$ where $a<x<b$ then function increasing
+- if $f'(x)<0$ where $a<x<b$ then function decreasing
+- if $f'(x)=0$ where $a<x<b$ then function constant
 ![[3 Calculus/Images/increasing decreasing test.png]]
 
 ---
 ### calculate increasing decreasing
-- calculate critical numbers of $f ( x )$ on $( a , b )$
+- calculate critical numbers of $f(x)$ on $(a,b)$
 - evaluate first derivative between domain and critical numbers
 - increasing decreasing test
 
 ---
 ### first derivative test
-- if $f ' ( x )$ changes from negative to positive at *n* then $f ( n )$ local minima
-- if $f ' ( x )$ changes from positive to negative at *n* then $f ( n )$ local maxima
-- if $f ' ( x )$ remains equal at *n* then $f ( n )$ not extrema
+- if $f'(x)$ changes from negative to positive at *n* then $f(n)$ local minima
+- if $f'(x)$ changes from positive to negative at *n* then $f(n)$ local maxima
+- if $f'(x)$ remains equal at *n* then $f(n)$ not extrema
 ![[3 Calculus/Images/first derivative test.png]]
 
 ---
@@ -236,22 +236,22 @@ $$
 
 ---
 ### upward concavity
-- $f ' ( x )$ increases as *x* increases
+- $f'(x)$ increases as *x* increases
 - tangent segment below curve
 
 ---
 ### downward concavity
-- $f ' ( x )$ decreases as *x* increases
+- $f'(x)$ decreases as *x* increases
 - tangent segment above curve
 
 ---
 ### second derivative concavity test
-- if $f ' ' ( x ) > 0$ then upward concavity
-- if $f ' ' ( x ) < 0$ then downward concavity
+- if $f''(x)>0$ then upward concavity
+- if $f''(x)<0$ then downward concavity
 
 ---
 ### calculate concavity
-- calculate critical numbers of $f ' ( x )$ on $( a , b )$
+- calculate critical numbers of $f'(x)$ on $(a,b)$
 - evaluate second derivative between domain and critical numbers
 - second derivative concavity test
 
@@ -267,14 +267,14 @@ $$
 
 ---
 ### second derivative extrema test
-- if $f ' ' ( x ) > 0$ at *n* then $f ( n )$ local minima
-- if $f ' ' ( x ) < 0$ at n then $f ( n )$ local maxima
-- $f ' ( n )$ must equal 0
+- if $f''(x)>0$ at *n* then $f(n)$ local minima
+- if $f''(x)<0$ at n then $f(n)$ local maxima
+- $f'(n)$ must equal 0
 ![[3 Calculus/Images/second derivative extrema test.png]]
 
 ---
 ### calculate local extrema
-- calculate critical numbers of $f ( x )$ on $( a , b )$
+- calculate critical numbers of $f(x)$ on $(a,b)$
 - evaluate second derivative at critical numbers
 - second derivative extrema test
 
@@ -325,20 +325,20 @@ $$
 ### linear approximation formula
 $$
 \begin{aligned}
-y = f ' ( n ) ( x - n ) + f ( n )
+y=f'(n)(x-n)+f(n)
 \end{aligned}
 $$
 
 ---
 ### differential versus delta
-- $d y$ approximates change
+- $dy$ approximates change
 - $\Delta y$ exacts change
 
 ---
 ### differential formula
 $$
 \begin{aligned}
-d y = f ' ( x ) d x
+dy=f'(x)dx
 \end{aligned}
 $$
 
@@ -346,7 +346,7 @@ $$
 ### delta formula
 $$
 \begin{aligned}
-\Delta y = f ( x + \Delta x ) - f ( x )
+\Delta y=f(x+\Delta x)-f(x)
 \end{aligned}
 $$
 
@@ -358,8 +358,8 @@ $$
 ### error formula
 $$
 \begin{aligned}
-\Delta y = f ' ( x ) \Delta x \\
-\Delta x = \text {error}
+\Delta y=f'(x)\Delta x\\
+\Delta x=\text{error}
 \end{aligned}
 $$
 
@@ -371,7 +371,7 @@ $$
 ### relative error formula
 $$
 \begin{aligned}
-\Delta y = \frac { dy } { y }
+\Delta y=\frac{dy}{y}
 \end{aligned}
 $$
 

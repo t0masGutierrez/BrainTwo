@@ -6,30 +6,30 @@
 ### injective linear transformation formula
 $$
 \begin{aligned}
-L : \mathcal V \rightarrow \mathcal W \iff \forall \vec v _ { 1 } , \vec v _ { 2 } \in \mathcal V : L ( \vec v _ { 1 } ) = L ( \vec v _ { 2 } ) \implies \vec v _ { 1 } = \vec v _ { 2 } \\
-L = \text {injective linear transformation} \\
-\mathcal V = \text {domain vector space} \\
-\mathcal W = \text {codomain vector space} \\
-\vec v = \text {preimage} \\
-L ( \vec v ) = \text {image}
+L:\mathcal V\rightarrow\mathcal W\iff\forall\vec v_{1},\vec v_{2}\in\mathcal V:L(\vec v_{1})=L(\vec v_{2})\implies\vec v_{1}=\vec v_{2}\\
+L=\text{injective linear transformation}\\
+\mathcal V=\text{domain vector space}\\
+\mathcal W=\text{codomain vector space}\\
+\vec v=\text{preimage}\\
+L(\vec v)=\text{image}
 \end{aligned}
 $$
 
 ---
 ### surjective linear transformation
-- every element of codomain map to $\ge 1$ element of domain
+- every element of codomain map to $\ge1$ element of domain
 - onto
 
 ---
 ### surjective linear transformation formula
 $$
 \begin{aligned}
-L : \mathcal V \rightarrow \mathcal W \iff \forall \vec w \in \mathcal W , \exists \vec v \in \mathcal V : L ( \vec v ) = \vec w \\
-L = \text {surjective linear transformation} \\
-\mathcal V = \text {domain vector space} \\
-\mathcal W = \text {codomain vector space} \\
-\vec v = \text {preimage} \\
-L ( \vec v ) = \text {image}
+L:\mathcal V\rightarrow\mathcal W\iff\forall\vec w\in\mathcal W,\exists\vec v\in\mathcal V:L(\vec v)=\vec w\\
+L=\text{surjective linear transformation}\\
+\mathcal V=\text{domain vector space}\\
+\mathcal W=\text{codomain vector space}\\
+\vec v=\text{preimage}\\
+L(\vec v)=\text{image}
 \end{aligned}
 $$
 
@@ -41,10 +41,10 @@ $$
 ### bijective linear transformation formula
 $$
 \begin{aligned}
-L : \mathcal V \rightarrow \mathcal W \land \dim ( \mathcal V ) = \dim ( \mathcal W ) \ne \infty \implies L = \text {injection} \iff L = \text {surjection} \\
-L = \text {linear transformation} \\
-\mathcal V = \text {domain vector space} \\
-\mathcal W = \text {codomain vector space}
+L:\mathcal V\rightarrow\mathcal W\land\dim(\mathcal V)=\dim(\mathcal W)\ne\infty\implies L=\text{injection}\iff L=\text{surjection}\\
+L=\text{linear transformation}\\
+\mathcal V=\text{domain vector space}\\
+\mathcal W=\text{codomain vector space}
 \end{aligned}
 $$
 
@@ -57,8 +57,8 @@ $$
 ### injective dimension property formula
 $$
 \begin{aligned}
-\text {ker} ( L ) = \{ \vec 0 _ { \mathcal V } \} \lor \text {dim(ker} \  L ) = 0 \\
-L = \text {injective linear transformation}
+\text{ker}(L)=\{\vec0_{\mathcal V}\}\lor\text{dim(ker}\ L)=0\\
+L=\text{injective linear transformation}
 \end{aligned}
 $$
 
@@ -70,10 +70,10 @@ $$
 ### injective linear independence property formula
 $$
 \begin{aligned}
-L = \text {injection} \land \text {rank} ( T ) = \text {dim} ( \mathcal V ) \land L ( T ) = U \implies \text {rank} ( U ) = \text {dim} ( \mathcal V ) \\
-L : T \subset \mathcal V \rightarrow U \subset \mathcal W \\
-L = \text {injective linear transformation} \\
-T , L ( T ) = \text {linearly independent set}
+L=\text{injection}\land\text{rank}(T)=\text{dim}(\mathcal V)\land L(T)=U\implies\text{rank}(U)=\text{dim}(\mathcal V)\\
+L:T\subset\mathcal V\rightarrow U\subset\mathcal W\\
+L=\text{injective linear transformation}\\
+T,L(T)=\text{linearly independent set}
 \end{aligned}
 $$
 
@@ -86,8 +86,8 @@ $$
 ### surjective dimension property formula
 $$
 \begin{aligned}
-\text {range} ( L ) = \mathcal W \lor \text {dim(range} \  L ) = \dim ( \mathcal W ) \ne \infty \\
-L = \text {surjective linear transformation}
+\text{range}(L)=\mathcal W\lor\text{dim(range}\ L)=\dim(\mathcal W)\ne\infty\\
+L=\text{surjective linear transformation}
 \end{aligned}
 $$
 
@@ -99,10 +99,10 @@ $$
 ### surjective spanning property formula
 $$
 \begin{aligned}
-L = \text {surjection} \land \text {span} ( T ) = \mathcal V \land L ( T ) = U \implies \text {span} ( U ) = \mathcal W \\
-L : T \subset \mathcal V \rightarrow U \subset \mathcal W \\
-L = \text {surjective linear transformation} \\
-T , L ( T ) = \text {spanning set}
+L=\text{surjection}\land\text{span}(T)=\mathcal V\land L(T)=U\implies\text{span}(U)=\mathcal W\\
+L:T\subset\mathcal V\rightarrow U\subset\mathcal W\\
+L=\text{surjective linear transformation}\\
+T,L(T)=\text{spanning set}
 \end{aligned}
 $$
 
