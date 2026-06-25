@@ -33,6 +33,12 @@ def sanitize_math_text(text):
 
     return leading + compact_math_tokens(stripped_body) + line_ending
 
+def trim_trailing_whitespace(text):
+    line_ending_match = LINE_ENDING_PATTERN.search(text)
+    line_ending = line_ending_match.group(1) if line_ending_match else ""
+    body = text[: -len(line_ending)] if line_ending else text
+    return body.rstrip(" \t") + line_ending
+
 def compact_math_tokens(text):
     parts = []
     i = 0
@@ -151,6 +157,7 @@ def sanitize_markdown_math(text, protect_leading_square_brackets=False):
         stripped_line = lines[i].strip()
         if stripped_line == "$$":
             in_math_block = not in_math_block
+            lines[i] = trim_trailing_whitespace(lines[i])
             continue
 
         if in_math_block:
@@ -159,6 +166,7 @@ def sanitize_markdown_math(text, protect_leading_square_brackets=False):
                 lines[i] = protect_mathjax_leading_square_bracket(lines[i])
         else:
             lines[i] = sanitize_inline_math(lines[i])
+        lines[i] = trim_trailing_whitespace(lines[i])
 
     return "".join(lines)
 
