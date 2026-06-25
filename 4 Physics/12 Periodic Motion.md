@@ -15,19 +15,20 @@ $$
 
 ---
 ### period
-- time between 1 revolution
+- time between 1 oscillation
+![300](4%20Physics/Images/period.png)
 
 ---
 ### period formula
 $$
 \begin{aligned}
-T = \frac { \text {time} } { \text {number of revolutions} }
+T = \frac { \text {time} } { \text {number of oscillations} }
 \end{aligned}
 $$
 
 ---
 ### oscillation frequency
-- number of revolutions per time
+- number of oscillations per time
 
 ---
 ### oscillation frequency formula
@@ -355,6 +356,14 @@ F = \text {force} \\
 A = \text {amplitude}
 \end{aligned}
 $$
+
+---
+### driving frequency
+- number of oscillations per time via continuous force
+
+---
+### natural frequency
+- number of oscillations per time via initial disturbance
 
 ---
 ### resonance

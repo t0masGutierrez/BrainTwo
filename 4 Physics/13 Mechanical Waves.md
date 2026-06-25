@@ -94,6 +94,32 @@ C = \text {constant}
 $$
 
 ---
+### wavelength
+- distance between 1 revolution
+![[4 Physics/Images/wavelength.png|250]]
+
+---
+### wavelength formula
+$$
+\begin{aligned}
+\lambda = \frac { \text {distance} } { \text {number of revolutions} }
+\end{aligned}
+$$
+
+---
+### wavenumber
+- number of wavelengths per revolution
+
+---
+### wavenumber formula
+$$
+\begin{aligned}
+k = \frac { 2 \pi } { \lambda } \\
+\lambda = \text {wavelength}
+\end{aligned}
+$$
+
+---
 ### particle displacement
 - displacement of medium particle from equilibrium
 ![300](4%20Physics/Images/particle%20displacement.gif)
@@ -152,32 +178,6 @@ x = \text {position}
 $$
 
 ---
-### wavelength
-- distance between 1 revolution
-![[4 Physics/Images/wavelength.png|250]]
-
----
-### wavelength formula
-$$
-\begin{aligned}
-\lambda = \frac { \text {distance} } { \text {number of revolutions} }
-\end{aligned}
-$$
-
----
-### wavenumber
-- number of wavelengths per revolution
-
----
-### wavenumber formula
-$$
-\begin{aligned}
-k = \frac { 2 \pi } { \lambda } \\
-\lambda = \text {wavelength}
-\end{aligned}
-$$
-
----
 ### wave equation
 - temporal acceleration directly proportional spatial curvature
 ![300](4%20Physics/Images/wave%20equation.png)
@@ -211,6 +211,20 @@ t = \text {time}
 $$
 
 ---
+### linear mass density
+- measure of string compactness
+
+---
+### linear mass density formula
+$$
+\begin{aligned}
+\mu = \frac { m } { L } \\
+m = \text {mass} \\
+L = \text {length}
+\end{aligned}
+$$
+
+---
 ### wave velocity
 - rate of wavefront aka phase velocity
 
@@ -235,20 +249,6 @@ $$
 $$
 \begin{aligned}
 v = \sqrt { \frac { \text {elasticity} } { \text {inertia} } }
-\end{aligned}
-$$
-
----
-### linear mass density
-- measure of string compactness
-
----
-### linear mass density formula
-$$
-\begin{aligned}
-\mu = \frac { m } { L } \\
-m = \text {mass} \\
-L = \text {length}
 \end{aligned}
 $$
 
@@ -282,8 +282,8 @@ $$
 
 ---
 ### tensed string wave power
-- rate of doing work
-- rate of mechanical energy transfer
+- rate of doing work along string under tension
+- rate of mechanical energy transfer along string under tension
 ![300](4%20Physics/Images/tensed%20string%20wave%20power.png)
 
 ---
@@ -345,7 +345,7 @@ $$
 
 ---
 ### principle of superposition
-- combination of two or more waves equal the sum of amplitudes
+- combination of two or more waves equal sum of displacements
 
 ---
 ### principle of superposition formula
@@ -437,84 +437,95 @@ $$
 ![400](4%20Physics/Images/node.png)
 
 ---
+### node formula
+$$
+\begin{aligned}
+x _ { n } = \frac { n \lambda } { 2 } \\
+\lambda = \text {wavelength}
+\end{aligned}
+$$
+
+---
 ### antinode
 - position of maximum displacement
 ![300](4%20Physics/Images/antinode.png)
 
 ---
-### driving frequency
-- number of revolutions per time via driving force
+### antinode formula
+$$
+\begin{aligned}
+x _ { n } = \frac { ( 2 n + 1 ) \lambda } { 4 } \\
+\lambda = \text {wavelength}
+\end{aligned}
+$$
 
 ---
-### natural frequency
-- number of revolutions per time via natural disturbance
-
----
-### resonance
-- driving frequency equal natural frequency thus maximizing amplitude
-![[4 Physics/Images/resonance.png]]
-
----
-### fundamental mode
+### fundamental frequency
 - lowest possible oscillation frequency of standing wave
-![[4 Physics/Images/fundamental mode.png]]
+- aka 1st harmonic or 0th overtone
+![400](4%20Physics/Images/fundamental%20frequency.png)
+
+---
+### fundamental frequency formula
+$$
+\begin{aligned}
+f _ { 1 } = \frac { v } { \lambda _ { 1 } } = \frac { 1 } { 2 L } \sqrt { \frac { F _ { T } } { \mu } } \\
+v = \text {velocity} \\
+\lambda = \text {wavelength} \\
+L = \text {length} \\
+F = \text {force} \\
+\mu = \text {linear mass density}
+\end{aligned}
+$$
 
 ---
 ### normal mode
-- possible standing wave pattern where all particles oscillate with the same frequency
-- single antinode equal fundamental mode, 1st harmonic, and 0th overtone
-![[4 Physics/Images/normal mode.png]]
+- standing wave pattern where where all particles oscillate with the same frequency 
+![300](4%20Physics/Images/normal%20mode.png)
 
 ---
-### resonant wavelength
-- wavelength of normal mode
-
----
-### resonant wavelength formula
+### normal mode formula
 $$
 \begin{aligned}
-\lambda _ { n } = \frac { 2 L } { n } \\
-L = \text {length} \\
-n = \text {number of antinodes}
-\end{aligned}
-$$
-
----
-### resonant frequency
-- integer multiple of fundamental frequency
-
----
-### resonant frequency formula
-$$
-\begin{aligned}
-f _ { n } = \frac { nv } { 2 L } \\
-n = \text {number of antinodes} \\
-v = \text {wave velocity} \\
-L = \text {length}
-\end{aligned}
-$$
-
----
-### standing wave position
-- particle displacement as function of space and time
-
----
-### standing wave position formula
-$$
-\begin{aligned}
-y ( x , t ) = 2 A \sin ( k x ) \sin ( \omega t ) \\
-A = \text {amplitude} \\
-k = \text {wave number} \\
-x = \text {position} \\
-\omega = \text {angular frequency} \\
-t = \text {time}
+f _ { n } = n f _ { 1 } \\
+f _ { 1 } = \text {fundamental frequency}
 \end{aligned}
 $$
 
 ---
 ### fourier transform
-- represent sinusoidal wave as sum of sinusoidal waves
+- complex sinusoidal wave equal sum of basic sinusoidal waves
 ![[4 Physics/Images/fourier transform.png|300]]
 
 ---
+### fourier transform formula
+$$
+\begin{aligned}
+F ( \omega ) = \int _ { - \infty } ^ { \infty } f ( x ) \exp ( - i \omega x ) d x \\
+f ( x ) = \frac { 1 } { 2 \pi } \int _ { - \infty } ^ { \infty } F ( \omega ) \exp ( i \omega x ) d \omega \\
+F = \text {frequency function} \\
+f = \text {spacetime function} \\
+i = \text {imaginary unit} \\
+\omega = \text {angular frequency} \\
+x = \text {position}
+\end{aligned}
+$$
 
+---
+### fourier series
+- periodic function equal sum of basic periodic functions
+
+---
+### fourier series formula
+$$
+\begin{aligned}
+f ( t ) = f ( t + T ) \implies f ( t ) = \sum _ { n = - \infty } ^ { \infty } c _ { n } \exp ( \frac { 2 \pi n } { T } i t ) \\
+f = \text {periodic function} \\
+t = \text {time} \\
+T = \text {period} \\
+c = \text {fourier coefficient} \\
+i = \text {imaginary unit}
+\end{aligned}
+$$
+
+---
