@@ -22,42 +22,6 @@ $$
 $$
 
 ---
-### convolutional neural network
-- definition
-
----
-### convolutional neural network formula
-$$
-\begin{aligned}
-
-\end{aligned}
-$$
-
----
-### long short-term memory
-- definition
-
----
-### long short-term memory formula
-$$
-\begin{aligned}
-
-\end{aligned}
-$$
-
----
-### deep belief network
-- definition
-
----
-### deep belief network formula
-$$
-\begin{aligned}
-
-\end{aligned}
-$$
-
----
 ### autoencoder
 - definition
 
@@ -70,11 +34,35 @@ $$
 $$
 
 ---
-### AlexNet
+### convolutional neural network
 - definition
 
 ---
-### AlexNet formula
+### convolutional neural network formula
+$$
+\begin{aligned}
+
+\end{aligned}
+$$
+
+---
+### recurrent neural network
+- definition
+
+---
+### recurrent neural network formula
+$$
+\begin{aligned}
+
+\end{aligned}
+$$
+
+---
+### mixture of experts
+- definition
+
+---
+### mixture of experts formula
 $$
 \begin{aligned}
 
@@ -94,54 +82,6 @@ $$
 $$
 
 ---
-### encoder-decoder seq2seq
-- definition
-
----
-### encoder-decoder seq2seq formula
-$$
-\begin{aligned}
-
-\end{aligned}
-$$
-
----
-### generative adversarial network
-- definition
-
----
-### generative adversarial network formula
-$$
-\begin{aligned}
-
-\end{aligned}
-$$
-
----
-### ResNet
-- definition
-
----
-### ResNet formula
-$$
-\begin{aligned}
-
-\end{aligned}
-$$
-
----
-### U-Net
-- definition
-
----
-### U-Net formula
-$$
-\begin{aligned}
-
-\end{aligned}
-$$
-
----
 ### transformer
 - definition
 
@@ -154,35 +94,11 @@ $$
 $$
 
 ---
-### BERT
-- definition
-
----
-### BERT formula
-$$
-\begin{aligned}
-
-\end{aligned}
-$$
-
----
 ### GPT
 - definition
 
 ---
 ### GPT formula
-$$
-\begin{aligned}
-
-\end{aligned}
-$$
-
----
-### diffusion
-- definition
-
----
-### diffusion formula
 $$
 \begin{aligned}
 
