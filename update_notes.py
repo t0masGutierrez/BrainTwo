@@ -13,21 +13,6 @@ REMOTE_IMAGE_PATTERN = re.compile(r"^(?:https?:|data:|blob:)", re.IGNORECASE)
 IMAGE_FOLDER_NAME = "Images"
 IGNORED_VAULT_FOLDERS = {"Templates", "BrainTwo.base"}
 TEXT_ARGUMENT_COMMANDS = {"\\operatorname", "\\text"}
-COMPACT_WORD_ARGUMENT_COMMANDS = {
-    "\\begin",
-    "\\end",
-    "\\textcolor",
-    "\\color",
-}
-SPACED_WORD_ARGUMENT_COMMANDS = {
-    *TEXT_ARGUMENT_COMMANDS,
-    "\\mathrm",
-    "\\mathbf",
-    "\\mathbb",
-    "\\mathcal",
-    "\\mathfrak",
-}
-WORD_ARGUMENT_COMMANDS = COMPACT_WORD_ARGUMENT_COMMANDS | SPACED_WORD_ARGUMENT_COMMANDS
 VAULT_ROOT = os.path.join(os.path.expanduser("~"), "Obsidian", "BrainTwo")
 OUTPUT_ROOT = os.path.join(os.path.expanduser("~"), "GitHub", "BrainTwo")
 
@@ -46,13 +31,10 @@ def sanitize_math_text(text):
     if not stripped_body:
         return text
 
-    return leading + space_math_tokens(stripped_body) + line_ending
+    return leading + compact_math_tokens(stripped_body) + line_ending
 
-def space_math_tokens(text):
-    return " ".join(math_tokens(text))
-
-def math_tokens(text):
-    tokens = []
+def compact_math_tokens(text):
+    parts = []
     i = 0
 
     while i < len(text):
@@ -61,89 +43,46 @@ def math_tokens(text):
             i += 1
             continue
 
-        if char in "_^":
-            script_tokens, i = read_script_tokens(text, i)
-            tokens.extend(script_tokens)
-            continue
-
         if char == "\\":
             command, i = read_latex_command(text, i)
-            if command in WORD_ARGUMENT_COMMANDS:
-                next_i = skip_spaces(text, i)
+            parts.append(command)
+            next_i = skip_spaces(text, i)
+
+            if command in TEXT_ARGUMENT_COMMANDS:
                 if next_i < len(text) and text[next_i] == "{":
                     argument, end_i = read_braced_argument(text, next_i)
-                    normalized_argument = normalize_word_argument(argument)
-                    if command == "\\text":
-                        tokens.append(f"{command} {{{normalized_argument}}}")
-                    elif command in COMPACT_WORD_ARGUMENT_COMMANDS:
-                        tokens.append(f"{command}{{{normalized_argument}}}")
-                    else:
-                        tokens.extend([command, "{", normalized_argument, "}"])
+                    parts.append(f"{{{normalize_text_argument(argument)}}}")
                     i = end_i
                     continue
-            tokens.append(command)
+
+            if needs_latex_command_separator(command, text, next_i):
+                parts.append(" ")
             continue
 
         if char == "{":
             argument, i = read_braced_argument(text, i)
-            tokens.extend(math_braced_tokens(argument))
-            continue
-
-        if char.isalpha():
-            tokens.append(char)
-            i += 1
+            parts.append(f"{{{compact_math_tokens(argument)}}}")
             continue
 
         if char.isdigit():
             number, i = read_number(text, i)
-            tokens.append(number)
+            parts.append(number)
             continue
 
-        tokens.append(char)
+        parts.append(char)
         i += 1
 
-    return tokens
+    return "".join(parts)
 
-def read_script_tokens(text, start):
-    marker = text[start]
-    i = skip_spaces(text, start + 1)
+def needs_latex_command_separator(command, text, next_i):
+    return (
+        is_latex_word_command(command)
+        and next_i < len(text)
+        and text[next_i].isalpha()
+    )
 
-    if i >= len(text):
-        return [marker], i
-
-    if text[i] == "{":
-        argument, end_i = read_braced_argument(text, i)
-        return [marker, *math_braced_tokens(argument)], end_i
-
-    atom_tokens, end_i = read_script_atom_tokens(text, i)
-    return [marker, "{", *atom_tokens, "}"], end_i
-
-def math_braced_tokens(argument):
-    normalized = normalize_text_argument(argument)
-    if is_letter_argument(normalized):
-        return ["{", collapse_letter_argument(normalized), "}"]
-    return ["{", *math_tokens(argument), "}"]
-
-def is_letter_argument(text):
-    return bool(re.fullmatch(r"[A-Za-z](?:\s*[A-Za-z])*", text))
-
-def collapse_letter_argument(text):
-    return re.sub(r"\s+", "", text)
-
-def read_script_atom_tokens(text, start):
-    char = text[start]
-    if char == "\\":
-        command, end_i = read_latex_command(text, start)
-        return [command], end_i
-
-    if char.isalpha():
-        return [char], start + 1
-
-    if char.isdigit():
-        number, end_i = read_number(text, start)
-        return [number], end_i
-
-    return [char], start + 1
+def is_latex_word_command(command):
+    return len(command) > 1 and command[1:].isalpha()
 
 def read_latex_command(text, start):
     if start + 1 < len(text) and text[start + 1] == "\\":
@@ -184,14 +123,6 @@ def read_braced_argument(text, start):
 
 def normalize_text_argument(text):
     return re.sub(r"\s+", " ", text.strip())
-
-def normalize_word_argument(text):
-    normalized = normalize_text_argument(text)
-    return re.sub(
-        r"(?<![A-Za-z])(?:[A-Za-z]\s+){2,}[A-Za-z](?![A-Za-z])",
-        lambda match: match.group(0).replace(" ", ""),
-        normalized,
-    )
 
 def read_number(text, start):
     i = start

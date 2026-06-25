@@ -16,11 +16,3 @@ y = \text {output} \\
 $$
 
 ---
-### term
-- definition
-
----
-### term
-- definition
-
----
