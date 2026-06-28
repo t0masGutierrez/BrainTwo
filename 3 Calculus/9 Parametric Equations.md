@@ -38,7 +38,7 @@ $$
 ### parametric curve formula
 $$
 \begin{aligned}
-C=\set{(x,y)\mid x=f(t),y=g(t),t\in I}=\vec r(I)\\
+R=\set{(x,y)\mid x=f(t),y=g(t),t\in I}=\vec r(I)\\
 x,y=\text{dependent variable}\\
 f,g=\text{function}\\
 t=\text{parameter}\\
@@ -105,8 +105,8 @@ $$
 
 ---
 ### integral
-- operation of finding the area under plane curve between two limits of integration
-![250](3%20Calculus/Images/integral.png)
+- area under parametric curve
+![250](3%20Calculus/Images/parametric%20integral.png)
 
 ---
 ### integral formula
@@ -119,7 +119,7 @@ $$
 
 ---
 ### arc length
-- distance between endpoints along arc
+- distance between endpoints along parametric arc
 ![300](3%20Calculus/Images/parametric%20arc%20length.png)
 
 ---
@@ -132,15 +132,15 @@ $$
 
 ---
 ### surface area
-- two dimensional surface via the rotation of function about axis of revolution
-![300](3%20Calculus/Images/surface%20area.png)
+- two dimensional parametric surface via the rotation of function about axis of revolution
+![300](3%20Calculus/Images/parametric%20surface%20area.png)
 
 ---
 ### surface area formula
 $$
 \begin{aligned}
-y=2\pi\int_{a}^{b}g(t)\sqrt{(\frac{dx}{dt})^{2}+(\frac{dy}{dt})^{2}}dt\\
-x=2\pi\int_{a}^{b}f(t)\sqrt{(\frac{dx}{dt})^{2}+(\frac{dy}{dt})^{2}}dt
+A_x=2\pi\int_{a}^{b}g(t)\sqrt{(\frac{dx}{dt})^{2}+(\frac{dy}{dt})^{2}}dt\\
+A_y=2\pi\int_{a}^{b}f(t)\sqrt{(\frac{dx}{dt})^{2}+(\frac{dy}{dt})^{2}}dt
 \end{aligned}
 $$
 
@@ -190,6 +190,24 @@ $$
 x,y=\text{dependent variable}\\
 a=\text{horizontal radius}\\
 b=\text{vertical radius}\\
+\vec r=\text{position}\\
+t=\text{parameter}
+\end{aligned}
+$$
+
+---
+### parabolic parameterization
+- parameterization of parabola
+
+---
+### parabolic parameterization formula
+$$
+\begin{aligned}
+(y-k)^2=4a(x-h)\implies\vec r(t)=(h+at^2,k+2at)\\
+(x-h)^2=4a(y-k)\implies\vec r(t)=(h+2at,k+at^2)\\
+-\infty<t<\infty\\
+x,y=\text{dependent variable}\\
+a=\text{focal length}\\
 \vec r=\text{position}\\
 t=\text{parameter}
 \end{aligned}
