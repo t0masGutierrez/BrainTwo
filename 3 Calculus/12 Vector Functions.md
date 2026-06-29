@@ -15,7 +15,7 @@ t=\text{parameter}
 $$
 
 ---
-### vector function
+### vector-valued function
 - function whose domain equal set of real numbers and range equal set of vectors
 
 ---

@@ -248,6 +248,8 @@ $$
 $$
 \begin{aligned}
 A=\frac{1}{2}\int_\alpha^\beta(r_2^{2}-r_1^{2})d\theta\\
+dA=rdrd\theta\\
+dV=rdrd\theta dz\\
 r_1\le r\le r_2\\
 r=\text{distance}\\
 \theta=\text{angle}
