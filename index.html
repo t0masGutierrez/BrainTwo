@@ -1048,7 +1048,14 @@
         }
 
         static restoreMathBlocks(html, mathBlocks) {
-            return html.replace(/<!--MATHBLOCK_(\d+)-->/g, (m, idx) => mathBlocks[parseInt(idx)]);
+            return html.replace(/<!--MATHBLOCK_(\d+)-->/g, (m, idx) => this.escapeHtml(mathBlocks[parseInt(idx)]));
+        }
+
+        static escapeHtml(text) {
+            return String(text || '')
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;');
         }
 
         static wrapDisplayMathLines(content, maxChars = this.SUMMARY_MATH_LINE_LENGTH) {
