@@ -281,7 +281,7 @@ $$
 ### reduction of order formula
 $$
 \begin{aligned}
-y_{2}(t)=y_{1}(t)\int\frac{\exp(-\int a_{1}(t)dt)}{y_{1}^{2}(t)}dt\\
+y_{2}(t)=y_{1}(t)\int\frac{\exp(-\int a_{1}(t)dt)}{y_{1}(t)^{2}}dt\\
 y=\text{solution}\\
 t=\text{independent variable}\\
 a=\text{coefficient}
