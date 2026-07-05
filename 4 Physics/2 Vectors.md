@@ -43,7 +43,7 @@ $$
 ### vector component formula
 $$
 \begin{aligned}
-\vec{A}=\vec A_{x}+\vec A_{y}=A_{x}\hat{i}+A_{y}\hat{j}\\
+\vec{A}=\vec A_{x}+\vec A_{y}=A_{x}\hat{i}+A_{y}\hat{j}=\begin{bmatrix}A_x\\A_y\end{bmatrix}\\
 \vec A_{x}=\text{x vector component}\\
 \vec A_{y}=\text{y vector component}\\
 A_{x}=\text{x scalar component}\\
@@ -134,10 +134,10 @@ A_{y}=\text{y scalar component}\\
 $$
 
 ---
-### graphical vector addition
+### triangle vector addition
 - vector *B* starts where vector *A* ends
 - vector sum *C* equal diagonal from where vector *A* starts to where vector *B* ends
-![[4 Physics/Images/graphical vector addition.png|200]]
+![[4 Physics/Images/triangle vector addition.png|300]]
 
 ---
 ### parallelogram vector addition
@@ -155,8 +155,8 @@ $$
 ### dot product formula
 $$
 \begin{aligned}
-\vec{A}\cdot\vec{B}=(|A|)(|B|)\cos(\theta)=A_{x}B_{x}+A_{y}B_{y}+A_{z}B_{z}\\
-|A|,|B|=\text{magnitude}\\
+\vec{A}\cdot\vec{B}=AB\cos(\theta)=A_{x}B_{x}+A_{y}B_{y}+A_{z}B_{z}\\
+A,B=\text{magnitude}\\
 \theta=\text{angle between vectors}\\
 A_{x},B_{x}=\text{x scalar component}\\
 A_{y},B_{y}=\text{y scalar component}\\
@@ -188,8 +188,8 @@ $$
 ### scalar cross product formula
 $$
 \begin{aligned}
-|\vec{A}\times\vec{B}|=(|A|)(|B|)\sin(\theta)\\
-|A|,|B|=\text{magnitude}\\
+|\vec{A}\times\vec{B}|=AB\sin(\theta)\\
+A,B=\text{magnitude}\\
 \theta=\text{angle between vectors}
 \end{aligned}
 $$
@@ -290,7 +290,7 @@ $$
 - obtuse angle equal negative dot product
 - perpendicular vectors equal zero
 - parallel vectors equal product of magnitude
-- anti parallel vectors equal negative product of magnitude
+- antiparallel vectors equal negative product of magnitude
 - same vectors equal squared magnitude
 
 ---
@@ -310,14 +310,14 @@ $$
 ### cross product direction property
 - perpendicular vectors equal product of magnitude
 - parallel vectors equal zero
-- anti parallel vectors equal zero
+- antiparallel vectors equal zero
 - same vectors equal zero
 
 ---
 ### cross product direction property formula
 $$
 \begin{aligned}
-\theta=90^{\circ}&\iff\|\vec A\times\vec B\|=(|A|)(|B|)\\
+\theta=90^{\circ}&\iff\|\vec A\times\vec B\|=AB\\
 \theta=0^{\circ}&\iff\|\vec A\times\vec B\|=0\\
 \theta=180^{\circ}&\iff\|\vec A\times\vec B\|=0\\
 \vec A=\vec B&\implies(\theta=0^{\circ})\land(\|\vec A\times\vec B\|=0)
