@@ -94,6 +94,22 @@ C=\text{constant}
 $$
 
 ---
+### wavefront
+- set of spatial points with constant phase at fixed time
+![[4 Physics/Images/wavefront.png|400]]
+
+---
+### wavefront formula
+$$
+\begin{aligned}
+\theta(x,t)=C\\
+\theta=\text{phase}\\
+x=\text{position}\\
+t=\text{time}
+\end{aligned}
+$$
+
+---
 ### wavelength
 - distance between 1 revolution
 ![[4 Physics/Images/wavelength.png|250]]
@@ -191,22 +207,6 @@ y=\text{displacement}\\
 t=\text{time}\\
 v=\text{velocity}\\
 x=\text{position}
-\end{aligned}
-$$
-
----
-### wavefront
-- set of spatial points with constant phase at fixed time
-![[4 Physics/Images/wavefront.png|400]]
-
----
-### wavefront formula
-$$
-\begin{aligned}
-\theta(x,t)=C\\
-\theta=\text{phase}\\
-x=\text{position}\\
-t=\text{time}
 \end{aligned}
 $$
 
