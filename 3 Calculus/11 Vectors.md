@@ -57,7 +57,7 @@ v_{y}=v\sin(\theta)\\
 v_{x},v_{y}=\text{scalar component}\\
 \hat{i}=\text{x direction}\\
 \hat{j}=\text{y direction}\\
-A=\text{magnitude}\\
+v=\text{magnitude}\\
 \theta=\text{direction}
 \end{aligned}
 $$
@@ -345,7 +345,7 @@ v_{x}&v_{y}&v_{z}\\
 u_{x}&u_{y}&u_{z}\\
 w_{z}&w_{y}&w_{z}\\
 \end{vmatrix}\\
-v_{x},u_{x},w_{z}=\text{x scalar component}\\
+v_{x},u_{x},w_{x}=\text{x scalar component}\\
 v_{y},u_{y},w_{y}=\text{y scalar component}\\
 v_{z},u_{z},w_{z}=\text{z scalar component}
 \end{aligned}
@@ -423,13 +423,13 @@ $$
 \alpha=\arccos(\frac{a}{\sqrt{a^2+b^2+c^2}})\\
 \beta=\arccos(\frac{b}{\sqrt{a^2+b^2+c^2}})\\
 \gamma=\arccos(\frac{c}{\sqrt{a^2+b^2+c^2}})\\
-a,b,c=\text{direction angle}
+a,b,c=\text{direction number}
 \end{aligned}
 $$
 
 ---
 ### vector equation of line
-- for all parameters there exists distinct position vector that corresponds with point on line
+- for all parameters there exists position vector that corresponds with point on line
 ![300](3%20Calculus/Images/vector%20equation%20of%20line.png)
 
 ---
@@ -447,7 +447,7 @@ $$
 
 ---
 ### parametric equation of line
-- for all parameters there exists distinct position vector that corresponds with point on line
+- for all parameters there exists position vector that corresponds with point on line
 ![300](3%20Calculus/Images/parametric%20equation%20of%20line.png)
 
 ---
@@ -495,7 +495,7 @@ $$
 
 ---
 ### vector equation of plane
-- for all directions there exists distinct position vector that corresponds with point on plane
+- for all directions there exists position vector that corresponds with point on plane
 ![300](3%20Calculus/Images/vector%20equation%20of%20plane.png)
 
 ---
@@ -511,7 +511,7 @@ $$
 
 ---
 ### scalar equation of plane
-- for all directions there exists distinct position vector that corresponds with point on plane
+- for all directions there exists position vector that corresponds with point on plane
 
 ---
 ### scalar equation of plane formula
