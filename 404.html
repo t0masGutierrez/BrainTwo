@@ -1042,13 +1042,13 @@
             const regex = /\$\$[\s\S]+?\$\$|\$(?!\$)(?:\\.|[^\\$\n])+?\$/g;
             let out = md.replace(regex, function(match) {
                 mathBlocks.push(match);
-                return `@@MATHBLOCK_${mathBlocks.length - 1}@@`;
+                return `MATHBLOCKTOKEN${mathBlocks.length - 1}MATHBLOCKTOKEN`;
             });
             return { text: out, mathBlocks };
         }
 
         static restoreMathBlocks(html, mathBlocks) {
-            return html.replace(/@@MATHBLOCK_(\d+)@@/g, (m, idx) => this.escapeHtml(mathBlocks[parseInt(idx)]));
+            return html.replace(/MATHBLOCKTOKEN(\d+)MATHBLOCKTOKEN/g, (m, idx) => this.escapeHtml(mathBlocks[parseInt(idx)]));
         }
 
         static escapeHtml(text) {
