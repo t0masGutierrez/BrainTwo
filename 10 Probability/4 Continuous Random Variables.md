@@ -36,9 +36,9 @@ $$
 $$
 \begin{aligned}
 P(X=a)=0\\
-P(X)=\int_{-\infty}^{\infty}f(x)dx=1\\
-P(X\le a)=\int_{-\infty}^{a}f(x)dx=F(a)\\
-P(a\le X\le b)=\int_{a}^{b}f(x)dx=F(b)-F(a)
+P(X)=\int_{-\infty}^{\infty}\rho(x)dx=1\\
+P(X\le a)=\int_{-\infty}^{a}\rho(x)dx=F(a)\\
+P(a\le X\le b)=\int_{a}^{b}\rho(x)dx=F(b)-F(a)
 \end{aligned}
 $$
 
@@ -50,7 +50,7 @@ $$
 ### expectation formula
 $$
 \begin{aligned}
-E[X]=\int_{-\infty}^{\infty}xf(x)dx\\
+E[X]=\int_{-\infty}^{\infty}x\rho(x)dx\\
 x=\text{real number}\\
 X=\text{random variable}
 \end{aligned}
@@ -78,7 +78,7 @@ $$
 ### uniform PDF probability formula
 $$
 \begin{aligned}
-f(x)=\frac{1}{b-a}\\
+\rho(x)=\frac{1}{b-a}\\
 a=\text{lower endpoint}\\
 b=\text{upper endpoint}
 \end{aligned}
@@ -112,7 +112,7 @@ $$
 ### normal PDF probability formula
 $$
 \begin{aligned}
-f(x)=\frac{\exp(\frac{-(x-\mu)^{2}}{2\sigma^{2}})}{\sigma\sqrt{2\pi}}\\
+\rho(x)=\frac{\exp(\frac{-(x-\mu)^{2}}{2\sigma^{2}})}{\sigma\sqrt{2\pi}}\\
 \mu=\text{mean}\\
 \sigma=\text{standard deviation}
 \end{aligned}
@@ -144,7 +144,7 @@ $$
 ### standard normal PDF probability formula
 $$
 \begin{aligned}
-f(x)=\frac{\exp(\frac{-x^{2}}{2})}{\sqrt{2\pi}}\\
+\rho(x)=\frac{\exp(\frac{-x^{2}}{2})}{\sqrt{2\pi}}\\
 x=\text{z-score}
 \end{aligned}
 $$
@@ -173,7 +173,7 @@ $$
 ### exponential PDF probability formula
 $$
 \begin{aligned}
-f(x)=\lambda e^{-\lambda x}\\
+\rho(x)=\lambda e^{-\lambda x}\\
 x=\text{time}\\
 \lambda=\text{average number of events per time}
 \end{aligned}
@@ -205,7 +205,7 @@ $$
 ### gamma PDF probability formula
 $$
 \begin{aligned}
-f(x)=\frac{\lambda^{r}e^{-\lambda x}x^{r-1}}{\Gamma(r)}\\
+\rho(x)=\frac{\lambda^{r}e^{-\lambda x}x^{r-1}}{\Gamma(r)}\\
 \Gamma(r)=\int_{0}^{\infty}e^{-x}x^{r-1}dx\\
 \lambda=\text{average number of events per time}\\
 r=\text{event number}\\
@@ -242,7 +242,7 @@ $$
 ### beta PDF probability formula
 $$
 \begin{aligned}
-f(x)=\frac{x^{r-1}(1-x)^{k-1}}{\beta(r,k)}\\
+\rho(x)=\frac{x^{r-1}(1-x)^{k-1}}{\beta(r,k)}\\
 \beta(r,k)=\int_{0}^{1}x^{r-1}(1-x)^{k-1}dx\\
 x=\text{unit number}\\
 r,k=\text{parameter}\\
