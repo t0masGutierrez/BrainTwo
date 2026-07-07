@@ -102,7 +102,7 @@ $$
 
 ---
 ### cardioid polar curve
-- heart-shaped loop via circle pinched into cusp at the pole
+- heart-shaped loop equal circle pinched into cusp at the pole
 ![](3%20Calculus/Images/cardioid%20polar%20curve.png)
 
 ---
@@ -116,7 +116,7 @@ $$
 
 ---
 ### limacon polar curve
-- circular loop extending outward
+- circular loop extending inward
 ![450](3%20Calculus/Images/limacon%20polar%20curve.png)
 
 ---
