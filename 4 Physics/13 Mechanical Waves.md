@@ -147,7 +147,7 @@ $$
 y(x,t)=A\sin(kx\mp\omega t+\phi)\\
 y(x,t)=A\sin[2\pi(\frac{x}{\lambda}\mp\frac{t}{T})+\phi]\\
 A=\text{amplitude}\\
-k=\text{wave number}\\
+k=\text{wavenumber}\\
 x=\text{position}\\
 \omega=\text{angular frequency}\\
 t=\text{time}\\
@@ -188,7 +188,7 @@ y=\text{displacement}\\
 t=\text{time}\\
 A=\text{amplitude}\\
 \omega=\text{angular frequency}\\
-k=\text{wave number}\\
+k=\text{wavenumber}\\
 x=\text{position}
 \end{aligned}
 $$
@@ -274,9 +274,11 @@ $$
 ### tensed string wave energy formula
 $$
 \begin{aligned}
-K_{m}=\frac{\mu Lv_{y}^{2}}{2}\implies K_{\lambda}=\frac{\mu A^{2}\omega^{2}\lambda}{4}\\
-U_{m}=\frac{m\omega^{2}x^{2}}{2}\implies U_{\lambda}=\frac{\mu A^{2}\omega^{2}\lambda}{4}\\
-E_{\lambda}=K_{\lambda}+U_{\lambda}=\frac{\mu A^{2}\omega^{2}\lambda}{2}
+E_{\text{avg}}=\frac{\mu A^{2}\omega^{2}\lambda}{2}\\
+\mu=\text{linear mass density}\\
+A=\text{amplitude}\\
+\omega=\text{angular frequency}\\
+\lambda=\text{wavelength}
 \end{aligned}
 $$
 
@@ -291,7 +293,7 @@ $$
 $$
 \begin{aligned}
 P(x,t)=\omega A^{2}kF_{T}\sin^{2}(kx\mp\omega t+\phi)\\
-P_{avg}=\frac{1}{2}\omega^{2}A^{2}\sqrt{\mu F_{T}}\\
+P_{\text{avg}}=\frac{1}{2}\omega^{2}A^{2}\sqrt{\mu F_{T}}\\
 \omega=\text{angular frequency}\\
 A=\text{amplitude}\\
 k=\text{wavenumber}\\
@@ -385,6 +387,7 @@ $$
 $$
 \begin{aligned}
 \Delta\phi=(2n+1)\pi\implies A=|A_{1}-A_{2}|\\
+\Delta\phi\ne2\pi n\implies A=\sqrt{A_1^2+A_2^2+2A_1A_2\cos(\Delta\phi)}\\
 \phi=\text{phase angle}\\
 A=\text{amplitude}
 \end{aligned}
@@ -489,6 +492,28 @@ $$
 \begin{aligned}
 f_{n}=nf_{1}\\
 f_{1}=\text{fundamental frequency}
+\end{aligned}
+$$
+
+---
+### complex exponential
+- sinusoidal wave equal complex exponential
+
+---
+### complex exponential formula
+$$
+\begin{aligned}
+\theta=kx\mp\omega t+\phi\implies y(x,t)=Ae^{i\theta}=A\cos(\theta)+iA\sin(\theta)\\
+\theta=\text{phase}\\
+k=\text{wavenumber}\\
+x=\text{position}\\
+\omega=\text{angular frequency}\\
+t=\text{time}\\
+\phi=\text{phase angle}\\
+y=\text{displacement}\\
+A=\text{amplitude}\\
+e=\text{euler's number}\\
+i=\text{imaginary unit}
 \end{aligned}
 $$
 
