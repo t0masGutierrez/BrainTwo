@@ -497,7 +497,7 @@ $$
 
 ---
 ### complex exponential
-- sinusoidal wave equal complex exponential
+- euler's formula convert sinusoidal wave into complex exponential
 
 ---
 ### complex exponential formula
@@ -526,13 +526,17 @@ $$
 ### fourier transform formula
 $$
 \begin{aligned}
-F(\omega)=\int_{-\infty}^{\infty}f(x)\exp(-i\omega x)dx\\
-f(x)=\frac{1}{2\pi}\int_{-\infty}^{\infty}F(\omega)\exp(i\omega x)d\omega\\
+F(k)=\int_{-\infty}^{\infty}f(x)\exp(-ikx)dx\iff f(x)=\frac{1}{2\pi}\int_{-\infty}^{\infty}F(k)\exp(ikx)dk\\
+F(\omega)=\int_{-\infty}^{\infty}f(t)\exp(-i\omega t)dt\iff f(t)=\frac{1}{2\pi}\int_{-\infty}^{\infty}F(\omega)\exp(i\omega t)d\omega\\
+F(k,\omega)=\int_{-\infty}^{\infty}\int_{-\infty}^{\infty}f(x,t)\exp[-i(kx-\omega t)]dxdt\iff\\
+f(x,t)=\frac{1}{(2\pi)^2}\int_{-\infty}^{\infty}\int_{-\infty}^{\infty}F(k,\omega)\exp[i(kx-\omega t)]dkd\omega\\
 F=\text{frequency function}\\
+k=\text{wavenumber}\\
 f=\text{spacetime function}\\
+x=\text{position}\\
 i=\text{imaginary unit}\\
 \omega=\text{angular frequency}\\
-x=\text{position}
+t=\text{time}
 \end{aligned}
 $$
 
