@@ -81,27 +81,27 @@ $$
 \begin{array}{c|c|c}
 \text{name}&\text{symbol}&\text{value}\\
 \hline
-\text{Speed of light in vacuum}&c&2.99792458\times10^{8}\text{m/s}\\
-\text{Magnitude of charge of electron}&e&1.602176634\times10^{-19}\text{C}\\
-\text{Gravitational constant}&G&6.67408(31)\times10^{-11}\text{N}\cdot\text{m}^{2}/\text{kg}^{2}\\
-\text{Planck's constant}&h&6.62607015\times10^{-34}\text{J}\cdot\text{s}\\
-\text{Boltzmann's constant}&k_{B}&1.380649\times10^{-23}\text{J/K}\\
-\text{Avogadro's number}&N_{A}&6.02214076\times10^{23}\text{molecules/mol}\\
-\text{Gas constant}&R=N_{A}k_{B}&8.314462618\ldots\text{}\frac{\text{J}}{\text{mol}\cdot\text{K}}\\
-\text{Mass of electron}&m_{e}&9.10938356(11)\times10^{-31}\text{kg}\\
-\text{Mass of proton}&m_{p}&1.672621898(21)\times10^{-27}\text{kg}\\
-\text{Mass of neutron}&m_{n}&1.674927471(21)\times10^{-27}\text{kg}\\
-\text{Magnetic constant}&\mu_{0}&1.25663706\times10^{-6}\text{}\frac{\text{Wb}}{\text{A}\cdot\text{m}}\text{}=4\pi\times10^{-7}\text{}\frac{\text{Wb}}{\text{A}\cdot\text{m}}\\
-\text{Electric constant}&\epsilon_{0}=\frac{1}{\mu_{0}c^{2}}&8.854187817\times10^{-12}\text{}\frac{\text{C}^{2}}{\text{N}\cdot\text{m}^{2}}\\
-\text{Coulomb's constant}&k_{c}=\frac{1}{4\pi\epsilon_{0}}&8.987551787\times10^{9}\text{}\frac{\text{N}\cdot\text{m}^{2}}{\text{C}^{2}}\text{}\\
-\text{Mechanical equivalent of heat}&J&4.186\text{J/cal (15}^{\circ}\text{calorie)}\\
-\text{Standard atmospheric pressure}&1\text{atm}&1.01325\times10^{5}\text{Pa}\\
-\text{Absolute zero}&0\text{K}&-273.15^{\circ}\text{C}\\
-\text{Electron volt}&1\text{eV}&1.6021766209(98)\times10^{-19}\text{J}\\
-\text{Atomic mass unit}&1\text{u}&1.660539040(20)\times10^{-27}\text{kg}\\
-\text{Electron rest energy}&m_{e}c^{2}&0.5109989461(31)\text{MeV}\\
-\text{Volume of ideal gas (0}^{\circ}\text{C and 1 atm)}&V_{m}&22.413962(13)\text{liter/mol}\\
-\text{Acceleration due to gravity (Earth)}&g&9.80665\text{m/s}^{2}
+\text{Speed of light in vacuum}&c&2.99792458\times10^{8}\text{ m/s}\\
+\text{Magnitude of charge of electron}&e&1.602176634\times10^{-19}\text{ C}\\
+\text{Gravitational constant}&G&6.67408(31)\times10^{-11}\text{ N}\cdot\text{m}^{2}/\text{kg}^{2}\\
+\text{Planck's constant}&h&6.62607015\times10^{-34}\text{ J}\cdot\text{s}\\
+\text{Boltzmann's constant}&k_{B}&1.380649\times10^{-23}\text{ J/K}\\
+\text{Avogadro's number}&N_{A}&6.02214076\times10^{23}\text{ molecules/mol}\\
+\text{Gas constant}&R=N_{A}k_{B}&8.314462618\ldots\text{ }\frac{\text{J}}{\text{mol}\cdot\text{K}}\\
+\text{Mass of electron}&m_{e}&9.10938356(11)\times10^{-31}\text{ kg}\\
+\text{Mass of proton}&m_{p}&1.672621898(21)\times10^{-27}\text{ kg}\\
+\text{Mass of neutron}&m_{n}&1.674927471(21)\times10^{-27}\text{ kg}\\
+\text{Magnetic constant}&\mu_{0}&1.25663706\times10^{-6}\text{ }\frac{\text{Wb}}{\text{A}\cdot\text{m}}\text{}=4\pi\times10^{-7}\text{ }\frac{\text{Wb}}{\text{A}\cdot\text{m}}\\
+\text{Electric constant}&\epsilon_{0}=\frac{1}{\mu_{0}c^{2}}&8.854187817\times10^{-12}\text{ }\frac{\text{C}^{2}}{\text{N}\cdot\text{m}^{2}}\\
+\text{Coulomb's constant}&k_{c}=\frac{1}{4\pi\epsilon_{0}}&8.987551787\times10^{9}\text{ }\frac{\text{N}\cdot\text{m}^{2}}{\text{C}^{2}}\text{}\\
+\text{Mechanical equivalent of heat}&J&4.186\text{ J/cal (15}^{\circ}\text{ calorie)}\\
+\text{Standard atmospheric pressure}&1\text{ atm}&1.01325\times10^{5}\text{ Pa}\\
+\text{Absolute zero}&0\text{ K}&-273.15^{\circ}\text{ C}\\
+\text{Electron volt}&1\text{ eV}&1.6021766209(98)\times10^{-19}\text{ J}\\
+\text{Atomic mass unit}&1\text{ u}&1.660539040(20)\times10^{-27}\text{ kg}\\
+\text{Electron rest energy}&m_{e}c^{2}&0.5109989461(31)\text{ MeV}\\
+\text{Volume of ideal gas (0}^{\circ}\text{ C and 1 atm)}&V_{m}&22.413962(13)\text{ liter/mol}\\
+\text{Acceleration due to gravity (Earth)}&g&9.80665\text{ m/s}^{2}
 \end{array}
 \end{aligned}
 $$
@@ -110,17 +110,17 @@ $$
 ### length conversion formula
 $$
 \begin{aligned}
-1\text{m}&=100\text{cm}=1000\text{mm}=10^{6}\text{μm}=10^{9}\text{nm}\\
-1\text{km}&=1000\text{m}=0.6214\text{mi}\\
-1\text{m}&=3.281\text{ft}=39.37\text{in.}\\
-1\text{cm}&=0.3937\text{in.}\\
-1\text{in.}&=2.540\text{cm}\\
-1\text{ft}&=30.48\text{cm}\\
-1\text{yd}&=91.44\text{cm}\\
-1\text{mi}&=5280\text{ft}=1.609\text{km}\\
-1\text{Å}&=10^{-10}\text{m}=10^{-8}\text{cm}=10^{-1}\text{nm}\\
-1\text{nautical mile}&=6080\text{ft}\\
-1\text{light-year}&=9.461\times10^{15}\text{m}
+1\text{ m}&=100\text{ cm}=1000\text{ mm}=10^{6}\text{ μm}=10^{9}\text{ nm}\\
+1\text{ km}&=1000\text{ m}=0.6214\text{ mi}\\
+1\text{ m}&=3.281\text{ ft}=39.37\text{ in.}\\
+1\text{ cm}&=0.3937\text{ in.}\\
+1\text{ in.}&=2.540\text{ cm}\\
+1\text{ ft}&=30.48\text{ cm}\\
+1\text{ yd}&=91.44\text{ cm}\\
+1\text{ mi}&=5280\text{ ft}=1.609\text{ km}\\
+1\text{ Å}&=10^{-10}\text{ m}=10^{-8}\text{ cm}=10^{-1}\text{ nm}\\
+1\text{ nautical mile}&=6080\text{ ft}\\
+1\text{ light-year}&=9.461\times10^{15}\text{ m}
 \end{aligned}
 $$
 
@@ -128,10 +128,10 @@ $$
 ### area conversion formula
 $$
 \begin{aligned}
-1\text{cm}^{2}&=0.155\text{in.}^{2}\\
-1\text{m}^{2}&=10^{4}\text{cm}^{2}=10.76\text{ft}^{2}\\
-1\text{in.}^{2}&=6.452\text{cm}^{2}\\
-1\text{ft}^{2}&=144\text{in.}^{2}=0.0929\text{m}^{2}
+1\text{ cm}^{2}&=0.155\text{ in.}^{2}\\
+1\text{ m}^{2}&=10^{4}\text{ cm}^{2}=10.76\text{ ft}^{2}\\
+1\text{ in.}^{2}&=6.452\text{ cm}^{2}\\
+1\text{ ft}^{2}&=144\text{ in.}^{2}=0.0929\text{ m}^{2}
 \end{aligned}
 $$
 
@@ -139,9 +139,9 @@ $$
 ### volume conversion formula
 $$
 \begin{aligned}
-1\text{liter}&=1000\text{cm}^{3}=10^{-3}\text{m}^{3}=0.03531\text{ft}^{3}=61.02\text{in.}^{3}\\
-1\text{ft}^{3}&=0.02832\text{m}^{3}=28.32\text{liters}=7.477\text{gallons}\\
-1\text{gallon}&=3.788\text{liters}
+1\text{ liter}&=1000\text{ cm}^{3}=10^{-3}\text{ m}^{3}=0.03531\text{ ft}^{3}=61.02\text{ in.}^{3}\\
+1\text{ ft}^{3}&=0.02832\text{ m}^{3}=28.32\text{ liters}=7.477\text{ gallons}\\
+1\text{ gallon}&=3.788\text{ liters}
 \end{aligned}
 $$
 
@@ -149,10 +149,10 @@ $$
 ### time conversion formula
 $$
 \begin{aligned}
-1\text{min}&=60\text{s}\\
-1\text{h}&=3600\text{s}\\
-1\text{d}&=86{,}400\text{s}\\
-1\text{y}&=365.24\text{d}=3.156\times10^{7}\text{s}
+1\text{ min}&=60\text{ s}\\
+1\text{ h}&=3600\text{ s}\\
+1\text{ d}&=86{,}400\text{ s}\\
+1\text{ y}&=365.24\text{ d}=3.156\times10^{7}\text{ s}
 \end{aligned}
 $$
 
@@ -160,10 +160,10 @@ $$
 ### angle conversion formula
 $$
 \begin{aligned}
-1\text{rad}&=57.30^{\circ}=180^{\circ}/\pi\\
-1^{\circ}&=0.01745\text{rad}=\pi/180\text{rad}\\
-1\text{revolution}&=360^{\circ}=2\pi\text{rad}\\
-1\text{rev/min (rpm)}&=0.1047\text{rad/s}
+1\text{ rad}&=57.30^{\circ}=180^{\circ}/\pi\\
+1^{\circ}&=0.01745\text{ rad}=\pi/180\text{ rad}\\
+1\text{ revolution}&=360^{\circ}=2\pi\text{ rad}\\
+1\text{ rev/min (rpm)}&=0.1047\text{ rad/s}
 \end{aligned}
 $$
 
@@ -171,12 +171,12 @@ $$
 ### speed conversion formula
 $$
 \begin{aligned}
-1\text{m/s}&=3.281\text{ft/s}\\
-1\text{ft/s}&=0.3048\text{m/s}\\
-1\text{mi/min}&=60\text{mi/h}=88\text{ft/s}\\
-1\text{km/h}&=0.2778\text{m/s}=0.6214\text{mi/h}\\
-1\text{mi/h}&=1.466\text{ft/s}=0.4470\text{m/s}=1.609\text{km/h}\\
-1\text{furlong/fortnight}&=1.662\times10^{-4}\text{m/s}
+1\text{ m/s}&=3.281\text{ ft/s}\\
+1\text{ ft/s}&=0.3048\text{ m/s}\\
+1\text{ mi/min}&=60\text{ mi/h}=88\text{ ft/s}\\
+1\text{ km/h}&=0.2778\text{ m/s}=0.6214\text{ mi/h}\\
+1\text{ mi/h}&=1.466\text{ ft/s}=0.4470\text{ m/s}=1.609\text{ km/h}\\
+1\text{ furlong/fortnight}&=1.662\times10^{-4}\text{ m/s}
 \end{aligned}
 $$
 
@@ -184,10 +184,10 @@ $$
 ### acceleration conversion formula
 $$
 \begin{aligned}
-1\text{m/s}^{2}&=100\text{cm/s}^{2}=3.281\text{ft/s}^{2}\\
-1\text{cm/s}^{2}&=0.01\text{m/s}^{2}=0.03281\text{ft/s}^{2}\\
-1\text{ft/s}^{2}&=0.3048\text{m/s}^{2}=30.48\text{cm/s}^{2}\\
-1\text{mi}/(\text{h}\cdot\text{s})&=1.467\text{ft/s}^{2}
+1\text{ m/s}^{2}&=100\text{ cm/s}^{2}=3.281\text{ ft/s}^{2}\\
+1\text{ cm/s}^{2}&=0.01\text{ m/s}^{2}=0.03281\text{ ft/s}^{2}\\
+1\text{ ft/s}^{2}&=0.3048\text{ m/s}^{2}=30.48\text{ cm/s}^{2}\\
+1\text{ mi}/(\text{h}\cdot\text{s})&=1.467\text{ ft/s}^{2}
 \end{aligned}
 $$
 
@@ -195,11 +195,11 @@ $$
 ### mass conversion formula
 $$
 \begin{aligned}
-1\text{kg}&=10^{3}\text{g}=0.0685\text{slug}\\
-1\text{g}&=6.85\times10^{-5}\text{slug}\\
-1\text{slug}&=14.59\text{kg}\\
-1\text{u}&=1.661\times10^{-27}\text{kg}\\
-\text{1 kg}(\text{g}=9.80\text{m}/\text{s}^{2})&=\text{2.205 lb}
+1\text{ kg}&=10^{3}\text{ g}=0.0685\text{ slug}\\
+1\text{ g}&=6.85\times10^{-5}\text{ slug}\\
+1\text{ slug}&=14.59\text{ kg}\\
+1\text{ u}&=1.661\times10^{-27}\text{ kg}\\
+\text{1 kg}(\text{g}=9.80\text{ m}/\text{s}^{2})&=\text{2.205 lb}
 \end{aligned}
 $$
 
@@ -207,8 +207,8 @@ $$
 ### force conversion formula
 $$
 \begin{aligned}
-1\text{N}&=10^{5}\text{dyn}=0.2248\text{lb}\\
-1\text{lb}&=4.448\text{N}=4.448\times10^{5}\text{dyn}
+1\text{ N}&=10^{5}\text{ dyn}=0.2248\text{ lb}\\
+1\text{ lb}&=4.448\text{ N}=4.448\times10^{5}\text{ dyn}
 \end{aligned}
 $$
 
@@ -216,12 +216,12 @@ $$
 ### pressure conversion formula
 $$
 \begin{aligned}
-1\text{Pa}&=1\text{N}/\text{m}^{2}=1.450\times10^{-4}\text{lb}/\text{in.}^{2}=0.0209\text{lb}/\text{ft}^{2}\\
-1\text{bar}&=10^{5}\text{Pa}\\
-1\text{lb}/\text{in.}^{2}&=6895\text{Pa}\\
-1\text{lb}/\text{ft}^{2}&=47.88\text{Pa}\\
-1\text{atm}&=1.013\times10^{5}\text{Pa}=1.013\text{bar}=14.7\text{lb}/\text{in.}^{2}=2117\text{lb}/\text{ft}^{2}\\
-1\text{mm Hg}&=1\text{torr}=133.3\text{Pa}
+1\text{ Pa}&=1\text{ N}/\text{m}^{2}=1.450\times10^{-4}\text{ lb}/\text{in.}^{2}=0.0209\text{ lb}/\text{ft}^{2}\\
+1\text{ bar}&=10^{5}\text{ Pa}\\
+1\text{ lb}/\text{in.}^{2}&=6895\text{ Pa}\\
+1\text{ lb}/\text{ft}^{2}&=47.88\text{ Pa}\\
+1\text{ atm}&=1.013\times10^{5}\text{ Pa}=1.013\text{ bar}=14.7\text{ lb}/\text{in.}^{2}=2117\text{ lb}/\text{ft}^{2}\\
+1\text{ mm Hg}&=1\text{ torr}=133.3\text{ Pa}
 \end{aligned}
 $$
 
@@ -229,12 +229,12 @@ $$
 ### energy conversion formula
 $$
 \begin{aligned}
-1\text{J}&=10^{7}\text{ergs}=0.239\text{cal}\\
-1\text{cal}&=4.186\text{J}\text{(15}^{\circ}\text{calorie)}\\
-1\text{ft}\cdot\text{lb}&=1.356\text{J}\\
-1\text{Btu}&=1055\text{J}=252\text{cal}=778\text{ft}\cdot\text{lb}\\
-1\text{eV}&=1.602\times10^{-19}\text{J}\\
-1\text{kWh}&=3.600\times10^{6}\text{J}
+1\text{ J}&=10^{7}\text{ ergs}=0.239\text{ cal}\\
+1\text{ cal}&=4.186\text{ J}\text{ (15}^{\circ}\text{ calorie)}\\
+1\text{ ft}\cdot\text{lb}&=1.356\text{ J}\\
+1\text{ Btu}&=1055\text{ J}=252\text{ cal}=778\text{ ft}\cdot\text{lb}\\
+1\text{ eV}&=1.602\times10^{-19}\text{ J}\\
+1\text{ kWh}&=3.600\times10^{6}\text{ J}
 \end{aligned}
 $$
 
@@ -242,9 +242,9 @@ $$
 ### mass energy conversion formula
 $$
 \begin{aligned}
-1\text{kg}&\leftrightarrow8.988\times10^{16}\text{J}\\
-1\text{u}&\leftrightarrow931.5\text{MeV}\\
-1\text{eV}&\leftrightarrow1.074\times10^{-9}\text{u}
+1\text{ kg}&\leftrightarrow8.988\times10^{16}\text{ J}\\
+1\text{ u}&\leftrightarrow931.5\text{ MeV}\\
+1\text{ eV}&\leftrightarrow1.074\times10^{-9}\text{ u}
 \end{aligned}
 $$
 
@@ -252,9 +252,9 @@ $$
 ### power conversion formula
 $$
 \begin{aligned}
-1\text{W}&=1\text{J/s}\\
-1\text{hp}&=746\text{W}=550\text{ft}\cdot\text{lb}/\text{s}\\
-1\text{Btu/h}&=0.293\text{W}
+1\text{ W}&=1\text{ J/s}\\
+1\text{ hp}&=746\text{ W}=550\text{ ft}\cdot\text{lb}/\text{s}\\
+1\text{ Btu/h}&=0.293\text{ W}
 \end{aligned}
 $$
 
@@ -301,16 +301,16 @@ $$
 \text{body}&\text{mass (kg)}&\text{radius (m)}&\text{orbital radius (m)}&\text{orbital period}\\
 \hline
 \text{Sun}&1.99\times10^{30}&6.96\times10^{8}&\text{—}&\text{—}\\
-\text{Moon}&7.35\times10^{22}&1.74\times10^{6}&3.84\times10^{8}&27.3\text{d}\\
-\text{Mercury}&3.30\times10^{23}&2.44\times10^{6}&5.79\times10^{10}&88.0\text{d}\\
-\text{Venus}&4.87\times10^{24}&6.05\times10^{6}&1.08\times10^{11}&224.7\text{d}\\
-\text{Earth}&5.97\times10^{24}&6.37\times10^{6}&1.50\times10^{11}&365.3\text{d}\\
-\text{Mars}&6.42\times10^{23}&3.39\times10^{6}&2.28\times10^{11}&687.0\text{d}\\
-\text{Jupiter}&1.90\times10^{27}&6.99\times10^{7}&7.78\times10^{11}&11.86\text{y}\\
-\text{Saturn}&5.68\times10^{26}&5.82\times10^{7}&1.43\times10^{12}&29.45\text{y}\\
-\text{Uranus}&8.68\times10^{25}&2.54\times10^{7}&2.87\times10^{12}&84.02\text{y}\\
-\text{Neptune}&1.02\times10^{26}&2.46\times10^{7}&4.50\times10^{12}&164.8\text{y}\\
-\text{Pluto}&1.30\times10^{22}&1.19\times10^{6}&5.91\times10^{12}&248.0\text{y}
+\text{Moon}&7.35\times10^{22}&1.74\times10^{6}&3.84\times10^{8}&27.3\text{ d}\\
+\text{Mercury}&3.30\times10^{23}&2.44\times10^{6}&5.79\times10^{10}&88.0\text{ d}\\
+\text{Venus}&4.87\times10^{24}&6.05\times10^{6}&1.08\times10^{11}&224.7\text{ d}\\
+\text{Earth}&5.97\times10^{24}&6.37\times10^{6}&1.50\times10^{11}&365.3\text{ d}\\
+\text{Mars}&6.42\times10^{23}&3.39\times10^{6}&2.28\times10^{11}&687.0\text{ d}\\
+\text{Jupiter}&1.90\times10^{27}&6.99\times10^{7}&7.78\times10^{11}&11.86\text{ y}\\
+\text{Saturn}&5.68\times10^{26}&5.82\times10^{7}&1.43\times10^{12}&29.45\text{ y}\\
+\text{Uranus}&8.68\times10^{25}&2.54\times10^{7}&2.87\times10^{12}&84.02\text{ y}\\
+\text{Neptune}&1.02\times10^{26}&2.46\times10^{7}&4.50\times10^{12}&164.8\text{ y}\\
+\text{Pluto}&1.30\times10^{22}&1.19\times10^{6}&5.91\times10^{12}&248.0\text{ y}
 \end{array}
 \end{aligned}
 $$
