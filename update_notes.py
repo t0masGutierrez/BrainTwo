@@ -57,7 +57,8 @@ def compact_math_tokens(text):
             if command in TEXT_ARGUMENT_COMMANDS:
                 if next_i < len(text) and text[next_i] == "{":
                     argument, end_i = read_braced_argument(text, next_i)
-                    parts.append(f"{{{normalize_text_argument(argument)}}}")
+                    normalized_argument = argument if command == "\\text" else normalize_text_argument(argument)
+                    parts.append(f"{{{normalized_argument}}}")
                     i = end_i
                     continue
 
