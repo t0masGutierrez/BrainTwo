@@ -66,7 +66,7 @@ $$
 ### pulse wave formula
 $$
 \begin{aligned}
-x-vt=C\\
+x\mp vt=C\\
 x=\text{position}\\
 v=\text{velocity}\\
 t=\text{time}\\
@@ -237,18 +237,6 @@ v=\lambda f=\frac{\omega}{k}\\
 f=\text{oscillation frequency}\\
 \omega=\text{angular frequency}\\
 k=\text{wavenumber}
-\end{aligned}
-$$
-
----
-### general wave velocity
-- ratio between tendency to return change and tendency to resist change
-
----
-### general wave velocity formula
-$$
-\begin{aligned}
-v=\sqrt{\frac{\text{elasticity}}{\text{inertia}}}
 \end{aligned}
 $$
 

@@ -1,24 +1,129 @@
 ### sound wave
-- pressure oscillations about the surrounding medium pressure
-![[4 Physics/Images/sound wave.png]]
+- particle move right during positive displacement
+- particle move left during negative displacement
+- pressure most positive during compression
+- pressure most negative during rarefaction
+- maximum pressure during zero displacement
+- minimum pressure during maximum displacement
+![400](4%20Physics/Images/sound%20wave.png)
+
+---
+### sound wave formula
+$$
+\begin{aligned}
+\Delta p(x,t)=\Delta p_{\text{max}}\frac{\partial y(x,t)}{\partial x}=BkA\cos(kx-\omega t)\\
+p=\text{pressure}\\
+x=\text{position}\\
+t=\text{time}\\
+y=\text{displacement}\\
+B=\text{bulk modulus}\\
+k=\text{wavenumber}\\
+A=\text{amplitude}\\
+\omega=\text{angular frequency}
+\end{aligned}
+$$
 
 ---
 ### compression
 - high pressure region
 
 ---
+### compression formula
+$$
+\begin{aligned}
+\Delta p(x,t)>0\\
+p=\text{pressure}\\
+x=\text{position}\\
+t=\text{time}
+\end{aligned}
+$$
+
+---
 ### rarefaction
 - low pressure region
 
 ---
-### particle motion
-- particle move right during upward displacement
-- particle move left during downward displacement
-- pressure most positive during compression
-- pressure most negative during rarefaction
-- maximum pressure during zero displacement
-- minimum pressure during maximum displacement
-![[4 Physics/Images/particle motion.png]]
+### rarefaction formula
+$$
+\begin{aligned}
+\Delta p(x,t)<0\\
+p=\text{pressure}\\
+x=\text{position}\\
+t=\text{time}
+\end{aligned}
+$$
+
+---
+### wave velocity
+- rate of wavefront aka phase velocity
+
+---
+### wave velocity formula
+$$
+\begin{aligned}
+v=331\sqrt{\frac{T}{273}}\\
+T=\text{absolute temperature}
+\end{aligned}
+$$
+
+---
+### general wave velocity
+- ratio between tendency to return change and tendency to resist change
+
+---
+### general wave velocity formula
+$$
+\begin{aligned}
+v=\sqrt{\frac{\text{elasticity}}{\text{inertia}}}
+\end{aligned}
+$$
+
+---
+### solid wave velocity
+- ratio between tendency to return change and tendency to resist change for sound wave through solid
+![200](4%20Physics/Images/solid%20wave%20velocity.png)
+
+---
+### solid wave velocity formula
+$$
+\begin{aligned}
+v=\sqrt{\frac{Y}{\rho}}\\
+Y=\text{young's modulus}\\
+\rho=\text{density}
+\end{aligned}
+$$
+
+---
+### liquid wave velocity
+- ratio between tendency to return change and tendency to resist change for sound wave through liquid
+![200](4%20Physics/Images/liquid%20wave%20velocity.png)
+
+---
+### liquid wave velocity formula
+$$
+\begin{aligned}
+v=\sqrt{\frac{B}{\rho}}\\
+B=\text{bulk modulus}\\
+\rho=\text{density}
+\end{aligned}
+$$
+
+---
+### gas wave velocity
+- ratio between tendency to return change and tendency to resist change for sound wave through gas
+![200](4%20Physics/Images/gas%20wave%20velocity.png)
+
+---
+### gas wave velocity formula
+$$
+\begin{aligned}
+v=\sqrt{\frac{\gamma RT}{M}}\\
+\gamma=\text{adiabatic index}\\
+R=8.31\\
+T=\text{absolute temperature}\\
+M=\text{molar mass}
+\end{aligned}
+$$
 
 ---
 ### average power
