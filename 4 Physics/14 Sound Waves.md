@@ -55,7 +55,7 @@ $$
 
 ---
 ### wave velocity
-- rate of wavefront aka phase velocity
+- speed of sound wave
 
 ---
 ### wave velocity formula

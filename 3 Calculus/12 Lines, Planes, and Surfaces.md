@@ -24,7 +24,8 @@ $$
 $$
 \begin{aligned}
 \vec v=\overrightarrow{PQ}=\langle x-x_{0},y-y_{0},z-z_{0}\rangle=\langle a,b,c\rangle\\
-P,Q=\text{point}\\
+P=\text{initial point}\\
+Q=\text{terminal point}\\
 x,y,z=\text{coordinate}\\
 a,b,c=\text{direction number}
 \end{aligned}
@@ -92,7 +93,7 @@ $$
 $$
 \begin{aligned}
 \vec n=\overrightarrow{PQ}\times\overrightarrow{PR}=\langle a,b,c\rangle\\
-\vec P,\vec Q,\vec R=\text{noncollinear point}\\
+P,Q,R=\text{noncollinear point}\\
 a,b,c=\text{normal number}
 \end{aligned}
 $$
@@ -122,8 +123,8 @@ $$
 \begin{aligned}
 \vec n\cdot\overrightarrow{PQ}=0\\
 \vec n=\text{normal vector}\\
-\vec P=\text{initial point}\\
-\vec Q=\text{terminal point}
+P=\text{initial point}\\
+Q=\text{terminal point}
 \end{aligned}
 $$
 
@@ -179,8 +180,8 @@ $$
 $$
 \begin{aligned}
 d=\frac{\|\overrightarrow{PQ}\times\vec v\|}{\sqrt{a^2+b^2+c^2}}\\
-\vec P=\text{initial point}\\
-\vec Q=\text{terminal point}\\
+P=\text{initial point}\\
+Q=\text{terminal point}\\
 \vec v=\text{direction vector}\\
 a,b,c=\text{direction number}
 \end{aligned}
@@ -196,8 +197,8 @@ $$
 $$
 \begin{aligned}
 d=\frac{|\overrightarrow{PQ}\cdot\vec n|}{\sqrt{a^2+b^2+c^2}}\\
-\vec P=\text{initial point}\\
-\vec Q=\text{terminal point}\\
+P=\text{initial point}\\
+Q=\text{terminal point}\\
 \vec n=\text{normal vector}\\
 a,b,c=\text{normal number}
 \end{aligned}
