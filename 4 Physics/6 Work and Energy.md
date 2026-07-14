@@ -275,7 +275,7 @@ $$
 ### average power formula
 $$
 \begin{aligned}
-P_{avg}=\frac{W}{\Delta t}=\frac{\Delta E}{\Delta t}\\
+P_{\text{avg}}=\frac{W}{\Delta t}=\frac{\Delta E}{\Delta t}\\
 W=\text{work}\\
 t=\text{time}\\
 E=\text{mechanical energy}

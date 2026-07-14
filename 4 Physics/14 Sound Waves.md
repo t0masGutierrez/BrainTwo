@@ -133,9 +133,10 @@ $$
 ### average power formula
 $$
 \begin{aligned}
-P_{avg}=\frac{E}{t}\\
-E=\text{energy}\\
-t=\text{time}
+P_{\text{avg}}=\frac{W}{\Delta t}=\frac{\Delta E}{\Delta t}\\
+W=\text{work}\\
+t=\text{time}\\
+E=\text{mechanical energy}
 \end{aligned}
 $$
 
@@ -147,19 +148,27 @@ $$
 ### instantaneous power formula
 $$
 \begin{aligned}
-P=\vec F\cdot\vec v\\
-F=\text{force}\\
-v=\text{velocity}
+P=\vec F\cdot\vec v=Fv\cos(\theta)\\
+\vec F=\text{force}\\
+\vec v=\text{velocity}
 \end{aligned}
 $$
 
 ---
-### sound intensity
-- loudness
+### loudness
+- definition
+
+---
+### pitch
+- definition
+
+---
+### intensity
+- power per area
 ![[4 Physics/Images/sound intensity.png]]
 
 ---
-### sound intensity formula
+### intensity formula
 $$
 \begin{aligned}
 I=\frac{P}{A}\\
@@ -169,12 +178,12 @@ A=\text{area}
 $$
 
 ---
-### sphere sound intensity
-- sound intensity of sphere decreases equally in all directions as distance from sphere increases
-![[4 Physics/Images/sphere sound intensity.png]]
+### spherical intensity
+- power per circular area
+![[4 Physics/Images/spherical intensity.png|300]]
 
 ---
-### sphere sound intensity formula
+### spherical intensity formula
 $$
 \begin{aligned}
 I=\frac{P}{4\pi r^{2}}\\
@@ -184,16 +193,32 @@ r=\text{distance}
 $$
 
 ---
-### sound intensity level
-- logarithmic measure of sound intensity relative reference sound intensity
-![[4 Physics/Images/sound intensity level.png]]
+### planar intensity
+- power per rectangular area
 
 ---
-### sound intensity level formula
+### planar intensity formula
+$$
+\begin{aligned}
+I=\rho v\omega A^2\\
+\rho=\text{density}\\
+v=\text{velocity}\\
+\omega=\text{angular frequency}\\
+A=\text{amplitude}
+\end{aligned}
+$$
+
+---
+### loudness
+- logarithmic measure of sound intensity relative reference sound intensity
+![[4 Physics/Images/loudness.png]]
+
+---
+### loudness formula
 $$
 \begin{aligned}
 \beta=10\log(\frac{I}{I_{0}})\\
-I=\text{sound intensity}\\
+I=\text{intensity}\\
 I_{0}=10^{-12}
 \end{aligned}
 $$
