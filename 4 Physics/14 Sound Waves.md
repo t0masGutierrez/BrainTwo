@@ -155,14 +155,6 @@ P=\vec F\cdot\vec v=Fv\cos(\theta)\\
 $$
 
 ---
-### loudness
-- definition
-
----
-### pitch
-- definition
-
----
 ### intensity
 - power per area
 ![[4 Physics/Images/sound intensity.png]]
@@ -171,9 +163,12 @@ $$
 ### intensity formula
 $$
 \begin{aligned}
-I=\frac{P}{A}\\
+I=\frac{P_{\text{avg}}}{A}=\frac{(\Delta p_{\text{max}})^2}{2\rho v}\\
 P=\text{power}\\
-A=\text{area}
+A=\text{area}\\
+p=\text{pressure}\\
+\rho=\text{density}\\
+v=\text{velocity}
 \end{aligned}
 $$
 
@@ -210,8 +205,8 @@ $$
 
 ---
 ### loudness
-- logarithmic measure of sound intensity relative reference sound intensity
-![[4 Physics/Images/loudness.png]]
+- perception of intensity aka sound intensity level
+![300](4%20Physics/Images/loudness.png)
 
 ---
 ### loudness formula
@@ -224,17 +219,17 @@ I_{0}=10^{-12}
 $$
 
 ---
-### sound perception
+### sound intensity level
 - factor of 10 sound intensity increase equal multiple of 10 sound intensity level increase
-![[4 Physics/Images/sound perception.png]]
+![300](4%20Physics/Images/sound%20intensity%20level.png)
 
 ---
-### sound perception formula
+### sound intensity level formula
 $$
 \begin{aligned}
-\Delta I^{n}\implies\Delta\beta=10n\\
-I=\text{sound intensity}\\
-\beta=\text{sound intensity level}
+\frac{I_2}{I_1}=10^{n}\implies\Delta\beta=10n\\
+I=\text{intensity}\\
+\beta=\text{loudness}
 \end{aligned}
 $$
 
@@ -290,9 +285,9 @@ f_{s}=\text{source frequency}\\
 $$
 
 ---
-### wave front
+### wavefront
 - separation of wave crest by single wavelength
-![[4 Physics/Images/wave front.png]]
+![[4 Physics/Images/sound wavefront.png]]
 
 ---
 ### interference
@@ -304,7 +299,6 @@ $$
 $$
 \begin{aligned}
 \Delta r=n\lambda\\
-n=Z^{+}\\
 \lambda=\text{wavelength}
 \end{aligned}
 $$
@@ -314,7 +308,6 @@ $$
 $$
 \begin{aligned}
 \Delta r=(n+\frac{1}{2})\lambda\\
-n=Z^{+}\\
 \lambda=\text{wavelength}
 \end{aligned}
 $$
@@ -336,34 +329,32 @@ $$
 
 ---
 ### asymmetric normal mode
-- possible asymmetric standing wave pattern where all particles oscillate with the same frequency
-![[4 Physics/Images/asymmetric normal mode.png|400]]
+- asymmetric standing wave pattern where where all particles oscillate with the same frequency
+![500](4%20Physics/Images/asymmetric%20normal%20mode.png)
 
 ---
-### asymmetric resonant wavelength
-- wavelength of asymmetric normal mode
-
----
-### asymmetric resonant wavelength formula
+### asymmetric normal mode formula
 $$
 \begin{aligned}
-\lambda_{n}=\frac{4L}{n}\\
-L=\text{length}\\
-n=1,3,5,...
+f_{n}=\frac{nv}{4L}\\
+n=1,3,5,\dots\\
+v=\text{velocity}\\
+L=\text{length}
 \end{aligned}
 $$
 
 ---
-### asymmetric resonant frequency
-- odd integer multiple of fundamental frequency
+### symmetric normal mode
+- symmetric standing wave pattern where where all particles oscillate with the same frequency
+![500](4%20Physics/Images/symmetric%20normal%20mode.png)
 
 ---
-### asymmetric resonant frequency formula
+### symmetric normal mode formula
 $$
 \begin{aligned}
-f_{n}=\frac{nv}{4L}\\
-n=1,3,5,...\\
-v=\text{wave velocity}\\
+f_{n}=\frac{nv}{2L}\\
+n=1,2,3,\dots\\
+v=\text{velocity}\\
 L=\text{length}
 \end{aligned}
 $$
