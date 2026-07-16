@@ -351,7 +351,7 @@ $$
 ---
 ### constructive interference
 - combination of two or more waves equal larger wave
-- waves with aligned crests and troughs are in phase
+- waves with aligned crests are in phase
 ![300](4%20Physics/Images/constructive%20interference.png)
 
 ---
@@ -367,7 +367,7 @@ $$
 ---
 ### destructive interference
 - combination of two or more waves equal smaller wave
-- waves with misaligned crests and troughs are out of phase
+- waves with misaligned troughs are out of phase
 ![300](4%20Physics/Images/destructive%20interference.png)
 
 ---
@@ -491,7 +491,7 @@ $$
 ### complex exponential formula
 $$
 \begin{aligned}
-\theta=kx\mp\omega t+\phi\implies y(x,t)=Ae^{i\theta}=A\cos(\theta)+iA\sin(\theta)\\
+\theta=kx\mp\omega t\implies y(x,t)=Ae^{i\theta}=A\cos(\theta)+iA\sin(\theta)\\
 \theta=\text{phase}\\
 k=\text{wavenumber}\\
 x=\text{position}\\

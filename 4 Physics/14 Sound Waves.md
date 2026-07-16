@@ -1,10 +1,8 @@
 ### sound wave
-- particle move right during positive displacement
-- particle move left during negative displacement
 - pressure most positive during compression
 - pressure most negative during rarefaction
-- maximum pressure during zero displacement
-- minimum pressure during maximum displacement
+- displacement antinode equal pressure node
+- displacement node equal pressure antinode
 ![400](4%20Physics/Images/sound%20wave.png)
 
 ---
@@ -290,9 +288,40 @@ $$
 ![[4 Physics/Images/sound wavefront.png]]
 
 ---
+### coherence
+- equal frequency
+- constant phase shift
+
+---
+### coherence formula
+$$
+\begin{aligned}
+f_1=f_2\\
+\Delta\phi=C\\
+f=\text{oscillation frequency}\\
+\phi=\text{phase angle}
+\end{aligned}
+$$
+
+---
 ### interference
-- combination of two waves at the same point dependent path difference
+- combination of two waves at point dependent path difference
 ![[4 Physics/Images/source interference.png]]
+
+---
+### interference formula
+$$
+\begin{aligned}
+y(x,t)=y_{1}(\theta)+y_{2}(\theta+)\\
+y=\text{displacement}\\
+x=\text{position}\\
+t=\text{time}
+\end{aligned}
+$$
+
+---
+### constructive interference
+- combination of two waves in phase
 
 ---
 ### constructive interference formula
@@ -304,6 +333,10 @@ $$
 $$
 
 ---
+### destructive interference
+- combination of two waves out of phase
+
+---
 ### destructive interference formula
 $$
 \begin{aligned}
@@ -313,16 +346,16 @@ $$
 $$
 
 ---
-### beat frequency
-- interfering sound waves of different frequency oscillate between in phase and out phase
+### beat
+- variation of amplitude between two waves interfering with slightly different oscillation frequency
 ![[4 Physics/Images/beat frequency.png]]
 
 ---
-### beat frequency formula
+### beat formula
 $$
 \begin{aligned}
-f=|f_{2}-f_{1}|\\
-f_{2}=\text{reflect frequency}\\
+f_{\text{beat}}=|f_{2}-f_{1}|\\
+f_{2}=\text{reflected frequency}\\
 f_{1}=\text{incident frequency}
 \end{aligned}
 $$
