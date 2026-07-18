@@ -78,7 +78,7 @@ $$
 
 ---
 ### solid wave velocity
-- ratio between tendency to return change and tendency to resist change for sound wave through solid
+- speed of sound wave through solid
 ![200](4%20Physics/Images/solid%20wave%20velocity.png)
 
 ---
@@ -93,7 +93,7 @@ $$
 
 ---
 ### liquid wave velocity
-- ratio between tendency to return change and tendency to resist change for sound wave through liquid
+- speed of sound wave through liquid
 ![200](4%20Physics/Images/liquid%20wave%20velocity.png)
 
 ---
@@ -108,7 +108,7 @@ $$
 
 ---
 ### gas wave velocity
-- ratio between tendency to return change and tendency to resist change for sound wave through gas
+- speed of sound wave through gas
 ![200](4%20Physics/Images/gas%20wave%20velocity.png)
 
 ---
