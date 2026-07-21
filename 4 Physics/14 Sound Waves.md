@@ -137,34 +137,21 @@ E=\text{mechanical energy}
 $$
 
 ---
-### instantaneous power
-- rate of doing work
-
----
-### instantaneous power formula
-$$
-\begin{aligned}
-P=\vec F\cdot\vec v=Fv\cos(\theta)\\
-\vec F=\text{force}\\
-\vec v=\text{velocity}
-\end{aligned}
-$$
-
----
 ### intensity
-- power per area
+- average power per area
 ![[4 Physics/Images/sound intensity.png]]
 
 ---
 ### intensity formula
 $$
 \begin{aligned}
-I=\frac{P_{\text{avg}}}{A}=\frac{(\Delta p_{\text{max}})^2}{2\rho v}\\
+I=\frac{P_{\text{avg}}}{A}=\frac{(\Delta p_{\text{max}})^2}{2\rho v}=\rho\omega^2A^2v\\
 P=\text{power}\\
 A=\text{area}\\
 p=\text{pressure}\\
 \rho=\text{density}\\
-v=\text{velocity}
+v=\text{velocity}\\
+\omega=\text{angular frequency}
 \end{aligned}
 $$
 
@@ -180,22 +167,6 @@ $$
 I=\frac{P}{4\pi r^{2}}\\
 P=\text{power}\\
 r=\text{distance}
-\end{aligned}
-$$
-
----
-### planar intensity
-- power per rectangular area
-
----
-### planar intensity formula
-$$
-\begin{aligned}
-I=\rho v\omega A^2\\
-\rho=\text{density}\\
-v=\text{velocity}\\
-\omega=\text{angular frequency}\\
-A=\text{amplitude}
 \end{aligned}
 $$
 
@@ -230,60 +201,53 @@ I=\text{intensity}\\
 $$
 
 ---
-### moving observer sound perception
-- observer moving toward stationary source perceive higher frequency than stationary observer
-![[4 Physics/Images/moving observer sound perception.png]]
+### asymmetric normal mode
+- open standing wave pattern where where all particles oscillate with the same frequency
+![500](4%20Physics/Images/asymmetric%20normal%20mode.png)
 
 ---
-### moving observer sound perception formula
+### asymmetric normal mode formula
 $$
 \begin{aligned}
-f_{o}=(\frac{v\pm v_{0}}{v})f_{s}\\
-v=\text{343}\\
-v_{o}=\text{observer velocity}\\
-f_{s}=\text{source frequency}
+f_{n}=\frac{nv}{4L}\\
+n=1,3,5,\dots\\
+v=\text{velocity}\\
+L=\text{length}
 \end{aligned}
 $$
 
 ---
-### moving source sound perception
-- source moving toward stationary observer perceive higher frequency than stationary source
-![[4 Physics/Images/moving source sound perception.png|400]]
+### symmetric normal mode
+- closed standing wave pattern where where all particles oscillate with the same frequency
+![500](4%20Physics/Images/symmetric%20normal%20mode.png)
 
 ---
-### moving source sound perception formula
+### symmetric normal mode formula
 $$
 \begin{aligned}
-f_{o}=(\frac{v}{v\mp v_{s}})f_{s}\\
-v=343\\
-v_{s}=\text{source velocity}\\
-f_{s}=\text{source frequency}
-\end{aligned}
-$$
-
----
-### doppler effect
-- moving together equal higher frequency and shorter wavelength
-- perception of frequency dependent relative motion between observer and source
-- moving away equal lower frequency and longer wavelength
-![[4 Physics/Images/doppler effect.png|500]]
-
----
-### doppler formula
-$$
-\begin{aligned}
-f_{o}=(\frac{v\pm v_{o}}{v\mp v_{s}})f_{s}\\
-v=343\\
-v_{o}=\text{observer velocity}\\
-v_{s}=\text{source velocity}\\
-f_{s}=\text{source frequency}\\
+f_{n}=\frac{nv}{2L}\\
+n=1,2,3,\dots\\
+v=\text{velocity}\\
+L=\text{length}
 \end{aligned}
 $$
 
 ---
 ### wavefront
-- separation of wave crest by single wavelength
-![[4 Physics/Images/sound wavefront.png]]
+- set of spatial points with constant phase at fixed time
+![200](4%20Physics/Images/wavefront%201.png)
+
+---
+### wavefront formula
+$$
+\begin{aligned}
+\theta(x,t)=C\\
+\theta=\text{phase}\\
+x=\text{position}\\
+t=\text{time}\\
+C=\text{constant}
+\end{aligned}
+$$
 
 ---
 ### coherence
@@ -310,10 +274,12 @@ $$
 ### interference formula
 $$
 \begin{aligned}
-y(x,t)=y_{1}(\theta)+y_{2}(\theta+)\\
+y(x,t)=y_{1}(\theta)+y_{2}(\theta+\frac{2\pi}{\lambda}\Delta L)\\
 y=\text{displacement}\\
 x=\text{position}\\
-t=\text{time}
+t=\text{time}\\
+\theta=\text{phase}\\
+L=\text{length}
 \end{aligned}
 $$
 
@@ -325,7 +291,7 @@ $$
 ### constructive interference formula
 $$
 \begin{aligned}
-\Delta r=n\lambda\\
+\Delta L=n\lambda\\
 \lambda=\text{wavelength}
 \end{aligned}
 $$
@@ -338,7 +304,7 @@ $$
 ### destructive interference formula
 $$
 \begin{aligned}
-\Delta r=(n+\frac{1}{2})\lambda\\
+\Delta L=(n+\frac{1}{2})\lambda\\
 \lambda=\text{wavelength}
 \end{aligned}
 $$
@@ -346,7 +312,7 @@ $$
 ---
 ### beat
 - variation of amplitude between two waves interfering with slightly different oscillation frequency
-![[4 Physics/Images/beat frequency.png]]
+![300](4%20Physics/Images/beat.png)
 
 ---
 ### beat formula
@@ -359,34 +325,68 @@ f_{1}=\text{incident frequency}
 $$
 
 ---
-### asymmetric normal mode
-- asymmetric standing wave pattern where where all particles oscillate with the same frequency
-![500](4%20Physics/Images/asymmetric%20normal%20mode.png)
+### moving observer effect
+- observer moving toward stationary source perceive higher frequency than stationary observer
+![300](4%20Physics/Images/moving%20observer%20effect.png)
 
 ---
-### asymmetric normal mode formula
+### moving observer effect formula
 $$
 \begin{aligned}
-f_{n}=\frac{nv}{4L}\\
-n=1,3,5,\dots\\
-v=\text{velocity}\\
-L=\text{length}
+f_{o}=(\frac{v\pm v_{0}}{v})f_{s}\\
+v=\text{343}\\
+v_{o}=\text{observer velocity}\\
+f_{s}=\text{source frequency}
 \end{aligned}
 $$
 
 ---
-### symmetric normal mode
-- symmetric standing wave pattern where where all particles oscillate with the same frequency
-![500](4%20Physics/Images/symmetric%20normal%20mode.png)
+### moving source effect
+- source moving toward stationary observer perceive higher frequency than stationary source
+![300](4%20Physics/Images/moving%20source%20effect.png)
 
 ---
-### symmetric normal mode formula
+### moving source effect formula
 $$
 \begin{aligned}
-f_{n}=\frac{nv}{2L}\\
-n=1,2,3,\dots\\
-v=\text{velocity}\\
-L=\text{length}
+f_{o}=(\frac{v}{v\mp v_{s}})f_{s}\\
+v=343\\
+v_{s}=\text{source velocity}\\
+f_{s}=\text{source frequency}
+\end{aligned}
+$$
+
+---
+### doppler effect
+- perceived frequency dependent relative motion between observer and source
+- if observer moving toward source then positive observer velocity
+- if source moving toward observer then positive source velocity
+![500](4%20Physics/Images/doppler%20effect.png)
+
+---
+### doppler effect formula
+$$
+\begin{aligned}
+f_{o}=(\frac{v\pm v_{o}}{v\mp v_{s}})f_{s}\\
+v=343\\
+v_{o}=\text{observer velocity}\\
+v_{s}=\text{source velocity}\\
+f_{s}=\text{source frequency}\\
+\end{aligned}
+$$
+
+---
+### shock wave
+- source velocity exceed the speed of sound
+![](4%20Physics/Images/shock%20wave.png)
+
+---
+### shock wave formula
+$$
+\begin{aligned}
+\sin\alpha=\frac{v}{v_s}\\
+v=343\\
+v_s=\text{source velocity}
 \end{aligned}
 $$
 

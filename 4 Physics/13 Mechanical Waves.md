@@ -105,7 +105,8 @@ $$
 \theta(x,t)=C\\
 \theta=\text{phase}\\
 x=\text{position}\\
-t=\text{time}
+t=\text{time}\\
+C=\text{constant}
 \end{aligned}
 $$
 
