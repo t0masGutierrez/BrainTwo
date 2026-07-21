@@ -1,6 +1,4 @@
 ### sound wave
-- pressure most positive during compression
-- pressure most negative during rarefaction
 - displacement antinode equal pressure node
 - displacement node equal pressure antinode
 ![400](4%20Physics/Images/sound%20wave.png)
@@ -218,7 +216,7 @@ $$
 
 ---
 ### sound intensity level
-- factor of 10 sound intensity increase equal multiple of 10 sound intensity level increase
+- factor of 10 sound intensity increase equal multiple of 10 loudness increase
 ![300](4%20Physics/Images/sound%20intensity%20level.png)
 
 ---

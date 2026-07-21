@@ -53,7 +53,7 @@ $$
 ### variable impulse formula
 $$
 \begin{aligned}
-\vec J=\Delta\vec p=\int\vec F_{net}\cdot dt\\
+\vec J=d\vec p=\int\vec F_{net}\cdot dt\\
 \vec p=\text{momentum}\\
 \vec F=\text{force}\\
 t=\text{time}
