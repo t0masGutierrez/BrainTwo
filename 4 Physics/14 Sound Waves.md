@@ -268,7 +268,7 @@ $$
 ---
 ### interference
 - combination of two waves at point dependent path difference
-![[4 Physics/Images/source interference.png]]
+![[4 Physics/Images/sound interference.png]]
 
 ---
 ### interference formula
@@ -378,7 +378,7 @@ $$
 ---
 ### shock wave
 - source velocity exceed the speed of sound
-![](4%20Physics/Images/shock%20wave.png)
+![500](4%20Physics/Images/shock%20wave.png)
 
 ---
 ### shock wave formula
