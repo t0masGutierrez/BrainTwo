@@ -106,7 +106,7 @@ $$
 
 ---
 ### gas wave velocity
-- speed of sound wave through gas
+- speed of sound wave through ideal gas
 ![200](4%20Physics/Images/gas%20wave%20velocity.png)
 
 ---
@@ -145,13 +145,14 @@ $$
 ### intensity formula
 $$
 \begin{aligned}
-I=\frac{P_{\text{avg}}}{A}=\frac{(\Delta p_{\text{max}})^2}{2\rho v}=\rho\omega^2A^2v\\
+I=\frac{P_{\text{avg}}}{A}=\frac{(\Delta p_{\text{max}})^2}{2\rho v}=\rho\omega^2y^2v\\
 P=\text{power}\\
 A=\text{area}\\
 p=\text{pressure}\\
 \rho=\text{density}\\
 v=\text{velocity}\\
-\omega=\text{angular frequency}
+\omega=\text{angular frequency}\\
+y=\text{displacement}
 \end{aligned}
 $$
 
