@@ -242,11 +242,11 @@ k=\text{wavenumber}
 $$
 
 ---
-### tensed string wave velocity
+### taut string wave velocity
 - rate of wavefront along string under tension
 
 ---
-### tensed string wave velocity formula
+### taut string wave velocity formula
 $$
 \begin{aligned}
 v=\sqrt{\frac{F_{T}}{\mu}}\\
@@ -256,11 +256,11 @@ F=\text{force}\\
 $$
 
 ---
-### tensed string wave energy
+### taut string wave energy
 - mechanical energy along string under tension
 
 ---
-### tensed string wave energy formula
+### taut string wave energy formula
 $$
 \begin{aligned}
 E_{\text{avg}}=\frac{\mu A^{2}\omega^{2}\lambda}{2}\\
@@ -272,13 +272,13 @@ A=\text{amplitude}\\
 $$
 
 ---
-### tensed string wave power
+### taut string wave power
 - rate of doing work along string under tension
 - rate of mechanical energy transfer along string under tension
 ![300](4%20Physics/Images/tensed%20string%20wave%20power.png)
 
 ---
-### tensed string wave power formula
+### taut string wave power formula
 $$
 \begin{aligned}
 P(x,t)=\omega A^{2}kF_{T}\sin^{2}(kx\mp\omega t+\phi)\\
@@ -301,10 +301,6 @@ $$
 ---
 ### reflected wave
 - wave after interacting with boundary condition and propagating through original medium
-
----
-### refracted wave
-- wave after interacting with boundary condition and propagating through different medium
 
 ---
 ### fixed boundary condition
@@ -336,7 +332,7 @@ $$
 
 ---
 ### principle of superposition
-- combination of two or more waves equal sum of displacements
+- combination of two or more waves at the same position equal sum of displacements
 
 ---
 ### principle of superposition formula

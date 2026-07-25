@@ -275,12 +275,11 @@ $$
 ### interference formula
 $$
 \begin{aligned}
-y(x,t)=y_{1}(\theta)+y_{2}(\theta+\frac{2\pi}{\lambda}\Delta L)\\
+y(\theta)=y_{1}(\theta)+y_{2}(\theta+\frac{2\pi}{\lambda}\Delta x)\\
 y=\text{displacement}\\
-x=\text{position}\\
-t=\text{time}\\
 \theta=\text{phase}\\
-L=\text{length}
+\lambda=\text{wavelength}\\
+x=\text{position}
 \end{aligned}
 $$
 
@@ -292,7 +291,7 @@ $$
 ### constructive interference formula
 $$
 \begin{aligned}
-\Delta L=n\lambda\\
+\Delta x=n\lambda\\
 \lambda=\text{wavelength}
 \end{aligned}
 $$
@@ -305,7 +304,7 @@ $$
 ### destructive interference formula
 $$
 \begin{aligned}
-\Delta L=(n+\frac{1}{2})\lambda\\
+\Delta x=(n+\frac{1}{2})\lambda\\
 \lambda=\text{wavelength}
 \end{aligned}
 $$
