@@ -1,3 +1,16 @@
+### temperature
+- measure of the degree of hotness or coldness of body
+![400](4%20Physics/Images/temperature1.png)
+
+---
+### temperature formula
+$$
+\begin{aligned}
+T
+\end{aligned}
+$$
+
+---
 ### celsius
 - freezing point equal $0^{\circ}C$
 - boiling point equal $100^{\circ}C$
@@ -6,8 +19,8 @@
 ### celsius formula
 $$
 \begin{aligned}
-T_{c}=\frac{5}{9}(T_{f}-32)\\
-T_{f}=\text{fahrenheit}
+T_{C}=\frac{5}{9}(T_{F}-32)\\
+T_{F}=\text{fahrenheit}
 \end{aligned}
 $$
 
@@ -20,8 +33,8 @@ $$
 ### fahrenheit formula
 $$
 \begin{aligned}
-T_{f}=(\frac{9}{5})T_{c}+32\\
-T_{c}=\text{celcius}
+T_{F}=(\frac{9}{5})T_{C}+32\\
+T_{C}=\text{celsius}
 \end{aligned}
 $$
 
@@ -34,8 +47,26 @@ $$
 ### kelvin formula
 $$
 \begin{aligned}
-K=T_{c}+273.15\\
-T_{c}=\text{celcius}
+K=T_{C}+273.15=\frac{5}{9}(T_{F}-32)+273.15\\
+T_{C}=\text{celsius}\\
+T_{F}=\text{fahrenheit}
+\end{aligned}
+$$
+
+---
+### zeroth law of thermodynamics
+- zero net heat flow between systems sharing the same temperature
+- aka thermal equilibrium
+![[4 Physics/Images/zeroth law of thermodynamics.png]]
+
+---
+### zeroth law of thermodynamics formula
+$$
+\begin{aligned}
+T_1=T_2\iff\frac{dQ}{dt}=0\\
+T=\text{temperature}\\
+Q=\text{heat}\\
+t=\text{time}
 \end{aligned}
 $$
 
@@ -101,11 +132,6 @@ $$
 ---
 ### heat
 - transfer of thermal energy between systems of different temperature
-
----
-### zeroth law of thermodynamics
-- zero net heat flow between objects of the same temperature
-![[4 Physics/Images/zeroth law of thermodynamics.png]]
 
 ---
 ### kilocalorie
@@ -200,10 +226,5 @@ m=\text{mass}\\
 L=\text{latent heat}
 \end{aligned}
 $$
-
----
-### phase change diagram
-- temperature versus heat
-![[4 Physics/Images/phase transition diagram.png]]
 
 ---
