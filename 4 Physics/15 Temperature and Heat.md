@@ -148,6 +148,21 @@ T=\text{temperature}
 $$
 
 ---
+### thermal energy
+- total energy of all moving particles inside thermodynamical system
+
+---
+### thermal energy formula
+$$
+\begin{aligned}
+E\propto NT\\
+E=\text{energy}\\
+N=\text{number of molecules}\\
+T=\text{temperature}
+\end{aligned}
+$$
+
+---
 ### heat
 - transfer of thermal energy from high temperature to low temperature
 ![[4 Physics/Images/heat.png|300]]
@@ -242,6 +257,7 @@ $$
 ---
 ### phase change
 - coexistence of two phases
+![400](4%20Physics/Images/phase%20change.png)
 
 ---
 ### phase change formula
@@ -338,14 +354,14 @@ $$
 $$
 
 ---
-### TH diagram
+### TQ diagram
 - temperature versus heat
 - phase change does not change molecular kinetic energy
 - phase change does change intermolecular potential energy
-![400](4%20Physics/Images/TH%20diagram.png)
+![400](4%20Physics/Images/TQ.png)
 
 ---
-### TH diagram formula
+### TQ diagram formula
 $$
 \begin{aligned}
 (Q,T)\\
@@ -355,19 +371,19 @@ T=\text{temperature}
 $$
 
 ---
-### PT diagram
+### pT diagram
 - pressure versus temperature
 - pressure favors solids
 - temperature favors gases
-![[4 Physics/Images/PT diagram.png|400]]
+![[4 Physics/Images/pT diagram.png|400]]
 
 ---
-### PT diagram formula
+### pT diagram formula
 $$
 \begin{aligned}
-(p,T)\\
-p=\text{pressure}\\
-T=\text{temperature}
+(T,p)\\
+T=\text{temperature}\\
+p=\text{pressure}
 \end{aligned}
 $$
 
@@ -427,11 +443,11 @@ $$
 ### radiation formula
 $$
 \begin{aligned}
-\frac{dQ}{dt}=Ae\sigma K^4\\
+\frac{dQ}{dt}=Ae\sigma T^4\\
 A=\text{area}\\
 e=\text{emissivity}\\
-\sigma=5.67037442\times10^{-8}\\
-K=\text{kelvin}
+\sigma=5.67\times10^{-8}\\
+T=\text{temperature}
 \end{aligned}
 $$
 
