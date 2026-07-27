@@ -57,7 +57,7 @@ $$
 ### zeroth law of thermodynamics
 - zero net heat flow between systems sharing the same temperature
 - aka thermal equilibrium
-![[4 Physics/Images/zeroth law of thermodynamics.png]]
+![400](4%20Physics/Images/zeroth%20law%20of%20thermodynamics.png)
 
 ---
 ### zeroth law of thermodynamics formula
@@ -71,73 +71,80 @@ t=\text{time}
 $$
 
 ---
-### internal energy
-- average distance between atoms increases as internal energy increases
-![[4 Physics/Images/internal energy.png]]
-
----
-### thermal expansion of solid
+### thermal expansion
 - solid expands as temperature increases
-![[4 Physics/Images/thermal expansion of solid.png]]
+![300](4%20Physics/Images/solid%20thermal%20expansion.png)
 
 ---
-### thermal expansion of 1d solid formula
+### length thermal expansion formula
 $$
 \begin{aligned}
 \frac{\Delta L}{L}=\alpha\Delta T_{c}\\
+L=\text{length}\\
 \alpha=\text{linear expansion coefficient}\\
-T_{c}=\text{celcius}\\
-L=\text{length}
+T_{c}=\text{celsius}
 \end{aligned}
 $$
 
 ---
-### thermal expansion of 2d solid formula
+### area thermal expansion formula
 $$
 \begin{aligned}
 \frac{\Delta A}{A}=2\alpha\Delta T_{c}\\
+A=\text{area}\\
 \alpha=\text{linear expansion coefficient}\\
-T_{c}=\text{celcius}\\
-A=\text{area}
+T_{c}=\text{celsius}
 \end{aligned}
 $$
 
 ---
-### thermal expansion of 3d solid formula
+### volume thermal expansion formula
 $$
 \begin{aligned}
 \frac{\Delta V}{V}=3\alpha\Delta T_{c}\\
+V=\text{volume}\\
 \alpha=\text{linear expansion coefficient}\\
-T_{c}=\text{celcius}\\
-V=\text{volume}
+T_{c}=\text{celsius}
 \end{aligned}
 $$
 
 ---
-### thermal expansion of fluid
-- fluid expands as temperature increases
-![[4 Physics/Images/thermal expansion of fluid.png]]
+### thermal stress
+- compressive stress as result of prevented thermal expansion
 
 ---
-### thermal expansion of fluid formula
+### thermal stress formula
 $$
 \begin{aligned}
-\frac{\Delta V}{V}=\beta\Delta T_{c}\\
-\beta=\text{volume expansion coefficient}\\
-T_{c}=\text{celcius}\\
-V=\text{volue}
+\frac{F}{A}=Y\alpha\Delta T_{c}\\
+F=\text{force}\\
+A=\text{area}\\
+Y=\text{young's modulus}\\
+\alpha=\text{linear expansion coefficient}\\
+T_{c}=\text{celsius}
 \end{aligned}
 $$
 
 ---
 ### heat
-- transfer of thermal energy between systems of different temperature
+- transfer of energy between systems of different temperature
+
+---
+### heat formula
+$$
+\begin{aligned}
+\Delta T\implies Q=\Delta E\\
+T=\text{temperature}\\
+Q=\text{heat}\\
+E=\text{energy}
+\end{aligned}
+$$
 
 ---
 ### kilocalorie
-- amount of heat necessary to change temperature of 1 kg of water by $1^{\circ}C$
-- temperature change possible via work done or heat transfer
-![[4 Physics/Images/kilocalorie.png]]
+- amount of heat necessary to change temperature of 1 kilogram of water by 1 degree celsius
+- temperature change equal result of work and/or heat
+![400](4%20Physics/Images/kilocalorie.png)
 
 ---
 ### kilocalorie formula
@@ -149,8 +156,7 @@ $$
 
 ---
 ### specific heat
-- amount of heat that must enter mass to change temperature by $\Delta T$
-- high specific heat capacity resist temperature change more than low specific heat capacity
+- amount of heat required to change temperature of unit mass by 1 degree without changing its phase
 ![[4 Physics/Images/specific heat.png|400]]
 
 ---
@@ -160,7 +166,54 @@ $$
 Q=mc\Delta T_{c}\\
 m=\text{mass}\\
 c=\text{specific heat capacity}\\
-T_{c}=\text{celcius}
+T_{c}=\text{celsius}
+\end{aligned}
+$$
+
+---
+### specific heat capacity
+- high specific heat capacity resist temperature change
+
+---
+### specific heat capacity formula
+$$
+\begin{aligned}
+c=(\frac{1}{m})(\frac{dQ}{dt})\\
+m=\text{mass}\\
+Q=\text{heat}\\
+t=\text{time}
+\end{aligned}
+$$
+
+---
+### molar heat capacity
+- high molar heat capacity resist temperature change
+![400](4%20Physics/Images/molar%20heat%20capacity.png)
+
+---
+### molar heat capacity formula
+$$
+\begin{aligned}
+C=(\frac{1}{n})(\frac{dQ}{dt})=Mc\\
+n=\text{number of moles}\\
+Q=\text{heat}\\
+t=\text{time}\\
+M=\text{molar mass}\\
+c=\text{specific heat capacity}
+\end{aligned}
+$$
+
+---
+### phase
+- state of matter
+
+---
+### phase formula
+$$
+\begin{aligned}
+\text{solid}\\
+\text{liquid}\\
+\text{gas}
 \end{aligned}
 $$
 
@@ -169,20 +222,62 @@ $$
 - temperature where solids become liquids by adding heat
 
 ---
+### melting point formula
+$$
+\begin{aligned}
+\text{solid}\xrightarrow{+Q}\text{liquid}
+\end{aligned}
+$$
+
+---
 ### freezing point
 - temperature where liquids become solids by subtracting heat
 
 ---
-### vaporizing point
+### freezing point formula
+$$
+\text{liquid}\xrightarrow{-Q}\text{solid}
+$$
+
+---
+### boiling point
 - temperature where liquids become gases by adding heat
+
+---
+### boiling point formula
+$$
+\text{liquid}\xrightarrow{+Q}\text{gas}
+$$
 
 ---
 ### condensing point
 - temperature where gases becomes liquids by subtracting heat
 
 ---
-### phase
-- state of matter such as solid liquid or gas
+### condensing point formula
+$$
+\text{gas}\xrightarrow{-Q}\text{liquid}
+$$
+
+---
+### subliming point
+- temperature where solids becomes gases (without becoming liquids) by adding heat
+
+---
+### subliming point formula
+$$
+\text{solid}\xrightarrow{+Q}\text{gas}
+$$
+
+---
+### depositing point
+- temperature where gases becomes solids (without becoming liquids) by subtracting heat
+
+---
+### depositing point formula
+$$
+\text{gas}\xrightarrow{-Q}\text{solid}
+$$
 
 ---
 ### phase transition
@@ -192,14 +287,6 @@ $$
 ![[4 Physics/Images/phase transition.png|300]]
 
 ---
-### sublimation
-- phase transition where solids become gases without becoming liquid
-
----
-### deposition
-- phase transition where gases become solids without becoming liquid
-
----
 ### phase diagram
 - pressure versus temperature
 ![[4 Physics/Images/phase diagram.png|400]]
@@ -207,6 +294,14 @@ $$
 ---
 ### triple point
 - thermal equilibrium of all three phases
+
+---
+### triple point formula
+$$
+\begin{aligned}
+
+\end{aligned}
+$$
 
 ---
 ### critical point
