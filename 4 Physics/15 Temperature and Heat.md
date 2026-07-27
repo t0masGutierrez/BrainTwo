@@ -47,11 +47,32 @@ $$
 ### kelvin formula
 $$
 \begin{aligned}
-K=T_{C}+273.15=\frac{5}{9}(T_{F}-32)+273.15\\
-T_{C}=\text{celsius}\\
-T_{F}=\text{fahrenheit}
+K=T_{C}+273.15\\
+T_{C}=\text{celsius}
 \end{aligned}
 $$
+
+---
+### conductor
+- material with low resistance to heat flow
+
+---
+### conductor example
+- silver
+- copper
+- gold
+- aluminum
+
+---
+### insulator
+- material with high resistance to heat flow
+
+---
+### insulator example
+- air
+- styrofoam
+- fiberglass
+- plastic
 
 ---
 ### zeroth law of thermodynamics
@@ -79,10 +100,10 @@ $$
 ### length thermal expansion formula
 $$
 \begin{aligned}
-\frac{\Delta L}{L}=\alpha\Delta T_{c}\\
+\frac{\Delta L}{L}=\alpha\Delta T\\
 L=\text{length}\\
 \alpha=\text{linear expansion coefficient}\\
-T_{c}=\text{celsius}
+T=\text{temperature}
 \end{aligned}
 $$
 
@@ -90,10 +111,10 @@ $$
 ### area thermal expansion formula
 $$
 \begin{aligned}
-\frac{\Delta A}{A}=2\alpha\Delta T_{c}\\
+\frac{\Delta A}{A}=2\alpha\Delta T\\
 A=\text{area}\\
 \alpha=\text{linear expansion coefficient}\\
-T_{c}=\text{celsius}
+T=\text{temperature}
 \end{aligned}
 $$
 
@@ -101,33 +122,35 @@ $$
 ### volume thermal expansion formula
 $$
 \begin{aligned}
-\frac{\Delta V}{V}=3\alpha\Delta T_{c}\\
+\frac{\Delta V}{V}=3\alpha\Delta T\\
 V=\text{volume}\\
 \alpha=\text{linear expansion coefficient}\\
-T_{c}=\text{celsius}
+T=\text{temperature}
 \end{aligned}
 $$
 
 ---
 ### thermal stress
 - compressive stress as result of prevented thermal expansion
+![200](4%20Physics/Images/thermal%20stress.png)
 
 ---
 ### thermal stress formula
 $$
 \begin{aligned}
-\frac{F}{A}=Y\alpha\Delta T_{c}\\
+\frac{F}{A}=Y\alpha\Delta T\\
 F=\text{force}\\
 A=\text{area}\\
 Y=\text{young's modulus}\\
 \alpha=\text{linear expansion coefficient}\\
-T_{c}=\text{celsius}
+T=\text{temperature}
 \end{aligned}
 $$
 
 ---
 ### heat
-- transfer of energy between systems of different temperature
+- transfer of thermal energy from high temperature to low temperature
+![[4 Physics/Images/heat.png|300]]
 
 ---
 ### heat formula
@@ -142,7 +165,7 @@ $$
 
 ---
 ### kilocalorie
-- amount of heat necessary to change temperature of 1 kilogram of water by 1 degree celsius
+- amount of heat required to change temperature of 1 kilogram of water by 1 degree celsius
 - temperature change equal result of work and/or heat
 ![400](4%20Physics/Images/kilocalorie.png)
 
@@ -156,17 +179,16 @@ $$
 
 ---
 ### specific heat
-- amount of heat required to change temperature of unit mass by 1 degree without changing its phase
-![[4 Physics/Images/specific heat.png|400]]
+- amount of heat required to change the temperature of 1 kilogram of substance by 1 degree celsius without changing its phase
 
 ---
 ### specific heat formula
 $$
 \begin{aligned}
-Q=mc\Delta T_{c}\\
+Q=mc\Delta T\\
 m=\text{mass}\\
 c=\text{specific heat capacity}\\
-T_{c}=\text{celsius}
+T=\text{temperature}
 \end{aligned}
 $$
 
@@ -218,6 +240,18 @@ $$
 $$
 
 ---
+### phase change
+- coexistence of two phases
+
+---
+### phase change formula
+$$
+\begin{aligned}
+\set{\text{solid, liquid, gas}}\xrightarrow{\pm Q}\set{\text{solid, liquid, gas}}
+\end{aligned}
+$$
+
+---
 ### melting point
 - temperature where solids become liquids by adding heat
 
@@ -260,57 +294,87 @@ $$
 $$
 
 ---
-### subliming point
+### sublimation point
 - temperature where solids becomes gases (without becoming liquids) by adding heat
 
 ---
-### subliming point formula
+### sublimation point formula
 $$
 \text{solid}\xrightarrow{+Q}\text{gas}
 $$
 
 ---
-### depositing point
+### deposition point
 - temperature where gases becomes solids (without becoming liquids) by subtracting heat
 
 ---
-### depositing point formula
+### deposition point formula
 $$
 \text{gas}\xrightarrow{-Q}\text{solid}
 $$
 
 ---
-### phase transition
-- coexistence of two phases
-- heat transfer does not change temperature during phase transition
-- heat transfer does change atomic bonding during phase transition
-![[4 Physics/Images/phase transition.png|300]]
-
----
-### phase diagram
-- pressure versus temperature
-![[4 Physics/Images/phase diagram.png|400]]
-
----
 ### triple point
-- thermal equilibrium of all three phases
+- point where all three phases coexist at thermal equilibrium
 
 ---
 ### triple point formula
 $$
 \begin{aligned}
-
+\text{solid}\rightleftharpoons\text{liquid}\rightleftharpoons\text{gas}
 \end{aligned}
 $$
 
 ---
 ### critical point
-- liquids and gases become indistinguishable beyond critical point where they become fluids
+- point where liquids and gases become fluids
+
+---
+### critical point formula
+$$
+\begin{aligned}
+\text{liquid}=\text{gas}
+\end{aligned}
+$$
+
+---
+### TH diagram
+- temperature versus heat
+- phase change does not change molecular kinetic energy
+- phase change does change intermolecular potential energy
+![400](4%20Physics/Images/TH%20diagram.png)
+
+---
+### TH diagram formula
+$$
+\begin{aligned}
+(Q,T)\\
+Q=\text{heat}\\
+T=\text{temperature}
+\end{aligned}
+$$
+
+---
+### PT diagram
+- pressure versus temperature
+- pressure favors solids
+- temperature favors gases
+![[4 Physics/Images/PT diagram.png|400]]
+
+---
+### PT diagram formula
+$$
+\begin{aligned}
+(p,T)\\
+p=\text{pressure}\\
+T=\text{temperature}
+\end{aligned}
+$$
 
 ---
 ### latent heat
-- amount of heat that must enter or exit substance to undergo phase change
-![[4 Physics/Images/latent heat.png]]
+- amount of heat required to change the phase of 1 kilogram of substance without changing its temperature
+![400](4%20Physics/Images/latent%20heat.png)
 
 ---
 ### latent heat formula
@@ -318,7 +382,56 @@ $$
 \begin{aligned}
 Q=\pm mL\\
 m=\text{mass}\\
-L=\text{latent heat}
+L=\text{specific latent heat}
+\end{aligned}
+$$
+
+---
+### conduction
+- heat flow as result of physical contact
+![200](4%20Physics/Images/conduction.png)
+
+---
+### conduction formula
+$$
+\begin{aligned}
+\frac{dQ}{dt}=kA\frac{\Delta T}{L}\\
+Q=\text{heat}\\
+t=\text{time}\\
+k=\text{thermal conductivity}\\
+A=\text{area}\\
+T=\text{temperature}\\
+L=\text{length}
+\end{aligned}
+$$
+
+---
+### convection
+- heat flow as result of fluid motion
+
+---
+### convection formula
+$$
+\begin{aligned}
+\frac{dQ}{dt}\propto A\\
+\frac{dQ}{dt}\propto v\\
+\frac{dQ}{dt}\propto(\Delta T)^{5/4}
+\end{aligned}
+$$
+
+---
+### radiation
+- heat flow as result of electromagnetic waves
+
+---
+### radiation formula
+$$
+\begin{aligned}
+\frac{dQ}{dt}=Ae\sigma K^4\\
+A=\text{area}\\
+e=\text{emissivity}\\
+\sigma=5.67037442\times10^{-8}\\
+K=\text{kelvin}
 \end{aligned}
 $$
 
