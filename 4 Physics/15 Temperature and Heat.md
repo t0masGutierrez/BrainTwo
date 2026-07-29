@@ -148,21 +148,6 @@ T=\text{temperature}
 $$
 
 ---
-### thermal energy
-- total energy of all moving particles inside thermodynamical system
-
----
-### thermal energy formula
-$$
-\begin{aligned}
-E\propto NT\\
-E=\text{energy}\\
-N=\text{number of molecules}\\
-T=\text{temperature}
-\end{aligned}
-$$
-
----
 ### heat
 - transfer of thermal energy from high temperature to low temperature
 ![[4 Physics/Images/heat.png|300]]

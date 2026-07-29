@@ -1,3 +1,41 @@
+### state variable
+- physical quantity whose value depend on current state of system and not on how the system got there
+
+---
+### state variable example
+- pressure
+- temperature
+- volume
+
+---
+### equation of state
+- mathematical relationship connecting the state variables of system at thermodynamic equilibrium
+
+---
+### equation of state formula
+$$
+\begin{aligned}
+f(x)=0\\
+x=\text{state}
+\end{aligned}
+$$
+
+---
+### thermal energy
+- total energy of all moving particles inside thermodynamical system
+
+---
+### thermal energy formula
+$$
+\begin{aligned}
+E\propto NT\\
+E=\text{energy}\\
+N=\text{number of molecules}\\
+T=\text{temperature}
+\end{aligned}
+$$
+
+---
 ### newtons law of cooling
 - rate of heat loss directly proportional temperature difference between system and surrounding
 ![[4 Physics/Images/newtons law of cooling.png]]
