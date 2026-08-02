@@ -437,3 +437,18 @@ T=\text{temperature}
 $$
 
 ---
+### newtons law of cooling
+- rate of heat loss directly proportional temperature gradient between system and surrounding
+![[4 Physics/Images/newtons law of cooling.png]]
+
+---
+### newtons formula of cooling
+$$
+\begin{aligned}
+\frac{dT}{dt}=k\Delta T\\
+k=\text{cooling constant}\\
+T=\text{temperature}\\
+\end{aligned}
+$$
+
+---

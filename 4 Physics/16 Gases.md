@@ -6,6 +6,7 @@
 - pressure
 - temperature
 - volume
+- number of moles
 
 ---
 ### equation of state
@@ -21,118 +22,25 @@ x=\text{state}
 $$
 
 ---
-### thermal energy
-- total energy of all moving particles inside thermodynamical system
-
----
-### thermal energy formula
-$$
-\begin{aligned}
-E\propto NT\\
-E=\text{energy}\\
-N=\text{number of molecules}\\
-T=\text{temperature}
-\end{aligned}
-$$
-
----
-### newtons law of cooling
-- rate of heat loss directly proportional temperature difference between system and surrounding
-![[4 Physics/Images/newtons law of cooling.png]]
-
----
-### newtons formula of cooling
-$$
-\begin{aligned}
-\frac{dT}{dt}=k(T-T_{0})\\
-k=\text{cooling constant}\\
-T=\text{system temperature}\\
-T_{0}=\text{surrounding temperature}
-\end{aligned}
-$$
-
----
-### boyles law
-- if constant temperature and constant number of moles then pressure inversely proportional volume
-- isothermal
-![[4 Physics/Images/boyles law.png]]
-
----
-### boyles formula
-$$
-\begin{aligned}
-p_{1}V_{1}=p_{2}V_{2}\\
-p=\text{pressure}\\
-V=\text{volume}
-\end{aligned}
-$$
-
----
-### charles law
-- if constant pressure and constant number of moles then volume directly proportional temperature
-- isobaric
-![[4 Physics/Images/charles law.png]]
-
----
-### charles formula
-$$
-\begin{aligned}
-\frac{V_{1}}{T_{1}}=\frac{V_{2}}{T_{2}}\\
-V=\text{volume}\\
-T=\text{temperature}
-\end{aligned}
-$$
-
----
-### avagadros law
-- if constant temperature and constant pressure then volume directly proportional number of moles
-- isothermal and isobaric
-![[4 Physics/Images/avagadros law.png|400]]
-
----
-### avagadros formula
-$$
-\begin{aligned}
-\frac{V_{1}}{n_{1}}=\frac{V_{2}}{n_{2}}\\
-V=\text{volume}\\
-n=\text{number of moles}
-\end{aligned}
-$$
-
----
 ### ideal gas
-- large number of identical molecules that move randomly with translational motion and undergo elastic collisions
+- gas particles equal point particles with negligible volume
+- gas particles move randomly with constant velocity
+- gas particles undergo elastic collisions
 ![[4 Physics/Images/ideal gas.png]]
 
 ---
-### microscopic ideal gas formula
+### ideal gas formula
 $$
 \begin{aligned}
-pV=Nk_{b}T_{k}\\
-N=\text{number of molecules}\\
-k_{b}=1.38\times10^{-23}\\
-T_{k}=\text{kelvin}
-\end{aligned}
-$$
-
----
-### macroscopic ideal gas formula
-$$
-\begin{aligned}
-pV=nRT_{k}\\
+pV=Nk_BT=nRT=nk_BN_{A}T\\
+p=\text{pressure}\\
+V=\text{volume}\\
+N=\text{number of particles}\\
+k_B=1.381\times10^{-23}\\
+T=\text{absolute temperature}\\
 n=\text{number of moles}\\
-R=8.31\\
-T_{k}=\text{kelvin}
-\end{aligned}
-$$
-
----
-### ideal gas conversion formula
-$$
-\begin{aligned}
-R=k_{b}N_{A}\\
-k_{b}=1.38\times10^{-23}\\
-N_{A}=6.02\times10^{23}
+R=8.314\\
+N_{A}=6.022\times10^{23}
 \end{aligned}
 $$
 
@@ -152,29 +60,96 @@ $$
 
 ---
 ### avagadros number
-- number of molecules per mole
+- number of particles per mole
 
 ---
 ### avagadros formula
 $$
 \begin{aligned}
-N_{A}=\frac{N}{n}=6.02\times10^{23}\\
-N=\text{number of molecules}\\
+N_{A}=\frac{N}{n}=6.022\times10^{23}\\
+N=\text{number of particles}\\
 n=\text{number of moles}
 \end{aligned}
 $$
 
 ---
-### number density
-- measure of molecular compactness
+### van der waals gas
+- gas particles have finite size
+- gas particles attract each other
+![300](4%20Physics/Images/van%20der%20waals%20gas.png)
 
 ---
-### number density formula
+### van der waals gas formula
 $$
 \begin{aligned}
-\rho=\frac{N}{V}\\
-N=\text{number of molecules}\\
+pV=(p+\frac{an^2}{V^2})(V-nb)=nRT\\
+p=\text{pressure}\\
+V=\text{volume}\\
+a=\text{molecular attraction}\\
+n=\text{number of moles}\\
+b=\text{molecular volume}\\
+R=8.314\\
+T=\text{absolute temperature}
+\end{aligned}
+$$
+
+---
+### boyles gas
+- if constant temperature closed system then pressure inversely proportional volume
+- isothermal
+![[4 Physics/Images/boyles gas.png]]
+
+---
+### boyles gas formula
+$$
+\begin{aligned}
+p_{1}V_{1}=p_{2}V_{2}\\
+p=\text{pressure}\\
 V=\text{volume}
+\end{aligned}
+$$
+
+---
+### charles gas
+- if constant pressure closed system then volume directly proportional temperature
+- isobaric
+![[4 Physics/Images/charles gas.png]]
+
+---
+### charles gas formula
+$$
+\begin{aligned}
+\frac{V_{1}}{T_{1}}=\frac{V_{2}}{T_{2}}\\
+V=\text{volume}\\
+T=\text{temperature}
+\end{aligned}
+$$
+
+---
+### gay-lussacs gas
+- definition
+
+---
+### gay-lussacs gas formula
+$$
+\begin{aligned}
+
+\end{aligned}
+$$
+
+---
+### avagadros gas
+- if constant temperature and constant pressure then volume directly proportional number of moles
+- isothermal and isobaric
+![[4 Physics/Images/avagadros gas.png|400]]
+
+---
+### avagadros gas formula
+$$
+\begin{aligned}
+\frac{V_{1}}{n_{1}}=\frac{V_{2}}{n_{2}}\\
+V=\text{volume}\\
+n=\text{number of moles}
 \end{aligned}
 $$
 
