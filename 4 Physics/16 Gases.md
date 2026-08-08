@@ -127,13 +127,17 @@ $$
 
 ---
 ### gay-lussacs gas
-- definition
+- if constant volume then pressure directly proportional temperature
+- isochoric
+![](4%20Physics/Images/gay-lussacs%20gas.png)
 
 ---
 ### gay-lussacs gas formula
 $$
 \begin{aligned}
-
+\frac{p_{1}}{T_{1}}=\frac{p_{2}}{T_{2}}\\
+p=\text{pressure}\\
+T=\text{temperature}
 \end{aligned}
 $$
 
