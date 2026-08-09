@@ -22,29 +22,6 @@ x=\text{state}
 $$
 
 ---
-### ideal gas
-- gas particles equal point particles with negligible volume
-- gas particles move randomly with constant velocity
-- gas particles undergo elastic collisions
-![[4 Physics/Images/ideal gas.png]]
-
----
-### ideal gas formula
-$$
-\begin{aligned}
-pV=Nk_BT=nRT=nk_BN_{A}T\\
-p=\text{pressure}\\
-V=\text{volume}\\
-N=\text{number of particles}\\
-k_B=1.381\times10^{-23}\\
-T=\text{absolute temperature}\\
-n=\text{number of moles}\\
-R=8.314\\
-N_{A}=6.022\times10^{23}
-\end{aligned}
-$$
-
----
 ### molar mass
 - amount of mass per mole
 
@@ -73,8 +50,31 @@ n=\text{number of moles}
 $$
 
 ---
+### ideal gas
+- gas particles equal point particles with negligible volume
+- gas particles move randomly with constant velocity
+- gas particles undergo elastic collisions
+![[4 Physics/Images/ideal gas.png]]
+
+---
+### ideal gas formula
+$$
+\begin{aligned}
+pV=Nk_BT=nRT=nk_BN_{A}T\\
+p=\text{pressure}\\
+V=\text{volume}\\
+N=\text{number of particles}\\
+k_B=1.381\times10^{-23}\\
+T=\text{absolute temperature}\\
+n=\text{number of moles}\\
+R=8.314\\
+N_{A}=6.022\times10^{23}
+\end{aligned}
+$$
+
+---
 ### van der waals gas
-- gas particles have finite size
+- gas particles have finite volume
 - gas particles attract each other
 ![300](4%20Physics/Images/van%20der%20waals%20gas.png)
 
@@ -127,7 +127,7 @@ $$
 
 ---
 ### gay-lussacs gas
-- if constant volume then pressure directly proportional temperature
+- if constant volume closed system then pressure directly proportional temperature
 - isochoric
 ![](4%20Physics/Images/gay-lussacs%20gas.png)
 
