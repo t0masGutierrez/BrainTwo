@@ -47,7 +47,7 @@ $$
 ### kelvin formula
 $$
 \begin{aligned}
-K=T_{C}+273.15\\
+T_K=T_{C}+273.15\\
 T_{C}=\text{celsius}
 \end{aligned}
 $$

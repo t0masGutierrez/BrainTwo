@@ -60,11 +60,11 @@ $$
 ### ideal gas formula
 $$
 \begin{aligned}
-pV=Nk_BT=nRT=nk_BN_{A}T\\
+pV=NkT=nRT=nkN_{A}T\\
 p=\text{pressure}\\
 V=\text{volume}\\
 N=\text{number of particles}\\
-k_B=1.381\times10^{-23}\\
+k=1.381\times10^{-23}\\
 T=\text{absolute temperature}\\
 n=\text{number of moles}\\
 R=8.314\\
@@ -82,13 +82,14 @@ $$
 ### van der waals gas formula
 $$
 \begin{aligned}
-pV=(p+\frac{an^2}{V^2})(V-nb)=nRT\\
+pV=(p+\frac{an^2}{V^2})(V-nb)=NkT\\
 p=\text{pressure}\\
 V=\text{volume}\\
-a=\text{molecular attraction}\\
+a=\text{intermolecular attraction}\\
 n=\text{number of moles}\\
 b=\text{molecular volume}\\
-R=8.314\\
+N=\text{number of particles}\\
+k=1.381\times10^{-23}\\
 T=\text{absolute temperature}
 \end{aligned}
 $$
@@ -127,9 +128,9 @@ $$
 
 ---
 ### gay-lussacs gas
-- if constant volume closed system then pressure directly proportional temperature
+- if constant volume then pressure directly proportional temperature
 - isochoric
-![](4%20Physics/Images/gay-lussacs%20gas.png)
+![300](4%20Physics/Images/gay-lussacs%20gas.png)
 
 ---
 ### gay-lussacs gas formula
@@ -163,125 +164,145 @@ $$
 ![[4 Physics/Images/temperature.png|400]]
 
 ---
+### total translational kinetic energy
+- translational kinetic energy of gas
+
+---
+### total translational kinetic energy formula
+$$
+\begin{aligned}
+K=\frac{3}{2}NkT\\
+N=\text{number of particles}\\
+k=1.381\times10^{-23}\\
+T=\text{absolute temperature}
+\end{aligned}
+$$
+
+---
 ### average translational kinetic energy
-- mean kinetic energy of translational motion
+- translational kinetic energy per particle
 
 ---
 ### average translational kinetic energy formula
 $$
 \begin{aligned}
-K_{avg}=\frac{3}{2}k_{b}T_{k}=\frac{1}{2}mv_{rms}^{2}\\
-k_{b}=1.38\times10^{-23}\\
-T_{k}=\text{kelvin}\\
-v_{rms}=\text{rms velocity}\\
+K_{\text{avg}}=\frac{3}{2}kT=\frac{1}{2}mv_{\text{rms}}^2\\
+k=1.381\times10^{-23}\\
+T=\text{absolute temperature}\\
 m=\text{mass}\\
+v=\text{velocity}
+\end{aligned}
+$$
+
+---
+### velocity
+- nonuniform distribution of molecular velocity
+![[4 Physics/Images/molecular velocity.png|300]]
+
+---
+### velocity formula
+$$
+\begin{aligned}
+f(v)=\frac{4}{\sqrt\pi{}}(\frac{m}{2kT})^{\frac{3}{2}}v^{2}\exp{(\frac{-mv^{2}}{2kT})}\\
+m=\text{mass}\\
+k=1.381\times10^{-23}\\
+T=\text{absolute temperature}\\
 v=\text{velocity}
 \end{aligned}
 $$
 
 ---
 ### rms velocity
-- square root of the average of the square of the velocity
+- characteristic velocity of randomly moving gas particle
 
 ---
 ### rms velocity formula
 $$
 \begin{aligned}
-v_{rms}=\sqrt{\frac{3k_{b}T_{k}}{m}}=\sqrt{\frac{3RT_{k}}{M}}\\
-k_{b}=1.38\times10^{-23}\\
-T_{k}=\text{kelvin}\\
-m=\text{mass}\\
-R=8.31\\
-M=\text{molar mass}
+v_{\text{rms}}=\sqrt{\frac{3kT}{m}}\\
+k=1.381\times10^{-23}\\
+T=\text{absolute temperature}\\
+m=\text{mass}
 \end{aligned}
 $$
 
 ---
-### molecular velocity
-- non uniform distribution of molecular velocity
-![[4 Physics/Images/molecular velocity.png]]
+### mean free path
+- average distance traveled between collision
+![300](4%20Physics/Images/mean%20free%20path.png)
 
 ---
-### molecular velocity formula
+### mean free path formula
 $$
 \begin{aligned}
-f(v)=\frac{4}{\sqrt\pi{}}(\frac{m}{2k_{b}T_{k}})^{\frac{3}{2}}v^{2}e^{(\frac{-mv^{2}}{2k_{b}T_{k}})}\\
-m=\text{mass}\\
-k_{b}=1.38\times10^{-23}\\
-T_{k}=\text{kelvin}\\
-v=\text{velocity}
+\lambda=\frac{V}{4\pi r^2Nv\sqrt2}=\frac{kT}{4\pi r^2p\sqrt2}\\
+V=\text{volume}\\
+r=\text{radius}\\
+N=\text{number of particles}\\
+v=\text{velocity}\\
+k=1.381\times10^{-23}\\
+T=\text{absolute temperature}\\
+p=\text{pressure}
 \end{aligned}
 $$
-
----
-### internal energy
-- kinetic energy of molecular motion
-![[4 Physics/Images/average kinetic energy.png]]
-
----
-### internal energy formula
-$$
-\begin{aligned}
-E=\frac{f}{2}Nk_{b}T_{k}=\frac{f}{2}nRT_{k}\\
-f=\text{degrees of freedom}\\
-N=\text{number of molecules}\\
-k_{b}=1.38\times10^{-23}\\
-T_{k}=\text{kelvin}\\
-n=\text{number of moles}\\
-R=8.31
-\end{aligned}
-$$
-
----
-### equipartition of energy
-- average kinetic energy per molecule of ideal gas equal $\frac{1}{2}k_{b}T$ for every degree of freedom
-- average kinetic energy per mole of ideal gas equal $\frac{1}{2}RT$ for every degree of freedom
 
 ---
 ### degrees of freedom
 - number of velocity components that describe molecular motion
-- translational rotational vibrational
-![[4 Physics/Images/degrees of freedom.png]]
+![500](4%20Physics/Images/degrees%20of%20freedom.png)
 
 ---
 ### degrees of freedom formula
 $$
 \begin{aligned}
-f_{1}=3_{t}\\
-f_{2}=3_{t}+2_{r}\\
-t=\text{translation}\\
-r=\text{rotation}
+f_{\text{mono}}=3_{\text{transl}}\\
+f_{\text{dia}}=3_{\text{transl}}+2_{\text{rot}}
+\end{aligned}
+$$
+
+---
+### equipartition of energy
+- equal partition of internal energy across the degrees of freedom
+
+---
+### equipartition of energy formula
+$$
+\begin{aligned}
+K_{\text{avg}}=\frac{f}{2}kT\\
+f=\text{degrees of freedom}\\
+k=1.38\times10^{-23}\\
+T=\text{absolute temperature}
 \end{aligned}
 $$
 
 ---
 ### specific heat
-- amount of heat that must enter substance to change temperature by $\Delta T$
-- high specific heat resist temperature change more than low specific heat
+- amount of heat required to change the temperature of 1 kilogram of substance by 1 degree celsius without changing its phase
+![300](4%20Physics/Images/specific%20heat.png)
 
 ---
 ### specific heat formula
 $$
 \begin{aligned}
-Q=nc\Delta T_{k}\\
+Q=nC\Delta T\\
 n=\text{number of moles}\\
-c=\text{specific heat capacity}\\
-T_{k}=\text{kelvin}
+C=\text{molar heat capacity}\\
+T=\text{absolute temperature}
 \end{aligned}
 $$
 
 ---
-### constant volume specific heat capacity
-- specific heat of gas inside rigid container
-![[4 Physics/Images/constant volume specific heat capacity.png]]
+### molar heat capacity
+- high molar heat capacity resist temperature change
+![300](4%20Physics/Images/molar%20heat%20capacity1.png)
 
 ---
-### constant volume specific heat capacity formula
+### molar heat capacity formula
 $$
 \begin{aligned}
-c_{v}=\frac{f}{2}R\\
+C=\frac{f}{2}R\\
 f=\text{degrees of freedom}\\
-R=8.31
+R=8.314
 \end{aligned}
 $$
 

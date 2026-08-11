@@ -85,15 +85,15 @@ $$
 \text{Magnitude of charge of electron}&e&1.602176634\times10^{-19}\text{ C}\\
 \text{Gravitational constant}&G&6.67408(31)\times10^{-11}\text{ N}\cdot\text{m}^{2}/\text{kg}^{2}\\
 \text{Planck's constant}&h&6.62607015\times10^{-34}\text{ J}\cdot\text{s}\\
-\text{Boltzmann's constant}&k_{B}&1.380649\times10^{-23}\text{ J/K}\\
+\text{Boltzmann's constant}&k&1.380649\times10^{-23}\text{ J/K}\\
 \text{Avogadro's number}&N_{A}&6.02214076\times10^{23}\text{ molecules/mol}\\
-\text{Gas constant}&R=N_{A}k_{B}&8.314462618\ldots\text{ }\frac{\text{J}}{\text{mol}\cdot\text{K}}\\
+\text{Gas constant}&R=N_{A}k&8.314462618\ldots\text{ }\frac{\text{J}}{\text{mol}\cdot\text{K}}\\
 \text{Mass of electron}&m_{e}&9.10938356(11)\times10^{-31}\text{ kg}\\
 \text{Mass of proton}&m_{p}&1.672621898(21)\times10^{-27}\text{ kg}\\
 \text{Mass of neutron}&m_{n}&1.674927471(21)\times10^{-27}\text{ kg}\\
 \text{Magnetic constant}&\mu_{0}&1.25663706\times10^{-6}\text{ }\frac{\text{Wb}}{\text{A}\cdot\text{m}}\text{}=4\pi\times10^{-7}\text{ }\frac{\text{Wb}}{\text{A}\cdot\text{m}}\\
 \text{Electric constant}&\epsilon_{0}=\frac{1}{\mu_{0}c^{2}}&8.854187817\times10^{-12}\text{ }\frac{\text{C}^{2}}{\text{N}\cdot\text{m}^{2}}\\
-\text{Coulomb's constant}&k_{c}=\frac{1}{4\pi\epsilon_{0}}&8.987551787\times10^{9}\text{ }\frac{\text{N}\cdot\text{m}^{2}}{\text{C}^{2}}\text{}\\
+\text{Coulomb's constant}&k=\frac{1}{4\pi\epsilon_{0}}&8.987551787\times10^{9}\text{ }\frac{\text{N}\cdot\text{m}^{2}}{\text{C}^{2}}\text{}\\
 \text{Mechanical equivalent of heat}&J&4.186\text{ J/cal (15}^{\circ}\text{ calorie)}\\
 \text{Standard atmospheric pressure}&1\text{ atm}&1.01325\times10^{5}\text{ Pa}\\
 \text{Absolute zero}&0\text{ K}&-273.15^{\circ}\text{ C}\\
