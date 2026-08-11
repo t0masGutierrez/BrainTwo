@@ -205,3 +205,200 @@ a,b,c=\text{normal number}
 $$
 
 ---
+### cylindrical surface
+- surface formed by extending two-dimensional curve infinitely along direction parallel coordinate axis
+![300](3%20Calculus/Images/cylindrical%20surface.png)
+
+---
+### cylindrical surface formula
+$$
+\begin{aligned}
+f(x,y)=0\\
+f(x,z)=0\\
+f(y,z)=0\\
+\end{aligned}
+$$
+
+---
+### elliptic cylinder
+- elliptic cylinder
+
+---
+### elliptic cylinder formula
+$$
+\begin{aligned}
+\frac{(x-h)^2}{a^2}+\frac{(y-k)^2}{b^2}=1
+\end{aligned}
+$$
+
+---
+### hyperbolic cylinder
+- hyperbolic cylinder
+
+---
+### hyperbolic cylinder formula
+$$
+\begin{aligned}
+\frac{(x-h)^2}{a^2}-\frac{(y-k)^2}{b^2}=1
+\end{aligned}
+$$
+
+---
+### parabolic cylinder
+- parabolic cylinder
+
+---
+### parabolic cylinder formula
+$$
+\begin{aligned}
+a(x-h)^2=y-k
+\end{aligned}
+$$
+
+---
+### quadric surface
+- three-dimensional analogue of conic section
+
+---
+### quadric surface formula
+$$
+\begin{aligned}
+Ax^2+By^2+Cz^2+Dxy+Exz+Fyz+Gx+Hy+Iz+J=0
+\end{aligned}
+$$
+
+---
+### ellipsoid
+- ellipsoid
+![](3%20Calculus/Images/ellipsoid.png)
+
+---
+### ellipsoid formula
+$$
+\begin{aligned}
+\frac{(x-h)^2}{a^2}+\frac{(y-k)^2}{b^2}+\frac{(z-\ell)^2}{c^2}=1
+\end{aligned}
+$$
+
+---
+### one hyperboloid
+- one hyperboloid
+![](3%20Calculus/Images/one%20hyperboloid.png)
+
+---
+### one hyperboloid formula
+$$
+\begin{aligned}
+\frac{(x-h)^2}{a^2}+\frac{(y-k)^2}{b^2}-\frac{(z-\ell)^2}{c^2}=1
+\end{aligned}
+$$
+
+---
+### two hyperboloid
+- two hyperboloid
+![](3%20Calculus/Images/two%20hyperboloid.png)
+
+---
+### two hyperboloid formula
+$$
+\begin{aligned}
+-\frac{(x-h)^2}{a^2}-\frac{(y-k)^2}{b^2}+\frac{(z-\ell)^2}{c^2}=1
+\end{aligned}
+$$
+
+---
+### elliptic cone
+- elliptic cone
+![](3%20Calculus/Images/elliptic%20cone.png)
+
+---
+### elliptic cone formula
+$$
+\begin{aligned}
+\frac{(x-h)^2}{a^2}+\frac{(y-k)^2}{b^2}-\frac{(z-\ell)^2}{c^2}=0
+\end{aligned}
+$$
+
+---
+### elliptic paraboloid
+- elliptic paraboloid
+![](3%20Calculus/Images/elliptic%20paraboloid.png)
+
+---
+### elliptic paraboloid formula
+$$
+\begin{aligned}
+\frac{(x-h)^2}{a^2}+\frac{(y-k)^2}{b^2}=z-\ell
+\end{aligned}
+$$
+
+---
+### hyperbolic paraboloid
+- hyperbolic paraboloid
+![](3%20Calculus/Images/hyperbolic%20paraboloid.png)
+
+---
+### hyperbolic paraboloid formula
+$$
+\begin{aligned}
+\frac{(x-h)^2}{a^2}-\frac{(y-k)^2}{b^2}=z-\ell
+\end{aligned}
+$$
+
+---
+### cylindrical coordinate
+- represent coordinate with distance, angle, and planar distance
+![300](3%20Calculus/Images/cylindrical%20coordinate.png)
+
+---
+### cylindrical coordinate formula
+$$
+\begin{aligned}
+\begin{cases}x=r\cos(\theta)\\
+y=r\sin(\theta)\\
+z=z
+\end{cases}\iff\begin{cases}
+r=\sqrt{x^{2}+y^{2}}\\
+\theta=\arctan(\frac{y}{x})\\
+z=z
+\end{cases}\\
+x,y,z=\text{dependent variable}\\
+r=\text{distance}\\
+\theta=\text{angle}
+\end{aligned}
+$$
+
+---
+### spherical coordinate
+- represent coordinate with planar distance, angle, and direction angle
+![300](3%20Calculus/Images/spherical%20coordinate.png)
+
+---
+### spherical coordinate formula
+$$
+\begin{aligned}
+\begin{cases}x=\rho\sin(\phi)\cos(\theta)\\
+y=\rho\sin(\phi)\sin(\theta)\\
+z=\rho\cos(\theta)
+\end{cases}\iff\begin{cases}
+\rho=\sqrt{x^{2}+y^{2}+z^2}\\
+\theta=\arctan(\frac{y}{x})\\
+\phi=\arccos(\frac{z}{\sqrt{x^2+y^2+z^2}})\\
+\end{cases}\\
+\begin{cases}r=\rho\sin(\phi)\\
+\theta=\theta\\
+z=\rho\cos(\phi)\\
+\end{cases}\iff\begin{cases}
+\rho=\sqrt{r^2+z^2}\\
+\theta=\theta\\
+\phi=\arccos(\frac{z}{\sqrt{r^2+z^2}})\\
+\end{cases}\\
+x,y,z=\text{dependent variable}\\
+\rho=\text{planar distance}\\
+\phi=\text{direction angle}\\
+\theta=\text{angle}\\
+r=\text{distance}
+\end{aligned}
+$$
+
+---
