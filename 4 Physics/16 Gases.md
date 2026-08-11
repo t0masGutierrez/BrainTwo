@@ -4,9 +4,8 @@
 ---
 ### state variable example
 - pressure
-- temperature
 - volume
-- number of moles
+- temperature
 
 ---
 ### equation of state
@@ -29,9 +28,10 @@ $$
 ### molar mass formula
 $$
 \begin{aligned}
-M=\frac{m}{n}\\
+M=\frac{m}{n}=N_Am\\
 m=\text{mass}\\
-n=\text{number of moles}
+n=\text{number of moles}\\
+N_A=6.022\times10^{23}
 \end{aligned}
 $$
 
@@ -51,7 +51,7 @@ $$
 
 ---
 ### ideal gas
-- gas particles equal point particles with negligible volume
+- gas particles are point particles with negligible volume
 - gas particles move randomly with constant velocity
 - gas particles undergo elastic collisions
 ![[4 Physics/Images/ideal gas.png]]
@@ -146,7 +146,7 @@ $$
 ### avagadros gas
 - if constant temperature and constant pressure then volume directly proportional number of moles
 - isothermal and isobaric
-![[4 Physics/Images/avagadros gas.png|400]]
+![300](4%20Physics/Images/avagadros%20gas.png)
 
 ---
 ### avagadros gas formula
@@ -159,16 +159,11 @@ n=\text{number of moles}
 $$
 
 ---
-### temperature
-- average translational kinetic energy of molecules
-![[4 Physics/Images/temperature.png|400]]
+### translational kinetic energy
+- internal energy of monatomic ideal gas
 
 ---
-### total translational kinetic energy
-- translational kinetic energy of gas
-
----
-### total translational kinetic energy formula
+### translational kinetic energy formula
 $$
 \begin{aligned}
 K=\frac{3}{2}NkT\\
@@ -181,6 +176,7 @@ $$
 ---
 ### average translational kinetic energy
 - translational kinetic energy per particle
+![[4 Physics/Images/average translational kinetic energy.png|300]]
 
 ---
 ### average translational kinetic energy formula
@@ -196,33 +192,21 @@ $$
 
 ---
 ### velocity
-- nonuniform distribution of molecular velocity
-![[4 Physics/Images/molecular velocity.png|300]]
+- nonuniform probability density function of randomly moving gas particle
+![[4 Physics/Images/velocity.png|300]]
 
 ---
 ### velocity formula
 $$
 \begin{aligned}
 f(v)=\frac{4}{\sqrt\pi{}}(\frac{m}{2kT})^{\frac{3}{2}}v^{2}\exp{(\frac{-mv^{2}}{2kT})}\\
+v_p=\sqrt{\frac{2kT}{m}}\\
+v_{\text{rms}}=\sqrt{\frac{3kT}{m}}\\
+v_{\text{avg}}=\sqrt{\frac{8kT}{\pi m}}\\
 m=\text{mass}\\
 k=1.381\times10^{-23}\\
 T=\text{absolute temperature}\\
 v=\text{velocity}
-\end{aligned}
-$$
-
----
-### rms velocity
-- characteristic velocity of randomly moving gas particle
-
----
-### rms velocity formula
-$$
-\begin{aligned}
-v_{\text{rms}}=\sqrt{\frac{3kT}{m}}\\
-k=1.381\times10^{-23}\\
-T=\text{absolute temperature}\\
-m=\text{mass}
 \end{aligned}
 $$
 
@@ -247,6 +231,23 @@ p=\text{pressure}
 $$
 
 ---
+### mean free time
+- average time elapsed between collision
+
+---
+### mean free time formula
+$$
+\begin{aligned}
+\tau=\frac{kT}{4\pi r^2pv_{\text{rms}}}\\
+k=1.381\times10^{-23}\\
+T=\text{absolute temperature}\\
+r=\text{radius}\\
+v=\text{velocity}\\
+p=\text{pressure}
+\end{aligned}
+$$
+
+---
 ### degrees of freedom
 - number of velocity components that describe molecular motion
 ![500](4%20Physics/Images/degrees%20of%20freedom.png)
@@ -255,14 +256,14 @@ $$
 ### degrees of freedom formula
 $$
 \begin{aligned}
-f_{\text{mono}}=3_{\text{transl}}\\
-f_{\text{dia}}=3_{\text{transl}}+2_{\text{rot}}
+f_{\text{mon}}=3_{\text{transl}}\\
+f_{\text{di}}=3_{\text{transl}}+2_{\text{rot}}
 \end{aligned}
 $$
 
 ---
 ### equipartition of energy
-- equal partition of internal energy across the degrees of freedom
+- equal partition of internal energy across the degrees of freedom such that for every atom there exists average kinetic energy of $\frac{1}{2}kT$
 
 ---
 ### equipartition of energy formula
@@ -287,7 +288,7 @@ $$
 Q=nC\Delta T\\
 n=\text{number of moles}\\
 C=\text{molar heat capacity}\\
-T=\text{absolute temperature}
+T=\text{temperature}
 \end{aligned}
 $$
 
@@ -300,9 +301,44 @@ $$
 ### molar heat capacity formula
 $$
 \begin{aligned}
-C=\frac{f}{2}R\\
+C_{\text{gas}}=\frac{f}{2}R\\
+C_{\text{solid}}=3R\\
 f=\text{degrees of freedom}\\
-R=8.314
+R=8.314\\
+T=\text{absolute temperature}
+\end{aligned}
+$$
+
+---
+### phase diagram
+- pressure versus temperature
+- higher pressures create solids
+- higher temperatures create gases
+![300](4%20Physics/Images/phase%20diagram.png)
+
+---
+### phase diagram formula
+$$
+\begin{aligned}
+(T,p)\\
+T=\text{absolute temperature}\\
+p=\text{pressure}
+\end{aligned}
+$$
+
+---
+### pVT diagram
+- pressure versus volume versus temperature
+![500](4%20Physics/Images/pVT%20diagram.png)
+
+---
+### pVT diagram formula
+$$
+\begin{aligned}
+(T,V,p)\\
+T=\text{absolute temperature}\\
+V=\text{volume}\\
+p=\text{pressure}
 \end{aligned}
 $$
 

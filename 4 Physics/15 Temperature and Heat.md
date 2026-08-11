@@ -317,6 +317,7 @@ $$
 ---
 ### triple point
 - point where all three phases coexist at thermal equilibrium
+![300](4%20Physics/Images/triple%20point.png)
 
 ---
 ### triple point formula
@@ -351,15 +352,15 @@ $$
 \begin{aligned}
 (Q,T)\\
 Q=\text{heat}\\
-T=\text{temperature}
+T=\text{absolute temperature}
 \end{aligned}
 $$
 
 ---
 ### pT diagram
 - pressure versus temperature
-- pressure favors solids
-- temperature favors gases
+- higher pressures create solids
+- higher temperatures create gases
 ![[4 Physics/Images/pT diagram.png|400]]
 
 ---
@@ -367,7 +368,7 @@ $$
 $$
 \begin{aligned}
 (T,p)\\
-T=\text{temperature}\\
+T=\text{absolute temperature}\\
 p=\text{pressure}
 \end{aligned}
 $$
@@ -432,7 +433,7 @@ $$
 A=\text{area}\\
 e=\text{emissivity}\\
 \sigma=5.67\times10^{-8}\\
-T=\text{temperature}
+T=\text{absolute temperature}
 \end{aligned}
 $$
 
