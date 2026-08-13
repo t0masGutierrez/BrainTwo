@@ -4,6 +4,7 @@ import shutil
 from urllib.parse import quote, unquote
 
 INLINE_MATH_PATTERN = re.compile(r"(?<!\\)\$(.+?)(?<!\\)\$")
+MULTI_LETTER_SUBSCRIPT_PATTERN = re.compile(r"(?<!\\)_\{([A-Za-z]{2,})\}")
 MATH_ENVIRONMENT_LINE_PATTERN = re.compile(r"^(\s*)\\(begin|end)\{([^}]*)\}(\s*)$")
 LINE_ENDING_PATTERN = re.compile(r"(\r?\n)$")
 LEADING_SQUARE_BRACKET_PATTERN = re.compile(r"^(\s*)\[")
@@ -31,7 +32,8 @@ def sanitize_math_text(text):
     if not stripped_body:
         return text
 
-    return leading + compact_math_tokens(stripped_body) + line_ending
+    normalized_body = normalize_multichar_subscripts(stripped_body)
+    return leading + compact_math_tokens(normalized_body) + line_ending
 
 def trim_trailing_whitespace(text):
     line_ending_match = LINE_ENDING_PATTERN.search(text)
@@ -130,6 +132,13 @@ def read_braced_argument(text, start):
 
 def normalize_text_argument(text):
     return re.sub(r"\s+", " ", text.strip())
+
+def normalize_multichar_subscripts(text):
+    """Wrap plain multi-letter subscript names with the LaTeX text command."""
+    return MULTI_LETTER_SUBSCRIPT_PATTERN.sub(
+        lambda match: r"_{\text{" + match.group(1) + "}}",
+        text,
+    )
 
 def read_number(text, start):
     i = start
