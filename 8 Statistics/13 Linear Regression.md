@@ -289,7 +289,7 @@ $$
 ### regression slope standard error formula
 $$
 \begin{aligned}
-SE(b)=\sqrt{\frac{SSE}{(n-k-1)(1-R_{i}^{2})\sum_{i=1}^{n}(x_{ij}-\overline x_{j})^{2}}}\\
+SE(b)=\sqrt{\frac{SSE}{(n-k-1)(1-R_{i}^{2})\sum_{i=1}^{n}(x_{\text{ij}}-\overline x_{j})^{2}}}\\
 SSE=\text{unexplained variation}\\
 n=\text{sample size}\\
 k=\text{number of independent variables}\\

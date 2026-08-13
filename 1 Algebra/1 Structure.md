@@ -73,7 +73,10 @@ $$
 ### like term formula
 $$
 \begin{aligned}
-ax^{n}+bx^{n}=(a+b)x^{n}
+ax^{n}+bx^{n}=(a+b)x^{n}\\
+a,b=\text{coefficient}\\
+x=\text{variable}\\
+n=\text{exponent}
 \end{aligned}
 $$
 
@@ -101,12 +104,12 @@ $$
 ### order of operations formula
 $$
 \begin{aligned}
-1.\text{parenthesis}\\
-2.\text{exponents}\\
-3.\text{multiplication}\\
-4.\text{division}\\
-5.\text{addition}\\
-6.\text{subtraction}\\
+\text{1. parenthesis}\\
+\text{2. exponents}\\
+\text{3. multiplication}\\
+\text{4. division}\\
+\text{5. addition}\\
+\text{6. subtraction}\\
 \end{aligned}
 $$
 

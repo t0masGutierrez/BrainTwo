@@ -23,7 +23,7 @@ $$
 $$
 \begin{aligned}
 \mathbb R^{n}\\
-\mathcal M_{mn}(\mathbb R)\\
+\mathcal M_{\text{mn}}(\mathbb R)\\
 \mathcal P_{n}(\mathbb R)=\{p(x)\in\mathbb R(x)\mid\deg(p)\le n\}\\
 \mathcal F(X,\mathbb R)=\{f\mid f:X\to\mathbb R\}\\
 Y=\{\vec x\in\mathbb R^{n}\mid A\vec x=\vec0\}

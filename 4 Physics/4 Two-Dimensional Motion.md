@@ -42,7 +42,7 @@ $$
 ### velocity vector formula
 $$
 \begin{aligned}
-\vec v_{avg}=\frac{\Delta\vec r}{\Delta t}\\
+\vec v_{\text{avg}}=\frac{\Delta\vec r}{\Delta t}\\
 \vec{v}=\frac{d\vec{r}}{dt}=\frac{dx}{dt}\hat i+\frac{dy}{dt}\hat j=v_{x}\hat i+v_{y}\hat j\\
 v=|\vec v|=\sqrt{v_{x}^{2}+v_{y}^{2}}\\
 \theta=\arctan(\frac{v_{y}}{v_{x}})\\
@@ -60,7 +60,7 @@ $$
 ### acceleration vector formula
 $$
 \begin{aligned}
-\vec a_{avg}=\frac{\Delta\vec v}{\Delta t}\\
+\vec a_{\text{avg}}=\frac{\Delta\vec v}{\Delta t}\\
 \vec{a}=\frac{d\vec{v}}{dt}=\frac{d^{2}\vec{r}}{dt^{2}}=a_{x}\hat i+a_{y}\hat j\\
 a=|\vec a|=\sqrt{a_{x}^{2}+a_{y}^{2}}\\
 \theta=\arctan(\frac{a_{y}}{a_{x}})\\
@@ -120,7 +120,7 @@ $$
 ### uniform circular motion formula
 $$
 \begin{aligned}
-a_{rad}\perp v_{tan}
+a_{\text{rad}}\perp v_{\text{tan}}
 \end{aligned}
 $$
 
@@ -132,7 +132,7 @@ $$
 ### uniform tangential velocity formula
 $$
 \begin{aligned}
-v_{tan}=\frac{2\pi r}{T}\\
+v_{\text{tan}}=\frac{2\pi r}{T}\\
 r=\text{radius}\\
 T=\text{period}
 \end{aligned}
@@ -146,7 +146,7 @@ $$
 ### uniform radial acceleration formula
 $$
 \begin{aligned}
-a_{rad}=\frac{v_{tan}^{2}}{r}\\
+a_{\text{rad}}=\frac{v_{\text{tan}}^{2}}{r}\\
 v=\text{velocity}\\
 r=\text{radius}
 \end{aligned}
@@ -163,8 +163,8 @@ $$
 ### nonuniform circular motion formula
 $$
 \begin{aligned}
-a_{rad}\perp a_{tan}\\
-a_{tan}\parallel\pm v_{tan}
+a_{\text{rad}}\perp a_{\text{tan}}\\
+a_{\text{tan}}\parallel\pm v_{\text{tan}}
 \end{aligned}
 $$
 
@@ -178,7 +178,7 @@ $$
 ### nonuniform radial acceleration formula
 $$
 \begin{aligned}
-a=a_{rad}+a_{tan}=\frac{v_{tan}^{2}}{r}+\frac{dv_{tan}}{dt}\\
+a=a_{\text{rad}}+a_{\text{tan}}=\frac{v_{\text{tan}}^{2}}{r}+\frac{dv_{\text{tan}}}{dt}\\
 v=\text{velocity}\\
 r=\text{radius}\\
 t=\text{time}

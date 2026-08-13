@@ -65,7 +65,7 @@ $$
 ### net work formula
 $$
 \begin{aligned}
-W_{net}=K_{f}-K_{i}\\
+W_{\text{net}}=K_{f}-K_{i}\\
 K=\text{kinetic energy}
 \end{aligned}
 $$
@@ -80,7 +80,7 @@ $$
 ### conservative force formula
 $$
 \begin{aligned}
-\vec F_{cons}=-\nabla U\\
+\vec F_{\text{cons}}=-\nabla U\\
 U=\text{potential energy}
 \end{aligned}
 $$
@@ -105,7 +105,7 @@ $$
 ### potential energy formula
 $$
 \begin{aligned}
-U=\int\vec F_{cons}\cdot d\vec r\\
+U=\int\vec F_{\text{cons}}\cdot d\vec r\\
 \vec F=\text{force}\\
 \vec r=\text{position}
 \end{aligned}
@@ -134,7 +134,7 @@ $$
 ### elastic potential energy formula
 $$
 \begin{aligned}
-U_{el}=\frac{1}{2}kx^{2}\\
+U_{\text{el}}=\frac{1}{2}kx^{2}\\
 k=\text{spring constant}\\
 x=\text{displacement}
 \end{aligned}
@@ -162,7 +162,7 @@ $$
 ### conservative work formula
 $$
 \begin{aligned}
-W_{cons}=U_{i}-U_{f}\\
+W_{\text{cons}}=U_{i}-U_{f}\\
 U=\text{potential energy}
 \end{aligned}
 $$
@@ -175,7 +175,7 @@ $$
 ### nonconservative work formula
 $$
 \begin{aligned}
-E_{i}+W_{noncons}=E_{f}\\
+E_{i}+W_{\text{noncons}}=E_{f}\\
 E=\text{mechanical energy}\\
 W=\text{work}
 \end{aligned}
@@ -304,9 +304,9 @@ $$
 ### efficiency formula
 $$
 \begin{aligned}
-\varepsilon=\frac{P_{out}}{P_{in}}\times100\\
-P_{out}=\text{output power}\\
-P_{in}=\text{input power}
+\varepsilon=\frac{P_{\text{out}}}{P_{\text{in}}}\times100\\
+P_{\text{out}}=\text{output power}\\
+P_{\text{in}}=\text{input power}
 \end{aligned}
 $$
 

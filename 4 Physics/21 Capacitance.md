@@ -78,7 +78,7 @@ $$
 ### series capacitance formula
 $$
 \begin{aligned}
-\frac{1}{C_{eq}}=\sum_{i}\frac{1}{C_{i}}\\
+\frac{1}{C_{\text{eq}}}=\sum_{i}\frac{1}{C_{i}}\\
 C=\text{capacitance}
 \end{aligned}
 $$
@@ -93,7 +93,7 @@ $$
 ### parallel capacitance formula
 $$
 \begin{aligned}
-C_{eq}=\sum_{i}C_{i}\\
+C_{\text{eq}}=\sum_{i}C_{i}\\
 C=\text{capacitance}
 \end{aligned}
 $$
@@ -193,7 +193,7 @@ $$
 ### gauss formula
 $$
 \begin{aligned}
-\pm\Phi=K\oint_{A_{1}}^{A_{2}}\vec E\cdot d\vec A=\frac{\pm Q_{enc}}{\epsilon_{0}}\\
+\pm\Phi=K\oint_{A_{1}}^{A_{2}}\vec E\cdot d\vec A=\frac{\pm Q_{\text{enc}}}{\epsilon_{0}}\\
 K=\text{dielectric constant}\\
 E=\text{electric field}\\
 A=\text{area}\\

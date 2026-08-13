@@ -8,7 +8,7 @@ $$
 A=\begin{bmatrix}
 a_{11}&\dots&a_{1n}\\
 \vdots&\ddots&\vdots\\
-a_{m1}&\dots&a_{mn}
+a_{m1}&\dots&a_{\text{mn}}
 \end{bmatrix}\\
 |A|=m\times n\\
 a=\text{entry}\\
@@ -43,7 +43,7 @@ $$
 ### main diagonal formula
 $$
 \begin{aligned}
-\text{diag}(A)=(a_{ii})_{i=1}^{n}\\
+\text{diag}(A)=(a_{\text{ii}})_{i=1}^{n}\\
 a=\text{entry}\\
 i=\text{row index}\\
 i=\text{column index}\\
@@ -63,7 +63,7 @@ D=\begin{bmatrix}
 d_{11}&0&0\\
 0&d_{22}&0\\
 0&0&d_{33}
-\end{bmatrix}\iff\forall(i\ne j):d_{ij}=0\\
+\end{bmatrix}\iff\forall(i\ne j):d_{\text{ij}}=0\\
 |D|=3\times3\\
 d=\text{entry}\\
 i=\text{row index}\\
@@ -83,7 +83,7 @@ I=\begin{bmatrix}
 1&0&0\\
 0&1&0\\
 0&0&1
-\end{bmatrix}\iff\forall(i\ne j):(a_{ij}=0)\land\forall(i=j):(a_{ij}=1)\\
+\end{bmatrix}\iff\forall(i\ne j):(a_{\text{ij}}=0)\land\forall(i=j):(a_{\text{ij}}=1)\\
 |I|=3\times3\\
 i=\text{row index}\\
 j=\text{column index}
@@ -102,7 +102,7 @@ U=\begin{bmatrix}
 u_{11}&u_{12}&u_{13}\\
 0&u_{22}&u_{23}\\
 0&0&u_{33}
-\end{bmatrix}\iff\forall(i>j):u_{ij}=0\\
+\end{bmatrix}\iff\forall(i>j):u_{\text{ij}}=0\\
 |U|=3\times3\\
 u=\text{entry}\\
 i=\text{row index}\\
@@ -122,7 +122,7 @@ L=\begin{bmatrix}
 l_{11}&0&0\\
 l_{21}&l_{22}&0\\
 l_{31}&l_{32}&l_{33}\\
-\end{bmatrix}\iff\forall(i<j):l_{ij}=0\\
+\end{bmatrix}\iff\forall(i<j):l_{\text{ij}}=0\\
 |L|=3\times3\\
 l=\text{entry}\\
 i=\text{row index}\\
@@ -155,7 +155,7 @@ $$
 ### trace formula
 $$
 \begin{aligned}
-\text{tr}(A)=\sum_{i=1}^{n}a_{ii}\\
+\text{tr}(A)=\sum_{i=1}^{n}a_{\text{ii}}\\
 a=\text{entry}\\
 i=\text{row index}\\
 i=\text{column index}\\
@@ -233,7 +233,7 @@ a_{12}&a_{22}&a_{32}\\
 a_{13}&a_{23}&a_{33}
 \end{bmatrix}\\
 m\times n\implies n\times m\\
-a_{ij}\implies a_{ji}\\
+a_{\text{ij}}\implies a_{\text{ji}}\\
 a=\text{entry}\\
 T=\text{transposition}
 \end{aligned}
@@ -275,7 +275,7 @@ $$
 ### matrix equality property formula
 $$
 \begin{aligned}
-A=B\iff\forall i,j\le m,n:(a_{ij}=b_{ij})\land(|A|=|B|)\\
+A=B\iff\forall i,j\le m,n:(a_{\text{ij}}=b_{\text{ij}})\land(|A|=|B|)\\
 A,B=\text{matrix}\\
 a,b=\text{entry}\\
 i=\text{row index}\\

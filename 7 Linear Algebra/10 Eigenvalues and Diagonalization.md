@@ -75,8 +75,8 @@ $$
 (A-\lambda I)\vec x=0\\
 \begin{bmatrix}
 a_{11}-\lambda&\dots&a_{1n}\\
-\vdots&a_{ii}-\lambda&\vdots\\
-a_{n1}&\dots&a_{nn}-\lambda
+\vdots&a_{\text{ii}}-\lambda&\vdots\\
+a_{n1}&\dots&a_{\text{nn}}-\lambda
 \end{bmatrix}\begin{bmatrix}
 x_{1}\\
 \vdots\\

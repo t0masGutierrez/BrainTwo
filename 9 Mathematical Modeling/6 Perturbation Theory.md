@@ -90,7 +90,7 @@ $$
 ### analytic formula
 $$
 \begin{aligned}
-f(t,x,\epsilon)=\sum_{i,j,k=0}^{\infty}c_{ijk}(t-t_{0})^{i}(x-x_{0})^{j}(\epsilon-\epsilon_{0})^{k}\\
+f(t,x,\epsilon)=\sum_{i,j,k=0}^{\infty}c_{\text{ijk}}(t-t_{0})^{i}(x-x_{0})^{j}(\epsilon-\epsilon_{0})^{k}\\
 |t-t_{0}|<\sigma,|x-x_{0}|<\eta,|\epsilon-\epsilon_{0}|<\rho\\
 f=\text{perturbed equation}\\
 t=\text{time}\\
@@ -348,10 +348,10 @@ $$
 \epsilon y''+\phi(x)y'=f(x)\\
 a\le x\le b\\
 \epsilon=0\implies\phi(x)y'=f(x)\\
-\phi(x)>0\implies q_{in}=a\\
-\phi(x)<0\implies q_{in}=b\\
-y(q_{out})=Ce^{rq_{out}}\\
-y_{out}(x)
+\phi(x)>0\implies q_{\text{in}}=a\\
+\phi(x)<0\implies q_{\text{in}}=b\\
+y(q_{\text{out}})=Ce^{rq_{\text{out}}}\\
+y_{\text{out}}(x)
 \end{aligned}
 $$
 
@@ -364,10 +364,10 @@ $$
 $$
 \begin{aligned}
 \epsilon y''+\phi(x)y'=f(x)\\
-\tau=\frac{x-q_{in}}{\epsilon^{n}}\\
+\tau=\frac{x-q_{\text{in}}}{\epsilon^{n}}\\
 \frac{1}{\epsilon^{2n}}(\frac{d^{2}y}{d\tau^{2}})+\frac{\phi(x)}{\epsilon^{n}}(\frac{dy}{d\tau})=f(x)\\
-y(q_{in})=Ae^{r_{1}q_{in}}+Be^{r_{2}q_{in}}\\
-y_{in}(\tau)
+y(q_{\text{in}})=Ae^{r_{1}q_{\text{in}}}+Be^{r_{2}q_{\text{in}}}\\
+y_{\text{in}}(\tau)
 \end{aligned}
 $$
 
@@ -379,9 +379,9 @@ $$
 ### matching problem formula
 $$
 \begin{aligned}
-\lim_{x\rightarrow0^{+}}y_{out}(x)=\lim_{\tau\rightarrow\infty}y_{in}(\tau)\\
-y_{out}=\text{outer solution}\\
-y_{in}=\text{inner solution}
+\lim_{x\rightarrow0^{+}}y_{\text{out}}(x)=\lim_{\tau\rightarrow\infty}y_{\text{in}}(\tau)\\
+y_{\text{out}}=\text{outer solution}\\
+y_{\text{in}}=\text{inner solution}
 \end{aligned}
 $$
 
@@ -403,10 +403,10 @@ $$
 ### singular differential equation formula
 $$
 \begin{aligned}
-y(x)=y_{out}(x)+y_{in}(x)-y_{match}(x)\\
-y_{out}=\text{outer solution}\\
-y_{in}=\text{inner solution}\\
-y_{match}=\text{matching solution}
+y(x)=y_{\text{out}}(x)+y_{\text{in}}(x)-y_{\text{match}}(x)\\
+y_{\text{out}}=\text{outer solution}\\
+y_{\text{in}}=\text{inner solution}\\
+y_{\text{match}}=\text{matching solution}
 \end{aligned}
 $$
 

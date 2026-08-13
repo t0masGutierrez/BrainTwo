@@ -147,7 +147,7 @@ $$
 ### amperes formula
 $$
 \begin{aligned}
-\oint_{L_{1}}^{L_{2}}\vec B\cdot d\vec L=\mu_{0}I_{enc}\\
+\oint_{L_{1}}^{L_{2}}\vec B\cdot d\vec L=\mu_{0}I_{\text{enc}}\\
 B=\text{magnetic field}\\
 L=\text{length}\\
 \mu_{0}=4\pi\times10^{-7}\\
@@ -161,7 +161,7 @@ $$
 - compute vector components of magnetic field parallel length
 - uniform electric current density equal total electric current
 - non uniform electric current density equal differential electric current
-- uniform electric current distribution equal $I\frac{A_{enc}}{A}$
+- uniform electric current distribution equal $I\frac{A_{\text{enc}}}{A}$
 - non uniform electric current distribution equal $\int J\cdot2\pi rdr$
 
 ---
@@ -177,7 +177,7 @@ $$
 ### symmetrical electric current distribution formula
 $$
 \begin{aligned}
-B=\frac{\mu_{0}I_{enc}}{L}\\
+B=\frac{\mu_{0}I_{\text{enc}}}{L}\\
 \mu_{0}=4\pi\times10^{-7}\\
 I=\text{electric current}\\
 L=\text{length}
@@ -193,7 +193,7 @@ $$
 ### circular electric current distribution formula
 $$
 \begin{aligned}
-B=\frac{\mu_{0}I_{enc}}{2\pi r}\\
+B=\frac{\mu_{0}I_{\text{enc}}}{2\pi r}\\
 \mu_{0}=4\pi\times10^{-7}\\
 I=\text{electric current}\\
 r=\text{distance}

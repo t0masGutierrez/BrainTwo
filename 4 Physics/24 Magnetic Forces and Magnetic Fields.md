@@ -96,10 +96,10 @@ $$
 ### centripetal force formula
 $$
 \begin{aligned}
-\vec F_{c}=m\vec a_{rad}=m\frac{\vec v_{tan}^{2}}{R}\\
+\vec F_{c}=m\vec a_{\text{rad}}=m\frac{\vec v_{\text{tan}}^{2}}{R}\\
 m=\text{mass}\\
-a_{rad}=\text{radial acceleration}\\
-v_{tan}=\text{tangential velocity}\\
+a_{\text{rad}}=\text{radial acceleration}\\
+v_{\text{tan}}=\text{tangential velocity}\\
 R=\text{radius}
 \end{aligned}
 $$
@@ -208,7 +208,7 @@ $$
 ### magnetic dipole force formula
 $$
 \begin{aligned}
-\vec F_{net}=0
+\vec F_{\text{net}}=0
 \end{aligned}
 $$
 

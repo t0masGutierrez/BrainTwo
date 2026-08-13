@@ -136,9 +136,9 @@ $$
 ### maximum simple harmonic motion formula
 $$
 \begin{aligned}
-x_{max}=A\\
-v_{max}=\omega A\\
-a_{max}=\omega^{2}A\\
+x_{\text{max}}=A\\
+v_{\text{max}}=\omega A\\
+a_{\text{max}}=\omega^{2}A\\
 A=\text{amplitude}\\
 \omega=\text{angular frequency}
 \end{aligned}
@@ -343,8 +343,8 @@ $$
 ### driven oscillation formula
 $$
 \begin{aligned}
-m\frac{d^{2}x}{dt^{2}}+b\frac{dx}{dt}+kx=F_{max}\cos(\omega t+\phi)\\
-A=\frac{F_{max}}{\sqrt{(k-m\omega^{2})^{2}+(b\omega)^{2}}}\\
+m\frac{d^{2}x}{dt^{2}}+b\frac{dx}{dt}+kx=F_{\text{max}}\cos(\omega t+\phi)\\
+A=\frac{F_{\text{max}}}{\sqrt{(k-m\omega^{2})^{2}+(b\omega)^{2}}}\\
 m=\text{mass}\\
 x=\text{position}\\
 t=\text{time}\\
@@ -373,7 +373,7 @@ $$
 ### resonance formula
 $$
 \begin{aligned}
-\omega=\omega_{0}\implies A=A_{max}\\
+\omega=\omega_{0}\implies A=A_{\text{max}}\\
 \omega=\text{angular frequency}\\
 A=\text{amplitude}
 \end{aligned}

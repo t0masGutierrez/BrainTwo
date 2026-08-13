@@ -425,7 +425,7 @@ $$
 $$
 \begin{aligned}
 I(h)\ge0\implies\forall x\in[a,b]:\phi_{\nu\nu}(x)\ge0\\
-I(h)=\int_{a}^{b}\sum_{i=0}^{\nu}\sum_{j=0}^{\nu}\phi_{ij}(x)h^{(i)}(x)h^{(j)}(x)dx\\
+I(h)=\int_{a}^{b}\sum_{i=0}^{\nu}\sum_{j=0}^{\nu}\phi_{\text{ij}}(x)h^{(i)}(x)h^{(j)}(x)dx\\
 h^{(k)}(a)=h^{(k)}(b)=0\\
 k=0,\dots,\mu\\
 h=\text{admissible variation}\\

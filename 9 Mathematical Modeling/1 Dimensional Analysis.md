@@ -87,7 +87,7 @@ $$
 ### exponent property formula
 $$
 \begin{aligned}
-\Delta_{pq}=\Delta_{p}+\Delta_{q}\\
+\Delta_{\text{pq}}=\Delta_{p}+\Delta_{q}\\
 \Delta_{p/q}=\Delta_{p}-\Delta_{q}\\
 \Delta_{q^{k}}=k\Delta_{q}
 \end{aligned}
@@ -180,7 +180,7 @@ $$
 \begin{aligned}
 q_{1}=f(q_{2},\dots,q_{n})\sim\pi_{1}=\phi(\pi_{2},\dots,\pi_{n-m-1})\\
 {}[\pi]=1\iff\Delta_{\pi}=\sum_{i=1}^{n}b_{i}\Delta_{q_{i}}=A\vec b=0\\
-A=[\Delta q_{1},\dots,\Delta q_{n}]\in\mathcal M_{mn}\\
+A=[\Delta q_{1},\dots,\Delta q_{n}]\in\mathcal M_{\text{mn}}\\
 \vec b=[b_{1},\dots,b_{n}]\in\mathbb R^{n}\\
 q=\text{quantity}\\
 \pi=\text{dimensionless power product}\\

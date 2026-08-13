@@ -48,7 +48,7 @@ $$
 ### average speed formula
 $$
 \begin{aligned}
-s_{avg}=\frac{d}{\Delta t}\\
+s_{\text{avg}}=\frac{d}{\Delta t}\\
 d=\text{distance}\\
 t=\text{time}
 \end{aligned}
@@ -75,7 +75,7 @@ $$
 ### average velocity formula
 $$
 \begin{aligned}
-v_{avg}=\frac{\Delta x}{\Delta t}\\
+v_{\text{avg}}=\frac{\Delta x}{\Delta t}\\
 x=\text{position}\\
 t=\text{time}
 \end{aligned}
@@ -106,7 +106,7 @@ $$
 ### average acceleration formula
 $$
 \begin{aligned}
-a_{avg}=\frac{\Delta v}{\Delta t}\\
+a_{\text{avg}}=\frac{\Delta v}{\Delta t}\\
 v=\text{velocity}\\
 t=\text{time}
 \end{aligned}

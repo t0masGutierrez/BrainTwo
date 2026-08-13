@@ -5,7 +5,7 @@
 ### matrix multiplication formula
 $$
 \begin{aligned}
-c_{ij}=\sum_{k}^{n}a_{ik}b_{kj}=\vec a_{i}\cdot\vec b_{j}\\
+c_{\text{ij}}=\sum_{k}^{n}a_{\text{ik}}b_{\text{kj}}=\vec a_{i}\cdot\vec b_{j}\\
 a,b=\text{entry}\\
 i=\text{A row index}\\
 k=\text{A column index}\\

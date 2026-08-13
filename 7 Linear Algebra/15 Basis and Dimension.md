@@ -30,7 +30,7 @@ $$
 ### dimension example
 - $\mathbb R^{n}$
 - $\mathcal P_{n}$
-- $\mathcal M_{mn}$
+- $\mathcal M_{\text{mn}}$
 
 ---
 ### dimension example formula
@@ -38,7 +38,7 @@ $$
 \begin{aligned}
 \dim(\mathbb R^{n})=n\\
 \dim(\mathcal P_{n})=n+1\\
-\dim(\mathcal M_{mn})=m\cdot n\\
+\dim(\mathcal M_{\text{mn}})=m\cdot n\\
 \end{aligned}
 $$
 

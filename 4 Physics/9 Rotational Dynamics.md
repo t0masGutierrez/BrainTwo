@@ -71,7 +71,7 @@ $$
 ### newton 2nd rotational formula
 $$
 \begin{aligned}
-\vec\tau_{net}=I\vec\alpha\\
+\vec\tau_{\text{net}}=I\vec\alpha\\
 I=\text{moment of inertia}\\
 \vec\alpha=\text{angular acceleration}
 \end{aligned}
@@ -111,7 +111,7 @@ $$
 ### net rotational work formula
 $$
 \begin{aligned}
-W_{net}=\frac{1}{2}I(\omega_{f}^{2}-\omega_{i}^{2})\\
+W_{\text{net}}=\frac{1}{2}I(\omega_{f}^{2}-\omega_{i}^{2})\\
 I=\text{moment of inertia}\\
 \omega=\text{angular velocity}
 \end{aligned}
@@ -141,7 +141,7 @@ $$
 ### rolling kinetic energy formula
 $$
 \begin{aligned}
-K=\frac{1}{2}Mv_{cm}^{2}+\frac{1}{2}I_{cm}\omega^{2}\\
+K=\frac{1}{2}Mv_{\text{cm}}^{2}+\frac{1}{2}I_{\text{cm}}\omega^{2}\\
 M=\text{system mass}\\
 v=\text{velocity}\\
 I=\text{moment of inertia}\\
@@ -159,9 +159,9 @@ $$
 ### rolling without slipping formula
 $$
 \begin{aligned}
-d_{cm}=r\theta\\
-v_{cm}=r\omega\\
-a_{cm}=r\alpha\\
+d_{\text{cm}}=r\theta\\
+v_{\text{cm}}=r\omega\\
+a_{\text{cm}}=r\alpha\\
 r=\text{radius}\\
 \theta=\text{angular position}\\
 \omega=\text{angular velocity}\\
@@ -178,9 +178,9 @@ $$
 ### rolling with slipping formula
 $$
 \begin{aligned}
-d=d_{cm}-r\theta\\
-v=v_{cm}-r\omega\\
-a=a_{cm}-r\alpha\\
+d=d_{\text{cm}}-r\theta\\
+v=v_{\text{cm}}-r\omega\\
+a=a_{\text{cm}}-r\alpha\\
 d=\text{distance}\\
 r=\text{radius}\\
 \theta=\text{angular position}\\
@@ -231,7 +231,7 @@ $$
 ### newtons second angular momentum formula
 $$
 \begin{aligned}
-\vec\tau_{net}=\frac{d\vec L}{dt}\\
+\vec\tau_{\text{net}}=\frac{d\vec L}{dt}\\
 \vec L=\text{angular momentum}\\
 t=\text{time}
 \end{aligned}
@@ -246,7 +246,7 @@ $$
 ### constant angular impulse formula
 $$
 \begin{aligned}
-\vec H=\Delta\vec L=\vec\tau_{net}\Delta t\\
+\vec H=\Delta\vec L=\vec\tau_{\text{net}}\Delta t\\
 \vec L=\text{angular momentum}\\
 \vec\tau=\text{torque}\\
 t=\text{time}
@@ -257,7 +257,7 @@ $$
 ### variable angular impulse formula
 $$
 \begin{aligned}
-\vec H=\Delta\vec L=\int\vec\tau_{net}\cdot dt\\
+\vec H=\Delta\vec L=\int\vec\tau_{\text{net}}\cdot dt\\
 \vec L=\text{angular momentum}\\
 \vec\tau=\text{torque}\\
 t=\text{time}
@@ -272,7 +272,7 @@ $$
 ### conservation of angular momentum formula
 $$
 \begin{aligned}
-\vec\tau_{net}=0\implies\vec L_{i}=\vec L_{f}\\
+\vec\tau_{\text{net}}=0\implies\vec L_{i}=\vec L_{f}\\
 \vec\tau=\text{torque}\\
 \vec L=\text{angular momentum}
 \end{aligned}
@@ -330,7 +330,7 @@ $$
 ### translational equilibrium formula
 $$
 \begin{aligned}
-\vec F_{net}=0\\
+\vec F_{\text{net}}=0\\
 \vec F=\text{force}
 \end{aligned}
 $$
@@ -343,7 +343,7 @@ $$
 ### rotational equilibrium formula
 $$
 \begin{aligned}
-\vec\tau_{net}=0\\
+\vec\tau_{\text{net}}=0\\
 \vec\tau=\text{torque}
 \end{aligned}
 $$
@@ -357,7 +357,7 @@ $$
 ### center of gravity formula
 $$
 \begin{aligned}
-\vec r_{cg}=\frac{\sum_{n}m_{n}\vec r_{n}}{M}\\
+\vec r_{\text{cg}}=\frac{\sum_{n}m_{n}\vec r_{n}}{M}\\
 m=\text{mass}\\
 \vec r=\text{position}\\
 M=\text{system mass}
@@ -373,7 +373,7 @@ $$
 ### center of uniform gravity formula
 $$
 \begin{aligned}
-\vec g(\vec r)=\vec g_{0}\implies\vec r_{cg}=\vec r_{cm}\\
+\vec g(\vec r)=\vec g_{0}\implies\vec r_{\text{cg}}=\vec r_{\text{cm}}\\
 \vec g=\text{gravity}\\
 \vec r=\text{position}
 \end{aligned}
@@ -388,7 +388,7 @@ $$
 ### area of support formula
 $$
 \begin{aligned}
-\vec r_{cg}\not\in A\implies\downarrow\\
+\vec r_{\text{cg}}\not\in A\implies\downarrow\\
 \vec r=\text{position}\\
 A=\text{area}
 \end{aligned}

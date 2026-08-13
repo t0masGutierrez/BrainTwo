@@ -473,7 +473,7 @@ $$
 ### microscope magnification formula
 $$
 \begin{aligned}
-M=m_{obj}\times M_{eye}=\frac{-r_{o}'}{r_{o}}\times\frac{N}{f_{e}}\approx\frac{-r_{o}'N}{f_{o}f_{e}}\\
+M=m_{\text{obj}}\times M_{\text{eye}}=\frac{-r_{o}'}{r_{o}}\times\frac{N}{f_{e}}\approx\frac{-r_{o}'N}{f_{o}f_{e}}\\
 L=r_{o}'+f_{e}\\
 r_{o}'=\text{objective image distance}\\
 r_{o}=\text{objective object distance}\\

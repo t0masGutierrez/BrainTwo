@@ -145,7 +145,6 @@ $$
 ---
 ### combined gas
 - if constant number of moles then energy directly proportional temperature
-![300](4%20Physics/Images/avagadros%20gas.png)
 
 ---
 ### combined gas formula

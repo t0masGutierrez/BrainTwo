@@ -173,7 +173,7 @@ $$
 $$
 \begin{aligned}
 \oint_{L_{1}}^{L_{2}}\vec B\cdot d\vec L=\mu_{0}(I_{c}+I
-_{d})_{enc}\\
+_{d})_{\text{enc}}\\
 B=\text{magnetic field}\\
 L=\text{length}\\
 \mu_{0}=4\pi\times10^{-7}\\
@@ -194,10 +194,10 @@ $$
 ### electromagnetism formula
 $$
 \begin{aligned}
-\oint_{A_{1}}^{A_{2}}\vec E\cdot d\vec A=\frac{Q_{enc}}{\epsilon_{0}}\\
+\oint_{A_{1}}^{A_{2}}\vec E\cdot d\vec A=\frac{Q_{\text{enc}}}{\epsilon_{0}}\\
 \oint_{A_{1}}^{A_{2}}\vec B\cdot d\vec A=0\\
 \oint_{L_{1}}^{L_{2}}\vec E\cdot d\vec L=\frac{-d\Phi_{B}}{dt}\\
-\oint_{L_{1}}^{L_{2}}\vec B\cdot d\vec L=\mu_{0}(I_{c}+\epsilon_{0}\frac{d\Phi_{E}}{dt})_{enc}\\
+\oint_{L_{1}}^{L_{2}}\vec B\cdot d\vec L=\mu_{0}(I_{c}+\epsilon_{0}\frac{d\Phi_{E}}{dt})_{\text{enc}}\\
 \end{aligned}
 $$
 
@@ -209,7 +209,7 @@ $$
 ### lorentz force formula
 $$
 \begin{aligned}
-\vec F_{net}=q(\vec E+\vec v\times\vec B)\\
+\vec F_{\text{net}}=q(\vec E+\vec v\times\vec B)\\
 q=\text{electric charge}\\
 E=\text{electric field}\\
 v=\text{velocity}\\
@@ -245,7 +245,7 @@ $$
 ### electric motor formula
 $$
 \begin{aligned}
-\epsilon=\epsilon_{0}-\epsilon_{induced}\\
+\epsilon=\epsilon_{0}-\epsilon_{\text{induced}}\\
 \epsilon=\text{emf}
 \end{aligned}
 $$

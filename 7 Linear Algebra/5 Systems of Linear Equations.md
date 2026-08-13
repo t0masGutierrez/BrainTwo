@@ -24,7 +24,7 @@ $$
 a_{11}x_{1}+a_{12}x_{2}+\cdots+a_{1n}x_{n}=b_{1}\\
 a_{21}x_{1}+a_{22}x_{2}+\cdots+a_{2n}x_{n}=b_{2}\\
 \quad\vdots\quad\qquad\vdots\quad\qquad\ddots\qquad\vdots\qquad\vdots\\
-a_{m1}x_{1}+a_{m2}x_{2}+\cdots+a_{mn}x_{n}=b_{m}
+a_{m1}x_{1}+a_{m2}x_{2}+\cdots+a_{\text{mn}}x_{n}=b_{m}
 \end{array}\\
 a=\text{coefficient}\\
 x=\text{variable}\\
@@ -40,7 +40,7 @@ $$
 ### particular solution of system of linear equations formula
 $$
 \begin{aligned}
-y=(y_{1},\dots,y_{n})\iff\forall j\in\set{1,\dots,m}:\sum_{i=1}^{n}a_{ji}y_{i}=b_{j}\\
+y=(y_{1},\dots,y_{n})\iff\forall j\in\set{1,\dots,m}:\sum_{i=1}^{n}a_{\text{ji}}y_{i}=b_{j}\\
 m=\text{number of linear equations}\\
 n=\text{number of variables}\\
 a=\text{coefficient}\\
@@ -57,7 +57,7 @@ $$
 ### complete solution of system of linear equations formula
 $$
 \begin{aligned}
-Y=\{(y_{1},\dots,y_{n})\in\mathbb R^{n}\mid\forall j\in\set{1,\dots,m}:\sum_{i=1}^{n}a_{ji}y_{i}=b_{j}\}\\
+Y=\{(y_{1},\dots,y_{n})\in\mathbb R^{n}\mid\forall j\in\set{1,\dots,m}:\sum_{i=1}^{n}a_{\text{ji}}y_{i}=b_{j}\}\\
 Y=\text{complete solution set}\\
 m=\text{number of linear equations}\\
 n=\text{number of variables}\\
@@ -79,7 +79,7 @@ A=\begin{bmatrix}
 a_{11}&a_{12}&\cdots&a_{1n}\\
 a_{21}&a_{22}&\cdots&a_{2n}\\
 \vdots&\vdots&\ddots&\vdots\\
-a_{m1}&a_{m2}&\cdots&a_{mn}\\
+a_{m1}&a_{m2}&\cdots&a_{\text{mn}}\\
 \end{bmatrix}\\
 |A|=m\times n\\
 a=\text{coefficient}\\
@@ -139,7 +139,7 @@ AX=B\\
 a_{11}&a_{12}&\cdots&a_{1n}\\
 a_{21}&a_{22}&\cdots&a_{2n}\\
 \vdots&\vdots&\ddots&\vdots\\
-a_{m1}&a_{m2}&\cdots&a_{mn}\\
+a_{m1}&a_{m2}&\cdots&a_{\text{mn}}\\
 \end{bmatrix}\begin{bmatrix}
 x_{1}\\
 x_{2}\\
@@ -169,7 +169,7 @@ A\mid B=\left[\begin{array}{cccc|c}
 a_{11}&a_{12}&\cdots&a_{1n}&b_{1}\\
 a_{21}&a_{22}&\cdots&a_{2n}&b_{2}\\
 \vdots&\vdots&\ddots&\vdots&\vdots\\
-a_{m1}&a_{m2}&\cdots&a_{mn}&b_{m}
+a_{m1}&a_{m2}&\cdots&a_{\text{mn}}&b_{m}
 \end{array}\right]
 \end{aligned}
 $$
@@ -186,7 +186,7 @@ A\mid B\mid B'=\left[\begin{array}{cccc|c|c}
 a_{11}&a_{12}&\cdots&a_{1n}&b_{1}&b_{1}'\\
 a_{21}&a_{22}&\cdots&a_{2n}&b_{2}&b_{2}'\\
 \vdots&\vdots&\ddots&\vdots&\vdots&\vdots\\
-a_{m1}&a_{m2}&\cdots&a_{mn}&b_{m}&b_{m}'
+a_{m1}&a_{m2}&\cdots&a_{\text{mn}}&b_{m}&b_{m}'
 \end{array}\right]
 \end{aligned}
 $$

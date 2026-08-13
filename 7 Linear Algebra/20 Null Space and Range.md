@@ -83,7 +83,7 @@ $$
 ### null space solution property formula
 $$
 \begin{aligned}
-\text{null}(L)=\{\vec x\mid\vec x\in\mathbb R^{n},A\in\mathcal M_{mn},L:\mathbb R^{n}\rightarrow\mathbb R^{m},A\vec x=0\}\\
+\text{null}(L)=\{\vec x\mid\vec x\in\mathbb R^{n},A\in\mathcal M_{\text{mn}},L:\mathbb R^{n}\rightarrow\mathbb R^{m},A\vec x=0\}\\
 L=\text{linear transformation}\\
 A=\text{matrix transformation}\\
 \vec x=\text{preimage}\\
@@ -99,7 +99,7 @@ $$
 ### null space dimension property formula
 $$
 \begin{aligned}
-{}[L(\vec v)]_{C}=A_{BC}[\vec v]_{B}\implies\dim(\text{null}\ L)=\text{dim}(\mathcal V)-\text{rank}(A)\\
+{}[L(\vec v)]_{C}=A_{\text{BC}}[\vec v]_{B}\implies\dim(\text{null}\ L)=\text{dim}(\mathcal V)-\text{rank}(A)\\
 L:\mathcal V\rightarrow\mathcal W\\
 L=\text{linear transformation}\\
 {}[\vec v]_{B}=\text{preimage coordinate vector}\\
@@ -136,7 +136,7 @@ $$
 ### range column property formula
 $$
 \begin{aligned}
-\text{range}(L)=\{A_{BC}\vec x\mid\vec x\in\mathbb R^{n},A_{BC}\in\mathcal M_{mn},L:\mathbb R^{n}\rightarrow\mathbb R^{m}\}=\text{Col}(A_{BC})\\
+\text{range}(L)=\{A_{\text{BC}}\vec x\mid\vec x\in\mathbb R^{n},A_{\text{BC}}\in\mathcal M_{\text{mn}},L:\mathbb R^{n}\rightarrow\mathbb R^{m}\}=\text{Col}(A_{\text{BC}})\\
 L=\text{linear transformation}\\
 A=\text{matrix transformation}\\
 B=\text{domain basis}\\
@@ -154,7 +154,7 @@ $$
 ### range dimension property formula
 $$
 \begin{aligned}
-{}[L(\vec v)]_{C}=A_{BC}[\vec v]_{B}\implies\dim(\text{range}\ L)=\text{rank}(A_{BC})\\
+{}[L(\vec v)]_{C}=A_{\text{BC}}[\vec v]_{B}\implies\dim(\text{range}\ L)=\text{rank}(A_{\text{BC}})\\
 L:\mathcal V\rightarrow\mathcal W\\
 L=\text{linear transformation}\\
 {}[\vec v]_{B}=\text{preimage coordinate vector}\\

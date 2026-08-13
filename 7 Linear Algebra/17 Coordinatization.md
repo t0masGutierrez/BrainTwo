@@ -72,7 +72,7 @@ $$
 ### transition matrix formula
 $$
 \begin{aligned}
-\text{RREF}(C\mid B)=I\mid P_{BC}\\
+\text{RREF}(C\mid B)=I\mid P_{\text{BC}}\\
 C=\text{2nd ordered basis}\\
 B=\text{1st ordered basis}\\
 I=\text{identity matrix}\\
@@ -118,7 +118,7 @@ $$
 ### transition matrix multiplication property formula
 $$
 \begin{aligned}
-P_{BC}\iff\forall\vec v\in\mathcal V:[\vec v]_{C}=P_{BC}[\vec v]_{B}\\
+P_{\text{BC}}\iff\forall\vec v\in\mathcal V:[\vec v]_{C}=P_{\text{BC}}[\vec v]_{B}\\
 P=\text{transition matrix}\\
 B,C=\text{ordered basis}\\
 \vec v=\text{coordinatized vector}\\
@@ -135,7 +135,7 @@ $$
 ### transition matrix transition property formula
 $$
 \begin{aligned}
-([\vec v]_{C}=P_{BC}[\vec v]_{B})\land([\vec v]_{D}=Q_{CD}[\vec v]_{C})\implies([\vec v]_{D}=Q_{CD}P_{BC}[\vec v]_{B})\\
+([\vec v]_{C}=P_{\text{BC}}[\vec v]_{B})\land([\vec v]_{D}=Q_{\text{CD}}[\vec v]_{C})\implies([\vec v]_{D}=Q_{\text{CD}}P_{\text{BC}}[\vec v]_{B})\\
 \vec v=\text{coordinatized vector}\\
 {}[\vec v]_{B},[\vec v]_{C},[\vec v]_{D}=\text{coordinate vector}\\
 B,C,D=\text{ordered basis}\\
@@ -151,7 +151,7 @@ $$
 ### transition matrix inversion property formula
 $$
 \begin{aligned}
-{}[\vec v]_{C}=P_{BC}[\vec v]_{B}\implies(|P|\ne0)\land([\vec v]_{B}=P_{BC}^{-1}[\vec v]_{C})\\
+{}[\vec v]_{C}=P_{\text{BC}}[\vec v]_{B}\implies(|P|\ne0)\land([\vec v]_{B}=P_{\text{BC}}^{-1}[\vec v]_{C})\\
 \vec v=\text{coordinatized vector}\\
 {}[\vec v]_{B},[\vec v]_{C}=\text{coordinate vector}\\
 B,C=\text{ordered basis}\\

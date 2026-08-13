@@ -43,7 +43,7 @@ $$
 ### rms electric current
 $$
 \begin{aligned}
-I_{rms}=\frac{I}{\sqrt2}\\
+I_{\text{rms}}=\frac{I}{\sqrt2}\\
 I=\text{electric current}
 \end{aligned}
 $$
@@ -56,7 +56,7 @@ $$
 ### rms voltage
 $$
 \begin{aligned}
-V_{rms}=\frac{V}{\sqrt2}\\
+V_{\text{rms}}=\frac{V}{\sqrt2}\\
 V=\text{voltage}
 \end{aligned}
 $$
@@ -226,7 +226,7 @@ $$
 ### average power formula
 $$
 \begin{aligned}
-P=I_{rms}V_{rms}\cos(\phi)=I_{rms}^{2}Z\cos(\phi)=\frac{V_{rms}^{2}}{Z}\cos(\phi)\\
+P=I_{\text{rms}}V_{\text{rms}}\cos(\phi)=I_{\text{rms}}^{2}Z\cos(\phi)=\frac{V_{\text{rms}}^{2}}{Z}\cos(\phi)\\
 I=\text{electric current}\\
 V=\text{voltage}\\
 \phi=\text{phase angle}\\
@@ -345,7 +345,7 @@ $$
 ### average full wave rectification electric current formula
 $$
 \begin{aligned}
-I_{avg}=(\frac{2}{\pi})I=0.637I\\
+I_{\text{avg}}=(\frac{2}{\pi})I=0.637I\\
 I=\text{electric current}
 \end{aligned}
 $$

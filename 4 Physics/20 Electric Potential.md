@@ -38,8 +38,8 @@ $$
 ### potential energy formula
 $$
 \begin{aligned}
-U=\int_{r_{2}}^{r_{1}}\vec F_{cons}\cdot d\vec r\\
-F_{cons}=\text{conservative force}\\
+U=\int_{r_{2}}^{r_{1}}\vec F_{\text{cons}}\cdot d\vec r\\
+F_{\text{cons}}=\text{conservative force}\\
 r=\text{position}
 \end{aligned}
 $$
@@ -58,7 +58,7 @@ $$
 ### work energy formula
 $$
 \begin{aligned}
-W_{cons}=U_{i}-U_{f}\\
+W_{\text{cons}}=U_{i}-U_{f}\\
 U=\text{potential energy}
 \end{aligned}
 $$

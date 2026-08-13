@@ -59,7 +59,7 @@ $$
 ### gauss formula
 $$
 \begin{aligned}
-\pm\Phi=\oint_{A_{1}}^{A_{2}}\vec E\cdot d\vec A=\frac{\pm Q_{enc}}{\epsilon_{0}}\\
+\pm\Phi=\oint_{A_{1}}^{A_{2}}\vec E\cdot d\vec A=\frac{\pm Q_{\text{enc}}}{\epsilon_{0}}\\
 E=\text{electric field}\\
 A=\text{area}\\
 Q=\text{electric charge}\\
@@ -73,7 +73,7 @@ $$
 - compute vector components of electric field parallel area
 - uniform electric charge density equal total electric charge
 - non uniform electric charge density equal differential electric charge
-- uniform electric charge distribution equal $Q\frac{V_{enc}}{V}$
+- uniform electric charge distribution equal $Q\frac{V_{\text{enc}}}{V}$
 - non uniform electric charge distribution equal $\int\rho\cdot4\pi r^{2}dr$
 
 ---
@@ -91,7 +91,7 @@ $$
 ### symmetrical electric charge distribution formula
 $$
 \begin{aligned}
-E=\frac{Q_{enc}}{\epsilon_{0}A}\\
+E=\frac{Q_{\text{enc}}}{\epsilon_{0}A}\\
 Q=\text{electric charge}\\
 \epsilon_{0}=8.85\times10^{-12}\\
 A=\text{area}
@@ -107,7 +107,7 @@ $$
 ### spherical electric charge distribution formula
 $$
 \begin{aligned}
-E=\frac{Q_{enc}}{4\pi\epsilon_{0}r^{2}}\\
+E=\frac{Q_{\text{enc}}}{4\pi\epsilon_{0}r^{2}}\\
 Q=\text{electric charge}\\
 \epsilon_{0}=8.85\times10^{-12}\\
 r=\text{distance}
@@ -123,7 +123,7 @@ $$
 ### cylindrical electric charge distribution formula
 $$
 \begin{aligned}
-E=\frac{\lambda_{enc}}{2\pi\epsilon_{0}r}\\
+E=\frac{\lambda_{\text{enc}}}{2\pi\epsilon_{0}r}\\
 \lambda=\text{linear density}\\
 \epsilon_{0}=8.85\times10^{-12}\\
 r=\text{distance}
@@ -139,7 +139,7 @@ $$
 ### planar electric charge distribution formula
 $$
 \begin{aligned}
-E=\frac{\sigma_{enc}}{2\epsilon_{0}}\\
+E=\frac{\sigma_{\text{enc}}}{2\epsilon_{0}}\\
 \sigma=\text{surface density}\\
 \epsilon_{0}=8.85\times10^{-12}\\
 \end{aligned}
@@ -154,7 +154,7 @@ $$
 ### parallel planar electric charge distribution formula
 $$
 \begin{aligned}
-E=\frac{\sigma_{enc}}{\epsilon_{0}}\\
+E=\frac{\sigma_{\text{enc}}}{\epsilon_{0}}\\
 \sigma=\text{surface density}\\
 \epsilon_{0}=8.85\times10^{-12}\\
 \end{aligned}

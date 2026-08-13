@@ -39,7 +39,7 @@ $$
 ### net force formula
 $$
 \begin{aligned}
-\vec F_{net}=\sum_{n}\vec F_{n}=(\sum_{n}F_{nx})\hat i+(\sum_{n}F_{ny})\hat j\\
+\vec F_{\text{net}}=\sum_{n}\vec F_{n}=(\sum_{n}F_{\text{nx}})\hat i+(\sum_{n}F_{\text{ny}})\hat j\\
 \vec F=\text{force}\\
 \hat i=\text{x direction}\\
 \hat j=\text{y direction}\\
@@ -119,7 +119,7 @@ $$
 ### centripetal force formula
 $$
 \begin{aligned}
-\vec F_{c}=m\vec a_{rad}\\
+\vec F_{c}=m\vec a_{\text{rad}}\\
 m=\text{mass}\\
 \vec a=\text{acceleration}
 \end{aligned}
@@ -229,7 +229,7 @@ $$
 ### electromagnetic interaction formula
 $$
 \begin{aligned}
-\vec F_{EM}=q(\vec E+\vec v\times\vec B)\\
+\vec F_{\text{EM}}=q(\vec E+\vec v\times\vec B)\\
 q=\text{electric charge}\\
 \vec E=\text{electric field}\\
 \vec v=\text{velocity}\\
@@ -245,7 +245,7 @@ $$
 ### strong nuclear interaction formula
 $$
 \begin{aligned}
-F_{strong}
+F_{\text{strong}}
 \end{aligned}
 $$
 
@@ -257,7 +257,7 @@ $$
 ### weak nuclear interaction formula
 $$
 \begin{aligned}
-F_{weak}
+F_{\text{weak}}
 \end{aligned}
 $$
 
@@ -270,7 +270,7 @@ $$
 ### newtons 1st formula
 $$
 \begin{aligned}
-\vec F_{net}=0\implies\vec a=0\\
+\vec F_{\text{net}}=0\implies\vec a=0\\
 \vec F=\text{force}\\
 \vec a=\text{acceleration}
 \end{aligned}
@@ -285,7 +285,7 @@ $$
 ### newtons 2nd formula
 $$
 \begin{aligned}
-\vec F_{net}=m\vec a=
+\vec F_{\text{net}}=m\vec a=
 \begin{cases}
 F_{x}=ma_{x}\\
 F_{y}=ma_{y}
@@ -306,7 +306,7 @@ $$
 ### newtons 3rd formula
 $$
 \begin{aligned}
-\vec F_{AB}=-\vec F_{BA}\\
+\vec F_{\text{AB}}=-\vec F_{\text{BA}}\\
 \vec F=\text{force}\\
 A,B=\text{object}
 \end{aligned}

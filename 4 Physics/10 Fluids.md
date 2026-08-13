@@ -192,7 +192,7 @@ $$
 ### apparent weight formula
 $$
 \begin{aligned}
-\vec w_{app}=\vec w-\vec F_{b}\\
+\vec w_{\text{app}}=\vec w-\vec F_{b}\\
 \vec w=\text{weight}\\
 \vec F=\text{force}
 \end{aligned}

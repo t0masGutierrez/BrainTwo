@@ -16,12 +16,12 @@
 $$
 \begin{aligned}
 F=\frac{MS_{\text{group}}}{MS_{\text{error}}}\\
-SS_{total}=SS_{group}+SS_{error}\\
-df_{group}=k-1\\
-df_{error}=n-k\\
-df_{total}=n-1\\
-MS_{group}=\frac{SS_{group}}{df_{group}}\\
-MS_{error}=\frac{SS_{error}}{df_{error}}
+SS_{\text{total}}=SS_{\text{group}}+SS_{\text{error}}\\
+df_{\text{group}}=k-1\\
+df_{\text{error}}=n-k\\
+df_{\text{total}}=n-1\\
+MS_{\text{group}}=\frac{SS_{\text{group}}}{df_{\text{group}}}\\
+MS_{\text{error}}=\frac{SS_{\text{error}}}{df_{\text{error}}}
 \end{aligned}
 $$
 

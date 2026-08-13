@@ -61,7 +61,7 @@ $$
 ### independence chi-square-score formula
 $$
 \begin{aligned}
-\chi^{2}=\sum_{i=1}^{r}\sum_{j=1}^{c}\frac{(O_{ij}-E_{ij})^{2}}{E_{ij}}\\
+\chi^{2}=\sum_{i=1}^{r}\sum_{j=1}^{c}\frac{(O_{\text{ij}}-E_{\text{ij}})^{2}}{E_{\text{ij}}}\\
 df=(r-1)(c-1)\\
 E=\frac{rc}{r+c}\\
 k=\text{number of categories}\\

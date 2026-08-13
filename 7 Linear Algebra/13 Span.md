@@ -40,7 +40,7 @@ $$
 \begin{aligned}
 \text{span}(\{\vec e_{1},\vec e_{2},\dots,\vec e_{n}\})=\mathbb R^{n}\\
 \text{span}(\{1,x,x^{2},\dots,x^{n}\})=\mathcal P_{n}(x)\\
-\text{span}(\psi_{ij})=\mathcal M_{mn}\\
+\text{span}(\psi_{\text{ij}})=\mathcal M_{\text{mn}}\\
 \end{aligned}
 $$
 

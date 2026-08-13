@@ -96,7 +96,7 @@ $$
 ### average energy density formula
 $$
 \begin{aligned}
-u_{avg}=\frac{\epsilon_{0}E_{0}^{2}}{2}=\frac{B_{0}^{2}}{2\mu_{0}}\\
+u_{\text{avg}}=\frac{\epsilon_{0}E_{0}^{2}}{2}=\frac{B_{0}^{2}}{2\mu_{0}}\\
 \epsilon_{0}=8.85\times10^{-12}\\
 E=\text{electric field}\\
 B=\text{magnetic field}\\
@@ -125,7 +125,7 @@ $$
 ### average poynting formula
 $$
 \begin{aligned}
-S_{avg}=c(\frac{\epsilon_{0}E_{0}^{2}}{2})=c(\frac{B_{0}^{2}}{2\mu_{0}})\\
+S_{\text{avg}}=c(\frac{\epsilon_{0}E_{0}^{2}}{2})=c(\frac{B_{0}^{2}}{2\mu_{0}})\\
 c=3\times10^{8}\\
 u=\text{energy density}\\
 \epsilon_{0}=8.85\times10^{-12}\\
@@ -170,7 +170,7 @@ $$
 ### intensity formula
 $$
 \begin{aligned}
-I=\frac{P}{A}=S_{avg}\\
+I=\frac{P}{A}=S_{\text{avg}}\\
 P=\text{power}\\
 A=\text{area}\\
 S=\text{poynting}
@@ -205,7 +205,7 @@ $$
 ### radiation pressure absorption formula
 $$
 \begin{aligned}
-p_{rad}=\frac{F_{\perp}}{A}=\frac{I}{c}\\
+p_{\text{rad}}=\frac{F_{\perp}}{A}=\frac{I}{c}\\
 F=\text{force}\\
 A=\text{area}\\
 I=\text{intensity}\\
@@ -217,7 +217,7 @@ $$
 ### radiation pressure reflection formula
 $$
 \begin{aligned}
-p_{rad}=\frac{F_{\perp}}{A}=\frac{2I}{c}\\
+p_{\text{rad}}=\frac{F_{\perp}}{A}=\frac{2I}{c}\\
 F=\text{force}\\
 A=\text{area}\\
 I=\text{intensity}\\

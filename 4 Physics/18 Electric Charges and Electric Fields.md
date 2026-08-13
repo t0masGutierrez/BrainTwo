@@ -183,7 +183,7 @@ $$
 ### electric dipole force formula
 $$
 \begin{aligned}
-\vec F_{net}=0
+\vec F_{\text{net}}=0
 \end{aligned}
 $$
 

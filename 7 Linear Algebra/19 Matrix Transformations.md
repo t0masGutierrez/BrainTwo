@@ -28,10 +28,10 @@ $$
 $$
 \begin{aligned}
 (L:\mathcal V\rightarrow\mathcal W)\land(B=\set{\vec b_{1},\dots,\vec b_{n}})\land(C=\set{\vec c_{1},\dots\vec c_{m}})\implies\\
-\forall\vec v\in\mathcal V:[L(\vec v)]_{C}=A_{BC}[\vec v]_{B}\\
+\forall\vec v\in\mathcal V:[L(\vec v)]_{C}=A_{\text{BC}}[\vec v]_{B}\\
 \dim(\mathcal V)=n\\
 \dim(\mathcal W)=m\\
-|A_{BC}|=m\times n\\
+|A_{\text{BC}}|=m\times n\\
 L=\text{linear transformation}\\
 \mathcal V=\text{domain vector space}\\
 \mathcal W=\text{codomain vector space}\\
@@ -47,7 +47,7 @@ $$
 
 ---
 ### terminology
-- matrix $A_{BC}$ equal matrix $A$ of the linear transformation $L$ with respect to the domain basis $B$ and codomain basis $C$
+- matrix $A_{\text{BC}}$ equal matrix $A$ of the linear transformation $L$ with respect to the domain basis $B$ and codomain basis $C$
 
 ---
 ### matrix transformation transition property
@@ -57,7 +57,7 @@ $$
 ### matrix transformation transition property formula
 $$
 \begin{aligned}
-(L:\mathcal V\rightarrow\mathcal W)\land([\vec v]_{D}=P_{BD}[\vec v]_{B})\land([L(\vec v)]_{E}=Q_{CE}[L(\vec v)]_{C})\implies A_{DE}=Q_{CE}A_{BC}P_{BD}^{-1}\\
+(L:\mathcal V\rightarrow\mathcal W)\land([\vec v]_{D}=P_{\text{BD}}[\vec v]_{B})\land([L(\vec v)]_{E}=Q_{\text{CE}}[L(\vec v)]_{C})\implies A_{\text{DE}}=Q_{\text{CE}}A_{\text{BC}}P_{\text{BD}}^{-1}\\
 L=\text{linear transformation}\\
 \mathcal V=\text{domain vector space}\\
 \mathcal W=\text{codomain vector space}\\
@@ -79,9 +79,9 @@ $$
 ### matrix transformation similarity property formula
 $$
 \begin{aligned}
-(L:\mathcal V\rightarrow\mathcal V)\land([L(\vec v)]_{B}=A_{BB}[\vec v]_{B})\land([L(\vec v)]_{D}=A_{DD}[\vec v]_{D})\land([\vec v]_{D}=P_{BD}[\vec v]_{B})\implies A_{BB}\sim A_{DD}\\
-A_{BB}=P_{BD}^{-1}A_{DD}P_{BD}\\
-A_{DD}=P_{BD}A_{BB}P_{BD}^{-1}\\
+(L:\mathcal V\rightarrow\mathcal V)\land([L(\vec v)]_{B}=A_{\text{BB}}[\vec v]_{B})\land([L(\vec v)]_{D}=A_{\text{DD}}[\vec v]_{D})\land([\vec v]_{D}=P_{\text{BD}}[\vec v]_{B})\implies A_{\text{BB}}\sim A_{\text{DD}}\\
+A_{\text{BB}}=P_{\text{BD}}^{-1}A_{\text{DD}}P_{\text{BD}}\\
+A_{\text{DD}}=P_{\text{BD}}A_{\text{BB}}P_{\text{BD}}^{-1}\\
 L=\text{linear transformation}\\
 \mathcal V=\text{vector space}\\
 {}[\vec v]_{B},[\vec v]_{D}=\text{coordinate vector}\\
@@ -101,7 +101,7 @@ $$
 $$
 \begin{aligned}
 (L_{1}:\mathcal V_{1}\rightarrow\mathcal V_{2})\land(L_{2}:\mathcal V_{2}\rightarrow\mathcal V_{3})\implies L_{2}\circ L_{1}:\mathcal V_{1}\rightarrow\mathcal V_{3}\\
-([L(\vec v_{1})]_{C}=A_{BC}[\vec v_{1}]_{B})\land([L(\vec v_{2})]_{D}=A_{CD}[\vec v_{2}]_{C})\implies A_{BD}=A_{CD}A_{BC}\\
+([L(\vec v_{1})]_{C}=A_{\text{BC}}[\vec v_{1}]_{B})\land([L(\vec v_{2})]_{D}=A_{\text{CD}}[\vec v_{2}]_{C})\implies A_{\text{BD}}=A_{\text{CD}}A_{\text{BC}}\\
 L=\text{linear transformation}\\
 \mathcal V=\text{vector space}\\
 B=\text{1st basis}\\
