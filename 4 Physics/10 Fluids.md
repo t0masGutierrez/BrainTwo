@@ -62,7 +62,7 @@ $$
 ### relative density formula
 $$
 \begin{aligned}
-\rho'=\frac{\rho}{\rho_{water}}\\
+\rho'=\frac{\rho}{\rho_{\text{water}}}\\
 \rho=\text{density}
 \end{aligned}
 $$
@@ -121,9 +121,8 @@ $$
 ### absolute pressure formula
 $$
 \begin{aligned}
-p_{abs}=p_{g}+p_{atm}=\rho gy+p_{atm}\\
-p_{g}=\text{gauge pressure}\\
-p_{atm}=\text{atmospheric pressure}\\
+p_{\text{abs}}=p_{\text{gauge}}+p_{\text{atm}}=\rho gy+p_{\text{atm}}\\
+p=\text{pressure}\\
 \rho=\text{density}\\
 g=\text{gravity}\\
 y=\text{position}
@@ -138,9 +137,8 @@ $$
 ### gauge pressure formula
 $$
 \begin{aligned}
-p_{g}=p_{abs}-p_{atm}=\rho gy\\
-p_{abs}=\text{absolute pressure}\\
-p_{atm}=\text{atmospheric pressure}\\
+p_{\text{gauge}}=p_{\text{abs}}-p_{\text{atm}}=\rho gy\\
+p=\text{pressure}\\
 \rho=\text{density}\\
 g=\text{gravity}\\
 y=\text{position}

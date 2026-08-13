@@ -40,7 +40,7 @@ $$
 - number of particles per mole
 
 ---
-### avagadros formula
+### avagadros number formula
 $$
 \begin{aligned}
 N_{A}=\frac{N}{n}=6.022\times10^{23}\\
@@ -143,18 +143,18 @@ T=\text{temperature}
 $$
 
 ---
-### avagadros gas
-- if constant temperature and constant pressure then volume directly proportional number of moles
-- isothermal and isobaric
+### combined gas
+- if constant number of moles then energy directly proportional temperature
 ![300](4%20Physics/Images/avagadros%20gas.png)
 
 ---
-### avagadros gas formula
+### combined gas formula
 $$
 \begin{aligned}
-\frac{V_{1}}{n_{1}}=\frac{V_{2}}{n_{2}}\\
+\frac{p_1V_{1}}{T_{1}}=\frac{p_2V_{2}}{T_{2}}\\
+p=\text{pressure}\\
 V=\text{volume}\\
-n=\text{number of moles}
+T=\text{temperature}
 \end{aligned}
 $$
 
@@ -271,7 +271,7 @@ $$
 \begin{aligned}
 K_{\text{avg}}=\frac{f}{2}kT\\
 f=\text{degrees of freedom}\\
-k=1.38\times10^{-23}\\
+k=1.381\times10^{-23}\\
 T=\text{absolute temperature}
 \end{aligned}
 $$
@@ -304,8 +304,7 @@ $$
 C_{\text{gas}}=\frac{f}{2}R\\
 C_{\text{solid}}=3R\\
 f=\text{degrees of freedom}\\
-R=8.314\\
-T=\text{absolute temperature}
+R=8.314
 \end{aligned}
 $$
 

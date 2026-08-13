@@ -1,5 +1,5 @@
 ### limit
-- $f(x)$ behavior as x approaches value
+- function output as input approaches point
 
 ---
 ### limit formula

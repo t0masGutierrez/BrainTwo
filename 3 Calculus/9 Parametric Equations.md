@@ -31,7 +31,7 @@ $$
 
 ---
 ### parametric curve
-- set of points together with defining parametric equations
+- set of points with defining parametric equations
 ![300](3%20Calculus/Images/parametric%20curve.png)
 
 ---
