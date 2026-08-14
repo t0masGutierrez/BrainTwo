@@ -237,12 +237,9 @@ $$
 ### mean free time formula
 $$
 \begin{aligned}
-\tau=\frac{kT}{4\pi r^2pv_{\text{rms}}}\\
-k=1.381\times10^{-23}\\
-T=\text{absolute temperature}\\
-r=\text{radius}\\
-v=\text{velocity}\\
-p=\text{pressure}
+\tau=\frac{\lambda}{v_{\text{rms}}}\\
+\lambda=\text{mean free path}\\
+v=\text{velocity}
 \end{aligned}
 $$
 
