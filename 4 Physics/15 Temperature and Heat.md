@@ -94,7 +94,7 @@ $$
 ---
 ### thermal expansion
 - solid expands as temperature increases
-![300](4%20Physics/Images/solid%20thermal%20expansion.png)
+![200](4%20Physics/Images/thermal%20expansion.png)
 
 ---
 ### length thermal expansion formula
@@ -352,7 +352,7 @@ $$
 \begin{aligned}
 (Q,T)\\
 Q=\text{heat}\\
-T=\text{absolute temperature}
+T=\text{temperature}
 \end{aligned}
 $$
 
@@ -368,7 +368,7 @@ $$
 $$
 \begin{aligned}
 (T,p)\\
-T=\text{absolute temperature}\\
+T=\text{temperature}\\
 p=\text{pressure}
 \end{aligned}
 $$
@@ -433,7 +433,7 @@ $$
 A=\text{area}\\
 e=\text{emissivity}\\
 \sigma=5.67\times10^{-8}\\
-T=\text{absolute temperature}
+T=\text{temperature}
 \end{aligned}
 $$
 

@@ -1,26 +1,3 @@
-### state variable
-- physical quantity whose value depend on current state of system and not on how the system got there
-
----
-### state variable example
-- pressure
-- volume
-- temperature
-
----
-### equation of state
-- mathematical relationship connecting the state variables of system at thermodynamic equilibrium
-
----
-### equation of state formula
-$$
-\begin{aligned}
-f(x)=0\\
-x=\text{state}
-\end{aligned}
-$$
-
----
 ### molar mass
 - amount of mass per mole
 
@@ -65,7 +42,7 @@ p=\text{pressure}\\
 V=\text{volume}\\
 N=\text{number of particles}\\
 k=1.381\times10^{-23}\\
-T=\text{absolute temperature}\\
+T=\text{temperature}\\
 n=\text{number of moles}\\
 R=8.314\\
 N_{A}=6.022\times10^{23}
@@ -90,7 +67,7 @@ n=\text{number of moles}\\
 b=\text{molecular volume}\\
 N=\text{number of particles}\\
 k=1.381\times10^{-23}\\
-T=\text{absolute temperature}
+T=\text{temperature}
 \end{aligned}
 $$
 
@@ -159,7 +136,7 @@ $$
 
 ---
 ### translational kinetic energy
-- internal energy of monatomic ideal gas
+- internal energy of ideal monatomic gas
 
 ---
 ### translational kinetic energy formula
@@ -168,7 +145,7 @@ $$
 K=\frac{3}{2}NkT\\
 N=\text{number of particles}\\
 k=1.381\times10^{-23}\\
-T=\text{absolute temperature}
+T=\text{temperature}
 \end{aligned}
 $$
 
@@ -183,7 +160,7 @@ $$
 \begin{aligned}
 K_{\text{avg}}=\frac{3}{2}kT=\frac{1}{2}mv_{\text{rms}}^2\\
 k=1.381\times10^{-23}\\
-T=\text{absolute temperature}\\
+T=\text{temperature}\\
 m=\text{mass}\\
 v=\text{velocity}
 \end{aligned}
@@ -199,12 +176,12 @@ $$
 $$
 \begin{aligned}
 f(v)=\frac{4}{\sqrt\pi{}}(\frac{m}{2kT})^{\frac{3}{2}}v^{2}\exp{(\frac{-mv^{2}}{2kT})}\\
-v_p=\sqrt{\frac{2kT}{m}}\\
+v_{\text{max}}=\sqrt{\frac{2kT}{m}}\\
 v_{\text{rms}}=\sqrt{\frac{3kT}{m}}\\
 v_{\text{avg}}=\sqrt{\frac{8kT}{\pi m}}\\
 m=\text{mass}\\
 k=1.381\times10^{-23}\\
-T=\text{absolute temperature}\\
+T=\text{temperature}\\
 v=\text{velocity}
 \end{aligned}
 $$
@@ -224,7 +201,7 @@ r=\text{radius}\\
 N=\text{number of particles}\\
 v=\text{velocity}\\
 k=1.381\times10^{-23}\\
-T=\text{absolute temperature}\\
+T=\text{temperature}\\
 p=\text{pressure}
 \end{aligned}
 $$
@@ -268,7 +245,7 @@ $$
 K_{\text{avg}}=\frac{f}{2}kT\\
 f=\text{degrees of freedom}\\
 k=1.381\times10^{-23}\\
-T=\text{absolute temperature}
+T=\text{temperature}
 \end{aligned}
 $$
 
@@ -316,7 +293,7 @@ $$
 $$
 \begin{aligned}
 (T,p)\\
-T=\text{absolute temperature}\\
+T=\text{temperature}\\
 p=\text{pressure}
 \end{aligned}
 $$
@@ -331,7 +308,7 @@ $$
 $$
 \begin{aligned}
 (T,V,p)\\
-T=\text{absolute temperature}\\
+T=\text{temperature}\\
 V=\text{volume}\\
 p=\text{pressure}
 \end{aligned}
