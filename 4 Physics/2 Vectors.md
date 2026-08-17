@@ -220,8 +220,8 @@ $$
 0^{\circ}\le\theta<90^{\circ}\iff\vec A\cdot\vec B>0\\
 90^{\circ}\le\theta<180^{\circ}\iff\vec A\cdot\vec B<0\\
 \theta=90^{\circ}\iff\vec A\cdot\vec B=0\\
-\theta=0^{\circ}\iff\vec A\cdot\vec B=AB\\
-\theta=180^{\circ}\iff\vec A\cdot\vec B=-AB
+\theta=0^{\circ}\iff\vec A\cdot\vec B=(\|\vec A\|)(\|\vec B\|)\\
+\theta=180^{\circ}\iff\vec A\cdot\vec B=-(\|\vec A\|)(\|\vec B\|)
 \end{aligned}
 $$
 
@@ -234,7 +234,7 @@ $$
 ### cross product formula
 $$
 \begin{aligned}
-\|\vec{A}\times\vec{B}\|=AB\sin(\theta)\\
+\|\vec{A}\times\vec{B}\|=(\|\vec A\|)(\|\vec B\|)\sin(\theta)\\
 \vec{A}\times\vec{B}=(A_{y}B_{z}-A_{z}B_{y})\hat{i}+(A_{z}B_{x}-A_{x}B_{z})\hat{j}+(A_{x}B_{y}-A_{y}B_{x})\hat{k}\\
 \|\vec A\|,\|\vec B\|=\text{magnitude}\\
 \theta=\text{direction}\\
@@ -276,7 +276,7 @@ $$
 ### cross product direction property formula
 $$
 \begin{aligned}
-\theta=90^{\circ}&\iff\|\vec A\times\vec B\|=AB\\
+\theta=90^{\circ}&\iff\|\vec A\times\vec B\|=(\|\vec A\|)(\|\vec B\|)\\
 \theta=0^{\circ}&\implies\|\vec A\times\vec B\|=0\\
 \theta=180^{\circ}&\implies\|\vec A\times\vec B\|=0\\
 \vec A=\vec B&\iff\|\vec A\times\vec B\|=0

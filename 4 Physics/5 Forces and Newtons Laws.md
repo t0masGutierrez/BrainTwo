@@ -5,7 +5,7 @@
 ### dynamics formula
 $$
 \begin{aligned}
-\vec F_{A}\rightarrow\vec a_{A}\rightarrow\vec v_{A}\rightarrow\vec x_{A}=?
+\vec F_{A}\rightarrow\vec a_{A}\rightarrow\vec v_{A}\rightarrow\vec x_{A}
 \end{aligned}
 $$
 
@@ -259,7 +259,7 @@ $$
 
 ---
 ### newtons first law
-- object at rest remains at rest or moves with constant velocity unless acted on by nonzero net external force
+- object at rest remains at rest or moves with constant velocity unless acted on by nonzero net force
 ![[4 Physics/Images/newtons first law.png]]
 
 ---
@@ -274,7 +274,7 @@ $$
 
 ---
 ### newtons second law
-- acceleration dependent mass and net external force acting on mass
+- acceleration dependent mass and net force acting on mass
 ![[4 Physics/Images/newtons second law.png]]
 
 ---

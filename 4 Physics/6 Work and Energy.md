@@ -6,10 +6,11 @@
 ### constant work formula
 $$
 \begin{aligned}
-W=\vec F\cdot\Delta\vec r=F\Delta r\cos(\theta)\\
+W=\vec F\cdot\Delta\vec r=(\|\vec F\|)(\|\Delta\vec r\|)\cos(\theta)\\
 \vec F=\text{force}\\
 \vec r=\text{position}\\
-\theta=\text{angle between vectors}
+\|\vec F\|,\|\Delta\vec r\|=\text{magnitude}\\
+\theta=\text{direction}
 \end{aligned}
 $$
 
@@ -59,13 +60,13 @@ $$
 
 ---
 ### net work
-- work done by net external force equal change of kinetic energy
+- work done by net force equal change of kinetic energy
 
 ---
 ### net work formula
 $$
 \begin{aligned}
-W_{\text{net}}=K_{f}-K_{i}\\
+W_{\text{net}}=\Delta K\\
 K=\text{kinetic energy}
 \end{aligned}
 $$
@@ -105,7 +106,7 @@ $$
 ### potential energy formula
 $$
 \begin{aligned}
-U=\int\vec F_{\text{cons}}\cdot d\vec r\\
+\Delta U=-\int\vec F_{\text{cons}}\cdot d\vec r\\
 \vec F=\text{force}\\
 \vec r=\text{position}
 \end{aligned}
@@ -136,7 +137,7 @@ $$
 \begin{aligned}
 U_{\text{el}}=\frac{1}{2}kx^{2}\\
 k=\text{spring constant}\\
-x=\text{displacement}
+x=\text{position}
 \end{aligned}
 $$
 
@@ -162,39 +163,38 @@ $$
 ### conservative work formula
 $$
 \begin{aligned}
-W_{\text{cons}}=U_{i}-U_{f}\\
+W_{\text{cons}}=-\Delta U\\
 U=\text{potential energy}
 \end{aligned}
 $$
 
 ---
 ### nonconservative work
-- work done by nonconservative force equal nonzero change of mechanical energy
+- work done by nonconservative force equal change of mechanical energy
 
 ---
 ### nonconservative work formula
 $$
 \begin{aligned}
-E_{i}+W_{\text{noncons}}=E_{f}\\
-E=\text{mechanical energy}\\
-W=\text{work}
+W_{\text{noncons}}=\Delta K+\Delta U\\
+K=\text{kinetic energy}\\
+U=\text{potential energy}
 \end{aligned}
 $$
 
 ---
 ### conservation of energy
-- work done by conservative force equal zero change of mechanical energy
-![[4 Physics/Images/energy conservation.png]]
+- if work done by conservative force then zero change of mechanical energy
+![[4 Physics/Images/conservation of energy.png]]
 
 ---
 ### conservation of energy formula
 $$
 \begin{aligned}
-E_{i}=E_{f}\\
-K_{i}+U_{i}=K_{f}+U_{f}\\
-E=\text{mechanical energy}\\
-K=\text{kinetic energy}\\
-U=\text{potential energy}
+W_{\text{cons}}=-\Delta U\implies\Delta E=0\\
+W=\text{work}\\
+U=\text{potential energy}\\
+E=\text{mechanical energy}
 \end{aligned}
 $$
 
@@ -222,6 +222,7 @@ $$
 $$
 \begin{aligned}
 E=U\\
+E=\text{mechanical energy}\\
 U=\text{potential energy}
 \end{aligned}
 $$
@@ -290,9 +291,11 @@ $$
 ### instantaneous power formula
 $$
 \begin{aligned}
-P=\vec F\cdot\vec v=Fv\cos(\theta)\\
+P=\vec F\cdot\vec v=(\|\vec F\|)(\|\vec v\|)\cos(\theta)\\
 \vec F=\text{force}\\
-\vec v=\text{velocity}
+\vec v=\text{velocity}\\
+\|\vec F\|,\|\vec v\|=\text{magnitude}\\
+\theta=\text{direction}
 \end{aligned}
 $$
 
