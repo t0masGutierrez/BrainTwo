@@ -56,7 +56,7 @@ $$
 
 ---
 ### instantaneous speed
-- rate of change of distance as change of time approaches zero
+- magnitude of instantaneous velocity
 
 ---
 ### instantaneous speed formula
@@ -69,7 +69,7 @@ $$
 
 ---
 ### average velocity
-- position per time
+- displacement per time
 
 ---
 ### average velocity formula
@@ -138,10 +138,11 @@ $$
 ### delta speed property formula
 $$
 \begin{aligned}
-\hat v=\hat a\implies va>0\\
-\hat v\ne\hat a\implies va<0\\
+\hat v=\hat a\implies\frac{ds}{dt}>0\\
+\hat v\ne\hat a\implies\frac{ds}{dt}<0\\
 v=\text{velocity}\\
-a=\text{acceleration}
+a=\text{acceleration}\\
+s=\text{speed}
 \end{aligned}
 $$
 
@@ -159,33 +160,32 @@ $$
 
 ---
 ### first law of motion
-- relate velocity, initial velocity, acceleration, and time
+- relate velocity, initial velocity, constant acceleration, and time
 
 ---
 ### first law of motion formula
 $$
 \begin{aligned}
-a(t)=a_{0}\implies v=v_{0}+at\\
+v=v_{0}+at\\
+v=\text{velocity}\\
 a=\text{acceleration}\\
-v_{0}=\text{initial velocity}\\
 t=\text{time}
 \end{aligned}
 $$
 
 ---
 ### second law of motion
-- relate position, initial position, initial velocity, acceleration, and time
+- relate position, initial position, initial velocity, constant acceleration, and time
 
 ---
 ### second law of motion formula
 $$
 \begin{aligned}
-a(t)=a_{0}\implies x=x_{0}+v_{0}t+\frac{1}{2}at^{2}\\
-a=\text{acceleration}\\
+x=x_{0}+v_{0}t+\frac{1}{2}at^{2}\\
 x=\text{position}\\
-x_{0}=\text{initial position}\\
-v_{0}=\text{initial velocity}\\
-t=\text{time}
+v=\text{velocity}\\
+t=\text{time}\\
+a=\text{acceleration}
 \end{aligned}
 $$
 
@@ -197,31 +197,25 @@ $$
 ### third law of motion formula
 $$
 \begin{aligned}
-a(t)=a_{0}\implies x-x_{0}=\frac{1}{2}(v+v_{0})t\\
-a=\text{acceleration}\\
+x-x_{0}=\frac{1}{2}(v+v_{0})t\\
 x=\text{position}\\
-x_{0}=\text{initial position}\\
 v=\text{velocity}\\
-v_{0}=\text{initial velocity}\\
 t=\text{time}
 \end{aligned}
 $$
 
 ---
 ### fourth law of motion
-- relate velocity, initial velocity, acceleration, position, and initial position
+- relate velocity, initial velocity, constant acceleration, position, and initial position
 
 ---
 ### fourth law of motion formula
 $$
 \begin{aligned}
-a(t)=a_{0}\implies v^{2}=v_{0}^{2}+2a(x-x_{0})\\
-a=\text{acceleration}\\
+v^{2}=v_{0}^{2}+2a(x-x_{0})\\
 v=\text{velocity}\\
-v_{0}=\text{initial velocity}\\
 a=\text{acceleration}\\
-x=\text{position}\\
-x_{0}=\text{initial position}\\
+x=\text{position}
 \end{aligned}
 $$
 
