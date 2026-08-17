@@ -5,7 +5,7 @@
 ### dynamics formula
 $$
 \begin{aligned}
-\vec F_{A}\rightarrow\vec x_{A}=?
+\vec F_{A}\rightarrow\vec a_{A}\rightarrow\vec v_{A}\rightarrow\vec x_{A}=?
 \end{aligned}
 $$
 
@@ -19,14 +19,12 @@ $$
 $$
 \begin{aligned}
 \vec F=F_{x}\hat i+F_{y}\hat j\\
-F=\sqrt{F_{x}^{2}+F_{y}^{2}}\\
+\|\vec F\|=\sqrt{F_{x}^{2}+F_{y}^{2}}\\
 \theta=\arctan(\frac{F_{y}}{F_{x}})\\
-F_{x}=F\cos(\theta)\\
-F_{y}=F\sin(\theta)\\
 F=\text{force}\\
-\hat i=\text{x direction}\\
-\hat j=\text{y direction}\\
-\theta=\text{angle between vectors}
+\hat i,\hat j=\text{unit vector}\\
+\|\vec F\|=\text{magnitude}\\
+\theta=\text{direction}
 \end{aligned}
 $$
 
@@ -41,8 +39,7 @@ $$
 \begin{aligned}
 \vec F_{\text{net}}=\sum_{n}\vec F_{n}=(\sum_{n}F_{\text{nx}})\hat i+(\sum_{n}F_{\text{ny}})\hat j\\
 \vec F=\text{force}\\
-\hat i=\text{x direction}\\
-\hat j=\text{y direction}\\
+\hat i,\hat j=\text{unit vector}
 \end{aligned}
 $$
 
@@ -194,15 +191,14 @@ $$
 - centrifugal force
 - coriolis force
 - euler force
-- pseudo force
 
 ---
 ### free body diagram
 - draw body as the origin of the coordinate system
 - sketch all forces acting on the body as vectors
 - resolve all vectors into scalar components
-- if equilibrium then newtons first law $\sum F=0$
-- if nonequilibrium then newtons second law $\sum F=ma$
+- if equilibrium then newtons first law
+- if nonequilibrium then newtons second law
 ![[4 Physics/Images/free body diagram.png|200]]
 
 ---
@@ -213,7 +209,7 @@ $$
 ### gravitational interaction formula
 $$
 \begin{aligned}
-\vec F_{G}=G\frac{m_{1}m_{2}}{r^{2}}\hat r\\
+\vec F_{g}=G\frac{m_{1}m_{2}}{r^{2}}\hat r\\
 G=6.67\times10^{-11}\\
 m=\text{mass}\\
 r=\text{distance}\\
@@ -239,7 +235,7 @@ $$
 
 ---
 ### strong nuclear interaction
-- responsible for holding nuclei together
+- responsible for binding nuclei together
 
 ---
 ### strong nuclear interaction formula
@@ -251,7 +247,7 @@ $$
 
 ---
 ### weak nuclear interaction
-- responsible for causing radioactive decay
+- responsible for radioactive decay
 
 ---
 ### weak nuclear interaction formula
@@ -267,7 +263,7 @@ $$
 ![[4 Physics/Images/newtons first law.png]]
 
 ---
-### newtons 1st formula
+### newtons first law formula
 $$
 \begin{aligned}
 \vec F_{\text{net}}=0\implies\vec a=0\\
@@ -282,7 +278,7 @@ $$
 ![[4 Physics/Images/newtons second law.png]]
 
 ---
-### newtons 2nd formula
+### newtons second law formula
 $$
 \begin{aligned}
 \vec F_{\text{net}}=m\vec a=
@@ -303,7 +299,7 @@ $$
 ![[4 Physics/Images/newtons third law.png|200]]
 
 ---
-### newtons 3rd formula
+### newtons third law formula
 $$
 \begin{aligned}
 \vec F_{\text{AB}}=-\vec F_{\text{BA}}\\

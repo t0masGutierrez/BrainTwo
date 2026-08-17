@@ -355,7 +355,7 @@ $$
 \frac{dV}{dt}=Av\\
 V=\text{volume}\\
 t=\text{time}\\
-A=\text{cross-section area}\\
+A=\text{area}\\
 v=\text{velocity}
 \end{aligned}
 $$
@@ -402,12 +402,12 @@ $$
 $$
 \begin{aligned}
 \vec F_{d}=-k\vec v\\
-\vec F_{d}=\frac{-1}{2}\rho C_{d}A\vec v^{2}\\
+\vec F_{d}=\frac{-1}{2}\rho_fC_{d}A\vec v^{2}\\
 k=\text{linear drag coefficient}\\
 \vec v=\text{velocity}\\
-\rho=\text{density}\\
+\rho_f=\text{fluid density}\\
 C_{d}=\text{drag coefficient}\\
-A=\text{cross-section area}
+A=\text{area}
 \end{aligned}
 $$
 
@@ -423,9 +423,9 @@ $$
 \vec w=\text{weight}\\
 \vec F=\text{force}\\
 \vec v=\text{velocity}\\
-\rho=\text{density}\\
+\rho_f=\text{fluid density}\\
 C_{d}=\text{drag coefficient}\\
-A=\text{cross-section area}
+A=\text{area}
 \end{aligned}
 $$
 

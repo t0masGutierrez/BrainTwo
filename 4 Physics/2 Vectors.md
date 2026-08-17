@@ -158,7 +158,7 @@ $$
 $$
 \begin{aligned}
 \vec{R}=(A_{x}+B_{x})\hat{i}+(A_{y}+B_{y})\hat{j}\\
-A_{x},A_{y}=\text{scalar component}\\
+A_{x},B_{y}=\text{scalar component}\\
 \hat i,\hat j=\text{unit vector}
 \end{aligned}
 $$
