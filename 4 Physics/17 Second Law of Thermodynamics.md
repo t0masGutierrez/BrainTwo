@@ -11,7 +11,6 @@
 ---
 ### reversible process
 - quasi-static change of state such that the system and surroundings can return initial state with zero net change
-- aka equilibrium process
 
 ---
 ### reversible process example
@@ -178,9 +177,9 @@ $$
 ### entropy formula
 $$
 \begin{aligned}
-S=k_{b}\ln(\Omega)\\
+S=k\ln(\Omega)\\
 \Delta S=\int\frac{dQ}{T}\\
-k_{b}=1.38\times10^{-23}\\
+k_{b}=1.381\times10^{-23}\\
 \Omega=\text{number of microstates}\\
 Q=\text{heat}\\
 T=\text{temperature}
