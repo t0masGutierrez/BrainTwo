@@ -187,7 +187,7 @@ $$
 \begin{aligned}
 \vec{A}\cdot\vec{B}=(\|\vec A\|)(\|\vec B\|)\cos(\theta)=A_{x}B_{x}+A_{y}B_{y}\\
 \|\vec A\|,\|\vec B\|=\text{magnitude}\\
-\theta=\text{angle between vectors}\\
+\theta=\text{direction}\\
 A_{x},B_{y}=\text{scalar component}
 \end{aligned}
 $$
@@ -237,7 +237,7 @@ $$
 \|\vec{A}\times\vec{B}\|=AB\sin(\theta)\\
 \vec{A}\times\vec{B}=(A_{y}B_{z}-A_{z}B_{y})\hat{i}+(A_{z}B_{x}-A_{x}B_{z})\hat{j}+(A_{x}B_{y}-A_{y}B_{x})\hat{k}\\
 \|\vec A\|,\|\vec B\|=\text{magnitude}\\
-\theta=\text{angle between vectors}\\
+\theta=\text{direction}\\
 A_{x},B_{x}=\text{x scalar component}\\
 \hat i=\text{x unit vector}\\
 A_{y},B_{y}=\text{y scalar component}\\

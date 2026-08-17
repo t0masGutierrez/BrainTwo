@@ -8,10 +8,8 @@ $$
 \begin{aligned}
 \vec{r}(t)=x(t)\hat{i}+y(t)\hat{j}\\
 t=\text{time}\\
-x=\text{x position}\\
-y=\text{y position}\\
-\hat i=\text{x direction}\\
-\hat j=\text{y direction}
+x,y=\text{position}\\
+\hat i,\hat j=\text{unit vector}
 \end{aligned}
 $$
 
@@ -25,11 +23,8 @@ $$
 $$
 \begin{aligned}
 \Delta\vec{r}=\vec{r}-\vec{r}_{0}=\Delta x\hat i+\Delta y\hat j\\
-\vec r=\text{position}\\
-x=\text{x position}\\
-y=\text{y position}\\
-\hat i=\text{x direction}\\
-\hat j=\text{y direction}
+\vec r,x,y=\text{position}\\
+\hat i,\hat j=\text{unit vector}
 \end{aligned}
 $$
 
@@ -42,13 +37,15 @@ $$
 ### velocity vector formula
 $$
 \begin{aligned}
-\vec v_{\text{avg}}=\frac{\Delta\vec r}{\Delta t}\\
 \vec{v}=\frac{d\vec{r}}{dt}=\frac{dx}{dt}\hat i+\frac{dy}{dt}\hat j=v_{x}\hat i+v_{y}\hat j\\
-v=\|\vec v\|=\sqrt{v_{x}^{2}+v_{y}^{2}}\\
+\|\vec v\|=\sqrt{v_{x}^{2}+v_{y}^{2}}\\
 \theta=\arctan(\frac{v_{y}}{v_{x}})\\
-\vec r=\text{position}\\
+\vec r,x,y=\text{position}\\
 t=\text{time}\\
-\vec v=\text{velocity}
+\hat i,\hat j=\text{unit vector}\\
+\vec v=\text{velocity}\\
+\|\vec v\|=\text{magnitude}\\
+\theta=\text{direction}
 \end{aligned}
 $$
 
@@ -60,14 +57,14 @@ $$
 ### acceleration vector formula
 $$
 \begin{aligned}
-\vec a_{\text{avg}}=\frac{\Delta\vec v}{\Delta t}\\
-\vec{a}=\frac{d\vec{v}}{dt}=\frac{d^{2}\vec{r}}{dt^{2}}=a_{x}\hat i+a_{y}\hat j\\
-a=\|\vec a\|=\sqrt{a_{x}^{2}+a_{y}^{2}}\\
+\vec{a}=\frac{d\vec{v}}{dt}=a_{x}\hat i+a_{y}\hat j\\
+\|\vec a\|=\sqrt{a_{x}^{2}+a_{y}^{2}}\\
 \theta=\arctan(\frac{a_{y}}{a_{x}})\\
 \vec v=\text{velocity}\\
 t=\text{time}\\
-\vec r=\text{position}\\
-\vec a=\text{acceleration}
+\vec a=\text{acceleration}\\
+\|\vec a\|=\text{magnitude}\\
+\theta=\text{direction}
 \end{aligned}
 $$
 
@@ -92,74 +89,74 @@ $$
 
 ---
 ### uniform circular motion
-- constant speed along circular path with nonzero acceleration
+- zero tangential acceleration and nonzero radial acceleration
 ![[4 Physics/Images/uniform circular motion.png]]
 
 ---
 ### uniform circular motion formula
 $$
 \begin{aligned}
-a_{\text{rad}}\perp v_{\text{tan}}
+\vec a_{\text{tan}}=0\\
+\vec a_{\text{rad}}\perp\vec v
 \end{aligned}
 $$
 
 ---
-### uniform tangential velocity
-- velocity vector parallel circular path equal constant speed
+### circular velocity
+- constant magnitude and variable direction
 
 ---
-### uniform tangential velocity formula
+### circular velocity formula
 $$
 \begin{aligned}
-v_{\text{tan}}=\frac{2\pi r}{T}\\
-r=\text{radius}\\
+\vec v=\frac{2\pi R}{T}\\
+R=\text{radius}\\
 T=\text{period}
 \end{aligned}
 $$
 
 ---
-### uniform radial acceleration
-- acceleration vector perpendicular circular path equal change of direction
+### uniform circular acceleration
+- radial acceleration responsible for varying the direction of velocity
 
 ---
-### uniform radial acceleration formula
+### uniform circular acceleration formula
 $$
 \begin{aligned}
-a_{\text{rad}}=\frac{v_{\text{tan}}^{2}}{r}\\
+\vec a_{\text{rad}}=\frac{\vec v^{2}}{R}\\
 v=\text{velocity}\\
-r=\text{radius}
+R=\text{radius}
 \end{aligned}
 $$
 
 ---
 ### nonuniform circular motion
-- maximum radial acceleration equal maximum tangential velocity
-- change of speed equal acceleration vector antiparallel velocity vector
-- minimum radial acceleration equal minimum tangential velocity
+- nonzero tangential acceleration and nonzero radial acceleration
 ![[4 Physics/Images/nonuniform circular motion.png|300]]
 
 ---
 ### nonuniform circular motion formula
 $$
 \begin{aligned}
-a_{\text{rad}}\perp a_{\text{tan}}\\
-a_{\text{tan}}\parallel\pm v_{\text{tan}}
+\vec a_{\text{tan}}\ne0\\
+\vec a_{\text{tan}}\parallel\pm\vec v\implies\frac{ds}{dt}>0
 \end{aligned}
 $$
 
 ---
-### nonuniform radial acceleration
-- acceleration vector perpendicular circular path equal change of direction
-- acceleration vector parallel circular path equal change of speed
-![[4 Physics/Images/nonuniform radial acceleration.png|400]]
+### nonuniform circular acceleration
+- radial acceleration responsible for varying the direction of velocity
+- tangential acceleration responsible for varying the magnitude of velocity
+![[4 Physics/Images/nonuniform circular acceleration.png|400]]
 
 ---
-### nonuniform radial acceleration formula
+### nonuniform circular acceleration formula
 $$
 \begin{aligned}
-a=a_{\text{rad}}+a_{\text{tan}}=\frac{v_{\text{tan}}^{2}}{r}+\frac{dv_{\text{tan}}}{dt}\\
-v=\text{velocity}\\
-r=\text{radius}\\
+\vec a=\vec a_{\text{rad}}+\vec a_{\text{tan}}=\frac{\vec v^{2}}{R}+\frac{d\vec v}{dt}\\
+\vec a=\text{acceleration}\\
+\vec v=\text{velocity}\\
+R=\text{radius}\\
 t=\text{time}
 \end{aligned}
 $$
@@ -175,9 +172,9 @@ $$
 ### projectile motion versus uniform circular motion formula
 $$
 \begin{aligned}
-a(t)=a_{0}\\
-\hat a_{\text{proj}}(t)=\hat a_{0}\\
-\hat a(t)_{\text{uni}}\ne\hat a_{0}
+\|\vec a\|=C\\
+\hat a_{\text{proj}}=\hat a_{0}\\
+\hat a_{\text{uni}}\ne\hat a_{0}
 \end{aligned}
 $$
 
