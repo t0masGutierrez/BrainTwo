@@ -279,7 +279,7 @@ $$
 
 ---
 ### adiabatic process
-- zero heat transfer with surroundings
+- zero heat flow between system and surroundings
 
 ---
 ### adiabatic process formula

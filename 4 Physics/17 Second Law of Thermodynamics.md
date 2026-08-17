@@ -77,9 +77,8 @@ $$
 $$
 \begin{aligned}
 \eta=1-\frac{1}{(\frac{V_a}{V_b})^{\gamma-1}}\\
-\gamma=\frac{C_{p}}{C_{V}}\\
 V=\text{volume}\\
-C=\text{molar heat capacity}
+\gamma=\text{molar heat capacity ratio}
 \end{aligned}
 $$
 
@@ -94,9 +93,8 @@ $$
 \begin{aligned}
 \eta=1-\frac{\rho^{\gamma-1}-1}{\gamma(\rho-1)(\frac{V_a}{V_b})^{\gamma-1}}\\
 \rho=\frac{V_c}{V_b}\\
-\gamma=\frac{C_{p}}{C_{V}}\\
 V=\text{volume}\\
-C=\text{molar heat capacity}
+\gamma=\text{molar heat capacity ratio}
 \end{aligned}
 $$
 
@@ -136,16 +134,23 @@ $$
 ### second law of thermodynamics
 - heat flow from high temperature to low temperature until thermal equilibrium
 - fluid flow from high pressure to low pressure until mechanical equilibrium
-- chemical flow from high concentration to low concentration until chemical equilibrium
+- chemical flow from high potential to low potential until chemical equilibrium
 ![300](4%20Physics/Images/second%20law%20of%20thermodynamics.png)
 
 ---
 ### second law of thermodynamics formula
 $$
 \begin{aligned}
-T_{A}<T_{B}\implies T_{A}+Q=T_{B}\\
+T_{A}<T_{B}\implies Q:B\rightarrow A\\
+p_A<p_B\implies\frac{dm}{dt}:B\rightarrow A\\
+\mu_A<\mu_B\implies\frac{dN}{dt}:B\rightarrow A\\
 T=\text{temperature}\\
-Q=\text{heat}
+Q=\text{heat}\\
+p=\text{pressure}\\
+m=\text{mass}\\
+t=\text{time}\\
+\mu=\text{potential}\\
+N=\text{number of particles}
 \end{aligned}
 $$
 
@@ -179,7 +184,7 @@ $$
 \begin{aligned}
 S=k\ln(\Omega)\\
 \Delta S=\int\frac{dQ}{T}\\
-k_{b}=1.381\times10^{-23}\\
+k=1.381\times10^{-23}\\
 \Omega=\text{number of microstates}\\
 Q=\text{heat}\\
 T=\text{temperature}
@@ -188,7 +193,7 @@ $$
 
 ---
 ### second law of thermodynamics
-- universal entropy of isolated system can increase but cannot decrease
+- universal entropy of isolated system cannot decrease
 
 ---
 ### second law of thermodynamics formula
@@ -207,8 +212,9 @@ $$
 ### third law of thermodynamics formula
 $$
 \begin{aligned}
-S=k\ln(1)=0\\
-k=1.381\times10^{-23}
+\lim_{T\rightarrow0}S=0\\
+T=\text{temperature}\\
+S=\text{entropy}
 \end{aligned}
 $$
 
