@@ -149,12 +149,12 @@ $$
 $$
 \begin{aligned}
 \vec F_{d}=-k\vec v\\
-\vec F_{d}=\frac{-1}{2}\rho C_{d}A\vec v^{2}\\
+\vec F_{d}=\frac{-1}{2}\rho_fC_{d}A\vec v^{2}\\
 k=\text{linear drag coefficient}\\
 \vec v=\text{velocity}\\
-\rho=\text{density}\\
+\rho_f=\text{fluid density}\\
 C_{d}=\text{drag coefficient}\\
-A=\text{cross-section area}
+A=\text{area}
 \end{aligned}
 $$
 
@@ -214,9 +214,9 @@ $$
 $$
 \begin{aligned}
 \vec F_{G}=G\frac{m_{1}m_{2}}{r^{2}}\hat r\\
-G=\text{gravitational constant}\\
+G=6.67\times10^{-11}\\
 m=\text{mass}\\
-r=\text{distance between centers}\\
+r=\text{distance}\\
 \hat r=\text{direction}
 \end{aligned}
 $$
@@ -245,7 +245,7 @@ $$
 ### strong nuclear interaction formula
 $$
 \begin{aligned}
-F_{\text{strong}}
+\vec F_{\text{strong}}
 \end{aligned}
 $$
 
@@ -257,7 +257,7 @@ $$
 ### weak nuclear interaction formula
 $$
 \begin{aligned}
-F_{\text{weak}}
+\vec F_{\text{weak}}
 \end{aligned}
 $$
 

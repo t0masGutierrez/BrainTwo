@@ -122,7 +122,7 @@ $$
 \begin{aligned}
 v_{E}=\sqrt{\frac{2GM}{r}}\\
 G=6.67\times10^{-11}\\
-m=\text{mass}\\
+M=\text{source mass}\\
 r=\text{distance}
 \end{aligned}
 $$
@@ -191,7 +191,7 @@ T^{2}=\frac{4\pi^{2}a^{3}}{GM}\\
 T=\text{period}\\
 a=\text{semi-major axis}\\
 G=6.67\times10^{-11}\\
-M=\text{mass}
+M=\text{source mass}
 \end{aligned}
 $$
 
@@ -209,7 +209,7 @@ v_{E}=\text{escape velocity}\\
 c=3.0\times10^{8}\\
 R_{S}=\text{schwarzschild radius}\\
 G=6.67\times10^{-11}\\
-M=\text{mass}
+M=\text{source mass}
 \end{aligned}
 $$
 

@@ -333,7 +333,7 @@ $$
 ### moving observer effect formula
 $$
 \begin{aligned}
-f_{o}=(\frac{v\pm v_{0}}{v})f_{s}\\
+f_{o}=(\frac{v\pm v_{o}}{v})f_{s}\\
 v=\text{343}\\
 v_{o}=\text{observer velocity}\\
 f_{s}=\text{source frequency}

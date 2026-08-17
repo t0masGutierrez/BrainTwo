@@ -504,7 +504,7 @@ $$
 
 ---
 ### fourier transform
-- complex sinusoidal wave equal sum of basic sinusoidal waves
+- sinusoidal wave equal sum of basic sinusoidal waves
 ![[4 Physics/Images/fourier transform.png|300]]
 
 ---

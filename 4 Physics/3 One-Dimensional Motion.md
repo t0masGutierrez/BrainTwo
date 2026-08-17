@@ -162,7 +162,7 @@ $$
 - relate velocity, initial velocity, acceleration, and time
 
 ---
-### 1st formula of motion
+### first law of motion formula
 $$
 \begin{aligned}
 a(t)=a_{0}\implies v=v_{0}+at\\
@@ -177,7 +177,7 @@ $$
 - relate position, initial position, initial velocity, acceleration, and time
 
 ---
-### 2nd formula of motion
+### second law of motion formula
 $$
 \begin{aligned}
 a(t)=a_{0}\implies x=x_{0}+v_{0}t+\frac{1}{2}at^{2}\\
@@ -194,7 +194,7 @@ $$
 - relate position, initial position, velocity, initial velocity, and time
 
 ---
-### 3rd formula of motion
+### third law of motion formula
 $$
 \begin{aligned}
 a(t)=a_{0}\implies x-x_{0}=\frac{1}{2}(v+v_{0})t\\
@@ -212,7 +212,7 @@ $$
 - relate velocity, initial velocity, acceleration, position, and initial position
 
 ---
-### 4th formula of motion
+### fourth law of motion formula
 $$
 \begin{aligned}
 a(t)=a_{0}\implies v^{2}=v_{0}^{2}+2a(x-x_{0})\\

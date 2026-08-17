@@ -44,7 +44,7 @@ $$
 \begin{aligned}
 \vec v_{\text{avg}}=\frac{\Delta\vec r}{\Delta t}\\
 \vec{v}=\frac{d\vec{r}}{dt}=\frac{dx}{dt}\hat i+\frac{dy}{dt}\hat j=v_{x}\hat i+v_{y}\hat j\\
-v=|\vec v|=\sqrt{v_{x}^{2}+v_{y}^{2}}\\
+v=\|\vec v\|=\sqrt{v_{x}^{2}+v_{y}^{2}}\\
 \theta=\arctan(\frac{v_{y}}{v_{x}})\\
 \vec r=\text{position}\\
 t=\text{time}\\
@@ -62,7 +62,7 @@ $$
 \begin{aligned}
 \vec a_{\text{avg}}=\frac{\Delta\vec v}{\Delta t}\\
 \vec{a}=\frac{d\vec{v}}{dt}=\frac{d^{2}\vec{r}}{dt^{2}}=a_{x}\hat i+a_{y}\hat j\\
-a=|\vec a|=\sqrt{a_{x}^{2}+a_{y}^{2}}\\
+a=\|\vec a\|=\sqrt{a_{x}^{2}+a_{y}^{2}}\\
 \theta=\arctan(\frac{a_{y}}{a_{x}})\\
 \vec v=\text{velocity}\\
 t=\text{time}\\
@@ -77,27 +77,6 @@ $$
 - horizontal motion under constant velocity
 - vertical motion under constant acceleration
 ![[4 Physics/Images/projectile motion.png]]
-
----
-### projectile motion initial velocity formula
-$$
-\begin{aligned}
-v_{0x}=v_{0}\cos(\theta)\\
-v_{0y}=v_{0}\sin(\theta)\\
-v_{0}=\text{initial velocity}\\
-\theta=\text{angle between vectors}
-\end{aligned}
-$$
-
----
-### projectile horizontal motion formula
-$$
-\begin{aligned}
-v_{x}=v_{0x}\\
-v_{0}=\text{initial velocity}\\
-x=\text{position}
-\end{aligned}
-$$
 
 ---
 ### projectile vertical motion formula
@@ -197,8 +176,8 @@ $$
 $$
 \begin{aligned}
 a(t)=a_{0}\\
-\hat a(t)=\hat a_{0}\\
-\hat a(t)\ne\hat a_{0}
+\hat a_{\text{proj}}(t)=\hat a_{0}\\
+\hat a(t)_{\text{uni}}\ne\hat a_{0}
 \end{aligned}
 $$
 
