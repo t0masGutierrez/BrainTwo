@@ -50,14 +50,15 @@ $$
 ### component formula
 $$
 \begin{aligned}
-\vec{A}=\vec A_{x}+\vec A_{y}=A_{x}\hat{i}+A_{y}\hat{j}=\begin{bmatrix}A_x\\A_y\end{bmatrix}\\
-A_{x}=A\cos(\theta)\\
-A_{y}=A\sin(\theta)\\
+\vec{A}=\vec A_{x}+\vec A_{y}=A_{x}\hat{i}+A_{y}\hat{j}=\begin{bmatrix}
+A_x\\A_y
+\end{bmatrix}=\begin{bmatrix}
+\|\vec A\|\cos(\theta)\\\|\vec A\|\sin(\theta)
+\end{bmatrix}\\
 \vec A_{x},\vec A_{y}=\text{vector component}\\
 A_{x},A_{y}=\text{scalar component}\\
-\hat{i}=\text{x direction}\\
-\hat{j}=\text{y direction}\\
-A=\text{magnitude}\\
+\hat{i},\hat j=\text{unit vector}\\
+\|\vec A\|=\text{magnitude}\\
 \theta=\text{direction}
 \end{aligned}
 $$
@@ -70,7 +71,7 @@ $$
 ### magnitude formula
 $$
 \begin{aligned}
-A=\sqrt{\sum_{i=1}^nA_{i}^{2}}\\
+\|\vec A\|=\sqrt{\sum_{i=1}^nA_{i}^{2}}\\
 A_{i}=\text{scalar component}
 \end{aligned}
 $$
@@ -144,14 +145,13 @@ $$
 c\vec{A}=cA_{x}\hat{i}+cA_{y}\hat{j}\\
 c=\text{scalar}\\
 A_{x},A_{y}=\text{scalar component}\\
-\hat{i}=\text{x direction}\\
-\hat{j}=\text{y direction}
+\hat{i},\hat j=\text{unit vector}
 \end{aligned}
 $$
 
 ---
 ### vector addition
-- vector *A* component(s) addition with corresponding vector *B* component(s)
+- vector component addition with corresponding vector component
 
 ---
 ### vector addition formula
@@ -159,8 +159,7 @@ $$
 \begin{aligned}
 \vec{R}=(A_{x}+B_{x})\hat{i}+(A_{y}+B_{y})\hat{j}\\
 A_{x},A_{y}=\text{scalar component}\\
-\hat i=\text{x direction}\\
-\hat j=\text{y direction}
+\hat i,\hat j=\text{unit vector}
 \end{aligned}
 $$
 
@@ -175,7 +174,7 @@ $$
 - both vectors start from the origin
 - construct two parallel vectors
 - vector sum *C* equal diagonal from the origin to where the parallel vectors intersect
-![200](3%20Calculus/Images/triangle%20vector%20addition.png)
+![200](3%20Calculus/Images/parallelogram%20vector%20addition.png)
 
 ---
 ### dot product
@@ -186,8 +185,8 @@ $$
 ### dot product formula
 $$
 \begin{aligned}
-\vec{A}\cdot\vec{B}=AB\cos(\theta)=A_{x}B_{x}+A_{y}B_{y}+A_{z}B_{z}\\
-A,B=\text{magnitude}\\
+\vec{A}\cdot\vec{B}=(\|\vec A\|)(\|\vec B\|)\cos(\theta)=A_{x}B_{x}+A_{y}B_{y}\\
+\|\vec A\|,\|\vec B\|=\text{magnitude}\\
 \theta=\text{angle between vectors}\\
 A_{x},B_{y}=\text{scalar component}
 \end{aligned}
@@ -202,16 +201,14 @@ $$
 $$
 \begin{aligned}
 \hat{i}\cdot\hat{j}=\hat{j}\cdot\hat{k}=\hat{k}\cdot\hat{i}=0\\
-\hat i=\text{x direction}\\
-\hat j=\text{y direction}\\
-\hat k=\text{z direction}
+\hat i,\hat j,\hat k=\text{unit vector}
 \end{aligned}
 $$
 
 ---
 ### dot product direction property
-- acute angle equal positive dot product
-- obtuse angle equal negative dot product
+- acute angles equal positive dot product
+- obtuse angles equal negative dot product
 - perpendicular vectors equal zero
 - parallel vectors equal product of magnitude
 - antiparallel vectors equal negative product of magnitude
@@ -237,16 +234,16 @@ $$
 ### cross product formula
 $$
 \begin{aligned}
+\|\vec{A}\times\vec{B}\|=AB\sin(\theta)\\
 \vec{A}\times\vec{B}=(A_{y}B_{z}-A_{z}B_{y})\hat{i}+(A_{z}B_{x}-A_{x}B_{z})\hat{j}+(A_{x}B_{y}-A_{y}B_{x})\hat{k}\\
-|\vec{A}\times\vec{B}|=AB\sin(\theta)\\
+\|\vec A\|,\|\vec B\|=\text{magnitude}\\
+\theta=\text{angle between vectors}\\
 A_{x},B_{x}=\text{x scalar component}\\
-\hat i=\text{x direction}\\
+\hat i=\text{x unit vector}\\
 A_{y},B_{y}=\text{y scalar component}\\
-\hat j=\text{y direction}\\
+\hat j=\text{y unit vector}\\
 A_{z},B_{z}=\text{z scalar component}\\
-\hat k=\text{z direction}\\
-A,B=\text{magnitude}\\
-\theta=\text{angle between vectors}
+\hat k=\text{z unit vector}
 \end{aligned}
 $$
 
@@ -264,9 +261,7 @@ $$
 \hat{i}\times\hat{j}=\hat{k}\\
 \hat{j}\times\hat{k}=\hat{i}\\
 \hat{k}\times\hat{i}=\hat{j}\\
-\hat i=\text{x direction}\\
-\hat j=\text{y direction}\\
-\hat k=\text{z direction}
+\hat i,\hat j,\hat k=\text{unit vector}
 \end{aligned}
 $$
 
@@ -282,9 +277,9 @@ $$
 $$
 \begin{aligned}
 \theta=90^{\circ}&\iff\|\vec A\times\vec B\|=AB\\
-\theta=0^{\circ}&\iff\|\vec A\times\vec B\|=0\\
-\theta=180^{\circ}&\iff\|\vec A\times\vec B\|=0\\
-\vec A=\vec B&\implies(\theta=0^{\circ})\land(\|\vec A\times\vec B\|=0)
+\theta=0^{\circ}&\implies\|\vec A\times\vec B\|=0\\
+\theta=180^{\circ}&\implies\|\vec A\times\vec B\|=0\\
+\vec A=\vec B&\iff\|\vec A\times\vec B\|=0
 \end{aligned}
 $$
 
