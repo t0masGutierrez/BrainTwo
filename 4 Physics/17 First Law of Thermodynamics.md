@@ -319,7 +319,7 @@ $$
 
 ---
 ### molar heat capacity ratio
-- ratio describing the thermodynamic behavior of gas
+- ratio describing the adiabatic response of gas
 ![400](4%20Physics/Images/molar%20heat%20capacity%20ratio.png)
 
 ---

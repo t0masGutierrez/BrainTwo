@@ -91,7 +91,7 @@ $$
 ### collision formula
 $$
 \begin{aligned}
-m_{1}\rightarrow\leftarrow m_{2}\implies\vec J\ne0\\
+m_{1}\rightarrow\leftarrow m_{2}\implies\vec J=0\\
 m=\text{mass}\\
 \vec J=\text{impulse}
 \end{aligned}
@@ -107,10 +107,10 @@ $$
 ### explosion formula
 $$
 \begin{aligned}
-v_{1f}=\frac{-m_{2}}{m_{1}}v_{2f}\\
-v_{2f}=\frac{-m_{1}}{m_{2}}v_{1f}\\
+\vec v_{1f}=\frac{-m_{2}}{m_{1}}\vec v_{2f}\\
+\vec v_{2f}=\frac{-m_{1}}{m_{2}}\vec v_{1f}\\
 m=\text{mass}\\
-v=\text{velocity}
+\vec v=\text{velocity}
 \end{aligned}
 $$
 
@@ -124,8 +124,8 @@ $$
 ### elastic collision formula
 $$
 \begin{aligned}
-v_{1f}=\frac{m_{1}-m_{2}}{m_{1}+m_{2}}v_{1i}+\frac{2m_{2}}{m_{1}+m_{2}}v_{2i}\\
-v_{2f}=\frac{2m_{1}}{m_{1}+m_{2}}v_{1i}+\frac{m_{2}-m_{1}}{m_{1}+m_{2}}v_{2i}\\
+\vec v_{1f}=\frac{m_{1}-m_{2}}{m_{1}+m_{2}}\vec v_{1i}+\frac{2m_{2}}{m_{1}+m_{2}}\vec v_{2i}\\
+\vec v_{2f}=\frac{2m_{1}}{m_{1}+m_{2}}\vec v_{1i}+\frac{m_{2}-m_{1}}{m_{1}+m_{2}}\vec v_{2i}\\
 m=\text{mass}\\
 v=\text{velocity}
 \end{aligned}
@@ -141,10 +141,9 @@ $$
 ### inelastic collision formula
 $$
 \begin{aligned}
-K_{i}>K_{f}\\
-\vec p_{i}=\vec p_{f}\\
-K=\text{kinetic energy}\\
-\vec p=\text{momentum}
+m_1\vec v_{1i}+m_2\vec v_{2i}=m_1\vec v_{1f}+m_2\vec v_{2f}\\
+m=\text{mass}\\
+\vec v=\text{velocity}
 \end{aligned}
 $$
 
@@ -158,9 +157,9 @@ $$
 ### complete inelastic collision formula
 $$
 \begin{aligned}
-v_{f}=\frac{m_{1}v_{1i}+m_{2}v_{2i}}{m_{1}+m_{2}}\\
+\vec v_{f}=\frac{m_{1}\vec v_{1i}+m_{2}\vec v_{2i}}{m_{1}+m_{2}}\\
 m=\text{mass}\\
-v=\text{velocity}
+\vec v=\text{velocity}
 \end{aligned}
 $$
 
@@ -174,7 +173,7 @@ $$
 ### center of mass formula
 $$
 \begin{aligned}
-\vec r_{\text{cm}}=\frac{\sum_{n}m_{n}\vec r_{n}}{M}\\
+\vec r_{\text{cm}}=\frac{\sum_{n}m_{n}\vec r_{n}}{\sum_{n}m_n}=\frac{1}{M}\sum_{n}m_{n}\vec r_{n}\\
 m=\text{mass}\\
 \vec r=\text{position}\\
 M=\text{system mass}
@@ -189,12 +188,11 @@ $$
 ### center of mass velocity formula
 $$
 \begin{aligned}
-\vec v_{\text{cm}}=\frac{\sum_{n}m_{n}\vec v_{n}}{M}\\
-\vec p=M\vec v_{\text{cm}}\\
+\vec v_{\text{cm}}=\frac{\sum_{n}m_{n}\vec v_{n}}{\sum_{n}m_n}=\frac{1}{M}\sum_n\vec p_n\\
 m=\text{mass}\\
 \vec v=\text{velocity}\\
-M=\text{system mass}\\
-\vec p=\text{momentum}
+\vec p=\text{momentum}\\
+M=\text{system mass}
 \end{aligned}
 $$
 
@@ -206,8 +204,7 @@ $$
 ### center of mass acceleration formula
 $$
 \begin{aligned}
-\vec a_{\text{cm}}=\frac{\sum_{n}m_{n}\vec a_{n}}{M}\\
-\vec F_{\text{net}}=M\vec a_{\text{cm}}\\
+\vec a_{\text{cm}}=\frac{\sum_{n}m_{n}\vec a_{n}}{\sum_{n}m_n}=\frac{1}{M}\sum_n\vec F_n\\
 m=\text{mass}\\
 \vec a=\text{acceleration}\\
 M=\text{system mass}\\

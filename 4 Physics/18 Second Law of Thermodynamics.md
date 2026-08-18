@@ -182,8 +182,7 @@ $$
 ### entropy formula
 $$
 \begin{aligned}
-S=k\ln(\Omega)\\
-\Delta S=\int\frac{dQ}{T}\\
+\Delta S=k\ln(\frac{\Omega_B}{\Omega_A})=\int_A^B\frac{dQ}{T}\\
 k=1.381\times10^{-23}\\
 \Omega=\text{number of microstates}\\
 Q=\text{heat}\\
