@@ -13,11 +13,11 @@ m=\text{mass}\\
 $$
 
 ---
-### newtons second momentum law
-- net external force equal rate of change of momentum
+### newtons second law of momentum
+- net force equal rate of change of momentum
 
 ---
-### newtons 2nd momentum formula
+### newtons second law of momentum formula
 $$
 \begin{aligned}
 \vec F_{\text{net}}=\frac{d\vec p}{dt}=
@@ -35,25 +35,14 @@ $$
 
 ---
 ### impulse
-- change of momentum equal sum of net external force over time
+- change of momentum equal sum of net force over time
 ![[4 Physics/Images/impulse.png|300]]
 
 ---
-### constant impulse formula
+### impulse formula
 $$
 \begin{aligned}
-\vec J=\Delta\vec p=\vec F_{\text{net}}\Delta t\\
-\vec p=\text{momentum}\\
-\vec F=\text{force}\\
-t=\text{time}
-\end{aligned}
-$$
-
----
-### variable impulse formula
-$$
-\begin{aligned}
-\vec J=d\vec p=\int\vec F_{\text{net}}\cdot dt\\
+\vec J=\Delta\vec p=\int\vec F_{\text{net}}\cdot dt\\
 \vec p=\text{momentum}\\
 \vec F=\text{force}\\
 t=\text{time}
@@ -82,13 +71,13 @@ $$
 
 ---
 ### conservation of momentum
-- if zero net external force then zero change of momentum
+- if zero net force then zero change of momentum
 
 ---
 ### conservation of momentum formula
 $$
 \begin{aligned}
-\vec F_{\text{net}}=0\implies\vec p_{i}=\vec p_{f}\\
+\vec F_{\text{net}}=0\implies\vec J=0\\
 \vec F=\text{force}\\
 \vec p=\text{momentum}
 \end{aligned}
@@ -102,9 +91,9 @@ $$
 ### collision formula
 $$
 \begin{aligned}
-m_{1}\rightarrow\leftarrow m_{2}\implies\vec p_{i}=\vec p_{f}\\
+m_{1}\rightarrow\leftarrow m_{2}\implies\vec J\ne0\\
 m=\text{mass}\\
-\vec p=\text{momentum}
+\vec J=\text{impulse}
 \end{aligned}
 $$
 
