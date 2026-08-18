@@ -7,9 +7,10 @@
 ### rigid body formula
 $$
 \begin{aligned}
-\forall i,j\in\set{1,\dots,n}:|\vec r_{i}-\vec r_{j}|=0\\
+\forall i,j:|\vec r_{i}-\vec r_{j}|=C\\
 i,j=\text{index}\\
-\vec r=\text{position}
+\vec r=\text{position}\\
+C=\text{constant}
 \end{aligned}
 $$
 
@@ -111,9 +112,9 @@ $$
 ### tangential position formula
 $$
 \begin{aligned}
-\vec s=\vec r\times\vec\theta\\
-\vec r=\text{radius}\\
-\vec\theta=\text{angular position}
+\vec s=\vec\theta\times\vec r\\
+\vec\theta=\text{angular position}\\
+\vec r=\text{radius}
 \end{aligned}
 $$
 
@@ -126,59 +127,30 @@ $$
 ### tangential velocity formula
 $$
 \begin{aligned}
-\vec v_{\text{tan}}=\vec r\times\vec\omega\\
-\vec r=\text{radius}\\
-\vec\omega=\text{angular velocity}
+\vec v_{\text{tan}}=\vec\omega\times\vec r\\
+\vec\omega=\text{angular velocity}\\
+\vec r=\text{radius}
 \end{aligned}
 $$
 
 ---
 ### tangential acceleration
 - rate of change of velocity along circular path as change of time approaches zero
+![[4 Physics/Images/tangential acceleration.png|250]]
 
 ---
 ### tangential acceleration formula
 $$
 \begin{aligned}
-\vec a_{\text{tan}}=\vec r\times\vec\alpha\\
-\vec r=\text{radius}\\
-\vec\alpha=\text{angular acceleration}
-\end{aligned}
-$$
-
----
-### radial acceleration
-- acceleration vector perpendicular circular path equal change of direction
-
----
-### radial acceleration formula
-$$
-\begin{aligned}
-\vec a_{\text{rad}}=\vec r\times\vec\omega^{2}=\frac{\vec v_{\text{tan}}^{2}}{\vec r}\\
-\vec r=\text{radius}\\
-\vec\omega=\text{angular velocity}\\
-\vec v=\text{velocity}
-\end{aligned}
-$$
-
----
-### total acceleration
-- tangential acceleration and radial acceleration
-![[4 Physics/Images/total acceleration.png|250]]
-
----
-### total acceleration formula
-$$
-\begin{aligned}
-a=\sqrt{a_{\text{tan}}^{2}+a_{\text{rad}}^{2}}\\
-a_{\text{tan}}=\text{tangential acceleration}\\
-a_{\text{rad}}=\text{radial acceleration}
+\vec a_{\text{tan}}=\vec\alpha\times\vec r\\
+\vec\alpha=\text{angular acceleration}\\
+\vec r=\text{radius}
 \end{aligned}
 $$
 
 ---
 ### angular kinematics
-- rotational motion under constant angular acceleration
+- describe angular motion without explaining the cause of angular motion
 
 ---
 ### angular kinematics formula
@@ -199,7 +171,7 @@ $$
 ### inertia formula
 $$
 \begin{aligned}
-I_{\text{tan}}=m\\
+I\propto m\\
 m=\text{mass}
 \end{aligned}
 $$
@@ -210,22 +182,12 @@ $$
 ![[4 Physics/Images/moment of inertia.png|300]]
 
 ---
-### constant moment of inertia formula
+### moment of inertia formula
 $$
 \begin{aligned}
-I=\sum_{n}m_{n}r_{n}^{2}\\
+I=\sum_{n}m_{n}r_{n}^{2}=\int r^{2}dm=\int r^{2}\rho dV\\
 m=\text{mass}\\
-r=\text{radius}
-\end{aligned}
-$$
-
----
-### variable moment of inertia formula
-$$
-\begin{aligned}
-I=\int r^{2}dm=\int r^{2}\rho dV\\
 r=\text{radius}\\
-m=\text{mass}\\
 \rho=\text{density}\\
 V=\text{volume}
 \end{aligned}
@@ -241,7 +203,7 @@ $$
 - center solid cylinder
 - center thin hollow cylinder
 - center solid sphere
-- center thin hollow sphere
+- center hollow sphere
 ![[4 Physics/Images/axis of rotation.png|600]]
 
 ---
@@ -269,16 +231,16 @@ $$
 ### parallel axis formula
 $$
 \begin{aligned}
-I_{p}=I_{\text{cm}}+Md^{2}\\
+I_{p}=I_{\text{cm}}+Mr^{2}\\
 I=\text{moment of inertia}\\
 M=\text{system mass}\\
-d=\text{distance}
+r=\text{distance}
 \end{aligned}
 $$
 
 ---
 ### translational kinetic energy
-- kinetic energy of object undergoing translational motion dependent mass and velocity
+- energy of translational motion
 ![[4 Physics/Images/translational kinetic energy.png]]
 
 ---
@@ -293,7 +255,7 @@ $$
 
 ---
 ### rotational kinetic energy
-- kinetic energy of object undergoing rotational motion dependent moment of inertia and angular velocity
+- energy of rotational motion
 ![[4 Physics/Images/rotational kinetic energy.png]]
 
 ---
