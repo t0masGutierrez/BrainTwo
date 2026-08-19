@@ -9,7 +9,7 @@ $$
 \vec\tau=\vec r\times\vec F=rF\sin(\phi)\\
 \vec r=\text{radius}\\
 \vec F=\text{force}\\
-\phi=\text{angle between vectors}
+\phi=\text{direction}
 \end{aligned}
 $$
 
@@ -56,19 +56,17 @@ $$
 \begin{aligned}
 \hat F=z\implies\tau=0\\
 \circlearrowleft\implies\tau>0\\
-\circlearrowright\implies\tau<0\\
-F=\text{force}\\
-\tau=\text{torque}
+\circlearrowright\implies\tau<0
 \end{aligned}
 $$
 
 ---
-### newtons second rotational law
-- angular acceleration dependent moment of inertia and net external torque acting on moment of inertia
+### newtons second law of rotation
+- angular acceleration dependent moment of inertia and net torque acting on moment of inertia
 ![[4 Physics/Images/newtons second law.png]]
 
 ---
-### newton 2nd rotational formula
+### newtons second law of rotation formula
 $$
 \begin{aligned}
 \vec\tau_{\text{net}}=I\vec\alpha\\
@@ -83,37 +81,12 @@ $$
 ![[4 Physics/Images/rotational work.png|200]]
 
 ---
-### constant rotational work formula
-$$
-\begin{aligned}
-W=\vec\tau\cdot\Delta\vec\theta=\tau\Delta\theta\cos(\phi)\\
-\tau=\text{torque}\\
-\theta=\text{angular position}\\
-\phi=\text{angle between vectors}
-\end{aligned}
-$$
-
----
-### variable rotational work formula
+### rotational work formula
 $$
 \begin{aligned}
 W=\int\vec\tau\cdot d\vec\theta\\
 \vec\tau=\text{torque}\\
 \vec\theta=\text{angular position}
-\end{aligned}
-$$
-
----
-### net rotational work
-- rotational work done by net external torque equal change of rotational kinetic energy
-
----
-### net rotational work formula
-$$
-\begin{aligned}
-W_{\text{net}}=\frac{1}{2}I(\omega_{f}^{2}-\omega_{i}^{2})\\
-I=\text{moment of inertia}\\
-\omega=\text{angular velocity}
 \end{aligned}
 $$
 
@@ -125,10 +98,11 @@ $$
 ### rotational power formula
 $$
 \begin{aligned}
-P=\vec\tau\cdot\vec\omega=\tau\omega\cos(\phi)\\
+P=\vec\tau\cdot\vec\omega=(\|\vec\tau\|)(\|\vec\omega\|)\cos(\phi)\\
 \vec\tau=\text{torque}\\
 \vec\omega=\text{angular velocity}\\
-\phi=\text{angle between vectors}
+\|\vec\tau\|,\|\vec\omega\|=\text{magnitude}\\
+\phi=\text{direction}
 \end{aligned}
 $$
 
@@ -159,10 +133,10 @@ $$
 ### rolling without slipping formula
 $$
 \begin{aligned}
-d_{\text{cm}}=r\theta\\
-v_{\text{cm}}=r\omega\\
-a_{\text{cm}}=r\alpha\\
-r=\text{radius}\\
+x_{\text{cm}}=-R\theta\\
+v_{\text{cm}}=-R\omega\\
+a_{\text{cm}}=-R\alpha\\
+R=\text{radius}\\
 \theta=\text{angular position}\\
 \omega=\text{angular velocity}\\
 \alpha=\text{angular acceleration}
@@ -178,11 +152,11 @@ $$
 ### rolling with slipping formula
 $$
 \begin{aligned}
-d=d_{\text{cm}}-r\theta\\
-v=v_{\text{cm}}-r\omega\\
-a=a_{\text{cm}}-r\alpha\\
-d=\text{distance}\\
-r=\text{radius}\\
+x=x_{\text{cm}}-R\theta\\
+v=v_{\text{cm}}-R\omega\\
+a=a_{\text{cm}}-R\alpha\\
+x=\text{position}\\
+R=\text{radius}\\
 \theta=\text{angular position}\\
 v=\text{velocity}\\
 \omega=\text{angular velocity}\\

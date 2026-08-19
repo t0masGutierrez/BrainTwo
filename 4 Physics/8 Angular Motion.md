@@ -23,9 +23,9 @@ $$
 ### angular position formula
 $$
 \begin{aligned}
-\vec\theta=\frac{s}{r}\\
+\vec\theta=\frac{s}{\vec r}\\
 s=\text{arc length}\\
-r=\text{radius}
+\vec r=\text{position}
 \end{aligned}
 $$
 
@@ -114,7 +114,7 @@ $$
 \begin{aligned}
 \vec s=\vec\theta\times\vec r\\
 \vec\theta=\text{angular position}\\
-\vec r=\text{radius}
+\vec r=\text{position}
 \end{aligned}
 $$
 
@@ -127,9 +127,9 @@ $$
 ### tangential velocity formula
 $$
 \begin{aligned}
-\vec v_{\text{tan}}=\vec\omega\times\vec r\\
+\vec v_{\text{tan}}=\vec\omega\times\vec R\\
 \vec\omega=\text{angular velocity}\\
-\vec r=\text{radius}
+\vec R=\text{radius}
 \end{aligned}
 $$
 
@@ -142,9 +142,9 @@ $$
 ### tangential acceleration formula
 $$
 \begin{aligned}
-\vec a_{\text{tan}}=\vec\alpha\times\vec r\\
+\vec a_{\text{tan}}=\vec\alpha\times\vec R\\
 \vec\alpha=\text{angular acceleration}\\
-\vec r=\text{radius}
+\vec R=\text{radius}
 \end{aligned}
 $$
 
