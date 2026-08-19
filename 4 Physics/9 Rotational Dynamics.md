@@ -253,7 +253,7 @@ $$
 \begin{aligned}
 \Omega=\frac{mgr}{I\omega}\\
 m=\text{mass}\\
-g=9.8\\
+g=\text{gravity}\\
 r=\text{distance}\\
 I=\text{moment of inertia}\\
 \omega=\text{angular velocity}

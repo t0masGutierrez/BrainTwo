@@ -104,8 +104,7 @@ $$
 ### hydrostatic pressure formula
 $$
 \begin{aligned}
-p-p_{0}=\rho gy\\
-p_{2}-p_{1}=-\rho g(y_{2}-y_{1})\\
+\Delta p=-\rho g\Delta y\\
 p=\text{pressure}\\
 \rho=\text{density}\\
 g=\text{gravity}\\
@@ -180,7 +179,7 @@ $$
 $$
 \begin{aligned}
 \vec F_{b}=\vec w_{f}\\
-\vec w=\text{weight}
+\vec w_f=\text{fluid weight}
 \end{aligned}
 $$
 
@@ -263,7 +262,7 @@ $$
 
 ---
 ### surface tension
-- reducing surface area reduces the number of high-energy surface molecules
+- reducing surface area reduces number of high-energy surface molecules
 - minimizing surface area minimizes potential energy
 ![[4 Physics/Images/surface tension.png|200]]
 
@@ -271,11 +270,11 @@ $$
 ### surface tension formula
 $$
 \begin{aligned}
-\gamma=\frac{F_{\parallel}}{L}=\frac{\Delta E}{\Delta A}\\
+\gamma=\frac{F}{L}=\frac{\Delta E}{\Delta A}\\
 F=\text{force}\\
 L=\text{length}\\
 E=\text{mechanical energy}\\
-A=\text{surface area}
+A=\text{area}
 \end{aligned}
 $$
 
@@ -362,7 +361,7 @@ $$
 
 ---
 ### continuity
-- for incompressible fluid there exists inverse relationship between velocity and area
+- for steady flow of incompressible fluid there exists inverse relationship between velocity and area
 ![[4 Physics/Images/continuity.png|400]]
 
 ---
@@ -377,7 +376,7 @@ $$
 
 ---
 ### bernoulli principle
-- for ideal fluid there exists inverse relationship between pressure and velocity
+- for steady flow of ideal fluid there exists inverse relationship between pressure and velocity
 ![[4 Physics/Images/bernoulli principle.png|200]]
 
 ---
