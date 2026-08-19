@@ -51,8 +51,8 @@ $$
 
 ---
 ### impulse versus work
-- net external force dependent time equal impulse
-- net external force dependent position equal work
+- net force dependent time equal impulse
+- net force dependent position equal work
 
 ---
 ### impulse versus work formula
@@ -198,7 +198,7 @@ $$
 
 ---
 ### center of mass acceleration
-- center of mass acceleration dependent mass and net external force acting on mass
+- center of mass acceleration dependent mass and net force acting on mass
 
 ---
 ### center of mass acceleration formula

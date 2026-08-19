@@ -23,9 +23,9 @@ $$
 ### angular position formula
 $$
 \begin{aligned}
-\vec\theta=\frac{s}{\vec r}\\
+\theta=\frac{s}{r}\\
 s=\text{arc length}\\
-\vec r=\text{position}
+r=\text{distance}
 \end{aligned}
 $$
 
@@ -38,7 +38,7 @@ $$
 ### angular displacement formula
 $$
 \begin{aligned}
-\Delta\vec\theta=\vec\theta-\vec\theta_{0}\\
+\Delta\theta=\theta-\theta_{0}\\
 \theta=\text{angular position}
 \end{aligned}
 $$
@@ -52,8 +52,8 @@ $$
 ### average angular velocity formula
 $$
 \begin{aligned}
-\vec\omega_{\text{avg}}=\frac{\Delta\vec\theta}{\Delta t}\\
-\vec\theta=\text{angular position}\\
+\omega_{\text{avg}}=\frac{\Delta\theta}{\Delta t}\\
+\theta=\text{angular position}\\
 t=\text{time}
 \end{aligned}
 $$
@@ -67,8 +67,8 @@ $$
 ### instantaneous angular velocity formula
 $$
 \begin{aligned}
-\vec\omega=\frac{d\vec\theta}{dt}\\
-\vec\theta=\text{angular position}\\
+\omega=\frac{d\theta}{dt}\\
+\theta=\text{angular position}\\
 t=\text{time}
 \end{aligned}
 $$
@@ -82,8 +82,8 @@ $$
 ### average angular acceleration formula
 $$
 \begin{aligned}
-\vec\alpha_{\text{avg}}=\frac{\Delta\vec\omega}{\Delta t}\\
-\vec\omega=\text{angular velocity}\\
+\alpha_{\text{avg}}=\frac{\Delta\omega}{\Delta t}\\
+\omega=\text{angular velocity}\\
 t=\text{time}
 \end{aligned}
 $$
@@ -97,39 +97,40 @@ $$
 ### instantaneous angular acceleration formula
 $$
 \begin{aligned}
-\vec\alpha=\frac{d\vec\omega}{dt}=\frac{d^{2}\vec\theta}{dt^{2}}\\
-\vec\omega=\text{angular velocity}\\
+\alpha=\frac{d\omega}{dt}=\frac{d^{2}\theta}{dt^{2}}\\
+\omega=\text{angular velocity}\\
 t=\text{time}\\
-\vec\theta=\text{angular position}
+\theta=\text{angular position}
 \end{aligned}
 $$
 
 ---
-### tangential position
-- position along circular path as function of time
+### angular kinematics
+- describe angular motion without explaining the cause of angular motion
 
 ---
-### tangential position formula
+### angular kinematics formula
 $$
 \begin{aligned}
-\vec s=\vec\theta\times\vec r\\
-\vec\theta=\text{angular position}\\
-\vec r=\text{position}
+\omega=\omega_{0}+\alpha t\\
+\theta=\theta_{0}+\omega_{0}t+\frac{1}{2}\alpha t^{2}\\
+\theta-\theta_{0}=\frac{1}{2}(\omega+\omega_{0})t\\
+\omega^{2}=\omega_{0}^{2}+2\alpha(\theta-\theta_{0})
 \end{aligned}
 $$
 
 ---
-### tangential velocity
+### linear velocity
 - rate of change of position along circular path as change of time approaches zero
 ![[4 Physics/Images/tangential velocity.png|250]]
 
 ---
-### tangential velocity formula
+### linear velocity formula
 $$
 \begin{aligned}
-\vec v_{\text{tan}}=\vec\omega\times\vec R\\
-\vec\omega=\text{angular velocity}\\
-\vec R=\text{radius}
+v=r\omega\\
+r=\text{distance}\\
+\omega=\text{angular velocity}
 \end{aligned}
 $$
 
@@ -142,24 +143,24 @@ $$
 ### tangential acceleration formula
 $$
 \begin{aligned}
-\vec a_{\text{tan}}=\vec\alpha\times\vec R\\
-\vec\alpha=\text{angular acceleration}\\
-\vec R=\text{radius}
+a_{\text{tan}}=r\alpha\\
+r=\text{distance}\\
+\alpha=\text{angular acceleration}
 \end{aligned}
 $$
 
 ---
-### angular kinematics
-- describe angular motion without explaining the cause of angular motion
+### radial acceleration
+- rate of change of velocity perpendicular circular path as change of time approaches zero
 
 ---
-### angular kinematics formula
+### radial acceleration formula
 $$
 \begin{aligned}
-\omega_{z}=\omega_{0z}+\alpha_{z}t\\
-\theta=\theta_{0}+\omega_{0z}t+\frac{1}{2}\alpha_{z}t^{2}\\
-\theta-\theta_{0}=\frac{1}{2}(\omega_{z}+\omega_{0z})t\\
-\omega_{z}^{2}=\omega_{0z}^{2}+2\alpha_{z}(\theta-\theta_{0})
+a_{\text{rad}}=\frac{v^2}{r}=r\omega^2\\
+v=\text{velocity}\\
+r=\text{distance}\\
+\omega=\text{angular velocity}
 \end{aligned}
 $$
 
@@ -185,9 +186,10 @@ $$
 ### moment of inertia formula
 $$
 \begin{aligned}
-I=\sum_{n}m_{n}r_{n}^{2}=\int r^{2}dm=\int r^{2}\rho dV\\
+I=\sum_{n}m_{n}r_{n}^{2}\\
+I=\int r^{2}dm=\int r^{2}\rho dV\\
 m=\text{mass}\\
-r=\text{radius}\\
+r=\text{distance}\\
 \rho=\text{density}\\
 V=\text{volume}
 \end{aligned}

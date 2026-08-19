@@ -6,9 +6,10 @@
 ### torque formula
 $$
 \begin{aligned}
-\vec\tau=\vec r\times\vec F=rF\sin(\phi)\\
-\vec r=\text{radius}\\
+\vec\tau=\vec r\times\vec F=(\|\vec r\|)(\|\vec F\|)\sin(\phi)\\
+\vec r=\text{position}\\
 \vec F=\text{force}\\
+(\|\vec r\|),(\|\vec F\|)=\text{magnitude}\\
 \phi=\text{direction}
 \end{aligned}
 $$
@@ -23,7 +24,7 @@ $$
 $$
 \begin{aligned}
 \tau=rF_{\perp}\\
-r=\text{radius}\\
+r=\text{distance}\\
 F_{\perp}=\text{perpendicular force}
 \end{aligned}
 $$
@@ -38,7 +39,7 @@ $$
 $$
 \begin{aligned}
 \tau=r_{\perp}F\\
-r=\text{perpendicular radius}\\
+r=\text{perpendicular distance}\\
 F=\text{force}
 \end{aligned}
 $$
@@ -48,7 +49,7 @@ $$
 - if line of action equal axis of rotation then zero torque
 - counterclockwise rotation equal positive torque
 - clockwise rotation equal negative torque
-![[4 Physics/Images/torque direction property.png|400]]
+![[4 Physics/Images/torque direction property.png|300]]
 
 ---
 ### torque direction property formula
@@ -126,8 +127,8 @@ $$
 ---
 ### rolling without slipping
 - stationary point of contact between rolling object and surface
-- torque equal static friction
-![[4 Physics/Images/rolling without slipping.png|500]]
+- static friction force
+![[4 Physics/Images/rolling without slipping.png|400]]
 
 ---
 ### rolling without slipping formula
@@ -146,15 +147,15 @@ $$
 ---
 ### rolling with slipping
 - moving point of contact between rolling object and surface
-- torque equal kinetic friction
+- kinetic friction force
 
 ---
 ### rolling with slipping formula
 $$
 \begin{aligned}
-x=x_{\text{cm}}-R\theta\\
-v=v_{\text{cm}}-R\omega\\
-a=a_{\text{cm}}-R\alpha\\
+x=x_{\text{cm}}+R\theta\\
+v=v_{\text{cm}}+R\omega\\
+a=a_{\text{cm}}+R\alpha\\
 x=\text{position}\\
 R=\text{radius}\\
 \theta=\text{angular position}\\
@@ -175,7 +176,7 @@ $$
 $$
 \begin{aligned}
 \vec L=\vec r\times\vec p=I\vec\omega\\
-\vec r=\text{radius}\\
+\vec r=\text{position}\\
 \vec p=\text{momentum}\\
 I=\text{moment of inertia}\\
 \vec\omega=\text{angular velocity}
@@ -185,7 +186,7 @@ $$
 ---
 ### angular momentum direction property
 - direction of angular velocity equal direction of angular momentum
-![[4 Physics/Images/angular momentum direction property.png|300]]
+![[4 Physics/Images/angular momentum direction property.png|200]]
 
 ---
 ### angular momentum direction property formula
@@ -198,11 +199,11 @@ L=\text{angular momentum}
 $$
 
 ---
-### newtons second angular momentum law
-- net external torque equal rate of change of angular momentum
+### newtons second law of angular momentum
+- net torque equal rate of change of angular momentum
 
 ---
-### newtons second angular momentum formula
+### newtons second law of angular momentum formula
 $$
 \begin{aligned}
 \vec\tau_{\text{net}}=\frac{d\vec L}{dt}\\
@@ -213,22 +214,11 @@ $$
 
 ---
 ### angular impulse
-- change of angular momentum equal sum of net external torque over time
-![[4 Physics/Images/impulse.png]]
+- change of angular momentum equal sum of net torque over time
+![[4 Physics/Images/impulse.png|300]]
 
 ---
-### constant angular impulse formula
-$$
-\begin{aligned}
-\vec H=\Delta\vec L=\vec\tau_{\text{net}}\Delta t\\
-\vec L=\text{angular momentum}\\
-\vec\tau=\text{torque}\\
-t=\text{time}
-\end{aligned}
-$$
-
----
-### variable angular impulse formula
+### angular impulse formula
 $$
 \begin{aligned}
 \vec H=\Delta\vec L=\int\vec\tau_{\text{net}}\cdot dt\\
@@ -240,15 +230,15 @@ $$
 
 ---
 ### conservation of angular momentum
-- if zero net external torque then zero change of angular momentum
+- if zero net torque then zero change of angular momentum
 
 ---
 ### conservation of angular momentum formula
 $$
 \begin{aligned}
-\vec\tau_{\text{net}}=0\implies\vec L_{i}=\vec L_{f}\\
+\vec\tau_{\text{net}}=0\implies\vec H=0\\
 \vec\tau=\text{torque}\\
-\vec L=\text{angular momentum}
+\vec H=\text{angular impulse}
 \end{aligned}
 $$
 
@@ -261,9 +251,10 @@ $$
 ### precession formula
 $$
 \begin{aligned}
-\Omega=\frac{wr}{I\omega}\\
-w=\text{weight}\\
-r=\text{radius}\\
+\Omega=\frac{mgr}{I\omega}\\
+m=\text{mass}\\
+g=9.8\\
+r=\text{distance}\\
 I=\text{moment of inertia}\\
 \omega=\text{angular velocity}
 \end{aligned}
@@ -298,7 +289,7 @@ $$
 
 ---
 ### translational equilibrium
-- zero net external force
+- zero net force
 
 ---
 ### translational equilibrium formula
@@ -311,7 +302,7 @@ $$
 
 ---
 ### rotational equilibrium
-- zero net external torque
+- zero net torque
 
 ---
 ### rotational equilibrium formula
@@ -331,20 +322,20 @@ $$
 ### center of gravity formula
 $$
 \begin{aligned}
-\vec r_{\text{cg}}=\frac{\sum_{n}m_{n}\vec r_{n}}{M}\\
+\vec r_{\text{cg}}=\frac{1}{M}\sum_{n}m_{n}\vec r_{n}\\
+M=\text{system mass}\\
 m=\text{mass}\\
-\vec r=\text{position}\\
-M=\text{system mass}
+\vec r=\text{position}
 \end{aligned}
 $$
 
 ---
-### center of uniform gravity
+### center of mass
 - if uniform gravitational field then center of gravity equal center of mass
-![[4 Physics/Images/center of gravity uniform property.png|200]]
+![[4 Physics/Images/uniform center of gravity.png|200]]
 
 ---
-### center of uniform gravity formula
+### center of mass formula
 $$
 \begin{aligned}
 \vec g(\vec r)=\vec g_{0}\implies\vec r_{\text{cg}}=\vec r_{\text{cm}}\\
