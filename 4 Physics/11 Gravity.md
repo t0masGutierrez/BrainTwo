@@ -22,13 +22,14 @@ $$
 ### newtons law of gravitation formula
 $$
 \begin{aligned}
-r>R\implies\vec F_{g}=-G\frac{m_{1}m_{2}}{r^{2}}\hat r\\
-r\le R\implies\vec F_{g}=0\\
+r>R\implies\vec F_{g}=-G\frac{Mm}{r^{2}}\hat r\\
+r\le R\implies\vec F_{g}=-G\frac{Mm}{R^{3}}\vec r\\
 r=\text{distance}\\
 R=\text{radius}\\
 \vec F=\text{force}\\
 G=6.674\times10^{-11}\\
-m=\text{mass}\\
+M=\text{source mass}\\
+m=\text{test mass}\\
 \hat r=\text{direction}
 \end{aligned}
 $$
@@ -68,7 +69,7 @@ R=\text{radius}\\
 U=\text{potential energy}\\
 G=6.674\times10^{-11}\\
 M=\text{source mass}\\
-m=\text{mass}
+m=\text{test mass}
 \end{aligned}
 $$
 
@@ -189,11 +190,12 @@ $$
 ### keplers 3rd law formula
 $$
 \begin{aligned}
-T^{2}=\frac{4\pi^{2}a^{3}}{GM}\\
+T^{2}=\frac{4\pi^{2}a^{3}}{G(M+m)}\\
 T=\text{period}\\
 a=\text{semi-major axis}\\
 G=6.674\times10^{-11}\\
-M=\text{source mass}
+M=\text{source mass}\\
+m=\text{test mass}
 \end{aligned}
 $$
 
@@ -206,10 +208,10 @@ $$
 ### black hole formula
 $$
 \begin{aligned}
-v_{E}\ge c\implies R_{S}=G\frac{2M}{c^{2}}\\
+v_{E}\ge c\implies R_{S}=\frac{2GM}{c^{2}}\\
 v_{E}=\text{escape velocity}\\
 c=3.0\times10^{8}\\
-R_{S}=\text{schwarzschild radius}\\
+R=\text{radius}\\
 G=6.674\times10^{-11}\\
 M=\text{source mass}
 \end{aligned}

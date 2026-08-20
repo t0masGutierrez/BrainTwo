@@ -55,14 +55,14 @@ $$
 
 ---
 ### hookes law
-- restoring force by spring on object directly proportional displacement and directly opposite displacement
+- restoring force by spring on object directly proportional opposite displacement
 ![250](4%20Physics/Images/hookes%20law.png)
 
 ---
 ### hookes law formula
 $$
 \begin{aligned}
-F_{x}=-kx=ma_{x}=-m\omega^{2}x\\
+F=-kx=ma=-m\omega^{2}x\\
 k=\text{spring constant}\\
 x=\text{position}\\
 m=\text{mass}\\
@@ -102,7 +102,7 @@ $$
 ### amplitude formula
 $$
 \begin{aligned}
-A=\max|x|=\sqrt{x_{0}^{2}+\frac{v_{0}^{2}}{\omega_{0}^{2}}}\\
+A=\max|x|=\sqrt{x_{0}^{2}+\frac{v_{0}^{2}}{\omega^{2}}}\\
 x=\text{position}\\
 v=\text{velocity}\\
 \omega=\text{angular frequency}
@@ -111,14 +111,14 @@ $$
 
 ---
 ### phase angle
-- initial position of periodic motion
+- initial state of periodic motion
 ![300](4%20Physics/Images/phase%20angle1.png)
 
 ---
 ### phase angle formula
 $$
 \begin{aligned}
-\phi=\arctan(\frac{-v_{0}}{\omega^{2}x_{0}})\\
+\phi=\arctan(\frac{-v_{0}}{\omega x_{0}})\\
 v=\text{velocity}\\
 \omega=\text{angular frequency}\\
 x=\text{position}
@@ -233,7 +233,9 @@ $$
 ### simple pendulum formula
 $$
 \begin{aligned}
-T=2\pi\sqrt{\frac{L}{g}}\\
+\sin(\theta)\approx\theta\implies T=2\pi\sqrt{\frac{L}{g}}\\
+\theta=\text{angular position}\\
+T=\text{period}\\
 L=\text{length}\\
 g=\text{gravity}
 \end{aligned}
@@ -248,7 +250,9 @@ $$
 ### physical pendulum formula
 $$
 \begin{aligned}
-T=2\pi\sqrt{\frac{I}{mgL}}\\
+\sin(\theta)\approx\theta\implies T=2\pi\sqrt{\frac{I}{mgL}}\\
+\theta=\text{angular position}\\
+T=\text{period}\\
 I=\text{moment of inertia}\\
 m=\text{mass}\\
 g=\text{gravity}\\
@@ -284,7 +288,7 @@ $$
 $$
 \begin{aligned}
 b^{2}<4mk\implies x(t)=A_{0}\exp(\frac{-b}{2m}t)\cos(\omega t+\phi)\\
-\omega=\sqrt{(\frac{k}{m})-(\frac{b}{2m})^{2}}\\
+\omega=\sqrt{(\sqrt\frac{k}{m})^2-(\frac{b}{2m})^2}\\
 b=\text{damping coefficient}\\
 m=\text{mass}\\
 k=\text{spring constant}\\
@@ -304,7 +308,7 @@ $$
 ### critically damped oscillation formula
 $$
 \begin{aligned}
-b^{2}=4mk\implies x(t)=(C_{1}+C_{2})\exp(\frac{-b}{2m}t)\\
+b^{2}=4mk\implies x(t)=(C_{1}+C_{2}t)\exp(\frac{-b}{2m}t)\\
 b=\text{damping coefficient}\\
 m=\text{mass}\\
 k=\text{spring constant}\\
@@ -322,7 +326,7 @@ $$
 ### over damped oscillation
 $$
 \begin{aligned}
-b^{2}<4mk\implies x(t)=C_{1}\exp(r_{1}t)+C_{2}\exp(r_{2}t)\\
+b^{2}>4mk\implies x(t)=C_{1}\exp(r_{1}t)+C_{2}\exp(r_{2}t)\\
 r=\frac{-b\pm\sqrt{b^{2}-4mk}}{2m}\\
 b=\text{damping coefficient}\\
 m=\text{mass}\\
@@ -336,7 +340,7 @@ $$
 
 ---
 ### driven oscillation
-- increasing amplitude of periodic motion because of driving force
+- periodic motion because of driving force
 ![250](4%20Physics/Images/driven%20oscillation.png)
 
 ---
@@ -359,7 +363,7 @@ $$
 
 ---
 ### driving frequency
-- number of oscillations per time via continuous force
+- number of oscillations per time via driving force
 
 ---
 ### natural frequency
