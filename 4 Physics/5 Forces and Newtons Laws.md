@@ -61,7 +61,7 @@ $$
 ---
 ### friction force
 - resistive force by surface on object
-- static friction acts on stationary objects
+- static friction acts on nonsliding objects
 - kinetic friction acts on sliding objects
 ![[4 Physics/Images/friction force.png|300]]
 
@@ -184,7 +184,7 @@ $$
 ### fictitious force
 - apparent force caused by accelerating reference frame
 - or force without physical origin
-- aka intertial force
+- aka inertial force
 
 ---
 ### fictitious force example
@@ -209,7 +209,7 @@ $$
 ### gravitational interaction formula
 $$
 \begin{aligned}
-\vec F_{g}=G\frac{m_{1}m_{2}}{r^{2}}\hat r\\
+\vec F_{g}=-G\frac{m_{1}m_{2}}{r^{2}}\hat r\\
 G=6.67\times10^{-11}\\
 m=\text{mass}\\
 r=\text{distance}\\

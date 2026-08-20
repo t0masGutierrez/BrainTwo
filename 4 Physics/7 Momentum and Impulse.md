@@ -91,7 +91,7 @@ $$
 ### collision formula
 $$
 \begin{aligned}
-m_{1}\rightarrow\leftarrow m_{2}\implies\vec J=0\\
+m_{1}\rightarrow\leftarrow m_{2}\implies\vec J\ne0\\
 m=\text{mass}\\
 \vec J=\text{impulse}
 \end{aligned}

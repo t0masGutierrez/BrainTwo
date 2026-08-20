@@ -44,8 +44,6 @@ $$
 ---
 ### kinetic energy
 - energy of motion
-- or the amount of work the object can do while speeding up
-- or the amount of work the object can do while slowing down
 ![[4 Physics/Images/kinetic energy.png|300]]
 
 ---
@@ -191,7 +189,7 @@ $$
 ### conservation of energy formula
 $$
 \begin{aligned}
-W_{\text{cons}}=-\Delta U\implies\Delta E=0\\
+W_{\text{noncons}}=0\implies\Delta E=0\\
 W=\text{work}\\
 U=\text{potential energy}\\
 E=\text{mechanical energy}

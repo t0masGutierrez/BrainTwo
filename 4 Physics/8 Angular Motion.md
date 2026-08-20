@@ -187,7 +187,7 @@ $$
 $$
 \begin{aligned}
 I=\sum_{n}m_{n}r_{n}^{2}\\
-I=\int r^{2}dm=\int r^{2}\rho dV\\
+I=\int r^{2}\cdot dm=\int r^{2}\rho\cdot dV\\
 m=\text{mass}\\
 r=\text{distance}\\
 \rho=\text{density}\\

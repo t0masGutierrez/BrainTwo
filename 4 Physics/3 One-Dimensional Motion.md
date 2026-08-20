@@ -132,17 +132,16 @@ $$
 ### delta speed property
 - if direction of velocity equal direction of acceleration then increasing speed
 - if direction of velocity not equal direction of acceleration then decreasing speed
-![[4 Physics/Images/changing speed.png|300]]
+![[4 Physics/Images/delta speed property.png|300]]
 
 ---
 ### delta speed property formula
 $$
 \begin{aligned}
-\hat v=\hat a\implies\frac{ds}{dt}>0\\
-\hat v\ne\hat a\implies\frac{ds}{dt}<0\\
+\hat v=\hat a\implies\frac{dv}{dt}>0\\
+\hat v=-\hat a\implies\frac{dv}{dt}<0\\
 v=\text{velocity}\\
-a=\text{acceleration}\\
-s=\text{speed}
+a=\text{acceleration}
 \end{aligned}
 $$
 
@@ -160,7 +159,8 @@ $$
 
 ---
 ### first law of motion
-- relate velocity, initial velocity, constant acceleration, and time
+- relate velocity, initial velocity, acceleration, and time
+- constant acceleration
 
 ---
 ### first law of motion formula
@@ -175,7 +175,8 @@ $$
 
 ---
 ### second law of motion
-- relate position, initial position, initial velocity, constant acceleration, and time
+- relate position, initial position, initial velocity, acceleration, and time
+- constant acceleration
 
 ---
 ### second law of motion formula
@@ -192,6 +193,7 @@ $$
 ---
 ### third law of motion
 - relate position, initial position, velocity, initial velocity, and time
+- constant acceleration
 
 ---
 ### third law of motion formula
@@ -206,7 +208,8 @@ $$
 
 ---
 ### fourth law of motion
-- relate velocity, initial velocity, constant acceleration, position, and initial position
+- relate velocity, initial velocity, acceleration, position, and initial position
+- constant acceleration
 
 ---
 ### fourth law of motion formula

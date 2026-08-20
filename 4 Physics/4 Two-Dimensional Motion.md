@@ -79,6 +79,8 @@ $$
 ### projectile vertical motion formula
 $$
 \begin{aligned}
+v_x=v_{0x}\\
+x=x_0+v_{0x}t\\
 v_{y}=v_{0y}-gt\\
 y=y_{0}+v_{0y}t-\frac{1}{2}gt^{2}\\
 y-y_{0}=\frac{1}{2}(v_{y}+v_{0y})t\\
@@ -95,8 +97,8 @@ $$
 ### uniform circular motion formula
 $$
 \begin{aligned}
-\vec a_{\text{tan}}=0\\
-\vec a_{\text{rad}}\perp\vec v
+a_{\text{tan}}=0\\
+a_{\text{rad}}\perp v
 \end{aligned}
 $$
 
@@ -108,7 +110,7 @@ $$
 ### circular velocity formula
 $$
 \begin{aligned}
-\vec v=\frac{2\pi R}{T}\\
+v=\frac{2\pi R}{T}\\
 R=\text{radius}\\
 T=\text{period}
 \end{aligned}
@@ -122,7 +124,7 @@ $$
 ### uniform circular acceleration formula
 $$
 \begin{aligned}
-\vec a_{\text{rad}}=\frac{\vec v^{2}}{R}\\
+a_{\text{rad}}=\frac{v^{2}}{R}\\
 v=\text{velocity}\\
 R=\text{radius}
 \end{aligned}
@@ -137,8 +139,7 @@ $$
 ### nonuniform circular motion formula
 $$
 \begin{aligned}
-\vec a_{\text{tan}}\ne0\\
-\vec a_{\text{tan}}\parallel\pm\vec v\implies\frac{ds}{dt}>0
+a_{\text{tan}}\ne0
 \end{aligned}
 $$
 
@@ -152,9 +153,9 @@ $$
 ### nonuniform circular acceleration formula
 $$
 \begin{aligned}
-\vec a=\vec a_{\text{rad}}+\vec a_{\text{tan}}=\frac{\vec v^{2}}{R}+\frac{d\vec v}{dt}\\
-\vec a=\text{acceleration}\\
-\vec v=\text{velocity}\\
+a=a_{\text{rad}}+a_{\text{tan}}=\frac{v^{2}}{R}+\frac{dv}{dt}\\
+a=\text{acceleration}\\
+v=\text{velocity}\\
 R=\text{radius}\\
 t=\text{time}
 \end{aligned}
@@ -171,7 +172,7 @@ $$
 ### projectile motion versus uniform circular motion formula
 $$
 \begin{aligned}
-\|\vec a\|=C\\
+a=C\\
 \hat a_{\text{proj}}=\hat a_{0}\\
 \hat a_{\text{uni}}\ne\hat a_{0}
 \end{aligned}

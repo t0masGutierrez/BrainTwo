@@ -46,8 +46,8 @@ $$
 
 ---
 ### torque direction property
-- if line of action equal axis of rotation then zero torque
 - counterclockwise rotation equal positive torque
+- if line of action equal axis of rotation then zero torque
 - clockwise rotation equal negative torque
 ![[4 Physics/Images/torque direction property.png|300]]
 
@@ -55,8 +55,8 @@ $$
 ### torque direction property formula
 $$
 \begin{aligned}
-\hat F=z\implies\tau=0\\
 \circlearrowleft\implies\tau>0\\
+\hat r\parallel\hat F\implies\tau=0\\
 \circlearrowright\implies\tau<0
 \end{aligned}
 $$
