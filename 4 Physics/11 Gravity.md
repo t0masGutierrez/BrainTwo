@@ -6,10 +6,10 @@
 ### point mass formula
 $$
 \begin{aligned}
-\rho(\vec r)=m\delta(\vec r-\vec r_{0})\\
+\rho(\vec r)=m\delta(\vec r-\vec r_0)\\
+\vec r=\text{position}\\
 m=\text{mass}\\
-\delta=\text{dirac}\\
-\vec r=\text{position}
+\delta=\text{dirac}
 \end{aligned}
 $$
 
@@ -26,7 +26,8 @@ r>R\implies\vec F_{g}=-G\frac{m_{1}m_{2}}{r^{2}}\hat r\\
 r\le R\implies\vec F_{g}=0\\
 r=\text{distance}\\
 R=\text{radius}\\
-G=6.67\times10^{-11}\\
+\vec F=\text{force}\\
+G=6.674\times10^{-11}\\
 m=\text{mass}\\
 \hat r=\text{direction}
 \end{aligned}
@@ -42,7 +43,7 @@ $$
 $$
 \begin{aligned}
 \vec g=-G\frac{M}{r^{2}}\hat r=\frac{\vec F_{g}}{m}\\
-G=6.67\times10^{-11}\\
+G=6.674\times10^{-11}\\
 M=\text{source mass}\\
 r=\text{distance}\\
 \hat r=\text{direction}\\
@@ -61,10 +62,11 @@ $$
 $$
 \begin{aligned}
 r>R\implies U_{g}=-G\frac{Mm}{r}\\
-r\le R\implies U_{g}=-G\frac{Mm}{R}\\
+r\le R\implies U_{g}=-G\frac{Mm}{2R^3}(3R^2-r^2)\\
 r=\text{distance}\\
 R=\text{radius}\\
-G=6.67\times10^{-11}\\
+U=\text{potential energy}\\
+G=6.674\times10^{-11}\\
 M=\text{source mass}\\
 m=\text{mass}
 \end{aligned}
@@ -99,11 +101,11 @@ $$
 $$
 \begin{aligned}
 E=-G\frac{Mm}{2r}=\frac{U}{2}=-K\\
-F_{g}=-G\frac{Mm}{r^{2}}=\frac{mv^{2}}{r}\\
+\|\vec F_{g}\|=G\frac{Mm}{r^{2}}=\frac{mv^{2}}{r}\\
+\|\vec v\|=\sqrt{G\frac{M}{r}}\\
+\|\vec a\|=G\frac{M}{r^{2}}\\
 T=2\pi\sqrt{\frac{r^{3}}{GM}}\\
-v=\sqrt{\frac{GM}{r}}\\
-a=\frac{GM}{r^{2}}\\
-G=6.67\times10^{-11}\\
+G=6.674\times10^{-11}\\
 M=\text{source mass}\\
 m=\text{test mass}\\
 r=\text{distance}\\
@@ -120,8 +122,8 @@ $$
 ### escape velocity formula
 $$
 \begin{aligned}
-v_{E}=\sqrt{\frac{2GM}{r}}\\
-G=6.67\times10^{-11}\\
+v_{E}=\sqrt{2G\frac{M}{r}}\\
+G=6.674\times10^{-11}\\
 M=\text{source mass}\\
 r=\text{distance}
 \end{aligned}
@@ -208,7 +210,7 @@ v_{E}\ge c\implies R_{S}=\frac{2GM}{c^{2}}\\
 v_{E}=\text{escape velocity}\\
 c=3.0\times10^{8}\\
 R_{S}=\text{schwarzschild radius}\\
-G=6.67\times10^{-11}\\
+G=6.674\times10^{-11}\\
 M=\text{source mass}
 \end{aligned}
 $$
