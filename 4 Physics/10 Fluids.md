@@ -163,9 +163,8 @@ $$
 ### pascals principle formula
 $$
 \begin{aligned}
-p=\frac{F_{1}}{A_{1}}=\frac{F_{2}}{A_{2}}\\
-F=\text{force}\\
-A=\text{area}
+\Delta p_1=\Delta p_2\\
+p=\text{pressure}
 \end{aligned}
 $$
 
@@ -223,9 +222,9 @@ $$
 ### buoyant force direction property formula
 $$
 \begin{aligned}
-\vec F_{b}>\vec w\implies\uparrow\\
-\vec F_{b}<\vec w\implies\downarrow\\
-\vec F_{b}=\vec w\implies\leftrightarrow
+\vec F_{b}>\vec w\implies\vec a>0\\
+\vec F_{b}<\vec w\implies\vec a<0\\
+\vec F_{b}=\vec w\implies\vec a=0
 \end{aligned}
 $$
 
@@ -311,12 +310,12 @@ $$
 
 ---
 ### laminar flow
-- regular, steady fluid flow
+- ordered fluid flow
 ![[4 Physics/Images/laminar flow.png|300]]
 
 ---
 ### turbulent flow
-- irregular, unsteady fluid flow
+- disordered fluid flow
 ![[4 Physics/Images/turbulent flow.png|300]]
 
 ---
@@ -418,7 +417,7 @@ $$
 ### terminal velocity formula
 $$
 \begin{aligned}
-\vec w=\vec F_{d}\implies\vec v=\sqrt{\frac{2\vec w}{\rho C_{d}A}}\\
+\vec w=\vec F_{d}\implies\vec v=\sqrt{\frac{2\vec w}{\rho_fC_{d}A}}\\
 \vec w=\text{weight}\\
 \vec F=\text{force}\\
 \vec v=\text{velocity}\\
