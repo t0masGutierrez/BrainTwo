@@ -19,7 +19,7 @@ $$
 ![[4 Physics/Images/newtons law of gravitation.png|500]]
 
 ---
-### newtons formula of gravitation
+### newtons law of gravitation formula
 $$
 \begin{aligned}
 r>R\implies\vec F_{g}=-G\frac{m_{1}m_{2}}{r^{2}}\hat r\\
@@ -122,7 +122,7 @@ $$
 ### escape velocity formula
 $$
 \begin{aligned}
-v_{E}=\sqrt{2G\frac{M}{r}}\\
+v_{E}=\sqrt{G\frac{2M}{r}}\\
 G=6.674\times10^{-11}\\
 M=\text{source mass}\\
 r=\text{distance}
@@ -157,7 +157,7 @@ $$
 ### keplers 1st law formula
 $$
 \begin{aligned}
-r=\frac{a(1-\epsilon^{2})}{\epsilon\cos\theta}\\
+r=\frac{a(1-\epsilon^{2})}{1+\epsilon\cos\theta}\\
 a=\text{semi-major axis}\\
 \epsilon=\text{eccentricity}\\
 \theta=\text{angular position}
@@ -166,18 +166,18 @@ $$
 
 ---
 ### keplers 2nd law
-- planets conserve angular momentum
-- if planet near sun then faster motion and if planet far sun then slower motion
+- if planets nearer sun then faster motion and if planets further sun then slower motion
 ![](4%20Physics/Images/keplers%202nd%20law.png)
 
 ---
 ### keplers 2nd law formula
 $$
 \begin{aligned}
-\frac{dA}{dt}=C\\
+\frac{dA}{dt}=\frac{L}{2m}\\
 A=\text{area}\\
 t=\text{time}\\
-C=\text{constant}
+L=\text{angular momentum}\\
+m=\text{mass}
 \end{aligned}
 $$
 
@@ -192,7 +192,7 @@ $$
 T^{2}=\frac{4\pi^{2}a^{3}}{GM}\\
 T=\text{period}\\
 a=\text{semi-major axis}\\
-G=6.67\times10^{-11}\\
+G=6.674\times10^{-11}\\
 M=\text{source mass}
 \end{aligned}
 $$
@@ -206,7 +206,7 @@ $$
 ### black hole formula
 $$
 \begin{aligned}
-v_{E}\ge c\implies R_{S}=\frac{2GM}{c^{2}}\\
+v_{E}\ge c\implies R_{S}=G\frac{2M}{c^{2}}\\
 v_{E}=\text{escape velocity}\\
 c=3.0\times10^{8}\\
 R_{S}=\text{schwarzschild radius}\\
