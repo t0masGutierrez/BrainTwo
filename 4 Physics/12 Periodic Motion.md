@@ -337,15 +337,16 @@ $$
 
 ---
 ### driven oscillation
-- increasing energy because of driving force
+- additional energy because of driving force
 ![250](4%20Physics/Images/driven%20oscillation.png)
 
 ---
 ### driven oscillation formula
 $$
 \begin{aligned}
-m\frac{d^{2}x}{dt^{2}}+b\frac{dx}{dt}+kx=F_{\text{max}}\cos(\omega t+\phi)\\
-A=\frac{F_{\text{max}}}{\sqrt{(k-m\omega^{2})^{2}+(b\omega)^{2}}}\\
+m\frac{d^{2}x}{dt^{2}}+b\frac{dx}{dt}+kx=F_{\text{max}}\cos(\omega t+\phi)\implies\\
+x(t)=\frac{F_{\text{max}}}{\sqrt{(k-m\omega^{2})^{2}+(b\omega)^{2}}}
+\cos(\omega t+\phi)\\
 m=\text{mass}\\
 x=\text{position}\\
 t=\text{time}\\
