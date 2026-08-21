@@ -125,7 +125,7 @@ $$
 
 ---
 ### wavenumber
-- number of wavelengths per revolution
+- number of radians per wavelength
 
 ---
 ### wavenumber formula
@@ -166,13 +166,14 @@ $$
 ### particle velocity formula
 $$
 \begin{aligned}
-v_{y}=\frac{\partial y}{\partial t}=\mp A\omega\cos(kx\mp\omega t)\\
+v_{y}=\frac{\partial y}{\partial t}=\mp A\omega\cos(kx\mp\omega t+\phi)\\
 y=\text{displacement}\\
 t=\text{time}\\
 A=\text{amplitude}\\
 \omega=\text{angular frequency}\\
 k=\text{wavenumber}\\
-x=\text{position}
+x=\text{position}\\
+\phi=\text{phase angle}
 \end{aligned}
 $$
 
@@ -184,13 +185,14 @@ $$
 ### particle acceleration formula
 $$
 \begin{aligned}
-a_{y}=\frac{\partial^{2}y}{\partial t^{2}}=\pm A\omega^{2}\sin(kx\mp\omega t)\\
+a_{y}=\frac{\partial^{2}y}{\partial t^{2}}=-A\omega^{2}\sin(kx\mp\omega t+\phi)\\
 y=\text{displacement}\\
 t=\text{time}\\
 A=\text{amplitude}\\
 \omega=\text{angular frequency}\\
 k=\text{wavenumber}\\
-x=\text{position}
+x=\text{position}\\
+\phi=\text{phase angle}
 \end{aligned}
 $$
 
@@ -263,11 +265,11 @@ $$
 ### taut string wave energy formula
 $$
 \begin{aligned}
-E_{\text{avg}}=\frac{\mu A^{2}\omega^{2}\lambda}{2}\\
+E_{\text{avg}}=\frac{\mu LA^{2}\omega^{2}}{2}\\
 \mu=\text{linear mass density}\\
+L=\text{length}\\
 A=\text{amplitude}\\
-\omega=\text{angular frequency}\\
-\lambda=\text{wavelength}
+\omega=\text{angular frequency}
 \end{aligned}
 $$
 
@@ -275,7 +277,7 @@ $$
 ### taut string wave power
 - rate of doing work along string under tension
 - rate of mechanical energy transfer along string under tension
-![300](4%20Physics/Images/tensed%20string%20wave%20power.png)
+![300](4%20Physics/Images/taut%20string%20wave%20power.png)
 
 ---
 ### taut string wave power formula
@@ -339,16 +341,18 @@ $$
 $$
 \begin{aligned}
 y(x,t)=y_{1}(x,t)+y_{2}(x,t)\\
+A=\sqrt{A_1^2+A_2^2+2A_1A_2\cos(\Delta\phi)}\\
 y=\text{displacement}\\
 x=\text{position}\\
-t=\text{time}
+t=\text{time}\\
+A=\text{amplitude}\\
+\phi=\text{phase angle}
 \end{aligned}
 $$
 
 ---
 ### constructive interference
 - combination of two or more waves equal larger wave
-- waves with aligned crests are in phase
 ![300](4%20Physics/Images/constructive%20interference.png)
 
 ---
@@ -364,7 +368,6 @@ $$
 ---
 ### destructive interference
 - combination of two or more waves equal smaller wave
-- waves with misaligned troughs are out of phase
 ![300](4%20Physics/Images/destructive%20interference.png)
 
 ---
@@ -372,7 +375,6 @@ $$
 $$
 \begin{aligned}
 \Delta\phi=(2n+1)\pi\implies A=|A_{1}-A_{2}|\\
-\Delta\phi\ne2\pi n\implies A=\sqrt{A_1^2+A_2^2+2A_1A_2\cos(\Delta\phi)}\\
 \phi=\text{phase angle}\\
 A=\text{amplitude}
 \end{aligned}
@@ -413,7 +415,6 @@ A\sin(kx+\omega t)=\\
 A=\text{amplitude}\\
 k=\text{wavenumber}\\
 x=\text{position}\\
-\phi=\text{phase angle}\\
 \omega=\text{angular frequency}\\
 t=\text{time}
 \end{aligned}
@@ -488,7 +489,7 @@ $$
 ### complex exponential formula
 $$
 \begin{aligned}
-\theta=kx\mp\omega t\implies y(x,t)=Ae^{i\theta}=A\cos(\theta)+iA\sin(\theta)\\
+\theta=kx\mp\omega t+\phi\implies y(x,t)=Ae^{i\theta}=A\cos(\theta)+iA\sin(\theta)\\
 \theta=\text{phase}\\
 k=\text{wavenumber}\\
 x=\text{position}\\
