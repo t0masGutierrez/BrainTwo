@@ -124,6 +124,7 @@ $$
 ---
 ### first law of thermodynamics
 - energy can neither be created nor destroyed but can be transformed
+- temperature change equal result of work and/or heat
 ![200](4%20Physics/Images/first%20law%20of%20thermodynamics.png)
 
 ---

@@ -84,10 +84,8 @@ $$
 ### zeroth law of thermodynamics formula
 $$
 \begin{aligned}
-T_1=T_2\iff\frac{dQ}{dt}=0\\
-T=\text{temperature}\\
-Q=\text{heat}\\
-t=\text{time}
+(T_A=T_C)\land(T_B=T_C)\implies T_A=T_B\\
+T=\text{temperature}
 \end{aligned}
 $$
 
@@ -156,17 +154,15 @@ $$
 ### heat formula
 $$
 \begin{aligned}
-\Delta T\implies Q=\Delta E\\
+\Delta T\ne0\implies Q\ne0\\
 T=\text{temperature}\\
-Q=\text{heat}\\
-E=\text{energy}
+Q=\text{heat}
 \end{aligned}
 $$
 
 ---
 ### kilocalorie
 - amount of heat required to change temperature of 1 kilogram of water by 1 degree celsius
-- temperature change equal result of work and/or heat
 ![400](4%20Physics/Images/kilocalorie.png)
 
 ---
@@ -200,10 +196,10 @@ $$
 ### specific heat capacity formula
 $$
 \begin{aligned}
-c=(\frac{1}{m})(\frac{dQ}{dt})\\
+c=(\frac{1}{m})(\frac{dQ}{dT})\\
 m=\text{mass}\\
 Q=\text{heat}\\
-t=\text{time}
+T=\text{temperature}
 \end{aligned}
 $$
 
@@ -216,10 +212,10 @@ $$
 ### molar heat capacity formula
 $$
 \begin{aligned}
-C=(\frac{1}{n})(\frac{dQ}{dt})=Mc\\
+C=(\frac{1}{n})(\frac{dQ}{dT})=Mc\\
 n=\text{number of moles}\\
 Q=\text{heat}\\
-t=\text{time}\\
+T=\text{temperature}\\
 M=\text{molar mass}\\
 c=\text{specific heat capacity}
 \end{aligned}
@@ -241,8 +237,8 @@ $$
 
 ---
 ### phase change
-- coexistence of two phases
-![400](4%20Physics/Images/phase%20change.png)
+- transition from one phase to another
+![400](4%20Physics/Images/phase%20transition.png)
 
 ---
 ### phase change formula
@@ -329,7 +325,7 @@ $$
 
 ---
 ### critical point
-- point where liquids and gases become fluids
+- point where liquids and gases are indistinguishable
 
 ---
 ### critical point formula
@@ -439,14 +435,14 @@ $$
 
 ---
 ### newtons law of cooling
-- rate of heat loss directly proportional temperature gradient between system and surrounding
+- rate of heat loss directly proportional temperature difference between system and surrounding
 ![[4 Physics/Images/newtons law of cooling.png]]
 
 ---
 ### newtons formula of cooling
 $$
 \begin{aligned}
-\frac{dT}{dt}=k\Delta T\\
+\frac{dT}{dt}=-k\Delta T\\
 k=\text{cooling constant}\\
 T=\text{temperature}\\
 \end{aligned}
