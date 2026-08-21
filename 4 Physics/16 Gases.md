@@ -13,11 +13,11 @@ N_A=6.022\times10^{23}
 $$
 
 ---
-### avagadros number
+### avogadros number
 - number of particles per mole
 
 ---
-### avagadros number formula
+### avogadros number formula
 $$
 \begin{aligned}
 N_{A}=\frac{N}{n}=6.022\times10^{23}\\
@@ -59,7 +59,7 @@ $$
 ### van der waals gas formula
 $$
 \begin{aligned}
-pV=(p+\frac{an^2}{V^2})(V-nb)=NkT\\
+(p+\frac{an^2}{V^2})(V-nb)=NkT\\
 p=\text{pressure}\\
 V=\text{volume}\\
 a=\text{intermolecular attraction}\\
@@ -195,11 +195,10 @@ $$
 ### mean free path formula
 $$
 \begin{aligned}
-\lambda=\frac{V}{4\pi r^2Nv\sqrt2}=\frac{kT}{4\pi r^2p\sqrt2}\\
+\lambda=\frac{V}{4\pi r^2N\sqrt2}=\frac{kT}{4\pi r^2p\sqrt2}\\
 V=\text{volume}\\
 r=\text{radius}\\
 N=\text{number of particles}\\
-v=\text{velocity}\\
 k=1.381\times10^{-23}\\
 T=\text{temperature}\\
 p=\text{pressure}
