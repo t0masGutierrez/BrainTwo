@@ -113,7 +113,7 @@ $$
 \begin{aligned}
 v=\sqrt{\frac{\gamma RT}{M}}\\
 \gamma=\text{adiabatic index}\\
-R=8.31\\
+R=8.314\\
 T=\text{absolute temperature}\\
 M=\text{molar mass}
 \end{aligned}

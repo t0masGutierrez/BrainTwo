@@ -146,7 +146,7 @@ $$
 ### state function formula
 $$
 \begin{aligned}
-\int_A^BdF
+\Delta F=\int_A^BdF
 \end{aligned}
 $$
 
@@ -158,7 +158,7 @@ $$
 ---
 ### path function formula
 $$
-\oint_A^B\delta F
+\Delta F=\int_A^B\delta F
 $$
 
 ---
@@ -235,7 +235,6 @@ $$
 $$
 \begin{aligned}
 p_{1}V_{1}=p_{2}V_{2}\implies\Delta U=0\\
-T_i=T_f\\
 p=\text{pressure}\\
 V=\text{volume}\\
 T=\text{temperature}\\
@@ -252,7 +251,6 @@ $$
 $$
 \begin{aligned}
 \frac{p_{1}}{T_{1}}=\frac{p_{2}}{T_{2}}\implies\Delta U=Q\\
-T_i>T_f\\
 p=\text{pressure}\\
 T=\text{temperature}\\
 U=\text{internal energy}\\
@@ -269,7 +267,6 @@ $$
 $$
 \begin{aligned}
 \frac{V_{1}}{T_{1}}=\frac{V_{2}}{T_{2}}\implies\Delta U=nC_V\Delta T\\
-T_i<T_f\\
 V=\text{volume}\\
 T=\text{temperature}\\
 U=\text{internal energy}\\
@@ -290,7 +287,6 @@ p_{1}V_{1}^{\gamma}=p_{2}V_{2}^{\gamma}\implies\Delta U=-W\\
 T_{1}V_{1}^{\gamma-1}=T_{2}V_{2}^{\gamma-1}\implies\Delta U=nC_V(T_1-T_2)=\\
 \frac{C_V}{R}(p_1V_1-p_2V_2)=\\
 \frac{1}{\gamma-1}(p_1V_1-p_2V_2)\\
-T_i<T_f\\
 p=\text{pressure}\\
 V=\text{volume}\\
 U=\text{internal energy}\\
