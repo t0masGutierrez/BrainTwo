@@ -150,7 +150,7 @@ p=\text{pressure}\\
 \rho=\text{density}\\
 v=\text{velocity}\\
 \omega=\text{angular frequency}\\
-y=\text{position}
+y=\text{displacement}
 \end{aligned}
 $$
 

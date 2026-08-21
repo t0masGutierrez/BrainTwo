@@ -62,12 +62,9 @@ $$
 ### hookes law formula
 $$
 \begin{aligned}
-F=-kx=ma=-m\omega^{2}x\\
+F=-k\Delta x\\
 k=\text{spring constant}\\
-x=\text{position}\\
-m=\text{mass}\\
-a=\text{acceleration}\\
-\omega=\text{angular frequency}
+x=\text{position}
 \end{aligned}
 $$
 
