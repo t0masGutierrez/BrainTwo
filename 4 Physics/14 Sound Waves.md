@@ -7,15 +7,13 @@
 ### sound wave formula
 $$
 \begin{aligned}
-\Delta p(x,t)=\Delta p_{\text{max}}\frac{\partial y(x,t)}{\partial x}=BkA\cos(kx-\omega t)\\
-p=\text{pressure}\\
-x=\text{position}\\
-t=\text{time}\\
-y=\text{displacement}\\
+\Delta p(x,t)=BkA\cos(kx\mp\omega t)\\
 B=\text{bulk modulus}\\
 k=\text{wavenumber}\\
 A=\text{amplitude}\\
-\omega=\text{angular frequency}
+x=\text{position}\\
+\omega=\text{angular frequency}\\
+t=\text{time}
 \end{aligned}
 $$
 
@@ -145,14 +143,14 @@ $$
 ### intensity formula
 $$
 \begin{aligned}
-I=\frac{P_{\text{avg}}}{A}=\frac{(\Delta p_{\text{max}})^2}{2\rho v}=\rho\omega^2y^2v\\
+I=\frac{P_{\text{avg}}}{A}=\frac{(\Delta p_{\text{max}})^2}{2\rho v}=\frac{\rho v\omega^2y_{\text{max}}^2}{2}\\
 P=\text{power}\\
 A=\text{area}\\
 p=\text{pressure}\\
 \rho=\text{density}\\
 v=\text{velocity}\\
 \omega=\text{angular frequency}\\
-y=\text{displacement}
+y=\text{position}
 \end{aligned}
 $$
 
@@ -172,12 +170,12 @@ r=\text{distance}
 $$
 
 ---
-### loudness
-- perception of intensity aka sound intensity level
-![300](4%20Physics/Images/loudness.png)
+### sound intensity level
+- perception of intensity
+![300](4%20Physics/Images/sound%20intensity%20level.png)
 
 ---
-### loudness formula
+### sound intensity level formula
 $$
 \begin{aligned}
 \beta=10\log(\frac{I}{I_{0}})\\
@@ -187,23 +185,23 @@ I_{0}=10^{-12}
 $$
 
 ---
-### sound intensity level
-- factor of 10 sound intensity increase equal multiple of 10 loudness increase
-![300](4%20Physics/Images/sound%20intensity%20level.png)
+### loudness
+- factor of 10 loudness increase equal multiple of 10 sound intensity level increase
+![300](4%20Physics/Images/loudness.png)
 
 ---
-### sound intensity level formula
+### loudness formula
 $$
 \begin{aligned}
 \frac{I_2}{I_1}=10^{n}\implies\Delta\beta=10n\\
 I=\text{intensity}\\
-\beta=\text{loudness}
+\beta=\text{sound intensity level}
 \end{aligned}
 $$
 
 ---
 ### asymmetric normal mode
-- open standing wave pattern where where all particles oscillate with the same frequency
+- closed standing wave pattern where where all particles oscillate with the same frequency
 ![500](4%20Physics/Images/asymmetric%20normal%20mode.png)
 
 ---
@@ -219,7 +217,7 @@ $$
 
 ---
 ### symmetric normal mode
-- closed standing wave pattern where where all particles oscillate with the same frequency
+- open standing wave pattern where where all particles oscillate with the same frequency
 ![500](4%20Physics/Images/symmetric%20normal%20mode.png)
 
 ---
