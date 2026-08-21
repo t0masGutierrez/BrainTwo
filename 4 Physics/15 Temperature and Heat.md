@@ -1,6 +1,6 @@
 ### temperature
 - measure of the degree of hotness or coldness of body
-![400](4%20Physics/Images/temperature1.png)
+![400](4%20Physics/Images/temperature.png)
 
 ---
 ### temperature formula
@@ -238,7 +238,7 @@ $$
 ---
 ### phase change
 - transition from one phase to another
-![400](4%20Physics/Images/phase%20transition.png)
+![400](4%20Physics/Images/phase%20change.png)
 
 ---
 ### phase change formula
@@ -340,7 +340,7 @@ $$
 - temperature versus heat
 - phase change does not change molecular kinetic energy
 - phase change does change intermolecular potential energy
-![400](4%20Physics/Images/TQ.png)
+![400](4%20Physics/Images/TQ%20diagram.png)
 
 ---
 ### TQ diagram formula
