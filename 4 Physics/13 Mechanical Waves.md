@@ -505,7 +505,7 @@ $$
 
 ---
 ### fourier transform
-- sinusoidal wave equal sum of basic sinusoidal waves
+- spacetime function equal sum of basic sinusoidal waves
 ![[4 Physics/Images/fourier transform.png|300]]
 
 ---

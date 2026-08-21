@@ -91,7 +91,7 @@ $$
 ### diesel cycle formula
 $$
 \begin{aligned}
-\eta=1-\frac{\rho^{\gamma-1}-1}{\gamma(\rho-1)(\frac{V_a}{V_b})^{\gamma-1}}\\
+\eta=1-\frac{\rho^{\gamma}-1}{\gamma(\rho-1)(\frac{V_a}{V_b})^{\gamma-1}}\\
 \rho=\frac{V_c}{V_b}\\
 V=\text{volume}\\
 \gamma=\text{molar heat capacity ratio}
@@ -131,10 +131,26 @@ W=\text{work}
 $$
 
 ---
+### carnot cycle
+- thermodynamic cycle operating at maximum efficiency between hot reservoir and cold reservoir
+![400](4%20Physics/Images/carnot%20cycle.png)
+
+---
+### carnot cycle formula
+$$
+\begin{aligned}
+\eta=\frac{T_{H}-T_{C}}{T_{H}}=\frac{Q_{H}-Q_{C}}{Q_{H}}\\
+\text{COP}_{\text{R}}=\frac{Q_C}{W}=\frac{T_{C}}{T_{H}-T_{C}}\\
+\text{COP}_{\text{HP}}=\frac{Q_H}{W}=\frac{T_{H}}{T_{H}-T_{C}}\\
+T=\text{temperature}\\
+Q=\text{heat}\\
+W=\text{work}
+\end{aligned}
+$$
+
+---
 ### second law of thermodynamics
-- heat flow from high temperature to low temperature until thermal equilibrium
-- fluid flow from high pressure to low pressure until mechanical equilibrium
-- chemical flow from high potential to low potential until chemical equilibrium
+- spontaneous processes increase the entropy of isolated system
 ![300](4%20Physics/Images/second%20law%20of%20thermodynamics.png)
 
 ---
@@ -155,27 +171,9 @@ N=\text{number of particles}
 $$
 
 ---
-### carnot cycle
-- thermodynamic cycle operating at maximum efficiency between hot reservoir and cold reservoir
-![400](4%20Physics/Images/carnot%20cycle.png)
-
----
-### carnot cycle formula
-$$
-\begin{aligned}
-\eta=\frac{T_{H}-T_{C}}{T_{H}}=\frac{Q_{H}-Q_{C}}{Q_{H}}\\
-\text{COP}_{\text{R}}=\frac{Q_C}{W}=\frac{T_{C}}{T_{H}-T_{C}}\\
-\text{COP}_{\text{HP}}=\frac{Q_H}{W}=\frac{T_{H}}{T_{H}-T_{C}}\\
-T=\text{temperature}\\
-Q=\text{heat}\\
-W=\text{work}
-\end{aligned}
-$$
-
----
 ### entropy
-- number of possible microstates corresponding with macrostate
-- or quantitative measure of randomness
+- measure of the number of microstates compatible with macrostate
+- or measure of disorder
 ![200](4%20Physics/Images/entropy.png)
 
 ---
