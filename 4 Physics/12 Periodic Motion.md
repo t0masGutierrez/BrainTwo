@@ -180,7 +180,7 @@ $$
 ![350](4%20Physics/Images/vertical%20simple%20harmonic%20motion.png)
 
 ---
-### vertical simple harmonic motion
+### vertical simple harmonic motion formula
 $$
 \begin{aligned}
 y(t)=\frac{mg}{k}+A\cos(\omega t+\phi)\\
@@ -259,7 +259,7 @@ $$
 
 ---
 ### damped oscillation
-- decreasing amplitude of periodic motion because of damping force
+- decreasing energy because of damping force
 ![350](4%20Physics/Images/damped%20oscillation.png)
 
 ---
@@ -284,7 +284,7 @@ $$
 ### under damped oscillation formula
 $$
 \begin{aligned}
-b^{2}<4mk\implies x(t)=A_{0}\exp(\frac{-b}{2m}t)\cos(\omega t+\phi)\\
+b^{2}<4mk\implies x(t)=A_{0}\cos(\omega t+\phi)\exp(\frac{-b}{2m}t)\\
 \omega=\sqrt{(\sqrt\frac{k}{m})^2-(\frac{b}{2m})^2}\\
 b=\text{damping coefficient}\\
 m=\text{mass}\\
@@ -337,7 +337,7 @@ $$
 
 ---
 ### driven oscillation
-- periodic motion because of driving force
+- increasing energy because of driving force
 ![250](4%20Physics/Images/driven%20oscillation.png)
 
 ---
