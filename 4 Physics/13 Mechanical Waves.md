@@ -103,7 +103,7 @@ $$
 $$
 \begin{aligned}
 \theta(x,t)=C\\
-\theta=\text{phase}\\
+\theta=\text{angular position}\\
 x=\text{position}\\
 t=\text{time}\\
 C=\text{constant}
@@ -112,14 +112,14 @@ $$
 
 ---
 ### wavelength
-- distance between 1 revolution
+- distance between 1 oscillation
 ![[4 Physics/Images/wavelength.png|250]]
 
 ---
 ### wavelength formula
 $$
 \begin{aligned}
-\lambda=\frac{\text{distance}}{\text{number of revolutions}}
+\lambda=\frac{\text{distance}}{\text{number of oscillations}}
 \end{aligned}
 $$
 
@@ -166,7 +166,7 @@ $$
 ### particle velocity formula
 $$
 \begin{aligned}
-v_{y}=\frac{\partial y}{\partial t}=\mp A\omega\cos(kx\mp\omega t+\phi)\\
+v=\frac{\partial y}{\partial t}=\mp A\omega\cos(kx\mp\omega t+\phi)\\
 y=\text{displacement}\\
 t=\text{time}\\
 A=\text{amplitude}\\
@@ -185,7 +185,7 @@ $$
 ### particle acceleration formula
 $$
 \begin{aligned}
-a_{y}=\frac{\partial^{2}y}{\partial t^{2}}=-A\omega^{2}\sin(kx\mp\omega t+\phi)\\
+a=\frac{\partial^{2}y}{\partial t^{2}}=-A\omega^{2}\sin(kx\mp\omega t+\phi)\\
 y=\text{displacement}\\
 t=\text{time}\\
 A=\text{amplitude}\\
