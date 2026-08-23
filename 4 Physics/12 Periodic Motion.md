@@ -123,14 +123,14 @@ x=\text{position}
 $$
 
 ---
-### maximum simple harmonic motion
+### simple harmonic motion extrema
 - if position equal amplitude then maximum displacement
 - if position equal zero then maximum velocity
 - if position equal amplitude then maximum acceleration
-![250](4%20Physics/Images/maximum%20simple%20harmonic%20motion.png)
+![250](4%20Physics/Images/simple%20harmonic%20motion%20extrema.png)
 
 ---
-### maximum simple harmonic motion formula
+### simple harmonic motion extrema formula
 $$
 \begin{aligned}
 x_{\text{max}}=A\\
