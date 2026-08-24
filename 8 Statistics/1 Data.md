@@ -60,7 +60,7 @@
 - randomly select clusters
 
 ---
-### systemic random sampling
+### systematic random sampling
 - population ordered into sequence
 - randomly select starting point and systematically select every kth point
 
