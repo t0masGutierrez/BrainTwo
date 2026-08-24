@@ -1,8 +1,8 @@
-### process
-- formulate question
+### statistics
+- formulate hypothesis
 - collect data
 - analyze data
-- interpret results
+- interpret data
 
 ---
 ### descriptive statistics

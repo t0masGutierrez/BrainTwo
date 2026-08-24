@@ -46,23 +46,23 @@
 - selecting subset of population
 
 ---
-### random sampling
+### simple random sampling
 - equal probability of selection from population
 
 ---
-### stratification sampling
+### stratified random sampling
 - population division into stratas
 - proportionately select random sample from each stratum
 
 ---
-### cluster sampling
+### cluster random sampling
 - population division into clusters
 - randomly select clusters
 
 ---
-### systemic sampling
-- define random starting point
-- proportionately select random sample from each stratum
+### systemic random sampling
+- population ordered into sequence
+- randomly select starting point and systematically select every kth point
 
 ---
 ### treatment
