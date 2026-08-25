@@ -411,12 +411,13 @@ $$
 \begin{aligned}
 A\sin(kx-\omega t)+\\
 A\sin(kx+\omega t)=\\
-2A\sin(kx)\cos(\omega t)\\
+2A\sin(kx)\sin(\omega t+\phi)\\
 A=\text{amplitude}\\
 k=\text{wavenumber}\\
 x=\text{position}\\
 \omega=\text{angular frequency}\\
-t=\text{time}
+t=\text{time}\\
+\phi=\text{phase angle}
 \end{aligned}
 $$
 
@@ -450,8 +451,7 @@ $$
 
 ---
 ### fundamental frequency
-- lowest possible oscillation frequency of standing wave
-- aka 1st harmonic or 0th overtone
+- minimum oscillation frequency of standing wave
 ![400](4%20Physics/Images/fundamental%20frequency.png)
 
 ---
@@ -468,16 +468,19 @@ F=\text{force}\\
 $$
 
 ---
-### normal mode
+### symmetric normal mode
 - standing wave pattern where where all particles oscillate with the same frequency
-![300](4%20Physics/Images/normal%20mode.png)
+- aka nth harmonic or (n+1)th overtone
+![300](4%20Physics/Images/mechanical%20symmetric%20normal%20mode.png)
 
 ---
-### normal mode formula
+### symmetric normal mode formula
 $$
 \begin{aligned}
-f_{n}=nf_{1}\\
-f_{1}=\text{fundamental frequency}
+f_{n}=nf_{1}\iff\lambda_n=\frac{2L}{n}\\
+n=1,2,3,\dots\\
+f_{1}=\text{fundamental frequency}\\
+L=\text{length}
 \end{aligned}
 $$
 

@@ -268,7 +268,7 @@ $$
 ### normal mode
 - possible standing wave pattern where all particles oscillate with the same frequency
 - single antinode equal fundamental mode, 1st harmonic, and 0th overtone
-![[4 Physics/Images/normal mode.png]]
+![[4 Physics/Images/mechanical symmetric normal mode.png]]
 
 ---
 ### resonant wavelength

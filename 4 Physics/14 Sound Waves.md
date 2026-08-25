@@ -202,13 +202,13 @@ $$
 ---
 ### asymmetric normal mode
 - closed standing wave pattern where where all particles oscillate with the same frequency
-![500](4%20Physics/Images/asymmetric%20normal%20mode.png)
+![500](4%20Physics/Images/sound%20asymmetric%20normal%20mode.png)
 
 ---
 ### asymmetric normal mode formula
 $$
 \begin{aligned}
-f_{n}=\frac{nv}{4L}\\
+f_{n}=\frac{nv}{4L}\iff\lambda_n=\frac{4L}{n}\\
 n=1,3,5,\dots\\
 v=\text{velocity}\\
 L=\text{length}
@@ -218,13 +218,13 @@ $$
 ---
 ### symmetric normal mode
 - open standing wave pattern where where all particles oscillate with the same frequency
-![500](4%20Physics/Images/symmetric%20normal%20mode.png)
+![500](4%20Physics/Images/sound%20symmetric%20normal%20mode.png)
 
 ---
 ### symmetric normal mode formula
 $$
 \begin{aligned}
-f_{n}=\frac{nv}{2L}\\
+f_{n}=\frac{nv}{2L}\iff\lambda_n=\frac{2L}{n}\\
 n=1,2,3,\dots\\
 v=\text{velocity}\\
 L=\text{length}
