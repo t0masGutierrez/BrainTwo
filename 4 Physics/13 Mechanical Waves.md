@@ -5,7 +5,7 @@
 ### mechanical wave formula
 $$
 \begin{aligned}
-y(x,t)=f(x-vt)+g(x+vt)\\
+\psi(x,t)=f(x-vt)+g(x+vt)\\
 x=\text{position}\\
 t=\text{time}\\
 v=\text{velocity}
@@ -21,8 +21,8 @@ $$
 ### transverse wave formula
 $$
 \begin{aligned}
-y\perp v\\
-y=\text{displacement}\\
+\psi\perp v\\
+\psi=\text{wave}\\
 v=\text{velocity}
 \end{aligned}
 $$
@@ -36,8 +36,8 @@ $$
 ### longitudinal wave formula
 $$
 \begin{aligned}
-y\parallel v\\
-y=\text{displacement}\\
+\psi\parallel v\\
+\psi=\text{wave}\\
 v=\text{velocity}
 \end{aligned}
 $$
@@ -50,7 +50,7 @@ $$
 ### traveling wave formula
 $$
 \begin{aligned}
-y(x,t)=f(x\mp{vt})\\
+\psi(x,t)=f(x\mp{vt})\\
 x=\text{position}\\
 v=\text{velocity}\\
 t=\text{time}
