@@ -1,15 +1,16 @@
 ### standardization
-- convert from random variable to standardized random variable
+- convert random variable into standardized random variable
 
 ---
 ### standardization formula
 $$
 \begin{aligned}
-(X=x)\sim(\mu,\sigma)\implies(Y=y)\sim(\mu',\sigma')\\
+X\sim F\implies Z=\frac{X-E[X]}{\sqrt{\text{Var}(X)}}\\
 X=\text{random variable}\\
-x=\text{real number}\\
-Y=\text{standardized random variable}\\
-y=\text{y-score}
+F=\text{distribution function}\\
+\mu=\text{mean}\\
+\sigma=\text{standard deviation}\\
+Z=\text{standardized random variable}
 \end{aligned}
 $$
 
@@ -21,10 +22,12 @@ $$
 ### normal formula
 $$
 \begin{aligned}
-X\sim N(x_{1},x_{2},\mu,\sigma)=P(x_{1}\le X\le x_{2})\\
-x=\text{data}\\
+X\sim N(\mu,\sigma)\implies P(x_{1}\le X\le x_{2})\\
+X=\text{random variable}\\
+N=\text{normal distribution}\\
 \mu=\text{mean}\\
-\sigma=\text{standard deviation}
+\sigma=\text{standard deviation}\\
+x=\text{data}
 \end{aligned}
 $$
 

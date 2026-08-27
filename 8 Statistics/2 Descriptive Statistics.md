@@ -21,6 +21,7 @@
 ---
 ### categorical statistics
 - frequency
+- relative frequency
 
 ---
 ### histogram
@@ -40,11 +41,11 @@
 
 ---
 ### box plot
-- compare multivariate mixed data
+- compare bivariate mixed data
 
 ---
 ### violin plot
-- compare multivariate mixed data
+- compare bivariate mixed data
 
 ---
 ### frequency
@@ -61,12 +62,12 @@
 ![[8 Statistics/Images/uniform distribution.png|300]]
 
 ---
-### negative skew distribution
+### negatively skewed distribution
 - long left tail
 ![[8 Statistics/Images/negative skew distribution.png|200]]
 
 ---
-### positive skew distribution
+### positively skewed distribution
 - long right tail
 ![[8 Statistics/Images/positive skew distribution.png|200]]
 
@@ -115,7 +116,7 @@
 
 ---
 ### standard deviation
-- average difference between data and mean
+- rms distance between data and mean
 
 ---
 ### empirical rule
@@ -133,22 +134,28 @@
 - significant deviation from the mean
 
 ---
-### lower outlier formula
+### outlier formula
 $$
 \begin{aligned}
-x=\text{Q1}-1.5\times\text{IQR}\\
-\text{Q1}=\text{1st quartile}\\
+x_L=\text{Q}_1-1.5\times\text{IQR}\\
+x_R=\text{Q}_3+1.5\times\text{IQR}\\
+\text{Q}_1=\text{1st quartile}\\
+\text{Q}_3=\text{3rd quartile}\\
 \text{IQR}=\text{interquartile range}
 \end{aligned}
 $$
 
 ---
-### upper outlier formula
+### normal versus skewed
+- mean and standard deviation
+- median and IQR
+
+---
+### normal versus skewed formula
 $$
 \begin{aligned}
-x=\text{Q3}+1.5\times\text{IQR}\\
-\text{Q3}=\text{3rd quartile}\\
-\text{IQR}=\text{interquartile range}
+X\sim N\implies(\mu,\sigma)\\
+X\sim\pm N\implies(\widetilde x,\text{IQR})
 \end{aligned}
 $$
 
