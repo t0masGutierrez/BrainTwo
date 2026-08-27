@@ -86,11 +86,11 @@
 
 ---
 ### confounding variable
-- affect dependent variable and independent variable
+- variable associated with explanatory variable and response variable
 
 ---
 ### lurking variable
-- affect dependent variable but not independent variable
+- variable not being studied but affecting the relationship being observed
 
 ---
 ### nominal scale
