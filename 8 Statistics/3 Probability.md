@@ -118,7 +118,7 @@ $$
 
 ---
 ### independent event
-- event B outcome not dependent upon event A outcome
+- event B outcome independent event A outcome
 - with replacement
 
 ---
@@ -135,7 +135,7 @@ $$
 
 ---
 ### dependent event
-- event B outcome dependent upon event A outcome
+- event B outcome dependent event A outcome
 - without replacement
 
 ---
@@ -143,7 +143,7 @@ $$
 - likelihood event A and event B will occur given event B dependent event A
 
 ---
-### dependent multiplication formula
+### dependent multiplication rule formula
 $$
 \begin{aligned}
 P(A\cap B)=P(A)P(B|A)
@@ -159,7 +159,7 @@ $$
 - likelihood event A or event B will occur given event B mutually exclusive event A
 
 ---
-### disjoint addition formula
+### disjoint addition rule formula
 $$
 \begin{aligned}
 P(A\cup B)=P(A)+P(B)
@@ -175,7 +175,7 @@ $$
 - likelihood event A or event B will occur given event B mutually inclusive event A
 
 ---
-### joint addition formula
+### joint addition rule formula
 $$
 \begin{aligned}
 P(A\cup B)=P(A)+P(B)-P(A\cap B)
@@ -201,11 +201,11 @@ $$
 ![[8 Statistics/Images/venn diagram.png|350]]
 
 ---
-### bayes theorem
+### bayes rule
 - method of updating probability of hypothesis based on evidence
 
 ---
-### bayes formula
+### bayes rule formula
 $$
 \begin{aligned}
 P(A|B)=\frac{P(A)P(B|A)}{P(B)}\\
