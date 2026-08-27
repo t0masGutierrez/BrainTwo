@@ -122,6 +122,7 @@
 - 68% of normal data within 1 standard deviation
 - 95% of normal data within 2 standard deviation
 - 99.7% of normal data within 3 standard deviation
+![500](8%20Statistics/Images/empirical%20rule.png)
 
 ---
 ### empirical rule of thumb

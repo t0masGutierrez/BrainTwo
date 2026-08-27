@@ -129,6 +129,168 @@ b=\text{bit}
 $$
 
 ---
+### floating point
+- binary scientific notation
+
+---
+### floating point formula
+$$
+\begin{aligned}
+x=(-1)^s(1+\sum_{i=1}^{n_f}f_i2^{-i})2^{P-B}=\pm1.b_1b_2\dots b_n\times2^p\\
+s=\text{sign}\\
+n=\text{number of bits}\\
+f=\text{fraction}\\
+P=\text{stored exponent}\\
+B=\text{bias}\\
+b=\text{bit}\\
+p=\text{true exponent}
+\end{aligned}
+$$
+
+---
+### bias
+- convert signed exponent into unsigned exponent
+
+---
+### bias formula
+$$
+\begin{aligned}
+B=P-p=2^{n_p-1}-1\\
+P=\text{stored exponent}\\
+p=\text{true exponent}\\
+n=\text{number of bits}
+\end{aligned}
+$$
+
+---
+### single precision
+- represent floating point with 32 bits
+
+---
+### single precision formula
+$$
+\begin{aligned}
+n_s=1\\
+n_p=8\implies B=127\\
+n_f=23\\
+n=\text{number of bits}\\
+B=\text{bias}
+\end{aligned}
+$$
+
+---
+### double precision
+- represent floating point with 64 bits
+
+---
+### double precision formula
+$$
+\begin{aligned}
+n_s=1\\
+n_p=11\implies B=1023\\
+n_f=52\\
+n=\text{number of bits}\\
+B=\text{bias}
+\end{aligned}
+$$
+
+---
+### long double precision
+- represent floating point with 80 bits
+
+---
+### long double precision formula
+$$
+\begin{aligned}
+n_s=1\\
+n_p=15\implies B=16383\\
+n_f=64\\
+n=\text{number of bits}\\
+B=\text{bias}
+\end{aligned}
+$$
+
+---
+### subnormal floating point
+- represent floating point smaller than the smallest normal floating point
+
+---
+### subnormal floating point formula
+$$
+\begin{aligned}
+x=(-1)^s(\sum_{i=1}^{n_f}f_i2^{-i})2^{1-B}=\pm0.b_1b_2\dots b_n\times2^p\\
+s=\text{sign}\\
+n=\text{number of bits}\\
+f=\text{fraction}\\
+B=\text{bias}\\
+b=\text{bit}\\
+p=\text{true exponent}
+\end{aligned}
+$$
+
+---
+### special floating point
+- zero
+- minimum positive subnormal
+- maximum positive subnormal
+- minimum positive normal
+- maximum positive finite
+- infinity
+
+---
+### special floating point formula
+$$
+\begin{aligned}
+\pm0.00\dots00\times2^{-1022}\\
+2^{-1024}=4.94\times10^{-324}\\
+(1-2^{-52})2^{-1022}=2.23\times10^{-308}\\
+2^{-1022}=2.23\times10^{-308}\\
+(2-2^{-52})2^{1023}=1.80\times10^{308}\\
+\pm1.00\dots00\times2^{1024}
+\end{aligned}
+$$
+
+---
+### machine epsilon
+- distance between 1 and the next largest floating point
+
+---
+### machine epsilon formula
+$$
+\begin{aligned}
+\epsilon=2^{-52}=2.22\times10^{-16}
+\end{aligned}
+$$
+
+---
+### rounding
+- definition
+
+---
+### rounding formula
+$$
+\begin{aligned}
+
+\end{aligned}
+$$
+
+---
+### term
+- definition
+
+---
+### term
+- definition
+
+---
+### term
+- definition
+
+---
+### term
+- definition
+
+---
 ### term
 - definition
 
