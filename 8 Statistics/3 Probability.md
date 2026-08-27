@@ -2,8 +2,27 @@
 - set of all possible outcomes
 
 ---
+### sample space formula
+$$
+\begin{aligned}
+\Omega=\set{\omega_1,\omega_2,\dots,\omega_n}\\
+\omega=\text{outcome}
+\end{aligned}
+$$
+
+---
 ### event
 - subset of sample space
+
+---
+### event formula
+$$
+\begin{aligned}
+A\subset\Omega\\
+A=\text{event}\\
+\Omega=\text{sample space}
+\end{aligned}
+$$
 
 ---
 ### probability
@@ -13,29 +32,14 @@
 ### probability formula
 $$
 \begin{aligned}
-0\le P(A)\le1\\
-A\cap B=\emptyset\implies P(A\cup B)=P(A)+P(B)\\
-P(\Omega)=1
-\end{aligned}
-$$
-
----
-### frequentist probability
-- relative frequency
-
----
-### frequentist probability formula
-$$
-\begin{aligned}
-P(A)=\lim_{n\to\infty}\frac{m}{n}\\
-m=\text{number of events}\\
-n=\text{number of trials}
+P:2^\Omega\rightarrow[0,1]\\
+\Omega=\text{sample space}
 \end{aligned}
 $$
 
 ---
 ### classical probability
-- equally likely outcomes
+- probability based on equally likely outcomes
 
 ---
 ### classical probability formula
@@ -48,6 +52,47 @@ n=\text{total number of outcomes}
 $$
 
 ---
+### empirical probability
+- probability based on experimental data
+
+---
+### empirical probability formula
+$$
+\begin{aligned}
+P(A)=\frac{m}{n}\\
+m=\text{number of events}\\
+n=\text{number of trials}
+\end{aligned}
+$$
+
+---
+### subjective probability
+- probability based on personal judgement
+
+---
+### subjective probability formula
+$$
+\begin{aligned}
+P(A|I)\in[0,1]\\
+I=\text{information}
+\end{aligned}
+$$
+
+---
+### axiomatic probability
+- probability based on mathematical rules
+
+---
+### axiomatic probability formula
+$$
+\begin{aligned}
+0\le P(A)\le1\\
+A\cap B=\emptyset\implies P(A\cup B)=P(A)+P(B)\\
+P(\Omega)=1
+\end{aligned}
+$$
+
+---
 ### complimentary probability
 - likelihood event will not occur
 
@@ -55,7 +100,7 @@ $$
 ### complimentary probability formula
 $$
 \begin{aligned}
-P(A')=1-P(A)
+P(A^c)=1-P(A)
 \end{aligned}
 $$
 
@@ -165,7 +210,7 @@ $$
 \begin{aligned}
 P(A|B)=\frac{P(A)P(B|A)}{P(B)}\\
 A=\text{hypothesis}\\
-B=\text{condition}
+B=\text{evidence}
 \end{aligned}
 $$
 
@@ -178,8 +223,7 @@ $$
 $$
 \begin{aligned}
 P(A)=\sum_{i=1}^{n}P(A|B_{i})P(B_{i})\\
-A=\text{hypothesis}\\
-B=\text{condition}
+A,B=\text{event}
 \end{aligned}
 $$
 
