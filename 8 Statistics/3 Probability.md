@@ -192,12 +192,12 @@ $$
 
 ---
 ### tree diagram
-- probability distribution of two or more dependent categorical variables
+- probability distribution of two or more dependent events
 ![[8 Statistics/Images/tree diagram.png]]
 
 ---
 ### venn diagram
-- frequency distribution of two or more dependent categorical variables
+- frequency distribution of two or more dependent events
 ![[8 Statistics/Images/venn diagram.png|350]]
 
 ---

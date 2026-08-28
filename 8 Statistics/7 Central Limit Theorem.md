@@ -13,16 +13,15 @@ $$
 
 ---
 ### sampling distribution
-- probability distribution of sample statistic across all possible samples of the same size
+- probability distribution of sample statistic across all possible random samples of the same size from the same population
 
 ---
 ### sampling distribution formula
 $$
 \begin{aligned}
-X\sim(\mu_{X},\sigma_{X})\\
-X=\text{sample statistic}\\
-\mu=\text{mean}\\
-\sigma=\text{standard deviation}
+Y\sim g(X_1,X_2,\dots,X_n)\\
+Y=\text{sample statistic}\\
+X=\text{random sample}
 \end{aligned}
 $$
 
@@ -34,10 +33,9 @@ $$
 ### mean standard error formula
 $$
 \begin{aligned}
-SE(\overline x)=\frac{\sigma}{\sqrt n}\approx\frac{s}{\sqrt n}\\
+SE(\overline x)=\frac{\sigma}{\sqrt n}\\
 \sigma=\text{sample standard deviation}\\
-n=\text{sample size}\\
-s=\text{sample standard deviation}
+n=\text{sample size}
 \end{aligned}
 $$
 
@@ -45,25 +43,24 @@ $$
 ### proportion standard error formula
 $$
 \begin{aligned}
-SE(\hat p)=\sqrt{\frac{p(1-p)}{n}}\approx\sqrt{\frac{\hat p(1-\hat p)}{n}}\\
+SE(\hat p)=\sqrt{\frac{p(1-p)}{n}}\\
 p=\text{proportion}\\
-n=\text{sample size}\\
-\hat p=\text{sample proportion}
+n=\text{sample size}
 \end{aligned}
 $$
 
 ---
 ### law of large numbers
-- sample statistic approaches population parameter as sample size approaches infinity
+- sample mean approaches population mean as sample size approaches infinity
 
 ---
 ### law of large numbers formula
 $$
 \begin{aligned}
-\lim_{n\rightarrow\infty}X=\mathcal X\\
+\lim_{n\rightarrow\infty}\bar X=\mu\\
 n=\text{sample size}\\
-X=\text{sample statistic}\\
-\mathcal X=\text{population parameter}
+\bar X=\text{sample mean}\\
+\mu=\text{mean}
 \end{aligned}
 $$
 
@@ -75,9 +72,9 @@ $$
 ### central limit theorem formula
 $$
 \begin{aligned}
-\forall n\ge30:X\sim N(\mu,\frac{\sigma}{\sqrt n})\\
+\forall n\ge30:\bar X\sim N(\mu,\frac{\sigma}{\sqrt n})\\
 n=\text{sample size}\\
-X=\text{sample statistic}\\
+\bar X=\text{sample mean}\\
 \mu=\text{mean}\\
 \sigma=\text{standard deviation}
 \end{aligned}
