@@ -1,5 +1,5 @@
 ### sample space
-- set of all possible outcomes
+- set of all possible outcomes of experiment
 
 ---
 ### sample space formula

@@ -1,17 +1,3 @@
-### accuracy
-- distance between mathematical solution and numerical approximation
-
----
-### accuracy formula
-$$
-\begin{aligned}
-e=\|y-\hat y\|\\
-y=\text{solution}\\
-\hat y=\text{approximation}
-\end{aligned}
-$$
-
----
 ### efficiency
 - computational cost of achieving specified error
 - time complexity equal speed of program
@@ -23,21 +9,6 @@ $$
 \begin{aligned}
 T(n)=O(f(n))\\
 S(n)=O(g(n))
-\end{aligned}
-$$
-
----
-### stability
-- sensitivity of output to intermediate error
-
----
-### stability formula
-$$
-\begin{aligned}
-\|G^n\|\le M\implies\|e_n\|\le M\|e_0\|\\
-G=\text{operator}\\
-M=\text{constant}\\
-e=\text{error}
 \end{aligned}
 $$
 
@@ -122,7 +93,9 @@ $$
 ### binary formula
 $$
 \begin{aligned}
-N=\sum_{k=0}^nb_k2^k\in\set{0,1,2,3,4,5,6,7,8,9}\iff b_k=\left\lfloor\frac{N}{2^k}\right\rfloor\mod2\in\set{0,1}\\
+N=\sum_{k=0}^nb_k2^{k}\in\set{0,1,2,3,4,5,6,7,8,9}\iff b_k=\left\lfloor\frac{N}{2^{k}}\right\rfloor\mod2\in\set{0,1}\\
+N<(\cdot)\implies k>0\\
+N>(\cdot)\implies k<0\\
 N=\text{digit}\\
 b=\text{bit}
 \end{aligned}
@@ -258,33 +231,122 @@ $$
 ### machine epsilon formula
 $$
 \begin{aligned}
-\epsilon=2^{-52}=2.22\times10^{-16}
+\epsilon_{\text{mach}}=2^{-52}=2.22\times10^{-16}
 \end{aligned}
 $$
 
 ---
 ### rounding
-- definition
+- round down
+- round up
+- tie
 
 ---
 ### rounding formula
 $$
 \begin{aligned}
-
+b_{k+1}<\frac12\implies b_k'=b_k\\
+b_{k+1}>\frac12\implies b_k'=b_k+\epsilon_{\text{mach}}\\
+(b_{k+1}=\frac12)\land(b_k=0)\implies b_k'=b_k\\
+(b_{k+1}=\frac12)\land(b_k=1)\implies b_k'=b_k+\epsilon_{\text{mach}}\\
 \end{aligned}
 $$
 
 ---
-### term
-- definition
+### absolute error
+- absolute distance between true number and computed number
 
 ---
-### term
-- definition
+### absolute error formula
+$$
+\begin{aligned}
+|x-x_c|\\
+x=\text{true number}\\
+x_c=\text{computed number}
+\end{aligned}
+$$
 
 ---
-### term
-- definition
+### relative error
+- relative distance between true number and computed number
+
+---
+### relative error formula
+$$
+\begin{aligned}
+\frac{|x-x_c|}{|x|}\\
+x=\text{true number}\\
+x_c=\text{computed number}
+\end{aligned}
+$$
+
+---
+### relative rounding error
+- relative distance between true number and computed number less or equal half machine epsilon
+
+---
+### relative rounding error formula
+$$
+\begin{aligned}
+\frac{|x-x_c|}{|x|}\le\frac12\epsilon\\
+x=\text{true number}\\
+x_c=\text{computed number}\\
+\epsilon_{\text{mach}}=\text{machine epsilon}
+\end{aligned}
+$$
+
+---
+### floating point representation
+- numerical approximation of true number
+
+---
+### floating point representation formula
+$$
+\begin{aligned}
+\text{fl}(x)=(1+\epsilon_{\text{mach}})x
+\end{aligned}
+$$
+
+---
+### machine representation
+- binary encoding of floating point
+
+---
+### machine representation formula
+$$
+\begin{aligned}
+s_1\mid P_1P_2\dots P_{11}\mid f_1f_2\dots f_{52}\\
+s=\text{sign}\\
+P=\text{exponent}\\
+f=\text{fraction}
+\end{aligned}
+$$
+
+---
+### underflow
+- true number below the range of representable normal floating point
+
+---
+### underflow formula
+$$
+\begin{aligned}
+0<|x|<2^{-2022}\\
+x=\text{true number}
+\end{aligned}
+$$
+
+---
+### overflow
+- true number above the range of representable finite floating point
+
+---
+### overflow formula
+$$
+\begin{aligned}
+|x|>1.80\times10^{308}\\
+x=\text{true number}
+\end{aligned}
+$$
 
 ---
 ### term
