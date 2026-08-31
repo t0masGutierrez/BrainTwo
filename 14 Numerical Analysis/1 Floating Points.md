@@ -351,7 +351,6 @@ $$
 ---
 ### loss of significance
 - subtraction of two nearly equal floating points cancel many significant digits
-- large relative error
 
 ---
 ### loss of significance formula
