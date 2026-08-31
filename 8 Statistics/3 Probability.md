@@ -45,9 +45,7 @@ $$
 ### classical probability formula
 $$
 \begin{aligned}
-P(A)=\frac{\text{m}}{\text{n}}\\
-m=\text{number of favorable outcomes}\\
-n=\text{total number of outcomes}
+P(A)=\frac{\text{number of favorable outcomes}}{\text{total number of outcomes}}
 \end{aligned}
 $$
 
@@ -59,9 +57,7 @@ $$
 ### empirical probability formula
 $$
 \begin{aligned}
-P(A)=\frac{m}{n}\\
-m=\text{number of events}\\
-n=\text{number of trials}
+P(A)=\frac{\text{number of events occurences}}{\text{number of trials}}
 \end{aligned}
 $$
 
@@ -73,7 +69,7 @@ $$
 ### subjective probability formula
 $$
 \begin{aligned}
-P(A|I)\in[0,1]\\
+P(A|I)\\
 I=\text{information}
 \end{aligned}
 $$

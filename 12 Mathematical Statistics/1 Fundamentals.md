@@ -8,8 +8,7 @@
 ---
 ### summation
 - constant
-- addition
-- scalar multiplication
+- linearity
 - partition index
 - shift index
 - reverse index
@@ -21,8 +20,7 @@
 $$
 \begin{aligned}
 \sum_{i=m}^nc=c(n-m+1)\\
-\sum_{i=m}^n(a_i\pm b_i)=\sum_{i=m}^na_i\pm\sum_{i=m}^nb_i\\
-\sum_{i=m}^nca_i=c\sum_{i=m}^na_i\\
+\sum_{i=m}^n(\alpha a_i\pm\beta b_i)=\alpha\sum_{i=m}^na_i\pm\beta\sum_{i=m}^nb_i\\
 \sum_{i=m}^na_i=\sum_{i=m}^ka_i\pm\sum_{i=k+1}^na_i\\
 \sum_{i=m}^na_i=\sum_{i=m}^ka_i\pm\sum_{j=m+r}^{n+r}a_{j-r}\\
 \sum_{i=m}^na_i=c\sum_{i=m}^na_{m+n-i}\\
