@@ -86,11 +86,11 @@ O=\text{computational complexity}
 $$
 
 ---
-### binary
+### binary number
 - base-2 number system
 
 ---
-### binary formula
+### binary number formula
 $$
 \begin{aligned}
 N=\sum_{k=0}^nb_k2^{k}\in\set{0,1,2,3,4,5,6,7,8,9}\iff b_k=\left\lfloor\frac{N}{2^{k}}\right\rfloor\mod2\in\set{0,1}\\
@@ -102,11 +102,11 @@ b=\text{bit}
 $$
 
 ---
-### floating point
+### floating-point number
 - binary scientific notation
 
 ---
-### floating point formula
+### floating-point number formula
 $$
 \begin{aligned}
 x=(-1)^s(1+\sum_{i=1}^{n_f}f_i2^{-i})2^{P-B}=\pm1.b_1b_2\dots b_n\times2^p\\
@@ -137,7 +137,7 @@ $$
 
 ---
 ### single precision
-- represent floating point with 32 bits
+- represent floating-point number with 32 bits
 
 ---
 ### single precision formula
@@ -153,7 +153,7 @@ $$
 
 ---
 ### double precision
-- represent floating point with 64 bits
+- represent floating-point number with 64 bits
 
 ---
 ### double precision formula
@@ -169,7 +169,7 @@ $$
 
 ---
 ### long double precision
-- represent floating point with 80 bits
+- represent floating-point number with 80 bits
 
 ---
 ### long double precision formula
@@ -184,11 +184,11 @@ B=\text{bias}
 $$
 
 ---
-### subnormal floating point
-- represent floating point smaller than the smallest normal floating point
+### subnormal floating-point number
+- represent floating-point number smaller than the smallest normal floating-point number
 
 ---
-### subnormal floating point formula
+### subnormal floating-point number formula
 $$
 \begin{aligned}
 x=(-1)^s(\sum_{i=1}^{n_f}f_i2^{-i})2^{1-B}=\pm0.b_1b_2\dots b_n\times2^p\\
@@ -202,7 +202,7 @@ p=\text{true exponent}
 $$
 
 ---
-### special floating point
+### special floating-point number
 - zero
 - minimum positive subnormal
 - maximum positive subnormal
@@ -211,7 +211,7 @@ $$
 - infinity
 
 ---
-### special floating point formula
+### special floating-point number formula
 $$
 \begin{aligned}
 \pm0.00\dots00\times2^{-1022}\\
@@ -225,7 +225,7 @@ $$
 
 ---
 ### machine epsilon
-- distance between 1 and the next largest floating point
+- distance between 1 and the next largest floating-point number
 
 ---
 ### machine epsilon formula
@@ -296,11 +296,11 @@ x_c=\text{computed number}\\
 $$
 
 ---
-### floating point representation
+### floating-point representation
 - numerical approximation of true number
 
 ---
-### floating point representation formula
+### floating-point representation formula
 $$
 \begin{aligned}
 \text{fl}(x)=(1+\epsilon_{\text{mach}})x
@@ -309,7 +309,7 @@ $$
 
 ---
 ### machine representation
-- binary encoding of floating point
+- binary encoding of floating-point representation
 
 ---
 ### machine representation formula
@@ -324,7 +324,7 @@ $$
 
 ---
 ### underflow
-- true number below the range of representable normal floating point
+- true number below the range of representable normal floating-point number
 
 ---
 ### underflow formula
@@ -337,7 +337,7 @@ $$
 
 ---
 ### overflow
-- true number above the range of representable finite floating point
+- true number above the range of representable finite floating-point number
 
 ---
 ### overflow formula
@@ -350,7 +350,7 @@ $$
 
 ---
 ### loss of significance
-- subtraction of two nearly equal floating points cancel many significant digits
+- subtraction of two nearly equal floating-point numbers cancel many significant digits
 
 ---
 ### loss of significance formula
