@@ -349,6 +349,39 @@ x=\text{true number}
 $$
 
 ---
+### loss of significance
+- subtraction of two nearly equal floating points cancel many significant digits
+- large relative error
+
+---
+### loss of significance formula
+$$
+\begin{aligned}
+x\approx y\implies\frac{|x-x_c|}{|x|}\gg1\\
+x=\text{true number}\\
+x_c=\text{computed number}
+\end{aligned}
+$$
+
+---
+### reformulation
+- rational
+- quadratic
+
+---
+### reformulation formula
+$$
+\begin{aligned}
+(\sqrt{1+x}-1)(\frac{\sqrt{1+x}+1}{\sqrt{1+x}+1})=\frac{x}{\sqrt{1+x}+1}\\
+b\approx\sqrt{b^2-4ac}\implies x_1x_2=\frac{c}{a}
+\end{aligned}
+$$
+
+---
+### term
+- definition
+
+---
 ### term
 - definition
 
