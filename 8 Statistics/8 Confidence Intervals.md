@@ -9,9 +9,9 @@
 ### biased estimator formula
 $$
 \begin{aligned}
-\mu_{X}\ne\mathcal X\\
-X=\text{sample statistic}\\
-\mathcal X=\text{population parameter}
+\mu_{\theta}\ne\Theta\\
+\theta=\text{sample statistic}\\
+\Theta=\text{population parameter}
 \end{aligned}
 $$
 
@@ -23,9 +23,9 @@ $$
 ### unbiased estimator formula
 $$
 \begin{aligned}
-\mu_{X}=\mathcal X\\
-X=\text{sample statistic}\\
-\mathcal X=\text{population parameter}
+\mu_{\theta}=\Theta\\
+\theta=\text{sample statistic}\\
+\Theta=\text{population parameter}
 \end{aligned}
 $$
 
@@ -65,10 +65,10 @@ $$
 ### critical value formula
 $$
 \begin{aligned}
-P(X\le c^{*})=\alpha\implies c^{*}=X^{-1}(\alpha,\text{df})\\
-P(X>c^{*})=\alpha\implies c^{*}=X^{-1}(1-\alpha,\text{df})\\
-P(-c^*\le X\le c^{*})=1-\alpha\implies c^{*}=X^{-1}(1-\alpha/2,\text{df})\\
-X=\text{sample statistic}\\
+P(\theta<c^{*})=\alpha\implies c^{*}=\theta^{-1}(\alpha,\text{df})\\
+P(\theta>c^{*})=\alpha\implies c^{*}=\theta^{-1}(1-\alpha,\text{df})\\
+P(-c^*\le\theta\le c^{*})=1-\alpha\implies c^{*}=\theta^{-1}(1-\alpha/2,\text{df})\\
+\theta=\text{sample statistic}\\
 c^{*}=\text{critical value}\\
 \alpha=\text{significance level}\\
 \text{df}=\text{degrees of freedom}
@@ -97,9 +97,9 @@ $$
 ### point estimate formula
 $$
 \begin{aligned}
-X\approx\mathcal X\\
-X=\text{sample statistic}\\
-\mathcal X=\text{population parameter}\\
+\theta\approx\Theta\\
+\theta=\text{sample statistic}\\
+\Theta=\text{population parameter}\\
 \end{aligned}
 $$
 
@@ -116,8 +116,8 @@ $$
 ### confidence interval formula
 $$
 \begin{aligned}
-CI=X\pm(c^{*})(SE)\\
-X=\text{sample statistic}\\
+\text{CI}=\theta\pm(c^{*})(SE)\\
+\theta=\text{sample statistic}\\
 c^{*}=\text{critical value}\\
 SE=\text{standard error}
 \end{aligned}
@@ -142,8 +142,8 @@ $$
 ### mean confidence interval formula
 $$
 \begin{aligned}
-CI=\overline X\pm z^{*}(\frac{\sigma}{\sqrt n})\\
-CI=\overline X\pm t^{*}(\frac{s}{\sqrt n})\\
+\text{CI}=\overline X\pm z^{*}(\frac{\sigma}{\sqrt n})\\
+\text{CI}=\overline X\pm t^{*}(\frac{s}{\sqrt n})\\
 \text{avgZ-int}(\sigma,\overline X,n,1-\alpha)\\
 \text{avgT-int}(s,\overline X,n,1-\alpha)\\
 \overline X=\text{sample mean}\\
@@ -167,7 +167,7 @@ $$
 ### proportion confidence interval formula
 $$
 \begin{aligned}
-CI=\hat p\pm z^{*}\sqrt{\frac{\hat p(1-\hat p)}{n}}\\
+\text{CI}=\hat p\pm z^{*}\sqrt{\frac{\hat p(1-\hat p)}{n}}\\
 \text{propZ-int}(x,n,1-\alpha)\\
 \hat p=\text{sample proportion}\\
 z^{*}=\text{critical value}\\
@@ -188,7 +188,7 @@ $$
 ### standard deviation confidence interval assumptions formula
 $$
 \begin{aligned}
-CI=\left(\sqrt{\frac{(n-1)s^{2}}{\chi^{2}_{\alpha/2}}},\sqrt{\frac{(n-1)s^{2}}{\chi^{2}_{1-\alpha/2}}}\right)\\
+\text{CI}=\left(\sqrt{\frac{(n-1)s^{2}}{\chi^{2}_{\alpha/2}}},\sqrt{\frac{(n-1)s^{2}}{\chi^{2}_{1-\alpha/2}}}\right)\\
 n=\text{sample size}\\
 s=\text{sample standard deviation}\\
 \chi^{2}_{*}=\text{critical value}

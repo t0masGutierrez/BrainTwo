@@ -100,15 +100,13 @@ $$
 
 ---
 ### variance property
-- addition
-- multiplication
+- linearity
 
 ---
 ### variance property formula
 $$
 \begin{aligned}
-\text{Var}(X+c)=\text{Var}(X)\\
-\text{Var}(cX)=c^{2}\text{Var}(X)
+\text{Var}(aX+b)=a^2\text{Var}(X)
 \end{aligned}
 $$
 

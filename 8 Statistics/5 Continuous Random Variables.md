@@ -9,8 +9,8 @@ X:\Omega\rightarrow\mathbb R\\
 X(\omega)=x\\
 X=\text{random variable}\\
 \Omega=\text{sample space}\\
-x=\text{real number}\\
-\omega=\text{outcome}
+\omega=\text{outcome}\\
+x=\text{real number}
 \end{aligned}
 $$
 
@@ -99,9 +99,10 @@ $$
 ### normal PDF probability formula
 $$
 \begin{aligned}
-f(x)=\frac{\exp(\frac{-(x-\mu)^{2}}{2\sigma^{2}})}{\sigma\sqrt{2\pi}}\\
-\mu=\text{mean}\\
-\sigma=\text{standard deviation}
+f(x)=(2\pi\sigma^2)^{-0.5}\exp(\frac{-(x-\mu)^{2}}{2\sigma^{2}})\\
+\sigma=\text{standard deviation}\\
+x=\text{data}\\
+\mu=\text{mean}
 \end{aligned}
 $$
 
@@ -131,7 +132,7 @@ $$
 ### standard normal PDF probability formula
 $$
 \begin{aligned}
-f(x)=\frac{e^{-x^{2}/2}}{\sqrt{2\pi}}\\
+f(x)=(2\pi)^{-0.5}\exp(\frac{-x^2}{2})\\
 x=\text{z-score}
 \end{aligned}
 $$
@@ -195,7 +196,7 @@ $$
 f(x)=\frac{\lambda e^{-\lambda x}(\lambda x)^{\alpha-1}}{\Gamma(\alpha)}\\
 \Gamma(\alpha)=\int_{0}^{\infty}e^{-x}x^{\alpha-1}dx\\
 \lambda=\text{average number of events per time}\\
-x=\text{amount of time between events}\\
+x=\text{amount of time until event}\\
 \Gamma=\text{gamma}\\
 \alpha=\text{event number}
 \end{aligned}
@@ -229,11 +230,10 @@ $$
 ### t PDF probability formula
 $$
 \begin{aligned}
-f(x)=\frac{\Gamma(\frac{d+1}{2})}{\Gamma(\frac{d}{2})\sqrt{d\pi}}(1+\frac{x^{2}}{d})^{-(d+1)/2}\\
+f(x)=\frac{\Gamma(\frac{\text{df}+1}{2})}{\Gamma(\frac{\text{df}}{2})\sqrt{\text{df}\pi}}(1+\frac{x^{2}}{\text{df}})^{-(\text{df}+1)/2}\\
 
 \Gamma=\text{gamma}\\
-d=\text{degrees of freedom}\\
-n=\text{sample size}\\
+\text{df}=\text{degrees of freedom}\\
 x=\text{t-statistic}
 \end{aligned}
 $$
@@ -250,9 +250,8 @@ $$
 ### t PDF standard deviation formula
 $$
 \begin{aligned}
-\sigma=\sqrt\frac{d}{d-2}\\
-d=\text{degrees of freedom}\\
-n=\text{sample size}\\
+\sigma=\sqrt\frac{\text{df}}{\text{df}-2}\\
+\text{df}=\text{degrees of freedom}
 \end{aligned}
 $$
 
@@ -264,10 +263,10 @@ $$
 ### chi-square PDF probability formula
 $$
 \begin{aligned}
-f(x)=\frac{x^{d/2-1}e^{-x/2}}{2^{d/2}\Gamma(\frac{d}{2})}\\
+f(x)=\frac{x^{\text{df}/2-1}e^{-x/2}}{2^{\text{df}/2}\Gamma(\frac{\text{df}}{2})}\\
 x=\text{$\chi^2$-statistic}\\
 \Gamma=\text{gamma}\\
-d=\text{degrees of freedom}\\
+\text{df}=\text{degrees of freedom}\\
 n=\text{sample size}
 \end{aligned}
 $$
@@ -276,9 +275,8 @@ $$
 ### chi-square PDF mean formula
 $$
 \begin{aligned}
-\mu=d\\
-d=\text{degrees of freedom}\\
-n=\text{sample size}
+\mu=\text{df}\\
+\text{df}=\text{degrees of freedom}
 \end{aligned}
 $$
 
@@ -286,9 +284,8 @@ $$
 ### chi-square PDF standard deviation formula
 $$
 \begin{aligned}
-\sigma=\sqrt{2d}\\
-d=\text{degrees of freedom}\\
-n=\text{sample size}
+\sigma=\sqrt{2\text{df}}\\
+\text{df}=\text{degrees of freedom}
 \end{aligned}
 $$
 
@@ -300,12 +297,11 @@ $$
 ### F PDF probability formula
 $$
 \begin{aligned}
-f(x)=\frac{x^{0.5d_{1}-1}\Gamma(\frac{d_{1}+d_{2}}{2})(\frac{d_{1}}{d_{2}})^{0.5d_{1}}}
-{\Gamma(\frac{d_{1}}{2})\Gamma(\frac{d_{2}}{2})(1+\frac{d_{1}}{d_{2}}x)^{\frac{-d_{1}-d_{2}}{2}}}\\
+f(x)=\frac{x^{0.5\text{df}_{1}-1}\Gamma(\frac{\text{df}_{1}+\text{df}_{2}}{2})(\frac{\text{df}_{1}}{\text{df}_{2}})^{0.5\text{df}_{1}}}
+{\Gamma(\frac{\text{df}_{1}}{2})\Gamma(\frac{\text{df}_{2}}{2})(1+\frac{\text{df}_{1}}{\text{df}_{2}}x)^{\frac{\text{df}_{1}+\text{df}_{2}}{2}}}\\
 x=\text{F-statistic}\\
 \Gamma=\text{gamma}\\
-d=\text{degrees of freedom}\\
-n=\text{sample size}
+d=\text{degrees of freedom}
 \end{aligned}
 $$
 
@@ -313,9 +309,8 @@ $$
 ### F PDF mean formula
 $$
 \begin{aligned}
-\mu=\frac{d_{2}}{d_{2}-2}\\
-d=\text{degrees of freedom}\\
-n=\text{sample size}
+\mu=\frac{\text{df}_{2}}{\text{df}_{2}-2}\\
+\text{df}=\text{degrees of freedom}
 \end{aligned}
 $$
 
@@ -323,9 +318,8 @@ $$
 ### F PDF standard deviation formula
 $$
 \begin{aligned}
-\sigma=\sqrt{\frac{2d_{2}^{2}(d_{1}+d_{2}-2)}{d_{1}(d_{2}-2)^{2}(d_{2}-4)}}\\
-d=\text{degrees of freedom}\\
-n=\text{sample size}
+\sigma=\sqrt{\frac{2\text{df}_{2}^{2}(\text{df}_{1}+\text{df}_{2}-2)}{\text{df}_{1}(\text{df}_{2}-2)^{2}(\text{df}_{2}-4)}}\\
+\text{df}=\text{degrees of freedom}
 \end{aligned}
 $$
 

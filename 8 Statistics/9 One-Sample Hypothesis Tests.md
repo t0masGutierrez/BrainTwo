@@ -10,7 +10,6 @@
 - state hypotheses
 - verify assumptions
 - choose significance level
-- calculate test statistic
 - choose method
 - reject or fail to reject null hypothesis
 - state conclusion
@@ -37,17 +36,17 @@ $$
 ### alternative hypothesis formula
 $$
 \begin{aligned}
-H_{a}:\quad>,\quad\ne,\quad<
+H_{1}:\quad>,\quad\ne,\quad<
 \end{aligned}
 $$
 
 ---
 ### reject null hypothesis
-- theres sufficient evidence for the alternative hypothesis
+- there's sufficient evidence for the alternative hypothesis
 
 ---
 ### fail to reject null hypothesis
-- theres not sufficient evidence for the alternative hypothesis
+- there's not sufficient evidence for the alternative hypothesis
 
 ---
 ### type I error
@@ -58,7 +57,7 @@ $$
 ### type I error formula
 $$
 \begin{aligned}
-\alpha=\text{rejecting}H_{0}\text{|}H_{0}\text{true}
+\alpha=\text{reject }H_{0}\mid H_{0}\text{ true}
 \end{aligned}
 $$
 
@@ -71,7 +70,7 @@ $$
 ### type II error formula
 $$
 \begin{aligned}
-\beta=\text{failing to reject}H_{0}\text{|}H_{0}\text{false}
+\beta=\text{fail to reject }H_{0}\mid H_{0}\text{ false}
 \end{aligned}
 $$
 
@@ -83,7 +82,7 @@ $$
 ### power of hypothesis test formula
 $$
 \begin{aligned}
-1-\beta=P(\text{rejecting}H_{0}\text{|}H_{0}\text{false})
+1-\beta=P(\text{reject }H_{0}\mid H_{0}\text{ false})
 \end{aligned}
 $$
 
@@ -95,9 +94,9 @@ $$
 ### test statistic formula
 $$
 \begin{aligned}
-T=\frac{X-X_{0}}{SE(X)}\\
-X=\text{sample statistic}\\
-X_{0}=\text{null hypothesis}\\
+\mathcal T=\frac{\theta-\theta_{0}}{SE(\theta)}\\
+\theta=\text{sample statistic}\\
+\theta_{0}=\text{null hypothesis}\\
 SE=\text{standard error}
 \end{aligned}
 $$
@@ -107,6 +106,16 @@ $$
 - area under the probability distribution where we reject null hypothesis
 
 ---
+### critical region formula
+$$
+\begin{aligned}
+\set{\mathcal T\mid\text{reject }H_0}\\
+\mathcal T=\text{test statistic}\\
+H_0=\text{null hypothesis}
+\end{aligned}
+$$
+
+---
 ### two-tail test
 - critical region under both tails
 
@@ -114,31 +123,56 @@ $$
 ### two-tail test formula
 $$
 \begin{aligned}
-H_{a}:\quad\ne
+H_1:\theta\ne\theta_0\\
+|\mathcal T|>c^*
 \end{aligned}
 $$
 
 ---
 ### left-tail test
-- critical region under the left tail
+- critical region under left tail
 
 ---
 ### left-tail test formula
 $$
 \begin{aligned}
-H_{a}:\quad<
+H_1:\theta<\theta_0\\
+\mathcal T<c^*
 \end{aligned}
 $$
 
 ---
 ### right-tail test
-- critical region under the right tail
+- critical region under right tail
 
 ---
 ### right-tail test formula
 $$
 \begin{aligned}
-H_{a}:\quad>
+H_1:\theta>\theta_0\\
+\mathcal T>c^*
+\end{aligned}
+$$
+
+---
+### mean z-test assumptions
+- numerical response variable
+- no explanatory variable
+- random sample
+- independent observations
+- normal population distribution or large sample size
+- known standard deviation
+
+---
+### mean z-test formula
+$$
+\begin{aligned}
+\text{avgZ-test}(\mu_{0},\sigma,\overline X,n,\mu_{1})\\
+\mu_{0}=\text{null hypothesis}\\
+\sigma=\text{standard deviation}\\
+\overline X=\text{sample mean}\\
+n=\text{sample size}\\
+\mu_{1}=\text{alternative hypothesis}
 \end{aligned}
 $$
 
@@ -148,21 +182,37 @@ $$
 
 ---
 ### conduct critical value hypothesis test
-- state hypotheses
-- choose significance level
 - calculate test statistic
 - find critical value
 - if test statistic inside critical region then reject null hypothesis
 - if test statistic outside critical region then fail to reject null hypothesis
 
 ---
+### p value
+- probability of test statistic at least as extreme as observed test statistic given the null hypothesis
+
+---
+### p value formula
+$$
+\begin{aligned}
+p=\begin{cases}
+P(|\mathcal T|\ge\tau\mid H_0),\quad H_1:\theta\ne\theta_0\\
+P(\mathcal T\le\tau\mid H_0),\quad H_1:\theta<\theta_0\\
+P(\mathcal T\ge\tau\mid H_0),\quad H_1:\theta>\theta_0
+\end{cases}\\
+\mathcal T=\text{test statistic}\\
+\tau=\text{observed test statistic}\\
+\theta=\text{sample statistic}\\
+\theta_0=\text{null hypothesis}
+\end{aligned}
+$$
+
+---
 ### p value hypothesis test
-- compare significance level and cumulative probability of observing test statistic given the null hypothesis
+- compare significance level and p value
 
 ---
 ### conduct p value hypothesis test
-- state hypotheses
-- choose significance level
 - calculate test statistic
 - calculate p value
 - if p value less or equal significance level then reject null hypothesis
@@ -170,38 +220,14 @@ $$
 
 ---
 ### confidence interval hypothesis test
-- compare critical value and range of guesses for the population parameter
+- compare critical value and confidence interval
 
 ---
 ### conduct confidence interval hypothesis test
-- state hypotheses
-- choose significance level
 - find critical value
-- construct sample statistic confidence interval
+- construct confidence interval
 - if null hypothesis outside confidence interval then reject null hypothesis
 - if null hypothesis inside confidence interval then fail to reject null hypothesis
-
----
-### mean z-test assumptions
-- numerical response variable
-- no explanatory variable
-- random sample
-- independent observations
-- normal distribution or large sample size
-- known standard deviation
-
----
-### mean z-test formula
-$$
-\begin{aligned}
-\text{avgZ-test}(\mu_{0},\sigma,\overline x,n,\mu_{a})\\
-\mu_{0}=\text{null hypothesis}\\
-\sigma=\text{standard deviation}\\
-\overline x=\text{sample mean}\\
-n=\text{sample size}\\
-\mu_{a}=\text{alternative hypothesis}
-\end{aligned}
-$$
 
 ---
 ### mean t-test assumptions
@@ -209,19 +235,19 @@ $$
 - no explanatory variable
 - random sample
 - independent observations
-- normal distribution or large sample size
+- normal population distribution or large sample size
 - unknown standard deviation
 
 ---
 ### mean t-test formula
 $$
 \begin{aligned}
-\text{avgT-test}(\mu_{0},\overline x,s,n,\mu_{a})\\
+\text{avgT-test}(\mu_{0},s,\overline X,n,\mu_{1})\\
 \mu_{0}=\text{null hypothesis}\\
-\overline x=\text{sample mean}\\
+\overline X=\text{sample mean}\\
 s=\text{sample standard deviation}\\
 n=\text{sample size}\\
-\mu_{a}=\text{alternative hypothesis}
+\mu_{1}=\text{alternative hypothesis}
 \end{aligned}
 $$
 
@@ -231,17 +257,20 @@ $$
 - no explanatory variable
 - random sample
 - independent observations
+- binomial random variable
+- at least 10 successes
+- at least 10 failures
 
 ---
 ### proportion z-test formula
 $$
 \begin{aligned}
-\text{propZ-test}(\mu_{0},\sigma,\overline x,n,\mu_{a})\\
+\text{propZ-test}(\mu_{0},\sigma,\overline X,n,\mu_{1})\\
 \mu_{0}=\text{null hypothesis}\\
 \sigma=\text{standard deviation}\\
-\overline x=\text{sample mean}\\
+\overline X=\text{sample mean}\\
 n=\text{sample size}\\
-\mu_{a}=\text{alternative hypothesis}
+\mu_{1}=\text{alternative hypothesis}
 \end{aligned}
 $$
 

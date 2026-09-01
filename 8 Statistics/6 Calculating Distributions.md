@@ -1,4 +1,4 @@
-\normal
+### normal
 - probability as function of mean and standard deviation
 
 ---
@@ -22,8 +22,8 @@ $$
 ### inverse normal formula
 $$
 \begin{aligned}
-x=N^{-1}(c,\mu,\sigma,\text{tail})\\
-c=\text{cumulative probability}\\
+x=N^{-1}(A,\mu,\sigma,\text{tail})\\
+A=\text{area}\\
 \mu=\text{mean}\\
 \sigma=\text{standard deviation}\\
 \text{tail}=\text{accumulation direction}
@@ -38,10 +38,14 @@ $$
 ### z-score formula
 $$
 \begin{aligned}
-z=\frac{x-\mu}{\sigma}\\
+z=\frac{x-\mu}{\sigma/\sqrt n}\\
+z=\frac{\hat p-p}{\sqrt{p(1-p)/n}}\\
 x=\text{data}\\
 \mu=\text{mean}\\
-\sigma=\text{standard deviation}
+\sigma=\text{standard deviation}\\
+n=\text{sample size}\\
+\hat p=\text{sample proportion}\\
+p=\text{proportion}
 \end{aligned}
 $$
 
@@ -68,8 +72,8 @@ $$
 ### inverse standard normal formula
 $$
 \begin{aligned}
-z=N^{-1}(c,0,1,\text{tail})\\
-c=\text{cumulative probability}\\
+z=N^{-1}(A,0,1,\text{tail})\\
+A=\text{area}\\
 \text{tail}=\text{accumulation direction}
 \end{aligned}
 $$
@@ -116,28 +120,24 @@ $$
 ### inverse t formula
 $$
 \begin{aligned}
-t=S^{-1}(c,\text{df})\\
-c=\text{cumulative probability}\\
+t=S^{-1}(A,\text{df})\\
+A=\text{area}\\
 \text{df}=\text{degrees of freedom}
 \end{aligned}
 $$
 
 ---
 ### chi-square-score
-- compare observations with expectations
+- ratio of variance
 
 ---
 ### chi-square-score formula
 $$
 \begin{aligned}
-\chi^{2}=\sum\frac{(O-E)^2}{E}\\
-\text{df}=n-1\\
+\chi^{2}=\frac{(n-1)s^2}{\sigma^2}\\
 n=\text{sample size}\\
 s=\text{sample standard deviation}\\
-\sigma=\text{standard deviation}\\
-\text{df}=\text{degrees of freedom}\\
-O=\text{observed counts}\\
-E=\text{expected counts}
+\sigma=\text{standard deviation}
 \end{aligned}
 $$
 
@@ -149,37 +149,8 @@ $$
 ### chi-square formula
 $$
 \begin{aligned}
-X\sim\chi^{2}(x,\text{df})\implies P(X\le x)\\
+\mathcal X\sim\chi^{2}(x,\text{df})\implies P(\mathcal X\le x)\\
 x=\text{$\chi^2$-score}\\
-\text{df}=\text{degrees of freedom}
-\end{aligned}
-$$
-
----
-### F-score
-- compare population mean between 3 or more groups
-
----
-### F-score formula
-$$
-\begin{aligned}
-F=\frac{MS_{\text{group}}}{MS_{\text{error}}}\\
-\text{df}_{\text{group}}=k-1\\
-\text{df}_{\text{error}}=n-k
-\end{aligned}
-$$
-
----
-### F
-- probability as function of F-score
-
----
-### F formula
-$$
-\begin{aligned}
-U\sim\chi^{2}(u,\text{df}_{1},\text{df}_{2})\implies P(U\le u)\\
-V\sim\chi^{2}(v,\text{df}_{1},\text{df}_{2})\implies P(V\le v)\\
-u,v=\text{F-score}\\
 \text{df}=\text{degrees of freedom}
 \end{aligned}
 $$

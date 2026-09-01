@@ -9,14 +9,14 @@ X:\Omega\rightarrow\mathbb R\\
 X(\omega)=x\\
 X=\text{random variable}\\
 \Omega=\text{sample space}\\
-x=\text{real number}\\
-\omega=\text{outcome}
+\omega=\text{outcome}\\
+x=\text{real number}
 \end{aligned}
 $$
 
 ---
 ### discrete random variable
-- random variable whose values are max countable
+- random variable whose values are countable
 
 ---
 ### discrete random variable formula
