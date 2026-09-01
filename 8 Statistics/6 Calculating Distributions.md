@@ -1,4 +1,4 @@
-### normal
+\normal
 - probability as function of mean and standard deviation
 
 ---
@@ -82,9 +82,9 @@ $$
 ### t-score formula
 $$
 \begin{aligned}
-t=\frac{\overline x-\mu}{s/\sqrt n}\\
+t=\frac{\overline X-\mu}{s/\sqrt n}\\
 \text{df}=n-1\\
-\overline x=\text{sample mean}\\
+\overline X=\text{sample mean}\\
 \mu=\text{mean}\\
 s=\text{sample standard deviation}\\
 n=\text{sample size}\\
@@ -93,27 +93,27 @@ n=\text{sample size}\\
 $$
 
 ---
-### student
+### t
 - probability as function of t-score
 
 ---
-### student formula
+### t formula
 $$
 \begin{aligned}
 T\sim S(t,\text{df})\implies P(T\le t)\\
 T=\text{random variable}\\
-S=\text{student distribution}\\
+S=\text{t distribution}\\
 t=\text{t-score}\\
 \text{df}=\text{degrees of freedom}
 \end{aligned}
 $$
 
 ---
-### inverse student
+### inverse t
 - t-score as function of cumulative probability
 
 ---
-### inverse student formula
+### inverse t formula
 $$
 \begin{aligned}
 t=S^{-1}(c,\text{df})\\

@@ -19,9 +19,9 @@ $$
 ### sampling distribution formula
 $$
 \begin{aligned}
-Y\sim g(X_1,X_2,\dots,X_n)\\
-Y=\text{sample statistic}\\
-X=\text{random sample}
+X\sim g(Y_1,Y_2,\dots,Y_n)\\
+X=\text{sample statistic}\\
+Y=\text{random sample}
 \end{aligned}
 $$
 
@@ -33,7 +33,7 @@ $$
 ### mean standard error formula
 $$
 \begin{aligned}
-SE(\overline x)=\frac{\sigma}{\sqrt n}\\
+SE(\overline X)=\frac{\sigma}{\sqrt n}\\
 \sigma=\text{sample standard deviation}\\
 n=\text{sample size}
 \end{aligned}
@@ -66,13 +66,13 @@ $$
 
 ---
 ### central limit theorem
-- sampling distribution approaches normal distribution as sample size gets large regardless of the population distribution
+- sampling distribution of mean approaches normal distribution as sample size approaches infinity regardless of population distribution
 
 ---
 ### central limit theorem formula
 $$
 \begin{aligned}
-\forall n\ge30:\bar X\sim N(\mu,\frac{\sigma}{\sqrt n})\\
+\forall n\ge30:\bar X\approx N(\mu,\frac{\sigma}{\sqrt n})\\
 n=\text{sample size}\\
 \bar X=\text{sample mean}\\
 \mu=\text{mean}\\
