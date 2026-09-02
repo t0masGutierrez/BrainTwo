@@ -148,16 +148,6 @@ $$
 - disjoint or joint
 
 ---
-### tree diagram
-- probability distribution of two or more dependent categorical variables
-![[8 Statistics/Images/tree diagram.png|300]]
-
----
-### venn diagram
-- frequency distribution of two or more dependent categorical variables
-![[8 Statistics/Images/venn diagram.png|350]]
-
----
 ### bayes theorem
 - method of updating probability of hypothesis based on evidence
 
