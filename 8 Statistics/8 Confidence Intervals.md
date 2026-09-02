@@ -2,6 +2,28 @@
 - sample statistic capable of estimating population parameter
 
 ---
+### estimator formula
+$$
+\begin{aligned}
+\theta
+\end{aligned}
+$$
+
+---
+### bias
+- systematic overestimation/underestimation of the population parameter
+
+---
+### bias formula
+$$
+\begin{aligned}
+B=E[\theta]-\Theta\\
+\theta=\text{sample statistic}\\
+\Theta=\text{population parameter}
+\end{aligned}
+$$
+
+---
 ### biased estimator
 - mean of sample statistic not equal population parameter
 

@@ -4,7 +4,7 @@
 ---
 ### mutual inductance
 - effectiveness of inducing emf between two conductors due to changing electric current
-![[4 Physics/Images/mutual inductance.png|200]]
+![200](4%20Physics/Images/mutual%20inductance.png)
 
 ---
 ### mutual inductance formula
@@ -25,7 +25,7 @@ $$
 ### mutual inductance emf formula
 $$
 \begin{aligned}
-\epsilon_{2}=-M\frac{di_{1}}{dt}\\
+\varepsilon_{2}=-M\frac{di_{1}}{dt}\\
 M=\text{mutual inductance}\\
 i=\text{electric current}\\
 t=\text{time}
@@ -35,7 +35,7 @@ $$
 ---
 ### self inductance
 - effectiveness of inducing emf on self due to changing electric current
-![[4 Physics/Images/self inductance.png|300]]
+![300](4%20Physics/Images/self%20inductance.png)
 
 ---
 ### self inductance formula
@@ -52,11 +52,11 @@ $$
 ### solenoid self inductance formula
 $$
 \begin{aligned}
-L=\frac{\mu_{0}N^{2}A}{L'}\\
+L=\frac{\mu_{0}N^{2}A}{\ell}\\
 \mu_{0}=4\pi\times10^{-7}\\
 N=\text{number of loops}\\
 A=\text{area}\\
-L'=\text{length}
+\ell=\text{length}
 \end{aligned}
 $$
 
@@ -81,7 +81,7 @@ $$
 ### self inductance emf formula
 $$
 \begin{aligned}
-\epsilon=-L\frac{di}{dt}\\
+\varepsilon=-L\frac{di}{dt}\\
 L=\text{self inductance}\\
 i=\text{electric current}\\
 t=\text{time}
@@ -91,7 +91,7 @@ $$
 ---
 ### inductor
 - electric component designed to oppose changing electric current
-![[4 Physics/Images/inductor.png|500]]
+![500](4%20Physics/Images/inductor.png)
 
 ---
 ### inductor formula
@@ -105,37 +105,30 @@ t=\text{time}
 $$
 
 ---
-### kirchhoffs loop rule
-- sum of voltage around loop must equal zero
-- conservation of energy
-![[4 Physics/Images/kirchoffs loop rule.png]]
+### kirchhoffs direction rule
+- direction of voltage across inductor equal direction of changing electric current
+![300](4%20Physics/Images/kirchhoffs%20direction%20rule.png)
 
 ---
-### kirchhoffs loop formula
+### kirchhoffs direction rule formula
 $$
 \begin{aligned}
-\sum V=0\\
-V=\text{voltage}
+\frac{di}{dt}=0\implies v_L=0\\
+\frac{di}{dt}>0\implies v_L>0\\
+\frac{di}{dt}<0\implies v_L<0\\
 \end{aligned}
 $$
 
 ---
-### calculate kirchhoffs loop rule
-- identify loop
-- choose direction of travel
-- for every loop apply kirchhoffs loop rule
-- solve system of equations
-
----
 ### magnetic potential energy
 - energy of position inside inductor
-![[4 Physics/Images/magnetic potential energy.png|300]]
+![300](4%20Physics/Images/magnetic%20potential%20energy.png)
 
 ---
 ### magnetic potential energy formula
 $$
 \begin{aligned}
-U=\frac{LI^{2}}{2}\\
+U=\frac{1}{2}LI^{2}\\
 L=\text{self inductance}\\
 I=\text{electric current}
 \end{aligned}
@@ -158,36 +151,47 @@ $$
 ---
 ### RL electric circuit
 - electric circuit with resistance and self inductance
-![[4 Physics/Images/RL electric circuit.png]]
-
----
-### calculate RL electric circuit
-- increasing equal connect emf
-- decreasing equal disconnect emf
+- connected emf increase electric current
+- disconnected emf decrease electric current
+![250](4%20Physics/Images/RL%20electric%20circuit.png)
 
 ---
 ### increasing inductor
 - positive terminal of inductor input electric current
-![[4 Physics/Images/increasing inductor.png]]
+- initial inductor equal open switch
+- final inductor equal closed switch
+![250](4%20Physics/Images/increasing%20inductor.png)
 
 ---
-### calculate increasing inductor
-- initial inductor equal open switch therefore zero electric current
-- final inductor equal closed switch therefore maximum electric current
+### increasing inductor formula
+$$
+\begin{aligned}
+i(t_0)=0\\
+\lim_{t\rightarrow\infty}i(t)=I
+\end{aligned}
+$$
 
 ---
 ### decreasing inductor
 - positive terminal of inductor output electric current
-![[4 Physics/Images/decreasing inductor.png]]
+- initial inductor equal closed switch
+- final inductor equal open switch
+![250](4%20Physics/Images/decreasing%20inductor.png)
 
 ---
-### calculate decreasing inductor
-- initial inductor equal closed switch therefore maximum electric current
-- final inductor equal open switch therefore zero electric current
+### decreasing inductor formula
+$$
+\begin{aligned}
+i(t_0)=I\\
+\lim_{t\rightarrow\infty}i(t)=0
+\end{aligned}
+$$
 
 ---
 ### time constant
 - measure of increasing time
+- small time constant increase faster
+- large time constant increase slower
 
 ---
 ### time constant formula
@@ -200,14 +204,9 @@ R=\text{resistance}
 $$
 
 ---
-### calculate time constant
-- small time constant equal faster increasing
-- large time constant equal slower increasing
-
----
 ### increasing electric current
 - electric current through increasing inductor as function of time
-![[4 Physics/Images/increasing electric current.png|400]]
+![300](4%20Physics/Images/increasing%20electric%20current.png)
 
 ---
 ### increasing electric current formula
@@ -226,7 +225,7 @@ $$
 ---
 ### decreasing electric current
 - electric current through decreasing inductor as function of time
-![[4 Physics/Images/decreasing electric current.png|400]]
+![[4 Physics/Images/decreasing electric current.png|300]]
 
 ---
 ### decreasing electric current formula
@@ -242,11 +241,8 @@ $$
 ---
 ### LC electric circuit
 - electric circuit with self inductance and capacitance
+- oscillating energy between inductor magnetic field and capacitor electric field
 ![[4 Physics/Images/LC electric circuit.png|500]]
-
----
-### calculate LC electric circuit
-- oscillating energy between capacitor electric field and inductor magnetic field
 
 ---
 ### LC potential energy

@@ -221,11 +221,9 @@ $$
 ### electromotive force formula
 $$
 \begin{aligned}
-\epsilon=I(r+R)\\
-V=\text{voltage}\\
-I=\text{electric current}\\
-r=\text{internal resistance}\\
-R=\text{resistance}
+\varepsilon=\frac{W}{q}\\
+W=\text{work}\\
+q=\text{electric charge}
 \end{aligned}
 $$
 
@@ -243,8 +241,8 @@ $$
 ### terminal voltage formula
 $$
 \begin{aligned}
-V=\epsilon-Ir\\
-\epsilon=\text{emf}\\
+V=\varepsilon-Ir\\
+\varepsilon=\text{emf}\\
 I=\text{electric current}\\
 r=\text{internal resistance}
 \end{aligned}

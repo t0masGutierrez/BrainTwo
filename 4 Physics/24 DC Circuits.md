@@ -85,9 +85,8 @@ $$
 
 ---
 ### kirchhoffs loop rule
-- sum of voltage around loop must equal zero
-- conservation of energy
-![[4 Physics/Images/kirchoffs loop rule.png]]
+- sum of voltage around loop equal zero because conservation of energy
+![[4 Physics/Images/kirchhoffs loop rule.png]]
 
 ---
 ### kirchhoffs loop formula
