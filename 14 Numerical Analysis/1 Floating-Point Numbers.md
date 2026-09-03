@@ -377,23 +377,3 @@ b\approx\sqrt{b^2-4ac}\implies x_1x_2=\frac{c}{a}
 $$
 
 ---
-### term
-- definition
-
----
-### term
-- definition
-
----
-### term
-- definition
-
----
-### term
-- definition
-
----
-### term
-- definition
-
----

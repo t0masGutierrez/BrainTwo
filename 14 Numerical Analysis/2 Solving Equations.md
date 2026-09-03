@@ -1,6 +1,20 @@
+### bracketing interval
+- interval whose endpoints have function values with opposite signs
+
+---
+### bracketing interval formula
+$$
+\begin{aligned}
+{}[a,b],\quad f(a)f(b)<0\\
+a,b=\text{endpoint}\\
+f=\text{function}
+\end{aligned}
+$$
+
+---
 ### bisection method
-- if continuous function and bracketing interval then there exists root such that the function at root equal zero
-- find root by repeatedly halving interval and choosing endpoint with opposite sign
+- repeatedly halve interval and choose endpoint with opposite sign
+![](14%20Numerical%20Analysis/Images/bisection%20method.png)
 
 ---
 ### bisection method formula
@@ -13,23 +27,23 @@ n=0,1,2,\dots\\
 {}[a_n,c_n],\quad f(a_n)f(c_n)<0\\
 {}[c_n,b_n],\quad f(c_n)f(b_n)<0
 \end{cases}\\
-f(c_n)=0\implies x_n=c_n
+f(c_n)=0\implies r_c=c_n
 \end{aligned}
 $$
 
 ---
 ### bisection error
-- absolute distance between root and computed number
+- absolute distance between true root and computed root
 
 ---
 ### bisection error formula
 $$
 \begin{aligned}
-|r-x_c|\le\frac{b_0-a_0}{2^{n+1}}\\
-|r-x_c|<\frac{1}{2}\times10^{-p}\implies n>\frac{\log(b-a)+p}{\log(2)}\\
-r=\text{root}\\
-x_c=\text{computed number}\\
-a,b=\text{real number}\\
+|r-r_c|\le\frac{b-a}{2^{n+1}}\\
+|r-r_c|<\frac{1}{2}\times10^{-p}\implies n>\frac{\log(b-a)+p}{\log(2)}\\
+r=\text{true root}\\
+r_c=\text{computed root}\\
+a,b=\text{endpoint}\\
 n=\text{number of iterations}\\
 p=\text{exponent}
 \end{aligned}
@@ -44,6 +58,53 @@ $$
 $$
 \begin{aligned}
 T(n)=n+2
+\end{aligned}
+$$
+
+---
+### fixed point
+- value thats invariant under function
+
+---
+### fixed point formula
+$$
+\begin{aligned}
+x=f(x)\\
+x=\text{fixed point}\\
+f=\text{continuous function}
+\end{aligned}
+$$
+
+---
+### fixed point method
+- repeatedly evaluate function at previous output until input equal output
+![300](14%20Numerical%20Analysis/Images/fixed%20point%20method.png)
+
+---
+### fixed point method formula
+$$
+\begin{aligned}
+x_0\\
+x_{n+1}=g(x_n)\\
+n=0,1,2,\dots\\
+\forall\epsilon>0,\exists N\in\mathbb N,\forall n\ge N:|x_{n+1}-x_n|<\epsilon\implies\\
+r_c=\lim_{n\rightarrow\infty}x_{n+1}=\lim_{n\rightarrow\infty}g(x_n)=g(r_c)
+\end{aligned}
+$$
+
+---
+### fixed point convergence
+- linear convergence
+- general convergence
+- linear divergence
+
+---
+### fixed point convergence formula
+$$
+\begin{aligned}
+|g'(r_c)|<1\implies\forall\epsilon>0,\exists N\in\mathbb N,\forall n\ge N:|x_n-r_c|<\epsilon\\
+g'(r_c)=g''(r_c)=\dots=g^{(p-1)}(r_c)=0\ne g^{(p)}(r_c)\implies|x_{n+1}-r_c|=|g^{(p)}(r)|(|x_n-r_c|)^p\\
+|g'(r_c)|>1\implies\exists\epsilon>0,\forall N\in\mathbb N,\exists n\ge N:|x_n-r_c|\ge\epsilon
 \end{aligned}
 $$
 
