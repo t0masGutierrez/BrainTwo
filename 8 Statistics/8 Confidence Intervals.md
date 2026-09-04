@@ -147,11 +147,11 @@ $$
 
 ---
 ### correct confidence interval
-- 95% confidence that the population parameter lie inside the confidence interval
+- 95% probability that the population parameter lie inside the confidence interval
 
 ---
 ### incorrect confidence interval
-- 95% chance that the population parameter lie outside the critical region
+- 95% of the population lie inside the confidence intervaln
 - 95% of sample statistic lie between lower boundary and upper boundary
 
 ---
