@@ -356,7 +356,7 @@ $$
 ### loss of significance formula
 $$
 \begin{aligned}
-x\approx y\implies\frac{|\Delta x-\Delta y|}{|x-y|}\gg1\\
+x\approx y\implies\frac{|x|+|y|}{|x-y|}\gg1\\
 x=\text{true number}\\
 x_c=\text{computed number}
 \end{aligned}

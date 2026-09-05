@@ -247,7 +247,7 @@ $$
 ### physical pendulum formula
 $$
 \begin{aligned}
-\sin(\theta)\approx\theta\implies T=2\pi\sqrt{\frac{I}{mgL}}\\
+\sin(\theta)\approx\theta\implies T=2\pi\sqrt{\frac{I_p}{mgL}}\\
 \theta=\text{angular position}\\
 T=\text{period}\\
 I=\text{moment of inertia}\\
@@ -284,14 +284,16 @@ $$
 ### under damped oscillation formula
 $$
 \begin{aligned}
-b^{2}<4mk\implies x(t)=A_{0}\cos(\omega t+\phi)\exp(\frac{-b}{2m}t)\\
-\omega=\sqrt{(\sqrt\frac{k}{m})^2-(\frac{b}{2m})^2}\\
+b^{2}<4mk\implies x(t)=A_{0}\exp(-\gamma t)\cos(\omega t+\phi)\\
+\gamma=\frac{b}{2m}\\
+\omega=\sqrt{(\sqrt\frac{k}{m})^2-\gamma^2}\\
 b=\text{damping coefficient}\\
 m=\text{mass}\\
 k=\text{spring constant}\\
 x=\text{position}\\
 t=\text{time}\\
 A=\text{amplitude}\\
+\gamma=\text{damping rate}\\
 \omega=\text{angular frequency}\\
 \phi=\text{phase angle}
 \end{aligned}
@@ -305,12 +307,14 @@ $$
 ### critically damped oscillation formula
 $$
 \begin{aligned}
-b^{2}=4mk\implies x(t)=(C_{1}+C_{2}t)\exp(\frac{-b}{2m}t)\\
+b^{2}=4mk\implies x(t)=\exp(-\gamma t)(C_{1}+C_{2}t)\\
+\gamma=\frac{b}{2m}\\
 b=\text{damping coefficient}\\
 m=\text{mass}\\
 k=\text{spring constant}\\
 x=\text{position}\\
 t=\text{time}\\
+\gamma=\text{damping rate}\\
 C=\text{constant}
 \end{aligned}
 $$
@@ -323,15 +327,15 @@ $$
 ### over damped oscillation
 $$
 \begin{aligned}
-b^{2}>4mk\implies x(t)=C_{1}\exp(r_{1}t)+C_{2}\exp(r_{2}t)\\
-r=\frac{-b\pm\sqrt{b^{2}-4mk}}{2m}\\
+b^{2}>4mk\implies x(t)=C_{1}\exp(\gamma_{1}t)+C_{2}\exp(\gamma_2t)\\
+\gamma=\frac{-b\pm\sqrt{b^{2}-4mk}}{2m}\\
 b=\text{damping coefficient}\\
 m=\text{mass}\\
 k=\text{spring constant}\\
 x=\text{position}\\
 t=\text{time}\\
 C=\text{constant}\\
-r=\text{root}
+\gamma=\text{damping rate}
 \end{aligned}
 $$
 
@@ -344,9 +348,9 @@ $$
 ### driven oscillation formula
 $$
 \begin{aligned}
-m\frac{d^{2}x}{dt^{2}}+b\frac{dx}{dt}+kx=F_{\text{max}}\cos(\omega t+\phi)\implies\\
+m\frac{d^{2}x}{dt^{2}}+b\frac{dx}{dt}+kx=F_{\text{max}}\cos(\omega t+\phi_1)\implies\\
 x(t)=\frac{F_{\text{max}}}{\sqrt{(k-m\omega^{2})^{2}+(b\omega)^{2}}}
-\cos(\omega t+\phi)\\
+\cos(\omega t+\phi_1+\phi_2)\\
 m=\text{mass}\\
 x=\text{position}\\
 t=\text{time}\\

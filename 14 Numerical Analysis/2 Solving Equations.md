@@ -33,7 +33,7 @@ $$
 
 ---
 ### bisection error
-- absolute distance between true root and computed root
+- absolute distance between true root and bisected root
 
 ---
 ### bisection error formula
@@ -109,11 +109,61 @@ g'(r_c)=g''(r_c)=\dots=g^{(p-1)}(r_c)=0\ne g^{(p)}(r_c)\implies|x_{n+1}-r_c|=|g^
 $$
 
 ---
-### term
-- definition
+### forward error
+- absolute distance between true root and forward root
 
 ---
-### term
-- definition
+### forward error formula
+$$
+\begin{aligned}
+|r-r_c|\\
+r=\text{true root}\\
+r_c=\text{computed root}
+\end{aligned}
+$$
+
+---
+### backward error
+- absolute distance between zero and computed number
+
+---
+### backward error formula
+$$
+\begin{aligned}
+|f(r_c)|\\
+r_c=\text{computed root}
+\end{aligned}
+$$
+
+---
+### slope
+- large slope equal smaller root sensitivity
+- small slope equal larger root sensitivity
+
+---
+### slope formula
+$$
+\begin{aligned}
+|r-r_c|\approx\frac{|f(r_c)|}{|f'(r)|}\\
+r=\text{true root}\\
+r_c=\text{computed root}
+\end{aligned}
+$$
+
+---
+### root sensitivity
+- if small change of function equal small change of root then well-conditioned
+- if small change of function equal large change of root then ill-conditioned
+
+---
+### root sensitivity formula
+$$
+\begin{aligned}
+\frac{\partial r}{\partial\epsilon}=\frac{\partial f/\partial\epsilon}{f'(r)}\implies\Delta r\approx\frac{\partial f/\partial\epsilon}{f'(r)}\Delta\epsilon\\
+r=\text{root}\\
+\epsilon=\text{perturbation}\\
+f=\text{function}
+\end{aligned}
+$$
 
 ---

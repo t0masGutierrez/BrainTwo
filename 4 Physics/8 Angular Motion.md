@@ -233,7 +233,7 @@ $$
 ### parallel axis formula
 $$
 \begin{aligned}
-I_{p}=I_{\text{cm}}+Mr^{2}\\
+I_{p}=I_{\text{cm}}+M(r_p-r_{\text{cm}})^{2}\\
 I=\text{moment of inertia}\\
 M=\text{system mass}\\
 r=\text{distance}
