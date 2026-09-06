@@ -37,28 +37,26 @@ $$
 x,x^2=x\cdot x,x^3=x\cdot x\cdot x,\dots,x^n=\prod_{k=1}^nx\\
 T(n)=\frac{n(n+1)}{2}\\
 S(n)=1\\
-O(n^2)\\
+x=\text{variable}\\
 T=\text{time complexity}\\
-S=\text{space complexity}\\
-O=\text{computational complexity}
+S=\text{space complexity}
 \end{aligned}
 $$
 
 ---
-### improved polynomial evaluation
+### recursive polynomial evaluation
 - evaluate each power recursively
 
 ---
-### improved polynomial evaluation formula
+### recursive polynomial evaluation formula
 $$
 \begin{aligned}
 x,x^2=x\cdot x,x^3=x^2\cdot x,\dots,x^n=x^{n-1}\cdot x\\
 T(n)=2n-1\\
 S(n)=1\\
-O(n^2)\\
+x=\text{variable}\\
 T=\text{time complexity}\\
-S=\text{space complexity}\\
-O=\text{computational complexity}
+S=\text{space complexity}
 \end{aligned}
 $$
 
@@ -78,10 +76,9 @@ p(x)=b_0
 \end{cases}\\
 T(n)=n\\
 S(n)=1\\
-O(n^2)\\
+x=\text{variable}\\
 T=\text{time complexity}\\
-S=\text{space complexity}\\
-O=\text{computational complexity}
+S=\text{space complexity}
 \end{aligned}
 $$
 
@@ -94,6 +91,7 @@ $$
 $$
 \begin{aligned}
 N=\sum_{k=0}^nb_k2^{k}\in\set{0,1,2,3,4,5,6,7,8,9}\iff b_k=\left\lfloor\frac{N}{2^{k}}\right\rfloor\mod2\in\set{0,1}\\
+k=0,\dots,\lfloor\frac{\log N}{\log2}\rfloor\\
 N<(\cdot)\implies k>0\\
 N>(\cdot)\implies k<0\\
 N=\text{digit}\\
