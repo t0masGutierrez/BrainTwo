@@ -150,8 +150,6 @@ $$
 ---
 ### RL electric circuit
 - electric circuit with resistance and self inductance
-- connected emf increase electric current
-- disconnected emf decrease electric current
 ![400](4%20Physics/Images/RL%20electric%20circuit.png)
 
 ---
@@ -159,7 +157,7 @@ $$
 - positive terminal of inductor input electric current
 - initial inductor equal open switch
 - final inductor equal closed switch
-![250](4%20Physics/Images/increasing%20inductor.png)
+![200](4%20Physics/Images/increasing%20inductor.png)
 
 ---
 ### increasing inductor formula
@@ -175,7 +173,7 @@ $$
 - positive terminal of inductor output electric current
 - initial inductor equal closed switch
 - final inductor equal open switch
-![250](4%20Physics/Images/decreasing%20inductor.png)
+![200](4%20Physics/Images/decreasing%20inductor.png)
 
 ---
 ### decreasing inductor formula
@@ -205,6 +203,7 @@ $$
 ---
 ### increasing electric current
 - electric current through increasing inductor as function of time
+- if connected emf then increasing electric current
 ![300](4%20Physics/Images/increasing%20electric%20current.png)
 
 ---
@@ -224,6 +223,7 @@ $$
 ---
 ### decreasing electric current
 - electric current through decreasing inductor as function of time
+- if disconnected emf then decreasing electric current
 ![[4 Physics/Images/decreasing electric current.png|300]]
 
 ---
@@ -240,14 +240,12 @@ $$
 ---
 ### LC electric circuit
 - electric circuit with self inductance and capacitance
-- oscillating energy between inductor magnetic field and capacitor electric field
-- increasing electric energy equal decreasing magnetic energy
-- maximum magnetic energy equal zero electric energy
 ![500](4%20Physics/Images/LC%20electric%20circuit.png)
 
 ---
 ### LC electromagnetic energy
-- energy of position inside LC electric circuit
+- spatiotemporal energy inside LC electric circuit
+- oscillating energy between inductor magnetic field and capacitor electric field
 ![500](4%20Physics/Images/LC%20potential%20energy.png)
 
 ---
@@ -263,27 +261,16 @@ C=\text{capacitance}
 $$
 
 ---
-### calculate simple harmonic motion
-- potential energy equal electric energy
-- kinetic energy equal magnetic energy
-- position equal electric charge
-- velocity equal electric current
-- spring equal capacitor
-- mass equal inductor
-
----
 ### LC harmonic motion
 - periodic motion where energy oscillate about equilibrium with restoring force directly proportional displacement
-- if initial electric charge equal maximum and initial electric current equal zero then phase angle equal zero
-- if initial electric charge equal zero and minimum initial electric current equal $\pi/2$ phase angle
-![500](4%20Physics/Images/LC%20harmonic%20motion.png)
+![300](4%20Physics/Images/LC%20harmonic%20motion.png)
 
 ---
 ### LC harmonic motion formula
 $$
 \begin{aligned}
 q(t)=Q\cos(\omega t+\phi)\\
-\frac{dq}{dt}=-Q\omega\sin(\omega t+\phi)\\
+i(t)=-Q\omega\sin(\omega t+\phi)\\
 \frac{di}{dt}=-Q\omega^{2}\cos(\omega t+\phi)\\
 \omega=\sqrt{\frac{1}{LC}}\\
 Q=\text{electric charge}\\
@@ -298,48 +285,26 @@ $$
 ---
 ### RLC electric circuit
 - electric circuit with resistance, self inductance, and capacitance
-![[4 Physics/Images/RLC electric circuit.png|300]]
+![400](4%20Physics/Images/RLC%20electric%20circuit.png)
 
 ---
-### calculate RLC electric circuit
-- damped oscillating energy between capacitor electric field and inductor magnetic field
+### under damped RLC oscillation
+- slow decrease of periodic motion
+![300](4%20Physics/Images/under%20damped%20RLC%20oscillation.png)
 
 ---
-### damped oscillation
-- decreasing harmonic motion by subtracting energy via damping force
-![[4 Physics/Images/damped oscillation1.png|400]]
-
----
-### damped oscillation formula
+### under damped RLC oscillation formula
 $$
 \begin{aligned}
-x(t)=A(e^{-bt/2m})\cos(\omega t+\phi)\\
-\omega=\sqrt{(\frac{k}{m})-(\frac{b^{2}}{4m^{2}})}\\
-A=\text{amplitude}\\
-b=\text{damping coefficient}\\
-t=\text{time}\\
-m=\text{mass}\\
-\omega=\text{angular frequency}\\
-k=\text{spring constant}\\
-\phi=\text{phase angle}
-\end{aligned}
-$$
-
----
-### damped RLC oscillation
-- decreasing LC harmonic motion by subtracting energy via resistance
-![[4 Physics/Images/damped RLC oscillation.png|300]]
-
----
-### damped RLC oscillation formula
-$$
-\begin{aligned}
-q(t)=Q(e^{-Rt/2L})\cos(\omega t+\phi)\\
-\omega=\sqrt{(\frac{1}{LC})-(\frac{R^{2}}{4L^{2}})}\\
-Q=\text{electric charge}\\
+R^{2}<\frac{4L}{C}\implies q(t)=Q\exp(-\gamma t)\cos(\omega t+\phi)\\
+\gamma=\frac{R}{2L}\\
+\omega=\sqrt{(\sqrt\frac{1}{LC})^2-\gamma^2}\\
 R=\text{resistance}\\
-t=\text{time}\\
 L=\text{self inductance}\\
+C=\text{capacitance}\\
+q,Q=\text{electric charge}\\
+t=\text{time}\\
+\gamma=\text{damping rate}\\
 \omega=\text{angular frequency}\\
 \phi=\text{phase angle}
 \end{aligned}
