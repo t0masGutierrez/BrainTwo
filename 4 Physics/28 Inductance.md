@@ -153,6 +153,19 @@ $$
 ![400](4%20Physics/Images/RL%20electric%20circuit.png)
 
 ---
+### RL electric circuit formula
+$$
+\begin{aligned}
+\sum V=v_R+v_L=iR+L\frac{di}{dt}=0\\
+v=\text{voltage}\\
+i=\text{electric current}\\
+R=\text{resistance}\\
+L=\text{self inductance}\\
+t=\text{time}
+\end{aligned}
+$$
+
+---
 ### increasing inductor
 - positive terminal of inductor input electric current
 - initial inductor equal open switch
@@ -243,6 +256,20 @@ $$
 ![500](4%20Physics/Images/LC%20electric%20circuit.png)
 
 ---
+### LC electric circuit formula
+$$
+\begin{aligned}
+\sum V=v_L+v_C=L\frac{di}{dt}+\frac{q}{C}=0\\
+v=\text{voltage}\\
+L=\text{self inductance}\\
+i=\text{electric current}\\
+t=\text{time}\\
+q=\text{electric charge}\\
+C=\text{capacitance}
+\end{aligned}
+$$
+
+---
 ### LC electromagnetic energy
 - spatiotemporal energy inside LC electric circuit
 - oscillating energy between inductor magnetic field and capacitor electric field
@@ -286,6 +313,21 @@ $$
 ### RLC electric circuit
 - electric circuit with resistance, self inductance, and capacitance
 ![400](4%20Physics/Images/RLC%20electric%20circuit.png)
+
+---
+### RLC electric circuit formula
+$$
+\begin{aligned}
+\sum V=v_R+v_L+v_C=iR+L\frac{di}{dt}+\frac{q}{C}=0\\
+v=\text{voltage}\\
+i=\text{electric current}\\
+R=\text{resistance}\\
+L=\text{self inductance}\\
+t=\text{time}\\
+q=\text{electric charge}\\
+C=\text{capacitance}
+\end{aligned}
+$$
 
 ---
 ### under damped RLC oscillation
