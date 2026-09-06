@@ -122,7 +122,6 @@ $$
 ---
 ### magnetic potential energy
 - energy of position inside inductor
-![300](4%20Physics/Images/magnetic%20potential%20energy.png)
 
 ---
 ### magnetic potential energy formula
@@ -153,7 +152,7 @@ $$
 - electric circuit with resistance and self inductance
 - connected emf increase electric current
 - disconnected emf decrease electric current
-![250](4%20Physics/Images/RL%20electric%20circuit.png)
+![400](4%20Physics/Images/RL%20electric%20circuit.png)
 
 ---
 ### increasing inductor
@@ -242,49 +241,24 @@ $$
 ### LC electric circuit
 - electric circuit with self inductance and capacitance
 - oscillating energy between inductor magnetic field and capacitor electric field
-![[4 Physics/Images/LC electric circuit.png|500]]
-
----
-### LC potential energy
-- energy of position inside LC electric circuit
-![[4 Physics/Images/LC potential energy.png]]
-
----
-### LC potential energy formula
-$$
-\begin{aligned}
-U=\frac{q^{2}}{2C}+\frac{Li^{2}}{2}=\frac{Q^{2}}{2C}=\frac{LI^{2}}{2}\\
-q=\text{electric charge}\\
-C=\text{capacitance}\\
-L=\text{self inductance}\\
-i=\text{electric current}
-\end{aligned}
-$$
-
----
-### calculate LC potential energy
 - increasing electric energy equal decreasing magnetic energy
 - maximum magnetic energy equal zero electric energy
+![500](4%20Physics/Images/LC%20electric%20circuit.png)
 
 ---
-### simple harmonic motion
-- periodic motion where object oscillate about equilibrium with restoring force directly proportional displacement
-![[4 Physics/Images/simple harmonic motion.png|400]]
+### LC electromagnetic energy
+- energy of position inside LC electric circuit
+![500](4%20Physics/Images/LC%20potential%20energy.png)
 
 ---
-### simple harmonic motion formula
+### LC electromagnetic energy formula
 $$
 \begin{aligned}
-x(t)=A\cos(\omega t+\phi)\\
-v(t)=-A\omega\sin(\omega t+\phi)\\
-a(t)=-A\omega^{2}\cos(\omega t+\phi)\\
-\omega=\sqrt{\frac{k}{m}}\\
-A=\text{amplitude}\\
-\omega=\text{angular frequency}\\
-t=\text{time}\\
-\phi=\text{phase angle}\\
-k=\text{spring constant}\\
-m=\text{mass}
+E=\frac{Li^{2}}{2}+\frac{q^{2}}{2C}=\frac{LI^{2}}{2}=\frac{Q^{2}}{2C}\\
+L=\text{self inductance}\\
+i,I=\text{electric current}\\
+q,Q=\text{electric charge}\\
+C=\text{capacitance}
 \end{aligned}
 $$
 
@@ -300,7 +274,9 @@ $$
 ---
 ### LC harmonic motion
 - periodic motion where energy oscillate about equilibrium with restoring force directly proportional displacement
-![[4 Physics/Images/LC harmonic motion.png|500]]
+- if initial electric charge equal maximum and initial electric current equal zero then phase angle equal zero
+- if initial electric charge equal zero and minimum initial electric current equal $\pi/2$ phase angle
+![500](4%20Physics/Images/LC%20harmonic%20motion.png)
 
 ---
 ### LC harmonic motion formula
@@ -318,11 +294,6 @@ L=\text{self inductance}\\
 C=\text{capacitance}
 \end{aligned}
 $$
-
----
-### calculate LC harmonic motion
-- maximum initial electric charge and zero initial electric current equal zero phase angle
-- zero initial electric charge and minimum initial electric current equal $\pi/2$ phase angle
 
 ---
 ### RLC electric circuit
