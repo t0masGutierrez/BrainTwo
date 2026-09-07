@@ -151,7 +151,7 @@ $$
 
 ---
 ### incorrect confidence interval
-- 95% of the population lie inside the confidence intervaln
+- 95% of the population lie inside the confidence interval
 - 95% of sample statistic lie between lower boundary and upper boundary
 
 ---
@@ -166,14 +166,11 @@ $$
 \begin{aligned}
 \text{CI}=\overline X\pm z^{*}(\frac{\sigma}{\sqrt n})\\
 \text{CI}=\overline X\pm t^{*}(\frac{s}{\sqrt n})\\
-\text{avgZ-int}(\sigma,\overline X,n,1-\alpha)\\
-\text{avgT-int}(s,\overline X,n,1-\alpha)\\
 \overline X=\text{sample mean}\\
 z^{*},t^{*}=\text{critical value}\\
 \sigma=\text{standard deviation}\\
-s=\text{sample standard deviation}\\
 n=\text{sample size}\\
-\alpha=\text{significance level}
+s=\text{sample standard deviation}
 \end{aligned}
 $$
 
@@ -190,13 +187,9 @@ $$
 $$
 \begin{aligned}
 \text{CI}=\hat p\pm z^{*}\sqrt{\frac{\hat p(1-\hat p)}{n}}\\
-\text{propZ-int}(x,n,1-\alpha)\\
 \hat p=\text{sample proportion}\\
 z^{*}=\text{critical value}\\
 n=\text{sample size}\\
-
-x=\text{number of successes}\\
-\alpha=\text{significance level}
 \end{aligned}
 $$
 
@@ -207,7 +200,7 @@ $$
 - normal population distribution
 
 ---
-### standard deviation confidence interval assumptions formula
+### standard deviation confidence interval formula
 $$
 \begin{aligned}
 \text{CI}=\left(\sqrt{\frac{(n-1)s^{2}}{\chi^{2}_{\alpha/2}}},\sqrt{\frac{(n-1)s^{2}}{\chi^{2}_{1-\alpha/2}}}\right)\\

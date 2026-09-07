@@ -6,22 +6,14 @@
 - compare population parameter between group 1 and group 2
 
 ---
-### conduct two sample hypothesis test
-- state hypotheses
-- verify assumptions
-- choose significance level
-- calculate test statistic
-- choose method
-- reject or fail to reject null hypothesis
-- state conclusion
-
----
-### independent sample
+### independent grouping
 - there exists no meaningful relationship between group 1 and group 2
+- sample size can differ
 
 ---
-### dependent sample
-- there exists meaningful relationship between group 1 and group 2
+### dependent grouping
+- there exists paired/matched relationship between group 1 and group 2
+- sample size cannot differ
 
 ---
 ### two sample null hypothesis
@@ -31,8 +23,7 @@
 ### two sample null hypothesis formula
 $$
 \begin{aligned}
-H_{0}:\mu_{1}-\mu_{2}=0\\
-H_{0}:p_{1}-p_{2}=0\\
+H_{0}:\theta_1-\theta_{2}=0
 \end{aligned}
 $$
 
@@ -44,7 +35,7 @@ $$
 ### two sample alternative hypothesis formula
 $$
 \begin{aligned}
-H_{a}:\quad>,\quad\ne,\quad<\\
+H_1:\quad>,\quad\ne,\quad<\\
 \end{aligned}
 $$
 
@@ -56,11 +47,14 @@ $$
 ### unpooled variance formula
 $$
 \begin{aligned}
-s_{1}^{2}=\frac{\sum_{i=1}^{n}(x_{1i}-\overline x_{1})^{2}}{n_{1}-1}\\
-s_{2}^{2}=\frac{\sum_{i=1}^{n}(x_{2i}-\overline x_{2})^{2}}{n_{2}-1}\\
+s^{2}=\frac{\sum_{i=1}^{n}(x_{i}-\overline X)^{2}}{n-1}\\
+SE(\overline X_{1}-\overline X_{2})=\sqrt{\frac{s_{1}^{2}}{n_{1}}+\frac{s_{2}^{2}}{n_{2}}}\\
+SE(\hat p_{1}-\hat p_{2})=\sqrt{\frac{\hat p_{1}(1-\hat p_{1})}{n_{1}}+\frac{\hat p_{2}(1-\hat p_{2})}{n_{2}}}\\
+\text{df}=\frac{(\frac{s_1^2}{n_1}+\frac{s_2^2}{n_2})^2}{\frac{(s_1^2/n_1)^2}{n_1-1}+\frac{(s_2^2/n_2)^2}{n_2-1}}\\
 x=\text{data}\\
-\overline x=\text{sample mean}\\
-n=\text{sample size}
+\overline X=\text{sample mean}\\
+n=\text{sample size}\\
+\hat p=\text{sample proportion}
 \end{aligned}
 $$
 
@@ -72,92 +66,15 @@ $$
 ### pooled variance formula
 $$
 \begin{aligned}
-s^{2}=\frac{(n_{1}-1)s_{1}^{2}+(n_{2}-1)s_{2}^{2}}{n_{1}+n_{2}-2}\\
-s=\text{sample standard deviation}\\
-n=\text{sample size}
-\end{aligned}
-$$
-
----
-### mean standard error
-- standard deviation of mean sampling distribution
-
----
-### mean unpooled standard error formula
-$$
-\begin{aligned}
-SE(\overline x_{1}-\overline x_{2})=\sqrt{\frac{s_{1}^{2}}{n_{1}}+\frac{s_{2}^{2}}{n_{2}}}\\
-s=\text{sample standard deviation}\\
-n=\text{sample size}
-\end{aligned}
-$$
-
----
-### mean pooled standard error formula
-$$
-\begin{aligned}
-SE(\overline x_{1}-\overline x_{2})=s\sqrt{\frac{1}{n_{1}}+\frac{1}{n_{2}}}\\
-s=\text{sample standard deviation}\\
-n=\text{sample size}
-\end{aligned}
-$$
-
----
-### unpooled proportion
-- unequal proportion between group 1 and group 2
-
----
-### unpooled proportion formula
-$$
-\begin{aligned}
-\hat p_{1}=\frac{x_{1}}{n_{1}}\\
-\hat p_{2}=\frac{x_{2}}{n_{2}}\\
-x=\text{data}\\
-n=\text{sample size}
-\end{aligned}
-$$
-
----
-### pooled proportion
-- equal proportion between group 1 and group 2
-
----
-### pooled proportion formula
-$$
-\begin{aligned}
-\hat p=\frac{x_{1}+x_{2}}{n_{1}+n_{2}}\\
-x=\text{data}\\
-n=\text{sample size}
-\end{aligned}
-$$
-
----
-### proportion standard error
-- standard deviation of proportion sampling distribution
-
----
-### proportion unpooled standard error formula
-$$
-\begin{aligned}
-SE(\hat p_{1}-\hat p_{2})=\sqrt{\frac{\hat p_{1}(1-\hat p_{1})}{n_{1}}+\frac{\hat p_{2}(1-\hat p_{2})}{n_{2}}}\\
-\hat p=\text{sample proportion}\\
-n=\text{sample size}
-\end{aligned}
-$$
-
----
-### proportion pooled standard error formula
-$$
-\begin{aligned}
+s_p^{2}=\frac{(n_{1}-1)s_{1}^{2}+(n_{2}-1)s_{2}^{2}}{n_{1}+n_{2}-2}\\
+SE(\overline X_{1}-\overline X_{2})=s_p\sqrt{\frac{1}{n_{1}}+\frac{1}{n_{2}}}\\
 SE(\hat p_{1}-\hat p_{2})=\sqrt{\hat p(1-\hat p)(\frac{1}{n_{1}}+\frac{1}{n_{2})}}\\
-\hat p=\text{sample proportion}\\
-n=\text{sample size}
+\text{df}=n_1+n_2-2\\
+s=\text{sample standard deviation}\\
+n=\text{sample size}\\
+\hat p=\text{sample proportion}
 \end{aligned}
 $$
-
----
-### sample mean
-- point estimate of population mean
 
 ---
 ### two mean independent hypothesis test assumptions
@@ -165,21 +82,17 @@ $$
 - categorical explanatory variable with two categories
 - random sample
 - independent observations
-- normal distribution or large sample size
+- normal population distribution or large sample size
 - unknown standard deviation
-- independent groups
-- equal variance
+- independent grouping
 
 ---
-### two mean independent t-score formula
+### two mean independent hypothesis test formula
 $$
 \begin{aligned}
-t=\frac{\overline d-0}{SE(\overline d)}\\
-\overline d=\overline x_{1}-\overline x_{2}\\
-df=n_{1}+n_{2}-2\\
-\overline x=\text{sample mean}\\
+t=\frac{\overline X_{1}-\overline X_{2}-0}{SE(\overline X_{1}-\overline X_{2})}\\
+\overline X=\text{sample mean}\\
 SE=\text{standard error}\\
-n=\text{sample size}
 \end{aligned}
 $$
 
@@ -189,28 +102,20 @@ $$
 - no explanatory variable
 - random sample
 - independent observations
-- normal distribution or large sample size
+- normal population distribution or large sample size
 - unknown standard deviation
-- paired/matched groups
-- unequal variance
+- dependent grouping
 
 ---
-### two mean dependent t-score formula
+### two mean dependent hypothesis test formula
 $$
 \begin{aligned}
-t=\frac{\overline d-0}{SE(\overline d)}\\
-\overline d=\frac{\sum_{i}\overline d_{i}}{n}\\
-d_{i}=\overline x_{1i}-\overline x_{2i}\\
-df=n-1\\
-\overline x=\text{sample mean}\\
-SE=\text{standard error}\\
+t=\frac{\overline{X_{1}-X_{2}}-0}{s/\sqrt{n}}\\
+\text{df}=n-1\\
+s=\text{sample standard deviation}\\
 n=\text{sample size}
 \end{aligned}
 $$
-
----
-### sample proportion
-- point estimate of population proportion
 
 ---
 ### two proportion independent hypothesis test assumptions
@@ -220,23 +125,20 @@ $$
 - independent observations
 - expected number of success greater or equal 10
 - expected number of failures greater or equal 10
-- independent groups
-- equal proportion
+- independent grouping
+- equal variance
 
 ---
-### two proportion independent z-score formula
+### two proportion independent hypothesis test formula
 $$
 \begin{aligned}
-z=\frac{\hat d-0}{SE(\hat d)}\\
-\hat d=\hat p_{1}-\hat p_{2}\\
+z=\frac{\hat p_1-\hat p_2-0}{\sqrt{\hat p(1-\hat p)(\frac{1}{n_{1}}+\frac{1}{n_{2})}}}\\
+\hat p=\frac{x_1+x_2}{n_1+n_2}\\
 \hat p=\text{sample proportion}\\
-SE=\text{standard error}
+n=\text{sample size}\\
+x=\text{data}
 \end{aligned}
 $$
-
----
-### sample variance
-- point estimate of population variance
 
 ---
 ### two variance independent hypothesis test assumptions
@@ -244,15 +146,17 @@ $$
 - categorical explanatory variable with two categories
 - random samples
 - independent observations
-- normal distribution
-- independent groups
+- normal population distribution
+- independent grouping
 
 ---
-### two variance independent F-score formula
+### two variance independent hypothesis test formula
 $$
 \begin{aligned}
 F=\frac{s_{1}^{2}}{s_{2}^{2}}\\
-s=\text{sample standard deviation}
+\text{df}=n-1\\
+s=\text{sample standard deviation}\\
+n=\text{sample size}
 \end{aligned}
 $$
 
@@ -266,8 +170,8 @@ $$
 ### two sample hypothesis test method formula
 $$
 \begin{aligned}
-|X|>c^{*}\implies\not H_{0}\\
-|X|\le c^{*}\implies H_{0}\\
+|\mathcal T|>c^{*}\implies\not H_{0}\\
+|\mathcal T|\le c^{*}\implies H_{0}\\
 p\le\alpha\implies\not H_{0}\\
 p>\alpha\implies H_{0}\\
 0\not\in CI\implies\not H_{0}\\

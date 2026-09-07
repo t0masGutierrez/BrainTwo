@@ -5,7 +5,7 @@
 ### sampling variability formula
 $$
 \begin{aligned}
-\omega_{1},\omega_{2}\subset\Omega\implies\theta_{1}\ne\theta_{2}\\
+\omega_{1},\omega_{2}\subset\Omega\not\implies\theta_{1}=\theta_{2}\\
 \omega=\text{sample}\\
 \theta=\text{sample statistic}
 \end{aligned}
@@ -19,9 +19,9 @@ $$
 ### sampling distribution formula
 $$
 \begin{aligned}
-\theta\sim g(S_1,S_2,\dots,S_n)\\
+\theta\sim g(\omega_1,\omega_2,\dots,\omega_n)\\
 \theta=\text{sample statistic}\\
-S=\text{random sample}
+\omega=\text{sample}
 \end{aligned}
 $$
 

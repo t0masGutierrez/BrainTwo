@@ -22,11 +22,10 @@ $$
 ### inverse normal formula
 $$
 \begin{aligned}
-x=N^{-1}(A,\mu,\sigma,\text{tail})\\
-A=\text{area}\\
+x=N^{-1}(p,\mu,\sigma)\\
+p=\text{probability}\\
 \mu=\text{mean}\\
-\sigma=\text{standard deviation}\\
-\text{tail}=\text{accumulation direction}
+\sigma=\text{standard deviation}
 \end{aligned}
 $$
 
@@ -72,9 +71,8 @@ $$
 ### inverse standard normal formula
 $$
 \begin{aligned}
-z=N^{-1}(A,0,1,\text{tail})\\
-A=\text{area}\\
-\text{tail}=\text{accumulation direction}
+z=N^{-1}(p,0,1)\\
+p=\text{probability}
 \end{aligned}
 $$
 
@@ -120,8 +118,8 @@ $$
 ### inverse t formula
 $$
 \begin{aligned}
-t=S^{-1}(A,\text{df})\\
-A=\text{area}\\
+t=S^{-1}(p,\text{df})\\
+p=\text{probability}\\
 \text{df}=\text{degrees of freedom}
 \end{aligned}
 $$
@@ -151,6 +149,20 @@ $$
 \begin{aligned}
 \mathcal X\sim\chi^{2}(x,\text{df})\implies P(\mathcal X\le x)\\
 x=\text{$\chi^2$-score}\\
+\text{df}=\text{degrees of freedom}
+\end{aligned}
+$$
+
+---
+### inverse chi-square
+- probability as function of cumulative probability
+
+---
+### inverse chi-square formula
+$$
+\begin{aligned}
+x=\chi^{-2}(p,\text{df})\\
+p=\text{probability}\\
 \text{df}=\text{degrees of freedom}
 \end{aligned}
 $$

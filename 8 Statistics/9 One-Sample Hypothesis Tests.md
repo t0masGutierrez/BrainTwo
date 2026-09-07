@@ -2,17 +2,12 @@
 - claim about population parameter
 
 ---
-### hypothesis test
-- evaluate hypothesis by analyzing the significance of sample data
-
----
-### conduct hypothesis test
-- state hypotheses
-- verify assumptions
-- choose significance level
-- choose method
-- reject or fail to reject null hypothesis
-- state conclusion
+### hypothesis formula
+$$
+\begin{aligned}
+H
+\end{aligned}
+$$
 
 ---
 ### null hypothesis
@@ -46,7 +41,21 @@ $$
 
 ---
 ### fail to reject null hypothesis
-- there's not sufficient evidence for the alternative hypothesis
+- there's insufficient evidence for the alternative hypothesis
+
+---
+### hypothesis test
+- if null hypothesis true then what's the probability of observing sample statistic at least as extreme as observed sample statistic?
+
+---
+### conduct hypothesis test
+- state hypotheses
+- verify assumptions
+- choose significance level
+- choose method
+- evaluate hypothesis by analyzing sample data
+- reject or fail to reject null hypothesis
+- state conclusion
 
 ---
 ### type I error
@@ -155,28 +164,6 @@ H_1:\theta>\theta_0\\
 $$
 
 ---
-### mean z-test assumptions
-- numerical response variable
-- no explanatory variable
-- random sample
-- independent observations
-- normal population distribution or large sample size
-- known standard deviation
-
----
-### mean z-test formula
-$$
-\begin{aligned}
-\text{avgZ-test}(\mu_{0},\sigma,\overline X,n,\mu_{1})\\
-\mu_{0}=\text{null hypothesis}\\
-\sigma=\text{standard deviation}\\
-\overline X=\text{sample mean}\\
-n=\text{sample size}\\
-\mu_{1}=\text{alternative hypothesis}
-\end{aligned}
-$$
-
----
 ### critical value hypothesis test
 - compare test statistic and critical value
 
@@ -230,6 +217,28 @@ $$
 - if null hypothesis inside confidence interval then fail to reject null hypothesis
 
 ---
+### mean z-test assumptions
+- numerical response variable
+- no explanatory variable
+- random sample
+- independent observations
+- normal population distribution or large sample size
+- known standard deviation
+
+---
+### mean z-test formula
+$$
+\begin{aligned}
+\text{avgZ-test}(\mu_{0},\sigma,\overline X,n,\mu_{1})\\
+\mu_{0}=\text{null hypothesis}\\
+\sigma=\text{standard deviation}\\
+\overline X=\text{sample mean}\\
+n=\text{sample size}\\
+\mu_{1}=\text{alternative hypothesis}
+\end{aligned}
+$$
+
+---
 ### mean t-test assumptions
 - numerical response variable
 - no explanatory variable
@@ -265,12 +274,12 @@ $$
 ### proportion z-test formula
 $$
 \begin{aligned}
-\text{propZ-test}(\mu_{0},\sigma,\overline X,n,\mu_{1})\\
-\mu_{0}=\text{null hypothesis}\\
+\text{propZ-test}(p_{0},\sigma,\overline X,n,p_{1})\\
+p_{0}=\text{null hypothesis}\\
 \sigma=\text{standard deviation}\\
 \overline X=\text{sample mean}\\
 n=\text{sample size}\\
-\mu_{1}=\text{alternative hypothesis}
+p_{1}=\text{alternative hypothesis}
 \end{aligned}
 $$
 
