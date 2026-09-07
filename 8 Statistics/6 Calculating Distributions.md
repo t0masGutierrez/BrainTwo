@@ -22,8 +22,8 @@ $$
 ### inverse normal formula
 $$
 \begin{aligned}
-x=N^{-1}(p,\mu,\sigma)\\
-p=\text{probability}\\
+x=N^{-1}(A,\mu,\sigma)\\
+A=\text{area}\\
 \mu=\text{mean}\\
 \sigma=\text{standard deviation}
 \end{aligned}
@@ -71,8 +71,8 @@ $$
 ### inverse standard normal formula
 $$
 \begin{aligned}
-z=N^{-1}(p,0,1)\\
-p=\text{probability}
+z=N^{-1}(A,0,1)\\
+A=\text{area}
 \end{aligned}
 $$
 
@@ -118,8 +118,8 @@ $$
 ### inverse t formula
 $$
 \begin{aligned}
-t=S^{-1}(p,\text{df})\\
-p=\text{probability}\\
+t=S^{-1}(A,\text{df})\\
+A=\text{area}\\
 \text{df}=\text{degrees of freedom}
 \end{aligned}
 $$
@@ -161,8 +161,8 @@ $$
 ### inverse chi-square formula
 $$
 \begin{aligned}
-x=\chi^{-2}(p,\text{df})\\
-p=\text{probability}\\
+x=\chi^{-2}(A,\text{df})\\
+A=\text{area}\\
 \text{df}=\text{degrees of freedom}
 \end{aligned}
 $$
