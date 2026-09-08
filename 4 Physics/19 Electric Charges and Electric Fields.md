@@ -2,53 +2,163 @@
 - existence or flow of electric charge
 
 ---
+### electricity formula
+$$
+\begin{aligned}
+q\lor\frac{dq}{dt}\\
+q=\text{electric charge}\\
+t=\text{time}
+\end{aligned}
+$$
+
+---
 ### electric charge
 - electric charge of same sign repel
+- physical property of particle responsible for electromagnetic interaction
 - electric charge of opposite sign attract
 ![[4 Physics/Images/electric charge.png]]
 
 ---
-### electric charge quantization
-- all electric charge equal integer multiple of electric charge $\pm e=1.602\times10^{-19}$
-
----
-### electric charge conservation
-- cannot create nor destroy electric charge therefore zero change of net electric charge
+### electric charge formula
+$$
+\begin{aligned}
+\hat q_1=\hat q_2\implies\hat F_e>0\\
+\hat q_1=-\hat q_2\implies\hat F_e<0\\
+q=\text{electric charge}\\
+F=\text{force}
+\end{aligned}
+$$
 
 ---
 ### proton
-- positive electric charge particle
-- mass of $1.673\times10^{-27}$ and electric charge of $+1.602\times10^{-19}$
+- positively charged particle
+
+---
+### proton formula
+$$
+\begin{aligned}
+m=1.673\times10^{-27}\\
+q=1.602\times10^{-19}=-e\\
+m=\text{mass}\\
+q=\text{electric charge}\\
+e=\text{electron}
+\end{aligned}
+$$
 
 ---
 ### electron
-- negative electric charge particle
-- mass of $9.109\times10^{-31}$ and electric charge of $-1.602\times10^{-19}$
+- negatively charged particle
+
+---
+### electron formula
+$$
+\begin{aligned}
+m=9.109\times10^{-31}\\
+q=-1.602\times10^{-19}=e\\
+m=\text{mass}\\
+q=\text{electric charge}\\
+e=\text{electron}
+\end{aligned}
+$$
 
 ---
 ### neutron
-- zero electric charge particle
-- mass of $1.675\times10^{-27}$ and electric charge of $0$
+- zero charged particle
+
+---
+### neutron formula
+$$
+\begin{aligned}
+m=1.675\times10^{-27}\\
+q=0\\
+m=\text{mass}\\
+q=\text{electric charge}
+\end{aligned}
+$$
 
 ---
 ### atomic structure
-- proton inside nucleus
-- electron inside cloud surrounding nucleus
-- neutron inside nucleus
-![[4 Physics/Images/atomic structure.png]]
+- proton live inside nucleus
+- electron live inside cloud surrounding nucleus
+- neutron live inside nucleus
+![300](4%20Physics/Images/atomic%20structure.png)
+
+---
+### atomic structure formula
+$$
+\begin{aligned}
+Q=e(n_p-n_e)\\
+e=\text{electron}\\
+n=\text{number of particles}
+\end{aligned}
+$$
 
 ---
 ### ion
 - atom with net electric charge
-![[4 Physics/Images/ion.png]]
+![500](4%20Physics/Images/ion.png)
+
+---
+### ion formula
+$$
+\begin{aligned}
+n_p\ne n_e\\
+n=\text{number of particles}
+\end{aligned}
+$$
 
 ---
 ### positive ion
 - subtraction of electrons
 
 ---
+### positive ion formula
+$$
+\begin{aligned}
+n_p>n_e\\
+n=\text{number of particles}
+\end{aligned}
+$$
+
+---
 ### negative ion
 - addition of electrons
+
+---
+### negative ion formula
+$$
+\begin{aligned}
+n_p<n_e\\
+n=\text{number of particles}
+\end{aligned}
+$$
+
+---
+### conservation of electric charge
+- cannot create nor destroy electric charge therefore zero change of net electric charge
+
+---
+### conservation of electric charge formula
+$$
+\begin{aligned}
+\Delta Q=0\\
+Q=\text{electric charge}
+\end{aligned}
+$$
+
+---
+### quantization of electric charge
+- all electric charge equal integer multiple of electron
+
+---
+### quantization of electric charge formula
+$$
+\begin{aligned}
+q=ne\\
+n=\text{integer}\\
+e=\text{electron}
+\end{aligned}
+$$
 
 ---
 ### free electron
