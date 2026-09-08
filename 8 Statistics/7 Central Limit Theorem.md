@@ -30,22 +30,14 @@ $$
 - standard deviation of sampling distribution
 
 ---
-### mean standard error formula
+### standard error formula
 $$
 \begin{aligned}
 SE(\overline X)=\frac{\sigma}{\sqrt n}\\
-\sigma=\text{sample standard deviation}\\
-n=\text{sample size}
-\end{aligned}
-$$
-
----
-### proportion standard error formula
-$$
-\begin{aligned}
 SE(\hat p)=\sqrt{\frac{p(1-p)}{n}}\\
-p=\text{proportion}\\
-n=\text{sample size}
+\sigma=\text{standard deviation}\\
+n=\text{sample size}\\
+p=\text{proportion}
 \end{aligned}
 $$
 

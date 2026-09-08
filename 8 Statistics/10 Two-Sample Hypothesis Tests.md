@@ -23,7 +23,10 @@
 ### two sample null hypothesis formula
 $$
 \begin{aligned}
-H_{0}:\theta_1-\theta_{2}=0
+H_{0}:\begin{cases}\theta_1-\theta_{2}=0\\
+\theta_1-\theta_{2}\ge0\\
+\theta_1-\theta_{2}\le0
+\end{cases}
 \end{aligned}
 $$
 
@@ -35,7 +38,10 @@ $$
 ### two sample alternative hypothesis formula
 $$
 \begin{aligned}
-H_1:\quad>,\quad\ne,\quad<\\
+H_{1}:\begin{cases}\theta_1-\theta_{2}\ne0\\
+\theta_1-\theta_{2}>0\\
+\theta_1-\theta_{2}<0
+\end{cases}
 \end{aligned}
 $$
 

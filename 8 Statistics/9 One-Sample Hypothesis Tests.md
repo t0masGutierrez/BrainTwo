@@ -18,7 +18,10 @@ $$
 ### null hypothesis formula
 $$
 \begin{aligned}
-H_{0}:\quad\ge,\quad=,\quad\le
+H_{0}:\begin{cases}\theta=0\\
+\theta\ge0\\
+\theta\le0
+\end{cases}
 \end{aligned}
 $$
 
@@ -31,7 +34,10 @@ $$
 ### alternative hypothesis formula
 $$
 \begin{aligned}
-H_{1}:\quad>,\quad\ne,\quad<
+H_{1}:\begin{cases}\theta\ne0\\
+\theta>0\\
+\theta<0
+\end{cases}
 \end{aligned}
 $$
 
