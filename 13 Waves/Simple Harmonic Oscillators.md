@@ -36,12 +36,18 @@ A=\text{amplitude}\\
 $$
 
 ---
-### term
-- definition
+### quality factor
+- if large quality factor then weak damping, sharp resonance peak, and low energy loss
 
 ---
-### term
-- definition
+### quality factor formula
+$$
+\begin{aligned}
+Q=\frac{\omega_0}{2\gamma}\\
+\omega=\text{angular frequency}\\
+\gamma=\text{damping rate}
+\end{aligned}
+$$
 
 ---
 ### term

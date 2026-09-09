@@ -330,17 +330,36 @@ C=\text{capacitance}
 $$
 
 ---
-### under damped RLC oscillation
-- slow decrease of periodic motion
-![300](4%20Physics/Images/under%20damped%20RLC%20oscillation.png)
+### damped RLC oscillation
+- decreasing energy because of resistance
+![350](4%20Physics/Images/damped%20oscillation.png)
 
 ---
-### under damped RLC oscillation formula
+### damped RLC oscillation formula
 $$
 \begin{aligned}
-R^{2}<\frac{4L}{C}\implies q(t)=Q\exp(-\gamma t)\cos(\omega t+\phi)\\
+L\frac{d^{2}q}{dt^{2}}+R\frac{dq}{dt}+\frac{q}{C}=0\\
+L=\text{self inductance}\\
+q=\text{electric charge}\\
+t=\text{time}\\
+R=\text{resistance}\\
+C=\text{capacitance}
+\end{aligned}
+$$
+
+---
+### underdamped RLC oscillation
+- slow decrease of periodic motion
+![300](4%20Physics/Images/underdamped%20RLC%20oscillation.png)
+
+---
+### underdamped RLC oscillation formula
+$$
+\begin{aligned}
+R^{2}<\frac{4L}{C}\implies q(t)=Q\exp(-\gamma t)\cos(\omega_1t+\phi)\\
 \gamma=\frac{R}{2L}\\
-\omega=\sqrt{(\sqrt\frac{1}{LC})^2-\gamma^2}\\
+\omega_0=\sqrt{\frac{1}{LC}}\\
+\omega_1=\sqrt{\omega_0^2-\gamma^2}\\
 R=\text{resistance}\\
 L=\text{self inductance}\\
 C=\text{capacitance}\\
@@ -349,6 +368,112 @@ t=\text{time}\\
 \gamma=\text{damping rate}\\
 \omega=\text{angular frequency}\\
 \phi=\text{phase angle}
+\end{aligned}
+$$
+
+---
+### underdamped RLC amplitude
+- maximum displacement from underdamped RLC equilibrium
+
+---
+### underdamped RLC amplitude formula
+$$
+\begin{aligned}
+A=\sqrt{q_0^2+(\frac{i_0+\gamma q_0}{\omega_1})^2}\\
+\gamma=\frac{R}{2L}\\
+\omega_0=\sqrt{\frac{1}{LC}}\\
+\omega_1=\sqrt{\omega_0^2-\gamma^2}\\
+q=\text{electric charge}\\
+i=\text{electric current}\\
+\gamma=\text{damping rate}\\
+\omega=\text{angular frequency}\\
+R=\text{resistance}\\
+L=\text{self inductance}\\
+C=\text{capacitance}
+\end{aligned}
+$$
+
+---
+### underdamped RLC phase angle
+- initial state of underdamped RLC oscillation
+
+---
+### underdamped RLC phase angle formula
+$$
+\begin{aligned}
+\phi=\arctan(\frac{i_0+\gamma q_0}{\omega_1q_0})\\
+\gamma=\frac{R}{2L}\\
+\omega_0=\sqrt{\frac{1}{LC}}\\
+\omega_1=\sqrt{\omega_0^2-\gamma^2}\\
+i=\text{electric current}\\
+\gamma=\text{damping rate}\\
+q=\text{electric charge}\\
+\omega=\text{angular frequency}\\
+R=\text{resistance}\\
+L=\text{self inductance}\\
+C=\text{capacitance}
+\end{aligned}
+$$
+
+---
+### driven damped RLC oscillation
+- additional energy because of connected emf
+![250](4%20Physics/Images/driven%20damped%20oscillation.png)
+
+---
+### driven damped RLC oscillation formula
+$$
+\begin{aligned}
+L\frac{d^{2}q}{dt^{2}}+R\frac{dq}{dt}+\frac{q}{C}=\varepsilon_0\cos(\Omega t)\implies\\
+q(t)=A\cos(\Omega t+\phi)\\
+L=\text{self inductance}\\
+q=\text{electric charge}\\
+t=\text{time}\\
+R=\text{resistance}\\
+C=\text{capacitance}\\
+\varepsilon=\text{emf}\\
+\Omega=\text{angular frequency}\\
+A=\text{amplitude}\\
+\phi=\text{phase angle}
+\end{aligned}
+$$
+
+---
+### driven damped RLC amplitude
+- maximum displacement from driven damped RLC equilibrium
+
+---
+### driven damped RLC amplitude formula
+$$
+\begin{aligned}
+A=\varepsilon_0\sqrt{\frac{1}{(1/C-L\Omega^{2})^{2}+(R\Omega)^{2}}}=\frac{\varepsilon_0}{L}\sqrt{\frac{1}{(\omega_0^2-\Omega^2)^{2}+(2\gamma\Omega)^2}}\\
+\gamma=\frac{R}{2L}\\
+\omega_0=\sqrt{\frac{1}{LC}}\\
+\varepsilon=\text{emf}\\
+C=\text{capacitance}\\
+L=\text{self inductance}\\
+\Omega,\omega=\text{angular frequency}\\
+b=\text{resistance}\\
+\gamma=\text{damping rate}
+\end{aligned}
+$$
+
+---
+### driven damped RLC phase angle
+- initial state of driven damped RLC oscillation
+
+---
+### driven damped RLC phase angle formula
+$$
+\begin{aligned}
+\phi=\arctan(\frac{R\Omega}{1/C-L\Omega^2})=\arctan(\frac{2\gamma\Omega}{\omega_0^2-\Omega^2})\\
+\gamma=\frac{R}{2L}\\
+\omega_0=\sqrt{\frac{1}{LC}}\\
+R=\text{resistance}\\
+\Omega,\omega=\text{angular frequency}\\
+C=\text{capacitance}\\
+L=\text{self inductance}\\
+\gamma=\text{damping rate}
 \end{aligned}
 $$
 

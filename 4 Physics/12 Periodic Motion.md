@@ -80,23 +80,22 @@ $$
 x(t)=A\cos(\omega t+\phi)\\
 v(t)=-A\omega\sin(\omega t+\phi)\\
 a(t)=-A\omega^{2}\cos(\omega t+\phi)\\
-T=2\pi\sqrt{\frac{m}{k}}\\
+\omega=\sqrt{\frac{k}{m}}\\
 A=\text{amplitude}\\
 \omega=\text{angular frequency}\\
 t=\text{time}\\
 \phi=\text{phase angle}\\
-T=\text{period}\\
 m=\text{mass}\\
 k=\text{spring constant}
 \end{aligned}
 $$
 
 ---
-### amplitude
+### simple harmonic amplitude
 - maximum displacement from equilibrium
 
 ---
-### amplitude formula
+### simple harmonic amplitude formula
 $$
 \begin{aligned}
 A=\max|x|=\sqrt{x_{0}^{2}+\frac{v_{0}^{2}}{\omega^{2}}}\\
@@ -107,12 +106,12 @@ v=\text{velocity}\\
 $$
 
 ---
-### phase angle
-- initial state of periodic motion
-![300](4%20Physics/Images/phase%20angle1.png)
+### simple harmonic phase angle
+- initial state of simple harmonic motion
+![300](4%20Physics/Images/simple%20harmonic%20phase%20angle.png)
 
 ---
-### phase angle formula
+### simple harmonic phase angle formula
 $$
 \begin{aligned}
 \phi=\arctan(\frac{-v_{0}}{\omega x_{0}})\\
@@ -123,14 +122,14 @@ x=\text{position}
 $$
 
 ---
-### simple harmonic motion extrema
+### simple harmonic extrema
 - if position equal amplitude then maximum displacement
 - if position equal zero then maximum velocity
 - if position equal amplitude then maximum acceleration
-![250](4%20Physics/Images/simple%20harmonic%20motion%20extrema.png)
+![250](4%20Physics/Images/simple%20harmonic%20extrema.png)
 
 ---
-### simple harmonic motion extrema formula
+### simple harmonic extrema formula
 $$
 \begin{aligned}
 x_{\text{max}}=A\\
@@ -142,12 +141,12 @@ A=\text{amplitude}\\
 $$
 
 ---
-### simple harmonic motion energy
+### simple harmonic energy
 - constant oscillation between potential energy and kinetic energy
-![400](4%20Physics/Images/simple%20harmonic%20motion%20energy.png)
+![400](4%20Physics/Images/simple%20harmonic%20energy.png)
 
 ---
-### simple harmonic motion energy formula
+### simple harmonic energy formula
 $$
 \begin{aligned}
 E=\frac{1}{2}mv^{2}+\frac{1}{2}kx^{2}=\frac{1}{2}kA^{2}\\
@@ -175,12 +174,12 @@ x=\text{position}
 $$
 
 ---
-### vertical simple harmonic motion
+### simple harmonic vertical motion
 - simple harmonic motion except equilibrium position equal point where restoring force equal weight
-![350](4%20Physics/Images/vertical%20simple%20harmonic%20motion.png)
+![350](4%20Physics/Images/simple%20harmonic%20vertical%20motion.png)
 
 ---
-### vertical simple harmonic motion formula
+### simple harmonic vertical motion formula
 $$
 \begin{aligned}
 y(t)=\frac{mg}{k}+A\cos(\omega t+\phi)\\
@@ -199,25 +198,24 @@ T=\text{period}
 $$
 
 ---
-### angular simple harmonic motion
+### simple harmonic angular motion
 - periodic motion where object oscillate about equilibrium with restoring torque directly proportional angular displacement
-![300](4%20Physics/Images/angular%20simple%20harmonic%20motion.png)
+![300](4%20Physics/Images/simple%20harmonic%20angular%20motion.png)
 
 ---
-### angular simple harmonic motion formula
+### simple harmonic angular motion formula
 $$
 \begin{aligned}
 \theta(t)=\Theta\cos(\omega t+\phi)\\
 \frac{d\theta}{dt}=-\Theta\omega\sin(\omega t+\phi)\\
 \frac{d^{2}\theta}{dt^{2}}=-\Theta\omega^{2}\cos(\omega t+\phi)\\
-T=2\pi\sqrt{\frac{I}{\kappa}}\\
+\omega=\sqrt{\frac{\kappa}{I}}\\
 \Theta=\text{amplitude}\\
 \omega=\text{angular frequency}\\
 t=\text{time}\\
 \phi=\text{phase angle}\\
-T=\text{period}\\
-I=\text{moment of inertia}\\
-\kappa=\text{torsion constant}
+\kappa=\text{torsion constant}\\
+I=\text{moment of inertia}
 \end{aligned}
 $$
 
@@ -230,11 +228,11 @@ $$
 ### simple pendulum formula
 $$
 \begin{aligned}
-\sin(\theta)\approx\theta\implies T=2\pi\sqrt{\frac{L}{g}}\\
+\sin(\theta)\approx\theta\implies\omega=\sqrt{\frac{g}{L}}\\
 \theta=\text{angular position}\\
-T=\text{period}\\
-L=\text{length}\\
-g=\text{gravity}
+\omega=\text{angular frequency}\\
+g=\text{gravity}\\
+L=\text{length}
 \end{aligned}
 $$
 
@@ -247,13 +245,13 @@ $$
 ### physical pendulum formula
 $$
 \begin{aligned}
-\sin(\theta)\approx\theta\implies T=2\pi\sqrt{\frac{I_p}{mgL}}\\
+\sin(\theta)\approx\theta\implies\omega=\sqrt{\frac{mgL}{I_p}}\\
 \theta=\text{angular position}\\
-T=\text{period}\\
-I=\text{moment of inertia}\\
+\omega=\text{angular frequency}\\
 m=\text{mass}\\
 g=\text{gravity}\\
-L=\text{length}
+L=\text{length}\\
+I=\text{moment of inertia}
 \end{aligned}
 $$
 
@@ -276,17 +274,18 @@ k=\text{spring constant}
 $$
 
 ---
-### under damped oscillation
+### underdamped oscillation
 - slow decrease of periodic motion
 ![350](4%20Physics/Images/under%20damped%20oscillation.png)
 
 ---
-### under damped oscillation formula
+### underdamped oscillation formula
 $$
 \begin{aligned}
-b^{2}<4mk\implies x(t)=A_{0}\exp(-\gamma t)\cos(\omega t+\phi)\\
+b^{2}<4mk\implies x(t)=A_{0}\exp(-\gamma t)\cos(\omega_1t+\phi)\\
 \gamma=\frac{b}{2m}\\
-\omega=\sqrt{(\sqrt\frac{k}{m})^2-\gamma^2}\\
+\omega_0=\sqrt{\frac{k}{m}}\\
+\omega_1=\sqrt{\omega_0^2-\gamma^2}\\
 b=\text{damping coefficient}\\
 m=\text{mass}\\
 k=\text{spring constant}\\
@@ -296,6 +295,43 @@ A=\text{amplitude}\\
 \gamma=\text{damping rate}\\
 \omega=\text{angular frequency}\\
 \phi=\text{phase angle}
+\end{aligned}
+$$
+
+---
+### underdamped amplitude
+- maximum displacement from underdamped equilibrium
+
+---
+### underdamped amplitude formula
+$$
+\begin{aligned}
+A=\sqrt{x_0^2+(\frac{v_0+\gamma x_0}{\omega_1})^2}\\
+\gamma=\frac{b}{2m}\\\omega_0=\sqrt{\frac{k}{m}}\\
+\omega_1=\sqrt{\omega_0^2-\gamma^2}\\
+x=\text{position}\\
+v=\text{velocity}\\
+\gamma=\text{damping rate}\\
+\omega=\text{angular frequency}
+\end{aligned}
+$$
+
+---
+### underdamped phase angle
+- initial state of underdamped oscillation
+
+---
+### underdamped phase angle formula
+$$
+\begin{aligned}
+\phi=\arctan(\frac{v_0+\gamma x_0}{\omega_1x_0})\\
+\gamma=\frac{b}{2m}\\
+\omega_0=\sqrt{\frac{k}{m}}\\
+\omega_1=\sqrt{\omega_0^2-\gamma^2}\\
+v=\text{velocity}\\
+\gamma=\text{damping rate}\\
+\omega=\text{angular frequency}\\
+x=\text{position}
 \end{aligned}
 $$
 
@@ -320,46 +356,84 @@ C=\text{constant}
 $$
 
 ---
-### over damped oscillation
+### overdamped oscillation
 - slow decrease of nonperiodic motion
 
 ---
-### over damped oscillation
+### overdamped oscillation formula
 $$
 \begin{aligned}
-b^{2}>4mk\implies x(t)=C_{1}\exp(\gamma_{1}t)+C_{2}\exp(\gamma_2t)\\
-\gamma=\frac{-b\pm\sqrt{b^{2}-4mk}}{2m}\\
+b^{2}>4mk\implies x(t)=C_{1}\exp(r_{1}t)+C_{2}\exp(r_2t)\\
+r=\frac{-b\pm\sqrt{b^{2}-4mk}}{2m}\\
 b=\text{damping coefficient}\\
 m=\text{mass}\\
 k=\text{spring constant}\\
 x=\text{position}\\
 t=\text{time}\\
 C=\text{constant}\\
-\gamma=\text{damping rate}
+r=\text{root}
 \end{aligned}
 $$
 
 ---
-### driven oscillation
+### driven damped oscillation
 - additional energy because of driving force
-![250](4%20Physics/Images/driven%20oscillation.png)
+![250](4%20Physics/Images/driven%20damped%20oscillation.png)
 
 ---
-### driven oscillation formula
+### driven damped oscillation formula
 $$
 \begin{aligned}
-m\frac{d^{2}x}{dt^{2}}+b\frac{dx}{dt}+kx=F_{\text{max}}\cos(\omega t+\phi_1)\implies\\
-x(t)=\frac{F_{\text{max}}}{\sqrt{(k-m\omega^{2})^{2}+(b\omega)^{2}}}
-\cos(\omega t+\phi_1+\phi_2)\\
+m\frac{d^{2}x}{dt^{2}}+b\frac{dx}{dt}+kx=F_0\cos(\Omega t)\implies\\
+x(t)=A\cos(\Omega t+\phi)\\
 m=\text{mass}\\
 x=\text{position}\\
 t=\text{time}\\
 b=\text{damping coefficient}\\
 k=\text{spring constant}\\
 F=\text{force}\\
-\omega=\text{angular frequency}\\
-\phi=\text{phase angle}\\
-A=\text{amplitude}
+\Omega=\text{angular frequency}\\
+A=\text{amplitude}\\
+\phi=\text{phase angle}
+\end{aligned}
+$$
+
+---
+### driven damped amplitude
+- maximum displacement from driven damped equilibrium
+
+---
+### driven damped amplitude formula
+$$
+\begin{aligned}
+A=F_0\sqrt{\frac{1}{(k-m\Omega^{2})^{2}+(b\Omega)^{2}}}=\frac{F_0}{m}\sqrt{\frac{1}{(\omega_0^2-\Omega^2)^{2}+(2\gamma\Omega)^2}}\\
+\gamma=\frac{b}{2m}\\
+\omega_0=\sqrt{\frac{k}{m}}\\
+F=\text{force}\\
+k=\text{spring constant}\\
+m=\text{mass}\\
+\Omega,\omega=\text{angular frequency}\\
+b=\text{damping coefficient}\\
+\gamma=\text{damping rate}
+\end{aligned}
+$$
+
+---
+### driven damped phase angle
+- initial state of driven damped oscillation
+
+---
+### driven damped phase angle formula
+$$
+\begin{aligned}
+\phi=\arctan(\frac{b\Omega}{k-m\Omega^2})=\arctan(\frac{2\gamma\Omega}{\omega_0^2-\Omega^2})\\
+\gamma=\frac{b}{2m}\\
+\omega_0=\sqrt{\frac{k}{m}}\\
+b=\text{damping coefficient}\\
+\Omega,\omega=\text{angular frequency}\\
+k=\text{spring constant}\\
+m=\text{mass}\\
+\gamma=\text{damping rate}
 \end{aligned}
 $$
 
@@ -379,8 +453,8 @@ $$
 ### resonance formula
 $$
 \begin{aligned}
-\omega=\omega_{0}\implies A=A_{\text{max}}\\
-\omega=\text{angular frequency}\\
+\Omega=\omega_{0}\implies A=A_{\text{max}}\\
+\Omega,\omega=\text{angular frequency}\\
 A=\text{amplitude}
 \end{aligned}
 $$
