@@ -88,7 +88,7 @@ x_0\\
 x_{n+1}=g(x_n)\\
 n=0,1,2,\dots\\
 \forall\epsilon>0,\exists N\in\mathbb N,\forall n\ge N:|x_{n+1}-x_n|<\epsilon\implies\\
-r_c=\lim_{n\rightarrow\infty}x_{n+1}=\lim_{n\rightarrow\infty}g(x_n)=g(r_c)
+r_c=\lim_{n\rightarrow\infty}x_{n+1}=\lim_{n\rightarrow\infty}g(r_c)=g(r_c)
 \end{aligned}
 $$
 
@@ -96,15 +96,13 @@ $$
 ### fixed point convergence
 - linear convergence
 - general convergence
-- linear divergence
 
 ---
 ### fixed point convergence formula
 $$
 \begin{aligned}
-|g'(r_c)|<1\implies\forall\epsilon>0,\exists N\in\mathbb N,\forall n\ge N:|x_n-r_c|<\epsilon\\
-g'(r_c)=g''(r_c)=\dots=g^{(p-1)}(r_c)=0\ne g^{(p)}(r_c)\implies|x_{n+1}-r_c|=|g^{(p)}(r)|(|x_n-r_c|)^p\\
-|g'(r_c)|>1\implies\exists\epsilon>0,\forall N\in\mathbb N,\exists n\ge N:|x_n-r_c|\ge\epsilon
+0<|g'(r)|<1\implies\lim_{n\rightarrow\infty}\frac{|x_{n+1}-r|}{|x_n-r|}=|g'(r)|<\infty\\
+g(r)=g'(r)=g''(r)=\dots=g^{(p-1)}(r)=0\ne g^{(p)}(r)\implies\lim_{n\rightarrow\infty}\frac{|x_{n+1}-r|}{|x_n-r|^p}=\frac{|g^{(p)}(r)|}{p!}<\infty\\
 \end{aligned}
 $$
 
@@ -136,17 +134,42 @@ r_c=\text{computed root}
 $$
 
 ---
-### slope
-- large slope equal smaller root sensitivity
-- small slope equal larger root sensitivity
+### simple root
+- multiplicity of root equal 1
 
 ---
-### slope formula
+### simple root formula
 $$
 \begin{aligned}
-|r-r_c|\approx\frac{|f(r_c)|}{|f'(r)|}\\
+f(r)=0\ne f'(r)\\
+r=\text{true root}
+\end{aligned}
+$$
+
+---
+### multiple root
+- first nonzero derivative at root equal multiplicity of root
+
+---
+### multiple root formula
+$$
+\begin{aligned}
+f(r)=f'(r)=f''(r)=\dots=f^{(m-1)}(r)=0\ne f^{(m)}(r)\\
 r=\text{true root}\\
-r_c=\text{computed root}
+m=\text{multiplicity}
+\end{aligned}
+$$
+
+---
+### perturbed equation
+- equation containing small nonnegative parameter
+
+---
+### perturbed equation formula
+$$
+\begin{aligned}
+f(x)+\epsilon g(x)=0\\
+\epsilon=\text{parameter}
 \end{aligned}
 $$
 
@@ -159,10 +182,24 @@ $$
 ### root sensitivity formula
 $$
 \begin{aligned}
-\frac{\partial r}{\partial\epsilon}=\frac{\partial f/\partial\epsilon}{f'(r)}\implies\Delta r\approx\frac{\partial f/\partial\epsilon}{f'(r)}\Delta\epsilon\\
+\Delta r\approx\frac{g(r)}{f'(r)}\epsilon\\
+m>1\implies\Delta r=
 r=\text{root}\\
-\epsilon=\text{perturbation}\\
-f=\text{function}
+f=\text{function}\\
+\epsilon=\text{parameter}
+\end{aligned}
+$$
+
+---
+### error magnification
+- ratio between relative forward error and relative backward error
+
+---
+### error magnification formula
+$$
+\begin{aligned}
+\kappa=\frac{g(r)}{|rf'(r)|}\\
+r=\text{true root}
 \end{aligned}
 $$
 

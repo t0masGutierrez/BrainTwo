@@ -369,8 +369,13 @@ $$
 ### reformulation formula
 $$
 \begin{aligned}
-(\sqrt{1+x}-1)(\frac{\sqrt{1+x}+1}{\sqrt{1+x}+1})=\frac{x}{\sqrt{1+x}+1}\\
-b\approx\sqrt{b^2-4ac}\implies x_1x_2=\frac{c}{a}
+(\sqrt{C+x}-C)(\frac{\sqrt{C+x}+C}{\sqrt{C+x}+C})=\frac{x}{\sqrt{C+x}+C}\\
+b^2\gg4|ac|\implies x=\begin{cases}\frac{-b-\sqrt{b^2-4ac}}{2a}\\
+\frac{-2c}{b+\sqrt{b^2-4ac}}
+\end{cases}\\
+b^2\ll4|ac|\implies x=\begin{cases}\frac{-b-\sqrt{b^2-4ac}}{2a}\\
+\frac{2c}{-b+\sqrt{b^2-4ac}}
+\end{cases}
 \end{aligned}
 $$
 
