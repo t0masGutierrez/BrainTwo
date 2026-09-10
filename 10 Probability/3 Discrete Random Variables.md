@@ -123,7 +123,7 @@ $$
 ### bernoulli PMF probability formula
 $$
 \begin{aligned}
-P(X=k)=\begin{pmatrix}1\\k\end{pmatrix}p^{k}q^{1-k}\\
+P(X=k)=\begin{pmatrix}n\\1\end{pmatrix}p^{k}q^{1-k}\\
 X=\text{random variable}\\
 k=\text{number of successes}\\
 p=\text{probability of success}\\

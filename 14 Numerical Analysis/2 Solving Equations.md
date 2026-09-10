@@ -13,7 +13,7 @@ $$
 
 ---
 ### bisection method
-- repeatedly halve interval and choose endpoint with opposite sign
+- repeatedly halve bracketing interval and choose endpoint with opposite sign
 ![](14%20Numerical%20Analysis/Images/bisection%20method.png)
 
 ---
