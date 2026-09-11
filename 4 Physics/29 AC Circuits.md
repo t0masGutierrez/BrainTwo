@@ -211,7 +211,7 @@ $$
 ### ohms formula
 $$
 \begin{aligned}
-V=IZ
+V=IZ\\
 I=\text{electric current}\\
 Z=\text{impedance}
 \end{aligned}

@@ -59,7 +59,8 @@ $$
 
 ---
 ### line of best fit
-- coefficient(s) of slope intercept equation with minimum unexplained variation aka ordinary least squares
+- coefficient(s) of slope intercept equation with minimum unexplained variation
+- aka ordinary least squares
 
 ---
 ### line of best fit formula

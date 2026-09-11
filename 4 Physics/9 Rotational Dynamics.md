@@ -322,8 +322,7 @@ $$
 ### center of gravity formula
 $$
 \begin{aligned}
-\vec r_{\text{cg}}=\frac{1}{M}\sum_{n}m_{n}\vec r_{n}\\
-M=\text{system mass}\\
+\vec r_{\text{cg}}=\frac{\sum_{n}m_{n}\vec r_{n}}{\sum_{n}m_n}\\
 m=\text{mass}\\
 \vec r=\text{position}
 \end{aligned}
