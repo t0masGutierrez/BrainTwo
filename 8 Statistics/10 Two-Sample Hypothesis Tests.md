@@ -177,11 +177,8 @@ $$
 $$
 \begin{aligned}
 |\mathcal T|>c^{*}\implies\not H_{0}\\
-|\mathcal T|\le c^{*}\implies H_{0}\\
 p\le\alpha\implies\not H_{0}\\
-p>\alpha\implies H_{0}\\
-0\not\in CI\implies\not H_{0}\\
-0\in CI\implies H_{0}
+\theta_0\not\in CI\implies\not H_{0}
 \end{aligned}
 $$
 

@@ -51,7 +51,7 @@ $$
 ### scatterplot formula
 $$
 \begin{aligned}
-X\times Y=\set{(x,y)\mid x\in X,y\in Y}\\
+\set{(x_i,y_i)}_{i=1}^n\\
 x=\text{independent variable}\\
 y=\text{dependent variable}
 \end{aligned}
@@ -90,7 +90,8 @@ $$
 ### simple linear regression formula
 $$
 \begin{aligned}
-Y=\beta_0+\beta_1X+\varepsilon\iff\hat y=b_0+b_1x\\
+Y=\beta_0+\beta_1X+\varepsilon\\
+\hat y=b_0+b_1x\\
 Y=\text{dependent variable}\\
 \beta_0,b_0=\text{y-intercept}\\
 k=\text{number of independent variables}\\
@@ -120,11 +121,12 @@ $$
 ### multiple linear regression formula
 $$
 \begin{aligned}
-Y=\beta_0+\sum_{j=1}^k\beta_jX_j+\varepsilon\iff\hat y=b_0+\sum_{j=1}^{k}b_{j}x_{j}\\
+Y=\beta_0+\sum_{j=1}^k\beta_jX_j+\varepsilon\\
+\hat y=b_0+\sum_{j=1}^{k}b_{j}x_{j}\\
 Y=\text{dependent variable}\\
 \beta_0,b_0=\text{y-intercept}\\
 k=\text{number of independent variables}\\
-\beta_j,b_1=\text{slope}\\
+\beta_j,b_j=\text{coefficient}\\
 X,x=\text{independent variable}\\
 \varepsilon=\text{error}\\
 \hat y=\text{prediction}
@@ -153,7 +155,7 @@ $$
 ### y-intercept formula
 $$
 \begin{aligned}
-b_0=\overline y-b_0\overline x\\
+b_0=\overline y-b_1\overline x\\
 \overline x,\overline y=\text{sample mean}\\
 b_1=\text{slope}
 \end{aligned}
@@ -253,11 +255,11 @@ y=\text{dependent variable}
 $$
 
 ---
-### correlation standard error
+### simple standard error
 - standard deviation of correlation sampling distribution
 
 ---
-### correlation standard error formula
+### simple standard error formula
 $$
 \begin{aligned}
 SE(r)=\sqrt{\frac{1-r^{2}}{n-2}}\\
@@ -267,11 +269,11 @@ n=\text{sample size}
 $$
 
 ---
-### correlation t-score
+### simple t-score
 - number of standard errors between correlation and zero
 
 ---
-### correlation t-score formula
+### simple t-score formula
 $$
 \begin{aligned}
 t=\frac{r-0}{SE(r)}\\
@@ -310,14 +312,14 @@ H_{1}:\rho\ne0\\
 $$
 
 ---
-### slope standard error
-- standard deviation of slope sampling distribution
+### multiple standard error
+- standard deviation of coefficient sampling distribution
 
 ---
-### slope standard error formula
+### multiple standard error formula
 $$
 \begin{aligned}
-SE(b_1)=\sqrt{\frac{SSE}{(n-2)\sum_{i=1}^n(x_i-\overline x)^2}}\\
+SE(b_j)=\sqrt{\frac{SSE}{(n-2)\sum_{i=1}^n(x_i-\overline x)^2}}\\
 SSE=\text{unexplained variation}\\
 n=\text{sample size}\\
 x=\text{independent variable}\\
@@ -326,16 +328,16 @@ x=\text{independent variable}\\
 $$
 
 ---
-### slope t-score
-- number of standard errors between slope and zero
+### multiple t-score
+- number of standard errors between coefficient and zero
 
 ---
-### slope t-score formula
+### multiple t-score formula
 $$
 \begin{aligned}
-t=\frac{b_1-0}{SE(b_1)}\\
-\text{df}=n-k+1\\
-b_1=\text{slope}\\
+t=\frac{b_j-0}{SE(b_j)}\\
+\text{df}=n-k-1\\
+b_j=\text{coefficient}\\
 SE=\text{standard error}\\
 \text{df}=\text{degrees of freedom}\\
 n=\text{sample size}\\
@@ -345,27 +347,27 @@ $$
 
 ---
 ### multiple linear regression null hypothesis
-- population slope equal zero
+- population coefficient equal zero
 
 ---
 ### multiple linear regression null hypothesis formula
 $$
 \begin{aligned}
 H_{0}:\beta_j=0\\
-\beta_j=\text{slope}
+\beta_j=\text{coefficient}
 \end{aligned}
 $$
 
 ---
 ### multiple linear regression alternative hypothesis
-- population slope not equal zero
+- population coefficient not equal zero
 
 ---
 ### multiple linear regression alternative hypothesis formula
 $$
 \begin{aligned}
-H_{1}:\beta\ne0\\
-\beta_j=\text{slope}
+H_{1}:\beta_j\ne0\\
+\beta_j=\text{coefficient}
 \end{aligned}
 $$
 
