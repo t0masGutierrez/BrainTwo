@@ -98,7 +98,7 @@ $$
 ### simple harmonic amplitude formula
 $$
 \begin{aligned}
-A=\max|x|=\sqrt{x_{0}^{2}+\frac{v_{0}^{2}}{\omega^{2}}}\\
+A=\sqrt{x_{0}^{2}+\frac{v_{0}^{2}}{\omega^{2}}}\\
 x=\text{position}\\
 v=\text{velocity}\\
 \omega=\text{angular frequency}
@@ -185,15 +185,14 @@ $$
 y(t)=\frac{mg}{k}+A\cos(\omega t+\phi)\\
 v(t)=-A\omega\sin(\omega t+\phi)\\
 a(t)=-A\omega^{2}\cos(\omega t+\phi)\\
-T=2\pi\sqrt{\frac{m}{k}}\\
+\omega=\sqrt{\frac{k}{m}}\\
 m=\text{mass}\\
 g=\text{gravity}\\
 k=\text{spring constant}\\
 A=\text{amplitude}\\
 \omega=\text{angular frequency}\\
 t=\text{time}\\
-\phi=\text{phase angle}\\
-T=\text{period}
+\phi=\text{phase angle}
 \end{aligned}
 $$
 
@@ -282,56 +281,23 @@ $$
 ### underdamped oscillation formula
 $$
 \begin{aligned}
-b^{2}<4mk\implies x(t)=A_{0}\exp(-\gamma t)\cos(\omega_1t+\phi)\\
+\gamma<\omega_0\implies x(t)=A_{0}\exp(-\gamma t)\cos(\omega_1t+\phi)\\
+A=\sqrt{x_0^2+(\frac{v_0+\gamma x_0}{\omega_1})^2}\\
+\phi=\arctan(\frac{-v_0-\gamma x_0}{\omega_1x_0})\\
 \gamma=\frac{b}{2m}\\
 \omega_0=\sqrt{\frac{k}{m}}\\
 \omega_1=\sqrt{\omega_0^2-\gamma^2}\\
-b=\text{damping coefficient}\\
-m=\text{mass}\\
-k=\text{spring constant}\\
+\gamma=\text{damping rate}\\
+\omega=\text{angular frequency}\\
 x=\text{position}\\
 t=\text{time}\\
 A=\text{amplitude}\\
 \gamma=\text{damping rate}\\
-\omega=\text{angular frequency}\\
-\phi=\text{phase angle}
-\end{aligned}
-$$
-
----
-### underdamped amplitude
-- maximum displacement from underdamped equilibrium
-
----
-### underdamped amplitude formula
-$$
-\begin{aligned}
-A=\sqrt{x_0^2+(\frac{v_0+\gamma x_0}{\omega_1})^2}\\
-\gamma=\frac{b}{2m}\\\omega_0=\sqrt{\frac{k}{m}}\\
-\omega_1=\sqrt{\omega_0^2-\gamma^2}\\
-x=\text{position}\\
+\phi=\text{phase angle}\\
 v=\text{velocity}\\
-\gamma=\text{damping rate}\\
-\omega=\text{angular frequency}
-\end{aligned}
-$$
-
----
-### underdamped phase angle
-- initial state of underdamped oscillation
-
----
-### underdamped phase angle formula
-$$
-\begin{aligned}
-\phi=\arctan(\frac{v_0+\gamma x_0}{\omega_1x_0})\\
-\gamma=\frac{b}{2m}\\
-\omega_0=\sqrt{\frac{k}{m}}\\
-\omega_1=\sqrt{\omega_0^2-\gamma^2}\\
-v=\text{velocity}\\
-\gamma=\text{damping rate}\\
-\omega=\text{angular frequency}\\
-x=\text{position}
+b=\text{damping coefficient}\\
+m=\text{mass}\\
+k=\text{spring constant}
 \end{aligned}
 $$
 
@@ -343,15 +309,17 @@ $$
 ### critically damped oscillation formula
 $$
 \begin{aligned}
-b^{2}=4mk\implies x(t)=\exp(-\gamma t)(C_{1}+C_{2}t)\\
+\gamma=\omega_0\implies x(t)=\exp(-\gamma t)(C_{1}+C_{2}t)\\
 \gamma=\frac{b}{2m}\\
+\omega_0=\sqrt{\frac{k}{m}}\\
+\gamma=\text{damping rate}\\
+\omega=\text{angular frequency}\\
+x=\text{position}\\
+t=\text{time}\\
+C=\text{constant}\\
 b=\text{damping coefficient}\\
 m=\text{mass}\\
 k=\text{spring constant}\\
-x=\text{position}\\
-t=\text{time}\\
-\gamma=\text{damping rate}\\
-C=\text{constant}
 \end{aligned}
 $$
 
@@ -363,76 +331,44 @@ $$
 ### overdamped oscillation formula
 $$
 \begin{aligned}
-b^{2}>4mk\implies x(t)=C_{1}\exp(r_{1}t)+C_{2}\exp(r_2t)\\
+\gamma>\omega_0\implies x(t)=C_{1}\exp(r_{1}t)+C_{2}\exp(r_2t)\\
 r=\frac{-b\pm\sqrt{b^{2}-4mk}}{2m}\\
-b=\text{damping coefficient}\\
-m=\text{mass}\\
-k=\text{spring constant}\\
+\gamma=\frac{b}{2m}\\
+\omega_0=\sqrt{\frac{k}{m}}\\
+\gamma=\text{damping rate}\\
+\omega=\text{angular frequency}\\
 x=\text{position}\\
 t=\text{time}\\
 C=\text{constant}\\
-r=\text{root}
+r=\text{root}\\
+b=\text{damping coefficient}\\
+m=\text{mass}\\
+k=\text{spring constant}
 \end{aligned}
 $$
 
 ---
-### driven damped oscillation
+### driven damped harmonic oscillator
 - additional energy because of driving force
 ![250](4%20Physics/Images/driven%20damped%20oscillation.png)
 
 ---
-### driven damped oscillation formula
+### driven damped harmonic oscillator formula
 $$
 \begin{aligned}
-m\frac{d^{2}x}{dt^{2}}+b\frac{dx}{dt}+kx=F_0\cos(\Omega t)\implies\\
+m\frac{d^{2}x}{dt^{2}}+b\frac{dx}{dt}+kx=F_0\cos(\Omega t)\\
 x(t)=A\cos(\Omega t+\phi)\\
+A=\frac{F_0}{m}\sqrt{\frac{1}{(\omega_0^2-\Omega^2)^{2}+(2\gamma\Omega)^2}}\\
+\phi=\arctan(\frac{2\gamma\Omega}{\omega_0^2-\Omega^2})\\
 m=\text{mass}\\
 x=\text{position}\\
 t=\text{time}\\
 b=\text{damping coefficient}\\
 k=\text{spring constant}\\
 F=\text{force}\\
-\Omega=\text{angular frequency}\\
+\Omega,\omega=\text{angular frequency}\\
 A=\text{amplitude}\\
-\phi=\text{phase angle}
-\end{aligned}
-$$
-
----
-### driven damped amplitude
-- maximum displacement from driven damped equilibrium
-
----
-### driven damped amplitude formula
-$$
-\begin{aligned}
-A=F_0\sqrt{\frac{1}{(k-m\Omega^{2})^{2}+(b\Omega)^{2}}}=\frac{F_0}{m}\sqrt{\frac{1}{(\omega_0^2-\Omega^2)^{2}+(2\gamma\Omega)^2}}\\
-\gamma=\frac{b}{2m}\\
-\omega_0=\sqrt{\frac{k}{m}}\\
-F=\text{force}\\
-k=\text{spring constant}\\
-m=\text{mass}\\
-\Omega,\omega=\text{angular frequency}\\
-b=\text{damping coefficient}\\
-\gamma=\text{damping rate}
-\end{aligned}
-$$
-
----
-### driven damped phase angle
-- initial state of driven damped oscillation
-
----
-### driven damped phase angle formula
-$$
-\begin{aligned}
-\phi=\arctan(\frac{b\Omega}{k-m\Omega^2})=\arctan(\frac{2\gamma\Omega}{\omega_0^2-\Omega^2})\\
-\gamma=\frac{b}{2m}\\
-\omega_0=\sqrt{\frac{k}{m}}\\
-b=\text{damping coefficient}\\
-\Omega,\omega=\text{angular frequency}\\
-k=\text{spring constant}\\
-m=\text{mass}\\
+\phi=\text{phase angle}\\
 \gamma=\text{damping rate}
 \end{aligned}
 $$
