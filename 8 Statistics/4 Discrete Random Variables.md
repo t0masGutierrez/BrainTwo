@@ -270,9 +270,9 @@ $$
 ### hypergeometric PMF mean formula
 $$
 \begin{aligned}
-\mu=\frac{nK}{N}\\
+\mu=\frac{nk}{N}\\
 n=\text{number of items drawn}\\
-K=\text{interest group size}\\
+k=\text{number of interest items drawn}\\
 N=\text{population size}
 \end{aligned}
 $$
@@ -281,9 +281,9 @@ $$
 ### hypergeometric PMF standard deviation formula
 $$
 \begin{aligned}
-\sigma=\sqrt{(\frac{nK}{N})(1-\frac{K}{N})(\frac{N-n}{N-1})}\\
+\sigma=\sqrt{(\frac{nk}{N})(1-\frac{k}{N})(\frac{N-n}{N-1})}\\
 n=\text{number of items drawn}\\
-K=\text{interest group size}\\
+k=\text{number of interest items drawn}\\
 N=\text{population size}
 \end{aligned}
 $$

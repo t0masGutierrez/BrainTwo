@@ -114,7 +114,7 @@ f=\text{fraction}\\
 P=\text{stored exponent}\\
 B=\text{bias}\\
 b=\text{bit}\\
-p=\text{true exponent}
+p=\text{real exponent}
 \end{aligned}
 $$
 
@@ -128,7 +128,7 @@ $$
 \begin{aligned}
 B=P-p=2^{n_p-1}-1\\
 P=\text{stored exponent}\\
-p=\text{true exponent}\\
+p=\text{real exponent}\\
 n=\text{number of bits}
 \end{aligned}
 $$
@@ -195,7 +195,7 @@ n=\text{number of bits}\\
 f=\text{fraction}\\
 B=\text{bias}\\
 b=\text{bit}\\
-p=\text{true exponent}
+p=\text{real exponent}
 \end{aligned}
 $$
 
@@ -252,42 +252,42 @@ $$
 
 ---
 ### absolute error
-- absolute distance between true number and computed number
+- absolute distance between real number and computed number
 
 ---
 ### absolute error formula
 $$
 \begin{aligned}
 |x-x_c|\\
-x=\text{true number}\\
+x=\text{real number}\\
 x_c=\text{computed number}
 \end{aligned}
 $$
 
 ---
 ### relative error
-- relative distance between true number and computed number
+- relative distance between real number and computed number
 
 ---
 ### relative error formula
 $$
 \begin{aligned}
 \frac{|x-x_c|}{|x|}\\
-x=\text{true number}\\
+x=\text{real number}\\
 x_c=\text{computed number}
 \end{aligned}
 $$
 
 ---
 ### relative rounding error
-- relative distance between true number and computed number less or equal half machine epsilon
+- relative distance between real number and computed number less or equal half machine epsilon
 
 ---
 ### relative rounding error formula
 $$
 \begin{aligned}
 \frac{|x-x_c|}{|x|}\le\frac12\epsilon\\
-x=\text{true number}\\
+x=\text{real number}\\
 x_c=\text{computed number}\\
 \epsilon_{\text{mach}}=\text{machine epsilon}
 \end{aligned}
@@ -295,7 +295,7 @@ $$
 
 ---
 ### floating-point representation
-- numerical approximation of true number
+- numerical approximation of real number
 
 ---
 ### floating-point representation formula
@@ -322,27 +322,27 @@ $$
 
 ---
 ### underflow
-- true number below the range of representable normal floating-point number
+- real number below the range of representable normal floating-point number
 
 ---
 ### underflow formula
 $$
 \begin{aligned}
 0<|x|<2^{-2022}\\
-x=\text{true number}
+x=\text{real number}
 \end{aligned}
 $$
 
 ---
 ### overflow
-- true number above the range of representable finite floating-point number
+- real number above the range of representable finite floating-point number
 
 ---
 ### overflow formula
 $$
 \begin{aligned}
 |x|>1.80\times10^{308}\\
-x=\text{true number}
+x=\text{real number}
 \end{aligned}
 $$
 
@@ -355,7 +355,7 @@ $$
 $$
 \begin{aligned}
 x\approx y\implies\frac{|x|+|y|}{|x-y|}\gg1\\
-x=\text{true number}\\
+x=\text{real number}\\
 x_c=\text{computed number}
 \end{aligned}
 $$

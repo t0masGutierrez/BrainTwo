@@ -1,3 +1,17 @@
+### p decimal place correctness
+- definition
+
+---
+### p decimal place correctness formula
+$$
+\begin{aligned}
+|r-r_c|<\frac{1}{2}\times10^{-p}\\
+r=\text{real root}\\
+r_c=\text{computed root}
+\end{aligned}
+$$
+
+---
 ### bracketing interval
 - interval whose endpoints have function values with opposite signs
 
@@ -33,15 +47,15 @@ $$
 
 ---
 ### bisection error
-- absolute distance between true root and bisected root
+- absolute distance between real root and bisected root
 
 ---
 ### bisection error formula
 $$
 \begin{aligned}
 |r-r_c|\le\frac{b-a}{2^{n+1}}\\
-|r-r_c|<\frac{1}{2}\times10^{-p}\implies n>\frac{\log(b-a)+p}{\log(2)}\\
-r=\text{true root}\\
+n>\frac{\log(b-a)+p}{\log(2)}\implies|r-r_c|<\frac{1}{2}\times10^{-p}\\
+r=\text{real root}\\
 r_c=\text{computed root}\\
 a,b=\text{endpoint}\\
 n=\text{number of iterations}\\
@@ -57,7 +71,8 @@ $$
 ### bisection complexity formula
 $$
 \begin{aligned}
-T(n)=n+2
+T(n)=n+2\\
+n=\text{number of iterations}
 \end{aligned}
 $$
 
@@ -108,14 +123,14 @@ $$
 
 ---
 ### forward error
-- absolute distance between true root and forward root
+- absolute distance between real root and forward root
 
 ---
 ### forward error formula
 $$
 \begin{aligned}
 |r-r_c|\\
-r=\text{true root}\\
+r=\text{real root}\\
 r_c=\text{computed root}
 \end{aligned}
 $$
@@ -142,7 +157,7 @@ $$
 $$
 \begin{aligned}
 f(r)=0\ne f'(r)\\
-r=\text{true root}
+r=\text{real root}
 \end{aligned}
 $$
 
@@ -155,7 +170,7 @@ $$
 $$
 \begin{aligned}
 f(r)=f'(r)=f''(r)=\dots=f^{(m-1)}(r)=0\ne f^{(m)}(r)\\
-r=\text{true root}\\
+r=\text{real root}\\
 m=\text{multiplicity}
 \end{aligned}
 $$
@@ -182,11 +197,12 @@ $$
 ### root sensitivity formula
 $$
 \begin{aligned}
-\Delta r\approx\frac{g(r)}{f'(r)}\epsilon\\
-m>1\implies\Delta r=
-r=\text{root}\\
-f=\text{function}\\
-\epsilon=\text{parameter}
+|r-r_c|\approx\frac{g(r)}{f'(r)}\epsilon\\
+m>1\implies|r-r_c|\approx(\frac{|g(r)|m!}{|f^{(m)}(r)|}|\epsilon|)^{1/m}\\
+r=\text{real root}\\
+r_c=\text{computed root}\\
+\epsilon=\text{parameter}\\
+m=\text{multiplicity}
 \end{aligned}
 $$
 
@@ -199,7 +215,7 @@ $$
 $$
 \begin{aligned}
 \kappa=\frac{g(r)}{|rf'(r)|}\\
-r=\text{true root}
+r=\text{real root}
 \end{aligned}
 $$
 
