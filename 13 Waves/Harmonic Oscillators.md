@@ -6,7 +6,6 @@
 $$
 \begin{aligned}
 \psi(x,t)\\
-\psi=\text{wave disturbance}\\
 x=\text{position}\\
 t=\text{time}
 \end{aligned}
@@ -203,29 +202,5 @@ A=\text{amplitude}\\
 \gamma=\text{damping rate}
 \end{aligned}
 $$
-
----
-### term
-- definition
-
----
-### term
-- definition
-
----
-### term
-- definition
-
----
-### term
-- definition
-
----
-### term
-- definition
-
----
-### term
-- definition
 
 ---
