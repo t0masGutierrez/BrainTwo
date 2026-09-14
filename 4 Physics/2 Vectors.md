@@ -276,10 +276,10 @@ $$
 ### cross product direction property formula
 $$
 \begin{aligned}
-&\theta=90^{\circ}&\iff\|\vec A\times\vec B\|=(\|\vec A\|)(\|\vec B\|)\\
-&\theta=0^{\circ}&\implies\|\vec A\times\vec B\|=0\\
-&\theta=180^{\circ}&\implies\|\vec A\times\vec B\|=0\\
-&\vec A=\vec B&\iff\|\vec A\times\vec B\|=0
+&\theta=90^{\circ}\iff\|\vec A\times\vec B\|=(\|\vec A\|)(\|\vec B\|)\\
+&\theta=0^{\circ}\implies\|\vec A\times\vec B\|=0\\
+&\theta=180^{\circ}\implies\|\vec A\times\vec B\|=0\\
+&\vec A=\vec B\iff\|\vec A\times\vec B\|=0
 \end{aligned}
 $$
 

@@ -50,7 +50,9 @@ $$
 ### quantile function formula
 $$
 \begin{aligned}
-&Q(p)=F^{-1}(p)
+&Q(p)=F^{-1}(x)\\
+&p=\text{probability of success}\\
+&x=\text{real number}
 \end{aligned}
 $$
 
@@ -90,9 +92,9 @@ $$
 ### uniform PDF probability formula
 $$
 \begin{aligned}
-&P(X=x)=\begin{cases}
-&\frac{1}{b-a},&\quad a\le x\le b\\
-&0,&\quad\text{otherwise}
+&X\sim\text{Uni}(a,b)\implies P(X=x)=\begin{cases}
+&\frac{1}{b-a},\quad a\le x\le b\\
+&0,\quad\text{otherwise}
 &\end{cases}\\
 &a=\text{lower endpoint}\\
 &b=\text{upper endpoint}

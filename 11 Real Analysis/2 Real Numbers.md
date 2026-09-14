@@ -53,12 +53,12 @@ $$
 ### construct natural numbers formula
 $$
 \begin{aligned}
-&0&=\emptyset\\
-&1&=S(0)=0\cup\{0\}=\{0\}\\
-&2&=S(1)=1\cup\{1\}=\{0\}\cup\{1\}=\{0,1\}\\
-&3&=S(2)=2\cup\{2\}=\{0,1\}\cup\{2\}=\{0,1,2\}\\
+&0=\emptyset\\
+&1=S(0)=0\cup\{0\}=\{0\}\\
+&2=S(1)=1\cup\{1\}=\{0\}\cup\{1\}=\{0,1\}\\
+&3=S(2)=2\cup\{2\}=\{0,1\}\cup\{2\}=\{0,1,2\}\\
 &\vdots\\
-&\mathbb N&=\{S(n)|0\le n<\infty\}
+&\mathbb N=\{S(n)|0\le n<\infty\}
 \end{aligned}
 $$
 

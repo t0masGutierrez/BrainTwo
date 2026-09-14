@@ -123,8 +123,8 @@ $$
 $$
 \begin{aligned}
 &X\sim\text{Uni}(a,b)\implies P(X=x)=\begin{cases}
-&\frac{1}{b-a+1},&\quad a\le x\le b\\
-&0,&\quad\text{otherwise}
+&\frac{1}{b-a+1},\quad a\le x\le b\\
+&0,\quad\text{otherwise}
 &\end{cases}\\
 &a=\text{lower endpoint}\\
 &b=\text{upper endpoint}
@@ -255,7 +255,7 @@ $$
 ### geometric PMF probability formula
 $$
 \begin{aligned}
-&X\sim\text{Geo}(p)\implies P(X=x)=\begin{pmatrix}x\\0\end{pmatrix}pq^{x}\\
+&X\sim\text{Geo}(p)\implies P(X=x)=pq^{x}\\
 &X=\text{random variable}\\
 &p=\text{probability of success}\\
 &q=\text{probability of failure}\\
@@ -394,7 +394,7 @@ $$
 ### poisson PMF probability formula
 $$
 \begin{aligned}
-&X\sim\text{Pois}(\lambda)\implies P(X=x)=\frac{\lambda^{x}e^{-\lambda}}{x!}\\
+&X\sim\text{Pois}(\lambda)\implies P(X=x)=\frac{\lambda^{x}}{x!}e^{-\lambda}\\
 &X=\text{random variable}\\
 &x=\text{number of events within interval}\\
 &\lambda=\text{average number of events per interval}\\

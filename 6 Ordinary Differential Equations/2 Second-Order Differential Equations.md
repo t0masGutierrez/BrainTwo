@@ -95,7 +95,7 @@ $$
 ### wronskian formula
 $$
 \begin{aligned}
-&W[y_{1},y_{2}](t)=\begin{vmatrix}y_{1}&y_{2}\\y_{1}'&y_{2}'\end{vmatrix}=y_{1}y_{2}'-y_{2}y_{1}'\\
+&W[y_{1},y_{2}](t)=\begin{vmatrix}y_{1}y_{2}\\y_{1}'y_{2}'\end{vmatrix}=y_{1}y_{2}'-y_{2}y_{1}'\\
 &y=\text{solution}\\
 &t=\text{independent variable}
 \end{aligned}

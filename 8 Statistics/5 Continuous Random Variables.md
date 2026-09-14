@@ -297,11 +297,18 @@ $$
 ### F PDF probability formula
 $$
 \begin{aligned}
-&f(x)=\frac{x^{0.5\text{df}_{1}-1}\Gamma(\frac{\text{df}_{1}+\text{df}_{2}}{2})(\frac{\text{df}_{1}}{\text{df}_{2}})^{0.5\text{df}_{1}}}
-&{\Gamma(\frac{\text{df}_{1}}{2})\Gamma(\frac{\text{df}_{2}}{2})(1+\frac{\text{df}_{1}}{\text{df}_{2}}x)^{\frac{\text{df}_{1}+\text{df}_{2}}{2}}}\\
+&f(x)=\frac{}
+&x^{0.5\text{df}_{1}-1}
+&\Gamma\left(\frac{\text{df}_{1}+\text{df}_{2}}{2}\right)
+&\left(\frac{\text{df}_{1}}{\text{df}_{2}}\right)^{0.5\text{df}_{1}}
+&}{}
+&\Gamma\left(\frac{\text{df}_{1}}{2}\right)
+&\Gamma\left(\frac{\text{df}_{2}}{2}\right)
+&\left(1+\frac{\text{df}_{1}}{\text{df}_{2}}x\right)^{\frac{\text{df}_{1}+\text{df}_{2}}{2}}
+&}\\
 &x=\text{F-statistic}\\
 &\Gamma=\text{gamma}\\
-&d=\text{degrees of freedom}
+&\text{df}=\text{degrees of freedom}
 \end{aligned}
 $$
 

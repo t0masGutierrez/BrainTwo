@@ -160,9 +160,9 @@ $$
 ### fundamental matrix formula
 $$
 \begin{aligned}
-&\Phi(t)=\begin{bmatrix}\vert&\vert&&\vert\\
-&\vec{x}_{1}(t)&\vec{x}_{2}(t)&\cdots&\vec{x}_{n}(t)\\
-&\vert&\vert&&\vert\end{bmatrix}\\
+&\Phi(t)=\begin{bmatrix}\vert\vert\vert\\
+&\vec{x}_{1}(t)\vec{x}_{2}(t)\cdots\vec{x}_{n}(t)\\
+&\vert\vert\vert\end{bmatrix}\\
 &\vec x=\text{solution}\\
 &t=\text{independent variable}
 \end{aligned}

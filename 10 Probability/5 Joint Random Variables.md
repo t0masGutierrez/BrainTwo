@@ -231,8 +231,8 @@ $$
 ### joint variance formula
 $$
 \begin{aligned}
-&\text{Var}(X,Y)=\begin{bmatrix}\text{Var}(X)&\text{Cov}(X,Y)\\
-&\text{Cov}(Y,X)&\text{Var}(Y)\end{bmatrix}\\
+&\text{Var}(X,Y)=\begin{bmatrix}\text{Var}(X)\text{Cov}(X,Y)\\
+&\text{Cov}(Y,X)\text{Var}(Y)\end{bmatrix}\\
 &X,Y=\text{random variable}
 \end{aligned}
 $$

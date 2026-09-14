@@ -303,10 +303,10 @@ $$
 ### cross product direction property formula
 $$
 \begin{aligned}
-&\theta=90^{\circ}&\iff\|\vec v\times\vec{u}\|=uv\\
-&\theta=0^{\circ}&\iff\|\vec v\times\vec{u}\|=0\\
-&\theta=180^{\circ}&\iff\|\vec v\times\vec{u}\|=0\\
-&\vec v=\vec{u}&\implies(\theta=0^{\circ})\land(\|\vec v\times\vec{u}\|=0)
+&\theta=90^{\circ}\iff\|\vec v\times\vec{u}\|=uv\\
+&\theta=0^{\circ}\iff\|\vec v\times\vec{u}\|=0\\
+&\theta=180^{\circ}\iff\|\vec v\times\vec{u}\|=0\\
+&\vec v=\vec{u}\implies(\theta=0^{\circ})\land(\|\vec v\times\vec{u}\|=0)
 \end{aligned}
 $$
 
@@ -341,9 +341,9 @@ $$
 $$
 \begin{aligned}
 &\vec{v}\cdot(\vec{u}\times\vec{w})=\begin{vmatrix}
-&v_{x}&v_{y}&v_{z}\\
-&u_{x}&u_{y}&u_{z}\\
-&w_{z}&w_{y}&w_{z}\\
+&v_{x}v_{y}v_{z}\\
+&u_{x}u_{y}u_{z}\\
+&w_{z}w_{y}w_{z}\\
 &\end{vmatrix}\\
 &v_{x},u_{x},w_{x}=\text{x scalar component}\\
 &v_{y},u_{y},w_{y}=\text{y scalar component}\\

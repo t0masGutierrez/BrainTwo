@@ -28,7 +28,7 @@ $$
 ### 2x2 matrix inversion formula
 $$
 \begin{aligned}
-&A^{-1}=\begin{bmatrix}a&b\\c&d\end{bmatrix}^{-1}=\frac{1}{\delta}\begin{bmatrix}d&-b\\-c&a\end{bmatrix}\\
+&A^{-1}=\begin{bmatrix}ab\\cd\end{bmatrix}^{-1}=\frac{1}{\delta}\begin{bmatrix}d-b\\-ca\end{bmatrix}\\
 &\delta=ad-bc\ne0
 \end{aligned}
 $$

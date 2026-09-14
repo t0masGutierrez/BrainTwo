@@ -137,7 +137,7 @@ $$
 ### rotation formula
 $$
 \begin{aligned}
-&[v_{1},\dots,v_{i},\dots,v_{n}]\mapsto\begin{bmatrix}\cos\theta&-\sin\theta\\\sin\theta&\cos\theta\end{bmatrix}\begin{bmatrix}v_{1}\\\vdots\\v_{i}\\\vdots\\v_{n}\end{bmatrix}
+&[v_{1},\dots,v_{i},\dots,v_{n}]\mapsto\begin{bmatrix}\cos\theta-\sin\theta\\\sin\theta\cos\theta\end{bmatrix}\begin{bmatrix}v_{1}\\\vdots\\v_{i}\\\vdots\\v_{n}\end{bmatrix}
 \end{aligned}
 $$
 

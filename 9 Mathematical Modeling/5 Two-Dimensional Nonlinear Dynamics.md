@@ -61,8 +61,8 @@ $$
 \begin{aligned}
 &\frac{dv}{dt}=A_{*}v+R\\
 &A_{*}=\begin{bmatrix}
-&\frac{\partial f}{\partial x}(v_{*})&\frac{\partial f}{\partial y}(v_{*})\\
-&\frac{\partial g}{\partial x}(v_{*})&\frac{\partial g}{\partial y}(v_{*})
+&\frac{\partial f}{\partial x}(v_{*})\frac{\partial f}{\partial y}(v_{*})\\
+&\frac{\partial g}{\partial x}(v_{*})\frac{\partial g}{\partial y}(v_{*})
 &\end{bmatrix}\\
 &v=\begin{bmatrix}
 &x-x_{*}\\

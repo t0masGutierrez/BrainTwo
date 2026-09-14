@@ -330,8 +330,8 @@ $$
 \begin{aligned}
 &(\frac{dx}{dt}=ax+by)\land(\frac{dy}{dt}=cx+dy)\implies\frac{dv}{dt}=Av\\
 &A=\begin{bmatrix}
-&a&b\\
-&c&d\\
+&ab\\
+&cd\\
 &\end{bmatrix}\\
 &v=[x,y]\\
 &x,y,v=\text{solution}\\
@@ -379,8 +379,8 @@ $$
 &v(t)=C_{1}e^{\lambda_{1}t}\hat u_{1}+C_{2}e^{\lambda_{2}t}\hat u_{2}\\
 &v=[x,y]\\
 &A=\begin{bmatrix}
-&a&b\\
-&c&d\\
+&ab\\
+&cd\\
 &\end{bmatrix}\\
 &v=\text{solution}\\
 &t=\text{time}\\
@@ -420,8 +420,8 @@ $$
 &\hat u_{1}=\hat u_{2}\implies v(t)=C_{1}e^{\lambda t}\hat u+C_{2}e^{\lambda t}(\hat ut+\hat w)\land(A-\lambda I)\hat w=\hat u\\
 &v=[x,y]\\
 &A=\begin{bmatrix}
-&a&b\\
-&c&d\\
+&ab\\
+&cd\\
 &\end{bmatrix}\\
 &v=\text{solution}\\
 &t=\text{time}\\

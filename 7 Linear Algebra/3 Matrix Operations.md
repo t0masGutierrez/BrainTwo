@@ -6,9 +6,9 @@
 $$
 \begin{aligned}
 &A=\begin{bmatrix}
-&a_{11}&\dots&a_{1n}\\
-&\vdots&\ddots&\vdots\\
-&a_{m1}&\dots&a_{\text{mn}}
+&a_{11}\dotsa_{1n}\\
+&\vdots\ddots\vdots\\
+&a_{m1}\dotsa_{\text{mn}}
 &\end{bmatrix}\\
 &|A|=m\times n\\
 &a=\text{entry}\\
@@ -26,9 +26,9 @@ $$
 $$
 \begin{aligned}
 &A=\begin{bmatrix}
-&a_{11}&a_{12}&a_{13}\\
-&a_{21}&a_{22}&a_{23}\\
-&a_{31}&a_{32}&a_{33}
+&a_{11}a_{12}a_{13}\\
+&a_{21}a_{22}a_{23}\\
+&a_{31}a_{32}a_{33}
 &\end{bmatrix}\\
 &|A|=3\times3\\
 &a=\text{entry}
@@ -60,9 +60,9 @@ $$
 $$
 \begin{aligned}
 &D=\begin{bmatrix}
-&d_{11}&0&0\\
-&0&d_{22}&0\\
-&0&0&d_{33}
+&d_{11}00\\
+&0d_{22}0\\
+&00d_{33}
 &\end{bmatrix}\iff\forall(i\ne j):d_{\text{ij}}=0\\
 &|D|=3\times3\\
 &d=\text{entry}\\
@@ -80,9 +80,9 @@ $$
 $$
 \begin{aligned}
 &I=\begin{bmatrix}
-&1&0&0\\
-&0&1&0\\
-&0&0&1
+&100\\
+&010\\
+&001
 &\end{bmatrix}\iff\forall(i\ne j):(a_{\text{ij}}=0)\land\forall(i=j):(a_{\text{ij}}=1)\\
 &|I|=3\times3\\
 &i=\text{row index}\\
@@ -99,9 +99,9 @@ $$
 $$
 \begin{aligned}
 &U=\begin{bmatrix}
-&u_{11}&u_{12}&u_{13}\\
-&0&u_{22}&u_{23}\\
-&0&0&u_{33}
+&u_{11}u_{12}u_{13}\\
+&0u_{22}u_{23}\\
+&00u_{33}
 &\end{bmatrix}\iff\forall(i>j):u_{\text{ij}}=0\\
 &|U|=3\times3\\
 &u=\text{entry}\\
@@ -119,9 +119,9 @@ $$
 $$
 \begin{aligned}
 &L=\begin{bmatrix}
-&l_{11}&0&0\\
-&l_{21}&l_{22}&0\\
-&l_{31}&l_{32}&l_{33}\\
+&l_{11}00\\
+&l_{21}l_{22}0\\
+&l_{31}l_{32}l_{33}\\
 &\end{bmatrix}\iff\forall(i<j):l_{\text{ij}}=0\\
 &|L|=3\times3\\
 &l=\text{entry}\\
@@ -139,9 +139,9 @@ $$
 $$
 \begin{aligned}
 &A=\begin{bmatrix}
-&0&0&0\\
-&0&0&0\\
-&0&0&0
+&000\\
+&000\\
+&000
 &\end{bmatrix}\\
 &|A|=3\times3
 \end{aligned}
@@ -172,9 +172,9 @@ $$
 $$
 \begin{aligned}
 &cA=\begin{bmatrix}
-&ca_{11}&ca_{12}&ca_{13}\\
-&ca_{21}&ca_{22}&ca_{23}\\
-&ca_{31}&ca_{32}&ca_{33}
+&ca_{11}ca_{12}ca_{13}\\
+&ca_{21}ca_{22}ca_{23}\\
+&ca_{31}ca_{32}ca_{33}
 &\end{bmatrix}\\
 &|cA|=3\times3\\
 &c=\text{scalar}\\
@@ -191,9 +191,9 @@ $$
 $$
 \begin{aligned}
 &A+B=\begin{bmatrix}
-&a_{11}+b_{11}&a_{12}+b_{12}&a_{13}+b_{13}\\
-&a_{21}+b_{21}&a_{22}+b_{22}&a_{23}+b_{23}\\
-&a_{31}+b_{31}&a_{32}+b_{32}&a_{33}+b_{33}
+&a_{11}+b_{11}a_{12}+b_{12}a_{13}+b_{13}\\
+&a_{21}+b_{21}a_{22}+b_{22}a_{23}+b_{23}\\
+&a_{31}+b_{31}a_{32}+b_{32}a_{33}+b_{33}
 &\end{bmatrix}\\
 &|A+B|=3\times3\\
 &a,b=\text{entry}
@@ -224,13 +224,13 @@ $$
 $$
 \begin{aligned}
 &A=\begin{bmatrix}
-&a_{11}&a_{12}&a_{13}\\
-&a_{21}&a_{22}&a_{23}\\
-&a_{31}&a_{32}&a_{33}\\
+&a_{11}a_{12}a_{13}\\
+&a_{21}a_{22}a_{23}\\
+&a_{31}a_{32}a_{33}\\
 &\end{bmatrix}\implies A^{T}=\begin{bmatrix}
-&a_{11}&a_{21}&a_{31}\\
-&a_{12}&a_{22}&a_{32}\\
-&a_{13}&a_{23}&a_{33}
+&a_{11}a_{21}a_{31}\\
+&a_{12}a_{22}a_{32}\\
+&a_{13}a_{23}a_{33}
 &\end{bmatrix}\\
 &m\times n\implies n\times m\\
 &a_{\text{ij}}\implies a_{\text{ji}}\\

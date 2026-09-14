@@ -76,10 +76,10 @@ $$
 $$
 \begin{aligned}
 &A=\begin{bmatrix}
-&a_{11}&a_{12}&\cdots&a_{1n}\\
-&a_{21}&a_{22}&\cdots&a_{2n}\\
-&\vdots&\vdots&\ddots&\vdots\\
-&a_{m1}&a_{m2}&\cdots&a_{\text{mn}}\\
+&a_{11}a_{12}\cdotsa_{1n}\\
+&a_{21}a_{22}\cdotsa_{2n}\\
+&\vdots\vdots\ddots\vdots\\
+&a_{m1}a_{m2}\cdotsa_{\text{mn}}\\
 &\end{bmatrix}\\
 &|A|=m\times n\\
 &a=\text{coefficient}\\
@@ -136,10 +136,10 @@ $$
 \begin{aligned}
 &AX=B\\
 &\begin{bmatrix}
-&a_{11}&a_{12}&\cdots&a_{1n}\\
-&a_{21}&a_{22}&\cdots&a_{2n}\\
-&\vdots&\vdots&\ddots&\vdots\\
-&a_{m1}&a_{m2}&\cdots&a_{\text{mn}}\\
+&a_{11}a_{12}\cdotsa_{1n}\\
+&a_{21}a_{22}\cdotsa_{2n}\\
+&\vdots\vdots\ddots\vdots\\
+&a_{m1}a_{m2}\cdotsa_{\text{mn}}\\
 &\end{bmatrix}\begin{bmatrix}
 &x_{1}\\
 &x_{2}\\
@@ -166,10 +166,10 @@ $$
 $$
 \begin{aligned}
 &A\mid B=\left[\begin{array}{cccc|c}
-&a_{11}&a_{12}&\cdots&a_{1n}&b_{1}\\
-&a_{21}&a_{22}&\cdots&a_{2n}&b_{2}\\
-&\vdots&\vdots&\ddots&\vdots&\vdots\\
-&a_{m1}&a_{m2}&\cdots&a_{\text{mn}}&b_{m}
+&a_{11}a_{12}\cdotsa_{1n}b_{1}\\
+&a_{21}a_{22}\cdotsa_{2n}b_{2}\\
+&\vdots\vdots\ddots\vdots\vdots\\
+&a_{m1}a_{m2}\cdotsa_{\text{mn}}b_{m}
 &\end{array}\right]
 \end{aligned}
 $$
@@ -183,10 +183,10 @@ $$
 $$
 \begin{aligned}
 &A\mid B\mid B'=\left[\begin{array}{cccc|c|c}
-&a_{11}&a_{12}&\cdots&a_{1n}&b_{1}&b_{1}'\\
-&a_{21}&a_{22}&\cdots&a_{2n}&b_{2}&b_{2}'\\
-&\vdots&\vdots&\ddots&\vdots&\vdots&\vdots\\
-&a_{m1}&a_{m2}&\cdots&a_{\text{mn}}&b_{m}&b_{m}'
+&a_{11}a_{12}\cdotsa_{1n}b_{1}b_{1}'\\
+&a_{21}a_{22}\cdotsa_{2n}b_{2}b_{2}'\\
+&\vdots\vdots\ddots\vdots\vdots\vdots\\
+&a_{m1}a_{m2}\cdotsa_{\text{mn}}b_{m}b_{m}'
 &\end{array}\right]
 \end{aligned}
 $$
