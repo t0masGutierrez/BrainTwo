@@ -5,9 +5,9 @@
 ### electricity formula
 $$
 \begin{aligned}
-q\lor\frac{dq}{dt}\\
-q=\text{electric charge}\\
-t=\text{time}
+&q\lor\frac{dq}{dt}\\
+&q=\text{electric charge}\\
+&t=\text{time}
 \end{aligned}
 $$
 
@@ -22,10 +22,10 @@ $$
 ### electric charge formula
 $$
 \begin{aligned}
-\hat q_1=\hat q_2\implies\hat F_e>0\\
-\hat q_1=-\hat q_2\implies\hat F_e<0\\
-q=\text{electric charge}\\
-F=\text{force}
+&\hat q_1=\hat q_2\implies\hat F_e>0\\
+&\hat q_1=-\hat q_2\implies\hat F_e<0\\
+&q=\text{electric charge}\\
+&F=\text{force}
 \end{aligned}
 $$
 
@@ -37,11 +37,11 @@ $$
 ### proton formula
 $$
 \begin{aligned}
-m=1.673\times10^{-27}\\
-q=1.602\times10^{-19}=-e\\
-m=\text{mass}\\
-q=\text{electric charge}\\
-e=\text{electron}
+&m=1.673\times10^{-27}\\
+&q=1.602\times10^{-19}=-e\\
+&m=\text{mass}\\
+&q=\text{electric charge}\\
+&e=\text{electron}
 \end{aligned}
 $$
 
@@ -53,11 +53,11 @@ $$
 ### electron formula
 $$
 \begin{aligned}
-m=9.109\times10^{-31}\\
-q=-1.602\times10^{-19}=e\\
-m=\text{mass}\\
-q=\text{electric charge}\\
-e=\text{electron}
+&m=9.109\times10^{-31}\\
+&q=-1.602\times10^{-19}=e\\
+&m=\text{mass}\\
+&q=\text{electric charge}\\
+&e=\text{electron}
 \end{aligned}
 $$
 
@@ -69,10 +69,10 @@ $$
 ### neutron formula
 $$
 \begin{aligned}
-m=1.675\times10^{-27}\\
-q=0\\
-m=\text{mass}\\
-q=\text{electric charge}
+&m=1.675\times10^{-27}\\
+&q=0\\
+&m=\text{mass}\\
+&q=\text{electric charge}
 \end{aligned}
 $$
 
@@ -87,9 +87,9 @@ $$
 ### atomic structure formula
 $$
 \begin{aligned}
-Q=e(n_p-n_e)\\
-e=\text{electron}\\
-n=\text{number of particles}
+&Q=e(n_p-n_e)\\
+&e=\text{electron}\\
+&n=\text{number of particles}
 \end{aligned}
 $$
 
@@ -102,8 +102,8 @@ $$
 ### ion formula
 $$
 \begin{aligned}
-n_p\ne n_e\\
-n=\text{number of particles}
+&n_p\ne n_e\\
+&n=\text{number of particles}
 \end{aligned}
 $$
 
@@ -115,8 +115,8 @@ $$
 ### positive ion formula
 $$
 \begin{aligned}
-n_p>n_e\\
-n=\text{number of particles}
+&n_p>n_e\\
+&n=\text{number of particles}
 \end{aligned}
 $$
 
@@ -128,8 +128,8 @@ $$
 ### negative ion formula
 $$
 \begin{aligned}
-n_p<n_e\\
-n=\text{number of particles}
+&n_p<n_e\\
+&n=\text{number of particles}
 \end{aligned}
 $$
 
@@ -141,8 +141,8 @@ $$
 ### conservation of electric charge formula
 $$
 \begin{aligned}
-\Delta Q=0\\
-Q=\text{electric charge}
+&\Delta Q=0\\
+&Q=\text{electric charge}
 \end{aligned}
 $$
 
@@ -154,9 +154,9 @@ $$
 ### quantization of electric charge formula
 $$
 \begin{aligned}
-q=ne\\
-n=\text{integer}\\
-e=\text{electron}
+&q=ne\\
+&n=\text{integer}\\
+&e=\text{electron}
 \end{aligned}
 $$
 
@@ -214,11 +214,11 @@ $$
 ### coulomb formula
 $$
 \begin{aligned}
-\vec F_{e}=k\frac{|q_{1}q_{2}|}{r^{2}}\hat r\\
-k=\frac{1}{4\pi\epsilon_{0}}\\
-q=\text{electric charge}\\
-r=\text{distance}\\
-\hat r=\text{direction}
+&\vec F_{e}=k\frac{|q_{1}q_{2}|}{r^{2}}\hat r\\
+&k=\frac{1}{4\pi\epsilon_{0}}\\
+&q=\text{electric charge}\\
+&r=\text{distance}\\
+&\hat r=\text{direction}
 \end{aligned}
 $$
 
@@ -239,13 +239,13 @@ $$
 ### electric field formula
 $$
 \begin{aligned}
-\vec E=k\frac{|Q|}{r^{2}}\hat r=\frac{\vec F_{e}}{q}\\
-k=9.0\times10^{9}\\
-Q=\text{source electric charge}\\
-r=\text{distance}\\
-\hat r=\text{direction}\\
-F_{e}=\text{electric force}\\
-q=\text{test electric charge}
+&\vec E=k\frac{|Q|}{r^{2}}\hat r=\frac{\vec F_{e}}{q}\\
+&k=9.0\times10^{9}\\
+&Q=\text{source electric charge}\\
+&r=\text{distance}\\
+&\hat r=\text{direction}\\
+&F_{e}=\text{electric force}\\
+&q=\text{test electric charge}
 \end{aligned}
 $$
 
@@ -278,9 +278,9 @@ $$
 ### electric dipole formula
 $$
 \begin{aligned}
-\vec p=q\vec d\\
-q=\text{electric charge}\\
-d=\text{distance}
+&\vec p=q\vec d\\
+&q=\text{electric charge}\\
+&d=\text{distance}
 \end{aligned}
 $$
 
@@ -293,7 +293,7 @@ $$
 ### electric dipole force formula
 $$
 \begin{aligned}
-\vec F_{\text{net}}=0
+&\vec F_{\text{net}}=0
 \end{aligned}
 $$
 
@@ -306,11 +306,11 @@ $$
 ### electric dipole electric field formula
 $$
 \begin{aligned}
-\vec E=\frac{\vec p}{2\pi\epsilon_{0}r^{3}}\\
-p=\text{electric dipole}\\
-q=\text{electric charge}\\
-\epsilon_{0}=8.85\times10^{-12}\\
-r=\text{distance}
+&\vec E=\frac{\vec p}{2\pi\epsilon_{0}r^{3}}\\
+&p=\text{electric dipole}\\
+&q=\text{electric charge}\\
+&\epsilon_{0}=8.85\times10^{-12}\\
+&r=\text{distance}
 \end{aligned}
 $$
 
@@ -323,10 +323,10 @@ $$
 ### electric dipole torque formula
 $$
 \begin{aligned}
-\vec\tau=\vec p\times\vec E=pE\sin(\theta)\\
-p=\text{electric dipole}\\
-E=\text{electric field}\\
-\theta=\text{angular position}
+&\vec\tau=\vec p\times\vec E=pE\sin(\theta)\\
+&p=\text{electric dipole}\\
+&E=\text{electric field}\\
+&\theta=\text{angular position}
 \end{aligned}
 $$
 
@@ -343,10 +343,10 @@ $$
 ### electric dipole potential energy formula
 $$
 \begin{aligned}
-U=-\vec p\cdot\vec E=-pE\cos(\theta)\\
-p=\text{electric dipole}\\
-E=\text{electric field}\\
-\theta=\text{angular position}
+&U=-\vec p\cdot\vec E=-pE\cos(\theta)\\
+&p=\text{electric dipole}\\
+&E=\text{electric field}\\
+&\theta=\text{angular position}
 \end{aligned}
 $$
 
@@ -364,13 +364,13 @@ $$
 ### electric charge density formula
 $$
 \begin{aligned}
-dQ=\lambda\ dL\\
-dQ=\sigma\ dA\\
-dQ=\rho\ dV\\
-Q=\text{electric charge}\\
-L=\text{length}\\
-A=\text{area}\\
-V=\text{volume}
+&dQ=\lambda\ dL\\
+&dQ=\sigma\ dA\\
+&dQ=\rho\ dV\\
+&Q=\text{electric charge}\\
+&L=\text{length}\\
+&A=\text{area}\\
+&V=\text{volume}
 \end{aligned}
 $$
 

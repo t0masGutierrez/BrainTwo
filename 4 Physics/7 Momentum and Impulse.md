@@ -6,9 +6,9 @@
 ### momentum formula
 $$
 \begin{aligned}
-\vec p=m\vec v\\
-m=\text{mass}\\
-\vec v=\text{velocity}
+&\vec p=m\vec v\\
+&m=\text{mass}\\
+&\vec v=\text{velocity}
 \end{aligned}
 $$
 
@@ -20,16 +20,16 @@ $$
 ### newtons second law of momentum formula
 $$
 \begin{aligned}
-\vec F_{\text{net}}=\frac{d\vec p}{dt}=
-\begin{cases}
-F_{x}=m\frac{dv_{x}}{dt}\\
-F_{y}=m\frac{dv_{y}}{dt}
-\end{cases}\\
-\vec p=\text{momentum}\\
-t=\text{time}\\
-F=\text{force}\\
-m=\text{mass}\\
-v=\text{velocity}
+&\vec F_{\text{net}}=\frac{d\vec p}{dt}=
+&\begin{cases}
+&F_{x}=m\frac{dv_{x}}{dt}\\
+&F_{y}=m\frac{dv_{y}}{dt}
+&\end{cases}\\
+&\vec p=\text{momentum}\\
+&t=\text{time}\\
+&F=\text{force}\\
+&m=\text{mass}\\
+&v=\text{velocity}
 \end{aligned}
 $$
 
@@ -42,10 +42,10 @@ $$
 ### impulse formula
 $$
 \begin{aligned}
-\vec J=\Delta\vec p=\int\vec F_{\text{net}}\cdot dt\\
-\vec p=\text{momentum}\\
-\vec F=\text{force}\\
-t=\text{time}
+&\vec J=\Delta\vec p=\int\vec F_{\text{net}}\cdot dt\\
+&\vec p=\text{momentum}\\
+&\vec F=\text{force}\\
+&t=\text{time}
 \end{aligned}
 $$
 
@@ -58,14 +58,14 @@ $$
 ### impulse versus work formula
 $$
 \begin{aligned}
-\vec J(t)=\Delta\vec p\\
-W_{\text{net}}(\vec r)=\Delta K\\
-\vec J=\text{impulse}\\
-t=\text{time}\\
-\vec p=\text{momentum}\\
-W=\text{work}\\
-\vec r=\text{position}\\
-K=\text{kinetic energy}
+&\vec J(t)=\Delta\vec p\\
+&W_{\text{net}}(\vec r)=\Delta K\\
+&\vec J=\text{impulse}\\
+&t=\text{time}\\
+&\vec p=\text{momentum}\\
+&W=\text{work}\\
+&\vec r=\text{position}\\
+&K=\text{kinetic energy}
 \end{aligned}
 $$
 
@@ -77,9 +77,9 @@ $$
 ### conservation of momentum formula
 $$
 \begin{aligned}
-\vec F_{\text{net}}=0\implies\vec J=0\\
-\vec F=\text{force}\\
-\vec p=\text{momentum}
+&\vec F_{\text{net}}=0\implies\vec J=0\\
+&\vec F=\text{force}\\
+&\vec p=\text{momentum}
 \end{aligned}
 $$
 
@@ -91,9 +91,9 @@ $$
 ### collision formula
 $$
 \begin{aligned}
-m_{1}\rightarrow\leftarrow m_{2}\implies\vec J\ne0\\
-m=\text{mass}\\
-\vec J=\text{impulse}
+&m_{1}\rightarrow\leftarrow m_{2}\implies\vec J\ne0\\
+&m=\text{mass}\\
+&\vec J=\text{impulse}
 \end{aligned}
 $$
 
@@ -107,10 +107,10 @@ $$
 ### explosion formula
 $$
 \begin{aligned}
-\vec v_{1f}=\frac{-m_{2}}{m_{1}}\vec v_{2f}\\
-\vec v_{2f}=\frac{-m_{1}}{m_{2}}\vec v_{1f}\\
-m=\text{mass}\\
-\vec v=\text{velocity}
+&\vec v_{1f}=\frac{-m_{2}}{m_{1}}\vec v_{2f}\\
+&\vec v_{2f}=\frac{-m_{1}}{m_{2}}\vec v_{1f}\\
+&m=\text{mass}\\
+&\vec v=\text{velocity}
 \end{aligned}
 $$
 
@@ -124,10 +124,10 @@ $$
 ### elastic collision formula
 $$
 \begin{aligned}
-\vec v_{1f}=\frac{m_{1}-m_{2}}{m_{1}+m_{2}}\vec v_{1i}+\frac{2m_{2}}{m_{1}+m_{2}}\vec v_{2i}\\
-\vec v_{2f}=\frac{2m_{1}}{m_{1}+m_{2}}\vec v_{1i}+\frac{m_{2}-m_{1}}{m_{1}+m_{2}}\vec v_{2i}\\
-m=\text{mass}\\
-v=\text{velocity}
+&\vec v_{1f}=\frac{m_{1}-m_{2}}{m_{1}+m_{2}}\vec v_{1i}+\frac{2m_{2}}{m_{1}+m_{2}}\vec v_{2i}\\
+&\vec v_{2f}=\frac{2m_{1}}{m_{1}+m_{2}}\vec v_{1i}+\frac{m_{2}-m_{1}}{m_{1}+m_{2}}\vec v_{2i}\\
+&m=\text{mass}\\
+&v=\text{velocity}
 \end{aligned}
 $$
 
@@ -141,9 +141,9 @@ $$
 ### inelastic collision formula
 $$
 \begin{aligned}
-m_1\vec v_{1i}+m_2\vec v_{2i}=m_1\vec v_{1f}+m_2\vec v_{2f}\\
-m=\text{mass}\\
-\vec v=\text{velocity}
+&m_1\vec v_{1i}+m_2\vec v_{2i}=m_1\vec v_{1f}+m_2\vec v_{2f}\\
+&m=\text{mass}\\
+&\vec v=\text{velocity}
 \end{aligned}
 $$
 
@@ -157,9 +157,9 @@ $$
 ### complete inelastic collision formula
 $$
 \begin{aligned}
-\vec v_{f}=\frac{m_{1}\vec v_{1i}+m_{2}\vec v_{2i}}{m_{1}+m_{2}}\\
-m=\text{mass}\\
-\vec v=\text{velocity}
+&\vec v_{f}=\frac{m_{1}\vec v_{1i}+m_{2}\vec v_{2i}}{m_{1}+m_{2}}\\
+&m=\text{mass}\\
+&\vec v=\text{velocity}
 \end{aligned}
 $$
 
@@ -173,10 +173,10 @@ $$
 ### center of mass formula
 $$
 \begin{aligned}
-\vec r_{\text{cm}}=\frac{\sum_{n}m_{n}\vec r_{n}}{\sum_{n}m_n}=\frac{1}{M}\sum_{n}m_{n}\vec r_{n}\\
-m=\text{mass}\\
-\vec r=\text{position}\\
-M=\text{system mass}
+&\vec r_{\text{cm}}=\frac{\sum_{n}m_{n}\vec r_{n}}{\sum_{n}m_n}=\frac{1}{M}\sum_{n}m_{n}\vec r_{n}\\
+&m=\text{mass}\\
+&\vec r=\text{position}\\
+&M=\text{system mass}
 \end{aligned}
 $$
 
@@ -188,11 +188,11 @@ $$
 ### center of mass velocity formula
 $$
 \begin{aligned}
-\vec v_{\text{cm}}=\frac{\sum_{n}m_{n}\vec v_{n}}{\sum_{n}m_n}=\frac{1}{M}\sum_n\vec p_n\\
-m=\text{mass}\\
-\vec v=\text{velocity}\\
-\vec p=\text{momentum}\\
-M=\text{system mass}
+&\vec v_{\text{cm}}=\frac{\sum_{n}m_{n}\vec v_{n}}{\sum_{n}m_n}=\frac{1}{M}\sum_n\vec p_n\\
+&m=\text{mass}\\
+&\vec v=\text{velocity}\\
+&\vec p=\text{momentum}\\
+&M=\text{system mass}
 \end{aligned}
 $$
 
@@ -204,11 +204,11 @@ $$
 ### center of mass acceleration formula
 $$
 \begin{aligned}
-\vec a_{\text{cm}}=\frac{\sum_{n}m_{n}\vec a_{n}}{\sum_{n}m_n}=\frac{1}{M}\sum_n\vec F_n\\
-m=\text{mass}\\
-\vec a=\text{acceleration}\\
-M=\text{system mass}\\
-\vec F=\text{force}
+&\vec a_{\text{cm}}=\frac{\sum_{n}m_{n}\vec a_{n}}{\sum_{n}m_n}=\frac{1}{M}\sum_n\vec F_n\\
+&m=\text{mass}\\
+&\vec a=\text{acceleration}\\
+&M=\text{system mass}\\
+&\vec F=\text{force}
 \end{aligned}
 $$
 
@@ -221,11 +221,11 @@ $$
 ### rocket formula
 $$
 \begin{aligned}
-\vec F_{\text{thrust}}=\vec v_{\text{ex}}\frac{dm}{dt}\\
-\Delta\vec v=\vec v_{\text{ex}}\ln(\frac{m_{i}}{m_{f}})\\
-\vec v=\text{velocity}\\
-m=\text{mass}\\
-t=\text{time}
+&\vec F_{\text{thrust}}=\vec v_{\text{ex}}\frac{dm}{dt}\\
+&\Delta\vec v=\vec v_{\text{ex}}\ln(\frac{m_{i}}{m_{f}})\\
+&\vec v=\text{velocity}\\
+&m=\text{mass}\\
+&t=\text{time}
 \end{aligned}
 $$
 

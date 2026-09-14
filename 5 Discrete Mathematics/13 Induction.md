@@ -6,9 +6,9 @@
 ### induction formula
 $$
 \begin{aligned}
-P(1)\\
-P(k)\implies P(k+1)\\
-\therefore\forall nP(n)
+&P(1)\\
+&P(k)\implies P(k+1)\\
+&\therefore\forall nP(n)
 \end{aligned}
 $$
 
@@ -40,10 +40,10 @@ $$
 ### strong induction formula
 $$
 \begin{aligned}
-P(1)\\
-P(j)\implies P(j+1)\\
-\therefore\forall nP(n)\\
-j=1,2,...k
+&P(1)\\
+&P(j)\implies P(j+1)\\
+&\therefore\forall nP(n)\\
+&j=1,2,...k
 \end{aligned}
 $$
 

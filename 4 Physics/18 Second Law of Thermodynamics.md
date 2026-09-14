@@ -29,10 +29,10 @@
 ### heat engine formula
 $$
 \begin{aligned}
-W=Q_H-Q_C\\
-\eta=\frac{W}{Q_{H}}\\
-Q=\text{heat}\\
-W=\text{work}
+&W=Q_H-Q_C\\
+&\eta=\frac{W}{Q_{H}}\\
+&Q=\text{heat}\\
+&W=\text{work}
 \end{aligned}
 $$
 
@@ -61,9 +61,9 @@ $$
 ### thermodynamic cycle formula
 $$
 \begin{aligned}
-Q=W\\
-Q=\text{heat}\\
-W=\text{work}
+&Q=W\\
+&Q=\text{heat}\\
+&W=\text{work}
 \end{aligned}
 $$
 
@@ -76,9 +76,9 @@ $$
 ### otto cycle formula
 $$
 \begin{aligned}
-\eta=1-\frac{1}{(\frac{V_a}{V_b})^{\gamma-1}}\\
-V=\text{volume}\\
-\gamma=\text{molar heat capacity ratio}
+&\eta=1-\frac{1}{(\frac{V_a}{V_b})^{\gamma-1}}\\
+&V=\text{volume}\\
+&\gamma=\text{molar heat capacity ratio}
 \end{aligned}
 $$
 
@@ -91,10 +91,10 @@ $$
 ### diesel cycle formula
 $$
 \begin{aligned}
-\eta=1-\frac{\rho^{\gamma}-1}{\gamma(\rho-1)(\frac{V_a}{V_b})^{\gamma-1}}\\
-\rho=\frac{V_c}{V_b}\\
-V=\text{volume}\\
-\gamma=\text{molar heat capacity ratio}
+&\eta=1-\frac{\rho^{\gamma}-1}{\gamma(\rho-1)(\frac{V_a}{V_b})^{\gamma-1}}\\
+&\rho=\frac{V_c}{V_b}\\
+&V=\text{volume}\\
+&\gamma=\text{molar heat capacity ratio}
 \end{aligned}
 $$
 
@@ -108,9 +108,9 @@ $$
 ### refrigerator formula
 $$
 \begin{aligned}
-\text{COP}_{\text{R}}=\frac{Q_C}{W}=\frac{Q_{C}}{Q_{H}-Q_{C}}\\
-Q=\text{heat}\\
-W=\text{work}
+&\text{COP}_{\text{R}}=\frac{Q_C}{W}=\frac{Q_{C}}{Q_{H}-Q_{C}}\\
+&Q=\text{heat}\\
+&W=\text{work}
 \end{aligned}
 $$
 
@@ -124,9 +124,9 @@ $$
 ### heat pump formula
 $$
 \begin{aligned}
-\text{COP}_\text{HP}=\frac{Q_H}{W}=\frac{Q_{H}}{Q_{H}-Q_{C}}\\
-Q=\text{heat}\\
-W=\text{work}
+&\text{COP}_\text{HP}=\frac{Q_H}{W}=\frac{Q_{H}}{Q_{H}-Q_{C}}\\
+&Q=\text{heat}\\
+&W=\text{work}
 \end{aligned}
 $$
 
@@ -139,12 +139,12 @@ $$
 ### carnot cycle formula
 $$
 \begin{aligned}
-\eta=\frac{T_{H}-T_{C}}{T_{H}}=\frac{Q_{H}-Q_{C}}{Q_{H}}\\
-\text{COP}_{\text{R}}=\frac{Q_C}{W}=\frac{T_{C}}{T_{H}-T_{C}}\\
-\text{COP}_{\text{HP}}=\frac{Q_H}{W}=\frac{T_{H}}{T_{H}-T_{C}}\\
-T=\text{temperature}\\
-Q=\text{heat}\\
-W=\text{work}
+&\eta=\frac{T_{H}-T_{C}}{T_{H}}=\frac{Q_{H}-Q_{C}}{Q_{H}}\\
+&\text{COP}_{\text{R}}=\frac{Q_C}{W}=\frac{T_{C}}{T_{H}-T_{C}}\\
+&\text{COP}_{\text{HP}}=\frac{Q_H}{W}=\frac{T_{H}}{T_{H}-T_{C}}\\
+&T=\text{temperature}\\
+&Q=\text{heat}\\
+&W=\text{work}
 \end{aligned}
 $$
 
@@ -157,16 +157,16 @@ $$
 ### second law of thermodynamics formula
 $$
 \begin{aligned}
-T_{A}<T_{B}\implies Q:B\rightarrow A\\
-p_A<p_B\implies\frac{dm}{dt}:B\rightarrow A\\
-\mu_A<\mu_B\implies\frac{dN}{dt}:B\rightarrow A\\
-T=\text{temperature}\\
-Q=\text{heat}\\
-p=\text{pressure}\\
-m=\text{mass}\\
-t=\text{time}\\
-\mu=\text{potential}\\
-N=\text{number of particles}
+&T_{A}<T_{B}\implies Q:B\rightarrow A\\
+&p_A<p_B\implies\frac{dm}{dt}:B\rightarrow A\\
+&\mu_A<\mu_B\implies\frac{dN}{dt}:B\rightarrow A\\
+&T=\text{temperature}\\
+&Q=\text{heat}\\
+&p=\text{pressure}\\
+&m=\text{mass}\\
+&t=\text{time}\\
+&\mu=\text{potential}\\
+&N=\text{number of particles}
 \end{aligned}
 $$
 
@@ -180,11 +180,11 @@ $$
 ### entropy formula
 $$
 \begin{aligned}
-\Delta S=k\ln(\frac{\Omega_B}{\Omega_A})=\int_A^B\frac{dQ}{T}\\
-k=1.381\times10^{-23}\\
-\Omega=\text{number of microstates}\\
-Q=\text{heat}\\
-T=\text{temperature}
+&\Delta S=k\ln(\frac{\Omega_B}{\Omega_A})=\int_A^B\frac{dQ}{T}\\
+&k=1.381\times10^{-23}\\
+&\Omega=\text{number of microstates}\\
+&Q=\text{heat}\\
+&T=\text{temperature}
 \end{aligned}
 $$
 
@@ -196,8 +196,8 @@ $$
 ### second law of thermodynamics formula
 $$
 \begin{aligned}
-\Delta S=\Delta S_{\text{system}}+\Delta S_{\text{surroundings}}\ge0\\
-S=\text{entropy}
+&\Delta S=\Delta S_{\text{system}}+\Delta S_{\text{surroundings}}\ge0\\
+&S=\text{entropy}
 \end{aligned}
 $$
 
@@ -209,9 +209,9 @@ $$
 ### third law of thermodynamics formula
 $$
 \begin{aligned}
-\lim_{T\rightarrow0}S=0\\
-T=\text{temperature}\\
-S=\text{entropy}
+&\lim_{T\rightarrow0}S=0\\
+&T=\text{temperature}\\
+&S=\text{entropy}
 \end{aligned}
 $$
 

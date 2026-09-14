@@ -8,9 +8,9 @@
 ### three dimensional coordinate system formula
 $$
 \begin{aligned}
-(x,y)\iff z=0\\
-(x,z)\iff y=0\\
-(y,z)\iff x=0
+&(x,y)\iff z=0\\
+&(x,z)\iff y=0\\
+&(y,z)\iff x=0
 \end{aligned}
 $$
 
@@ -23,11 +23,11 @@ $$
 ### direction vector formula
 $$
 \begin{aligned}
-\vec v=\overrightarrow{PQ}=\langle x-x_{0},y-y_{0},z-z_{0}\rangle=\langle a,b,c\rangle\\
-P=\text{initial point}\\
-Q=\text{terminal point}\\
-x,y,z=\text{coordinate}\\
-a,b,c=\text{direction number}
+&\vec v=\overrightarrow{PQ}=\langle x-x_{0},y-y_{0},z-z_{0}\rangle=\langle a,b,c\rangle\\
+&P=\text{initial point}\\
+&Q=\text{terminal point}\\
+&x,y,z=\text{coordinate}\\
+&a,b,c=\text{direction number}
 \end{aligned}
 $$
 
@@ -39,10 +39,10 @@ $$
 ### direction angle formula
 $$
 \begin{aligned}
-\alpha=\arccos(\frac{a}{\sqrt{a^2+b^2+c^2}})\\
-\beta=\arccos(\frac{b}{\sqrt{a^2+b^2+c^2}})\\
-\gamma=\arccos(\frac{c}{\sqrt{a^2+b^2+c^2}})\\
-a,b,c=\text{direction number}
+&\alpha=\arccos(\frac{a}{\sqrt{a^2+b^2+c^2}})\\
+&\beta=\arccos(\frac{b}{\sqrt{a^2+b^2+c^2}})\\
+&\gamma=\arccos(\frac{c}{\sqrt{a^2+b^2+c^2}})\\
+&a,b,c=\text{direction number}
 \end{aligned}
 $$
 
@@ -55,12 +55,12 @@ $$
 ### vector equation of line formula
 $$
 \begin{aligned}
-\langle x,y,z\rangle=\langle x_{0},y_{0},z_{0}\rangle+t\langle a,b,c\rangle=\vec r_0+t\vec v\\
-x,y,z=\text{coordinate}\\
-t=\text{parameter}\\
-a,b,c=\text{direction number}\\
-\vec r=\text{position vector}\\
-\vec v=\text{direction vector}
+&\langle x,y,z\rangle=\langle x_{0},y_{0},z_{0}\rangle+t\langle a,b,c\rangle=\vec r_0+t\vec v\\
+&x,y,z=\text{coordinate}\\
+&t=\text{parameter}\\
+&a,b,c=\text{direction number}\\
+&\vec r=\text{position vector}\\
+&\vec v=\text{direction vector}
 \end{aligned}
 $$
 
@@ -73,13 +73,13 @@ $$
 ### parametric equation of line formula
 $$
 \begin{aligned}
-x=x_{0}+at\\
-y=y_{0}+bt\\
-z=z_{0}+ct\\
-a,b,c\ne0\implies\frac{x-x_0}{a}=\frac{y-y_0}{b}=\frac{z-z_0}{c}\\
-x,y,z=\text{coordinate}\\
-u,v,c=\text{direction number}\\
-t=\text{parameter}
+&x=x_{0}+at\\
+&y=y_{0}+bt\\
+&z=z_{0}+ct\\
+&a,b,c\ne0\implies\frac{x-x_0}{a}=\frac{y-y_0}{b}=\frac{z-z_0}{c}\\
+&x,y,z=\text{coordinate}\\
+&u,v,c=\text{direction number}\\
+&t=\text{parameter}
 \end{aligned}
 $$
 
@@ -92,9 +92,9 @@ $$
 ### normal vector formula
 $$
 \begin{aligned}
-\vec n=\overrightarrow{PQ}\times\overrightarrow{PR}=\langle a,b,c\rangle\\
-P,Q,R=\text{noncollinear point}\\
-a,b,c=\text{normal number}
+&\vec n=\overrightarrow{PQ}\times\overrightarrow{PR}=\langle a,b,c\rangle\\
+&P,Q,R=\text{noncollinear point}\\
+&a,b,c=\text{normal number}
 \end{aligned}
 $$
 
@@ -107,8 +107,8 @@ $$
 ### normal angle formula
 $$
 \begin{aligned}
-\theta=\arccos(\frac{\vec n_1\cdot\vec n_2}{n_1n_2})\\
-\vec n=\text{normal vector}
+&\theta=\arccos(\frac{\vec n_1\cdot\vec n_2}{n_1n_2})\\
+&\vec n=\text{normal vector}
 \end{aligned}
 $$
 
@@ -121,10 +121,10 @@ $$
 ### vector equation of plane formula
 $$
 \begin{aligned}
-\vec n\cdot\overrightarrow{PQ}=0\\
-\vec n=\text{normal vector}\\
-P=\text{initial point}\\
-Q=\text{terminal point}
+&\vec n\cdot\overrightarrow{PQ}=0\\
+&\vec n=\text{normal vector}\\
+&P=\text{initial point}\\
+&Q=\text{terminal point}
 \end{aligned}
 $$
 
@@ -136,9 +136,9 @@ $$
 ### scalar equation of plane formula
 $$
 \begin{aligned}
-a(x-x_{0})+b(y-y_{0})+c(z-z_{0})=0\\
-a,b,c=\text{normal number}\\
-x,y,z=\text{coordinate}
+&a(x-x_{0})+b(y-y_{0})+c(z-z_{0})=0\\
+&a,b,c=\text{normal number}\\
+&x,y,z=\text{coordinate}
 \end{aligned}
 $$
 
@@ -151,8 +151,8 @@ $$
 ### parallel plane formula
 $$
 \begin{aligned}
-\vec n_1\parallel\vec n_2\\
-\vec n=\text{normal vector}
+&\vec n_1\parallel\vec n_2\\
+&\vec n=\text{normal vector}
 \end{aligned}
 $$
 
@@ -165,8 +165,8 @@ $$
 ### perpendicular plane formula
 $$
 \begin{aligned}
-\vec n_1\perp\vec n_2\\
-\vec n=\text{normal vector}
+&\vec n_1\perp\vec n_2\\
+&\vec n=\text{normal vector}
 \end{aligned}
 $$
 
@@ -179,11 +179,11 @@ $$
 ### linear distance formula
 $$
 \begin{aligned}
-d=\frac{\|\overrightarrow{PQ}\times\vec v\|}{\sqrt{a^2+b^2+c^2}}\\
-P=\text{initial point}\\
-Q=\text{terminal point}\\
-\vec v=\text{direction vector}\\
-a,b,c=\text{direction number}
+&d=\frac{\|\overrightarrow{PQ}\times\vec v\|}{\sqrt{a^2+b^2+c^2}}\\
+&P=\text{initial point}\\
+&Q=\text{terminal point}\\
+&\vec v=\text{direction vector}\\
+&a,b,c=\text{direction number}
 \end{aligned}
 $$
 
@@ -196,11 +196,11 @@ $$
 ### planar distance formula
 $$
 \begin{aligned}
-d=\frac{|\overrightarrow{PQ}\cdot\vec n|}{\sqrt{a^2+b^2+c^2}}\\
-P=\text{initial point}\\
-Q=\text{terminal point}\\
-\vec n=\text{normal vector}\\
-a,b,c=\text{normal number}
+&d=\frac{|\overrightarrow{PQ}\cdot\vec n|}{\sqrt{a^2+b^2+c^2}}\\
+&P=\text{initial point}\\
+&Q=\text{terminal point}\\
+&\vec n=\text{normal vector}\\
+&a,b,c=\text{normal number}
 \end{aligned}
 $$
 
@@ -213,9 +213,9 @@ $$
 ### cylindrical surface formula
 $$
 \begin{aligned}
-f(x,y)=0\\
-f(x,z)=0\\
-f(y,z)=0\\
+&f(x,y)=0\\
+&f(x,z)=0\\
+&f(y,z)=0\\
 \end{aligned}
 $$
 
@@ -227,7 +227,7 @@ $$
 ### elliptic cylinder formula
 $$
 \begin{aligned}
-\frac{(x-h)^2}{a^2}+\frac{(y-k)^2}{b^2}=1
+&\frac{(x-h)^2}{a^2}+\frac{(y-k)^2}{b^2}=1
 \end{aligned}
 $$
 
@@ -239,7 +239,7 @@ $$
 ### hyperbolic cylinder formula
 $$
 \begin{aligned}
-\frac{(x-h)^2}{a^2}-\frac{(y-k)^2}{b^2}=1
+&\frac{(x-h)^2}{a^2}-\frac{(y-k)^2}{b^2}=1
 \end{aligned}
 $$
 
@@ -251,7 +251,7 @@ $$
 ### parabolic cylinder formula
 $$
 \begin{aligned}
-a(x-h)^2=y-k
+&a(x-h)^2=y-k
 \end{aligned}
 $$
 
@@ -263,7 +263,7 @@ $$
 ### quadric surface formula
 $$
 \begin{aligned}
-Ax^2+By^2+Cz^2+Dxy+Exz+Fyz+Gx+Hy+Iz+J=0
+&Ax^2+By^2+Cz^2+Dxy+Exz+Fyz+Gx+Hy+Iz+J=0
 \end{aligned}
 $$
 
@@ -276,7 +276,7 @@ $$
 ### ellipsoid formula
 $$
 \begin{aligned}
-\frac{(x-h)^2}{a^2}+\frac{(y-k)^2}{b^2}+\frac{(z-\ell)^2}{c^2}=1
+&\frac{(x-h)^2}{a^2}+\frac{(y-k)^2}{b^2}+\frac{(z-\ell)^2}{c^2}=1
 \end{aligned}
 $$
 
@@ -289,7 +289,7 @@ $$
 ### one hyperboloid formula
 $$
 \begin{aligned}
-\frac{(x-h)^2}{a^2}+\frac{(y-k)^2}{b^2}-\frac{(z-\ell)^2}{c^2}=1
+&\frac{(x-h)^2}{a^2}+\frac{(y-k)^2}{b^2}-\frac{(z-\ell)^2}{c^2}=1
 \end{aligned}
 $$
 
@@ -302,7 +302,7 @@ $$
 ### two hyperboloid formula
 $$
 \begin{aligned}
--\frac{(x-h)^2}{a^2}-\frac{(y-k)^2}{b^2}+\frac{(z-\ell)^2}{c^2}=1
+&-\frac{(x-h)^2}{a^2}-\frac{(y-k)^2}{b^2}+\frac{(z-\ell)^2}{c^2}=1
 \end{aligned}
 $$
 
@@ -315,7 +315,7 @@ $$
 ### elliptic cone formula
 $$
 \begin{aligned}
-\frac{(x-h)^2}{a^2}+\frac{(y-k)^2}{b^2}-\frac{(z-\ell)^2}{c^2}=0
+&\frac{(x-h)^2}{a^2}+\frac{(y-k)^2}{b^2}-\frac{(z-\ell)^2}{c^2}=0
 \end{aligned}
 $$
 
@@ -328,7 +328,7 @@ $$
 ### elliptic paraboloid formula
 $$
 \begin{aligned}
-\frac{(x-h)^2}{a^2}+\frac{(y-k)^2}{b^2}=z-\ell
+&\frac{(x-h)^2}{a^2}+\frac{(y-k)^2}{b^2}=z-\ell
 \end{aligned}
 $$
 
@@ -341,7 +341,7 @@ $$
 ### hyperbolic paraboloid formula
 $$
 \begin{aligned}
-\frac{(x-h)^2}{a^2}-\frac{(y-k)^2}{b^2}=z-\ell
+&\frac{(x-h)^2}{a^2}-\frac{(y-k)^2}{b^2}=z-\ell
 \end{aligned}
 $$
 
@@ -354,17 +354,17 @@ $$
 ### cylindrical coordinate formula
 $$
 \begin{aligned}
-\begin{cases}x=r\cos(\theta)\\
-y=r\sin(\theta)\\
-z=z
-\end{cases}\iff\begin{cases}
-r=\sqrt{x^{2}+y^{2}}\\
-\theta=\arctan(\frac{y}{x})\\
-z=z
-\end{cases}\\
-x,y,z=\text{dependent variable}\\
-r=\text{distance}\\
-\theta=\text{angle}
+&\begin{cases}x=r\cos(\theta)\\
+&y=r\sin(\theta)\\
+&z=z
+&\end{cases}\iff\begin{cases}
+&r=\sqrt{x^{2}+y^{2}}\\
+&\theta=\arctan(\frac{y}{x})\\
+&z=z
+&\end{cases}\\
+&x,y,z=\text{dependent variable}\\
+&r=\text{distance}\\
+&\theta=\text{angle}
 \end{aligned}
 $$
 
@@ -377,27 +377,27 @@ $$
 ### spherical coordinate formula
 $$
 \begin{aligned}
-\begin{cases}x=\rho\sin(\phi)\cos(\theta)\\
-y=\rho\sin(\phi)\sin(\theta)\\
-z=\rho\cos(\theta)
-\end{cases}\iff\begin{cases}
-\rho=\sqrt{x^{2}+y^{2}+z^2}\\
-\theta=\arctan(\frac{y}{x})\\
-\phi=\arccos(\frac{z}{\sqrt{x^2+y^2+z^2}})\\
-\end{cases}\\
-\begin{cases}r=\rho\sin(\phi)\\
-\theta=\theta\\
-z=\rho\cos(\phi)\\
-\end{cases}\iff\begin{cases}
-\rho=\sqrt{r^2+z^2}\\
-\theta=\theta\\
-\phi=\arccos(\frac{z}{\sqrt{r^2+z^2}})\\
-\end{cases}\\
-x,y,z=\text{dependent variable}\\
-\rho=\text{planar distance}\\
-\phi=\text{direction angle}\\
-\theta=\text{angle}\\
-r=\text{distance}
+&\begin{cases}x=\rho\sin(\phi)\cos(\theta)\\
+&y=\rho\sin(\phi)\sin(\theta)\\
+&z=\rho\cos(\theta)
+&\end{cases}\iff\begin{cases}
+&\rho=\sqrt{x^{2}+y^{2}+z^2}\\
+&\theta=\arctan(\frac{y}{x})\\
+&\phi=\arccos(\frac{z}{\sqrt{x^2+y^2+z^2}})\\
+&\end{cases}\\
+&\begin{cases}r=\rho\sin(\phi)\\
+&\theta=\theta\\
+&z=\rho\cos(\phi)\\
+&\end{cases}\iff\begin{cases}
+&\rho=\sqrt{r^2+z^2}\\
+&\theta=\theta\\
+&\phi=\arccos(\frac{z}{\sqrt{r^2+z^2}})\\
+&\end{cases}\\
+&x,y,z=\text{dependent variable}\\
+&\rho=\text{planar distance}\\
+&\phi=\text{direction angle}\\
+&\theta=\text{angle}\\
+&r=\text{distance}
 \end{aligned}
 $$
 

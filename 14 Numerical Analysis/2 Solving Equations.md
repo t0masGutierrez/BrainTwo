@@ -5,9 +5,9 @@
 ### p decimal place correctness formula
 $$
 \begin{aligned}
-|r-r_c|<\frac{1}{2}\times10^{-p}\\
-r=\text{real root}\\
-r_c=\text{computed root}
+&|r-r_c|<\frac{1}{2}\times10^{-p}\\
+&r=\text{real root}\\
+&r_c=\text{computed root}
 \end{aligned}
 $$
 
@@ -19,9 +19,9 @@ $$
 ### bracketing interval formula
 $$
 \begin{aligned}
-{}[a,b],\quad f(a)f(b)<0\\
-a,b=\text{endpoint}\\
-f=\text{function}
+&[a,b],\quad f(a)f(b)<0\\
+&a,b=\text{endpoint}\\
+&f=\text{function}
 \end{aligned}
 $$
 
@@ -34,14 +34,14 @@ $$
 ### bisection method formula
 $$
 \begin{aligned}
-{}[a_0,b_0]\\
-c_n=\frac{a_n+b_n}{2}\\
-n=0,1,2,\dots\\
-{}[a_{n+1},b_{n+1}]=\begin{cases}
-{}[a_n,c_n],\quad f(a_n)f(c_n)<0\\
-{}[c_n,b_n],\quad f(c_n)f(b_n)<0
-\end{cases}\\
-f(c_n)=0\implies r_c=c_n
+&[a_0,b_0]\\
+&c_n=\frac{a_n+b_n}{2}\\
+&n=0,1,2,\dots\\
+&[a_{n+1},b_{n+1}]=\begin{cases}
+&[a_n,c_n],\quad f(a_n)f(c_n)<0\\
+&[c_n,b_n],\quad f(c_n)f(b_n)<0
+&\end{cases}\\
+&f(c_n)=0\implies r_c=c_n
 \end{aligned}
 $$
 
@@ -53,13 +53,13 @@ $$
 ### bisection error formula
 $$
 \begin{aligned}
-|r-r_c|\le\frac{b-a}{2^{n+1}}\\
-n>\frac{\log(b-a)+p}{\log(2)}\implies|r-r_c|<\frac{1}{2}\times10^{-p}\\
-r=\text{real root}\\
-r_c=\text{computed root}\\
-a,b=\text{endpoint}\\
-n=\text{number of iterations}\\
-p=\text{exponent}
+&|r-r_c|\le\frac{b-a}{2^{n+1}}\\
+&n>\frac{\log(b-a)+p}{\log(2)}\implies|r-r_c|<\frac{1}{2}\times10^{-p}\\
+&r=\text{real root}\\
+&r_c=\text{computed root}\\
+&a,b=\text{endpoint}\\
+&n=\text{number of iterations}\\
+&p=\text{exponent}
 \end{aligned}
 $$
 
@@ -71,8 +71,8 @@ $$
 ### bisection complexity formula
 $$
 \begin{aligned}
-T(n)=n+2\\
-n=\text{number of iterations}
+&T(n)=n+2\\
+&n=\text{number of iterations}
 \end{aligned}
 $$
 
@@ -84,9 +84,9 @@ $$
 ### fixed point formula
 $$
 \begin{aligned}
-x=f(x)\\
-x=\text{fixed point}\\
-f=\text{continuous function}
+&x=f(x)\\
+&x=\text{fixed point}\\
+&f=\text{continuous function}
 \end{aligned}
 $$
 
@@ -99,11 +99,11 @@ $$
 ### fixed point method formula
 $$
 \begin{aligned}
-x_0\\
-x_{n+1}=g(x_n)\\
-n=0,1,2,\dots\\
-\forall\epsilon>0,\exists N\in\mathbb N,\forall n\ge N:|x_{n+1}-x_n|<\epsilon\implies\\
-r_c=\lim_{n\rightarrow\infty}x_{n+1}=\lim_{n\rightarrow\infty}g(r_c)=g(r_c)
+&x_0\\
+&x_{n+1}=g(x_n)\\
+&n=0,1,2,\dots\\
+&\forall\epsilon>0,\exists N\in\mathbb N,\forall n\ge N:|x_{n+1}-x_n|<\epsilon\implies\\
+&r_c=\lim_{n\rightarrow\infty}x_{n+1}=\lim_{n\rightarrow\infty}g(r_c)=g(r_c)
 \end{aligned}
 $$
 
@@ -116,8 +116,8 @@ $$
 ### fixed point convergence formula
 $$
 \begin{aligned}
-0<|g'(r)|<1\implies\lim_{n\rightarrow\infty}\frac{|x_{n+1}-r|}{|x_n-r|}=|g'(r)|<\infty\\
-g(r)=g'(r)=g''(r)=\dots=g^{(p-1)}(r)=0\ne g^{(p)}(r)\implies\lim_{n\rightarrow\infty}\frac{|x_{n+1}-r|}{|x_n-r|^p}=\frac{|g^{(p)}(r)|}{p!}<\infty\\
+&0<|g'(r)|<1\implies\lim_{n\rightarrow\infty}\frac{|x_{n+1}-r|}{|x_n-r|}=|g'(r)|<\infty\\
+&g(r)=g'(r)=g''(r)=\dots=g^{(p-1)}(r)=0\ne g^{(p)}(r)\implies\lim_{n\rightarrow\infty}\frac{|x_{n+1}-r|}{|x_n-r|^p}=\frac{|g^{(p)}(r)|}{p!}<\infty\\
 \end{aligned}
 $$
 
@@ -129,9 +129,9 @@ $$
 ### forward error formula
 $$
 \begin{aligned}
-|r-r_c|\\
-r=\text{real root}\\
-r_c=\text{computed root}
+&|r-r_c|\\
+&r=\text{real root}\\
+&r_c=\text{computed root}
 \end{aligned}
 $$
 
@@ -143,8 +143,8 @@ $$
 ### backward error formula
 $$
 \begin{aligned}
-|f(r_c)|\\
-r_c=\text{computed root}
+&|f(r_c)|\\
+&r_c=\text{computed root}
 \end{aligned}
 $$
 
@@ -156,8 +156,8 @@ $$
 ### simple root formula
 $$
 \begin{aligned}
-f(r)=0\ne f'(r)\\
-r=\text{real root}
+&f(r)=0\ne f'(r)\\
+&r=\text{real root}
 \end{aligned}
 $$
 
@@ -169,9 +169,9 @@ $$
 ### multiple root formula
 $$
 \begin{aligned}
-f(r)=f'(r)=f''(r)=\dots=f^{(m-1)}(r)=0\ne f^{(m)}(r)\\
-r=\text{real root}\\
-m=\text{multiplicity}
+&f(r)=f'(r)=f''(r)=\dots=f^{(m-1)}(r)=0\ne f^{(m)}(r)\\
+&r=\text{real root}\\
+&m=\text{multiplicity}
 \end{aligned}
 $$
 
@@ -183,8 +183,8 @@ $$
 ### perturbed equation formula
 $$
 \begin{aligned}
-f(x)+\epsilon g(x)=0\\
-\epsilon=\text{parameter}
+&f(x)+\epsilon g(x)=0\\
+&\epsilon=\text{parameter}
 \end{aligned}
 $$
 
@@ -197,12 +197,12 @@ $$
 ### root sensitivity formula
 $$
 \begin{aligned}
-|r-r_c|\approx\frac{g(r)}{f'(r)}\epsilon\\
-m>1\implies|r-r_c|\approx(\frac{|g(r)|m!}{|f^{(m)}(r)|}|\epsilon|)^{1/m}\\
-r=\text{real root}\\
-r_c=\text{computed root}\\
-\epsilon=\text{parameter}\\
-m=\text{multiplicity}
+&|r-r_c|\approx\frac{g(r)}{f'(r)}\epsilon\\
+&m>1\implies|r-r_c|\approx(\frac{|g(r)|m!}{|f^{(m)}(r)|}|\epsilon|)^{1/m}\\
+&r=\text{real root}\\
+&r_c=\text{computed root}\\
+&\epsilon=\text{parameter}\\
+&m=\text{multiplicity}
 \end{aligned}
 $$
 
@@ -214,8 +214,8 @@ $$
 ### error magnification formula
 $$
 \begin{aligned}
-\kappa=\frac{g(r)}{|rf'(r)|}\\
-r=\text{real root}
+&\kappa=\frac{g(r)}{|rf'(r)|}\\
+&r=\text{real root}
 \end{aligned}
 $$
 

@@ -6,10 +6,10 @@
 ### magnetic flux formula
 $$
 \begin{aligned}
-\Phi=\vec B\cdot\vec A=BA\cos(\theta)\\
-B=\text{magnetic field}\\
-A=\text{area}\\
-\theta=\text{angular position}
+&\Phi=\vec B\cdot\vec A=BA\cos(\theta)\\
+&B=\text{magnetic field}\\
+&A=\text{area}\\
+&\theta=\text{angular position}
 \end{aligned}
 $$
 
@@ -28,12 +28,12 @@ $$
 ### faradays formula
 $$
 \begin{aligned}
-\epsilon=N\frac{-d\Phi}{dt}=N\frac{-d}{dt}\int_{A_{1}}^{A_{2}}\vec B\cdot d\vec A\\
-N=\text{number of loops}\\
-\Phi=\text{magnetic flux}\\
-t=\text{time}\\
-B=\text{magnetic field}\\
-A=\text{area}
+&\epsilon=N\frac{-d\Phi}{dt}=N\frac{-d}{dt}\int_{A_{1}}^{A_{2}}\vec B\cdot d\vec A\\
+&N=\text{number of loops}\\
+&\Phi=\text{magnetic flux}\\
+&t=\text{time}\\
+&B=\text{magnetic field}\\
+&A=\text{area}
 \end{aligned}
 $$
 
@@ -64,12 +64,12 @@ $$
 ### uniform motional emf formula
 $$
 \begin{aligned}
-\epsilon=BL\frac{dx}{dt}=BLv\\
-B=\text{magnetic field}\\
-L=\text{length}\\
-x=\text{position}\\
-t=\text{time}\\
-v=\text{velocity}
+&\epsilon=BL\frac{dx}{dt}=BLv\\
+&B=\text{magnetic field}\\
+&L=\text{length}\\
+&x=\text{position}\\
+&t=\text{time}\\
+&v=\text{velocity}
 \end{aligned}
 $$
 
@@ -82,10 +82,10 @@ $$
 ### non uniform motional emf formula
 $$
 \begin{aligned}
-\epsilon=\oint_{L_{1}}^{L_{2}}(\vec v\times\vec B)\cdot d\vec L\\
-v=\text{velocity}\\
-B=\text{magnetic field}\\
-L=\text{length}
+&\epsilon=\oint_{L_{1}}^{L_{2}}(\vec v\times\vec B)\cdot d\vec L\\
+&v=\text{velocity}\\
+&B=\text{magnetic field}\\
+&L=\text{length}
 \end{aligned}
 $$
 
@@ -98,9 +98,9 @@ $$
 ### static electric field formula
 $$
 \begin{aligned}
-\oint_{L_{1}}^{L_{2}}\vec E\cdot d\vec L=0\\
-E=\text{electric field}\\
-L=\text{length}
+&\oint_{L_{1}}^{L_{2}}\vec E\cdot d\vec L=0\\
+&E=\text{electric field}\\
+&L=\text{length}
 \end{aligned}
 $$
 
@@ -113,10 +113,10 @@ $$
 ### induced electric field formula
 $$
 \begin{aligned}
-\oint_{L_{1}}^{L_{2}}\vec E\cdot d\vec L=\frac{-d\Phi}{dt}\\
-E=\text{electric field}\\
-L=\text{length}\\
-\Phi=\text{magnetic flux}
+&\oint_{L_{1}}^{L_{2}}\vec E\cdot d\vec L=\frac{-d\Phi}{dt}\\
+&E=\text{electric field}\\
+&L=\text{length}\\
+&\Phi=\text{magnetic flux}
 \end{aligned}
 $$
 
@@ -129,9 +129,9 @@ $$
 ### eddy current formula
 $$
 \begin{aligned}
-I=\frac{\epsilon}{R}\\
-\epsilon=\text{emf}\\
-R=\text{resistance}
+&I=\frac{\epsilon}{R}\\
+&\epsilon=\text{emf}\\
+&R=\text{resistance}
 \end{aligned}
 $$
 
@@ -143,9 +143,9 @@ $$
 ### conduction current formula
 $$
 \begin{aligned}
-I_{c}=\int_{A_{1}}^{A_{2}}\vec J\cdot d\vec A\\
-J=\text{electric current density}\\
-A=\text{area}
+&I_{c}=\int_{A_{1}}^{A_{2}}\vec J\cdot d\vec A\\
+&J=\text{electric current density}\\
+&A=\text{area}
 \end{aligned}
 $$
 
@@ -157,9 +157,9 @@ $$
 ### displacement current formula
 $$
 \begin{aligned}
-I_{d}=\epsilon_{0}\frac{d\Phi}{dt}\\
-\epsilon_{0}=8.85\times10^{-12}\\
-\Phi=\text{electric flux}
+&I_{d}=\epsilon_{0}\frac{d\Phi}{dt}\\
+&\epsilon_{0}=8.85\times10^{-12}\\
+&\Phi=\text{electric flux}
 \end{aligned}
 $$
 
@@ -172,13 +172,13 @@ $$
 ### amperes formula
 $$
 \begin{aligned}
-\oint_{L_{1}}^{L_{2}}\vec B\cdot d\vec L=\mu_{0}(I_{c}+I
-_{d})_{\text{enc}}\\
-B=\text{magnetic field}\\
-L=\text{length}\\
-\mu_{0}=4\pi\times10^{-7}\\
-I_{c}=\text{conduction current}\\
-I_{d}=\text{displacement current}
+&\oint_{L_{1}}^{L_{2}}\vec B\cdot d\vec L=\mu_{0}(I_{c}+I
+&_{d})_{\text{enc}}\\
+&B=\text{magnetic field}\\
+&L=\text{length}\\
+&\mu_{0}=4\pi\times10^{-7}\\
+&I_{c}=\text{conduction current}\\
+&I_{d}=\text{displacement current}
 \end{aligned}
 $$
 
@@ -194,10 +194,10 @@ $$
 ### electromagnetism formula
 $$
 \begin{aligned}
-\oint_{A_{1}}^{A_{2}}\vec E\cdot d\vec A=\frac{Q_{\text{enc}}}{\epsilon_{0}}\\
-\oint_{A_{1}}^{A_{2}}\vec B\cdot d\vec A=0\\
-\oint_{L_{1}}^{L_{2}}\vec E\cdot d\vec L=\frac{-d\Phi_{B}}{dt}\\
-\oint_{L_{1}}^{L_{2}}\vec B\cdot d\vec L=\mu_{0}(I_{c}+\epsilon_{0}\frac{d\Phi_{E}}{dt})_{\text{enc}}\\
+&\oint_{A_{1}}^{A_{2}}\vec E\cdot d\vec A=\frac{Q_{\text{enc}}}{\epsilon_{0}}\\
+&\oint_{A_{1}}^{A_{2}}\vec B\cdot d\vec A=0\\
+&\oint_{L_{1}}^{L_{2}}\vec E\cdot d\vec L=\frac{-d\Phi_{B}}{dt}\\
+&\oint_{L_{1}}^{L_{2}}\vec B\cdot d\vec L=\mu_{0}(I_{c}+\epsilon_{0}\frac{d\Phi_{E}}{dt})_{\text{enc}}\\
 \end{aligned}
 $$
 
@@ -209,11 +209,11 @@ $$
 ### lorentz force formula
 $$
 \begin{aligned}
-\vec F_{\text{net}}=q(\vec E+\vec v\times\vec B)\\
-q=\text{electric charge}\\
-E=\text{electric field}\\
-v=\text{velocity}\\
-B=\text{magnetic field}
+&\vec F_{\text{net}}=q(\vec E+\vec v\times\vec B)\\
+&q=\text{electric charge}\\
+&E=\text{electric field}\\
+&v=\text{velocity}\\
+&B=\text{magnetic field}
 \end{aligned}
 $$
 
@@ -226,13 +226,13 @@ $$
 ### electric generator formula
 $$
 \begin{aligned}
-\epsilon=\epsilon_{0}\sin(\omega t)=NBA\omega\sin(\omega t)\\
-\epsilon_{0}=\text{amplitude}\\
-\omega=\text{angular frequency}\\
-t=\text{time}\\
-N=\text{number of loops}\\
-B=\text{magnetic field}\\
-A=\text{area}
+&\epsilon=\epsilon_{0}\sin(\omega t)=NBA\omega\sin(\omega t)\\
+&\epsilon_{0}=\text{amplitude}\\
+&\omega=\text{angular frequency}\\
+&t=\text{time}\\
+&N=\text{number of loops}\\
+&B=\text{magnetic field}\\
+&A=\text{area}
 \end{aligned}
 $$
 
@@ -245,8 +245,8 @@ $$
 ### electric motor formula
 $$
 \begin{aligned}
-\epsilon=\epsilon_{0}-\epsilon_{\text{induced}}\\
-\epsilon=\text{emf}
+&\epsilon=\epsilon_{0}-\epsilon_{\text{induced}}\\
+&\epsilon=\text{emf}
 \end{aligned}
 $$
 

@@ -1,30 +1,30 @@
 ### derivative rules
 $$
 \begin{aligned}
-\frac{d}{dx}c=0\\
-\frac{d}{dx}u=1\\
-\frac{d}{dx}cu=cu'\\
-\frac{d}{dx}u\pm v=u'\pm v'\\
-\frac{d}{dx}uv=u'v+uv'\\
-\frac{d}{dx}\frac{u}{v}=\frac{u'v-uv'}{v^{2}}\\
-\frac{d}{dx}u^{n}=nu^{n-1}u'\\
-\frac{d}{dx}|u|=\frac{u}{|u|}u'\\
-\frac{d}{dx}\ln(u)=\frac{u'}{u}\\
-\frac{d}{dx}e^{u}=e^{u}u'\\
-\frac{d}{dx}\log_{a}(u)=\frac{u'}{\ln(a)u}\\
-\frac{d}{dx}a^{u}=\ln(a)a^{u}u'\\
-\frac{d}{dx}\sin(u)=\cos(u)u'\\
-\frac{d}{dx}\cos(u)=-\sin(u)u'\\
-\frac{d}{dx}\tan(u)=\sec^{2}(u)u'\\
-\frac{d}{dx}\cot(u)=-\csc^{2}(u)u'\\
-\frac{d}{dx}\sec(u)=\sec(u)\tan(u)u'\\
-\frac{d}{dx}\csc(u)=-\csc(u)\cot(u)u'\\
-\frac{d}{dx}\arcsin(u)=\frac{u'}{\sqrt{1-u^{2}}}\\
-\frac{d}{dx}\arccos(u)=\frac{-u'}{\sqrt{1-u^{2}}}\\
-\frac{d}{dx}\arctan(u)=\frac{u'}{1+u^{2}}\\
-\frac{d}{dx}\text{arccot}(u)=\frac{-u'}{1+u^{2}}\\
-\frac{d}{dx}\text{arcsec}(u)=\frac{u'}{|u|\sqrt{u^{2}-1}}\\
-\frac{d}{dx}\text{arccsc}(u)=\frac{-u'}{|u|\sqrt{u^{2}-1}}
+&\frac{d}{dx}c=0\\
+&\frac{d}{dx}u=1\\
+&\frac{d}{dx}cu=cu'\\
+&\frac{d}{dx}u\pm v=u'\pm v'\\
+&\frac{d}{dx}uv=u'v+uv'\\
+&\frac{d}{dx}\frac{u}{v}=\frac{u'v-uv'}{v^{2}}\\
+&\frac{d}{dx}u^{n}=nu^{n-1}u'\\
+&\frac{d}{dx}|u|=\frac{u}{|u|}u'\\
+&\frac{d}{dx}\ln(u)=\frac{u'}{u}\\
+&\frac{d}{dx}e^{u}=e^{u}u'\\
+&\frac{d}{dx}\log_{a}(u)=\frac{u'}{\ln(a)u}\\
+&\frac{d}{dx}a^{u}=\ln(a)a^{u}u'\\
+&\frac{d}{dx}\sin(u)=\cos(u)u'\\
+&\frac{d}{dx}\cos(u)=-\sin(u)u'\\
+&\frac{d}{dx}\tan(u)=\sec^{2}(u)u'\\
+&\frac{d}{dx}\cot(u)=-\csc^{2}(u)u'\\
+&\frac{d}{dx}\sec(u)=\sec(u)\tan(u)u'\\
+&\frac{d}{dx}\csc(u)=-\csc(u)\cot(u)u'\\
+&\frac{d}{dx}\arcsin(u)=\frac{u'}{\sqrt{1-u^{2}}}\\
+&\frac{d}{dx}\arccos(u)=\frac{-u'}{\sqrt{1-u^{2}}}\\
+&\frac{d}{dx}\arctan(u)=\frac{u'}{1+u^{2}}\\
+&\frac{d}{dx}\text{arccot}(u)=\frac{-u'}{1+u^{2}}\\
+&\frac{d}{dx}\text{arcsec}(u)=\frac{u'}{|u|\sqrt{u^{2}-1}}\\
+&\frac{d}{dx}\text{arccsc}(u)=\frac{-u'}{|u|\sqrt{u^{2}-1}}
 \end{aligned}
 $$
 
@@ -36,7 +36,7 @@ $$
 ### related rate formula
 $$
 \begin{aligned}
-\frac{dy}{dt}=\frac{dy}{du}\times\frac{du}{dt}
+&\frac{dy}{dt}=\frac{dy}{du}\times\frac{du}{dt}
 \end{aligned}
 $$
 
@@ -54,7 +54,7 @@ $$
 ### inverse sine range
 $$
 \begin{aligned}
-{}[\frac{-\pi}{2},\frac{\pi}{2}]
+&[\frac{-\pi}{2},\frac{\pi}{2}]
 \end{aligned}
 $$
 
@@ -62,7 +62,7 @@ $$
 ### inverse cosine range
 $$
 \begin{aligned}
-{}[0,\pi]
+&[0,\pi]
 \end{aligned}
 $$
 
@@ -70,7 +70,7 @@ $$
 ### inverse tangent range
 $$
 \begin{aligned}
-{}[\frac{-\pi}{2},\frac{\pi}{2}]
+&[\frac{-\pi}{2},\frac{\pi}{2}]
 \end{aligned}
 $$
 
@@ -89,8 +89,8 @@ $$
 ### inverse trigonometric formula
 $$
 \begin{aligned}
-y=\sin^{-1}(x)\\
-\sin(y)=x
+&y=\sin^{-1}(x)\\
+&\sin(y)=x
 \end{aligned}
 $$
 
@@ -98,12 +98,12 @@ $$
 ### inverse trigonometric derivative rules
 $$
 \begin{aligned}
-\frac{d}{dx}\arcsin(u)=\frac{u'}{\sqrt{1-u^{2}}}\\
-\frac{d}{dx}\arccos(u)=\frac{-u'}{\sqrt{1-u^{2}}}\\
-\frac{d}{dx}\arctan(u)=\frac{u'}{1+u^{2}}\\
-\frac{d}{dx}\text{arccot}(u)=\frac{-u'}{1+u^{2}}\\
-\frac{d}{dx}\text{arcsec}(u)=\frac{u'}{|u|\sqrt{u^{2}-1}}\\
-\frac{d}{dx}\text{arccsc}(u)=\frac{-u'}{|u|\sqrt{u^{2}-1}}
+&\frac{d}{dx}\arcsin(u)=\frac{u'}{\sqrt{1-u^{2}}}\\
+&\frac{d}{dx}\arccos(u)=\frac{-u'}{\sqrt{1-u^{2}}}\\
+&\frac{d}{dx}\arctan(u)=\frac{u'}{1+u^{2}}\\
+&\frac{d}{dx}\text{arccot}(u)=\frac{-u'}{1+u^{2}}\\
+&\frac{d}{dx}\text{arcsec}(u)=\frac{u'}{|u|\sqrt{u^{2}-1}}\\
+&\frac{d}{dx}\text{arccsc}(u)=\frac{-u'}{|u|\sqrt{u^{2}-1}}
 \end{aligned}
 $$
 
@@ -182,7 +182,7 @@ $$
 ### mean value formula
 $$
 \begin{aligned}
-f'(x)=\frac{f(b)-f(a)}{b-a}
+&f'(x)=\frac{f(b)-f(a)}{b-a}
 \end{aligned}
 $$
 
@@ -325,7 +325,7 @@ $$
 ### linear approximation formula
 $$
 \begin{aligned}
-y=f'(n)(x-n)+f(n)
+&y=f'(n)(x-n)+f(n)
 \end{aligned}
 $$
 
@@ -338,7 +338,7 @@ $$
 ### differential formula
 $$
 \begin{aligned}
-dy=f'(x)dx
+&dy=f'(x)dx
 \end{aligned}
 $$
 
@@ -346,7 +346,7 @@ $$
 ### delta formula
 $$
 \begin{aligned}
-\Delta y=f(x+\Delta x)-f(x)
+&\Delta y=f(x+\Delta x)-f(x)
 \end{aligned}
 $$
 
@@ -358,8 +358,8 @@ $$
 ### error formula
 $$
 \begin{aligned}
-\Delta y=f'(x)\Delta x\\
-\Delta x=\text{error}
+&\Delta y=f'(x)\Delta x\\
+&\Delta x=\text{error}
 \end{aligned}
 $$
 
@@ -371,7 +371,7 @@ $$
 ### relative error formula
 $$
 \begin{aligned}
-\Delta y=\frac{dy}{y}
+&\Delta y=\frac{dy}{y}
 \end{aligned}
 $$
 

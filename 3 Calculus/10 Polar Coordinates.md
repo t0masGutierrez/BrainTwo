@@ -6,9 +6,9 @@
 ### polar coordinate formula
 $$
 \begin{aligned}
-(r,\theta)=(r,\theta+2\pi n)=(-r,\theta+\pi)\\
-r=\text{distance}\\
-\theta=\text{angle}
+&(r,\theta)=(r,\theta+2\pi n)=(-r,\theta+\pi)\\
+&r=\text{distance}\\
+&\theta=\text{angle}
 \end{aligned}
 $$
 
@@ -21,15 +21,15 @@ $$
 ### coordinate conversion formula
 $$
 \begin{aligned}
-\begin{cases}x=r\cos(\theta)\\
-y=r\sin(\theta)\\
-\end{cases}\iff\begin{cases}
-r=\sqrt{x^{2}+y^{2}}\\
-\theta=\arctan(\frac{y}{x})
-\end{cases}\\
-x,y=\text{dependent variable}\\
-r=\text{distance}\\
-\theta=\text{angle}
+&\begin{cases}x=r\cos(\theta)\\
+&y=r\sin(\theta)\\
+&\end{cases}\iff\begin{cases}
+&r=\sqrt{x^{2}+y^{2}}\\
+&\theta=\arctan(\frac{y}{x})
+&\end{cases}\\
+&x,y=\text{dependent variable}\\
+&r=\text{distance}\\
+&\theta=\text{angle}
 \end{aligned}
 $$
 
@@ -42,9 +42,9 @@ $$
 ### circle polar curve formula
 $$
 \begin{aligned}
-x^2+y^2=a^2\implies r=a\\
-(x-a)^2+y^2=a^2\implies r=2a\cos(\theta)\\
-x^2+(y-a)^2=a^2\implies r=2a\sin(\theta)\\
+&x^2+y^2=a^2\implies r=a\\
+&(x-a)^2+y^2=a^2\implies r=2a\cos(\theta)\\
+&x^2+(y-a)^2=a^2\implies r=2a\sin(\theta)\\
 \end{aligned}
 $$
 
@@ -57,14 +57,14 @@ $$
 ### line polar curve formula
 $$
 \begin{aligned}
-\theta=k\\
-R=r\cos(\theta-\Theta)\\
-k=\text{constant}\\
+&\theta=k\\
+&R=r\cos(\theta-\Theta)\\
+&k=\text{constant}\\
 
-r=\text{distance}\\
-\theta=\text{angle}\\
-R=\text{normal distance}\\
-\Theta=\text{normal angle}
+&r=\text{distance}\\
+&\theta=\text{angle}\\
+&R=\text{normal distance}\\
+&\Theta=\text{normal angle}
 \end{aligned}
 $$
 
@@ -77,11 +77,11 @@ $$
 ### spiral polar curve formula
 $$
 \begin{aligned}
-r=a+b\theta\\
-r=\frac{a}{\theta}\\
-r^2=a^2\theta\\
-r=a\exp(b\theta)\\
-r=a\sqrt{\frac{1}{\theta}}
+&r=a+b\theta\\
+&r=\frac{a}{\theta}\\
+&r^2=a^2\theta\\
+&r=a\exp(b\theta)\\
+&r=a\sqrt{\frac{1}{\theta}}
 \end{aligned}
 $$
 
@@ -94,9 +94,9 @@ $$
 ### rose polar curve formula
 $$
 \begin{aligned}
-r=a\cos(n\theta)\\
-a=\text{radius}\\
-\theta=\text{angle}
+&r=a\cos(n\theta)\\
+&a=\text{radius}\\
+&\theta=\text{angle}
 \end{aligned}
 $$
 
@@ -109,8 +109,8 @@ $$
 ### cardioid polar curve formula
 $$
 \begin{aligned}
-r=a\pm b\cos(\theta)\\
-r=a\pm b\sin(\theta)
+&r=a\pm b\cos(\theta)\\
+&r=a\pm b\sin(\theta)
 \end{aligned}
 $$
 
@@ -123,8 +123,8 @@ $$
 ### limacon polar curve formula
 $$
 \begin{aligned}
-r=a\cos(\theta)\pm b\\
-r=a\sin(\theta)\pm b\\
+&r=a\cos(\theta)\pm b\\
+&r=a\sin(\theta)\pm b\\
 \end{aligned}
 $$
 
@@ -137,10 +137,10 @@ $$
 ### lemniscate polar curve formula
 $$
 \begin{aligned}
-r^2=\pm a^2\cos(2\theta)\\
-r^2=\pm a^2\sin(2\theta)\\
-a=\text{radius}\\
-\theta=\text{angle}
+&r^2=\pm a^2\cos(2\theta)\\
+&r^2=\pm a^2\sin(2\theta)\\
+&a=\text{radius}\\
+&\theta=\text{angle}
 \end{aligned}
 $$
 
@@ -153,14 +153,14 @@ $$
 ### conic polar curve formula
 $$
 \begin{aligned}
-r=\frac{\ell}{1\pm e\cos(\theta)}\\
-e=0\implies\text{circle}\\
-0<e<1\implies\text{ellipse}\\
-e=1\implies\text{parabola}\\
-e>1\implies\text{hyperbola}\\
-\ell=\text{semi-latus rectum}\\
-e=\text{eccentricity}\\
-\theta=\text{angle}
+&r=\frac{\ell}{1\pm e\cos(\theta)}\\
+&e=0\implies\text{circle}\\
+&0<e<1\implies\text{ellipse}\\
+&e=1\implies\text{parabola}\\
+&e>1\implies\text{hyperbola}\\
+&\ell=\text{semi-latus rectum}\\
+&e=\text{eccentricity}\\
+&\theta=\text{angle}
 \end{aligned}
 $$
 
@@ -173,10 +173,10 @@ $$
 ### graph polar curve formula
 $$
 \begin{aligned}
-r=f(\theta)=\set{(x,y)\mid x=\theta,y=r}\\
-r=\text{distance}\\
-\theta=\text{angle}\\
-x,y=\text{dependent variable}
+&r=f(\theta)=\set{(x,y)\mid x=\theta,y=r}\\
+&r=\text{distance}\\
+&\theta=\text{angle}\\
+&x,y=\text{dependent variable}
 \end{aligned}
 $$
 
@@ -191,9 +191,9 @@ $$
 ### polar symmetry formula
 $$
 \begin{aligned}
-f(\theta)=f(-\theta)=-f(\pi-\theta)\\
-f(\theta)=-f(-\theta)=f(\pi-\theta)\\
-f(\theta)=-f(\theta)=f(\pi+\theta)\\
+&f(\theta)=f(-\theta)=-f(\pi-\theta)\\
+&f(\theta)=-f(-\theta)=f(\pi-\theta)\\
+&f(\theta)=-f(\theta)=f(\pi+\theta)\\
 \end{aligned}
 $$
 
@@ -205,9 +205,9 @@ $$
 ### horizontal tangent formula
 $$
 \begin{aligned}
-\frac{dx}{d\theta}=\frac{dr}{d\theta}\cos(\theta)-r\sin(\theta)\\
-r=\text{distance}\\
-\theta=\text{angle}
+&\frac{dx}{d\theta}=\frac{dr}{d\theta}\cos(\theta)-r\sin(\theta)\\
+&r=\text{distance}\\
+&\theta=\text{angle}
 \end{aligned}
 $$
 
@@ -219,9 +219,9 @@ $$
 ### vertical tangent formula
 $$
 \begin{aligned}
-\frac{dy}{d\theta}=\frac{dr}{d\theta}\sin(\theta)+r\cos(\theta)\\
-r=\text{distance}\\
-\theta=\text{angle}
+&\frac{dy}{d\theta}=\frac{dr}{d\theta}\sin(\theta)+r\cos(\theta)\\
+&r=\text{distance}\\
+&\theta=\text{angle}
 \end{aligned}
 $$
 
@@ -234,7 +234,7 @@ $$
 ### derivative formula
 $$
 \begin{aligned}
-\frac{dy}{dx}=\frac{f'(\theta)\sin(\theta)+f(\theta)\cos(\theta)}{f'(\theta)\cos(\theta)-f(\theta)\sin(\theta)}
+&\frac{dy}{dx}=\frac{f'(\theta)\sin(\theta)+f(\theta)\cos(\theta)}{f'(\theta)\cos(\theta)-f(\theta)\sin(\theta)}
 \end{aligned}
 $$
 
@@ -247,12 +247,12 @@ $$
 ### integral formula
 $$
 \begin{aligned}
-A=\frac{1}{2}\int_\alpha^\beta(r_2^{2}-r_1^{2})d\theta\\
-dA=rdrd\theta\\
-dV=rdrd\theta dz\\
-r_1\le r\le r_2\\
-r=\text{distance}\\
-\theta=\text{angle}
+&A=\frac{1}{2}\int_\alpha^\beta(r_2^{2}-r_1^{2})d\theta\\
+&dA=rdrd\theta\\
+&dV=rdrd\theta dz\\
+&r_1\le r\le r_2\\
+&r=\text{distance}\\
+&\theta=\text{angle}
 \end{aligned}
 $$
 
@@ -264,9 +264,9 @@ $$
 ### arc length formula
 $$
 \begin{aligned}
-L=\int_\alpha^\beta\sqrt{r^{2}+(\frac{dr}{d\theta})^{2}}d\theta\\
-r=\text{distance}\\
-\theta=\text{angle}
+&L=\int_\alpha^\beta\sqrt{r^{2}+(\frac{dr}{d\theta})^{2}}d\theta\\
+&r=\text{distance}\\
+&\theta=\text{angle}
 \end{aligned}
 $$
 
@@ -278,8 +278,8 @@ $$
 ### surface area formula
 $$
 \begin{aligned}
-A_x=2\pi\int_\alpha^\beta r\sin(\theta)\sqrt{r^{2}+(\frac{dr}{d\theta})^{2}}d\theta\\
-A_y=2\pi\int_\alpha^\beta r\cos(\theta)\sqrt{r^{2}+(\frac{dr}{d\theta})^{2}}d\theta\\
+&A_x=2\pi\int_\alpha^\beta r\sin(\theta)\sqrt{r^{2}+(\frac{dr}{d\theta})^{2}}d\theta\\
+&A_y=2\pi\int_\alpha^\beta r\cos(\theta)\sqrt{r^{2}+(\frac{dr}{d\theta})^{2}}d\theta\\
 \end{aligned}
 $$
 

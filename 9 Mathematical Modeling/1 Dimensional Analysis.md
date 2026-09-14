@@ -20,10 +20,10 @@
 ### dimension formula
 $$
 \begin{aligned}
-{}[q]=\prod_{i=1}^{m}D_{i}^{a_{i}}\iff\Delta_{q}=[a_{1},\dots,a_{m}]\in\mathbb R^{m}\\
-q=\text{quantity}\\
-D=\text{dimension}\\
-a=\text{dimensional exponent}
+&[q]=\prod_{i=1}^{m}D_{i}^{a_{i}}\iff\Delta_{q}=[a_{1},\dots,a_{m}]\in\mathbb R^{m}\\
+&q=\text{quantity}\\
+&D=\text{dimension}\\
+&a=\text{dimensional exponent}
 \end{aligned}
 $$
 
@@ -50,8 +50,8 @@ $$
 ### dimensional basis formula
 $$
 \begin{aligned}
-\text{Span}(D)=\mathcal V\\
-\text{Rank}(D)=m
+&\text{Span}(D)=\mathcal V\\
+&\text{Rank}(D)=m
 \end{aligned}
 $$
 
@@ -68,12 +68,12 @@ $$
 ### dimension property formula
 $$
 \begin{aligned}
-{}[p\pm q]\in D\iff[p]=[q]\\
-{}[p\cdot q]=[p]\cdot[q]\\
-{}[\frac{p}{q}]=\frac{[p]}{[q]}\\
-{}[q^{k}]=[q]^{k}\\
-{}[\int p\cdot dq]=[p]\cdot[q]\\
-{}[\frac{d^{k}p}{dq^{k}}]=\frac{[p]}{[q]^{k}}
+&[p\pm q]\in D\iff[p]=[q]\\
+&[p\cdot q]=[p]\cdot[q]\\
+&[\frac{p}{q}]=\frac{[p]}{[q]}\\
+&[q^{k}]=[q]^{k}\\
+&[\int p\cdot dq]=[p]\cdot[q]\\
+&[\frac{d^{k}p}{dq^{k}}]=\frac{[p]}{[q]^{k}}
 \end{aligned}
 $$
 
@@ -87,9 +87,9 @@ $$
 ### exponent property formula
 $$
 \begin{aligned}
-\Delta_{\text{pq}}=\Delta_{p}+\Delta_{q}\\
-\Delta_{p/q}=\Delta_{p}-\Delta_{q}\\
-\Delta_{q^{k}}=k\Delta_{q}
+&\Delta_{\text{pq}}=\Delta_{p}+\Delta_{q}\\
+&\Delta_{p/q}=\Delta_{p}-\Delta_{q}\\
+&\Delta_{q^{k}}=k\Delta_{q}
 \end{aligned}
 $$
 
@@ -102,8 +102,8 @@ $$
 ### dimensionless formula
 $$
 \begin{aligned}
-{}[q]=1\iff\Delta_{q}=0\\
-q=\text{pure number}
+&[q]=1\iff\Delta_{q}=0\\
+&q=\text{pure number}
 \end{aligned}
 $$
 
@@ -115,10 +115,10 @@ $$
 ### change of units formula
 $$
 \begin{aligned}
-q'=q\prod_{i=1}^{m}\lambda_{i}^{a_{i}}\\
-q=\text{quantity}\\
-\lambda=\text{unit conversion factor}\\
-a=\text{dimensional exponent}
+&q'=q\prod_{i=1}^{m}\lambda_{i}^{a_{i}}\\
+&q=\text{quantity}\\
+&\lambda=\text{unit conversion factor}\\
+&a=\text{dimensional exponent}
 \end{aligned}
 $$
 
@@ -130,7 +130,7 @@ $$
 ### unit-free equation formula
 $$
 \begin{aligned}
-q_{1}=f(q_{2},\dots,q_{n})\implies q_{1}'=f'(q_{2}',\dots,q_{n}')
+&q_{1}=f(q_{2},\dots,q_{n})\implies q_{1}'=f'(q_{2}',\dots,q_{n}')
 \end{aligned}
 $$
 
@@ -159,9 +159,9 @@ $$
 ### dimensionless power product formula
 $$
 \begin{aligned}
-\pi=\prod_{i=1}^{n}q_{i}^{b_{i}}>0\\
-q=\text{quantity}\\
-b=\text{quantitative exponent}
+&\pi=\prod_{i=1}^{n}q_{i}^{b_{i}}>0\\
+&q=\text{quantity}\\
+&b=\text{quantitative exponent}
 \end{aligned}
 $$
 
@@ -178,13 +178,13 @@ $$
 ### buckingham pi property formula
 $$
 \begin{aligned}
-q_{1}=f(q_{2},\dots,q_{n})\sim\pi_{1}=\phi(\pi_{2},\dots,\pi_{n-m-1})\\
-{}[\pi]=1\iff\Delta_{\pi}=\sum_{i=1}^{n}b_{i}\Delta_{q_{i}}=A\vec b=0\\
-A=[\Delta q_{1},\dots,\Delta q_{n}]\in\mathcal M_{\text{mn}}\\
-\vec b=[b_{1},\dots,b_{n}]\in\mathbb R^{n}\\
-q=\text{quantity}\\
-\pi=\text{dimensionless power product}\\
-b=\text{quantitative exponent}
+&q_{1}=f(q_{2},\dots,q_{n})\sim\pi_{1}=\phi(\pi_{2},\dots,\pi_{n-m-1})\\
+&[\pi]=1\iff\Delta_{\pi}=\sum_{i=1}^{n}b_{i}\Delta_{q_{i}}=A\vec b=0\\
+&A=[\Delta q_{1},\dots,\Delta q_{n}]\in\mathcal M_{\text{mn}}\\
+&\vec b=[b_{1},\dots,b_{n}]\in\mathbb R^{n}\\
+&q=\text{quantity}\\
+&\pi=\text{dimensionless power product}\\
+&b=\text{quantitative exponent}
 \end{aligned}
 $$
 
