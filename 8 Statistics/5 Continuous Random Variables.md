@@ -99,7 +99,7 @@ $$
 ### normal PDF probability formula
 $$
 \begin{aligned}
-&f(x)=(2\pi\sigma^2)^{-0.5}\exp(\frac{-(x-\mu)^{2}}{2\sigma^{2}})\\
+&f(x)=(2\pi\sigma^2)^{-1/2}\exp(\frac{-(x-\mu)^{2}}{2\sigma^{2}})\\
 &\sigma=\text{standard deviation}\\
 &x=\text{data}\\
 &\mu=\text{mean}
@@ -132,7 +132,7 @@ $$
 ### standard normal PDF probability formula
 $$
 \begin{aligned}
-&f(x)=(2\pi)^{-0.5}\exp(\frac{-x^2}{2})\\
+&f(x)=(2\pi)^{-1/2}\exp(\frac{-x^2}{2})\\
 &x=\text{z-score}
 \end{aligned}
 $$
@@ -297,15 +297,7 @@ $$
 ### F PDF probability formula
 $$
 \begin{aligned}
-&f(x)=\frac{}
-&x^{0.5\text{df}_{1}-1}
-&\Gamma\left(\frac{\text{df}_{1}+\text{df}_{2}}{2}\right)
-&\left(\frac{\text{df}_{1}}{\text{df}_{2}}\right)^{0.5\text{df}_{1}}
-&}{}
-&\Gamma\left(\frac{\text{df}_{1}}{2}\right)
-&\Gamma\left(\frac{\text{df}_{2}}{2}\right)
-&\left(1+\frac{\text{df}_{1}}{\text{df}_{2}}x\right)^{\frac{\text{df}_{1}+\text{df}_{2}}{2}}
-&}\\
+&f(x)=\frac{\Gamma\left(\frac{\text{df}_{1}+\text{df}_{2}}{2}\right)}{\Gamma\left(\frac{\text{df}_{1}}{2}\right)\Gamma\left(\frac{\text{df}_{2}}{2}\right)}\left(\frac{\text{df}_{1}}{\text{df}_{2}}\right)^{0.5\text{df}_{1}}\frac{x^{0.5\text{df}_{1}-1}}{\left(1+\frac{\text{df}_{1}}{\text{df}_{2}}x\right)^{\frac{\text{df}_{1}+\text{df}_{2}}{2}}}\\
 &x=\text{F-statistic}\\
 &\Gamma=\text{gamma}\\
 &\text{df}=\text{degrees of freedom}

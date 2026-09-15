@@ -129,7 +129,7 @@ $$
 ### normal PDF probability formula
 $$
 \begin{aligned}
-&f(x)=\frac{\exp(\frac{-(x-\mu)^{2}}{2\sigma^{2}})}{\sigma\sqrt{2\pi}}\\
+&X\sim N(\mu,\sigma)\implies f(x)=(2\pi\sigma^2)^{-1/2}\exp(\frac{-(x-\mu)^{2}}{2\sigma^{2}})\\
 &\mu=\text{mean}\\
 &\sigma=\text{standard deviation}
 \end{aligned}
@@ -161,7 +161,7 @@ $$
 ### standard normal PDF probability formula
 $$
 \begin{aligned}
-&f(x)=\frac{\exp(\frac{-x^{2}}{2})}{\sqrt{2\pi}}\\
+&X\sim N(0,1)\impliesf(x)=(2\pi)^{-1/2}\exp(\frac{-x^2}{2})\\
 &x=\text{z-score}
 \end{aligned}
 $$
@@ -190,7 +190,7 @@ $$
 ### exponential PDF probability formula
 $$
 \begin{aligned}
-&f(x)=\lambda e^{-\lambda x}\\
+&X\sim\text{Exp}(\gamma)\impliesf(x)=\lambda e^{-\lambda x}\\
 &x=\text{time}\\
 &\lambda=\text{average number of events per time}
 \end{aligned}
@@ -211,77 +211,6 @@ $$
 \begin{aligned}
 &\text{Var}(X)=\frac{1}{\lambda^{2}}\\
 &\lambda=\text{average number of events per time}
-\end{aligned}
-$$
-
----
-### gamma probability density function
-- probability as function of the amount of time until $r$th event
-
----
-### gamma PDF probability formula
-$$
-\begin{aligned}
-&f(x)=\frac{\lambda^{r}e^{-\lambda x}x^{r-1}}{\Gamma(r)}\\
-&\Gamma(r)=\int_{0}^{\infty}e^{-x}x^{r-1}dx\\
-&\lambda=\text{average number of events per time}\\
-&r=\text{event number}\\
-&x=\text{time}\\
-&\Gamma=\text{gamma}
-\end{aligned}
-$$
-
----
-### gamma PDF expectation formula
-$$
-\begin{aligned}
-&E[X]=\frac{r}{\lambda}\\
-&r=\text{event number}\\
-&\lambda=\text{average number of events per time}
-\end{aligned}
-$$
-
----
-### gamma PDF variance formula
-$$
-\begin{aligned}
-&\text{Var}(X)=\frac{r}{\lambda^{2}}\\
-&r=\text{event number}\\
-&\lambda=\text{average number of events per time}
-\end{aligned}
-$$
-
----
-### beta probability density function
-- probability as function of unit interval
-
----
-### beta PDF probability formula
-$$
-\begin{aligned}
-&f(x)=\frac{x^{r-1}(1-x)^{k-1}}{\beta(r,k)}\\
-&\beta(r,k)=\int_{0}^{1}x^{r-1}(1-x)^{k-1}dx\\
-&x=\text{unit number}\\
-&r,k=\text{parameter}\\
-&\beta=\text{beta}
-\end{aligned}
-$$
-
----
-### beta PDF expectation formula
-$$
-\begin{aligned}
-&E[X]=\frac{r}{r+k}\\
-&r,k=\text{parameter}
-\end{aligned}
-$$
-
----
-### beta PDF variance formula
-$$
-\begin{aligned}
-&\text{Var}(X)=\frac{rk}{(r+k)^{2}(r+k+1)}\\
-&r,k=\text{parameter}
 \end{aligned}
 $$
 
