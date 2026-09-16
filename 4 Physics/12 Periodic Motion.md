@@ -287,12 +287,12 @@ $$
 &\gamma=\frac{b}{2m}\\
 &\omega_0=\sqrt{\frac{k}{m}}\\
 &\omega_1=\sqrt{\omega_0^2-\gamma^2}\\
-&\gamma=\text{damping rate}\\
+&\gamma=\text{damping frequency}\\
 &\omega=\text{angular frequency}\\
 &x=\text{position}\\
 &t=\text{time}\\
 &A=\text{amplitude}\\
-&\gamma=\text{damping rate}\\
+&\gamma=\text{damping frequency}\\
 &\phi=\text{phase angle}\\
 &v=\text{velocity}\\
 &b=\text{damping coefficient}\\
@@ -312,7 +312,7 @@ $$
 &\gamma=\omega_0\implies x(t)=\exp(-\gamma t)(C_{1}+C_{2}t)\\
 &\gamma=\frac{b}{2m}\\
 &\omega_0=\sqrt{\frac{k}{m}}\\
-&\gamma=\text{damping rate}\\
+&\gamma=\text{damping frequency}\\
 &\omega=\text{angular frequency}\\
 &x=\text{position}\\
 &t=\text{time}\\
@@ -335,7 +335,7 @@ $$
 &r=\frac{-b\pm\sqrt{b^{2}-4mk}}{2m}\\
 &\gamma=\frac{b}{2m}\\
 &\omega_0=\sqrt{\frac{k}{m}}\\
-&\gamma=\text{damping rate}\\
+&\gamma=\text{damping frequency}\\
 &\omega=\text{angular frequency}\\
 &x=\text{position}\\
 &t=\text{time}\\
@@ -369,7 +369,7 @@ $$
 &\Omega,\omega=\text{angular frequency}\\
 &A=\text{amplitude}\\
 &\phi=\text{phase angle}\\
-&\gamma=\text{damping rate}
+&\gamma=\text{damping frequency}
 \end{aligned}
 $$
 

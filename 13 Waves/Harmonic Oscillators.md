@@ -47,7 +47,8 @@ $$
 \begin{aligned}
 &\sum V=v_L+v_C=L\frac{d^2q}{dt}+\frac{1}{C}q=0\\
 &q(t)=A\cos(\omega t+\phi)\\
-&A=\sqrt{q_{0}^{2}+\frac{i_{0}^{2}}{\omega^{2}}}\\\phi=\arctan(\frac{-i_{0}}{\omega q_{0}})\\
+&A=\sqrt{q_{0}^{2}+\frac{i_{0}^{2}}{\omega^{2}}}\\
+&\phi=\arctan(\frac{-i_{0}}{\omega q_{0}})\\
 &\omega=\sqrt{\frac{1}{LC}}\\
 &v=\text{voltage}\\
 &L=\text{self inductance}\\
@@ -94,12 +95,12 @@ $$
 &\gamma=\frac{b}{2m}\\
 &\omega_0=\sqrt{\frac{k}{m}}\\
 &\omega_1=\sqrt{\omega_0^2-\gamma^2}\\
-&\gamma=\text{damping rate}\\
+&\gamma=\text{damping frequency}\\
 &\omega=\text{angular frequency}\\
 &x=\text{position}\\
 &t=\text{time}\\
 &A=\text{amplitude}\\
-&\gamma=\text{damping rate}\\
+&\gamma=\text{damping frequency}\\
 &\phi=\text{phase angle}\\
 &v=\text{velocity}\\
 &b=\text{damping coefficient}\\
@@ -145,7 +146,7 @@ $$
 &q=\text{electric charge}\\
 &t=\text{time}\\
 &A=\text{amplitude}\\
-&\gamma=\text{damping rate}\\
+&\gamma=\text{damping frequency}\\
 &\omega=\text{angular frequency}\\
 &\phi=\text{phase angle}\\
 &i=\text{electric current}
@@ -174,7 +175,7 @@ $$
 &\Omega,\omega=\text{angular frequency}\\
 &A=\text{amplitude}\\
 &\phi=\text{phase angle}\\
-&\gamma=\text{damping rate}
+&\gamma=\text{damping frequency}
 \end{aligned}
 $$
 
@@ -199,7 +200,7 @@ $$
 &\Omega,\omega=\text{angular frequency}\\
 &A=\text{amplitude}\\
 &\phi=\text{phase angle}\\
-&\gamma=\text{damping rate}
+&\gamma=\text{damping frequency}
 \end{aligned}
 $$
 

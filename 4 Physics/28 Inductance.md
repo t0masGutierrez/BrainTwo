@@ -371,7 +371,7 @@ $$
 &q=\text{electric charge}\\
 &t=\text{time}\\
 &A=\text{amplitude}\\
-&\gamma=\text{damping rate}\\
+&\gamma=\text{damping frequency}\\
 &\omega=\text{angular frequency}\\
 &\phi=\text{phase angle}\\
 &i=\text{electric current}
@@ -400,7 +400,7 @@ $$
 &\Omega,\omega=\text{angular frequency}\\
 &A=\text{amplitude}\\
 &\phi=\text{phase angle}\\
-&\gamma=\text{damping rate}
+&\gamma=\text{damping frequency}
 \end{aligned}
 $$
 
