@@ -19,6 +19,7 @@ $$
 $$
 \begin{aligned}
 &\overline X=\frac{1}{n}\sum_{i=1}^{n}X_{i}\\
+&n=\text{sample size}\\
 &X=\text{random variable}
 \end{aligned}
 $$
@@ -46,7 +47,8 @@ $$
 \begin{aligned}
 &s^{2}=\text{Var}(\overline X)=\frac{\sigma^{2}}{n}\\
 &\sigma^{2}=\text{variance}\\
-&X=\text{random variable}
+&X=\text{random variable}\\
+&n=\text{sample size}\\
 \end{aligned}
 $$
 
@@ -92,7 +94,8 @@ $$
 ### weak law of large numbers formula
 $$
 \begin{aligned}
-&\forall\epsilon>0:P(|\lim_{n\rightarrow\infty}\overline X_{n}-\mu|>\epsilon)=0\\
+&\forall\epsilon>0:\lim_{n\rightarrow\infty}P(|\overline X_{n}-\mu|>\epsilon)=0\\
+&n=\text{sample size}\\
 &\overline X=\text{sample mean}\\
 &\mu=\text{mean}
 \end{aligned}
@@ -107,6 +110,7 @@ $$
 $$
 \begin{aligned}
 &P(\lim_{n\rightarrow\infty}\overline X_{n}=\mu)=1\\
+&n=\text{sample size}\\
 &\overline X=\text{sample mean}\\
 &\mu=\text{mean}
 \end{aligned}
@@ -114,14 +118,17 @@ $$
 
 ---
 ### central limit theorem
-- iid random variable approaches standard normal distribution as sample size approaches infinity regardless of the population distribution
+- sampling distribution of mean approaches normal distribution as sample size approaches infinity regardless of population distribution
 
 ---
 ### central limit theorem formula
 $$
 \begin{aligned}
-&P(\overline X_{n}\le x)\approx P(Z\le\frac{x-\mu}{\sigma/\sqrt n})\\
-&P(\sum_{i=1}^{n}X_{i}\le x)\approx P(Z\le\frac{x-n\mu}{\sigma\sqrt n})
+&\lim_{n\rightarrow\infty}\overline X_{n}\approx N(\mu,\frac{\sigma^2}{n})\\
+&n=\text{sample size}\\
+&\bar X=\text{sample mean}\\
+&\mu=\text{mean}\\
+&\sigma=\text{standard deviation}
 \end{aligned}
 $$
 

@@ -161,7 +161,7 @@ $$
 ### standard normal PDF probability formula
 $$
 \begin{aligned}
-&X\sim N(0,1)\impliesf(x)=(2\pi)^{-1/2}\exp(\frac{-x^2}{2})\\
+&X\sim N(0,1)\implies f(x)=(2\pi)^{-1/2}\exp(\frac{-x^2}{2})\\
 &x=\text{z-score}
 \end{aligned}
 $$
@@ -190,7 +190,7 @@ $$
 ### exponential PDF probability formula
 $$
 \begin{aligned}
-&X\sim\text{Exp}(\gamma)\impliesf(x)=\lambda e^{-\lambda x}\\
+&X\sim\text{Exp}(\gamma)\implies f(x)=\lambda e^{-\lambda x}\\
 &x=\text{time}\\
 &\lambda=\text{average number of events per time}
 \end{aligned}

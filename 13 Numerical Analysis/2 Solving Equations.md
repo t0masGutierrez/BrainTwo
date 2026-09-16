@@ -1,5 +1,5 @@
 ### p decimal place correctness
-- definition
+- approximation correct to p decimal places after rounding
 
 ---
 ### p decimal place correctness formula
@@ -12,23 +12,23 @@ $$
 $$
 
 ---
-### bracketing interval
-- interval whose endpoints have function values with opposite signs
+### intermediate value
+- if function continuous over closed interval then function encompasses every value between endpoints
 
 ---
-### bracketing interval formula
+### intermediate value formula
 $$
 \begin{aligned}
-&[a,b],\quad f(a)f(b)<0\\
-&a,b=\text{endpoint}\\
-&f=\text{function}
+&f(a)\le N\le f(b)\implies\exists x\in[a,b]:f(x)=N\\
+&f=\text{continuous function}\\
+&a,b=\text{endpoint}
 \end{aligned}
 $$
 
 ---
 ### bisection method
 - repeatedly halve bracketing interval and choose endpoint with opposite sign
-![](14%20Numerical%20Analysis/Images/bisection%20method.png)
+![](13%20Numerical%20Analysis/Images/bisection%20method.png)
 
 ---
 ### bisection method formula
@@ -46,33 +46,21 @@ $$
 $$
 
 ---
-### bisection error
-- absolute distance between real root and bisected root
+### bisection convergence
+- error decrease by half every iteration
 
 ---
-### bisection error formula
+### bisection convergence formula
 $$
 \begin{aligned}
-&|r-r_c|\le\frac{b-a}{2^{n+1}}\\
+&|r-r_c|\le\frac{b-a}{2^{n+1}}\implies\lim_{n\rightarrow\infty}\frac{e_{n+1}}{e_n}=\frac{1}{2}\\
 &n>\frac{\log(b-a)+p}{\log(2)}\implies|r-r_c|<\frac{1}{2}\times10^{-p}\\
 &r=\text{real root}\\
 &r_c=\text{computed root}\\
+&e=\text{absolute error}\\
 &a,b=\text{endpoint}\\
 &n=\text{number of iterations}\\
 &p=\text{exponent}
-\end{aligned}
-$$
-
----
-### bisection complexity
-- number of function evaluations
-
----
-### bisection complexity formula
-$$
-\begin{aligned}
-&T(n)=n+2\\
-&n=\text{number of iterations}
 \end{aligned}
 $$
 
@@ -86,14 +74,14 @@ $$
 \begin{aligned}
 &x=f(x)\\
 &x=\text{fixed point}\\
-&f=\text{continuous function}
+&f=\text{function}
 \end{aligned}
 $$
 
 ---
 ### fixed point method
 - repeatedly evaluate function at previous output until input equal output
-![300](14%20Numerical%20Analysis/Images/fixed%20point%20method.png)
+![300](13%20Numerical%20Analysis/Images/fixed%20point%20method.png)
 
 ---
 ### fixed point method formula
@@ -109,15 +97,17 @@ $$
 
 ---
 ### fixed point convergence
-- linear convergence
-- general convergence
+- error decrease by linear factor every iteration
 
 ---
 ### fixed point convergence formula
 $$
 \begin{aligned}
-&0<|g'(r)|<1\implies\lim_{n\rightarrow\infty}\frac{|x_{n+1}-r|}{|x_n-r|}=|g'(r)|<\infty\\
-&g(r)=g'(r)=g''(r)=\dots=g^{(p-1)}(r)=0\ne g^{(p)}(r)\implies\lim_{n\rightarrow\infty}\frac{|x_{n+1}-r|}{|x_n-r|^p}=\frac{|g^{(p)}(r)|}{p!}<\infty\\
+&0<|g'(r)|<1\implies\lim_{n\rightarrow\infty}\frac{e_{n+1}}{e_n}=|g'(r)|\\
+&g(r)=g'(r)=g''(r)=\dots=g^{(p-1)}(r)=0\ne g^{(p)}(r)\implies\lim_{n\rightarrow\infty}\frac{e_{n+1}}{e_n^p}=\frac{|g^{(p)}(r)|}{p!}\\
+&g=\text{function}\\
+&e=\text{absolute error}\\
+&r=\text{real root}
 \end{aligned}
 $$
 
@@ -157,6 +147,7 @@ $$
 $$
 \begin{aligned}
 &f(r)=0\ne f'(r)\\
+&f=\text{function}\\
 &r=\text{real root}
 \end{aligned}
 $$
@@ -170,6 +161,7 @@ $$
 $$
 \begin{aligned}
 &f(r)=f'(r)=f''(r)=\dots=f^{(m-1)}(r)=0\ne f^{(m)}(r)\\
+&f=\text{function}\\
 &r=\text{real root}\\
 &m=\text{multiplicity}
 \end{aligned}
@@ -184,6 +176,7 @@ $$
 $$
 \begin{aligned}
 &f(x)+\epsilon g(x)=0\\
+&f,g=\text{function}\\
 &\epsilon=\text{parameter}
 \end{aligned}
 $$
@@ -201,21 +194,71 @@ $$
 &m>1\implies|r-r_c|\approx(\frac{|g(r)|m!}{|f^{(m)}(r)|}|\epsilon|)^{1/m}\\
 &r=\text{real root}\\
 &r_c=\text{computed root}\\
+&f,g=\text{function}\\
 &\epsilon=\text{parameter}\\
 &m=\text{multiplicity}
 \end{aligned}
 $$
 
 ---
-### error magnification
-- ratio between relative forward error and relative backward error
+### newton method
+- repeatedly evaluate function where tangent line intersect x-axis
+![400](13%20Numerical%20Analysis/Images/newton%20method.png)
 
 ---
-### error magnification formula
+### newton method formula
 $$
 \begin{aligned}
-&\kappa=\frac{g(r)}{|rf'(r)|}\\
-&r=\text{real root}
+&x_0\\
+&x_{n+1}=x_n-\frac{f(x_n)}{f'(x_n)}\\
+&n=0,1,2,\dots
+\end{aligned}
+$$
+
+---
+### newton convergence
+- error decrease by quadratic factor every iteration
+
+---
+### newton convergence formula
+$$
+\begin{aligned}
+&\lim_{n\rightarrow\infty}\frac{e_{n+1}}{e_n^2}=\frac{f''(r)}{2f'(r)}\\
+&f(x)=(x-r)^mg(x)\implies\lim_{n\rightarrow\infty}\frac{e_{n+1}}{e_n^2}=\frac{m-1}{m}\\
+&e=\text{absolute error}\\
+&f,g=\text{function}\\
+&r=\text{real root}\\
+&m=\text{multiplicity}
+\end{aligned}
+$$
+
+---
+### modified newton method
+- repeatedly evaluate multiple function where tangent line intersect x-axis
+
+---
+### modified newton method
+$$
+\begin{aligned}
+&x_0\\
+&x_{n+1}=x_n-m\frac{f(x_n)}{f'(x_n)}\\
+&n=0,1,2,\dots
+\end{aligned}
+$$
+
+---
+### modified newton convergence
+- multiple error decrease by quadratic factor every iteration
+
+---
+### modified newton convergence
+$$
+\begin{aligned}
+&\frac{e_{n+1}}{e_n^2}=\frac{f''(r)}{mf'(r)}\\
+&e=\text{absolute error}\\
+&f=\text{function}\\
+&r=\text{real root}\\
+&m=\text{multiplicity}
 \end{aligned}
 $$
 

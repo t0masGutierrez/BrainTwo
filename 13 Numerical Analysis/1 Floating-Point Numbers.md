@@ -258,7 +258,7 @@ $$
 ### absolute error formula
 $$
 \begin{aligned}
-&|x-x_c|\\
+&e=|x-x_c|\\
 &x=\text{real number}\\
 &x_c=\text{computed number}
 \end{aligned}
@@ -272,7 +272,7 @@ $$
 ### relative error formula
 $$
 \begin{aligned}
-&\frac{|x-x_c|}{|x|}\\
+&e'=\frac{|x-x_c|}{|x|}\\
 &x=\text{real number}\\
 &x_c=\text{computed number}
 \end{aligned}
