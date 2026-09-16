@@ -8,7 +8,8 @@
     "3 Discrete Random Variables.md",
     "4 Continuous Random Variables.md",
     "5 Joint Random Variables.md",
-    "6 Limit Theorems.md"
+    "6 Limit Theorems.md",
+    "7 Moments and Moment Generating Functions.md"
   ],
   "11 Real Analysis": [
     "1 Sets and Functions.md",
@@ -22,18 +23,12 @@
     "8 Continuity.md",
     "9 Functional Sequences.md"
   ],
-  "12 Mathematical Statistics": [
-    "1 Fundamentals.md"
-  ],
-  "13 Waves": [
+  "12 Waves": [
     "Harmonic Oscillators.md"
   ],
-  "14 Numerical Analysis": [
+  "13 Numerical Analysis": [
     "1 Floating-Point Numbers.md",
     "2 Solving Equations.md"
-  ],
-  "15 Regression Analysis": [
-    "todo.md"
   ],
   "2 Geometry": [
     "1 Lines and Angles.md",
