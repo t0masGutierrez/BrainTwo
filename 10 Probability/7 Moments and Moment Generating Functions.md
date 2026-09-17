@@ -12,7 +12,7 @@ $$
 
 ---
 ### central moment
-- numerical summary of random variable distribution about mean
+- numerical summary of random variable probability distribution about mean
 
 ---
 ### central moment formula
@@ -53,29 +53,5 @@ $$
 &X,Y=\text{random variable}
 \end{aligned}
 $$
-
----
-### term
-- definition
-
----
-### term
-- definition
-
----
-### term
-- definition
-
----
-### term
-- definition
-
----
-### term
-- definition
-
----
-### term
-- definition
 
 ---
