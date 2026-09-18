@@ -109,13 +109,12 @@ $$
 ---
 ### multiple linear regression assumptions
 - numerical response variable
-- numerical explanatory variable
 - linear relationship
 - random sample
 - independent observations
-- no perfect multicollinearity
 - normal error distribution
 - homoscedasticity
+- imperfect multicollinearity
 
 ---
 ### multiple linear regression formula
@@ -255,64 +254,7 @@ $$
 $$
 
 ---
-### simple standard error
-- standard deviation of correlation sampling distribution
-
----
-### simple standard error formula
-$$
-\begin{aligned}
-&SE(r)=\sqrt{\frac{1-r^{2}}{n-2}}\\
-&r=\text{sample correlation}\\
-&n=\text{sample size}
-\end{aligned}
-$$
-
----
-### simple t-score
-- number of standard errors between correlation and zero
-
----
-### simple t-score formula
-$$
-\begin{aligned}
-&t=\frac{r-0}{SE(r)}\\
-&\text{df}=n-2\\
-&r=\text{sample correlation}\\
-&SE=\text{standard error}\\
-&\text{df}=\text{degrees of freedom}\\
-&n=\text{sample size}
-\end{aligned}
-$$
-
----
-### simple linear regression null hypothesis
-- population correlation equal zero
-
----
-### simple linear regression null hypothesis formula
-$$
-\begin{aligned}
-&H_{0}:\rho=0\\
-&\rho=\text{correlation}
-\end{aligned}
-$$
-
----
-### simple linear regression alternative hypothesis
-- population correlation not equal zero
-
----
-### simple linear regression alternative hypothesis formula
-$$
-\begin{aligned}
-&H_{1}:\rho\ne0\\
-&\rho=\text{correlation}
-\end{aligned}
-$$
-
----
-### multiple standard error
+### standard error
 - standard deviation of coefficient sampling distribution
 
 ---
@@ -328,11 +270,11 @@ $$
 $$
 
 ---
-### multiple t-score
+### t-score
 - number of standard errors between coefficient and zero
 
 ---
-### multiple t-score formula
+### t-score formula
 $$
 \begin{aligned}
 &t=\frac{b_j-0}{SE(b_j)}\\
@@ -346,11 +288,11 @@ $$
 $$
 
 ---
-### multiple linear regression null hypothesis
+### linear regression null hypothesis
 - population coefficient equal zero
 
 ---
-### multiple linear regression null hypothesis formula
+### linear regression null hypothesis formula
 $$
 \begin{aligned}
 &H_{0}:\beta_j=0\\
@@ -359,11 +301,11 @@ $$
 $$
 
 ---
-### multiple linear regression alternative hypothesis
+### linear regression alternative hypothesis
 - population coefficient not equal zero
 
 ---
-### multiple linear regression alternative hypothesis formula
+### linear regression alternative hypothesis formula
 $$
 \begin{aligned}
 &H_{1}:\beta_j\ne0\\
