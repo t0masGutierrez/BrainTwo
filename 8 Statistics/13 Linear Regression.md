@@ -59,7 +59,7 @@ $$
 
 ---
 ### line of best fit
-- coefficient(s) of slope intercept equation with minimum unexplained variation
+- line minimizing the unexplained variation
 - aka ordinary least squares
 
 ---
@@ -133,11 +133,11 @@ $$
 $$
 
 ---
-### slope
-- change of prediction per unit of independent variable
+### regression slope
+- increasing the independent variable by 1 unit changes the dependent variable by estimated coefficient, holding all other explanatory variables constant
 
 ---
-### slope formula
+### regression slope formula
 $$
 \begin{aligned}
 &b_1=r\frac{s_{y}}{s_{x}}\\
@@ -147,11 +147,11 @@ $$
 $$
 
 ---
-### y-intercept
-- initial prediction
+### regression y-intercept
+- if all independent variables equal zero then dependent variable equal y-intercept
 
 ---
-### y-intercept formula
+### regression y-intercept formula
 $$
 \begin{aligned}
 &b_0=\overline y-b_1\overline x\\
@@ -198,7 +198,7 @@ $$
 ### explained variation formula
 $$
 \begin{aligned}
-&SSR=\sum_{i}^{n}(\hat y_{i}-\overline y)^{2}\\
+&SSR=\sum_{i}^{n}(\overline y-\hat y_{i})^{2}\\
 &n=\text{sample size}\\
 &\overline y=\text{sample mean}\\
 &\hat y=\text{prediction}
@@ -207,13 +207,13 @@ $$
 
 ---
 ### total variation
-- sum of squared total between unexplained variation and explained variation
+- sum of squared total between dependent variable and sample mean
 
 ---
 ### total variation formula
 $$
 \begin{aligned}
-&SST=\sum_{i}^{n}(y_{i}-\overline y)^{2}=SSE+SSR\\
+&SST=SS_y=\sum_{i}^{n}(y_{i}-\overline y)^{2}=SSE+SSR\\
 &n=\text{sample size}\\
 &\hat y=\text{prediction}\\
 &\overline y=\text{sample mean}
@@ -222,7 +222,7 @@ $$
 
 ---
 ### coefficient of determination
-- variation of dependent variable explained by the linear relationship with independent variable
+- variation of dependent variable explained by the linear regression model
 
 ---
 ### coefficient of determination formula
@@ -233,6 +233,22 @@ $$
 &SSR=\text{explained variation}\\
 &SST=\text{total variation}\\
 &SSE=\text{unexplained variation}\\
+\end{aligned}
+$$
+
+---
+### adjusted coefficient of determination
+- variation of dependent variable explained by the linear regression model but penalize unnecessary independent variables
+
+---
+### adjusted coefficient of determination formula
+$$
+\begin{aligned}
+&R^2_{\text{adj}}=1-\frac{SSE(n-1)}{SST(n-k-1)}\\
+&SSE=\text{unexplained variation}\\
+&n=\text{sample size}\\
+&SST=\text{total variation}\\
+&k=\text{number of independent variables}\\
 \end{aligned}
 $$
 
@@ -254,15 +270,31 @@ $$
 $$
 
 ---
-### standard error
+### residual standard error
+- standard deviation of residual sampling distribution
+
+---
+### residual standard error formula
+$$
+\begin{aligned}
+&SE(e)=\sqrt{\frac{SSE}{n-k-1}}\\
+&SSE=\text{explained variation}\\
+&n=\text{sample size}\\
+&k=\text{number of independent variables}
+\end{aligned}
+$$
+
+---
+### linear regression standard error
 - standard deviation of coefficient sampling distribution
 
 ---
-### multiple standard error formula
+### linear regression standard error formula
 $$
 \begin{aligned}
-&SE(b_j)=\sqrt{\frac{SSE}{(n-2)\sum_{i=1}^n(x_i-\overline x)^2}}\\
-&SSE=\text{unexplained variation}\\
+&SE(b_j)=\sqrt{\frac{SE(e)}{\sum_{i=1}^n(x_i-\overline x)^2}}\\
+&SE=\text{standard error}\\
+&e=\text{residual}\\
 &n=\text{sample size}\\
 &x=\text{independent variable}\\
 &\overline x=\text{sample mean}
@@ -270,11 +302,11 @@ $$
 $$
 
 ---
-### t-score
+### linear regression t-score
 - number of standard errors between coefficient and zero
 
 ---
-### t-score formula
+### linear regression t-score formula
 $$
 \begin{aligned}
 &t=\frac{b_j-0}{SE(b_j)}\\
@@ -289,7 +321,7 @@ $$
 
 ---
 ### linear regression null hypothesis
-- population coefficient equal zero
+- there's insufficient evidence of linear association between independent variable and dependent variable, holding all other explanatory variables constant
 
 ---
 ### linear regression null hypothesis formula
@@ -302,7 +334,7 @@ $$
 
 ---
 ### linear regression alternative hypothesis
-- population coefficient not equal zero
+- there's sufficient evidence of linear association between independent variable and dependent variable, holding all other explanatory variables constant
 
 ---
 ### linear regression alternative hypothesis formula
