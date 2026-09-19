@@ -215,3 +215,41 @@ $$
 $$
 
 ---
+### gamma probability density function
+- probability as function of the amount of time until $r$th event
+
+---
+### gamma PDF probability formula
+$$
+\begin{aligned}
+&X\sim\text{Gam}(\alpha,\beta)\implies f(x)=\frac{x^{\alpha-1}\exp(\frac{-x}{\beta})}{\beta^\alpha\Gamma(\alpha)}\\
+&\Gamma(\alpha)=\int_0^\infty x^{\alpha-1}e^{-x}dx\\
+&\Gamma(\alpha+1)=\alpha\Gamma(\alpha)\\
+&\Gamma(n)=(n-1)!\\
+&\alpha=\text{shape}\\
+&\beta=\text{scale}\\
+&x=\text{time}
+\end{aligned}
+$$
+
+---
+### gamma PDF expectation formula
+$$
+\begin{aligned}
+&E[X]=\alpha\beta\\
+&\alpha=\text{shape}\\
+&\beta=\text{scale}\\
+\end{aligned}
+$$
+
+---
+### gamma PDF variance formula
+$$
+\begin{aligned}
+&\text{Var}(X)=\alpha\beta^2\\
+&\alpha=\text{shape}\\
+&\beta=\text{scale}\\
+\end{aligned}
+$$
+
+---

@@ -86,27 +86,33 @@ $$
 
 ---
 ### expectation property
-- linearity
+- multiplication
+- addition
+- sum
 - function
 
 ---
 ### expectation property formula
 $$
 \begin{aligned}
-&E[aX+b]=aE[X]+b\\
+&E[aX]=aE[X]\\
+&E[X+b]=E[X]+b\\
+&E[\sum_iX_i]=\sum_iE[X_i]\\
 &E[g(X)]=\sum_{i}g(x_{i})P(X=x_{i})\\
 \end{aligned}
 $$
 
 ---
 ### variance property
-- linearity
+- multiplication
+- addition
 
 ---
 ### variance property formula
 $$
 \begin{aligned}
-&\text{Var}(aX+b)=a^2\text{Var}(X)
+&\text{Var}(aX)=a^2\text{Var}(X)\\
+&\text{Var}(X+b)=\text{Var}(X)
 \end{aligned}
 $$
 
