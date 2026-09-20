@@ -190,7 +190,7 @@ $$
 ### root sensitivity formula
 $$
 \begin{aligned}
-&|r-r_c|\approx\frac{g(r)}{f'(r)}\epsilon\\
+&|r-r_c|\approx\frac{-g(r)}{f'(r)}\epsilon\\
 &m>1\implies|r-r_c|\approx(\frac{|g(r)|m!}{|f^{(m)}(r)|}|\epsilon|)^{1/m}\\
 &r=\text{real root}\\
 &r_c=\text{computed root}\\
@@ -223,8 +223,8 @@ $$
 ### newton convergence formula
 $$
 \begin{aligned}
-&\lim_{n\rightarrow\infty}\frac{e_{n+1}}{e_n^2}=\frac{f''(r)}{2f'(r)}\\
-&f(x)=(x-r)^mg(x)\implies\lim_{n\rightarrow\infty}\frac{e_{n+1}}{e_n^2}=\frac{m-1}{m}\\
+&\lim_{n\rightarrow\infty}\frac{e_{n+1}}{e_n^2}=|\frac{f''(r)}{2f'(r)}|\\
+&m>1\implies\lim_{n\rightarrow\infty}\frac{e_{n+1}}{e_n}=|\frac{m-1}{m}|\\
 &e=\text{absolute error}\\
 &f,g=\text{function}\\
 &r=\text{real root}\\
@@ -254,11 +254,11 @@ $$
 ### modified newton convergence
 $$
 \begin{aligned}
-&\frac{e_{n+1}}{e_n^2}=\frac{f''(r)}{mf'(r)}\\
-&e=\text{absolute error}\\
-&f=\text{function}\\
+&f(x)=(x-r)^mg(x)\implies\lim_{n\rightarrow\infty}\frac{e_{n+1}}{e_n^2}=|\frac{g'(r)}{mg(r)}|\\
+&f,g=\text{function}\\
 &r=\text{real root}\\
 &m=\text{multiplicity}
+&e=\text{absolute error}
 \end{aligned}
 $$
 
