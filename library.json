@@ -24,7 +24,9 @@
     "9 Functional Sequences.md"
   ],
   "12 Waves": [
-    "Harmonic Oscillators.md"
+    "1 Simple Harmonic Oscillators.md",
+    "2 Damped and Driven Harmonic Oscillators.md",
+    "3 Coupled Harmonic Oscillators.md"
   ],
   "13 Numerical Analysis": [
     "1 Floating-Point Numbers.md",
