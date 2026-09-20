@@ -257,7 +257,7 @@ $$
 &f(x)=(x-r)^mg(x)\implies\lim_{n\rightarrow\infty}\frac{e_{n+1}}{e_n^2}=|\frac{g'(r)}{mg(r)}|\\
 &f,g=\text{function}\\
 &r=\text{real root}\\
-&m=\text{multiplicity}
+&m=\text{multiplicity}\\
 &e=\text{absolute error}
 \end{aligned}
 $$

@@ -470,7 +470,7 @@ $$
 ---
 ### symmetric normal mode
 - standing wave pattern where where all particles oscillate with the same frequency
-- aka nth harmonic or (n+1)th overtone
+- aka nth harmonic or $(n-1)$th overtone
 ![300](4%20Physics/Images/mechanical%20symmetric%20normal%20mode.png)
 
 ---

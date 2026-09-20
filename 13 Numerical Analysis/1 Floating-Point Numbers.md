@@ -355,8 +355,7 @@ $$
 $$
 \begin{aligned}
 &x\approx y\implies\frac{|x|+|y|}{|x-y|}\gg1\\
-&x=\text{real number}\\
-&x_c=\text{computed number}
+&x=\text{real number}
 \end{aligned}
 $$
 
