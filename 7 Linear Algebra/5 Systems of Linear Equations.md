@@ -4,12 +4,12 @@
 ---
 ### linear equation formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \sum_{i=1}^{n}a_{i}x_{i}=b\\
 a=\text{coefficient}\\
 x=\text{variable}\\
 b=\text{constant}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -19,7 +19,7 @@ $$
 ---
 ### system of linear equations formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \begin{array}{l}
 a_{11}x_{1}+a_{12}x_{2}+\cdots+a_{1n}x_{n}=b_{1}\\
 a_{21}x_{1}+a_{22}x_{2}+\cdots+a_{2n}x_{n}=b_{2}\\
@@ -29,7 +29,7 @@ a_{m1}x_{1}+a_{m2}x_{2}+\cdots+a_{\text{mn}}x_{n}=b_{m}
 a=\text{coefficient}\\
 x=\text{variable}\\
 b=\text{constant}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -39,14 +39,14 @@ $$
 ---
 ### particular solution of system of linear equations formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 y=(y_{1},\dots,y_{n})\iff\forall j\in\set{1,\dots,m}:\sum_{i=1}^{n}a_{\text{ji}}y_{i}=b_{j}\\
 m=\text{number of linear equations}\\
 n=\text{number of variables}\\
 a=\text{coefficient}\\
 y=\text{solution}\\
 b=\text{constant}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -56,7 +56,7 @@ $$
 ---
 ### complete solution of system of linear equations formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 Y=\{(y_{1},\dots,y_{n})\in\mathbb R^{n}\mid\forall j\in\set{1,\dots,m}:\sum_{i=1}^{n}a_{\text{ji}}y_{i}=b_{j}\}\\
 Y=\text{complete solution set}\\
 m=\text{number of linear equations}\\
@@ -64,7 +64,7 @@ n=\text{number of variables}\\
 a=\text{coefficient}\\
 y=\text{solution}\\
 b=\text{constant}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -74,7 +74,7 @@ $$
 ---
 ### coefficient matrix formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 A=\begin{bmatrix}
 a_{11}&a_{12}&\cdots&a_{1n}\\
 a_{21}&a_{22}&\cdots&a_{2n}\\
@@ -85,7 +85,7 @@ a_{m1}&a_{m2}&\cdots&a_{\text{mn}}\\
 a=\text{coefficient}\\
 m=\text{number of rows}\\
 n=\text{number of columns}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -95,7 +95,7 @@ $$
 ---
 ### variable matrix formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 X=\begin{bmatrix}
 x_{1}\\
 x_{2}\\
@@ -104,7 +104,7 @@ x_{n}
 \end{bmatrix}\\
 |X|=n\times1\\
 x=\text{variable}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -114,7 +114,7 @@ $$
 ---
 ### constant matrix formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 B=\begin{bmatrix}
 b_{1}\\
 b_{2}\\
@@ -123,7 +123,7 @@ b_{m}
 \end{bmatrix}\\
 |B|=m\times1\\
 b=\text{constant}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -133,7 +133,7 @@ $$
 ---
 ### system of linear equations formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 AX=B\\
 \begin{bmatrix}
 a_{11}&a_{12}&\cdots&a_{1n}\\
@@ -154,7 +154,7 @@ b_{m}
 A=\text{coefficient matrix}\\
 X=\text{variable matrix}\\
 B=\text{constant matrix}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -164,14 +164,14 @@ $$
 ---
 ### augmented matrix formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 A\mid B=\left[\begin{array}{cccc|c}
 a_{11}&a_{12}&\cdots&a_{1n}&b_{1}\\
 a_{21}&a_{22}&\cdots&a_{2n}&b_{2}\\
 \vdots&\vdots&\ddots&\vdots&\vdots\\
 a_{m1}&a_{m2}&\cdots&a_{\text{mn}}&b_{m}
 \end{array}\right]
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -181,14 +181,14 @@ $$
 ---
 ### simultaneous matrix formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 A\mid B\mid B'=\left[\begin{array}{cccc|c|c}
 a_{11}&a_{12}&\cdots&a_{1n}&b_{1}&b_{1}'\\
 a_{21}&a_{22}&\cdots&a_{2n}&b_{2}&b_{2}'\\
 \vdots&\vdots&\ddots&\vdots&\vdots&\vdots\\
 a_{m1}&a_{m2}&\cdots&a_{\text{mn}}&b_{m}&b_{m}'
 \end{array}\right]
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -224,11 +224,11 @@ $$
 ---
 ### type I row operation formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \langle i\rangle\implies c\langle i\rangle\\
 i=\text{row index}\\
 c=\text{scalar}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -238,11 +238,11 @@ $$
 ---
 ### type II row operation formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \langle i\rangle\implies\langle i\rangle+c\langle j\rangle\\
 i,j=\text{row index}\\
 c=\text{scalar}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -252,10 +252,10 @@ $$
 ---
 ### type III row operation formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \langle i\rangle\iff\langle j\rangle\\
 i,j=\text{row index}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -303,10 +303,10 @@ $$
 ---
 ### row operation property formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 R(AB)=(R(A))B\\
 R_{n}(\dots(R_{2}(R_{1}(AB)))\dots)=(R_{n}(\dots(R_{2}(R_{1}(A)))\dots))B\\
-\end{array}
+\end{lgathered}
 $$
 
 ---

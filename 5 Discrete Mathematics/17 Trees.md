@@ -4,11 +4,11 @@
 ---
 ### tree formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 |E|=n-1\\
 n=\text{number of vertices}\\
 |E|=\text{number of edges}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -19,12 +19,12 @@ $$
 ---
 ### tree graph formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \forall a(a,a)\notin R\\
 (a,b)\in R\implies(b,a)\notin R\\
 (a,b)\in R\land(b,c)\in R\implies(a,c)\notin R\\
 \forall(e\in E)(e\in R)
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -80,7 +80,7 @@ $$
 ---
 ### full N-ary tree formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 n\rightarrow i=\frac{n-1}{N}\land l=\frac{(n+1)(N-1)}{N}\\
 i\rightarrow n=Ni+1\land l=(N-1)i+1\\
 l\rightarrow n=\frac{Nl-1}{N-1}\land i=\frac{l-1}{N-1}\\
@@ -88,7 +88,7 @@ n=\text{number of vertices}\\
 N=\text{number of children vertices}\\
 i=\text{number of internal vertices}\\
 l=\text{number of leaves}
-\end{array}
+\end{lgathered}
 $$
 
 ---

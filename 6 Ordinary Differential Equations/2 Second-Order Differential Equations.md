@@ -4,44 +4,44 @@
 ---
 ### 2nd-order ode formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \frac{d^{2}y}{dt^{2}}=f(t,y,\frac{dy}{dt})\\
 t=\text{independent variable}\\
 y=\text{solution}
-\end{array}
+\end{lgathered}
 $$
 
 ---
 ### 2nd-order linear ode formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 a_{2}(t)y''(t)+a_{1}(t)y'(t)+a_{0}(t)y(t)=b(t)\\
 y=\text{solution}\\
 t=\text{independent variable}\\
 a=\text{coefficient}
-\end{array}
+\end{lgathered}
 $$
 
 ---
 ### general solution of 2nd-order homogeneous linear ode formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 y(t)=C_{1}y_{1}(t)+C_{2}y_{2}(t)\\
 C=\text{constant}\\
 t=\text{independent variable}\\
 y=\text{solution}
-\end{array}
+\end{lgathered}
 $$
 
 ---
 ### general solution of 2nd-order nonhomogeneous linear ode formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 y(t)=y_{h}(t)+y_{p}(t)\\
 t=\text{independent variable}\\
 y_{h}=\text{homogeneous solution}\\
 y_{p}=\text{particular solution}\\
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -51,10 +51,10 @@ $$
 ---
 ### linear transformation formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 L[y_{1}+y_{2}]=L[y_{1}]+L[y_{2}]\\
 L[cy]=cL[y]
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -64,12 +64,12 @@ $$
 ---
 ### linear transformation property formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 L[y_{1}]=L[y_{2}]=0\implies L[C_{1}y_{1}+C_{2}y_{2}]=0\\
 L=\text{linear transformation}\\
 y=\text{solution}\\
 C=\text{constant}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -79,12 +79,12 @@ $$
 ---
 ### linear independence formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 C_{1}y_{1}(t)+C_{2}y_{2}(t)=0\implies C_{1}=C_{2}=0\\
 C=\text{constant}\\
 y=\text{solution}\\
 t=\text{independent variable}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -94,11 +94,11 @@ $$
 ---
 ### wronskian formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 W[y_{1},y_{2}](t)=\begin{vmatrix}y_{1}&y_{2}\\y_{1}'&y_{2}'\end{vmatrix}=y_{1}y_{2}'-y_{2}y_{1}'\\
 y=\text{solution}\\
 t=\text{independent variable}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -108,14 +108,14 @@ $$
 ---
 ### fundamental set formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 L[y_{1}]=L[y_{2}]=0\ne W[y_{1},y_{2}](t)\implies\mathcal F=\set{y_{1},y_{2}}\\
 L=\text{linear transformation}\\
 y=\text{solution}\\
 W=\text{wronskian}\\
 t=\text{independent variable}\\
 \mathcal F=\text{fundamental set}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -125,12 +125,12 @@ $$
 ---
 ### constant coefficient ode formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 a_{2}y''(t)+a_{1}y'(t)+a_{0}y(t)=0\\
 a=\text{coefficient}\\
 y=\text{solution}\\
 t=\text{independent variable}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -140,7 +140,7 @@ $$
 ---
 ### characteristic equation formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \begin{cases}
 y''=r^{2}\exp(rt)\\
 y'=r\exp(rt)\\
@@ -150,7 +150,7 @@ r=\text{root}\\
 \exp(rt)=\text{guess}\\
 t=\text{independent variable}\\
 a=\text{coefficient}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -160,10 +160,10 @@ $$
 ---
 ### general solution of characteristic polynomial formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 r=\frac{-a_{1}\pm\sqrt{a_{1}^{2}-4a_{2}a_{0}}}{2a_{2}}\\
 a=\text{coefficient}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -173,13 +173,13 @@ $$
 ---
 ### distinct real roots formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 r_{1}\ne r_{2}\implies y=C_{1}\exp(r_{1}t)+C_{2}\exp(r_{2}t)\\
 y=\text{solution}\\
 C=\text{constant}\\
 r=\text{root}\\
 t=\text{independent variable}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -189,13 +189,13 @@ $$
 ---
 ### repeated real roots formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 r_{1}=r_{2}\implies y=\exp(rt)(C_{1}+C_{2}t)\\
 y=\text{solution}\\
 C=\text{constant}\\
 r=\text{root}\\
 t=\text{independent variable}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -205,14 +205,14 @@ $$
 ---
 ### complex roots formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 r=\alpha\pm\beta i\implies y=\exp(\alpha t)(C_{1}\cos\beta t+C_{2}\sin\beta t)\\
 y=\text{solution}\\
 C=\text{constant}\\
 \alpha=\text{real part}\\
 \beta=\text{imaginary part}\\
 t=\text{independent variable}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -226,11 +226,11 @@ $$
 ---
 ### undetermined coefficients formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 b(t)=\exp(ct)\implies y_{p}=C\exp(ct)\\
 b(t)=\sin ct\lor\cos ct\implies y_{p}=C_{1}\cos(ct)+C_{2}\sin(ct)\\
 b(t)=P_{n}(t)\implies y_{p}=C_{0}+C_{1}t+\dots+C_{n}t^{n}\\
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -243,14 +243,14 @@ $$
 ---
 ### variation of parameters formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 y_{p}=u_{1}y_{1}+u_{2}y_{2}\\
 u_{1}=-\int\frac{b(t)y_{2}(t)}{W[y_{1},y_{2}](t)}dt\\
 u_{2}=\int\frac{b(t)y_{1}(t)}{W[y_{1},y_{2}](t)}dt\\
 u=\text{coefficient}\\
 y=\text{solution}\\
 W=\text{wronskian}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -266,11 +266,11 @@ $$
 ---
 ### series solution formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 y=\sum_{n=0}^{\infty}a_{n}(x−x_{0})^{n}\\
 y'=\sum_{n=1}^{\infty}a_{n}n(x−x_{0})^{n-1}\\
 y''=\sum_{n=1}^{\infty}a_{n}n(n-1)(x−x_{0})^{n-2}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -280,12 +280,12 @@ $$
 ---
 ### reduction of order formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 y_{2}(t)=y_{1}(t)\int\frac{\exp(-\int a_{1}(t)dt)}{y_{1}(t)^{2}}dt\\
 y=\text{solution}\\
 t=\text{independent variable}\\
 a=\text{coefficient}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -295,11 +295,11 @@ $$
 ---
 ### missing dependent variable formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 y''(t)=f(t,y')\\
 v(t)=y'(t)\\
 v'(t)=f(t,v)
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -309,12 +309,12 @@ $$
 ---
 ### missing independent variable formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 y''(t)=f(y,y')\\
 v(t)=y'(t)\\
 y''(t)=\frac{dv}{dt}=(\frac{dv}{dy})(\frac{dy}{dt})=v\frac{dv}{dy}\\
 v\frac{dv}{dy}=f(y,y')
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -324,13 +324,13 @@ $$
 ---
 ### cauchy-euler ode formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 y=x^{r}\\
 a_{2}x^{2}y''(t)+a_{1}xy'(t)+a_{0}y(t)=b(t)\implies a_{2}r(r-1)+a_{1}r+a_{0}=b(t)\\
 r_{1}\ne r_{2}\implies y_{h}=C_{1}x^{r_{1}}+C_{2}x^{r_{2}}\\
 r_{1}=r_{2}\implies y_{h}=x^{r}(C_{1}+C_{2}\ln|x|)\\
 r=\alpha\pm\beta i\implies y_{h}=x^{\alpha}C_{1}\cos\beta\ln|x|+x^{\alpha}C_{2}\sin(\beta\ln|x|
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -340,11 +340,11 @@ $$
 ---
 ### energy ode formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 y''(t)=f(y)\\
 y'(t)y''(t)=f(y)y'\\
 \frac{1}{2}(\frac{dy}{dt})^{2}=\int f(y)dy+C
-\end{array}
+\end{lgathered}
 $$
 
 ---

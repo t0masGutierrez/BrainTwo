@@ -4,9 +4,9 @@
 ---
 ### dynamics formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \vec F_{A}\rightarrow\vec a_{A}\rightarrow\vec v_{A}\rightarrow\vec x_{A}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -17,7 +17,7 @@ $$
 ---
 ### force formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \vec F=F_{x}\hat i+F_{y}\hat j\\
 \|\vec F\|=\sqrt{F_{x}^{2}+F_{y}^{2}}\\
 \theta=\arctan(\frac{F_{y}}{F_{x}})\\
@@ -25,7 +25,7 @@ F=\text{force}\\
 \hat i,\hat j=\text{unit vector}\\
 \|\vec F\|=\text{magnitude}\\
 \theta=\text{direction}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -36,11 +36,11 @@ $$
 ---
 ### net force formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \vec F_{\text{net}}=\sum_{n}\vec F_{n}=(\sum_{n}F_{\text{nx}})\hat i+(\sum_{n}F_{\text{ny}})\hat j\\
 \vec F=\text{force}\\
 \hat i,\hat j=\text{unit vector}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -51,11 +51,11 @@ $$
 ---
 ### normal force formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \vec F_{N}=m\vec a_{N}\\
 m=\text{mass}\\
 \vec a=\text{acceleration}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -68,13 +68,13 @@ $$
 ---
 ### friction force formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \vec f_{s}\le\mu_{s}\vec F_{N}\\
 \vec f_{k}=\mu_{k}\vec F_{N}\\
 \mu_{s}=\text{static friction coefficient}\\
 \mu_{k}=\text{kinetic friction coefficient}\\
 \vec F=\text{force}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -85,11 +85,11 @@ $$
 ---
 ### tension force formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \vec F_{T}=m\vec a_{T}\\
 m=\text{mass}\\
 \vec a=\text{acceleration}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -100,11 +100,11 @@ $$
 ---
 ### weight force formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \vec w=m\vec g\\
 m=\text{mass}\\
 \vec g=\text{gravity}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -115,11 +115,11 @@ $$
 ---
 ### centripetal force formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \vec F_{c}=m\vec a_{\text{rad}}\\
 m=\text{mass}\\
 \vec a=\text{acceleration}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -130,11 +130,11 @@ $$
 ---
 ### spring force formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \vec F_{s}=-k\vec x\\
 k=\text{spring constant}\\
 \vec x=\text{displacement}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -144,7 +144,7 @@ $$
 ---
 ### drag force formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \vec F_{d}=-k\vec v\\
 \vec F_{d}=\frac{-1}{2}\rho_fC_{d}A\vec v^{2}\\
 k=\text{linear drag coefficient}\\
@@ -152,7 +152,7 @@ k=\text{linear drag coefficient}\\
 \rho_f=\text{fluid density}\\
 C_{d}=\text{drag coefficient}\\
 A=\text{area}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -162,12 +162,12 @@ $$
 ---
 ### buoyant force formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \vec F_{b}=\rho_{f}V_{f}\vec g\\
 \rho_{f}=\text{fluid density}\\
 V_{f}=\text{fluid volume}\\
 \vec g=\text{gravity}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -208,13 +208,13 @@ $$
 ---
 ### gravitational interaction formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \vec F_{g}=-G\frac{m_{1}m_{2}}{r^{2}}\hat r\\
 G=6.67\times10^{-11}\\
 m=\text{mass}\\
 r=\text{distance}\\
 \hat r=\text{direction}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -224,13 +224,13 @@ $$
 ---
 ### electromagnetic interaction formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \vec F_{\text{EM}}=q(\vec E+\vec v\times\vec B)\\
 q=\text{electric charge}\\
 \vec E=\text{electric field}\\
 \vec v=\text{velocity}\\
 \vec B=\text{magnetic field}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -240,9 +240,9 @@ $$
 ---
 ### strong nuclear interaction formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \vec F_{\text{strong}}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -252,9 +252,9 @@ $$
 ---
 ### weak nuclear interaction formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \vec F_{\text{weak}}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -265,11 +265,11 @@ $$
 ---
 ### newtons first law formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \vec F_{\text{net}}=0\implies\vec a=0\\
 \vec F=\text{force}\\
 \vec a=\text{acceleration}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -280,7 +280,7 @@ $$
 ---
 ### newtons second law formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \vec F_{\text{net}}=m\vec a=
 \begin{cases}
 F_{x}=ma_{x}\\
@@ -289,7 +289,7 @@ F_{y}=ma_{y}
 m=\text{mass}\\
 \vec a=\text{acceleration}\\
 F=\text{force}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -301,11 +301,11 @@ $$
 ---
 ### newtons third law formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \vec F_{\text{AB}}=-\vec F_{\text{BA}}\\
 \vec F=\text{force}\\
 A,B=\text{object}
-\end{array}
+\end{lgathered}
 $$
 
 ---

@@ -5,13 +5,13 @@
 ---
 ### null space formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \text{null}(L)=\{\vec v\mid\vec v\in\mathcal V,L:\mathcal V\rightarrow\mathcal W,L(\vec v)=\vec0_{\mathcal W}\}\\
 L=\text{linear transformation}\\
 \mathcal V=\text{domain vector space}\\
 \mathcal W=\text{codomain vector space}\\
 \vec v=\text{preimage}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -21,14 +21,14 @@ $$
 ---
 ### range formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \text{range}(L)=\{L(\vec v)\mid\vec v\in\mathcal V,L:\mathcal V\rightarrow\mathcal W\}\\
 L=\text{linear transformation}\\
 \mathcal V=\text{domain vector space}\\
 \mathcal W=\text{codomain vector space}\\
 \vec v=\text{preimage}\\
 L(\vec v)=\text{image}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -48,7 +48,7 @@ $$
 ---
 ### dimension property formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \dim(\mathcal V)\ne\infty\implies\dim(\mathcal W\ne\infty)\land\dim(\text{null}\ L)+\dim(\text{range}\ L)=\text{dim}(\mathcal V)\\
 L:\mathcal V\rightarrow\mathcal W\\
 \text{dim}(\mathcal V)=n\\
@@ -56,7 +56,7 @@ L:\mathcal V\rightarrow\mathcal W\\
 \mathcal V=\text{domain vector space}\\
 \mathcal W=\text{codomain vector space}\\
 L=\text{linear transformation}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -66,13 +66,13 @@ $$
 ---
 ### null space subspace property formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \text{null}(L)\le\mathcal V\\
 L:\mathcal V\rightarrow\mathcal W\\
 L=\text{linear transformation}\\
 \mathcal V=\text{domain vector space}\\
 \mathcal W=\text{codomain vector space}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -82,13 +82,13 @@ $$
 ---
 ### null space solution property formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \text{null}(L)=\{\vec x\mid\vec x\in\mathbb R^{n},A\in\mathcal M_{\text{mn}},L:\mathbb R^{n}\rightarrow\mathbb R^{m},A\vec x=0\}\\
 L=\text{linear transformation}\\
 A=\text{matrix transformation}\\
 \vec x=\text{preimage}\\
 A\vec x=\text{image}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -98,7 +98,7 @@ $$
 ---
 ### null space dimension property formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 {}[L(\vec v)]_{C}=A_{\text{BC}}[\vec v]_{B}\implies\dim(\text{null}\ L)=\text{dim}(\mathcal V)-\text{rank}(A)\\
 L:\mathcal V\rightarrow\mathcal W\\
 L=\text{linear transformation}\\
@@ -109,7 +109,7 @@ B=\text{domain basis}\\
 C=\text{codomain basis}\\
 \mathcal V=\text{domain vector space}\\
 \mathcal W=\text{codomain vector space}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -119,13 +119,13 @@ $$
 ---
 ### range subspace property formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \text{range}(L)\le\mathcal W\\
 L:\mathcal V\rightarrow\mathcal W\\
 L=\text{linear transformation}\\
 \mathcal V=\text{domain vector space}\\
 \mathcal W=\text{codomain vector space}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -135,7 +135,7 @@ $$
 ---
 ### range column property formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \text{range}(L)=\{A_{\text{BC}}\vec x\mid\vec x\in\mathbb R^{n},A_{\text{BC}}\in\mathcal M_{\text{mn}},L:\mathbb R^{n}\rightarrow\mathbb R^{m}\}=\text{Col}(A_{\text{BC}})\\
 L=\text{linear transformation}\\
 A=\text{matrix transformation}\\
@@ -143,7 +143,7 @@ B=\text{domain basis}\\
 C=\text{codomain basis}\\
 \vec x=\text{preimage}\\
 A\vec x=\text{image}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -153,7 +153,7 @@ $$
 ---
 ### range dimension property formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 {}[L(\vec v)]_{C}=A_{\text{BC}}[\vec v]_{B}\implies\dim(\text{range}\ L)=\text{rank}(A_{\text{BC}})\\
 L:\mathcal V\rightarrow\mathcal W\\
 L=\text{linear transformation}\\
@@ -164,7 +164,7 @@ B=\text{domain basis}\\
 C=\text{codomain basis}\\
 \mathcal V=\text{domain vector space}\\
 \mathcal W=\text{codomain vector space}
-\end{array}
+\end{lgathered}
 $$
 
 ---

@@ -4,12 +4,12 @@
 ---
 ### mechanical wave formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \psi(x,t)=f(x-vt)+g(x+vt)\\
 x=\text{position}\\
 t=\text{time}\\
 v=\text{velocity}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -20,11 +20,11 @@ $$
 ---
 ### transverse wave formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \psi\perp v\\
 \psi=\text{wave}\\
 v=\text{velocity}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -35,11 +35,11 @@ $$
 ---
 ### longitudinal wave formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \psi\parallel v\\
 \psi=\text{wave}\\
 v=\text{velocity}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -49,12 +49,12 @@ $$
 ---
 ### traveling wave formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \psi(x,t)=f(x\mp{vt})\\
 x=\text{position}\\
 v=\text{velocity}\\
 t=\text{time}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -65,13 +65,13 @@ $$
 ---
 ### pulse wave formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 x\mp vt=C\\
 x=\text{position}\\
 v=\text{velocity}\\
 t=\text{time}\\
 C=\text{constant}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -82,7 +82,7 @@ $$
 ---
 ### sinusoidal wave formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 kx\mp\omega t+\phi=C\\
 k=\text{wavenumber}\\
 x=\text{position}\\
@@ -90,7 +90,7 @@ x=\text{position}\\
 t=\text{time}\\
 \phi=\text{phase angle}\\
 C=\text{constant}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -101,13 +101,13 @@ $$
 ---
 ### wavefront formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \theta(x,t)=C\\
 \theta=\text{angular position}\\
 x=\text{position}\\
 t=\text{time}\\
 C=\text{constant}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -118,9 +118,9 @@ $$
 ---
 ### wavelength formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \lambda=\frac{\text{distance}}{\text{number of oscillations}}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -130,10 +130,10 @@ $$
 ---
 ### wavenumber formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 k=\frac{2\pi}{\lambda}\\
 \lambda=\text{wavelength}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -144,7 +144,7 @@ $$
 ---
 ### particle displacement formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 y(x,t)=A\sin(kx\mp\omega t+\phi)\\
 y(x,t)=A\sin[2\pi(\frac{x}{\lambda}\mp\frac{t}{T})+\phi]\\
 A=\text{amplitude}\\
@@ -155,7 +155,7 @@ t=\text{time}\\
 \phi=\text{phase angle}\\
 \lambda=\text{wavelength}\\
 T=\text{period}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -165,7 +165,7 @@ $$
 ---
 ### particle velocity formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 v=\frac{\partial y}{\partial t}=\mp A\omega\cos(kx\mp\omega t+\phi)\\
 y=\text{displacement}\\
 t=\text{time}\\
@@ -174,7 +174,7 @@ A=\text{amplitude}\\
 k=\text{wavenumber}\\
 x=\text{position}\\
 \phi=\text{phase angle}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -184,7 +184,7 @@ $$
 ---
 ### particle acceleration formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 a=\frac{\partial^{2}y}{\partial t^{2}}=-A\omega^{2}\sin(kx\mp\omega t+\phi)\\
 y=\text{displacement}\\
 t=\text{time}\\
@@ -193,7 +193,7 @@ A=\text{amplitude}\\
 k=\text{wavenumber}\\
 x=\text{position}\\
 \phi=\text{phase angle}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -204,13 +204,13 @@ $$
 ---
 ### wave equation formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \frac{\partial^{2}y}{\partial t^{2}}=v^{2}\frac{\partial^{2}y}{\partial x^{2}}\\
 y=\text{displacement}\\
 t=\text{time}\\
 v=\text{velocity}\\
 x=\text{position}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -220,11 +220,11 @@ $$
 ---
 ### linear mass density formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \mu=\frac{m}{L}\\
 m=\text{mass}\\
 L=\text{length}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -234,13 +234,13 @@ $$
 ---
 ### wave velocity formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 v=\lambda f=\frac{\omega}{k}\\
 \lambda=\text{wavelength}\\
 f=\text{oscillation frequency}\\
 \omega=\text{angular frequency}\\
 k=\text{wavenumber}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -250,11 +250,11 @@ $$
 ---
 ### taut string wave velocity formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 v=\sqrt{\frac{F_{T}}{\mu}}\\
 F=\text{force}\\
 \mu=\text{linear mass density}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -264,13 +264,13 @@ $$
 ---
 ### taut string wave energy formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 E_{\text{avg}}=\frac{\mu LA^{2}\omega^{2}}{2}\\
 \mu=\text{linear mass density}\\
 L=\text{length}\\
 A=\text{amplitude}\\
 \omega=\text{angular frequency}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -282,7 +282,7 @@ $$
 ---
 ### taut string wave power formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 P(x,t)=\omega A^{2}kF_{T}\sin^{2}(kx\mp\omega t+\phi)\\
 P_{\text{avg}}=\frac{1}{2}\omega^{2}A^{2}\sqrt{\mu F_{T}}\\
 \omega=\text{angular frequency}\\
@@ -293,7 +293,7 @@ x=\text{position}\\
 t=\text{time}\\
 \phi=\text{phase angle}\\
 \mu=\text{linear mass density}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -312,10 +312,10 @@ $$
 ---
 ### fixed boundary condition formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 A_{R}=-A_{I}\\
 A=\text{amplitude}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -326,10 +326,10 @@ $$
 ---
 ### free boundary condition formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 A_{R}=A_{I}\\
 A=\text{amplitude}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -339,7 +339,7 @@ $$
 ---
 ### principle of superposition formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 y(x,t)=y_{1}(x,t)+y_{2}(x,t)\\
 A=\sqrt{A_1^2+A_2^2+2A_1A_2\cos(\Delta\phi)}\\
 y=\text{displacement}\\
@@ -347,7 +347,7 @@ x=\text{position}\\
 t=\text{time}\\
 A=\text{amplitude}\\
 \phi=\text{phase angle}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -358,11 +358,11 @@ $$
 ---
 ### constructive interference formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \Delta\phi=2\pi n\implies A=A_{1}+A_{2}\\
 \phi=\text{phase angle}\\
 A=\text{amplitude}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -373,11 +373,11 @@ $$
 ---
 ### destructive interference formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \Delta\phi=(2n+1)\pi\implies A=|A_{1}-A_{2}|\\
 \phi=\text{phase angle}\\
 A=\text{amplitude}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -387,7 +387,7 @@ $$
 ---
 ### phase shifted wave formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 y_{1}=A\sin(kx\mp\omega t+\phi)\land\\
 y_{2}=A\sin(kx\mp\omega t)\implies\\
 y_{1}(x,t)+y_{2}(x,t)=2A\cos(\frac{\phi}{2})\sin(kx\mp\omega t+\frac{\phi}{2})\\
@@ -397,7 +397,7 @@ x=\text{position}\\
 \omega=\text{angular frequency}\\
 t=\text{time}\\
 \phi=\text{phase angle}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -408,7 +408,7 @@ $$
 ---
 ### standing wave formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 A\sin(kx-\omega t)+\\
 A\sin(kx+\omega t)=\\
 2A\sin(kx)\sin(\omega t+\phi)\\
@@ -418,7 +418,7 @@ x=\text{position}\\
 \omega=\text{angular frequency}\\
 t=\text{time}\\
 \phi=\text{phase angle}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -429,10 +429,10 @@ $$
 ---
 ### node formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 x_{n}=\frac{n\lambda}{2}\\
 \lambda=\text{wavelength}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -443,10 +443,10 @@ $$
 ---
 ### antinode formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 x_{n}=\frac{(2n+1)\lambda}{4}\\
 \lambda=\text{wavelength}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -457,14 +457,14 @@ $$
 ---
 ### fundamental frequency formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 f_{1}=\frac{v}{\lambda_{1}}=\frac{1}{2L}\sqrt{\frac{F_{T}}{\mu}}\\
 v=\text{velocity}\\
 \lambda=\text{wavelength}\\
 L=\text{length}\\
 F=\text{force}\\
 \mu=\text{linear mass density}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -476,12 +476,12 @@ $$
 ---
 ### symmetric normal mode formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 f_{n}=nf_{1}\iff\lambda_n=\frac{2L}{n}\\
 n=1,2,3,\dots\\
 f_{1}=\text{fundamental frequency}\\
 L=\text{length}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -491,7 +491,7 @@ $$
 ---
 ### complex exponential formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \theta=kx\mp\omega t+\phi\implies y(x,t)=Ae^{i\theta}=A\cos(\theta)+iA\sin(\theta)\\
 \theta=\text{phase}\\
 k=\text{wavenumber}\\
@@ -503,7 +503,7 @@ y=\text{displacement}\\
 A=\text{amplitude}\\
 e=\text{euler's number}\\
 i=\text{imaginary unit}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -514,7 +514,7 @@ $$
 ---
 ### fourier transform formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 F(k)=\int_{-\infty}^{\infty}f(x)\exp(-ikx)dx\iff f(x)=\frac{1}{2\pi}\int_{-\infty}^{\infty}F(k)\exp(ikx)\cdot dk\\
 F(\omega)=\int_{-\infty}^{\infty}f(t)\exp(-i\omega t)dt\iff f(t)=\frac{1}{2\pi}\int_{-\infty}^{\infty}F(\omega)\exp(i\omega t)\cdot d\omega\\
 F(k,\omega)=\int_{-\infty}^{\infty}\int_{-\infty}^{\infty}f(x,t)\exp[-i(kx-\omega t)]\cdot dxdt\iff\\
@@ -526,7 +526,7 @@ x=\text{position}\\
 i=\text{imaginary unit}\\
 \omega=\text{angular frequency}\\
 t=\text{time}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -536,14 +536,14 @@ $$
 ---
 ### fourier series formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 f(t)=f(t+T)\implies f(t)=\sum_{n=-\infty}^{\infty}c_{n}\exp(\frac{2\pi n}{T}it)\\
 f=\text{periodic function}\\
 t=\text{time}\\
 T=\text{period}\\
 c=\text{fourier coefficient}\\
 i=\text{imaginary unit}
-\end{array}
+\end{lgathered}
 $$
 
 ---

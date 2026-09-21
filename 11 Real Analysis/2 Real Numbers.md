@@ -6,11 +6,11 @@
 ---
 ### why natural numbers formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 S=\emptyset\implies|S|\not\in S\\
 S=\emptyset\implies x_{n}\not\in x_{n+1}\\
 S=\emptyset\implies\infty\not\in S\\
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -20,9 +20,9 @@ $$
 ---
 ### natural numbers formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \mathbb N=\{0,1,2,\dots,\infty\}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -35,12 +35,12 @@ $$
 ---
 ### peano axioms formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 0\in\mathbb N\\
 S(n)=n+1\implies\forall n\in\mathbb N:S(n)\in\mathbb N\\
 S(n)=S(m)\implies n=m\\
 (K\subset\mathbb N)\land(0\in K)\land(\forall n\in K:S(n)\in K)\implies K=\mathbb N
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -52,14 +52,14 @@ $$
 ---
 ### construct natural numbers formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 0=\emptyset\\
 1=S(0)=0\cup\{0\}=\{0\}\\
 2=S(1)=1\cup\{1\}=\{0\}\cup\{1\}=\{0,1\}\\
 3=S(2)=2\cup\{2\}=\{0,1\}\cup\{2\}=\{0,1,2\}\\
 \vdots\\
 \mathbb N=\{S(n)|0\le n<\infty\}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -69,9 +69,9 @@ $$
 ---
 ### why integers formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \forall(m>n)\in\mathbb N:n-m\not\in\mathbb N
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -81,9 +81,9 @@ $$
 ---
 ### integers formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \mathbb Z=\{n-m|n,m\in\mathbb N\}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -94,10 +94,10 @@ $$
 ---
 ### integers arithmetic formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 {}[(m,n)]+[(m',n')]=[(m+m',n+n')]\\
 {}[(m,n)]\cdot[(m',n')]=[(mm'+nn',mn'+nm')]
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -109,11 +109,11 @@ $$
 ---
 ### construct integers formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 (m,n)\sim(m',n')\iff m+n'=m'+n\\
 {}[(m,n)]=\{(m',n')\in\mathbb N\times\mathbb N|(m,n)\sim(m',n')\}\\
 \mathbb Z=\{[(m,n)]|(m,n)\in\mathbb N\times\mathbb N\}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -123,9 +123,9 @@ $$
 ---
 ### why rational numbers formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \exists p,q\in\mathbb Z,q\ne0:\frac{p}{q}\not\in\mathbb Z
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -135,9 +135,9 @@ $$
 ---
 ### rational numbers formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \mathbb Q=\{\frac{p}{q}|p,q\in\mathbb Z,q\ne0\}\\
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -148,10 +148,10 @@ $$
 ---
 ### rational numbers arithmetic formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 {}[(p,q)]+[(p',q')]=[(pq'+qp',qq')]\\
 {}[(p,q)]\cdot[(p',q')]=[(pp',qq')]
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -163,11 +163,11 @@ $$
 ---
 ### construct rational numbers formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 (p,q)\sim(p',q')\iff pq'=qp'\\
 {}[(p,q)]=\{(p',q')\in\mathbb Z\times\mathbb Z|(p,q)\sim(p',q')\}\\
 \mathbb Q=\{[(p,q)]|(p,q)\in\mathbb Z\times\mathbb Z\}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -177,9 +177,9 @@ $$
 ---
 ### why real numbers formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \exists p,q\in\mathbb Z,q\ne0:\frac{p}{q}\not\in\mathbb Q
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -189,9 +189,9 @@ $$
 ---
 ### real numbers formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \mathbb R=\mathbb Q\cup\{\mathbb R∖\mathbb Q\}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -201,10 +201,10 @@ $$
 ---
 ### field formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 (+):F\times F\rightarrow F\\
 (\cdot):F\times F\rightarrow F
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -222,7 +222,7 @@ $$
 ---
 ### axiom field property formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 x+y=y+x\\
 x+(y+z)=(x+y)+z\\
 x+0=x\\
@@ -232,7 +232,7 @@ x\cdot y=y\cdot x\\
 x\cdot(y\cdot z)=(x\cdot y)\cdot z\\
 x\cdot1=x\\
 x\cdot(\frac{1}{x})=1
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -246,13 +246,13 @@ $$
 ---
 ### ordinality field property formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 (x,y,z\in F)\land(x<y)\implies x+z<y+z\\
 (x,y\in F)\land(x<y)\land(z>0)\implies x\cdot z<y\cdot z\\
 (x,y\in F)\land(x<y)\land(z<0)\implies x\cdot z>y\cdot z\\
 x,y\in F\implies(x<y)\lor(x=y)\lor(y<x)\\
 (x,y,z\in F)\land(x<y)\land(y<z)\implies x<z
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -262,12 +262,12 @@ $$
 ---
 ### complex number formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 z=a+bi\\
 a=\text{real part}\\
 b=\text{imaginary part}\\
 i=\text{imaginary number}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -281,13 +281,13 @@ $$
 ---
 ### complex number property formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 |z|^{2}=(z)(\overline z)\\
 |\overline z|=|z|\\
 |zw|=(|z|)(|w|)\\
 |z+w|\le|z|+|w|\\
 |\text{Re}(z)|\le|z|
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -297,12 +297,12 @@ $$
 ---
 ### complex conjugate formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \overline z=a-bi\\
 a=\text{Re}(z)\\
 b=\text{Im}(z)\\
 i=\sqrt{-1}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -316,13 +316,13 @@ $$
 ---
 ### complex conjugate property formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \overline{z+w}=\overline z+\overline w\\
 \overline{z\cdot w}=\overline z\cdot\overline w\\
 z+\overline z=\text{Re}(z)\\
 z-\overline z=\text{Im}(z)\\
 z\cdot\overline z\in\mathbb R^{+}\iff z\ne0
-\end{array}
+\end{lgathered}
 $$
 
 ---

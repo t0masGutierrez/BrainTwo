@@ -10,7 +10,7 @@
 ---
 ### summation formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \sum_{i=m}^nc=c(n-m+1)\\
 \sum_{i=m}^n(\alpha a_i\pm\beta b_i)=\alpha\sum_{i=m}^na_i\pm\beta\sum_{i=m}^nb_i\\
 \sum_{i=m}^na_i=\sum_{i=m}^ka_i\pm\sum_{i=k+1}^na_i\\
@@ -18,7 +18,7 @@ $$
 \sum_{i=m}^na_i=c\sum_{i=m}^na_{m+n-i}\\
 \sum_{i=1}^m\sum_{j=1}^na_{\text{ij}}=\sum_{j=1}^n\sum_{i=1}^ma_{\text{ij}}\\
 (\sum_{i=1}^ma_i)(\sum_{j=1}^nb_j)=\sum_{i=1}^m\sum_{j=1}^na_{i}b_j\\
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -33,14 +33,14 @@ $$
 ---
 ### series formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \sum_{i=1}^n1=n\\
 \sum_{i=1}^ni=\frac{n(n+1)}{2}\\
 \sum_{i=1}^ni^2=\frac{n(n+1)(2n+1)}{6}\\
 \sum_{i=1}^ni^3=\frac{n^2(n+1)^2}{4}\\
 \sum_{i=m}^nr^i=\frac{r^m-r^{n+1}}{1-r}\\
 \sum_{i=m}^n(a_i-a_{i+1})=a_m-a_{n+1}\\
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -62,7 +62,7 @@ $$
 ---
 ### setting formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 A\cup B=B\cup A\\
 A\cap B=B\cap A\\
 (A\cup B)\cup C=A\cup(B\cup C)\\
@@ -92,7 +92,7 @@ A\setminus U=\emptyset\\
 U\setminus A=A^c\\
 A\setminus(B\cup C)=(A\setminus B)\cap(A\setminus C)\\
 A\setminus(B\cap C)=(A\setminus B)\cup(A\setminus C)
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -110,10 +110,10 @@ $$
 ---
 ### probability formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 0\le P(A)\le1\\
 P(\Omega)=1
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -123,11 +123,11 @@ $$
 ---
 ### frequentist probability formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 P(A)=\lim_{n\to\infty}\frac{m}{n}\\
 m=\text{number of successes}\\
 n=\text{total number of trials}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -137,11 +137,11 @@ $$
 ---
 ### classical probability formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 P(A)=\frac{m}{n}\\
 m=\text{number of favorable outcomes}\\
 n=\text{total number of outcomes}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -151,9 +151,9 @@ $$
 ---
 ### complimentary probability formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 P(A')=1-P(A)
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -163,9 +163,9 @@ $$
 ---
 ### conditional probability formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 P(A|B)=\frac{P(A\cap B)}{P(B)}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -179,9 +179,9 @@ $$
 ---
 ### independent multiplication formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 P(A\cap B)=P(A)P(B)
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -195,9 +195,9 @@ $$
 ---
 ### dependent multiplication formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 P(A\cap B)=P(A)P(B|A)
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -211,9 +211,9 @@ $$
 ---
 ### disjoint addition formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 P(A\cup B)=P(A)+P(B)
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -227,9 +227,9 @@ $$
 ---
 ### joint addition formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 P(A\cup B)=P(A)+P(B)-P(A\cap B)
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -247,11 +247,11 @@ $$
 ---
 ### bayes theorem formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 P(A|B)=\frac{P(A)P(B|A)}{P(B)}\\
 A=\text{hypothesis}\\
 B=\text{condition}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -261,11 +261,11 @@ $$
 ---
 ### law of total probability formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 P(A)=\sum_{i=1}^{n}P(A|B_{i})P(B_{i})\\
 A=\text{hypothesis}\\
 B=\text{condition}
-\end{array}
+\end{lgathered}
 $$
 
 ---

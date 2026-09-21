@@ -9,12 +9,12 @@
 ---
 ### mutual inductance formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 M=\frac{N_{1}\Phi_{12}}{i_{2}}=\frac{N_{2}\Phi_{21}}{i_{1}}\\
 N=\text{number of loops}\\
 \Phi=\text{magnetic flux}\\
 i=\text{electric current}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -24,12 +24,12 @@ $$
 ---
 ### mutual inductance emf formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \varepsilon_{2}=-M\frac{di_{1}}{dt}\\
 M=\text{mutual inductance}\\
 i=\text{electric current}\\
 t=\text{time}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -40,36 +40,36 @@ $$
 ---
 ### self inductance formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 L=\frac{N\Phi}{i}\\
 N=\text{number of loops}\\
 \Phi=\text{magnetic flux}\\
 i=\text{electric current}
-\end{array}
+\end{lgathered}
 $$
 
 ---
 ### solenoid self inductance formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 L=\frac{\mu_{0}N^{2}A}{\ell}\\
 \mu_{0}=4\pi\times10^{-7}\\
 N=\text{number of loops}\\
 A=\text{area}\\
 \ell=\text{length}
-\end{array}
+\end{lgathered}
 $$
 
 ---
 ### toroid self inductance formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 L=\frac{\mu_{0}N^{2}A}{2\pi R}\\
 \mu_{0}=4\pi\times10^{-7}\\
 N=\text{number of loops}\\
 A=\text{area}\\
 R=\text{radius}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -80,12 +80,12 @@ $$
 ---
 ### self inductance emf formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \varepsilon=-L\frac{di}{dt}\\
 L=\text{self inductance}\\
 i=\text{electric current}\\
 t=\text{time}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -96,12 +96,12 @@ $$
 ---
 ### inductor formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 v_{L}=L\frac{di}{dt}\\
 L=\text{self inductance}\\
 i=\text{electric current}\\
 t=\text{time}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -112,11 +112,11 @@ $$
 ---
 ### kirchhoffs direction rule formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \frac{di}{dt}=0\implies v_L=0\\
 \frac{di}{dt}>0\implies v_L>0\\
 \frac{di}{dt}<0\implies v_L<0\\
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -126,11 +126,11 @@ $$
 ---
 ### magnetic potential energy formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 U=\frac{1}{2}LI^{2}\\
 L=\text{self inductance}\\
 I=\text{electric current}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -140,11 +140,11 @@ $$
 ---
 ### energy density formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 u=\frac{B^{2}}{2\mu_{0}}\\
 B=\text{magnetic field}\\
 \mu_{0}=4\pi\times10^{-7}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -155,14 +155,14 @@ $$
 ---
 ### RL electric circuit formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \sum V=v_R+v_L=iR+L\frac{di}{dt}=0\\
 v=\text{voltage}\\
 i=\text{electric current}\\
 R=\text{resistance}\\
 L=\text{self inductance}\\
 t=\text{time}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -175,10 +175,10 @@ $$
 ---
 ### increasing inductor formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 i(t_0)=0\\
 \lim_{t\rightarrow\infty}i(t)=I
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -191,10 +191,10 @@ $$
 ---
 ### decreasing inductor formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 i(t_0)=I\\
 \lim_{t\rightarrow\infty}i(t)=0
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -206,11 +206,11 @@ $$
 ---
 ### time constant formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \tau=\frac{L}{R}\\
 L=\text{self inductance}\\
 R=\text{resistance}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -222,7 +222,7 @@ $$
 ---
 ### increasing electric current formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 i(t)=\frac{V}{R}(1-e^{-Rt/L})=I(1-e^{-t/\tau})\\
 V=\text{voltage}\\
 R=\text{resistance}\\
@@ -230,7 +230,7 @@ t=\text{time}\\
 L=\text{self inductance}\\
 I=\text{electric current}\\
 \tau=\text{time constant}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -242,12 +242,12 @@ $$
 ---
 ### decreasing electric current formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 i(t)=I(e^{-t/\tau})\\
 I=\text{electric current}\\
 t=\text{time}\\
 \tau=\text{time constant}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -258,7 +258,7 @@ $$
 ---
 ### LC electric circuit formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \sum V=v_L+v_C=L\frac{di}{dt}+\frac{q}{C}=0\\
 v=\text{voltage}\\
 L=\text{self inductance}\\
@@ -266,7 +266,7 @@ i=\text{electric current}\\
 t=\text{time}\\
 q=\text{electric charge}\\
 C=\text{capacitance}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -277,7 +277,7 @@ $$
 ---
 ### LC harmonic motion formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 q(t)=Q\cos(\omega t+\phi)\\
 i(t)=-Q\omega\sin(\omega t+\phi)\\
 \frac{di}{dt}=-Q\omega^{2}\cos(\omega t+\phi)\\
@@ -291,7 +291,7 @@ t=\text{time}\\
 L=\text{self inductance}\\
 C=\text{capacitance}\\
 i=\text{electric current}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -303,13 +303,13 @@ $$
 ---
 ### LC electromagnetic energy formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 E=\frac{Li^{2}}{2}+\frac{q^{2}}{2C}=\frac{LI^{2}}{2}=\frac{Q^{2}}{2C}\\
 L=\text{self inductance}\\
 i,I=\text{electric current}\\
 q,Q=\text{electric charge}\\
 C=\text{capacitance}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -320,7 +320,7 @@ $$
 ---
 ### RLC electric circuit formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \sum V=v_R+v_L+v_C=iR+L\frac{di}{dt}+\frac{q}{C}=0\\
 v=\text{voltage}\\
 i=\text{electric current}\\
@@ -329,7 +329,7 @@ L=\text{self inductance}\\
 t=\text{time}\\
 q=\text{electric charge}\\
 C=\text{capacitance}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -340,14 +340,14 @@ $$
 ---
 ### damped RLC oscillation formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 L\frac{d^{2}q}{dt^{2}}+R\frac{dq}{dt}+\frac{q}{C}=0\\
 L=\text{self inductance}\\
 q=\text{electric charge}\\
 t=\text{time}\\
 R=\text{resistance}\\
 C=\text{capacitance}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -358,7 +358,7 @@ $$
 ---
 ### underdamped RLC oscillation formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 R^{2}<\frac{4L}{C}\implies q(t)=A_0\exp(-\gamma t)\cos(\omega_1t+\phi)\\
 A=\sqrt{q_0^2+(\frac{i_0+\gamma q_0}{\omega_1})^2}\\
 \phi=\arctan(\frac{-i_0-\gamma q_0}{\omega_1q_0})\\
@@ -375,7 +375,7 @@ A=\text{amplitude}\\
 \omega=\text{angular frequency}\\
 \phi=\text{phase angle}\\
 i=\text{electric current}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -386,7 +386,7 @@ $$
 ---
 ### driven damped RLC oscillation formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 L\frac{d^{2}q}{dt^{2}}+R\frac{dq}{dt}+\frac{q}{C}=V_0\cos(\Omega t)\\
 q(t)=A\cos(\Omega t+\phi)\\
 A=\frac{V_0}{L}\sqrt{\frac{1}{(\omega_0^2-\Omega^2)^{2}+(2\gamma\Omega)^2}}\\
@@ -401,7 +401,7 @@ V=\text{voltage}\\
 A=\text{amplitude}\\
 \phi=\text{phase angle}\\
 \gamma=\text{damping frequency}
-\end{array}
+\end{lgathered}
 $$
 
 ---

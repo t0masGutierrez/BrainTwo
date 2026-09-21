@@ -4,7 +4,7 @@
 ---
 ### linear independence formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \sum_{i=1}^{n}c_{i}\vec v_{i}=\vec0\implies\forall i:c_{i}=0\\
 S=\{\vec v_{1},\dots,\vec v_{n}\}\subset\mathcal V\\
 n=\text{number of columns}\\
@@ -12,7 +12,7 @@ c=\text{scalar}\\
 \vec v=\text{vector}\\
 S=\text{linearly independent set}\\
 \mathcal V=\text{vector space}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -22,7 +22,7 @@ $$
 ---
 ### linear dependence formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \exists c_{i}\ne0:\sum_{i=1}^{n}c_{i}\vec v_{i}=\vec0\\
 S=\{\vec v_{1},\dots,\vec v_{n}\}\subset\mathcal V\\
 n=\text{number of columns}\\
@@ -30,7 +30,7 @@ c=\text{scalar}\\
 \vec v=\text{vector}\\
 S=\text{linearly dependent set}\\
 \mathcal V=\text{vector space}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -49,9 +49,9 @@ $$
 ---
 ### linear independence empty property formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \emptyset=\{\}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -61,12 +61,12 @@ $$
 ---
 ### linear independence singleton property formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 (S=\{\vec v\})\land(\vec v\ne0)\implies\text{rank}(S)=n\\
 S=\text{set}\\
 \vec v=\text{vector}\\
 n=\text{number of columns}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -76,11 +76,11 @@ $$
 ---
 ### linear independence zero property formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \vec0\in S\implies\text{rank}(S)<n\\
 S=\text{set}\\
 n=\text{number of columns}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -90,12 +90,12 @@ $$
 ---
 ### linear independence size property formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 (\vec v\in\mathbb R^{m})\land(n>m)\implies\text{rank}(\{\vec v_{1}\dots,\vec v_{n}\})\ne n\\
 \vec v=\text{vector}\\
 m=\text{number of coordinates}\\
 n=\text{number of vectors}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -105,13 +105,13 @@ $$
 ---
 ### linear independence scalar property formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 (\sum_{i=1}^{n}c_{i}\vec v_{i}=\vec0)\land(\exists i\ne j:\vec v_{i}=c\vec v_{j})\implies\text{rank}(S)<n\\
 n=\text{number of columns}\\
 c=\text{scalar}\\
 \vec v=\text{vector}\\
 S=\text{set}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -121,13 +121,13 @@ $$
 ---
 ### linear independence redundancy property formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \nexists\vec v\in S:\text{span}(S)=\text{span}(S\setminus\{\vec v\})\implies\text{rank}(S)=n\\
 \forall i\in\set{2,\dots,n}:\vec v_{i}\not\in\text{span}(\{\vec v_{1}\dots\vec v_{i-1}\})\implies\text{rank}(S)=n\\
 \vec v=\text{redundant vector}\\
 S=\text{set}\\
 n=\text{number of columns}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -137,12 +137,12 @@ $$
 ---
 ### linear independence subset property formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \forall S_{k}=\set{\vec v_{1},\dots,\vec v_{k}}\subset S:\text{rank}(S_{k})=k\iff\text{rank}(S)=n\\
 S=\set{\vec v_{1},\dots,\vec v_{n}}\\
 n=\text{number of columns}\\
 S=\text{set}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -152,13 +152,13 @@ $$
 ---
 ### linear independence uniqueness property formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \forall\vec v\in\text{span}(S),\exists!(\sum_{i=1}^{k}c_{i}\vec v_{i})\implies\text{rank}(S)=n\\
 \vec v=\text{vector}\\
 S=\text{set}\\
 c=\text{scalar}\\
 n=\text{number of columns}
-\end{array}
+\end{lgathered}
 $$
 
 ---

@@ -22,11 +22,11 @@
 ---
 ### homogeneous system of linear equations formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 AX=0\\
 A=\text{cofficient matrix}\\
 X=\text{variable matrix}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -36,11 +36,11 @@ $$
 ---
 ### nonhomogeneous system of linear equations formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 AX\ne0\\
 A=\text{cofficient matrix}\\
 X=\text{variable matrix}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -71,12 +71,12 @@ $$
 ---
 ### fundamental solution of system of linear equations formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \text{ker}(A)=\{\sum_{i=1}^{k}a_{i}\vec x_{i}\mid a\in\mathbb R,\vec x\in\mathbb R^{n}\}\\
 k=\text{number of independent variables}\\
 a=\text{coefficient}\\
 \vec x=\text{vector}
-\end{array}
+\end{lgathered}
 $$
 
 ---

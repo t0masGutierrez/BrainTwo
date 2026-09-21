@@ -4,9 +4,9 @@
 ---
 ### cartesian biproduct formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 X\times Y=\{(x,y)|x\in X,y\in Y\}\ne Y\times X
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -16,9 +16,9 @@ $$
 ---
 ### binary relation formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 (x,y)\in R\subset X\times Y\implies xRy
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -30,11 +30,11 @@ $$
 ---
 ### equivalence relation formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 (R\subset S\times S)\land(x\in S)\implies x\sim x\\
 (R\subset S\times S)\land(x,y\in S)\land(x\sim y)\implies y\sim x\\
 (R\subset S\times S)\land(x,y,z\in S)\land(x\sim y)\land(y\sim z)\implies x\sim z
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -44,10 +44,10 @@ $$
 ---
 ### equivalence class formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 {}[x]=\set{y\in S|y\sim x}\\
 x=\text{representative}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -57,11 +57,11 @@ $$
 ---
 ### injection formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \forall a\in A,\forall b\in B:f(a_{1})=f(a_{2})\implies a_{1}=a_{2}\\
 f:A\rightarrow B\\
 f=\text{injection}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -71,11 +71,11 @@ $$
 ---
 ### surjection formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \forall b\in B,\exists a\in A:f(a)=b\\
 f:A\rightarrow B\\
 f=\text{surjection}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -85,11 +85,11 @@ $$
 ---
 ### bijection formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \forall b\in B,\exists!a\in A:f(a)=b\\
 f:A\rightarrow B\\
 f=\text{bijection}
-\end{array}
+\end{lgathered}
 $$
 
 ---

@@ -1,6 +1,6 @@
 ### derivative rules
 $$
-\begin{array}{l}
+\begin{lgathered}
 \frac{d}{dx}c=0\\
 \frac{d}{dx}u=1\\
 \frac{d}{dx}cu=cu'\\
@@ -25,7 +25,7 @@ $$
 \frac{d}{dx}\text{arccot}(u)=\frac{-u'}{1+u^{2}}\\
 \frac{d}{dx}\text{arcsec}(u)=\frac{u'}{|u|\sqrt{u^{2}-1}}\\
 \frac{d}{dx}\text{arccsc}(u)=\frac{-u'}{|u|\sqrt{u^{2}-1}}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -35,9 +35,9 @@ $$
 ---
 ### related rate formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \frac{dy}{dt}=\frac{dy}{du}\times\frac{du}{dt}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -53,25 +53,25 @@ $$
 ---
 ### inverse sine range
 $$
-\begin{array}{l}
+\begin{lgathered}
 {}[\frac{-\pi}{2},\frac{\pi}{2}]
-\end{array}
+\end{lgathered}
 $$
 
 ---
 ### inverse cosine range
 $$
-\begin{array}{l}
+\begin{lgathered}
 {}[0,\pi]
-\end{array}
+\end{lgathered}
 $$
 
 ---
 ### inverse tangent range
 $$
-\begin{array}{l}
+\begin{lgathered}
 {}[\frac{-\pi}{2},\frac{\pi}{2}]
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -88,23 +88,23 @@ $$
 ---
 ### inverse trigonometric formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 y=\sin^{-1}(x)\\
 \sin(y)=x
-\end{array}
+\end{lgathered}
 $$
 
 ---
 ### inverse trigonometric derivative rules
 $$
-\begin{array}{l}
+\begin{lgathered}
 \frac{d}{dx}\arcsin(u)=\frac{u'}{\sqrt{1-u^{2}}}\\
 \frac{d}{dx}\arccos(u)=\frac{-u'}{\sqrt{1-u^{2}}}\\
 \frac{d}{dx}\arctan(u)=\frac{u'}{1+u^{2}}\\
 \frac{d}{dx}\text{arccot}(u)=\frac{-u'}{1+u^{2}}\\
 \frac{d}{dx}\text{arcsec}(u)=\frac{u'}{|u|\sqrt{u^{2}-1}}\\
 \frac{d}{dx}\text{arccsc}(u)=\frac{-u'}{|u|\sqrt{u^{2}-1}}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -181,9 +181,9 @@ $$
 ---
 ### mean value formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 f'(x)=\frac{f(b)-f(a)}{b-a}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -324,9 +324,9 @@ $$
 ---
 ### linear approximation formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 y=f'(n)(x-n)+f(n)
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -337,17 +337,17 @@ $$
 ---
 ### differential formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 dy=f'(x)dx
-\end{array}
+\end{lgathered}
 $$
 
 ---
 ### delta formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \Delta y=f(x+\Delta x)-f(x)
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -357,10 +357,10 @@ $$
 ---
 ### error formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \Delta y=f'(x)\Delta x\\
 \Delta x=\text{error}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -370,9 +370,9 @@ $$
 ---
 ### relative error formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \Delta y=\frac{dy}{y}
-\end{array}
+\end{lgathered}
 $$
 
 ---

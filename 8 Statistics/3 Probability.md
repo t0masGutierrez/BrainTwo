@@ -4,10 +4,10 @@
 ---
 ### sample space formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \Omega=\set{\omega_1,\omega_2,\dots,\omega_n}\\
 \omega=\text{outcome}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -17,11 +17,11 @@ $$
 ---
 ### event formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 A\subset\Omega\\
 A=\text{event}\\
 \Omega=\text{sample space}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -31,10 +31,10 @@ $$
 ---
 ### probability formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 P:2^\Omega\rightarrow[0,1]\\
 \Omega=\text{sample space}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -44,9 +44,9 @@ $$
 ---
 ### classical probability formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 P(A)=\frac{\text{number of favorable outcomes}}{\text{total number of outcomes}}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -56,9 +56,9 @@ $$
 ---
 ### empirical probability formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 P(A)=\frac{\text{number of events occurences}}{\text{number of trials}}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -68,10 +68,10 @@ $$
 ---
 ### subjective probability formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 P(A|I)\\
 I=\text{information}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -81,11 +81,11 @@ $$
 ---
 ### axiomatic probability formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 0\le P(A)\le1\\
 A\cap B=\emptyset\implies P(A\cup B)=P(A)+P(B)\\
 P(\Omega)=1
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -95,9 +95,9 @@ $$
 ---
 ### complimentary probability formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 P(A^c)=1-P(A)
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -107,9 +107,9 @@ $$
 ---
 ### conditional probability formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 P(A|B)=\frac{P(A\cap B)}{P(B)}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -124,9 +124,9 @@ $$
 ---
 ### independent multiplication formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 P(A\cap B)=P(A)P(B)
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -141,9 +141,9 @@ $$
 ---
 ### dependent multiplication rule formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 P(A\cap B)=P(A)P(B|A)
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -157,9 +157,9 @@ $$
 ---
 ### disjoint addition rule formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 P(A\cup B)=P(A)+P(B)
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -173,9 +173,9 @@ $$
 ---
 ### joint addition rule formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 P(A\cup B)=P(A)+P(B)-P(A\cap B)
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -198,11 +198,11 @@ $$
 ---
 ### bayes rule formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 P(A|B)=\frac{P(A)P(B|A)}{P(B)}\\
 A=\text{hypothesis}\\
 B=\text{evidence}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -212,10 +212,10 @@ $$
 ---
 ### law of total probability formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 P(A)=\sum_{i=1}^{n}P(A|B_{i})P(B_{i})\\
 A,B=\text{event}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -225,11 +225,11 @@ $$
 ---
 ### permutation formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 _{n}P_{k}=\frac{n!}{(n-k)!}=k!\begin{pmatrix}n\\k\end{pmatrix}\\
 n=\text{number of objects}\\
 k=\text{number of arrangements}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -239,11 +239,11 @@ $$
 ---
 ### combination formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \begin{pmatrix}n\\k\end{pmatrix}=\frac{n!}{k!(n-k)!}\\
 n=\text{number of objects}\\
 k=\text{number of choices}
-\end{array}
+\end{lgathered}
 $$
 
 ---

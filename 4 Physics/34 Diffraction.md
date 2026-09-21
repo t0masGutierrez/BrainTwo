@@ -16,13 +16,13 @@
 ---
 ### single slit destructive diffraction formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 a\sin(\theta)=m\lambda\\
 a=\text{width}\\
 \theta=\text{angular position}\\
 m=\text{diffraction order}\\
 \lambda=\text{wavelength}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -33,11 +33,11 @@ $$
 ---
 ### single slit amplitude formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 E=E_{12}[\frac{\sin(\beta/2)}{\beta/2}]\\
 E=\text{electric field}\\
 \beta=\text{phase angle}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -49,22 +49,22 @@ $$
 ---
 ### single slit intensity formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 I=I_{o}[\frac{\sin(\beta/2)}{\beta/2}]^{2}\\
 I=\text{intensity}\\
 \beta=\text{phase angle}
-\end{array}
+\end{lgathered}
 $$
 
 ---
 ### single slit phase angle formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \beta=(\frac{2\pi}{\lambda})a\sin(\theta)\\
 \lambda=\text{wavelength}\\
 a=\text{width}\\
 \theta=\text{angular position}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -75,12 +75,12 @@ $$
 ---
 ### double slit intensity formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 I=I_{o}[\frac{\sin(\beta/2)}{\beta/2}]^{2}\cos^{2}(\frac{\phi}{2})\\
 I=\text{intensity}\\
 \beta=\text{phase angle}\\
 \phi=\text{phase angle}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -105,27 +105,27 @@ $$
 ---
 ### destructive circular diffraction formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \sin(\theta_{1})=1.22(\frac{\lambda}{D})\\
 \sin(\theta_{2})=2.23(\frac{\lambda}{D})\\
 \sin(\theta_{3})=3.24(\frac{\lambda}{D})\\
 \theta=\text{angular position}\\
 \lambda=\text{wavelength}\\
 D=\text{diameter}
-\end{array}
+\end{lgathered}
 $$
 
 ---
 ### constructive circular diffraction formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \sin(\theta_{1})=1.63(\frac{\lambda}{D})\\
 \sin(\theta_{2})=2.68(\frac{\lambda}{D})\\
 \sin(\theta_{3})=3.70(\frac{\lambda}{D})\\
 \theta=\text{angular position}\\
 \lambda=\text{wavelength}\\
 D=\text{diameter}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -147,12 +147,12 @@ $$
 ---
 ### diffraction limit formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 R=1.22(\frac{\lambda f}{D})\\
 \lambda=\text{wavelength}\\
 f=\text{focal length}\\
 D=\text{diameter}
-\end{array}
+\end{lgathered}
 $$
 
 ---

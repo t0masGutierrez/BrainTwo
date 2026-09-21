@@ -4,10 +4,10 @@
 ---
 ### sequence formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \{a_{n}\}_{n=1}^{\infty}=a_{1},a_{2},...a_{n}...\\
 n=\text{index}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -17,9 +17,9 @@ $$
 ---
 ### explicit function formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 a_{n}=f(n)
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -29,9 +29,9 @@ $$
 ---
 ### implicit function formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 a_{n+1}=f(a_{n})
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -41,11 +41,11 @@ $$
 ---
 ### arithmetic sequence formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 a_{n}=a_{1}+(n-1)d\\
 a_{1}=\text{1st term}\\
 d=\text{common difference}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -55,11 +55,11 @@ $$
 ---
 ### geometric sequence formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 a_{n}=a_{1}r^{n-1}\\
 a_{1}=\text{1st term}\\
 r=\text{common ratio}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -70,10 +70,10 @@ $$
 ---
 ### limit of sequence formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \lim_{n\to\infty}a_{n}=L\\
 \lim_{n\to\infty}b_{n}=K
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -83,9 +83,9 @@ $$
 ---
 ### composite limit of sequence formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \lim_{n\to\infty}a_{n}=L\land\lim_{n\to L}f(n)=L\to\lim_{n\to\infty}f(a_{n})=f(L)
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -111,9 +111,9 @@ $$
 ---
 ### absolute value formula of sequence
 $$
-\begin{array}{l}
+\begin{lgathered}
 \lim_{n\to\infty}a_{n}=L\to\lim_{n\to\infty}|a_{n}|=|L|
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -123,9 +123,9 @@ $$
 ---
 ### increasing sequence formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \forall(n\in N)(a_{n}\le a_{n+1})
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -135,9 +135,9 @@ $$
 ---
 ### decreasing sequence formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \forall(n\in N)(a_{n}\ge a_{n+1})
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -147,9 +147,9 @@ $$
 ---
 ### monotone sequence formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \forall(n\in N)(a_{n}\le a_{n+1})\lor\forall(n\in N)(a_{n}\ge a_{n+1})
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -159,10 +159,10 @@ $$
 ---
 ### lower bound sequence formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \forall(n\in N)(a_{n}>m)\\
 m=\text{lower bound}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -172,10 +172,10 @@ $$
 ---
 ### upper bound sequence formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \forall(n\in N)(a_{n}<M)\\
 M=\text{upper bound}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -185,9 +185,9 @@ $$
 ---
 ### bound sequence formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \exists(n\in N)(a_{n}>m)\land\exists(n\in N)(a_{n}<M)
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -201,10 +201,10 @@ $$
 ---
 ### series formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \sum_{n=1}^{\infty}a_{n}=a_{1}+a_{2}+...+a_{n}...\\
 n=\text{index}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -214,11 +214,11 @@ $$
 ---
 ### nth partial sum formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 S_{n}=\sum_{k=1}^{n}a_{k}=a_{1}+a_{2}+...+a_{n}\\
 n=\text{number of terms}\\
 k=\text{index}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -229,9 +229,9 @@ $$
 ---
 ### limit of nth partial sum formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \lim_{n\to\infty}S_{n}=\lim_{n\to\infty}\sum_{k=1}^{n}a_{k}=S
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -241,9 +241,9 @@ $$
 ---
 ### convergent series formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \lim_{n\to\infty}S_{n}=S\to\sum_{n=1}^{\infty}a_{n}=S
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -253,9 +253,9 @@ $$
 ---
 ### divergent series formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \lim_{n\to\infty}S_{n}\ne S\to\sum_{n=1}^{\infty}a_{n}\ne S
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -265,9 +265,9 @@ $$
 ---
 ### harmonic series formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \sum_{n=1}^{\infty}\frac{1}{n}=1+\frac{1}{2}+...+\frac{1}{n}...
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -277,12 +277,12 @@ $$
 ---
 ### geometric series formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 |r|<1\to\sum_{n=1}^{\infty}a_{1}r^{n-1}=\frac{a_{1}}{1-r}\\
 |r|\ge1\to\sum_{n=1}^{\infty}a_{1}r^{n-1}\ne S\\
 a_{1}=\text{1st term}\\
 r=\text{common ratio}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -292,9 +292,9 @@ $$
 ---
 ### telescoping series formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \sum_{n=1}^{\infty}(a_{n}-a_{n+1})=a_{1}-\lim_{n\to\infty}a_{n+1}\\
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -308,9 +308,9 @@ $$
 ---
 ### nth term divergence test formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \lim_{n\to\infty}a_{n}\ne0\to\sum_{n=1}^{\infty}a_{n}\ne S
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -321,10 +321,10 @@ $$
 ---
 ### integral test formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \int_{n}^{\infty}f(x)dx=S\to\sum_{n=1}^{\infty}a_{n}=S\\
 \int_{n}^{\infty}f(x)dx\ne S\to\sum_{n=1}^{\infty}a_{n}\ne S
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -334,11 +334,11 @@ $$
 ---
 ### p series formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 p>1\to\sum_{n=1}^{\infty}\frac{1}{n^{p}}=\frac{1}{1^{p}}+\frac{1}{2^{p}}+...+\frac{1}{n^{p}}...=S\\
 p\le1\to\sum_{n=1}^{\infty}\frac{1}{n^{p}}=\frac{1}{1^{p}}+\frac{1}{2^{p}}+...+\frac{1}{n^{p}}...\ne S\\
 p=\text{power}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -349,10 +349,10 @@ $$
 ---
 ### comparison test formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \forall n(a_{n}\le b_{n})\sum_{n=1}^{\infty}b_{n}=S\to\sum_{n=1}^{\infty}a_{n}=S\\
 \forall n(a_{n}\le b_{n})\sum_{n=1}^{\infty}a_{n}\ne S\to\sum_{n=1}^{\infty}b_{n}\ne S\\
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -362,11 +362,11 @@ $$
 ---
 ### limit comparison test formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \lim_{n\to\infty}\frac{a_{n}}{b_{n}}=0\le L\le\infty\to\sum_{n=1}^{\infty}a_{n},b_{n}=S\ \ \lor\sum_{n=1}^{\infty}a_{n},b_{n}\ne S\\
 \lim_{n\to\infty}\frac{a_{n}}{b_{n}}=0\ \ \land\sum_{n=1}^{\infty}b_{n}=S\to\sum_{n=1}^{\infty}a_{n}=S\\
 \lim_{n\to\infty}\frac{a_{n}}{b_{n}}=\infty\ \ \land\sum_{n=1}^{\infty}b_{n}\ne S\to\sum_{n=1}^{\infty}a_{n}\ne S
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -381,9 +381,9 @@ $$
 ---
 ### alternating series test formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \forall n(a_{n+1}\le a_{n})\land\lim_{n\to\infty}a_{n}=0\to\sum_{n=1}^{\infty}a_{n}(-1)^{n+1}=S\\
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -409,11 +409,11 @@ $$
 ---
 ### ratio test formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \lim_{n\to\infty}|\frac{a_{n+1}}{a_{n}}|<1\to\sum_{n=1}^{\infty}a_{n}=S\\
 \lim_{n\to\infty}|\frac{a_{n+1}}{a_{n}}|>1\to\sum_{n=1}^{\infty}a_{n}\ne S\\
 \lim_{n\to\infty}|\frac{a_{n+1}}{a_{n}}|=1\to\sum_{n=1}^{\infty}a_{n}=\ ?\\
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -424,11 +424,11 @@ $$
 ---
 ### root test formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \lim_{n\to\infty}|\sqrt[n]{a_{n}}|<1\to\sum_{n=1}^{\infty}a_{n}=S\\
 \lim_{n\to\infty}|\sqrt[n]{a_{n}}|>1\ \ \lor\lim_{n\to\infty}|\sqrt[n]{a_{n}}|=\infty\to\sum_{n=1}^{\infty}a_{n}\ne S\\
 \lim_{n\to\infty}|\sqrt[n]{a_{n}}|=<=1\to\sum_{n=1}^{\infty}a_{n}=?\\
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -454,10 +454,10 @@ $$
 ---
 ### taylor polynomial formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 P_{n}(x)=f(c)+f'(c)(x-c)+\frac{f''(c)}{2!}(x-c)^{2}+...+\frac{f^{n'}(c)}{n!}(x-c)^{n}\\
 c=\text{center}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -467,10 +467,10 @@ $$
 ---
 ### mclaurin polynomial formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 P_{n}(x)=f(0)+f'(0)x+\frac{f''(0)}{2!}x^{2}+...+\frac{f^{n'}(0)}{n!}x^{n}\\
 c=0
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -480,9 +480,9 @@ $$
 ---
 ### power series formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 f(x)=\sum_{n=1}^{\infty}a_{n}(x-c)^{n}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -522,17 +522,17 @@ $$
 ---
 ### power series differentiation property
 $$
-\begin{array}{l}
+\begin{lgathered}
 f'(x)=\sum_{n=1}^{\infty}[na_{n}(x-c)^{n-1}]\\
-\end{array}
+\end{lgathered}
 $$
 
 ---
 ### power series integration property
 $$
-\begin{array}{l}
+\begin{lgathered}
 \int f(x)dx=\sum_{n=1}^{\infty}[\frac{a_{n}}{n+1}(x-c)^{n+1}]
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -566,10 +566,10 @@ $$
 ---
 ### taylor series formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 P_{n}(x)=\sum_{n=1}^{\infty}\frac{f^{n'}(c)}{n!}(x-c)^{n}\\
 c=\text{center}
-\end{array}
+\end{lgathered}
 $$
 
 ---

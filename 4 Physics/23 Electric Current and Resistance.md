@@ -6,13 +6,13 @@
 ---
 ### drift velocity formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \vec v_{d}=\frac{I}{nqA}\\
 I=\text{electric current}\\
 n=\text{number density}\\
 q=\text{electric charge}\\
 A=\text{area}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -27,11 +27,11 @@ $$
 ---
 ### number density formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 n=\frac{N}{V}\\
 N=\text{number of unbound electric charge}\\
 V=\text{volume}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -42,11 +42,11 @@ $$
 ---
 ### electric current formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 I=\frac{dq}{dt}\\
 q=\text{electric charge}\\
 t=\text{time}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -64,14 +64,14 @@ $$
 ---
 ### electric current density formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \vec J=\frac{I}{A}=nq\vec v_{d}\\
 I=\text{electric current}\\
 A=\text{area}\\
 n=\text{number density}\\
 q=\text{electric charge}\\
 v_{d}=\text{drift velocity}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -89,11 +89,11 @@ $$
 ---
 ### conductivity formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \sigma=\frac{\vec J}{\vec E}\\
 J=\text{electric current density}\\
 E=\text{electric field}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -104,11 +104,11 @@ $$
 ---
 ### resistivity formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \rho=\frac{\vec E}{\vec J}\\
 E=\text{electric field}\\
 J=\text{electric current density}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -119,12 +119,12 @@ $$
 ---
 ### temperature resistivity formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \rho(T)=\rho_{0}(1+\alpha\Delta T)\\
 \rho=\text{resistivity}\\
 \alpha=\text{temperature coefficient}\\
 T=\text{temperature}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -135,12 +135,12 @@ $$
 ---
 ### resistance formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 R=\rho\frac{L}{A}\\
 \rho=\text{resistivity}\\
 L=\text{length}\\
 A=\text{area}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -155,12 +155,12 @@ $$
 ---
 ### temperature resistance formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 R(T)=R_{0}(1+\alpha\Delta T)\\
 R=\text{resistance}\\
 \alpha=\text{temperature coefficient}\\
 T=\text{temperature}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -182,11 +182,11 @@ $$
 ---
 ### ohms formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 V=IR\\
 I=\text{electric current}\\
 R=\text{resistance}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -196,12 +196,12 @@ $$
 ---
 ### power formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 P=IV=I^{2}R=\frac{V^{2}}{R}\\
 I=\text{electric current}\\
 V=\text{voltage}\\
 R=\text{resistance}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -220,11 +220,11 @@ $$
 ---
 ### electromotive force formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \varepsilon=\frac{W}{q}\\
 W=\text{work}\\
 q=\text{electric charge}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -240,12 +240,12 @@ $$
 ---
 ### terminal voltage formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 V=\varepsilon-Ir\\
 \varepsilon=\text{emf}\\
 I=\text{electric current}\\
 r=\text{internal resistance}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -255,11 +255,11 @@ $$
 ---
 ### power input formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 P=I\epsilon\\
 I=\text{electric current}\\
 \epsilon=\text{emf}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -269,11 +269,11 @@ $$
 ---
 ### power output
 $$
-\begin{array}{l}
+\begin{lgathered}
 P=I^{2}r\\
 I=\text{electric current}\\
 r=\text{internal resistance}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -284,14 +284,14 @@ $$
 ---
 ### net power formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 P=I\epsilon\pm I^{2}r\\
 I=\text{electric current}\\
 \epsilon=\text{emf}\\
 (+)=\text{charging}\\
 (-)=\text{discharging}\\
 r=\text{internal resistance}
-\end{array}
+\end{lgathered}
 $$
 
 ---

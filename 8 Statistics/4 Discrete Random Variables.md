@@ -4,14 +4,14 @@
 ---
 ### random variable formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 X:\Omega\rightarrow\mathbb R\\
 X(\omega)=x\\
 X=\text{random variable}\\
 \Omega=\text{sample space}\\
 x=\text{real number}\\
 \omega=\text{outcome}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -21,10 +21,10 @@ $$
 ---
 ### discrete random variable formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 (\{0,1,2,3,\dots,n\}\sim X)\lor(\mathbb N\sim X)\\
 X=\text{random variable}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -34,12 +34,12 @@ $$
 ---
 ### probability mass function formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 P(X)=\sum_{i}P(X=x_{i})=1\\
 P(X=x)=P(X\le x)-P(X\le x-1)\\
 P(a\le X\le b)=\sum_{i=a}^{b}P(X=x_{i})\\
 P(X\le x)=\sum_{x_{i}\le x}P(X=x_{i})
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -53,34 +53,34 @@ $$
 ---
 ### uniform PMF probability
 $$
-\begin{array}{l}
+\begin{lgathered}
 X\sim\text{Uni}(a,b)\implies P(X=x)=\begin{cases}
 \frac{1}{b-a+1},\quad a\le x\le b\\
 0,\quad\text{otherwise}
 \end{cases}\\
 a=\text{lower endpoint}\\
 b=\text{upper endpoint}
-\end{array}
+\end{lgathered}
 $$
 
 ---
 ### uniform PMF expectation
 $$
-\begin{array}{l}
+\begin{lgathered}
 E[X]=\frac{a+b}{2}\\
 a=\text{lower endpoint}\\
 b=\text{upper endpoint}
-\end{array}
+\end{lgathered}
 $$
 
 ---
 ### uniform PMF variance
 $$
-\begin{array}{l}
+\begin{lgathered}
 \text{Var}(X)=\frac{(b-a)(b-a+2)}{12}\\
 a=\text{lower endpoint}\\
 b=\text{upper endpoint}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -95,34 +95,34 @@ $$
 ---
 ### bernoulli PMF probability formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 X\sim\text{Ber}(p)\implies P(X=x)=p^{x}q^{1-x}\\
 X=\text{random variable}\\
 x=\text{number of successes}\\
 p=\text{probability of success}\\
 q=\text{probability of failure}
-\end{array}
+\end{lgathered}
 $$
 
 ---
 ### bernoulli PMF expectation formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 E[X]=p\\
 X=\text{random variable}\\
 p=\text{probability of success}
-\end{array}
+\end{lgathered}
 $$
 
 ---
 ### bernoulli PMF variance formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \text{Var}(X)=pq\\
 X=\text{random variable}\\
 p=\text{probability of success}\\
 q=\text{probability of failure}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -139,37 +139,37 @@ $$
 ---
 ### binomial PMF probability formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 X\sim\text{Bin}(p,n)\implies P(X=x)=\begin{pmatrix}n\\x\end{pmatrix}p^{x}q^{n-x}\\
 X=\text{random variable}\\
 n=\text{number of trials}\\
 x=\text{number of successes}\\
 p=\text{probability of success}\\
 q=\text{probability of failure}
-\end{array}
+\end{lgathered}
 $$
 
 ---
 ### binomial PMF expectation formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 E[X]=np\\
 X=\text{random variable}\\
 n=\text{number of trials}\\
 p=\text{probability of success}
-\end{array}
+\end{lgathered}
 $$
 
 ---
 ### binomial PMF variance formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \text{Var}(X)=npq\\
 X=\text{random variable}\\
 n=\text{number of trials}\\
 p=\text{probability of success}\\
 q=\text{probability of failure}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -186,35 +186,35 @@ $$
 ---
 ### geometric PMF probability formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 X\sim\text{Geo}(p)\implies P(X=x)=pq^{x}\\
 X=\text{random variable}\\
 p=\text{probability of success}\\
 q=\text{probability of failure}\\
 x=\text{number of failures before 1st success}
-\end{array}
+\end{lgathered}
 $$
 
 ---
 ### geometric PMF expectation formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 E[X]=\frac{q}{p}\\
 X=\text{random variable}\\
 p=\text{probability of success}\\
 q=\text{probability of failure}
-\end{array}
+\end{lgathered}
 $$
 
 ---
 ### geometric PMF variance formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \text{Var}(X)=\frac{q}{p^{2}}\\
 X=\text{random variable}\\
 q=\text{probability of failure}\\
 p=\text{probability of success}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -231,36 +231,36 @@ $$
 ---
 ### negative binomial PMF probability formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 X\sim\text{NegBin}(p,r)\implies P(X=x)=\begin{pmatrix}x+r-1\\r-1\end{pmatrix}p^{r}q^{x}\\
 X=\text{random variable}\\
 x=\text{number of failures before rth success}\\
 r=\text{success number}\\
 p=\text{probability of success}\\
 q=\text{probability of failure}
-\end{array}
+\end{lgathered}
 $$
 
 ---
 ### negative binomial PMF expectation formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 E[X]=\frac{rq}{p}\\
 r=\text{success number}\\
 p=\text{probability of success}\\
 q=\text{probability of failure}
-\end{array}
+\end{lgathered}
 $$
 
 ---
 ### negative binomial PMF variance formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \text{Var}(X)=\frac{rq}{p^{2}}\\
 r=\text{success number}\\
 q=\text{probability of failure}\\
 p=\text{probability of success}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -276,38 +276,38 @@ $$
 ---
 ### hypergeometric PMF probability formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 X\sim\text{HypGeo}(N,K,n)\implies P(X=x)=\frac{\begin{pmatrix}K\\x\end{pmatrix}\begin{pmatrix}N-K\\n-x\end{pmatrix}}{\begin{pmatrix}N\\n\end{pmatrix}}\\
 X=\text{random variable}\\
 K=\text{interest size}\\
 x=\text{number of interest items drawn}\\
 N=\text{population size}\\
 n=\text{number of items drawn}
-\end{array}
+\end{lgathered}
 $$
 
 ---
 ### hypergeometric PMF expectation formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 E[X]=\frac{nK}{N}\\
 X=\text{random variable}\\
 n=\text{number of items drawn}\\
 K=\text{interest size}\\
 N=\text{population size}
-\end{array}
+\end{lgathered}
 $$
 
 ---
 ### hypergeometric PMF variance formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \text{Var}(X)=(\frac{nK}{N})(1-\frac{K}{N})(\frac{N-n}{N-1})\\
 X=\text{random variable}\\
 n=\text{number of items drawn}\\
 K=\text{interest size}\\
 N=\text{population size}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -325,34 +325,34 @@ $$
 ---
 ### poisson PMF probability formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 X\sim\text{Pois}(\lambda)\implies P(X=x)=\frac{\lambda^{x}}{x!}e^{-\lambda}\\
 X=\text{random variable}\\
 x=\text{number of events within interval}\\
 \lambda=\text{average number of events per interval}\\
 n=\text{number of trials}\\
 p=\text{probability of success}
-\end{array}
+\end{lgathered}
 $$
 
 ---
 ### poisson PMF expectation formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 E[X]=\lambda\\
 X=\text{random variable}\\
 \lambda=\text{average number of events per interval}
-\end{array}
+\end{lgathered}
 $$
 
 ---
 ### poisson PMF variance formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \text{Var}(X)=\lambda\\
 X=\text{random variable}\\
 \lambda=\text{average number of events per interval}
-\end{array}
+\end{lgathered}
 $$
 
 ---

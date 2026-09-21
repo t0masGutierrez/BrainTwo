@@ -4,11 +4,11 @@
 ---
 ### wave formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \psi(x,t)\\
 x=\text{position}\\
 t=\text{time}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -18,7 +18,7 @@ $$
 ---
 ### simple harmonic oscillator formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 F+kx=\frac{d^2x}{dt^2}+\frac{k}{m}x=0\\
 x(t)=A\cos(\omega t+\phi)\\
 A=\sqrt{x_{0}^{2}+\frac{v_{0}^{2}}{\omega^{2}}}\\
@@ -33,7 +33,7 @@ A=\text{amplitude}\\
 \omega=\text{angular frequency}\\
 \phi=\text{phase angle}\\
 v=\text{velocity}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -44,7 +44,7 @@ $$
 ---
 ### LC electric circuit formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \sum V=v_L+v_C=L\frac{d^2q}{dt}+\frac{1}{C}q=0\\
 q(t)=A\cos(\omega t+\phi)\\
 A=\sqrt{q_{0}^{2}+\frac{i_{0}^{2}}{\omega^{2}}}\\
@@ -59,7 +59,7 @@ A=\text{amplitude}\\
 \omega=\text{angular frequency}\\
 \phi=\text{phase angle}\\
 i=\text{electric current}
-\end{array}
+\end{lgathered}
 $$
 
 ---

@@ -4,34 +4,34 @@
 ---
 ### limit formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \lim_{x\to n}f(x)=L\\
 \lim_{x\to n}g(x)=K
-\end{array}
+\end{lgathered}
 $$
 
 ---
 ### limit constant formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \lim_{x\to n}c=c
-\end{array}
+\end{lgathered}
 $$
 
 ---
 ### limit constant multiple formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \lim_{x\to n}cf(x)=c\times L
-\end{array}
+\end{lgathered}
 $$
 
 ---
 ### limit sum formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \lim_{x\to n}f(x)\pm g(x)=L\pm K
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -43,10 +43,10 @@ $$
 ---
 ### limit quotient formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \lim_{x\to n}f(x)\div g(x)=L\div K\\
 K\ne0
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -57,11 +57,11 @@ $$
 ---
 ### limit composition formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \lim_{x\to n}(f\circ g)(x)=f[\lim_{x\to n}g(x)]\\
 g(x)=L\\
 L\in f
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -133,9 +133,9 @@ $$
 ---
 ### difference of squares
 $$
-\begin{array}{l}
+\begin{lgathered}
 a^{2}-b^{2}=(a+b)(a-b)
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -147,9 +147,9 @@ $$
 ---
 ### conjugate root theorem
 $$
-\begin{array}{l}
+\begin{lgathered}
 (a+\sqrt{b})(a-\sqrt{b})=a^{2}-b
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -160,25 +160,25 @@ $$
 ---
 ### special sine identity
 $$
-\begin{array}{l}
+\begin{lgathered}
 \lim_{x\to n}\frac{\sin(x)}{x}=1
-\end{array}
+\end{lgathered}
 $$
 
 ---
 ### special cosine identity
 $$
-\begin{array}{l}
+\begin{lgathered}
 \lim_{x\to n}\frac{1-\cos(x)}{x}=0
-\end{array}
+\end{lgathered}
 $$
 
 ---
 ### pythagorean identity
 $$
-\begin{array}{l}
+\begin{lgathered}
 \sin^{2}(x)+\cos^{2}(x)=1
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -202,11 +202,11 @@ $$
 ---
 ### continuity
 $$
-\begin{array}{l}
+\begin{lgathered}
 \lim_{x\to n}f(x)=f(n)\\
 \lim_{x\to n^{-}}f(x)=\lim_{x\to n^{+}}f(x)\\
 \lim_{x\to n}f(x)\ne\pm\infty
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -321,10 +321,10 @@ $$
 ---
 ### intermediate value formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \exists x\in[a,b]\to f(a)\le f(x)\le f(b)\\
 \forall x\in[a,b]\lim_{x\to n}f(x)=f(n)
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -346,34 +346,34 @@ $$\forall(\epsilon>0)\exists(\delta>0)(0<|x-n|<\delta\to|f(x)-L|<\epsilon)$$
 ---
 ### indeterminate formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \frac{0}{0}\\
 \frac{\infty}{\infty}
-\end{array}
+\end{lgathered}
 $$
 
 ---
 ### unknown indeterminate formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \infty-\infty\\
 0\times\infty\\
 1^{\infty}\\
 \infty^{0}\\
 0^{0}
-\end{array}
+\end{lgathered}
 $$
 
 ---
 ### known indeterminate formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 -\infty-\infty=-\infty\\
 \infty+\infty=\infty\\
 0^{-}\infty=\infty\\
 \frac{1}{0}=\infty\\
 0^{\infty}=0
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -383,9 +383,9 @@ $$
 ---
 ### l'hopital formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \lim_{x\to n}\frac{f(x)}{g(x)}=\lim_{x\to n}\frac{f'(x)}{g'(x)}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -400,11 +400,11 @@ $$
 ---
 ### fit l'hopital rule
 $$
-\begin{array}{l}
+\begin{lgathered}
 f(x)g(x)\to\frac{f(x)}{\frac{1}{g(x)}}\\
 y=f(x)^{g(x)}\to\ln(y)=g(x)\ln[f(x)]\\
 \frac{1}{f(x)}\pm\frac{1}{g(x)}\to\frac{f(x)\pm g(x)}{f(x)g(x)}
-\end{array}
+\end{lgathered}
 $$
 
 ---

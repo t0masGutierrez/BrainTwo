@@ -14,12 +14,12 @@
 ---
 ### average rate of change formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 m=\frac{f(b)-f(a)}{b-a}\\
 f=\text{function}\\
 a=\text{initial point}\\
 b=\text{terminal point}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -29,12 +29,12 @@ $$
 ---
 ### instantaneous rate of change formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 f'(c)=\lim_{x\to c}\frac{f(x)-f(c)}{x-c}\\
 x=\text{independent variable}\\
 c=\text{constant}\\
 f=\text{function}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -44,12 +44,12 @@ $$
 ---
 ### derivative formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 f'(x)=\lim_{h\to0}\frac{f(x+h)-f(x)}{h}\\
 x=\text{independent variable}\\
 h=\text{change}\\
 f=\text{function}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -59,11 +59,11 @@ $$
 ---
 ### continuous formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \lim_{x\to c}f(x)=f(c)\\
 \lim_{x\to c^{-}}f(x)=\lim_{x\to c^{+}}f(x)\\
 \lim_{x\to c}f(x)\ne\pm\infty
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -73,11 +73,11 @@ $$
 ---
 ### differentiable formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \exists\frac{d}{dx}f(x)<\infty\\
 f=\text{function}\\
 x=\text{independent variable}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -87,9 +87,9 @@ $$
 ---
 ### constant derivative rule formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \frac{d}{dx}c=0
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -99,9 +99,9 @@ $$
 ---
 ### constant multiple rule formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \frac{d}{dx}cf(x)=cf'(x)
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -111,9 +111,9 @@ $$
 ---
 ### power rule formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \frac{d}{dx}x^{n}=nx^{n-1}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -123,9 +123,9 @@ sum rule
 ---
 ### sum rule formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \frac{d}{dx}f(x)\pm g(x)=f'(x)\pm g'(x)
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -135,9 +135,9 @@ $$
 ---
 ### product rule formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \frac{d}{dx}f(x)\cdot g(x)=f'(x)g(x)+f(x)g'(x)
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -147,9 +147,9 @@ $$
 ---
 ### quotient rule formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \frac{d}{dx}f(x)\div g(x)=\frac{f'(x)g(x)-f(x)g'(x)}{g^{2}(x)}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -159,10 +159,10 @@ $$
 ---
 ### chain rule formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \frac{d}{dx}{(f\circ g)(x)}=f'(g(x))\cdot g'(x)\\
 \frac{dy}{dx}=\frac{dy}{du}\cdot\frac{du}{dx}
-\end{array}
+\end{lgathered}
 $$
 
 ---

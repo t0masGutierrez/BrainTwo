@@ -4,10 +4,10 @@
 ---
 ### moment formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \mu_k'=E[X^k]\\
 X=\text{random variable}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -17,11 +17,11 @@ $$
 ---
 ### central moment formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \mu_k=E[(X-\mu)^k]\\
 X=\text{random variable}\\
 \mu=\text{mean}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -31,12 +31,12 @@ $$
 ---
 ### moment generating function formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 M(t)=E[e^{tX}]\\
 \mu_k'=M^{(k)}(0)\\
 t=\text{independent variabe}\\
 X=\text{random variable}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -46,12 +46,12 @@ $$
 ---
 ### equal moment formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \forall t\in N_\epsilon(0):M_X(t)=M_Y(t)\implies X=Y\\
 t=\text{independent variable}\\
 N=\text{neighborhood}\\
 X,Y=\text{random variable}
-\end{array}
+\end{lgathered}
 $$
 
 ---

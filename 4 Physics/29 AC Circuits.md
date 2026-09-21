@@ -9,12 +9,12 @@
 ---
 ### AC electric current formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 i(t)=I\cos(\omega t)\\
 I=\text{electric current}\\
 \omega=\text{angular frequency}\\
 t=\text{time}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -25,13 +25,13 @@ $$
 ---
 ### AC voltage formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 v(t)=V\cos(\omega t+\phi)\\
 V=\text{voltage}\\
 \omega=\text{angular frequency}\\
 t=\text{time}\\
 \phi=\text{phase angle}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -42,10 +42,10 @@ $$
 ---
 ### rms electric current
 $$
-\begin{array}{l}
+\begin{lgathered}
 I_{\text{rms}}=\frac{I}{\sqrt2}\\
 I=\text{electric current}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -55,10 +55,10 @@ $$
 ---
 ### rms voltage
 $$
-\begin{array}{l}
+\begin{lgathered}
 V_{\text{rms}}=\frac{V}{\sqrt2}\\
 V=\text{voltage}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -69,11 +69,11 @@ $$
 ---
 ### resistor formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 v_{R}=iR\\
 i=\text{electric current}\\
 R=\text{resistance}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -84,12 +84,12 @@ $$
 ---
 ### inductor formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 v_{L}=L\frac{di}{dt}\\
 L=\text{self inductance}\\
 i=\text{electric current}\\
 t=\text{time}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -100,11 +100,11 @@ $$
 ---
 ### capacitor formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 v_{C}=\frac{q}{C}\\
 q=\text{electric charge}\\
 C=\text{capacitance}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -126,12 +126,12 @@ $$
 ---
 ### resistive reactance formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 X_{R}=\frac{V_{R}}{I}=R\\
 V=\text{voltage}\\
 I=\text{electric current}\\
 R=\text{resistance}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -142,13 +142,13 @@ $$
 ---
 ### inductive reactance formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 X_{L}=\frac{V_{L}}{I}=\omega L\\
 V=\text{voltage}\\
 I=\text{electric current}\\
 \omega=\text{angular frequency}\\
 L=\text{self inductance}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -159,13 +159,13 @@ $$
 ---
 ### capacitive reactance formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 X_{C}=\frac{V_{C}}{I}=\frac{1}{\omega C}\\
 V=\text{voltage}\\
 I=\text{electric current}\\
 \omega=\text{angular frequency}\\
 C=\text{capacitance}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -176,11 +176,11 @@ $$
 ---
 ### phase angle formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \phi=\arctan(\frac{X_{L}-X_{C}}{R})\\
 X=\text{reactance}\\
 R=\text{resistance}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -196,11 +196,11 @@ $$
 ---
 ### impedance formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 Z=\sqrt{R^{2}+(X_{L}-X_{C})^{2}}\\
 R=\text{resistance}\\
 X=\text{reactance}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -210,11 +210,11 @@ $$
 ---
 ### ohms formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 V=IZ\\
 I=\text{electric current}\\
 Z=\text{impedance}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -225,13 +225,13 @@ $$
 ---
 ### average power formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 P=I_{\text{rms}}V_{\text{rms}}\cos(\phi)=I_{\text{rms}}^{2}Z\cos(\phi)=\frac{V_{\text{rms}}^{2}}{Z}\cos(\phi)\\
 I=\text{electric current}\\
 V=\text{voltage}\\
 \phi=\text{phase angle}\\
 Z=\text{impedance}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -242,11 +242,11 @@ $$
 ---
 ### power factor formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \cos(\phi)=\frac{R}{Z}\\
 R=\text{resistance}\\
 Z=\text{impedance}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -262,11 +262,11 @@ $$
 ---
 ### resonant angular frequency formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \omega=\sqrt{\frac{1}{LC}}\\
 L=\text{self inductance}\\
 C=\text{capacitance}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -283,13 +283,13 @@ $$
 ---
 ### quality factor formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 Q=\frac{\omega}{\Delta\omega}=\frac{\omega L}{R}\\
 \omega=\text{angular frequency}\\
 \Delta\omega=\text{bandwidth}\\
 L=\text{self inductance}\\
 R=\text{resistance}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -305,11 +305,11 @@ $$
 ---
 ### step up transformer voltage formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \frac{V_{2}}{V_{1}}=\frac{N_{2}}{N_{1}}\\
 V=\text{voltage}\\
 N=\text{number of loops}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -320,11 +320,11 @@ $$
 ---
 ### step down transformer power formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 I_{1}V_{1}=I_{2}V_{2}\\
 I=\text{electric current}\\
 V=\text{voltage}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -344,10 +344,10 @@ $$
 ---
 ### average full wave rectification electric current formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 I_{\text{avg}}=(\frac{2}{\pi})I=0.637I\\
 I=\text{electric current}
-\end{array}
+\end{lgathered}
 $$
 
 ---

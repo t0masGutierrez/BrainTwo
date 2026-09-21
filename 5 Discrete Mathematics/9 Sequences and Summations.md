@@ -5,9 +5,9 @@
 ---
 ### sequence formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 a_{n}=a_{1},a_{2},...a_{n}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -17,12 +17,12 @@ $$
 ---
 ### nth term of geometric sequence formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 a_{n}=a_{1}r^{n-1}\\
 a_{1}=\text{1st term}\\
 r=\text{common ratio}\\
 n=\text{index}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -32,12 +32,12 @@ $$
 ---
 ### nth term of arithmetic sequence formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 a_{n}=a_{1}+(n-1)d\\
 a_{1}=\text{1st term}\\
 d=\text{common difference}\\
 n=\text{index}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -47,10 +47,10 @@ $$
 ---
 ### recurrence relation formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 a_{n}=a_{n-1},a_{n-2},...a_{n-k}\\
 k=\text{number of preceding terms}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -60,12 +60,12 @@ $$
 ---
 ### fibonacci sequence formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 f_{n}=f_{n-1}+f_{n-2}+...+f_{n}\\
 f_{0}=0\\
 f_{1}=1\\
 2\le n\le\infty
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -84,13 +84,13 @@ $$
 ---
 ### summation formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \sum_{k=1}^{n}a_{k}=a_{1}+a_{2}+...+a_{n}\\
 k=\text{index}\\
 n=\text{number of terms}\\
 \sum=\text{summation}\\
 a_{k}=\text{kth term}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -100,9 +100,9 @@ $$
 ---
 ### change of summation index formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \sum_{k=m}^{n}=\sum_{k=1}^{n}-\sum_{k=1}^{m-1}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -112,11 +112,11 @@ $$
 ---
 ### arithmetic series formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 S_{n}=\frac{n(a_{1}+a_{n})}{2}\\
 a_{1}=\text{1st term}\\
 a_{n}=\text{nth term}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -126,11 +126,11 @@ $$
 ---
 ### finite geometric series formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 S_{n}=\frac{a_{1}(1-r^{n})}{1-r}\\
 a_{1}=\text{1st term}\\
 r=\text{common ratio}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -140,11 +140,11 @@ $$
 ---
 ### infinite geometric series formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 S=\frac{a_{1}}{1-r}\\
 a_{1}=\text{1st term}\\
 r=\text{common ratio}
-\end{array}
+\end{lgathered}
 $$
 
 ---

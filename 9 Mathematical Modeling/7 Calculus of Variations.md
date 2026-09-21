@@ -4,10 +4,10 @@
 ---
 ### vector space formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 x,y\in\mathcal V\implies x+y\in\mathcal V\\
 (c\in\mathbb R)\land(x\in\mathcal V)\implies cx\in\mathcal V
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -17,12 +17,12 @@ $$
 ---
 ### continuous differentiable formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 C^{n}[a,b]=\set{f:[a,b]\rightarrow\mathbb R|\lim_{x\rightarrow t}f^{(n)}(x)=f^{(n)}(t)}\\
 f=\text{continuous function}\\
 f^{(n)}=\text{nth derivative}\\
 x=\text{independent variable}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -32,13 +32,13 @@ $$
 ---
 ### functional formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 F:\mathcal V\rightarrow\mathbb R\\
 \mathcal V=\set{f:[a,b]\rightarrow\mathbb R|f(a)=\alpha,f(b)=\beta}\\
 F=\text{functional}\\
 \mathcal V=\text{domain}\\
 \alpha,\beta=\text{constant}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -48,10 +48,10 @@ $$
 ---
 ### extremum formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \min(F)\lor\max(F)\\
 F=\text{functional}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -61,12 +61,12 @@ $$
 ---
 ### extremizer formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \min(F[f])\lor\max(F[f])\\
 
 F=\text{functional}\\
 f=\text{extremizer}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -76,14 +76,14 @@ $$
 ---
 ### global minimizer formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \forall f\in\mathcal V:F[f_{*}]\le F[f]\\
 F:\mathcal V\subset C^{n}[a,b]\rightarrow\mathbb R\\
 f=\text{continuous function}\\
 \mathcal V=\text{domain}\\
 F=\text{functional}\\
 f_{*}=\text{global minimizer}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -93,7 +93,7 @@ $$
 ---
 ### global maximizer formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \forall f\in\mathcal V:F[f_{*}]\ge F[f]\\
 F:\mathcal V\subset C^{n}[a,b]\rightarrow\mathbb R\\
 f=\text{continuous function}\\
@@ -101,7 +101,7 @@ f=\text{continuous function}\\
 F=\text{functional}\\
 f_{*}=\text{global maximizer}\\
 C^{n}=\text{continuous differentiable}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -111,12 +111,12 @@ $$
 ---
 ### norm formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \|v\|\ge0\\
 \|v\|=0\iff v=0\\
 c\in\mathbb R\implies\|cv\|=c\|v\|\\
 \|v_{1}+v_{2}\|\le\|v_{1}\|+\|v_{2}\|
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -126,7 +126,7 @@ $$
 ---
 ### continuous differentiable norm formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \|f\|_{C^{m}}=\sum_{k=0}^{m}|\max_{a\le x\le b}f^{(k)}(x)|\\
 f\in\mathcal V\subset C^{n}[a,b]\\
 m\le n\\
@@ -135,7 +135,7 @@ C^{m}=\text{continuous differentiable}\\
 f^{(k)}=\text{kth derivative}\\
 x=\text{independent variable}\\
 \mathcal V=\text{domain}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -146,12 +146,12 @@ $$
 ---
 ### continuous differentiable neighborhood formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 N_{\delta}(f_{*})=\set{f\in\mathcal V|\|f-f_{*}\|_{C^{m}}<\delta}\\
 f=\text{continuous function}\\
 \mathcal V=\text{domain}\\
 f_{*}=\text{center}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -161,7 +161,7 @@ $$
 ---
 ### local minimizer formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \exists\delta>0,\forall f\in N_{\delta}(f_{*}):F[f_{*}]\le F[f]\\
 F:\mathcal V\subset C^{n}[a,b]\rightarrow\mathbb R\\
 f=\text{continuous differentiable function}\\
@@ -169,7 +169,7 @@ N=\text{neighborhood}\\
 f_{*}=\text{local minimizer}\\
 F=\text{functional}\\
 C^{n}=\text{continuous differentiable}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -179,7 +179,7 @@ $$
 ---
 ### local maximizer formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \exists\delta>0,\forall f\in N_{\delta}(f_{*}):F[f_{*}]\ge F[f]\\
 F:\mathcal V\subset C^{n}[a,b]\rightarrow\mathbb R\\
 f=\text{continuous differentiable function}\\
@@ -187,7 +187,7 @@ N=\text{neighborhood}\\
 f_{*}=\text{local maximizer}\\
 F=\text{functional}\\
 C^{n}=\text{continuous differentiable}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -198,7 +198,7 @@ $$
 ---
 ### admissibility formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \mathcal V=\set{f\in C^{n}[a,b]\mid G_{j}[f]=c_{j}}\\
 \mathcal V_{0}=\set{h\in C^{n}[a,b]\mid G_{j}[h]=0}\\
 G:C^{n}[a,b]\rightarrow\mathbb R\\
@@ -207,7 +207,7 @@ f,h=\text{continuous differentiable function}\\
 C^{n}=\text{continuous differentiable}\\
 G=\text{functional}\\
 c=\text{constant}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -217,14 +217,14 @@ $$
 ---
 ### variation formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \forall f\in N_{\delta}(f_{*}),\exists!h\in\mathcal V_{0}:f=f_{*}+h\in\mathcal V\\
 \|h\|\le\delta\\
 f,f_{*}=\text{admissible function}\\
 N=\text{neighborhood}\\
 h=\text{admissible variation}\\
 \mathcal V,\mathcal V_{0}=\text{admissible space}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -234,13 +234,13 @@ $$
 ---
 ### first variation formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \delta F[f,h]=\frac{d}{d\epsilon}F[f+\epsilon h]_{\epsilon=0}\\
 F=\text{functional}\\
 f=\text{admissible function}\\
 \epsilon=\text{parameter}\\
 h=\text{admissible variation}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -250,13 +250,13 @@ $$
 ---
 ### first variation property formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \forall h\in\mathcal V_{0}:\delta F[f_{*},h]=0\\
 h=\text{admissible variation}\\
 \mathcal V_{0}=\text{admissible variation space}\\
 \delta F=\text{first variation}\\
 f_{*}=\text{local extremizer}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -266,13 +266,13 @@ $$
 ---
 ### second variation formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \delta^{2}F[f,h]=\frac{d^{2}}{d\epsilon^{2}}F[f+\epsilon h]_{\epsilon=0}\\
 F=\text{functional}\\
 f=\text{admissible function}\\
 h=\text{admissible variation}\\
 \epsilon=\text{parameter}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -283,7 +283,7 @@ $$
 ---
 ### second variation property formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \forall h\in\mathcal V_{0}:\delta^{2}F[f_{*},h]\ge0\implies\exists\delta>0,\forall f\in N_{\delta}(f_{*}):F[f_{*}]\le F[f]\\
 \forall h\in\mathcal V_{0}:\delta^{2}F[f_{*},h]\le0\implies\exists\delta>0,\forall f\in N_{\delta}(f_{*}):F[f_{*}]\ge F[f]\\
 h=\text{admissible variation}\\
@@ -291,7 +291,7 @@ h=\text{admissible variation}\\
 \delta^{2}F=\text{second variation}\\
 f_{*}=\text{local extremizer}\\
 f=\text{admissible function}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -306,7 +306,7 @@ $$
 ---
 ### variational calculus formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 F[f]-F[f_{*}]\ge0\implies f_{*}=\min(F)\\
 F[f]-F[f_{*}]\le0\implies f_{*}=\max(F)\\
 h=f-f_{*}\\
@@ -314,7 +314,7 @@ F=\text{functional}\\
 f=\text{admissible function}\\
 f_{*}=\text{local extremizer}\\
 h=\text{admissible variation}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -324,12 +324,12 @@ $$
 ---
 ### first-order formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 L(x,f,f')\\
 L=\text{lagrangian}\\
 x=\text{independent variable}\\
 f=\text{admissible function}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -339,7 +339,7 @@ $$
 ---
 ### fixed-fixed formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \mathcal V=\set{f\in C^{2}[a,b]\mid f(a)=\alpha,f(b)=\beta}\\
 \mathcal V_{0}=\set{h\in C^{2}[a,b]\mid h(a)=0,h(b)=0}\\
 \mathcal V,\mathcal V_{0}=\text{admissible space}\\
@@ -347,7 +347,7 @@ f=\text{admissible function}\\
 C^{2}=\text{continuous differentiable}\\
 h=\text{admissible variation}\\
 \alpha,\beta=\text{constant}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -357,13 +357,13 @@ $$
 ---
 ### first-order fixed-fixed variational formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 F[f]=\int_{a}^{b}L(x,f,f')dx\\
 F=\text{functional}\\
 f=\text{admissible function}\\
 L=\text{lagrangian}\\
 x=\text{independent variable}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -373,12 +373,12 @@ $$
 ---
 ### first-order fixed-fixed euler-lagrange equation formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \frac{\partial L}{\partial f}-\frac{d}{dx}(\frac{\partial L}{\partial f'})=0\\
 L=\text{lagrangian}\\
 f=\text{admissible function}\\
 x=\text{independent variable}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -388,14 +388,14 @@ $$
 ---
 ### first integral formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 L=L(x,f')\implies\forall f\in C^{2}[a,b]:\frac{\partial L}{\partial f'}=A\\
 L=L(f,f')\implies\forall f\in C^{2}[a,b]:L-f'\frac{\partial L}{\partial f'}=A\\
 L=\text{lagrangian}\\
 x=\text{independent variable}\\
 f=\text{admissible function}\\
 C^{2}=\text{continuous differentiable}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -405,7 +405,7 @@ $$
 ---
 ### fundamental lemma property formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \forall h\in C^{n}[a,b]:\int_{a}^{b}\phi(x)h(x)dx=0\implies\forall x\in[a,b]:\phi(x)=0\\
 h^{(k)}(a)=h^{(k)}(b)=0\\
 k=0,\dots,\mu\le n\\
@@ -413,7 +413,7 @@ h=\text{admissible variation}\\
 C^{n}=\text{continuous differentiable}\\
 \phi=\text{continuous function}\\
 x=\text{independent variable}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -423,7 +423,7 @@ $$
 ---
 ### sign lemma property formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 I(h)\ge0\implies\forall x\in[a,b]:\phi_{\nu\nu}(x)\ge0\\
 I(h)=\int_{a}^{b}\sum_{i=0}^{\nu}\sum_{j=0}^{\nu}\phi_{\text{ij}}(x)h^{(i)}(x)h^{(j)}(x)dx\\
 h^{(k)}(a)=h^{(k)}(b)=0\\
@@ -431,7 +431,7 @@ k=0,\dots,\mu\\
 h=\text{admissible variation}\\
 \phi=\text{continuous function}\\
 x=\text{independent variable}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -441,12 +441,12 @@ $$
 ---
 ### first-order formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 L(x,f,f')\\
 L=\text{lagrangian}\\
 x=\text{independent variable}\\
 f=\text{admissible function}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -456,7 +456,7 @@ $$
 ---
 ### fixed-free formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \mathcal V=\set{f\in C^{2}[a,b]\mid f(a)=\alpha}\\
 \mathcal V_{0}=\set{h\in C^{2}[a,b]\mid h(a)=0}\\
 \mathcal V,\mathcal V_{0}=\text{admissible space}\\
@@ -464,7 +464,7 @@ f=\text{admissible function}\\
 C^{2}=\text{continuous differentiable}\\
 h=\text{admissible variation}\\
 \alpha=\text{constant}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -474,14 +474,14 @@ $$
 ---
 ### fixed-free variational formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 F[f]=\int_{a}^{b}L(x,f,f')dx+[G(f)]_{x=b}\\
 F=\text{functional}\\
 f=\text{admissible function}\\
 L=\text{lagrangian}\\
 x=\text{independent variable}\\
 G=\text{free-end}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -491,12 +491,12 @@ $$
 ---
 ### fixed-free euler-lagrange equation formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \frac{\partial L}{\partial f}-\frac{d}{dx}(\frac{\partial L}{\partial f'})=0\\
 L=\text{lagrangian}\\
 f=\text{admissible function}\\
 x=\text{independent variable}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -506,11 +506,11 @@ $$
 ---
 ### fixed-free essential boundary condition formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 f(a)=\alpha\\
 f=\text{admissible function}\\
 \alpha=\text{constant}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -520,13 +520,13 @@ $$
 ---
 ### fixed-free natural boundary condition formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 {}[\frac{\partial G}{\partial f}-\frac{\partial L}{\partial f'}]_{x=a}=0\\
 {}[\frac{\partial G}{\partial f}+\frac{\partial L}{\partial f'}]_{x=b}=0\\
 G=\text{free-end}\\
 f=\text{admissible function}\\
 L=\text{lagrangian}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -536,13 +536,13 @@ $$
 ---
 ### second-order formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 L(x,f,f',f'')\\
 
 L=\text{lagrangian}\\
 x=\text{independent variable}\\
 f=\text{admissible function}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -552,14 +552,14 @@ $$
 ---
 ### fixed-fixed formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \mathcal V=\set{f\in C^{4}[a,b]\mid f(a)=\alpha,f'(a)=\gamma,f(b)=\beta,f'(b)=\eta}\\
 \mathcal V_{0}=\set{h\in C^{4}[a,b]\mid h(a)=0,h'(a)=0,h(b)=0,h'(b)=0}\\
 \mathcal V,\mathcal V_{0}=\text{vector space}\\
 f=\text{admissible function}\\
 h=\text{admissible variation}\\
 \alpha,\beta,\gamma,\eta=\text{constant}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -569,13 +569,13 @@ $$
 ---
 ### second-order variational formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 F[f]=\int_{a}^{b}L(x,f,f',f'')dx\\
 F=\text{functional}\\
 f=\text{admissible function}\\
 L=\text{lagrangian}\\
 x=\text{independent variable}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -585,12 +585,12 @@ $$
 ---
 ### second-order euler-lagrange equation formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \frac{\partial L}{\partial f}-\frac{d}{dx}(\frac{\partial L}{\partial f'})+\frac{d^{2}}{dx^{2}}(\frac{\partial L}{\partial f''})=0\\
 L=\text{lagrangian}\\
 f,f'=\text{admissible function}\\
 x=\text{independent variable}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -600,12 +600,12 @@ $$
 ---
 ### second-order essential boundary condition formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 f(a)=\alpha\\
 f'(a)=\gamma\\
 f=\text{admissible function}\\
 \alpha,\gamma=\text{constant}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -615,12 +615,12 @@ $$
 ---
 ### second-order natural boundary condition formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 f(a)=\text{free}\implies[\frac{\partial L}{\partial f'}-\frac{d}{dx}(\frac{\partial L}{\partial f''})]_{x=a}=0\\
 f'(a)=\text{free}\implies[\frac{\partial L}{\partial f''}]_{x=a}=0\\
 f(b)=\text{free}\implies[\frac{\partial L}{\partial f'}-\frac{d}{dx}(\frac{\partial L}{\partial f''})]_{x=b}=0\\
 f'(b)=\text{free}\implies[\frac{\partial L}{\partial f''}]_{x=b}=0
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -630,7 +630,7 @@ $$
 ---
 ### lagrange-multiplier formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \begin{bmatrix}
 \dfrac{\partial\widetilde F}{\partial\varepsilon_{1}}(0,0)
 +
@@ -649,7 +649,7 @@ G=\text{constraint functional}\\
 f_{*},g_{*}=\text{local extremizer}\\
 \epsilon=\text{parameter}\\
 h=\text{admissible variation}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -659,7 +659,7 @@ $$
 ---
 ### constraint variational formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 F[f]=\int_{a}^{b}L(x,f,f')dx\\
 G[f]=\int_{a}^{b}M(x,f,f')dx=k\\
 N=L+\lambda M\\
@@ -670,7 +670,7 @@ G=\text{constraint functional}\\
 k=\text{constraint}\\
 L,M,N=\text{lagrangian}\\
 \lambda=\text{lagrange multiplier}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -680,12 +680,12 @@ $$
 ---
 ### constraint euler-lagrange equation formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \frac{\partial N}{\partial f}-\frac{d}{dx}(\frac{\partial N}{\partial f'})=0\\
 N=\text{lagrangian}\\
 f=\text{admissible function}\\
 x=\text{independent variable}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -695,11 +695,11 @@ $$
 ---
 ### constraint essential boundary condition formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 f(a)=\alpha\\
 G[f]=k\\
 \lambda\in\mathbb R
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -709,12 +709,12 @@ $$
 ---
 ### constraint natural boundary condition formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 f(a),f(b)=\text{free}\implies[\frac{\partial L}{\partial f'}+\lambda\frac{\partial M}{\partial f'}]_{x=a}=[\frac{\partial L}{\partial f'}+\lambda\frac{\partial M}{\partial f'}]_{x=b}=0\\
 f=\text{admissible function}\\
 L,M=\text{lagrangian}\\
 \lambda=\text{lagrange multiplier}
-\end{array}
+\end{lgathered}
 $$
 
 ---

@@ -40,9 +40,9 @@
 ---
 ### proof by cases formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 p_{1}\lor p_{2}\lor...\lor p_{n}\implies q
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -52,9 +52,9 @@ $$
 ---
 ### proof by exhaustion formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 (p_{1}\implies q)\land(p_{2}\implies q)\land...\land(p_{n}\implies q)
-\end{array}
+\end{lgathered}
 $$
 
 ---

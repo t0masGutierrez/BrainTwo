@@ -1,6 +1,6 @@
 ### SI base unit formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \begin{array}{c|c|c}
 \text{quantity}&\text{unit}&\text{symbol}\\
 \hline
@@ -12,13 +12,13 @@ $$
 \text{amount of substance}&\text{mole}&\text{mol}\\
 \text{luminous intensity}&\text{candela}&\text{cd}
 \end{array}
-\end{array}
+\end{lgathered}
 $$
 
 ---
 ### SI derived unit formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \begin{array}{c|c|c}
 \text{quantity}&\text{unit}&\text{symbol}\\
 \hline
@@ -58,26 +58,26 @@ $$
 \text{radiation dose}&\text{gray}&\text{Gy}=\text{J}/\text{kg}\\
 \text{radiation dose equivalent}&\text{sievert}&\text{Sv}=\text{J}/\text{kg}
 \end{array}
-\end{array}
+\end{lgathered}
 $$
 
 ---
 ### SI supplementary unit formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \begin{array}{c|c|c}
 \text{quantity}&\text{unit}&\text{symbol}\\
 \hline
 \text{plane angle}&\text{radian}&\text{rad}\\
 \text{solid angle}&\text{steradian}&\text{sr}
 \end{array}
-\end{array}
+\end{lgathered}
 $$
 
 ---
 ### physical constant formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \begin{array}{c|c|c}
 \text{name}&\text{symbol}&\text{value}\\
 \hline
@@ -103,13 +103,13 @@ $$
 \text{Volume of ideal gas (0}^{\circ}\text{ C and 1 atm)}&V_{m}&22.413962(13)\text{ liter/mol}\\
 \text{Acceleration due to gravity (Earth)}&g&9.80665\text{ m/s}^{2}
 \end{array}
-\end{array}
+\end{lgathered}
 $$
 
 ---
 ### length conversion formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 1\text{ m}=100\text{ cm}=1000\text{ mm}=10^{6}\text{ μm}=10^{9}\text{ nm}\\
 1\text{ km}=1000\text{ m}=0.6214\text{ mi}\\
 1\text{ m}=3.281\text{ ft}=39.37\text{ in.}\\
@@ -121,147 +121,147 @@ $$
 1\text{ Å}=10^{-10}\text{ m}=10^{-8}\text{ cm}=10^{-1}\text{ nm}\\
 1\text{ nautical mile}=6080\text{ ft}\\
 1\text{ light-year}=9.461\times10^{15}\text{ m}
-\end{array}
+\end{lgathered}
 $$
 
 ---
 ### area conversion formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 1\text{ cm}^{2}=0.155\text{ in.}^{2}\\
 1\text{ m}^{2}=10^{4}\text{ cm}^{2}=10.76\text{ ft}^{2}\\
 1\text{ in.}^{2}=6.452\text{ cm}^{2}\\
 1\text{ ft}^{2}=144\text{ in.}^{2}=0.0929\text{ m}^{2}
-\end{array}
+\end{lgathered}
 $$
 
 ---
 ### volume conversion formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 1\text{ liter}=1000\text{ cm}^{3}=10^{-3}\text{ m}^{3}=0.03531\text{ ft}^{3}=61.02\text{ in.}^{3}\\
 1\text{ ft}^{3}=0.02832\text{ m}^{3}=28.32\text{ liters}=7.477\text{ gallons}\\
 1\text{ gallon}=3.788\text{ liters}
-\end{array}
+\end{lgathered}
 $$
 
 ---
 ### time conversion formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 1\text{ min}=60\text{ s}\\
 1\text{ h}=3600\text{ s}\\
 1\text{ d}=86{,}400\text{ s}\\
 1\text{ y}=365.24\text{ d}=3.156\times10^{7}\text{ s}
-\end{array}
+\end{lgathered}
 $$
 
 ---
 ### angle conversion formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 1\text{ rad}=57.30^{\circ}=180^{\circ}/\pi\\
 1^{\circ}=0.01745\text{ rad}=\pi/180\text{ rad}\\
 1\text{ revolution}=360^{\circ}=2\pi\text{ rad}\\
 1\text{ rev/min (rpm)}=0.1047\text{ rad/s}
-\end{array}
+\end{lgathered}
 $$
 
 ---
 ### speed conversion formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 1\text{ m/s}=3.281\text{ ft/s}\\
 1\text{ ft/s}=0.3048\text{ m/s}\\
 1\text{ mi/min}=60\text{ mi/h}=88\text{ ft/s}\\
 1\text{ km/h}=0.2778\text{ m/s}=0.6214\text{ mi/h}\\
 1\text{ mi/h}=1.466\text{ ft/s}=0.4470\text{ m/s}=1.609\text{ km/h}\\
 1\text{ furlong/fortnight}=1.662\times10^{-4}\text{ m/s}
-\end{array}
+\end{lgathered}
 $$
 
 ---
 ### acceleration conversion formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 1\text{ m/s}^{2}=100\text{ cm/s}^{2}=3.281\text{ ft/s}^{2}\\
 1\text{ cm/s}^{2}=0.01\text{ m/s}^{2}=0.03281\text{ ft/s}^{2}\\
 1\text{ ft/s}^{2}=0.3048\text{ m/s}^{2}=30.48\text{ cm/s}^{2}\\
 1\text{ mi}/(\text{h}\cdot\text{s})=1.467\text{ ft/s}^{2}
-\end{array}
+\end{lgathered}
 $$
 
 ---
 ### mass conversion formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 1\text{ kg}=10^{3}\text{ g}=0.0685\text{ slug}\\
 1\text{ g}=6.85\times10^{-5}\text{ slug}\\
 1\text{ slug}=14.59\text{ kg}\\
 1\text{ u}=1.661\times10^{-27}\text{ kg}\\
 \text{1 kg}(\text{g}=9.80\text{ m}/\text{s}^{2})=\text{2.205 lb}
-\end{array}
+\end{lgathered}
 $$
 
 ---
 ### force conversion formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 1\text{ N}=10^{5}\text{ dyn}=0.2248\text{ lb}\\
 1\text{ lb}=4.448\text{ N}=4.448\times10^{5}\text{ dyn}
-\end{array}
+\end{lgathered}
 $$
 
 ---
 ### pressure conversion formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 1\text{ Pa}=1\text{ N}/\text{m}^{2}=1.450\times10^{-4}\text{ lb}/\text{in.}^{2}=0.0209\text{ lb}/\text{ft}^{2}\\
 1\text{ bar}=10^{5}\text{ Pa}\\
 1\text{ lb}/\text{in.}^{2}=6895\text{ Pa}\\
 1\text{ lb}/\text{ft}^{2}=47.88\text{ Pa}\\
 1\text{ atm}=1.013\times10^{5}\text{ Pa}=1.013\text{ bar}=14.7\text{ lb}/\text{in.}^{2}=2117\text{ lb}/\text{ft}^{2}\\
 1\text{ mm Hg}=1\text{ torr}=133.3\text{ Pa}
-\end{array}
+\end{lgathered}
 $$
 
 ---
 ### energy conversion formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 1\text{ J}=10^{7}\text{ ergs}=0.239\text{ cal}\\
 1\text{ cal}=4.186\text{ J}\text{ (15}^{\circ}\text{ calorie)}\\
 1\text{ ft}\cdot\text{lb}=1.356\text{ J}\\
 1\text{ Btu}=1055\text{ J}=252\text{ cal}=778\text{ ft}\cdot\text{lb}\\
 1\text{ eV}=1.602\times10^{-19}\text{ J}\\
 1\text{ kWh}=3.600\times10^{6}\text{ J}
-\end{array}
+\end{lgathered}
 $$
 
 ---
 ### mass energy conversion formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 1\text{ kg}\leftrightarrow8.988\times10^{16}\text{ J}\\
 1\text{ u}\leftrightarrow931.5\text{ MeV}\\
 1\text{ eV}\leftrightarrow1.074\times10^{-9}\text{ u}
-\end{array}
+\end{lgathered}
 $$
 
 ---
 ### power conversion formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 1\text{ W}=1\text{ J/s}\\
 1\text{ hp}=746\text{ W}=550\text{ ft}\cdot\text{lb}/\text{s}\\
 1\text{ Btu/h}=0.293\text{ W}
-\end{array}
+\end{lgathered}
 $$
 
 ---
 ### greek alphabet formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \begin{array}{c|c|c}
 \text{name}&\text{uppercase}&\text{lowercase}\\
 \hline
@@ -290,13 +290,13 @@ $$
 \text{Psi}&\Psi&\psi\\
 \text{Omega}&\Omega&\omega
 \end{array}
-\end{array}
+\end{lgathered}
 $$
 
 ---
 ### astronomical data formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \begin{array}{c|c|c|c|c}
 \text{body}&\text{mass (kg)}&\text{radius (m)}&\text{orbital radius (m)}&\text{orbital period}\\
 \hline
@@ -312,13 +312,13 @@ $$
 \text{Neptune}&1.02\times10^{26}&2.46\times10^{7}&4.50\times10^{12}&164.8\text{ y}\\
 \text{Pluto}&1.30\times10^{22}&1.19\times10^{6}&5.91\times10^{12}&248.0\text{ y}
 \end{array}
-\end{array}
+\end{lgathered}
 $$
 
 ---
 ### power of ten formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \begin{array}{c|c|c}
 \text{power of ten}&\text{prefix}&\text{abbreviation}\\
 \hline
@@ -340,7 +340,7 @@ $$
 10^{21}&\text{zetta-}&\text{Z}\\
 10^{24}&\text{yotta-}&\text{Y}
 \end{array}
-\end{array}
+\end{lgathered}
 $$
 
 ---

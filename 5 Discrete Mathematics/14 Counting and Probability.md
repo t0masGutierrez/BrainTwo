@@ -29,9 +29,9 @@
 ---
 ### formula of inclusion exclusion
 $$
-\begin{array}{l}
+\begin{lgathered}
 |A\cup B|=|A|+|B|-|A\cap B|
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -55,11 +55,11 @@ $$
 ---
 ### pigeonhole formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 k=\lceil\frac{a}{b}\rceil\\
 a=\text{number of pigeons}\\
 b=\text{number of pigeonholes}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -69,21 +69,21 @@ $$
 ---
 ### permutation formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 P(n,r)=\frac{n!}{(n-r)!}=n(n-1)(n-2)...(n-r+1)\\
 n=\text{number of objects without replacement}\\
 r=\text{number of arrangements}
-\end{array}
+\end{lgathered}
 $$
 
 ---
 ### permutation formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 P(n,r)=n^{r}\\
 n=\text{number of objects with replacement}\\
 r=\text{number of arrangements}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -93,11 +93,11 @@ $$
 ---
 ### combination formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 C(n,r)=\frac{n!}{r!(n-r)!}=\frac{n(n-1)(n-2)...(n-r+1)}{r!}\\
 n=\text{number of objects without replacement}\\
 r=\text{number of choices}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -115,9 +115,9 @@ $$
 ---
 ### probability formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 P(A)=\frac{\text{number of favorable outcomes}}{\text{total number of possible outcomes}}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -127,9 +127,9 @@ $$
 ---
 ### complementary probability formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 P(A')=1-P(A)
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -139,9 +139,9 @@ $$
 ---
 ### conditional probability formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 P(A|B)=\frac{P(A\cap B)}{P(B)}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -155,9 +155,9 @@ $$
 ---
 ### independent multiplication formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 P(A\cap B)=P(A)\times P(B)
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -171,9 +171,9 @@ $$
 ---
 ### dependent multiplication formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 P(A\cap B)=P(A)\times P(B|A)
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -187,9 +187,9 @@ $$
 ---
 ### disjoint addition formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 P(A\cup B)=P(A)+P(B)
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -203,9 +203,9 @@ $$
 ---
 ### joint addition formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 P(A\cup B)=P(A)+P(B)-P(A\cap B)
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -223,9 +223,9 @@ $$
 ---
 ### bayes formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 P(B|A)=\frac{P(A|B)\times P(B)}{P(A)}
-\end{array}
+\end{lgathered}
 $$
 
 ---

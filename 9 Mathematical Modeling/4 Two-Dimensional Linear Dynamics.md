@@ -4,7 +4,7 @@
 ---
 ### dynamical system formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \frac{dx}{dt}=f(x,y,c_{1},\dots,c_{n})\\
 \frac{dy}{dt}=g(x,y,c_{1},\dots,c_{n})\\
 x(t=0)=x_{0}\\
@@ -14,7 +14,7 @@ x,y=\text{solution}\\
 t=\text{time}\\
 x_{0},y_{0}=\text{initial condition}\\
 c=\text{parameter}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -25,11 +25,11 @@ $$
 ---
 ### time view formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \frac{dx}{dt}=f(x,y)\\
 \frac{dy}{dt}=g(x,y)\\
 f,g=\text{slope}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -40,10 +40,10 @@ $$
 ---
 ### phase view formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 v=[f,g]\\
 f,g=\text{velocity}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -54,11 +54,11 @@ $$
 ---
 ### solvability property formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \forall(x_{0},y_{0})\in\mathbb R,\exists t\in(T_{0},T_{1}):(x,y)(t)\in D=\{(x,y)\in\mathbb R|\exists!(\frac{dx}{dt},\frac{dy}{dt})\}\\
 (t\le T_{0})\lor(t\ge T_{1})\implies(x,y)(t)\not\in D=\{(x,y)\in\mathbb R|\exists!(\frac{dx}{dt},\frac{dy}{dt})\}\\
 (x_{0},y_{0})\ne(\hat x_{0},\hat y_{0})\implies\forall t\in(T_{0},T_{1}):(x,y)(t)\ne(\hat x,\hat y)(t)
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -69,11 +69,11 @@ $$
 ---
 ### vector field formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 v(t)=\{(\frac{dx}{dt},\frac{dy}{dt})|x,y\in D\}\\
 \frac{dx}{dt},\frac{dy}{dt}=\text{velocity}\\
 D=\text{domain}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -84,11 +84,11 @@ $$
 ---
 ### direction field formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 (f,g)(x,y)=\{(\hat x,\hat y)|x,y\in D\}\\
 \hat x,\hat y=\text{unit vector}\\
 D=\text{domain}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -99,13 +99,13 @@ $$
 ---
 ### nullcline curve formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 F(x,y)=\{(x,y)|\frac{dx}{dt}=0\}\\
 G(x,y)=\{(x,y)|\frac{dy}{dt}=0\}\\
 x,y=\text{solution}\\
 t=\text{time}\\
 \frac{dx}{dt},\frac{dy}{dt}=\text{velocity}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -115,11 +115,11 @@ $$
 ---
 ### path equation formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \frac{dy}{dx}=\frac{g(x,y)}{f(x,y)}\\
 x,y=\text{solution}\\
 f,g=\text{velocity}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -129,7 +129,7 @@ $$
 ---
 ### first integral formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \forall(x,y)\in D:\frac{dE}{dt}(x,y)(t)=0\implies E(x,y)(t)=C\\
 \frac{\partial}{\partial x}(\phi f)=\frac{\partial}{\partial y}(-\phi g)\implies(\frac{\partial E}{\partial x}=-\phi g)\land(\frac{\partial E}{\partial y}=\phi f)\\
 x,y=\text{solution}\\
@@ -138,7 +138,7 @@ D=\text{domain}\\
 E=\text{first integral}\\
 C=\text{constant}\\
 \phi=\text{integrating factor}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -148,12 +148,12 @@ $$
 ---
 ### equilibrium solution formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \forall t\ge0:(x,y)(t)=(x_{*},y_{*})\iff f(x_{*},y_{*})=g(x_{*},y_{*})=0\\
 x,y=\text{solution}\\
 t=\text{time}\\
 x_{*},y_{*}=\text{equilibrium point}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -163,11 +163,11 @@ $$
 ---
 ### equilibrium stability formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 N_{\rho}(x_{*},y_{*})=(x_{*}-\rho,x_{*}+\rho)\times(y_{*}-\rho,y_{*}+\rho)\\
 x_{*},y_{*}=\text{equilibrium point}\\
 \rho=\text{radius}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -179,7 +179,7 @@ $$
 ---
 ### asymptotic equilibrium stability formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \forall\epsilon>0,\exists\delta>0,\forall t\ge0:(x_{0},y_{0})\in N_{\delta}(x_{*},y_{*})\implies(x,y)(t)\in N_{\epsilon}(x_{*},y_{*})\land\\
 \forall x_{0},y_{0}\in\mathbb R:\lim_{t\rightarrow\infty}(x,y)(t)=(x_{*},y_{*})\\
 x_{0},y_{0}=\text{initial condition}\\
@@ -187,7 +187,7 @@ N=\text{neighborhood}\\
 x_{*},y_{*}=\text{equilibrium point}\\
 x,y=\text{solution}\\
 t=\text{time}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -199,7 +199,7 @@ $$
 ---
 ### neutral equilibrium stability formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \forall\epsilon>0,\exists\delta>0,\forall t\ge0:(x_{0},y_{0})\in N_{\delta}(x_{*},y_{*})\implies(x,y)(t)\in N_{\epsilon}(x_{*},y_{*})\land\\
 \exists x_{0},y_{0}\in\mathbb R:\lim_{t\rightarrow\infty}(x,y)(t)\ne(x_{*},y_{*})\\
 x_{0},y_{0}=\text{initial condition}\\
@@ -207,7 +207,7 @@ N=\text{neighborhood}\\
 x_{*},y_{*}=\text{equilibrium point}\\
 x,y=\text{solution}\\
 t=\text{time}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -218,7 +218,7 @@ $$
 ---
 ### equilibrium instability formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \exists\epsilon>0,\forall\delta>0,\forall t\ge0:(x_{0},y_{0})\in N_{\delta}(x_{*},y_{*})\land(x,y)(t)\not\in N_{\epsilon}(x_{*},y_{*})\land\\
 \forall x_{0},y_{0}\in\mathbb R:\lim_{t\rightarrow\infty}(x,y)(t)\ne(x_{*},y_{*})\\
 x_{0},y_{0}=\text{initial condition}\\
@@ -226,7 +226,7 @@ N=\text{neighborhood}\\
 x_{*},y_{*}=\text{equilibrium point}\\
 x,y=\text{solution}\\
 t=\text{time}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -237,12 +237,12 @@ $$
 ---
 ### periodic solution formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \forall t\ge0:(x,y)(t+P)=(x,y)(t)\\
 x,y=\text{solution}\\
 t=\text{time}\\
 P=\text{period}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -254,7 +254,7 @@ $$
 ---
 ### asymptotic periodic stability formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \forall\epsilon>0,\exists\delta>0,\forall t\ge0:(x_{0},y_{0})\in N_{\delta}(x_{*},y_{*})\implies(x,y)(t)\in N_{\epsilon}(x_{*},y_{*})\land\\
 \forall x_{0},y_{0}\in\mathbb R:\lim_{t\rightarrow\infty}(x,y)(t)=(x_{*},y_{*})\\
 x_{0},y_{0}=\text{initial condition}\\
@@ -262,7 +262,7 @@ N=\text{neighborhood}\\
 x_{*},y_{*}=\text{equilibrium point}\\
 x,y=\text{solution}\\
 t=\text{time}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -274,7 +274,7 @@ $$
 ---
 ### neutral periodic stability formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \forall\epsilon>0,\exists\delta>0,\forall t\ge0:(x_{0},y_{0})\in N_{\delta}(x_{*},y_{*})\implies(x,y)(t)\in N_{\epsilon}(x_{*},y_{*})\land\\
 \exists x_{0},y_{0}\in\mathbb R:\lim_{t\rightarrow\infty}(x,y)(t)\ne(x_{*},y_{*})\\
 x_{0},y_{0}=\text{initial condition}\\
@@ -282,7 +282,7 @@ N=\text{neighborhood}\\
 x_{*},y_{*}=\text{equilibrium point}\\
 x,y=\text{solution}\\
 t=\text{time}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -293,7 +293,7 @@ $$
 ---
 ### periodic instability formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \exists\epsilon>0,\forall\delta>0,\exists t\ge0:(x_{0},y_{0})\in N_{\delta}(x_{*},y_{*})\land(x,y)(t)\not\in N_{\epsilon}(x_{*},y_{*})\land\\
 \forall x_{0},y_{0}\in\mathbb R:\lim_{t\rightarrow\infty}(x,y)(t)\ne(x_{*},y_{*})\\
 x_{0},y_{0}=\text{initial condition}\\
@@ -301,7 +301,7 @@ N=\text{neighborhood}\\
 x_{*},y_{*}=\text{equilibrium point}\\
 x,y=\text{solution}\\
 t=\text{time}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -313,11 +313,11 @@ $$
 ---
 ### linearity formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 f(ax+by)=af(x)+bf(y)\\
 \exists A\in\mathcal M:\frac{dv}{dt}=Av\\
 f(0)=0
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -327,7 +327,7 @@ $$
 ---
 ### linear system formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 (\frac{dx}{dt}=ax+by)\land(\frac{dy}{dt}=cx+dy)\implies\frac{dv}{dt}=Av\\
 A=\begin{bmatrix}
 a&b\\
@@ -337,7 +337,7 @@ v=[x,y]\\
 x,y,v=\text{solution}\\
 t=\text{time}\\
 a,b,c,d=\text{coefficient}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -347,11 +347,11 @@ $$
 ---
 ### nondegenerate system formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \det(A)\ne0\implies\#v_{*}=1\\
 A=\text{coefficient matrix}\\
 v_{*}=\text{equilibrium point}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -361,11 +361,11 @@ $$
 ---
 ### degenerate system formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \det(A)=0\implies\#v_{*}=\infty\\
 A=\text{coefficient matrix}\\
 v_{*}=\text{equilibrium point}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -375,7 +375,7 @@ $$
 ---
 ### distinct real eigenvalues formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 v(t)=C_{1}e^{\lambda_{1}t}\hat u_{1}+C_{2}e^{\lambda_{2}t}\hat u_{2}\\
 v=[x,y]\\
 A=\begin{bmatrix}
@@ -387,7 +387,7 @@ t=\text{time}\\
 a,b,c,d=\text{coefficient}\\
 \lambda=\text{eigenvalue}\\
 \hat u=\text{eigenvector}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -400,11 +400,11 @@ $$
 ---
 ### distinct real eigenvalues property formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \lambda_{1},\lambda_{2}<0\implies\forall v_{0}\in\mathbb R^{2}:\lim_{t\rightarrow\infty}v(t)=v_{*}\\
 (\lambda_{1}>0)\land(\lambda_{2}<0)\implies\forall v_{0}\in\mathbb R^{2}:\lim_{t\rightarrow\infty}v(t)\ne v_{*}\\
 \lambda_{1},\lambda_{2}>0\implies\forall v_{0}\in\mathbb R^{2}:\lim_{t\rightarrow\infty}v(t)\ne v_{*}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -415,7 +415,7 @@ $$
 ---
 ### repeated real eigenvalues formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \hat u_{1}\ne\hat u_{2}\implies v(t)=e^{\lambda t}(C_{1}\hat u_{1}+C_{2}\hat u_{2})\\
 \hat u_{1}=\hat u_{2}\implies v(t)=C_{1}e^{\lambda t}\hat u+C_{2}e^{\lambda t}(\hat ut+\hat w)\land(A-\lambda I)\hat w=\hat u\\
 v=[x,y]\\
@@ -429,7 +429,7 @@ a,b,c,d=\text{coefficient}\\
 \lambda=\text{eigenvalue}\\
 \hat u=\text{eigenvector}\\
 \hat w=\text{generalized eigenvector}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -441,10 +441,10 @@ $$
 ---
 ### repeated real eigenvalues property formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \lambda<0\implies\forall v_{0}\in\mathbb R^{2}:\lim_{t\rightarrow\infty}v(t)=v_{*}\\
 \lambda>0\implies\forall v_{0}\in\mathbb R^{2}:\lim_{t\rightarrow\infty}v(t)\ne v_{*}\\
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -455,7 +455,7 @@ $$
 ---
 ### complex eigenvalues formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 v(t)=C_{1}e^{\alpha t}(\gamma\cos\beta t-\lambda\sin\beta t)+C_{2}e^{\alpha t}(\gamma\cos\beta t+\lambda\sin\beta t)\\
 \alpha=0\implies v(t)=v_{0}(\cos\beta t+\frac{A\sin\beta t}{\beta})\\
 v=\text{solution}\\
@@ -466,7 +466,7 @@ t=\text{time}\\
 \lambda=\text{imaginary eigenvector part}\\
 A=\text{coefficient matrix}\\
 v_{0}=\text{initial condition}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -478,11 +478,11 @@ $$
 ---
 ### complex eigenvalues property formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \alpha<0\implies\forall v_{0}\in\mathbb R^{2}:\lim_{t\rightarrow\infty}v(t)=v_{*}\\
 \alpha=0\implies\exists v_{0}\in\mathbb R^{2}:\lim_{t\rightarrow\infty}v(t)\ne v_{*}\\
 \alpha>0\implies\forall v_{0}\in\mathbb R^{2}:\lim_{t\rightarrow\infty}v(t)\ne v_{*}
-\end{array}
+\end{lgathered}
 $$
 
 ---

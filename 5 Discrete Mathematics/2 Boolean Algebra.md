@@ -10,10 +10,10 @@
 ---
 ### boolean complement formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \overline{1}=0\\
 \overline{0}=1
-\end{array}
+\end{lgathered}
 $$
 
 
@@ -25,12 +25,12 @@ $$
 ---
 ### boolean product formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 1\times1=1\\
 1\times0=0\\
 0\times1=0\\
 0\times0=0
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -41,12 +41,12 @@ $$
 ---
 ### boolean sum formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 1+1=1\\
 1+0=1\\
 0+1=1\\
 0+0=0
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -56,10 +56,10 @@ $$
 ---
 ### boolean function formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 f:\{0,1\}^{n}\rightarrow\{0,1\}\\
 n=\text{number of variables}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -69,10 +69,10 @@ $$
 ---
 ### boolean complexity formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 N=2^{n}\\
 n=\text{number of variables}
-\end{array}
+\end{lgathered}
 $$
 
 ---

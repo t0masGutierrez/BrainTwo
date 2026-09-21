@@ -25,10 +25,10 @@
 ---
 ### argument formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \because\text{premise(s)}\\
 \therefore\text{conclusion}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -47,11 +47,11 @@ $$
 ---
 ### formula of affirming the conclusion
 $$
-\begin{array}{l}
+\begin{lgathered}
 q\\
 p\implies q\\
 \therefore p
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -61,11 +61,11 @@ $$
 ---
 ### formula of denying the hypothesis
 $$
-\begin{array}{l}
+\begin{lgathered}
 \neg p\\
 p\implies q\\
 \therefore\neg q
-\end{array}
+\end{lgathered}
 $$
 
 ---

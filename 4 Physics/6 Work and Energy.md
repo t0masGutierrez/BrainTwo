@@ -5,23 +5,23 @@
 ---
 ### constant work formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 W=\vec F\cdot\Delta\vec r=(\|\vec F\|)(\|\Delta\vec r\|)\cos(\theta)\\
 \vec F=\text{force}\\
 \vec r=\text{position}\\
 \|\vec F\|,\|\Delta\vec r\|=\text{magnitude}\\
 \theta=\text{direction}
-\end{array}
+\end{lgathered}
 $$
 
 ---
 ### variable work formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 W=\int\vec F\cdot d\vec r\\
 \vec F=\text{force}\\
 \vec r=\text{position}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -34,11 +34,11 @@ $$
 ---
 ### work direction property formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 0^{\circ}\le\theta<90^{\circ}\implies W>0\\
 90^{\circ}<\theta\le180^{\circ}\implies W<0\\
 \theta=90^{\circ}\implies W=0
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -49,11 +49,11 @@ $$
 ---
 ### kinetic energy formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 K=\frac{1}{2}mv^{2}\\
 m=\text{mass}\\
 v=\text{velocity}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -63,10 +63,10 @@ $$
 ---
 ### net work formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 W_{\text{net}}=\Delta K\\
 K=\text{kinetic energy}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -78,10 +78,10 @@ $$
 ---
 ### conservative force formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \vec F_{\text{cons}}=-\nabla U\\
 U=\text{potential energy}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -103,11 +103,11 @@ $$
 ---
 ### potential energy formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \Delta U=-\int\vec F_{\text{cons}}\cdot d\vec r\\
 \vec F=\text{force}\\
 \vec r=\text{position}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -117,12 +117,12 @@ $$
 ---
 ### gravitational potential energy formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 U_{g}=mgy\\
 m=\text{mass}\\
 g=\text{gravity}\\
 y=\text{position}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -132,11 +132,11 @@ $$
 ---
 ### elastic potential energy formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 U_{\text{el}}=\frac{1}{2}kx^{2}\\
 k=\text{spring constant}\\
 x=\text{position}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -146,11 +146,11 @@ $$
 ---
 ### mechanical energy formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 E=K+U\\
 K=\text{kinetic energy}\\
 U=\text{potential energy}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -160,10 +160,10 @@ $$
 ---
 ### conservative work formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 W_{\text{cons}}=-\Delta U\\
 U=\text{potential energy}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -173,11 +173,11 @@ $$
 ---
 ### nonconservative work formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 W_{\text{noncons}}=\Delta K+\Delta U\\
 K=\text{kinetic energy}\\
 U=\text{potential energy}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -188,12 +188,12 @@ $$
 ---
 ### conservation of energy formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 W_{\text{noncons}}=0\implies\Delta E=0\\
 W=\text{work}\\
 U=\text{potential energy}\\
 E=\text{mechanical energy}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -204,11 +204,11 @@ $$
 ---
 ### energy diagram formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 E(x)\\
 E=\text{mechanical energy}\\
 x=\text{position}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -218,11 +218,11 @@ $$
 ---
 ### turning point formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 E=U\\
 E=\text{mechanical energy}\\
 U=\text{potential energy}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -233,9 +233,9 @@ $$
 ---
 ### equilibrium point formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 F_{x}=0
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -245,11 +245,11 @@ $$
 ---
 ### stable equilibrium point formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \frac{d^{2}E}{dx^{2}}>0\\
 E=\text{mechanical energy}\\
 x=\text{position}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -259,11 +259,11 @@ $$
 ---
 ### unstable equilibrium point formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \frac{d^{2}E}{dx^{2}}<0\\
 E=\text{mechanical energy}\\
 x=\text{position}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -273,12 +273,12 @@ $$
 ---
 ### average power formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 P_{\text{avg}}=\frac{W}{\Delta t}=\frac{\Delta E}{\Delta t}\\
 W=\text{work}\\
 t=\text{time}\\
 E=\text{mechanical energy}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -288,13 +288,13 @@ $$
 ---
 ### instantaneous power formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 P=\vec F\cdot\vec v=(\|\vec F\|)(\|\vec v\|)\cos(\theta)\\
 \vec F=\text{force}\\
 \vec v=\text{velocity}\\
 \|\vec F\|,\|\vec v\|=\text{magnitude}\\
 \theta=\text{direction}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -304,11 +304,11 @@ $$
 ---
 ### efficiency formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \varepsilon=\frac{P_{\text{out}}}{P_{\text{in}}}\times100\\
 P_{\text{out}}=\text{output power}\\
 P_{\text{in}}=\text{input power}
-\end{array}
+\end{lgathered}
 $$
 
 ---

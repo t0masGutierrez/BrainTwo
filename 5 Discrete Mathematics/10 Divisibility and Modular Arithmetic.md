@@ -4,36 +4,36 @@
 ---
 ### divisibility formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 b|a\iff\exists c(a=bc)\\
 a=\text{dividend}\\
 b=\text{divisor}\\
 b|a=\text{b divides a}
-\end{array}
+\end{lgathered}
 $$
 
 ---
 ### divisibility addition property
 $$
-\begin{array}{l}
+\begin{lgathered}
 b|a\land b|c\implies b|(a+c)
-\end{array}
+\end{lgathered}
 $$
 
 ---
 ### divisibility multiplication property
 $$
-\begin{array}{l}
+\begin{lgathered}
 b|a\implies\forall c(b|ac)
-\end{array}
+\end{lgathered}
 $$
 
 ---
 ### divisibility transition property
 $$
-\begin{array}{l}
+\begin{lgathered}
 b|a\land a|c\implies b|c
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -43,13 +43,13 @@ $$
 ---
 ### division formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 a=bq+r\\
 b=\text{divisor}\\
 q=\text{quotient}\\
 r=\text{remainder}\\
 a=\text{dividend}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -59,11 +59,11 @@ $$
 ---
 ### quotient formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 q=a\ \text{div}\ b=floor(\frac{a}{b})\\
 a=\text{dividend}\\
 b=\text{divisor}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -73,11 +73,11 @@ $$
 ---
 ### remainder formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 r=a\ \text{mod}\ b=a-bq\\
 a=\text{dividend}\\
 b=\text{divisor}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -87,11 +87,11 @@ $$
 ---
 ### congruence relation formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 a\equiv b(\text{mod}\ m)\iff k=m|(a-b)\\
 n=\text{modulus}\\
 k=Z^{+}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -101,10 +101,10 @@ $$
 ---
 ### congruence operation formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 a+c\equiv b+d\ (\text{mod}\ m)\\
 a\times c\equiv b\times d\ (\text{mod}\ m)
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -115,11 +115,11 @@ $$
 ---
 ### modular arithmetic formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 a+_{m}b\equiv(a+b)\ \text{mod}\ m\equiv[(a\ \text{mod}\ m)+(b\ \text{mod}\ m)]\ \text{mod}\ m\\
 a\times_{m}b\equiv(a\times b)\ \text{mod}\ m\equiv[(a\ \text{mod}\ m)\times(b\ \text{mod}\ m)]\ \text{mod}\ m\\
 Z_{m}=\{0,1,...m-1\}
-\end{array}
+\end{lgathered}
 $$
 
 ---

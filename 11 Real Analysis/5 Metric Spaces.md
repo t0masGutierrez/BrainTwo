@@ -4,9 +4,9 @@
 ---
 ### metric formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 d:X\times X\rightarrow\mathbb R=[0,\infty)
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -16,11 +16,11 @@ $$
 ---
 ### euclidean metric formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 x,y\in\mathbb R^{n}\implies d(x,y)=\|x-y\|=\sum_{i=1}^{n}\sqrt{(x_{i}-y_{i})^{2}}\\
 x,y=\text{coordinate}\\
 \|\cdot\|=\text{norm}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -30,12 +30,12 @@ $$
 ---
 ### metric space formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 x=y\iff d(x,y)=0\\
 x\ne y\implies d(x,y)>0\\
 d(x,y)=d(y,x)\\
 d(x,y)\le d(x,z)+d(z,y)
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -45,12 +45,12 @@ $$
 ---
 ### open ball formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 B_{r}(x_{0})=\{x\in X|d(x,x_{0})<r\}\\
 r=\text{radius}\\
 x_{0}=\text{center}\\
 X=\text{metric space}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -60,14 +60,14 @@ $$
 ---
 ### neighborhood formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \exists r>0:B_{r}(x_{0})\subset N\subset X\\
 r=\text{radius}\\
 B=\text{open ball}\\
 x_{0}=\text{center}\\
 N=\text{neighborhood}\\
 X=\text{metric space}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -77,13 +77,13 @@ $$
 ---
 ### interior point formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \exists r>0:B_{r}(x_{0})\subset S\subset X\\
 r=\text{radius}\\
 B=\text{open ball}\\
 x_{0}=\text{interior point}\\
 X=\text{metric space}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -93,13 +93,13 @@ $$
 ---
 ### limit point formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \forall r>0:B_{r}(x_{0})\setminus\{x_{0}\}\cap(S\subset X)\ne\emptyset\\
 r=\text{radius}\\
 B=\text{open ball}\\
 x_{0}=\text{limit point}\\
 X=\text{metric space}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -109,14 +109,14 @@ $$
 ---
 ### open formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \forall x\in S\subset X,\exists r>0:B_{r}(x)\subset S\\
 x=\text{interior point}\\
 S=\text{open set}\\
 X=\text{metric space}\\
 r=\text{radius}\\
 B=\text{open ball}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -126,14 +126,14 @@ $$
 ---
 ### relatively open formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \forall x\in S\subset Y\subset X,\exists r>0:B_{r}(x)\cap Y\subset S\\
 x=\text{interior point}\\
 S=\text{relatively open set}\\
 X=\text{metric space}\\
 r=\text{radius}\\
 B=\text{open ball}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -143,12 +143,12 @@ $$
 ---
 ### closed formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 S'\subset S\subset X\\
 S'=\text{derived set}\\
 S=\text{closed set}\\
 X=\text{metric space}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -158,13 +158,13 @@ $$
 ---
 ### interior formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 S^{\circ}=\{x\in X|\exists r>0:B_{r}(x)\subset S\subset X\}\\
 x=\text{interior point}\\
 X=\text{metric space}\\
 r=\text{radius}\\
 B=\text{open ball}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -174,10 +174,10 @@ $$
 ---
 ### closure formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \overline S=S\cup S'\\
 S'=\text{derived set}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -187,12 +187,12 @@ $$
 ---
 ### boundary formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \partial S=\overline S\setminus S^{\circ}=\overline S\cap\overline{S^{c}}\\
 \overline S=\text{closure}\\
 S^{\circ}=\text{interior}\\
 c=\text{complement}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -202,12 +202,12 @@ $$
 ---
 ### perfect formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 S'=S\subset X\\
 S'=\text{derived set}\\
 S=\text{perfect set}\\
 X=\text{metric space}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -217,12 +217,12 @@ $$
 ---
 ### dense formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 S\subset\overline S=X\\
 S=\text{dense set}\\
 \overline S=\text{closure}\\
 X=\text{metric space}\\
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -232,13 +232,13 @@ $$
 ---
 ### bounded formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \exists x_{0}\in X,\exists r>0:S\subset B_{r}(x_{0})\subset X\\
 x_{0}=\text{center}\\
 X=\text{metric space}\\
 r=\text{radius}\\
 S=\text{bounded set}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -248,7 +248,7 @@ $$
 ---
 ### totally bounded formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \forall r>0,\exists\set{x_{i}}_{i=1}^{n}\subset X:S\subset\bigcup_{i=1}^{n}B_{r}(x_{i})\subset X\\
 r=\text{radius}\\
 x_{i}=\text{center}\\
@@ -258,7 +258,7 @@ S=\text{totally bounded set}\\
 B=\text{open ball}\\
 
 
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -275,7 +275,7 @@ $$
 ---
 ### euclidean metric property formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 |x|=|-x|\\
 |x|=\sqrt{x^{2}}\\
 |x|\le c\iff-c\le x\le c\\
@@ -284,7 +284,7 @@ $$
 |x+y|\le|x|+|y|\\
 |x-y|\le|x|+|y|\\
 ||x|-|y||\le|x-y|
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -294,12 +294,12 @@ $$
 ---
 ### interval limit point property
 $$
-\begin{array}{l}
+\begin{lgathered}
 S=(a,b)\subset X\implies S'=[a,b]\\
 S=\text{interval}\\
 S'=\text{derived set}\\
 X=\text{metric space}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -309,10 +309,10 @@ $$
 ---
 ### join complement property formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 (\bigcup_{i\in I}S_{i})^{c}=\bigcap_{i\in I}(S_{i}^{c})\\
 c=\text{complement}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -323,14 +323,14 @@ $$
 ---
 ### cover complement property formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 S'\subset S\subset X\iff\forall x\in S^{c},\exists r>0:B_{r}(x)\subset S^{c}\\
 \forall x\in S\subset X,\exists r>0:B_{r}(x)\subset S\iff(S')^{c}\subset S^{c}\\
 S'=\text{derived set}\\
 c=\text{complement}\\
 r=\text{radius}\\
 B=\text{open ball}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -343,12 +343,12 @@ $$
 ---
 ### join cover property formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \forall x\in S\subset X,\exists r>0:B_{r}(x)\subset S\implies B_{r}(x)\subset\bigcup_{i\in I}S_{i}\\
 S'\subset S\subset X\implies S'\subset\bigcap_{i\in I}S_{i}\\
 \forall x\in S\subset X,\exists r>0:B_{r}(x)\subset S\implies B_{r}(x)\subset\bigcap_{i=1}^{n}S_{i}\\
 S'\subset S\subset X\implies S'\subset\bigcup_{i=1}^{n}S_{i}\\
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -362,13 +362,13 @@ $$
 ---
 ### closure property formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \overline S'\subset\overline S\subset X\\
 S'\subset S\subset X\iff\overline S=S\\
 \exists x_{0}\in\mathbb R,\exists r>0:S\subset B_{r}(x_{0})\subset\mathbb R\implies\exists\sup S\in\overline S\\
 (S\subset K)\land(K'\subset K\subset X)\implies\overline S\subset\overline K=K\\
 \overline{\bigcup_{i\in I}A_{i}}=\bigcup_{i\in I}\overline A_{i}\\
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -380,11 +380,11 @@ $$
 ---
 ### totally bounded property formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \forall r>0,\exists\set{x_{i}}_{i=1}^{n}\subset X:S\subset\bigcup_{i=1}^{n}B_{r}(x_{i})\subset X\implies\exists x_{0}\in X,\exists r>0:S\subset B_{r}(x_{0})\\
 \exists x_{0}\in X,\exists r>0:S\subset B_{r}(x_{0})\subset X\not\implies\forall r>0,\exists\set{x_{i}}_{i=1}^{n}\subset X:S\subset\bigcup_{i=1}^{n}B_{r}(x_{i})\\
 \forall r>0,\exists\set{x_{i}}_{i=1}^{n}\subset\mathbb R^{k}:S\subset\bigcup_{i=1}^{n}B_{r}(x_{i})\subset\mathbb R^{k}\iff\exists x_{0}\in\mathbb R^{k},\exists r>0:S\subset B_{r}(x_{0})
-\end{array}
+\end{lgathered}
 $$
 
 ---

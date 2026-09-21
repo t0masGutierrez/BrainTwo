@@ -1,6 +1,6 @@
 ### integral rules
 $$
-\begin{array}{l}
+\begin{lgathered}
 \int du=u+c\\
 \int cf(u)du=c\int f(u)du+c\\
 \int[f(u)\pm g(u)]du=\int f(u)du\pm\int g(u)du+c\\
@@ -22,7 +22,7 @@ $$
 \int\frac{du}{\sqrt{a^{2}-u^{2}}}=\arcsin(\frac{u}{a})+c\\
 \int\frac{du}{a^{2}+u^{2}}=\frac{1}{a}\arctan(\frac{u}{a})+c\\
 \int\frac{du}{u\sqrt{u^{2}-a^{2}}}=\frac{1}{a}\text{arcsec}(\frac{u}{a})+c\\
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -88,9 +88,9 @@ $$
 ---
 ### area of region between two curves formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 A=\int_{a}^{b}[f(x)-g(x)]dx\\
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -119,10 +119,10 @@ $$
 ---
 ### disk method formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 V=\pi\int_{a}^{b}R(x)^{2}dx\\
 R(x)=\text{distance from axis of revolution}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -145,11 +145,11 @@ $$
 ---
 ### washer method formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 V=\pi\int_{a}^{b}[R(x)^{2}-r(x)^{2}]dx\\
 R(x)=\text{big radius}\\
 r(x)=\text{small radius}\\
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -165,10 +165,10 @@ $$
 ---
 ### shell formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 V=2\pi\int_{a}^{b}R(x)f(x)dx\\
 R(x)=\text{distance from the axis of revolution}\\
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -192,9 +192,9 @@ $$
 ---
 ### arc length formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 s=\int_{a}^{b}\sqrt{1+(\frac{dy}{dx})^{2}}dx
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -211,10 +211,10 @@ $$
 ---
 ### surface area formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 S(x)=2\pi\int_{a}^{b}R(x)\sqrt{1+(\frac{dy}{dx})^{2}}dx\\
 S(y)=2\pi\int_{a}^{b}R(y)\sqrt{1+(\frac{dx}{dy})^{2}}dy
-\end{array}
+\end{lgathered}
 $$
 
 ---

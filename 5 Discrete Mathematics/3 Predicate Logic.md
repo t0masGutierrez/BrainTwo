@@ -12,12 +12,12 @@
 ---
 ### proposition formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 P(x)=p\\
 x=\text{subject}\\
 p=\text{proposition}\\
 P=\text{predicate}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -42,9 +42,9 @@ $$
 ---
 ### universal quantification formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \forall xP(x)
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -54,9 +54,9 @@ $$
 ---
 ### existential quantification formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \exists xP(x)
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -66,9 +66,9 @@ $$
 ---
 ### uniqueness quantification formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \exists!xP(x)
-\end{array}
+\end{lgathered}
 $$
 
 ---

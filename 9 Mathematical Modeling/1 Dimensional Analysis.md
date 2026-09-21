@@ -19,12 +19,12 @@
 ---
 ### dimension formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 {}[q]=\prod_{i=1}^{m}D_{i}^{a_{i}}\iff\Delta_{q}=[a_{1},\dots,a_{m}]\in\mathbb R^{m}\\
 q=\text{quantity}\\
 D=\text{dimension}\\
 a=\text{dimensional exponent}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -49,10 +49,10 @@ $$
 ---
 ### dimensional basis formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \text{Span}(D)=\mathcal V\\
 \text{Rank}(D)=m
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -67,14 +67,14 @@ $$
 ---
 ### dimension property formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 {}[p\pm q]\in D\iff[p]=[q]\\
 {}[p\cdot q]=[p]\cdot[q]\\
 {}[\frac{p}{q}]=\frac{[p]}{[q]}\\
 {}[q^{k}]=[q]^{k}\\
 {}[\int p\cdot dq]=[p]\cdot[q]\\
 {}[\frac{d^{k}p}{dq^{k}}]=\frac{[p]}{[q]^{k}}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -86,11 +86,11 @@ $$
 ---
 ### exponent property formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \Delta_{\text{pq}}=\Delta_{p}+\Delta_{q}\\
 \Delta_{p/q}=\Delta_{p}-\Delta_{q}\\
 \Delta_{q^{k}}=k\Delta_{q}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -101,10 +101,10 @@ $$
 ---
 ### dimensionless formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 {}[q]=1\iff\Delta_{q}=0\\
 q=\text{pure number}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -114,12 +114,12 @@ $$
 ---
 ### change of units formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 q'=q\prod_{i=1}^{m}\lambda_{i}^{a_{i}}\\
 q=\text{quantity}\\
 \lambda=\text{unit conversion factor}\\
 a=\text{dimensional exponent}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -129,9 +129,9 @@ $$
 ---
 ### unit-free equation formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 q_{1}=f(q_{2},\dots,q_{n})\implies q_{1}'=f'(q_{2}',\dots,q_{n}')
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -158,11 +158,11 @@ $$
 ---
 ### dimensionless power product formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \pi=\prod_{i=1}^{n}q_{i}^{b_{i}}>0\\
 q=\text{quantity}\\
 b=\text{quantitative exponent}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -177,7 +177,7 @@ $$
 ---
 ### buckingham pi property formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 q_{1}=f(q_{2},\dots,q_{n})\sim\pi_{1}=\phi(\pi_{2},\dots,\pi_{n-m-1})\\
 {}[\pi]=1\iff\Delta_{\pi}=\sum_{i=1}^{n}b_{i}\Delta_{q_{i}}=A\vec b=0\\
 A=[\Delta q_{1},\dots,\Delta q_{n}]\in\mathcal M_{\text{mn}}\\
@@ -185,7 +185,7 @@ A=[\Delta q_{1},\dots,\Delta q_{n}]\in\mathcal M_{\text{mn}}\\
 q=\text{quantity}\\
 \pi=\text{dimensionless power product}\\
 b=\text{quantitative exponent}
-\end{array}
+\end{lgathered}
 $$
 
 ---

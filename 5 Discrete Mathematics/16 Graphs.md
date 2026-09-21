@@ -5,11 +5,11 @@
 ---
 ### graph formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 G=(V,E)\\
 V=\text{set of vertices}\\
 E=\text{set of edges}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -101,20 +101,20 @@ $$
 ---
 ### undirect neighborhood formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 N(v)=\{u\in V|(v,u)\in E\}\\
 v=\text{home vertex}\\
 u=\text{neighbor vertex}
-\end{array}
+\end{lgathered}
 $$
 
 ---
 ### direct neighborhood formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 N^{-}(v)=\{u\in V|(u,v)\in E\}\\
 N^{+}(v)=\{u\in V|(v,u)\in E\}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -124,9 +124,9 @@ $$
 ---
 ### degree of vertex formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 deg(v)=N(v)
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -144,10 +144,10 @@ $$
 ---
 ### undirect handshaking formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \sum_{v\in V}deg(v)=2|E|\\
 |E|=\text{number of edges}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -157,11 +157,11 @@ $$
 ---
 ### edge parity formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \mathbb{E}=2k\\
 \sum_{v\in V}deg(v)=2|E|\\
 \therefore\sum_{v\in V}deg(v)\in\mathbb{E}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -171,11 +171,11 @@ $$
 ---
 ### in degree of vertex formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 deg^{-}(v)=\{u\in V|(u,v)\in E\}\\
 u=\text{initial vertex}\\
 v=\text{terminal vertex}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -185,11 +185,11 @@ $$
 ---
 ### out degree of vertex formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 deg^{+}(v)=\{u\in V|(v,u)\in E\}\\
 v=\text{initial vertex}\\
 u=\text{terminal vertex}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -199,10 +199,10 @@ $$
 ---
 ### direct handshaking formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \sum_{v\in V}deg^{-}(v)=\sum_{v\in V}deg^{+}(v)=|E|\\
 |E|=\text{number of edges}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -213,10 +213,10 @@ $$
 ---
 ### complete graph formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 |E|=\frac{n(n-1)}{2}\\
 n=\text{number of vertices}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -227,10 +227,10 @@ $$
 ---
 ### cycle graph formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 |E|=n\\
 n=\text{number of vertices}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -240,10 +240,10 @@ $$
 
 ---
 $$
-\begin{array}{l}
+\begin{lgathered}
 |E|=2(n-1)\\
 n=\text{number of vertices}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -254,10 +254,10 @@ $$
 ---
 ### hypercube graph formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 |E|=n\times2^{n-1}\\
 n=\text{number of vertices}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -268,9 +268,9 @@ $$
 ---
 ### bipartition formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 V_{1}\cup V_{2}=V\land V_{1}\cap V_{2}=\emptyset
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -308,11 +308,11 @@ $$
 ---
 ### subgraph formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 W\subseteq V\land F\subseteq E\\
 H=(W,F)\\
 G=(V,E)
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -322,11 +322,11 @@ $$
 ---
 ### induce subgraph formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 e\in F\iff(v_{1},v_{2})\in W\\
 H=(W,F)\\
 G=(V,E)
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -336,9 +336,9 @@ $$
 ---
 ### edge addition formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 G+e=(V,E\cup\{e\})
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -348,9 +348,9 @@ $$
 ---
 ### edge subtraction formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 G-e=(V,E-\{e\})
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -360,11 +360,11 @@ $$
 ---
 ### edge contraction formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 V'=V-\{v_{1},v_{2}\}\cup\{w\}\\
 E'=\{e\in E|e\ne w\}\\
 w=\text{merge vertex}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -374,10 +374,10 @@ $$
 ---
 ### vertex subtraction formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 G-v=(V-{v},E')\\
 G=(V,E)
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -387,11 +387,11 @@ $$
 ---
 ### graph union formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 G_{1}\cup G_{2}=V_{1}\cup V_{2}\land E_{1}\cup E_{2}\\
 G_{1}=(V_{1},E_{1})\\
 G_{2}=(V_{2},E_{2})
-\end{array}
+\end{lgathered}
 $$
 
 ---

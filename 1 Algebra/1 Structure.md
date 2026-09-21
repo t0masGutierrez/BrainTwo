@@ -4,9 +4,9 @@
 ---
 ### variable formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 x,y
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -16,9 +16,9 @@ $$
 ---
 ### constant formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 0,1
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -28,11 +28,11 @@ $$
 ---
 ### coefficient formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 ax\\
 a=\text{coefficient}\\
 x=\text{variable}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -42,12 +42,12 @@ $$
 ---
 ### algebraic expression formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 ax+b\\
 a=\text{coefficient}\\
 x=\text{variable}\\
 b=\text{constant}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -57,12 +57,12 @@ $$
 ---
 ### term formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 ax+by+c\implies ax,by,c\\
 a,b=\text{coefficient}\\
 x,y=\text{variable}\\
 c=\text{constant}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -72,12 +72,12 @@ $$
 ---
 ### like term formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 ax^{n}+bx^{n}=(a+b)x^{n}\\
 a,b=\text{coefficient}\\
 x=\text{variable}\\
 n=\text{exponent}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -87,13 +87,13 @@ $$
 ---
 ### operation formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 (+)=\text{addition}\\
 (-)=\text{subtraction}\\
 (\cdot)=\text{multiplication}\\
 (\div)=\text{division}\\
 (^{n})=\text{exponentiation}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -103,14 +103,14 @@ $$
 ---
 ### order of operations formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \text{1. parenthesis}\\
 \text{2. exponents}\\
 \text{3. multiplication}\\
 \text{4. division}\\
 \text{5. addition}\\
 \text{6. subtraction}\\
-\end{array}
+\end{lgathered}
 $$
 
 ---

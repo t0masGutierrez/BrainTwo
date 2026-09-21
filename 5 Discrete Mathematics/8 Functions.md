@@ -4,10 +4,10 @@
 ---
 ### function formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 f:A\rightarrow B\\
 f(a)=b
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -37,9 +37,9 @@ $$
 ---
 ### function equality formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 f=g\iff\forall a,\forall b:f(a)=g(b)
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -50,9 +50,9 @@ $$
 ---
 ### injection formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \forall a,\forall b:f(a)=f(b)\implies a=b
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -62,10 +62,10 @@ $$
 ---
 ### injective property formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \forall a,\forall b:a<b\implies f(a)\le f(b)\\
 \forall a,\forall b:a>b\implies f(a)\ge f(b)
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -76,9 +76,9 @@ $$
 ---
 ### surjection formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \forall b,\exists a:f(a)=b
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -89,9 +89,9 @@ $$
 ---
 ### bijection formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \forall b,\exists!a:f(a)=b
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -109,10 +109,10 @@ $$
 ---
 ### inverse function formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 f:B\to A\\
 f^{-1}(b)=a
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -122,10 +122,10 @@ $$
 ---
 ### invertibility formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \forall a\in A:(f^{-1}\circ f)(a)=f^{-1}(b)=a\\
 \forall b\in B:(f\circ f^{-1})(b)=f(a)=b
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -136,10 +136,10 @@ $$
 ---
 ### composite function formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 f:A\to B\to C\\
 (f\circ g)(a)=c
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -150,9 +150,9 @@ $$
 ---
 ### identity function formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 f(a)=a
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -162,9 +162,9 @@ $$
 ---
 ### identity formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 f=(f^{-1})^{-1}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -174,9 +174,9 @@ $$
 ---
 ### graph formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \{(a,b)|a\in A,f(a)=b\}
-\end{array}
+\end{lgathered}
 $$
 
 ---

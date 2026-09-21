@@ -5,7 +5,7 @@
 ---
 ### scale formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 D=\{(t,y)\in[-a,a]\times[-b,b]|p_{1}a\le t\le p_{2}b,q_{1}a\le y\le q_{2}b\}\\
 y=f(t,c_{1},\dots,c_{n})\\
 p_{1},p_{2},q_{1},q_{2}\in\mathbb Z\\
@@ -15,7 +15,7 @@ D=\text{domain}\\
 t,y=\text{variable}\\
 a,b=\text{scaling factor}\\
 c=\text{parameter}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -29,9 +29,9 @@ $$
 ---
 ### scale example formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \{a,b\}=\{0.001\text{s},0.005\text{m}\},\{0.02\text{s},0.02\text{m}\},\{0.15\text{s},0.10\text{m}\},\{10\text{s},200\text{m}\}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -42,7 +42,7 @@ $$
 ---
 ### scale transformation formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 (\bar t=\frac{t}{a})\land(\bar y=\frac{y}{b})\implies\bar D=\{(\bar t,\bar y)\in[-1,1]\times[-1,1]|p_{1}\le\bar t\le p_{2},q_{1}\le\bar y\le q_{2}\}\\
 \bar y=\frac{1}{b}f(a\bar t,c_{1},\dots,c_{N})=\bar f(\bar t,a,b,c_{1},\dots,c_{n})\\
 p_{1},p_{2},q_{1},q_{2}\in\mathbb Z\\
@@ -52,7 +52,7 @@ p_{1},p_{2},q_{1},q_{2}\in\mathbb Z\\
 \bar t,\bar y=\text{variable}\\
 a,b=\text{scaling factor}\\
 c=\text{parameter}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -66,9 +66,9 @@ $$
 ---
 ### scale transformation example formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 \{a,b\}=\{-1,1\}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -78,11 +78,11 @@ $$
 ---
 ### scale derivative property formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 (\bar t=\frac{t}{a})\land(\bar y=\frac{y}{b})\implies\frac{d^{k}\bar y}{d\bar t^{k}}=(\frac{a^{k}}{b})(\frac{d^{k}y}{dt^{k}})\\
 \bar t,\bar y=\text{variable}\\
 a,b=\text{scaling factor}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -92,10 +92,10 @@ $$
 ---
 ### characteristic scale formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 b=\max_{t\in I}|y|\\
 a=\frac{b}{\max_{t\in I}|\frac{dy}{dt}|}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -105,7 +105,7 @@ $$
 ---
 ### associative scale formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 (a=\prod_{i=1}^{n}c_{i}^{\alpha_{i}})\land([a]=[t])\iff\Delta_{a}=A\alpha=\Delta_{t}\\
 (b=\prod_{i=1}^{n}c_{i}^{\beta_{i}})\land([b]=[y])\iff\Delta_{b}=A\beta=\Delta_{y}\\
 A=[\Delta_{c_{1}},\dots,\Delta_{c_{n}}]\in\mathcal M_{m\le n}\\
@@ -115,7 +115,7 @@ t,y=\text{variable}\\
 a,b=\text{scaling factor}\\
 \alpha,\beta=\text{parameter exponent}\\
 c=\text{parameter}
-\end{array}
+\end{lgathered}
 $$
 
 ---
@@ -125,13 +125,13 @@ $$
 ---
 ### scaling property formula
 $$
-\begin{array}{l}
+\begin{lgathered}
 (\bar t=\frac{t}{a})\land(\bar y=\frac{y}{b})\implies\bar y=\phi(\bar t,\mu_{1},\dots,\mu_{m})\\
 {}[\mu]=1\\
 t,y,=\text{variable}\\
 a,b=\text{scaling factor}\\
 \mu=\text{parameter}\\
-\end{array}
+\end{lgathered}
 $$
 
 ---
