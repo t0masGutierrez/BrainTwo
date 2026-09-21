@@ -5,7 +5,9 @@ from urllib.parse import quote, unquote
 
 INLINE_MATH_PATTERN = re.compile(r"(?<!\\)\$(.+?)(?<!\\)\$")
 MULTI_LETTER_SUBSCRIPT_PATTERN = re.compile(r"(?<!\\)_\{([A-Za-z]{2,})\}")
+EMPTY_FRACTION_PATTERN = re.compile(r"\\frac\s*\{\s*\}")
 MATH_ENVIRONMENT_LINE_PATTERN = re.compile(r"^(\s*)\\(begin|end)\{([^}]*)\}(\s*)$")
+ALIGN_ENVIRONMENT_LINE_PATTERN = re.compile(r"^(\s*)\\(begin|end)\{align\}(\s*)$")
 LINE_ENDING_PATTERN = re.compile(r"(\r?\n)$")
 LEADING_SQUARE_BRACKET_PATTERN = re.compile(r"^(\s*)\[")
 OBSIDIAN_IMAGE_PATTERN = re.compile(r"!\[\[([^|\]\n]+)(?:\|([^\]\n]+))?\]\]")
@@ -17,6 +19,68 @@ TEXT_ARGUMENT_COMMANDS = {"\\operatorname", "\\text"}
 VAULT_ROOT = os.path.join(os.path.expanduser("~"), "Obsidian", "BrainTwo")
 OUTPUT_ROOT = os.path.join(os.path.expanduser("~"), "GitHub", "BrainTwo")
 
+LATEX_STRUCTURE_PATTERN = re.compile(
+    r"%[^\n]*|\\(?P<direction>begin|end)\{(?P<environment>[^}]+)\}"
+    r"|\\\\\*?(?:[ \t]*\[[^\]\n]*\])?|\\[A-Za-z]+|\\.|[{}&]"
+)
+
+def convert_align_environments(text):
+    """Use lgathered for outer align and single left-column display blocks.
+
+    One outer alignment marker per row can be removed for the single column.
+    Blocks with multiple outer markers per row are left for manual review.
+    """
+    def convert_display(match):
+        body = match.group(1)
+        stack = []
+        brace_depth = 0
+        active = None
+        edits = []
+        for token in LATEX_STRUCTURE_PATTERN.finditer(body):
+            value = token.group()
+            if value.startswith('%'):
+                continue
+            direction = token.group('direction')
+            environment = token.group('environment')
+            if direction == 'begin':
+                if not stack and brace_depth == 0:
+                    column = re.match(r'\s*\{l\}', body[token.end():]) if environment == 'array' else None
+                    if environment in {'align', 'align*', 'aligned'} or column:
+                        active = {'begin': token, 'begin_end': token.end() + (column.end() if column else 0),
+                                  'array': environment == 'array', 'markers': [], 'row_markers': 0, 'columns': False}
+                stack.append(environment)
+            elif direction == 'end':
+                if not stack or stack[-1] != environment:
+                    return match.group(0)
+                if active and len(stack) == 1:
+                    if not active['columns'] and brace_depth == 0:
+                        edits.append((active['begin'].start(), active['begin_end'], r'\begin{lgathered}'))
+                        edits.append((token.start(), token.end(), r'\end{lgathered}'))
+                        edits.extend((start, end, '') for start, end in active['markers'])
+                    active = None
+                stack.pop()
+            elif value == '{':
+                brace_depth += 1
+            elif value == '}':
+                brace_depth -= 1
+                if brace_depth < 0:
+                    return match.group(0)
+            elif active and len(stack) == 1 and brace_depth == 0:
+                if value == '&':
+                    active['markers'].append((token.start(), token.end()))
+                    active['row_markers'] += 1
+                    if active['array'] or active['row_markers'] > 1:
+                        active['columns'] = True
+                elif value.startswith('\\\\'):
+                    active['row_markers'] = 0
+        if stack or brace_depth:
+            return match.group(0)
+        for start, end, replacement in sorted(edits, reverse=True):
+            body = body[:start] + replacement + body[end:]
+        return '$$' + body + '$$'
+
+    return re.sub(r'\$\$([\s\S]*?)\$\$', convert_display, text)
+
 def sanitize_math_text(text):
     line_ending_match = LINE_ENDING_PATTERN.search(text)
     line_ending = line_ending_match.group(1) if line_ending_match else ""
@@ -24,6 +88,7 @@ def sanitize_math_text(text):
 
     environment_match = MATH_ENVIRONMENT_LINE_PATTERN.match(body)
     if environment_match:
+        body = normalize_align_environment_line(body)
         return body + line_ending
 
     leading_match = re.match(r"\s*", body)
@@ -33,13 +98,21 @@ def sanitize_math_text(text):
         return text
 
     normalized_body = normalize_multichar_subscripts(stripped_body)
-    return leading + compact_math_tokens(normalized_body) + line_ending
+    normalized_body = compact_math_tokens(normalized_body)
+    validate_latex_fragment(normalized_body)
+    return leading + normalized_body + line_ending
 
 def trim_trailing_whitespace(text):
     line_ending_match = LINE_ENDING_PATTERN.search(text)
     line_ending = line_ending_match.group(1) if line_ending_match else ""
     body = text[: -len(line_ending)] if line_ending else text
     return body.rstrip(" \t") + line_ending
+
+def normalize_align_environment_line(text):
+    return ALIGN_ENVIRONMENT_LINE_PATTERN.sub(
+        lambda match: f"{match.group(1)}\\{match.group(2)}{{align*}}{match.group(3)}",
+        text,
+    )
 
 def compact_math_tokens(text):
     parts = []
@@ -140,6 +213,13 @@ def normalize_multichar_subscripts(text):
         text,
     )
 
+def validate_latex_fragment(text):
+    if EMPTY_FRACTION_PATTERN.search(text):
+        raise ValueError(
+            r"Invalid LaTeX: \\frac{} has an empty numerator. "
+            "Keep both fraction arguments on the same align line."
+        )
+
 def read_number(text, start):
     i = start
     while i < len(text) and text[i].isdigit():
@@ -160,6 +240,7 @@ def sanitize_inline_math(line):
     )
 
 def sanitize_markdown_math(text, protect_leading_square_brackets=False):
+    text = convert_align_environments(text)
     lines = text.splitlines(keepends=True)
     in_math_block = False
 
@@ -189,7 +270,7 @@ def is_heading_candidate(line):
     return not stripped.startswith(blocked_prefixes)
 
 def format_generated_markdown_lines(lines):
-    formatted_lines = list(lines)
+    formatted_lines = convert_align_environments(''.join(lines)).splitlines(keepends=True)
     in_math_block = False
 
     for i in range(len(formatted_lines)):
@@ -224,6 +305,7 @@ def format_generated_markdown_lines(lines):
 
         # replace alignment
         if pattern3:
+            formatted_lines[i] = normalize_align_environment_line(formatted_lines[i])
             formatted_lines[i] = formatted_lines[i].replace("align*", "aligned")
 
         if in_math_block:

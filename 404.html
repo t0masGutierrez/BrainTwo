@@ -750,7 +750,8 @@
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script>
         window.MathJax = {
-            tex: { inlineMath: [['$','$'], ['\\(','\\)']], displayMath: [['$$','$$'], ['\\[','\\]']] },
+            loader: { load: ['[tex]/mathtools'] },
+            tex: { packages: { '[+]': ['mathtools'] }, inlineMath: [['$','$'], ['\\(','\\)']], displayMath: [['$$','$$'], ['\\[','\\]']] },
             svg: { fontCache: 'global' }
         };
     </script>
@@ -1073,7 +1074,7 @@
         static _wrapDisplayMathBody(body, maxChars) {
             const lines = String(body || '').split('\n');
             const containsEnvironment = /\\begin\{[^}]+\}/.test(body);
-            const supportedEnvironment = /\\begin\{(?:aligned|gathered|array)\}/.test(body);
+            const supportedEnvironment = /\\begin\{(?:aligned|gathered|lgathered|array)\}/.test(body);
             if (containsEnvironment && !supportedEnvironment) return body;
 
             const wrappedLines = lines.map(line => this._wrapDisplayMathLine(line, maxChars));
