@@ -10,7 +10,7 @@
 ---
 ### goodness of fit chi-square-score formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \chi^{2}=\sum_{i=1}^{k}\frac{(O_{i}-E_{i})^{2}}{E_{i}}\\
 \chi^{2}=\sum_{i=1}^{k}\frac{(O_{i}-E_{i})^{2}}{E_{i}}\\
 E_i=np_{i}\\
@@ -20,7 +20,7 @@ O=\text{observed counts}\\
 E=\text{expected counts}\\
 n=\text{sample size}\\
 p=\text{proportion}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -30,10 +30,10 @@ $$
 ---
 ### chi-square goodness of fit null hypothesis formula
 $$
-\begin{aligned}
+\begin{array}{l}
 H_{0}:(p_{1},\dots,p_{k})=(p_{1},\dots,p_{k})_{0}\\
 p=\text{proportion}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -43,10 +43,10 @@ $$
 ---
 ### chi-square goodness of fit alternative hypothesis formula
 $$
-\begin{aligned}
+\begin{array}{l}
 H_{1}:(p_{1},\dots,p_{k})\ne(p_{1},\dots,p_{k})_{0}\\
 p=\text{proportion}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -62,7 +62,7 @@ $$
 ---
 ### independence chi-square-score formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \chi^{2}=\sum_{i=1}^{r}\sum_{j=1}^{c}\frac{(O_{\text{ij}}-E_{\text{ij}})^{2}}{E_{\text{ij}}}\\
 E=\frac{rc}{r+c}\\
 df=(r-1)(c-1)\\
@@ -71,7 +71,7 @@ O=\text{observed counts}\\
 E=\text{expected counts}\\
 r=\text{number of rows}\\
 c=\text{number of columns}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -81,9 +81,9 @@ $$
 ---
 ### chi-square independence null hypothesis formula
 $$
-\begin{aligned}
+\begin{array}{l}
 H_{0}:\forall i,j\ P(A_{i}\cap B_{j})=P(A_{i})P(B_{j})
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -93,9 +93,9 @@ $$
 ---
 ### chi-square independence alternative hypothesis formula
 $$
-\begin{aligned}
+\begin{array}{l}
 H_{1}:\exists i,j\ P(A_{i}\cap B_{j})\ne P(A_{i})P(B_{j})
-\end{aligned}
+\end{array}
 $$
 
 ---

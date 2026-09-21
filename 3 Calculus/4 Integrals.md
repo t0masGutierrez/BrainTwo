@@ -4,10 +4,10 @@
 ---
 ### antiderivative formula
 $$
-\begin{aligned}
+\begin{array}{l}
 y=F(x)+c\\
 c=\text{constant of integration}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -43,11 +43,11 @@ $$
 ---
 ### indefinite integral formula
 $$
-\begin{aligned}
+\begin{array}{l}
 y=\int f(x)dx\\
 f(x)=\text{integrand}\\
 dx=\text{variable of integration}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -63,12 +63,12 @@ $$
 ---
 ### position formula
 $$
-\begin{aligned}
+\begin{array}{l}
 s(t)=\frac{1}{2}gt^{2}+v_{0}t+s_{0}\\
 g=\text{gravity}\\
 v=\text{velocity}\\
 s=\text{position}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -87,13 +87,13 @@ $$
 ---
 ### sigma formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \sum_{k=1}^{n}f(x_{k})=f(x_{1})+f(x_{2})+...+f(x_{n})\\
 k=\text{index}\\
 n=\text{number of terms}\\
 \sum=\text{summation}\\
 f(x_{k})=\text{kth term}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -106,28 +106,28 @@ $$
 ---
 ### area formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \text{area}=\text{width}\times\text{height}
-\end{aligned}
+\end{array}
 $$
 
 ---
 ### rectangle width formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \Delta x=\frac{b-a}{n}\\
 a=\text{lower endpoint}\\
 b=\text{upper endpoint}\\
 n=\text{number of subintervals}
-\end{aligned}
+\end{array}
 $$
 
 ---
 ### rectangle height formula
 $$
-\begin{aligned}
+\begin{array}{l}
 y=f(x_{k})
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -138,11 +138,11 @@ $$
 ---
 ### subinterval endpoint formula
 $$
-\begin{aligned}
+\begin{array}{l}
 x_{k}=a+(k)\Delta x\\
 x_{k-1}=a+(k-1)\Delta x\\
 a=\text{lower endpoint}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -153,9 +153,9 @@ $$
 ---
 ### inscribed rectangle area formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \text{area}=f(m_{k})\Delta x
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -166,9 +166,9 @@ $$
 ---
 ### circumscribed rectangle area formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \text{area}=f(M_{k})\Delta x
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -179,9 +179,9 @@ $$
 ---
 ### lower sum formula
 $$
-\begin{aligned}
+\begin{array}{l}
 s(n)=\sum_{k=1}^{n}f(m_{k})\Delta x
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -192,9 +192,9 @@ $$
 ---
 ### upper sum formula
 $$
-\begin{aligned}
+\begin{array}{l}
 S(n)=\sum_{k=1}^{n}f(M_{k})\Delta x
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -204,11 +204,11 @@ $$
 ---
 ### limit of sums formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \lim_{n\to\infty}s(n)=\lim_{n\to\infty}\sum_{k=1}^{n}f(m_{k})\Delta x\\
 \lim_{n\to\infty}S(n)=\lim_{n\to\infty}\sum_{k=1}^{n}f(M_{k})\Delta x\\
 \lim_{n\to\infty}s(n)=\lim_{n\to\infty}S(n)
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -220,10 +220,10 @@ $$
 ---
 ### area of planar region formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \text{area}=\lim_{n\to\infty}\sum_{k=1}^{n}f(c_{k})\\
 x_{k-1}\le c_{k}\le x_{k}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -234,10 +234,10 @@ $$
 ---
 ### riemann sum formula
 $$
-\begin{aligned}
+\begin{array}{l}
 S=\sum_{k=1}^{n}f(x_{k})\Delta x\\
 \Delta x=x_{k}-x_{k-1}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -247,10 +247,10 @@ $$
 ---
 ### partition formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \Delta[a,b]=\{x_{0},x_{1},x_{2}...x_{n}\}=[x_{k-1},x_{k}]\\
 a=x_{0}<x_{1}<x_{2}...x_{n}=b
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -268,9 +268,9 @@ $$
 ---
 ### definite integral formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \int_{a}^{b}f(x)dx=\lim_{n\to\infty}\sum_{k=1}^{n}f(x_{k})\Delta x
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -280,49 +280,49 @@ $$
 ---
 ### negative rule
 $$
-\begin{aligned}
+\begin{array}{l}
 \int_{b}^{a}f(x)dx=-\int_{a}^{b}f(x)dx
-\end{aligned}
+\end{array}
 $$
 
 ---
 ### zero rule
 $$
-\begin{aligned}
+\begin{array}{l}
 \int_{a}^{a}f(x)dx=0
-\end{aligned}
+\end{array}
 $$
 
 ---
 ### constant multiple rule
 $$
-\begin{aligned}
+\begin{array}{l}
 \int_{a}^{b}cf(x)dx=c\times\int_{a}^{b}f(x)dx
-\end{aligned}
+\end{array}
 $$
 
 ---
 ### sum difference rule
 $$
-\begin{aligned}
+\begin{array}{l}
 \int_{a}^{b}[f(x)\pm g(x)]dx=\int_{a}^{b}f(x)dx\pm\int_{a}^{b}g(x)dx
-\end{aligned}
+\end{array}
 $$
 
 ---
 ### additive rule
 $$
-\begin{aligned}
+\begin{array}{l}
 \int_{a}^{c}f(x)dx=\int_{a}^{b}f(x)dx+\int_{b}^{c}f(x)dx
-\end{aligned}
+\end{array}
 $$
 
 ---
 ### inequality rule
 $$
-\begin{aligned}
+\begin{array}{l}
 f(x)\le g(x)\to0\le\int_{a}^{b}f(x)dx\le\int_{a}^{b}g(x)dx
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -333,9 +333,9 @@ $$
 ---
 ### fundamental formula of calculus
 $$
-\begin{aligned}
+\begin{array}{l}
 \int_{a}^{b}f(x)dx=F(b)-F(a)
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -346,9 +346,9 @@ $$
 ---
 ### mean value formula of integration
 $$
-\begin{aligned}
+\begin{array}{l}
 \int_{a}^{b}f(x)dx=f(x)(b-a)
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -359,9 +359,9 @@ $$
 ---
 ### average function value formula
 $$
-\begin{aligned}
+\begin{array}{l}
 f(c)=\frac{1}{b-a}\int_{a}^{b}f(x)dx
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -371,10 +371,10 @@ $$
 ---
 ### accumulation formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \int_{a}^{x}f(t)dt=F(x)-F(a)\\
 x=\text{variable endpoint}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -389,18 +389,18 @@ $$
 ---
 ### fundamental formula of calculus
 $$
-\begin{aligned}
+\begin{array}{l}
 \frac{d}{dx}\int_{a}^{u}f(t)dt=f(u)\frac{du}{dx}\\
 u=\text{variable function endpoint}
-\end{aligned}
+\end{array}
 $$
 
 ---
 ### chain rule
 $$
-\begin{aligned}
+\begin{array}{l}
 \frac{dF}{dx}=\frac{dF}{du}\times\frac{du}{dx}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -410,9 +410,9 @@ $$
 ---
 ### net change formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \int_{a}^{b}f'(x)dx=f(b)-f(a)
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -423,10 +423,10 @@ $$
 ---
 ### displacement formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \int_{a}^{b}v(t)dt=s(b)-s(a)\\
 v=\text{velocity}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -441,10 +441,10 @@ $$
 ---
 ### distance formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \int_{a}^{b}|v(t)|dt=\sum|s(b)-s(a)|\\
 v=\text{velocity}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -459,9 +459,9 @@ $$
 ---
 ### antiderivative of composite formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \int_{a}^{b}(f\circ g)(x)g'(x)dx=(F\circ g)(x)+c
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -475,9 +475,9 @@ $$
 ---
 ### constant multiple rule
 $$
-\begin{aligned}
+\begin{array}{l}
 \int_{a}^{b}(f\circ g)(x)cg'(x)dx=\frac{1}{c}(F\circ g)(x)+c
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -487,11 +487,11 @@ $$
 ---
 ### change of variable formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \int(f\circ g)(x)g'(x)dx=\int f(u)du=F(u)+c\\
 u=g(x)\\
 du=g'(x)dx
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -509,11 +509,11 @@ $$
 ---
 ### definite integral change of variable formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \int_{a}^{b}(f\circ g)(x)g'(x)dx=\int_{g(a)}^{g(b)}f(u)du=F(u)+c\\
 u=g(x)\\
 du=g'(x)dx
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -525,9 +525,9 @@ $$
 ---
 ### definite integration of even function formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \int_{-a}^{a}f(x)dx=2\int_{0}^{a}f(x)dx
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -539,9 +539,9 @@ $$
 ---
 ### definite integration of odd function formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \int_{-a}^{a}f(x)dx=0
-\end{aligned}
+\end{array}
 $$
 
 ---

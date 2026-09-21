@@ -4,11 +4,11 @@
 ---
 ### bounded above formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \exists u\in\mathbb R,\forall x\in S\subset\mathbb R:x\le u\\
 S=\text{bounded above set}\\
 u=\text{upper bound}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -18,11 +18,11 @@ $$
 ---
 ### bounded below formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \exists w\in\mathbb R,\forall x\in S\subset\mathbb R:w\le x\\
 S=\text{bounded below set}\\
 w=\text{lower bound}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -32,12 +32,12 @@ $$
 ---
 ### bounded formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \exists u,w\in\mathbb R,\forall x\in S\subset\mathbb R:w\le x\le u\\
 S=\text{bounded set}\\
 u=\text{upper bound}\\
 w=\text{lower bound}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -47,12 +47,12 @@ $$
 ---
 ### unbounded formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \exists u,w\in\mathbb R,\exists x\in S\subset\mathbb R:(x<w)\lor(x>u)\\
 S=\text{unbounded set}\\
 u=\text{upper bound}\\
 w=\text{lower bound}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -62,11 +62,11 @@ $$
 ---
 ### supremum formula
 $$
-\begin{aligned}
+\begin{array}{l}
 (\forall x\in S\subset\mathbb R:x\le u)\land(\exists u'\in\mathbb R:u'<u\implies\exists x\in S:x>u')\implies u=\sup S\\
 S=\text{bounded above set}\\
 u=\text{supremum}\\
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -76,11 +76,11 @@ $$
 ---
 ### infimum formula
 $$
-\begin{aligned}
+\begin{array}{l}
 (\forall x\in S\subset\mathbb R:w\le x)\land(\exists w'\in\mathbb R:w'>w\implies\exists x\in S:x<w')\implies w=\inf S\\
 S=\text{bounded below set}\\
 w=\text{infimum}\\
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -90,11 +90,11 @@ $$
 ---
 ### least upper bound property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \exists u\in\mathbb R,\forall x\in S\subset\mathbb R:x\le u\implies\exists\sup S\in\mathbb R\\
 S=\text{bounded above set}\\
 u=\text{upper bound}\\
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -104,11 +104,11 @@ $$
 ---
 ### greatest lower bound property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \exists w\in\mathbb R,\forall x\in S\subset\mathbb R:w\le x\implies\exists\inf S\in\mathbb R\\
 S=\text{bounded below set}\\
 w=\text{lower bound}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -118,10 +118,10 @@ $$
 ---
 ### negative supremum property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \inf S=-\sup(-S)\\
 S=\text{bounded set}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -131,11 +131,11 @@ $$
 ---
 ### epsilon supremum property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \forall\epsilon>0,\exists x\in S\subset\mathbb R:u-\epsilon<x<u\implies u=\sup S\\
 S=\text{bounded above set}\\
 u=\text{supremum}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -145,10 +145,10 @@ $$
 ---
 ### subset supremum property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 S_{2}\subset S_{1}\subset\mathbb R\implies\sup S_{2}\le\sup S_{1}\\
 S=\text{bounded above set}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -158,10 +158,10 @@ $$
 ---
 ### maximum supremum property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \sup S\in S\implies\sup S=\max S\\
 S=\text{bounded above set}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -171,10 +171,10 @@ $$
 ---
 ### addition supremum property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \sup(S_{1}+S_{2})=\sup S_{1}+\sup S_{2}\\
 S=\text{bounded above set}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -184,10 +184,10 @@ $$
 ---
 ### union supremum property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \sup(S_{1}\cup S_{2})=\max\set{\sup S_{1},\sup S_{2}}\\
 S=\text{bounded above set}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -197,9 +197,9 @@ $$
 ---
 ### archimedean property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \forall x\in\mathbb R^{+},\forall y\in\mathbb R,\exists n\in\mathbb N:y<nx
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -209,9 +209,9 @@ $$
 ---
 ### density property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 (x,y\in\mathbb R)\land(x<y)\implies\exists q\in\mathbb Q:x<q<y
-\end{aligned}
+\end{array}
 $$
 
 ---

@@ -5,14 +5,14 @@
 ---
 ### damped harmonic oscillator formula
 $$
-\begin{aligned}
+\begin{array}{l}
 m\frac{d^{2}x}{dt^{2}}+b\frac{dx}{dt}+kx=0\\
 m=\text{mass}\\
 x=\text{position}\\
 t=\text{time}\\
 b=\text{damping coefficient}\\
 k=\text{spring constant}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -23,7 +23,7 @@ $$
 ---
 ### underdamped harmonic oscillator formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \gamma<\omega_0\implies x(t)=A_{0}\exp(-\gamma t)\cos(\omega_1t+\phi)\\
 A=\sqrt{x_0^2+(\frac{v_0+\gamma x_0}{\omega_1})^2}\\
 \phi=\arctan(\frac{-v_0-\gamma x_0}{\omega_1x_0})\\
@@ -41,7 +41,7 @@ v=\text{velocity}\\
 b=\text{damping coefficient}\\
 m=\text{mass}\\
 k=\text{spring constant}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -51,14 +51,14 @@ $$
 ---
 ### damped RLC harmonic oscillator formula
 $$
-\begin{aligned}
+\begin{array}{l}
 L\frac{d^{2}q}{dt^{2}}+R\frac{dq}{dt}+\frac{q}{C}=0\\
 L=\text{self inductance}\\
 q=\text{electric charge}\\
 t=\text{time}\\
 R=\text{resistance}\\
 C=\text{capacitance}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -68,7 +68,7 @@ $$
 ---
 ### underdamped RLC harmonic oscillator formula
 $$
-\begin{aligned}
+\begin{array}{l}
 R^{2}<\frac{4L}{C}\implies q(t)=A_0\exp(-\gamma t)\cos(\omega_1t+\phi)\\
 A=\sqrt{q_0^2+(\frac{i_0+\gamma q_0}{\omega_1})^2}\\
 \phi=\arctan(\frac{-i_0-\gamma q_0}{\omega_1q_0})\\
@@ -85,7 +85,7 @@ A=\text{amplitude}\\
 \omega=\text{angular frequency}\\
 \phi=\text{phase angle}\\
 i=\text{electric current}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -96,7 +96,7 @@ $$
 ---
 ### driven damped harmonic oscillator formula
 $$
-\begin{aligned}
+\begin{array}{l}
 m\frac{d^{2}x}{dt^{2}}+b\frac{dx}{dt}+kx=F_0\cos(\Omega t)\\
 x(t)=A\cos(\Omega t+\phi)\\
 A=\frac{F_0}{m}\sqrt{\frac{1}{(\omega_0^2-\Omega^2)^{2}+(2\gamma\Omega)^2}}\\
@@ -111,7 +111,7 @@ F=\text{force}\\
 A=\text{amplitude}\\
 \phi=\text{phase angle}\\
 \gamma=\text{damping frequency}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -121,7 +121,7 @@ $$
 ---
 ### driven damped RLC harmonic oscillator formula
 $$
-\begin{aligned}
+\begin{array}{l}
 L\frac{d^{2}q}{dt^{2}}+R\frac{dq}{dt}+\frac{q}{C}=V_0\cos(\Omega t)\\
 q(t)=A\cos(\Omega t+\phi)\\
 A=\frac{V_0}{L}\sqrt{\frac{1}{(\omega_0^2-\Omega^2)^{2}+(2\gamma\Omega)^2}}\\
@@ -136,7 +136,7 @@ V=\text{voltage}\\
 A=\text{amplitude}\\
 \phi=\text{phase angle}\\
 \gamma=\text{damping frequency}
-\end{aligned}
+\end{array}
 $$
 
 ---

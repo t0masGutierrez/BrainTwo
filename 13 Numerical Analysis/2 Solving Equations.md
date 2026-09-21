@@ -4,11 +4,11 @@
 ---
 ### p decimal place correctness formula
 $$
-\begin{aligned}
+\begin{array}{l}
 |r-r_c|<\frac{1}{2}\times10^{-p}\\
 r=\text{real root}\\
 r_c=\text{computed root}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -18,11 +18,11 @@ $$
 ---
 ### intermediate value formula
 $$
-\begin{aligned}
+\begin{array}{l}
 f(a)\le N\le f(b)\implies\exists x\in[a,b]:f(x)=N\\
 f=\text{continuous function}\\
 a,b=\text{endpoint}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -33,7 +33,7 @@ $$
 ---
 ### bisection method formula
 $$
-\begin{aligned}
+\begin{array}{l}
 {}[a_0,b_0]\\
 c_n=\frac{a_n+b_n}{2}\\
 n=0,1,2,\dots\\
@@ -42,7 +42,7 @@ n=0,1,2,\dots\\
 {}[c_n,b_n],\quad f(c_n)f(b_n)<0
 \end{cases}\\
 f(c_n)=0\implies r_c=c_n
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -52,7 +52,7 @@ $$
 ---
 ### bisection convergence formula
 $$
-\begin{aligned}
+\begin{array}{l}
 |r-r_c|\le\frac{b-a}{2^{n+1}}\implies\lim_{n\rightarrow\infty}\frac{e_{n+1}}{e_n}=\frac{1}{2}\\
 n>\frac{\log(b-a)+p}{\log(2)}\implies|r-r_c|<\frac{1}{2}\times10^{-p}\\
 r=\text{real root}\\
@@ -61,7 +61,7 @@ e=\text{absolute error}\\
 a,b=\text{endpoint}\\
 n=\text{number of iterations}\\
 p=\text{exponent}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -71,11 +71,11 @@ $$
 ---
 ### fixed point formula
 $$
-\begin{aligned}
+\begin{array}{l}
 x=f(x)\\
 x=\text{fixed point}\\
 f=\text{function}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -86,13 +86,13 @@ $$
 ---
 ### fixed point method formula
 $$
-\begin{aligned}
+\begin{array}{l}
 x_0\\
 x_{n+1}=g(x_n)\\
 n=0,1,2,\dots\\
 \forall\epsilon>0,\exists N\in\mathbb N,\forall n\ge N:|x_{n+1}-x_n|<\epsilon\implies\\
 r_c=\lim_{n\rightarrow\infty}x_{n+1}=\lim_{n\rightarrow\infty}g(r_c)=g(r_c)
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -102,13 +102,13 @@ $$
 ---
 ### fixed point convergence formula
 $$
-\begin{aligned}
+\begin{array}{l}
 0<|g'(r)|<1\implies\lim_{n\rightarrow\infty}\frac{e_{n+1}}{e_n}=|g'(r)|\\
 g(r)=g'(r)=g''(r)=\dots=g^{(p-1)}(r)=0\ne g^{(p)}(r)\implies\lim_{n\rightarrow\infty}\frac{e_{n+1}}{e_n^p}=\frac{|g^{(p)}(r)|}{p!}\\
 g=\text{function}\\
 e=\text{absolute error}\\
 r=\text{real root}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -118,11 +118,11 @@ $$
 ---
 ### forward error formula
 $$
-\begin{aligned}
+\begin{array}{l}
 |r-r_c|\\
 r=\text{real root}\\
 r_c=\text{computed root}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -132,10 +132,10 @@ $$
 ---
 ### backward error formula
 $$
-\begin{aligned}
+\begin{array}{l}
 |f(r_c)|\\
 r_c=\text{computed root}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -145,11 +145,11 @@ $$
 ---
 ### simple root formula
 $$
-\begin{aligned}
+\begin{array}{l}
 f(r)=0\ne f'(r)\\
 f=\text{function}\\
 r=\text{real root}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -159,12 +159,12 @@ $$
 ---
 ### multiple root formula
 $$
-\begin{aligned}
+\begin{array}{l}
 f(r)=f'(r)=f''(r)=\dots=f^{(m-1)}(r)=0\ne f^{(m)}(r)\\
 f=\text{function}\\
 r=\text{real root}\\
 m=\text{multiplicity}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -174,11 +174,11 @@ $$
 ---
 ### perturbed equation formula
 $$
-\begin{aligned}
+\begin{array}{l}
 f(x)+\epsilon g(x)=0\\
 f,g=\text{function}\\
 \epsilon=\text{parameter}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -189,7 +189,7 @@ $$
 ---
 ### root sensitivity formula
 $$
-\begin{aligned}
+\begin{array}{l}
 |r-r_c|\approx\frac{-g(r)}{f'(r)}\epsilon\\
 m>1\implies|r-r_c|\approx(\frac{|g(r)|m!}{|f^{(m)}(r)|}|\epsilon|)^{1/m}\\
 r=\text{real root}\\
@@ -197,7 +197,7 @@ r_c=\text{computed root}\\
 f,g=\text{function}\\
 \epsilon=\text{parameter}\\
 m=\text{multiplicity}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -208,11 +208,11 @@ $$
 ---
 ### newton method formula
 $$
-\begin{aligned}
+\begin{array}{l}
 x_0\\
 x_{n+1}=x_n-\frac{f(x_n)}{f'(x_n)}\\
 n=0,1,2,\dots
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -222,14 +222,14 @@ $$
 ---
 ### newton convergence formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \lim_{n\rightarrow\infty}\frac{e_{n+1}}{e_n^2}=|\frac{f''(r)}{2f'(r)}|\\
 m>1\implies\lim_{n\rightarrow\infty}\frac{e_{n+1}}{e_n}=|\frac{m-1}{m}|\\
 e=\text{absolute error}\\
 f,g=\text{function}\\
 r=\text{real root}\\
 m=\text{multiplicity}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -239,11 +239,11 @@ $$
 ---
 ### modified newton method
 $$
-\begin{aligned}
+\begin{array}{l}
 x_0\\
 x_{n+1}=x_n-m\frac{f(x_n)}{f'(x_n)}\\
 n=0,1,2,\dots
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -253,13 +253,13 @@ $$
 ---
 ### modified newton convergence
 $$
-\begin{aligned}
+\begin{array}{l}
 f(x)=(x-r)^mg(x)\implies\lim_{n\rightarrow\infty}\frac{e_{n+1}}{e_n^2}=|\frac{g'(r)}{mg(r)}|\\
 f,g=\text{function}\\
 r=\text{real root}\\
 m=\text{multiplicity}\\
 e=\text{absolute error}
-\end{aligned}
+\end{array}
 $$
 
 ---

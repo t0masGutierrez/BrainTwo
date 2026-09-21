@@ -4,11 +4,11 @@
 ---
 ### integration by parts formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \int u(x)dv=uv-\int v(x)du\\
 dv=v'(x)dx\\
 du=u'(x)dx
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -27,7 +27,7 @@ $$
 ---
 ### integration by parts strategy formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \int x^{n}e^{x}dx,\ \int x^{n}\sin(x)dx,\ \int x^{n}\cos(x)dx\
 \begin{cases}
 u=x^{n}\\
@@ -43,7 +43,7 @@ dv=x^{n}dx
 u=\sin(x),\ \cos(x)\\
 dv=e^{x}dx
 \end{cases}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -66,31 +66,31 @@ $$
 ---
 ### trigonometric integral formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \int\sin^{m}(x)\cos^{n}(x)dx\\
 \int\sec^{m}(x)\tan^{n}(x)dx
-\end{aligned}
+\end{array}
 $$
 
 ---
 ### trigonometric integral sine cosine formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \int\textcolor{yellow}{\sin^{2k+1}(x)}\cos^{n}(x)dx=\int\textcolor{yellow}{(\sin^{2}x)^{k}}\cos^{n}(x)\textcolor{cyan}{\sin(x)dx}=\int\textcolor{yellow}{(1-\cos^{2}x)^{k}}\cos^{n}(x)\textcolor{cyan}{\sin(x)dx}\\
 \int\sin^{m}(x)\textcolor{yellow}{\cos^{2k+1}(x)}dx=\int\sin^{m}(x)\textcolor{yellow}{(\cos^{2}x)^{k}}\textcolor{cyan}{\cos(x)dx}=\int\sin^{m}(x)\textcolor{yellow}{(1-\sin^{2}x)^{k}}\textcolor{cyan}{\cos(x)dx}\\
 \int\sin^{2k}(x)\cos^{2k}(x)dx=\int(\frac{1-\cos2x}{2})^{k}(\frac{1+\cos2x}{2})^{k}dx
-\end{aligned}
+\end{array}
 $$
 
 ---
 ### trigonometric integral secant tangent formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \int\textcolor{yellow}{\sec^{2k}(x)}\tan^{n}(x)dx=\int\textcolor{yellow}{(\sec^{2}x)^{k-1}}\tan^{n}(x)\textcolor{cyan}{\sec^{2}(x)dx}=\int\textcolor{yellow}{(1+\tan^{2}x)^{k-1}}\tan^{n}(x)\textcolor{cyan}{\sec^{2}(x)dx}\\
 \small{\int\sec^{m}(x)\textcolor{yellow}{\tan^{2k+1}(x)}dx=\int\sec^{m-1}(x)\textcolor{yellow}{(\tan^{2}x)^{k}}\textcolor{cyan}{\sec(x)\tan(x)dx}=\int\sec^{m}(x)\textcolor{yellow}{(\sec^{2}x-1)^{k}}\textcolor{cyan}{\sec(x)\tan(x)dx}}\\
 \int\tan^{n}(x)=\int\textcolor{yellow}{(\tan^{2}x)}\tan^{n-2}(x)dx=\int\textcolor{yellow}{(\sec^{2}x-1)}\tan^{n-2}(x)dx\\
 \int\sec^{m}(x)dx=\int u(x)dv=uv-\int v(x)du\\
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -107,7 +107,7 @@ $$
 ---
 ### trigonometric substitution formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \sqrt{a^{2}-u^{2}}=a\cos(\theta)
 \begin{cases}
 u=a\sin(\theta)\\
@@ -123,7 +123,7 @@ du=a\sec^{2}(\theta)d\theta\\
 u=a\sec(\theta)\\
 du=a\sec(\theta)\tan(\theta)d\theta\\
 \end{cases}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -140,10 +140,10 @@ $$
 ---
 ### partial fraction decomposition formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \frac{N(x)}{(px+q)^{m}}=\frac{A_{1}}{(px+1)^{1}}+\frac{A_{2}}{(px+1)^{2}}+...+\frac{A_{m}}{(px+1)^{m}}\\
 \frac{N(x)}{(ax^{2}+bx+c)^{n}}=\frac{B_{1}x+C_{1}}{(ax^{2}+bx+c)^{1}}+\frac{B_{2}x+C_{2}}{(ax^{2}+bx+c)^{2}}+...+\frac{B_{n}x+C_{n}}{(ax^{2}+bx+c)^{n}}\\
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -183,11 +183,11 @@ $$
 ---
 ### trapezoidal formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \int_{a}^{b}f(x)dx=\frac{\Delta x}{2}[f(x_{0})+2f(x_{1})+2f(x_{2})+2f(x_{3})+...+2f(x_{n-1})+f(x_{n})]\\
 k=1,2,2,2,...2,1\\
 \Delta x=\frac{b-a}{n}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -198,11 +198,11 @@ $$
 ---
 ### simpsons formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \int_{a}^{b}f(x)dx=\frac{\Delta x}{3}[f(x_{0})+4f(x_{1})+2f(x_{2})+4f(x_{3})+...+4f(x_{n-1})+f(x_{n})]\\
 k=1,4,2,4,...4,1\\
 \Delta x=\frac{b-a}{n}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -217,11 +217,11 @@ $$
 ---
 ### discontinuous integrand formula
 $$
-\begin{aligned}
+\begin{array}{l}
 (a,b]\implies\int_{a}^{b}f(x)dx=\lim_{c\rightarrow b^{-}}\int_{a}^{c}f(x)dx\\
 {}[a,b)\implies\int_{a}^{b}f(x)dx=\lim_{c\rightarrow a^{+}}\int_{c}^{b}f(x)dx\\
 \exists c[a,b]\implies\int_{a}^{b}f(x)dx=\lim_{c\rightarrow b^{-}}\int_{a}^{c}f(x)dx+\lim_{c\rightarrow a^{+}}\int_{c}^{b}f(x)dx
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -232,9 +232,9 @@ $$
 ---
 ### infinite lower limit of integration formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \int_{-\infty}^{b}f(x)dx=\lim_{a\rightarrow-\infty}\int_{a}^{b}f(x)dx
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -245,9 +245,9 @@ $$
 ---
 ### infinite lower limit of integration formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \int_{a}^{\infty}f(x)dx=\lim_{b\rightarrow\infty}\int_{a}^{b}f(x)dx
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -258,9 +258,9 @@ $$
 ---
 ### infinite limit of integration formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \int_{-\infty}^{\infty}f(x)dx=\int_{-\infty}^{c}f(x)dx+\int_{c}^{\infty}f(x)dx
-\end{aligned}
+\end{array}
 $$
 
 ---

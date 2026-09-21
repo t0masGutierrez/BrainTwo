@@ -39,11 +39,11 @@
 ---
 ### set formula
 $$
-\begin{aligned}
+\begin{array}{l}
 x\in A=\text{x is element of set A}\\
 A\ni x=\text{set A contains element x}\\
 x\notin A=\text{x is not element of set A}\\
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -53,9 +53,9 @@ $$
 ---
 ### roster formula
 $$
-\begin{aligned}
+\begin{array}{l}
 A=\{x_{1},x_{2},...x_{n}\}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -65,10 +65,10 @@ $$
 ---
 ### set builder formula
 $$
-\begin{aligned}
+\begin{array}{l}
 A=\{x|P(x)\}\\
 P(x)=\text{proposition function}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -79,12 +79,12 @@ $$
 ---
 ### interval formula
 $$
-\begin{aligned}
+\begin{array}{l}
 {}[a,b]\\
 {}[a,b)\\
 (a,b]\\
 (a,b)
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -94,9 +94,9 @@ $$
 ---
 ### set equality formula
 $$
-\begin{aligned}
+\begin{array}{l}
 A=B\iff\forall x(x\in A\iff x\in B)\\
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -106,9 +106,9 @@ $$
 ---
 ### null set formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \emptyset=\{\}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -118,9 +118,9 @@ $$
 ---
 ### singleton set formula
 $$
-\begin{aligned}
+\begin{array}{l}
 A=\{x_{1}\}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -130,9 +130,9 @@ $$
 ---
 ### universal set formula
 $$
-\begin{aligned}
+\begin{array}{l}
 U=\forall x
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -142,9 +142,9 @@ $$
 ---
 ### improper subset formula
 $$
-\begin{aligned}
+\begin{array}{l}
 A\subseteq B\equiv\forall x(x\in A\implies x\in B)
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -154,9 +154,9 @@ $$
 ---
 ### improper superset formula
 $$
-\begin{aligned}
+\begin{array}{l}
 B\supseteq A\equiv\forall x(x\in B\implies x\in A)
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -166,9 +166,9 @@ $$
 ---
 ### two subset formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \forall A(A\ne\emptyset)(\emptyset\subset A\land A\subseteq A)
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -178,9 +178,9 @@ $$
 ---
 ### proper subset formula
 $$
-\begin{aligned}
+\begin{array}{l}
 A\subset B\equiv A\subseteq B\land A\ne B
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -190,9 +190,9 @@ $$
 ---
 ### proper superset formula
 $$
-\begin{aligned}
+\begin{array}{l}
 B\supset A\equiv(\forall x\in A:x\in B)\land(\exists y\in B:y\not\in A)
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -202,9 +202,9 @@ $$
 ---
 ### subset equality formula
 $$
-\begin{aligned}
+\begin{array}{l}
 A=B\iff A\subseteq B\land B\supseteq A
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -222,10 +222,10 @@ $$
 ---
 ### cardinality formula
 $$
-\begin{aligned}
+\begin{array}{l}
 |A|=n\\
 n=\text{number of elements}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -235,10 +235,10 @@ $$
 ---
 ### power set formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \mathcal{P}(A)=2^{n}\\
 n=\text{number of elements}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -248,9 +248,9 @@ $$
 ---
 ### tuple formula
 $$
-\begin{aligned}
+\begin{array}{l}
 a=(x_{1},x_{2},...x_{n})
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -260,9 +260,9 @@ $$
 ---
 ### tuple equality formula
 $$
-\begin{aligned}
+\begin{array}{l}
 a=b\iff\forall n(a_{n}=b_{n})
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -272,9 +272,9 @@ $$
 ---
 ### cartesian product formula
 $$
-\begin{aligned}
+\begin{array}{l}
 A\times B=\{(a,b)|a\in A,b\in B\}\ne B\times A
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -290,9 +290,9 @@ $$
 ---
 ### cartesian product equality formula
 $$
-\begin{aligned}
+\begin{array}{l}
 A\times B=B\times A\iff A=\emptyset\lor B=\emptyset
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -302,9 +302,9 @@ $$
 ---
 ### relation formula
 $$
-\begin{aligned}
+\begin{array}{l}
 R\subseteq A\times B
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -318,9 +318,9 @@ $$
 ---
 ### universal domain restriction formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \forall x\in A:P(x)\equiv x\in A\implies P(x)
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -330,9 +330,9 @@ $$
 ---
 ### existential domain restriction formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \exists x\in A:P(x)\equiv x\in A\land P(x)
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -342,10 +342,10 @@ $$
 ---
 ### truth set formula
 $$
-\begin{aligned}
+\begin{array}{l}
 T=\{x\in D|P(x)\}\\
 D=\text{domain of discourse}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -356,10 +356,10 @@ $$
 ---
 ### truth set property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \forall(x\in D)P(x)\iff T=D\\
 \exists(x\in D)P(x)\iff T\ne\emptyset
-\end{aligned}
+\end{array}
 $$
 
 ---

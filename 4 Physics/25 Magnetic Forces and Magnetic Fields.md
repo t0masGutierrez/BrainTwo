@@ -11,13 +11,13 @@
 ---
 ### electric charge magnetic force formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \vec F=q\vec v\times\vec B=qvB\sin(\theta)\\
 q=\text{electric charge}\\
 v=\text{velocity}\\
 B=\text{magnetic field}\\
 \theta=\text{angular position}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -34,13 +34,13 @@ $$
 ---
 ### magnetic field formula
 $$
-\begin{aligned}
+\begin{array}{l}
 B=\frac{F}{qv\sin(\theta)}\\
 F=\text{magnetic force}\\
 q=\text{electric charge}\\
 v=\text{velocity}\\
 \theta=\text{angular position}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -64,12 +64,12 @@ $$
 ---
 ### magnetic flux formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \Phi=\vec B\cdot\vec A=BA\cos(\theta)\\
 B=\text{magnetic field}\\
 A=\text{area}\\
 \theta=\text{angular position}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -79,11 +79,11 @@ $$
 ---
 ### gauss formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \Phi=\oint_{A_{1}}^{A_{2}}\vec B\cdot d\vec A=0\\
 B=\text{magnetic field}\\
 A=\text{area}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -95,13 +95,13 @@ $$
 ---
 ### centripetal force formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \vec F_{c}=m\vec a_{\text{rad}}=m\frac{\vec v_{\text{tan}}^{2}}{R}\\
 m=\text{mass}\\
 a_{\text{rad}}=\text{radial acceleration}\\
 v_{\text{tan}}=\text{tangential velocity}\\
 R=\text{radius}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -116,12 +116,12 @@ $$
 ---
 ### particle accelerator formula
 $$
-\begin{aligned}
+\begin{array}{l}
 v=\sqrt{\frac{2qV}{m}}\\
 q=\text{electric charge}\\
 V=\text{voltage}\\
 m=\text{mass}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -132,11 +132,11 @@ $$
 ---
 ### velocity selector formula
 $$
-\begin{aligned}
+\begin{array}{l}
 v=\frac{E}{B}\\
 E=\text{electric field}\\
 B=\text{magnetic field}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -146,12 +146,12 @@ $$
 ---
 ### particle detector formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \frac{m}{q}=\frac{BB'R}{E}\\
 B=\text{magnetic field}\\
 R=\text{radius}\\
 E=\text{electric field}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -162,13 +162,13 @@ $$
 ---
 ### electric current magnetic force formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \vec F=I\vec L\times\vec B=ILB\sin(\theta)\\
 I=\text{electric current}\\
 L=\text{length}\\
 B=\text{magnetic field}\\
 \theta=\text{angular position}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -179,13 +179,13 @@ $$
 ---
 ### parallel electric current magnetic force formula
 $$
-\begin{aligned}
+\begin{array}{l}
 F=\frac{\mu_{0}I_{1}I_{2}L}{2\pi r}\\
 \mu_{0}=4\pi\times10^{-7}\\
 I=\text{electric current}\\
 L=\text{length}\\
 r=\text{distance}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -196,53 +196,53 @@ $$
 ---
 ### magnetic dipole formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \vec\mu=NI\vec A\\
 N=\text{number of loops}\\
 I=\text{electric current}\\
 A=\text{area}
-\end{aligned}
+\end{array}
 $$
 
 ---
 ### magnetic dipole force formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \vec F_{\text{net}}=0
-\end{aligned}
+\end{array}
 $$
 
 ---
 ### magnetic dipole magnetic field formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \vec B=\frac{\mu_{0}\vec\mu}{2\pi r^{3}}\\
 \mu_{0}=4\pi\times10^{-7}\\
 \mu=\text{magnetic dipole}\\
 r=\text{distance}
-\end{aligned}
+\end{array}
 $$
 
 ---
 ### magnetic dipole torque formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \vec\tau=\vec\mu\times\vec B=\mu B\sin(\theta)\\
 \mu=\text{magnetic dipole}\\
 B=\text{magnetic field}\\
 \theta=\text{angular position}
-\end{aligned}
+\end{array}
 $$
 
 ---
 ### magnetic dipole potential energy formula
 $$
-\begin{aligned}
+\begin{array}{l}
 U=-\vec\mu\cdot\vec B=-\mu B\cos(\theta)\\
 \mu=\text{magnetic dipole}\\
 B=\text{magnetic field}\\
 \theta=\text{angular position}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -253,12 +253,12 @@ $$
 ---
 ### hall effect formula
 $$
-\begin{aligned}
+\begin{array}{l}
 nq=\frac{-J_{x}B_{y}}{E_{z}}\\
 J=\text{electric current density}\\
 B=\text{magnetic field}\\
 E=\text{electric field}
-\end{aligned}
+\end{array}
 $$
 
 ---

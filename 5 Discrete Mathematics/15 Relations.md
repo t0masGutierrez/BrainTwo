@@ -5,12 +5,12 @@
 ---
 ### binary relation formula
 $$
-\begin{aligned}
+\begin{array}{l}
 R\subseteq A\times B\implies(a_{i},b_{j})\in R\\
 i,j=1,2,...n\\
 i,j=\text{index}
 
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -20,9 +20,9 @@ $$
 ---
 ### self relation formula
 $$
-\begin{aligned}
+\begin{array}{l}
 R\subseteq A\times A
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -32,9 +32,9 @@ $$
 ---
 ### reflexive relation formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \forall a(a,a)\in R
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -44,9 +44,9 @@ $$
 ---
 ### symmetric relation formula
 $$
-\begin{aligned}
+\begin{array}{l}
 (a,b)\in R\implies(b,a)\in R
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -56,9 +56,9 @@ $$
 ---
 ### antisymmetric relation formula
 $$
-\begin{aligned}
+\begin{array}{l}
 (a,b)\in R\land(b,a)\in R\implies a=b
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -68,9 +68,9 @@ $$
 ---
 ### transitive relation formula
 $$
-\begin{aligned}
+\begin{array}{l}
 (a,b)\in R\land(b,c)\in R\implies(a,c)\in R
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -80,9 +80,9 @@ $$
 ---
 ### composite relation formula
 $$
-\begin{aligned}
+\begin{array}{l}
 (a,b)\in P\land(b,c)\in Q\implies(a,c)\in P\circ Q
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -92,9 +92,9 @@ $$
 ---
 ### composite self relation formula
 $$
-\begin{aligned}
+\begin{array}{l}
 R^{n}=R^{n-1}\circ R
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -104,12 +104,12 @@ $$
 ---
 ### binary matrix relation formula
 $$
-\begin{aligned}
+\begin{array}{l}
 (a_{i},b_{j})\in R\implies m_{\text{ij}}=1\\
 (a_{i},b_{j})\notin R\implies m_{\text{ij}}=0\\
 i=\text{row index}\\
 j=\text{column index}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -143,11 +143,11 @@ $$
 ---
 ### digraph formula
 $$
-\begin{aligned}
+\begin{array}{l}
 (a,b)\in R\\
 a=\text{initial vertex}\\
 b=\text{terminal vertex}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -182,12 +182,12 @@ $$
 ---
 ### equivalence relation formula
 $$
-\begin{aligned}
+\begin{array}{l}
 aRa\\
 aRb\implies bRa\\
 aRb\land bRc\implies aRc\\
 \therefore a\sim b
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -197,9 +197,9 @@ $$
 ---
 ### equivalence class formula
 $$
-\begin{aligned}
+\begin{array}{l}
 {}[a]=\{x\in A|x\sim a\}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -209,9 +209,9 @@ $$
 ---
 ### representative formula
 $$
-\begin{aligned}
+\begin{array}{l}
 x\in[a]
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -221,9 +221,9 @@ $$
 ---
 ### modulo congruence class formula
 $$
-\begin{aligned}
+\begin{array}{l}
 {}[a]=\{x\in Z|x\equiv a\ \text{mod}\ n\}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -234,13 +234,13 @@ $$
 ---
 ### partition formula
 $$
-\begin{aligned}
+\begin{array}{l}
 A_{i}=\{A_{1},A_{2},...A_{k}\}\\
 \forall i(A_{i}\ne\emptyset)\\
 \forall i\forall j(i\ne j)(A_{i}\cap A_{j}=\emptyset)\\
 \bigcup_{i=1}^{k}A_{i}=A\\
 \therefore A_{i}=\{x\in A|x\sim a_{i}\}
-\end{aligned}
+\end{array}
 $$
 
 ---

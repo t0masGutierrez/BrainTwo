@@ -4,13 +4,13 @@
 ---
 ### dynamical system formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \frac{du}{dt}=f(u,c_{1},\dots,c_{n}),u(t=0)=u_{0},t\ge0\\
 u=\text{solution}\\
 t=\text{time}\\
 u_{0}=\text{initial condition}\\
 c=\text{parameter}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -21,10 +21,10 @@ $$
 ---
 ### time view formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \frac{du}{dt}=f(u)\\
 f=\text{slope}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -35,10 +35,10 @@ $$
 ---
 ### phase view formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \frac{du}{dt}=f(u)\\
 f=\text{velocity}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -48,11 +48,11 @@ $$
 ---
 ### solvability property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \forall u_{0}\in\mathbb R,\exists t\in(T_{0},T_{1}):u(t)\in D=\{u\in\mathbb R|\exists\frac{du}{dt}\}\\
 (t\le T_{0})\lor(t\ge T_{1})\implies u(t)\not\in D=\{u\in\mathbb R|\exists\frac{du}{dt}\}\\
 u_{0}\ne\hat u_{0}\implies\forall t\in(T_{0},T_{1}):u(t)\ne\hat u(t)
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -62,12 +62,12 @@ $$
 ---
 ### equilibrium solution formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \forall t\ge0:u(t)=u_{*}\iff f(u_{*})=0\\
 u=\text{solution}\\
 t=\text{time}\\
 u_{*}=\text{equilibrium point}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -77,11 +77,11 @@ $$
 ---
 ### monotonicity property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 f(u_{0})>0\implies\forall t:f(u)>0\\
 f(u_{0})=0\implies\forall t:f(u)=0\\
 f(u_{0})<0\implies\forall t:f(u)<0\\
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -91,11 +91,11 @@ $$
 ---
 ### equilibrium stability formula
 $$
-\begin{aligned}
+\begin{array}{l}
 N_{\rho}(u_{*})=(u_{*}-\rho,u_{*}+\rho)\\
 u_{*}=\text{equilibrium point}\\
 \rho=\text{radius}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -107,7 +107,7 @@ $$
 ---
 ### asymptotic equilibrium stability formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \forall\epsilon>0,\exists\delta>0,\forall t\ge0:u_{0}\in N_{\delta}(u_{*})\implies u(t)\in N_{\epsilon}(u_{*})
 \land\forall u_{0}\in\mathbb R:\lim_{t\rightarrow\infty}u(t)=u_{*}\\
 u_{0}=\text{initial condition}\\
@@ -115,7 +115,7 @@ N=\text{neighborhood}\\
 u_{*}=\text{equilibrium point}\\
 u=\text{solution}\\
 t=\text{time}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -127,7 +127,7 @@ $$
 ---
 ### neutral equilibrium stability formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \forall\epsilon>0,\exists\delta>0,\forall t\ge0:u_{0}\in N_{\delta}(u_{*})\implies u(t)\in N_{\epsilon}(u_{*})
 \land\exists u_{0}\in\mathbb R:\lim_{t\rightarrow\infty}u(t)\ne u_{*}\\
 u_{0}=\text{initial condition}\\
@@ -135,7 +135,7 @@ N=\text{neighborhood}\\
 u_{*}=\text{equilibrium point}\\
 u=\text{solution}\\
 t=\text{time}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -146,7 +146,7 @@ $$
 ---
 ### equilibrium instability formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \exists\epsilon>0,\forall\delta>0,\exists t\ge0:u_{0}\in N_{\delta}(u_{*})\land u(t)\not\in N_{\epsilon}(u_{*})
 \land\forall u_{0}\in\mathbb R:\lim_{t\rightarrow\infty}u(t)\ne u_{*}\\
 u_{0}=\text{initial condition}\\
@@ -154,7 +154,7 @@ N=\text{neighborhood}\\
 u_{*}=\text{equilibrium point}\\
 u=\text{solution}\\
 t=\text{time}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -164,10 +164,10 @@ $$
 ---
 ### stability derivative test formula
 $$
-\begin{aligned}
+\begin{array}{l}
 f'(u_{*})<0\implies\lim_{t\rightarrow\infty}u(t)=u_{*}\\
 f'(u_{*})>0\implies\lim_{t\rightarrow\infty}u(t)\ne u_{*}\\
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -177,9 +177,9 @@ $$
 ---
 ### bifurcation formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \Delta h\implies\Delta(h\times u_{*})
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -190,12 +190,12 @@ $$
 ---
 ### bifurcation example formula
 $$
-\begin{aligned}
+\begin{array}{l}
 h\le0\implies f'(0)>0\\
 h>0\implies f'(0)<0\\
 h>0\implies f'(\sqrt h)>0\\
 h>0\implies f'(-\sqrt h)>0\\
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -209,11 +209,11 @@ $$
 ---
 ### bifurcation diagram formula
 $$
-\begin{aligned}
+\begin{array}{l}
 h\times u_{*}=\{(h,u_{*})|f(h,u_{*})=0\}\\
 h=\text{parameter}\\
 u_{*}=\text{equilibrium point}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -223,9 +223,9 @@ $$
 ---
 ### saddle-node bifurcation formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \frac{du}{dt}=h-u^{2}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -235,9 +235,9 @@ $$
 ---
 ### transcritical bifurcation formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \frac{du}{dt}=hu-u^{2}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -247,9 +247,9 @@ $$
 ---
 ### pitchfork bifurcation formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \frac{du}{dt}=hu-u^{3}
-\end{aligned}
+\end{array}
 $$
 
 ---

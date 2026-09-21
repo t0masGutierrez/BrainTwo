@@ -4,11 +4,11 @@
 ---
 ### independent multiplication rule formula
 $$
-\begin{aligned}
+\begin{array}{l}
 N=\prod_{i=1}^{k}n_{i}\\
 n=\text{number of possible outcomes}\\
 k=\text{number of experiments}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -18,11 +18,11 @@ $$
 ---
 ### disjoint addition rule formula
 $$
-\begin{aligned}
+\begin{array}{l}
 N=\sum_{i=1}^{k}n_{i}\\
 n=\text{number of possible outcomes}\\
 k=\text{number of experiments}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -32,11 +32,11 @@ $$
 ---
 ### permutation formula
 $$
-\begin{aligned}
+\begin{array}{l}
 _{n}P_{k}=\frac{n!}{(n-k)!}=k!\begin{pmatrix}n\\k\end{pmatrix}\\
 n=\text{number of objects}\\
 k=\text{number of arrangements}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -46,11 +46,11 @@ $$
 ---
 ### combination formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \begin{pmatrix}n\\k\end{pmatrix}=\frac{n!}{k!(n-k)!}\\
 n=\text{number of objects}\\
 k=\text{number of choices}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -60,10 +60,10 @@ $$
 ---
 ### binomial theorem formula
 $$
-\begin{aligned}
+\begin{array}{l}
 (x+y)^{n}=\sum_{k=0}^{n}\begin{pmatrix}n\\k\end{pmatrix}x^{k}y^{n-k}\\
 n,k=\text{parameter}
-\end{aligned}
+\end{array}
 $$
 
 ---

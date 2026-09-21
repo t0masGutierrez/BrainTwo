@@ -6,7 +6,7 @@
 ---
 ### sound wave formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \Delta p(x,t)=BkA\cos(kx\mp\omega t)\\
 B=\text{bulk modulus}\\
 k=\text{wavenumber}\\
@@ -14,7 +14,7 @@ A=\text{amplitude}\\
 x=\text{position}\\
 \omega=\text{angular frequency}\\
 t=\text{time}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -24,12 +24,12 @@ $$
 ---
 ### compression formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \Delta p(x,t)>0\\
 p=\text{pressure}\\
 x=\text{position}\\
 t=\text{time}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -39,12 +39,12 @@ $$
 ---
 ### rarefaction formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \Delta p(x,t)<0\\
 p=\text{pressure}\\
 x=\text{position}\\
 t=\text{time}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -54,10 +54,10 @@ $$
 ---
 ### wave velocity formula
 $$
-\begin{aligned}
+\begin{array}{l}
 v=331\sqrt{\frac{T}{273}}\\
 T=\text{absolute temperature}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -67,9 +67,9 @@ $$
 ---
 ### general wave velocity formula
 $$
-\begin{aligned}
+\begin{array}{l}
 v=\sqrt{\frac{\text{elasticity}}{\text{inertia}}}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -80,11 +80,11 @@ $$
 ---
 ### solid wave velocity formula
 $$
-\begin{aligned}
+\begin{array}{l}
 v=\sqrt{\frac{Y}{\rho}}\\
 Y=\text{young's modulus}\\
 \rho=\text{density}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -95,11 +95,11 @@ $$
 ---
 ### liquid wave velocity formula
 $$
-\begin{aligned}
+\begin{array}{l}
 v=\sqrt{\frac{B}{\rho}}\\
 B=\text{bulk modulus}\\
 \rho=\text{density}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -110,13 +110,13 @@ $$
 ---
 ### gas wave velocity formula
 $$
-\begin{aligned}
+\begin{array}{l}
 v=\sqrt{\frac{\gamma RT}{M}}\\
 \gamma=\text{adiabatic index}\\
 R=8.314\\
 T=\text{absolute temperature}\\
 M=\text{molar mass}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -126,12 +126,12 @@ $$
 ---
 ### average power formula
 $$
-\begin{aligned}
+\begin{array}{l}
 P_{\text{avg}}=\frac{W}{\Delta t}=\frac{\Delta E}{\Delta t}\\
 W=\text{work}\\
 t=\text{time}\\
 E=\text{mechanical energy}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -142,7 +142,7 @@ $$
 ---
 ### intensity formula
 $$
-\begin{aligned}
+\begin{array}{l}
 I=\frac{P_{\text{avg}}}{A}=\frac{(\Delta p_{\text{max}})^2}{2\rho v}=\frac{\rho v\omega^2y_{\text{max}}^2}{2}\\
 P=\text{power}\\
 A=\text{area}\\
@@ -151,7 +151,7 @@ p=\text{pressure}\\
 v=\text{velocity}\\
 \omega=\text{angular frequency}\\
 y=\text{displacement}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -162,11 +162,11 @@ $$
 ---
 ### spherical intensity formula
 $$
-\begin{aligned}
+\begin{array}{l}
 I=\frac{P}{4\pi r^{2}}\\
 P=\text{power}\\
 r=\text{distance}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -177,11 +177,11 @@ $$
 ---
 ### sound intensity level formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \beta=10\log(\frac{I}{I_{0}})\\
 I=\text{intensity}\\
 I_{0}=10^{-12}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -192,11 +192,11 @@ $$
 ---
 ### loudness formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \frac{I_2}{I_1}=10^{n}\implies\Delta\beta=10n\\
 I=\text{intensity}\\
 \beta=\text{sound intensity level}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -207,12 +207,12 @@ $$
 ---
 ### asymmetric normal mode formula
 $$
-\begin{aligned}
+\begin{array}{l}
 f_{n}=\frac{nv}{4L}\iff\lambda_n=\frac{4L}{n}\\
 n=1,3,5,\dots\\
 v=\text{velocity}\\
 L=\text{length}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -223,12 +223,12 @@ $$
 ---
 ### symmetric normal mode formula
 $$
-\begin{aligned}
+\begin{array}{l}
 f_{n}=\frac{nv}{2L}\iff\lambda_n=\frac{2L}{n}\\
 n=1,2,3,\dots\\
 v=\text{velocity}\\
 L=\text{length}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -239,13 +239,13 @@ $$
 ---
 ### wavefront formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \theta(x,t)=C\\
 \theta=\text{phase}\\
 x=\text{position}\\
 t=\text{time}\\
 C=\text{constant}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -256,12 +256,12 @@ $$
 ---
 ### coherence formula
 $$
-\begin{aligned}
+\begin{array}{l}
 f_1=f_2\\
 \Delta\phi=C\\
 f=\text{oscillation frequency}\\
 \phi=\text{phase angle}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -272,13 +272,13 @@ $$
 ---
 ### interference formula
 $$
-\begin{aligned}
+\begin{array}{l}
 y(\theta)=y_{1}(\theta)+y_{2}(\theta+\frac{2\pi}{\lambda}\Delta x)\\
 y=\text{displacement}\\
 \theta=\text{phase}\\
 \lambda=\text{wavelength}\\
 x=\text{position}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -288,10 +288,10 @@ $$
 ---
 ### constructive interference formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \Delta x=n\lambda\\
 \lambda=\text{wavelength}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -301,10 +301,10 @@ $$
 ---
 ### destructive interference formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \Delta x=(n+\frac{1}{2})\lambda\\
 \lambda=\text{wavelength}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -315,11 +315,11 @@ $$
 ---
 ### beat formula
 $$
-\begin{aligned}
+\begin{array}{l}
 f_{\text{beat}}=|f_{2}-f_{1}|\\
 f_{2}=\text{reflected frequency}\\
 f_{1}=\text{incident frequency}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -330,12 +330,12 @@ $$
 ---
 ### moving observer effect formula
 $$
-\begin{aligned}
+\begin{array}{l}
 f_{o}=(\frac{v\pm v_{o}}{v})f_{s}\\
 v=\text{343}\\
 v_{o}=\text{observer velocity}\\
 f_{s}=\text{source frequency}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -346,12 +346,12 @@ $$
 ---
 ### moving source effect formula
 $$
-\begin{aligned}
+\begin{array}{l}
 f_{o}=(\frac{v}{v\mp v_{s}})f_{s}\\
 v=343\\
 v_{s}=\text{source velocity}\\
 f_{s}=\text{source frequency}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -364,13 +364,13 @@ $$
 ---
 ### doppler effect formula
 $$
-\begin{aligned}
+\begin{array}{l}
 f_{o}=(\frac{v\pm v_{o}}{v\mp v_{s}})f_{s}\\
 v=343\\
 v_{o}=\text{observer velocity}\\
 v_{s}=\text{source velocity}\\
 f_{s}=\text{source frequency}\\
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -381,11 +381,11 @@ $$
 ---
 ### shock wave formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \sin\alpha=\frac{v}{v_s}\\
 v=343\\
 v_s=\text{source velocity}
-\end{aligned}
+\end{array}
 $$
 
 ---

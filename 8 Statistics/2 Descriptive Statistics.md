@@ -136,13 +136,13 @@
 ---
 ### outlier formula
 $$
-\begin{aligned}
+\begin{array}{l}
 x_L=\text{Q}_1-1.5\times\text{IQR}\\
 x_R=\text{Q}_3+1.5\times\text{IQR}\\
 \text{Q}_1=\text{1st quartile}\\
 \text{Q}_3=\text{3rd quartile}\\
 \text{IQR}=\text{interquartile range}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -153,10 +153,10 @@ $$
 ---
 ### normal versus skewed formula
 $$
-\begin{aligned}
+\begin{array}{l}
 X\sim N\implies(\mu,\sigma)\\
 X\sim\pm N\implies(\widetilde x,\text{IQR})
-\end{aligned}
+\end{array}
 $$
 
 ---

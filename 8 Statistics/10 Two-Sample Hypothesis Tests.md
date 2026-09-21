@@ -22,12 +22,12 @@
 ---
 ### two sample null hypothesis formula
 $$
-\begin{aligned}
+\begin{array}{l}
 H_{0}:\begin{cases}\theta_1-\theta_{2}=0\\
 \theta_1-\theta_{2}\ge0\\
 \theta_1-\theta_{2}\le0
 \end{cases}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -37,12 +37,12 @@ $$
 ---
 ### two sample alternative hypothesis formula
 $$
-\begin{aligned}
+\begin{array}{l}
 H_{1}:\begin{cases}\theta_1-\theta_{2}\ne0\\
 \theta_1-\theta_{2}>0\\
 \theta_1-\theta_{2}<0
 \end{cases}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -52,7 +52,7 @@ $$
 ---
 ### unpooled variance formula
 $$
-\begin{aligned}
+\begin{array}{l}
 s^{2}=\frac{\sum_{i=1}^{n}(x_{i}-\overline X)^{2}}{n-1}\\
 SE(\overline X_{1}-\overline X_{2})=\sqrt{\frac{s_{1}^{2}}{n_{1}}+\frac{s_{2}^{2}}{n_{2}}}\\
 SE(\hat p_{1}-\hat p_{2})=\sqrt{\frac{\hat p_{1}(1-\hat p_{1})}{n_{1}}+\frac{\hat p_{2}(1-\hat p_{2})}{n_{2}}}\\
@@ -61,7 +61,7 @@ x=\text{data}\\
 \overline X=\text{sample mean}\\
 n=\text{sample size}\\
 \hat p=\text{sample proportion}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -71,7 +71,7 @@ $$
 ---
 ### pooled variance formula
 $$
-\begin{aligned}
+\begin{array}{l}
 s_p^{2}=\frac{(n_{1}-1)s_{1}^{2}+(n_{2}-1)s_{2}^{2}}{n_{1}+n_{2}-2}\\
 SE(\overline X_{1}-\overline X_{2})=s_p\sqrt{\frac{1}{n_{1}}+\frac{1}{n_{2}}}\\
 SE(\hat p_{1}-\hat p_{2})=\sqrt{\hat p(1-\hat p)(\frac{1}{n_{1}}+\frac{1}{n_{2})}}\\
@@ -79,7 +79,7 @@ SE(\hat p_{1}-\hat p_{2})=\sqrt{\hat p(1-\hat p)(\frac{1}{n_{1}}+\frac{1}{n_{2})
 s=\text{sample standard deviation}\\
 n=\text{sample size}\\
 \hat p=\text{sample proportion}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -95,11 +95,11 @@ $$
 ---
 ### two mean independent hypothesis test formula
 $$
-\begin{aligned}
+\begin{array}{l}
 t=\frac{\overline X_{1}-\overline X_{2}-0}{SE(\overline X_{1}-\overline X_{2})}\\
 \overline X=\text{sample mean}\\
 SE=\text{standard error}\\
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -115,12 +115,12 @@ $$
 ---
 ### two mean dependent hypothesis test formula
 $$
-\begin{aligned}
+\begin{array}{l}
 t=\frac{\overline{X_{1}-X_{2}}-0}{s/\sqrt{n}}\\
 \text{df}=n-1\\
 s=\text{sample standard deviation}\\
 n=\text{sample size}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -137,13 +137,13 @@ $$
 ---
 ### two proportion independent hypothesis test formula
 $$
-\begin{aligned}
+\begin{array}{l}
 z=\frac{\hat p_1-\hat p_2-0}{\sqrt{\hat p(1-\hat p)(\frac{1}{n_{1}}+\frac{1}{n_{2})}}}\\
 \hat p=\frac{x_1+x_2}{n_1+n_2}\\
 \hat p=\text{sample proportion}\\
 n=\text{sample size}\\
 x=\text{data}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -158,12 +158,12 @@ $$
 ---
 ### two variance independent hypothesis test formula
 $$
-\begin{aligned}
+\begin{array}{l}
 F=\frac{s_{1}^{2}}{s_{2}^{2}}\\
 \text{df}=n-1\\
 s=\text{sample standard deviation}\\
 n=\text{sample size}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -175,11 +175,11 @@ $$
 ---
 ### two sample hypothesis test method formula
 $$
-\begin{aligned}
+\begin{array}{l}
 |\mathcal T|>c^{*}\implies\not H_{0}\\
 p\le\alpha\implies\not H_{0}\\
 \theta_0\not\in CI\implies\not H_{0}
-\end{aligned}
+\end{array}
 $$
 
 ---

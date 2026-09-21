@@ -78,13 +78,13 @@
 ---
 ### order of operations
 $$
-\begin{aligned}
+\begin{array}{l}
 1=\neg\\
 2=\land\\
 3=\lor\\
 4=\implies\\
 5=\iff\\
-\end{aligned}
+\end{array}
 $$
 
 ---

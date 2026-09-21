@@ -10,7 +10,7 @@
 ---
 ### generating magnetic field via point formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \vec B=(\frac{\mu_{0}}{4\pi})\frac{q\vec v\times\hat r}{r^{2}}=(\frac{\mu_{0}}{4\pi})\frac{qv\sin(\theta)}{r^{2}}\\
 \mu_{0}=4\pi\times10^{-7}\\
 q=\text{electric charge}\\
@@ -18,7 +18,7 @@ v=\text{velocity}\\
 \hat r=\text{direction}\\
 r=\text{distance}\\
 \theta=\text{angular position}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -29,7 +29,7 @@ $$
 ---
 ### biot savart formula
 $$
-\begin{aligned}
+\begin{array}{l}
 d\vec B=(\frac{\mu_{0}}{4\pi})\frac{Id\vec L\times\hat r}{r^{2}}=(\frac{\mu_{0}}{4\pi})\frac{IdL\sin(\theta)}{r^{2}}\\
 \mu_{0}=4\pi\times10^{-7}\\
 I=\text{electric current}\\
@@ -37,7 +37,7 @@ L=\text{length}\\
 \hat r=\text{direction}\\
 r=\text{distance}\\
 \theta=\text{angular position}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -48,12 +48,12 @@ $$
 ---
 ### generating magnetic field via line formula
 $$
-\begin{aligned}
+\begin{array}{l}
 B=\frac{\mu_{0}I}{2\pi r}\\
 \mu_{0}=4\pi\times10^{-7}\\
 I=\text{electric current}\\
 r=\text{distance}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -64,14 +64,14 @@ $$
 ---
 ### generating magnetic field via loop formula
 $$
-\begin{aligned}
+\begin{array}{l}
 B_{y}=\frac{\mu_{0}NIR^{2}}{2(y^{2}+R^{2})^{3/2}}\\
 \mu_{0}=4\pi\times10^{-7}\\
 N=\text{number of loops}\\
 I=\text{electric current}\\
 R=\text{radius}\\
 y=\text{position}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -82,13 +82,13 @@ $$
 ---
 ### generating magnetic field via coil formula
 $$
-\begin{aligned}
+\begin{array}{l}
 B=\frac{\mu_{0}NI}{2R}\\
 \mu_{0}=4\pi\times10^{-7}\\
 N=\text{number of loops}\\
 I=\text{electric current}\\
 r=\text{radius}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -99,12 +99,12 @@ $$
 ---
 ### generating magnetic field via solenoid
 $$
-\begin{aligned}
+\begin{array}{l}
 B=\mu_{0}nI\\
 \mu_{0}=4\pi\times10^{-7}\\
 n=\text{number density}\\
 I=\text{electric current}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -114,11 +114,11 @@ $$
 ---
 ### number density formula
 $$
-\begin{aligned}
+\begin{array}{l}
 n=\frac{N}{L}\\
 N=\text{number of loops}\\
 L=\text{length}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -129,13 +129,13 @@ $$
 ---
 ### generating magnetic field via toroid formula
 $$
-\begin{aligned}
+\begin{array}{l}
 B=\frac{\mu_{0}NI}{2\pi R}\\
 \mu_{0}=4\pi\times10^{-7}\\
 N=\text{number of loops}\\
 I=\text{electric current}\\
 R=\text{radius}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -146,13 +146,13 @@ $$
 ---
 ### amperes formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \oint_{L_{1}}^{L_{2}}\vec B\cdot d\vec L=\mu_{0}I_{\text{enc}}\\
 B=\text{magnetic field}\\
 L=\text{length}\\
 \mu_{0}=4\pi\times10^{-7}\\
 I=\text{electric current}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -176,12 +176,12 @@ $$
 ---
 ### symmetrical electric current distribution formula
 $$
-\begin{aligned}
+\begin{array}{l}
 B=\frac{\mu_{0}I_{\text{enc}}}{L}\\
 \mu_{0}=4\pi\times10^{-7}\\
 I=\text{electric current}\\
 L=\text{length}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -192,12 +192,12 @@ $$
 ---
 ### circular electric current distribution formula
 $$
-\begin{aligned}
+\begin{array}{l}
 B=\frac{\mu_{0}I_{\text{enc}}}{2\pi r}\\
 \mu_{0}=4\pi\times10^{-7}\\
 I=\text{electric current}\\
 r=\text{distance}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -208,11 +208,11 @@ $$
 ---
 ### electric current density formula
 $$
-\begin{aligned}
+\begin{array}{l}
 dI=J\ dA\\
 J=\text{electric current density}\\
 A=\text{area}\\
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -234,11 +234,11 @@ $$
 ---
 ### generating diamagnetic field formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \vec B=\vec B_{0}(1+\chi_{m})\\
 B=\text{magnetic field}\\
 \chi_{m}=\text{magnetic susceptibility}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -250,11 +250,11 @@ $$
 ---
 ### generating paramagnetic field formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \vec B=\vec B_{0}(1+\chi_{m})\\
 B=\text{magnetic field}\\
 \chi_{m}=\text{magnetic susceptibility}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -266,12 +266,12 @@ $$
 ---
 ### generating ferromagnetic field formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \vec B=\vec B_{0}+\mu_{0}\vec M\\
 B=\text{magnetic field}\\
 \mu_{0}=4\pi\times10^{-7}\\
 M=\text{magnetization}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -281,11 +281,11 @@ $$
 ---
 ### magnetization formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \vec M=\frac{\vec\mu}{V}\\
 \mu=\text{magnetic dipole}\\
 V=\text{volume}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -296,10 +296,10 @@ $$
 ---
 ### magnetic susceptibility formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \chi_{m}=K_{m}-1\\
 K_{m}=\text{relative permeability}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -309,11 +309,11 @@ $$
 ---
 ### relative permeability formula
 $$
-\begin{aligned}
+\begin{array}{l}
 K_{m}=\frac{\vec B}{\vec B_{0}}=\frac{\mu}{\mu_{0}}\\
 B=\text{magnetic field}\\
 \mu=\text{permeability}
-\end{aligned}
+\end{array}
 $$
 
 ---

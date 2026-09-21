@@ -5,13 +5,13 @@
 ---
 ### torque formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \vec\tau=\vec r\times\vec F=(\|\vec r\|)(\|\vec F\|)\sin(\phi)\\
 \vec r=\text{position}\\
 \vec F=\text{force}\\
 (\|\vec r\|),(\|\vec F\|)=\text{magnitude}\\
 \phi=\text{direction}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -22,11 +22,11 @@ $$
 ---
 ### tangential torque formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \tau=rF_{\perp}\\
 r=\text{distance}\\
 F_{\perp}=\text{perpendicular force}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -37,11 +37,11 @@ $$
 ---
 ### lever torque formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \tau=r_{\perp}F\\
 r=\text{perpendicular distance}\\
 F=\text{force}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -54,11 +54,11 @@ $$
 ---
 ### torque direction property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \circlearrowleft\implies\tau>0\\
 \hat r\parallel\hat F\implies\tau=0\\
 \circlearrowright\implies\tau<0
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -69,11 +69,11 @@ $$
 ---
 ### newtons second law of rotation formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \vec\tau_{\text{net}}=I\vec\alpha\\
 I=\text{moment of inertia}\\
 \vec\alpha=\text{angular acceleration}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -84,11 +84,11 @@ $$
 ---
 ### rotational work formula
 $$
-\begin{aligned}
+\begin{array}{l}
 W=\int\vec\tau\cdot d\vec\theta\\
 \vec\tau=\text{torque}\\
 \vec\theta=\text{angular position}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -98,13 +98,13 @@ $$
 ---
 ### rotational power formula
 $$
-\begin{aligned}
+\begin{array}{l}
 P=\vec\tau\cdot\vec\omega=(\|\vec\tau\|)(\|\vec\omega\|)\cos(\phi)\\
 \vec\tau=\text{torque}\\
 \vec\omega=\text{angular velocity}\\
 \|\vec\tau\|,\|\vec\omega\|=\text{magnitude}\\
 \phi=\text{direction}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -115,13 +115,13 @@ $$
 ---
 ### rolling kinetic energy formula
 $$
-\begin{aligned}
+\begin{array}{l}
 K=\frac{1}{2}Mv_{\text{cm}}^{2}+\frac{1}{2}I_{\text{cm}}\omega^{2}\\
 M=\text{system mass}\\
 v=\text{velocity}\\
 I=\text{moment of inertia}\\
 \omega=\text{angular velocity}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -133,7 +133,7 @@ $$
 ---
 ### rolling without slipping formula
 $$
-\begin{aligned}
+\begin{array}{l}
 x_{\text{cm}}=-R\theta\\
 v_{\text{cm}}=-R\omega\\
 a_{\text{cm}}=-R\alpha\\
@@ -141,7 +141,7 @@ R=\text{radius}\\
 \theta=\text{angular position}\\
 \omega=\text{angular velocity}\\
 \alpha=\text{angular acceleration}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -152,7 +152,7 @@ $$
 ---
 ### rolling with slipping formula
 $$
-\begin{aligned}
+\begin{array}{l}
 x=x_{\text{cm}}+R\theta\\
 v=v_{\text{cm}}+R\omega\\
 a=a_{\text{cm}}+R\alpha\\
@@ -163,7 +163,7 @@ v=\text{velocity}\\
 \omega=\text{angular velocity}\\
 a=\text{acceleration}\\
 \alpha=\text{angular acceleration}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -174,13 +174,13 @@ $$
 ---
 ### angular momentum formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \vec L=\vec r\times\vec p=I\vec\omega\\
 \vec r=\text{position}\\
 \vec p=\text{momentum}\\
 I=\text{moment of inertia}\\
 \vec\omega=\text{angular velocity}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -191,11 +191,11 @@ $$
 ---
 ### angular momentum direction property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \hat\omega=\hat L\\
 \omega=\text{angular velocity}\\
 L=\text{angular momentum}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -205,11 +205,11 @@ $$
 ---
 ### newtons second law of angular momentum formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \vec\tau_{\text{net}}=\frac{d\vec L}{dt}\\
 \vec L=\text{angular momentum}\\
 t=\text{time}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -220,12 +220,12 @@ $$
 ---
 ### angular impulse formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \vec H=\Delta\vec L=\int\vec\tau_{\text{net}}\cdot dt\\
 \vec L=\text{angular momentum}\\
 \vec\tau=\text{torque}\\
 t=\text{time}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -235,11 +235,11 @@ $$
 ---
 ### conservation of angular momentum formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \vec\tau_{\text{net}}=0\implies\vec H=0\\
 \vec\tau=\text{torque}\\
 \vec H=\text{angular impulse}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -250,14 +250,14 @@ $$
 ---
 ### precession formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \Omega=\frac{mgr}{I\omega}\\
 m=\text{mass}\\
 g=\text{gravity}\\
 r=\text{distance}\\
 I=\text{moment of inertia}\\
 \omega=\text{angular velocity}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -267,10 +267,10 @@ $$
 ---
 ### static equilibrium formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \vec v=0\\
 \vec v=\text{velocity}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -280,11 +280,11 @@ $$
 ---
 ### dynamic equilibrium formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \frac{d\vec v}{dt}=0\\
 \vec v=\text{velocity}\\
 t=\text{time}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -294,10 +294,10 @@ $$
 ---
 ### translational equilibrium formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \vec F_{\text{net}}=0\\
 \vec F=\text{force}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -307,10 +307,10 @@ $$
 ---
 ### rotational equilibrium formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \vec\tau_{\text{net}}=0\\
 \vec\tau=\text{torque}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -321,11 +321,11 @@ $$
 ---
 ### center of gravity formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \vec r_{\text{cg}}=\frac{\sum_{n}m_{n}\vec r_{n}}{\sum_{n}m_n}\\
 m=\text{mass}\\
 \vec r=\text{position}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -336,11 +336,11 @@ $$
 ---
 ### center of mass formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \vec g(\vec r)=\vec g_{0}\implies\vec r_{\text{cg}}=\vec r_{\text{cm}}\\
 \vec g=\text{gravity}\\
 \vec r=\text{position}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -351,11 +351,11 @@ $$
 ---
 ### area of support formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \vec r_{\text{cg}}\not\in A\implies\downarrow\\
 \vec r=\text{position}\\
 A=\text{area}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -366,14 +366,14 @@ $$
 ---
 ### stress formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \sigma_{Y}=\frac{F}{A}\\
 \sigma_{B}=\Delta p\\
 \sigma_{S}=\frac{F_{\parallel}}{A}\\
 F=\text{force}\\
 A=\text{area}\\
 p=\text{pressure}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -383,7 +383,7 @@ $$
 ---
 ### strain formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \epsilon_{Y}=\frac{\Delta L}{L_{0}}\\
 \epsilon_{B}=\frac{\Delta V}{V_{0}}\\
 \epsilon_{S}=\frac{\Delta x}{h}\\
@@ -391,7 +391,7 @@ L=\text{length}\\
 V=\text{volume}\\
 x=\text{position}\\
 h=\text{height}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -402,7 +402,7 @@ $$
 ---
 ### elastic modulus formula
 $$
-\begin{aligned}
+\begin{array}{l}
 Y=\frac{\sigma}{\epsilon}\\
 B=\frac{-\Delta p}{\Delta V/V_{0}}\\
 S=\frac{F_{\parallel}/A}{\Delta x/h}\\
@@ -414,7 +414,7 @@ F=\text{force}\\
 A=\text{area}\\
 x=\text{position}\\
 h=\text{height}
-\end{aligned}
+\end{array}
 $$
 
 ---

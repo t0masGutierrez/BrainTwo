@@ -4,10 +4,10 @@
 ---
 ### vector space formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \vec x,\vec y\in\mathcal V\implies\vec x+\vec y\in\mathcal V\\
 (c\in\mathbb R)\land(\vec x\in\mathcal V)\implies c\vec x\in\mathcal V
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -21,13 +21,13 @@ $$
 ---
 ### vector space example formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \mathbb R^{n}\\
 \mathcal M_{\text{mn}}(\mathbb R)\\
 \mathcal P_{n}(\mathbb R)=\{p(x)\in\mathbb R(x)\mid\deg(p)\le n\}\\
 \mathcal F(X,\mathbb R)=\{f\mid f:X\to\mathbb R\}\\
 Y=\{\vec x\in\mathbb R^{n}\mid A\vec x=\vec0\}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -37,9 +37,9 @@ $$
 ---
 ### trivial vector space formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \mathcal V=\{\vec0\}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -49,10 +49,10 @@ $$
 ---
 ### abstract vector space formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \vec x\oplus\vec y\in\mathcal V\\
 c\odot\vec x\in\mathcal V
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -68,7 +68,7 @@ $$
 ---
 ### vector space arithmetic property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \vec x+\vec y=\vec y+\vec x\\
 \vec x+(\vec y+\vec z)=(\vec x+\vec y)+\vec z\\
 \vec x+\vec0=\vec x\\
@@ -77,7 +77,7 @@ c(\vec x+\vec y)=c\vec x+c\vec y\\
 (c+d)\vec x=c\vec x+d\vec x\\
 (cd)\vec x=c(d\vec x)\\
 1\vec x=\vec x\\
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -89,11 +89,11 @@ $$
 ---
 ### vector space zero property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 c\vec0=\vec0\\
 c\vec x=0\implies(c=0)\lor(\vec x=\vec0)\\
 0\vec x=\vec0
-\end{aligned}
+\end{array}
 $$
 
 ---

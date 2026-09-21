@@ -4,12 +4,12 @@
 ---
 ### continuous formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \forall\epsilon>0,\exists\delta>0,\forall x\in X:d(x,t)<\delta\implies d(f(x),f(t))<\epsilon\\
 f:X\rightarrow Y\\
 f=\text{continuous function}\\
 X,Y=\text{metric space}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -19,13 +19,13 @@ $$
 ---
 ### uniform continuous formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \forall\epsilon>0,\exists\delta>0,\forall x_{1},x_{2}\in X:d(x_{1},x_{2})<\delta\implies d(f(x_{1}),f(x_{2}))<\epsilon\\
 f:X\rightarrow Y\\
 x_{1},x_{2}=\text{continuous point}\\
 f=\text{continuous function}\\
 X,Y=\text{metric space}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -35,12 +35,12 @@ $$
 ---
 ### lipschitz formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \exists M\ge0,\forall x_{1},x_{2}\in X:\frac{d(f(x_{1}),f(x_{2}))}{d(x_{1},x_{2})}\le M\\
 f:X\rightarrow Y\\
 M=\text{lipschitz constant}\\
 f=\text{M-lipschitz function}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -50,12 +50,12 @@ $$
 ---
 ### separated formula
 $$
-\begin{aligned}
+\begin{array}{l}
 A,B\subset X\implies\overline A\cap B=A\cap\overline B=\emptyset\\
 A,B=\text{separated set}\\
 \overline A,\overline B=\text{closure}\\
 X=\text{metric space}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -65,12 +65,12 @@ $$
 ---
 ### disconnected formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \exists A,B\in X:S=A\cup B\\
 A,B=\text{separated set}\\
 X=\text{metric space}\\
 S=\text{disconnected set}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -80,13 +80,13 @@ $$
 ---
 ### path formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \gamma(0)=x_{0}\land\gamma(1)=x_{1}\\
 \gamma:[0,1]\rightarrow X\\
 \gamma=\text{continuous function}\\
 x_{0},x_{1}=\text{coordinate}\\
 X=\text{metric space}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -96,14 +96,14 @@ $$
 ---
 ### path connected formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \forall x_{0},x_{1}\in S\subset X:\gamma(0)=x_{0}\land\gamma(1)=x_{1}\\
 \gamma:[0,1]\rightarrow S\\
 x_{0},x_{1}=\text{coordinate}\\
 S=\text{path connected set}\\
 \gamma=\text{continuous function}\\
 X=\text{metric space}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -113,12 +113,12 @@ $$
 ---
 ### locally bounded formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \forall t\in X,\exists\delta>0,\exists M\in\mathbb R,\forall x\in X:d(x,t)<\delta\implies|f(x)|\le M\\
 f:X\rightarrow\mathbb R\\
 f=\text{locally bounded function}\\
 X=\text{metric space}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -128,12 +128,12 @@ $$
 ---
 ### globally bounded formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \exists M\in\mathbb R,\forall x\in X:|f(x)|\le M\\
 f:X\rightarrow\mathbb R\\
 f=\text{bounded function}\\
 X=\text{metric space}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -150,7 +150,7 @@ $$
 ---
 ### set property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 (f:A\subset X\rightarrow Y)\implies f(A)=\set{f(x)\in Y|x\in A}\\
 (f:X\rightarrow B\subset Y)\implies f^{-1}(B)=\set{x\in X|f(x)\in B}\\
 A'\subset A\implies f(A')\subset f(A)\\
@@ -159,7 +159,7 @@ A\subset f^{-1}\circ f(A)\\
 f\circ f^{-1}(B)\subset B\\
 f(\bigcup_{i}A_{i})=\bigcup_{i}f(A_{i})\\
 f^{-1}(B^{c})=f^{-1}(B)^{c}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -173,13 +173,13 @@ $$
 ---
 ### limit property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 (\lim_{x\rightarrow t}f(x)=L)\land(\lim_{x\rightarrow t}f(x)=K)\implies L=K\\
 (\lim_{x\rightarrow t}f(x)=L)\land(\lim_{x\rightarrow t}g(x)=K)\implies\lim_{x\rightarrow t}(f+g)(x)=L+K\\
 (\lim_{x\rightarrow t}f(x)=L)\land(\lim_{x\rightarrow t}g(x)=K)\implies\lim_{x\rightarrow t}(f-g)(x)=L-K\\
 (\lim_{x\rightarrow t}f(x)=L)\land(\lim_{x\rightarrow t}g(x)=K)\implies\lim_{x\rightarrow t}(f\cdot g)(x)=L\cdot K\\
 (\lim_{x\rightarrow t}f(x)=L)\land(\lim_{x\rightarrow t}g(x)=K\ne0)\implies\lim_{x\rightarrow t}(\frac{f}{g})(x)=\frac{L}{K}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -189,13 +189,13 @@ $$
 ---
 ### limit continuity property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \forall t\in X:\lim_{x\rightarrow t}f(x)=f(t)\\
 f:X\rightarrow Y\\
 t=\text{limit point}\\
 f=\text{continuous function}\\
 X,Y=\text{metric space}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -208,12 +208,12 @@ $$
 ---
 ### operation continuity property
 $$
-\begin{aligned}
+\begin{array}{l}
 \lim_{x\rightarrow t}f(x)=f(t)\land\lim_{x\rightarrow t}g(x)=g(t)\implies\lim_{x\rightarrow t}(f+g)(x)=(f+g)(t)\\
 \lim_{x\rightarrow t}f(x)=f(t)\land\lim_{x\rightarrow t}g(x)=g(t)\implies\lim_{x\rightarrow t}(f-g)(x)=(f-g)(t)\\
 \lim_{x\rightarrow t}f(x)=f(t)\land\lim_{x\rightarrow t}g(x)=g(t)\implies\lim_{x\rightarrow t}(f\cdot g)(x)=(f\cdot g)(t)\\
 \lim_{x\rightarrow t}f(x)=f(t)\land\lim_{x\rightarrow t}g(x)=g(t)\ne0\implies\lim_{x\rightarrow t}(\frac{f}{g})(x)=(\frac{f}{g})(t)\\
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -223,7 +223,7 @@ $$
 ---
 ### convergence continuity property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \forall a\in X,\forall\set{a_{n}}\subset X:\lim_{n\rightarrow\infty}a_{n}=a\implies\lim_{n\rightarrow\infty}f(a_{n})=f(a)\\
 f:X\rightarrow Y\\
 a=\text{sequential limit}\\
@@ -231,7 +231,7 @@ a=\text{sequential limit}\\
 f=\text{continuous function}\\
 f(a)=\text{limit}\\
 X,Y=\text{metric space}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -241,7 +241,7 @@ $$
 ---
 ### open inverse continuity property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \forall y\in Y,\exists\epsilon>0:N_{\epsilon}(y)\subset Y
 \implies\forall x\in f^{-1}(Y),\exists\epsilon>0:N_{\epsilon}(x)\subset f^{-1}(Y)\\
 f:X\rightarrow Y\\
@@ -250,7 +250,7 @@ N=\text{neighborhood}\\
 Y,f^{-1}(Y)=\text{open set}\\
 f=\text{continuous function}\\
 X,Y=\text{metric space}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -260,14 +260,14 @@ $$
 ---
 ### closed inverse continuity property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 Y'\subset Y\implies f^{-1}(Y)'\subset f^{-1}(Y)\\
 f:X\rightarrow Y\\
 Y',f^{-1}(Y)'=\text{derived set}\\
 Y,f^{-1}(Y)=\text{closed set}\\
 f=\text{continuous function}\\
 X,Y=\text{metric space}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -277,7 +277,7 @@ $$
 ---
 ### composite continuity property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \lim_{x\rightarrow t}f(x)=f(t)\land\lim_{x\rightarrow t}g(f(x))=g(f(t))\implies\lim_{x\rightarrow t}(g\circ f)(x)=(g\circ f)(t)\\
 f:X\rightarrow Y\\
 g:Y\rightarrow Z\\
@@ -285,7 +285,7 @@ g\circ f:X\rightarrow Z\\
 t=\text{limit point}\\
 f,g=\text{continuous function}\\
 X,Y,Z=\text{metric space}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -295,7 +295,7 @@ $$
 ---
 ### compact continuity property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \forall\set{A_{i}}_{i\in I}\subset Y,\exists\{A_{i_{j}}\}_{j=1}^{n}\subset\{A_{i}\}_{i\in I}:f(X)\subset\bigcup_{j=1}^{n}A_{i_{j}}\subset Y\\
 f:X\rightarrow Y\\
 A=\text{open set}\\
@@ -303,7 +303,7 @@ A=\text{open set}\\
 I,J=\text{index set}\\
 f=\text{continuous function}\\
 X,f(X)=\text{compact set}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -313,12 +313,12 @@ $$
 ---
 ### extremum continuity property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \exists x_{0},x_{1}\in X:f(x_{0})\le f(X)\le f(x_{1})\\
 f:X\rightarrow\mathbb R\\
 f=\text{continuous function}\\
 X=\text{compact set}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -328,12 +328,12 @@ $$
 ---
 ### cauchy uniform continuity property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \forall\delta>0,\exists N\in\mathbb N,\forall n,m\ge N:d(a_{n},a_{m})<\delta\implies\forall\epsilon>0,\exists N\in\mathbb N,\forall n,m\ge N:d(f(a_{n}),f(a_{m}))<\epsilon\\
 f:X\rightarrow Y\\
 \{_{c}a_{n}\},\{_{c}f(a_{n})\}=\text{cauchy sequence}\\
 f=\text{uniform continuous function}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -343,14 +343,14 @@ $$
 ---
 ### compact uniform continuity property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \forall\epsilon>0,\exists\delta>0,\forall x_{1},x_{2}\in X:d(x_{1},x_{2})<\delta\implies d(f(x_{1}),f(x_{2}))<\epsilon\\
 f:X\rightarrow Y\\
 f=\text{continuous function}\\
 f=\text{uniform continuous function}\\
 X=\text{compact set}\\
 X,Y=\text{metric space}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -361,12 +361,12 @@ $$
 ---
 ### boundary uniform continuity property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \lim_{x\rightarrow a}f(x)=f(a)\land\lim_{x\rightarrow b}f(x)=f(b)\\
 \exists M\in\mathbb R,\forall x\in(a,b):|f(x)|\le M\\
 f:(a,b)\rightarrow\mathbb R\\
 f=\text{uniform continuous function}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -376,7 +376,7 @@ $$
 ---
 ### extension uniform continuity property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \exists!F:X\rightarrow Y:F(S)=f(S)\land\\
 \forall\epsilon>0,\exists\delta>0,\forall x_{1},x_{2}\in S:d(x_{1},x_{2})<\delta\implies\\
 d(F(x_{1}),F(x_{2}))<\epsilon\\
@@ -385,7 +385,7 @@ f,F=\text{uniform continuous function}\\
 S=\text{dense set}\\
 X=\text{metric space}\\
 Y=\text{complete metric space}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -396,14 +396,14 @@ $$
 ---
 ### hierarchy lipschitz property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \mathcal A\subset C^{\infty}\subset\dots\subset C^{m}\subset\dots\subset C^{1}\subset LIP\subset C_{u}\subset C\\
 \mathcal A=\text{analytic}\\
 C^{n}=\text{continuous differentiable}\\
 LIP=\text{lipschitz}\\
 C_{u}=\text{uniform continuous}\\
 C=\text{continuous}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -413,10 +413,10 @@ $$
 ---
 ### real connected property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \forall x,y\in S\subset\mathbb R:x<y\implies[x,y]\subset S\\
 S=\text{connected set}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -426,11 +426,11 @@ $$
 ---
 ### intermediate connected property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 f(a)<c<f(b)\implies\exists x\in(a,b):f(x)=c\\
 f:[a,b]\rightarrow\mathbb R\\
 f=\text{continuous function}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -440,7 +440,7 @@ $$
 ---
 ### path connected property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \forall x_{0},x_{1}\in S\subset X:\gamma(0)=x_{0}\land\gamma(1)=x_{1}\implies\not\exists A,B\in X:S=A\cup B\\
 \gamma:[0,1]\rightarrow S\\
 x_{0},x_{1}=\text{coordinate}\\
@@ -448,7 +448,7 @@ S=\text{connected set}\\
 \gamma=\text{continuous function}\\
 A,B=\text{separated set}\\
 X=\text{metric space}
-\end{aligned}
+\end{array}
 $$
 
 ---

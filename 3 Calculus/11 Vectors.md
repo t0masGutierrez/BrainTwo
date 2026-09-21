@@ -4,10 +4,10 @@
 ---
 ### scalar formula
 $$
-\begin{aligned}
+\begin{array}{l}
 c\in\mathbb R\\
 c=\text{scalar}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -18,10 +18,10 @@ $$
 ---
 ### vector formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \vec v\in\mathbb R^2\\
 \vec v=\text{vector}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -32,12 +32,12 @@ $$
 ---
 ### unit vector formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \hat{i}=\frac{\vec{v_{x}}}{v_{x}}\\
 \hat{j}=\frac{\vec{v_{y}}}{v_{y}}\\
 \vec v_{x},\vec v_{y}=\text{vector component}\\
 v_{x},v_{y}=\text{scalar component}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -49,7 +49,7 @@ $$
 ---
 ### component formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \vec{v}=\vec v_{x}+\vec v_{y}=v_{x}\hat{i}+v_{y}\hat{j}=\begin{bmatrix}v_x\\v_y\end{bmatrix}\\
 v_{x}=v\cos(\theta)\\
 v_{y}=v\sin(\theta)\\
@@ -59,7 +59,7 @@ v_{x},v_{y}=\text{scalar component}\\
 \hat{j}=\text{y direction}\\
 v=\text{magnitude}\\
 \theta=\text{direction}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -69,10 +69,10 @@ $$
 ---
 ### magnitude formula
 $$
-\begin{aligned}
+\begin{array}{l}
 v=\sqrt{\sum_{i=1}^nv_{i}^{2}}\\
 v_{i}=\text{scalar component}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -83,13 +83,13 @@ $$
 ---
 ### direction formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \theta=\begin{cases}
 \arctan(\frac{v_{y}}{v_{x}}),\ v_{x}>0\\
 \arctan(\frac{v_{y}}{v_{x}})+180^{\circ},\ v_{x}<0
 \end{cases}\\
 v_{x},v_{y}=\text{scalar component}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -100,7 +100,7 @@ $$
 ---
 ### vector equality property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \vec{v}=\vec{u}\iff
 \begin{cases}
 v_{x}=u_{x}\\
@@ -108,7 +108,7 @@ v_{y}=u_{y}
 \end{cases}\\
 \vec v,\vec u=\text{vector}\\
 v_{x},u_{y}=\text{scalar component}\\
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -122,7 +122,7 @@ $$
 ---
 ### vector arithmetic property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \vec v+\vec u=\vec u+\vec v\\
 (\vec v+\vec u)+\vec w=\vec v+(\vec u+\vec w)\\
 \vec v+0=\vec v\\
@@ -130,7 +130,7 @@ $$
 \vec v+(-\vec v)=0\\
 0\cdot\vec v=0\\
 c(\vec v+\vec u)=c\vec v+c\vec u
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -142,13 +142,13 @@ $$
 ---
 ### scalar multiplication formula
 $$
-\begin{aligned}
+\begin{array}{l}
 c\vec{v}=cv_{x}\hat{i}+cv_{y}\hat{j}\\
 c=\text{scalar}\\
 v_{x},v_y=\text{scalar component}\\
 \hat{i}=\text{x direction}\\
 \hat{j}=\text{y direction}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -158,12 +158,12 @@ $$
 ---
 ### vector addition formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \vec{r}=(v_{x}+u_{x})\hat{i}+(v_{y}+u_{y})\hat{j}\\
 v_{x},u_{y}=\text{scalar component}\\
 \hat i=\text{x direction}\\
 \hat j=\text{y direction}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -187,12 +187,12 @@ $$
 ---
 ### dot product formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \vec{v}\cdot\vec{u}=uv\cos(\theta)=v_{x}u_{x}+v_{y}u_{y}\\
 u,v=\text{magnitude}\\
 \theta=\text{angle between vectors}\\
 v_{x},u_{y}=\text{scalar component}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -202,12 +202,12 @@ $$
 ---
 ### unit vector dot product formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \hat{i}\cdot\hat{j}=\hat{j}\cdot\hat{k}=\hat{k}\cdot\hat{i}=0\\
 \hat i=\text{x direction}\\
 \hat j=\text{y direction}\\
 \hat k=\text{z direction}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -221,13 +221,13 @@ $$
 ---
 ### dot product direction property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 0^{\circ}\le\theta<90^{\circ}\iff\vec v\cdot\vec{u}>0\\
 90^{\circ}\le\theta<180^{\circ}\iff\vec v\cdot\vec{u}<0\\
 \theta=90^{\circ}\iff\vec v\cdot\vec{u}=0\\
 \theta=0^{\circ}\iff\vec v\cdot\vec{u}=uv\\
 \theta=180^{\circ}\iff\vec v\cdot\vec{u}=-uv
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -241,13 +241,13 @@ $$
 ---
 ### dot product arithmetic property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \vec x\cdot\vec y=\vec y\cdot\vec x\\
 \vec x\cdot\vec x=x^{2}\ge0\\
 \vec x\cdot\vec x=0\iff\vec x=\vec0\\
 c(\vec x\cdot\vec y)=(c\vec x)\cdot\vec y=\vec x\cdot(c\vec y)\\
 \vec x\cdot(\vec y+\vec z)=(\vec x\cdot\vec y)+(\vec x\cdot\vec z)=(\vec x+\vec y)\cdot\vec z
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -258,7 +258,7 @@ $$
 ---
 ### cross product formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \vec{v}\times\vec{u}=(v_{y}u_{z}-v_{z}u_{y})\hat{i}+(v_{z}u_{x}-v_{x}u_{z})\hat{j}+(v_{x}u_{y}-v_{y}u_{x})\hat{k}\\
 \|\vec{v}\times\vec{u}\|=uv\sin(\theta)\\
 v_{x},u_{x}=\text{x scalar component}\\
@@ -269,7 +269,7 @@ v_{z},u_{z}=\text{z scalar component}\\
 \hat k=\text{z direction}\\
 u,v=\text{magnitude}\\
 \theta=\text{angle between vectors}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -282,14 +282,14 @@ $$
 ---
 ### unit vector cross product formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \hat{i}\times\hat{j}=\hat{k}\\
 \hat{j}\times\hat{k}=\hat{i}\\
 \hat{k}\times\hat{i}=\hat{j}\\
 \hat i=\text{x direction}\\
 \hat j=\text{y direction}\\
 \hat k=\text{z direction}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -302,12 +302,12 @@ $$
 ---
 ### cross product direction property formula
 $$
-\begin{aligned}
-\theta=90^{\circ}&\iff\|\vec v\times\vec{u}\|=uv\\
-\theta=0^{\circ}&\iff\|\vec v\times\vec{u}\|=0\\
-\theta=180^{\circ}&\iff\|\vec v\times\vec{u}\|=0\\
-\vec v=\vec{u}&\implies(\theta=0^{\circ})\land(\|\vec v\times\vec{u}\|=0)
-\end{aligned}
+\begin{array}{l}
+\theta=90^{\circ}\iff\|\vec v\times\vec{u}\|=uv\\
+\theta=0^{\circ}\iff\|\vec v\times\vec{u}\|=0\\
+\theta=180^{\circ}\iff\|\vec v\times\vec{u}\|=0\\
+\vec v=\vec{u}\implies(\theta=0^{\circ})\land(\|\vec v\times\vec{u}\|=0)
+\end{array}
 $$
 
 ---
@@ -321,14 +321,14 @@ $$
 ---
 ### cross product arithmetic property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \vec x\times\vec y=-(\vec y\times\vec x)\\
 \vec x\times\vec x=\vec0\\
 \vec x\times\vec y=\vec0\iff\vec x\parallel\vec y\\
 c(\vec x\times\vec y)=(c\vec x)\times\vec y=\vec x\times(c\vec y)\\
 \vec x\cdot(\vec y\times\vec z)=(\vec x\times\vec y)\cdot\vec z)\\
 \vec x\times(\vec y+\vec z)=(\vec x\times\vec y)+(\vec x\times\vec z)=(\vec x+\vec y)\times\vec z
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -339,7 +339,7 @@ $$
 ---
 ### box product formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \vec{v}\cdot(\vec{u}\times\vec{w})=\begin{vmatrix}
 v_{x}&v_{y}&v_{z}\\
 u_{x}&u_{y}&u_{z}\\
@@ -348,7 +348,7 @@ w_{z}&w_{y}&w_{z}\\
 v_{x},u_{x},w_{x}=\text{x scalar component}\\
 v_{y},u_{y},w_{y}=\text{y scalar component}\\
 v_{z},u_{z},w_{z}=\text{z scalar component}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -358,11 +358,11 @@ $$
 ---
 ### parallel projection vector formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \text{proj}_{\vec{u}}(\vec v\parallel)=(\frac{\vec v\cdot\vec{u}}{u^{2}})\cdot\vec{u}\\
 \vec v,\vec{u}=\text{vector}\\
 u=\text{magnitude}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -372,11 +372,11 @@ $$
 ---
 ### perpendicular projection vector formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \text{proj}_{\vec{u}}(\vec v\perp)=\vec v-(\frac{\vec v\cdot\vec{u}}{u^{2}})\cdot\vec{u}\\
 \vec v,\vec{u}=\text{vector}\\
 u=\text{magnitude}
-\end{aligned}
+\end{array}
 $$
 
 ---

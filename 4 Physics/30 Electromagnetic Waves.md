@@ -15,7 +15,7 @@
 ---
 ### wave position formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \vec E(x,t)=E_{0}\cos(kx\mp\omega t)\ \hat j\\
 \vec B(x,t)=B_{0}\cos(kx\mp\omega t)\ \hat k\\
 E=\text{electric field}\\
@@ -24,7 +24,7 @@ k=\text{wave number}\\
 x=\text{position}\\
 \omega=\text{angular frequency}\\
 t=\text{time}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -35,11 +35,11 @@ $$
 ---
 ### electromagnetic ratio formula
 $$
-\begin{aligned}
+\begin{array}{l}
 c=\frac{E}{B}\\
 E=\text{electric field}\\
 B=\text{magnetic field}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -50,7 +50,7 @@ $$
 ---
 ### wave velocity formula
 $$
-\begin{aligned}
+\begin{array}{l}
 v=\lambda f=\frac{\omega}{k}\\
 c=\sqrt{\frac{1}{\epsilon_{0}\mu_{0}}}=3\times10^{8}\\
 \lambda=\text{wavelength}\\
@@ -59,7 +59,7 @@ f=\text{oscillation frequency}\\
 k=\text{wave number}\\
 \epsilon_{0}=8.85\times10^{-12}\\
 \mu_{0}=4\pi\times10^{-7}\\
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -69,7 +69,7 @@ $$
 ---
 ### non vacuum wave velocity formula
 $$
-\begin{aligned}
+\begin{array}{l}
 v=\sqrt{\frac{1}{\epsilon\mu}}=\sqrt{\frac{1}{K\epsilon_{0}K_{m}\mu_{0}}}=c\sqrt{\frac{1}{KK_{m}}}\\
 \epsilon=\text{permittivity}\\
 \mu=\text{permeability}\\
@@ -78,7 +78,7 @@ K=\text{dielectric constant}\\
 K_{m}=\text{relative permeability}\\
 \mu_{0}=4\pi\times10^{-7}\\
 c=3\times10^{8}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -95,25 +95,25 @@ $$
 ---
 ### average energy density formula
 $$
-\begin{aligned}
+\begin{array}{l}
 u_{\text{avg}}=\frac{\epsilon_{0}E_{0}^{2}}{2}=\frac{B_{0}^{2}}{2\mu_{0}}\\
 \epsilon_{0}=8.85\times10^{-12}\\
 E=\text{electric field}\\
 B=\text{magnetic field}\\
 \mu_{0}=4\pi\times10^{-7}
-\end{aligned}
+\end{array}
 $$
 
 ---
 ### instantaneous energy density formula
 $$
-\begin{aligned}
+\begin{array}{l}
 u=\epsilon_{0}E^{2}=\frac{B^{2}}{\mu_{0}}\\
 \epsilon_{0}=8.85\times10^{-12}\\
 E=\text{electric field}\\
 B=\text{magnetic field}\\
 \mu_{0}=4\pi\times10^{-7}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -124,7 +124,7 @@ $$
 ---
 ### average poynting formula
 $$
-\begin{aligned}
+\begin{array}{l}
 S_{\text{avg}}=c(\frac{\epsilon_{0}E_{0}^{2}}{2})=c(\frac{B_{0}^{2}}{2\mu_{0}})\\
 c=3\times10^{8}\\
 u=\text{energy density}\\
@@ -132,18 +132,18 @@ u=\text{energy density}\\
 E=\text{electric field}\\
 B=\text{magnetic field}\\
 \mu_{0}=4\pi\times10^{-7}
-\end{aligned}
+\end{array}
 $$
 
 ---
 ### instantaneous poynting formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \vec S=\frac{\vec E\times\vec B}{\mu_{0}}\\
 E=\text{electric field}\\
 B=\text{magnetic field}\\
 \mu_{0}=4\pi\times10^{-7}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -153,13 +153,13 @@ $$
 ---
 ### power formula
 $$
-\begin{aligned}
+\begin{array}{l}
 P=\frac{U}{t}=IA\\
 U=\text{energy}\\
 t=\text{time}\\
 I=\text{intensity}\\
 A=\text{area}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -169,12 +169,12 @@ $$
 ---
 ### intensity formula
 $$
-\begin{aligned}
+\begin{array}{l}
 I=\frac{P}{A}=S_{\text{avg}}\\
 P=\text{power}\\
 A=\text{area}\\
 S=\text{poynting}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -204,25 +204,25 @@ $$
 ---
 ### radiation pressure absorption formula
 $$
-\begin{aligned}
+\begin{array}{l}
 p_{\text{rad}}=\frac{F_{\perp}}{A}=\frac{I}{c}\\
 F=\text{force}\\
 A=\text{area}\\
 I=\text{intensity}\\
 c=3\times10^{8}
-\end{aligned}
+\end{array}
 $$
 
 ---
 ### radiation pressure reflection formula
 $$
-\begin{aligned}
+\begin{array}{l}
 p_{\text{rad}}=\frac{F_{\perp}}{A}=\frac{2I}{c}\\
 F=\text{force}\\
 A=\text{area}\\
 I=\text{intensity}\\
 c=3\times10^{8}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -237,7 +237,7 @@ $$
 ---
 ### wave position formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \vec E(x,t)=-2E_{0}\sin(kx)\sin(\omega t)\ \hat j\\
 \vec B(x,t)=-2B_{0}\cos(kx)\cos(\omega t)\ \hat k\\
 E=\text{electric field}\\
@@ -246,7 +246,7 @@ k=\text{wave number}\\
 x=\text{position}\\
 \omega=\text{angular frequency}\\
 t=\text{time}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -277,11 +277,11 @@ $$
 ---
 ### resonant wavelength formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \lambda_{n}=\frac{2L}{n}\\
 L=\text{length}\\
 n=\text{harmonic number}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -291,12 +291,12 @@ $$
 ---
 ### resonant frequency formula
 $$
-\begin{aligned}
+\begin{array}{l}
 f_{n}=\frac{nv}{2L}\\
 n=\text{harmonic number}\\
 v=\text{wave velocity}\\
 L=\text{length}
-\end{aligned}
+\end{array}
 $$
 
 ---

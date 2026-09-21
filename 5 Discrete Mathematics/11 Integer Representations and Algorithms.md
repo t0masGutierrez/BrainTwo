@@ -8,11 +8,11 @@
 ---
 ### base b expansion of integer n formula
 $$
-\begin{aligned}
+\begin{array}{l}
 n=a_{k}b^{k}+a_{k-1}b^{k-1}+...+a_{1}b^{1}+a_{0}b^{0}\\
 k=\{0,1,2,...b\}\\
 a_{k}=\text{digit}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -22,9 +22,9 @@ $$
 ---
 ### binary formula
 $$
-\begin{aligned}
+\begin{array}{l}
 n_{2}=\{0,1\}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -34,9 +34,9 @@ $$
 ---
 ### octal formula
 $$
-\begin{aligned}
+\begin{array}{l}
 n_{8}=\{0,1,3,4,5,6,7\}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -46,9 +46,9 @@ $$
 ---
 ### decimal formula
 $$
-\begin{aligned}
+\begin{array}{l}
 n_{10}=\{0,1,3,4,5,6,7,8,9\}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -58,9 +58,9 @@ $$
 ---
 ### hexadecimal formula
 $$
-\begin{aligned}
+\begin{array}{l}
 n_{16}=\{0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F\}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -71,12 +71,12 @@ $$
 ---
 ### base conversion formula
 $$
-\begin{aligned}
+\begin{array}{l}
 n=bq+r\\
 b=\text{base}\\
 q=\text{quotient}\\
 r=\text{remainder}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -94,14 +94,14 @@ $$
 ---
 ### addition formula
 $$
-\begin{aligned}
+\begin{array}{l}
 p_{k}+q_{k}+c_{k-1}=bc_{k}+s_{k}\\
 p=\text{addend}\\
 q=\text{addend}\\
 c=\text{carry}\\
 b=\text{base}\\
 s=\text{sum}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -112,10 +112,10 @@ $$
 ---
 ### multiplication formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \sum_{k=0}^{n}p_{k_{1}}q_{k_{2}}b^{k_{1}+k_{2}}=p_{0}q_{0}b^{0}+p_{1}q_{1}b^{2}+...+p_{n-1}q_{n-1}b^{2n-2}\\
 k=\{0,1,2,...n-1\}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -125,10 +125,10 @@ $$
 ---
 ### modular exponentiation formula
 $$
-\begin{aligned}
+\begin{array}{l}
 b^{n}\ \text{mod}\ m\\
 m=\text{modulus}
-\end{aligned}
+\end{array}
 $$
 
 ---

@@ -4,14 +4,14 @@
 ---
 ### 1x1 determinant formula
 $$
-\begin{aligned}
+\begin{array}{l}
 A=\begin{bmatrix}
 a_{11}
 \end{bmatrix}\implies
 \det(A)=a_{11}\\
 A=\text{square matrix}\\
 a=\text{entry}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -21,7 +21,7 @@ $$
 ---
 ### 2x2 determinant formula
 $$
-\begin{aligned}
+\begin{array}{l}
 A=\begin{bmatrix}
 a_{11}&a_{12}\\
 a_{21}&a_{22}
@@ -29,7 +29,7 @@ a_{21}&a_{22}
 \det(A)=a_{11}a_{22}-a_{12}a_{21}\\
 A=\text{square matrix}\\
 a=\text{entry}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -39,7 +39,7 @@ $$
 ---
 ### 3x3 determinant formula
 $$
-\begin{aligned}
+\begin{array}{l}
 A=\begin{bmatrix}
 a_{11}&a_{12}&a_{13}\\
 a_{21}&a_{22}&a_{23}\\
@@ -48,7 +48,7 @@ a_{31}&a_{32}&a_{33}
 \det(A)=a_{11}a_{22}a_{33}+a_{12}a_{23}a_{31}+a_{13}a_{21}a_{32}\\-a_{13}a_{22}a_{31}-a_{11}a_{23}a_{32}-a_{12}a_{21}a_{33}\\
 A=\text{square matrix}\\
 a=\text{entry}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -58,10 +58,10 @@ $$
 ---
 ### nxn determinant formula
 $$
-\begin{aligned}
+\begin{array}{l}
 |A|=n\times n\implies\text{det}(A)\in\mathbb R\\
 A=\text{square matrix}\\
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -71,12 +71,12 @@ $$
 ---
 ### submatrix formula
 $$
-\begin{aligned}
+\begin{array}{l}
 A_{\text{ij}}=A-(a_{i*}+a_{*j})\\
 A=\text{matrix}\\
 a_{i*}=\text{ith row}\\
 a_{*j}=\text{jth column}\\
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -86,10 +86,10 @@ $$
 ---
 ### minor formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \forall n\ge2:|A_{\text{ij}}|=(n-1)\times(n-1)\implies\det(A_{\text{ij}})\\
 A_{\text{ij}}=\text{square submatrix}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -99,12 +99,12 @@ $$
 ---
 ### cofactor formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \mathcal A_{\text{ij}}=(-1)^{i+j}\det(A_{\text{ij}})\\
 i=\text{row index}\\
 j=\text{column index}\\
 \det(A_{\text{ij}})=\text{minor}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -115,7 +115,7 @@ $$
 ---
 ### nxn determinant formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \det(A)=\sum_{j=1}^{n}a_{\text{ij}}\mathcal A_{\text{ij}}\\
 \det(A)=\sum_{i=1}^{n}a_{\text{ij}}\mathcal A_{\text{ij}}\\
 A=\text{square matrix}\\
@@ -124,7 +124,7 @@ j=\text{column index}\\
 n=\text{dimension}\\
 a=\text{entry}\\
 \mathcal A=\text{cofactor}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -134,12 +134,12 @@ $$
 ---
 ### type I determinant row operation formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \det R_{1}(A)=c\det(A)\\
 R_{1}=\text{type I row operation}\\
 A=\text{square matrix}\\
 c=\text{scalar}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -149,11 +149,11 @@ $$
 ---
 ### type II determinant row operation formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \det R_{2}(A)=\det(A)\\
 R_{2}=\text{type II row operation}\\
 A=\text{square matrix}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -163,11 +163,11 @@ $$
 ---
 ### type III determinant row operation formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \det R_{3}(A)=-\det(A)\\
 R_{3}=\text{type III row operation}\\
 A=\text{square matrix}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -180,12 +180,12 @@ $$
 ---
 ### determinant via gaussian elimination formula
 $$
-\begin{aligned}
+\begin{array}{l}
 B=R_{k}(\dots R_{1}(A)\dots)\in\mathcal U\implies\det(A)=\frac{1}{c}\det(B)\\
 R=\text{row operation}\\
 A=\text{square matrix}\\
 c=\text{scalar}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -205,11 +205,11 @@ $$
 ---
 ### upper triangular matrix determinant formula
 $$
-\begin{aligned}
+\begin{array}{l}
 A\in\mathcal U_{n}\implies\det(A)=\prod_{i=1}^{n}a_{\text{ii}}\\
 a=\text{entry}\\
 i=\text{diagonal index}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -219,10 +219,10 @@ $$
 ---
 ### identity matrix determinant formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \det(I)=1\\
 I=\text{identity matrix}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -232,12 +232,12 @@ $$
 ---
 ### scalar multiplication determinant formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \det(cA)=c^{n}\det(A)\\
 A=\text{square matrix}\\
 c=\text{scalar}\\
 n=\text{dimension}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -247,10 +247,10 @@ $$
 ---
 ### matrix multiplication determinant formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \det(AB)=\det(A)\det(B)\\
 A,B=\text{square matrix}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -260,11 +260,11 @@ $$
 ---
 ### matrix inversion determinant formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \det(A^{-1})=\frac{1}{\det(A)}\\
 \det(A)\ne0\\
 A=\text{square matrix}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -276,11 +276,11 @@ $$
 ---
 ### matrix transposition determinant formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \det R(I)=|(R(I))^{T}|\\
 \det R_{k}(\dots R_{1}(I)\dots)=|(R_{k}(\dots R_{1}(I)\dots))^{T}|\\
 \det R(B)=|(R(B))^{T}|\\
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -290,11 +290,11 @@ $$
 ---
 ### symmetric determinant formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \det(A)=\det(A^{T})\\
 A=\text{symmetric matrix}\\
 T=\text{transposition}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -305,10 +305,10 @@ $$
 ---
 ### determinant zero property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 (\vec a_{i*}=0)\lor(\vec a_{*j}=0)\implies\det(A)=0\\
 (\vec a_{i_{1}*}=\vec a_{i_{2}*})\lor(\vec a_{*j_{1}}=\vec a_{*j_{2}})\implies\det(A)=0
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -318,10 +318,10 @@ $$
 ---
 ### determinant singularity property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \text{det}(A)\ne0\iff\exists A^{-1}\\
 A=\text{nonsingular matrix}\\
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -331,11 +331,11 @@ $$
 ---
 ### determinant rank property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \det(A)\ne0\iff\text{rank}(A)=n\\
 A=\text{square matrix}\\
 n=\text{dimension}
-\end{aligned}
+\end{array}
 $$
 
 ---

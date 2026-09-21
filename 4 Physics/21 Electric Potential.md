@@ -5,22 +5,22 @@
 ---
 ### constant work formula
 $$
-\begin{aligned}
+\begin{array}{l}
 W=\vec F\cdot d\vec r=F\Delta r\cos(\theta)\\
 F=\text{force}\\
 r=\text{position}\\
 \theta=\text{angular position}
-\end{aligned}
+\end{array}
 $$
 
 ---
 ### variable work formula
 $$
-\begin{aligned}
+\begin{array}{l}
 W=\sum_{i}F_{i}\Delta r_{i}=\int_{r_{1}}^{r_{2}}\vec F\cdot d\vec r\\
 F=\text{force}\\
 r=\text{position}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -37,11 +37,11 @@ $$
 ---
 ### potential energy formula
 $$
-\begin{aligned}
+\begin{array}{l}
 U=\int_{r_{2}}^{r_{1}}\vec F_{\text{cons}}\cdot d\vec r\\
 F_{\text{cons}}=\text{conservative force}\\
 r=\text{position}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -57,10 +57,10 @@ $$
 ---
 ### work energy formula
 $$
-\begin{aligned}
+\begin{array}{l}
 W_{\text{cons}}=U_{i}-U_{f}\\
 U=\text{potential energy}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -71,12 +71,12 @@ $$
 ---
 ### electric potential energy formula
 $$
-\begin{aligned}
+\begin{array}{l}
 U=k\frac{q_{1}q_{2}}{r}\\
 k=9\times10^{9}\\
 q=\text{electric charge}\\
 r=\text{distance}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -92,12 +92,12 @@ $$
 ---
 ### electric potential energy formula
 $$
-\begin{aligned}
+\begin{array}{l}
 U=qEy\\
 q=\text{electric charge}\\
 E=\text{electric field}\\
 y=\text{position}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -114,14 +114,14 @@ $$
 ---
 ### electric potential formula
 $$
-\begin{aligned}
+\begin{array}{l}
 V=\frac{U}{q}=k\sum_{i}\frac{Q_{i}}{r_{i}}\\
 U=\text{potential energy}\\
 q=\text{test electric charge}\\
 k=9\times10^{9}\\
 Q=\text{source electric charge}\\
 r=\text{distance}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -149,14 +149,14 @@ $$
 ---
 ### electric potential difference formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \Delta V=\frac{\Delta U}{q}=k\int\frac{dQ}{r}\\
 U=\text{potential energy}\\
 q=\text{test electric charge}\\
 k=9\times10^{9}\\
 Q=\text{source electric charge}\\
 r=\text{distance}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -171,9 +171,9 @@ $$
 ---
 ### electron volt formula
 $$
-\begin{aligned}
+\begin{array}{l}
 eV=1.6\times10^{-19}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -184,11 +184,11 @@ $$
 ---
 ### uniform electric field formula
 $$
-\begin{aligned}
+\begin{array}{l}
 E=\frac{\Delta V}{r}\\
 V=\text{electric potential}\\
 r=\text{distance}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -199,11 +199,11 @@ $$
 ---
 ### non uniform electric field formula
 $$
-\begin{aligned}
+\begin{array}{l}
 E=\frac{-dV}{dr}\\
 V=\text{electric potential}\\
 r=\text{distance}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -215,11 +215,11 @@ $$
 ---
 ### electrostatic conductor formula
 $$
-\begin{aligned}
+\begin{array}{l}
 E\perp=\frac{\sigma}{\epsilon_{0}}\\
 \sigma=\text{surface density}\\
 \epsilon_{0}=8.85\times10^{-12}
-\end{aligned}
+\end{array}
 $$
 
 ---

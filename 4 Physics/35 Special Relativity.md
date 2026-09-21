@@ -40,11 +40,11 @@
 ---
 ### lorentz factor formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \gamma=\sqrt[-2]{1-\frac{v_{A/B}^{2}}{c^{2}}}\ge1\\
 v=\text{velocity}\\
 c=3\times10^{8}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -60,11 +60,11 @@ $$
 ---
 ### time dilation formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \Delta t=\Delta t_{o}\gamma\\
 t_{0}=\text{proper time}\\
 \gamma=\text{lorentz factor}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -81,11 +81,11 @@ $$
 ---
 ### length contraction formula
 $$
-\begin{aligned}
+\begin{array}{l}
 L=\frac{L_{0}}{\gamma}\\
 L_{0}=\text{proper length}\\
 \gamma=\text{lorentz factor}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -95,7 +95,7 @@ $$
 ---
 ### galilean transformation formula
 $$
-\begin{aligned}
+\begin{array}{l}
 x=x'+vt\\
 y=y'\\
 z=z'\\
@@ -103,16 +103,16 @@ t=t'\\
 x=\text{position}\\
 v=\text{velocity}\\
 t=\text{time}
-\end{aligned}
+\end{array}
 $$
 
 ---
 ### galilean velocity transformation formula
 $$
-\begin{aligned}
+\begin{array}{l}
 v=v'+v_{A/B}\\
 v=\text{velocity}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -123,7 +123,7 @@ $$
 ---
 ### lorentz transformation formula
 $$
-\begin{aligned}
+\begin{array}{l}
 x=(x'+vt')\gamma\\
 y=y'\\
 z=z'\\
@@ -133,15 +133,15 @@ v=\text{velocity}\\
 t=\text{time}\\
 \gamma=\text{lorentz factor}\\
 c=3\times10^{8}
-\end{aligned}
+\end{array}
 $$
 
 ---
 ### lorentz velocity transformation formula
 $$
-\begin{aligned}
+\begin{array}{l}
 v=\frac{v'+v_{A/B}}{1+v_{A/B}v'/c^{2}}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -151,12 +151,12 @@ $$
 ---
 ### spacetime interval formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \Delta s^{2}=c^{2}\Delta t^{2}-\Delta x^{2}-\Delta y^{2}-\Delta z^{2}\\
 c=3\times10^{8}\\
 t=\text{time}\\
 x=\text{position}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -166,10 +166,10 @@ $$
 ---
 ### lorentz invariance formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \Delta s^{2}=(\Delta s')^{2}\\
 s=\text{spacetime}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -204,12 +204,12 @@ $$
 ---
 ### relativistic doppler effect formula
 $$
-\begin{aligned}
+\begin{array}{l}
 f=f_{0}\sqrt{\frac{c\pm v_{A/B}}{c\mp v_{A/B}}}\\
 f_{0}=\text{proper frequency}\\
 c=3\times10^{8}\\
 v=\text{velocity}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -230,12 +230,12 @@ $$
 ---
 ### relativistic momentum formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \vec p=\gamma m\vec v\\
 \gamma=\text{lorentz factor}\\
 m=\text{mass}\\
 v=\text{velocity}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -246,12 +246,12 @@ $$
 ---
 ### relativistic kinetic energy formula
 $$
-\begin{aligned}
+\begin{array}{l}
 K=(\gamma-1)mc^{2}\\
 \gamma=\text{lorentz factor}\\
 m=\text{mass}\\
 c=3\times10^{8}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -262,22 +262,22 @@ $$
 ---
 ### total relativistic energy formula
 $$
-\begin{aligned}
+\begin{array}{l}
 E=\gamma mc^{2}\\
 \gamma=\text{lorentz factor}\\
 m=\text{mass}\\
 c=3\times10^{8}
-\end{aligned}
+\end{array}
 $$
 
 ---
 ### rest relativistic energy formula
 $$
-\begin{aligned}
+\begin{array}{l}
 E_{0}=mc^{2}\\
 m=\text{mass}\\
 c=3\times10^{8}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -287,12 +287,12 @@ $$
 ---
 ### energy and momentum formula
 $$
-\begin{aligned}
+\begin{array}{l}
 E^{2}=(mc^{2})^{2}+(pc)^{2}\\
 m=\text{mass}\\
 c=3\times10^{8}\\
 p=\text{momentum}
-\end{aligned}
+\end{array}
 $$
 
 ---

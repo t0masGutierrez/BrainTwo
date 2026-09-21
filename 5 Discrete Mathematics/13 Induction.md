@@ -5,11 +5,11 @@
 ---
 ### induction formula
 $$
-\begin{aligned}
+\begin{array}{l}
 P(1)\\
 P(k)\implies P(k+1)\\
 \therefore\forall nP(n)
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -39,12 +39,12 @@ $$
 ---
 ### strong induction formula
 $$
-\begin{aligned}
+\begin{array}{l}
 P(1)\\
 P(j)\implies P(j+1)\\
 \therefore\forall nP(n)\\
 j=1,2,...k
-\end{aligned}
+\end{array}
 $$
 
 ---

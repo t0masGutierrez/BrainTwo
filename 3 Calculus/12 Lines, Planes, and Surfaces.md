@@ -7,11 +7,11 @@
 ---
 ### three dimensional coordinate system formula
 $$
-\begin{aligned}
+\begin{array}{l}
 (x,y)\iff z=0\\
 (x,z)\iff y=0\\
 (y,z)\iff x=0
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -22,13 +22,13 @@ $$
 ---
 ### direction vector formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \vec v=\overrightarrow{PQ}=\langle x-x_{0},y-y_{0},z-z_{0}\rangle=\langle a,b,c\rangle\\
 P=\text{initial point}\\
 Q=\text{terminal point}\\
 x,y,z=\text{coordinate}\\
 a,b,c=\text{direction number}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -38,12 +38,12 @@ $$
 ---
 ### direction angle formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \alpha=\arccos(\frac{a}{\sqrt{a^2+b^2+c^2}})\\
 \beta=\arccos(\frac{b}{\sqrt{a^2+b^2+c^2}})\\
 \gamma=\arccos(\frac{c}{\sqrt{a^2+b^2+c^2}})\\
 a,b,c=\text{direction number}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -54,14 +54,14 @@ $$
 ---
 ### vector equation of line formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \langle x,y,z\rangle=\langle x_{0},y_{0},z_{0}\rangle+t\langle a,b,c\rangle=\vec r_0+t\vec v\\
 x,y,z=\text{coordinate}\\
 t=\text{parameter}\\
 a,b,c=\text{direction number}\\
 \vec r=\text{position vector}\\
 \vec v=\text{direction vector}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -72,7 +72,7 @@ $$
 ---
 ### parametric equation of line formula
 $$
-\begin{aligned}
+\begin{array}{l}
 x=x_{0}+at\\
 y=y_{0}+bt\\
 z=z_{0}+ct\\
@@ -80,7 +80,7 @@ a,b,c\ne0\implies\frac{x-x_0}{a}=\frac{y-y_0}{b}=\frac{z-z_0}{c}\\
 x,y,z=\text{coordinate}\\
 u,v,c=\text{direction number}\\
 t=\text{parameter}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -91,11 +91,11 @@ $$
 ---
 ### normal vector formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \vec n=\overrightarrow{PQ}\times\overrightarrow{PR}=\langle a,b,c\rangle\\
 P,Q,R=\text{noncollinear point}\\
 a,b,c=\text{normal number}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -106,10 +106,10 @@ $$
 ---
 ### normal angle formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \theta=\arccos(\frac{\vec n_1\cdot\vec n_2}{n_1n_2})\\
 \vec n=\text{normal vector}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -120,12 +120,12 @@ $$
 ---
 ### vector equation of plane formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \vec n\cdot\overrightarrow{PQ}=0\\
 \vec n=\text{normal vector}\\
 P=\text{initial point}\\
 Q=\text{terminal point}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -135,11 +135,11 @@ $$
 ---
 ### scalar equation of plane formula
 $$
-\begin{aligned}
+\begin{array}{l}
 a(x-x_{0})+b(y-y_{0})+c(z-z_{0})=0\\
 a,b,c=\text{normal number}\\
 x,y,z=\text{coordinate}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -150,10 +150,10 @@ $$
 ---
 ### parallel plane formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \vec n_1\parallel\vec n_2\\
 \vec n=\text{normal vector}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -164,10 +164,10 @@ $$
 ---
 ### perpendicular plane formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \vec n_1\perp\vec n_2\\
 \vec n=\text{normal vector}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -178,13 +178,13 @@ $$
 ---
 ### linear distance formula
 $$
-\begin{aligned}
+\begin{array}{l}
 d=\frac{\|\overrightarrow{PQ}\times\vec v\|}{\sqrt{a^2+b^2+c^2}}\\
 P=\text{initial point}\\
 Q=\text{terminal point}\\
 \vec v=\text{direction vector}\\
 a,b,c=\text{direction number}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -195,13 +195,13 @@ $$
 ---
 ### planar distance formula
 $$
-\begin{aligned}
+\begin{array}{l}
 d=\frac{|\overrightarrow{PQ}\cdot\vec n|}{\sqrt{a^2+b^2+c^2}}\\
 P=\text{initial point}\\
 Q=\text{terminal point}\\
 \vec n=\text{normal vector}\\
 a,b,c=\text{normal number}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -212,11 +212,11 @@ $$
 ---
 ### cylindrical surface formula
 $$
-\begin{aligned}
+\begin{array}{l}
 f(x,y)=0\\
 f(x,z)=0\\
 f(y,z)=0\\
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -226,9 +226,9 @@ $$
 ---
 ### elliptic cylinder formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \frac{(x-h)^2}{a^2}+\frac{(y-k)^2}{b^2}=1
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -238,9 +238,9 @@ $$
 ---
 ### hyperbolic cylinder formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \frac{(x-h)^2}{a^2}-\frac{(y-k)^2}{b^2}=1
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -250,9 +250,9 @@ $$
 ---
 ### parabolic cylinder formula
 $$
-\begin{aligned}
+\begin{array}{l}
 a(x-h)^2=y-k
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -262,9 +262,9 @@ $$
 ---
 ### quadric surface formula
 $$
-\begin{aligned}
+\begin{array}{l}
 Ax^2+By^2+Cz^2+Dxy+Exz+Fyz+Gx+Hy+Iz+J=0
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -275,9 +275,9 @@ $$
 ---
 ### ellipsoid formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \frac{(x-h)^2}{a^2}+\frac{(y-k)^2}{b^2}+\frac{(z-\ell)^2}{c^2}=1
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -288,9 +288,9 @@ $$
 ---
 ### one hyperboloid formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \frac{(x-h)^2}{a^2}+\frac{(y-k)^2}{b^2}-\frac{(z-\ell)^2}{c^2}=1
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -301,9 +301,9 @@ $$
 ---
 ### two hyperboloid formula
 $$
-\begin{aligned}
+\begin{array}{l}
 -\frac{(x-h)^2}{a^2}-\frac{(y-k)^2}{b^2}+\frac{(z-\ell)^2}{c^2}=1
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -314,9 +314,9 @@ $$
 ---
 ### elliptic cone formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \frac{(x-h)^2}{a^2}+\frac{(y-k)^2}{b^2}-\frac{(z-\ell)^2}{c^2}=0
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -327,9 +327,9 @@ $$
 ---
 ### elliptic paraboloid formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \frac{(x-h)^2}{a^2}+\frac{(y-k)^2}{b^2}=z-\ell
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -340,9 +340,9 @@ $$
 ---
 ### hyperbolic paraboloid formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \frac{(x-h)^2}{a^2}-\frac{(y-k)^2}{b^2}=z-\ell
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -353,7 +353,7 @@ $$
 ---
 ### cylindrical coordinate formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \begin{cases}x=r\cos(\theta)\\
 y=r\sin(\theta)\\
 z=z
@@ -365,7 +365,7 @@ z=z
 x,y,z=\text{dependent variable}\\
 r=\text{distance}\\
 \theta=\text{angle}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -376,7 +376,7 @@ $$
 ---
 ### spherical coordinate formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \begin{cases}x=\rho\sin(\phi)\cos(\theta)\\
 y=\rho\sin(\phi)\sin(\theta)\\
 z=\rho\cos(\theta)
@@ -398,7 +398,7 @@ x,y,z=\text{dependent variable}\\
 \phi=\text{direction angle}\\
 \theta=\text{angle}\\
 r=\text{distance}
-\end{aligned}
+\end{array}
 $$
 
 ---

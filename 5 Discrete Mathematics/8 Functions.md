@@ -4,10 +4,10 @@
 ---
 ### function formula
 $$
-\begin{aligned}
+\begin{array}{l}
 f:A\rightarrow B\\
 f(a)=b
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -37,9 +37,9 @@ $$
 ---
 ### function equality formula
 $$
-\begin{aligned}
+\begin{array}{l}
 f=g\iff\forall a,\forall b:f(a)=g(b)
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -50,9 +50,9 @@ $$
 ---
 ### injection formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \forall a,\forall b:f(a)=f(b)\implies a=b
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -62,10 +62,10 @@ $$
 ---
 ### injective property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \forall a,\forall b:a<b\implies f(a)\le f(b)\\
 \forall a,\forall b:a>b\implies f(a)\ge f(b)
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -76,9 +76,9 @@ $$
 ---
 ### surjection formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \forall b,\exists a:f(a)=b
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -89,9 +89,9 @@ $$
 ---
 ### bijection formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \forall b,\exists!a:f(a)=b
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -109,10 +109,10 @@ $$
 ---
 ### inverse function formula
 $$
-\begin{aligned}
+\begin{array}{l}
 f:B\to A\\
 f^{-1}(b)=a
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -122,10 +122,10 @@ $$
 ---
 ### invertibility formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \forall a\in A:(f^{-1}\circ f)(a)=f^{-1}(b)=a\\
 \forall b\in B:(f\circ f^{-1})(b)=f(a)=b
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -136,10 +136,10 @@ $$
 ---
 ### composite function formula
 $$
-\begin{aligned}
+\begin{array}{l}
 f:A\to B\to C\\
 (f\circ g)(a)=c
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -150,9 +150,9 @@ $$
 ---
 ### identity function formula
 $$
-\begin{aligned}
+\begin{array}{l}
 f(a)=a
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -162,9 +162,9 @@ $$
 ---
 ### identity formula
 $$
-\begin{aligned}
+\begin{array}{l}
 f=(f^{-1})^{-1}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -174,9 +174,9 @@ $$
 ---
 ### graph formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \{(a,b)|a\in A,f(a)=b\}
-\end{aligned}
+\end{array}
 $$
 
 ---

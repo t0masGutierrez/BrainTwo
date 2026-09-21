@@ -24,12 +24,12 @@
 ---
 ### trial division formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \forall(p\le\sqrt n)\ (p\nmid n)\implies n\in P\\
 p=\text{prime number}\\
 n=\text{integer}\\
 P=\{2,3,5,6,9,13,17,19,23,29,...\infty\}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -61,10 +61,10 @@ $$
 ---
 ### prime number formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \lim_{x\implies\infty}\frac{\pi(x)}{\frac{x}{\ln(x)}}=1\\
 \pi(x)=\text{prime counting function}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -74,11 +74,11 @@ $$
 ---
 ### prime arithmetic sequence formula
 $$
-\begin{aligned}
+\begin{array}{l}
 ak+b\subset P\\
 \forall(n>1)(n\nmid a\land n\nmid b)\\
 k=\{0,1,2,...\infty\}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -96,9 +96,9 @@ $$
 ---
 ### greatest common divisor formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \gcd(a,b)
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -114,9 +114,9 @@ $$
 ---
 ### relatively prime formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \gcd(a,b)=1
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -126,11 +126,11 @@ $$
 ---
 ### pairwise relatively prime formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \gcd(a_{k_{1}},a_{k_{2}})=1\\
 1\le k_{1}\le k_{2}\le n\\
 A=\{a_{1},a_{2},...a_{n}\}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -140,11 +140,11 @@ $$
 ---
 ### gcd by prime factorization formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \gcd(a,b)=\prod_{p\in P}p^{\min(a_{p},\ b_{p})}\\
 a_{p},b_{p}=\text{prime factor exponent}\\
 p=\text{prime number}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -155,11 +155,11 @@ $$
 ---
 ### lcm by prime factorization formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \text{lcm}(a,b)=\prod_{p\in P}p^{\max(a_{p},\ b_{p})}\\
 a_{p},b_{p}=\text{prime factor exponent}\\
 p=\text{prime number}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -169,9 +169,9 @@ $$
 ---
 ### commonality formula
 $$
-\begin{aligned}
+\begin{array}{l}
 a\times b=\gcd(a,b)\times\text{lcm}(a,b)
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -181,10 +181,10 @@ $$
 ---
 ### gcd by euclidian formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \gcd(a,b)=\gcd(b,a\ \text{mod}\ b)=\gcd(b,r)\\
 a=bq+r
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -200,10 +200,10 @@ $$
 ---
 ### bezout formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \gcd(a,b)=ax+by\\
 x,y=\text{bezout coefficient}
-\end{aligned}
+\end{array}
 $$
 
 ---

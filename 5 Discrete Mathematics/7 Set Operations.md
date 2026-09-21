@@ -8,9 +8,9 @@
 ---
 ### universal set formula
 $$
-\begin{aligned}
+\begin{array}{l}
 U=\forall x
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -22,9 +22,9 @@ $$
 ---
 ### union formula
 $$
-\begin{aligned}
+\begin{array}{l}
 A\cup B=\{x|x\in A\lor x\in B\}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -36,9 +36,9 @@ $$
 ---
 ### intersection formula
 $$
-\begin{aligned}
+\begin{array}{l}
 A\cap B=\{x|x\in A\land x\in B\}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -50,9 +50,9 @@ $$
 ---
 ### subtraction formula
 $$
-\begin{aligned}
+\begin{array}{l}
 B-A=\{x|x\in B\land x\notin A\}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -64,9 +64,9 @@ $$
 ---
 ### complementation formula
 $$
-\begin{aligned}
+\begin{array}{l}
 A'=\{x|x\in U\land x\notin A\}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -84,9 +84,9 @@ $$
 ---
 ### union cardinality formula
 $$
-\begin{aligned}
+\begin{array}{l}
 |A\cup B|=|A|+|B|-|A\cap B|
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -96,9 +96,9 @@ $$
 ---
 ### intersection cardinality formula
 $$
-\begin{aligned}
+\begin{array}{l}
 |A\cap B|=|A|+|B|-|A\cup B|
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -120,12 +120,12 @@ $$
 ---
 ### union of set collection formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \bigcup_{k\in K}^{n}A_{k}=A_{1}\cup A_{2}\cup...\cup A_{n}\\
 k=\text{index}\\
 K=\{1,2,...n\}\\
 n=\text{number of sets}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -135,12 +135,12 @@ $$
 ---
 ### intersection of set collection formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \bigcap_{k\in K}^{n}A_{k}=A_{1}\cap A_{2}\cap...\cap A_{n}\\
 k=\text{index}\\
 K=\{1,2,...n\}\\
 n=\text{number of sets}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -151,11 +151,11 @@ $$
 ---
 ### computer set formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \{x,y\in\{0,1\}|x+y=A\cup B\}\\
 \{x,y\in\{0,1\}|x\times y=A\cap B\}\\
 \{x\in\{0,1\}|\overline x=A'\}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -165,10 +165,10 @@ $$
 ---
 ### multiple membership set formula
 $$
-\begin{aligned}
+\begin{array}{l}
 A=\{n_{1}\times x_{1},n_{2}\times x_{2},...n_{n}\times x_{n}\}\\
 n=\text{multiplicity}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -178,9 +178,9 @@ $$
 ---
 ### multiset union formula
 $$
-\begin{aligned}
+\begin{array}{l}
 A\cup B=\max(n_{A},n_{B})(x)
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -190,9 +190,9 @@ $$
 ---
 ### multiset intersection formula
 $$
-\begin{aligned}
+\begin{array}{l}
 A\cap B=\min(n_{A},n_{B})(x)
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -202,9 +202,9 @@ $$
 ---
 ### multiset subtraction formula
 $$
-\begin{aligned}
+\begin{array}{l}
 A-B=(n_{A}-n_{B})(x)
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -214,9 +214,9 @@ $$
 ---
 ### multiset addition formula
 $$
-\begin{aligned}
+\begin{array}{l}
 A+B=(n_{A}+n_{B})(x)
-\end{aligned}
+\end{array}
 $$
 
 ---

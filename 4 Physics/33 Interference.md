@@ -44,11 +44,11 @@
 ---
 ### constructive interference formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \Delta r=m\lambda\\
 m=\pm0,\pm1,\pm2...\\
 \lambda=\text{wavelength}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -60,11 +60,11 @@ $$
 ---
 ### destructive interference formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \Delta r=(m+\frac{1}{2})\lambda\\
 m=\pm0,\pm1,\pm2...\\
 \lambda=\text{wavelength}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -75,25 +75,25 @@ $$
 ---
 ### constructive path difference formula
 $$
-\begin{aligned}
+\begin{array}{l}
 d\sin(\theta)=m\lambda\\
 d=\text{distance}\\
 \theta=\text{angular position}\\
 m=\text{interference order}\\
 \lambda=\text{wavelength}
-\end{aligned}
+\end{array}
 $$
 
 ---
 ### destructive path difference formula
 $$
-\begin{aligned}
+\begin{array}{l}
 d\sin(\theta)=(m+\frac{1}{2})\lambda\\
 d=\text{distance}\\
 \theta=\text{angular position}\\
 m=\text{interference order}\\
 \lambda=\text{wavelength}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -104,13 +104,13 @@ $$
 ---
 ### small angle approximation formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \sin(\theta)\approx\tan(\theta)=\frac{y}{L}\\
 y<<L\\
 \theta=\text{angular position}\\
 y=\text{position}\\
 L=\text{length}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -152,11 +152,11 @@ $$
 ---
 ### double slit amplitude formula
 $$
-\begin{aligned}
+\begin{array}{l}
 E=2E_{12}\cos(\frac{\phi}{2})\\
 E=\text{electric field}\\
 \phi=\text{phase angle}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -168,24 +168,24 @@ $$
 ---
 ### double slit intensity formula
 $$
-\begin{aligned}
+\begin{array}{l}
 I=I_{0}\cos^{2}(\frac{\phi}{2})\\
 I=\text{intensity}\\
 \phi=\text{phase angle}
-\end{aligned}
+\end{array}
 $$
 
 ---
 ### double slit intensity phase angle formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \phi=(\frac{2\pi}{\lambda})\Delta r=kd\sin\theta\\
 \lambda=\text{wavelength}\\
 \Delta r=\text{path difference}\\
 k=\text{wave number}\\
 d=\text{distance}\\
 \theta=\text{angular position}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -209,11 +209,11 @@ $$
 ---
 ### fringe spacing formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \tan(\theta)=\frac{y'}{L'}=\frac{y}{L}\\
 y=\text{position}\\
 L=\text{length}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -225,25 +225,25 @@ $$
 ---
 ### same constructive interference formula
 $$
-\begin{aligned}
+\begin{array}{l}
 2nt=m\lambda\\
 n=\text{refraction index}\\
 t=\text{thickness}\\
 m=\text{interference order}\\
 \lambda=\text{wavelength}
-\end{aligned}
+\end{array}
 $$
 
 ---
 ### same destructive interference formula
 $$
-\begin{aligned}
+\begin{array}{l}
 2nt=(m+\frac{1}{2})\lambda\\
 n=\text{refraction index}\\
 t=\text{thickness}\\
 m=\text{interference order}\\
 \lambda=\text{wavelength}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -255,25 +255,25 @@ $$
 ---
 ### different constructive interference formula
 $$
-\begin{aligned}
+\begin{array}{l}
 2nt=(m+\frac{1}{2})\lambda\\
 n=\text{refraction index}\\
 t=\text{thickness}\\
 m=\text{interference order}\\
 \lambda=\text{wavelength}
-\end{aligned}
+\end{array}
 $$
 
 ---
 ### different destructive interference formula
 $$
-\begin{aligned}
+\begin{array}{l}
 2nt=m\lambda\\
 n=\text{refraction index}\\
 t=\text{thickness}\\
 m=\text{interference order}\\
 \lambda=\text{wavelength}
-\end{aligned}
+\end{array}
 $$
 
 ---

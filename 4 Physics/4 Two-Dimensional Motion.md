@@ -5,12 +5,12 @@
 ---
 ### position vector formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \vec{r}(t)=x(t)\hat{i}+y(t)\hat{j}\\
 t=\text{time}\\
 x,y=\text{position}\\
 \hat i,\hat j=\text{unit vector}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -21,11 +21,11 @@ $$
 ---
 ### displacement vector formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \Delta\vec{r}=\vec{r}-\vec{r}_{0}=\Delta x\hat i+\Delta y\hat j\\
 \vec r,x,y=\text{position}\\
 \hat i,\hat j=\text{unit vector}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -36,7 +36,7 @@ $$
 ---
 ### velocity vector formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \vec{v}=\frac{d\vec{r}}{dt}=\frac{dx}{dt}\hat i+\frac{dy}{dt}\hat j=v_{x}\hat i+v_{y}\hat j\\
 \|\vec v\|=\sqrt{v_{x}^{2}+v_{y}^{2}}\\
 \theta=\arctan(\frac{v_{y}}{v_{x}})\\
@@ -46,7 +46,7 @@ t=\text{time}\\
 \vec v=\text{velocity}\\
 \|\vec v\|=\text{magnitude}\\
 \theta=\text{direction}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -56,7 +56,7 @@ $$
 ---
 ### acceleration vector formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \vec{a}=\frac{d\vec{v}}{dt}=a_{x}\hat i+a_{y}\hat j\\
 \|\vec a\|=\sqrt{a_{x}^{2}+a_{y}^{2}}\\
 \theta=\arctan(\frac{a_{y}}{a_{x}})\\
@@ -65,7 +65,7 @@ t=\text{time}\\
 \vec a=\text{acceleration}\\
 \|\vec a\|=\text{magnitude}\\
 \theta=\text{direction}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -78,14 +78,14 @@ $$
 ---
 ### projectile vertical motion formula
 $$
-\begin{aligned}
+\begin{array}{l}
 v_x=v_{0x}\\
 x=x_0+v_{0x}t\\
 v_{y}=v_{0y}-gt\\
 y=y_{0}+v_{0y}t-\frac{1}{2}gt^{2}\\
 y-y_{0}=\frac{1}{2}(v_{y}+v_{0y})t\\
 v_{y}^{2}=v_{0y}^{2}-2g(y-y_{0})
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -96,10 +96,10 @@ $$
 ---
 ### uniform circular motion formula
 $$
-\begin{aligned}
+\begin{array}{l}
 a_{\text{tan}}=0\\
 a_{\text{rad}}\perp v
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -109,11 +109,11 @@ $$
 ---
 ### circular velocity formula
 $$
-\begin{aligned}
+\begin{array}{l}
 v=\frac{2\pi R}{T}\\
 R=\text{radius}\\
 T=\text{period}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -123,11 +123,11 @@ $$
 ---
 ### uniform circular acceleration formula
 $$
-\begin{aligned}
+\begin{array}{l}
 a_{\text{rad}}=\frac{v^{2}}{R}\\
 v=\text{velocity}\\
 R=\text{radius}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -138,9 +138,9 @@ $$
 ---
 ### nonuniform circular motion formula
 $$
-\begin{aligned}
+\begin{array}{l}
 a_{\text{tan}}\ne0
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -152,13 +152,13 @@ $$
 ---
 ### nonuniform circular acceleration formula
 $$
-\begin{aligned}
+\begin{array}{l}
 a=a_{\text{rad}}+a_{\text{tan}}=\frac{v^{2}}{R}+\frac{dv}{dt}\\
 a=\text{acceleration}\\
 v=\text{velocity}\\
 R=\text{radius}\\
 t=\text{time}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -171,11 +171,11 @@ $$
 ---
 ### projectile motion versus uniform circular motion formula
 $$
-\begin{aligned}
+\begin{array}{l}
 a=C\\
 \hat a_{\text{proj}}=\hat a_{0}\\
 \hat a_{\text{uni}}\ne\hat a_{0}
-\end{aligned}
+\end{array}
 $$
 
 ---

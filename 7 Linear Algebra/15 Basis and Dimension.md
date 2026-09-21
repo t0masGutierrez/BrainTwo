@@ -5,10 +5,10 @@
 ---
 ### basis formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \text{span}(B)=\mathcal V\\
 \text{rank}(B)=n
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -18,12 +18,12 @@ $$
 ---
 ### dimension formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \dim(\mathcal V)=|B|\\
 \mathcal V=\text{vector space}\\
 B=\text{basis}\\
 |B|=\text{number of elements}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -35,11 +35,11 @@ $$
 ---
 ### dimension example formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \dim(\mathbb R^{n})=n\\
 \dim(\mathcal P_{n})=n+1\\
 \dim(\mathcal M_{\text{mn}})=m\cdot n\\
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -49,9 +49,9 @@ $$
 ---
 ### trivial dimension formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \dim(\{\vec0\})=0
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -61,12 +61,12 @@ $$
 ---
 ### basis equality property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 (\text{span}(B_{1},B_{2})=\mathcal V)\land(\text{rank}(B_{1},B_{2})=n)\land(|B_{1}|\ne\infty)\implies|B_{1}|=|B_{2}|\\
 B=\text{basis}\\
 \mathcal V=\text{vector space}\\
 n=\text{number of columns}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -76,12 +76,12 @@ $$
 ---
 ### basis size property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 (\text{span}\ S=\mathcal V)\land(|S|\ne\infty)\land(\text{rank}\ T=n)\implies\infty\ne|T|\le|S|\\
 S,T\subset\mathcal V\\
 \mathcal V=\text{vector space}\\
 n=\text{number of columns}\\
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -91,12 +91,12 @@ $$
 ---
 ### dimension subspace property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \mathcal W\le\mathcal V\implies\dim(\mathcal W)\le\dim(\mathcal V)\\
 \dim(\mathcal W)=\dim(\mathcal V)\iff\mathcal W=\mathcal V\\
 \mathcal W=\text{subspace}\\
 \mathcal V=\text{vector space}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -106,7 +106,7 @@ $$
 ---
 ### basis diagonalization property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 A=PDP^{-1}\implies B=\{\vec x\mid A\vec x=\lambda\vec x\}\\
 A=\text{diagonalizable matrix}\\
 P=\text{eigenmatrix}\\
@@ -115,7 +115,7 @@ P^{-1}=\text{inverse eigenmatrix}\\
 B=\text{basis}\\
 \vec x=\text{eigenvector}\\
 \lambda=\text{eigenvalue}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -125,11 +125,11 @@ $$
 ---
 ### dimension spanning property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 |S|<\dim(\mathcal V)\implies\text{span}(S)=\mathcal V\\
 S=\text{spanning set}\\
 \mathcal V=\text{vector space}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -139,11 +139,11 @@ $$
 ---
 ### dimension linear independence property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 |T|>\dim(\mathcal V)\implies\text{rank}(T)=n\\
 T=\text{linearly independent set}\\
 \mathcal V=\text{vector space}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -153,11 +153,11 @@ $$
 ---
 ### dimension basis property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 (|S|=\dim\mathcal V)\lor(|T|=\dim\mathcal V)\iff(S=B)\lor(T=B)\\
 S,T,B=\text{basis}\\
 \mathcal V=\text{vector space}
-\end{aligned}
+\end{array}
 $$
 
 ---

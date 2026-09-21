@@ -4,10 +4,10 @@
 ---
 ### mean formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \mu=E[X]\\
 X=\text{random variable}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -17,11 +17,11 @@ $$
 ---
 ### sample mean formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \overline X=\frac{1}{n}\sum_{i=1}^{n}X_{i}\\
 n=\text{sample size}\\
 X=\text{random variable}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -31,10 +31,10 @@ $$
 ---
 ### variance formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \sigma^{2}=\text{Var}(X)\\
 X=\text{random variable}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -44,12 +44,12 @@ $$
 ---
 ### sample variance formula
 $$
-\begin{aligned}
+\begin{array}{l}
 s^{2}=\text{Var}(\overline X)=\frac{\sigma^{2}}{n}\\
 \sigma^{2}=\text{variance}\\
 X=\text{random variable}\\
 n=\text{sample size}\\
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -59,12 +59,12 @@ $$
 ---
 ### markov inequality formula
 $$
-\begin{aligned}
+\begin{array}{l}
 P(X\ge c)\le\frac{E[X]}{c}\\
 X\ge0\\
 X=\text{random variable}\\
 c=\text{real number}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -74,7 +74,7 @@ $$
 ---
 ### chebyshevs inequality formula
 $$
-\begin{aligned}
+\begin{array}{l}
 P(|X-\mu|\ge k\sigma)\le\frac{1}{k^{2}}\\
 P(|X-\mu|<c)\le1-\frac{\sigma^{2}}{c^{2}}\\
 \mu,\sigma^{2}<\infty\\
@@ -83,7 +83,7 @@ X=\text{random variable}\\
 k=\text{number of standard deviations}\\
 \sigma^{2}=\text{variance}\\
 c=\text{real number}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -93,12 +93,12 @@ $$
 ---
 ### weak law of large numbers formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \forall\epsilon>0:\lim_{n\rightarrow\infty}P(|\overline X_{n}-\mu|>\epsilon)=0\\
 n=\text{sample size}\\
 \overline X=\text{sample mean}\\
 \mu=\text{mean}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -108,12 +108,12 @@ $$
 ---
 ### strong law of large numbers formula
 $$
-\begin{aligned}
+\begin{array}{l}
 P(\lim_{n\rightarrow\infty}\overline X_{n}=\mu)=1\\
 n=\text{sample size}\\
 \overline X=\text{sample mean}\\
 \mu=\text{mean}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -123,13 +123,13 @@ $$
 ---
 ### central limit theorem formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \lim_{n\rightarrow\infty}\overline X_{n}\approx N(\mu,\frac{\sigma^2}{n})\\
 n=\text{sample size}\\
 \bar X=\text{sample mean}\\
 \mu=\text{mean}\\
 \sigma=\text{standard deviation}
-\end{aligned}
+\end{array}
 $$
 
 ---

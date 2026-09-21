@@ -12,11 +12,11 @@
 ---
 ### n-vector formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \vec x=[x_{1},...,x_{n}]\\
 x=\text{coordinate}\\
 n=\text{number of coordinates}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -26,9 +26,9 @@ $$
 ---
 ### zero n-vector formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \vec0=[0,...,0]
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -38,11 +38,11 @@ $$
 ---
 ### magnitude formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \|\vec x\|=\sqrt{x_{1}^{2}+...+x_{n}^{2}}\\
 x,y=\text{coordinate}\\
 n=\text{number of coordinates}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -52,11 +52,11 @@ $$
 ---
 ### unit vector formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \hat x=\frac{\vec x}{\|\vec x\|}\\
 \vec x=\text{vector}\\
 \|\vec x\|=\text{magnitude}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -66,11 +66,11 @@ $$
 ---
 ### standard unit vector formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \vec e_{1}=[1,0,0,...,0]\\
 \vec e_{2}=[0,1,0,...,0]\\
 \vec e_{n}=[0,0,0,...,1]
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -80,12 +80,12 @@ $$
 ---
 ### scalar multiplication formula
 $$
-\begin{aligned}
+\begin{array}{l}
 c\vec{x}=[cx_{1},...,cx_{n}]\\
 c=\text{scalar}\\
 x=\text{coordinate}\\
 n=\text{number of coordinates}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -95,11 +95,11 @@ $$
 ---
 ### vector addition formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \vec x+\vec y=[x_{1}+y_{1},...,x_{n}+y_{n}]\\
 x,y=\text{coordinate}\\
 n=\text{number of coordinates}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -109,12 +109,12 @@ $$
 ---
 ### linear combination formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \vec y=\sum_{i=1}^{k}c_{i}\vec x_{i}\\
 c=\text{scalar}\\
 \vec x=\text{vector}\\
 k=\text{number of vectors}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -126,22 +126,22 @@ $$
 ---
 ### scalar component formula
 $$
-\begin{aligned}
+\begin{array}{l}
 x_{1}=\|\vec x\|\cos(\theta)\\
 x_{2}=\|\vec x\|\sin(\theta)\\
 \|\vec x\|=\text{magnitude}\\
 \theta=\text{direction}
-\end{aligned}
+\end{array}
 $$
 
 ---
 ### vector component formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \vec{x}=x_{1}\vec e_{1}+x_{2}\vec e_{2}\\
 x=\text{coordinate}\\
 \vec e=\text{standard unit vector}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -154,12 +154,12 @@ $$
 ---
 ### scalar multiplication property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 c>1\implies(+\Delta)\|\vec x\|\\
 0<c<1\implies(-\Delta)\|\vec x\|\\
 c<0\implies(-)\|\vec x\|\\
 |c|\implies\|c\vec x\|
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -169,11 +169,11 @@ $$
 ---
 ### scalar parallel property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \vec x\parallel\vec y\iff\exists c:\vec x=c\vec y\\
 \vec x,\vec y=\text{vector}\\
 c=\text{scalar}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -183,9 +183,9 @@ $$
 ---
 ### scalar zero property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 c\vec x=\vec0\implies(c=0)\lor(\vec x=\vec0)
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -195,11 +195,11 @@ $$
 ---
 ### vector equality property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \vec x=\vec y\iff[x_{1},...,x_{n}]=[y_{1},...,y_{n}]\\
 \vec x,\vec y=\text{vector}\\
 x,y=\text{coordinate}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -213,7 +213,7 @@ $$
 ---
 ### vector arithmetic property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \vec x+\vec y=\vec y+\vec x\\
 (\vec x+\vec y)+\vec z=\vec x+(\vec y+\vec z)\\
 cd(\vec x)=c(d\vec x)\\
@@ -222,7 +222,7 @@ cd(\vec x)=c(d\vec x)\\
 \vec x+(-\vec x)=\vec0\\
 c(\vec x+\vec y)=c\vec x+c\vec y\\
 (c+d)\vec x=c\vec x+d\vec x
-\end{aligned}
+\end{array}
 $$
 
 ---

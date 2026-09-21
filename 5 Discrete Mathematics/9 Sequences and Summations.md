@@ -5,9 +5,9 @@
 ---
 ### sequence formula
 $$
-\begin{aligned}
+\begin{array}{l}
 a_{n}=a_{1},a_{2},...a_{n}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -17,12 +17,12 @@ $$
 ---
 ### nth term of geometric sequence formula
 $$
-\begin{aligned}
+\begin{array}{l}
 a_{n}=a_{1}r^{n-1}\\
 a_{1}=\text{1st term}\\
 r=\text{common ratio}\\
 n=\text{index}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -32,12 +32,12 @@ $$
 ---
 ### nth term of arithmetic sequence formula
 $$
-\begin{aligned}
+\begin{array}{l}
 a_{n}=a_{1}+(n-1)d\\
 a_{1}=\text{1st term}\\
 d=\text{common difference}\\
 n=\text{index}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -47,10 +47,10 @@ $$
 ---
 ### recurrence relation formula
 $$
-\begin{aligned}
+\begin{array}{l}
 a_{n}=a_{n-1},a_{n-2},...a_{n-k}\\
 k=\text{number of preceding terms}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -60,12 +60,12 @@ $$
 ---
 ### fibonacci sequence formula
 $$
-\begin{aligned}
+\begin{array}{l}
 f_{n}=f_{n-1}+f_{n-2}+...+f_{n}\\
 f_{0}=0\\
 f_{1}=1\\
 2\le n\le\infty
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -84,13 +84,13 @@ $$
 ---
 ### summation formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \sum_{k=1}^{n}a_{k}=a_{1}+a_{2}+...+a_{n}\\
 k=\text{index}\\
 n=\text{number of terms}\\
 \sum=\text{summation}\\
 a_{k}=\text{kth term}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -100,9 +100,9 @@ $$
 ---
 ### change of summation index formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \sum_{k=m}^{n}=\sum_{k=1}^{n}-\sum_{k=1}^{m-1}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -112,11 +112,11 @@ $$
 ---
 ### arithmetic series formula
 $$
-\begin{aligned}
+\begin{array}{l}
 S_{n}=\frac{n(a_{1}+a_{n})}{2}\\
 a_{1}=\text{1st term}\\
 a_{n}=\text{nth term}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -126,11 +126,11 @@ $$
 ---
 ### finite geometric series formula
 $$
-\begin{aligned}
+\begin{array}{l}
 S_{n}=\frac{a_{1}(1-r^{n})}{1-r}\\
 a_{1}=\text{1st term}\\
 r=\text{common ratio}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -140,11 +140,11 @@ $$
 ---
 ### infinite geometric series formula
 $$
-\begin{aligned}
+\begin{array}{l}
 S=\frac{a_{1}}{1-r}\\
 a_{1}=\text{1st term}\\
 r=\text{common ratio}
-\end{aligned}
+\end{array}
 $$
 
 ---

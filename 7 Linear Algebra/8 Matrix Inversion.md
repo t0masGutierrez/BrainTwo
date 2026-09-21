@@ -4,12 +4,12 @@
 ---
 ### multiplicative inverse formula
 $$
-\begin{aligned}
+\begin{array}{l}
 AA^{-1}=A^{-1}A=I\\
 A=\text{square matrix}\\
 A^{-1}=\text{inverse matrix}\\
 I=\text{identity matrix}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -27,10 +27,10 @@ $$
 ---
 ### 2x2 matrix inversion formula
 $$
-\begin{aligned}
+\begin{array}{l}
 A^{-1}=\begin{bmatrix}a&b\\c&d\end{bmatrix}^{-1}=\frac{1}{\delta}\begin{bmatrix}d&-b\\-c&a\end{bmatrix}\\
 \delta=ad-bc\ne0
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -43,12 +43,12 @@ $$
 ---
 ### nxn matrix inversion formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \text{RREF}(A\mid I)=I\mid A^{-1}\\
 A=\text{square matrix}\\
 I=\text{identity matrix}\\
 A^{-1}=\text{inverse matrix}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -58,12 +58,12 @@ $$
 ---
 ### nonsingular uniqueness property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 (AB=I)\land(AC=I)\implies B=C\\
 A=\text{square matrix}\\
 B,C=\text{inverse matrix}\\
 I=\text{identity matrix}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -81,7 +81,7 @@ $$
 ---
 ### nonsingular exponentiation property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 (A^{-1})^{-1}=A\\
 (A^{k})^{-1}=(A^{-1})^{k}=A^{-k}\\
 (AB)^{-1}=B^{-1}A^{-1}\\
@@ -91,7 +91,7 @@ A^{k}=(A^{k-1})(A)\\
 A^{s}A^{t}=A^{s+t}\\
 A^{1}=A\\
 A^{0}=I
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -101,13 +101,13 @@ $$
 ---
 ### nonsingular rank property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \exists A^{-1}\iff\text{rank}(A)=n\\
 |A|=n\times n\\
 A^{-1}=\text{inverse matrix}\\
 A=\text{nonsingular matrix}\\
 n=\text{dimension}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -119,7 +119,7 @@ $$
 ---
 ### nonsingular coefficient property
 $$
-\begin{aligned}
+\begin{array}{l}
 (AX=B)\land(\exists A^{-1})\implies Y=\set{A^{-1}B}\\
 (AX=B)\land(\not\exists A^{-1})\implies Y=\emptyset\lor|Y|=\infty\\
 A=\text{coefficient matrix}\\
@@ -127,7 +127,7 @@ X=\text{variable matrix}\\
 B=\text{constant matrix}\\
 A^{-1}=\text{inverse matrix}\\
 Y=\text{complete solution set}
-\end{aligned}
+\end{array}
 $$
 
 ---

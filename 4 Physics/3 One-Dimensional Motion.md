@@ -4,10 +4,10 @@
 ---
 ### position formula
 $$
-\begin{aligned}
+\begin{array}{l}
 x=x(t)\\
 t=\text{time}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -18,10 +18,10 @@ $$
 ---
 ### distance formula
 $$
-\begin{aligned}
+\begin{array}{l}
 d=\sum_{n}|\Delta x_{n}|\\
 x=\text{position}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -32,12 +32,12 @@ $$
 ---
 ### displacement formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \Delta x=x-x_{0}=\int v\cdot dt\\
 x=\text{position}\\
 t=\text{time}\\
 v=\text{velocity}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -47,11 +47,11 @@ $$
 ---
 ### average speed formula
 $$
-\begin{aligned}
+\begin{array}{l}
 s_{\text{avg}}=\frac{d}{\Delta t}\\
 d=\text{distance}\\
 t=\text{time}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -61,10 +61,10 @@ $$
 ---
 ### instantaneous speed formula
 $$
-\begin{aligned}
+\begin{array}{l}
 s=|v|\\
 v=\text{velocity}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -74,11 +74,11 @@ $$
 ---
 ### average velocity formula
 $$
-\begin{aligned}
+\begin{array}{l}
 v_{\text{avg}}=\frac{\Delta x}{\Delta t}\\
 x=\text{position}\\
 t=\text{time}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -89,13 +89,13 @@ $$
 ---
 ### instantaneous velocity formula
 $$
-\begin{aligned}
+\begin{array}{l}
 v=\frac{dx}{dt}=v_{0}+\int a\cdot dt\\
 x=\text{position}\\
 t=\text{time}\\
 v=\text{velocity}\\
 a=\text{acceleration}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -105,11 +105,11 @@ $$
 ---
 ### average acceleration formula
 $$
-\begin{aligned}
+\begin{array}{l}
 a_{\text{avg}}=\frac{\Delta v}{\Delta t}\\
 v=\text{velocity}\\
 t=\text{time}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -120,12 +120,12 @@ $$
 ---
 ### instantaneous acceleration formula
 $$
-\begin{aligned}
+\begin{array}{l}
 a=\frac{dv}{dt}=\frac{d^{2}x}{dt^{2}}\\
 v=\text{velocity}\\
 t=\text{time}\\
 x=\text{position}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -137,12 +137,12 @@ $$
 ---
 ### delta speed property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \hat v=\hat a\implies\frac{dv}{dt}>0\\
 \hat v=-\hat a\implies\frac{dv}{dt}<0\\
 v=\text{velocity}\\
 a=\text{acceleration}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -152,9 +152,9 @@ $$
 ---
 ### kinematics formula
 $$
-\begin{aligned}
+\begin{array}{l}
 x,x_{0},v,v_{0},a,t=\ ?
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -165,12 +165,12 @@ $$
 ---
 ### first law of motion formula
 $$
-\begin{aligned}
+\begin{array}{l}
 v=v_{0}+at\\
 v=\text{velocity}\\
 a=\text{acceleration}\\
 t=\text{time}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -181,13 +181,13 @@ $$
 ---
 ### second law of motion formula
 $$
-\begin{aligned}
+\begin{array}{l}
 x=x_{0}+v_{0}t+\frac{1}{2}at^{2}\\
 x=\text{position}\\
 v=\text{velocity}\\
 t=\text{time}\\
 a=\text{acceleration}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -198,12 +198,12 @@ $$
 ---
 ### third law of motion formula
 $$
-\begin{aligned}
+\begin{array}{l}
 x-x_{0}=\frac{1}{2}(v+v_{0})t\\
 x=\text{position}\\
 v=\text{velocity}\\
 t=\text{time}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -214,12 +214,12 @@ $$
 ---
 ### fourth law of motion formula
 $$
-\begin{aligned}
+\begin{array}{l}
 v^{2}=v_{0}^{2}+2a(x-x_{0})\\
 v=\text{velocity}\\
 a=\text{acceleration}\\
 x=\text{position}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -230,12 +230,12 @@ $$
 ---
 ### free fall formula
 $$
-\begin{aligned}
+\begin{array}{l}
 v=v_{0}-gt\\
 y=y_{0}+v_{0}t-\frac{1}{2}gt^{2}\\
 y-y_{0}=\frac{1}{2}(v+v_{0})t\\
 v^{2}=v_{0}^{2}-2g(y-y_{0})
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -246,14 +246,14 @@ $$
 ---
 ### relative motion formula
 $$
-\begin{aligned}
+\begin{array}{l}
 x_{A/B}=x_{A}-x_{B}\\
 v_{A/B}=v_{A}-v_{B}\\
 a_{A/B}=a_{A}-a_{B}\\
 x=\text{position}\\
 v=\text{velocity}\\
 a=\text{acceleration}
-\end{aligned}
+\end{array}
 $$
 
 ---

@@ -4,12 +4,12 @@
 ---
 ### molar mass formula
 $$
-\begin{aligned}
+\begin{array}{l}
 M=\frac{m}{n}=N_Am\\
 m=\text{mass}\\
 n=\text{number of moles}\\
 N_A=6.022\times10^{23}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -19,11 +19,11 @@ $$
 ---
 ### avogadros number formula
 $$
-\begin{aligned}
+\begin{array}{l}
 N_{A}=\frac{N}{n}=6.022\times10^{23}\\
 N=\text{number of particles}\\
 n=\text{number of moles}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -36,7 +36,7 @@ $$
 ---
 ### ideal gas formula
 $$
-\begin{aligned}
+\begin{array}{l}
 pV=NkT=nRT=nkN_{A}T\\
 p=\text{pressure}\\
 V=\text{volume}\\
@@ -46,7 +46,7 @@ T=\text{temperature}\\
 n=\text{number of moles}\\
 R=8.314\\
 N_{A}=6.022\times10^{23}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -58,7 +58,7 @@ $$
 ---
 ### van der waals gas formula
 $$
-\begin{aligned}
+\begin{array}{l}
 (p+\frac{an^2}{V^2})(V-nb)=NkT\\
 p=\text{pressure}\\
 V=\text{volume}\\
@@ -68,7 +68,7 @@ b=\text{molecular volume}\\
 N=\text{number of particles}\\
 k=1.381\times10^{-23}\\
 T=\text{temperature}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -80,11 +80,11 @@ $$
 ---
 ### boyles gas formula
 $$
-\begin{aligned}
+\begin{array}{l}
 p_{1}V_{1}=p_{2}V_{2}\\
 p=\text{pressure}\\
 V=\text{volume}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -96,11 +96,11 @@ $$
 ---
 ### charles gas formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \frac{V_{1}}{T_{1}}=\frac{V_{2}}{T_{2}}\\
 V=\text{volume}\\
 T=\text{temperature}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -112,11 +112,11 @@ $$
 ---
 ### gay-lussacs gas formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \frac{p_{1}}{T_{1}}=\frac{p_{2}}{T_{2}}\\
 p=\text{pressure}\\
 T=\text{temperature}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -126,12 +126,12 @@ $$
 ---
 ### combined gas formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \frac{p_1V_{1}}{T_{1}}=\frac{p_2V_{2}}{T_{2}}\\
 p=\text{pressure}\\
 V=\text{volume}\\
 T=\text{temperature}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -141,12 +141,12 @@ $$
 ---
 ### translational kinetic energy formula
 $$
-\begin{aligned}
+\begin{array}{l}
 K=\frac{3}{2}NkT\\
 N=\text{number of particles}\\
 k=1.381\times10^{-23}\\
 T=\text{temperature}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -157,13 +157,13 @@ $$
 ---
 ### average translational kinetic energy formula
 $$
-\begin{aligned}
+\begin{array}{l}
 K_{\text{avg}}=\frac{3}{2}kT=\frac{1}{2}mv_{\text{rms}}^2\\
 k=1.381\times10^{-23}\\
 T=\text{temperature}\\
 m=\text{mass}\\
 v=\text{velocity}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -174,7 +174,7 @@ $$
 ---
 ### velocity formula
 $$
-\begin{aligned}
+\begin{array}{l}
 f(v)=\frac{4}{\sqrt\pi{}}(\frac{m}{2kT})^{\frac{3}{2}}v^{2}\exp{(\frac{-mv^{2}}{2kT})}\\
 v_{\text{max}}=\sqrt{\frac{2kT}{m}}\\
 v_{\text{rms}}=\sqrt{\frac{3kT}{m}}\\
@@ -183,7 +183,7 @@ m=\text{mass}\\
 k=1.381\times10^{-23}\\
 T=\text{temperature}\\
 v=\text{velocity}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -194,7 +194,7 @@ $$
 ---
 ### mean free path formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \lambda=\frac{V}{4\pi r^2N\sqrt2}=\frac{kT}{4\pi r^2p\sqrt2}\\
 V=\text{volume}\\
 r=\text{radius}\\
@@ -202,7 +202,7 @@ N=\text{number of particles}\\
 k=1.381\times10^{-23}\\
 T=\text{temperature}\\
 p=\text{pressure}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -212,11 +212,11 @@ $$
 ---
 ### mean free time formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \tau=\frac{\lambda}{v_{\text{rms}}}\\
 \lambda=\text{mean free path}\\
 v=\text{velocity}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -227,10 +227,10 @@ $$
 ---
 ### degrees of freedom formula
 $$
-\begin{aligned}
+\begin{array}{l}
 f_{\text{mon}}=3_{\text{transl}}\\
 f_{\text{di}}=3_{\text{transl}}+2_{\text{rot}}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -240,12 +240,12 @@ $$
 ---
 ### equipartition of energy formula
 $$
-\begin{aligned}
+\begin{array}{l}
 K_{\text{avg}}=\frac{f}{2}kT\\
 f=\text{degrees of freedom}\\
 k=1.381\times10^{-23}\\
 T=\text{temperature}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -256,12 +256,12 @@ $$
 ---
 ### specific heat formula
 $$
-\begin{aligned}
+\begin{array}{l}
 Q=nC\Delta T\\
 n=\text{number of moles}\\
 C=\text{molar heat capacity}\\
 T=\text{temperature}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -272,12 +272,12 @@ $$
 ---
 ### molar heat capacity formula
 $$
-\begin{aligned}
+\begin{array}{l}
 C_{\text{gas}}=\frac{f}{2}R\\
 C_{\text{solid}}=3R\\
 f=\text{degrees of freedom}\\
 R=8.314
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -290,11 +290,11 @@ $$
 ---
 ### phase diagram formula
 $$
-\begin{aligned}
+\begin{array}{l}
 (T,p)\\
 T=\text{temperature}\\
 p=\text{pressure}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -305,12 +305,12 @@ $$
 ---
 ### pVT diagram formula
 $$
-\begin{aligned}
+\begin{array}{l}
 (T,V,p)\\
 T=\text{temperature}\\
 V=\text{volume}\\
 p=\text{pressure}
-\end{aligned}
+\end{array}
 $$
 
 ---

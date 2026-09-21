@@ -8,12 +8,12 @@
 ---
 ### eigenvalue formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \lambda\iff A\vec x=\lambda\vec x\\
 \lambda=\text{eigenvalue}\\
 A=\text{square matrix}\\
 \vec x=\text{eigenvector}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -23,13 +23,13 @@ $$
 ---
 ### eigenvector formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \vec x\iff A\vec x=\lambda\vec x\\
 \vec x\ne0\\
 \vec x=\text{eigenvector}\\
 A=\text{square matrix}\\
 \lambda=\text{eigenvalue}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -39,13 +39,13 @@ $$
 ---
 ### eigenspace formula
 $$
-\begin{aligned}
+\begin{array}{l}
 E_{\lambda}=\{\vec x\in\mathbb R^{n}\mid(A-\lambda I)\vec x=0\}\\
 \vec x=\text{eigenvector}\\
 A=\text{square matrix}\\
 \lambda=\text{eigenvalue}\\
 I=\text{identity matrix}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -55,12 +55,12 @@ $$
 ---
 ### number of eigenvectors formula
 $$
-\begin{aligned}
+\begin{array}{l}
 (c\in\mathbb R)\land(\vec x\in E_{\lambda})\implies c\vec x\in E_{\lambda}\\
 c=\text{scalar}\\
 \vec x=\text{eigenvector}\\
 E_{\lambda}=\text{eigenspace}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -71,7 +71,7 @@ $$
 ---
 ### homogeneous system of linear equations formula
 $$
-\begin{aligned}
+\begin{array}{l}
 (A-\lambda I)\vec x=0\\
 \begin{bmatrix}
 a_{11}-\lambda&\dots&a_{1n}\\
@@ -86,7 +86,7 @@ A=\text{square matrix}\\
 \lambda=\text{eigenvalue}\\
 I=\text{identity matrix}\\
 \vec x=\text{eigenvector}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -96,12 +96,12 @@ $$
 ---
 ### characteristic polynomial formula
 $$
-\begin{aligned}
+\begin{array}{l}
 p_{A}(\lambda)=\det(A-\lambda I)=0\\
 A=\text{square matrix}\\
 \lambda=\text{eigenvalue}\\
 I=\text{identity matrix}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -121,14 +121,14 @@ $$
 ---
 ### similar formula
 $$
-\begin{aligned}
+\begin{array}{l}
 A\sim D\iff\exists P:D=P^{-1}AP\\
 \text{det}(P)\ne0\\
 A=\text{square matrix}\\
 D=\text{diagonal matrix}\\
 P=\text{eigenmatrix}\\
 P^{-1}=\text{inverse eigenmatrix}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -138,12 +138,12 @@ $$
 ---
 ### algebraic multiplicity formula
 $$
-\begin{aligned}
+\begin{array}{l}
 p_{A}(x)=\prod_{i=1}^{r}(x-\lambda_{i})^{k_{i}}\\
 r=\text{number of eigenvalues}\\
 \lambda=\text{eigenvalue}\\
 k=\text{algebraic multiplicity}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -153,11 +153,11 @@ $$
 ---
 ### geometric multiplicity formula
 $$
-\begin{aligned}
+\begin{array}{l}
 k=\sum_{i=1}^{r}\dim(E_{\lambda_{i}})\\
 r=\text{number of eigenvalues}\\
 E_{\lambda}=\text{eigenspace}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -175,14 +175,14 @@ $$
 ---
 ### diagonalization formula
 $$
-\begin{aligned}
+\begin{array}{l}
 D=P^{-1}AP\iff A=PDP^{-1}\\
 \text{det}(P)\ne0\\
 D=\text{diagonal matrix}\\
 P^{-1}=\text{inverse eigenmatrix}\\
 A=\text{square matrix}\\
 P=\text{eigenmatrix}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -192,14 +192,14 @@ $$
 ---
 ### similar exponentiation property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 A^{k}=PD^{k}P^{-1}\\
 k\in\mathbb N\\
 A=\text{square matrix}\\
 P=\text{eigenmatrix}\\
 D=\text{diagonal matrix}\\
 P^{-1}=\text{inverse eigenmatrix}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -209,11 +209,11 @@ $$
 ---
 ### multiplicity comparison property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 1\le\text{gm}(\lambda)\le\text{am}(\lambda)\\
 \text{gm}=\text{geometric multiplicity}\\
 \text{am}=\text{algebraic multiplicity}
-\end{aligned}
+\end{array}
 $$
 
 ---

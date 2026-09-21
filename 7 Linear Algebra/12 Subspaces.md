@@ -4,13 +4,13 @@
 ---
 ### subspace formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \mathcal W\le\mathcal V\iff(\emptyset\ne\mathcal W\subset\mathcal V)\land(\vec w_{1}+\vec w_{2}\in\mathcal W)\land(c\vec w\in\mathcal W)\\
 \mathcal W=\text{subspace}\\
 \mathcal V=\text{vector space}\\
 \vec w=\text{vector}\\
 c=\text{scalar}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -38,9 +38,9 @@ $$
 ---
 ### trivial subspace formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \mathcal W=\{\vec0\}\\
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -62,11 +62,11 @@ $$
 ---
 ### subspace zero property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \mathcal W\le\mathcal V\iff\vec0\in\mathcal W\\
 \mathcal W=\text{subspace}\\
 \mathcal V=\text{vector space}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -76,12 +76,12 @@ $$
 ---
 ### subspace intersection property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \forall i\in I:\mathcal W_{i}\le\mathcal V\implies\bigcap_{i\in I}\mathcal W_{i}\le\mathcal V\\
 I=\text{index set}\\
 \mathcal W=\text{subspace}\\
 \mathcal V=\text{vector space}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -91,11 +91,11 @@ $$
 ---
 ### subspace eigenspace property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 E_{\lambda}\le\mathbb R^{n}\\
 E_{\lambda}=\text{eigenspace}\\
 \lambda=\text{eigenvalue}
-\end{aligned}
+\end{array}
 $$
 
 ---

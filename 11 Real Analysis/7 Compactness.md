@@ -4,14 +4,14 @@
 ---
 ### open cover formula
 $$
-\begin{aligned}
+\begin{array}{l}
 S\subset\bigcup_{i\in I}Y_{i}\subset X\\
 S=\text{covered set}\\
 I=\text{index set}\\
 Y=\text{open set}\\
 \set{Y}=\text{open cover}\\
 X=\text{metric space}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -21,14 +21,14 @@ $$
 ---
 ### compact formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \forall\set{Y_{i}}_{i\in I}\subset X,\exists\{Y_{i_{j}}\}_{j=1}^{n}\subset\{Y_{i}\}_{i\in I}:S\subset\bigcup_{j=1}^{n}Y_{i_{j}}\subset X\\
 Y=\text{open set}\\
 \set{Y}=\text{open cover}\\
 I,J=\text{index set}\\
 X=\text{metric space}\\
 S=\text{compact set}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -38,13 +38,13 @@ $$
 ---
 ### sequential compactness property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \forall\set{a_{n}}\subset S\subset X,\exists\set{a_{n_{k}}}\subset\set{a_{n}},\exists L\in S:\lim_{k\rightarrow\infty}a_{n_{k}}=L\\
 \set{a_{n}}=\text{sequence}\\
 \set{a_{n_{k}}}=\text{subsequence}\\
 X=\text{metric space}\\
 L=\text{subsequential limit}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -54,7 +54,7 @@ $$
 ---
 ### equivalent compactness property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \forall\set{Y_{i}}\subset X,\exists\{Y_{i_{1}},\dots Y_{i_{n}}\}\subset\{Y_{i}\}:S\subset\bigcup_{k=1}^{n}Y_{i_{k}}\subset X\\
 \iff\forall\set{a_{n}}\subset S\subset X,\exists\set{a_{n_{k}}}\subset\set{a_{n}},\exists L\in S:\lim_{k\rightarrow\infty}a_{n_{k}}=L\\
 S=\text{compact set}\\
@@ -62,7 +62,7 @@ Y=\text{open set}\\
 \set{Y}=\text{open cover}\\
 X=\text{metric space}\\
 \set{a_{n}}=\text{sequence}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -72,7 +72,7 @@ $$
 ---
 ### closed bounded compactness property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 (S'\subset S\subset X)\land\\
 (S\subset X,\exists x_{0}\in X,\exists r>0:B_{r}(x_{0})\supset S)\implies\\
 \forall\set{a_{n}}\subset S\subset X,\exists\set{a_{n_{k}}}\subset\set{a_{n}},\exists L\in S:\lim_{k\rightarrow\infty}a_{n_{k}}=L\lor\\
@@ -88,7 +88,7 @@ B=\text{open ball}\\
 L=\text{subsequential limit}\\
 Y=\text{open set}\\
 \set{Y}=\text{open cover}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -98,14 +98,14 @@ $$
 ---
 ### limit point compactness property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 (S\subset K)\land(|S|=\infty)\implies\exists x_{0}\in S,\forall r>0:N_{r}(x_{0})\setminus\{x_{0}\}\cap S\ne\emptyset\\
 K=\text{compact set}\\
 X=\text{metric space}\\
 r=\text{radius}\\
 N=\text{neighborhood}\\
 x_{0}=\text{limit point}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -115,7 +115,7 @@ $$
 ---
 ### heine-borel compactness property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 (S'\subset S\subset X)\land\\
 (S\subset X,\exists x_{0}\in X,\exists r>0:B_{r}(x_{0})\supset S)\iff\\
 \forall\set{Y_{i}}_{i\in I}\subset X,\exists\{Y_{i_{j}}\}_{j=1}^{n}\subset\{Y_{i}\}_{i\in I}:S\subset\bigcup_{j=1}^{n}Y_{i_{j}}\subset X\\
@@ -128,7 +128,7 @@ B=\text{open ball}\\
 Y=\text{open set}\\
 \set{Y}=\text{open cover}\\
 I,J=\text{index set}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -138,13 +138,13 @@ $$
 ---
 ### bolzano-weierstrass compactness property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 (S\subset\mathbb R^{k})\land(\set{0,1,2,3,\dots,n}\not\sim S)\implies\exists x_{0}\in\mathbb R^{k},\forall r>0:N_{r}(x_{0})\setminus\{x_{0}\}\cap\mathbb R^{k}\ne\emptyset\\
 S=\text{bounded set}\\
 r=\text{radius}\\
 N=\text{neighborhood}\\
 x_{0}=\text{limit point}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -154,7 +154,7 @@ $$
 ---
 ### closed subset compactness property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 S'\subset S\subset K\implies\forall\set{Y_{i}}_{i\in I}\subset X,\exists\{Y_{i_{j}}\}_{j=1}^{n}\subset\{Y_{i}\}_{i\in I}:S\subset\bigcup_{j=1}^{n}Y_{i_{j}}\subset X\\
 S'=\text{derived set}\\
 S=\text{closed set}\\
@@ -163,7 +163,7 @@ Y=\text{open set}\\
 \set{Y}=\text{open cover}\\
 I,J=\text{index set}\\
 X=\text{metric space}\\
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -174,10 +174,10 @@ $$
 ---
 ### intersection compactness property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \bigcap_{j=1}^{n}S_{i_{j}}\ne\emptyset\implies\bigcap_{i}S_{i}\ne\emptyset\\
 S=\text{compact set}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -187,14 +187,14 @@ $$
 ---
 ### k-cell compactness property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \forall\set{Y_{i}}_{i\in I}\subset X,\exists\{Y_{i_{j}}\}_{j=1}^{n}\subset\{Y_{i}\}_{i\in I}:\prod_{i=1}^{k}[a_{i},b_{i}]\subset\bigcup_{j=1}^{n}Y_{i_{j}}\subset X\\
 Y=\text{open set}\\
 \set{Y}=\text{open cover}\\
 I,J=\text{index set}\\
 X=\text{metric space}\\
 \prod_{i=1}^{k}[a_{i},b_{i}]=\text{k-cell}
-\end{aligned}
+\end{array}
 $$
 
 ---

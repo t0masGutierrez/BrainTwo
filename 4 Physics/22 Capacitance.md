@@ -9,11 +9,11 @@
 ---
 ### capacitance formula
 $$
-\begin{aligned}
+\begin{array}{l}
 C=\frac{Q}{V}\\
 Q=\text{electric charge}\\
 V=\text{voltage}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -29,12 +29,12 @@ $$
 ---
 ### parallel planar capacitance formula
 $$
-\begin{aligned}
+\begin{array}{l}
 C=\epsilon_{0}\frac{A}{r}\\
 \epsilon_{0}=8.85\times10^{-12}\\
 A=\text{area}\\
 r=\text{distance}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -45,12 +45,12 @@ $$
 ---
 ### cylindrical capacitance formula
 $$
-\begin{aligned}
+\begin{array}{l}
 C=2\pi\epsilon_{0}\frac{L}{\ln(\frac{R_{2}}{R_{1}})}\\
 \epsilon_{0}=8.85\times10^{-12}\\
 L=\text{length}\\
 R=\text{radius}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -61,11 +61,11 @@ $$
 ---
 ### spherical capacitance formula
 $$
-\begin{aligned}
+\begin{array}{l}
 C=4\pi\epsilon_{0}\frac{R_{1}R_{2}}{R_{2}-R_{1}}\\
 \epsilon_{0}=8.85\times10^{-12}\\
 R=\text{radius}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -77,10 +77,10 @@ $$
 ---
 ### series capacitance formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \frac{1}{C_{\text{eq}}}=\sum_{i}\frac{1}{C_{i}}\\
 C=\text{capacitance}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -92,10 +92,10 @@ $$
 ---
 ### parallel capacitance formula
 $$
-\begin{aligned}
+\begin{array}{l}
 C_{\text{eq}}=\sum_{i}C_{i}\\
 C=\text{capacitance}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -110,12 +110,12 @@ $$
 ---
 ### electric potential energy formula
 $$
-\begin{aligned}
+\begin{array}{l}
 U=\frac{QV}{2}=\frac{CV^{2}}{2}=\frac{Q^{2}}{2C}\\
 Q=\text{electric charge}\\
 V=\text{voltage}\\
 C=\text{capacitance}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -125,11 +125,11 @@ $$
 ---
 ### energy density formula
 $$
-\begin{aligned}
+\begin{array}{l}
 u=\frac{1}{2}\epsilon_{0}E^{2}\\
 \epsilon_{0}=8.85\times10^{-12}\\
 E=\text{electric field}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -169,13 +169,13 @@ $$
 ---
 ### dielectric constant formula
 $$
-\begin{aligned}
+\begin{array}{l}
 K=\frac{\epsilon}{\epsilon_{0}}=\frac{C}{C_{0}}=\frac{Q}{Q_{0}}=\frac{V_{0}}{V}\\
 \epsilon=\text{permittivity}\\
 C=\text{capacitance}\\
 Q=\text{electric charge}\\
 V=\text{voltage}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -192,14 +192,14 @@ $$
 ---
 ### gauss formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \pm\Phi=K\oint_{A_{1}}^{A_{2}}\vec E\cdot d\vec A=\frac{\pm Q_{\text{enc}}}{\epsilon_{0}}\\
 K=\text{dielectric constant}\\
 E=\text{electric field}\\
 A=\text{area}\\
 Q=\text{electric charge}\\
 \epsilon_{0}=8.85\times10^{-12}\\
-\end{aligned}
+\end{array}
 $$
 
 ---

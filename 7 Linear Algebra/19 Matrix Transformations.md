@@ -4,7 +4,7 @@
 ---
 ### action formula
 $$
-\begin{aligned}
+\begin{array}{l}
 (L:\mathcal V\rightarrow\mathcal W)\land(B=\set{\vec b_{1},\dots,\vec b_{n}})\implies\\
 \forall\vec v\in\mathcal V:L(\vec v)=L(\sum_{i=1}^{n}c_{i}\vec b_{i})=\sum_{i=1}^{n}c_{i}L(\vec b_{i})\\
 L=\text{linear transformation}\\
@@ -15,7 +15,7 @@ c=\text{scalar}\\
 \vec b=\text{basis vector}\\
 \vec v=\text{preimage}\\
 \vec L(\vec v)=\text{image}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -26,7 +26,7 @@ $$
 ---
 ### matrix transformation formula
 $$
-\begin{aligned}
+\begin{array}{l}
 (L:\mathcal V\rightarrow\mathcal W)\land(B=\set{\vec b_{1},\dots,\vec b_{n}})\land(C=\set{\vec c_{1},\dots\vec c_{m}})\implies\\
 \forall\vec v\in\mathcal V:[L(\vec v)]_{C}=A_{\text{BC}}[\vec v]_{B}\\
 \dim(\mathcal V)=n\\
@@ -42,7 +42,7 @@ C=\text{codomain basis}\\
 {}[L(\vec v)]_{C}=\text{image coordinate vector}\\
 {}[\vec v]_{B}=\text{preimage coordinate vector}\\
 A=\text{matrix transformation}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -56,7 +56,7 @@ $$
 ---
 ### matrix transformation transition property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 (L:\mathcal V\rightarrow\mathcal W)\land([\vec v]_{D}=P_{\text{BD}}[\vec v]_{B})\land([L(\vec v)]_{E}=Q_{\text{CE}}[L(\vec v)]_{C})\implies A_{\text{DE}}=Q_{\text{CE}}A_{\text{BC}}P_{\text{BD}}^{-1}\\
 L=\text{linear transformation}\\
 \mathcal V=\text{domain vector space}\\
@@ -68,7 +68,7 @@ C,E=\text{codomain basis}\\
 P=\text{domain transition matrix}\\
 Q=\text{codomain transition matrix}\\
 A=\text{matrix transformation}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -78,7 +78,7 @@ $$
 ---
 ### matrix transformation similarity property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 (L:\mathcal V\rightarrow\mathcal V)\land([L(\vec v)]_{B}=A_{\text{BB}}[\vec v]_{B})\land([L(\vec v)]_{D}=A_{\text{DD}}[\vec v]_{D})\land([\vec v]_{D}=P_{\text{BD}}[\vec v]_{B})\implies A_{\text{BB}}\sim A_{\text{DD}}\\
 A_{\text{BB}}=P_{\text{BD}}^{-1}A_{\text{DD}}P_{\text{BD}}\\
 A_{\text{DD}}=P_{\text{BD}}A_{\text{BB}}P_{\text{BD}}^{-1}\\
@@ -89,7 +89,7 @@ L=\text{linear transformation}\\
 B,D=\text{basis}\\
 P=\text{transition matrix}\\
 P^{-1}=\text{inverse transition matrix}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -99,7 +99,7 @@ $$
 ---
 ### matrix transformation composite property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 (L_{1}:\mathcal V_{1}\rightarrow\mathcal V_{2})\land(L_{2}:\mathcal V_{2}\rightarrow\mathcal V_{3})\implies L_{2}\circ L_{1}:\mathcal V_{1}\rightarrow\mathcal V_{3}\\
 ([L(\vec v_{1})]_{C}=A_{\text{BC}}[\vec v_{1}]_{B})\land([L(\vec v_{2})]_{D}=A_{\text{CD}}[\vec v_{2}]_{C})\implies A_{\text{BD}}=A_{\text{CD}}A_{\text{BC}}\\
 L=\text{linear transformation}\\
@@ -110,7 +110,7 @@ D=\text{3rd basis}\\
 {}[\vec v_{1}]_{B},[\vec v_{2}]_{C}=\text{preimage coordinate vector}\\
 {}[L(\vec v_{1})]_{C},[L(\vec v_{2})]_{D}=\text{image coordinate vector}\\
 A=\text{matrix transformation}
-\end{aligned}
+\end{array}
 $$
 
 ---

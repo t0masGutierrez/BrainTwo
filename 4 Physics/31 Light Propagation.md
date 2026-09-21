@@ -10,7 +10,7 @@
 ---
 ### wave velocity formula
 $$
-\begin{aligned}
+\begin{array}{l}
 v=\lambda f=\frac{\omega}{k}\\
 c=\sqrt{\frac{1}{\epsilon_{0}\mu_{0}}}=3\times10^{8}\\
 \lambda=\text{wavelength}\\
@@ -19,7 +19,7 @@ f=\text{oscillation frequency}\\
 k=\text{wave number}\\
 \epsilon_{0}=8.85\times10^{-12}\\
 \mu_{0}=4\pi\times10^{-7}\\
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -30,14 +30,14 @@ $$
 ---
 ### refraction index formula
 $$
-\begin{aligned}
+\begin{array}{l}
 n=\frac{c}{v}=\frac{\lambda_{0}}{\lambda}=\sqrt{KK_{m}}\\
 c=3\times10^{8}\\
 v=\text{wave velocity}\\
 \lambda=\text{wavelength}\\
 K=\text{dielectric constant}\\
 K_{m}=\text{relative permeability}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -67,11 +67,11 @@ $$
 ---
 ### formula of reflection
 $$
-\begin{aligned}
+\begin{array}{l}
 \theta_{1}=\theta_{r}\\
 \theta_{1}=\text{angular incidence}\\
 \theta_{r}=\text{angular reflection}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -87,12 +87,12 @@ $$
 ---
 ### formula of refraction
 $$
-\begin{aligned}
+\begin{array}{l}
 n_{1}\sin(\theta_{1})=n_{2}\sin(\theta_{2})\\
 n=\text{refraction index}\\
 \theta_{1}=\text{angular incidence}\\
 \theta_{2}=\text{angular refraction}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -103,11 +103,11 @@ $$
 ---
 ### critical angle formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \theta_{c}=\arcsin(\frac{n_{2}}{n_{1}})\\
 n_{2}<n_{1}\\
 n=\text{refraction index}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -175,11 +175,11 @@ $$
 ---
 ### malus formula
 $$
-\begin{aligned}
+\begin{array}{l}
 I=I_{0}\cos^{2}(\theta)\\
 I=\text{intensity}\\
 \theta=\text{angular position}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -203,11 +203,11 @@ $$
 ---
 ### brewsters formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \theta_{1}=\arctan(\frac{n_{2}}{n_{1}})\\
 \theta_{1}+\theta_{2}=90\\
 n=\text{refraction index}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -229,12 +229,12 @@ $$
 ---
 ### polarization by scattering formula
 $$
-\begin{aligned}
+\begin{array}{l}
 I\propto f^{4}\propto\frac{1}{\lambda^{4}}\\
 I=\text{intensity}\\
 f=\text{oscillation frequency}\\
 \lambda=\text{wavelength}
-\end{aligned}
+\end{array}
 $$
 
 ---

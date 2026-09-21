@@ -4,14 +4,14 @@
 ---
 ### normal formula
 $$
-\begin{aligned}
+\begin{array}{l}
 X\sim N(x,\mu,\sigma)\implies P(X\le x)\\
 X=\text{random variable}\\
 N=\text{normal distribution}\\
 x=\text{data}\\
 \mu=\text{mean}\\
 \sigma=\text{standard deviation}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -21,12 +21,12 @@ $$
 ---
 ### inverse normal formula
 $$
-\begin{aligned}
+\begin{array}{l}
 x=N^{-1}(A,\mu,\sigma)\\
 A=\text{area}\\
 \mu=\text{mean}\\
 \sigma=\text{standard deviation}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -36,7 +36,7 @@ $$
 ---
 ### z-score formula
 $$
-\begin{aligned}
+\begin{array}{l}
 z=\frac{x-\mu}{\sigma/\sqrt n}\\
 z=\frac{\hat p-p}{\sqrt{p(1-p)/n}}\\
 x=\text{data}\\
@@ -45,7 +45,7 @@ x=\text{data}\\
 n=\text{sample size}\\
 \hat p=\text{sample proportion}\\
 p=\text{proportion}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -55,12 +55,12 @@ $$
 ---
 ### standard normal formula
 $$
-\begin{aligned}
+\begin{array}{l}
 Z\sim N(z,0,1)\implies P(Z\le z)\\
 Z=\text{random variable}\\
 N=\text{standard normal distribution}\\
 z=\text{z-score}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -70,10 +70,10 @@ $$
 ---
 ### inverse standard normal formula
 $$
-\begin{aligned}
+\begin{array}{l}
 z=N^{-1}(A,0,1)\\
 A=\text{area}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -83,7 +83,7 @@ $$
 ---
 ### t-score formula
 $$
-\begin{aligned}
+\begin{array}{l}
 t=\frac{\overline X-\mu}{s/\sqrt n}\\
 \text{df}=n-1\\
 \overline X=\text{sample mean}\\
@@ -91,7 +91,7 @@ t=\frac{\overline X-\mu}{s/\sqrt n}\\
 s=\text{sample standard deviation}\\
 n=\text{sample size}\\
 \text{df}=\text{degrees of freedom}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -101,13 +101,13 @@ $$
 ---
 ### t formula
 $$
-\begin{aligned}
+\begin{array}{l}
 T\sim S(t,\text{df})\implies P(T\le t)\\
 T=\text{random variable}\\
 S=\text{t distribution}\\
 t=\text{t-score}\\
 \text{df}=\text{degrees of freedom}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -117,11 +117,11 @@ $$
 ---
 ### inverse t formula
 $$
-\begin{aligned}
+\begin{array}{l}
 t=S^{-1}(A,\text{df})\\
 A=\text{area}\\
 \text{df}=\text{degrees of freedom}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -131,12 +131,12 @@ $$
 ---
 ### chi-square-score formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \chi^{2}=\frac{(n-1)s^2}{\sigma^2}\\
 n=\text{sample size}\\
 s=\text{sample standard deviation}\\
 \sigma=\text{standard deviation}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -146,11 +146,11 @@ $$
 ---
 ### chi-square formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \mathcal X\sim\chi^{2}(x,\text{df})\implies P(\mathcal X\le x)\\
 x=\text{$\chi^2$-score}\\
 \text{df}=\text{degrees of freedom}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -160,11 +160,11 @@ $$
 ---
 ### inverse chi-square formula
 $$
-\begin{aligned}
+\begin{array}{l}
 x=\chi^{-2}(A,\text{df})\\
 A=\text{area}\\
 \text{df}=\text{degrees of freedom}
-\end{aligned}
+\end{array}
 $$
 
 ---

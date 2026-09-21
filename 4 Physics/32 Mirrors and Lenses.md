@@ -52,11 +52,11 @@
 ---
 ### lateral magnification formula
 $$
-\begin{aligned}
+\begin{array}{l}
 m=\frac{y'}{y}=\frac{-r'}{r}\\
 y=\text{position}\\
 r=\text{distance}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -125,10 +125,10 @@ $$
 ---
 ### focal length formula
 $$
-\begin{aligned}
+\begin{array}{l}
 f=\frac{R}{2}\\
 R=\text{radius}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -139,10 +139,10 @@ $$
 ---
 ### paraxial approximation formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \sin(\theta)\approx\theta\\
 \theta=\text{angular position}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -187,11 +187,11 @@ $$
 ---
 ### spherical mirror formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \frac{1}{f}=\frac{1}{r}+\frac{1}{r'}\\
 r=\text{object distance}\\
 r'=\text{image distance}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -267,11 +267,11 @@ $$
 ---
 ### lens maker formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \frac{1}{f}=(\frac{n_{2}}{n_{1}}-1)(\frac{1}{R_{1}}-\frac{1}{R_{2}})\\
 n=\text{refraction index}\\
 R=\text{radius}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -330,10 +330,10 @@ $$
 ---
 ### focusing power formula
 $$
-\begin{aligned}
+\begin{array}{l}
 P=\frac{1}{f}\\
 f=\text{focal length}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -368,11 +368,11 @@ $$
 ---
 ### f number formula
 $$
-\begin{aligned}
+\begin{array}{l}
 f/\#=\frac{f}{D}\\
 f=\text{focal length}\\
 D=\text{diameter}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -382,10 +382,10 @@ $$
 ---
 ### intensity formula
 $$
-\begin{aligned}
+\begin{array}{l}
 I\propto\frac{1}{(f/\#)^{2}}\\
 f/\#=\text{f number}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -396,10 +396,10 @@ $$
 ---
 ### angular magnification formula
 $$
-\begin{aligned}
+\begin{array}{l}
 M=\frac{\theta'}{\theta}\\
 \theta=\text{angular position}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -420,11 +420,11 @@ $$
 ---
 ### simple magnification formula
 $$
-\begin{aligned}
+\begin{array}{l}
 M=\frac{N}{f}\\
 N=\text{near point distance}\\
 f=\text{focal length}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -434,11 +434,11 @@ $$
 ---
 ### maximum simple magnification formula
 $$
-\begin{aligned}
+\begin{array}{l}
 M=\frac{N}{f}+1\\
 N=\text{near point distance}\\
 f=\text{focal length}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -472,7 +472,7 @@ $$
 ---
 ### microscope magnification formula
 $$
-\begin{aligned}
+\begin{array}{l}
 M=m_{\text{obj}}\times M_{\text{eye}}=\frac{-r_{o}'}{r_{o}}\times\frac{N}{f_{e}}\approx\frac{-r_{o}'N}{f_{o}f_{e}}\\
 L=r_{o}'+f_{e}\\
 r_{o}'=\text{objective image distance}\\
@@ -480,7 +480,7 @@ r_{o}=\text{objective object distance}\\
 N=\text{near point distance}\\
 f_{e}=\text{eyepiece focal length}\\
 f_{o}=\text{objective focal length}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -496,14 +496,14 @@ $$
 ---
 ### refracting telescope magnification formula
 $$
-\begin{aligned}
+\begin{array}{l}
 M=\frac{\theta'}{\theta}\approx\frac{-y}{f_{e}}\times\frac{f_{o}}{y}=\frac{-f_{o}}{f_{e}}\\
 L=f_{o}+f_{e}\\
 \theta=\text{angular position}\\
 y=\text{position}\\
 f_{o}=\text{objective focal length}\\
 f_{e}=\text{eyepiece focal length}
-\end{aligned}
+\end{array}
 $$
 
 ---

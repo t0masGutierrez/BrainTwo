@@ -4,11 +4,11 @@
 ---
 ### limit interchange formula
 $$
-\begin{aligned}
+\begin{array}{l}
 T(\lim_{n\rightarrow\infty}f_{n})=\lim_{n\rightarrow\infty}T(f_{n})\\
 T=\text{operation}\\
 \set{f_{n}}=\text{sequence}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -18,12 +18,12 @@ $$
 ---
 ### pointwise convergent formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \forall x\in S:\lim_{n\rightarrow\infty}f_{n}(x)=f(x)\\
 f_{n}:S\rightarrow\mathbb R\\
 f=\text{pointwise limit}\\
 \set{f_{n}}=\text{pointwise convergent sequence}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -33,12 +33,12 @@ $$
 ---
 ### uniform convergent formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \forall\epsilon>0,\exists N\in\mathbb N,\forall n\ge N:|f_{n}(x)-f(x)|<\epsilon\\
 f_{n}:S\rightarrow\mathbb R\\
 f=\text{uniform limit}\\
 \set{f_{n}}=\text{uniform convergent sequence}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -48,12 +48,12 @@ $$
 ---
 ### series formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \sum_{n=1}^{\infty}f_{n}(x)\\
 f_{n}:S\rightarrow\mathbb R\\
 \set{f_{n}}=\text{sequence}\\
 \sum f_{n}=\text{series}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -65,11 +65,11 @@ $$
 ---
 ### limit interchange property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \exists x\in S:\lim_{t\rightarrow x}\lim_{n\rightarrow\infty}f_{n}(t)\ne\lim_{n\rightarrow\infty}\lim_{t\rightarrow x}f_{n}(t)\\
 \exists x\in S:\frac{d}{dx}\lim_{n\rightarrow\infty}f_{n}(x)\ne\lim_{n\rightarrow\infty}f_{n}'(x)\\
 \exists a<b:\int_{a}^{b}\lim_{n\rightarrow\infty}f_{n}(x)dx\ne\lim_{n\rightarrow\infty}\int_{a}^{b}f_{n}(x)dx\\
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -79,12 +79,12 @@ $$
 ---
 ### supremum uniform convergence property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \forall x\in S:\lim_{n\rightarrow\infty}\sup_{x\in S}|f_{n}(x)-f(x)|=0\\
 f_{n}:S\rightarrow\mathbb R\\
 f=\text{uniform limit}\\
 \set{f_{n}}=\text{uniform convergent sequence}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -94,12 +94,12 @@ $$
 ---
 ### continuous uniform convergence property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \lim_{t\rightarrow x}\lim_{n\rightarrow\infty}f_{n}(t)=\lim_{n\rightarrow\infty}\lim_{t\rightarrow x}f_{n}(t)\\
 x=\text{limit point}\\
 f_{n}=\text{continuous function}\\
 \set{f_{n}}=\text{uniform convergent sequence}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -109,11 +109,11 @@ $$
 ---
 ### differentiable uniform convergence property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \frac{d}{dx}\lim_{n\rightarrow\infty}f_{n}(x)=\lim_{n\rightarrow\infty}f_{n}'(x)\\
 f_{n}=\text{continuous function}\\
 \set{f_{n}}=\text{uniform convergent sequence}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -123,9 +123,9 @@ $$
 ---
 ### integrable uniform convergence property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \int_{a}^{b}\lim_{n\rightarrow\infty}f_{n}(x)dx=\lim_{n\rightarrow\infty}\int_{a}^{b}f_{n}(x)dx\\
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -135,12 +135,12 @@ $$
 ---
 ### cauchy uniform convergence property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \forall\epsilon>0,\exists N\in\mathbb N,\forall n,m\ge N:|f_{n}(x)-f_{m}(x)|<\epsilon\\
 f_{n}:S\rightarrow\mathbb R\\
 f=\text{uniform limit}\\
 \set{f_{n}}=\text{uniform convergent sequence}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -150,12 +150,12 @@ $$
 ---
 ### absolute convergence series property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \sum_{n=1}^{\infty}|f_{n}(x)|<\infty\\
 f_{n}:S\rightarrow\mathbb R\\
 \set{f_{n}}=\text{sequence}\\
 \sum f_{n}=\text{absolute convergent series}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -165,13 +165,13 @@ $$
 ---
 ### uniform convergence series property formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \forall x\in X:|f_{n}(x)|\le M_{n}\land\sum M_{n}<\infty\implies\forall\epsilon>0,\exists N\in\mathbb N,\forall n\ge N:|\sum_{k=1}^{n}f_{k}(x)-\sum_{k=1}^{\infty}f_{k}(x)|<\epsilon\\
 f_{n}:X\rightarrow\mathbb R\\
 f=\text{uniform limit}\\
 \set{f_{n}}=\text{sequence}\\
 \sum f_{n}=\text{uniform convergent series}
-\end{aligned}
+\end{array}
 $$
 
 ---

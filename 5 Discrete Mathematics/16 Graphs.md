@@ -5,11 +5,11 @@
 ---
 ### graph formula
 $$
-\begin{aligned}
+\begin{array}{l}
 G=(V,E)\\
 V=\text{set of vertices}\\
 E=\text{set of edges}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -101,20 +101,20 @@ $$
 ---
 ### undirect neighborhood formula
 $$
-\begin{aligned}
+\begin{array}{l}
 N(v)=\{u\in V|(v,u)\in E\}\\
 v=\text{home vertex}\\
 u=\text{neighbor vertex}
-\end{aligned}
+\end{array}
 $$
 
 ---
 ### direct neighborhood formula
 $$
-\begin{aligned}
+\begin{array}{l}
 N^{-}(v)=\{u\in V|(u,v)\in E\}\\
 N^{+}(v)=\{u\in V|(v,u)\in E\}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -124,9 +124,9 @@ $$
 ---
 ### degree of vertex formula
 $$
-\begin{aligned}
+\begin{array}{l}
 deg(v)=N(v)
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -144,10 +144,10 @@ $$
 ---
 ### undirect handshaking formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \sum_{v\in V}deg(v)=2|E|\\
 |E|=\text{number of edges}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -157,11 +157,11 @@ $$
 ---
 ### edge parity formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \mathbb{E}=2k\\
 \sum_{v\in V}deg(v)=2|E|\\
 \therefore\sum_{v\in V}deg(v)\in\mathbb{E}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -171,11 +171,11 @@ $$
 ---
 ### in degree of vertex formula
 $$
-\begin{aligned}
+\begin{array}{l}
 deg^{-}(v)=\{u\in V|(u,v)\in E\}\\
 u=\text{initial vertex}\\
 v=\text{terminal vertex}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -185,11 +185,11 @@ $$
 ---
 ### out degree of vertex formula
 $$
-\begin{aligned}
+\begin{array}{l}
 deg^{+}(v)=\{u\in V|(v,u)\in E\}\\
 v=\text{initial vertex}\\
 u=\text{terminal vertex}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -199,10 +199,10 @@ $$
 ---
 ### direct handshaking formula
 $$
-\begin{aligned}
+\begin{array}{l}
 \sum_{v\in V}deg^{-}(v)=\sum_{v\in V}deg^{+}(v)=|E|\\
 |E|=\text{number of edges}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -213,10 +213,10 @@ $$
 ---
 ### complete graph formula
 $$
-\begin{aligned}
+\begin{array}{l}
 |E|=\frac{n(n-1)}{2}\\
 n=\text{number of vertices}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -227,10 +227,10 @@ $$
 ---
 ### cycle graph formula
 $$
-\begin{aligned}
+\begin{array}{l}
 |E|=n\\
 n=\text{number of vertices}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -240,10 +240,10 @@ $$
 
 ---
 $$
-\begin{aligned}
+\begin{array}{l}
 |E|=2(n-1)\\
 n=\text{number of vertices}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -254,10 +254,10 @@ $$
 ---
 ### hypercube graph formula
 $$
-\begin{aligned}
+\begin{array}{l}
 |E|=n\times2^{n-1}\\
 n=\text{number of vertices}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -268,9 +268,9 @@ $$
 ---
 ### bipartition formula
 $$
-\begin{aligned}
+\begin{array}{l}
 V_{1}\cup V_{2}=V\land V_{1}\cap V_{2}=\emptyset
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -308,11 +308,11 @@ $$
 ---
 ### subgraph formula
 $$
-\begin{aligned}
+\begin{array}{l}
 W\subseteq V\land F\subseteq E\\
 H=(W,F)\\
 G=(V,E)
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -322,11 +322,11 @@ $$
 ---
 ### induce subgraph formula
 $$
-\begin{aligned}
+\begin{array}{l}
 e\in F\iff(v_{1},v_{2})\in W\\
 H=(W,F)\\
 G=(V,E)
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -336,9 +336,9 @@ $$
 ---
 ### edge addition formula
 $$
-\begin{aligned}
+\begin{array}{l}
 G+e=(V,E\cup\{e\})
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -348,9 +348,9 @@ $$
 ---
 ### edge subtraction formula
 $$
-\begin{aligned}
+\begin{array}{l}
 G-e=(V,E-\{e\})
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -360,11 +360,11 @@ $$
 ---
 ### edge contraction formula
 $$
-\begin{aligned}
+\begin{array}{l}
 V'=V-\{v_{1},v_{2}\}\cup\{w\}\\
 E'=\{e\in E|e\ne w\}\\
 w=\text{merge vertex}
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -374,10 +374,10 @@ $$
 ---
 ### vertex subtraction formula
 $$
-\begin{aligned}
+\begin{array}{l}
 G-v=(V-{v},E')\\
 G=(V,E)
-\end{aligned}
+\end{array}
 $$
 
 ---
@@ -387,11 +387,11 @@ $$
 ---
 ### graph union formula
 $$
-\begin{aligned}
+\begin{array}{l}
 G_{1}\cup G_{2}=V_{1}\cup V_{2}\land E_{1}\cup E_{2}\\
 G_{1}=(V_{1},E_{1})\\
 G_{2}=(V_{2},E_{2})
-\end{aligned}
+\end{array}
 $$
 
 ---
