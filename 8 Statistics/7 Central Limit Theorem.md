@@ -5,9 +5,9 @@
 ### sampling variability formula
 $$
 \begin{aligned}
-&\omega_{1},\omega_{2}\subset\Omega\not\implies\theta_{1}=\theta_{2}\\
-&\omega=\text{sample}\\
-&\theta=\text{sample statistic}
+\omega_{1},\omega_{2}\subset\Omega\not\implies\theta_{1}=\theta_{2}\\
+\omega=\text{sample}\\
+\theta=\text{sample statistic}
 \end{aligned}
 $$
 
@@ -19,9 +19,9 @@ $$
 ### sampling distribution formula
 $$
 \begin{aligned}
-&\theta\sim g(\omega_1,\omega_2,\dots,\omega_n)\\
-&\theta=\text{sample statistic}\\
-&\omega=\text{sample}
+\theta\sim g(\omega_1,\omega_2,\dots,\omega_n)\\
+\theta=\text{sample statistic}\\
+\omega=\text{sample}
 \end{aligned}
 $$
 
@@ -33,11 +33,11 @@ $$
 ### standard error formula
 $$
 \begin{aligned}
-&SE(\overline X)=\frac{\sigma}{\sqrt n}\\
-&SE(\hat p)=\sqrt{\frac{p(1-p)}{n}}\\
-&\sigma=\text{standard deviation}\\
-&n=\text{sample size}\\
-&p=\text{proportion}
+SE(\overline X)=\frac{\sigma}{\sqrt n}\\
+SE(\hat p)=\sqrt{\frac{p(1-p)}{n}}\\
+\sigma=\text{standard deviation}\\
+n=\text{sample size}\\
+p=\text{proportion}
 \end{aligned}
 $$
 
@@ -49,10 +49,10 @@ $$
 ### law of large numbers formula
 $$
 \begin{aligned}
-&\lim_{n\rightarrow\infty}\bar X=\mu\\
-&n=\text{sample size}\\
-&\bar X=\text{sample mean}\\
-&\mu=\text{mean}
+\lim_{n\rightarrow\infty}\bar X=\mu\\
+n=\text{sample size}\\
+\bar X=\text{sample mean}\\
+\mu=\text{mean}
 \end{aligned}
 $$
 
@@ -64,11 +64,11 @@ $$
 ### central limit theorem formula
 $$
 \begin{aligned}
-&\forall n\ge30:\bar X\approx N(\mu,\frac{\sigma}{\sqrt n})\\
-&n=\text{sample size}\\
-&\bar X=\text{sample mean}\\
-&\mu=\text{mean}\\
-&\sigma=\text{standard deviation}
+\forall n\ge30:\bar X\approx N(\mu,\frac{\sigma}{\sqrt n})\\
+n=\text{sample size}\\
+\bar X=\text{sample mean}\\
+\mu=\text{mean}\\
+\sigma=\text{standard deviation}
 \end{aligned}
 $$
 

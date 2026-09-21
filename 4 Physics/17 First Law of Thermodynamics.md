@@ -6,7 +6,7 @@
 ### thermodynamic system formula
 $$
 \begin{aligned}
-&\text{universe}=\text{system}+\text{surroundings}
+\text{universe}=\text{system}+\text{surroundings}
 \end{aligned}
 $$
 
@@ -18,11 +18,11 @@ $$
 ### closed system formula
 $$
 \begin{aligned}
-&\frac{dE}{dt}\ne0\\
-&\frac{dm}{dt}=0\\
-&E=\text{energy}\\
-&t=\text{time}\\
-&m=\text{mass}
+\frac{dE}{dt}\ne0\\
+\frac{dm}{dt}=0\\
+E=\text{energy}\\
+t=\text{time}\\
+m=\text{mass}
 \end{aligned}
 $$
 
@@ -34,11 +34,11 @@ $$
 ### open system formula
 $$
 \begin{aligned}
-&\frac{dE}{dt}\ne0\\
-&\frac{dm}{dt}\ne0\\
-&E=\text{energy}\\
-&t=\text{time}\\
-&m=\text{mass}
+\frac{dE}{dt}\ne0\\
+\frac{dm}{dt}\ne0\\
+E=\text{energy}\\
+t=\text{time}\\
+m=\text{mass}
 \end{aligned}
 $$
 
@@ -50,11 +50,11 @@ $$
 ### isolated system formula
 $$
 \begin{aligned}
-&\frac{dE}{dt}=0\\
-&\frac{dm}{dt}=0\\
-&E=\text{energy}\\
-&t=\text{time}\\
-&m=\text{mass}
+\frac{dE}{dt}=0\\
+\frac{dm}{dt}=0\\
+E=\text{energy}\\
+t=\text{time}\\
+m=\text{mass}
 \end{aligned}
 $$
 
@@ -67,9 +67,9 @@ $$
 ### work formula
 $$
 \begin{aligned}
-&W=\sum_{i}p_{i}\Delta V_{i}=\int_{V_{1}}^{V_{2}}p\cdot dV\\
-&p=\text{pressure}\\
-&V=\text{volume}
+W=\sum_{i}p_{i}\Delta V_{i}=\int_{V_{1}}^{V_{2}}p\cdot dV\\
+p=\text{pressure}\\
+V=\text{volume}
 \end{aligned}
 $$
 
@@ -83,9 +83,9 @@ $$
 ### positive work formula
 $$
 \begin{aligned}
-&\Delta V>0\implies W>0\\
-&V=\text{volume}\\
-&W=\text{work}
+\Delta V>0\implies W>0\\
+V=\text{volume}\\
+W=\text{work}
 \end{aligned}
 $$
 
@@ -99,9 +99,9 @@ $$
 ### negative work formula
 $$
 \begin{aligned}
-&\Delta V<0\implies W<0\\
-&V=\text{volume}\\
-&W=\text{work}
+\Delta V<0\implies W<0\\
+V=\text{volume}\\
+W=\text{work}
 \end{aligned}
 $$
 
@@ -113,11 +113,11 @@ $$
 ### internal energy formula
 $$
 \begin{aligned}
-&U=\frac{f}{2}NkT\\
-&f=\text{degrees of freedom}\\
-&N=\text{number of particles}\\
-&k=1.381\times10^{-23}\\
-&T=\text{temperature}
+U=\frac{f}{2}NkT\\
+f=\text{degrees of freedom}\\
+N=\text{number of particles}\\
+k=1.381\times10^{-23}\\
+T=\text{temperature}
 \end{aligned}
 $$
 
@@ -131,9 +131,9 @@ $$
 ### first law of thermodynamics formula
 $$
 \begin{aligned}
-&\Delta U=Q-W\\
-&Q=\text{heat}\\
-&W=\text{work}
+\Delta U=Q-W\\
+Q=\text{heat}\\
+W=\text{work}
 \end{aligned}
 $$
 
@@ -146,7 +146,7 @@ $$
 ### state function formula
 $$
 \begin{aligned}
-&\Delta F=\int_A^BdF
+\Delta F=\int_A^BdF
 \end{aligned}
 $$
 
@@ -169,13 +169,13 @@ $$
 ### thermodynamic equilibrium formula
 $$
 \begin{aligned}
-&\nabla T=0\\
-&\nabla p=0\\
-&\nabla\frac{\partial U}{\partial N}=0\\
-&T=\text{temperature}\\
-&p=\text{pressure}\\
-&U=\text{internal energy}\\
-&N=\text{number of particles}
+\nabla T=0\\
+\nabla p=0\\
+\nabla\frac{\partial U}{\partial N}=0\\
+T=\text{temperature}\\
+p=\text{pressure}\\
+U=\text{internal energy}\\
+N=\text{number of particles}
 \end{aligned}
 $$
 
@@ -188,9 +188,9 @@ $$
 ### thermodynamic process formula
 $$
 \begin{aligned}
-&x_1(t)\rightarrow x_2(t)\\
-&x=\text{state}\\
-&t=\text{time}
+x_1(t)\rightarrow x_2(t)\\
+x=\text{state}\\
+t=\text{time}
 \end{aligned}
 $$
 
@@ -203,12 +203,12 @@ $$
 ### quasi-static process formula
 $$
 \begin{aligned}
-&\forall t:\nabla T=\nabla p=\nabla\frac{\partial U}{\partial N}=0\\
-&t=\text{time}\\
-&T=\text{temperature}\\
-&p=\text{pressure}\\
-&U=\text{internal energy}\\
-&N=\text{number of particles}
+\forall t:\nabla T=\nabla p=\nabla\frac{\partial U}{\partial N}=0\\
+t=\text{time}\\
+T=\text{temperature}\\
+p=\text{pressure}\\
+U=\text{internal energy}\\
+N=\text{number of particles}
 \end{aligned}
 $$
 
@@ -221,8 +221,8 @@ $$
 ### cyclic process formula
 $$
 \begin{aligned}
-&\Delta U=0\\
-&U=\text{internal energy}
+\Delta U=0\\
+U=\text{internal energy}
 \end{aligned}
 $$
 
@@ -234,11 +234,11 @@ $$
 ### isothermal process formula
 $$
 \begin{aligned}
-&p_{1}V_{1}=p_{2}V_{2}\implies\Delta U=0\\
-&p=\text{pressure}\\
-&V=\text{volume}\\
-&T=\text{temperature}\\
-&U=\text{internal energy}
+p_{1}V_{1}=p_{2}V_{2}\implies\Delta U=0\\
+p=\text{pressure}\\
+V=\text{volume}\\
+T=\text{temperature}\\
+U=\text{internal energy}
 \end{aligned}
 $$
 
@@ -250,11 +250,11 @@ $$
 ### isochoric process formula
 $$
 \begin{aligned}
-&\frac{p_{1}}{T_{1}}=\frac{p_{2}}{T_{2}}\implies\Delta U=Q\\
-&p=\text{pressure}\\
-&T=\text{temperature}\\
-&U=\text{internal energy}\\
-&Q=\text{heat}
+\frac{p_{1}}{T_{1}}=\frac{p_{2}}{T_{2}}\implies\Delta U=Q\\
+p=\text{pressure}\\
+T=\text{temperature}\\
+U=\text{internal energy}\\
+Q=\text{heat}
 \end{aligned}
 $$
 
@@ -266,12 +266,12 @@ $$
 ### isobaric process formula
 $$
 \begin{aligned}
-&\frac{V_{1}}{T_{1}}=\frac{V_{2}}{T_{2}}\implies\Delta U=nC_V\Delta T\\
-&V=\text{volume}\\
-&T=\text{temperature}\\
-&U=\text{internal energy}\\
-&n=\text{number of moles}\\
-&C=\text{molar heat capacity}
+\frac{V_{1}}{T_{1}}=\frac{V_{2}}{T_{2}}\implies\Delta U=nC_V\Delta T\\
+V=\text{volume}\\
+T=\text{temperature}\\
+U=\text{internal energy}\\
+n=\text{number of moles}\\
+C=\text{molar heat capacity}
 \end{aligned}
 $$
 
@@ -283,19 +283,19 @@ $$
 ### adiabatic process formula
 $$
 \begin{aligned}
-&p_{1}V_{1}^{\gamma}=p_{2}V_{2}^{\gamma}\implies\Delta U=-W\\
-&T_{1}V_{1}^{\gamma-1}=T_{2}V_{2}^{\gamma-1}\implies\Delta U=nC_V(T_1-T_2)=\\
-&\frac{C_V}{R}(p_1V_1-p_2V_2)=\\
-&\frac{1}{\gamma-1}(p_1V_1-p_2V_2)\\
-&p=\text{pressure}\\
-&V=\text{volume}\\
-&U=\text{internal energy}\\
-&W=\text{work}\\
-&T=\text{temperature}\\
-&\gamma=\text{molar heat capacity ratio}\\
-&n=\text{number of moles}\\
-&C=\text{molar heat capacity}\\
-&R=8.314
+p_{1}V_{1}^{\gamma}=p_{2}V_{2}^{\gamma}\implies\Delta U=-W\\
+T_{1}V_{1}^{\gamma-1}=T_{2}V_{2}^{\gamma-1}\implies\Delta U=nC_V(T_1-T_2)=\\
+\frac{C_V}{R}(p_1V_1-p_2V_2)=\\
+\frac{1}{\gamma-1}(p_1V_1-p_2V_2)\\
+p=\text{pressure}\\
+V=\text{volume}\\
+U=\text{internal energy}\\
+W=\text{work}\\
+T=\text{temperature}\\
+\gamma=\text{molar heat capacity ratio}\\
+n=\text{number of moles}\\
+C=\text{molar heat capacity}\\
+R=8.314
 \end{aligned}
 $$
 
@@ -307,10 +307,10 @@ $$
 ### specific heat formula
 $$
 \begin{aligned}
-&Q=nC\Delta T\\
-&n=\text{number of moles}\\
-&C=\text{molar heat capacity}\\
-&T=\text{temperature}
+Q=nC\Delta T\\
+n=\text{number of moles}\\
+C=\text{molar heat capacity}\\
+T=\text{temperature}
 \end{aligned}
 $$
 
@@ -323,8 +323,8 @@ $$
 ### molar heat capacity ratio formula
 $$
 \begin{aligned}
-&\gamma=\frac{C_{p}}{C_{V}}\\
-&C=\text{molar heat capacity}
+\gamma=\frac{C_{p}}{C_{V}}\\
+C=\text{molar heat capacity}
 \end{aligned}
 $$
 
@@ -337,9 +337,9 @@ $$
 ### constant volume molar heat capacity formula
 $$
 \begin{aligned}
-&C_{V}=\frac{f}{2}R\\
-&f=\text{degrees of freedom}\\
-&R=8.314
+C_{V}=\frac{f}{2}R\\
+f=\text{degrees of freedom}\\
+R=8.314
 \end{aligned}
 $$
 
@@ -352,9 +352,9 @@ $$
 ### constant pressure molar heat capacity formula
 $$
 \begin{aligned}
-&C_{p}=C_{V}+R\\
-&C=\text{molar heat capacity}\\
-&R=8.314
+C_{p}=C_{V}+R\\
+C=\text{molar heat capacity}\\
+R=8.314
 \end{aligned}
 $$
 

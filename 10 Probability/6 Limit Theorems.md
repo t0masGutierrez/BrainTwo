@@ -5,8 +5,8 @@
 ### mean formula
 $$
 \begin{aligned}
-&\mu=E[X]\\
-&X=\text{random variable}
+\mu=E[X]\\
+X=\text{random variable}
 \end{aligned}
 $$
 
@@ -32,8 +32,8 @@ $$
 ### variance formula
 $$
 \begin{aligned}
-&\sigma^{2}=\text{Var}(X)\\
-&X=\text{random variable}
+\sigma^{2}=\text{Var}(X)\\
+X=\text{random variable}
 \end{aligned}
 $$
 
@@ -60,10 +60,10 @@ $$
 ### markov inequality formula
 $$
 \begin{aligned}
-&P(X\ge c)\le\frac{E[X]}{c}\\
-&X\ge0\\
-&X=\text{random variable}\\
-&c=\text{real number}
+P(X\ge c)\le\frac{E[X]}{c}\\
+X\ge0\\
+X=\text{random variable}\\
+c=\text{real number}
 \end{aligned}
 $$
 
@@ -75,14 +75,14 @@ $$
 ### chebyshevs inequality formula
 $$
 \begin{aligned}
-&P(|X-\mu|\ge k\sigma)\le\frac{1}{k^{2}}\\
-&P(|X-\mu|<c)\le1-\frac{\sigma^{2}}{c^{2}}\\
-&\mu,\sigma^{2}<\infty\\
-&X=\text{random variable}\\
-&\mu=\text{mean}\\
-&k=\text{number of standard deviations}\\
-&\sigma^{2}=\text{variance}\\
-&c=\text{real number}
+P(|X-\mu|\ge k\sigma)\le\frac{1}{k^{2}}\\
+P(|X-\mu|<c)\le1-\frac{\sigma^{2}}{c^{2}}\\
+\mu,\sigma^{2}<\infty\\
+X=\text{random variable}\\
+\mu=\text{mean}\\
+k=\text{number of standard deviations}\\
+\sigma^{2}=\text{variance}\\
+c=\text{real number}
 \end{aligned}
 $$
 

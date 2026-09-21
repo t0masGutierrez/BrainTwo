@@ -5,15 +5,15 @@
 ### matrix formula
 $$
 \begin{aligned}
-&A=\begin{bmatrix}
-&a_{11}\dotsa_{1n}\\
-&\vdots\ddots\vdots\\
-&a_{m1}\dotsa_{\text{mn}}
-&\end{bmatrix}\\
-&|A|=m\times n\\
-&a=\text{entry}\\
-&m=\text{number of rows}\\
-&n=\text{number of columns}
+A=\begin{bmatrix}
+a_{11}&\dots&a_{1n}\\
+\vdots&\ddots&\vdots\\
+a_{m1}&\dots&a_{\text{mn}}
+\end{bmatrix}\\
+|A|=m\times n\\
+a=\text{entry}\\
+m=\text{number of rows}\\
+n=\text{number of columns}
 \end{aligned}
 $$
 
@@ -25,13 +25,13 @@ $$
 ### square matrix formula
 $$
 \begin{aligned}
-&A=\begin{bmatrix}
-&a_{11}a_{12}a_{13}\\
-&a_{21}a_{22}a_{23}\\
-&a_{31}a_{32}a_{33}
-&\end{bmatrix}\\
-&|A|=3\times3\\
-&a=\text{entry}
+A=\begin{bmatrix}
+a_{11}&a_{12}&a_{13}\\
+a_{21}&a_{22}&a_{23}\\
+a_{31}&a_{32}&a_{33}
+\end{bmatrix}\\
+|A|=3\times3\\
+a=\text{entry}
 \end{aligned}
 $$
 
@@ -43,11 +43,11 @@ $$
 ### main diagonal formula
 $$
 \begin{aligned}
-&\text{diag}(A)=(a_{\text{ii}})_{i=1}^{n}\\
-&a=\text{entry}\\
-&i=\text{row index}\\
-&i=\text{column index}\\
-&n=\text{dimension}
+\text{diag}(A)=(a_{\text{ii}})_{i=1}^{n}\\
+a=\text{entry}\\
+i=\text{row index}\\
+i=\text{column index}\\
+n=\text{dimension}
 \end{aligned}
 $$
 
@@ -59,15 +59,15 @@ $$
 ### diagonal matrix formula
 $$
 \begin{aligned}
-&D=\begin{bmatrix}
-&d_{11}00\\
-&0d_{22}0\\
-&00d_{33}
-&\end{bmatrix}\iff\forall(i\ne j):d_{\text{ij}}=0\\
-&|D|=3\times3\\
-&d=\text{entry}\\
-&i=\text{row index}\\
-&j=\text{column index}
+D=\begin{bmatrix}
+d_{11}&0&0\\
+0&d_{22}&0\\
+0&0&d_{33}
+\end{bmatrix}\iff\forall(i\ne j):d_{\text{ij}}=0\\
+|D|=3\times3\\
+d=\text{entry}\\
+i=\text{row index}\\
+j=\text{column index}
 \end{aligned}
 $$
 
@@ -79,14 +79,14 @@ $$
 ### identity matrix formula
 $$
 \begin{aligned}
-&I=\begin{bmatrix}
-&100\\
-&010\\
-&001
-&\end{bmatrix}\iff\forall(i\ne j):(a_{\text{ij}}=0)\land\forall(i=j):(a_{\text{ij}}=1)\\
-&|I|=3\times3\\
-&i=\text{row index}\\
-&j=\text{column index}
+I=\begin{bmatrix}
+1&0&0\\
+0&1&0\\
+0&0&1
+\end{bmatrix}\iff\forall(i\ne j):(a_{\text{ij}}=0)\land\forall(i=j):(a_{\text{ij}}=1)\\
+|I|=3\times3\\
+i=\text{row index}\\
+j=\text{column index}
 \end{aligned}
 $$
 
@@ -98,15 +98,15 @@ $$
 ### upper triangular matrix formula
 $$
 \begin{aligned}
-&U=\begin{bmatrix}
-&u_{11}u_{12}u_{13}\\
-&0u_{22}u_{23}\\
-&00u_{33}
-&\end{bmatrix}\iff\forall(i>j):u_{\text{ij}}=0\\
-&|U|=3\times3\\
-&u=\text{entry}\\
-&i=\text{row index}\\
-&j=\text{column index}
+U=\begin{bmatrix}
+u_{11}&u_{12}&u_{13}\\
+0&u_{22}&u_{23}\\
+0&0&u_{33}
+\end{bmatrix}\iff\forall(i>j):u_{\text{ij}}=0\\
+|U|=3\times3\\
+u=\text{entry}\\
+i=\text{row index}\\
+j=\text{column index}
 \end{aligned}
 $$
 
@@ -118,15 +118,15 @@ $$
 ### lower triangular matrix formula
 $$
 \begin{aligned}
-&L=\begin{bmatrix}
-&l_{11}00\\
-&l_{21}l_{22}0\\
-&l_{31}l_{32}l_{33}\\
-&\end{bmatrix}\iff\forall(i<j):l_{\text{ij}}=0\\
-&|L|=3\times3\\
-&l=\text{entry}\\
-&i=\text{row index}\\
-&j=\text{column index}
+L=\begin{bmatrix}
+l_{11}&0&0\\
+l_{21}&l_{22}&0\\
+l_{31}&l_{32}&l_{33}\\
+\end{bmatrix}\iff\forall(i<j):l_{\text{ij}}=0\\
+|L|=3\times3\\
+l=\text{entry}\\
+i=\text{row index}\\
+j=\text{column index}
 \end{aligned}
 $$
 
@@ -138,12 +138,12 @@ $$
 ### zero matrix formula
 $$
 \begin{aligned}
-&A=\begin{bmatrix}
-&000\\
-&000\\
-&000
-&\end{bmatrix}\\
-&|A|=3\times3
+A=\begin{bmatrix}
+0&0&0\\
+0&0&0\\
+0&0&0
+\end{bmatrix}\\
+|A|=3\times3
 \end{aligned}
 $$
 
@@ -155,11 +155,11 @@ $$
 ### trace formula
 $$
 \begin{aligned}
-&\text{tr}(A)=\sum_{i=1}^{n}a_{\text{ii}}\\
-&a=\text{entry}\\
-&i=\text{row index}\\
-&i=\text{column index}\\
-&n=\text{dimension}
+\text{tr}(A)=\sum_{i=1}^{n}a_{\text{ii}}\\
+a=\text{entry}\\
+i=\text{row index}\\
+i=\text{column index}\\
+n=\text{dimension}
 \end{aligned}
 $$
 
@@ -171,14 +171,14 @@ $$
 ### scalar multiplication formula
 $$
 \begin{aligned}
-&cA=\begin{bmatrix}
-&ca_{11}ca_{12}ca_{13}\\
-&ca_{21}ca_{22}ca_{23}\\
-&ca_{31}ca_{32}ca_{33}
-&\end{bmatrix}\\
-&|cA|=3\times3\\
-&c=\text{scalar}\\
-&a=\text{entry}
+cA=\begin{bmatrix}
+ca_{11}&ca_{12}&ca_{13}\\
+ca_{21}&ca_{22}&ca_{23}\\
+ca_{31}&ca_{32}&ca_{33}
+\end{bmatrix}\\
+|cA|=3\times3\\
+c=\text{scalar}\\
+a=\text{entry}
 \end{aligned}
 $$
 
@@ -190,13 +190,13 @@ $$
 ### matrix addition formula
 $$
 \begin{aligned}
-&A+B=\begin{bmatrix}
-&a_{11}+b_{11}a_{12}+b_{12}a_{13}+b_{13}\\
-&a_{21}+b_{21}a_{22}+b_{22}a_{23}+b_{23}\\
-&a_{31}+b_{31}a_{32}+b_{32}a_{33}+b_{33}
-&\end{bmatrix}\\
-&|A+B|=3\times3\\
-&a,b=\text{entry}
+A+B=\begin{bmatrix}
+a_{11}+b_{11}&a_{12}+b_{12}&a_{13}+b_{13}\\
+a_{21}+b_{21}&a_{22}+b_{22}&a_{23}+b_{23}\\
+a_{31}+b_{31}&a_{32}+b_{32}&a_{33}+b_{33}
+\end{bmatrix}\\
+|A+B|=3\times3\\
+a,b=\text{entry}
 \end{aligned}
 $$
 
@@ -208,10 +208,10 @@ $$
 ### linear combination formula
 $$
 \begin{aligned}
-&B=\sum_{i=1}^{k}c_{i}A_{i}\\
-&c=\text{scalar}\\
-&A=\text{matrix}\\
-&k=\text{number of matrices}
+B=\sum_{i=1}^{k}c_{i}A_{i}\\
+c=\text{scalar}\\
+A=\text{matrix}\\
+k=\text{number of matrices}
 \end{aligned}
 $$
 
@@ -223,19 +223,19 @@ $$
 ### matrix transposition formula
 $$
 \begin{aligned}
-&A=\begin{bmatrix}
-&a_{11}a_{12}a_{13}\\
-&a_{21}a_{22}a_{23}\\
-&a_{31}a_{32}a_{33}\\
-&\end{bmatrix}\implies A^{T}=\begin{bmatrix}
-&a_{11}a_{21}a_{31}\\
-&a_{12}a_{22}a_{32}\\
-&a_{13}a_{23}a_{33}
-&\end{bmatrix}\\
-&m\times n\implies n\times m\\
-&a_{\text{ij}}\implies a_{\text{ji}}\\
-&a=\text{entry}\\
-&T=\text{transposition}
+A=\begin{bmatrix}
+a_{11}&a_{12}&a_{13}\\
+a_{21}&a_{22}&a_{23}\\
+a_{31}&a_{32}&a_{33}\\
+\end{bmatrix}\implies A^{T}=\begin{bmatrix}
+a_{11}&a_{21}&a_{31}\\
+a_{12}&a_{22}&a_{32}\\
+a_{13}&a_{23}&a_{33}
+\end{bmatrix}\\
+m\times n\implies n\times m\\
+a_{\text{ij}}\implies a_{\text{ji}}\\
+a=\text{entry}\\
+T=\text{transposition}
 \end{aligned}
 $$
 
@@ -247,9 +247,9 @@ $$
 ### symmetric formula
 $$
 \begin{aligned}
-&A=A^{T}\\
-&A=\text{square matrix}\\
-&T=\text{transposition}
+A=A^{T}\\
+A=\text{square matrix}\\
+T=\text{transposition}
 \end{aligned}
 $$
 
@@ -261,9 +261,9 @@ $$
 ### skew symmetric formula
 $$
 \begin{aligned}
-&A=-A^{T}\\
-&A=\text{square matrix}\\
-&T=\text{transposition}
+A=-A^{T}\\
+A=\text{square matrix}\\
+T=\text{transposition}
 \end{aligned}
 $$
 
@@ -275,13 +275,13 @@ $$
 ### matrix equality property formula
 $$
 \begin{aligned}
-&A=B\iff\forall i,j\le m,n:(a_{\text{ij}}=b_{\text{ij}})\land(|A|=|B|)\\
-&A,B=\text{matrix}\\
-&a,b=\text{entry}\\
-&i=\text{row index}\\
-&j=\text{column index}\\
-&m=\text{number of rows}\\
-&n=\text{number of columns}
+A=B\iff\forall i,j\le m,n:(a_{\text{ij}}=b_{\text{ij}})\land(|A|=|B|)\\
+A,B=\text{matrix}\\
+a,b=\text{entry}\\
+i=\text{row index}\\
+j=\text{column index}\\
+m=\text{number of rows}\\
+n=\text{number of columns}
 \end{aligned}
 $$
 
@@ -297,14 +297,14 @@ $$
 ### matrix arithmetic property formula
 $$
 \begin{aligned}
-&A+B=B+A\\
-&(A+B)+C=A+(B+C)\\
-&(cd)A=c(dA)\\
-&A+0=A\\
-&1(A)=A\\
-&A+(-A)=0\\
-&c(A+B)=cA+cB\\
-&(c+d)A=cA+dA
+A+B=B+A\\
+(A+B)+C=A+(B+C)\\
+(cd)A=c(dA)\\
+A+0=A\\
+1(A)=A\\
+A+(-A)=0\\
+c(A+B)=cA+cB\\
+(c+d)A=cA+dA
 \end{aligned}
 $$
 
@@ -318,9 +318,9 @@ $$
 ### matrix transposition property formula
 $$
 \begin{aligned}
-&(A^{T})^{T}=A\\
-&(A\pm B)^{T}=A^{T}\pm B^{T}\\
-&(cA)^{T}=c(A^{T})
+(A^{T})^{T}=A\\
+(A\pm B)^{T}=A^{T}\pm B^{T}\\
+(cA)^{T}=c(A^{T})
 \end{aligned}
 $$
 
@@ -332,13 +332,13 @@ $$
 ### symmetry decomposition property formula
 $$
 \begin{aligned}
-&A=S+V\\
-&S=(\frac{1}{2})(A+A^{T})=(\frac{1}{2})(A+A^{T})^{T}\\
-&V=(\frac{1}{2})(A-A^{T})=(\frac{1}{2})(A^{T}-A)^{T}\\
-&A=\text{square matrix}\\
-&S=\text{symmetric matrix}\\
-&V=\text{skew symmetric matrix}\\
-&T=\text{transposition}
+A=S+V\\
+S=(\frac{1}{2})(A+A^{T})=(\frac{1}{2})(A+A^{T})^{T}\\
+V=(\frac{1}{2})(A-A^{T})=(\frac{1}{2})(A^{T}-A)^{T}\\
+A=\text{square matrix}\\
+S=\text{symmetric matrix}\\
+V=\text{skew symmetric matrix}\\
+T=\text{transposition}
 \end{aligned}
 $$
 

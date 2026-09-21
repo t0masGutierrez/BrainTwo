@@ -5,7 +5,7 @@
 ### hypothesis formula
 $$
 \begin{aligned}
-&H
+H
 \end{aligned}
 $$
 
@@ -18,10 +18,10 @@ $$
 ### null hypothesis formula
 $$
 \begin{aligned}
-&H_{0}:\begin{cases}\theta=0\\
-&\theta\ge0\\
-&\theta\le0
-&\end{cases}
+H_{0}:\begin{cases}\theta=0\\
+\theta\ge0\\
+\theta\le0
+\end{cases}
 \end{aligned}
 $$
 
@@ -34,10 +34,10 @@ $$
 ### alternative hypothesis formula
 $$
 \begin{aligned}
-&H_{1}:\begin{cases}\theta\ne0\\
-&\theta>0\\
-&\theta<0
-&\end{cases}
+H_{1}:\begin{cases}\theta\ne0\\
+\theta>0\\
+\theta<0
+\end{cases}
 \end{aligned}
 $$
 
@@ -72,7 +72,7 @@ $$
 ### type I error formula
 $$
 \begin{aligned}
-&\alpha=\text{reject }H_{0}\mid H_{0}\text{ true}
+\alpha=\text{reject }H_{0}\mid H_{0}\text{ true}
 \end{aligned}
 $$
 
@@ -85,7 +85,7 @@ $$
 ### type II error formula
 $$
 \begin{aligned}
-&\beta=\text{fail to reject }H_{0}\mid H_{0}\text{ false}
+\beta=\text{fail to reject }H_{0}\mid H_{0}\text{ false}
 \end{aligned}
 $$
 
@@ -97,7 +97,7 @@ $$
 ### power of hypothesis test formula
 $$
 \begin{aligned}
-&1-\beta=P(\text{reject }H_{0}\mid H_{0}\text{ false})
+1-\beta=P(\text{reject }H_{0}\mid H_{0}\text{ false})
 \end{aligned}
 $$
 
@@ -109,10 +109,10 @@ $$
 ### test statistic formula
 $$
 \begin{aligned}
-&\mathcal T=\frac{\theta-\theta_{0}}{SE(\theta)}\\
-&\theta=\text{sample statistic}\\
-&\theta_{0}=\text{null hypothesis}\\
-&SE=\text{standard error}
+\mathcal T=\frac{\theta-\theta_{0}}{SE(\theta)}\\
+\theta=\text{sample statistic}\\
+\theta_{0}=\text{null hypothesis}\\
+SE=\text{standard error}
 \end{aligned}
 $$
 
@@ -124,9 +124,9 @@ $$
 ### critical region formula
 $$
 \begin{aligned}
-&\set{\mathcal T\mid\text{reject }H_0}\\
-&\mathcal T=\text{test statistic}\\
-&H_0=\text{null hypothesis}
+\set{\mathcal T\mid\text{reject }H_0}\\
+\mathcal T=\text{test statistic}\\
+H_0=\text{null hypothesis}
 \end{aligned}
 $$
 
@@ -138,8 +138,8 @@ $$
 ### two-tail test formula
 $$
 \begin{aligned}
-&H_1:\theta\ne\theta_0\\
-&|\mathcal T|>c^*
+H_1:\theta\ne\theta_0\\
+|\mathcal T|>c^*
 \end{aligned}
 $$
 
@@ -151,8 +151,8 @@ $$
 ### left-tail test formula
 $$
 \begin{aligned}
-&H_1:\theta<\theta_0\\
-&\mathcal T<c^*
+H_1:\theta<\theta_0\\
+\mathcal T<c^*
 \end{aligned}
 $$
 
@@ -164,8 +164,8 @@ $$
 ### right-tail test formula
 $$
 \begin{aligned}
-&H_1:\theta>\theta_0\\
-&\mathcal T>c^*
+H_1:\theta>\theta_0\\
+\mathcal T>c^*
 \end{aligned}
 $$
 
@@ -188,15 +188,15 @@ $$
 ### p value formula
 $$
 \begin{aligned}
-&p=\begin{cases}
-&P(|\mathcal T|\ge\tau\mid H_0),\quad H_1:\theta\ne\theta_0\\
-&P(\mathcal T\le\tau\mid H_0),\quad H_1:\theta<\theta_0\\
-&P(\mathcal T\ge\tau\mid H_0),\quad H_1:\theta>\theta_0
-&\end{cases}\\
-&\mathcal T=\text{test statistic}\\
-&\tau=\text{observed test statistic}\\
-&\theta=\text{sample statistic}\\
-&\theta_0=\text{null hypothesis}
+p=\begin{cases}
+P(|\mathcal T|\ge\tau\mid H_0),\quad H_1:\theta\ne\theta_0\\
+P(\mathcal T\le\tau\mid H_0),\quad H_1:\theta<\theta_0\\
+P(\mathcal T\ge\tau\mid H_0),\quad H_1:\theta>\theta_0
+\end{cases}\\
+\mathcal T=\text{test statistic}\\
+\tau=\text{observed test statistic}\\
+\theta=\text{sample statistic}\\
+\theta_0=\text{null hypothesis}
 \end{aligned}
 $$
 
@@ -235,12 +235,12 @@ $$
 ### mean z-test formula
 $$
 \begin{aligned}
-&\text{avgZ-test}(\mu_{0},\sigma,\overline X,n,\mu_{1})\\
-&\mu_{0}=\text{null hypothesis}\\
-&\sigma=\text{standard deviation}\\
-&\overline X=\text{sample mean}\\
-&n=\text{sample size}\\
-&\mu_{1}=\text{alternative hypothesis}
+\text{avgZ-test}(\mu_{0},\sigma,\overline X,n,\mu_{1})\\
+\mu_{0}=\text{null hypothesis}\\
+\sigma=\text{standard deviation}\\
+\overline X=\text{sample mean}\\
+n=\text{sample size}\\
+\mu_{1}=\text{alternative hypothesis}
 \end{aligned}
 $$
 
@@ -257,12 +257,12 @@ $$
 ### mean t-test formula
 $$
 \begin{aligned}
-&\text{avgT-test}(\mu_{0},s,\overline X,n,\mu_{1})\\
-&\mu_{0}=\text{null hypothesis}\\
-&\overline X=\text{sample mean}\\
-&s=\text{sample standard deviation}\\
-&n=\text{sample size}\\
-&\mu_{1}=\text{alternative hypothesis}
+\text{avgT-test}(\mu_{0},s,\overline X,n,\mu_{1})\\
+\mu_{0}=\text{null hypothesis}\\
+\overline X=\text{sample mean}\\
+s=\text{sample standard deviation}\\
+n=\text{sample size}\\
+\mu_{1}=\text{alternative hypothesis}
 \end{aligned}
 $$
 
@@ -280,12 +280,12 @@ $$
 ### proportion z-test formula
 $$
 \begin{aligned}
-&\text{propZ-test}(p_{0},\sigma,\overline X,n,p_{1})\\
-&p_{0}=\text{null hypothesis}\\
-&\sigma=\text{standard deviation}\\
-&\overline X=\text{sample mean}\\
-&n=\text{sample size}\\
-&p_{1}=\text{alternative hypothesis}
+\text{propZ-test}(p_{0},\sigma,\overline X,n,p_{1})\\
+p_{0}=\text{null hypothesis}\\
+\sigma=\text{standard deviation}\\
+\overline X=\text{sample mean}\\
+n=\text{sample size}\\
+p_{1}=\text{alternative hypothesis}
 \end{aligned}
 $$
 

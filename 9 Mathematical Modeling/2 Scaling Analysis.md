@@ -30,7 +30,7 @@ $$
 ### scale example formula
 $$
 \begin{aligned}
-&\{a,b\}=\{0.001\text{s},0.005\text{m}\},\{0.02\text{s},0.02\text{m}\},\{0.15\text{s},0.10\text{m}\},\{10\text{s},200\text{m}\}
+\{a,b\}=\{0.001\text{s},0.005\text{m}\},\{0.02\text{s},0.02\text{m}\},\{0.15\text{s},0.10\text{m}\},\{10\text{s},200\text{m}\}
 \end{aligned}
 $$
 
@@ -67,7 +67,7 @@ $$
 ### scale transformation example formula
 $$
 \begin{aligned}
-&\{a,b\}=\{-1,1\}
+\{a,b\}=\{-1,1\}
 \end{aligned}
 $$
 
@@ -79,9 +79,9 @@ $$
 ### scale derivative property formula
 $$
 \begin{aligned}
-&(\bar t=\frac{t}{a})\land(\bar y=\frac{y}{b})\implies\frac{d^{k}\bar y}{d\bar t^{k}}=(\frac{a^{k}}{b})(\frac{d^{k}y}{dt^{k}})\\
-&\bar t,\bar y=\text{variable}\\
-&a,b=\text{scaling factor}
+(\bar t=\frac{t}{a})\land(\bar y=\frac{y}{b})\implies\frac{d^{k}\bar y}{d\bar t^{k}}=(\frac{a^{k}}{b})(\frac{d^{k}y}{dt^{k}})\\
+\bar t,\bar y=\text{variable}\\
+a,b=\text{scaling factor}
 \end{aligned}
 $$
 
@@ -93,8 +93,8 @@ $$
 ### characteristic scale formula
 $$
 \begin{aligned}
-&b=\max_{t\in I}|y|\\
-&a=\frac{b}{\max_{t\in I}|\frac{dy}{dt}|}
+b=\max_{t\in I}|y|\\
+a=\frac{b}{\max_{t\in I}|\frac{dy}{dt}|}
 \end{aligned}
 $$
 
@@ -106,15 +106,15 @@ $$
 ### associative scale formula
 $$
 \begin{aligned}
-&(a=\prod_{i=1}^{n}c_{i}^{\alpha_{i}})\land([a]=[t])\iff\Delta_{a}=A\alpha=\Delta_{t}\\
-&(b=\prod_{i=1}^{n}c_{i}^{\beta_{i}})\land([b]=[y])\iff\Delta_{b}=A\beta=\Delta_{y}\\
-&A=[\Delta_{c_{1}},\dots,\Delta_{c_{n}}]\in\mathcal M_{m\le n}\\
-&\vec\alpha=[\alpha_{1},\dots,\alpha_{n}]\\
-&\vec\beta=[\beta_{1},\dots,\beta_{n}]\\
-&t,y=\text{variable}\\
-&a,b=\text{scaling factor}\\
-&\alpha,\beta=\text{parameter exponent}\\
-&c=\text{parameter}
+(a=\prod_{i=1}^{n}c_{i}^{\alpha_{i}})\land([a]=[t])\iff\Delta_{a}=A\alpha=\Delta_{t}\\
+(b=\prod_{i=1}^{n}c_{i}^{\beta_{i}})\land([b]=[y])\iff\Delta_{b}=A\beta=\Delta_{y}\\
+A=[\Delta_{c_{1}},\dots,\Delta_{c_{n}}]\in\mathcal M_{m\le n}\\
+\vec\alpha=[\alpha_{1},\dots,\alpha_{n}]\\
+\vec\beta=[\beta_{1},\dots,\beta_{n}]\\
+t,y=\text{variable}\\
+a,b=\text{scaling factor}\\
+\alpha,\beta=\text{parameter exponent}\\
+c=\text{parameter}
 \end{aligned}
 $$
 

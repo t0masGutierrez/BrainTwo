@@ -7,10 +7,10 @@
 ### rigid body formula
 $$
 \begin{aligned}
-&\forall i,j:|\vec r_{i}-\vec r_{j}|=C\\
-&i,j=\text{index}\\
-&\vec r=\text{position}\\
-&C=\text{constant}
+\forall i,j:|\vec r_{i}-\vec r_{j}|=C\\
+i,j=\text{index}\\
+\vec r=\text{position}\\
+C=\text{constant}
 \end{aligned}
 $$
 
@@ -23,9 +23,9 @@ $$
 ### angular position formula
 $$
 \begin{aligned}
-&\theta=\frac{s}{r}\\
-&s=\text{arc length}\\
-&r=\text{distance}
+\theta=\frac{s}{r}\\
+s=\text{arc length}\\
+r=\text{distance}
 \end{aligned}
 $$
 
@@ -38,8 +38,8 @@ $$
 ### angular displacement formula
 $$
 \begin{aligned}
-&\Delta\theta=\theta-\theta_{0}\\
-&\theta=\text{angular position}
+\Delta\theta=\theta-\theta_{0}\\
+\theta=\text{angular position}
 \end{aligned}
 $$
 
@@ -52,9 +52,9 @@ $$
 ### average angular velocity formula
 $$
 \begin{aligned}
-&\omega_{\text{avg}}=\frac{\Delta\theta}{\Delta t}\\
-&\theta=\text{angular position}\\
-&t=\text{time}
+\omega_{\text{avg}}=\frac{\Delta\theta}{\Delta t}\\
+\theta=\text{angular position}\\
+t=\text{time}
 \end{aligned}
 $$
 
@@ -67,9 +67,9 @@ $$
 ### instantaneous angular velocity formula
 $$
 \begin{aligned}
-&\omega=\frac{d\theta}{dt}\\
-&\theta=\text{angular position}\\
-&t=\text{time}
+\omega=\frac{d\theta}{dt}\\
+\theta=\text{angular position}\\
+t=\text{time}
 \end{aligned}
 $$
 
@@ -82,9 +82,9 @@ $$
 ### average angular acceleration formula
 $$
 \begin{aligned}
-&\alpha_{\text{avg}}=\frac{\Delta\omega}{\Delta t}\\
-&\omega=\text{angular velocity}\\
-&t=\text{time}
+\alpha_{\text{avg}}=\frac{\Delta\omega}{\Delta t}\\
+\omega=\text{angular velocity}\\
+t=\text{time}
 \end{aligned}
 $$
 
@@ -97,10 +97,10 @@ $$
 ### instantaneous angular acceleration formula
 $$
 \begin{aligned}
-&\alpha=\frac{d\omega}{dt}=\frac{d^{2}\theta}{dt^{2}}\\
-&\omega=\text{angular velocity}\\
-&t=\text{time}\\
-&\theta=\text{angular position}
+\alpha=\frac{d\omega}{dt}=\frac{d^{2}\theta}{dt^{2}}\\
+\omega=\text{angular velocity}\\
+t=\text{time}\\
+\theta=\text{angular position}
 \end{aligned}
 $$
 
@@ -112,10 +112,10 @@ $$
 ### angular kinematics formula
 $$
 \begin{aligned}
-&\omega=\omega_{0}+\alpha t\\
-&\theta=\theta_{0}+\omega_{0}t+\frac{1}{2}\alpha t^{2}\\
-&\theta-\theta_{0}=\frac{1}{2}(\omega+\omega_{0})t\\
-&\omega^{2}=\omega_{0}^{2}+2\alpha(\theta-\theta_{0})
+\omega=\omega_{0}+\alpha t\\
+\theta=\theta_{0}+\omega_{0}t+\frac{1}{2}\alpha t^{2}\\
+\theta-\theta_{0}=\frac{1}{2}(\omega+\omega_{0})t\\
+\omega^{2}=\omega_{0}^{2}+2\alpha(\theta-\theta_{0})
 \end{aligned}
 $$
 
@@ -128,9 +128,9 @@ $$
 ### linear velocity formula
 $$
 \begin{aligned}
-&v=r\omega\\
-&r=\text{distance}\\
-&\omega=\text{angular velocity}
+v=r\omega\\
+r=\text{distance}\\
+\omega=\text{angular velocity}
 \end{aligned}
 $$
 
@@ -143,9 +143,9 @@ $$
 ### tangential acceleration formula
 $$
 \begin{aligned}
-&a_{\text{tan}}=r\alpha\\
-&r=\text{distance}\\
-&\alpha=\text{angular acceleration}
+a_{\text{tan}}=r\alpha\\
+r=\text{distance}\\
+\alpha=\text{angular acceleration}
 \end{aligned}
 $$
 
@@ -157,10 +157,10 @@ $$
 ### radial acceleration formula
 $$
 \begin{aligned}
-&a_{\text{rad}}=\frac{v^2}{r}=r\omega^2\\
-&v=\text{velocity}\\
-&r=\text{distance}\\
-&\omega=\text{angular velocity}
+a_{\text{rad}}=\frac{v^2}{r}=r\omega^2\\
+v=\text{velocity}\\
+r=\text{distance}\\
+\omega=\text{angular velocity}
 \end{aligned}
 $$
 
@@ -172,8 +172,8 @@ $$
 ### inertia formula
 $$
 \begin{aligned}
-&I\propto m\\
-&m=\text{mass}
+I\propto m\\
+m=\text{mass}
 \end{aligned}
 $$
 
@@ -186,12 +186,12 @@ $$
 ### moment of inertia formula
 $$
 \begin{aligned}
-&I=\sum_{n}m_{n}r_{n}^{2}\\
-&I=\int r^{2}\cdot dm=\int r^{2}\rho\cdot dV\\
-&m=\text{mass}\\
-&r=\text{distance}\\
-&\rho=\text{density}\\
-&V=\text{volume}
+I=\sum_{n}m_{n}r_{n}^{2}\\
+I=\int r^{2}\cdot dm=\int r^{2}\rho\cdot dV\\
+m=\text{mass}\\
+r=\text{distance}\\
+\rho=\text{density}\\
+V=\text{volume}
 \end{aligned}
 $$
 
@@ -212,15 +212,15 @@ $$
 ### axis of rotation formula
 $$
 \begin{aligned}
-&I=\frac{1}{12}ML^{2}\\
-&I=\frac{1}{3}ML^{2}\\
-&I=\frac{1}{12}M(a^{2}+b^{2})\\
-&I=\frac{1}{3}Ma^{2}\\
-&I=\frac{1}{2}M(R_{1}^{2}+R_{2}^{2})\\
-&I=\frac{1}{2}MR^{2}\\
-&I=MR^{2}\\
-&I=\frac{2}{5}MR^{2}\\
-&I=\frac{2}{3}MR^{2}
+I=\frac{1}{12}ML^{2}\\
+I=\frac{1}{3}ML^{2}\\
+I=\frac{1}{12}M(a^{2}+b^{2})\\
+I=\frac{1}{3}Ma^{2}\\
+I=\frac{1}{2}M(R_{1}^{2}+R_{2}^{2})\\
+I=\frac{1}{2}MR^{2}\\
+I=MR^{2}\\
+I=\frac{2}{5}MR^{2}\\
+I=\frac{2}{3}MR^{2}
 \end{aligned}
 $$
 
@@ -233,10 +233,10 @@ $$
 ### parallel axis formula
 $$
 \begin{aligned}
-&I_{p}=I_{\text{cm}}+M(r_p-r_{\text{cm}})^{2}\\
-&I=\text{moment of inertia}\\
-&M=\text{system mass}\\
-&r=\text{distance}
+I_{p}=I_{\text{cm}}+M(r_p-r_{\text{cm}})^{2}\\
+I=\text{moment of inertia}\\
+M=\text{system mass}\\
+r=\text{distance}
 \end{aligned}
 $$
 
@@ -249,9 +249,9 @@ $$
 ### translational kinetic energy formula
 $$
 \begin{aligned}
-&K=\frac{1}{2}mv^{2}\\
-&m=\text{mass}\\
-&v=\text{velocity}
+K=\frac{1}{2}mv^{2}\\
+m=\text{mass}\\
+v=\text{velocity}
 \end{aligned}
 $$
 
@@ -264,9 +264,9 @@ $$
 ### rotational kinetic energy formula
 $$
 \begin{aligned}
-&K=\frac{1}{2}I\omega^{2}\\
-&I=\text{moment of inertia}\\
-&\omega=\text{angular velocity}
+K=\frac{1}{2}I\omega^{2}\\
+I=\text{moment of inertia}\\
+\omega=\text{angular velocity}
 \end{aligned}
 $$
 

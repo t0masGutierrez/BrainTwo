@@ -6,9 +6,9 @@
 ### binary relation formula
 $$
 \begin{aligned}
-&R\subseteq A\times B\implies(a_{i},b_{j})\in R\\
-&i,j=1,2,...n\\
-&i,j=\text{index}
+R\subseteq A\times B\implies(a_{i},b_{j})\in R\\
+i,j=1,2,...n\\
+i,j=\text{index}
 
 \end{aligned}
 $$
@@ -21,7 +21,7 @@ $$
 ### self relation formula
 $$
 \begin{aligned}
-&R\subseteq A\times A
+R\subseteq A\times A
 \end{aligned}
 $$
 
@@ -33,7 +33,7 @@ $$
 ### reflexive relation formula
 $$
 \begin{aligned}
-&\forall a(a,a)\in R
+\forall a(a,a)\in R
 \end{aligned}
 $$
 
@@ -45,7 +45,7 @@ $$
 ### symmetric relation formula
 $$
 \begin{aligned}
-&(a,b)\in R\implies(b,a)\in R
+(a,b)\in R\implies(b,a)\in R
 \end{aligned}
 $$
 
@@ -57,7 +57,7 @@ $$
 ### antisymmetric relation formula
 $$
 \begin{aligned}
-&(a,b)\in R\land(b,a)\in R\implies a=b
+(a,b)\in R\land(b,a)\in R\implies a=b
 \end{aligned}
 $$
 
@@ -69,7 +69,7 @@ $$
 ### transitive relation formula
 $$
 \begin{aligned}
-&(a,b)\in R\land(b,c)\in R\implies(a,c)\in R
+(a,b)\in R\land(b,c)\in R\implies(a,c)\in R
 \end{aligned}
 $$
 
@@ -81,7 +81,7 @@ $$
 ### composite relation formula
 $$
 \begin{aligned}
-&(a,b)\in P\land(b,c)\in Q\implies(a,c)\in P\circ Q
+(a,b)\in P\land(b,c)\in Q\implies(a,c)\in P\circ Q
 \end{aligned}
 $$
 
@@ -93,7 +93,7 @@ $$
 ### composite self relation formula
 $$
 \begin{aligned}
-&R^{n}=R^{n-1}\circ R
+R^{n}=R^{n-1}\circ R
 \end{aligned}
 $$
 
@@ -105,10 +105,10 @@ $$
 ### binary matrix relation formula
 $$
 \begin{aligned}
-&(a_{i},b_{j})\in R\implies m_{\text{ij}}=1\\
-&(a_{i},b_{j})\notin R\implies m_{\text{ij}}=0\\
-&i=\text{row index}\\
-&j=\text{column index}
+(a_{i},b_{j})\in R\implies m_{\text{ij}}=1\\
+(a_{i},b_{j})\notin R\implies m_{\text{ij}}=0\\
+i=\text{row index}\\
+j=\text{column index}
 \end{aligned}
 $$
 
@@ -144,9 +144,9 @@ $$
 ### digraph formula
 $$
 \begin{aligned}
-&(a,b)\in R\\
-&a=\text{initial vertex}\\
-&b=\text{terminal vertex}
+(a,b)\in R\\
+a=\text{initial vertex}\\
+b=\text{terminal vertex}
 \end{aligned}
 $$
 
@@ -183,10 +183,10 @@ $$
 ### equivalence relation formula
 $$
 \begin{aligned}
-&aRa\\
-&aRb\implies bRa\\
-&aRb\land bRc\implies aRc\\
-&\therefore a\sim b
+aRa\\
+aRb\implies bRa\\
+aRb\land bRc\implies aRc\\
+\therefore a\sim b
 \end{aligned}
 $$
 
@@ -210,7 +210,7 @@ $$
 ### representative formula
 $$
 \begin{aligned}
-&x\in[a]
+x\in[a]
 \end{aligned}
 $$
 
@@ -235,11 +235,11 @@ $$
 ### partition formula
 $$
 \begin{aligned}
-&A_{i}=\{A_{1},A_{2},...A_{k}\}\\
-&\forall i(A_{i}\ne\emptyset)\\
-&\forall i\forall j(i\ne j)(A_{i}\cap A_{j}=\emptyset)\\
-&\bigcup_{i=1}^{k}A_{i}=A\\
-&\therefore A_{i}=\{x\in A|x\sim a_{i}\}
+A_{i}=\{A_{1},A_{2},...A_{k}\}\\
+\forall i(A_{i}\ne\emptyset)\\
+\forall i\forall j(i\ne j)(A_{i}\cap A_{j}=\emptyset)\\
+\bigcup_{i=1}^{k}A_{i}=A\\
+\therefore A_{i}=\{x\in A|x\sim a_{i}\}
 \end{aligned}
 $$
 

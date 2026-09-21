@@ -5,11 +5,11 @@
 ### dynamical system formula
 $$
 \begin{aligned}
-&\frac{du}{dt}=f(u,c_{1},\dots,c_{n}),u(t=0)=u_{0},t\ge0\\
-&u=\text{solution}\\
-&t=\text{time}\\
-&u_{0}=\text{initial condition}\\
-&c=\text{parameter}
+\frac{du}{dt}=f(u,c_{1},\dots,c_{n}),u(t=0)=u_{0},t\ge0\\
+u=\text{solution}\\
+t=\text{time}\\
+u_{0}=\text{initial condition}\\
+c=\text{parameter}
 \end{aligned}
 $$
 
@@ -22,8 +22,8 @@ $$
 ### time view formula
 $$
 \begin{aligned}
-&\frac{du}{dt}=f(u)\\
-&f=\text{slope}
+\frac{du}{dt}=f(u)\\
+f=\text{slope}
 \end{aligned}
 $$
 
@@ -36,8 +36,8 @@ $$
 ### phase view formula
 $$
 \begin{aligned}
-&\frac{du}{dt}=f(u)\\
-&f=\text{velocity}
+\frac{du}{dt}=f(u)\\
+f=\text{velocity}
 \end{aligned}
 $$
 
@@ -49,9 +49,9 @@ $$
 ### solvability property formula
 $$
 \begin{aligned}
-&\forall u_{0}\in\mathbb R,\exists t\in(T_{0},T_{1}):u(t)\in D=\{u\in\mathbb R|\exists\frac{du}{dt}\}\\
-&(t\le T_{0})\lor(t\ge T_{1})\implies u(t)\not\in D=\{u\in\mathbb R|\exists\frac{du}{dt}\}\\
-&u_{0}\ne\hat u_{0}\implies\forall t\in(T_{0},T_{1}):u(t)\ne\hat u(t)
+\forall u_{0}\in\mathbb R,\exists t\in(T_{0},T_{1}):u(t)\in D=\{u\in\mathbb R|\exists\frac{du}{dt}\}\\
+(t\le T_{0})\lor(t\ge T_{1})\implies u(t)\not\in D=\{u\in\mathbb R|\exists\frac{du}{dt}\}\\
+u_{0}\ne\hat u_{0}\implies\forall t\in(T_{0},T_{1}):u(t)\ne\hat u(t)
 \end{aligned}
 $$
 
@@ -63,10 +63,10 @@ $$
 ### equilibrium solution formula
 $$
 \begin{aligned}
-&\forall t\ge0:u(t)=u_{*}\iff f(u_{*})=0\\
-&u=\text{solution}\\
-&t=\text{time}\\
-&u_{*}=\text{equilibrium point}
+\forall t\ge0:u(t)=u_{*}\iff f(u_{*})=0\\
+u=\text{solution}\\
+t=\text{time}\\
+u_{*}=\text{equilibrium point}
 \end{aligned}
 $$
 
@@ -78,9 +78,9 @@ $$
 ### monotonicity property formula
 $$
 \begin{aligned}
-&f(u_{0})>0\implies\forall t:f(u)>0\\
-&f(u_{0})=0\implies\forall t:f(u)=0\\
-&f(u_{0})<0\implies\forall t:f(u)<0\\
+f(u_{0})>0\implies\forall t:f(u)>0\\
+f(u_{0})=0\implies\forall t:f(u)=0\\
+f(u_{0})<0\implies\forall t:f(u)<0\\
 \end{aligned}
 $$
 
@@ -92,9 +92,9 @@ $$
 ### equilibrium stability formula
 $$
 \begin{aligned}
-&N_{\rho}(u_{*})=(u_{*}-\rho,u_{*}+\rho)\\
-&u_{*}=\text{equilibrium point}\\
-&\rho=\text{radius}
+N_{\rho}(u_{*})=(u_{*}-\rho,u_{*}+\rho)\\
+u_{*}=\text{equilibrium point}\\
+\rho=\text{radius}
 \end{aligned}
 $$
 
@@ -108,13 +108,13 @@ $$
 ### asymptotic equilibrium stability formula
 $$
 \begin{aligned}
-&\forall\epsilon>0,\exists\delta>0,\forall t\ge0:u_{0}\in N_{\delta}(u_{*})\implies u(t)\in N_{\epsilon}(u_{*})
-&\land\forall u_{0}\in\mathbb R:\lim_{t\rightarrow\infty}u(t)=u_{*}\\
-&u_{0}=\text{initial condition}\\
-&N=\text{neighborhood}\\
-&u_{*}=\text{equilibrium point}\\
-&u=\text{solution}\\
-&t=\text{time}
+\forall\epsilon>0,\exists\delta>0,\forall t\ge0:u_{0}\in N_{\delta}(u_{*})\implies u(t)\in N_{\epsilon}(u_{*})
+\land\forall u_{0}\in\mathbb R:\lim_{t\rightarrow\infty}u(t)=u_{*}\\
+u_{0}=\text{initial condition}\\
+N=\text{neighborhood}\\
+u_{*}=\text{equilibrium point}\\
+u=\text{solution}\\
+t=\text{time}
 \end{aligned}
 $$
 
@@ -128,13 +128,13 @@ $$
 ### neutral equilibrium stability formula
 $$
 \begin{aligned}
-&\forall\epsilon>0,\exists\delta>0,\forall t\ge0:u_{0}\in N_{\delta}(u_{*})\implies u(t)\in N_{\epsilon}(u_{*})
-&\land\exists u_{0}\in\mathbb R:\lim_{t\rightarrow\infty}u(t)\ne u_{*}\\
-&u_{0}=\text{initial condition}\\
-&N=\text{neighborhood}\\
-&u_{*}=\text{equilibrium point}\\
-&u=\text{solution}\\
-&t=\text{time}
+\forall\epsilon>0,\exists\delta>0,\forall t\ge0:u_{0}\in N_{\delta}(u_{*})\implies u(t)\in N_{\epsilon}(u_{*})
+\land\exists u_{0}\in\mathbb R:\lim_{t\rightarrow\infty}u(t)\ne u_{*}\\
+u_{0}=\text{initial condition}\\
+N=\text{neighborhood}\\
+u_{*}=\text{equilibrium point}\\
+u=\text{solution}\\
+t=\text{time}
 \end{aligned}
 $$
 
@@ -147,13 +147,13 @@ $$
 ### equilibrium instability formula
 $$
 \begin{aligned}
-&\exists\epsilon>0,\forall\delta>0,\exists t\ge0:u_{0}\in N_{\delta}(u_{*})\land u(t)\not\in N_{\epsilon}(u_{*})
-&\land\forall u_{0}\in\mathbb R:\lim_{t\rightarrow\infty}u(t)\ne u_{*}\\
-&u_{0}=\text{initial condition}\\
-&N=\text{neighborhood}\\
-&u_{*}=\text{equilibrium point}\\
-&u=\text{solution}\\
-&t=\text{time}
+\exists\epsilon>0,\forall\delta>0,\exists t\ge0:u_{0}\in N_{\delta}(u_{*})\land u(t)\not\in N_{\epsilon}(u_{*})
+\land\forall u_{0}\in\mathbb R:\lim_{t\rightarrow\infty}u(t)\ne u_{*}\\
+u_{0}=\text{initial condition}\\
+N=\text{neighborhood}\\
+u_{*}=\text{equilibrium point}\\
+u=\text{solution}\\
+t=\text{time}
 \end{aligned}
 $$
 
@@ -165,8 +165,8 @@ $$
 ### stability derivative test formula
 $$
 \begin{aligned}
-&f'(u_{*})<0\implies\lim_{t\rightarrow\infty}u(t)=u_{*}\\
-&f'(u_{*})>0\implies\lim_{t\rightarrow\infty}u(t)\ne u_{*}\\
+f'(u_{*})<0\implies\lim_{t\rightarrow\infty}u(t)=u_{*}\\
+f'(u_{*})>0\implies\lim_{t\rightarrow\infty}u(t)\ne u_{*}\\
 \end{aligned}
 $$
 
@@ -178,7 +178,7 @@ $$
 ### bifurcation formula
 $$
 \begin{aligned}
-&\Delta h\implies\Delta(h\times u_{*})
+\Delta h\implies\Delta(h\times u_{*})
 \end{aligned}
 $$
 
@@ -191,10 +191,10 @@ $$
 ### bifurcation example formula
 $$
 \begin{aligned}
-&h\le0\implies f'(0)>0\\
-&h>0\implies f'(0)<0\\
-&h>0\implies f'(\sqrt h)>0\\
-&h>0\implies f'(-\sqrt h)>0\\
+h\le0\implies f'(0)>0\\
+h>0\implies f'(0)<0\\
+h>0\implies f'(\sqrt h)>0\\
+h>0\implies f'(-\sqrt h)>0\\
 \end{aligned}
 $$
 
@@ -210,9 +210,9 @@ $$
 ### bifurcation diagram formula
 $$
 \begin{aligned}
-&h\times u_{*}=\{(h,u_{*})|f(h,u_{*})=0\}\\
-&h=\text{parameter}\\
-&u_{*}=\text{equilibrium point}
+h\times u_{*}=\{(h,u_{*})|f(h,u_{*})=0\}\\
+h=\text{parameter}\\
+u_{*}=\text{equilibrium point}
 \end{aligned}
 $$
 
@@ -224,7 +224,7 @@ $$
 ### saddle-node bifurcation formula
 $$
 \begin{aligned}
-&\frac{du}{dt}=h-u^{2}
+\frac{du}{dt}=h-u^{2}
 \end{aligned}
 $$
 
@@ -236,7 +236,7 @@ $$
 ### transcritical bifurcation formula
 $$
 \begin{aligned}
-&\frac{du}{dt}=hu-u^{2}
+\frac{du}{dt}=hu-u^{2}
 \end{aligned}
 $$
 
@@ -248,7 +248,7 @@ $$
 ### pitchfork bifurcation formula
 $$
 \begin{aligned}
-&\frac{du}{dt}=hu-u^{3}
+\frac{du}{dt}=hu-u^{3}
 \end{aligned}
 $$
 

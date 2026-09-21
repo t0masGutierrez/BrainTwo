@@ -5,12 +5,12 @@
 ### random variable formula
 $$
 \begin{aligned}
-&X:\Omega\rightarrow\mathbb R\\
-&X(\omega)=x\\
-&X=\text{random variable}\\
-&\Omega=\text{sample space}\\
-&x=\text{real number}\\
-&\omega=\text{outcome}
+X:\Omega\rightarrow\mathbb R\\
+X(\omega)=x\\
+X=\text{random variable}\\
+\Omega=\text{sample space}\\
+x=\text{real number}\\
+\omega=\text{outcome}
 \end{aligned}
 $$
 
@@ -22,8 +22,8 @@ $$
 ### discrete random variable formula
 $$
 \begin{aligned}
-&(\{0,1,2,3,\dots,n\}\sim X)\lor(\mathbb N\sim X)\\
-&X=\text{random variable}
+(\{0,1,2,3,\dots,n\}\sim X)\lor(\mathbb N\sim X)\\
+X=\text{random variable}
 \end{aligned}
 $$
 
@@ -35,10 +35,10 @@ $$
 ### probability mass function formula
 $$
 \begin{aligned}
-&P(X)=\sum_{i}P(X=x_{i})=1\\
-&P(X=x)=P(X\le x)-P(X\le x-1)\\
-&P(a\le X\le b)=\sum_{i=a}^{b}P(X=x_{i})\\
-&P(X\le x)=\sum_{x_{i}\le x}P(X=x_{i})
+P(X)=\sum_{i}P(X=x_{i})=1\\
+P(X=x)=P(X\le x)-P(X\le x-1)\\
+P(a\le X\le b)=\sum_{i=a}^{b}P(X=x_{i})\\
+P(X\le x)=\sum_{x_{i}\le x}P(X=x_{i})
 \end{aligned}
 $$
 
@@ -67,9 +67,9 @@ $$
 ### uniform PMF expectation
 $$
 \begin{aligned}
-&E[X]=\frac{a+b}{2}\\
-&a=\text{lower endpoint}\\
-&b=\text{upper endpoint}
+E[X]=\frac{a+b}{2}\\
+a=\text{lower endpoint}\\
+b=\text{upper endpoint}
 \end{aligned}
 $$
 
@@ -108,9 +108,9 @@ $$
 ### bernoulli PMF expectation formula
 $$
 \begin{aligned}
-&E[X]=p\\
-&X=\text{random variable}\\
-&p=\text{probability of success}
+E[X]=p\\
+X=\text{random variable}\\
+p=\text{probability of success}
 \end{aligned}
 $$
 
@@ -118,10 +118,10 @@ $$
 ### bernoulli PMF variance formula
 $$
 \begin{aligned}
-&\text{Var}(X)=pq\\
-&X=\text{random variable}\\
-&p=\text{probability of success}\\
-&q=\text{probability of failure}
+\text{Var}(X)=pq\\
+X=\text{random variable}\\
+p=\text{probability of success}\\
+q=\text{probability of failure}
 \end{aligned}
 $$
 
@@ -153,10 +153,10 @@ $$
 ### binomial PMF expectation formula
 $$
 \begin{aligned}
-&E[X]=np\\
-&X=\text{random variable}\\
-&n=\text{number of trials}\\
-&p=\text{probability of success}
+E[X]=np\\
+X=\text{random variable}\\
+n=\text{number of trials}\\
+p=\text{probability of success}
 \end{aligned}
 $$
 
@@ -164,11 +164,11 @@ $$
 ### binomial PMF variance formula
 $$
 \begin{aligned}
-&\text{Var}(X)=npq\\
-&X=\text{random variable}\\
-&n=\text{number of trials}\\
-&p=\text{probability of success}\\
-&q=\text{probability of failure}
+\text{Var}(X)=npq\\
+X=\text{random variable}\\
+n=\text{number of trials}\\
+p=\text{probability of success}\\
+q=\text{probability of failure}
 \end{aligned}
 $$
 
@@ -210,10 +210,10 @@ $$
 ### geometric PMF variance formula
 $$
 \begin{aligned}
-&\text{Var}(X)=\frac{q}{p^{2}}\\
-&X=\text{random variable}\\
-&q=\text{probability of failure}\\
-&p=\text{probability of success}
+\text{Var}(X)=\frac{q}{p^{2}}\\
+X=\text{random variable}\\
+q=\text{probability of failure}\\
+p=\text{probability of success}
 \end{aligned}
 $$
 
@@ -256,10 +256,10 @@ $$
 ### negative binomial PMF variance formula
 $$
 \begin{aligned}
-&\text{Var}(X)=\frac{rq}{p^{2}}\\
-&r=\text{success number}\\
-&q=\text{probability of failure}\\
-&p=\text{probability of success}
+\text{Var}(X)=\frac{rq}{p^{2}}\\
+r=\text{success number}\\
+q=\text{probability of failure}\\
+p=\text{probability of success}
 \end{aligned}
 $$
 
@@ -290,11 +290,11 @@ $$
 ### hypergeometric PMF expectation formula
 $$
 \begin{aligned}
-&E[X]=\frac{nK}{N}\\
-&X=\text{random variable}\\
-&n=\text{number of items drawn}\\
-&K=\text{interest size}\\
-&N=\text{population size}
+E[X]=\frac{nK}{N}\\
+X=\text{random variable}\\
+n=\text{number of items drawn}\\
+K=\text{interest size}\\
+N=\text{population size}
 \end{aligned}
 $$
 
@@ -302,11 +302,11 @@ $$
 ### hypergeometric PMF variance formula
 $$
 \begin{aligned}
-&\text{Var}(X)=(\frac{nK}{N})(1-\frac{K}{N})(\frac{N-n}{N-1})\\
-&X=\text{random variable}\\
-&n=\text{number of items drawn}\\
-&K=\text{interest size}\\
-&N=\text{population size}
+\text{Var}(X)=(\frac{nK}{N})(1-\frac{K}{N})(\frac{N-n}{N-1})\\
+X=\text{random variable}\\
+n=\text{number of items drawn}\\
+K=\text{interest size}\\
+N=\text{population size}
 \end{aligned}
 $$
 
@@ -339,9 +339,9 @@ $$
 ### poisson PMF expectation formula
 $$
 \begin{aligned}
-&E[X]=\lambda\\
-&X=\text{random variable}\\
-&\lambda=\text{average number of events per interval}
+E[X]=\lambda\\
+X=\text{random variable}\\
+\lambda=\text{average number of events per interval}
 \end{aligned}
 $$
 
@@ -349,9 +349,9 @@ $$
 ### poisson PMF variance formula
 $$
 \begin{aligned}
-&\text{Var}(X)=\lambda\\
-&X=\text{random variable}\\
-&\lambda=\text{average number of events per interval}
+\text{Var}(X)=\lambda\\
+X=\text{random variable}\\
+\lambda=\text{average number of events per interval}
 \end{aligned}
 $$
 

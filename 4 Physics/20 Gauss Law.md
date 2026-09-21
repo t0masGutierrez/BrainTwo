@@ -6,10 +6,10 @@
 ### electric flux formula
 $$
 \begin{aligned}
-&\Phi=\vec E\cdot\vec A=EA\cos(\theta)\\
-&E=\text{electric field}\\
-&A=\text{area}\\
-&\theta=\text{angular position}
+\Phi=\vec E\cdot\vec A=EA\cos(\theta)\\
+E=\text{electric field}\\
+A=\text{area}\\
+\theta=\text{angular position}
 \end{aligned}
 $$
 
@@ -22,9 +22,9 @@ $$
 ### open surface electric flux formula
 $$
 \begin{aligned}
-&\Phi=\int_{A_{1}}^{A_{2}}\vec E\cdot d\vec A\\
-&E=\text{electric field}\\
-&A=\text{area}
+\Phi=\int_{A_{1}}^{A_{2}}\vec E\cdot d\vec A\\
+E=\text{electric field}\\
+A=\text{area}
 \end{aligned}
 $$
 
@@ -38,9 +38,9 @@ $$
 ### closed surface electric flux formula
 $$
 \begin{aligned}
-&\Phi=\oint_{A_{1}}^{A_{2}}\vec E\cdot d\vec A\\
-&E=\text{electric field}\\
-&A=\text{area}
+\Phi=\oint_{A_{1}}^{A_{2}}\vec E\cdot d\vec A\\
+E=\text{electric field}\\
+A=\text{area}
 \end{aligned}
 $$
 
@@ -59,11 +59,11 @@ $$
 ### gauss formula
 $$
 \begin{aligned}
-&\pm\Phi=\oint_{A_{1}}^{A_{2}}\vec E\cdot d\vec A=\frac{\pm Q_{\text{enc}}}{\epsilon_{0}}\\
-&E=\text{electric field}\\
-&A=\text{area}\\
-&Q=\text{electric charge}\\
-&\epsilon_{0}=8.85\times10^{-12}\\
+\pm\Phi=\oint_{A_{1}}^{A_{2}}\vec E\cdot d\vec A=\frac{\pm Q_{\text{enc}}}{\epsilon_{0}}\\
+E=\text{electric field}\\
+A=\text{area}\\
+Q=\text{electric charge}\\
+\epsilon_{0}=8.85\times10^{-12}\\
 \end{aligned}
 $$
 
@@ -91,10 +91,10 @@ $$
 ### symmetrical electric charge distribution formula
 $$
 \begin{aligned}
-&E=\frac{Q_{\text{enc}}}{\epsilon_{0}A}\\
-&Q=\text{electric charge}\\
-&\epsilon_{0}=8.85\times10^{-12}\\
-&A=\text{area}
+E=\frac{Q_{\text{enc}}}{\epsilon_{0}A}\\
+Q=\text{electric charge}\\
+\epsilon_{0}=8.85\times10^{-12}\\
+A=\text{area}
 \end{aligned}
 $$
 
@@ -107,10 +107,10 @@ $$
 ### spherical electric charge distribution formula
 $$
 \begin{aligned}
-&E=\frac{Q_{\text{enc}}}{4\pi\epsilon_{0}r^{2}}\\
-&Q=\text{electric charge}\\
-&\epsilon_{0}=8.85\times10^{-12}\\
-&r=\text{distance}
+E=\frac{Q_{\text{enc}}}{4\pi\epsilon_{0}r^{2}}\\
+Q=\text{electric charge}\\
+\epsilon_{0}=8.85\times10^{-12}\\
+r=\text{distance}
 \end{aligned}
 $$
 
@@ -123,10 +123,10 @@ $$
 ### cylindrical electric charge distribution formula
 $$
 \begin{aligned}
-&E=\frac{\lambda_{\text{enc}}}{2\pi\epsilon_{0}r}\\
-&\lambda=\text{linear density}\\
-&\epsilon_{0}=8.85\times10^{-12}\\
-&r=\text{distance}
+E=\frac{\lambda_{\text{enc}}}{2\pi\epsilon_{0}r}\\
+\lambda=\text{linear density}\\
+\epsilon_{0}=8.85\times10^{-12}\\
+r=\text{distance}
 \end{aligned}
 $$
 
@@ -139,9 +139,9 @@ $$
 ### planar electric charge distribution formula
 $$
 \begin{aligned}
-&E=\frac{\sigma_{\text{enc}}}{2\epsilon_{0}}\\
-&\sigma=\text{surface density}\\
-&\epsilon_{0}=8.85\times10^{-12}\\
+E=\frac{\sigma_{\text{enc}}}{2\epsilon_{0}}\\
+\sigma=\text{surface density}\\
+\epsilon_{0}=8.85\times10^{-12}\\
 \end{aligned}
 $$
 
@@ -154,9 +154,9 @@ $$
 ### parallel planar electric charge distribution formula
 $$
 \begin{aligned}
-&E=\frac{\sigma_{\text{enc}}}{\epsilon_{0}}\\
-&\sigma=\text{surface density}\\
-&\epsilon_{0}=8.85\times10^{-12}\\
+E=\frac{\sigma_{\text{enc}}}{\epsilon_{0}}\\
+\sigma=\text{surface density}\\
+\epsilon_{0}=8.85\times10^{-12}\\
 \end{aligned}
 $$
 
@@ -169,13 +169,13 @@ $$
 ### electric charge density formula
 $$
 \begin{aligned}
-&dQ=\lambda\ dL\\
-&dQ=\sigma\ dA\\
-&dQ=\rho\ dV\\
-&Q=\text{electric charge}\\
-&L=\text{length}\\
-&A=\text{area}\\
-&V=\text{volume}
+dQ=\lambda\ dL\\
+dQ=\sigma\ dA\\
+dQ=\rho\ dV\\
+Q=\text{electric charge}\\
+L=\text{length}\\
+A=\text{area}\\
+V=\text{volume}
 \end{aligned}
 $$
 

@@ -6,10 +6,10 @@
 ### plane curve formula
 $$
 \begin{aligned}
-&\vec{r}(t)=x(t)\hat{i}+y(t)\hat{j}=[x(t),y(t)]\\
-&x,y=\text{position}\\
-&t=\text{parameter}\\
-&\hat i,\hat j=\text{unit vector}
+\vec{r}(t)=x(t)\hat{i}+y(t)\hat{j}=[x(t),y(t)]\\
+x,y=\text{position}\\
+t=\text{parameter}\\
+\hat i,\hat j=\text{unit vector}
 \end{aligned}
 $$
 
@@ -22,10 +22,10 @@ $$
 ### space curve formula
 $$
 \begin{aligned}
-&\vec{r}(t)=x(t)\hat{i}+y(t)\hat{j}+z(t)\hat{k}=[x(t),y(t),z(t)]\\
-&x,y,z=\text{position}\\
-&t=\text{parameter}\\
-&\hat i,\hat j,\hat k=\text{unit vector}
+\vec{r}(t)=x(t)\hat{i}+y(t)\hat{j}+z(t)\hat{k}=[x(t),y(t),z(t)]\\
+x,y,z=\text{position}\\
+t=\text{parameter}\\
+\hat i,\hat j,\hat k=\text{unit vector}
 \end{aligned}
 $$
 
@@ -37,8 +37,8 @@ $$
 ### vector-valued function formula
 $$
 \begin{aligned}
-&\vec r:\mathbb R\rightarrow\mathbb R^n\\
-&\vec r=\text{vector-valued function}
+\vec r:\mathbb R\rightarrow\mathbb R^n\\
+\vec r=\text{vector-valued function}
 \end{aligned}
 $$
 
@@ -50,10 +50,10 @@ $$
 ### limit formula
 $$
 \begin{aligned}
-&\lim_{t\to a}\vec r(t)=\lim_{t\to a}x(t)\hat i+\lim_{t\to a}y(t)\hat j+\lim_{t\to a}z(t)\hat k\\
-&t=\text{parameter}\\
-&x,y,z=\text{position}\\
-&\hat i,\hat j,\hat k=\text{unit vector}
+\lim_{t\to a}\vec r(t)=\lim_{t\to a}x(t)\hat i+\lim_{t\to a}y(t)\hat j+\lim_{t\to a}z(t)\hat k\\
+t=\text{parameter}\\
+x,y,z=\text{position}\\
+\hat i,\hat j,\hat k=\text{unit vector}
 \end{aligned}
 $$
 
@@ -65,14 +65,14 @@ $$
 ### continuous formula
 $$
 \begin{aligned}
-&\lim_{t\to a}\vec r(t)=\vec r(a)\iff\begin{cases}
-&\lim_{t\to a}x(t)=x(a)\\
-&\lim_{t\to a}y(t)=y(a)\\
-&\lim_{t\to a}z(t)=z(a)
-&\end{cases}\\
-&t=\text{parameter}\\
-&\vec r=\text{vector-valued function}\\
-&x,y,z=\text{position}
+\lim_{t\to a}\vec r(t)=\vec r(a)\iff\begin{cases}
+\lim_{t\to a}x(t)=x(a)\\
+\lim_{t\to a}y(t)=y(a)\\
+\lim_{t\to a}z(t)=z(a)
+\end{cases}\\
+t=\text{parameter}\\
+\vec r=\text{vector-valued function}\\
+x,y,z=\text{position}
 \end{aligned}
 $$
 
@@ -85,10 +85,10 @@ $$
 ### derivative formula
 $$
 \begin{aligned}
-&\frac{d}{dt}\vec r(t)=\lim_{\Delta t\to0}\frac{\vec r(t+\Delta t)-\vec r(t)}{\Delta t}=[x'(t),y'(t),z'(t)]\\
-&t=\text{parameter}\\
-&\vec r=\text{vector-valued function}\\
-&x,y,z=\text{position}
+\frac{d}{dt}\vec r(t)=\lim_{\Delta t\to0}\frac{\vec r(t+\Delta t)-\vec r(t)}{\Delta t}=[x'(t),y'(t),z'(t)]\\
+t=\text{parameter}\\
+\vec r=\text{vector-valued function}\\
+x,y,z=\text{position}
 \end{aligned}
 $$
 
@@ -100,9 +100,9 @@ $$
 ### differentiable formula
 $$
 \begin{aligned}
-&\exists\frac{d}{dt}\vec r(t)\in\mathbb R\implies\forall x\in[a,b]:\lim_{t\to x}\vec r(t)=\vec r(x)\\
-&t=\text{parameter}\\
-&\vec r=\text{vector-valued function}
+\exists\frac{d}{dt}\vec r(t)\in\mathbb R\implies\forall x\in[a,b]:\lim_{t\to x}\vec r(t)=\vec r(x)\\
+t=\text{parameter}\\
+\vec r=\text{vector-valued function}
 \end{aligned}
 $$
 
@@ -114,11 +114,11 @@ $$
 ### integral formula
 $$
 \begin{aligned}
-&\int_{a}^{b}\vec r(t)dt=\hat i\int_{a}^{b}x(t)dt+\hat j\int_{a}^{b}y(t)dt+\hat k\int_{a}^{b}z(t)dt\\
-&\vec r=\text{vector-valued function}\\
-&t=\text{parameter}\\
-&\hat i,\hat j,\hat k=\text{unit vector}\\
-&x,y,z=\text{position}
+\int_{a}^{b}\vec r(t)dt=\hat i\int_{a}^{b}x(t)dt+\hat j\int_{a}^{b}y(t)dt+\hat k\int_{a}^{b}z(t)dt\\
+\vec r=\text{vector-valued function}\\
+t=\text{parameter}\\
+\hat i,\hat j,\hat k=\text{unit vector}\\
+x,y,z=\text{position}
 \end{aligned}
 $$
 
@@ -130,9 +130,9 @@ $$
 ### integrable formula
 $$
 \begin{aligned}
-&\forall x\in[a,b]:\lim_{t\to x}\vec r(t)=\vec r(x)\implies\exists\int_{a}^{b}\vec r(t)dt\in\mathbb R\\
-&t=\text{parameter}\\
-&\vec r=\text{vector-valued function}
+\forall x\in[a,b]:\lim_{t\to x}\vec r(t)=\vec r(x)\implies\exists\int_{a}^{b}\vec r(t)dt\in\mathbb R\\
+t=\text{parameter}\\
+\vec r=\text{vector-valued function}
 \end{aligned}
 $$
 
@@ -144,9 +144,9 @@ $$
 ### unit tangent vector
 $$
 \begin{aligned}
-&\vec T=\frac{\vec r\ '(t)}{\|\vec r'(t)\|}\\
-&\vec r=\text{vector-valued function}\\
-&t=\text{parameter}
+\vec T=\frac{\vec r\ '(t)}{\|\vec r'(t)\|}\\
+\vec r=\text{vector-valued function}\\
+t=\text{parameter}
 \end{aligned}
 $$
 
@@ -158,9 +158,9 @@ $$
 ### unit normal vector
 $$
 \begin{aligned}
-&\vec N=\frac{\vec T\ '(t)}{\|\vec T'(t)\|}\\
-&\vec T=\text{unit tangent vector}\\
-&t=\text{parameter}
+\vec N=\frac{\vec T\ '(t)}{\|\vec T'(t)\|}\\
+\vec T=\text{unit tangent vector}\\
+t=\text{parameter}
 \end{aligned}
 $$
 
@@ -172,10 +172,10 @@ $$
 ### tangential acceleration formula
 $$
 \begin{aligned}
-&a_{T}=\vec r''(t)\cdot\vec T=\frac{\vec r\ '(t)\cdot\vec r\ ''(t)}{\|\vec r'(t)\|}\\
-&\vec r=\text{vector-valued function}\\
-&t=\text{parameter}\\
-&\vec T=\text{unit tangent vector}
+a_{T}=\vec r''(t)\cdot\vec T=\frac{\vec r\ '(t)\cdot\vec r\ ''(t)}{\|\vec r'(t)\|}\\
+\vec r=\text{vector-valued function}\\
+t=\text{parameter}\\
+\vec T=\text{unit tangent vector}
 \end{aligned}
 $$
 
@@ -187,10 +187,10 @@ $$
 ### normal acceleration formula
 $$
 \begin{aligned}
-&a_{N}=\vec r''(t)\cdot\vec N=\frac{\|\vec r'(t)\times\vec r''(t)\|}{\|\vec r'(t)\|}\\
-&\vec r=\text{vector-valued function}\\
-&t=\text{parameter}\\
-&\vec N=\text{unit normal vector}
+a_{N}=\vec r''(t)\cdot\vec N=\frac{\|\vec r'(t)\times\vec r''(t)\|}{\|\vec r'(t)\|}\\
+\vec r=\text{vector-valued function}\\
+t=\text{parameter}\\
+\vec N=\text{unit normal vector}
 \end{aligned}
 $$
 
@@ -202,11 +202,11 @@ $$
 ### arc length formula
 $$
 \begin{aligned}
-&s=\int_{a}^{b}\sqrt{(\frac{dx}{dt})^{2}+(\frac{dy}{dt})^{2}+(\frac{dz}{dt})^{2}}dt=\int_{a}^{b}\|\vec r\ '(t)\|dt\\
-&s(t)=\int_{a}^{t}\sqrt{(\frac{dx}{du})^{2}+(\frac{dy}{du})^{2}+(\frac{dz}{du})^{2}}du=\int_{a}^{t}\|\vec r\ '(u)\|du\\
-&x,y,z=\text{position}\\
-&t=\text{parameter}\\
-&\vec r=\text{vector-valued function}
+s=\int_{a}^{b}\sqrt{(\frac{dx}{dt})^{2}+(\frac{dy}{dt})^{2}+(\frac{dz}{dt})^{2}}dt=\int_{a}^{b}\|\vec r\ '(t)\|dt\\
+s(t)=\int_{a}^{t}\sqrt{(\frac{dx}{du})^{2}+(\frac{dy}{du})^{2}+(\frac{dz}{du})^{2}}du=\int_{a}^{t}\|\vec r\ '(u)\|du\\
+x,y,z=\text{position}\\
+t=\text{parameter}\\
+\vec r=\text{vector-valued function}
 \end{aligned}
 $$
 
@@ -219,10 +219,10 @@ $$
 ### curvature formula
 $$
 \begin{aligned}
-&\kappa(t)=\|\frac{d\vec T}{ds}\|=\frac{\|\vec T'(t)\|}{\|\vec r'(t)\|}=\frac{\|\vec r'(t)\times\vec r''(t)\|}{\|\vec r'(t)\|^3}=\frac{\vec r''(t)\cdot\vec N}{\|\vec r'(t)\|^2}\\
-&\vec T=\text{unit tangent vector}\\
-&\vec r=\text{vector-valued function}\\
-&t=\text{parameter}\
+\kappa(t)=\|\frac{d\vec T}{ds}\|=\frac{\|\vec T'(t)\|}{\|\vec r'(t)\|}=\frac{\|\vec r'(t)\times\vec r''(t)\|}{\|\vec r'(t)\|^3}=\frac{\vec r''(t)\cdot\vec N}{\|\vec r'(t)\|^2}\\
+\vec T=\text{unit tangent vector}\\
+\vec r=\text{vector-valued function}\\
+t=\text{parameter}\
 \end{aligned}
 $$
 
@@ -236,13 +236,13 @@ $$
 ### acceleration formula
 $$
 \begin{aligned}
-&\vec a(t)=a_{T}\vec T+a_{N}\vec N=\frac{d^2s}{dt^2}\vec T+\kappa(\frac{ds}{dt})^2\vec N\\
-&a=\text{acceleration}\\
-&t=\text{parameter}\\
-&\vec T=\text{unit tangent vector}\\
-&\vec N=\text{unit normal vector}\\
-&s=\text{arc length}\\
-&\kappa=\text{curvature}
+\vec a(t)=a_{T}\vec T+a_{N}\vec N=\frac{d^2s}{dt^2}\vec T+\kappa(\frac{ds}{dt})^2\vec N\\
+a=\text{acceleration}\\
+t=\text{parameter}\\
+\vec T=\text{unit tangent vector}\\
+\vec N=\text{unit normal vector}\\
+s=\text{arc length}\\
+\kappa=\text{curvature}
 \end{aligned}
 $$
 

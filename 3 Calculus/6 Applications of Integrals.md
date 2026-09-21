@@ -1,27 +1,27 @@
 ### integral rules
 $$
 \begin{aligned}
-&\int du=u+c\\
-&\int cf(u)du=c\int f(u)du+c\\
-&\int[f(u)\pm g(u)]du=\int f(u)du\pm\int g(u)du+c\\
-&\int u^{n}du=\frac{u^{n+1}}{n+1}+c\\
-&\int\frac{du}{u}=\ln|u|+c\\
-&\int e^{u}du=e^{u}+c\\
-&\int a^{u}du=\frac{a^{u}}{\ln(a)}+c\\
-&\int\log_{a}(u)du=\frac{u\ln(u)-u}{\ln(a)}+c\\
-&\int\sin(u)du=-\cos(u)+c\\
-&\int\cos(u)du=\sin(u)+c\\
-&\int\tan(u)du=-\ln(\cos u)+c\\
-&\int\cot(u)du=\ln(\sin u)+c\\
-&\int\sec(u)du=\ln(\sec u+\tan u)+c\\
-&\int\csc(u)du=\ln(\csc u-\cot u)+c\\
-&\int\sec^{2}(u)du=\tan(u)+c\\
-&\int\csc^{2}(u)du=-\cot(u)+c\\
-&\int\sec(u)\tan(u)du=\sec(u)+c\\
-&\int\csc(u)\cot(u)du=-\csc(u)+c\\
-&\int\frac{du}{\sqrt{a^{2}-u^{2}}}=\arcsin(\frac{u}{a})+c\\
-&\int\frac{du}{a^{2}+u^{2}}=\frac{1}{a}\arctan(\frac{u}{a})+c\\
-&\int\frac{du}{u\sqrt{u^{2}-a^{2}}}=\frac{1}{a}\text{arcsec}(\frac{u}{a})+c\\
+\int du=u+c\\
+\int cf(u)du=c\int f(u)du+c\\
+\int[f(u)\pm g(u)]du=\int f(u)du\pm\int g(u)du+c\\
+\int u^{n}du=\frac{u^{n+1}}{n+1}+c\\
+\int\frac{du}{u}=\ln|u|+c\\
+\int e^{u}du=e^{u}+c\\
+\int a^{u}du=\frac{a^{u}}{\ln(a)}+c\\
+\int\log_{a}(u)du=\frac{u\ln(u)-u}{\ln(a)}+c\\
+\int\sin(u)du=-\cos(u)+c\\
+\int\cos(u)du=\sin(u)+c\\
+\int\tan(u)du=-\ln(\cos u)+c\\
+\int\cot(u)du=\ln(\sin u)+c\\
+\int\sec(u)du=\ln(\sec u+\tan u)+c\\
+\int\csc(u)du=\ln(\csc u-\cot u)+c\\
+\int\sec^{2}(u)du=\tan(u)+c\\
+\int\csc^{2}(u)du=-\cot(u)+c\\
+\int\sec(u)\tan(u)du=\sec(u)+c\\
+\int\csc(u)\cot(u)du=-\csc(u)+c\\
+\int\frac{du}{\sqrt{a^{2}-u^{2}}}=\arcsin(\frac{u}{a})+c\\
+\int\frac{du}{a^{2}+u^{2}}=\frac{1}{a}\arctan(\frac{u}{a})+c\\
+\int\frac{du}{u\sqrt{u^{2}-a^{2}}}=\frac{1}{a}\text{arcsec}(\frac{u}{a})+c\\
 \end{aligned}
 $$
 
@@ -89,7 +89,7 @@ $$
 ### area of region between two curves formula
 $$
 \begin{aligned}
-&A=\int_{a}^{b}[f(x)-g(x)]dx\\
+A=\int_{a}^{b}[f(x)-g(x)]dx\\
 \end{aligned}
 $$
 
@@ -120,8 +120,8 @@ $$
 ### disk method formula
 $$
 \begin{aligned}
-&V=\pi\int_{a}^{b}R(x)^{2}dx\\
-&R(x)=\text{distance from axis of revolution}
+V=\pi\int_{a}^{b}R(x)^{2}dx\\
+R(x)=\text{distance from axis of revolution}
 \end{aligned}
 $$
 
@@ -146,9 +146,9 @@ $$
 ### washer method formula
 $$
 \begin{aligned}
-&V=\pi\int_{a}^{b}[R(x)^{2}-r(x)^{2}]dx\\
-&R(x)=\text{big radius}\\
-&r(x)=\text{small radius}\\
+V=\pi\int_{a}^{b}[R(x)^{2}-r(x)^{2}]dx\\
+R(x)=\text{big radius}\\
+r(x)=\text{small radius}\\
 \end{aligned}
 $$
 
@@ -166,8 +166,8 @@ $$
 ### shell formula
 $$
 \begin{aligned}
-&V=2\pi\int_{a}^{b}R(x)f(x)dx\\
-&R(x)=\text{distance from the axis of revolution}\\
+V=2\pi\int_{a}^{b}R(x)f(x)dx\\
+R(x)=\text{distance from the axis of revolution}\\
 \end{aligned}
 $$
 
@@ -193,7 +193,7 @@ $$
 ### arc length formula
 $$
 \begin{aligned}
-&s=\int_{a}^{b}\sqrt{1+(\frac{dy}{dx})^{2}}dx
+s=\int_{a}^{b}\sqrt{1+(\frac{dy}{dx})^{2}}dx
 \end{aligned}
 $$
 
@@ -212,8 +212,8 @@ $$
 ### surface area formula
 $$
 \begin{aligned}
-&S(x)=2\pi\int_{a}^{b}R(x)\sqrt{1+(\frac{dy}{dx})^{2}}dx\\
-&S(y)=2\pi\int_{a}^{b}R(y)\sqrt{1+(\frac{dx}{dy})^{2}}dy
+S(x)=2\pi\int_{a}^{b}R(x)\sqrt{1+(\frac{dy}{dx})^{2}}dx\\
+S(y)=2\pi\int_{a}^{b}R(y)\sqrt{1+(\frac{dx}{dy})^{2}}dy
 \end{aligned}
 $$
 

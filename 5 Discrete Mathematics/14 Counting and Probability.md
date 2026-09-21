@@ -30,7 +30,7 @@
 ### formula of inclusion exclusion
 $$
 \begin{aligned}
-&|A\cup B|=|A|+|B|-|A\cap B|
+|A\cup B|=|A|+|B|-|A\cap B|
 \end{aligned}
 $$
 
@@ -56,9 +56,9 @@ $$
 ### pigeonhole formula
 $$
 \begin{aligned}
-&k=\lceil\frac{a}{b}\rceil\\
-&a=\text{number of pigeons}\\
-&b=\text{number of pigeonholes}
+k=\lceil\frac{a}{b}\rceil\\
+a=\text{number of pigeons}\\
+b=\text{number of pigeonholes}
 \end{aligned}
 $$
 
@@ -70,9 +70,9 @@ $$
 ### permutation formula
 $$
 \begin{aligned}
-&P(n,r)=\frac{n!}{(n-r)!}=n(n-1)(n-2)...(n-r+1)\\
-&n=\text{number of objects without replacement}\\
-&r=\text{number of arrangements}
+P(n,r)=\frac{n!}{(n-r)!}=n(n-1)(n-2)...(n-r+1)\\
+n=\text{number of objects without replacement}\\
+r=\text{number of arrangements}
 \end{aligned}
 $$
 
@@ -80,9 +80,9 @@ $$
 ### permutation formula
 $$
 \begin{aligned}
-&P(n,r)=n^{r}\\
-&n=\text{number of objects with replacement}\\
-&r=\text{number of arrangements}
+P(n,r)=n^{r}\\
+n=\text{number of objects with replacement}\\
+r=\text{number of arrangements}
 \end{aligned}
 $$
 
@@ -94,9 +94,9 @@ $$
 ### combination formula
 $$
 \begin{aligned}
-&C(n,r)=\frac{n!}{r!(n-r)!}=\frac{n(n-1)(n-2)...(n-r+1)}{r!}\\
-&n=\text{number of objects without replacement}\\
-&r=\text{number of choices}
+C(n,r)=\frac{n!}{r!(n-r)!}=\frac{n(n-1)(n-2)...(n-r+1)}{r!}\\
+n=\text{number of objects without replacement}\\
+r=\text{number of choices}
 \end{aligned}
 $$
 
@@ -116,7 +116,7 @@ $$
 ### probability formula
 $$
 \begin{aligned}
-&P(A)=\frac{\text{number of favorable outcomes}}{\text{total number of possible outcomes}}
+P(A)=\frac{\text{number of favorable outcomes}}{\text{total number of possible outcomes}}
 \end{aligned}
 $$
 
@@ -128,7 +128,7 @@ $$
 ### complementary probability formula
 $$
 \begin{aligned}
-&P(A')=1-P(A)
+P(A')=1-P(A)
 \end{aligned}
 $$
 
@@ -140,7 +140,7 @@ $$
 ### conditional probability formula
 $$
 \begin{aligned}
-&P(A|B)=\frac{P(A\cap B)}{P(B)}
+P(A|B)=\frac{P(A\cap B)}{P(B)}
 \end{aligned}
 $$
 
@@ -156,7 +156,7 @@ $$
 ### independent multiplication formula
 $$
 \begin{aligned}
-&P(A\cap B)=P(A)\times P(B)
+P(A\cap B)=P(A)\times P(B)
 \end{aligned}
 $$
 
@@ -172,7 +172,7 @@ $$
 ### dependent multiplication formula
 $$
 \begin{aligned}
-&P(A\cap B)=P(A)\times P(B|A)
+P(A\cap B)=P(A)\times P(B|A)
 \end{aligned}
 $$
 
@@ -188,7 +188,7 @@ $$
 ### disjoint addition formula
 $$
 \begin{aligned}
-&P(A\cup B)=P(A)+P(B)
+P(A\cup B)=P(A)+P(B)
 \end{aligned}
 $$
 
@@ -204,7 +204,7 @@ $$
 ### joint addition formula
 $$
 \begin{aligned}
-&P(A\cup B)=P(A)+P(B)-P(A\cap B)
+P(A\cup B)=P(A)+P(B)-P(A\cap B)
 \end{aligned}
 $$
 
@@ -224,7 +224,7 @@ $$
 ### bayes formula
 $$
 \begin{aligned}
-&P(B|A)=\frac{P(A|B)\times P(B)}{P(A)}
+P(B|A)=\frac{P(A|B)\times P(B)}{P(A)}
 \end{aligned}
 $$
 

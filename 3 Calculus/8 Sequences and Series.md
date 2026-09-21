@@ -5,8 +5,8 @@
 ### sequence formula
 $$
 \begin{aligned}
-&\{a_{n}\}_{n=1}^{\infty}=a_{1},a_{2},...a_{n}...\\
-&n=\text{index}
+\{a_{n}\}_{n=1}^{\infty}=a_{1},a_{2},...a_{n}...\\
+n=\text{index}
 \end{aligned}
 $$
 
@@ -18,7 +18,7 @@ $$
 ### explicit function formula
 $$
 \begin{aligned}
-&a_{n}=f(n)
+a_{n}=f(n)
 \end{aligned}
 $$
 
@@ -30,7 +30,7 @@ $$
 ### implicit function formula
 $$
 \begin{aligned}
-&a_{n+1}=f(a_{n})
+a_{n+1}=f(a_{n})
 \end{aligned}
 $$
 
@@ -42,9 +42,9 @@ $$
 ### arithmetic sequence formula
 $$
 \begin{aligned}
-&a_{n}=a_{1}+(n-1)d\\
-&a_{1}=\text{1st term}\\
-&d=\text{common difference}
+a_{n}=a_{1}+(n-1)d\\
+a_{1}=\text{1st term}\\
+d=\text{common difference}
 \end{aligned}
 $$
 
@@ -56,9 +56,9 @@ $$
 ### geometric sequence formula
 $$
 \begin{aligned}
-&a_{n}=a_{1}r^{n-1}\\
-&a_{1}=\text{1st term}\\
-&r=\text{common ratio}
+a_{n}=a_{1}r^{n-1}\\
+a_{1}=\text{1st term}\\
+r=\text{common ratio}
 \end{aligned}
 $$
 
@@ -71,8 +71,8 @@ $$
 ### limit of sequence formula
 $$
 \begin{aligned}
-&\lim_{n\to\infty}a_{n}=L\\
-&\lim_{n\to\infty}b_{n}=K
+\lim_{n\to\infty}a_{n}=L\\
+\lim_{n\to\infty}b_{n}=K
 \end{aligned}
 $$
 
@@ -84,7 +84,7 @@ $$
 ### composite limit of sequence formula
 $$
 \begin{aligned}
-&\lim_{n\to\infty}a_{n}=L\land\lim_{n\to L}f(n)=L\to\lim_{n\to\infty}f(a_{n})=f(L)
+\lim_{n\to\infty}a_{n}=L\land\lim_{n\to L}f(n)=L\to\lim_{n\to\infty}f(a_{n})=f(L)
 \end{aligned}
 $$
 
@@ -112,7 +112,7 @@ $$
 ### absolute value formula of sequence
 $$
 \begin{aligned}
-&\lim_{n\to\infty}a_{n}=L\to\lim_{n\to\infty}|a_{n}|=|L|
+\lim_{n\to\infty}a_{n}=L\to\lim_{n\to\infty}|a_{n}|=|L|
 \end{aligned}
 $$
 
@@ -124,7 +124,7 @@ $$
 ### increasing sequence formula
 $$
 \begin{aligned}
-&\forall(n\in N)(a_{n}\le a_{n+1})
+\forall(n\in N)(a_{n}\le a_{n+1})
 \end{aligned}
 $$
 
@@ -136,7 +136,7 @@ $$
 ### decreasing sequence formula
 $$
 \begin{aligned}
-&\forall(n\in N)(a_{n}\ge a_{n+1})
+\forall(n\in N)(a_{n}\ge a_{n+1})
 \end{aligned}
 $$
 
@@ -148,7 +148,7 @@ $$
 ### monotone sequence formula
 $$
 \begin{aligned}
-&\forall(n\in N)(a_{n}\le a_{n+1})\lor\forall(n\in N)(a_{n}\ge a_{n+1})
+\forall(n\in N)(a_{n}\le a_{n+1})\lor\forall(n\in N)(a_{n}\ge a_{n+1})
 \end{aligned}
 $$
 
@@ -160,8 +160,8 @@ $$
 ### lower bound sequence formula
 $$
 \begin{aligned}
-&\forall(n\in N)(a_{n}>m)\\
-&m=\text{lower bound}
+\forall(n\in N)(a_{n}>m)\\
+m=\text{lower bound}
 \end{aligned}
 $$
 
@@ -173,8 +173,8 @@ $$
 ### upper bound sequence formula
 $$
 \begin{aligned}
-&\forall(n\in N)(a_{n}<M)\\
-&M=\text{upper bound}
+\forall(n\in N)(a_{n}<M)\\
+M=\text{upper bound}
 \end{aligned}
 $$
 
@@ -186,7 +186,7 @@ $$
 ### bound sequence formula
 $$
 \begin{aligned}
-&\exists(n\in N)(a_{n}>m)\land\exists(n\in N)(a_{n}<M)
+\exists(n\in N)(a_{n}>m)\land\exists(n\in N)(a_{n}<M)
 \end{aligned}
 $$
 
@@ -202,8 +202,8 @@ $$
 ### series formula
 $$
 \begin{aligned}
-&\sum_{n=1}^{\infty}a_{n}=a_{1}+a_{2}+...+a_{n}...\\
-&n=\text{index}
+\sum_{n=1}^{\infty}a_{n}=a_{1}+a_{2}+...+a_{n}...\\
+n=\text{index}
 \end{aligned}
 $$
 
@@ -215,9 +215,9 @@ $$
 ### nth partial sum formula
 $$
 \begin{aligned}
-&S_{n}=\sum_{k=1}^{n}a_{k}=a_{1}+a_{2}+...+a_{n}\\
-&n=\text{number of terms}\\
-&k=\text{index}
+S_{n}=\sum_{k=1}^{n}a_{k}=a_{1}+a_{2}+...+a_{n}\\
+n=\text{number of terms}\\
+k=\text{index}
 \end{aligned}
 $$
 
@@ -230,7 +230,7 @@ $$
 ### limit of nth partial sum formula
 $$
 \begin{aligned}
-&\lim_{n\to\infty}S_{n}=\lim_{n\to\infty}\sum_{k=1}^{n}a_{k}=S
+\lim_{n\to\infty}S_{n}=\lim_{n\to\infty}\sum_{k=1}^{n}a_{k}=S
 \end{aligned}
 $$
 
@@ -242,7 +242,7 @@ $$
 ### convergent series formula
 $$
 \begin{aligned}
-&\lim_{n\to\infty}S_{n}=S\to\sum_{n=1}^{\infty}a_{n}=S
+\lim_{n\to\infty}S_{n}=S\to\sum_{n=1}^{\infty}a_{n}=S
 \end{aligned}
 $$
 
@@ -254,7 +254,7 @@ $$
 ### divergent series formula
 $$
 \begin{aligned}
-&\lim_{n\to\infty}S_{n}\ne S\to\sum_{n=1}^{\infty}a_{n}\ne S
+\lim_{n\to\infty}S_{n}\ne S\to\sum_{n=1}^{\infty}a_{n}\ne S
 \end{aligned}
 $$
 
@@ -266,7 +266,7 @@ $$
 ### harmonic series formula
 $$
 \begin{aligned}
-&\sum_{n=1}^{\infty}\frac{1}{n}=1+\frac{1}{2}+...+\frac{1}{n}...
+\sum_{n=1}^{\infty}\frac{1}{n}=1+\frac{1}{2}+...+\frac{1}{n}...
 \end{aligned}
 $$
 
@@ -278,10 +278,10 @@ $$
 ### geometric series formula
 $$
 \begin{aligned}
-&|r|<1\to\sum_{n=1}^{\infty}a_{1}r^{n-1}=\frac{a_{1}}{1-r}\\
-&|r|\ge1\to\sum_{n=1}^{\infty}a_{1}r^{n-1}\ne S\\
-&a_{1}=\text{1st term}\\
-&r=\text{common ratio}
+|r|<1\to\sum_{n=1}^{\infty}a_{1}r^{n-1}=\frac{a_{1}}{1-r}\\
+|r|\ge1\to\sum_{n=1}^{\infty}a_{1}r^{n-1}\ne S\\
+a_{1}=\text{1st term}\\
+r=\text{common ratio}
 \end{aligned}
 $$
 
@@ -293,7 +293,7 @@ $$
 ### telescoping series formula
 $$
 \begin{aligned}
-&\sum_{n=1}^{\infty}(a_{n}-a_{n+1})=a_{1}-\lim_{n\to\infty}a_{n+1}\\
+\sum_{n=1}^{\infty}(a_{n}-a_{n+1})=a_{1}-\lim_{n\to\infty}a_{n+1}\\
 \end{aligned}
 $$
 
@@ -309,7 +309,7 @@ $$
 ### nth term divergence test formula
 $$
 \begin{aligned}
-&\lim_{n\to\infty}a_{n}\ne0\to\sum_{n=1}^{\infty}a_{n}\ne S
+\lim_{n\to\infty}a_{n}\ne0\to\sum_{n=1}^{\infty}a_{n}\ne S
 \end{aligned}
 $$
 
@@ -322,8 +322,8 @@ $$
 ### integral test formula
 $$
 \begin{aligned}
-&\int_{n}^{\infty}f(x)dx=S\to\sum_{n=1}^{\infty}a_{n}=S\\
-&\int_{n}^{\infty}f(x)dx\ne S\to\sum_{n=1}^{\infty}a_{n}\ne S
+\int_{n}^{\infty}f(x)dx=S\to\sum_{n=1}^{\infty}a_{n}=S\\
+\int_{n}^{\infty}f(x)dx\ne S\to\sum_{n=1}^{\infty}a_{n}\ne S
 \end{aligned}
 $$
 
@@ -335,9 +335,9 @@ $$
 ### p series formula
 $$
 \begin{aligned}
-&p>1\to\sum_{n=1}^{\infty}\frac{1}{n^{p}}=\frac{1}{1^{p}}+\frac{1}{2^{p}}+...+\frac{1}{n^{p}}...=S\\
-&p\le1\to\sum_{n=1}^{\infty}\frac{1}{n^{p}}=\frac{1}{1^{p}}+\frac{1}{2^{p}}+...+\frac{1}{n^{p}}...\ne S\\
-&p=\text{power}
+p>1\to\sum_{n=1}^{\infty}\frac{1}{n^{p}}=\frac{1}{1^{p}}+\frac{1}{2^{p}}+...+\frac{1}{n^{p}}...=S\\
+p\le1\to\sum_{n=1}^{\infty}\frac{1}{n^{p}}=\frac{1}{1^{p}}+\frac{1}{2^{p}}+...+\frac{1}{n^{p}}...\ne S\\
+p=\text{power}
 \end{aligned}
 $$
 
@@ -350,8 +350,8 @@ $$
 ### comparison test formula
 $$
 \begin{aligned}
-&\forall n(a_{n}\le b_{n})\sum_{n=1}^{\infty}b_{n}=S\to\sum_{n=1}^{\infty}a_{n}=S\\
-&\forall n(a_{n}\le b_{n})\sum_{n=1}^{\infty}a_{n}\ne S\to\sum_{n=1}^{\infty}b_{n}\ne S\\
+\forall n(a_{n}\le b_{n})\sum_{n=1}^{\infty}b_{n}=S\to\sum_{n=1}^{\infty}a_{n}=S\\
+\forall n(a_{n}\le b_{n})\sum_{n=1}^{\infty}a_{n}\ne S\to\sum_{n=1}^{\infty}b_{n}\ne S\\
 \end{aligned}
 $$
 
@@ -363,9 +363,9 @@ $$
 ### limit comparison test formula
 $$
 \begin{aligned}
-&\lim_{n\to\infty}\frac{a_{n}}{b_{n}}=0\le L\le\infty\to\sum_{n=1}^{\infty}a_{n},b_{n}=S\ \ \lor\sum_{n=1}^{\infty}a_{n},b_{n}\ne S\\
-&\lim_{n\to\infty}\frac{a_{n}}{b_{n}}=0\ \ \land\sum_{n=1}^{\infty}b_{n}=S\to\sum_{n=1}^{\infty}a_{n}=S\\
-&\lim_{n\to\infty}\frac{a_{n}}{b_{n}}=\infty\ \ \land\sum_{n=1}^{\infty}b_{n}\ne S\to\sum_{n=1}^{\infty}a_{n}\ne S
+\lim_{n\to\infty}\frac{a_{n}}{b_{n}}=0\le L\le\infty\to\sum_{n=1}^{\infty}a_{n},b_{n}=S\ \ \lor\sum_{n=1}^{\infty}a_{n},b_{n}\ne S\\
+\lim_{n\to\infty}\frac{a_{n}}{b_{n}}=0\ \ \land\sum_{n=1}^{\infty}b_{n}=S\to\sum_{n=1}^{\infty}a_{n}=S\\
+\lim_{n\to\infty}\frac{a_{n}}{b_{n}}=\infty\ \ \land\sum_{n=1}^{\infty}b_{n}\ne S\to\sum_{n=1}^{\infty}a_{n}\ne S
 \end{aligned}
 $$
 
@@ -382,7 +382,7 @@ $$
 ### alternating series test formula
 $$
 \begin{aligned}
-&\forall n(a_{n+1}\le a_{n})\land\lim_{n\to\infty}a_{n}=0\to\sum_{n=1}^{\infty}a_{n}(-1)^{n+1}=S\\
+\forall n(a_{n+1}\le a_{n})\land\lim_{n\to\infty}a_{n}=0\to\sum_{n=1}^{\infty}a_{n}(-1)^{n+1}=S\\
 \end{aligned}
 $$
 
@@ -410,9 +410,9 @@ $$
 ### ratio test formula
 $$
 \begin{aligned}
-&\lim_{n\to\infty}|\frac{a_{n+1}}{a_{n}}|<1\to\sum_{n=1}^{\infty}a_{n}=S\\
-&\lim_{n\to\infty}|\frac{a_{n+1}}{a_{n}}|>1\to\sum_{n=1}^{\infty}a_{n}\ne S\\
-&\lim_{n\to\infty}|\frac{a_{n+1}}{a_{n}}|=1\to\sum_{n=1}^{\infty}a_{n}=\ ?\\
+\lim_{n\to\infty}|\frac{a_{n+1}}{a_{n}}|<1\to\sum_{n=1}^{\infty}a_{n}=S\\
+\lim_{n\to\infty}|\frac{a_{n+1}}{a_{n}}|>1\to\sum_{n=1}^{\infty}a_{n}\ne S\\
+\lim_{n\to\infty}|\frac{a_{n+1}}{a_{n}}|=1\to\sum_{n=1}^{\infty}a_{n}=\ ?\\
 \end{aligned}
 $$
 
@@ -425,9 +425,9 @@ $$
 ### root test formula
 $$
 \begin{aligned}
-&\lim_{n\to\infty}|\sqrt[n]{a_{n}}|<1\to\sum_{n=1}^{\infty}a_{n}=S\\
-&\lim_{n\to\infty}|\sqrt[n]{a_{n}}|>1\ \ \lor\lim_{n\to\infty}|\sqrt[n]{a_{n}}|=\infty\to\sum_{n=1}^{\infty}a_{n}\ne S\\
-&\lim_{n\to\infty}|\sqrt[n]{a_{n}}|=<=1\to\sum_{n=1}^{\infty}a_{n}=?\\
+\lim_{n\to\infty}|\sqrt[n]{a_{n}}|<1\to\sum_{n=1}^{\infty}a_{n}=S\\
+\lim_{n\to\infty}|\sqrt[n]{a_{n}}|>1\ \ \lor\lim_{n\to\infty}|\sqrt[n]{a_{n}}|=\infty\to\sum_{n=1}^{\infty}a_{n}\ne S\\
+\lim_{n\to\infty}|\sqrt[n]{a_{n}}|=<=1\to\sum_{n=1}^{\infty}a_{n}=?\\
 \end{aligned}
 $$
 
@@ -455,8 +455,8 @@ $$
 ### taylor polynomial formula
 $$
 \begin{aligned}
-&P_{n}(x)=f(c)+f'(c)(x-c)+\frac{f''(c)}{2!}(x-c)^{2}+...+\frac{f^{n'}(c)}{n!}(x-c)^{n}\\
-&c=\text{center}
+P_{n}(x)=f(c)+f'(c)(x-c)+\frac{f''(c)}{2!}(x-c)^{2}+...+\frac{f^{n'}(c)}{n!}(x-c)^{n}\\
+c=\text{center}
 \end{aligned}
 $$
 
@@ -468,8 +468,8 @@ $$
 ### mclaurin polynomial formula
 $$
 \begin{aligned}
-&P_{n}(x)=f(0)+f'(0)x+\frac{f''(0)}{2!}x^{2}+...+\frac{f^{n'}(0)}{n!}x^{n}\\
-&c=0
+P_{n}(x)=f(0)+f'(0)x+\frac{f''(0)}{2!}x^{2}+...+\frac{f^{n'}(0)}{n!}x^{n}\\
+c=0
 \end{aligned}
 $$
 
@@ -481,7 +481,7 @@ $$
 ### power series formula
 $$
 \begin{aligned}
-&f(x)=\sum_{n=1}^{\infty}a_{n}(x-c)^{n}
+f(x)=\sum_{n=1}^{\infty}a_{n}(x-c)^{n}
 \end{aligned}
 $$
 
@@ -523,7 +523,7 @@ $$
 ### power series differentiation property
 $$
 \begin{aligned}
-&f'(x)=\sum_{n=1}^{\infty}[na_{n}(x-c)^{n-1}]\\
+f'(x)=\sum_{n=1}^{\infty}[na_{n}(x-c)^{n-1}]\\
 \end{aligned}
 $$
 
@@ -531,7 +531,7 @@ $$
 ### power series integration property
 $$
 \begin{aligned}
-&\int f(x)dx=\sum_{n=1}^{\infty}[\frac{a_{n}}{n+1}(x-c)^{n+1}]
+\int f(x)dx=\sum_{n=1}^{\infty}[\frac{a_{n}}{n+1}(x-c)^{n+1}]
 \end{aligned}
 $$
 
@@ -567,8 +567,8 @@ $$
 ### taylor series formula
 $$
 \begin{aligned}
-&P_{n}(x)=\sum_{n=1}^{\infty}\frac{f^{n'}(c)}{n!}(x-c)^{n}\\
-&c=\text{center}
+P_{n}(x)=\sum_{n=1}^{\infty}\frac{f^{n'}(c)}{n!}(x-c)^{n}\\
+c=\text{center}
 \end{aligned}
 $$
 

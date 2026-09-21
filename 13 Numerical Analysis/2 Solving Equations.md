@@ -5,9 +5,9 @@
 ### p decimal place correctness formula
 $$
 \begin{aligned}
-&|r-r_c|<\frac{1}{2}\times10^{-p}\\
-&r=\text{real root}\\
-&r_c=\text{computed root}
+|r-r_c|<\frac{1}{2}\times10^{-p}\\
+r=\text{real root}\\
+r_c=\text{computed root}
 \end{aligned}
 $$
 
@@ -87,11 +87,11 @@ $$
 ### fixed point method formula
 $$
 \begin{aligned}
-&x_0\\
-&x_{n+1}=g(x_n)\\
-&n=0,1,2,\dots\\
-&\forall\epsilon>0,\exists N\in\mathbb N,\forall n\ge N:|x_{n+1}-x_n|<\epsilon\implies\\
-&r_c=\lim_{n\rightarrow\infty}x_{n+1}=\lim_{n\rightarrow\infty}g(r_c)=g(r_c)
+x_0\\
+x_{n+1}=g(x_n)\\
+n=0,1,2,\dots\\
+\forall\epsilon>0,\exists N\in\mathbb N,\forall n\ge N:|x_{n+1}-x_n|<\epsilon\implies\\
+r_c=\lim_{n\rightarrow\infty}x_{n+1}=\lim_{n\rightarrow\infty}g(r_c)=g(r_c)
 \end{aligned}
 $$
 
@@ -119,9 +119,9 @@ $$
 ### forward error formula
 $$
 \begin{aligned}
-&|r-r_c|\\
-&r=\text{real root}\\
-&r_c=\text{computed root}
+|r-r_c|\\
+r=\text{real root}\\
+r_c=\text{computed root}
 \end{aligned}
 $$
 
@@ -133,8 +133,8 @@ $$
 ### backward error formula
 $$
 \begin{aligned}
-&|f(r_c)|\\
-&r_c=\text{computed root}
+|f(r_c)|\\
+r_c=\text{computed root}
 \end{aligned}
 $$
 

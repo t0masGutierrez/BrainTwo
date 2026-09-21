@@ -11,14 +11,14 @@
 ### wave velocity formula
 $$
 \begin{aligned}
-&v=\lambda f=\frac{\omega}{k}\\
-&c=\sqrt{\frac{1}{\epsilon_{0}\mu_{0}}}=3\times10^{8}\\
-&\lambda=\text{wavelength}\\
-&f=\text{oscillation frequency}\\
-&\omega=\text{angular frequency}\\
-&k=\text{wave number}\\
-&\epsilon_{0}=8.85\times10^{-12}\\
-&\mu_{0}=4\pi\times10^{-7}\\
+v=\lambda f=\frac{\omega}{k}\\
+c=\sqrt{\frac{1}{\epsilon_{0}\mu_{0}}}=3\times10^{8}\\
+\lambda=\text{wavelength}\\
+f=\text{oscillation frequency}\\
+\omega=\text{angular frequency}\\
+k=\text{wave number}\\
+\epsilon_{0}=8.85\times10^{-12}\\
+\mu_{0}=4\pi\times10^{-7}\\
 \end{aligned}
 $$
 
@@ -31,12 +31,12 @@ $$
 ### refraction index formula
 $$
 \begin{aligned}
-&n=\frac{c}{v}=\frac{\lambda_{0}}{\lambda}=\sqrt{KK_{m}}\\
-&c=3\times10^{8}\\
-&v=\text{wave velocity}\\
-&\lambda=\text{wavelength}\\
-&K=\text{dielectric constant}\\
-&K_{m}=\text{relative permeability}
+n=\frac{c}{v}=\frac{\lambda_{0}}{\lambda}=\sqrt{KK_{m}}\\
+c=3\times10^{8}\\
+v=\text{wave velocity}\\
+\lambda=\text{wavelength}\\
+K=\text{dielectric constant}\\
+K_{m}=\text{relative permeability}
 \end{aligned}
 $$
 
@@ -68,9 +68,9 @@ $$
 ### formula of reflection
 $$
 \begin{aligned}
-&\theta_{1}=\theta_{r}\\
-&\theta_{1}=\text{angular incidence}\\
-&\theta_{r}=\text{angular reflection}
+\theta_{1}=\theta_{r}\\
+\theta_{1}=\text{angular incidence}\\
+\theta_{r}=\text{angular reflection}
 \end{aligned}
 $$
 
@@ -88,10 +88,10 @@ $$
 ### formula of refraction
 $$
 \begin{aligned}
-&n_{1}\sin(\theta_{1})=n_{2}\sin(\theta_{2})\\
-&n=\text{refraction index}\\
-&\theta_{1}=\text{angular incidence}\\
-&\theta_{2}=\text{angular refraction}
+n_{1}\sin(\theta_{1})=n_{2}\sin(\theta_{2})\\
+n=\text{refraction index}\\
+\theta_{1}=\text{angular incidence}\\
+\theta_{2}=\text{angular refraction}
 \end{aligned}
 $$
 
@@ -104,9 +104,9 @@ $$
 ### critical angle formula
 $$
 \begin{aligned}
-&\theta_{c}=\arcsin(\frac{n_{2}}{n_{1}})\\
-&n_{2}<n_{1}\\
-&n=\text{refraction index}
+\theta_{c}=\arcsin(\frac{n_{2}}{n_{1}})\\
+n_{2}<n_{1}\\
+n=\text{refraction index}
 \end{aligned}
 $$
 
@@ -176,9 +176,9 @@ $$
 ### malus formula
 $$
 \begin{aligned}
-&I=I_{0}\cos^{2}(\theta)\\
-&I=\text{intensity}\\
-&\theta=\text{angular position}
+I=I_{0}\cos^{2}(\theta)\\
+I=\text{intensity}\\
+\theta=\text{angular position}
 \end{aligned}
 $$
 
@@ -204,9 +204,9 @@ $$
 ### brewsters formula
 $$
 \begin{aligned}
-&\theta_{1}=\arctan(\frac{n_{2}}{n_{1}})\\
-&\theta_{1}+\theta_{2}=90\\
-&n=\text{refraction index}
+\theta_{1}=\arctan(\frac{n_{2}}{n_{1}})\\
+\theta_{1}+\theta_{2}=90\\
+n=\text{refraction index}
 \end{aligned}
 $$
 
@@ -230,10 +230,10 @@ $$
 ### polarization by scattering formula
 $$
 \begin{aligned}
-&I\propto f^{4}\propto\frac{1}{\lambda^{4}}\\
-&I=\text{intensity}\\
-&f=\text{oscillation frequency}\\
-&\lambda=\text{wavelength}
+I\propto f^{4}\propto\frac{1}{\lambda^{4}}\\
+I=\text{intensity}\\
+f=\text{oscillation frequency}\\
+\lambda=\text{wavelength}
 \end{aligned}
 $$
 

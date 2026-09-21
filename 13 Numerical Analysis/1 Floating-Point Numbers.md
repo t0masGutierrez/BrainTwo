@@ -7,8 +7,8 @@
 ### efficiency formula
 $$
 \begin{aligned}
-&T(n)=O(f(n))\\
-&S(n)=O(g(n))
+T(n)=O(f(n))\\
+S(n)=O(g(n))
 \end{aligned}
 $$
 
@@ -20,9 +20,9 @@ $$
 ### polynomial evaluation formula
 $$
 \begin{aligned}
-&p(x)=\sum_{k=0}^nc_kx^k\\
-&c=\text{coefficient}\\
-&x=\text{variable}
+p(x)=\sum_{k=0}^nc_kx^k\\
+c=\text{coefficient}\\
+x=\text{variable}
 \end{aligned}
 $$
 
@@ -34,12 +34,12 @@ $$
 ### direct polynomial evaluation formula
 $$
 \begin{aligned}
-&x,x^2=x\cdot x,x^3=x\cdot x\cdot x,\dots,x^n=\prod_{k=1}^nx\\
-&T(n)=\frac{n(n+1)}{2}\\
-&S(n)=1\\
-&x=\text{variable}\\
-&T=\text{time complexity}\\
-&S=\text{space complexity}
+x,x^2=x\cdot x,x^3=x\cdot x\cdot x,\dots,x^n=\prod_{k=1}^nx\\
+T(n)=\frac{n(n+1)}{2}\\
+S(n)=1\\
+x=\text{variable}\\
+T=\text{time complexity}\\
+S=\text{space complexity}
 \end{aligned}
 $$
 
@@ -51,12 +51,12 @@ $$
 ### recursive polynomial evaluation formula
 $$
 \begin{aligned}
-&x,x^2=x\cdot x,x^3=x^2\cdot x,\dots,x^n=x^{n-1}\cdot x\\
-&T(n)=2n-1\\
-&S(n)=1\\
-&x=\text{variable}\\
-&T=\text{time complexity}\\
-&S=\text{space complexity}
+x,x^2=x\cdot x,x^3=x^2\cdot x,\dots,x^n=x^{n-1}\cdot x\\
+T(n)=2n-1\\
+S(n)=1\\
+x=\text{variable}\\
+T=\text{time complexity}\\
+S=\text{space complexity}
 \end{aligned}
 $$
 
@@ -68,17 +68,17 @@ $$
 ### horners polynomial evaluation formula
 $$
 \begin{aligned}
-&p(x)=c_0+x(c_1+x(c_2+\dots+x(c_{n-1}+xc_n)))\iff\begin{cases}
-&b_n=c_n\\
-&b_k=c_k+xc_{k+1}\\
-&k=n-1,n-2,\dots,0\\
-&p(x)=b_0
-&\end{cases}\\
-&T(n)=n\\
-&S(n)=1\\
-&x=\text{variable}\\
-&T=\text{time complexity}\\
-&S=\text{space complexity}
+p(x)=c_0+x(c_1+x(c_2+\dots+x(c_{n-1}+xc_n)))\iff\begin{cases}
+b_n=c_n\\
+b_k=c_k+xc_{k+1}\\
+k=n-1,n-2,\dots,0\\
+p(x)=b_0
+\end{cases}\\
+T(n)=n\\
+S(n)=1\\
+x=\text{variable}\\
+T=\text{time complexity}\\
+S=\text{space complexity}
 \end{aligned}
 $$
 
@@ -90,12 +90,12 @@ $$
 ### binary number formula
 $$
 \begin{aligned}
-&N=\sum_{k=0}^nb_k2^{k}\in\set{0,1,2,3,4,5,6,7,8,9}\iff b_k=\left\lfloor\frac{N}{2^{k}}\right\rfloor\mod2\in\set{0,1}\\
-&k=0,\dots,\lfloor\frac{\log N}{\log2}\rfloor\\
-&N<(\cdot)\implies k>0\\
-&N>(\cdot)\implies k<0\\
-&N=\text{digit}\\
-&b=\text{bit}
+N=\sum_{k=0}^nb_k2^{k}\in\set{0,1,2,3,4,5,6,7,8,9}\iff b_k=\left\lfloor\frac{N}{2^{k}}\right\rfloor\mod2\in\set{0,1}\\
+k=0,\dots,\lfloor\frac{\log N}{\log2}\rfloor\\
+N<(\cdot)\implies k>0\\
+N>(\cdot)\implies k<0\\
+N=\text{digit}\\
+b=\text{bit}
 \end{aligned}
 $$
 
@@ -107,14 +107,14 @@ $$
 ### floating-point number formula
 $$
 \begin{aligned}
-&x=(-1)^s(1+\sum_{i=1}^{n_f}f_i2^{-i})2^{P-B}=\pm1.b_1b_2\dots b_n\times2^p\\
-&s=\text{sign}\\
-&n=\text{number of bits}\\
-&f=\text{fraction}\\
-&P=\text{stored exponent}\\
-&B=\text{bias}\\
-&b=\text{bit}\\
-&p=\text{real exponent}
+x=(-1)^s(1+\sum_{i=1}^{n_f}f_i2^{-i})2^{P-B}=\pm1.b_1b_2\dots b_n\times2^p\\
+s=\text{sign}\\
+n=\text{number of bits}\\
+f=\text{fraction}\\
+P=\text{stored exponent}\\
+B=\text{bias}\\
+b=\text{bit}\\
+p=\text{real exponent}
 \end{aligned}
 $$
 
@@ -126,10 +126,10 @@ $$
 ### bias formula
 $$
 \begin{aligned}
-&B=P-p=2^{n_p-1}-1\\
-&P=\text{stored exponent}\\
-&p=\text{real exponent}\\
-&n=\text{number of bits}
+B=P-p=2^{n_p-1}-1\\
+P=\text{stored exponent}\\
+p=\text{real exponent}\\
+n=\text{number of bits}
 \end{aligned}
 $$
 
@@ -141,11 +141,11 @@ $$
 ### single precision formula
 $$
 \begin{aligned}
-&n_s=1\\
-&n_p=8\implies B=127\\
-&n_f=23\\
-&n=\text{number of bits}\\
-&B=\text{bias}
+n_s=1\\
+n_p=8\implies B=127\\
+n_f=23\\
+n=\text{number of bits}\\
+B=\text{bias}
 \end{aligned}
 $$
 
@@ -157,11 +157,11 @@ $$
 ### double precision formula
 $$
 \begin{aligned}
-&n_s=1\\
-&n_p=11\implies B=1023\\
-&n_f=52\\
-&n=\text{number of bits}\\
-&B=\text{bias}
+n_s=1\\
+n_p=11\implies B=1023\\
+n_f=52\\
+n=\text{number of bits}\\
+B=\text{bias}
 \end{aligned}
 $$
 
@@ -173,11 +173,11 @@ $$
 ### long double precision formula
 $$
 \begin{aligned}
-&n_s=1\\
-&n_p=15\implies B=16383\\
-&n_f=64\\
-&n=\text{number of bits}\\
-&B=\text{bias}
+n_s=1\\
+n_p=15\implies B=16383\\
+n_f=64\\
+n=\text{number of bits}\\
+B=\text{bias}
 \end{aligned}
 $$
 
@@ -189,13 +189,13 @@ $$
 ### subnormal floating-point number formula
 $$
 \begin{aligned}
-&x=(-1)^s(\sum_{i=1}^{n_f}f_i2^{-i})2^{1-B}=\pm0.b_1b_2\dots b_n\times2^p\\
-&s=\text{sign}\\
-&n=\text{number of bits}\\
-&f=\text{fraction}\\
-&B=\text{bias}\\
-&b=\text{bit}\\
-&p=\text{real exponent}
+x=(-1)^s(\sum_{i=1}^{n_f}f_i2^{-i})2^{1-B}=\pm0.b_1b_2\dots b_n\times2^p\\
+s=\text{sign}\\
+n=\text{number of bits}\\
+f=\text{fraction}\\
+B=\text{bias}\\
+b=\text{bit}\\
+p=\text{real exponent}
 \end{aligned}
 $$
 
@@ -212,12 +212,12 @@ $$
 ### special floating-point number formula
 $$
 \begin{aligned}
-&\pm0.00\dots00\times2^{-1022}\\
-&2^{-1024}=4.94\times10^{-324}\\
-&(1-2^{-52})2^{-1022}=2.23\times10^{-308}\\
-&2^{-1022}=2.23\times10^{-308}\\
-&(2-2^{-52})2^{1023}=1.80\times10^{308}\\
-&\pm1.00\dots00\times2^{1024}
+\pm0.00\dots00\times2^{-1022}\\
+2^{-1024}=4.94\times10^{-324}\\
+(1-2^{-52})2^{-1022}=2.23\times10^{-308}\\
+2^{-1022}=2.23\times10^{-308}\\
+(2-2^{-52})2^{1023}=1.80\times10^{308}\\
+\pm1.00\dots00\times2^{1024}
 \end{aligned}
 $$
 
@@ -229,7 +229,7 @@ $$
 ### machine epsilon formula
 $$
 \begin{aligned}
-&\epsilon_{\text{mach}}=2^{-52}=2.22\times10^{-16}
+\epsilon_{\text{mach}}=2^{-52}=2.22\times10^{-16}
 \end{aligned}
 $$
 
@@ -243,10 +243,10 @@ $$
 ### rounding formula
 $$
 \begin{aligned}
-&b_{k+1}<\frac12\implies b_k'=b_k\\
-&b_{k+1}>\frac12\implies b_k'=b_k+\epsilon_{\text{mach}}\\
-&(b_{k+1}=\frac12)\land(b_k=0)\implies b_k'=b_k\\
-&(b_{k+1}=\frac12)\land(b_k=1)\implies b_k'=b_k+\epsilon_{\text{mach}}\\
+b_{k+1}<\frac12\implies b_k'=b_k\\
+b_{k+1}>\frac12\implies b_k'=b_k+\epsilon_{\text{mach}}\\
+(b_{k+1}=\frac12)\land(b_k=0)\implies b_k'=b_k\\
+(b_{k+1}=\frac12)\land(b_k=1)\implies b_k'=b_k+\epsilon_{\text{mach}}\\
 \end{aligned}
 $$
 
@@ -286,10 +286,10 @@ $$
 ### relative rounding error formula
 $$
 \begin{aligned}
-&\frac{|x-x_c|}{|x|}\le\frac12\epsilon\\
-&x=\text{real number}\\
-&x_c=\text{computed number}\\
-&\epsilon_{\text{mach}}=\text{machine epsilon}
+\frac{|x-x_c|}{|x|}\le\frac12\epsilon\\
+x=\text{real number}\\
+x_c=\text{computed number}\\
+\epsilon_{\text{mach}}=\text{machine epsilon}
 \end{aligned}
 $$
 
@@ -301,7 +301,7 @@ $$
 ### floating-point representation formula
 $$
 \begin{aligned}
-&\text{fl}(x)=(1+\epsilon_{\text{mach}})x
+\text{fl}(x)=(1+\epsilon_{\text{mach}})x
 \end{aligned}
 $$
 
@@ -313,10 +313,10 @@ $$
 ### machine representation formula
 $$
 \begin{aligned}
-&s_1\mid P_1P_2\dots P_{11}\mid f_1f_2\dots f_{52}\\
-&s=\text{sign}\\
-&P=\text{exponent}\\
-&f=\text{fraction}
+s_1\mid P_1P_2\dots P_{11}\mid f_1f_2\dots f_{52}\\
+s=\text{sign}\\
+P=\text{exponent}\\
+f=\text{fraction}
 \end{aligned}
 $$
 
@@ -328,8 +328,8 @@ $$
 ### underflow formula
 $$
 \begin{aligned}
-&0<|x|<2^{-2022}\\
-&x=\text{real number}
+0<|x|<2^{-2022}\\
+x=\text{real number}
 \end{aligned}
 $$
 
@@ -341,8 +341,8 @@ $$
 ### overflow formula
 $$
 \begin{aligned}
-&|x|>1.80\times10^{308}\\
-&x=\text{real number}
+|x|>1.80\times10^{308}\\
+x=\text{real number}
 \end{aligned}
 $$
 
@@ -368,13 +368,13 @@ $$
 ### reformulation formula
 $$
 \begin{aligned}
-&(\sqrt{C+x}-C)(\frac{\sqrt{C+x}+C}{\sqrt{C+x}+C})=\frac{x}{\sqrt{C+x}+C}\\
-&b^2\gg4|ac|\implies x=\begin{cases}\frac{-b-\sqrt{b^2-4ac}}{2a}\\
-&\frac{-2c}{b+\sqrt{b^2-4ac}}
-&\end{cases}\\
-&b^2\ll4|ac|\implies x=\begin{cases}\frac{-b-\sqrt{b^2-4ac}}{2a}\\
-&\frac{2c}{-b+\sqrt{b^2-4ac}}
-&\end{cases}
+(\sqrt{C+x}-C)(\frac{\sqrt{C+x}+C}{\sqrt{C+x}+C})=\frac{x}{\sqrt{C+x}+C}\\
+b^2\gg4|ac|\implies x=\begin{cases}\frac{-b-\sqrt{b^2-4ac}}{2a}\\
+\frac{-2c}{b+\sqrt{b^2-4ac}}
+\end{cases}\\
+b^2\ll4|ac|\implies x=\begin{cases}\frac{-b-\sqrt{b^2-4ac}}{2a}\\
+\frac{2c}{-b+\sqrt{b^2-4ac}}
+\end{cases}
 \end{aligned}
 $$
 

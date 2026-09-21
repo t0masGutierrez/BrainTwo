@@ -6,12 +6,12 @@
 ### damped harmonic oscillator formula
 $$
 \begin{aligned}
-&m\frac{d^{2}x}{dt^{2}}+b\frac{dx}{dt}+kx=0\\
-&m=\text{mass}\\
-&x=\text{position}\\
-&t=\text{time}\\
-&b=\text{damping coefficient}\\
-&k=\text{spring constant}
+m\frac{d^{2}x}{dt^{2}}+b\frac{dx}{dt}+kx=0\\
+m=\text{mass}\\
+x=\text{position}\\
+t=\text{time}\\
+b=\text{damping coefficient}\\
+k=\text{spring constant}
 \end{aligned}
 $$
 
@@ -52,12 +52,12 @@ $$
 ### damped RLC harmonic oscillator formula
 $$
 \begin{aligned}
-&L\frac{d^{2}q}{dt^{2}}+R\frac{dq}{dt}+\frac{q}{C}=0\\
-&L=\text{self inductance}\\
-&q=\text{electric charge}\\
-&t=\text{time}\\
-&R=\text{resistance}\\
-&C=\text{capacitance}
+L\frac{d^{2}q}{dt^{2}}+R\frac{dq}{dt}+\frac{q}{C}=0\\
+L=\text{self inductance}\\
+q=\text{electric charge}\\
+t=\text{time}\\
+R=\text{resistance}\\
+C=\text{capacitance}
 \end{aligned}
 $$
 

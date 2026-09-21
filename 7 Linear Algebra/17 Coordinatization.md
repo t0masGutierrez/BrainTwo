@@ -5,9 +5,9 @@
 ### ordered basis formula
 $$
 \begin{aligned}
-&B=(\vec v_{1},\dots\vec v_{n})\\
-&\vec v=\text{basis vector}\\
-&n=\text{dimension}
+B=(\vec v_{1},\dots\vec v_{n})\\
+\vec v=\text{basis vector}\\
+n=\text{dimension}
 \end{aligned}
 $$
 
@@ -72,11 +72,11 @@ $$
 ### transition matrix formula
 $$
 \begin{aligned}
-&\text{RREF}(C\mid B)=I\mid P_{\text{BC}}\\
-&C=\text{2nd ordered basis}\\
-&B=\text{1st ordered basis}\\
-&I=\text{identity matrix}\\
-&P=\text{transition matrix}
+\text{RREF}(C\mid B)=I\mid P_{\text{BC}}\\
+C=\text{2nd ordered basis}\\
+B=\text{1st ordered basis}\\
+I=\text{identity matrix}\\
+P=\text{transition matrix}
 \end{aligned}
 $$
 

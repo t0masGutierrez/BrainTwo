@@ -5,12 +5,12 @@
 ### inverse linear transformation formula
 $$
 \begin{aligned}
-&(L:\mathcal V\rightarrow\mathcal W)\land(L^{-1}:\mathcal W\rightarrow\mathcal V)\iff\forall\vec v\in\mathcal V:(L^{-1}\circ L)(\vec v)=\vec v\ \land\\
-&\forall\vec w\in\mathcal W:(L\circ L^{-1})(\vec w)=\vec w\\
-&L=\text{linear transformation}\\
-&L^{-1}=\text{inverse linear transformation}\\
-&\mathcal V,\mathcal W=\text{vector space}\\
-&\vec v,\vec w=\text{vector}
+(L:\mathcal V\rightarrow\mathcal W)\land(L^{-1}:\mathcal W\rightarrow\mathcal V)\iff\forall\vec v\in\mathcal V:(L^{-1}\circ L)(\vec v)=\vec v\ \land\\
+\forall\vec w\in\mathcal W:(L\circ L^{-1})(\vec w)=\vec w\\
+L=\text{linear transformation}\\
+L^{-1}=\text{inverse linear transformation}\\
+\mathcal V,\mathcal W=\text{vector space}\\
+\vec v,\vec w=\text{vector}
 \end{aligned}
 $$
 
@@ -22,8 +22,8 @@ $$
 ### bijective linear transformation formula
 $$
 \begin{aligned}
-&L=\text{bijection}\iff(L=\text{injection})\land(L=\text{surjection})\\
-&L=\text{bijective linear transformation}
+L=\text{bijection}\iff(L=\text{injection})\land(L=\text{surjection})\\
+L=\text{bijective linear transformation}
 \end{aligned}
 $$
 
@@ -35,12 +35,12 @@ $$
 ### isomorphism formula
 $$
 \begin{aligned}
-&L:\mathcal V\rightarrow\mathcal W\iff\forall\vec w\in\mathcal W,\exists!\vec v\in\mathcal V:L(\vec v)=\vec w\\
-&L=\text{isomorphism}\\
-&\mathcal V=\text{domain vector space}\\
-&\mathcal W=\text{codomain vector space}\\
-&\vec v=\text{preimage}\\
-&L(\vec v)=\text{image}
+L:\mathcal V\rightarrow\mathcal W\iff\forall\vec w\in\mathcal W,\exists!\vec v\in\mathcal V:L(\vec v)=\vec w\\
+L=\text{isomorphism}\\
+\mathcal V=\text{domain vector space}\\
+\mathcal W=\text{codomain vector space}\\
+\vec v=\text{preimage}\\
+L(\vec v)=\text{image}
 \end{aligned}
 $$
 
@@ -52,10 +52,10 @@ $$
 ### isomorphic vector space formula
 $$
 \begin{aligned}
-&\mathcal V\cong\mathcal W\iff\exists L:\mathcal V\rightarrow\mathcal W\\
-&\mathcal V=\text{domain vector space}\\
-&\mathcal W=\text{codomain vector space}\\
-&L=\text{isomorphism}\\
+\mathcal V\cong\mathcal W\iff\exists L:\mathcal V\rightarrow\mathcal W\\
+\mathcal V=\text{domain vector space}\\
+\mathcal W=\text{codomain vector space}\\
+L=\text{isomorphism}\\
 \end{aligned}
 $$
 
@@ -67,10 +67,10 @@ $$
 ### isomorphism inverse property formula
 $$
 \begin{aligned}
-&L:\mathcal V\rightarrow\mathcal W\iff\exists L^{-1}\\
-&L=\text{isomorphism}\\
-&L^{-1}=\text{inverse linear transformation}\\
-&\mathcal V,\mathcal W=\text{vector space}
+L:\mathcal V\rightarrow\mathcal W\iff\exists L^{-1}\\
+L=\text{isomorphism}\\
+L^{-1}=\text{inverse linear transformation}\\
+\mathcal V,\mathcal W=\text{vector space}
 \end{aligned}
 $$
 
@@ -82,11 +82,11 @@ $$
 ### isomorphism matrix property formula
 $$
 \begin{aligned}
-&(L:\mathcal V\rightarrow\mathcal W)\land(\exists A\in\mathcal M_{\text{nn}}:\vec v\mapsto A\vec v)\iff\det(A)\ne0\\
-&L=\text{isomorphism}\\
-&A=\text{matrix transformation}\\
-&\vec v=\text{preimage}\\
-&L(\vec v)=\text{image}
+(L:\mathcal V\rightarrow\mathcal W)\land(\exists A\in\mathcal M_{\text{nn}}:\vec v\mapsto A\vec v)\iff\det(A)\ne0\\
+L=\text{isomorphism}\\
+A=\text{matrix transformation}\\
+\vec v=\text{preimage}\\
+L(\vec v)=\text{image}
 \end{aligned}
 $$
 
@@ -162,8 +162,8 @@ $$
 ### isomorphic dimension property formula
 $$
 \begin{aligned}
-&\mathcal V\cong\mathcal W\iff\dim(\mathcal V)=\dim(\mathcal W)\ne\infty\\
-&\mathcal V,\mathcal W=\text{isomorphic vector space}
+\mathcal V\cong\mathcal W\iff\dim(\mathcal V)=\dim(\mathcal W)\ne\infty\\
+\mathcal V,\mathcal W=\text{isomorphic vector space}
 \end{aligned}
 $$
 
@@ -175,9 +175,9 @@ $$
 ### isomorphic real property formula
 $$
 \begin{aligned}
-&\dim(\mathcal V)=n\implies\mathcal V\cong\mathbb R^{n}\\
-&\mathcal V,\mathbb R^{n}=\text{isomorphic vector space}\\
-&n=\text{dimension}\\
+\dim(\mathcal V)=n\implies\mathcal V\cong\mathbb R^{n}\\
+\mathcal V,\mathbb R^{n}=\text{isomorphic vector space}\\
+n=\text{dimension}\\
 \end{aligned}
 $$
 

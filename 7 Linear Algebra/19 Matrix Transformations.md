@@ -5,16 +5,16 @@
 ### action formula
 $$
 \begin{aligned}
-&(L:\mathcal V\rightarrow\mathcal W)\land(B=\set{\vec b_{1},\dots,\vec b_{n}})\implies\\
-&\forall\vec v\in\mathcal V:L(\vec v)=L(\sum_{i=1}^{n}c_{i}\vec b_{i})=\sum_{i=1}^{n}c_{i}L(\vec b_{i})\\
-&L=\text{linear transformation}\\
-&\mathcal V=\text{domain vector space}\\
-&\mathcal W=\text{codomain vector space}\\
-&B=\text{basis}\\
-&c=\text{scalar}\\
-&\vec b=\text{basis vector}\\
-&\vec v=\text{preimage}\\
-&\vec L(\vec v)=\text{image}
+(L:\mathcal V\rightarrow\mathcal W)\land(B=\set{\vec b_{1},\dots,\vec b_{n}})\implies\\
+\forall\vec v\in\mathcal V:L(\vec v)=L(\sum_{i=1}^{n}c_{i}\vec b_{i})=\sum_{i=1}^{n}c_{i}L(\vec b_{i})\\
+L=\text{linear transformation}\\
+\mathcal V=\text{domain vector space}\\
+\mathcal W=\text{codomain vector space}\\
+B=\text{basis}\\
+c=\text{scalar}\\
+\vec b=\text{basis vector}\\
+\vec v=\text{preimage}\\
+\vec L(\vec v)=\text{image}
 \end{aligned}
 $$
 

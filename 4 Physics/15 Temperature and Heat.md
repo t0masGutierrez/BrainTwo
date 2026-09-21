@@ -6,7 +6,7 @@
 ### temperature formula
 $$
 \begin{aligned}
-&T
+T
 \end{aligned}
 $$
 
@@ -19,8 +19,8 @@ $$
 ### celsius formula
 $$
 \begin{aligned}
-&T_{C}=\frac{5}{9}(T_{F}-32)\\
-&T_{F}=\text{fahrenheit}
+T_{C}=\frac{5}{9}(T_{F}-32)\\
+T_{F}=\text{fahrenheit}
 \end{aligned}
 $$
 
@@ -33,8 +33,8 @@ $$
 ### fahrenheit formula
 $$
 \begin{aligned}
-&T_{F}=(\frac{9}{5})T_{C}+32\\
-&T_{C}=\text{celsius}
+T_{F}=(\frac{9}{5})T_{C}+32\\
+T_{C}=\text{celsius}
 \end{aligned}
 $$
 
@@ -47,8 +47,8 @@ $$
 ### kelvin formula
 $$
 \begin{aligned}
-&T_K=T_{C}+273.15\\
-&T_{C}=\text{celsius}
+T_K=T_{C}+273.15\\
+T_{C}=\text{celsius}
 \end{aligned}
 $$
 
@@ -84,8 +84,8 @@ $$
 ### zeroth law of thermodynamics formula
 $$
 \begin{aligned}
-&(T_A=T_C)\land(T_B=T_C)\implies T_A=T_B\\
-&T=\text{temperature}
+(T_A=T_C)\land(T_B=T_C)\implies T_A=T_B\\
+T=\text{temperature}
 \end{aligned}
 $$
 
@@ -98,10 +98,10 @@ $$
 ### length thermal expansion formula
 $$
 \begin{aligned}
-&\frac{\Delta L}{L}=\alpha\Delta T\\
-&L=\text{length}\\
-&\alpha=\text{linear expansion coefficient}\\
-&T=\text{temperature}
+\frac{\Delta L}{L}=\alpha\Delta T\\
+L=\text{length}\\
+\alpha=\text{linear expansion coefficient}\\
+T=\text{temperature}
 \end{aligned}
 $$
 
@@ -109,10 +109,10 @@ $$
 ### area thermal expansion formula
 $$
 \begin{aligned}
-&\frac{\Delta A}{A}=2\alpha\Delta T\\
-&A=\text{area}\\
-&\alpha=\text{linear expansion coefficient}\\
-&T=\text{temperature}
+\frac{\Delta A}{A}=2\alpha\Delta T\\
+A=\text{area}\\
+\alpha=\text{linear expansion coefficient}\\
+T=\text{temperature}
 \end{aligned}
 $$
 
@@ -120,10 +120,10 @@ $$
 ### volume thermal expansion formula
 $$
 \begin{aligned}
-&\frac{\Delta V}{V}=3\alpha\Delta T\\
-&V=\text{volume}\\
-&\alpha=\text{linear expansion coefficient}\\
-&T=\text{temperature}
+\frac{\Delta V}{V}=3\alpha\Delta T\\
+V=\text{volume}\\
+\alpha=\text{linear expansion coefficient}\\
+T=\text{temperature}
 \end{aligned}
 $$
 
@@ -136,12 +136,12 @@ $$
 ### thermal stress formula
 $$
 \begin{aligned}
-&\frac{F}{A}=Y\alpha\Delta T\\
-&F=\text{force}\\
-&A=\text{area}\\
-&Y=\text{young's modulus}\\
-&\alpha=\text{linear expansion coefficient}\\
-&T=\text{temperature}
+\frac{F}{A}=Y\alpha\Delta T\\
+F=\text{force}\\
+A=\text{area}\\
+Y=\text{young's modulus}\\
+\alpha=\text{linear expansion coefficient}\\
+T=\text{temperature}
 \end{aligned}
 $$
 
@@ -154,9 +154,9 @@ $$
 ### heat formula
 $$
 \begin{aligned}
-&\Delta T\ne0\implies Q\ne0\\
-&T=\text{temperature}\\
-&Q=\text{heat}
+\Delta T\ne0\implies Q\ne0\\
+T=\text{temperature}\\
+Q=\text{heat}
 \end{aligned}
 $$
 
@@ -169,7 +169,7 @@ $$
 ### kilocalorie formula
 $$
 \begin{aligned}
-&1\ \text{kcal}=4186\ \text{J}
+1\ \text{kcal}=4186\ \text{J}
 \end{aligned}
 $$
 
@@ -181,10 +181,10 @@ $$
 ### specific heat formula
 $$
 \begin{aligned}
-&Q=mc\Delta T\\
-&m=\text{mass}\\
-&c=\text{specific heat capacity}\\
-&T=\text{temperature}
+Q=mc\Delta T\\
+m=\text{mass}\\
+c=\text{specific heat capacity}\\
+T=\text{temperature}
 \end{aligned}
 $$
 
@@ -196,10 +196,10 @@ $$
 ### specific heat capacity formula
 $$
 \begin{aligned}
-&c=(\frac{1}{m})(\frac{dQ}{dT})\\
-&m=\text{mass}\\
-&Q=\text{heat}\\
-&T=\text{temperature}
+c=(\frac{1}{m})(\frac{dQ}{dT})\\
+m=\text{mass}\\
+Q=\text{heat}\\
+T=\text{temperature}
 \end{aligned}
 $$
 
@@ -212,12 +212,12 @@ $$
 ### molar heat capacity formula
 $$
 \begin{aligned}
-&C=(\frac{1}{n})(\frac{dQ}{dT})=Mc\\
-&n=\text{number of moles}\\
-&Q=\text{heat}\\
-&T=\text{temperature}\\
-&M=\text{molar mass}\\
-&c=\text{specific heat capacity}
+C=(\frac{1}{n})(\frac{dQ}{dT})=Mc\\
+n=\text{number of moles}\\
+Q=\text{heat}\\
+T=\text{temperature}\\
+M=\text{molar mass}\\
+c=\text{specific heat capacity}
 \end{aligned}
 $$
 
@@ -229,9 +229,9 @@ $$
 ### phase formula
 $$
 \begin{aligned}
-&\text{solid}\\
-&\text{liquid}\\
-&\text{gas}
+\text{solid}\\
+\text{liquid}\\
+\text{gas}
 \end{aligned}
 $$
 
@@ -244,7 +244,7 @@ $$
 ### phase change formula
 $$
 \begin{aligned}
-&\set{\text{solid, liquid, gas}}\xrightarrow{\pm Q}\set{\text{solid, liquid, gas}}
+\set{\text{solid, liquid, gas}}\xrightarrow{\pm Q}\set{\text{solid, liquid, gas}}
 \end{aligned}
 $$
 
@@ -256,7 +256,7 @@ $$
 ### melting point formula
 $$
 \begin{aligned}
-&\text{solid}\xrightarrow{+Q}\text{liquid}
+\text{solid}\xrightarrow{+Q}\text{liquid}
 \end{aligned}
 $$
 
@@ -319,7 +319,7 @@ $$
 ### triple point formula
 $$
 \begin{aligned}
-&\text{solid}\rightleftharpoons\text{liquid}\rightleftharpoons\text{gas}
+\text{solid}\rightleftharpoons\text{liquid}\rightleftharpoons\text{gas}
 \end{aligned}
 $$
 
@@ -331,7 +331,7 @@ $$
 ### critical point formula
 $$
 \begin{aligned}
-&\text{liquid}=\text{gas}
+\text{liquid}=\text{gas}
 \end{aligned}
 $$
 
@@ -346,9 +346,9 @@ $$
 ### TQ diagram formula
 $$
 \begin{aligned}
-&(Q,T)\\
-&Q=\text{heat}\\
-&T=\text{temperature}
+(Q,T)\\
+Q=\text{heat}\\
+T=\text{temperature}
 \end{aligned}
 $$
 
@@ -363,9 +363,9 @@ $$
 ### pT diagram formula
 $$
 \begin{aligned}
-&(T,p)\\
-&T=\text{temperature}\\
-&p=\text{pressure}
+(T,p)\\
+T=\text{temperature}\\
+p=\text{pressure}
 \end{aligned}
 $$
 
@@ -378,9 +378,9 @@ $$
 ### latent heat formula
 $$
 \begin{aligned}
-&Q=\pm mL\\
-&m=\text{mass}\\
-&L=\text{specific latent heat}
+Q=\pm mL\\
+m=\text{mass}\\
+L=\text{specific latent heat}
 \end{aligned}
 $$
 
@@ -393,13 +393,13 @@ $$
 ### conduction formula
 $$
 \begin{aligned}
-&\frac{dQ}{dt}=kA\frac{\Delta T}{L}\\
-&Q=\text{heat}\\
-&t=\text{time}\\
-&k=\text{thermal conductivity}\\
-&A=\text{area}\\
-&T=\text{temperature}\\
-&L=\text{length}
+\frac{dQ}{dt}=kA\frac{\Delta T}{L}\\
+Q=\text{heat}\\
+t=\text{time}\\
+k=\text{thermal conductivity}\\
+A=\text{area}\\
+T=\text{temperature}\\
+L=\text{length}
 \end{aligned}
 $$
 
@@ -411,9 +411,9 @@ $$
 ### convection formula
 $$
 \begin{aligned}
-&\frac{dQ}{dt}\propto A\\
-&\frac{dQ}{dt}\propto v\\
-&\frac{dQ}{dt}\propto(\Delta T)^{5/4}
+\frac{dQ}{dt}\propto A\\
+\frac{dQ}{dt}\propto v\\
+\frac{dQ}{dt}\propto(\Delta T)^{5/4}
 \end{aligned}
 $$
 
@@ -425,11 +425,11 @@ $$
 ### radiation formula
 $$
 \begin{aligned}
-&\frac{dQ}{dt}=Ae\sigma T^4\\
-&A=\text{area}\\
-&e=\text{emissivity}\\
-&\sigma=5.67\times10^{-8}\\
-&T=\text{temperature}
+\frac{dQ}{dt}=Ae\sigma T^4\\
+A=\text{area}\\
+e=\text{emissivity}\\
+\sigma=5.67\times10^{-8}\\
+T=\text{temperature}
 \end{aligned}
 $$
 
@@ -442,9 +442,9 @@ $$
 ### newtons formula of cooling
 $$
 \begin{aligned}
-&\frac{dT}{dt}=-k\Delta T\\
-&k=\text{cooling constant}\\
-&T=\text{temperature}\\
+\frac{dT}{dt}=-k\Delta T\\
+k=\text{cooling constant}\\
+T=\text{temperature}\\
 \end{aligned}
 $$
 

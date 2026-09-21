@@ -5,9 +5,9 @@
 ### integration by parts formula
 $$
 \begin{aligned}
-&\int u(x)dv=uv-\int v(x)du\\
-&dv=v'(x)dx\\
-&du=u'(x)dx
+\int u(x)dv=uv-\int v(x)du\\
+dv=v'(x)dx\\
+du=u'(x)dx
 \end{aligned}
 $$
 
@@ -28,21 +28,21 @@ $$
 ### integration by parts strategy formula
 $$
 \begin{aligned}
-&\int x^{n}e^{x}dx,\ \int x^{n}\sin(x)dx,\ \int x^{n}\cos(x)dx\
-&\begin{cases}
-&u=x^{n}\\
-&dv=e^{x}dx,\ \sin(x)dx,\ \cos(x)dx
-&\end{cases}\\
-&\int x^{n}\ln(x)dx,\ \int x^{n}\arcsin(x)dx,\ \int x^{n}\arccos(x)dx\
-&\begin{cases}
-&u=\ln(x),\ \arcsin(x),\ \arccos(x)\\
-&dv=x^{n}dx
-&\end{cases}\\
-&\int e^{x}\sin(x)dx,\ \int e^{x}\cos(x)dx\
-&\begin{cases}
-&u=\sin(x),\ \cos(x)\\
-&dv=e^{x}dx
-&\end{cases}
+\int x^{n}e^{x}dx,\ \int x^{n}\sin(x)dx,\ \int x^{n}\cos(x)dx\
+\begin{cases}
+u=x^{n}\\
+dv=e^{x}dx,\ \sin(x)dx,\ \cos(x)dx
+\end{cases}\\
+\int x^{n}\ln(x)dx,\ \int x^{n}\arcsin(x)dx,\ \int x^{n}\arccos(x)dx\
+\begin{cases}
+u=\ln(x),\ \arcsin(x),\ \arccos(x)\\
+dv=x^{n}dx
+\end{cases}\\
+\int e^{x}\sin(x)dx,\ \int e^{x}\cos(x)dx\
+\begin{cases}
+u=\sin(x),\ \cos(x)\\
+dv=e^{x}dx
+\end{cases}
 \end{aligned}
 $$
 
@@ -67,8 +67,8 @@ $$
 ### trigonometric integral formula
 $$
 \begin{aligned}
-&\int\sin^{m}(x)\cos^{n}(x)dx\\
-&\int\sec^{m}(x)\tan^{n}(x)dx
+\int\sin^{m}(x)\cos^{n}(x)dx\\
+\int\sec^{m}(x)\tan^{n}(x)dx
 \end{aligned}
 $$
 
@@ -76,9 +76,9 @@ $$
 ### trigonometric integral sine cosine formula
 $$
 \begin{aligned}
-&\int\textcolor{yellow}{\sin^{2k+1}(x)}\cos^{n}(x)dx=\int\textcolor{yellow}{(\sin^{2}x)^{k}}\cos^{n}(x)\textcolor{cyan}{\sin(x)dx}=\int\textcolor{yellow}{(1-\cos^{2}x)^{k}}\cos^{n}(x)\textcolor{cyan}{\sin(x)dx}\\
-&\int\sin^{m}(x)\textcolor{yellow}{\cos^{2k+1}(x)}dx=\int\sin^{m}(x)\textcolor{yellow}{(\cos^{2}x)^{k}}\textcolor{cyan}{\cos(x)dx}=\int\sin^{m}(x)\textcolor{yellow}{(1-\sin^{2}x)^{k}}\textcolor{cyan}{\cos(x)dx}\\
-&\int\sin^{2k}(x)\cos^{2k}(x)dx=\int(\frac{1-\cos2x}{2})^{k}(\frac{1+\cos2x}{2})^{k}dx
+\int\textcolor{yellow}{\sin^{2k+1}(x)}\cos^{n}(x)dx=\int\textcolor{yellow}{(\sin^{2}x)^{k}}\cos^{n}(x)\textcolor{cyan}{\sin(x)dx}=\int\textcolor{yellow}{(1-\cos^{2}x)^{k}}\cos^{n}(x)\textcolor{cyan}{\sin(x)dx}\\
+\int\sin^{m}(x)\textcolor{yellow}{\cos^{2k+1}(x)}dx=\int\sin^{m}(x)\textcolor{yellow}{(\cos^{2}x)^{k}}\textcolor{cyan}{\cos(x)dx}=\int\sin^{m}(x)\textcolor{yellow}{(1-\sin^{2}x)^{k}}\textcolor{cyan}{\cos(x)dx}\\
+\int\sin^{2k}(x)\cos^{2k}(x)dx=\int(\frac{1-\cos2x}{2})^{k}(\frac{1+\cos2x}{2})^{k}dx
 \end{aligned}
 $$
 
@@ -86,10 +86,10 @@ $$
 ### trigonometric integral secant tangent formula
 $$
 \begin{aligned}
-&\int\textcolor{yellow}{\sec^{2k}(x)}\tan^{n}(x)dx=\int\textcolor{yellow}{(\sec^{2}x)^{k-1}}\tan^{n}(x)\textcolor{cyan}{\sec^{2}(x)dx}=\int\textcolor{yellow}{(1+\tan^{2}x)^{k-1}}\tan^{n}(x)\textcolor{cyan}{\sec^{2}(x)dx}\\
-&\small{\int\sec^{m}(x)\textcolor{yellow}{\tan^{2k+1}(x)}dx=\int\sec^{m-1}(x)\textcolor{yellow}{(\tan^{2}x)^{k}}\textcolor{cyan}{\sec(x)\tan(x)dx}=\int\sec^{m}(x)\textcolor{yellow}{(\sec^{2}x-1)^{k}}\textcolor{cyan}{\sec(x)\tan(x)dx}}\\
-&\int\tan^{n}(x)=\int\textcolor{yellow}{(\tan^{2}x)}\tan^{n-2}(x)dx=\int\textcolor{yellow}{(\sec^{2}x-1)}\tan^{n-2}(x)dx\\
-&\int\sec^{m}(x)dx=\int u(x)dv=uv-\int v(x)du\\
+\int\textcolor{yellow}{\sec^{2k}(x)}\tan^{n}(x)dx=\int\textcolor{yellow}{(\sec^{2}x)^{k-1}}\tan^{n}(x)\textcolor{cyan}{\sec^{2}(x)dx}=\int\textcolor{yellow}{(1+\tan^{2}x)^{k-1}}\tan^{n}(x)\textcolor{cyan}{\sec^{2}(x)dx}\\
+\small{\int\sec^{m}(x)\textcolor{yellow}{\tan^{2k+1}(x)}dx=\int\sec^{m-1}(x)\textcolor{yellow}{(\tan^{2}x)^{k}}\textcolor{cyan}{\sec(x)\tan(x)dx}=\int\sec^{m}(x)\textcolor{yellow}{(\sec^{2}x-1)^{k}}\textcolor{cyan}{\sec(x)\tan(x)dx}}\\
+\int\tan^{n}(x)=\int\textcolor{yellow}{(\tan^{2}x)}\tan^{n-2}(x)dx=\int\textcolor{yellow}{(\sec^{2}x-1)}\tan^{n-2}(x)dx\\
+\int\sec^{m}(x)dx=\int u(x)dv=uv-\int v(x)du\\
 \end{aligned}
 $$
 
@@ -108,21 +108,21 @@ $$
 ### trigonometric substitution formula
 $$
 \begin{aligned}
-&\sqrt{a^{2}-u^{2}}=a\cos(\theta)
-&\begin{cases}
-&u=a\sin(\theta)\\
-&du=a\cos(\theta)d\theta
-&\end{cases}\\
-&\sqrt{a^{2}+u^{2}}=a\sec(\theta)
-&\begin{cases}
-&u=a\tan(\theta)\\
-&du=a\sec^{2}(\theta)d\theta\\
-&\end{cases}\\
-&\sqrt{u^{2}-a^{2}}=a\tan(\theta)
-&\begin{cases}
-&u=a\sec(\theta)\\
-&du=a\sec(\theta)\tan(\theta)d\theta\\
-&\end{cases}
+\sqrt{a^{2}-u^{2}}=a\cos(\theta)
+\begin{cases}
+u=a\sin(\theta)\\
+du=a\cos(\theta)d\theta
+\end{cases}\\
+\sqrt{a^{2}+u^{2}}=a\sec(\theta)
+\begin{cases}
+u=a\tan(\theta)\\
+du=a\sec^{2}(\theta)d\theta\\
+\end{cases}\\
+\sqrt{u^{2}-a^{2}}=a\tan(\theta)
+\begin{cases}
+u=a\sec(\theta)\\
+du=a\sec(\theta)\tan(\theta)d\theta\\
+\end{cases}
 \end{aligned}
 $$
 
@@ -141,8 +141,8 @@ $$
 ### partial fraction decomposition formula
 $$
 \begin{aligned}
-&\frac{N(x)}{(px+q)^{m}}=\frac{A_{1}}{(px+1)^{1}}+\frac{A_{2}}{(px+1)^{2}}+...+\frac{A_{m}}{(px+1)^{m}}\\
-&\frac{N(x)}{(ax^{2}+bx+c)^{n}}=\frac{B_{1}x+C_{1}}{(ax^{2}+bx+c)^{1}}+\frac{B_{2}x+C_{2}}{(ax^{2}+bx+c)^{2}}+...+\frac{B_{n}x+C_{n}}{(ax^{2}+bx+c)^{n}}\\
+\frac{N(x)}{(px+q)^{m}}=\frac{A_{1}}{(px+1)^{1}}+\frac{A_{2}}{(px+1)^{2}}+...+\frac{A_{m}}{(px+1)^{m}}\\
+\frac{N(x)}{(ax^{2}+bx+c)^{n}}=\frac{B_{1}x+C_{1}}{(ax^{2}+bx+c)^{1}}+\frac{B_{2}x+C_{2}}{(ax^{2}+bx+c)^{2}}+...+\frac{B_{n}x+C_{n}}{(ax^{2}+bx+c)^{n}}\\
 \end{aligned}
 $$
 
@@ -184,9 +184,9 @@ $$
 ### trapezoidal formula
 $$
 \begin{aligned}
-&\int_{a}^{b}f(x)dx=\frac{\Delta x}{2}[f(x_{0})+2f(x_{1})+2f(x_{2})+2f(x_{3})+...+2f(x_{n-1})+f(x_{n})]\\
-&k=1,2,2,2,...2,1\\
-&\Delta x=\frac{b-a}{n}
+\int_{a}^{b}f(x)dx=\frac{\Delta x}{2}[f(x_{0})+2f(x_{1})+2f(x_{2})+2f(x_{3})+...+2f(x_{n-1})+f(x_{n})]\\
+k=1,2,2,2,...2,1\\
+\Delta x=\frac{b-a}{n}
 \end{aligned}
 $$
 
@@ -199,9 +199,9 @@ $$
 ### simpsons formula
 $$
 \begin{aligned}
-&\int_{a}^{b}f(x)dx=\frac{\Delta x}{3}[f(x_{0})+4f(x_{1})+2f(x_{2})+4f(x_{3})+...+4f(x_{n-1})+f(x_{n})]\\
-&k=1,4,2,4,...4,1\\
-&\Delta x=\frac{b-a}{n}
+\int_{a}^{b}f(x)dx=\frac{\Delta x}{3}[f(x_{0})+4f(x_{1})+2f(x_{2})+4f(x_{3})+...+4f(x_{n-1})+f(x_{n})]\\
+k=1,4,2,4,...4,1\\
+\Delta x=\frac{b-a}{n}
 \end{aligned}
 $$
 
@@ -233,7 +233,7 @@ $$
 ### infinite lower limit of integration formula
 $$
 \begin{aligned}
-&\int_{-\infty}^{b}f(x)dx=\lim_{a\rightarrow-\infty}\int_{a}^{b}f(x)dx
+\int_{-\infty}^{b}f(x)dx=\lim_{a\rightarrow-\infty}\int_{a}^{b}f(x)dx
 \end{aligned}
 $$
 
@@ -246,7 +246,7 @@ $$
 ### infinite lower limit of integration formula
 $$
 \begin{aligned}
-&\int_{a}^{\infty}f(x)dx=\lim_{b\rightarrow\infty}\int_{a}^{b}f(x)dx
+\int_{a}^{\infty}f(x)dx=\lim_{b\rightarrow\infty}\int_{a}^{b}f(x)dx
 \end{aligned}
 $$
 
@@ -259,7 +259,7 @@ $$
 ### infinite limit of integration formula
 $$
 \begin{aligned}
-&\int_{-\infty}^{\infty}f(x)dx=\int_{-\infty}^{c}f(x)dx+\int_{c}^{\infty}f(x)dx
+\int_{-\infty}^{\infty}f(x)dx=\int_{-\infty}^{c}f(x)dx+\int_{c}^{\infty}f(x)dx
 \end{aligned}
 $$
 

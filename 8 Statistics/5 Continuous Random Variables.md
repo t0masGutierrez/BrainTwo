@@ -5,12 +5,12 @@
 ### random variable formula
 $$
 \begin{aligned}
-&X:\Omega\rightarrow\mathbb R\\
-&X(\omega)=x\\
-&X=\text{random variable}\\
-&\Omega=\text{sample space}\\
-&x=\text{real number}\\
-&\omega=\text{outcome}
+X:\Omega\rightarrow\mathbb R\\
+X(\omega)=x\\
+X=\text{random variable}\\
+\Omega=\text{sample space}\\
+x=\text{real number}\\
+\omega=\text{outcome}
 \end{aligned}
 $$
 
@@ -22,8 +22,8 @@ $$
 ### continuous random variable formula
 $$
 \begin{aligned}
-&(\{0,1,2,3,\dots,n\}\not\sim X)\land(\mathbb N\not\sim X)\\
-&X=\text{random variable}
+(\{0,1,2,3,\dots,n\}\not\sim X)\land(\mathbb N\not\sim X)\\
+X=\text{random variable}
 \end{aligned}
 $$
 
@@ -63,9 +63,9 @@ $$
 ### uniform PDF expectation formula
 $$
 \begin{aligned}
-&E[X]=\frac{a+b}{2}\\
-&a=\text{lower endpoint}\\
-&b=\text{upper endpoint}
+E[X]=\frac{a+b}{2}\\
+a=\text{lower endpoint}\\
+b=\text{upper endpoint}
 \end{aligned}
 $$
 
@@ -73,9 +73,9 @@ $$
 ### uniform PDF variance formula
 $$
 \begin{aligned}
-&\text{Var}(X)={\frac{(b-a)^{2}}{12}}\\
-&a=\text{lower endpoint}\\
-&b=\text{upper endpoint}
+\text{Var}(X)={\frac{(b-a)^{2}}{12}}\\
+a=\text{lower endpoint}\\
+b=\text{upper endpoint}
 \end{aligned}
 $$
 
@@ -97,8 +97,8 @@ $$
 ### normal PDF expectation formula
 $$
 \begin{aligned}
-&E[X]=\mu\\
-&\mu=\text{mean}
+E[X]=\mu\\
+\mu=\text{mean}
 \end{aligned}
 $$
 
@@ -106,8 +106,8 @@ $$
 ### normal PDF variance formula
 $$
 \begin{aligned}
-&\text{Var}(X)=\sigma^{2}\\
-&\sigma=\text{standard deviation}
+\text{Var}(X)=\sigma^{2}\\
+\sigma=\text{standard deviation}
 \end{aligned}
 $$
 
@@ -128,7 +128,7 @@ $$
 ### standard normal PDF expectation formula
 $$
 \begin{aligned}
-&E[X]=0
+E[X]=0
 \end{aligned}
 $$
 
@@ -136,7 +136,7 @@ $$
 ### standard normal PDF variance formula
 $$
 \begin{aligned}
-&\text{Var}(X)=1
+\text{Var}(X)=1
 \end{aligned}
 $$
 
@@ -158,8 +158,8 @@ $$
 ### exponential PDF expectation formula
 $$
 \begin{aligned}
-&E[X]=\frac{1}{\lambda}\\
-&\lambda=\text{average number of events per time}
+E[X]=\frac{1}{\lambda}\\
+\lambda=\text{average number of events per time}
 \end{aligned}
 $$
 
@@ -167,8 +167,8 @@ $$
 ### exponential PDF variance formula
 $$
 \begin{aligned}
-&\text{Var}(X)=\frac{1}{\lambda^{2}}\\
-&\lambda=\text{average number of events per time}
+\text{Var}(X)=\frac{1}{\lambda^{2}}\\
+\lambda=\text{average number of events per time}
 \end{aligned}
 $$
 

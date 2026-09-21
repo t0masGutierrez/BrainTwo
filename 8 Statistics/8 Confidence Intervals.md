@@ -5,7 +5,7 @@
 ### estimator formula
 $$
 \begin{aligned}
-&\theta
+\theta
 \end{aligned}
 $$
 
@@ -17,9 +17,9 @@ $$
 ### bias formula
 $$
 \begin{aligned}
-&B=E[\theta]-\Theta\\
-&\theta=\text{sample statistic}\\
-&\Theta=\text{population parameter}
+B=E[\theta]-\Theta\\
+\theta=\text{sample statistic}\\
+\Theta=\text{population parameter}
 \end{aligned}
 $$
 
@@ -31,9 +31,9 @@ $$
 ### biased estimator formula
 $$
 \begin{aligned}
-&\mu_{\theta}\ne\Theta\\
-&\theta=\text{sample statistic}\\
-&\Theta=\text{population parameter}
+\mu_{\theta}\ne\Theta\\
+\theta=\text{sample statistic}\\
+\Theta=\text{population parameter}
 \end{aligned}
 $$
 
@@ -45,9 +45,9 @@ $$
 ### unbiased estimator formula
 $$
 \begin{aligned}
-&\mu_{\theta}=\Theta\\
-&\theta=\text{sample statistic}\\
-&\Theta=\text{population parameter}
+\mu_{\theta}=\Theta\\
+\theta=\text{sample statistic}\\
+\Theta=\text{population parameter}
 \end{aligned}
 $$
 
@@ -59,9 +59,9 @@ $$
 ### confidence level formula
 $$
 \begin{aligned}
-&\text{1-tail CI}=1-2\alpha\\
-&\text{2-tail CI}=1-\alpha\\
-&\alpha=\text{significance level}
+\text{1-tail CI}=1-2\alpha\\
+\text{2-tail CI}=1-\alpha\\
+\alpha=\text{significance level}
 \end{aligned}
 $$
 
@@ -73,9 +73,9 @@ $$
 ### degrees of freedom formula
 $$
 \begin{aligned}
-&\text{df}=n-k\\
-&n=\text{sample size}\\
-&k=\text{number of constraints}
+\text{df}=n-k\\
+n=\text{sample size}\\
+k=\text{number of constraints}
 \end{aligned}
 $$
 
@@ -87,13 +87,13 @@ $$
 ### critical value formula
 $$
 \begin{aligned}
-&P(\theta<c^{*})=\alpha\implies c^{*}=\theta^{-1}(\alpha,\text{df})\\
-&P(\theta>c^{*})=\alpha\implies c^{*}=\theta^{-1}(1-\alpha,\text{df})\\
-&P(-c^*\le\theta\le c^{*})=1-\alpha\implies c^{*}=\theta^{-1}(1-\alpha/2,\text{df})\\
-&\theta=\text{sample statistic}\\
-&c^{*}=\text{critical value}\\
-&\alpha=\text{significance level}\\
-&\text{df}=\text{degrees of freedom}
+P(\theta<c^{*})=\alpha\implies c^{*}=\theta^{-1}(\alpha,\text{df})\\
+P(\theta>c^{*})=\alpha\implies c^{*}=\theta^{-1}(1-\alpha,\text{df})\\
+P(-c^*\le\theta\le c^{*})=1-\alpha\implies c^{*}=\theta^{-1}(1-\alpha/2,\text{df})\\
+\theta=\text{sample statistic}\\
+c^{*}=\text{critical value}\\
+\alpha=\text{significance level}\\
+\text{df}=\text{degrees of freedom}
 \end{aligned}
 $$
 
@@ -105,9 +105,9 @@ $$
 ### margin of error formula
 $$
 \begin{aligned}
-&E=(c^{*})(SE)\\
-&c^{*}=\text{critical value}\\
-&SE=\text{standard error}
+E=(c^{*})(SE)\\
+c^{*}=\text{critical value}\\
+SE=\text{standard error}
 \end{aligned}
 $$
 
@@ -119,9 +119,9 @@ $$
 ### point estimate formula
 $$
 \begin{aligned}
-&\theta\approx\Theta\\
-&\theta=\text{sample statistic}\\
-&\Theta=\text{population parameter}\\
+\theta\approx\Theta\\
+\theta=\text{sample statistic}\\
+\Theta=\text{population parameter}\\
 \end{aligned}
 $$
 
@@ -138,10 +138,10 @@ $$
 ### confidence interval formula
 $$
 \begin{aligned}
-&\text{CI}=\theta\pm(c^{*})(SE)\\
-&\theta=\text{sample statistic}\\
-&c^{*}=\text{critical value}\\
-&SE=\text{standard error}
+\text{CI}=\theta\pm(c^{*})(SE)\\
+\theta=\text{sample statistic}\\
+c^{*}=\text{critical value}\\
+SE=\text{standard error}
 \end{aligned}
 $$
 
@@ -164,13 +164,13 @@ $$
 ### mean confidence interval formula
 $$
 \begin{aligned}
-&\text{CI}=\overline X\pm z^{*}(\frac{\sigma}{\sqrt n})\\
-&\text{CI}=\overline X\pm t^{*}(\frac{s}{\sqrt n})\\
-&\overline X=\text{sample mean}\\
-&z^{*},t^{*}=\text{critical value}\\
-&\sigma=\text{standard deviation}\\
-&n=\text{sample size}\\
-&s=\text{sample standard deviation}
+\text{CI}=\overline X\pm z^{*}(\frac{\sigma}{\sqrt n})\\
+\text{CI}=\overline X\pm t^{*}(\frac{s}{\sqrt n})\\
+\overline X=\text{sample mean}\\
+z^{*},t^{*}=\text{critical value}\\
+\sigma=\text{standard deviation}\\
+n=\text{sample size}\\
+s=\text{sample standard deviation}
 \end{aligned}
 $$
 
@@ -186,10 +186,10 @@ $$
 ### proportion confidence interval formula
 $$
 \begin{aligned}
-&\text{CI}=\hat p\pm z^{*}\sqrt{\frac{\hat p(1-\hat p)}{n}}\\
-&\hat p=\text{sample proportion}\\
-&z^{*}=\text{critical value}\\
-&n=\text{sample size}\\
+\text{CI}=\hat p\pm z^{*}\sqrt{\frac{\hat p(1-\hat p)}{n}}\\
+\hat p=\text{sample proportion}\\
+z^{*}=\text{critical value}\\
+n=\text{sample size}\\
 \end{aligned}
 $$
 
@@ -203,10 +203,10 @@ $$
 ### standard deviation confidence interval formula
 $$
 \begin{aligned}
-&\text{CI}=\left(\sqrt{\frac{(n-1)s^{2}}{\chi^{2}_{\alpha/2}}},\sqrt{\frac{(n-1)s^{2}}{\chi^{2}_{1-\alpha/2}}}\right)\\
-&n=\text{sample size}\\
-&s=\text{sample standard deviation}\\
-&\chi^{2}_{*}=\text{critical value}
+\text{CI}=\left(\sqrt{\frac{(n-1)s^{2}}{\chi^{2}_{\alpha/2}}},\sqrt{\frac{(n-1)s^{2}}{\chi^{2}_{1-\alpha/2}}}\right)\\
+n=\text{sample size}\\
+s=\text{sample standard deviation}\\
+\chi^{2}_{*}=\text{critical value}
 \end{aligned}
 $$
 

@@ -50,8 +50,8 @@ $$
 ### dimensional basis formula
 $$
 \begin{aligned}
-&\text{Span}(D)=\mathcal V\\
-&\text{Rank}(D)=m
+\text{Span}(D)=\mathcal V\\
+\text{Rank}(D)=m
 \end{aligned}
 $$
 
@@ -87,9 +87,9 @@ $$
 ### exponent property formula
 $$
 \begin{aligned}
-&\Delta_{\text{pq}}=\Delta_{p}+\Delta_{q}\\
-&\Delta_{p/q}=\Delta_{p}-\Delta_{q}\\
-&\Delta_{q^{k}}=k\Delta_{q}
+\Delta_{\text{pq}}=\Delta_{p}+\Delta_{q}\\
+\Delta_{p/q}=\Delta_{p}-\Delta_{q}\\
+\Delta_{q^{k}}=k\Delta_{q}
 \end{aligned}
 $$
 
@@ -115,10 +115,10 @@ $$
 ### change of units formula
 $$
 \begin{aligned}
-&q'=q\prod_{i=1}^{m}\lambda_{i}^{a_{i}}\\
-&q=\text{quantity}\\
-&\lambda=\text{unit conversion factor}\\
-&a=\text{dimensional exponent}
+q'=q\prod_{i=1}^{m}\lambda_{i}^{a_{i}}\\
+q=\text{quantity}\\
+\lambda=\text{unit conversion factor}\\
+a=\text{dimensional exponent}
 \end{aligned}
 $$
 
@@ -130,7 +130,7 @@ $$
 ### unit-free equation formula
 $$
 \begin{aligned}
-&q_{1}=f(q_{2},\dots,q_{n})\implies q_{1}'=f'(q_{2}',\dots,q_{n}')
+q_{1}=f(q_{2},\dots,q_{n})\implies q_{1}'=f'(q_{2}',\dots,q_{n}')
 \end{aligned}
 $$
 
@@ -159,9 +159,9 @@ $$
 ### dimensionless power product formula
 $$
 \begin{aligned}
-&\pi=\prod_{i=1}^{n}q_{i}^{b_{i}}>0\\
-&q=\text{quantity}\\
-&b=\text{quantitative exponent}
+\pi=\prod_{i=1}^{n}q_{i}^{b_{i}}>0\\
+q=\text{quantity}\\
+b=\text{quantitative exponent}
 \end{aligned}
 $$
 

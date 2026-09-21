@@ -7,6 +7,7 @@
 $$
 \begin{aligned}
 &\vec\eta(t)=[\vec x]_B=\sum_{i=1}^nC_i\cos(\omega_it+\phi_i)\\
+&\vec\eta(t)=[\vec q]_B=\sum_{i=1}^nC_i\cos(\omega_it+\phi_i)\\
 &B=(\vec A_1,\vec A_2,\dots,\vec A_n)\\
 &\vec\eta=\text{normal position}\\
 &\vec x=\text{position}\\
@@ -15,7 +16,8 @@ $$
 &C=\text{constant}\\
 &\omega=\text{angular frequency}\\
 &t=\text{time}\\
-&\phi=\text{phase angle}
+&\phi=\text{phase angle}\\
+&\vec q=\text{electric charge}
 \end{aligned}
 $$
 
@@ -27,13 +29,16 @@ $$
 ### normal mode formula
 $$
 \begin{aligned}
-&K\frac{d^2\vec x}{dt}+M\vec x=0\\
-&(K-\omega_i^2M)\vec A_i=0\\
-&\vec x=\sum_{i=1}^n\eta_i\vec A_i\\
+&K\frac{d^2\vec x}{dt}+M\vec x=0\iff L\frac{d^2\vec q}{dt}+C^{-1}\vec q=0\\
+&(K-\omega_i^2M)\vec A_i=0\iff(L-\omega_i^2C^{-1})\vec A_i=0\\
+&\vec x=\sum_{i=1}^n\eta_i\vec A_i\iff\vec q=\sum_{i=1}^n\eta_i\vec A_i\\
 &K=\text{spring constant}\\
 &\vec x=\text{position}\\
 &t=\text{time}\\
 &M=\text{mass}\\
+&L=\text{self inductance}\\
+&\vec q=\text{electric charge}\\
+&C=\text{capacitance}\\
 &\omega=\text{angular frequency}\\
 &\vec A=\text{eigenvector}\\
 &\eta=\text{normal position}
@@ -48,15 +53,17 @@ $$
 ### normal frequency formula
 $$
 \begin{aligned}
-&\det(K-\omega_i^2M)\vec A_i\implies\omega_i^2=\lambda_i\\
-&K_{\text{ii}}=k_i+k_{i+1}\\
-&K_{i,i+1}=K_{i+1,i}=-k_{i+1}\\
-&M_{\text{ii}}=m_i\\
+&\det(K-\omega_i^2M)\vec A_i\implies\omega_i^2=\lambda_i\impliedby\det(L-\omega_i^2C^{-1})\vec A_i\\
+&K_{\text{ii}}=k_i+k_{i+1}\iff L_{\text{ii}}=L_i+L_{i+1}\\
+&K_{i,i+1}=K_{i+1,i}=-k_{i+1}\iff L_{i,i+1}=L_{i+1,i}=-L_{i+1}\\
+&M_{\text{ii}}=m_i\iff C^{-1}_{\text{ii}}=C_i\\
 &K,k=\text{spring constant}\\
 &\omega=\text{angular frequency}\\
 &M,m=\text{mass}\\
 &\vec A=\text{eigenvector}\\
-&\lambda=\text{eigenvalue}
+&\lambda=\text{eigenvalue}\\
+&L=\text{self inductance}\\
+&C=\text{capacitance}\\
 \end{aligned}
 $$
 
@@ -69,10 +76,13 @@ $$
 $$
 \begin{aligned}
 &nx_0+nv_0=2n(x_0+v_0)\iff nA_i+n\phi_i=2n(A_i+\phi_i)\\
+&nq_0+ni_0=2n(q_0+i_0)\iff nA_i+n\phi_i=2n(A_i+\phi_i)\\
 &x=\text{position}\\
 &v=\text{velocity}\\
 &A=\text{amplitude}\\
-&\phi=\text{phase angle}
+&\phi=\text{phase angle}\\
+&q=\text{electric charge}\\
+&i=\text{electric current}
 \end{aligned}
 $$
 
@@ -85,7 +95,8 @@ $$
 $$
 \begin{aligned}
 &\text{RREF}(P\mid\vec x)=I\mid\vec\eta\\
-&P=\begin{bmatrix}\vert\vert\vert\\\vec A_1\vec A_2\cdots\vec A_n\\\vert\vert\vert\end{bmatrix}\\
+&\text{RREF}(P\mid\vec q)=I\mid\vec\eta\\
+&P=\begin{bmatrix}\vert&\vert&&\vert\\\vec A_1&\vec A_2&\cdots&\vec A_n\\\vert&\vert&&\vert\end{bmatrix}\\
 &P=\text{eigenmatrix}\\
 &\vec x=\text{position}\\
 &I=\text{identity matrix}\\
@@ -93,21 +104,5 @@ $$
 &\vec A=\text{eigenvector}
 \end{aligned}
 $$
-
----
-### term
-- definition
-
----
-### term
-- definition
-
----
-### term
-- definition
-
----
-### term
-- definition
 
 ---
