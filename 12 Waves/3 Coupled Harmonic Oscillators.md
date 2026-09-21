@@ -53,7 +53,7 @@ $$
 ### normal frequency formula
 $$
 \begin{lgathered}
-\det(K-\omega_i^2M)\vec A_i\implies\omega_i^2=\lambda_i\impliedby\det(L-\omega_i^2C^{-1})\vec A_i\\
+\det(K-\omega_i^2M)=0\implies\omega_i^2=\lambda_i\impliedby\det(L-\omega_i^2C^{-1})=0\\
 K_{\text{ii}}=k_i+k_{i+1}\iff L_{\text{ii}}=L_i+L_{i+1}\\
 K_{i,i+1}=K_{i+1,i}=-k_{i+1}\iff L_{i,i+1}=L_{i+1,i}=-L_{i+1}\\
 M_{\text{ii}}=m_i\iff C^{-1}_{\text{ii}}=C_i\\
