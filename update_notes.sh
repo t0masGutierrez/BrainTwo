@@ -16,7 +16,9 @@ main() {
     git pull --rebase --quiet
 
     if [ "$stashed" -eq 1 ]; then
-        git stash pop --quiet
+        # Git prints this even with --quiet when only untracked files were saved.
+        # Keep all other output and, with pipefail, stop if restoring files fails.
+        git stash pop --quiet | sed '/^Already up to date\.$/d'
     fi
 
     python3 update_notes.py
