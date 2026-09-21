@@ -54,12 +54,12 @@ $$
 ### uniform PMF probability
 $$
 \begin{aligned}
-&X\sim\text{Uni}(a,b)\implies P(X=x)=\begin{cases}
-&\frac{1}{b-a+1},\quad a\le x\le b\\
-&0,\quad\text{otherwise}
-&\end{cases}\\
-&a=\text{lower endpoint}\\
-&b=\text{upper endpoint}
+X\sim\text{Uni}(a,b)\implies P(X=x)=\begin{cases}
+\frac{1}{b-a+1},\quad a\le x\le b\\
+0,\quad\text{otherwise}
+\end{cases}\\
+a=\text{lower endpoint}\\
+b=\text{upper endpoint}
 \end{aligned}
 $$
 
@@ -77,9 +77,9 @@ $$
 ### uniform PMF variance
 $$
 \begin{aligned}
-&\text{Var}(X)=\frac{(b-a)(b-a+2)}{12}\\
-&a=\text{lower endpoint}\\
-&b=\text{upper endpoint}
+\text{Var}(X)=\frac{(b-a)(b-a+2)}{12}\\
+a=\text{lower endpoint}\\
+b=\text{upper endpoint}
 \end{aligned}
 $$
 
@@ -96,11 +96,11 @@ $$
 ### bernoulli PMF probability formula
 $$
 \begin{aligned}
-&X\sim\text{Ber}(p)\implies P(X=x)=p^{x}q^{1-x}\\
-&X=\text{random variable}\\
-&x=\text{number of successes}\\
-&p=\text{probability of success}\\
-&q=\text{probability of failure}
+X\sim\text{Ber}(p)\implies P(X=x)=p^{x}q^{1-x}\\
+X=\text{random variable}\\
+x=\text{number of successes}\\
+p=\text{probability of success}\\
+q=\text{probability of failure}
 \end{aligned}
 $$
 
@@ -140,12 +140,12 @@ $$
 ### binomial PMF probability formula
 $$
 \begin{aligned}
-&X\sim\text{Bin}(p,n)\implies P(X=x)=\begin{pmatrix}n\\x\end{pmatrix}p^{x}q^{n-x}\\
-&X=\text{random variable}\\
-&n=\text{number of trials}\\
-&x=\text{number of successes}\\
-&p=\text{probability of success}\\
-&q=\text{probability of failure}
+X\sim\text{Bin}(p,n)\implies P(X=x)=\begin{pmatrix}n\\x\end{pmatrix}p^{x}q^{n-x}\\
+X=\text{random variable}\\
+n=\text{number of trials}\\
+x=\text{number of successes}\\
+p=\text{probability of success}\\
+q=\text{probability of failure}
 \end{aligned}
 $$
 
@@ -187,11 +187,11 @@ $$
 ### geometric PMF probability formula
 $$
 \begin{aligned}
-&X\sim\text{Geo}(p)\implies P(X=x)=pq^{x}\\
-&X=\text{random variable}\\
-&p=\text{probability of success}\\
-&q=\text{probability of failure}\\
-&x=\text{number of failures before 1st success}
+X\sim\text{Geo}(p)\implies P(X=x)=pq^{x}\\
+X=\text{random variable}\\
+p=\text{probability of success}\\
+q=\text{probability of failure}\\
+x=\text{number of failures before 1st success}
 \end{aligned}
 $$
 
@@ -199,10 +199,10 @@ $$
 ### geometric PMF expectation formula
 $$
 \begin{aligned}
-&E[X]=\frac{q}{p}\\
-&X=\text{random variable}\\
-&p=\text{probability of success}\\
-&q=\text{probability of failure}
+E[X]=\frac{q}{p}\\
+X=\text{random variable}\\
+p=\text{probability of success}\\
+q=\text{probability of failure}
 \end{aligned}
 $$
 
@@ -232,12 +232,12 @@ $$
 ### negative binomial PMF probability formula
 $$
 \begin{aligned}
-&X\sim\text{NegBin}(p,r)\implies P(X=x)=\begin{pmatrix}x+r-1\\r-1\end{pmatrix}p^{r}q^{x}\\
-&X=\text{random variable}\\
-&x=\text{number of failures before rth success}\\
-&r=\text{success number}\\
-&p=\text{probability of success}\\
-&q=\text{probability of failure}
+X\sim\text{NegBin}(p,r)\implies P(X=x)=\begin{pmatrix}x+r-1\\r-1\end{pmatrix}p^{r}q^{x}\\
+X=\text{random variable}\\
+x=\text{number of failures before rth success}\\
+r=\text{success number}\\
+p=\text{probability of success}\\
+q=\text{probability of failure}
 \end{aligned}
 $$
 
@@ -245,10 +245,10 @@ $$
 ### negative binomial PMF expectation formula
 $$
 \begin{aligned}
-&E[X]=\frac{rq}{p}\\
-&r=\text{success number}\\
-&p=\text{probability of success}\\
-&q=\text{probability of failure}
+E[X]=\frac{rq}{p}\\
+r=\text{success number}\\
+p=\text{probability of success}\\
+q=\text{probability of failure}
 \end{aligned}
 $$
 
@@ -277,12 +277,12 @@ $$
 ### hypergeometric PMF probability formula
 $$
 \begin{aligned}
-&X\sim\text{HypGeo}(N,K,n)\implies P(X=x)=\frac{\begin{pmatrix}K\\x\end{pmatrix}\begin{pmatrix}N-K\\n-x\end{pmatrix}}{\begin{pmatrix}N\\n\end{pmatrix}}\\
-&X=\text{random variable}\\
-&K=\text{interest size}\\
-&x=\text{number of interest items drawn}\\
-&N=\text{population size}\\
-&n=\text{number of items drawn}
+X\sim\text{HypGeo}(N,K,n)\implies P(X=x)=\frac{\begin{pmatrix}K\\x\end{pmatrix}\begin{pmatrix}N-K\\n-x\end{pmatrix}}{\begin{pmatrix}N\\n\end{pmatrix}}\\
+X=\text{random variable}\\
+K=\text{interest size}\\
+x=\text{number of interest items drawn}\\
+N=\text{population size}\\
+n=\text{number of items drawn}
 \end{aligned}
 $$
 
@@ -326,12 +326,12 @@ $$
 ### poisson PMF probability formula
 $$
 \begin{aligned}
-&X\sim\text{Pois}(\lambda)\implies P(X=x)=\frac{\lambda^{x}}{x!}e^{-\lambda}\\
-&X=\text{random variable}\\
-&x=\text{number of events within interval}\\
-&\lambda=\text{average number of events per interval}\\
-&n=\text{number of trials}\\
-&p=\text{probability of success}
+X\sim\text{Pois}(\lambda)\implies P(X=x)=\frac{\lambda^{x}}{x!}e^{-\lambda}\\
+X=\text{random variable}\\
+x=\text{number of events within interval}\\
+\lambda=\text{average number of events per interval}\\
+n=\text{number of trials}\\
+p=\text{probability of success}
 \end{aligned}
 $$
 

@@ -80,10 +80,10 @@ $$
 ### interval formula
 $$
 \begin{aligned}
-&[a,b]\\
-&[a,b)\\
-&(a,b]\\
-&(a,b)
+{}[a,b]\\
+{}[a,b)\\
+(a,b]\\
+(a,b)
 \end{aligned}
 $$
 

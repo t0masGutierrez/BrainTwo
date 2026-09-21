@@ -54,7 +54,7 @@ $$
 ### inverse sine range
 $$
 \begin{aligned}
-&[\frac{-\pi}{2},\frac{\pi}{2}]
+{}[\frac{-\pi}{2},\frac{\pi}{2}]
 \end{aligned}
 $$
 
@@ -62,7 +62,7 @@ $$
 ### inverse cosine range
 $$
 \begin{aligned}
-&[0,\pi]
+{}[0,\pi]
 \end{aligned}
 $$
 
@@ -70,7 +70,7 @@ $$
 ### inverse tangent range
 $$
 \begin{aligned}
-&[\frac{-\pi}{2},\frac{\pi}{2}]
+{}[\frac{-\pi}{2},\frac{\pi}{2}]
 \end{aligned}
 $$
 

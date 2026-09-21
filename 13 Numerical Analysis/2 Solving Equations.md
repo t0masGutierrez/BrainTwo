@@ -19,9 +19,9 @@ $$
 ### intermediate value formula
 $$
 \begin{aligned}
-&f(a)\le N\le f(b)\implies\exists x\in[a,b]:f(x)=N\\
-&f=\text{continuous function}\\
-&a,b=\text{endpoint}
+f(a)\le N\le f(b)\implies\exists x\in[a,b]:f(x)=N\\
+f=\text{continuous function}\\
+a,b=\text{endpoint}
 \end{aligned}
 $$
 
@@ -34,14 +34,14 @@ $$
 ### bisection method formula
 $$
 \begin{aligned}
-&[a_0,b_0]\\
-&c_n=\frac{a_n+b_n}{2}\\
-&n=0,1,2,\dots\\
-&[a_{n+1},b_{n+1}]=\begin{cases}
-&[a_n,c_n],\quad f(a_n)f(c_n)<0\\
-&[c_n,b_n],\quad f(c_n)f(b_n)<0
-&\end{cases}\\
-&f(c_n)=0\implies r_c=c_n
+{}[a_0,b_0]\\
+c_n=\frac{a_n+b_n}{2}\\
+n=0,1,2,\dots\\
+{}[a_{n+1},b_{n+1}]=\begin{cases}
+{}[a_n,c_n],\quad f(a_n)f(c_n)<0\\
+{}[c_n,b_n],\quad f(c_n)f(b_n)<0
+\end{cases}\\
+f(c_n)=0\implies r_c=c_n
 \end{aligned}
 $$
 
@@ -53,14 +53,14 @@ $$
 ### bisection convergence formula
 $$
 \begin{aligned}
-&|r-r_c|\le\frac{b-a}{2^{n+1}}\implies\lim_{n\rightarrow\infty}\frac{e_{n+1}}{e_n}=\frac{1}{2}\\
-&n>\frac{\log(b-a)+p}{\log(2)}\implies|r-r_c|<\frac{1}{2}\times10^{-p}\\
-&r=\text{real root}\\
-&r_c=\text{computed root}\\
-&e=\text{absolute error}\\
-&a,b=\text{endpoint}\\
-&n=\text{number of iterations}\\
-&p=\text{exponent}
+|r-r_c|\le\frac{b-a}{2^{n+1}}\implies\lim_{n\rightarrow\infty}\frac{e_{n+1}}{e_n}=\frac{1}{2}\\
+n>\frac{\log(b-a)+p}{\log(2)}\implies|r-r_c|<\frac{1}{2}\times10^{-p}\\
+r=\text{real root}\\
+r_c=\text{computed root}\\
+e=\text{absolute error}\\
+a,b=\text{endpoint}\\
+n=\text{number of iterations}\\
+p=\text{exponent}
 \end{aligned}
 $$
 
@@ -72,9 +72,9 @@ $$
 ### fixed point formula
 $$
 \begin{aligned}
-&x=f(x)\\
-&x=\text{fixed point}\\
-&f=\text{function}
+x=f(x)\\
+x=\text{fixed point}\\
+f=\text{function}
 \end{aligned}
 $$
 
@@ -103,11 +103,11 @@ $$
 ### fixed point convergence formula
 $$
 \begin{aligned}
-&0<|g'(r)|<1\implies\lim_{n\rightarrow\infty}\frac{e_{n+1}}{e_n}=|g'(r)|\\
-&g(r)=g'(r)=g''(r)=\dots=g^{(p-1)}(r)=0\ne g^{(p)}(r)\implies\lim_{n\rightarrow\infty}\frac{e_{n+1}}{e_n^p}=\frac{|g^{(p)}(r)|}{p!}\\
-&g=\text{function}\\
-&e=\text{absolute error}\\
-&r=\text{real root}
+0<|g'(r)|<1\implies\lim_{n\rightarrow\infty}\frac{e_{n+1}}{e_n}=|g'(r)|\\
+g(r)=g'(r)=g''(r)=\dots=g^{(p-1)}(r)=0\ne g^{(p)}(r)\implies\lim_{n\rightarrow\infty}\frac{e_{n+1}}{e_n^p}=\frac{|g^{(p)}(r)|}{p!}\\
+g=\text{function}\\
+e=\text{absolute error}\\
+r=\text{real root}
 \end{aligned}
 $$
 
@@ -146,9 +146,9 @@ $$
 ### simple root formula
 $$
 \begin{aligned}
-&f(r)=0\ne f'(r)\\
-&f=\text{function}\\
-&r=\text{real root}
+f(r)=0\ne f'(r)\\
+f=\text{function}\\
+r=\text{real root}
 \end{aligned}
 $$
 
@@ -160,10 +160,10 @@ $$
 ### multiple root formula
 $$
 \begin{aligned}
-&f(r)=f'(r)=f''(r)=\dots=f^{(m-1)}(r)=0\ne f^{(m)}(r)\\
-&f=\text{function}\\
-&r=\text{real root}\\
-&m=\text{multiplicity}
+f(r)=f'(r)=f''(r)=\dots=f^{(m-1)}(r)=0\ne f^{(m)}(r)\\
+f=\text{function}\\
+r=\text{real root}\\
+m=\text{multiplicity}
 \end{aligned}
 $$
 
@@ -175,9 +175,9 @@ $$
 ### perturbed equation formula
 $$
 \begin{aligned}
-&f(x)+\epsilon g(x)=0\\
-&f,g=\text{function}\\
-&\epsilon=\text{parameter}
+f(x)+\epsilon g(x)=0\\
+f,g=\text{function}\\
+\epsilon=\text{parameter}
 \end{aligned}
 $$
 
@@ -190,13 +190,13 @@ $$
 ### root sensitivity formula
 $$
 \begin{aligned}
-&|r-r_c|\approx\frac{-g(r)}{f'(r)}\epsilon\\
-&m>1\implies|r-r_c|\approx(\frac{|g(r)|m!}{|f^{(m)}(r)|}|\epsilon|)^{1/m}\\
-&r=\text{real root}\\
-&r_c=\text{computed root}\\
-&f,g=\text{function}\\
-&\epsilon=\text{parameter}\\
-&m=\text{multiplicity}
+|r-r_c|\approx\frac{-g(r)}{f'(r)}\epsilon\\
+m>1\implies|r-r_c|\approx(\frac{|g(r)|m!}{|f^{(m)}(r)|}|\epsilon|)^{1/m}\\
+r=\text{real root}\\
+r_c=\text{computed root}\\
+f,g=\text{function}\\
+\epsilon=\text{parameter}\\
+m=\text{multiplicity}
 \end{aligned}
 $$
 
@@ -209,9 +209,9 @@ $$
 ### newton method formula
 $$
 \begin{aligned}
-&x_0\\
-&x_{n+1}=x_n-\frac{f(x_n)}{f'(x_n)}\\
-&n=0,1,2,\dots
+x_0\\
+x_{n+1}=x_n-\frac{f(x_n)}{f'(x_n)}\\
+n=0,1,2,\dots
 \end{aligned}
 $$
 
@@ -223,12 +223,12 @@ $$
 ### newton convergence formula
 $$
 \begin{aligned}
-&\lim_{n\rightarrow\infty}\frac{e_{n+1}}{e_n^2}=|\frac{f''(r)}{2f'(r)}|\\
-&m>1\implies\lim_{n\rightarrow\infty}\frac{e_{n+1}}{e_n}=|\frac{m-1}{m}|\\
-&e=\text{absolute error}\\
-&f,g=\text{function}\\
-&r=\text{real root}\\
-&m=\text{multiplicity}
+\lim_{n\rightarrow\infty}\frac{e_{n+1}}{e_n^2}=|\frac{f''(r)}{2f'(r)}|\\
+m>1\implies\lim_{n\rightarrow\infty}\frac{e_{n+1}}{e_n}=|\frac{m-1}{m}|\\
+e=\text{absolute error}\\
+f,g=\text{function}\\
+r=\text{real root}\\
+m=\text{multiplicity}
 \end{aligned}
 $$
 
@@ -240,9 +240,9 @@ $$
 ### modified newton method
 $$
 \begin{aligned}
-&x_0\\
-&x_{n+1}=x_n-m\frac{f(x_n)}{f'(x_n)}\\
-&n=0,1,2,\dots
+x_0\\
+x_{n+1}=x_n-m\frac{f(x_n)}{f'(x_n)}\\
+n=0,1,2,\dots
 \end{aligned}
 $$
 
@@ -254,11 +254,11 @@ $$
 ### modified newton convergence
 $$
 \begin{aligned}
-&f(x)=(x-r)^mg(x)\implies\lim_{n\rightarrow\infty}\frac{e_{n+1}}{e_n^2}=|\frac{g'(r)}{mg(r)}|\\
-&f,g=\text{function}\\
-&r=\text{real root}\\
-&m=\text{multiplicity}\\
-&e=\text{absolute error}
+f(x)=(x-r)^mg(x)\implies\lim_{n\rightarrow\infty}\frac{e_{n+1}}{e_n^2}=|\frac{g'(r)}{mg(r)}|\\
+f,g=\text{function}\\
+r=\text{real root}\\
+m=\text{multiplicity}\\
+e=\text{absolute error}
 \end{aligned}
 $$
 

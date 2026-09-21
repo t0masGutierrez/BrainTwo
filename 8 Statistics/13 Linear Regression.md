@@ -198,10 +198,10 @@ $$
 ### explained variation formula
 $$
 \begin{aligned}
-&SSR=\sum_{i}^{n}(\overline y-\hat y_{i})^{2}\\
-&n=\text{sample size}\\
-&\overline y=\text{sample mean}\\
-&\hat y=\text{prediction}
+SSR=\sum_{i}^{n}(\overline y-\hat y_{i})^{2}\\
+n=\text{sample size}\\
+\overline y=\text{sample mean}\\
+\hat y=\text{prediction}
 \end{aligned}
 $$
 
@@ -213,10 +213,10 @@ $$
 ### total variation formula
 $$
 \begin{aligned}
-&SST=SS_y=\sum_{i}^{n}(y_{i}-\overline y)^{2}=SSE+SSR\\
-&n=\text{sample size}\\
-&\hat y=\text{prediction}\\
-&\overline y=\text{sample mean}
+SST=SS_y=\sum_{i}^{n}(y_{i}-\overline y)^{2}=SSE+SSR\\
+n=\text{sample size}\\
+\hat y=\text{prediction}\\
+\overline y=\text{sample mean}
 \end{aligned}
 $$
 
@@ -244,11 +244,11 @@ $$
 ### adjusted coefficient of determination formula
 $$
 \begin{aligned}
-&R^2_{\text{adj}}=1-\frac{SSE(n-1)}{SST(n-k-1)}\\
-&SSE=\text{unexplained variation}\\
-&n=\text{sample size}\\
-&SST=\text{total variation}\\
-&k=\text{number of independent variables}\\
+R^2_{\text{adj}}=1-\frac{SSE(n-1)}{SST(n-k-1)}\\
+SSE=\text{unexplained variation}\\
+n=\text{sample size}\\
+SST=\text{total variation}\\
+k=\text{number of independent variables}\\
 \end{aligned}
 $$
 
@@ -277,10 +277,10 @@ $$
 ### residual standard error formula
 $$
 \begin{aligned}
-&SE(e)=\sqrt{\frac{SSE}{n-k-1}}\\
-&SSE=\text{explained variation}\\
-&n=\text{sample size}\\
-&k=\text{number of independent variables}
+SE(e)=\sqrt{\frac{SSE}{n-k-1}}\\
+SSE=\text{explained variation}\\
+n=\text{sample size}\\
+k=\text{number of independent variables}
 \end{aligned}
 $$
 
@@ -292,12 +292,12 @@ $$
 ### linear regression standard error formula
 $$
 \begin{aligned}
-&SE(b_j)=\sqrt{\frac{SE(e)}{\sum_{i=1}^n(x_i-\overline x)^2}}\\
-&SE=\text{standard error}\\
-&e=\text{residual}\\
-&n=\text{sample size}\\
-&x=\text{independent variable}\\
-&\overline x=\text{sample mean}
+SE(b_j)=\sqrt{\frac{SE(e)}{\sum_{i=1}^n(x_i-\overline x)^2}}\\
+SE=\text{standard error}\\
+e=\text{residual}\\
+n=\text{sample size}\\
+x=\text{independent variable}\\
+\overline x=\text{sample mean}
 \end{aligned}
 $$
 

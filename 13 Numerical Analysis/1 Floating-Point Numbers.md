@@ -258,9 +258,9 @@ $$
 ### absolute error formula
 $$
 \begin{aligned}
-&e=|x-x_c|\\
-&x=\text{real number}\\
-&x_c=\text{computed number}
+e=|x-x_c|\\
+x=\text{real number}\\
+x_c=\text{computed number}
 \end{aligned}
 $$
 
@@ -272,9 +272,9 @@ $$
 ### relative error formula
 $$
 \begin{aligned}
-&e'=\frac{|x-x_c|}{|x|}\\
-&x=\text{real number}\\
-&x_c=\text{computed number}
+e'=\frac{|x-x_c|}{|x|}\\
+x=\text{real number}\\
+x_c=\text{computed number}
 \end{aligned}
 $$
 
@@ -354,8 +354,8 @@ $$
 ### loss of significance formula
 $$
 \begin{aligned}
-&x\approx y\implies\frac{|x|+|y|}{|x-y|}\gg1\\
-&x=\text{real number}
+x\approx y\implies\frac{|x|+|y|}{|x-y|}\gg1\\
+x=\text{real number}
 \end{aligned}
 $$
 

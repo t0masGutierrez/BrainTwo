@@ -20,13 +20,13 @@ $$
 ### coordinatization formula
 $$
 \begin{aligned}
-&[\vec w]_{B}=[c_{1},\dots,c_{n}]\iff\vec w=\sum_{i=1}^{n}c_{i}\vec v_{i}\\
-&[\vec w]_{B}=\text{coordinate vector}\\
-&B=\text{ordered basis}\\
-&c=\text{coordinate}\\
-&n=\text{dimension}\\
-&\vec w=\text{coordinatized vector}\\
-&\vec v=\text{basis vector}
+{}[\vec w]_{B}=[c_{1},\dots,c_{n}]\iff\vec w=\sum_{i=1}^{n}c_{i}\vec v_{i}\\
+{}[\vec w]_{B}=\text{coordinate vector}\\
+B=\text{ordered basis}\\
+c=\text{coordinate}\\
+n=\text{dimension}\\
+\vec w=\text{coordinatized vector}\\
+\vec v=\text{basis vector}
 \end{aligned}
 $$
 
@@ -41,11 +41,11 @@ $$
 ### coordinatization via RREF formula
 $$
 \begin{aligned}
-&\text{RREF}(B\mid\vec w)=I\mid[\vec w]_{B}\\
-&B=\text{ordered basis}\\
-&\vec w=\text{coordinatized vector}\\
-&I=\text{identity matrix}\\
-&[\vec w]_{B}=\text{coordinate vector}
+\text{RREF}(B\mid\vec w)=I\mid[\vec w]_{B}\\
+B=\text{ordered basis}\\
+\vec w=\text{coordinatized vector}\\
+I=\text{identity matrix}\\
+{}[\vec w]_{B}=\text{coordinate vector}
 \end{aligned}
 $$
 
@@ -57,7 +57,7 @@ $$
 ### change of coordinates formula
 $$
 \begin{aligned}
-&[\vec w]_{B}\rightarrow[\vec w]_{C}
+{}[\vec w]_{B}\rightarrow[\vec w]_{C}
 \end{aligned}
 $$
 
@@ -88,9 +88,9 @@ $$
 ### coordinatization standard property formula
 $$
 \begin{aligned}
-&[\vec v]_{S}=\vec v\\
-&\vec v=\text{coordinatized vector}\\
-&S=\text{standard basis}
+{}[\vec v]_{S}=\vec v\\
+\vec v=\text{coordinatized vector}\\
+S=\text{standard basis}
 \end{aligned}
 $$
 
@@ -104,9 +104,9 @@ $$
 ### coordinatization arithmetic property formula
 $$
 \begin{aligned}
-&[\vec v_{1}+\vec v_{2}]_{B}=[\vec v_{1}]_{B}+[\vec v_{2}]_{B}\\
-&[c\vec v]_{B}=c[\vec v]_{B}\\
-&[\sum_{i=1}^{k}c_{i}\vec v_{i}]_{B}=\sum_{i=1}^{k}c_{i}[\vec v_{i}]_{B}
+{}[\vec v_{1}+\vec v_{2}]_{B}=[\vec v_{1}]_{B}+[\vec v_{2}]_{B}\\
+{}[c\vec v]_{B}=c[\vec v]_{B}\\
+{}[\sum_{i=1}^{k}c_{i}\vec v_{i}]_{B}=\sum_{i=1}^{k}c_{i}[\vec v_{i}]_{B}
 \end{aligned}
 $$
 
@@ -118,12 +118,12 @@ $$
 ### transition matrix multiplication property formula
 $$
 \begin{aligned}
-&P_{\text{BC}}\iff\forall\vec v\in\mathcal V:[\vec v]_{C}=P_{\text{BC}}[\vec v]_{B}\\
-&P=\text{transition matrix}\\
-&B,C=\text{ordered basis}\\
-&\vec v=\text{coordinatized vector}\\
-&\mathcal V=\text{vector space}\\
-&[\vec v]_{B},[\vec v]_{C}=\text{coordinate vector}
+P_{\text{BC}}\iff\forall\vec v\in\mathcal V:[\vec v]_{C}=P_{\text{BC}}[\vec v]_{B}\\
+P=\text{transition matrix}\\
+B,C=\text{ordered basis}\\
+\vec v=\text{coordinatized vector}\\
+\mathcal V=\text{vector space}\\
+{}[\vec v]_{B},[\vec v]_{C}=\text{coordinate vector}
 \end{aligned}
 $$
 
@@ -135,11 +135,11 @@ $$
 ### transition matrix transition property formula
 $$
 \begin{aligned}
-&([\vec v]_{C}=P_{\text{BC}}[\vec v]_{B})\land([\vec v]_{D}=Q_{\text{CD}}[\vec v]_{C})\implies([\vec v]_{D}=Q_{\text{CD}}P_{\text{BC}}[\vec v]_{B})\\
-&\vec v=\text{coordinatized vector}\\
-&[\vec v]_{B},[\vec v]_{C},[\vec v]_{D}=\text{coordinate vector}\\
-&B,C,D=\text{ordered basis}\\
-&P,Q=\text{transition matrix}
+([\vec v]_{C}=P_{\text{BC}}[\vec v]_{B})\land([\vec v]_{D}=Q_{\text{CD}}[\vec v]_{C})\implies([\vec v]_{D}=Q_{\text{CD}}P_{\text{BC}}[\vec v]_{B})\\
+\vec v=\text{coordinatized vector}\\
+{}[\vec v]_{B},[\vec v]_{C},[\vec v]_{D}=\text{coordinate vector}\\
+B,C,D=\text{ordered basis}\\
+P,Q=\text{transition matrix}
 \end{aligned}
 $$
 
@@ -151,12 +151,12 @@ $$
 ### transition matrix inversion property formula
 $$
 \begin{aligned}
-&[\vec v]_{C}=P_{\text{BC}}[\vec v]_{B}\implies(|P|\ne0)\land([\vec v]_{B}=P_{\text{BC}}^{-1}[\vec v]_{C})\\
-&\vec v=\text{coordinatized vector}\\
-&[\vec v]_{B},[\vec v]_{C}=\text{coordinate vector}\\
-&B,C=\text{ordered basis}\\
-&P=\text{transition matrix}\\
-&P^{-1}=\text{inverse transition matrix}
+{}[\vec v]_{C}=P_{\text{BC}}[\vec v]_{B}\implies(|P|\ne0)\land([\vec v]_{B}=P_{\text{BC}}^{-1}[\vec v]_{C})\\
+\vec v=\text{coordinatized vector}\\
+{}[\vec v]_{B},[\vec v]_{C}=\text{coordinate vector}\\
+B,C=\text{ordered basis}\\
+P=\text{transition matrix}\\
+P^{-1}=\text{inverse transition matrix}
 \end{aligned}
 $$
 
@@ -169,15 +169,15 @@ $$
 ### transition matrix diagonalization property formula
 $$
 \begin{aligned}
-&[\vec v]_{S}=P[\vec v]_{B}\\
-&D[\vec v]_{B}=[A\vec v]_{B}\\
-&\vec v=\text{coordinatized vector}\\
-&[\vec v]_{S},[\vec v]_{B},[A\vec v]_{B}=\text{coordinate vector}\\
-&S=\text{standard ordered basis}\\
-&B=\text{ordered basis}\\
-&P=\text{eigenmatrix}\\
-&D=\text{diagonal matrix}\\
-&A=\text{square matrix}
+{}[\vec v]_{S}=P[\vec v]_{B}\\
+D[\vec v]_{B}=[A\vec v]_{B}\\
+\vec v=\text{coordinatized vector}\\
+{}[\vec v]_{S},[\vec v]_{B},[A\vec v]_{B}=\text{coordinate vector}\\
+S=\text{standard ordered basis}\\
+B=\text{ordered basis}\\
+P=\text{eigenmatrix}\\
+D=\text{diagonal matrix}\\
+A=\text{square matrix}
 \end{aligned}
 $$
 

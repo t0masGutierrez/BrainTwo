@@ -99,17 +99,17 @@ $$
 ### isomorphism matrix kernel property formula
 $$
 \begin{aligned}
-&(L:\mathcal V\rightarrow\mathcal W)\land(L_{1}:\mathcal V\rightarrow\mathbb R^{n})\land([L(\vec v)]_{C}=A_{\text{BC}}[\vec v]_{B})\implies\ker(L)=L^{-1}_{1}(\ker\ A_{\text{BC}})\\
-&(L:\mathcal V\rightarrow\mathcal W)\land(L_{1}:\mathcal V\rightarrow\mathbb R^{n})\land([L(\vec v)]_{C}=A_{\text{BC}}[\vec v]_{B})\implies\ker(A_{\text{BC}})=L_{1}(\ker\ L)\\
-&\vec v\in\text{ker}(L)\iff[\vec v]_{B}\in\text{ker}(A_{\text{BC}})\\
-&L(\vec v)=0_{\mathcal W}\iff[L(\vec v)]_{C}=0_{\mathbb R^{m}}\\
-&L=\text{linear transformation}\\
-&L_{1}=\text{isomorphism}\\
-&A=\text{matrix transformation}\\
-&B=\text{domain basis}\\
-&C=\text{codomain basis}\\
-&[L(\vec v)]_{C}=\text{image coordinate vector}\\
-&[\vec v]_{B}=\text{preimage coordinate vector}
+(L:\mathcal V\rightarrow\mathcal W)\land(L_{1}:\mathcal V\rightarrow\mathbb R^{n})\land([L(\vec v)]_{C}=A_{\text{BC}}[\vec v]_{B})\implies\ker(L)=L^{-1}_{1}(\ker\ A_{\text{BC}})\\
+(L:\mathcal V\rightarrow\mathcal W)\land(L_{1}:\mathcal V\rightarrow\mathbb R^{n})\land([L(\vec v)]_{C}=A_{\text{BC}}[\vec v]_{B})\implies\ker(A_{\text{BC}})=L_{1}(\ker\ L)\\
+\vec v\in\text{ker}(L)\iff[\vec v]_{B}\in\text{ker}(A_{\text{BC}})\\
+L(\vec v)=0_{\mathcal W}\iff[L(\vec v)]_{C}=0_{\mathbb R^{m}}\\
+L=\text{linear transformation}\\
+L_{1}=\text{isomorphism}\\
+A=\text{matrix transformation}\\
+B=\text{domain basis}\\
+C=\text{codomain basis}\\
+{}[L(\vec v)]_{C}=\text{image coordinate vector}\\
+{}[\vec v]_{B}=\text{preimage coordinate vector}
 \end{aligned}
 $$
 
@@ -122,15 +122,15 @@ $$
 ### isomorphism matrix range property formula
 $$
 \begin{aligned}
-&(L:\mathcal V\rightarrow\mathcal W)\land(L_{2}:\mathcal W\rightarrow\mathbb R^{m})\land([L(\vec v)]_{C}=A_{\text{BC}}[\vec v]_{B})\implies\text{range}(L)=L^{-1}_{2}(\text{range}\ A_{\text{BC}})\\
-&L(\vec v)\in\text{range}(L)\iff[L(\vec v)]_{C}\in\text{range}(A_{\text{BC}})\\
-&L=\text{linear transformation}\\
-&L_{2}=\text{isomorphism}\\
-&A=\text{matrix transformation}\\
-&B=\text{domain basis}\\
-&C=\text{codomain basis}\\
-&L(\vec v)=\text{image}\\
-&[L(\vec v)]_{C}=\text{image coordinate vector}
+(L:\mathcal V\rightarrow\mathcal W)\land(L_{2}:\mathcal W\rightarrow\mathbb R^{m})\land([L(\vec v)]_{C}=A_{\text{BC}}[\vec v]_{B})\implies\text{range}(L)=L^{-1}_{2}(\text{range}\ A_{\text{BC}})\\
+L(\vec v)\in\text{range}(L)\iff[L(\vec v)]_{C}\in\text{range}(A_{\text{BC}})\\
+L=\text{linear transformation}\\
+L_{2}=\text{isomorphism}\\
+A=\text{matrix transformation}\\
+B=\text{domain basis}\\
+C=\text{codomain basis}\\
+L(\vec v)=\text{image}\\
+{}[L(\vec v)]_{C}=\text{image coordinate vector}
 \end{aligned}
 $$
 
@@ -143,14 +143,14 @@ $$
 ### isomorphism matrix dimension property formula
 $$
 \begin{aligned}
-&(L:\mathcal V\rightarrow\mathcal W)\land([L(\vec v)]_{C}=A_{\text{BC}}[\vec v]_{B})\implies\dim(\ker\ A_{\text{BC}})=\dim(\ker\ L)\\
-&(L:\mathcal V\rightarrow\mathcal W)\land([L(\vec v)]_{C}=A_{\text{BC}}[\vec v]_{B})\implies\dim(\text{range}\ A_{\text{BC}})=\dim(\text{range}\ L)\\
-&L=\text{linear transformation}\\
-&A=\text{matrix transformation}\\
-&B=\text{domain basis}\\
-&C=\text{codomain basis}\\
-&[L(\vec v)]_{C}=\text{image coordinate vector}\\
-&[\vec v]_{B}=\text{preimage coordinate vector}
+(L:\mathcal V\rightarrow\mathcal W)\land([L(\vec v)]_{C}=A_{\text{BC}}[\vec v]_{B})\implies\dim(\ker\ A_{\text{BC}})=\dim(\ker\ L)\\
+(L:\mathcal V\rightarrow\mathcal W)\land([L(\vec v)]_{C}=A_{\text{BC}}[\vec v]_{B})\implies\dim(\text{range}\ A_{\text{BC}})=\dim(\text{range}\ L)\\
+L=\text{linear transformation}\\
+A=\text{matrix transformation}\\
+B=\text{domain basis}\\
+C=\text{codomain basis}\\
+{}[L(\vec v)]_{C}=\text{image coordinate vector}\\
+{}[\vec v]_{B}=\text{preimage coordinate vector}
 \end{aligned}
 $$
 

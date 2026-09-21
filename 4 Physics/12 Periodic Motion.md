@@ -281,23 +281,23 @@ $$
 ### underdamped oscillation formula
 $$
 \begin{aligned}
-&\gamma<\omega_0\implies x(t)=A_{0}\exp(-\gamma t)\cos(\omega_1t+\phi)\\
-&A=\sqrt{x_0^2+(\frac{v_0+\gamma x_0}{\omega_1})^2}\\
-&\phi=\arctan(\frac{-v_0-\gamma x_0}{\omega_1x_0})\\
-&\gamma=\frac{b}{2m}\\
-&\omega_0=\sqrt{\frac{k}{m}}\\
-&\omega_1=\sqrt{\omega_0^2-\gamma^2}\\
-&\gamma=\text{damping frequency}\\
-&\omega=\text{angular frequency}\\
-&x=\text{position}\\
-&t=\text{time}\\
-&A=\text{amplitude}\\
-&\gamma=\text{damping frequency}\\
-&\phi=\text{phase angle}\\
-&v=\text{velocity}\\
-&b=\text{damping coefficient}\\
-&m=\text{mass}\\
-&k=\text{spring constant}
+\gamma<\omega_0\implies x(t)=A_{0}\exp(-\gamma t)\cos(\omega_1t+\phi)\\
+A=\sqrt{x_0^2+(\frac{v_0+\gamma x_0}{\omega_1})^2}\\
+\phi=\arctan(\frac{-v_0-\gamma x_0}{\omega_1x_0})\\
+\gamma=\frac{b}{2m}\\
+\omega_0=\sqrt{\frac{k}{m}}\\
+\omega_1=\sqrt{\omega_0^2-\gamma^2}\\
+\gamma=\text{damping frequency}\\
+\omega=\text{angular frequency}\\
+x=\text{position}\\
+t=\text{time}\\
+A=\text{amplitude}\\
+\gamma=\text{damping frequency}\\
+\phi=\text{phase angle}\\
+v=\text{velocity}\\
+b=\text{damping coefficient}\\
+m=\text{mass}\\
+k=\text{spring constant}
 \end{aligned}
 $$
 
@@ -309,17 +309,17 @@ $$
 ### critically damped oscillation formula
 $$
 \begin{aligned}
-&\gamma=\omega_0\implies x(t)=\exp(-\gamma t)(C_{1}+C_{2}t)\\
-&\gamma=\frac{b}{2m}\\
-&\omega_0=\sqrt{\frac{k}{m}}\\
-&\gamma=\text{damping frequency}\\
-&\omega=\text{angular frequency}\\
-&x=\text{position}\\
-&t=\text{time}\\
-&C=\text{constant}\\
-&b=\text{damping coefficient}\\
-&m=\text{mass}\\
-&k=\text{spring constant}\\
+\gamma=\omega_0\implies x(t)=\exp(-\gamma t)(C_{1}+C_{2}t)\\
+\gamma=\frac{b}{2m}\\
+\omega_0=\sqrt{\frac{k}{m}}\\
+\gamma=\text{damping frequency}\\
+\omega=\text{angular frequency}\\
+x=\text{position}\\
+t=\text{time}\\
+C=\text{constant}\\
+b=\text{damping coefficient}\\
+m=\text{mass}\\
+k=\text{spring constant}\\
 \end{aligned}
 $$
 
@@ -331,19 +331,19 @@ $$
 ### overdamped oscillation formula
 $$
 \begin{aligned}
-&\gamma>\omega_0\implies x(t)=C_{1}\exp(r_{1}t)+C_{2}\exp(r_2t)\\
-&r=\frac{-b\pm\sqrt{b^{2}-4mk}}{2m}\\
-&\gamma=\frac{b}{2m}\\
-&\omega_0=\sqrt{\frac{k}{m}}\\
-&\gamma=\text{damping frequency}\\
-&\omega=\text{angular frequency}\\
-&x=\text{position}\\
-&t=\text{time}\\
-&C=\text{constant}\\
-&r=\text{root}\\
-&b=\text{damping coefficient}\\
-&m=\text{mass}\\
-&k=\text{spring constant}
+\gamma>\omega_0\implies x(t)=C_{1}\exp(r_{1}t)+C_{2}\exp(r_2t)\\
+r=\frac{-b\pm\sqrt{b^{2}-4mk}}{2m}\\
+\gamma=\frac{b}{2m}\\
+\omega_0=\sqrt{\frac{k}{m}}\\
+\gamma=\text{damping frequency}\\
+\omega=\text{angular frequency}\\
+x=\text{position}\\
+t=\text{time}\\
+C=\text{constant}\\
+r=\text{root}\\
+b=\text{damping coefficient}\\
+m=\text{mass}\\
+k=\text{spring constant}
 \end{aligned}
 $$
 
@@ -356,20 +356,20 @@ $$
 ### driven damped harmonic oscillator formula
 $$
 \begin{aligned}
-&m\frac{d^{2}x}{dt^{2}}+b\frac{dx}{dt}+kx=F_0\cos(\Omega t)\\
-&x(t)=A\cos(\Omega t+\phi)\\
-&A=\frac{F_0}{m}\sqrt{\frac{1}{(\omega_0^2-\Omega^2)^{2}+(2\gamma\Omega)^2}}\\
-&\phi=\arctan(\frac{2\gamma\Omega}{\omega_0^2-\Omega^2})\\
-&m=\text{mass}\\
-&x=\text{position}\\
-&t=\text{time}\\
-&b=\text{damping coefficient}\\
-&k=\text{spring constant}\\
-&F=\text{force}\\
-&\Omega,\omega=\text{angular frequency}\\
-&A=\text{amplitude}\\
-&\phi=\text{phase angle}\\
-&\gamma=\text{damping frequency}
+m\frac{d^{2}x}{dt^{2}}+b\frac{dx}{dt}+kx=F_0\cos(\Omega t)\\
+x(t)=A\cos(\Omega t+\phi)\\
+A=\frac{F_0}{m}\sqrt{\frac{1}{(\omega_0^2-\Omega^2)^{2}+(2\gamma\Omega)^2}}\\
+\phi=\arctan(\frac{2\gamma\Omega}{\omega_0^2-\Omega^2})\\
+m=\text{mass}\\
+x=\text{position}\\
+t=\text{time}\\
+b=\text{damping coefficient}\\
+k=\text{spring constant}\\
+F=\text{force}\\
+\Omega,\omega=\text{angular frequency}\\
+A=\text{amplitude}\\
+\phi=\text{phase angle}\\
+\gamma=\text{damping frequency}
 \end{aligned}
 $$
 

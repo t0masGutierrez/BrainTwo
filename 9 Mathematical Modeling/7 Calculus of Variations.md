@@ -521,11 +521,11 @@ $$
 ### fixed-free natural boundary condition formula
 $$
 \begin{aligned}
-&[\frac{\partial G}{\partial f}-\frac{\partial L}{\partial f'}]_{x=a}=0\\
-&[\frac{\partial G}{\partial f}+\frac{\partial L}{\partial f'}]_{x=b}=0\\
-&G=\text{free-end}\\
-&f=\text{admissible function}\\
-&L=\text{lagrangian}
+{}[\frac{\partial G}{\partial f}-\frac{\partial L}{\partial f'}]_{x=a}=0\\
+{}[\frac{\partial G}{\partial f}+\frac{\partial L}{\partial f'}]_{x=b}=0\\
+G=\text{free-end}\\
+f=\text{admissible function}\\
+L=\text{lagrangian}
 \end{aligned}
 $$
 

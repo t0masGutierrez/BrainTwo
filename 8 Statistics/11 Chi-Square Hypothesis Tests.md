@@ -11,15 +11,15 @@
 ### goodness of fit chi-square-score formula
 $$
 \begin{aligned}
-&\chi^{2}=\sum_{i=1}^{k}\frac{(O_{i}-E_{i})^{2}}{E_{i}}\\
-&\chi^{2}=\sum_{i=1}^{k}\frac{(O_{i}-E_{i})^{2}}{E_{i}}\\
-&E_i=np_{i}\\
-&df=k-1\\
-&k=\text{number of categories}\\
-&O=\text{observed counts}\\
-&E=\text{expected counts}\\
-&n=\text{sample size}\\
-&p=\text{proportion}
+\chi^{2}=\sum_{i=1}^{k}\frac{(O_{i}-E_{i})^{2}}{E_{i}}\\
+\chi^{2}=\sum_{i=1}^{k}\frac{(O_{i}-E_{i})^{2}}{E_{i}}\\
+E_i=np_{i}\\
+df=k-1\\
+k=\text{number of categories}\\
+O=\text{observed counts}\\
+E=\text{expected counts}\\
+n=\text{sample size}\\
+p=\text{proportion}
 \end{aligned}
 $$
 
@@ -31,7 +31,7 @@ $$
 ### chi-square goodness of fit null hypothesis formula
 $$
 \begin{aligned}
-&H_{0}:(p_{1},\dots,p_{k})=(p_{1},\dots,p_{k})_{0}\\
+H_{0}:(p_{1},\dots,p_{k})=(p_{1},\dots,p_{k})_{0}\\
 p=\text{proportion}
 \end{aligned}
 $$
@@ -44,7 +44,7 @@ $$
 ### chi-square goodness of fit alternative hypothesis formula
 $$
 \begin{aligned}
-&H_{1}:(p_{1},\dots,p_{k})\ne(p_{1},\dots,p_{k})_{0}\\
+H_{1}:(p_{1},\dots,p_{k})\ne(p_{1},\dots,p_{k})_{0}\\
 p=\text{proportion}
 \end{aligned}
 $$
@@ -63,14 +63,14 @@ $$
 ### independence chi-square-score formula
 $$
 \begin{aligned}
-&\chi^{2}=\sum_{i=1}^{r}\sum_{j=1}^{c}\frac{(O_{\text{ij}}-E_{\text{ij}})^{2}}{E_{\text{ij}}}\\
-&E=\frac{rc}{r+c}\\
-&df=(r-1)(c-1)\\
-&k=\text{number of categories}\\
-&O=\text{observed counts}\\
-&E=\text{expected counts}\\
-&r=\text{number of rows}\\
-&c=\text{number of columns}
+\chi^{2}=\sum_{i=1}^{r}\sum_{j=1}^{c}\frac{(O_{\text{ij}}-E_{\text{ij}})^{2}}{E_{\text{ij}}}\\
+E=\frac{rc}{r+c}\\
+df=(r-1)(c-1)\\
+k=\text{number of categories}\\
+O=\text{observed counts}\\
+E=\text{expected counts}\\
+r=\text{number of rows}\\
+c=\text{number of columns}
 \end{aligned}
 $$
 
@@ -94,7 +94,7 @@ $$
 ### chi-square independence alternative hypothesis formula
 $$
 \begin{aligned}
-&H_{1}:\exists i,j\ P(A_{i}\cap B_{j})\ne P(A_{i})P(B_{j})
+H_{1}:\exists i,j\ P(A_{i}\cap B_{j})\ne P(A_{i})P(B_{j})
 \end{aligned}
 $$
 

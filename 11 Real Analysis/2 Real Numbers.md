@@ -95,8 +95,8 @@ $$
 ### integers arithmetic formula
 $$
 \begin{aligned}
-&[(m,n)]+[(m',n')]=[(m+m',n+n')]\\
-&[(m,n)]\cdot[(m',n')]=[(mm'+nn',mn'+nm')]
+{}[(m,n)]+[(m',n')]=[(m+m',n+n')]\\
+{}[(m,n)]\cdot[(m',n')]=[(mm'+nn',mn'+nm')]
 \end{aligned}
 $$
 
@@ -110,9 +110,9 @@ $$
 ### construct integers formula
 $$
 \begin{aligned}
-&(m,n)\sim(m',n')\iff m+n'=m'+n\\
-&[(m,n)]=\{(m',n')\in\mathbb N\times\mathbb N|(m,n)\sim(m',n')\}\\
-&\mathbb Z=\{[(m,n)]|(m,n)\in\mathbb N\times\mathbb N\}
+(m,n)\sim(m',n')\iff m+n'=m'+n\\
+{}[(m,n)]=\{(m',n')\in\mathbb N\times\mathbb N|(m,n)\sim(m',n')\}\\
+\mathbb Z=\{[(m,n)]|(m,n)\in\mathbb N\times\mathbb N\}
 \end{aligned}
 $$
 
@@ -149,8 +149,8 @@ $$
 ### rational numbers arithmetic formula
 $$
 \begin{aligned}
-&[(p,q)]+[(p',q')]=[(pq'+qp',qq')]\\
-&[(p,q)]\cdot[(p',q')]=[(pp',qq')]
+{}[(p,q)]+[(p',q')]=[(pq'+qp',qq')]\\
+{}[(p,q)]\cdot[(p',q')]=[(pp',qq')]
 \end{aligned}
 $$
 
@@ -164,9 +164,9 @@ $$
 ### construct rational numbers formula
 $$
 \begin{aligned}
-&(p,q)\sim(p',q')\iff pq'=qp'\\
-&[(p,q)]=\{(p',q')\in\mathbb Z\times\mathbb Z|(p,q)\sim(p',q')\}\\
-&\mathbb Q=\{[(p,q)]|(p,q)\in\mathbb Z\times\mathbb Z\}
+(p,q)\sim(p',q')\iff pq'=qp'\\
+{}[(p,q)]=\{(p',q')\in\mathbb Z\times\mathbb Z|(p,q)\sim(p',q')\}\\
+\mathbb Q=\{[(p,q)]|(p,q)\in\mathbb Z\times\mathbb Z\}
 \end{aligned}
 $$
 

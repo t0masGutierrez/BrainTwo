@@ -55,14 +55,14 @@ $$
 ### joint probability density function formula
 $$
 \begin{aligned}
-&P(X=x,Y=y)=0\\
-&P(X\in A,Y\in B)=\int_{A}\int_{B}f_{X,Y}(x,y)dydx=1\\
-&P(X\le a,Y\le b)=\int_{-\infty}^{a}\int_{-\infty}^{b}f_{X,Y}(x,y)dydx=F_{X,Y}(a,b)\\
-&P(a\le X\le b,c\le Y\le d)=\int_{a}^{b}\int_{c}^{d}f_{X,Y}(x,y)dydx=\\
-&F_{X,Y}(b,d)-\\
-&F_{X,Y}(a,d)-\\
-&F_{X,Y}(b,c)+\\
-&F_{X,Y}(a,c)
+P(X=x,Y=y)=0\\
+P(X\in A,Y\in B)=\int_{A}\int_{B}f_{X,Y}(x,y)dydx=1\\
+P(X\le a,Y\le b)=\int_{-\infty}^{a}\int_{-\infty}^{b}f_{X,Y}(x,y)dydx=F_{X,Y}(a,b)\\
+P(a\le X\le b,c\le Y\le d)=\int_{a}^{b}\int_{c}^{d}f_{X,Y}(x,y)dydx=\\
+F_{X,Y}(b,d)-\\
+F_{X,Y}(a,d)-\\
+F_{X,Y}(b,c)+\\
+F_{X,Y}(a,c)
 \end{aligned}
 $$
 
@@ -89,10 +89,10 @@ $$
 ### marginal probability density function formula
 $$
 \begin{aligned}
-&f_{X}(x)=\int_{-\infty}^{\infty}f_{X,Y}(x,y)dy\\
-&f_{Y}(y)=\int_{-\infty}^{\infty}f_{X,Y}(x,y)dx\\
-&X,Y=\text{random variable}\\
-&x,y=\text{real number}
+f_{X}(x)=\int_{-\infty}^{\infty}f_{X,Y}(x,y)dy\\
+f_{Y}(y)=\int_{-\infty}^{\infty}f_{X,Y}(x,y)dx\\
+X,Y=\text{random variable}\\
+x,y=\text{real number}
 \end{aligned}
 $$
 
@@ -146,10 +146,10 @@ $$
 ### convolution formula
 $$
 \begin{aligned}
-&P(X+Y=z)=\sum_{x}P(Y=z-x)P(X=x)\\
-&P(X+Y=z)=\sum_{y}P(X=z-y)P(Y=y)\\
-&f_{X+Y}(z)=\int_{-\infty}^{\infty}f_{Y}(z-x)f_{X}(x)dx\\
-&f_{X+Y}(z)=\int_{-\infty}^{\infty}f_{X}(z-y)f_{Y}(y)dy
+P(X+Y=z)=\sum_{x}P(Y=z-x)P(X=x)\\
+P(X+Y=z)=\sum_{y}P(X=z-y)P(Y=y)\\
+f_{X+Y}(z)=\int_{-\infty}^{\infty}f_{Y}(z-x)f_{X}(x)dx\\
+f_{X+Y}(z)=\int_{-\infty}^{\infty}f_{X}(z-y)f_{Y}(y)dy
 \end{aligned}
 $$
 
@@ -176,10 +176,10 @@ $$
 ### dependent random variable formula
 $$
 \begin{aligned}
-&P(X=x,Y=y)\ne P(X=x)P(Y=y)\\
-&f_{X,Y}(x,y)\ne f_{X}(x)f_{Y}(y)\\
-&X,Y=\text{random variable}\\
-&x,y=\text{real number}
+P(X=x,Y=y)\ne P(X=x)P(Y=y)\\
+f_{X,Y}(x,y)\ne f_{X}(x)f_{Y}(y)\\
+X,Y=\text{random variable}\\
+x,y=\text{real number}
 \end{aligned}
 $$
 
@@ -191,8 +191,8 @@ $$
 ### conditional probability formula
 $$
 \begin{aligned}
-&P(X=x\mid Y=y)=\frac{P(X=x,Y=y)}{P(Y=y)}\\
-&f_{X\mid Y}(x\mid y)=\frac{f_{X,Y}(x,y)}{f_{Y}(y)}
+P(X=x\mid Y=y)=\frac{P(X=x,Y=y)}{P(Y=y)}\\
+f_{X\mid Y}(x\mid y)=\frac{f_{X,Y}(x,y)}{f_{Y}(y)}
 \end{aligned}
 $$
 
@@ -204,10 +204,10 @@ $$
 ### joint expectation formula
 $$
 \begin{aligned}
-&E[g(X,Y)]=\sum_{x}\sum_{y}g(x,y)P(X=x,Y=y)\\
-&E[g(X,Y)]=\int_{-\infty}^{\infty}\int_{-\infty}^{\infty}g(x,y)f(x,y)dydx\\
-&X,Y=\text{random variable}\\
-&x,y=\text{real number}
+E[g(X,Y)]=\sum_{x}\sum_{y}g(x,y)P(X=x,Y=y)\\
+E[g(X,Y)]=\int_{-\infty}^{\infty}\int_{-\infty}^{\infty}g(x,y)f(x,y)dydx\\
+X,Y=\text{random variable}\\
+x,y=\text{real number}
 \end{aligned}
 $$
 
@@ -259,9 +259,9 @@ $$
 ### conditional expectation formula
 $$
 \begin{aligned}
-&E[X|Y=y]=\sum_{x}xP(X=x|Y=y)\\
-&E[X|Y=y]=\int_{-\infty}^{\infty}xf_{X|Y}(x,y)dx\\
-&X,Y=\text{random variable}
+E[X|Y=y]=\sum_{x}xP(X=x|Y=y)\\
+E[X|Y=y]=\int_{-\infty}^{\infty}xf_{X|Y}(x,y)dx\\
+X,Y=\text{random variable}
 \end{aligned}
 $$
 

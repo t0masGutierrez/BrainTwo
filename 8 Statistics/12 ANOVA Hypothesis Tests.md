@@ -33,7 +33,7 @@ $$
 ### one-way ANOVA null hypothesis formula
 $$
 \begin{aligned}
-&H_{0}:\mu_{1}=\dots=\mu_{k}\\
+H_{0}:\mu_{1}=\dots=\mu_{k}\\
 \mu=\text{mean}
 \end{aligned}
 $$
@@ -46,7 +46,7 @@ $$
 ### one-way ANOVA alternative hypothesis formula
 $$
 \begin{aligned}
-&H_{1}:\mu_{i}\ne\mu_{j}\\
+H_{1}:\mu_{i}\ne\mu_{j}\\
 \mu=\text{mean}
 \end{aligned}
 $$
