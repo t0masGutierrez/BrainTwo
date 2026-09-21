@@ -201,7 +201,7 @@ $$
 
 ---
 ### asymmetric normal mode
-- closed standing wave pattern where where all particles oscillate with the same frequency
+- closed standing wave pattern where where all particles oscillate at the same frequency
 ![500](4%20Physics/Images/sound%20asymmetric%20normal%20mode.png)
 
 ---
@@ -217,7 +217,7 @@ $$
 
 ---
 ### symmetric normal mode
-- open standing wave pattern where where all particles oscillate with the same frequency
+- open standing wave pattern where where all particles oscillate at the same frequency
 ![500](4%20Physics/Images/sound%20symmetric%20normal%20mode.png)
 
 ---

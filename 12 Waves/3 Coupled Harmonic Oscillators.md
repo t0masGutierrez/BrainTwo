@@ -1,16 +1,17 @@
-### normal coordinates
-- combinations of the physical coordinates that execute simple harmonic motion
+### normal coordinate
+- combinations of physical coordinates that execute simple harmonic motion
 - or physical coordinates expressed as B-coordinates
 
 ---
-### normal coordinates formula
+### normal coordinate formula
 $$
 \begin{aligned}
-&\vec q=[\vec x]_B\iff\vec x=\sum_{k=1}^nq_k\vec u_k\\
-&B=(\vec u_1,\vec u_2,\dots,\vec u_n)\\
+&\vec q=[\vec x]_B\iff\vec x=\sum_{k=1}^nq_k\vec A_k\\
+&B=(\vec A_1,\vec A_2,\dots,\vec A_n)\\
 &\vec q=\text{normal position}\\
 &\vec x=\text{position}\\
-&B=\text{ordered basis}
+&B=\text{ordered basis}\\
+&\vec A=\text{eigenvector}
 \end{aligned}
 $$
 
@@ -22,25 +23,37 @@ $$
 ### normal mode formula
 $$
 \begin{aligned}
-&\vec x(t)=\sum_kC_kA_k\cos(\omega_kt+\phi_k)\\
-&(K-\omega_k^2M)A_k=0\\
-&C=\text{constant}\\
-&\vec a=\text{eigenvector}\\
+&K\frac{d^2x}{dt}+Mx=0\\
+&(K-\omega_i^2M)\vec A_i=0\\
+&\vec x(t)=\sum_{i=1}^nC_i\vec A_i\cos(\omega_it+\phi_i)\\
+&K=\text{spring constant}\\
+&x=\text{position}\\
+&t=\text{time}\\
+&M=\text{mass}\\
 &\omega=\text{angular frequency}\\
+&\vec A=\text{eigenvector}\\
+&C=\text{constant}\\
 &\phi=\text{phase angle}
 \end{aligned}
 $$
 
 ---
 ### normal frequency
-- frequency of normal coordinate oscillation
+- number of normal oscillations per time
 
 ---
 ### normal frequency formula
 $$
 \begin{aligned}
-&\det(M-\omega_i^2I)=0\implies\omega_i^2=\lambda_i\\
-&M=\omega_0^2\begin{bmatrix}x_1x_2\\x_3x_4\end{bmatrix}
+&\det(K-\omega_i^2M)\vec A_i\implies\omega_i^2=\lambda_i\\
+&K_{\text{ii}}=k_i+k_{i+1}\\
+&K_{i,i+1}=K_{i+1,i}=-k_{i+1}\\
+&M_{\text{ii}}=m_i\\
+&K,k=\text{spring constant}\\
+&\omega=\text{angular frequency}\\
+&M,m=\text{mass}\\
+&\vec A=\text{eigenvector}\\
+&\lambda=\text{eigenvalue}
 \end{aligned}
 $$
 
