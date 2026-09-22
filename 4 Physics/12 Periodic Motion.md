@@ -356,9 +356,9 @@ $$
 ### driven damped harmonic oscillator formula
 $$
 \begin{lgathered}
-m\frac{d^{2}x}{dt^{2}}+b\frac{dx}{dt}+kx=F_0\cos(\Omega t)\\
+m\frac{d^{2}x}{dt^{2}}+b\frac{dx}{dt}+kx=B\cos(\Omega t)\\
 x(t)=A\cos(\Omega t+\phi)\\
-A=\frac{F_0}{m}\sqrt{\frac{1}{(\omega_0^2-\Omega^2)^{2}+(\nu\Omega)^2}}\\
+A=B\omega_0^2\sqrt{\frac{1}{(\omega_0^2-\Omega^2)^{2}+(\nu\Omega)^2}}\\
 \phi=\arctan(\frac{-\nu\Omega}{\omega_0^2-\Omega^2})\\
 \nu=\frac{b}{m}\\
 \omega_0=\sqrt{\frac{k}{m}}\\
@@ -367,9 +367,8 @@ x=\text{position}\\
 t=\text{time}\\
 b=\text{damping coefficient}\\
 k=\text{spring constant}\\
-F=\text{force}\\
 \Omega,\omega=\text{angular frequency}\\
-A=\text{amplitude}\\
+A,B=\text{amplitude}\\
 \phi=\text{phase angle}\\
 \nu=\text{damping frequency}
 \end{lgathered}

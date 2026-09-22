@@ -387,9 +387,9 @@ $$
 ### driven damped RLC oscillation formula
 $$
 \begin{lgathered}
-L\frac{d^{2}q}{dt^{2}}+R\frac{dq}{dt}+\frac{q}{C}=\varepsilon_0\cos(\Omega t)\\
+L\frac{d^{2}q}{dt^{2}}+R\frac{dq}{dt}+\frac{q}{C}=B\cos(\Omega t)\\
 q(t)=A\cos(\Omega t+\phi)\\
-A=\frac{\varepsilon_0}{L}\sqrt{\frac{1}{(\omega_0^2-\Omega^2)^{2}+(\nu\Omega)^2}}\\
+A=B\omega_0^2\sqrt{\frac{1}{(\omega_0^2-\Omega^2)^{2}+(\nu\Omega)^2}}\\
 \phi=\arctan(\frac{-\nu\Omega}{\omega_0^2-\Omega^2})\\
 \nu=\frac{R}{L}\\
 \omega_0=\sqrt{\frac{1}{LC}}\\
@@ -398,9 +398,8 @@ q=\text{electric charge}\\
 t=\text{time}\\
 R=\text{resistance}\\
 C=\text{capacitance}\\
-\varepsilon=\text{emf}\\
 \Omega,\omega=\text{angular frequency}\\
-A=\text{amplitude}\\
+A,B=\text{amplitude}\\
 \phi=\text{phase angle}\\
 \nu=\text{damping frequency}
 \end{lgathered}
