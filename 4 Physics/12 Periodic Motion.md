@@ -358,8 +358,10 @@ $$
 \begin{lgathered}
 m\frac{d^{2}x}{dt^{2}}+b\frac{dx}{dt}+kx=F_0\cos(\Omega t)\\
 x(t)=A\cos(\Omega t+\phi)\\
-A=\frac{F_0}{m}\sqrt{\frac{1}{(\omega_0^2-\Omega^2)^{2}+(2\gamma\Omega)^2}}\\
-\phi=\arctan(\frac{2\gamma\Omega}{\omega_0^2-\Omega^2})\\
+A=\frac{F_0}{m}\sqrt{\frac{1}{(\omega_0^2-\Omega^2)^{2}+(\nu\Omega)^2}}\\
+\phi=\arctan(\frac{-\nu\Omega}{\omega_0^2-\Omega^2})\\
+\nu=\frac{b}{m}\\
+\omega_0=\sqrt{\frac{k}{m}}\\
 m=\text{mass}\\
 x=\text{position}\\
 t=\text{time}\\
@@ -369,7 +371,7 @@ F=\text{force}\\
 \Omega,\omega=\text{angular frequency}\\
 A=\text{amplitude}\\
 \phi=\text{phase angle}\\
-\gamma=\text{damping frequency}
+\nu=\text{damping frequency}
 \end{lgathered}
 $$
 
