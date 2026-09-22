@@ -362,6 +362,7 @@ A=B\omega_0^2\sqrt{\frac{1}{(\omega_0^2-\Omega^2)^{2}+(\nu\Omega)^2}}\\
 \phi=\arctan(\frac{-\nu\Omega}{\omega_0^2-\Omega^2})\\
 \nu=\frac{b}{m}\\
 \omega_0=\sqrt{\frac{k}{m}}\\
+\omega_r=\sqrt{\omega_0^2-0.5\nu^2}\\
 m=\text{mass}\\
 x=\text{position}\\
 t=\text{time}\\

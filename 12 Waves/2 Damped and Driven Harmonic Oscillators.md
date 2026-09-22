@@ -1,3 +1,20 @@
+### electromechanical system
+- correspondence between electromechanical quantity
+
+---
+### electromechanical system formula
+$$
+\begin{lgathered}
+x\iff q\\
+v\iff i\\
+m\iff L\\
+k\iff\frac{1}{C}\\
+b\iff R\\
+F\iff V
+\end{lgathered}
+$$
+
+---
 ### damped harmonic oscillator
 - decreasing energy because of damping force
 ![350](4%20Physics/Images/damped%20oscillation.png)
@@ -103,6 +120,7 @@ A=B\omega_0^2\sqrt{\frac{1}{(\omega_0^2-\Omega^2)^{2}+(\nu\Omega)^2}}\\
 \phi=\arctan(\frac{-\nu\Omega}{\omega_0^2-\Omega^2})\\
 \nu=\frac{b}{m}\\
 \omega_0=\sqrt{\frac{k}{m}}\\
+\omega_r=\sqrt{\omega_0^2-0.5\nu^2}\\
 m=\text{mass}\\
 x=\text{position}\\
 t=\text{time}\\
@@ -129,6 +147,7 @@ A=B\omega_0^2\sqrt{\frac{1}{(\omega_0^2-\Omega^2)^{2}+(\nu\Omega)^2}}\\
 \phi=\arctan(\frac{-\nu\Omega}{\omega_0^2-\Omega^2})\\
 \nu=\frac{R}{L}\\
 \omega_0=\sqrt{\frac{1}{LC}}\\
+\omega_r=\sqrt{\omega_0^2-0.5\nu^2}\\
 L=\text{self inductance}\\
 q=\text{electric charge}\\
 t=\text{time}\\
@@ -137,6 +156,22 @@ C=\text{capacitance}\\
 \Omega,\omega=\text{angular frequency}\\
 A,B=\text{amplitude}\\
 \phi=\text{phase angle}\\
+\nu=\text{damping frequency}
+\end{lgathered}
+$$
+
+---
+### quality factor
+- weakness of damping
+- or sharpness of resonance
+
+---
+### quality factor formula
+$$
+\begin{lgathered}
+Q=\frac{\omega_0}{\nu}\\
+\nu\ll\omega_0\implies Q=\frac{\omega_0}{\Delta\omega}\\
+\omega=\text{angular frequency}\\
 \nu=\text{damping frequency}
 \end{lgathered}
 $$
