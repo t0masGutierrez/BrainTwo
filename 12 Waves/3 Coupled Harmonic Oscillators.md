@@ -29,7 +29,7 @@ $$
 ### normal mode formula
 $$
 \begin{lgathered}
-K\frac{d^2\vec x}{dt}+M\vec x=0\iff L\frac{d^2\vec q}{dt}+C^{-1}\vec q=0\\
+M\frac{d^2\vec x}{dt}+K\vec x=0\iff L\frac{d^2\vec q}{dt}+C^{-1}\vec q=0\\
 (K-\omega_i^2M)\vec A_i=0\iff(L-\omega_i^2C^{-1})\vec A_i=0\\
 \vec x=\sum_{i=1}^n\eta_i\vec A_i\iff\vec q=\sum_{i=1}^n\eta_i\vec A_i\\
 K=\text{spring constant}\\
