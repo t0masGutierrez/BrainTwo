@@ -50,9 +50,12 @@ $$
 ### cumulative distribution function formula
 $$
 \begin{lgathered}
-F(x)=P(X\le x)\\
+P(X\le x)=F(x)\\
+P(a<X\le b)=F(b)-F(a)\\
+P(a\le X\le b)=F(b)-F(a)+P(X=a)\\
+P(a<X<b)=F(b)-F(a)+P(X=b)\\
 X=\text{random variable}\\
-x=\text{real number}
+x,a,b=\text{real number}
 \end{lgathered}
 $$
 
@@ -95,6 +98,7 @@ $$
 ### expectation property formula
 $$
 \begin{lgathered}
+E[c]=c\\
 E[aX]=aE[X]\\
 E[X+b]=E[X]+b\\
 E[\sum_iX_i]=\sum_iE[X_i]\\
