@@ -68,6 +68,20 @@ b=\text{constant}
 $$
 
 ---
+### back substitution
+- start from the final linear equation and move upward
+
+---
+### back substitution formula
+$$
+\begin{lgathered}
+x_n=\frac{b_n}{a_{\text{mn}}}\\
+x_i=\frac{b_i-\sum_{j=i+1}^na_{\text{ij}}x_j}{a_{\text{ii}}}\\
+i=n,n-1,\dots1
+\end{lgathered}
+$$
+
+---
 ### coefficient matrix
 - two dimensional array of coefficients
 

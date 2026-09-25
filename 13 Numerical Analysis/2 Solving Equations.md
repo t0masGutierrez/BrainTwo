@@ -34,7 +34,8 @@ $$
 ### bisection method formula
 $$
 \begin{lgathered}
-\left[a_0,b_0\right]\\
+f\in C\left[a_0,b_0\right]\\
+f(a_0)f(b_0)<0\\
 c_n=\frac{a_n+b_n}{2}\\
 {}[a_{n+1},b_{n+1}]=\begin{cases}
 {}[a_n,c_n],\quad f(a_n)f(c_n)<0\\
@@ -53,7 +54,8 @@ $$
 ### bisection convergence formula
 $$
 \begin{lgathered}
-|r-r_c|\le\frac{b-a}{2^{n+1}}\implies\lim_{n\rightarrow\infty}\frac{e_{n+1}}{e_n}=\frac{1}{2}\\
+\lim_{n\rightarrow\infty}\frac{e_{n+1}}{e_n}=\frac{1}{2}\\
+|r-r_c|\le\frac{b_0-a_0}{2^{n+1}}=\frac{b_n-a_n}{2}\\
 n>\frac{\log(b-a)+p}{\log(2)}\implies|r-r_c|<\frac{1}{2}\times10^{-p}\\
 r=\text{real root}\\
 r_c=\text{computed root}\\
@@ -89,7 +91,6 @@ $$
 \begin{lgathered}
 x_0\\
 x_{n+1}=g(x_n)\\
-n=0,1,2,\dots\\
 |x_{n+1}-x_n|<\epsilon\implies r_c=x_{n+1}\\
 g(r_c)=r_c
 \end{lgathered}
@@ -282,7 +283,7 @@ $$
 
 ---
 ### secant convergence
-- error decrease by superlinear factor every iteration
+- error decrease by golden factor every iteration
 
 ---
 ### secant convergence formula
@@ -298,24 +299,156 @@ $$
 
 ---
 ### false position method
-- definition
+- repeatedly halve bracketing interval where secant line intersect x-axis and choose endpoint with opposite sign
+![300](13%20Numerical%20Analysis/Images/false%20position%20method.png)
 
 ---
 ### false position method formula
 $$
 \begin{lgathered}
-\left[a_0,b_0\right]\\
+f\in C\left[a_0,b_0\right]\\
 f(a_0)f(b_0)<0\\
-
+c_n=a_n-f(a_n)\frac{a_n-b_n}{f(a_n)-f(b_n)}\\
+{}[a_{n+1},b_{n+1}]=\begin{cases}
+{}[a_n,c_n],\quad f(a_n)f(c_n)<0\\
+{}[c_n,b_n],\quad f(c_n)f(b_n)<0
+\end{cases}\\
+|c_{n+1}-c_n|<\epsilon\implies r_c=c_{n+1}\\
+f(r_c)=0
 \end{lgathered}
 $$
 
 ---
-### term
-- definition
+### false position convergence
+- error decrease by linear factor every iteration
 
 ---
-### term
-- definition
+### false position convergence formula
+$$
+\begin{lgathered}
+\lim_{n\rightarrow\infty}\frac{e_{n+1}}{e_n}=C\\
+e=\text{absolute error}\\
+C=\text{constant}
+\end{lgathered}
+$$
+
+---
+### muller method
+- repeatedly evaluate function where fitted quadratic intersect x-axis
+
+---
+### muller method formula
+$$
+\begin{lgathered}
+x_0,x_1,x_2\\
+h_1=x_{n-1}-x_{n-2}\\
+h_2=x_n-x_{n-1}\\
+\delta_1=\frac{f(x_{n-1})-f(x_{n-2})}{h_1}\\
+\delta_2=\frac{f(x_{n})-f(x_{n-1})}{h_2}\\
+\Delta=\frac{\delta_2-\delta_1}{h_2-h_1}\\
+b=\delta_2+\Delta h_2\\
+D=\sqrt{b^2-4\Delta f(x_n)}\\
+M=\begin{cases}
+b+D,\quad|b+D|>|b-D|\\
+b-D,\quad\text{otherwise}
+\end{cases}\\
+x_{n+1}=x_n-f(x_n)\frac{2}{M}\\
+|x_{n+1}-x_n|<\epsilon\implies r_c=x_{n+1}\\
+f(r_c)=0
+\end{lgathered}
+$$
+
+---
+### muller convergence
+- error decrease by superlinear factor every iteration
+
+---
+### muller convergence formula
+$$
+\begin{lgathered}
+\lim_{n\rightarrow\infty}\frac{e_{n+1}}{e_n^{1.8393}}=C\\
+(1.8392)^3-(1.8392)^2-1.8392-1=0\\
+e=\text{absolute error}\\
+C=\text{constant}
+\end{lgathered}
+$$
+
+---
+### inverse quadratic interpolation method
+- repeatedly evaluate function where fitted inverse quadratic intersect x-axis
+
+---
+### inverse quadratic interpolation method formula
+$$
+\begin{lgathered}
+x_0,x_1,x_2\\
+A=f(x_n)\\
+B=f(x_{n+1})\\
+C=f(x_{n+2})\\
+P(y)=x_n\frac{(y-B)(y-C)}{(A-B)(A-C)}+x_{n+1}\frac{(y-A)(y-C)}{(B-A)(B-C)}+x_{n+2}\frac{(y-A)(y-B)}{(C-A)(C-B)}\\
+q_0=\frac{f(x_n)}{f(x_{n+1})}\\
+q_1=\frac{f(x_{n+2})}{f(x_{n+1})}\\
+q_2=\frac{f(x_{n+2})}{f(x_n)}\\
+x_{n+3}=x_{n+2}-\frac{q_1(q_1-q_0)(x_{n+2}-x_{n+1})+q_2(1-q_1)(x_{n+2}-x_n)}{(q_0-1)(q_1-1)(q_2-1)}\\
+|x_{n+3}-x_{n+2}|<\epsilon\implies r_c=x_{n+3}\\
+f(r_c)=0
+\end{lgathered}
+$$
+
+---
+### inverse quadratic interpolation convergence
+- error decrease by superlinear factor every iteration
+
+---
+### inverse quadratic interpolation convergence formula
+$$
+\begin{lgathered}
+\lim_{n\rightarrow\infty}\frac{e_{n+1}}{e_n^{1.8393}}=C\\
+(1.8392)^3-(1.8392)^2-1.8392-1=0\\
+e=\text{absolute error}\\
+C=\text{constant}
+\end{lgathered}
+$$
+
+---
+### brent method
+- try IQI method, try secant method, fallback bisection method
+- tradeoff between fast whenever possible and safe whenever necessary
+- fast because smarter guess and safe because guaranteed progress
+![300](13%20Numerical%20Analysis/Images/brent%20method.png)
+
+---
+### brent method formula
+$$
+\begin{lgathered}
+x_0,x_1,x_2\\
+x_{n+3}=x_{n+2}-\frac{q_1(q_1-q_0)(x_{n+2}-x_{n+1})+q_2(1-q_1)(x_{n+2}-x_n)}{(q_0-1)(q_1-1)(q_2-1)}\\
+x_0,x_1\\
+x_{n+1}=x_n-f(x_n)\frac{x_n-x_{n-1}}{f(x_n)-f(x_{n-1})}\\
+f\in C\left[a_0,b_0\right]\\
+f(a_0)f(b_0)<0\\
+
+{}[a_{n+1},b_{n+1}]=\begin{cases}
+{}[a_n,c_n],\quad f(a_n)f(c_n)<0\\
+{}[c_n,b_n],\quad f(c_n)f(b_n)<0
+\end{cases}\\
+\end{lgathered}
+$$
+
+---
+### brent convergence
+- error decrease by superlinear factor every iteration
+- error decrease by golden factor every iteration
+- error decrease by half every iteration
+
+---
+### brent convergence formula
+$$
+\begin{lgathered}
+\lim_{n\rightarrow\infty}\frac{e_{n+1}}{e_n^{1.8393}}=C\\
+\lim_{n\rightarrow\infty}\frac{e_{n+1}}{e_n^{\varphi}}=|\frac{f''(r)}{2f'(r)}|^{\varphi-1}\\
+\lim_{n\rightarrow\infty}\frac{e_{n+1}}{e_n}=\frac{1}{2}\\
+\end{lgathered}
+$$
 
 ---
