@@ -95,7 +95,7 @@ $$
 ### integers arithmetic formula
 $$
 \begin{lgathered}
-{}[(m,n)]+[(m',n')]=[(m+m',n+n')]\\
+\left[(m,n)\right]+[(m',n')]=[(m+m',n+n')]\\
 {}[(m,n)]\cdot[(m',n')]=[(mm'+nn',mn'+nm')]
 \end{lgathered}
 $$
@@ -149,7 +149,7 @@ $$
 ### rational numbers arithmetic formula
 $$
 \begin{lgathered}
-{}[(p,q)]+[(p',q')]=[(pq'+qp',qq')]\\
+\left[(p,q)\right]+[(p',q')]=[(pq'+qp',qq')]\\
 {}[(p,q)]\cdot[(p',q')]=[(pp',qq')]
 \end{lgathered}
 $$

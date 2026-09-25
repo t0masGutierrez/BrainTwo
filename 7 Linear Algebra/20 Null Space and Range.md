@@ -99,7 +99,7 @@ $$
 ### null space dimension property formula
 $$
 \begin{lgathered}
-{}[L(\vec v)]_{C}=A_{\text{BC}}[\vec v]_{B}\implies\dim(\text{null}\ L)=\text{dim}(\mathcal V)-\text{rank}(A)\\
+\left[L(\vec v)\right]_{C}=A_{\text{BC}}[\vec v]_{B}\implies\dim(\text{null}\ L)=\text{dim}(\mathcal V)-\text{rank}(A)\\
 L:\mathcal V\rightarrow\mathcal W\\
 L=\text{linear transformation}\\
 {}[\vec v]_{B}=\text{preimage coordinate vector}\\
@@ -154,7 +154,7 @@ $$
 ### range dimension property formula
 $$
 \begin{lgathered}
-{}[L(\vec v)]_{C}=A_{\text{BC}}[\vec v]_{B}\implies\dim(\text{range}\ L)=\text{rank}(A_{\text{BC}})\\
+\left[L(\vec v)\right]_{C}=A_{\text{BC}}[\vec v]_{B}\implies\dim(\text{range}\ L)=\text{rank}(A_{\text{BC}})\\
 L:\mathcal V\rightarrow\mathcal W\\
 L=\text{linear transformation}\\
 {}[\vec v]_{B}=\text{preimage coordinate vector}\\

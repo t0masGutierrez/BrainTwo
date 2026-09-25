@@ -7,7 +7,8 @@ $$
 \begin{lgathered}
 |r-r_c|<\frac{1}{2}\times10^{-p}\\
 r=\text{real root}\\
-r_c=\text{computed root}
+r_c=\text{computed root}\\
+p=\text{real exponent}
 \end{lgathered}
 $$
 
@@ -33,13 +34,13 @@ $$
 ### bisection method formula
 $$
 \begin{lgathered}
-{}[a_0,b_0]\\
+\left[a_0,b_0\right]\\
 c_n=\frac{a_n+b_n}{2}\\
 {}[a_{n+1},b_{n+1}]=\begin{cases}
 {}[a_n,c_n],\quad f(a_n)f(c_n)<0\\
 {}[c_n,b_n],\quad f(c_n)f(b_n)<0
 \end{cases}\\
-\frac{b_n-a_n}{2}<\epsilon\implies r_c=\frac{a_n+b_n}{2}\\
+\frac{b_n-a_n}{2}<\epsilon\implies r_c=c_n\\
 f(r_c)=0
 \end{lgathered}
 $$
@@ -59,7 +60,7 @@ r_c=\text{computed root}\\
 e=\text{absolute error}\\
 a,b=\text{endpoint}\\
 n=\text{number of iterations}\\
-p=\text{exponent}
+p=\text{real exponent}
 \end{lgathered}
 $$
 
@@ -266,6 +267,7 @@ $$
 ---
 ### secant method
 - repeatedly evaluate function where secant line intersect x-axis
+![300](13%20Numerical%20Analysis/Images/secant%20method.png)
 
 ---
 ### secant method formula
@@ -286,12 +288,34 @@ $$
 ### secant convergence formula
 $$
 \begin{lgathered}
-\lim_{n\rightarrow\infty}\frac{e_{n+1}}{e_n^{\varphi}}=|\frac{f''(r)}{2f'(r)}|^{\varphi}\\
+\lim_{n\rightarrow\infty}\frac{e_{n+1}}{e_n^{\varphi}}=|\frac{f''(r)}{2f'(r)}|^{\varphi-1}\\
 \varphi=\frac{1+\sqrt5}{2}\approx1.618\\
-e=\text{error}\\
+e=\text{absolute error}\\
 f=\text{function}\\
 r=\text{real root}
 \end{lgathered}
 $$
+
+---
+### false position method
+- definition
+
+---
+### false position method formula
+$$
+\begin{lgathered}
+\left[a_0,b_0\right]\\
+f(a_0)f(b_0)<0\\
+
+\end{lgathered}
+$$
+
+---
+### term
+- definition
+
+---
+### term
+- definition
 
 ---

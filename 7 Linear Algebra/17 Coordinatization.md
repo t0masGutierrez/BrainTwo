@@ -20,7 +20,7 @@ $$
 ### coordinatization formula
 $$
 \begin{lgathered}
-{}[\vec w]_{B}=[c_{1},\dots,c_{n}]\iff\vec w=\sum_{i=1}^{n}c_{i}\vec v_{i}\\
+\left[\vec w\right]_{B}=[c_{1},\dots,c_{n}]\iff\vec w=\sum_{i=1}^{n}c_{i}\vec v_{i}\\
 {}[\vec w]_{B}=\text{coordinate vector}\\
 B=\text{ordered basis}\\
 c=\text{coordinate}\\
@@ -57,7 +57,7 @@ $$
 ### change of coordinates formula
 $$
 \begin{lgathered}
-{}[\vec w]_{B}\rightarrow[\vec w]_{C}
+\left[\vec w\right]_{B}\rightarrow[\vec w]_{C}
 \end{lgathered}
 $$
 
@@ -88,7 +88,7 @@ $$
 ### coordinatization standard property formula
 $$
 \begin{lgathered}
-{}[\vec v]_{S}=\vec v\\
+\left[\vec v\right]_{S}=\vec v\\
 \vec v=\text{coordinatized vector}\\
 S=\text{standard basis}
 \end{lgathered}
@@ -104,7 +104,7 @@ $$
 ### coordinatization arithmetic property formula
 $$
 \begin{lgathered}
-{}[\vec v_{1}+\vec v_{2}]_{B}=[\vec v_{1}]_{B}+[\vec v_{2}]_{B}\\
+\left[\vec v_{1}+\vec v_{2}\right]_{B}=[\vec v_{1}]_{B}+[\vec v_{2}]_{B}\\
 {}[c\vec v]_{B}=c[\vec v]_{B}\\
 {}[\sum_{i=1}^{k}c_{i}\vec v_{i}]_{B}=\sum_{i=1}^{k}c_{i}[\vec v_{i}]_{B}
 \end{lgathered}
@@ -151,7 +151,7 @@ $$
 ### transition matrix inversion property formula
 $$
 \begin{lgathered}
-{}[\vec v]_{C}=P_{\text{BC}}[\vec v]_{B}\implies(|P|\ne0)\land([\vec v]_{B}=P_{\text{BC}}^{-1}[\vec v]_{C})\\
+\left[\vec v\right]_{C}=P_{\text{BC}}[\vec v]_{B}\implies(|P|\ne0)\land([\vec v]_{B}=P_{\text{BC}}^{-1}[\vec v]_{C})\\
 \vec v=\text{coordinatized vector}\\
 {}[\vec v]_{B},[\vec v]_{C}=\text{coordinate vector}\\
 B,C=\text{ordered basis}\\
@@ -169,7 +169,7 @@ $$
 ### transition matrix diagonalization property formula
 $$
 \begin{lgathered}
-{}[\vec v]_{S}=P[\vec v]_{B}\\
+\left[\vec v\right]_{S}=P[\vec v]_{B}\\
 D[\vec v]_{B}=[A\vec v]_{B}\\
 \vec v=\text{coordinatized vector}\\
 {}[\vec v]_{S},[\vec v]_{B},[A\vec v]_{B}=\text{coordinate vector}\\

@@ -75,7 +75,7 @@ $$
 ### translation formula
 $$
 \begin{lgathered}
-{}[v_{1},\dots,v_{i},\dots,v_{n}]\mapsto[v_{1},\dots,v_{i}+c,\dots,v_{n}]
+\left[v_{1},\dots,v_{i},\dots,v_{n}\right]\mapsto[v_{1},\dots,v_{i}+c,\dots,v_{n}]
 \end{lgathered}
 $$
 
@@ -87,7 +87,7 @@ $$
 ### reflection formula
 $$
 \begin{lgathered}
-{}[v_{1},\dots,v_{i},\dots,v_{n}]\mapsto[v_{1},\dots,-v_{i},\dots,v_{n}]
+\left[v_{1},\dots,v_{i},\dots,v_{n}\right]\mapsto[v_{1},\dots,-v_{i},\dots,v_{n}]
 \end{lgathered}
 $$
 
@@ -99,7 +99,7 @@ $$
 ### contraction formula
 $$
 \begin{lgathered}
-{}[v_{1},\dots,v_{i},\dots,v_{n}]\mapsto[v_{1},\dots,cv_{i},\dots,v_{n}]\\
+\left[v_{1},\dots,v_{i},\dots,v_{n}\right]\mapsto[v_{1},\dots,cv_{i},\dots,v_{n}]\\
 0<c<1
 \end{lgathered}
 $$
@@ -112,7 +112,7 @@ $$
 ### dilation formula
 $$
 \begin{lgathered}
-{}[v_{1},\dots,v_{i},\dots,v_{n}]\mapsto[v_{1},\dots,cv_{i},\dots,v_{n}]\\
+\left[v_{1},\dots,v_{i},\dots,v_{n}\right]\mapsto[v_{1},\dots,cv_{i},\dots,v_{n}]\\
 c>1
 \end{lgathered}
 $$
@@ -125,7 +125,7 @@ $$
 ### projection formula
 $$
 \begin{lgathered}
-{}[v_{1},\dots,v_{i},\dots,v_{n}]\mapsto[v_{1},\dots,0,\dots,v_{n}]
+\left[v_{1},\dots,v_{i},\dots,v_{n}\right]\mapsto[v_{1},\dots,0,\dots,v_{n}]
 \end{lgathered}
 $$
 
@@ -137,7 +137,7 @@ $$
 ### rotation formula
 $$
 \begin{lgathered}
-{}[v_{1},\dots,v_{i},\dots,v_{n}]\mapsto\begin{bmatrix}\cos\theta-\sin\theta\\\sin\theta\cos\theta\end{bmatrix}\begin{bmatrix}v_{1}\\\vdots\\v_{i}\\\vdots\\v_{n}\end{bmatrix}
+\left[v_{1},\dots,v_{i},\dots,v_{n}\right]\mapsto\begin{bmatrix}\cos\theta-\sin\theta\\\sin\theta\cos\theta\end{bmatrix}\begin{bmatrix}v_{1}\\\vdots\\v_{i}\\\vdots\\v_{n}\end{bmatrix}
 \end{lgathered}
 $$
 

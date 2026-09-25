@@ -80,7 +80,7 @@ $$
 ### interval formula
 $$
 \begin{lgathered}
-{}[a,b]\\
+\left[a,b\right]\\
 {}[a,b)\\
 (a,b]\\
 (a,b)

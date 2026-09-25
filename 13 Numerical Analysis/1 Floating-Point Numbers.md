@@ -315,7 +315,7 @@ $$
 \begin{lgathered}
 s_1\mid P_1P_2\dots P_{11}\mid f_1f_2\dots f_{52}\\
 s=\text{sign}\\
-P=\text{exponent}\\
+P=\text{stored exponent}\\
 f=\text{fraction}
 \end{lgathered}
 $$

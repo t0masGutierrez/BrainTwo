@@ -59,7 +59,7 @@ $$
 ### closed interval formula
 $$
 \begin{lgathered}
-{}[a,b]=\{x\in\mathbb R|a\le x\le b\}\\
+\left[a,b\right]=\{x\in\mathbb R|a\le x\le b\}\\
 a=\text{lower endpoint}\\
 b=\text{upper endpoint}
 \end{lgathered}

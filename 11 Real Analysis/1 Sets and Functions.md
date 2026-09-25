@@ -45,7 +45,7 @@ $$
 ### equivalence class formula
 $$
 \begin{lgathered}
-{}[x]=\set{y\in S|y\sim x}\\
+\left[x\right]=\set{y\in S|y\sim x}\\
 x=\text{representative}
 \end{lgathered}
 $$

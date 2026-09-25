@@ -20,7 +20,7 @@
 ### dimension formula
 $$
 \begin{lgathered}
-{}[q]=\prod_{i=1}^{m}D_{i}^{a_{i}}\iff\Delta_{q}=[a_{1},\dots,a_{m}]\in\mathbb R^{m}\\
+\left[q\right]=\prod_{i=1}^{m}D_{i}^{a_{i}}\iff\Delta_{q}=[a_{1},\dots,a_{m}]\in\mathbb R^{m}\\
 q=\text{quantity}\\
 D=\text{dimension}\\
 a=\text{dimensional exponent}
@@ -68,7 +68,7 @@ $$
 ### dimension property formula
 $$
 \begin{lgathered}
-{}[p\pm q]\in D\iff[p]=[q]\\
+\left[p\pm q\right]\in D\iff[p]=[q]\\
 {}[p\cdot q]=[p]\cdot[q]\\
 {}[\frac{p}{q}]=\frac{[p]}{[q]}\\
 {}[q^{k}]=[q]^{k}\\
@@ -102,7 +102,7 @@ $$
 ### dimensionless formula
 $$
 \begin{lgathered}
-{}[q]=1\iff\Delta_{q}=0\\
+\left[q\right]=1\iff\Delta_{q}=0\\
 q=\text{pure number}
 \end{lgathered}
 $$
