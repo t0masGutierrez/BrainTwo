@@ -77,9 +77,39 @@ def convert_align_environments(text):
             return match.group(0)
         for start, end, replacement in sorted(edits, reverse=True):
             body = body[:start] + replacement + body[end:]
+        # A first-row interval can be read as lgathered's optional position.
+        body = delimit_first_row_interval(body)
         return '$$' + body + '$$'
 
     return re.sub(r'\$\$([\s\S]*?)\$\$', convert_display, text)
+
+def delimit_first_row_interval(body):
+    """Pair first-row brackets without crossing a row or an environment boundary."""
+    starts = list(re.finditer(r'\\begin\{lgathered\}\s*(?P<interval>(?:\{\})?\[)', body))
+    for start in reversed(starts):
+        bracket_depth = 1
+        brace_depth = 0
+        for token in re.finditer(r'%[^\n]*|\\[A-Za-z]+|\\.|[{}\[\]]', body[start.end():]):
+            value = token.group()
+            if value.startswith('%'):
+                continue
+            if value in {r'\\', r'\begin', r'\end'}:
+                break
+            if value == '{':
+                brace_depth += 1
+            elif value == '}':
+                brace_depth -= 1
+            elif brace_depth == 0:
+                if value == '[':
+                    bracket_depth += 1
+                elif value == ']':
+                    bracket_depth -= 1
+                    if bracket_depth == 0:
+                        end = start.end() + token.start()
+                        body = (body[:start.start('interval')] + r'\left[' +
+                                body[start.end():end] + r'\right]' + body[end + 1:])
+                        break
+    return body
 
 def sanitize_math_text(text):
     line_ending_match = LINE_ENDING_PATTERN.search(text)
