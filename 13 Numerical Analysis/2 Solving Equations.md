@@ -19,9 +19,8 @@ $$
 ### intermediate value formula
 $$
 \begin{lgathered}
-f(a)\le N\le f(b)\implies\exists x\in[a,b]:f(x)=N\\
-f=\text{continuous function}\\
-a,b=\text{endpoint}
+f(a)\le c\le f(b)\implies\exists x\in[a,b]:f(x)=c\\
+f=\text{function}
 \end{lgathered}
 $$
 
@@ -36,12 +35,12 @@ $$
 \begin{lgathered}
 {}[a_0,b_0]\\
 c_n=\frac{a_n+b_n}{2}\\
-n=0,1,2,\dots\\
 {}[a_{n+1},b_{n+1}]=\begin{cases}
 {}[a_n,c_n],\quad f(a_n)f(c_n)<0\\
 {}[c_n,b_n],\quad f(c_n)f(b_n)<0
 \end{cases}\\
-f(c_n)=0\implies r_c=c_n
+\frac{b_n-a_n}{2}<\epsilon\implies r_c=\frac{a_n+b_n}{2}\\
+f(r_c)=0
 \end{lgathered}
 $$
 
@@ -90,8 +89,8 @@ $$
 x_0\\
 x_{n+1}=g(x_n)\\
 n=0,1,2,\dots\\
-\forall\epsilon>0,\exists N\in\mathbb N,\forall n\ge N:|x_{n+1}-x_n|<\epsilon\implies\\
-r_c=\lim_{n\rightarrow\infty}x_{n+1}=\lim_{n\rightarrow\infty}g(r_c)=g(r_c)
+|x_{n+1}-x_n|<\epsilon\implies r_c=x_{n+1}\\
+g(r_c)=r_c
 \end{lgathered}
 $$
 
@@ -211,7 +210,8 @@ $$
 \begin{lgathered}
 x_0\\
 x_{n+1}=x_n-\frac{f(x_n)}{f'(x_n)}\\
-n=0,1,2,\dots
+|x_{n+1}-x_n|<\epsilon\implies r_c=x_{n+1}\\
+f(r_c)=0
 \end{lgathered}
 $$
 
@@ -237,12 +237,13 @@ $$
 - repeatedly evaluate multiple function where tangent line intersect x-axis
 
 ---
-### modified newton method
+### modified newton method formula
 $$
 \begin{lgathered}
 x_0\\
 x_{n+1}=x_n-m\frac{f(x_n)}{f'(x_n)}\\
-n=0,1,2,\dots
+|x_{n+1}-x_n|<\epsilon\implies r_c=x_{n+1}\\
+f(r_c)=0
 \end{lgathered}
 $$
 
@@ -251,7 +252,7 @@ $$
 - multiple error decrease by quadratic factor every iteration
 
 ---
-### modified newton convergence
+### modified newton convergence formula
 $$
 \begin{lgathered}
 f(x)=(x-r)^mg(x)\implies\lim_{n\rightarrow\infty}\frac{e_{n+1}}{e_n^2}=|\frac{g'(r)}{mg(r)}|\\
@@ -259,6 +260,37 @@ f,g=\text{function}\\
 r=\text{real root}\\
 m=\text{multiplicity}\\
 e=\text{absolute error}
+\end{lgathered}
+$$
+
+---
+### secant method
+- repeatedly evaluate function where secant line intersect x-axis
+
+---
+### secant method formula
+$$
+\begin{lgathered}
+x_0,x_1\\
+x_{n+1}=x_n-f(x_n)\frac{x_n-x_{n-1}}{f(x_n)-f(x_{n-1})}\\
+|x_{n+1}-x_n|<\epsilon\implies r_c=x_{n+1}\\
+f(r_c)=0
+\end{lgathered}
+$$
+
+---
+### secant convergence
+- error decrease by superlinear factor every iteration
+
+---
+### secant convergence formula
+$$
+\begin{lgathered}
+\lim_{n\rightarrow\infty}\frac{e_{n+1}}{e_n^{\varphi}}=|\frac{f''(r)}{2f'(r)}|^{\varphi}\\
+\varphi=\frac{1+\sqrt5}{2}\approx1.618\\
+e=\text{error}\\
+f=\text{function}\\
+r=\text{real root}
 \end{lgathered}
 $$
 
