@@ -37,9 +37,9 @@ $$
 ### joint probability mass function formula
 $$
 \begin{lgathered}
-P(a\le X\le b,c\le Y\le d)=\sum_{a\le x_{i}\le b}\sum_{c\le y_{j}\le d}P(X=x_{i},Y=y_{j})\\
-P(X\le x,Y\le y)=\sum_{x_{i}\le x}\sum_{y_{j}\le y}P(X=x_{i},Y=y_{j})\\
-P(X,Y)=\sum_{i}\sum_{j}P(X=x_{i},Y=y_{j})=1\\
+P(a\le X\le b,c\le Y\le d)=\sum_{c\le y_{j}\le d}\sum_{a\le x_{i}\le b}P(X=x_{i},Y=y_{j})\\
+P(X\le x,Y\le y)=\sum_{y_{j}\le y}\sum_{x_{i}\le x}P(X=x_{i},Y=y_{j})\\
+P(X,Y)=\sum_{j}\sum_{i}P(X=x_{i},Y=y_{j})=1\\
 P(X=x,Y=y)=P(X\le x,Y\le y)-\\
 P(X\le x-1,Y\le y)-\\
 P(X\le x,Y\le y-1)+\\
@@ -56,10 +56,10 @@ $$
 $$
 \begin{lgathered}
 P(X=x,Y=y)=0\\
-P(X\in A,Y\in B)=\int_{A}\int_{B}f_{X,Y}(x,y)dydx=1\\
-P(X\le a,Y\le b)=\int_{-\infty}^{a}\int_{-\infty}^{b}f_{X,Y}(x,y)dydx=F_{X,Y}(a,b)\\
-P(a\le X\le b,c\le Y\le d)=\int_{a}^{b}\int_{c}^{d}f_{X,Y}(x,y)dydx=\\
-F_{X,Y}(b,d)-\\
+P(X,Y)=\int_{-\infty}^\infty\int_{-\infty}^\infty f_{X,Y}(x,y)dxdy=1\\
+P(X\le a,Y\le b)=\int_{-\infty}^{b}\int_{-\infty}^{a}f_{X,Y}(x,y)dxdy=F_{X,Y}(a,b)\\
+P(a\le X\le b,c\le Y\le d)=\int_c^d\int_a^bf_{X,Y}(x,y)dxdy
+=F_{X,Y}(b,d)-\\
 F_{X,Y}(a,d)-\\
 F_{X,Y}(b,c)+\\
 F_{X,Y}(a,c)
@@ -93,63 +93,6 @@ f_{X}(x)=\int_{-\infty}^{\infty}f_{X,Y}(x,y)dy\\
 f_{Y}(y)=\int_{-\infty}^{\infty}f_{X,Y}(x,y)dx\\
 X,Y=\text{random variable}\\
 x,y=\text{real number}
-\end{lgathered}
-$$
-
----
-### indicator random variable
-- function of sample space outcome equal binary number
-
----
-### indicator random variable formula
-$$
-\begin{lgathered}
-I=\begin{cases}1,\quad A\\0,\quad A^{c}\end{cases}\\
-A=\text{event}
-\end{lgathered}
-$$
-
----
-### indicator expectation
-- mean of indicator random variable
-
----
-### indicator expectation formula
-$$
-\begin{lgathered}
-E[X]=E[\sum_{i=1}^{n}I_{i}]=\sum_{i=1}^{n}P(A_{i})\\
-X,I=\text{random variable}\\
-A=\text{event}
-\end{lgathered}
-$$
-
----
-### indicator variance
-- spread of indicator random variable around mean
-
----
-### indicator variance formula
-$$
-\begin{lgathered}
-\text{Var}(X)=\text{Var}(\sum_{i=1}^{n}I_{i})=\sum_{i=1}^{n}P(A_{i})Q(A_{i})\\
-Q(A)=1-P(A)\\
-X,I=\text{random variable}\\
-A=\text{event}
-\end{lgathered}
-$$
-
----
-### convolution
-- probability as function of sum of independent random variable
-
----
-### convolution formula
-$$
-\begin{lgathered}
-P(X+Y=z)=\sum_{x}P(Y=z-x)P(X=x)\\
-P(X+Y=z)=\sum_{y}P(X=z-y)P(Y=y)\\
-f_{X+Y}(z)=\int_{-\infty}^{\infty}f_{Y}(z-x)f_{X}(x)dx\\
-f_{X+Y}(z)=\int_{-\infty}^{\infty}f_{X}(z-y)f_{Y}(y)dy
 \end{lgathered}
 $$
 
@@ -352,6 +295,63 @@ $$
 X=\text{iid random variable}\\
 n=\text{sample size}\\
 \sigma^{2}=\text{variance}\\
+\end{lgathered}
+$$
+
+---
+### indicator random variable
+- function of sample space outcome equal binary number
+
+---
+### indicator random variable formula
+$$
+\begin{lgathered}
+I=\begin{cases}1,\quad A\\0,\quad A^{c}\end{cases}\\
+A=\text{event}
+\end{lgathered}
+$$
+
+---
+### indicator expectation
+- mean of indicator random variable
+
+---
+### indicator expectation formula
+$$
+\begin{lgathered}
+E[X]=E[\sum_{i=1}^{n}I_{i}]=\sum_{i=1}^{n}P(A_{i})\\
+X,I=\text{random variable}\\
+A=\text{event}
+\end{lgathered}
+$$
+
+---
+### indicator variance
+- spread of indicator random variable around mean
+
+---
+### indicator variance formula
+$$
+\begin{lgathered}
+\text{Var}(X)=\text{Var}(\sum_{i=1}^{n}I_{i})=\sum_{i=1}^{n}P(A_{i})Q(A_{i})\\
+Q(A)=1-P(A)\\
+X,I=\text{random variable}\\
+A=\text{event}
+\end{lgathered}
+$$
+
+---
+### convolution
+- probability as function of sum of independent random variable
+
+---
+### convolution formula
+$$
+\begin{lgathered}
+P(X+Y=z)=\sum_{x}P(Y=z-x)P(X=x)\\
+P(X+Y=z)=\sum_{y}P(X=z-y)P(Y=y)\\
+f_{X+Y}(z)=\int_{-\infty}^{\infty}f_{Y}(z-x)f_{X}(x)dx\\
+f_{X+Y}(z)=\int_{-\infty}^{\infty}f_{X}(z-y)f_{Y}(y)dy
 \end{lgathered}
 $$
 

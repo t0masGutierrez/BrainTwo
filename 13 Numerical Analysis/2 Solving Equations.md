@@ -104,7 +104,7 @@ $$
 ### fixed point convergence formula
 $$
 \begin{lgathered}
-0<|g'(r)|<1\implies\lim_{n\rightarrow\infty}\frac{e_{n+1}}{e_n}=|g'(r)|\\
+\lim_{n\rightarrow\infty}\frac{e_{n+1}}{e_n}=|g'(r)|\\
 g(r)=g'(r)=g''(r)=\dots=g^{(p-1)}(r)=0\ne g^{(p)}(r)\implies\lim_{n\rightarrow\infty}\frac{e_{n+1}}{e_n^p}=\frac{|g^{(p)}(r)|}{p!}\\
 g=\text{function}\\
 e=\text{absolute error}\\
