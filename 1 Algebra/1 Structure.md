@@ -105,7 +105,7 @@ $$
 $$
 \begin{lgathered}
 \text{1. parenthesis}\\
-\text{2. exponents}\\
+\text{2. exponentiation}\\
 \text{3. multiplication}\\
 \text{4. division}\\
 \text{5. addition}\\

@@ -96,11 +96,3 @@ I=\text{identity matrix}\\
 $$
 
 ---
-### term
-- definition
-
----
-### term
-- definition
-
----
