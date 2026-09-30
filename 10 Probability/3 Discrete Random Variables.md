@@ -53,10 +53,10 @@ $$
 F(\infty)=1\\
 F(-\infty)=0\\
 P(X\le x)=F(x)\\
-a<b\implies F(a)<F(b)\\
 P(a<X\le b)=F(b)-F(a)\\
 P(a\le X\le b)=F(b)-F(a)+P(X=a)\\
-P(a<X<b)=F(b)-F(a)+P(X=b)
+P(a<X<b)=F(b)-F(a)-P(X=b)\\
+P(a\le X<b)=F(b)-F(a)+P(X=a)-P(X=b)\\
 \end{lgathered}
 $$
 

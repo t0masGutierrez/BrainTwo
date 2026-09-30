@@ -43,14 +43,15 @@ P(a\le X\le b)=\int_{a}^{b}f(x)dx=F(b)-F(a)
 $$
 
 ---
-### quantile function
-- random variable as function of cumulative probability
+### cumulative distribution function
+- cumulative probability as function of random variable
 
 ---
-### quantile function formula
+### cumulative distribution function formula
 $$
 \begin{lgathered}
-Q(p)=F^{-1}(x)\\
+F^{-1}(p)=x\implies F(x)=p\\
+F'(x)=f(x)\implies F(x)=\int_{-\infty}^xf(t)dt\\
 p=\text{probability of success}\\
 x=\text{real number}
 \end{lgathered}

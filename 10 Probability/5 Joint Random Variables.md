@@ -159,7 +159,7 @@ $$
 - expectation of independent product equal product of expectation
 
 ---
-### expectation addition property formula
+### expectation multiplication property formula
 $$
 \begin{lgathered}
 P(X\in A,Y\in B)=P(X\in A)P(Y\in B)\implies E[XY]=E[X]E[Y]\\

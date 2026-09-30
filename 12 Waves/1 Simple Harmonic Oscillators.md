@@ -26,6 +26,20 @@ x=\text{position}
 $$
 
 ---
+### spring constant
+- stiffness of spring
+
+---
+### spring constant formula
+$$
+\begin{lgathered}
+k=U''(x_0)\\
+U=\text{potential energy}\\
+x=\text{position}
+\end{lgathered}
+$$
+
+---
 ### simple harmonic oscillator
 - periodic motion where object oscillate about equilibrium with restoring force directly proportional displacement
 
