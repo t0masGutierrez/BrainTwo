@@ -452,17 +452,3 @@ $$
 $$
 
 ---
-### convergence linearity
-- constant error ratio equal linear convergence
-- zero error ratio equal superlinear convergence
-
----
-### convergence linearity formula
-$$
-\begin{lgathered}
-\lim_{n\rightarrow\infty}\frac{e_{n+1}}{e_n^p}=C\in(0,1)\implies p<1\\
-\lim_{n\rightarrow\infty}\frac{e_{n+1}}{e_n^p}=0\implies p>1\\
-\end{lgathered}
-$$
-
----

@@ -102,7 +102,7 @@ $$
 ### type II row operation formula
 $$
 \begin{lgathered}
-\langle i\rangle\implies\langle i\rangle+c\langle j\rangle\\
+\langle i\rangle\implies\langle i\rangle-c\langle j\rangle\\
 i,j=\text{row index}\\
 c=\text{scalar}
 \end{lgathered}
@@ -135,16 +135,70 @@ $$
 - back substitute for the particular solution of system of linear equations
 
 ---
-### gaussian elimination complexity
+### naive gaussian elimination complexity
 - number of naive gaussian elimination operations
 
 ---
-### gaussian elimination complexity formula
+### naive gaussian elimination complexity formula
 $$
 \begin{lgathered}
 T_{\text{elim}}(n)=\frac{2}{3}n^3+\frac{1}{2}n^2-\frac{7}{6}n\approx\frac{2}{3}n^3\\
 T_{\text{back}}(n)=n^2\\
-T(n)=\frac{2}{3}n^3+n^2\approx\frac{2}{3}n^3
+T(n)=k(\frac{2}{3}n^3+n^2)\approx\frac{2}{3}kn^3\\
+t=\frac{T(n)}{\lambda}
+\end{lgathered}
+$$
+
+---
+### LU factorization
+- perform naive gaussian elimination
+- put multipliers into lower triangular matrix
+- put eliminated matrix into upper triangular matrix
+- setup matrix equation
+- solve first system of equations with forward substitution
+- solve second system of equations with back substitution
+
+---
+### LU factorization formula
+$$
+\begin{lgathered}
+A\vec x=\vec b\\
+m_{\text{ij}}=\frac{a_{\text{ij}}}{a_{\text{jj}}}\\
+R_i\implies R_i-m_{\text{ij}}R_j\\
+L=\begin{bmatrix}
+1&0&0&\cdots&0\\
+m_{21}&1&0&\cdots&0\\
+m_{31}&m_{32}&1&\cdots&0\\
+m_{41}&m_{42}&m_{43}&\ddots&\vdots\\
+\vdots&\vdots&\vdots&\ddots&0\\
+m_{n1}&m_{n2}&m_{n3}&\cdots&1
+\end{bmatrix}\\
+U=\begin{bmatrix}
+u_{11}&u_{12}&u_{13}&\cdots&u_{1n}\\
+0&u_{22}&u_{23}&\cdots&u_{2n}\\
+0&0&u_{33}&\cdots&u_{3n}\\
+0&0&0&\ddots&\vdots\\
+\vdots&\vdots&\vdots&\ddots&u_{n-1,n}\\
+0&0&0&\cdots&u_{\text{nn}}
+\end{bmatrix}\\
+LU=A\\
+L\vec y=\vec b\implies y_i=\frac{b_i-\sum_{j=1}^{i-1}l_{\text{ij}}y_j}{l_{\text{jj}}}\\
+U\vec x=\vec y\impliedby x_i=\frac{y_i-\sum_{j=i+1}^nu_{\text{ij}}x_j}{u_{\text{jj}}}\\
+\end{lgathered}
+$$
+
+---
+### LU factorization complexity
+- number of LU factorization operations
+
+---
+### LU factorization complexity formula
+$$
+\begin{lgathered}
+T_{\text{elim}}(n)\approx\frac{2}{3}n^3\\
+T_{\text{back}}(n)=n^2\\
+T(n)=\frac{2}{3}n^3+kn^2\approx\frac{2}{3}n^3\\
+t=\frac{T(n)}{\lambda}
 \end{lgathered}
 $$
 

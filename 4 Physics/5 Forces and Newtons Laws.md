@@ -145,9 +145,9 @@ $$
 ### drag force formula
 $$
 \begin{lgathered}
-\vec F_{d}=-k\vec v\\
+\vec F_{d}=-b\vec v\\
 \vec F_{d}=\frac{-1}{2}\rho_fC_{d}A\vec v^{2}\\
-k=\text{linear drag coefficient}\\
+b=\text{damping coefficient}\\
 \vec v=\text{velocity}\\
 \rho_f=\text{fluid density}\\
 C_{d}=\text{drag coefficient}\\

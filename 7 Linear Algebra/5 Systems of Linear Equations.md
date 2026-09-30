@@ -253,7 +253,7 @@ $$
 ### type II row operation formula
 $$
 \begin{lgathered}
-\langle i\rangle\implies\langle i\rangle+c\langle j\rangle\\
+\langle i\rangle\implies\langle i\rangle-c\langle j\rangle\\
 i,j=\text{row index}\\
 c=\text{scalar}
 \end{lgathered}
