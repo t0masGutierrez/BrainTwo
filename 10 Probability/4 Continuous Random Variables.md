@@ -50,8 +50,8 @@ $$
 ### cumulative distribution function formula
 $$
 \begin{lgathered}
-F^{-1}(p)=x\implies F(x)=p\\
-F'(x)=f(x)\implies F(x)=\int_{-\infty}^xf(t)dt\\
+F^{-1}(p)=x\iff F(x)=p\\
+F'(x)=f(x)\iff F(x)=\int_{-\infty}^xf(t)dt\\
 p=\text{probability of success}\\
 x=\text{real number}
 \end{lgathered}
