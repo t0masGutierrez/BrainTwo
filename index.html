@@ -2156,7 +2156,7 @@
                 for (const folder of folders) {
                     for (const file of this.app.manifestData[folder]) {
                         fetches.push(
-                            fetch(RouteManager.contentUrl(folder, file))
+                            fetch(RouteManager.contentUrl(folder, file), { cache: 'no-cache' })
                                 .then(r => r.text())
                                 .then(text => {
                                     // Use raw split to preserve cardIndex alignment with loadFileContent
@@ -2516,7 +2516,7 @@
 
         async start(shuffle, starOnly) {
             try {
-                const response = await fetch(RouteManager.contentUrl(this.app.currentFolder, this.app.currentFile));
+                const response = await fetch(RouteManager.contentUrl(this.app.currentFolder, this.app.currentFile), { cache: 'no-cache' });
                 const text = await response.text();
                 this.app.flashcards = CardParser.parseCards(text);
                 if (starOnly) {
@@ -3369,7 +3369,7 @@
 
         async _loadFileContent(folder, file) {
             try {
-                const response = await fetch(RouteManager.contentUrl(folder, file));
+                const response = await fetch(RouteManager.contentUrl(folder, file), { cache: 'no-cache' });
                 const text = await response.text();
                 const fileViewerText = MarkdownImageRenderer.expandObsidianImages(text, folder);
                 const contentDiv = document.getElementById('file-content');
@@ -3458,7 +3458,7 @@
                 this.closeModal();
                 SessionManager.saveNavState('file', this.currentFolder, this.currentFile, 'flashcards', learnSettings);
             } else if (type === 'choice' || type === 'write' || type === 'test') {
-                fetch(RouteManager.contentUrl(this.currentFolder, this.currentFile))
+                fetch(RouteManager.contentUrl(this.currentFolder, this.currentFile), { cache: 'no-cache' })
                     .then(r => r.text())
                     .then(text => {
                         const parsedCards = CardParser.parseCards(text);
@@ -3741,7 +3741,7 @@
                             }
                             SessionManager.saveNavState('file', state.folder, state.file, 'flashcards', state.settings);
                         } else if (state.mode === 'choice' || state.mode === 'write' || state.mode === 'test') {
-                            const response = await fetch(RouteManager.contentUrl(state.folder, state.file));
+                            const response = await fetch(RouteManager.contentUrl(state.folder, state.file), { cache: 'no-cache' });
                             const text = await response.text();
                             const parsedCards = CardParser.parseCards(text);
                             this.allFlashcards = [...parsedCards];
