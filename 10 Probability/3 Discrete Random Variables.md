@@ -219,7 +219,7 @@ $$
 ### binomial PMF probability formula
 $$
 \begin{lgathered}
-X\sim\text{Bin}(p,n)\implies P(X=x)=\begin{pmatrix}n\\x\end{pmatrix}p^{x}q^{n-x}\\
+X\sim\text{Bin}(n,p)\implies P(X=x)=\begin{pmatrix}n\\x\end{pmatrix}p^{x}q^{n-x}\\
 X=\text{random variable}\\
 n=\text{number of trials}\\
 x=\text{number of successes}\\
@@ -311,7 +311,7 @@ $$
 ### negative binomial PMF probability formula
 $$
 \begin{lgathered}
-X\sim\text{NegBin}(p,r)\implies P(X=x)=\begin{pmatrix}x+r-1\\r-1\end{pmatrix}p^{r}q^{x}\\
+X\sim\text{NegBin}(r,p)\implies P(X=x)=\begin{pmatrix}x+r-1\\r-1\end{pmatrix}p^{r}q^{x}\\
 X=\text{random variable}\\
 x=\text{number of failures before rth success}\\
 r=\text{success number}\\

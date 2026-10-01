@@ -130,7 +130,7 @@ $$
 ### normal PDF probability formula
 $$
 \begin{lgathered}
-X\sim N(\mu,\sigma)\implies f(x)=(2\pi\sigma^2)^{-1/2}\exp(\frac{-(x-\mu)^{2}}{2\sigma^{2}})\\
+X\sim N(\mu,\sigma)\implies f(x)=\exp(\frac{-(x-\mu)^{2}}{2\sigma^{2}})\sqrt{\frac{1}{2\pi\sigma^2}}\\
 \mu=\text{mean}\\
 \sigma=\text{standard deviation}
 \end{lgathered}
@@ -162,7 +162,7 @@ $$
 ### standard normal PDF probability formula
 $$
 \begin{lgathered}
-X\sim N(0,1)\implies f(x)=(2\pi)^{-1/2}\exp(\frac{-x^2}{2})\\
+X\sim N(0,1)\implies f(x)=\exp(\frac{-x^2}{2})\sqrt{\frac{1}{2\pi}}\\
 x=\text{z-score}
 \end{lgathered}
 $$
