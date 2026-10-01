@@ -191,7 +191,7 @@ $$
 ### exponential PDF probability formula
 $$
 \begin{lgathered}
-X\sim\text{Exp}(\gamma)\implies f(x)=\lambda e^{-\lambda x}\\
+X\sim\text{Exp}(\lambda)\implies f(x)=\lambda e^{-\lambda x}\\
 x=\text{time}\\
 \lambda=\text{average number of events per time}
 \end{lgathered}
