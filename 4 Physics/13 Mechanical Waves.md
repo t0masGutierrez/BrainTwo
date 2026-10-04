@@ -411,7 +411,7 @@ $$
 \begin{lgathered}
 A\sin(kx-\omega t)+\\
 A\sin(kx+\omega t)=\\
-2A\sin(kx)\sin(\omega t+\phi)\\
+2A\sin(kx)\sin(\omega t)\\
 A=\text{amplitude}\\
 k=\text{wavenumber}\\
 x=\text{position}\\

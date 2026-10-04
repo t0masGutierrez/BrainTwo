@@ -62,22 +62,6 @@ M,m=\text{mass}\\
 $$
 
 ---
-### dimension
-- number of initial conditions equal double the number of coupled oscillators
-
----
-### dimension formula
-$$
-\begin{lgathered}
-nx_0+nv_0=2n(x_0+v_0)\iff nA_i+n\phi_i=2n(A_i+\phi_i)\\
-x=\text{position}\\
-v=\text{velocity}\\
-A=\text{amplitude}\\
-\phi=\text{phase angle}
-\end{lgathered}
-$$
-
----
 ### decoupling
 - convert from physical coordinates to normal coordinates
 
