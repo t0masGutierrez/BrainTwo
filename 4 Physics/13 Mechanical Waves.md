@@ -431,6 +431,7 @@ $$
 $$
 \begin{lgathered}
 x_{n}=\frac{n\lambda}{2}\\
+n=0,1,2,\dots\\
 \lambda=\text{wavelength}
 \end{lgathered}
 $$
@@ -445,6 +446,7 @@ $$
 $$
 \begin{lgathered}
 x_{n}=\frac{(2n+1)\lambda}{4}\\
+n=0,1,2,\dots\\
 \lambda=\text{wavelength}
 \end{lgathered}
 $$
