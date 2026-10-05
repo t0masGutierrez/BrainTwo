@@ -108,6 +108,7 @@ $$
 ### symmetric normal mode formula
 $$
 \begin{lgathered}
+y_n(x,t)=A_n\sin(k_nx)\cos(\omega_nt+\phi_n)\\
 y(x,t)=\sum_{n=1}^\infty[C_n\cos(\omega_nt)+S_n\sin(\omega_nt)]\sin(k_nx)\\
 \omega_n=\frac{n\pi v}{L}\iff k_n=\frac{n\pi}{L}\\
 \begin{cases}
@@ -119,11 +120,13 @@ y(L,t)=0
 y(x,0)=f(x)\\
 \frac{\partial y}{\partial t}(x,0)=g(x)
 \end{cases}\\
-n=0,1,2,\dots\\
+n=1,2,3,\dots\\
+A=\text{amplitude}\\
+k=\text{wavenumber}\\
+x=\text{position}\\
 \omega=\text{angular frequency}\\
 t=\text{time}\\
-k=\text{wavenumber}\\
-x=\text{position}
+\phi=\text{phase angle}
 \end{lgathered}
 $$
 
