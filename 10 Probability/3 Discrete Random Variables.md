@@ -37,7 +37,7 @@ $$
 \begin{lgathered}
 P(X)=\sum_{i}P(X=x_{i})=1\\
 P(X=x)=P(X\le x)-P(X\le x-1)\\
-P(a\le X\le b)=\sum_{i=a}^{b}P(X=x_{i})\\
+P(a\le X\le b)=\sum_{x_i\in[a,b]}P(X=x_{i})\\
 P(X\le x)=\sum_{x_{i}\le x}P(X=x_{i})
 \end{lgathered}
 $$

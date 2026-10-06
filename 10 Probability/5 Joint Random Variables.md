@@ -147,8 +147,8 @@ $$
 ### joint expectation formula
 $$
 \begin{lgathered}
-E[g(X,Y)]=\sum_{x}\sum_{y}g(x,y)P(X=x,Y=y)\\
-E[g(X,Y)]=\int_{-\infty}^{\infty}\int_{-\infty}^{\infty}g(x,y)f(x,y)dydx\\
+E[g(X,Y)]=\sum_{y}\sum_{x}g(x,y)P(X=x,Y=y)\\
+E[g(X,Y)]=\int_{-\infty}^{\infty}\int_{-\infty}^{\infty}g(x,y)f_{X,Y}(x,y)dxdy\\
 X,Y=\text{random variable}\\
 x,y=\text{real number}
 \end{lgathered}
@@ -236,18 +236,22 @@ $$
 
 ---
 ### covariance property
-- symmetry
 - identity
-- linearity
+- symmetry
+- scalar multiplication
+- scalar addition
+- addition
 - independence
 
 ---
 ### covariance property formula
 $$
 \begin{lgathered}
+\text{Cov}(X,X)=\text{Var}(X)\\
 \text{Cov}(X,Y)=\text{Cov}(Y,X)\\
-\text{Cov}(X,X)=\text{Cov}(X)\\
-\text{Cov}(aX+bY,Z+c)=a\text{Cov}(X,Z)+b\text{Cov}(Y,Z)\\
+\text{Cov}(aX,bY)=ab\text{Cov}(X,Y)\\
+\text{Cov}(X+a,Z+b)=\text{Cov}(X,Y)\\
+\text{Cov}(X+Y,Z)=\text{Cov}(X,Z)+\text{Cov}(Y,Z)\\
 P(X\in A,Y\in B)=P(X\in A)P(Y\in B)\implies\text{Cov}(X,Y)=0
 \end{lgathered}
 $$
