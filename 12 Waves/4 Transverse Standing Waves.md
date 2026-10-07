@@ -138,8 +138,8 @@ $$
 ### initial symmetric normal mode formula
 $$
 \begin{lgathered}
-C_n=\frac{2}{L}\int_0^Lf(x)\sin(\frac{n\pi x}{L})dx\\
-S_n=\frac{2v}{Ln\pi}\int_0^Lg(x)\sin(\frac{n\pi x}{L})dx\\
+C_n=\frac{2}{L}\int_0^Lf(x)\sin(\frac{n\pi x}{L})dx=A_n\cos(\phi_n)\\
+S_n=\frac{2}{n\pi v}\int_0^Lg(x)\sin(\frac{n\pi x}{L})dx=-A_n\sin(\phi_n)\\
 \end{lgathered}
 $$
 
