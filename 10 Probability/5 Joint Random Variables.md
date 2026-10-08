@@ -195,33 +195,6 @@ X,Y=\text{random variable}
 $$
 
 ---
-### conditional expectation
-- mean of joint conditional random variable
-
----
-### conditional expectation formula
-$$
-\begin{lgathered}
-E[X|Y=y]=\sum_{x}xP(X=x|Y=y)\\
-E[X|Y=y]=\int_{-\infty}^{\infty}xf_{X|Y}(x,y)dx\\
-X,Y=\text{random variable}
-\end{lgathered}
-$$
-
----
-### conditional expectation property
-- expectation equal expectation of conditional expectation
-
----
-### conditional expectation property formula
-$$
-\begin{lgathered}
-E[X]=E(E[X\mid Y])\\
-X,Y=\text{random variable}
-\end{lgathered}
-$$
-
----
 ### covariance
 - joint spread of two random variable around mean
 

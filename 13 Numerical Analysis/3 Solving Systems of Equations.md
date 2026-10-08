@@ -164,7 +164,7 @@ $$
 \begin{lgathered}
 A\vec x=\vec b\\
 m_{\text{ij}}=\frac{a_{\text{ij}}}{a_{\text{jj}}}\\
-R_i\implies R_i-m_{\text{ij}}R_j\\
+R_i=R_i-m_{\text{ij}}R_j\\
 L=\begin{bmatrix}
 1&0&0&\cdots&0\\
 m_{21}&1&0&\cdots&0\\
