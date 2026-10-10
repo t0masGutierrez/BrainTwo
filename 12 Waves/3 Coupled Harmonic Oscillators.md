@@ -63,7 +63,7 @@ $$
 
 ---
 ### decoupling
-- convert from physical coordinates to normal coordinates
+- move from physical coordinates to normal coordinates
 
 ---
 ### decoupling formula

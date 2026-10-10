@@ -44,7 +44,8 @@ $$
 
 ---
 ### traveling wave
-- mechanical wave propagating through space
+- disturbance propagating through space
+![](4%20Physics/Images/traveling%20wave.gif)
 
 ---
 ### traveling wave formula
@@ -58,38 +59,21 @@ t=\text{time}
 $$
 
 ---
-### pulse wave
-- nonperiodic traveling wave
-![300](4%20Physics/Images/pulse%20wave.png)
+### standing wave
+- superposition of two identical waves traveling opposite directions equal stationary disturbance
+![[4 Physics/Images/standing wave.gif]]
 
 ---
-### pulse wave formula
+### standing wave formula
 $$
 \begin{lgathered}
-x\mp vt=C\\
-x=\text{position}\\
-v=\text{velocity}\\
-t=\text{time}\\
-C=\text{constant}
-\end{lgathered}
-$$
-
----
-### sinusoidal wave
-- periodic traveling wave
-![300](4%20Physics/Images/sinusoidal%20wave.png)
-
----
-### sinusoidal wave formula
-$$
-\begin{lgathered}
-kx\mp\omega t+\phi=C\\
+\psi(x,t)=A\sin(kx)\cos(\omega t+\phi)\\
+A=\text{amplitude}\\
 k=\text{wavenumber}\\
 x=\text{position}\\
 \omega=\text{angular frequency}\\
 t=\text{time}\\
-\phi=\text{phase angle}\\
-C=\text{constant}
+\phi=\text{phase angle}
 \end{lgathered}
 $$
 
@@ -145,8 +129,7 @@ $$
 ### particle displacement formula
 $$
 \begin{lgathered}
-y(x,t)=A\sin(kx\mp\omega t+\phi)\\
-y(x,t)=A\sin[2\pi(\frac{x}{\lambda}\mp\frac{t}{T})+\phi]\\
+\psi(x,t)=A\sin(kx\mp\omega t+\phi)=A\sin[2\pi(\frac{x}{\lambda}\mp\frac{t}{T})+\phi]\\
 A=\text{amplitude}\\
 k=\text{wavenumber}\\
 x=\text{position}\\
@@ -166,8 +149,8 @@ $$
 ### particle velocity formula
 $$
 \begin{lgathered}
-v=\frac{\partial y}{\partial t}=\mp A\omega\cos(kx\mp\omega t+\phi)\\
-y=\text{displacement}\\
+v=\frac{\partial\psi}{\partial t}=\mp A\omega\cos(kx\mp\omega t+\phi)\\
+
 t=\text{time}\\
 A=\text{amplitude}\\
 \omega=\text{angular frequency}\\
@@ -185,8 +168,7 @@ $$
 ### particle acceleration formula
 $$
 \begin{lgathered}
-a=\frac{\partial^{2}y}{\partial t^{2}}=-A\omega^{2}\sin(kx\mp\omega t+\phi)\\
-y=\text{displacement}\\
+a=\frac{\partial^{2}\psi}{\partial t^{2}}=-A\omega^{2}\sin(kx\mp\omega t+\phi)\\
 t=\text{time}\\
 A=\text{amplitude}\\
 \omega=\text{angular frequency}\\
@@ -205,8 +187,7 @@ $$
 ### wave equation formula
 $$
 \begin{lgathered}
-\frac{\partial^{2}y}{\partial t^{2}}=v^{2}\frac{\partial^{2}y}{\partial x^{2}}\\
-y=\text{displacement}\\
+\frac{\partial^{2}\psi}{\partial t^{2}}=v^{2}\frac{\partial^{2}\psi}{\partial x^{2}}\\
 t=\text{time}\\
 v=\text{velocity}\\
 x=\text{position}
@@ -340,9 +321,8 @@ $$
 ### principle of superposition formula
 $$
 \begin{lgathered}
-y(x,t)=y_{1}(x,t)+y_{2}(x,t)\\
+\psi(x,t)=\psi_{1}(x,t)+\psi_{2}(x,t)\\
 A=\sqrt{A_1^2+A_2^2+2A_1A_2\cos(\Delta\phi)}\\
-y=\text{displacement}\\
 x=\text{position}\\
 t=\text{time}\\
 A=\text{amplitude}\\
@@ -388,30 +368,9 @@ $$
 ### phase shifted wave formula
 $$
 \begin{lgathered}
-y_{1}=A\sin(kx\mp\omega t+\phi)\land\\
-y_{2}=A\sin(kx\mp\omega t)\implies\\
-y_{1}(x,t)+y_{2}(x,t)=2A\cos(\frac{\phi}{2})\sin(kx\mp\omega t+\frac{\phi}{2})\\
-A=\text{amplitude}\\
-k=\text{wavenumber}\\
-x=\text{position}\\
-\omega=\text{angular frequency}\\
-t=\text{time}\\
-\phi=\text{phase angle}
-\end{lgathered}
-$$
-
----
-### standing wave
-- superposition of two identical waves traveling opposite directions
-![[4 Physics/Images/standing wave.gif]]
-
----
-### standing wave formula
-$$
-\begin{lgathered}
-A\sin(kx-\omega t)+\\
-A\sin(kx+\omega t)=\\
-2A\sin(kx)\sin(\omega t)\\
+\psi_{1}=A\sin(kx\mp\omega t+\phi)\land\\
+\psi_{2}=A\sin(kx\mp\omega t)\implies\\
+\psi_{1}(x,t)+\psi_{2}(x,t)=2A\cos(\frac{\phi}{2})\sin(kx\mp\omega t+\frac{\phi}{2})\\
 A=\text{amplitude}\\
 k=\text{wavenumber}\\
 x=\text{position}\\
@@ -452,12 +411,12 @@ n=0,1,2,\dots\\
 $$
 
 ---
-### fundamental frequency
+### fundamental normal mode
 - minimum oscillation frequency of standing wave
-![400](4%20Physics/Images/fundamental%20frequency.png)
+![400](4%20Physics/Images/fundamental%20normal%20mode.png)
 
 ---
-### fundamental frequency formula
+### fundamental normal mode formula
 $$
 \begin{lgathered}
 f_{1}=\frac{v}{\lambda_{1}}=\frac{1}{2L}\sqrt{\frac{F_{T}}{\mu}}\\
@@ -479,10 +438,15 @@ $$
 ### symmetric normal mode formula
 $$
 \begin{lgathered}
-f_{n}=nf_{1}\iff\lambda_n=\frac{2L}{n}\\
+T_{n}=\frac{2L}{nv}\iff\lambda_n=\frac{2L}{n}\\
+\omega_n=\frac{n\pi v}{L}\iff k_n=\frac{n\pi}{L}\\
 n=1,2,3,\dots\\
-f_{1}=\text{fundamental frequency}\\
-L=\text{length}
+T=\text{period}\\
+L=\text{length}\\
+v=\text{velocity}\\
+\lambda=\text{wavelength}\\
+\omega=\text{angular frequency}\\
+k=\text{wavenumber}\\
 \end{lgathered}
 $$
 
@@ -494,14 +458,13 @@ $$
 ### complex exponential formula
 $$
 \begin{lgathered}
-\theta=kx\mp\omega t+\phi\implies y(x,t)=Ae^{i\theta}=A\cos(\theta)+iA\sin(\theta)\\
+\theta=kx\mp\omega t+\phi\implies\psi(x,t)=Ae^{i\theta}=A\cos(\theta)+iA\sin(\theta)\\
 \theta=\text{phase}\\
 k=\text{wavenumber}\\
 x=\text{position}\\
 \omega=\text{angular frequency}\\
 t=\text{time}\\
 \phi=\text{phase angle}\\
-y=\text{displacement}\\
 A=\text{amplitude}\\
 e=\text{euler's number}\\
 i=\text{imaginary unit}

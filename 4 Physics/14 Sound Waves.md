@@ -1,6 +1,7 @@
 ### sound wave
-- displacement antinode equal pressure node
+- longitudinal mechanical wave
 - displacement node equal pressure antinode
+- pressure node equal displacement antinode
 ![400](4%20Physics/Images/sound%20wave.png)
 
 ---
@@ -143,14 +144,13 @@ $$
 ### intensity formula
 $$
 \begin{lgathered}
-I=\frac{P_{\text{avg}}}{A}=\frac{(\Delta p_{\text{max}})^2}{2\rho v}=\frac{\rho v\omega^2y_{\text{max}}^2}{2}\\
+I=\frac{P_{\text{avg}}}{A}=\frac{(\Delta p_{\text{max}})^2}{2\rho v}=\frac{\rho v\omega^2\psi_{\text{max}}^2}{2}\\
 P=\text{power}\\
 A=\text{area}\\
 p=\text{pressure}\\
 \rho=\text{density}\\
 v=\text{velocity}\\
-\omega=\text{angular frequency}\\
-y=\text{displacement}
+\omega=\text{angular frequency}
 \end{lgathered}
 $$
 
@@ -163,7 +163,7 @@ $$
 ### spherical intensity formula
 $$
 \begin{lgathered}
-I=\frac{P}{4\pi r^{2}}\\
+I=\frac{P_{\text{avg}}}{4\pi r^{2}}\\
 P=\text{power}\\
 r=\text{distance}
 \end{lgathered}
@@ -201,30 +201,15 @@ $$
 
 ---
 ### asymmetric normal mode
-- closed standing wave pattern where where all particles oscillate at the same frequency
+- fixed-free standing wave pattern where where all particles oscillate at the same frequency
 ![500](4%20Physics/Images/sound%20asymmetric%20normal%20mode.png)
 
 ---
 ### asymmetric normal mode formula
 $$
 \begin{lgathered}
-f_{n}=\frac{nv}{4L}\iff\lambda_n=\frac{4L}{n}\\
-n=1,3,5,\dots\\
-v=\text{velocity}\\
-L=\text{length}
-\end{lgathered}
-$$
-
----
-### symmetric normal mode
-- open standing wave pattern where where all particles oscillate at the same frequency
-![500](4%20Physics/Images/sound%20symmetric%20normal%20mode.png)
-
----
-### symmetric normal mode formula
-$$
-\begin{lgathered}
-f_{n}=\frac{nv}{2L}\iff\lambda_n=\frac{2L}{n}\\
+T_{n}=\frac{4L}{(2n-1)v}\iff\lambda_n=\frac{4L}{2n-1}\\
+\omega_n=\frac{(2n-1)\pi v}{2L}\iff k_n=\frac{(2n-1)\pi}{2L}\\
 n=1,2,3,\dots\\
 v=\text{velocity}\\
 L=\text{length}
@@ -273,8 +258,7 @@ $$
 ### interference formula
 $$
 \begin{lgathered}
-y(\theta)=y_{1}(\theta)+y_{2}(\theta+\frac{2\pi}{\lambda}\Delta x)\\
-y=\text{displacement}\\
+\psi(\theta)=\psi_{1}(\theta)+\psi_{2}(\theta+\frac{2\pi}{\lambda}\Delta x)\\
 \theta=\text{phase}\\
 \lambda=\text{wavelength}\\
 x=\text{position}

@@ -1,5 +1,5 @@
 ### wave
-- disturbance propagating through medium
+- disturbance propagating through space and time
 
 ---
 ### wave formula
