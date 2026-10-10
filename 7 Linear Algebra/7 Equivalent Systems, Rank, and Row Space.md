@@ -18,7 +18,8 @@
 ### inverse type I row operation formula
 $$
 \begin{lgathered}
-\langle i\rangle\implies(\frac{1}{c})\langle i\rangle\\
+\langle R_i\rangle\implies(\frac{1}{c})\langle R_i\rangle\\
+R=\text{row}\\
 i=\text{row index}\\
 c=\text{scalar}
 \end{lgathered}
@@ -32,7 +33,8 @@ $$
 ### inverse type II row operation formula
 $$
 \begin{lgathered}
-\langle i\rangle\implies\langle i\rangle-c\langle j\rangle\\
+\langle R_i\rangle\implies\langle R_i\rangle-c\langle R_j\rangle\\
+R=\text{row}\\
 i,j=\text{row index}\\
 c=\text{scalar}
 \end{lgathered}
@@ -46,7 +48,8 @@ $$
 ### inverse type III row operation formula
 $$
 \begin{lgathered}
-\langle j\rangle\iff\langle i\rangle\\
+\langle R_j\rangle\iff\langle R_i\rangle\\
+R=\text{row}\\
 i,j=\text{row index}\\
 \end{lgathered}
 $$

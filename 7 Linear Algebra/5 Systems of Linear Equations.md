@@ -239,7 +239,8 @@ $$
 ### type I row operation formula
 $$
 \begin{lgathered}
-\langle i\rangle\implies c\langle i\rangle\\
+\langle R_i\rangle\implies c\langle R_i\rangle\\
+R=\text{row}\\
 i=\text{row index}\\
 c=\text{scalar}
 \end{lgathered}
@@ -253,7 +254,8 @@ $$
 ### type II row operation formula
 $$
 \begin{lgathered}
-\langle i\rangle\implies\langle i\rangle-c\langle j\rangle\\
+\langle R_i\rangle\implies\langle R_i\rangle-c\langle R_j\rangle\\
+R=\text{row}\\
 i,j=\text{row index}\\
 c=\text{scalar}
 \end{lgathered}
@@ -267,7 +269,8 @@ $$
 ### type III row operation formula
 $$
 \begin{lgathered}
-\langle i\rangle\iff\langle j\rangle\\
+\langle R_i\rangle\iff\langle R_j\rangle\\
+R=\text{row}\\
 i,j=\text{row index}
 \end{lgathered}
 $$
@@ -301,6 +304,20 @@ $$
 - staircase pattern of pivot entries where all entries below pivot entry equal zero
 
 ---
+### row echelon form formula
+$$
+\begin{lgathered}
+\begin{bmatrix}
+a_{11}&a_{12}&a_{13}&\cdots&a_{1n}\\
+0&a_{22}&a_{23}&\cdots&a_{2n}\\
+0&0&a_{33}&\cdots&a_{3n}\\
+\vdots&\vdots&\vdots&\ddots&\vdots\\
+0&0&0&\cdots&a_{\text{mn}}
+\end{bmatrix}
+\end{lgathered}
+$$
+
+---
 ### gaussian elimination
 - form the augmented matrix of the system
 - perform type I row operation on the 1st entry of 1st row such that its 1
@@ -308,6 +325,18 @@ $$
 - if zero pivot entry then perform type III row operation with lower row, if all zeros below zero pivot entry then skip column
 - final form of the system equal row echelon form
 - back substitute for the particular solution of system of linear equations
+
+---
+### gaussian elimination formula
+$$
+\begin{lgathered}
+A\vec x=\vec b\implies U\vec x=\vec c\\
+A=\text{coefficient matrix}\\
+\vec x=\text{real vector}\\
+U=\text{upper triangular matrix}\\
+\vec b,\vec c=\text{constant vector}
+\end{lgathered}
+$$
 
 ---
 ### row operation property

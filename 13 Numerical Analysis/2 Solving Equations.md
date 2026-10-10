@@ -114,13 +114,13 @@ $$
 
 ---
 ### forward error
-- absolute distance between real root and forward root
+- absolute distance between real root and computed root
 
 ---
 ### forward error formula
 $$
 \begin{lgathered}
-|r-r_c|\\
+e_f=|r-r_c|\\
 r=\text{real root}\\
 r_c=\text{computed root}
 \end{lgathered}
@@ -128,13 +128,13 @@ $$
 
 ---
 ### backward error
-- absolute distance between zero and computed number
+- absolute distance between zero and computed root
 
 ---
 ### backward error formula
 $$
 \begin{lgathered}
-|f(r_c)|\\
+e_b=|f(r_c)|\\
 r_c=\text{computed root}
 \end{lgathered}
 $$

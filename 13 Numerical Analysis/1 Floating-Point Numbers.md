@@ -1,5 +1,4 @@
-### efficiency
-- computational cost of achieving specified error
+### complexity
 - time complexity equal speed of program
 - space complexity equal size of program
 
@@ -28,7 +27,7 @@ $$
 
 ---
 ### direct polynomial evaluation
-- evaluate each power independently
+- evaluate each power directly
 
 ---
 ### direct polynomial evaluation formula
@@ -223,7 +222,7 @@ $$
 
 ---
 ### machine epsilon
-- distance between 1 and the next largest floating-point number
+- distance between 1 and the next largest representable floating-point number
 
 ---
 ### machine epsilon formula
@@ -286,7 +285,7 @@ $$
 ### relative rounding error formula
 $$
 \begin{lgathered}
-\frac{|x-x_c|}{|x|}\le\frac12\epsilon\\
+\frac{|x-x_c|}{|x|}\le\frac12\epsilon_{\text{mach}}\\
 x=\text{real number}\\
 x_c=\text{computed number}\\
 \epsilon_{\text{mach}}=\text{machine epsilon}

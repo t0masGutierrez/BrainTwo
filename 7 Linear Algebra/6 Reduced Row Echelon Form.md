@@ -6,6 +6,20 @@
 - rows with all zeros are the final rows of matrix
 
 ---
+### reduced row echelon form formula
+$$
+\begin{lgathered}
+\begin{bmatrix}
+1&0&0&\cdots&0\\
+0&1&0&\cdots&0\\
+0&0&1&\cdots&0\\
+\vdots&\vdots&\vdots&\ddots&\vdots\\
+0&0&0&\cdots&1
+\end{bmatrix}
+\end{lgathered}
+$$
+
+---
 ### gauss-jordan row reduction
 - generate augmented matrix
 - perform type I row operation on the 1st entry of 1st row such that its 1
