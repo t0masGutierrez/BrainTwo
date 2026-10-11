@@ -165,16 +165,16 @@ $$
 
 ---
 ### naive gaussian elimination complexity
-- number of naive gaussian elimination operations
+- speed of naive gaussian elimination
 
 ---
 ### naive gaussian elimination complexity formula
 $$
 \begin{lgathered}
-T_{\text{elim}}(n)=\frac{2}{3}n^3+\frac{1}{2}n^2-\frac{7}{6}n\approx\frac{2}{3}n^3\\
-T_{\text{back}}(n)=n^2\\
-T(n)=k(\frac{2}{3}n^3+n^2)\approx\frac{2}{3}kn^3\\
-t=\frac{T(n)}{\lambda}
+N_{\text{elim}}=\frac{2}{3}n^3+\frac{1}{2}n^2-\frac{7}{6}n\approx\frac{2}{3}n^3\\
+N_{\text{back}}=n^2\\
+N=k(\frac{2}{3}n^3+n^2)\approx\frac{2}{3}kn^3\\
+\frac{T_2}{T_1}=\frac{N_2}{N_1}
 \end{lgathered}
 $$
 
@@ -218,16 +218,16 @@ $$
 
 ---
 ### LU factorization complexity
-- number of LU factorization operations
+- speed of LU factorization
 
 ---
 ### LU factorization complexity formula
 $$
 \begin{lgathered}
-T_{\text{elim}}(n)\approx\frac{2}{3}n^3\\
-T_{\text{back}}(n)=n^2\\
-T(n)=\frac{2}{3}n^3+kn^2\approx\frac{2}{3}n^3\\
-t=\frac{T(n)}{\lambda}
+N_{\text{elim}}\approx\frac{2}{3}n^3\\
+N_{\text{back}}=n^2\\
+N=\frac{2}{3}n^3+kn^2\approx\frac{2}{3}n^3\\
+\frac{T_2}{T_1}=\frac{N_2}{N_1}
 \end{lgathered}
 $$
 
