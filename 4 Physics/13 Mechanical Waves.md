@@ -322,7 +322,6 @@ $$
 $$
 \begin{lgathered}
 \psi(x,t)=\psi_{1}(x,t)+\psi_{2}(x,t)\\
-A=\sqrt{A_1^2+A_2^2+2A_1A_2\cos(\Delta\phi)}\\
 x=\text{position}\\
 t=\text{time}\\
 A=\text{amplitude}\\
@@ -368,9 +367,10 @@ $$
 ### phase shifted wave formula
 $$
 \begin{lgathered}
-\psi_{1}=A\sin(kx\mp\omega t+\phi)\land\\
-\psi_{2}=A\sin(kx\mp\omega t)\implies\\
-\psi_{1}(x,t)+\psi_{2}(x,t)=2A\cos(\frac{\phi}{2})\sin(kx\mp\omega t+\frac{\phi}{2})\\
+\psi_{1}=A\sin(\theta+\Delta\phi)\\
+\psi_{2}=A\sin(\theta)\\
+\psi_{1}+\psi_{2}=2A\cos(\frac{\Delta\phi}{2})\sin(\theta+\frac{\Delta\phi}{2})\\
+A=\sqrt{A_1^2+A_2^2+2A_1A_2\cos(\Delta\phi)}\\
 A=\text{amplitude}\\
 k=\text{wavenumber}\\
 x=\text{position}\\

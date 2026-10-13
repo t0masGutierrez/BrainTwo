@@ -1,5 +1,5 @@
 ### electric flux
-- amount of electric field flowing through normal surface
+- amount of electric field flowing through normal surface per time
 ![[4 Physics/Images/electric flux.png]]
 
 ---

@@ -1,5 +1,5 @@
 ### magnetic flux
-- amount of magnetic field flowing through normal surface
+- amount of magnetic field flowing through normal surface per time
 ![[4 Physics/Images/magnetic flux.png|300]]
 
 ---
