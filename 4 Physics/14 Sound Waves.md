@@ -50,26 +50,26 @@ $$
 
 ---
 ### wave velocity
-- speed of sound wave
+- ratio between tendency to return change and tendency to resist change
 
 ---
 ### wave velocity formula
 $$
 \begin{lgathered}
-v=331\sqrt{\frac{T}{273}}\\
-T=\text{absolute temperature}
+v=\sqrt{\frac{\text{elasticity}}{\text{inertia}}}
 \end{lgathered}
 $$
 
 ---
-### general wave velocity
-- ratio between tendency to return change and tendency to resist change
+### sound wave velocity
+- speed of sound wave
 
 ---
-### general wave velocity formula
+### sound wave velocity formula
 $$
 \begin{lgathered}
-v=\sqrt{\frac{\text{elasticity}}{\text{inertia}}}
+v=331\sqrt{\frac{T}{273}}\\
+T=\text{absolute temperature}
 \end{lgathered}
 $$
 
@@ -236,7 +236,7 @@ $$
 ---
 ### coherence
 - equal frequency
-- constant phase shift
+- constant phase difference
 
 ---
 ### coherence formula
@@ -258,10 +258,10 @@ $$
 ### interference formula
 $$
 \begin{lgathered}
-\psi(\theta)=\psi_{1}(\theta)+\psi_{2}(\theta+\frac{2\pi}{\lambda}\Delta x)\\
+\psi(\theta)=\psi_{1}(\theta)+\psi_{2}(\theta+\frac{2\pi}{\lambda}\Delta r)\\
 \theta=\text{phase}\\
 \lambda=\text{wavelength}\\
-x=\text{position}
+r=\text{distance}
 \end{lgathered}
 $$
 
@@ -273,7 +273,7 @@ $$
 ### constructive interference formula
 $$
 \begin{lgathered}
-\Delta x=n\lambda\\
+\Delta r=n\lambda\\
 \lambda=\text{wavelength}
 \end{lgathered}
 $$
@@ -286,7 +286,7 @@ $$
 ### destructive interference formula
 $$
 \begin{lgathered}
-\Delta x=(n+\frac{1}{2})\lambda\\
+\Delta r=(n+\frac{1}{2})\lambda\\
 \lambda=\text{wavelength}
 \end{lgathered}
 $$
@@ -301,8 +301,7 @@ $$
 $$
 \begin{lgathered}
 f_{\text{beat}}=|f_{2}-f_{1}|\\
-f_{2}=\text{reflected frequency}\\
-f_{1}=\text{incident frequency}
+f=\text{oscillation frequency}
 \end{lgathered}
 $$
 

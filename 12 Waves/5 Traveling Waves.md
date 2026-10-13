@@ -13,6 +13,78 @@ t=\text{time}
 $$
 
 ---
+### wave velocity
+- ratio between tendency to return change and tendency to resist change
+
+---
+### wave velocity formula
+$$
+\begin{lgathered}
+v=\sqrt{\frac{\text{elasticity}}{\text{inertia}}}
+\end{lgathered}
+$$
+
+---
+### sound wave velocity
+- speed of sound wave
+
+---
+### sound wave velocity formula
+$$
+\begin{lgathered}
+v=331\sqrt{\frac{T}{273}}\\
+T=\text{absolute temperature}
+\end{lgathered}
+$$
+
+---
+### solid wave velocity
+- speed of sound wave through solid
+![200](4%20Physics/Images/solid%20wave%20velocity.png)
+
+---
+### solid wave velocity formula
+$$
+\begin{lgathered}
+v=\sqrt{\frac{Y}{\rho}}\\
+Y=\text{young's modulus}\\
+\rho=\text{density}
+\end{lgathered}
+$$
+
+---
+### liquid wave velocity
+- speed of sound wave through liquid
+![200](4%20Physics/Images/liquid%20wave%20velocity.png)
+
+---
+### liquid wave velocity formula
+$$
+\begin{lgathered}
+v=\sqrt{\frac{B}{\rho}}\\
+B=\text{bulk modulus}\\
+\rho=\text{density}
+\end{lgathered}
+$$
+
+---
+### gas wave velocity
+- speed of sound wave through ideal gas
+![200](4%20Physics/Images/gas%20wave%20velocity.png)
+
+---
+### gas wave velocity formula
+$$
+\begin{lgathered}
+v=\sqrt{\frac{\gamma RT}{M}}\\
+\gamma=\text{adiabatic index}\\
+R=8.314\\
+T=\text{absolute temperature}\\
+M=\text{molar mass}
+\end{lgathered}
+$$
+
+---
 ### energy density
 - measure of energy compactness
 
@@ -48,7 +120,7 @@ $$
 $$
 \begin{lgathered}
 I(x,t)=-K(\frac{\partial\psi}{\partial t})(\frac{\partial\psi}{\partial x})=\mu vA^2\omega^2\cos^2(kx\mp\omega t+\phi)\\
-I_{\text{avg}}=\mu vA^2\omega^2\\
+I_{\text{avg}}=\frac{1}{2}\mu vA^2\omega^2\\
 \psi\perp v\implies K=F_T\\
 \psi\parallel v\implies K=YA\\
 K=\text{elastic coefficient}\\
