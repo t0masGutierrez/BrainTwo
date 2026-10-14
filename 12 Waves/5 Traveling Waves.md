@@ -182,7 +182,7 @@ F_T\frac{\partial y_1}{\partial x}(0,t)=F_T\frac{\partial y_2}{\partial x}(0,t)\
 \frac{A_2}{A_1}=\frac{2Z_1}{Z_1+Z_2}\\
 \frac{I_r}{I_1}=(\frac{Z_1-Z_2}{Z_1+Z_2})^2\\
 \frac{I_2}{I_1}=\frac{4Z_1Z_2}{(Z_1+Z_2)^2}\\
-\frac{\partial u}{\partial t}+\frac{\partial I}{\partial x}=0\implies\frac{I_r}{I_1}+\frac{I_2}{I_1}=1
+\frac{I_r}{I_1}+\frac{I_2}{I_1}=1
 \end{lgathered}
 $$
 
