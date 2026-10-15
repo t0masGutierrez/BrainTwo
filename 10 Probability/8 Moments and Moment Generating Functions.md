@@ -210,7 +210,7 @@ $$
 ### normal MGF formula
 $$
 \begin{lgathered}
-M_X(\mu,\sigma,t)=e^{\mu t+\sigma^2t^2/2}\\
+M_X(\mu,\sigma^2,t)=e^{\mu t+\sigma^2t^2/2}\\
 \mu=\text{mean}\\
 \sigma=\text{standard deviation}\\
 t=\text{independent variable}

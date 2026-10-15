@@ -13,15 +13,14 @@ $$
 
 ---
 ### normal property
-- linear combination of normal random variable equal normal random variable
+- linear combination of independent normal random variable equal normal random variable
 
 ---
 ### normal property formula
 $$
 \begin{lgathered}
-\forall i,j:P(X_i\in A,X_j\in B)=P(X_i\in A)P(X_j\in B)\land\\
-\forall i:X_i\sim N(\mu_i,\sigma_i)\implies\\
-\sum_{i=1}^nc_iX_i\sim N(\sum_{i=1}^nc_i\mu_i,\sum_{i=1}^nc_i\sigma_i)\\
+\forall i:X_i\overset{\text{i.i.d.}}{\sim}N(\mu_i,\sigma_i^2)\implies\\
+\sum_{i=1}^nc_iX_i\sim N(\sum_{i=1}^nc_i\mu_i,\sum_{i=1}^nc_i^2\sigma_i^2)\\
 X=\text{random variable}\\
 c=\text{real number}\\
 \mu=\text{mean}\\
@@ -31,15 +30,15 @@ $$
 
 ---
 ### chi-squared property
-- sum of squared standard normal random variable equal chi-squared random variable
+- sum of squared independent standard normal random variable equal chi-squared random variable
 
 ---
 ### chi-squared property formula
 $$
 \begin{lgathered}
-Z_i=\frac{X_i-\mu_i}{\sigma_i}\\
+\forall i:Z_i\overset{\text{i.i.d.}}{\sim}N(0,1)\implies\\
 \sum_{i=1}^nZ_i^2\sim\chi^2(n)\\
-X,Z,\chi^2=\text{random variable}\\
+Z=\text{random variable}\\
 \mu=\text{mean}\\
 \sigma=\text{standard deviation}\\
 n=\text{degrees of freedom}
@@ -58,8 +57,7 @@ $$
 \begin{lgathered}
 F_U(u)=P(g(X_1,\dots,X_n)\le u)\\
 \max_i(a_i)\le x_k\le\min_j(b_j)\\
-\forall i,j:a_i\le b_j\implies a_i=b_j\\
-D=\set{(x_1,\dots,x_n)\mid g(x_1,\dots,x_n)\le u}\\
+\max_i(a_i)\le\min_j(b_j)\\
 F_U(u)=\int_{D_n}\dots\int_{D_1}f_X(x_1,\dots,x_n)dx_1\dots dx_n\\
 f_U(u)=\frac{d}{du}F_U(u)
 \end{lgathered}
