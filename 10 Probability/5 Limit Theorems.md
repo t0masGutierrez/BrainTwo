@@ -61,7 +61,7 @@ $$
 $$
 \begin{lgathered}
 P(X\ge c)\le\frac{E[X]}{c}\\
-X\ge0\\
+X\ge0,c>0\\
 X=\text{random variable}\\
 c=\text{real number}
 \end{lgathered}
@@ -76,8 +76,9 @@ $$
 $$
 \begin{lgathered}
 P(|X-\mu|\ge k\sigma)\le\frac{1}{k^{2}}\\
-P(|X-\mu|<c)\le1-\frac{\sigma^{2}}{c^{2}}\\
+P(|X-\mu|\ge c)\le\frac{\sigma^{2}}{c^{2}}\\
 \mu,\sigma^{2}<\infty\\
+c,k>0\\
 X=\text{random variable}\\
 \mu=\text{mean}\\
 k=\text{number of standard deviations}\\

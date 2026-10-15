@@ -35,9 +35,9 @@ $$
 ### probability density function formula
 $$
 \begin{lgathered}
-P(X=a)=0\\
+P(X=c)=0\\
 P(X)=\int_{-\infty}^{\infty}f(x)dx=1\\
-P(X\le a)=\int_{-\infty}^{a}f(x)dx=F(a)\\
+P(X\le c)=\int_{-\infty}^{a}f(x)dx=F(c)\\
 P(a\le X\le b)=\int_{a}^{b}f(x)dx=F(b)-F(a)
 \end{lgathered}
 $$
@@ -93,7 +93,7 @@ $$
 ### uniform PDF probability formula
 $$
 \begin{lgathered}
-X\sim\text{Uni}(a,b)\implies P(X=x)=\begin{cases}
+X\sim\text{Uni}(a,b)\implies f(x)=\begin{cases}
 \frac{1}{b-a},\quad a\le x\le b\\
 0,\quad\text{otherwise}
 \end{cases}\\
@@ -263,8 +263,7 @@ $$
 \begin{lgathered}
 X\sim\text{Beta}(\alpha,\beta)\implies f(x)=\frac{x^{\alpha-1}(1-x)^{\beta-1}}{B(\alpha,\beta)}\\
 B(\alpha,\beta)=\frac{\Gamma(\alpha)\Gamma(\beta)}{\Gamma(\alpha+\beta)}\\
-\alpha=\text{shape}\\
-\beta=\text{scale}\\
+\alpha,\beta=\text{shape}\\
 x=\text{proportion}
 \end{lgathered}
 $$
@@ -274,8 +273,7 @@ $$
 $$
 \begin{lgathered}
 E[X]=\frac{\alpha}{\alpha+\beta}\\
-\alpha=\text{shape}\\
-\beta=\text{scale}\\
+\alpha,\beta=\text{shape}\\
 \end{lgathered}
 $$
 
@@ -284,8 +282,7 @@ $$
 $$
 \begin{lgathered}
 \text{Var}(X)=\frac{\alpha\beta}{(\alpha+\beta)^2(\alpha+\beta+1)}\\
-\alpha=\text{shape}\\
-\beta=\text{scale}\\
+\alpha,\beta=\text{shape}\\
 \end{lgathered}
 $$
 

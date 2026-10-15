@@ -183,7 +183,7 @@ $$
 
 ---
 ### variance addition property
-- spread of random variable equal sum of joint variance and covariance
+- spread of sum equal sum of variance and covariance
 
 ---
 ### variance addition property formula
