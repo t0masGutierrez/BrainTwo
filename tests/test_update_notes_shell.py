@@ -83,7 +83,7 @@ class UpdateNotesShellTest(unittest.TestCase):
             if updater_fail:
                 self.assertEqual(note.read_text(), 'before\n')
             if push_fail:
-                self.assertNotIn('Notes committed and pushed.', result.stdout)
+                self.assertNotIn('Everything up-to-date', result.stdout)
                 hook.unlink()
                 (repo / 'update_notes.py').write_text('pass\n')
                 retry = subprocess.run([shell, str(repo / 'update_notes.sh')], cwd=root, env=env, capture_output=True, text=True)
@@ -93,7 +93,7 @@ class UpdateNotesShellTest(unittest.TestCase):
 
     def test_untracked_restore_does_not_report_no_changes_before_update(self):
         output, note = self.check_run(change=True)
-        self.assertEqual(output, '1 Test/1 Note.md (+1 -1)\nNotes committed and pushed.\n')
+        self.assertEqual(output, '1 Test/1 Note.md (+1 -1)\nEverything up-to-date\n')
         self.assertEqual(note, 'after\n')
 
     def test_unrelated_staged_work_is_not_committed(self):

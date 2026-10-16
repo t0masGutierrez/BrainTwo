@@ -70,7 +70,7 @@ main() {
     }'
     git commit --only --quiet -m "update notes" -- "${paths[@]}"
     git push --quiet
-    echo "Notes committed and pushed."
+    echo "Everything up-to-date"
 }
 
 # Keep the full program in memory before it stashes its own file.
