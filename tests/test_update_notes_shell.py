@@ -120,7 +120,7 @@ class UpdateNotesShellTest(unittest.TestCase):
 
     def test_no_change_is_reported_once_after_updater(self):
         output, note = self.check_run(change=False)
-        self.assertEqual(output, 'Already up to date.\n')
+        self.assertEqual(output, 'Already up-to-date\n')
         self.assertEqual(note, 'before\n')
 
 

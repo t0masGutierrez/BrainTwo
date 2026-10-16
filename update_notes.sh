@@ -60,7 +60,7 @@ main() {
     if git diff --cached --quiet -- "${paths[@]}"; then
         # A previous push may have failed after the commit succeeded.
         git push --quiet
-        echo "Already up to date."
+        echo "Already up-to-date"
         return
     fi
     git diff --cached --numstat -- "${paths[@]}" | awk -F '\t' '{
