@@ -154,9 +154,9 @@ $$
 ### heat formula
 $$
 \begin{lgathered}
-\Delta T\ne0\implies Q\ne0\\
-T=\text{temperature}\\
-Q=\text{heat}
+Q=\Delta U+W\\
+U=\text{potential energy}\\
+W=\text{work}
 \end{lgathered}
 $$
 

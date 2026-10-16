@@ -219,7 +219,7 @@ $$
 ### turning point formula
 $$
 \begin{lgathered}
-E=U\\
+E(x_*)=U(x_*)\\
 E=\text{mechanical energy}\\
 U=\text{potential energy}
 \end{lgathered}
@@ -234,34 +234,37 @@ $$
 ### equilibrium point formula
 $$
 \begin{lgathered}
-F_{x}=0
+F=\frac{dU}{dx}=0\\
+F=\text{force}\\
+U=\text{potential energy}\\
+x=\text{position}
 \end{lgathered}
 $$
 
 ---
 ### stable equilibrium point
-- local minimum of mechanical energy where displacement restore position
+- local minimum of potential energy where displacement restore position
 
 ---
 ### stable equilibrium point formula
 $$
 \begin{lgathered}
-\frac{d^{2}E}{dx^{2}}>0\\
-E=\text{mechanical energy}\\
+\frac{d^{2}U}{dx^{2}}>0\\
+U=\text{potential energy}\\
 x=\text{position}
 \end{lgathered}
 $$
 
 ---
 ### unstable equilibrium point
-- local maximum of mechanical energy where displacement do not restore position
+- local maximum of potential energy where displacement do not restore position
 
 ---
 ### unstable equilibrium point formula
 $$
 \begin{lgathered}
-\frac{d^{2}E}{dx^{2}}<0\\
-E=\text{mechanical energy}\\
+\frac{d^{2}U}{dx^{2}}<0\\
+U=\text{potential energy}\\
 x=\text{position}
 \end{lgathered}
 $$

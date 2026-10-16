@@ -136,12 +136,12 @@ E=\text{mechanical energy}
 $$
 
 ---
-### intensity
+### sound intensity
 - average power per area
 ![[4 Physics/Images/sound intensity.png]]
 
 ---
-### intensity formula
+### sound intensity formula
 $$
 \begin{lgathered}
 I=\frac{P_{\text{avg}}}{A}=\frac{(\Delta p_{\text{max}})^2}{2\rho v}=\frac{\rho v\omega^2\psi_{\text{max}}^2}{2}\\
@@ -151,21 +151,6 @@ p=\text{pressure}\\
 \rho=\text{density}\\
 v=\text{velocity}\\
 \omega=\text{angular frequency}
-\end{lgathered}
-$$
-
----
-### spherical intensity
-- power per circular area
-![[4 Physics/Images/spherical intensity.png|300]]
-
----
-### spherical intensity formula
-$$
-\begin{lgathered}
-I=\frac{P_{\text{avg}}}{4\pi r^{2}}\\
-P=\text{power}\\
-r=\text{distance}
 \end{lgathered}
 $$
 
@@ -186,14 +171,14 @@ $$
 
 ---
 ### loudness
-- factor of 10 loudness increase equal multiple of 10 sound intensity level increase
+- factor of 10 sound intensity increase equal multiple of 10 sound intensity level increase
 ![300](4%20Physics/Images/loudness.png)
 
 ---
 ### loudness formula
 $$
 \begin{lgathered}
-\frac{I_2}{I_1}=10^{n}\implies\Delta\beta=10n\\
+\Delta\beta=10\log(\frac{I_2}{I_1})\\
 I=\text{intensity}\\
 \beta=\text{sound intensity level}
 \end{lgathered}

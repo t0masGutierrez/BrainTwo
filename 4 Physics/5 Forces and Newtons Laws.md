@@ -69,11 +69,12 @@ $$
 ### friction force formula
 $$
 \begin{lgathered}
-\vec f_{s}\le\mu_{s}\vec F_{N}\\
-\vec f_{k}=\mu_{k}\vec F_{N}\\
+\vec f_{s}\le\mu_{s}\vec F_{N}\hat v\\
+\vec f_{k}=\mu_{k}\vec F_{N}\hat v\\
 \mu_{s}=\text{static friction coefficient}\\
 \mu_{k}=\text{kinetic friction coefficient}\\
-\vec F=\text{force}
+\vec F=\text{force}\\
+v=\text{velocity}
 \end{lgathered}
 $$
 
@@ -146,8 +147,9 @@ $$
 $$
 \begin{lgathered}
 \vec F_{d}=-b\vec v\\
-\vec F_{d}=\frac{-1}{2}\rho_fC_{d}A\vec v^{2}\\
+\vec F_{d}=\frac{-1}{2}\rho_fC_{d}A\|\vec v\|\vec v\\
 b=\text{damping coefficient}\\
+\|\vec v\|=\text{magnitude}\\
 \vec v=\text{velocity}\\
 \rho_f=\text{fluid density}\\
 C_{d}=\text{drag coefficient}\\
@@ -163,7 +165,7 @@ $$
 ### buoyant force formula
 $$
 \begin{lgathered}
-\vec F_{b}=\rho_{f}V_{f}\vec g\\
+\vec F_{b}=-\rho_{f}V_{f}\vec g\\
 \rho_{f}=\text{fluid density}\\
 V_{f}=\text{fluid volume}\\
 \vec g=\text{gravity}

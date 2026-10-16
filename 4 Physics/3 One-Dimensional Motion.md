@@ -138,10 +138,11 @@ $$
 ### delta speed property formula
 $$
 \begin{lgathered}
-\hat v=\hat a\implies\frac{dv}{dt}>0\\
-\hat v=-\hat a\implies\frac{dv}{dt}<0\\
+\hat v=\hat a\implies\frac{ds}{dt}>0\\
+\hat v=-\hat a\implies\frac{ds}{dt}<0\\
 v=\text{velocity}\\
-a=\text{acceleration}
+a=\text{acceleration}\\
+s=\text{speed}
 \end{lgathered}
 $$
 

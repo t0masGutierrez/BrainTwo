@@ -222,7 +222,7 @@ $$
 $$
 \begin{lgathered}
 \vec F_{\text{thrust}}=\vec v_{\text{ex}}\frac{dm}{dt}\\
-\Delta\vec v=\vec v_{\text{ex}}\ln(\frac{m_{i}}{m_{f}})\\
+\Delta\vec v=\vec v_{\text{ex}}\ln(\frac{m}{m_0})\\
 \vec v=\text{velocity}\\
 m=\text{mass}\\
 t=\text{time}

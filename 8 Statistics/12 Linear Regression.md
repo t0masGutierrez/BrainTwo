@@ -348,10 +348,43 @@ $$
 
 ---
 ### categorical explainer
-- explanatory variable whose values are qualitative
+- explanatory variable whose values represent categories
 
 ---
 ### categorical explainer formula
+$$
+\begin{lgathered}
+C=\set{c_1,\dots,c_m}\\
+c=\text{category}\\
+m=\text{number of categories}
+\end{lgathered}
+$$
+
+---
+### indicator variable
+- explanatory variable whose binary values indicate whether observation belong to particular category
+
+---
+### indicator variable formula
+$$
+\begin{lgathered}
+I_i=\begin{cases}
+1,&C=c_i\\
+0,&C\ne c_i
+\end{cases}\\
+i=1,\dots,m-1\\
+C=\text{categorical explainer}\\
+c=\text{category}\\
+m=\text{number of categories}
+\end{lgathered}
+$$
+
+---
+### reference category
+- definition
+
+---
+### reference category formula
 $$
 \begin{lgathered}
 

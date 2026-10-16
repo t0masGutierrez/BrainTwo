@@ -18,9 +18,9 @@ $$
 ### closed system formula
 $$
 \begin{lgathered}
-\frac{dE}{dt}\ne0\\
+\frac{dE}{dt}\in\mathbb R\\
 \frac{dm}{dt}=0\\
-E=\text{energy}\\
+E=\text{total energy}\\
 t=\text{time}\\
 m=\text{mass}
 \end{lgathered}
@@ -36,7 +36,7 @@ $$
 \begin{lgathered}
 \frac{dE}{dt}\ne0\\
 \frac{dm}{dt}\ne0\\
-E=\text{energy}\\
+E=\text{total energy}\\
 t=\text{time}\\
 m=\text{mass}
 \end{lgathered}
@@ -52,7 +52,7 @@ $$
 \begin{lgathered}
 \frac{dE}{dt}=0\\
 \frac{dm}{dt}=0\\
-E=\text{energy}\\
+E=\text{total energy}\\
 t=\text{time}\\
 m=\text{mass}
 \end{lgathered}
@@ -113,10 +113,10 @@ $$
 ### internal energy formula
 $$
 \begin{lgathered}
-U=\frac{f}{2}NkT\\
+U=\frac{f}{2}Nk_BT\\
 f=\text{degrees of freedom}\\
 N=\text{number of particles}\\
-k=1.381\times10^{-23}\\
+k_B=1.381\times10^{-23}\\
 T=\text{temperature}
 \end{lgathered}
 $$
@@ -284,9 +284,9 @@ $$
 $$
 \begin{lgathered}
 p_{1}V_{1}^{\gamma}=p_{2}V_{2}^{\gamma}\implies\Delta U=-W\\
-T_{1}V_{1}^{\gamma-1}=T_{2}V_{2}^{\gamma-1}\implies\Delta U=nC_V(T_1-T_2)=\\
-\frac{C_V}{R}(p_1V_1-p_2V_2)=\\
-\frac{1}{\gamma-1}(p_1V_1-p_2V_2)\\
+T_{1}V_{1}^{\gamma-1}=T_{2}V_{2}^{\gamma-1}\implies\Delta U=nC_V(T_2-T_1)=\\
+\frac{C_V}{R}(p_2V_2-p_1V_1)=\\
+\frac{1}{\gamma-1}(p_2V_2-p_1V_1)\\
 p=\text{pressure}\\
 V=\text{volume}\\
 U=\text{internal energy}\\
