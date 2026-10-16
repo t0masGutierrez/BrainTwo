@@ -1,21 +1,14 @@
 import os
 import re
-import shutil
+import argparse
+from pathlib import Path
+from generate_library import generate_library
 from urllib.parse import quote, unquote
 
-INLINE_MATH_PATTERN = re.compile(r"(?<!\\)\$(.+?)(?<!\\)\$")
-MULTI_LETTER_SUBSCRIPT_PATTERN = re.compile(r"(?<!\\)_\{([A-Za-z]{2,})\}")
-EMPTY_FRACTION_PATTERN = re.compile(r"\\frac\s*\{\s*\}")
-MATH_ENVIRONMENT_LINE_PATTERN = re.compile(r"^(\s*)\\(begin|end)\{([^}]*)\}(\s*)$")
-ALIGN_ENVIRONMENT_LINE_PATTERN = re.compile(r"^(\s*)\\(begin|end)\{align\}(\s*)$")
-LINE_ENDING_PATTERN = re.compile(r"(\r?\n)$")
-LEADING_SQUARE_BRACKET_PATTERN = re.compile(r"^(\s*)\[")
 OBSIDIAN_IMAGE_PATTERN = re.compile(r"!\[\[([^|\]\n]+)(?:\|([^\]\n]+))?\]\]")
 MARKDOWN_IMAGE_PATTERN = re.compile(r"!\[([^\]\n]*)\]\(([^)\n]+)\)")
 REMOTE_IMAGE_PATTERN = re.compile(r"^(?:https?:|data:|blob:)", re.IGNORECASE)
 IMAGE_FOLDER_NAME = "Images"
-IGNORED_VAULT_FOLDERS = {"Templates", "BrainTwo.base"}
-TEXT_ARGUMENT_COMMANDS = {"\\operatorname", "\\text"}
 VAULT_ROOT = os.path.join(os.path.expanduser("~"), "Obsidian", "BrainTwo")
 OUTPUT_ROOT = os.path.join(os.path.expanduser("~"), "GitHub", "BrainTwo")
 
@@ -111,186 +104,6 @@ def delimit_first_row_interval(body):
                         break
     return body
 
-def sanitize_math_text(text):
-    line_ending_match = LINE_ENDING_PATTERN.search(text)
-    line_ending = line_ending_match.group(1) if line_ending_match else ""
-    body = text[: -len(line_ending)] if line_ending else text
-
-    environment_match = MATH_ENVIRONMENT_LINE_PATTERN.match(body)
-    if environment_match:
-        body = normalize_align_environment_line(body)
-        return body + line_ending
-
-    leading_match = re.match(r"\s*", body)
-    leading = leading_match.group(0)
-    stripped_body = body.strip()
-    if not stripped_body:
-        return text
-
-    normalized_body = normalize_multichar_subscripts(stripped_body)
-    normalized_body = compact_math_tokens(normalized_body)
-    validate_latex_fragment(normalized_body)
-    return leading + normalized_body + line_ending
-
-def trim_trailing_whitespace(text):
-    line_ending_match = LINE_ENDING_PATTERN.search(text)
-    line_ending = line_ending_match.group(1) if line_ending_match else ""
-    body = text[: -len(line_ending)] if line_ending else text
-    return body.rstrip(" \t") + line_ending
-
-def normalize_align_environment_line(text):
-    return ALIGN_ENVIRONMENT_LINE_PATTERN.sub(
-        lambda match: f"{match.group(1)}\\{match.group(2)}{{align*}}{match.group(3)}",
-        text,
-    )
-
-def compact_math_tokens(text):
-    parts = []
-    i = 0
-
-    while i < len(text):
-        char = text[i]
-        if char.isspace():
-            i += 1
-            continue
-
-        if char == "\\":
-            command, i = read_latex_command(text, i)
-            parts.append(command)
-            next_i = skip_spaces(text, i)
-
-            if command in TEXT_ARGUMENT_COMMANDS:
-                if next_i < len(text) and text[next_i] == "{":
-                    argument, end_i = read_braced_argument(text, next_i)
-                    normalized_argument = argument if command == "\\text" else normalize_text_argument(argument)
-                    parts.append(f"{{{normalized_argument}}}")
-                    i = end_i
-                    continue
-
-            if needs_latex_command_separator(command, text, next_i):
-                parts.append(" ")
-            continue
-
-        if char == "{":
-            argument, i = read_braced_argument(text, i)
-            parts.append(f"{{{compact_math_tokens(argument)}}}")
-            continue
-
-        if char.isdigit():
-            number, i = read_number(text, i)
-            parts.append(number)
-            continue
-
-        parts.append(char)
-        i += 1
-
-    return "".join(parts)
-
-def needs_latex_command_separator(command, text, next_i):
-    return (
-        is_latex_word_command(command)
-        and next_i < len(text)
-        and text[next_i].isalpha()
-    )
-
-def is_latex_word_command(command):
-    return len(command) > 1 and command[1:].isalpha()
-
-def read_latex_command(text, start):
-    if start + 1 < len(text) and text[start + 1] == "\\":
-        return "\\\\", start + 2
-
-    i = start + 1
-    while i < len(text) and text[i].isalpha():
-        i += 1
-
-    if i == start + 1 and i < len(text):
-        i += 1
-    return text[start:i], i
-
-def skip_spaces(text, start):
-    while start < len(text) and text[start].isspace():
-        start += 1
-    return start
-
-def read_braced_argument(text, start):
-    depth = 0
-    i = start
-    content_start = start + 1
-
-    while i < len(text):
-        char = text[i]
-        if char == "\\":
-            i += 2
-            continue
-        if char == "{":
-            depth += 1
-        elif char == "}":
-            depth -= 1
-            if depth == 0:
-                return text[content_start:i], i + 1
-        i += 1
-
-    return text[content_start:], len(text)
-
-def normalize_text_argument(text):
-    return re.sub(r"\s+", " ", text.strip())
-
-def normalize_multichar_subscripts(text):
-    """Wrap plain multi-letter subscript names with the LaTeX text command."""
-    return MULTI_LETTER_SUBSCRIPT_PATTERN.sub(
-        lambda match: r"_{\text{" + match.group(1) + "}}",
-        text,
-    )
-
-def validate_latex_fragment(text):
-    if EMPTY_FRACTION_PATTERN.search(text):
-        raise ValueError(
-            r"Invalid LaTeX: \\frac{} has an empty numerator. "
-            "Keep both fraction arguments on the same align line."
-        )
-
-def read_number(text, start):
-    i = start
-    while i < len(text) and text[i].isdigit():
-        i += 1
-    if i < len(text) and text[i] == "." and i + 1 < len(text) and text[i + 1].isdigit():
-        i += 1
-        while i < len(text) and text[i].isdigit():
-            i += 1
-    return text[start:i], i
-
-def protect_mathjax_leading_square_bracket(text):
-    return LEADING_SQUARE_BRACKET_PATTERN.sub(r"\1{}[", text, count=1)
-
-def sanitize_inline_math(line):
-    return INLINE_MATH_PATTERN.sub(
-        lambda match: f"${sanitize_math_text(match.group(1))}$",
-        line,
-    )
-
-def sanitize_markdown_math(text, protect_leading_square_brackets=False):
-    text = convert_align_environments(text)
-    lines = text.splitlines(keepends=True)
-    in_math_block = False
-
-    for i in range(len(lines)):
-        stripped_line = lines[i].strip()
-        if stripped_line == "$$":
-            in_math_block = not in_math_block
-            lines[i] = trim_trailing_whitespace(lines[i])
-            continue
-
-        if in_math_block:
-            lines[i] = sanitize_math_text(lines[i])
-            if protect_leading_square_brackets:
-                lines[i] = protect_mathjax_leading_square_bracket(lines[i])
-        else:
-            lines[i] = sanitize_inline_math(lines[i])
-        lines[i] = trim_trailing_whitespace(lines[i])
-
-    return "".join(lines)
-
 def is_heading_candidate(line):
     stripped = line.strip()
     if not stripped:
@@ -327,28 +140,16 @@ def format_generated_markdown_lines(lines):
             and is_heading_candidate(formatted_lines[i])
             and next_stripped_line == "$$"
         )
-        pattern3 = formatted_lines[i].startswith("\\")
 
         # add hashtags and newlines
         if pattern0 or pattern1:
             formatted_lines[i] = "### " + formatted_lines[i].rstrip("\n") + "\n"
 
-        # replace alignment
-        if pattern3:
-            formatted_lines[i] = normalize_align_environment_line(formatted_lines[i])
-            formatted_lines[i] = formatted_lines[i].replace("align*", "aligned")
-
-        if in_math_block:
-            formatted_lines[i] = protect_mathjax_leading_square_bracket(sanitize_math_text(formatted_lines[i]))
-        else:
-            formatted_lines[i] = sanitize_inline_math(formatted_lines[i])
-
     return formatted_lines
 
 def is_vault_note_folder(root, folder_name):
     return (
-        not folder_name.startswith(".")
-        and folder_name not in IGNORED_VAULT_FOLDERS
+        bool(re.match(r"^\d+ ", folder_name))
         and os.path.isdir(os.path.join(root, folder_name))
     )
 
@@ -413,103 +214,68 @@ def normalize_image_references(text, folder_name, folder_names):
     text = OBSIDIAN_IMAGE_PATTERN.sub(replace_obsidian_image, text)
     return MARKDOWN_IMAGE_PATTERN.sub(replace_markdown_image, text)
 
-def has_generated_note_content(folder_path):
-    if not os.path.isdir(folder_path):
+def write_if_changed(path, data):
+    """Replace a complete file only when its bytes change."""
+    if path.is_file() and path.read_bytes() == data:
         return False
+    path.parent.mkdir(parents=True, exist_ok=True)
+    temporary = path.with_name(path.name + '.tmp')
+    try:
+        temporary.write_bytes(data)
+        temporary.replace(path)
+    finally:
+        temporary.unlink(missing_ok=True)
+    return True
 
-    return any(
-        file_name.endswith(".md")
-        or (
-            file_name == IMAGE_FOLDER_NAME
-            and os.path.isdir(os.path.join(folder_path, file_name))
-        )
-        for file_name in os.listdir(folder_path)
-    )
 
 def update_notes():
-    input = VAULT_ROOT
-    output = OUTPUT_ROOT
-    folder_names = list_vault_note_folders(input)
-    input_folders = set(folder_names)
-    dirs = {}
+    source, output = Path(VAULT_ROOT), Path(OUTPUT_ROOT)
+    if source.resolve() == output.resolve() or source.resolve() in output.resolve().parents or output.resolve() in source.resolve().parents:
+        raise ValueError('Source and output folders must be separate.')
+    folder_names = sorted(list_vault_note_folders(source))
+    if not folder_names:
+        raise ValueError('No numbered source note folders found; output was not changed.')
 
-    # loop through folders inside obsidian
-    for dir in folder_names:
-        folder_name = dir
-        folder_path = os.path.join(input, folder_name)
-        dirs[folder_name] = {}
-
-        # loop through files inside obsidian folder
-        for file in os.listdir(folder_path):
-            if file.endswith(".md"):
-                file_path = os.path.join(folder_path, file)
-                file_name = os.path.basename(file)[:-3] # remove suffix ".md"
-                dirs[folder_name][file_name] = file_path
-
-                # read from obsidian files
-                with open(file_path, "r") as obs:
-                    raw_source_data = obs.read()
-
-                source_data = sanitize_markdown_math(raw_source_data)
-                if source_data != raw_source_data:
-                    with open(file_path, "w") as obs:
-                        obs.write(source_data)
-
-                # write source math spacing plus generated-only edits to github files
-                data = normalize_image_references(
-                    source_data,
-                    folder_name,
-                    folder_names,
-                )
-                os.makedirs(os.path.join(output, folder_name), exist_ok=True)
-
-                # write to github files
-                out_file = os.path.join(output, folder_name, file_name + ".md")
-                with open(out_file, "w") as git:
-                    git.write(data)
-
-                # read from github files
-                with open(out_file, "r") as git:
-                    lines = git.readlines()
-
-                    lines = format_generated_markdown_lines(lines)
-
-                    # write to github files
-                    with open(out_file, "w") as git:
-                        git.writelines(lines)
-
-    # remove renamed/deleted files
-    for folder_name in os.listdir(output):
-        out_folder = os.path.join(output, folder_name)
-        in_folder = os.path.join(input, folder_name)
-        if not os.path.isdir(out_folder) or folder_name.startswith("."):
-            continue
-        if folder_name not in input_folders:
-            if has_generated_note_content(out_folder):
-                shutil.rmtree(out_folder)
-            continue
-        if os.path.isdir(in_folder):
-            obsidian_files = set(f for f in os.listdir(in_folder) if f.endswith('.md'))
-            github_files = set(f for f in os.listdir(out_folder) if f.endswith('.md'))
-            for file in github_files:
-                if file not in obsidian_files:
-                    os.remove(os.path.join(out_folder, file))
-
-    # copy image asset folders for file-view rendering
+    # Read and prepare every note before changing any output. Never edit the vault.
+    expected = {}
     for folder_name in folder_names:
-        in_folder = os.path.join(input, folder_name)
-        in_images = os.path.join(in_folder, IMAGE_FOLDER_NAME)
-        out_images = os.path.join(output, folder_name, IMAGE_FOLDER_NAME)
-        if os.path.isdir(in_images):
-            if os.path.exists(out_images):
-                shutil.rmtree(out_images)
-            os.makedirs(os.path.dirname(out_images), exist_ok=True)
-            shutil.copytree(in_images, out_images)
-        elif os.path.isdir(out_images):
-            shutil.rmtree(out_images)
+        folder = source / folder_name
+        for note in sorted(folder.glob('*.md')):
+            text = normalize_image_references(note.read_text(encoding='utf-8'), folder_name, folder_names)
+            text = ''.join(format_generated_markdown_lines(text.splitlines(keepends=True)))
+            expected[Path(folder_name) / note.name] = text.encode('utf-8')
+        images = folder / IMAGE_FOLDER_NAME
+        if images.is_dir():
+            for image in sorted(images.rglob('*')):
+                if image.is_file() and not any(part.startswith('.') for part in image.relative_to(images).parts):
+                    expected[image.relative_to(source)] = image.read_bytes()
+
+    output.mkdir(parents=True, exist_ok=True)
+    for relative, data in expected.items():
+        write_if_changed(output / relative, data)
+
+    # Only numbered note folders and their image assets belong to this generator.
+    for folder_name in list_vault_note_folders(output):
+        folder = output / folder_name
+        candidates = list(folder.glob('*.md'))
+        images = folder / IMAGE_FOLDER_NAME
+        if images.is_dir():
+            candidates.extend(path for path in images.rglob('*') if path.is_file())
+        for path in candidates:
+            if path.relative_to(output) not in expected:
+                path.unlink()
+    generate_library(output)
+
 
 def main():
+    global VAULT_ROOT, OUTPUT_ROOT
+    parser = argparse.ArgumentParser(description='Generate website notes without changing the source vault.')
+    parser.add_argument('--source', default=VAULT_ROOT)
+    parser.add_argument('--output', default=str(Path(__file__).resolve().parent))
+    args = parser.parse_args()
+    VAULT_ROOT, OUTPUT_ROOT = args.source, args.output
     update_notes()
 
-if __name__ == "__main__":
+
+if __name__ == '__main__':
     main()
