@@ -157,18 +157,17 @@
   ],
   "8 Statistics": [
     "1 Data.md",
-    "10 Two-Sample Hypothesis Tests.md",
-    "11 Chi-Square Hypothesis Tests.md",
-    "12 ANOVA Hypothesis Tests.md",
-    "13 Linear Regression.md",
+    "10 Chi-Square Hypothesis Tests.md",
+    "11 ANOVA Hypothesis Tests.md",
+    "12 Linear Regression.md",
     "2 Descriptive Statistics.md",
     "3 Probability.md",
     "4 Discrete Random Variables.md",
     "5 Continuous Random Variables.md",
-    "6 Calculating Distributions.md",
-    "7 Central Limit Theorem.md",
-    "8 Confidence Intervals.md",
-    "9 One-Sample Hypothesis Tests.md"
+    "6 Central Limit Theorem.md",
+    "7 Confidence Intervals.md",
+    "8 One-Sample Hypothesis Tests.md",
+    "9 Two-Sample Hypothesis Tests.md"
   ],
   "9 Mathematical Modeling": [
     "1 Dimensional Analysis.md",
