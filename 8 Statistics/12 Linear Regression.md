@@ -278,7 +278,7 @@ $$
 $$
 \begin{lgathered}
 SE(e)=\sqrt{\frac{SSE}{n-k-1}}\\
-SSE=\text{explained variation}\\
+SSE=\text{unexplained variation}\\
 n=\text{sample size}\\
 k=\text{number of independent variables}
 \end{lgathered}
@@ -292,12 +292,13 @@ $$
 ### linear regression standard error formula
 $$
 \begin{lgathered}
-SE(b_j)=\sqrt{\frac{SE(e)}{\sum_{i=1}^n(x_i-\overline x)^2}}\\
+SE(b_j)=SE(e)\sqrt{\frac{1}{\sum_{i=1}^n(x_{\text{ij}}-\overline x_j)^2(1-R_j^2)}}\\
 SE=\text{standard error}\\
 e=\text{residual}\\
 n=\text{sample size}\\
 x=\text{independent variable}\\
-\overline x=\text{sample mean}
+\overline x=\text{sample mean}\\
+R^2=\text{coefficient of determination}
 \end{lgathered}
 $$
 
@@ -347,7 +348,7 @@ $$
 
 ---
 ### categorical explainer
-- definition
+- explanatory variable whose values are qualitative
 
 ---
 ### categorical explainer formula

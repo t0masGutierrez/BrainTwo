@@ -82,7 +82,7 @@
 
 ---
 ### calculate mean
-- sum of data division with sample size
+- sum of data division with number of data
 
 ---
 ### median
@@ -100,6 +100,7 @@
 ---
 ### calculate mode
 - count data
+- select frequentist data
 
 ---
 ### measure of spread
