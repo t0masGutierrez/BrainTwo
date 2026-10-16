@@ -50,7 +50,7 @@ $$
 ### uniform PDF probability formula
 $$
 \begin{lgathered}
-X\sim\text{Uni}(a,b)\implies P(X=x)=\begin{cases}
+X\sim\text{Uni}(a,b)\implies f(x)=\begin{cases}
 \frac{1}{b-a},\quad a\le x\le b\\
 0,\quad\text{otherwise}
 \end{cases}\\
@@ -87,7 +87,7 @@ $$
 ### normal PDF probability formula
 $$
 \begin{lgathered}
-X\sim N(\mu,\sigma)\implies f(x)=(2\pi\sigma^2)^{-1/2}\exp(\frac{-(x-\mu)^{2}}{2\sigma^{2}})\\
+X\sim N(\mu,\sigma^2)\implies f(x)=\exp(\frac{-(x-\mu)^{2}}{2\sigma^{2}})\sqrt{\frac{1}{2\pi\sigma^2}}\\
 \mu=\text{mean}\\
 \sigma=\text{standard deviation}
 \end{lgathered}
@@ -119,7 +119,7 @@ $$
 ### standard normal PDF probability formula
 $$
 \begin{lgathered}
-X\sim N(0,1)\implies f(x)=(2\pi)^{-1/2}\exp(\frac{-x^2}{2})\\
+X\sim N(0,1)\implies f(x)=\exp(\frac{-x^2}{2})\sqrt{\frac{1}{2\pi}}\\
 x=\text{z-score}
 \end{lgathered}
 $$
@@ -148,7 +148,7 @@ $$
 ### exponential PDF probability formula
 $$
 \begin{lgathered}
-X\sim\text{Exp}(\gamma)\implies f(x)=\lambda e^{-\lambda x}\\
+X\sim\text{Exp}(\lambda)\implies f(x)=\lambda e^{-\lambda x}\\
 x=\text{time}\\
 \lambda=\text{average number of events per time}
 \end{lgathered}
@@ -169,6 +169,109 @@ $$
 \begin{lgathered}
 \text{Var}(X)=\frac{1}{\lambda^{2}}\\
 \lambda=\text{average number of events per time}
+\end{lgathered}
+$$
+
+---
+### gamma probability density function
+- probability as function of the amount of time until $r$th event
+
+---
+### gamma PDF probability formula
+$$
+\begin{lgathered}
+X\sim\text{Gam}(\alpha,\beta)\implies f(x)=\frac{x^{\alpha-1}\exp(\frac{-x}{\beta})}{\beta^\alpha\Gamma(\alpha)}\\
+\Gamma(\alpha)=\int_0^\infty x^{\alpha-1}e^{-x}dx\\
+\Gamma(\alpha+1)=\alpha\Gamma(\alpha)\\
+\Gamma(n)=(n-1)!\\
+\alpha=\text{shape}\\
+\beta=\text{scale}\\
+x=\text{time}
+\end{lgathered}
+$$
+
+---
+### gamma PDF expectation formula
+$$
+\begin{lgathered}
+E[X]=\alpha\beta\\
+\alpha=\text{shape}\\
+\beta=\text{scale}\\
+\end{lgathered}
+$$
+
+---
+### gamma PDF variance formula
+$$
+\begin{lgathered}
+\text{Var}(X)=\alpha\beta^2\\
+\alpha=\text{shape}\\
+\beta=\text{scale}\\
+\end{lgathered}
+$$
+
+---
+### beta probability density function
+- probability as function of proportion between 0 and 1
+
+---
+### beta PDF probability formula
+$$
+\begin{lgathered}
+X\sim\text{Beta}(\alpha,\beta)\implies f(x)=\frac{x^{\alpha-1}(1-x)^{\beta-1}}{B(\alpha,\beta)}\\
+B(\alpha,\beta)=\frac{\Gamma(\alpha)\Gamma(\beta)}{\Gamma(\alpha+\beta)}\\
+\alpha,\beta=\text{shape}\\
+x=\text{proportion}
+\end{lgathered}
+$$
+
+---
+### beta PDF expectation formula
+$$
+\begin{lgathered}
+E[X]=\frac{\alpha}{\alpha+\beta}\\
+\alpha,\beta=\text{shape}\\
+\end{lgathered}
+$$
+
+---
+### beta PDF variance formula
+$$
+\begin{lgathered}
+\text{Var}(X)=\frac{\alpha\beta}{(\alpha+\beta)^2(\alpha+\beta+1)}\\
+\alpha,\beta=\text{shape}\\
+\end{lgathered}
+$$
+
+---
+### chi-squared probability density function
+- probability as function of sum of squared standardized deviation from mean
+
+---
+### chi-squared PDF probability formula
+$$
+\begin{lgathered}
+X\sim\chi^2(\nu)\implies f(x)=\frac{x^{\nu/2-1}e^{-x/2}}{2^{\nu/2}\Gamma(\frac{\nu}{2})}\\
+\nu=\text{degrees of freedom}\\
+x=\text{squared z-score sum}
+\end{lgathered}
+$$
+
+---
+### chi-squared PDF expectation formula
+$$
+\begin{lgathered}
+E[X]=\nu\\
+\nu=\text{degrees of freedom}
+\end{lgathered}
+$$
+
+---
+### chi-squared PDF variance formula
+$$
+\begin{lgathered}
+\text{Var}(X)=2\nu\\
+\nu=\text{degrees of freedom}
 \end{lgathered}
 $$
 
