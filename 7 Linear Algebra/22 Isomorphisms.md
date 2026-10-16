@@ -108,8 +108,8 @@ L_{1}=\text{isomorphism}\\
 A=\text{matrix transformation}\\
 B=\text{domain basis}\\
 C=\text{codomain basis}\\
-{}[L(\vec v)]_{C}=\text{image coordinate vector}\\
-{}[\vec v]_{B}=\text{preimage coordinate vector}
+[L(\vec v)]_{C}=\text{image coordinate vector}\\
+[\vec v]_{B}=\text{preimage coordinate vector}
 \end{lgathered}
 $$
 
@@ -130,7 +130,7 @@ A=\text{matrix transformation}\\
 B=\text{domain basis}\\
 C=\text{codomain basis}\\
 L(\vec v)=\text{image}\\
-{}[L(\vec v)]_{C}=\text{image coordinate vector}
+[L(\vec v)]_{C}=\text{image coordinate vector}
 \end{lgathered}
 $$
 
@@ -149,8 +149,8 @@ L=\text{linear transformation}\\
 A=\text{matrix transformation}\\
 B=\text{domain basis}\\
 C=\text{codomain basis}\\
-{}[L(\vec v)]_{C}=\text{image coordinate vector}\\
-{}[\vec v]_{B}=\text{preimage coordinate vector}
+[L(\vec v)]_{C}=\text{image coordinate vector}\\
+[\vec v]_{B}=\text{preimage coordinate vector}
 \end{lgathered}
 $$
 

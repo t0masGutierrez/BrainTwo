@@ -96,7 +96,7 @@ $$
 $$
 \begin{lgathered}
 \left[(m,n)\right]+[(m',n')]=[(m+m',n+n')]\\
-{}[(m,n)]\cdot[(m',n')]=[(mm'+nn',mn'+nm')]
+[(m,n)]\cdot[(m',n')]=[(mm'+nn',mn'+nm')]
 \end{lgathered}
 $$
 
@@ -111,7 +111,7 @@ $$
 $$
 \begin{lgathered}
 (m,n)\sim(m',n')\iff m+n'=m'+n\\
-{}[(m,n)]=\{(m',n')\in\mathbb N\times\mathbb N|(m,n)\sim(m',n')\}\\
+[(m,n)]=\{(m',n')\in\mathbb N\times\mathbb N|(m,n)\sim(m',n')\}\\
 \mathbb Z=\{[(m,n)]|(m,n)\in\mathbb N\times\mathbb N\}
 \end{lgathered}
 $$
@@ -150,7 +150,7 @@ $$
 $$
 \begin{lgathered}
 \left[(p,q)\right]+[(p',q')]=[(pq'+qp',qq')]\\
-{}[(p,q)]\cdot[(p',q')]=[(pp',qq')]
+[(p,q)]\cdot[(p',q')]=[(pp',qq')]
 \end{lgathered}
 $$
 
@@ -165,7 +165,7 @@ $$
 $$
 \begin{lgathered}
 (p,q)\sim(p',q')\iff pq'=qp'\\
-{}[(p,q)]=\{(p',q')\in\mathbb Z\times\mathbb Z|(p,q)\sim(p',q')\}\\
+[(p,q)]=\{(p',q')\in\mathbb Z\times\mathbb Z|(p,q)\sim(p',q')\}\\
 \mathbb Q=\{[(p,q)]|(p,q)\in\mathbb Z\times\mathbb Z\}
 \end{lgathered}
 $$

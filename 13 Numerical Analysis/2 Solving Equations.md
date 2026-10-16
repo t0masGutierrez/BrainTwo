@@ -37,9 +37,9 @@ $$
 f\in C\left[a_0,b_0\right]\\
 f(a_0)f(b_0)<0\\
 c_n=\frac{a_n+b_n}{2}\\
-{}[a_{n+1},b_{n+1}]=\begin{cases}
-{}[a_n,c_n],\quad f(a_n)f(c_n)<0\\
-{}[c_n,b_n],\quad f(c_n)f(b_n)<0
+[a_{n+1},b_{n+1}]=\begin{cases}
+[a_n,c_n],\quad f(a_n)f(c_n)<0\\
+[c_n,b_n],\quad f(c_n)f(b_n)<0
 \end{cases}\\
 \frac{b_n-a_n}{2}<\epsilon\implies r_c=c_n\\
 f(r_c)=0
@@ -309,9 +309,9 @@ $$
 f\in C\left[a_0,b_0\right]\\
 f(a_0)f(b_0)<0\\
 c_n=a_n-f(a_n)\frac{a_n-b_n}{f(a_n)-f(b_n)}\\
-{}[a_{n+1},b_{n+1}]=\begin{cases}
-{}[a_n,c_n],\quad f(a_n)f(c_n)<0\\
-{}[c_n,b_n],\quad f(c_n)f(b_n)<0
+[a_{n+1},b_{n+1}]=\begin{cases}
+[a_n,c_n],\quad f(a_n)f(c_n)<0\\
+[c_n,b_n],\quad f(c_n)f(b_n)<0
 \end{cases}\\
 |c_{n+1}-c_n|<\epsilon\implies r_c=c_{n+1}\\
 f(r_c)=0
@@ -428,9 +428,9 @@ x_{n+1}=x_n-f(x_n)\frac{x_n-x_{n-1}}{f(x_n)-f(x_{n-1})}\\
 f\in C\left[a_0,b_0\right]\\
 f(a_0)f(b_0)<0\\
 
-{}[a_{n+1},b_{n+1}]=\begin{cases}
-{}[a_n,c_n],\quad f(a_n)f(c_n)<0\\
-{}[c_n,b_n],\quad f(c_n)f(b_n)<0
+[a_{n+1},b_{n+1}]=\begin{cases}
+[a_n,c_n],\quad f(a_n)f(c_n)<0\\
+[c_n,b_n],\quad f(c_n)f(b_n)<0
 \end{cases}\\
 \end{lgathered}
 $$

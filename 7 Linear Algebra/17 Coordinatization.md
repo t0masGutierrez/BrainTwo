@@ -21,7 +21,7 @@ $$
 $$
 \begin{lgathered}
 \left[\vec w\right]_{B}=[c_{1},\dots,c_{n}]\iff\vec w=\sum_{i=1}^{n}c_{i}\vec v_{i}\\
-{}[\vec w]_{B}=\text{coordinate vector}\\
+[\vec w]_{B}=\text{coordinate vector}\\
 B=\text{ordered basis}\\
 c=\text{coordinate}\\
 n=\text{dimension}\\
@@ -45,7 +45,7 @@ $$
 B=\text{ordered basis}\\
 \vec w=\text{coordinatized vector}\\
 I=\text{identity matrix}\\
-{}[\vec w]_{B}=\text{coordinate vector}
+[\vec w]_{B}=\text{coordinate vector}
 \end{lgathered}
 $$
 
@@ -105,8 +105,8 @@ $$
 $$
 \begin{lgathered}
 \left[\vec v_{1}+\vec v_{2}\right]_{B}=[\vec v_{1}]_{B}+[\vec v_{2}]_{B}\\
-{}[c\vec v]_{B}=c[\vec v]_{B}\\
-{}[\sum_{i=1}^{k}c_{i}\vec v_{i}]_{B}=\sum_{i=1}^{k}c_{i}[\vec v_{i}]_{B}
+[c\vec v]_{B}=c[\vec v]_{B}\\
+[\sum_{i=1}^{k}c_{i}\vec v_{i}]_{B}=\sum_{i=1}^{k}c_{i}[\vec v_{i}]_{B}
 \end{lgathered}
 $$
 
@@ -123,7 +123,7 @@ P=\text{transition matrix}\\
 B,C=\text{ordered basis}\\
 \vec v=\text{coordinatized vector}\\
 \mathcal V=\text{vector space}\\
-{}[\vec v]_{B},[\vec v]_{C}=\text{coordinate vector}
+[\vec v]_{B},[\vec v]_{C}=\text{coordinate vector}
 \end{lgathered}
 $$
 
@@ -137,7 +137,7 @@ $$
 \begin{lgathered}
 ([\vec v]_{C}=P_{\text{BC}}[\vec v]_{B})\land([\vec v]_{D}=Q_{\text{CD}}[\vec v]_{C})\implies([\vec v]_{D}=Q_{\text{CD}}P_{\text{BC}}[\vec v]_{B})\\
 \vec v=\text{coordinatized vector}\\
-{}[\vec v]_{B},[\vec v]_{C},[\vec v]_{D}=\text{coordinate vector}\\
+[\vec v]_{B},[\vec v]_{C},[\vec v]_{D}=\text{coordinate vector}\\
 B,C,D=\text{ordered basis}\\
 P,Q=\text{transition matrix}
 \end{lgathered}
@@ -153,7 +153,7 @@ $$
 \begin{lgathered}
 \left[\vec v\right]_{C}=P_{\text{BC}}[\vec v]_{B}\implies(|P|\ne0)\land([\vec v]_{B}=P_{\text{BC}}^{-1}[\vec v]_{C})\\
 \vec v=\text{coordinatized vector}\\
-{}[\vec v]_{B},[\vec v]_{C}=\text{coordinate vector}\\
+[\vec v]_{B},[\vec v]_{C}=\text{coordinate vector}\\
 B,C=\text{ordered basis}\\
 P=\text{transition matrix}\\
 P^{-1}=\text{inverse transition matrix}
@@ -172,7 +172,7 @@ $$
 \left[\vec v\right]_{S}=P[\vec v]_{B}\\
 D[\vec v]_{B}=[A\vec v]_{B}\\
 \vec v=\text{coordinatized vector}\\
-{}[\vec v]_{S},[\vec v]_{B},[A\vec v]_{B}=\text{coordinate vector}\\
+[\vec v]_{S},[\vec v]_{B},[A\vec v]_{B}=\text{coordinate vector}\\
 S=\text{standard ordered basis}\\
 B=\text{ordered basis}\\
 P=\text{eigenmatrix}\\

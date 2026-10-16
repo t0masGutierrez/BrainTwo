@@ -522,7 +522,7 @@ $$
 $$
 \begin{lgathered}
 \left[\frac{\partial G}{\partial f}-\frac{\partial L}{\partial f'}\right]_{x=a}=0\\
-{}[\frac{\partial G}{\partial f}+\frac{\partial L}{\partial f'}]_{x=b}=0\\
+[\frac{\partial G}{\partial f}+\frac{\partial L}{\partial f'}]_{x=b}=0\\
 G=\text{free-end}\\
 f=\text{admissible function}\\
 L=\text{lagrangian}

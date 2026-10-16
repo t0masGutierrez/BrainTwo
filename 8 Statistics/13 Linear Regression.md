@@ -346,3 +346,15 @@ H_{1}:\beta_j\ne0\\
 $$
 
 ---
+### categorical explainer
+- definition
+
+---
+### categorical explainer formula
+$$
+\begin{lgathered}
+
+\end{lgathered}
+$$
+
+---

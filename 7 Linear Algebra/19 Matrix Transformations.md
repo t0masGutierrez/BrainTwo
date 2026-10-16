@@ -39,8 +39,8 @@ B=\text{domain basis}\\
 \vec b=\text{domain basis vector}\\
 C=\text{codomain basis}\\
 \vec c=\text{codomain basis vector}\\
-{}[L(\vec v)]_{C}=\text{image coordinate vector}\\
-{}[\vec v]_{B}=\text{preimage coordinate vector}\\
+[L(\vec v)]_{C}=\text{image coordinate vector}\\
+[\vec v]_{B}=\text{preimage coordinate vector}\\
 A=\text{matrix transformation}
 \end{lgathered}
 $$
@@ -63,8 +63,8 @@ L=\text{linear transformation}\\
 \mathcal W=\text{codomain vector space}\\
 B,D=\text{domain basis}\\
 C,E=\text{codomain basis}\\
-{}[\vec v]_{B},[\vec v]_{D}=\text{preimage coordinate vector}\\
-{}[L(\vec v)]_{C},[L(\vec v)]_{E}=\text{image coordinate vector}\\
+[\vec v]_{B},[\vec v]_{D}=\text{preimage coordinate vector}\\
+[L(\vec v)]_{C},[L(\vec v)]_{E}=\text{image coordinate vector}\\
 P=\text{domain transition matrix}\\
 Q=\text{codomain transition matrix}\\
 A=\text{matrix transformation}
@@ -84,7 +84,7 @@ A_{\text{BB}}=P_{\text{BD}}^{-1}A_{\text{DD}}P_{\text{BD}}\\
 A_{\text{DD}}=P_{\text{BD}}A_{\text{BB}}P_{\text{BD}}^{-1}\\
 L=\text{linear transformation}\\
 \mathcal V=\text{vector space}\\
-{}[\vec v]_{B},[\vec v]_{D}=\text{coordinate vector}\\
+[\vec v]_{B},[\vec v]_{D}=\text{coordinate vector}\\
 \vec v=\text{coordinatized vector}\\
 B,D=\text{basis}\\
 P=\text{transition matrix}\\
@@ -107,8 +107,8 @@ L=\text{linear transformation}\\
 B=\text{1st basis}\\
 C=\text{2nd basis}\\
 D=\text{3rd basis}\\
-{}[\vec v_{1}]_{B},[\vec v_{2}]_{C}=\text{preimage coordinate vector}\\
-{}[L(\vec v_{1})]_{C},[L(\vec v_{2})]_{D}=\text{image coordinate vector}\\
+[\vec v_{1}]_{B},[\vec v_{2}]_{C}=\text{preimage coordinate vector}\\
+[L(\vec v_{1})]_{C},[L(\vec v_{2})]_{D}=\text{image coordinate vector}\\
 A=\text{matrix transformation}
 \end{lgathered}
 $$

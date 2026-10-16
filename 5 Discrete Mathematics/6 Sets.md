@@ -81,7 +81,7 @@ $$
 $$
 \begin{lgathered}
 \left[a,b\right]\\
-{}[a,b)\\
+[a,b)\\
 (a,b]\\
 (a,b)
 \end{lgathered}

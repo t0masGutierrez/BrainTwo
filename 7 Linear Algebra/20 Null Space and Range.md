@@ -102,8 +102,8 @@ $$
 \left[L(\vec v)\right]_{C}=A_{\text{BC}}[\vec v]_{B}\implies\dim(\text{null}\ L)=\text{dim}(\mathcal V)-\text{rank}(A)\\
 L:\mathcal V\rightarrow\mathcal W\\
 L=\text{linear transformation}\\
-{}[\vec v]_{B}=\text{preimage coordinate vector}\\
-{}[L(\vec v)]_{C}=\text{image coordinate vector}\\
+[\vec v]_{B}=\text{preimage coordinate vector}\\
+[L(\vec v)]_{C}=\text{image coordinate vector}\\
 A=\text{matrix transformation}\\
 B=\text{domain basis}\\
 C=\text{codomain basis}\\
@@ -157,8 +157,8 @@ $$
 \left[L(\vec v)\right]_{C}=A_{\text{BC}}[\vec v]_{B}\implies\dim(\text{range}\ L)=\text{rank}(A_{\text{BC}})\\
 L:\mathcal V\rightarrow\mathcal W\\
 L=\text{linear transformation}\\
-{}[\vec v]_{B}=\text{preimage coordinate vector}\\
-{}[L(\vec v)]_{C}=\text{image coordinate vector}\\
+[\vec v]_{B}=\text{preimage coordinate vector}\\
+[L(\vec v)]_{C}=\text{image coordinate vector}\\
 A=\text{matrix transformation}\\
 B=\text{domain basis}\\
 C=\text{codomain basis}\\

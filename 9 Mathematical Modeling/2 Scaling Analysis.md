@@ -9,8 +9,8 @@ $$
 D=\{(t,y)\in[-a,a]\times[-b,b]|p_{1}a\le t\le p_{2}b,q_{1}a\le y\le q_{2}b\}\\
 y=f(t,c_{1},\dots,c_{n})\\
 p_{1},p_{2},q_{1},q_{2}\in\mathbb Z\\
-{}[a]=[t]\\
-{}[b]=[y]\\
+[a]=[t]\\
+[b]=[y]\\
 D=\text{domain}\\
 t,y=\text{variable}\\
 a,b=\text{scaling factor}\\
@@ -46,8 +46,8 @@ $$
 (\bar t=\frac{t}{a})\land(\bar y=\frac{y}{b})\implies\bar D=\{(\bar t,\bar y)\in[-1,1]\times[-1,1]|p_{1}\le\bar t\le p_{2},q_{1}\le\bar y\le q_{2}\}\\
 \bar y=\frac{1}{b}f(a\bar t,c_{1},\dots,c_{N})=\bar f(\bar t,a,b,c_{1},\dots,c_{n})\\
 p_{1},p_{2},q_{1},q_{2}\in\mathbb Z\\
-{}[a]=[\bar t]\\
-{}[b]=[\bar y]\\
+[a]=[\bar t]\\
+[b]=[\bar y]\\
 \bar D=\text{domain}\\
 \bar t,\bar y=\text{variable}\\
 a,b=\text{scaling factor}\\
@@ -127,7 +127,7 @@ $$
 $$
 \begin{lgathered}
 (\bar t=\frac{t}{a})\land(\bar y=\frac{y}{b})\implies\bar y=\phi(\bar t,\mu_{1},\dots,\mu_{m})\\
-{}[\mu]=1\\
+[\mu]=1\\
 t,y,=\text{variable}\\
 a,b=\text{scaling factor}\\
 \mu=\text{parameter}\\

@@ -219,7 +219,7 @@ $$
 $$
 \begin{lgathered}
 (a,b]\implies\int_{a}^{b}f(x)dx=\lim_{c\rightarrow b^{-}}\int_{a}^{c}f(x)dx\\
-{}[a,b)\implies\int_{a}^{b}f(x)dx=\lim_{c\rightarrow a^{+}}\int_{c}^{b}f(x)dx\\
+[a,b)\implies\int_{a}^{b}f(x)dx=\lim_{c\rightarrow a^{+}}\int_{c}^{b}f(x)dx\\
 \exists c[a,b]\implies\int_{a}^{b}f(x)dx=\lim_{c\rightarrow b^{-}}\int_{a}^{c}f(x)dx+\lim_{c\rightarrow a^{+}}\int_{c}^{b}f(x)dx
 \end{lgathered}
 $$
