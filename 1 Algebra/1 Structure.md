@@ -106,10 +106,8 @@ $$
 \begin{lgathered}
 \text{1. parenthesis}\\
 \text{2. exponentiation}\\
-\text{3. multiplication}\\
-\text{4. division}\\
-\text{5. addition}\\
-\text{6. subtraction}\\
+\text{3. multiplication / division}\\
+\text{4. addition / subtraction}
 \end{lgathered}
 $$
 

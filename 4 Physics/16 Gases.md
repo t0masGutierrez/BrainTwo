@@ -5,7 +5,7 @@
 ### molar mass formula
 $$
 \begin{lgathered}
-M=\frac{m}{n}=N_Am\\
+M=\frac{m}{n}=N_Am_i\\
 m=\text{mass}\\
 n=\text{number of moles}\\
 N_A=6.022\times10^{23}
@@ -37,11 +37,11 @@ $$
 ### ideal gas formula
 $$
 \begin{lgathered}
-pV=NkT=nRT=nkN_{A}T\\
+pV=Nk_BT=nRT=nk_BN_{A}T\\
 p=\text{pressure}\\
 V=\text{volume}\\
 N=\text{number of particles}\\
-k=1.381\times10^{-23}\\
+k_B=1.381\times10^{-23}\\
 T=\text{temperature}\\
 n=\text{number of moles}\\
 R=8.314\\
@@ -59,14 +59,14 @@ $$
 ### van der waals gas formula
 $$
 \begin{lgathered}
-(p+\frac{an^2}{V^2})(V-nb)=NkT\\
+(p+\frac{an^2}{V^2})(V-nb)=Nk_BT\\
 p=\text{pressure}\\
 V=\text{volume}\\
 a=\text{intermolecular attraction}\\
 n=\text{number of moles}\\
 b=\text{molecular volume}\\
 N=\text{number of particles}\\
-k=1.381\times10^{-23}\\
+k_B=1.381\times10^{-23}\\
 T=\text{temperature}
 \end{lgathered}
 $$
@@ -142,9 +142,9 @@ $$
 ### translational kinetic energy formula
 $$
 \begin{lgathered}
-K=\frac{3}{2}NkT\\
+K=\frac{3}{2}Nk_BT\\
 N=\text{number of particles}\\
-k=1.381\times10^{-23}\\
+k_B=1.381\times10^{-23}\\
 T=\text{temperature}
 \end{lgathered}
 $$
@@ -158,8 +158,8 @@ $$
 ### average translational kinetic energy formula
 $$
 \begin{lgathered}
-K_{\text{avg}}=\frac{3}{2}kT=\frac{1}{2}mv_{\text{rms}}^2\\
-k=1.381\times10^{-23}\\
+K_{\text{avg}}=\frac{3}{2}k_BT=\frac{1}{2}mv_{\text{rms}}^2\\
+k_B=1.381\times10^{-23}\\
 T=\text{temperature}\\
 m=\text{mass}\\
 v=\text{velocity}
@@ -175,12 +175,12 @@ $$
 ### velocity formula
 $$
 \begin{lgathered}
-f(v)=\frac{4}{\sqrt\pi{}}(\frac{m}{2kT})^{\frac{3}{2}}v^{2}\exp{(\frac{-mv^{2}}{2kT})}\\
-v_{\text{max}}=\sqrt{\frac{2kT}{m}}\\
-v_{\text{rms}}=\sqrt{\frac{3kT}{m}}\\
-v_{\text{avg}}=\sqrt{\frac{8kT}{\pi m}}\\
+f(v)=\frac{4}{\sqrt\pi{}}(\frac{m}{2k_BT})^{\frac{3}{2}}v^{2}\exp{(\frac{-mv^{2}}{2k_BT})}\\
+v_{\text{max}}=\sqrt{\frac{2k_BT}{m}}\\
+v_{\text{rms}}=\sqrt{\frac{3k_BT}{m}}\\
+v_{\text{avg}}=\sqrt{\frac{8k_BT}{\pi m}}\\
 m=\text{mass}\\
-k=1.381\times10^{-23}\\
+k_B=1.381\times10^{-23}\\
 T=\text{temperature}\\
 v=\text{velocity}
 \end{lgathered}
@@ -195,11 +195,11 @@ $$
 ### mean free path formula
 $$
 \begin{lgathered}
-\lambda=\frac{V}{4\pi r^2N\sqrt2}=\frac{kT}{4\pi r^2p\sqrt2}\\
+\lambda=\frac{V}{4\pi r^2N\sqrt2}=\frac{k_BT}{4\pi r^2p\sqrt2}\\
 V=\text{volume}\\
 r=\text{radius}\\
 N=\text{number of particles}\\
-k=1.381\times10^{-23}\\
+k_B=1.381\times10^{-23}\\
 T=\text{temperature}\\
 p=\text{pressure}
 \end{lgathered}
@@ -235,15 +235,15 @@ $$
 
 ---
 ### equipartition of energy
-- equal partition of internal energy across the degrees of freedom such that for every atom there exists average kinetic energy of $\frac{1}{2}kT$
+- at thermal equilibrium, for every independent quadratic degree of freedom there exists average energy of $\frac{1}{2}k_BT$
 
 ---
 ### equipartition of energy formula
 $$
 \begin{lgathered}
-K_{\text{avg}}=\frac{f}{2}kT\\
+E_{\text{avg}}=\frac{f}{2}k_BT\\
 f=\text{degrees of freedom}\\
-k=1.381\times10^{-23}\\
+k_B=1.381\times10^{-23}\\
 T=\text{temperature}
 \end{lgathered}
 $$

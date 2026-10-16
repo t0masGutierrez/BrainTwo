@@ -180,8 +180,8 @@ $$
 ### entropy formula
 $$
 \begin{lgathered}
-\Delta S=k\ln(\frac{\Omega_B}{\Omega_A})=\int_A^B\frac{dQ}{T}\\
-k=1.381\times10^{-23}\\
+\Delta S=k_B\ln(\frac{\Omega_B}{\Omega_A})=\int_A^B\frac{dQ}{T}\\
+k_B=1.381\times10^{-23}\\
 \Omega=\text{number of microstates}\\
 Q=\text{heat}\\
 T=\text{temperature}

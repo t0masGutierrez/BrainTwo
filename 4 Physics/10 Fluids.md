@@ -177,7 +177,7 @@ $$
 ### archimedes principle formula
 $$
 \begin{lgathered}
-\vec F_{b}=\vec w_{f}\\
+\vec F_{b}=-\vec w_{f}\\
 \vec w_f=\text{fluid weight}
 \end{lgathered}
 $$
@@ -399,9 +399,10 @@ $$
 ### drag force formula
 $$
 \begin{lgathered}
-\vec F_{d}=-k\vec v\\
-\vec F_{d}=\frac{-1}{2}\rho_fC_{d}A\vec v^{2}\\
-k=\text{linear drag coefficient}\\
+\vec F_{d}=-b\vec v\\
+\vec F_{d}=\frac{-1}{2}\rho_fC_{d}A\|\vec v\|\vec v\\
+b=\text{damping coefficient}\\
+\|\vec v\|=\text{magnitude}\\
 \vec v=\text{velocity}\\
 \rho_f=\text{fluid density}\\
 C_{d}=\text{drag coefficient}\\
@@ -417,10 +418,12 @@ $$
 ### terminal velocity formula
 $$
 \begin{lgathered}
-\vec w=\vec F_{d}\implies\vec v=\sqrt{\frac{2\vec w}{\rho_fC_{d}A}}\\
+\vec w=-\vec F_{d}\implies\vec v=\sqrt{\frac{2m\vec g}{\rho_fC_{d}A}}\\
 \vec w=\text{weight}\\
 \vec F=\text{force}\\
 \vec v=\text{velocity}\\
+m=\text{mass}\\
+\vec g=\text{gravity}\\
 \rho_f=\text{fluid density}\\
 C_{d}=\text{drag coefficient}\\
 A=\text{area}

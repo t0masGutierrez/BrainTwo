@@ -264,12 +264,12 @@ $$
 ### taut string wave power formula
 $$
 \begin{lgathered}
-P(x,t)=\omega A^{2}kF_{T}\sin^{2}(kx\mp\omega t+\phi)\\
+P(x,t)=F_Tk\omega A^2\cos^{2}(kx\mp\omega t+\phi)\\
 P_{\text{avg}}=\frac{1}{2}\omega^{2}A^{2}\sqrt{\mu F_{T}}\\
+F=\text{force}\\
+k=\text{wavenumber}\\
 \omega=\text{angular frequency}\\
 A=\text{amplitude}\\
-k=\text{wavenumber}\\
-F=\text{force}\\
 x=\text{position}\\
 t=\text{time}\\
 \phi=\text{phase angle}\\
