@@ -5,6 +5,15 @@ from pathlib import Path
 from generate_library import generate_library
 from urllib.parse import quote, unquote
 
+INLINE_MATH_PATTERN = re.compile(r"(?<!\\)\$(.+?)(?<!\\)\$")
+MULTI_LETTER_SUBSCRIPT_PATTERN = re.compile(r"(?<!\\)_\{([A-Za-z]{2,})\}")
+EMPTY_FRACTION_PATTERN = re.compile(r"\\frac\s*\{\s*\}")
+MATH_ENVIRONMENT_LINE_PATTERN = re.compile(r"^(\s*)\\(begin|end)\{([^}]*)\}(\s*)$")
+ALIGN_ENVIRONMENT_LINE_PATTERN = re.compile(r"^(\s*)\\(begin|end)\{align\}(\s*)$")
+LINE_ENDING_PATTERN = re.compile(r"(\r?\n)$")
+LEADING_SQUARE_BRACKET_PATTERN = re.compile(r"^(\s*)\[")
+TEXT_ARGUMENT_COMMANDS = {"\\operatorname", "\\text"}
+
 OBSIDIAN_IMAGE_PATTERN = re.compile(r"!\[\[([^|\]\n]+)(?:\|([^\]\n]+))?\]\]")
 MARKDOWN_IMAGE_PATTERN = re.compile(r"!\[([^\]\n]*)\]\(([^)\n]+)\)")
 REMOTE_IMAGE_PATTERN = re.compile(r"^(?:https?:|data:|blob:)", re.IGNORECASE)
@@ -103,6 +112,186 @@ def delimit_first_row_interval(body):
                                 body[start.end():end] + r'\right]' + body[end + 1:])
                         break
     return body
+
+def sanitize_math_text(text):
+    line_ending_match = LINE_ENDING_PATTERN.search(text)
+    line_ending = line_ending_match.group(1) if line_ending_match else ""
+    body = text[: -len(line_ending)] if line_ending else text
+
+    environment_match = MATH_ENVIRONMENT_LINE_PATTERN.match(body)
+    if environment_match:
+        body = normalize_align_environment_line(body)
+        return body + line_ending
+
+    leading_match = re.match(r"\s*", body)
+    leading = leading_match.group(0)
+    stripped_body = body.strip()
+    if not stripped_body:
+        return text
+
+    normalized_body = normalize_multichar_subscripts(stripped_body)
+    normalized_body = compact_math_tokens(normalized_body)
+    validate_latex_fragment(normalized_body)
+    return leading + normalized_body + line_ending
+
+def trim_trailing_whitespace(text):
+    line_ending_match = LINE_ENDING_PATTERN.search(text)
+    line_ending = line_ending_match.group(1) if line_ending_match else ""
+    body = text[: -len(line_ending)] if line_ending else text
+    return body.rstrip(" \t") + line_ending
+
+def normalize_align_environment_line(text):
+    return ALIGN_ENVIRONMENT_LINE_PATTERN.sub(
+        lambda match: f"{match.group(1)}\\{match.group(2)}{{align*}}{match.group(3)}",
+        text,
+    )
+
+def compact_math_tokens(text):
+    parts = []
+    i = 0
+
+    while i < len(text):
+        char = text[i]
+        if char.isspace():
+            i += 1
+            continue
+
+        if char == "\\":
+            command, i = read_latex_command(text, i)
+            parts.append(command)
+            next_i = skip_spaces(text, i)
+
+            if command in TEXT_ARGUMENT_COMMANDS:
+                if next_i < len(text) and text[next_i] == "{":
+                    argument, end_i = read_braced_argument(text, next_i)
+                    normalized_argument = argument if command == "\\text" else normalize_text_argument(argument)
+                    parts.append(f"{{{normalized_argument}}}")
+                    i = end_i
+                    continue
+
+            if needs_latex_command_separator(command, text, next_i):
+                parts.append(" ")
+            continue
+
+        if char == "{":
+            argument, i = read_braced_argument(text, i)
+            parts.append(f"{{{compact_math_tokens(argument)}}}")
+            continue
+
+        if char.isdigit():
+            number, i = read_number(text, i)
+            parts.append(number)
+            continue
+
+        parts.append(char)
+        i += 1
+
+    return "".join(parts)
+
+def needs_latex_command_separator(command, text, next_i):
+    return (
+        is_latex_word_command(command)
+        and next_i < len(text)
+        and text[next_i].isalpha()
+    )
+
+def is_latex_word_command(command):
+    return len(command) > 1 and command[1:].isalpha()
+
+def read_latex_command(text, start):
+    if start + 1 < len(text) and text[start + 1] == "\\":
+        return "\\\\", start + 2
+
+    i = start + 1
+    while i < len(text) and text[i].isalpha():
+        i += 1
+
+    if i == start + 1 and i < len(text):
+        i += 1
+    return text[start:i], i
+
+def skip_spaces(text, start):
+    while start < len(text) and text[start].isspace():
+        start += 1
+    return start
+
+def read_braced_argument(text, start):
+    depth = 0
+    i = start
+    content_start = start + 1
+
+    while i < len(text):
+        char = text[i]
+        if char == "\\":
+            i += 2
+            continue
+        if char == "{":
+            depth += 1
+        elif char == "}":
+            depth -= 1
+            if depth == 0:
+                return text[content_start:i], i + 1
+        i += 1
+
+    return text[content_start:], len(text)
+
+def normalize_text_argument(text):
+    return re.sub(r"\s+", " ", text.strip())
+
+def normalize_multichar_subscripts(text):
+    """Wrap plain multi-letter subscript names with the LaTeX text command."""
+    return MULTI_LETTER_SUBSCRIPT_PATTERN.sub(
+        lambda match: r"_{\text{" + match.group(1) + "}}",
+        text,
+    )
+
+def validate_latex_fragment(text):
+    if EMPTY_FRACTION_PATTERN.search(text):
+        raise ValueError(
+            r"Invalid LaTeX: \\frac{} has an empty numerator. "
+            "Keep both fraction arguments on the same align line."
+        )
+
+def read_number(text, start):
+    i = start
+    while i < len(text) and text[i].isdigit():
+        i += 1
+    if i < len(text) and text[i] == "." and i + 1 < len(text) and text[i + 1].isdigit():
+        i += 1
+        while i < len(text) and text[i].isdigit():
+            i += 1
+    return text[start:i], i
+
+def protect_mathjax_leading_square_bracket(text):
+    return LEADING_SQUARE_BRACKET_PATTERN.sub(r"\1{}[", text, count=1)
+
+def sanitize_inline_math(line):
+    return INLINE_MATH_PATTERN.sub(
+        lambda match: f"${sanitize_math_text(match.group(1))}$",
+        line,
+    )
+
+def sanitize_markdown_math(text, protect_leading_square_brackets=False):
+    text = convert_align_environments(text)
+    lines = text.splitlines(keepends=True)
+    in_math_block = False
+
+    for i in range(len(lines)):
+        stripped_line = lines[i].strip()
+        if stripped_line == "$$":
+            in_math_block = not in_math_block
+            lines[i] = trim_trailing_whitespace(lines[i])
+            continue
+
+        if in_math_block:
+            lines[i] = sanitize_math_text(lines[i])
+            if protect_leading_square_brackets:
+                lines[i] = protect_mathjax_leading_square_bracket(lines[i])
+        else:
+            lines[i] = sanitize_inline_math(lines[i])
+        lines[i] = trim_trailing_whitespace(lines[i])
+
+    return "".join(lines)
 
 def is_heading_candidate(line):
     stripped = line.strip()
@@ -236,12 +425,15 @@ def update_notes():
     if not folder_names:
         raise ValueError('No numbered source note folders found; output was not changed.')
 
-    # Read and prepare every note before changing any output. Never edit the vault.
+    # Check every note before changing source notes or website files.
     expected = {}
+    source_updates = {}
     for folder_name in folder_names:
         folder = source / folder_name
         for note in sorted(folder.glob('*.md')):
-            text = normalize_image_references(note.read_text(encoding='utf-8'), folder_name, folder_names)
+            source_text = sanitize_markdown_math(note.read_text(encoding='utf-8'))
+            source_updates[note] = source_text.encode('utf-8')
+            text = normalize_image_references(source_text, folder_name, folder_names)
             text = ''.join(format_generated_markdown_lines(text.splitlines(keepends=True)))
             expected[Path(folder_name) / note.name] = text.encode('utf-8')
         images = folder / IMAGE_FOLDER_NAME
@@ -249,6 +441,9 @@ def update_notes():
             for image in sorted(images.rglob('*')):
                 if image.is_file() and not any(part.startswith('.') for part in image.relative_to(images).parts):
                     expected[image.relative_to(source)] = image.read_bytes()
+
+    for note, data in source_updates.items():
+        write_if_changed(note, data)
 
     output.mkdir(parents=True, exist_ok=True)
     for relative, data in expected.items():
@@ -269,7 +464,7 @@ def update_notes():
 
 def main():
     global VAULT_ROOT, OUTPUT_ROOT
-    parser = argparse.ArgumentParser(description='Generate website notes without changing the source vault.')
+    parser = argparse.ArgumentParser(description='Format source note math and generate website notes.')
     parser.add_argument('--source', default=VAULT_ROOT)
     parser.add_argument('--output', default=str(Path(__file__).resolve().parent))
     args = parser.parse_args()
