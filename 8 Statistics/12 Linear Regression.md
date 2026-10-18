@@ -362,7 +362,7 @@ $$
 
 ---
 ### indicator variable
-- explanatory variable whose binary values indicate whether observation belong to particular category
+- explanatory variable whose binary values indicate membership of category
 
 ---
 ### indicator variable formula
@@ -381,7 +381,8 @@ $$
 
 ---
 ### reference category
-- definition
+- baseline category where all indicator variables equal zero
+- coefficient of category represent difference from the reference category
 
 ---
 ### reference category formula
