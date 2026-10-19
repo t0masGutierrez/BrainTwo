@@ -13,7 +13,7 @@ $$
 
 ---
 ### polynomial evaluation
-- compute value of polynomial at particular input
+- compute output of polynomial at particular input
 
 ---
 ### polynomial evaluation formula
