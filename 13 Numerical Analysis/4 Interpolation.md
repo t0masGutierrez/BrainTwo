@@ -95,7 +95,7 @@ x_{n-1}&f[x_{n-1}]&&&&
 \end{array}\\
 c_k=f[x_0,\dots,x_k]\\
 p_{n-1}(x)=c_0+\sum_{k=1}^{n-1}c_k\prod_{j=0}^{k-1}(x-x_j)\\
-c_{i-1}=f[x_1,\dots,x_i]\implies p_{n-1}(x)=c_0+(x-x_0)[c_1+(x-x_1)[c_2+\dots+(x-x_{n-2})c_{n-1}]]\\
+p_{n-1}(x)=c_0+(x-x_0)[c_1+(x-x_1)[c_2+\dots+(x-x_{n-2})c_{n-1}]]\\
 p_n(x)=p_{n-1}(x)+c_{n}\prod_{j=0}^{n-1}(x-x_j)
 \end{lgathered}
 $$
@@ -116,31 +116,7 @@ $$
 0,&m<d<n\\
 \infty,&d\ge n
 \end{cases}\\
-p(x)=p_*(x)+q(x)\prod_{i=1}^n(x-x_i)
-\end{lgathered}
-$$
-
----
-### sinusoidal interpolation
-- approximate sinusoidal function with polynomial interpolation
-
----
-### sinusoidal interpolation formula
-$$
-\begin{lgathered}
-\set{(x_i,y_i)}_{i=0}^{n-1}\\
-\theta\in[0,\frac{\pi}{2}]\\
-\forall i\in\set{1,\dots,n-1}:\theta_i=\frac{i\pi}{2(n-1)}\\
-\sin\theta_i=y_i\\
-c_k=f[\theta_0,\dots,\theta_k]\\
-p_{n-1}(\theta)=c_0+\sum_{k=1}^{n-1}c_k\prod_{j=0}^{k-1}(\theta-\theta_j)\\
-r=\theta\text{ mod }2\pi\\
-\sin r=\begin{cases}
-\sin r,&0\le r\le\pi/2\\
-\sin(\pi-r),&\pi/2\le r\le\pi\\
--\sin(r-\pi),&\pi\le r\le3\pi/2\\
--\sin(2\pi-r),&3\pi/2\le r\le2\pi\\
-\end{cases}
+p(x)=p_*(x)+q(x)\prod_{i=0}^{n-1}(x-x_i)\\
 \end{lgathered}
 $$
 
