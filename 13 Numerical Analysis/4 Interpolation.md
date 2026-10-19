@@ -89,7 +89,7 @@ x_i&\text{Order }0&\text{Order }1&\text{Order }2&\cdots&\text{Order }n-1\\\hline
 x_0&\boxed{f[x_0]=c_0}&\boxed{f[x_0,x_1]=c_1}&\boxed{f[x_0,x_1,x_2]=c_2}&\cdots&\boxed{f[x_0,\ldots,x_{n-1}]=c_{n-1}}\\
 x_1&f[x_1]&f[x_1,x_2]&f[x_1,x_2,x_3]&\ &\\
 x_2&f[x_2]&f[x_2,x_3]&f[x_2,x_3,x_4]&&\\
-\vdots&\vdots&\vdots&\iddots&&\\
+\vdots&\vdots&\vdots&\vdots&&\\
 x_{n-2}&f[x_{n-2}]&f[x_{n-2},x_{n-1}]&&&\\
 x_{n-1}&f[x_{n-1}]&&&&
 \end{array}\\

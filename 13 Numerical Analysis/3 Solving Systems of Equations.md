@@ -483,7 +483,8 @@ A\vec x=\vec b\\
 m_{\text{ij}}=\frac{a_{\text{ij}}}{a_{\text{jj}}}\\
 \langle R_i\rangle\implies\langle R_i\rangle-m_{\text{ij}}\langle R_j\rangle\\
 p=\arg\max_{i\ge k}|a_{\text{ik}}|\\
-\langle R_k\rangle\iff\langle R_p\rangle\\
+\forall a\in A:\langle R_k\rangle\iff\langle R_p\rangle\\
+\forall m\in L:\langle R_k\rangle\iff\langle R_p\rangle\\
 L=I_n\implies L=\begin{bmatrix}
 1&0&0&\cdots&0\\
 m_{21}&1&0&\cdots&0\\
