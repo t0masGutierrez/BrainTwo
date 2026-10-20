@@ -6,7 +6,7 @@
 $$
 \begin{lgathered}
 U=g(X_1,\dots,X_n)\\
-U,X=\text{random variable}\\
+X=\text{random variable}\\
 g=\text{function}
 \end{lgathered}
 $$
@@ -59,7 +59,10 @@ F_U(u)=P(g(X_1,\dots,X_n)\le u)\\
 \max_i(a_i)\le x_k\le\min_j(b_j)\\
 \max_i(a_i)\le\min_j(b_j)\\
 F_U(u)=\int_{D_n}\dots\int_{D_1}f_X(x_1,\dots,x_n)dx_1\dots dx_n\\
-f_U(u)=\frac{d}{du}F_U(u)
+f_U(u)=\frac{d}{du}F_U(u)\\
+U=\text{transformed random variable}\\
+g=\text{function}\\
+X=\text{random variable}\\
 \end{lgathered}
 $$
 
@@ -83,7 +86,7 @@ x_1=g^{-1}(u,v_2,\dots,v_n)\\
 f_{U,V_2,\dots,V_n}(u,v_2,\dots,v_n)=f_{X_1,\dots,X_n}(x_1,v_2,\dots,v_n)\left|\frac{\partial g^{-1}}{\partial u}\right|\\
 f_U(u)=\int_{-\infty}^\infty\dots\int_{-\infty}^\infty f_{U,V_2,\dots,V_n}(u,v_2\dots,v_n)dv_2\dots dv_n\\
 U=\text{transformed random variable}\\
-g=\text{random variable function}\\
+g=\text{function}\\
 X=\text{random variable}\\
 V=\text{auxilary variable}\\
 f=\text{probability density function}
@@ -103,7 +106,7 @@ $$
 M_U(t)=\int_{-\infty}^\infty\dots\int_{-\infty}^\infty e^{tg(X_1,\dots,X_n)}f_{X_1,\dots,X_n}(x_1,\dots,x_n)dx_1\dots dx_n\\
 U=\text{transformed random variable}\\
 t=\text{independent variable}\\
-g=\text{random variable function}\\
+f=\text{probability density function}\\
 X=\text{random variable}
 \end{lgathered}
 $$

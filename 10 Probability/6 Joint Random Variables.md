@@ -318,18 +318,3 @@ A=\text{event}
 $$
 
 ---
-### convolution
-- probability as function of sum of independent random variable
-
----
-### convolution formula
-$$
-\begin{lgathered}
-P(X+Y=z)=\sum_{x}P(Y=z-x)P(X=x)\\
-P(X+Y=z)=\sum_{y}P(X=z-y)P(Y=y)\\
-f_{X+Y}(z)=\int_{-\infty}^{\infty}f_{Y}(z-x)f_{X}(x)dx\\
-f_{X+Y}(z)=\int_{-\infty}^{\infty}f_{X}(z-y)f_{Y}(y)dy
-\end{lgathered}
-$$
-
----

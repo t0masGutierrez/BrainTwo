@@ -158,8 +158,9 @@ $$
 $$
 \begin{lgathered}
 Z=\mu v\\
+Z=\mu v\\
 \psi\perp v\implies Z=\sqrt{\mu F_T}\\
-\psi\parallel v\implies Z=\rho Av
+\psi\parallel v\implies Z=\rho AA
 \end{lgathered}
 $$
 
