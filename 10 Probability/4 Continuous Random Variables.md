@@ -130,7 +130,7 @@ $$
 ### normal PDF probability formula
 $$
 \begin{lgathered}
-X\sim N(\mu,\sigma^2^2)\implies f(x)=\exp(\frac{-(x-\mu)^{2}}{2\sigma^{2}})\sqrt{\frac{1}{2\pi\sigma^2}}\\
+X\sim N(\mu,\sigma^2)\implies f(x)=\exp(\frac{-(x-\mu)^{2}}{2\sigma^{2}})\sqrt{\frac{1}{2\pi\sigma^2}}\\
 \mu=\text{mean}\\
 \sigma=\text{standard deviation}
 \end{lgathered}
