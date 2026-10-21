@@ -237,10 +237,10 @@ $$
 ### iid formula
 $$
 \begin{lgathered}
-\forall i,j\in(1,\dots,m):P(X_{i}\in A,X_{j}\in B)=P(X_{i}\in A)P(X_{j}\in B)\\
-\forall i\in(1,\dots,m):X_{i}\sim N(\mu,\sigma^{2})\\
+\forall i,j\in(1,\dots,n):P(X_{i}\in A,X_{j}\in B)=P(X_{i}\in A)P(X_{j}\in B)\\
+\forall i\in(1,\dots,n):X_{i}\sim F_X\\
 X,Y=\text{random variable}\\
-m=\text{number of random variables}\\
+n=\text{number of random variables}\\
 N=\text{probability distribution}
 \end{lgathered}
 $$

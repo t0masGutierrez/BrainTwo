@@ -12,6 +12,20 @@ g=\text{function}
 $$
 
 ---
+### binomial property
+- sum of bernoulli random variable equal binomial random variable
+
+---
+### binomial property formula
+$$
+\begin{lgathered}
+\forall i\in\set{1,\dots,n}:X_i\overset{\text{i.i.d.}}{\sim}\text{Ber}(p)\\
+Y=\sum_{i=1}^nX_i\\
+\implies Y\sim\text{Bin}(n,p)
+\end{lgathered}
+$$
+
+---
 ### normal property
 - linear combination of independent normal random variable equal normal random variable
 
@@ -19,8 +33,7 @@ $$
 ### normal property formula
 $$
 \begin{lgathered}
-\forall i:X_i\overset{\text{i.i.d.}}{\sim}N(\mu_i,\sigma_i^2)\implies\\
-\sum_{i=1}^nc_iX_i\sim N(\sum_{i=1}^nc_i\mu_i,\sum_{i=1}^nc_i^2\sigma_i^2)\\
+\forall i\in\set{1,\dots,n}:X_i\overset{\text{i.i.d.}}{\sim}N(\mu_i,\sigma_i^2)\implies\sum_{i=1}^nc_iX_i\sim N(\sum_{i=1}^nc_i\mu_i,\sum_{i=1}^nc_i^2\sigma_i^2)\\
 X=\text{random variable}\\
 c=\text{real number}\\
 \mu=\text{mean}\\
@@ -36,8 +49,7 @@ $$
 ### chi-squared property formula
 $$
 \begin{lgathered}
-\forall i:Z_i\overset{\text{i.i.d.}}{\sim}N(0,1)\implies\\
-\sum_{i=1}^nZ_i^2\sim\chi^2(n)\\
+\forall i\in\set{1,\dots,n}:Z_i\overset{\text{i.i.d.}}{\sim}N(0,1)\implies\sum_{i=1}^nZ_i^2\sim\chi^2(n)\\
 Z=\text{random variable}\\
 \mu=\text{mean}\\
 \sigma=\text{standard deviation}\\

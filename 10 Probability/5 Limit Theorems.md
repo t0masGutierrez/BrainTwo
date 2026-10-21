@@ -1,5 +1,5 @@
 ### mean
-- mean of random variable
+- expectation of random variable
 
 ---
 ### mean formula
@@ -12,7 +12,7 @@ $$
 
 ---
 ### sample mean
-- sample mean of random variable
+- sample expectation of random variable
 
 ---
 ### sample mean formula
@@ -69,7 +69,7 @@ $$
 
 ---
 ### chebyshevs inequality
-- upper bound for probability of $k$ standard deviations from the mean
+- upper bound for probability of nonnegative distance from the mean
 
 ---
 ### chebyshevs inequality formula
@@ -127,7 +127,8 @@ $$
 \begin{lgathered}
 \forall i\in\set{1,\dots,n}:X_i\overset{\text{i.i.d.}}{\sim}F_X\implies\lim_{n\rightarrow\infty}\frac{\overline X_{n}-\mu}{\sigma/\sqrt n}\sim N(0,1)\\
 n=\text{sample size}\\
-\bar X=\text{sample mean}\\
+X=\text{random variable}\\
+\overline X=\text{sample mean}\\
 \mu=\text{mean}\\
 \sigma=\text{standard deviation}
 \end{lgathered}

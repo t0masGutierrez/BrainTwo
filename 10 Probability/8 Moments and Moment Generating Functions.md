@@ -490,11 +490,16 @@ $$
 \begin{lgathered}
 M_X(\alpha,\beta,t)=1+\sum_{n=1}^{\infty}\left(\prod_{m=0}^{n-1}\frac{\alpha+m}{\alpha+\beta+m}\right)\frac{t^n}{n!}\\
 \alpha,\beta=\text{shape}\\
-t=\text{independent variable}betamomentgeneratingfunction
--functioncapableofgeneratingbetamoment
+t=\text{independent variable}
+\end{lgathered}
+$$
 
 ---
-betaMGFformula
+### beta moment generating function
+- function capable of generating beta moment
+
+---
+### beta MGF formula
 $$
 \begin{lgathered}
 M_X(\alpha,\beta,t)=1+\sum_{n=1}^{\infty}\left(\prod_{m=0}^{n-1}\frac{\alpha+m}{\alpha+\beta+m}\right)\frac{t^n}{n!}\\
@@ -504,15 +509,15 @@ t=\text{independent variable}
 $$
 
 ---
-chi-squaredmomentgeneratingfunction
--functioncapableofgeneratingchi-squaredmoment
+### chi-squared moment generating function
+- function capable of generating chi-squared moment
 
 ---
-chi-squaredMGFformula
+### chi-squared MGF formula
 $$
 \begin{lgathered}
-M_X(\nu, t) = (1-\nu t)^{-\nu/2} \\
-\nu = \text{degrees of freedom}
+M_X(\nu,t)=(1-\nu t)^{-\nu/2}\\
+\nu=\text{degrees of freedom}
 \end{lgathered}
 $$
 
