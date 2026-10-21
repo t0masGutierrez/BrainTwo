@@ -6,7 +6,7 @@
 $$
 \begin{lgathered}
 (X,Y):\Omega\rightarrow\mathbb R^{2}\\
-X(\omega),Y(\omega)=(x,y)\\
+(X,Y)(\omega)=(x,y)\\
 X,Y=\text{random variable}\\
 \Omega=\text{sample space}\\
 x,y=\text{real number}\\

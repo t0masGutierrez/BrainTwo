@@ -5,12 +5,13 @@
 ### sampling distribution formula
 $$
 \begin{lgathered}
-\forall i:X_i\overset{\text{i.i.d.}}{\sim}P(X\le x)\\
-T=g(X_1,X_2,\dots,X_n)\\
-P(T\le t)\\
-X=\text{random sample}\\
+\forall i\in\set{1,\dots,n}:X_i\overset{\text{i.i.d.}}{\sim}P(X\le x)\\
+\hat\theta=g(X_1,\dots,X_n)\\
+P(\hat\theta\le t)\\
+n=\text{sample size}\\
+X=\text{random variable}\\
 x,t=\text{real number}\\
-T=\text{sample statistic}\\
+\hat\theta=\text{sample statistic}\\
 g=\text{function}
 \end{lgathered}
 $$
