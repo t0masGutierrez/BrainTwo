@@ -1,8 +1,26 @@
-### statistic
+### sampling distribution
+- probability distribution of sample statistic under repeated random sampling of fixed size from the same population
+
+---
+### sampling distribution formula
+$$
+\begin{lgathered}
+\forall i:X_i\overset{\text{i.i.d.}}{\sim}P(X\le x)\\
+T=g(X_1,X_2,\dots,X_n)\\
+P(T\le t)\\
+X=\text{random sample}\\
+x,t=\text{real number}\\
+T=\text{sample statistic}\\
+g=\text{function}
+\end{lgathered}
+$$
+
+---
+### sample proportion
 - definition
 
 ---
-### statistic formula
+### sample proportion formula
 $$
 \begin{lgathered}
 
@@ -10,39 +28,59 @@ $$
 $$
 
 ---
-### term
+### sample mean
 - definition
 
 ---
-### term
+### sample mean formula
+$$
+\begin{lgathered}
+
+\end{lgathered}
+$$
+
+---
+### sample variance
 - definition
 
 ---
-### term
-- definition
+### sample variance formula
+$$
+\begin{lgathered}
+
+\end{lgathered}
+$$
 
 ---
-### term
-- definition
+### chi-squared probability density function
+- probability as function of sum of squared standardized deviation from mean
 
 ---
-### term
-- definition
+### chi-squared PDF probability formula
+$$
+\begin{lgathered}
+X\sim\chi^2(\nu)\implies f(x)=\frac{x^{\nu/2-1}e^{-x/2}}{2^{\nu/2}\Gamma(\frac{\nu}{2})}\\
+\nu=\text{degrees of freedom}\\
+x=\text{squared z-score sum}
+\end{lgathered}
+$$
 
 ---
-### term
-- definition
+### chi-squared PDF expectation formula
+$$
+\begin{lgathered}
+E[X]=\nu\\
+\nu=\text{degrees of freedom}
+\end{lgathered}
+$$
 
 ---
-### term
-- definition
-
----
-### term
-- definition
-
----
-### term
-- definition
+### chi-squared PDF variance formula
+$$
+\begin{lgathered}
+\text{Var}(X)=2\nu\\
+\nu=\text{degrees of freedom}
+\end{lgathered}
+$$
 
 ---

@@ -157,10 +157,8 @@ $$
 ### characteristic impedance formula
 $$
 \begin{lgathered}
-Z=\mu v\\
-Z=\mu v\\
 \psi\perp v\implies Z=\sqrt{\mu F_T}\\
-\psi\parallel v\implies Z=\rho AA
+\psi\parallel v\implies Z=A\sqrt{\rho Y}
 \end{lgathered}
 $$
 

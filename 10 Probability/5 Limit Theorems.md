@@ -125,7 +125,7 @@ $$
 ### central limit theorem formula
 $$
 \begin{lgathered}
-\lim_{n\rightarrow\infty}\overline X_{n}\approx N(\mu,\frac{\sigma^2}{n})\\
+\forall i\in\set{1,\dots,n}:X_i\overset{\text{i.i.d.}}{\sim}F_X\implies\lim_{n\rightarrow\infty}\frac{\overline X_{n}-\mu}{\sigma/\sqrt n}\sim N(0,1)\\
 n=\text{sample size}\\
 \bar X=\text{sample mean}\\
 \mu=\text{mean}\\

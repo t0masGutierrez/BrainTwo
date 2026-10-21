@@ -73,7 +73,7 @@ $$
 ### degrees of freedom formula
 $$
 \begin{lgathered}
-\text{df}=n-k\\
+\nu=n-k\\
 n=\text{sample size}\\
 k=\text{number of constraints}
 \end{lgathered}
