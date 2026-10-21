@@ -238,7 +238,7 @@ $$
 $$
 \begin{lgathered}
 \forall i,j\in(1,\dots,n):P(X_{i}\in A,X_{j}\in B)=P(X_{i}\in A)P(X_{j}\in B)\\
-\forall i\in(1,\dots,n):X_{i}\sim F_X\\
+\forall i\in(1,\dots,n):X_{i}\sim P(X\le x)\\
 X,Y=\text{random variable}\\
 n=\text{number of random variables}\\
 N=\text{probability distribution}

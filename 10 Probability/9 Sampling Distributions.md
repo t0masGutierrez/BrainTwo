@@ -144,7 +144,7 @@ $$
 ### sample mean normal property formula
 $$
 \begin{lgathered}
-\forall i\in\set{1,\dots,n}:X_i\overset{\text{i.i.d.}}{\sim}F_X\\
+\forall i\in\set{1,\dots,n}:X_i\overset{\text{i.i.d.}}{\sim}P(X\le x)\\
 n\ge30\\
 \implies\overline X\approx N(\mu,\frac{\sigma^2}{n})
 \end{lgathered}
@@ -179,6 +179,22 @@ $$
 \begin{lgathered}
 \text{Var}(X)=2\nu\\
 \nu=\text{degrees of freedom}
+\end{lgathered}
+$$
+
+---
+### chi-squared standard normal property
+- sum of squared independent standard normal random variable equal chi-squared random variable
+
+---
+### chi-squared standard normal property formula
+$$
+\begin{lgathered}
+\forall i\in\set{1,\dots,n}:X_i\overset{\text{i.i.d.}}{\sim}N(0,1)\implies\sum_{i=1}^nX_i^2\sim\chi^2(n)\\
+n=\text{sample size}\\
+X=\text{random variable}\\
+\mu=\text{mean}\\
+\sigma=\text{standard deviation}
 \end{lgathered}
 $$
 

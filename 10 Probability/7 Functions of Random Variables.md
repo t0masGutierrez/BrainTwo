@@ -42,22 +42,6 @@ c=\text{real number}\\
 $$
 
 ---
-### chi-squared property
-- sum of squared independent standard normal random variable equal chi-squared random variable
-
----
-### chi-squared property formula
-$$
-\begin{lgathered}
-\forall i\in\set{1,\dots,n}:Z_i\overset{\text{i.i.d.}}{\sim}N(0,1)\implies\sum_{i=1}^nZ_i^2\sim\chi^2(n)\\
-Z=\text{random variable}\\
-\mu=\text{mean}\\
-\sigma=\text{standard deviation}\\
-n=\text{degrees of freedom}
-\end{lgathered}
-$$
-
----
 ### method of cumulative distribution functions
 - if known probability distribution of transformed random variable equal probability density function then method of cumulative distribution functions
 - obtain cumulative distribution function

@@ -46,9 +46,9 @@ $$
 ### linearity property formula
 $$
 \begin{lgathered}
-\forall i,j:P(X_i\in A,X_j\in B)=P(X_i\in A)P(X_j\in B)\land\\
-U=\sum_{i=1}^na_iX_i+b\implies\\
-M_U(t)=e^{bt}\prod_{i=1}^nM_{X_i}(a_it)
+\forall i,j:P(X_i\in A,X_j\in B)=P(X_i\in A)P(X_j\in B)\\
+U=\sum_{i=1}^na_iX_i+b\\
+\implies M_U(t)=e^{bt}\prod_{i=1}^nM_{X_i}(a_it)
 \end{lgathered}
 $$
 
@@ -518,6 +518,30 @@ $$
 \begin{lgathered}
 M_X(\nu,t)=(1-\nu t)^{-\nu/2}\\
 \nu=\text{degrees of freedom}
+\end{lgathered}
+$$
+
+---
+### t moment generating function
+- function capable of generating t moment
+
+---
+### t moment generating function formula
+$$
+\begin{lgathered}
+
+\end{lgathered}
+$$
+
+---
+### F moment generating function
+- function capable of generating F moment
+
+---
+### F moment generating function formula
+$$
+\begin{lgathered}
+
 \end{lgathered}
 $$
 
