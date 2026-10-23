@@ -6,6 +6,7 @@
 $$
 \begin{lgathered}
 \forall i\in\set{1,\dots,n}:X_i\overset{\text{i.i.d.}}{\sim}P(X\le x)\\
+g:\mathbb R^n\rightarrow\mathbb R\\
 \hat\theta=g(X_1,\dots,X_n)\\
 P(\hat\theta\le t)\\
 n=\text{sample size}\\
@@ -193,9 +194,7 @@ $$
 \begin{lgathered}
 \forall i\in\set{1,\dots,n}:X_i\overset{\text{i.i.d.}}{\sim}N(0,1)\implies\sum_{i=1}^nX_i^2\sim\chi^2(n)\\
 n=\text{sample size}\\
-X=\text{random variable}\\
-\mu=\text{mean}\\
-\sigma=\text{standard deviation}
+X=\text{random variable}
 \end{lgathered}
 $$
 
@@ -207,7 +206,7 @@ $$
 ### chi-squared normal property formula
 $$
 \begin{lgathered}
-\forall i:X_i\overset{\text{i.i.d.}}{\sim}N(\mu,\sigma^2)\implies\frac{(n-1)s^2}{\sigma^2}\sim\chi^2(n-1)\\
+\forall i\in\set{1,\dots,n}:X_i\overset{\text{i.i.d.}}{\sim}N(\mu,\sigma^2)\implies\frac{(n-1)s^2}{\sigma^2}\sim\chi^2(n-1)\\
 X=\text{random variable}\\
 \mu=\text{mean}\\
 \sigma=\text{standard deviation}\\
@@ -358,8 +357,8 @@ $$
 ### F normal property formula
 $$
 \begin{lgathered}
-X\sim N(\mu_1,\sigma^2)\\
-Y\sim N(\mu_1,\sigma^2)\\
+X\sim N(\mu_1,\sigma_1^2)\\
+Y\sim N(\mu_2,\sigma_2^2)\\
 P(X=x,Y=y)=P(X=x)P(Y=y)\\
 \frac{s_1^2/\sigma_1^2}{s_2^2/\sigma_2^2}\sim F(n_1-1,n_2-1)\\
 X,Y=\text{random variable}\\
