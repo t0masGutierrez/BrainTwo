@@ -69,6 +69,51 @@ X=\text{random variable}\\
 $$
 
 ---
+### binomial property
+- sum of bernoulli random variable equal binomial random variable
+
+---
+### binomial property formula
+$$
+\begin{lgathered}
+\forall i\in\set{1,\dots,n}:X_i\overset{\text{i.i.d.}}{\sim}\text{Ber}(p)\\
+\implies\sum_{i=1}^nX_i\sim\text{Bin}(n,p)
+\end{lgathered}
+$$
+
+---
+### normal property
+- linear combination of independent normal random variable equal normal random variable
+
+---
+### normal property formula
+$$
+\begin{lgathered}
+\forall i,j\in\set{1,\dots,n}:P(X_i=a,X_j=b)=P(X_i=a)P(X_j=b)\\
+\forall i\in\set{1,\dots,n}:X_i\sim N(\mu_i,\sigma_i^2)\\
+\implies\sum_{i=1}^nc_iX_i\sim N(\sum_{i=1}^nc_i\mu_i,\sum_{i=1}^nc_i^2\sigma_i^2)\\
+X=\text{random variable}\\
+c=\text{real number}\\
+\mu=\text{mean}\\
+\sigma=\text{standard deviation}
+\end{lgathered}
+$$
+
+---
+### chi-squared property
+- sum of independent chi-squared random variable equal chi-squared random variable
+
+---
+### chi-squared property formula
+$$
+\begin{lgathered}
+\forall i,j\in\set{1,\dots,n}:P(X_i=a,X_j=b)=P(X_i=a)P(X_j=b)\\
+\forall i\in\set{1,\dots,n}:X_i\sim\chi^2(\nu_i)\\
+\implies\sum_{i=1}^nX_i\sim\chi^2(\sum_{i=1}^n\nu_i)
+\end{lgathered}
+$$
+
+---
 ### sample proportion binomial property
 - scaled sample proportion of independent bernoulli random variable equal binomial random variable
 
@@ -255,6 +300,23 @@ $$
 $$
 
 ---
+### t standard normal property
+- scaled standard standard normal random variable equal t random variable
+
+---
+### t standard normal property formula
+$$
+\begin{lgathered}
+X\sim N(0,1)\\
+Y\sim\chi^2(\nu)\\
+P(X=x,Y=y)=P(X=x)P(Y=y)\\
+\implies\frac{X}{\sqrt{Y/\nu}}\sim t(\nu)\\
+X,Y=\text{random variable}\\
+\nu=\text{degrees of freedom}
+\end{lgathered}
+$$
+
+---
 ### t normal property
 - scaled normal random variable equal t random variable
 
@@ -269,23 +331,6 @@ X=\text{random variable}\\
 \overline X=\text{sample mean}\\
 s=\text{sample standard deviation}\\
 n=\text{sample size}
-\end{lgathered}
-$$
-
----
-### t standard normal property
-- scaled standard standard normal random variable equal t random variable
-
----
-### t standard normal property formula
-$$
-\begin{lgathered}
-X\sim N(0,1)\\
-Y\sim\chi^2(\nu)\\
-P(X=x,Y=y)=P(X=x)P(Y=y)\\
-\implies\frac{X}{\sqrt{Y/\nu}}\sim t(\nu)\\
-X,Y=\text{random variable}\\
-\nu=\text{degrees of freedom}
 \end{lgathered}
 $$
 
@@ -333,11 +378,11 @@ $$
 $$
 
 ---
-### F property
+### F chi-squared property
 - ratio of variance equal F random variable
 
 ---
-### F property formula
+### F chi-squared property formula
 $$
 \begin{lgathered}
 X\sim\chi^2(\nu_1)\\
