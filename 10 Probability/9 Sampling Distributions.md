@@ -69,19 +69,6 @@ X=\text{random variable}\\
 $$
 
 ---
-### binomial property
-- sum of bernoulli random variable equal binomial random variable
-
----
-### binomial property formula
-$$
-\begin{lgathered}
-\forall i\in\set{1,\dots,n}:X_i\overset{\text{i.i.d.}}{\sim}\text{Ber}(p)\\
-\implies\sum_{i=1}^nX_i\sim\text{Bin}(n,p)
-\end{lgathered}
-$$
-
----
 ### normal property
 - linear combination of independent normal random variable equal normal random variable
 
@@ -101,7 +88,7 @@ $$
 
 ---
 ### sample proportion binomial property
-- scaled sample proportion of independent bernoulli random variable equal binomial random variable
+- sum of independent bernoulli random variable equal binomial random variable
 
 ---
 ### sample proportion binomial property
