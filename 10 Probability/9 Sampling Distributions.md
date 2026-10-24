@@ -387,3 +387,50 @@ n=\text{sample size}
 $$
 
 ---
+### order statistic
+- random variable representing the kth smallest observation of random sample
+
+---
+### order statistic formula
+$$
+\begin{lgathered}
+X_{(1)},X_{(2)},\dots,X_{(n)}\\
+\begin{lgathered}
+F_{X_{(k)}}(x)=\sum_{i=k}^n\binom{n\\i}[F_X(x)]^i[1-F_X(x)]^{n-i}\\
+f_{X_{(k)}}=\frac{n!}{(k-1)!(n-1)!}[F_X(x)]^{k-1}[1-F_X(x)]^{n-k}f_X(x)\\
+X=\text{random variable}
+\end{lgathered}
+\end{lgathered}
+$$
+
+---
+### minimum order statistic
+- random variable representing the smallest observation of random sample
+
+---
+### minimum order statistic formula
+$$
+\begin{lgathered}
+X_{(1)}=\min(X_1,\dots,X_n)\\
+F_{X_{(1)}}(x)=1-[1-F_X(x)]^n\\
+f_{X_{(1)}}=n[1-F_X(x)]^{n-1}f_X(x)\\
+X=\text{random variable}
+\end{lgathered}
+$$
+
+---
+### maximum order statistic
+- random variable representing the largest observation of random sample
+
+---
+### maximum order statistic
+$$
+\begin{lgathered}
+X_{(n)}=\max(X_1,\dots,X_n)\\
+F_{X_{(n)}}(x)=[F_X(x)]^n\\
+f_{X_{(n)}}=n[F_X(x)]^{n-1}f_X(x)\\
+X=\text{random variable}
+\end{lgathered}
+$$
+
+---
