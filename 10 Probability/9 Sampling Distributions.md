@@ -100,20 +100,6 @@ c=\text{real number}\\
 $$
 
 ---
-### chi-squared property
-- sum of independent chi-squared random variable equal chi-squared random variable
-
----
-### chi-squared property formula
-$$
-\begin{lgathered}
-\forall i,j\in\set{1,\dots,n}:P(X_i=a,X_j=b)=P(X_i=a)P(X_j=b)\\
-\forall i\in\set{1,\dots,n}:X_i\sim\chi^2(\nu_i)\\
-\implies\sum_{i=1}^nX_i\sim\chi^2(\sum_{i=1}^n\nu_i)
-\end{lgathered}
-$$
-
----
 ### sample proportion binomial property
 - scaled sample proportion of independent bernoulli random variable equal binomial random variable
 
@@ -342,7 +328,7 @@ $$
 ### F PDF probability formula
 $$
 \begin{lgathered}
-X\sim t(\nu)\implies f(x)=
+X\sim F(\nu)\implies f(x)=
 \begin{cases}
 \frac{\Gamma(\frac{\nu_1+\nu_2}{2})}{\Gamma(\frac{\nu_1}{2})\Gamma(\frac{\nu_2}{2})}(\frac{\nu_1}{\nu_2})^{\nu_1/2}x^{\nu_1/2-1}(1+\frac{\nu_1}{\nu_2}x)^{-(\nu_1+\nu_2)/2},&x>0\\
 0,&x\leq0
