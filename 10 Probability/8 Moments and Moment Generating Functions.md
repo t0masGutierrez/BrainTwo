@@ -522,27 +522,3 @@ M_X(\nu,t)=(1-\nu t)^{-\nu/2}\\
 $$
 
 ---
-### t moment generating function
-- function capable of generating t moment
-
----
-### t moment generating function formula
-$$
-\begin{lgathered}
-
-\end{lgathered}
-$$
-
----
-### F moment generating function
-- function capable of generating F moment
-
----
-### F moment generating function formula
-$$
-\begin{lgathered}
-
-\end{lgathered}
-$$
-
----

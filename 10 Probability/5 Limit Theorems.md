@@ -125,7 +125,7 @@ $$
 ### central limit theorem formula
 $$
 \begin{lgathered}
-\forall i\in\set{1,\dots,n}:X_i\overset{\text{i.i.d.}}{\sim}F_X\implies\lim_{n\rightarrow\infty}\frac{\overline X_{n}-\mu}{\sigma/\sqrt n}\sim N(0,1)\\
+\forall i\in\set{1,\dots,n}:X_i\overset{\text{i.i.d.}}{\sim}P(X\le x)\implies\lim_{n\rightarrow\infty}\frac{\overline X_{n}-\mu}{\sigma/\sqrt n}\sim N(0,1)\\
 n=\text{sample size}\\
 X=\text{random variable}\\
 \overline X=\text{sample mean}\\
