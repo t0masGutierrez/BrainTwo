@@ -145,7 +145,12 @@ $$
 $$
 \begin{lgathered}
 \frac{\partial u}{\partial t}+\frac{\partial I}{\partial x}=0\\
-\frac{dE}{dt}=I(x_1,t)-I(x_2,t)
+\frac{dE}{dt}=I(x_1,t)-I(x_2,t)\\
+u=\text{energy density}\\
+t=\text{time}\\
+I=\text{energy flux density}\\
+x=\text{position}\\
+E=\text{mechanical energy}
 \end{lgathered}
 $$
 
@@ -158,7 +163,14 @@ $$
 $$
 \begin{lgathered}
 \psi\perp v\implies Z=\sqrt{\mu F_T}\\
-\psi\parallel v\implies Z=A\sqrt{\rho Y}
+\psi\parallel v\implies Z=A\sqrt{\rho Y}\\
+\psi=\text{wave}\\
+v=\text{velocity}\\
+Z=\text{impedance}\\
+\mu=\text{linear mass density}\\
+A=\text{area}\\
+\rho=\text{spatial mass density}\\
+Y=\text{young's modulus}
 \end{lgathered}
 $$
 
