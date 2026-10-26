@@ -128,8 +128,7 @@ $$
 ### interpolation error formula
 $$
 \begin{lgathered}
-e(x)=f(x)-p_{n-1}(x)\implies e(x_i)=0\\
-n=\text{number of nodes}
+e(x)=f(x)-p_{n-1}(x)\implies e(x_i)=0
 \end{lgathered}
 $$
 
@@ -141,8 +140,8 @@ $$
 ### interpolation error boundary formula
 $$
 \begin{lgathered}
-|e(x)|\le\frac{\max\limits_{t\in[a,b]}|f^{(n)}(t)|}{n!}|\prod_{i=0}^{n-1}(x-x_i)|\\
-n=\text{number of nodes}
+|e(x)|\le\frac{M}{n!}|\prod_{i=0}^{n-1}(x-x_i)|\\
+M=\max\limits_{t\in[a,b]}|f^{(n)}(t)|
 \end{lgathered}
 $$
 
@@ -155,22 +154,22 @@ $$
 $$
 \begin{lgathered}
 \lim_{n\rightarrow\infty}\max\limits_{x\in[a,b]}|e(x)|\ne0\\
-\forall i\in\set{0,\dots,n-1}:x_i=a+\frac{b-a}{n-1}i\\
-n=\text{number of nodes}
+\forall i\in\set{0,\dots,n-1}:x_i=a+\frac{b-a}{n-1}i
 \end{lgathered}
 $$
 
 ---
 ### chebyshev nodes
-- optimally distributed interpolation points that minimize the maximum absolute value of the polynomial whose roots are the nodes
+- optimally distributed points that minimize the maximum absolute value of the polynomial whose roots are the nodes
 
 ---
 ### chebyshev nodes formula
 $$
 \begin{lgathered}
+\forall t\in[-1,1]:x=\frac{a+b}{2}+\frac{b-a}{2}t\\
+\forall x\in[a,b]:t=\frac{2x-(a+b)}{b-a}\\
 \forall x\in[-1,1],\forall i\in\set{0,\dots,n-1}:x_i=\cos\frac{(2i-1)\pi}{2n}\\
-\forall x\in[a,b],\forall i\in\set{0,\dots,n-1}:x_i=\frac{a+b}{2}+\frac{b-a}{2}\cos\frac{(2i+1)\pi}{2n}\\
-n=\text{number of nodes}
+\forall x\in[a,b],\forall i\in\set{0,\dots,n-1}:x_i=\frac{a+b}{2}+\frac{b-a}{2}\cos\frac{(2i+1)\pi}{2n}
 \end{lgathered}
 $$
 
@@ -182,8 +181,8 @@ $$
 ### chebyshev interpolation error boundary formula
 $$
 \begin{lgathered}
-|e(x)|\le\frac{(b-a)^n\max\limits_{t\in[a,b]}|f^{(n)}(t)|}{2^{2n-1}n!}\\
-n=\text{number of nodes}
+|e(x)|\le\frac{(b-a)^nM}{2^{2n-1}n!}\\
+M=\max\limits_{t\in[a,b]}|f^{(n)}(t)|
 \end{lgathered}
 $$
 
