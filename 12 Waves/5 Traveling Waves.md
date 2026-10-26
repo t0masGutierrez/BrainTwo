@@ -48,7 +48,7 @@ $$
 \begin{lgathered}
 v=\sqrt{\frac{Y}{\rho}}\\
 Y=\text{young's modulus}\\
-\rho=\text{density}
+\rho=\text{spatial mass density}
 \end{lgathered}
 $$
 
@@ -63,7 +63,7 @@ $$
 \begin{lgathered}
 v=\sqrt{\frac{B}{\rho}}\\
 B=\text{bulk modulus}\\
-\rho=\text{density}
+\rho=\text{spatial mass density}
 \end{lgathered}
 $$
 
@@ -112,15 +112,15 @@ A=\text{area}
 $$
 
 ---
-### energy flux density
+### energy flux
 - amount of energy flowing through normal surface per time
 
 ---
-### energy flux density formula
+### energy flux formula
 $$
 \begin{lgathered}
-I(x,t)=-K(\frac{\partial\psi}{\partial t})(\frac{\partial\psi}{\partial x})=\mu vA^2\omega^2\cos^2(kx\mp\omega t+\phi)\\
-I_{\text{avg}}=\frac{1}{2}\mu vA^2\omega^2\\
+P(x,t)=-K(\frac{\partial\psi}{\partial t})(\frac{\partial\psi}{\partial x})=\mu vA^2\omega^2\cos^2(kx\mp\omega t+\phi)\\
+P_{\text{avg}}=\frac{1}{2}\mu vA^2\omega^2\\
 \psi\perp v\implies K=F_T\\
 \psi\parallel v\implies K=YA\\
 K=\text{elastic coefficient}\\
@@ -138,17 +138,18 @@ $$
 
 ---
 ### conservation of energy
-- energy density addition with energy flux density equal zero
+- temporal derivative of energy density addition with spatial derivative of energy flux equal zero
 
 ---
 ### conservation of energy formula
 $$
 \begin{lgathered}
-\frac{\partial u}{\partial t}+\frac{\partial I}{\partial x}=0\\
-\frac{dE}{dt}=I(x_1,t)-I(x_2,t)\\
+\frac{\partial u}{\partial t}+\frac{\partial P}{\partial x}=0\\
+\frac{dE}{dt}=P(x_1,t)-P(x_2,t)\\
+\langle P_1\rangle=\langle P_r\rangle+\langle P_r\rangle\\
 u=\text{energy density}\\
 t=\text{time}\\
-I=\text{energy flux density}\\
+P=\text{energy flux}\\
 x=\text{position}\\
 E=\text{mechanical energy}
 \end{lgathered}
@@ -162,14 +163,15 @@ $$
 ### characteristic impedance formula
 $$
 \begin{lgathered}
+Z=\mu v\\
 \psi\perp v\implies Z=\sqrt{\mu F_T}\\
-\psi\parallel v\implies Z=A\sqrt{\rho Y}\\
-\psi=\text{wave}\\
-v=\text{velocity}\\
+\psi\parallel v\implies Z=\sqrt{\mu AY}\\
 Z=\text{impedance}\\
 \mu=\text{linear mass density}\\
+v=\text{velocity}\\
+\psi=\text{wave}\\
+F=\text{force}\\
 A=\text{area}\\
-\rho=\text{spatial mass density}\\
 Y=\text{young's modulus}
 \end{lgathered}
 $$

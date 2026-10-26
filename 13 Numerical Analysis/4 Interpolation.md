@@ -159,11 +159,11 @@ $$
 $$
 
 ---
-### chebyshev nodes
+### chebyshev node
 - optimally distributed points that minimize the maximum absolute value of the polynomial whose roots are the nodes
 
 ---
-### chebyshev nodes formula
+### chebyshev node formula
 $$
 \begin{lgathered}
 \forall t\in[-1,1]:x=\frac{a+b}{2}+\frac{b-a}{2}t\\
