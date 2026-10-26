@@ -26,20 +26,6 @@ x=\text{position}
 $$
 
 ---
-### spring constant
-- stiffness of spring
-
----
-### spring constant formula
-$$
-\begin{lgathered}
-k=U''(x_0)\\
-U=\text{potential energy}\\
-x=\text{position}
-\end{lgathered}
-$$
-
----
 ### simple harmonic oscillator
 - periodic motion where object oscillate about equilibrium with restoring force directly proportional displacement
 
@@ -80,7 +66,7 @@ A=\sqrt{q_{0}^{2}+\frac{i_{0}^{2}}{\omega^{2}}}\\
 \omega=\sqrt{\frac{1}{LC}}\\
 v=\text{voltage}\\
 L=\text{self inductance}\\
-q,Q=\text{electric charge}\\
+q=\text{electric charge}\\
 t=\text{time}\\
 C=\text{capacitance}\\
 A=\text{amplitude}\\

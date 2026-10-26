@@ -19,7 +19,7 @@ $$
 ### polynomial evaluation formula
 $$
 \begin{lgathered}
-p(x)=\sum_{k=0}^nc_kx^k\\
+p(x)=\sum_{k=0}^{n-1}c_kx^k\\
 c=\text{coefficient}\\
 x=\text{variable}
 \end{lgathered}
@@ -89,7 +89,7 @@ $$
 ### binary number formula
 $$
 \begin{lgathered}
-N=\sum_{k=0}^nb_k2^{k}\in\set{0,1,2,3,4,5,6,7,8,9}\iff b_k=\left\lfloor\frac{N}{2^{k}}\right\rfloor\mod2\in\set{0,1}\\
+N=\sum_{k=0}^{n-1}b_k2^{k}\in\set{0,1,2,3,4,5,6,7,8,9}\iff b_k=\left\lfloor\frac{N}{2^{k}}\right\rfloor\mod2\in\set{0,1}\\
 k=0,\dots,\lfloor\frac{\log N}{\log2}\rfloor\\
 N<(\cdot)\implies k>0\\
 N>(\cdot)\implies k<0\\

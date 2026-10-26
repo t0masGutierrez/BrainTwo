@@ -5,7 +5,7 @@
 ### polynomial evaluation formula
 $$
 \begin{lgathered}
-p(x)=\sum_{k=0}^nc_kx^k\\
+p(x)=\sum_{k=0}^{n-1}c_kx^k\\
 c=\text{coefficient}\\
 x=\text{variable}
 \end{lgathered}
@@ -101,12 +101,12 @@ p_n(x)=p_{n-1}(x)+c_{n}\prod_{j=0}^{n-1}(x-x_j)
 $$
 
 ---
-### number of interpolated polynomials
+### number of interpolating polynomials
 - number of same degree polynomials interpolating the same points equal 1
 - number of unrestricted degree polynomials interpolating the same points equal infinity
 
 ---
-### number of interpolated polynomials formula
+### number of interpolating polynomials formula
 $$
 \begin{lgathered}
 \deg(p_*)=m\le n-1\\
@@ -117,6 +117,88 @@ $$
 \infty,&d\ge n
 \end{cases}\\
 p(x)=p_*(x)+q(x)\prod_{i=0}^{n-1}(x-x_i)\\
+\end{lgathered}
+$$
+
+---
+### interpolation error
+- distance between function and interpolating polynomial equal zero at node
+
+---
+### interpolation error formula
+$$
+\begin{lgathered}
+e(x)=f(x)-p_{n-1}(x)\implies e(x_i)=0\\
+n=\text{number of nodes}
+\end{lgathered}
+$$
+
+---
+### interpolation error boundary
+- upper boundary of interpolation error
+
+---
+### interpolation error boundary formula
+$$
+\begin{lgathered}
+|e(x)|\le\frac{\max\limits_{t\in[a,b]}|f^{(n)}(t)|}{n!}|\prod_{i=0}^{n-1}(x-x_i)|\\
+n=\text{number of nodes}
+\end{lgathered}
+$$
+
+---
+### runge phenomenon
+- phenomenon where increasing the degree of interpolating polynomial with equally spaced nodes generate increasingly large oscillations near the interval endpoints
+
+---
+### runge phenomenon formula
+$$
+\begin{lgathered}
+\lim_{n\rightarrow\infty}\max\limits_{x\in[a,b]}|e(x)|\ne0\\
+\forall i\in\set{0,\dots,n-1}:x_i=a+\frac{b-a}{n-1}i\\
+n=\text{number of nodes}
+\end{lgathered}
+$$
+
+---
+### chebyshev nodes
+- optimally distributed interpolation points that minimize the maximum absolute value of the polynomial whose roots are the nodes
+
+---
+### chebyshev nodes formula
+$$
+\begin{lgathered}
+\forall x\in[-1,1],\forall i\in\set{0,\dots,n-1}:x_i=\cos\frac{(2i-1)\pi}{2n}\\
+\forall x\in[a,b],\forall i\in\set{0,\dots,n-1}:x_i=\frac{a+b}{2}+\frac{b-a}{2}\cos\frac{(2i+1)\pi}{2n}\\
+n=\text{number of nodes}
+\end{lgathered}
+$$
+
+---
+### chebyshev interpolation error boundary
+- upper boundary of chebyshev interpolation error
+
+---
+### chebyshev interpolation error boundary formula
+$$
+\begin{lgathered}
+|e(x)|\le\frac{(b-a)^n\max\limits_{t\in[a,b]}|f^{(n)}(t)|}{2^{2n-1}n!}\\
+n=\text{number of nodes}
+\end{lgathered}
+$$
+
+---
+### chebyshev polynomial
+- interpolating polynomial with chebyshev nodes
+
+---
+### chebyshev polynomial formula
+$$
+\begin{lgathered}
+\forall x\in[-1,1]:T_n(x)=\cos(n\arccos x)\\
+T_0(x)=1\\
+T_1(x)=x\\
+T_{n+1}(x)=2xT_n(x)-T_{n-1}(x)\\
 \end{lgathered}
 $$
 
