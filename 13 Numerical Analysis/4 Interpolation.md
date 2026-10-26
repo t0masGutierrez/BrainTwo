@@ -187,11 +187,11 @@ M=\max\limits_{t\in[a,b]}|f^{(n)}(t)|
 $$
 
 ---
-### chebyshev polynomial
+### chebyshev interpolation polynomial
 - interpolating polynomial with chebyshev nodes
 
 ---
-### chebyshev polynomial formula
+### chebyshev interpolation polynomial formula
 $$
 \begin{lgathered}
 \forall x\in[-1,1]:T_n(x)=\cos(n\arccos x)\\

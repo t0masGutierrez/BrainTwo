@@ -1,18 +1,3 @@
-### p decimal place correctness
-- approximation correct to p decimal places after rounding
-
----
-### p decimal place correctness formula
-$$
-\begin{lgathered}
-|r-r_c|<\frac{1}{2}\times10^{-p}\\
-r=\text{real root}\\
-r_c=\text{computed root}\\
-p=\text{real exponent}
-\end{lgathered}
-$$
-
----
 ### intermediate value
 - if function continuous over closed interval then function encompasses every value between endpoints
 

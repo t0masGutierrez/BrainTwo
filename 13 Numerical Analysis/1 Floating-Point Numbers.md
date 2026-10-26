@@ -293,6 +293,21 @@ x_c=\text{computed number}\\
 $$
 
 ---
+### p decimal place correctness
+- approximation correct to p decimal places after rounding
+
+---
+### p decimal place correctness formula
+$$
+\begin{lgathered}
+e<\frac{1}{2}\times10^{-p}\\
+r=\text{real root}\\
+r_c=\text{computed root}\\
+p=\text{real exponent}
+\end{lgathered}
+$$
+
+---
 ### floating-point representation
 - numerical approximation of real number
 
