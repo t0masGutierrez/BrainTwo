@@ -24,8 +24,8 @@ $$
 \begin{lgathered}
 F_{X,Y}(x,y)=P(X\le x,Y\le y)\\
 1-F_{X}(x)-F_{Y}(y)+F_{X,Y}(x,y)=P(X>x,Y>y)\\
-F_{X}(x)-F_{X,Y}=P(X\le x,Y>y)\\
-F_{Y}(x)-F_{X,Y}=P(X>x,Y\le y)\\
+F_{X}(x)-F_{X,Y}(x,y)=P(X\le x,Y>y)\\
+F_{Y}(x)-F_{X,Y}(x,y)=P(X>x,Y\le y)\\
 \end{lgathered}
 $$
 
@@ -40,10 +40,10 @@ $$
 P(a\le X\le b,c\le Y\le d)=\sum_{c\le y_{j}\le d}\sum_{a\le x_{i}\le b}P(X=x_{i},Y=y_{j})\\
 P(X\le x,Y\le y)=\sum_{y_{j}\le y}\sum_{x_{i}\le x}P(X=x_{i},Y=y_{j})\\
 P(X,Y)=\sum_{j}\sum_{i}P(X=x_{i},Y=y_{j})=1\\
-P(X=x,Y=y)=P(X\le x,Y\le y)-\\
+P(X=x,Y=y)=P(X\le x,Y\le y)+\\
+P(X\le x-1,Y\le y-1)-\\
 P(X\le x-1,Y\le y)-\\
-P(X\le x,Y\le y-1)+\\
-P(X\le x-1,Y\le y-1)
+P(X\le x,Y\le y-1)
 \end{lgathered}
 $$
 
@@ -57,7 +57,7 @@ $$
 \begin{lgathered}
 P(X=x,Y=y)=0\\
 P(X,Y)=\int_{-\infty}^\infty\int_{-\infty}^\infty f_{X,Y}(x,y)dxdy=1\\
-P(X\le a,Y\le b)=\int_{-\infty}^{b}\int_{-\infty}^{a}f_{X,Y}(x,y)dxdy=F_{X,Y}(a,b)\\
+P(X\le a,Y\le b)=\int_{-\infty}^{b}\int_{-\infty}^{a}f_{X,Y}(x,y)dxdy\\
 P(a\le X\le b,c\le Y\le d)=\int_c^d\int_a^bf_{X,Y}(x,y)dxdy
 =F_{X,Y}(b,d)-\\
 F_{X,Y}(a,d)-\\
@@ -74,8 +74,8 @@ $$
 ### marginal probability mass function formula
 $$
 \begin{lgathered}
-P(X=x)=\sum_{y}P(X=x,Y=y)\\
-P(Y=y)=\sum_{x}P(X=x,Y=y)\\
+P(X=x)=\sum_{y_j}P(X=x,Y=y_j)\\
+P(Y=y)=\sum_{x_i}P(X=x_i,Y=y)\\
 X,Y=\text{random variable}\\
 x,y=\text{real number}
 \end{lgathered}
@@ -104,8 +104,8 @@ $$
 ### independent random variable formula
 $$
 \begin{lgathered}
-P(X=x\mid Y=y)=P(X=x)\\
-P(Y=y\mid X=x)=P(Y=y)\\
+P(X=x,Y=y)=P(X=x)P(Y=y)\\
+f_{X,Y}(x,y)=f_{X}(x)f_{Y}(y)\\
 X,Y=\text{random variable}\\
 x,y=\text{real number}
 \end{lgathered}
@@ -147,7 +147,7 @@ $$
 ### joint expectation formula
 $$
 \begin{lgathered}
-E[g(X,Y)]=\sum_{y}\sum_{x}g(x,y)P(X=x,Y=y)\\
+E[g(X,Y)]=\sum_{y_j}\sum_{x_i}g(x,y)P(X=x_i,Y=y_j)\\
 E[g(X,Y)]=\int_{-\infty}^{\infty}\int_{-\infty}^{\infty}g(x,y)f_{X,Y}(x,y)dxdy\\
 X,Y=\text{random variable}\\
 x,y=\text{real number}
@@ -237,11 +237,9 @@ $$
 ### iid formula
 $$
 \begin{lgathered}
-\forall i,j\in(1,\dots,n):P(X_{i}\in A,X_{j}\in B)=P(X_{i}\in A)P(X_{j}\in B)\\
-\forall i\in(1,\dots,n):X_{i}\sim P(X\le x)\\
-X,Y=\text{random variable}\\
-n=\text{number of random variables}\\
-N=\text{probability distribution}
+\forall i,j\in\set{1,\dots,n}:P(X_{i}\in A,X_{j}\in B)=P(X_{i}\in A)P(X_{j}\in B)\\
+\forall i\in\set{1,\dots,n}:X_{i}\sim P(X\le x)\\
+X,Y=\text{random variable}
 \end{lgathered}
 $$
 
