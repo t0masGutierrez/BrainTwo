@@ -293,6 +293,7 @@ $$
 ---
 ### moving observer effect
 - observer moving toward stationary source perceive higher frequency than stationary observer
+- if observer moving toward source then positive observer velocity
 ![300](4%20Physics/Images/moving%20observer%20effect.png)
 
 ---
@@ -309,6 +310,7 @@ $$
 ---
 ### moving source effect
 - source moving toward stationary observer perceive higher frequency than stationary source
+- if source moving toward observer then positive source velocity
 ![300](4%20Physics/Images/moving%20source%20effect.png)
 
 ---
@@ -325,8 +327,6 @@ $$
 ---
 ### doppler effect
 - perceived frequency dependent relative motion between observer and source
-- if observer moving toward source then positive observer velocity
-- if source moving toward observer then positive source velocity
 ![500](4%20Physics/Images/doppler%20effect.png)
 
 ---
