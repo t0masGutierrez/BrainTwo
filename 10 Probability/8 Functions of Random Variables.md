@@ -42,15 +42,11 @@ $$
 ### method of transformations formula
 $$
 \begin{lgathered}
-x_1<x_2\implies g(x_1)<g(x_2)\\
-U=g(X_1,\dots,X_n)\\
-V_2=X_2\\
-V_3=X_3\\
-\vdots\\
-V_n=X_n\\
-x_1=g^{-1}(u,v_2,\dots,v_n)\\
-f_{U,V_2,\dots,V_n}(u,v_2,\dots,v_n)=f_{X_1,\dots,X_n}(x_1,v_2,\dots,v_n)\left|\frac{\partial g^{-1}}{\partial u}\right|\\
-f_U(u)=\int_{-\infty}^\infty\dots\int_{-\infty}^\infty f_{U,V_2,\dots,V_n}(u,v_2\dots,v_n)dv_2\dots dv_n\\
+y_1<y_2\implies h(x,y_1)<h(x,y_2)\\
+U=h(X,Y)\\
+y=h^{-1}(u)\\
+f_{X,U}(x,u)=f_{X,Y}(x,h^{-1}(u))|\frac{d}{du}h^{-1}(u)|\\
+f_U(u)=\int_{-\infty}^\infty f_{X,U}(x,u)dx\\
 U=\text{transformed random variable}\\
 g=\text{function}\\
 X=\text{random variable}\\
