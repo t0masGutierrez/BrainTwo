@@ -160,7 +160,8 @@ $$
 $$
 \begin{lgathered}
 F=\frac{s_{1}^{2}}{s_{2}^{2}}\\
-\text{df}=n-1\\
+\text{df}_1=n_1-1\\
+\text{df}_2=n_2-1\\
 s=\text{sample standard deviation}\\
 n=\text{sample size}
 \end{lgathered}

@@ -5,7 +5,10 @@
 ### estimator formula
 $$
 \begin{lgathered}
-\theta
+g:\mathbb R^n\rightarrow\mathbb R\\
+\hat\theta=g(X_1,\dots,X_n)\\
+g=\text{function}\\
+X=\text{random variable}
 \end{lgathered}
 $$
 
@@ -17,9 +20,9 @@ $$
 ### bias formula
 $$
 \begin{lgathered}
-B=E[\theta]-\Theta\\
-\theta=\text{sample statistic}\\
-\Theta=\text{population parameter}
+B=E[\hat\theta]-\theta\\
+\hat\theta=\text{sample statistic}\\
+\theta=\text{population parameter}
 \end{lgathered}
 $$
 
@@ -31,9 +34,9 @@ $$
 ### biased estimator formula
 $$
 \begin{lgathered}
-\mu_{\theta}\ne\Theta\\
-\theta=\text{sample statistic}\\
-\Theta=\text{population parameter}
+E[\hat\theta]\ne\theta\\
+\hat\theta=\text{sample statistic}\\
+\theta=\text{population parameter}
 \end{lgathered}
 $$
 
@@ -45,9 +48,9 @@ $$
 ### unbiased estimator formula
 $$
 \begin{lgathered}
-\mu_{\theta}=\Theta\\
-\theta=\text{sample statistic}\\
-\Theta=\text{population parameter}
+E[\hat\theta]\ne\theta\\
+\hat\theta=\text{sample statistic}\\
+\theta=\text{population parameter}
 \end{lgathered}
 $$
 
@@ -59,8 +62,10 @@ $$
 ### confidence level formula
 $$
 \begin{lgathered}
-\text{1-tail CI}=1-2\alpha\\
-\text{2-tail CI}=1-\alpha\\
+P(\theta\le\hat\theta+E)=1-\alpha\\
+P(\theta\ge\hat\theta-E)=1-\alpha\\
+P(\hat\theta-E\le\theta\le\hat\theta+E)=1-\alpha\implies P(\theta<\hat\theta-E)=\frac{\alpha}{2}\\
+P(\hat\theta-E\le\theta\le\hat\theta+E)=1-\alpha\implies P(\theta>\hat\theta+E)=\frac{\alpha}{2}\\
 \alpha=\text{significance level}
 \end{lgathered}
 $$
@@ -87,10 +92,10 @@ $$
 ### critical value formula
 $$
 \begin{lgathered}
-P(\theta<c^{*})=\alpha\implies c^{*}=\theta^{-1}(\alpha,\text{df})\\
-P(\theta>c^{*})=\alpha\implies c^{*}=\theta^{-1}(1-\alpha,\text{df})\\
-P(-c^*\le\theta\le c^{*})=1-\alpha\implies c^{*}=\theta^{-1}(1-\alpha/2,\text{df})\\
-\theta=\text{sample statistic}\\
+P(\hat\theta<c^{*})=\alpha\implies c^{*}=\hat\theta^{-1}(\alpha,\text{df})\\
+P(\hat\theta>c^{*})=\alpha\implies c^{*}=\hat\theta^{-1}(1-\alpha,\text{df})\\
+P(-c^*\le\hat\theta\le c^{*})=1-\alpha\implies c^{*}=\hat\theta^{-1}(1-\alpha/2,\text{df})\\
+\hat\theta=\text{sample statistic}\\
 c^{*}=\text{critical value}\\
 \alpha=\text{significance level}\\
 \text{df}=\text{degrees of freedom}
@@ -119,9 +124,9 @@ $$
 ### point estimate formula
 $$
 \begin{lgathered}
-\theta\approx\Theta\\
-\theta=\text{sample statistic}\\
-\Theta=\text{population parameter}\\
+\hat\theta\approx\theta\\
+\hat\theta=\text{sample statistic}\\
+\theta=\text{population parameter}\\
 \end{lgathered}
 $$
 
@@ -138,8 +143,8 @@ $$
 ### confidence interval formula
 $$
 \begin{lgathered}
-\text{CI}=\theta\pm(c^{*})(SE)\\
-\theta=\text{sample statistic}\\
+\text{CI}=\hat\theta\pm(c^{*})(SE)\\
+\hat\theta=\text{sample statistic}\\
 c^{*}=\text{critical value}\\
 SE=\text{standard error}
 \end{lgathered}

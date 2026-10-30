@@ -1,3 +1,19 @@
+### sample statistic
+- function of random variable before observing sample
+- numerical value after observing sample
+
+---
+### sample statistic formula
+$$
+\begin{lgathered}
+g:\mathbb R^n\rightarrow\mathbb R\\
+\hat\theta=g(X_1,\dots,X_n)\\
+g=\text{function}\\
+X=\text{random variable}
+\end{lgathered}
+$$
+
+---
 ### sampling distribution
 - probability distribution of sample statistic under repeated random sampling of fixed size from the same population
 
@@ -5,15 +21,15 @@
 ### sampling distribution formula
 $$
 \begin{lgathered}
-\forall i\in\set{1,\dots,n}:X_i\overset{\text{i.i.d.}}{\sim}P(X\le x)\\
 g:\mathbb R^n\rightarrow\mathbb R\\
 \hat\theta=g(X_1,\dots,X_n)\\
+\forall i\in\set{1,\dots,n}:X_i\overset{\text{i.i.d.}}{\sim}P(X\le x)\\
 P(\hat\theta\le t)\\
+g=\text{function}\\
 n=\text{sample size}\\
 X=\text{random variable}\\
 x,t=\text{real number}\\
-\hat\theta=\text{sample statistic}\\
-g=\text{function}
+\hat\theta=\text{sample statistic}
 \end{lgathered}
 $$
 

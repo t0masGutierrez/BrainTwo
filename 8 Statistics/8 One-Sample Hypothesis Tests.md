@@ -189,9 +189,9 @@ $$
 $$
 \begin{lgathered}
 p=\begin{cases}
-P(|\mathcal T|\ge\tau\mid H_0),\quad H_1:\theta\ne\theta_0\\
-P(\mathcal T\le\tau\mid H_0),\quad H_1:\theta<\theta_0\\
-P(\mathcal T\ge\tau\mid H_0),\quad H_1:\theta>\theta_0
+P(|\mathcal T|\ge|\tau|\mid H_0),&H_1:\theta\ne\theta_0\\
+P(\mathcal T\le\tau\mid H_0),&H_1:\theta<\theta_0\\
+P(\mathcal T\ge\tau\mid H_0),&H_1:\theta>\theta_0
 \end{cases}\\
 \mathcal T=\text{test statistic}\\
 \tau=\text{observed test statistic}\\

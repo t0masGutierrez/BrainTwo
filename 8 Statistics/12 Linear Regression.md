@@ -84,7 +84,7 @@ $$
 - random sample
 - independent observations
 - normal error distribution
-- homoscedasticity
+- equivariant error
 
 ---
 ### simple linear regression formula
@@ -103,6 +103,34 @@ X,x=\text{independent variable}\\
 $$
 
 ---
+### simple linear regression slope
+- increasing the independent variable by 1 unit changes the dependent variable by estimated coefficient, holding all other explanatory variables constant
+
+---
+### simple linear regression slope formula
+$$
+\begin{lgathered}
+b_1=r\frac{s_{y}}{s_{x}}\\
+r=\text{correlation}\\
+s_{x},s_{y}=\text{sample standard deviation}
+\end{lgathered}
+$$
+
+---
+### simple linear regression y-intercept
+- if all independent variables equal zero then dependent variable equal y-intercept
+
+---
+### simple linear regression y-intercept formula
+$$
+\begin{lgathered}
+b_0=\overline y-b_1\overline x\\
+\overline x,\overline y=\text{sample mean}\\
+b_1=\text{slope}
+\end{lgathered}
+$$
+
+---
 ### multiple linear regression
 - model multivariate relationship with line of best fit
 
@@ -113,7 +141,7 @@ $$
 - random sample
 - independent observations
 - normal error distribution
-- homoscedasticity
+- equivariant error
 - imperfect multicollinearity
 
 ---
@@ -129,34 +157,6 @@ k=\text{number of independent variables}\\
 X,x=\text{independent variable}\\
 \varepsilon=\text{error}\\
 \hat y=\text{prediction}
-\end{lgathered}
-$$
-
----
-### regression slope
-- increasing the independent variable by 1 unit changes the dependent variable by estimated coefficient, holding all other explanatory variables constant
-
----
-### regression slope formula
-$$
-\begin{lgathered}
-b_1=r\frac{s_{y}}{s_{x}}\\
-r=\text{correlation}\\
-s_{x},s_{y}=\text{sample standard deviation}
-\end{lgathered}
-$$
-
----
-### regression y-intercept
-- if all independent variables equal zero then dependent variable equal y-intercept
-
----
-### regression y-intercept formula
-$$
-\begin{lgathered}
-b_0=\overline y-b_1\overline x\\
-\overline x,\overline y=\text{sample mean}\\
-b_1=\text{slope}
 \end{lgathered}
 $$
 
@@ -213,7 +213,7 @@ $$
 ### total variation formula
 $$
 \begin{lgathered}
-SST=SS_y=\sum_{i}^{n}(y_{i}-\overline y)^{2}=SSE+SSR\\
+SST=\sum_{i}^{n}(y_{i}-\overline y)^{2}=SSE+SSR\\
 n=\text{sample size}\\
 \hat y=\text{prediction}\\
 \overline y=\text{sample mean}
@@ -270,39 +270,6 @@ y=\text{dependent variable}
 $$
 
 ---
-### residual standard error
-- standard deviation of residual sampling distribution
-
----
-### residual standard error formula
-$$
-\begin{lgathered}
-SE(e)=\sqrt{\frac{SSE}{n-k-1}}\\
-SSE=\text{unexplained variation}\\
-n=\text{sample size}\\
-k=\text{number of independent variables}
-\end{lgathered}
-$$
-
----
-### linear regression standard error
-- standard deviation of coefficient sampling distribution
-
----
-### linear regression standard error formula
-$$
-\begin{lgathered}
-SE(b_j)=SE(e)\sqrt{\frac{1}{\sum_{i=1}^n(x_{\text{ij}}-\overline x_j)^2(1-R_j^2)}}\\
-SE=\text{standard error}\\
-e=\text{residual}\\
-n=\text{sample size}\\
-x=\text{independent variable}\\
-\overline x=\text{sample mean}\\
-R^2=\text{coefficient of determination}
-\end{lgathered}
-$$
-
----
 ### linear regression t-score
 - number of standard errors between coefficient and zero
 
@@ -347,16 +314,16 @@ H_{1}:\beta_j\ne0\\
 $$
 
 ---
-### categorical explainer
+### categorical variable
 - explanatory variable whose values represent categories
 
 ---
-### categorical explainer formula
+### categorical variable formula
 $$
 \begin{lgathered}
-C=\set{c_1,\dots,c_m}\\
+C=\set{c_1,\dots,c_k}\\
 c=\text{category}\\
-m=\text{number of categories}
+k=\text{number of categories}
 \end{lgathered}
 $$
 
@@ -372,23 +339,164 @@ I_i=\begin{cases}
 1,&C=c_i\\
 0,&C\ne c_i
 \end{cases}\\
-i=1,\dots,m-1\\
-C=\text{categorical explainer}\\
+i=1,\dots,k-1\\
+C=\text{categorical variable}\\
 c=\text{category}\\
-m=\text{number of categories}
+k=\text{number of categories}
 \end{lgathered}
 $$
 
 ---
 ### reference category
-- baseline category where all indicator variables equal zero
-- coefficient of category represent difference from the reference category
+- coefficient of category equal intercept where all indicator variables equal zero
+- change of reference category equal different coefficients but same predictions
 
 ---
 ### reference category formula
 $$
 \begin{lgathered}
+\beta_0=E[Y\mid C=c_r]\\
+\overline y_r=b_0\\
+E=\text{expectation}\\
+Y=\text{response variable}\\
+C=\text{categorical variable}\\
+c=\text{category}\\
+b=\text{coefficient}
+\end{lgathered}
+$$
 
+---
+### nonreference category
+- coefficient of category equal difference from the reference category
+
+---
+### nonreference category formula
+$$
+\begin{lgathered}
+\beta_j=E[Y\mid C=c_j]-E[Y\mid C=c_r]\\
+\overline y_j=b_0+b_j\\
+E=\text{expectation}\\
+Y=\text{response variable}\\
+C=\text{categorical variable}\\
+c=\text{category}
+\end{lgathered}
+$$
+
+---
+### categorical linear regression
+- model categorical relationship with line of best fit
+
+---
+### categorical linear regression assumptions
+- numerical response variable
+- categorical explanatory variable
+- linear relationship
+- random sample
+- independent observations
+- normal error distribution
+- equivariant error
+- imperfect multicollinearity
+
+---
+### categorical linear regression formula
+$$
+\begin{lgathered}
+Y=\beta_0+\sum_{j=1}^{k-1}\beta_jI_j+\varepsilon\\
+\hat y=b_0+\sum_{j=1}^{k-1}b_{j}\set{0,1}_{j}\\
+Y=\text{dependent variable}\\
+\beta_0,b_0=\text{y-intercept}\\
+k=\text{number of categories}\\
+\beta_j,b_j=\text{coefficient}\\
+I=\text{indicator variable}\\
+\varepsilon=\text{error}\\
+\hat y=\text{prediction}
+\end{lgathered}
+$$
+
+---
+### main effect
+- explanatory variable affect on response variable
+
+---
+### main effect formula
+$$
+\begin{lgathered}
+Y=\beta_0+\sum_{i=1}^{k}\beta_{i}X_{i}+\varepsilon\\
+\hat y=b_0+\sum_{i=1}^{k}b_{i}x_{i}\\
+\frac{\partial\hat y}{\partial x_j}=b_j\\
+\#x_j=k\\
+Y=\text{dependent variable}\\
+\beta_0,b_0=\text{y-intercept}\\
+k=\text{number of independent variables}\\
+\beta_j,b_j=\text{coefficient}\\
+X,x=\text{independent variable}\\
+\varepsilon=\text{error}\\
+\hat y=\text{prediction}
+\end{lgathered}
+$$
+
+---
+### interaction effect
+- explanatory variable affect on response variable depend on another explanatory variable
+
+---
+### interaction effect formula
+$$
+\begin{lgathered}
+Y=\beta_0+\sum_{i=1}^{k}\beta_{i}X_{i}+\sum_{i=1}^{k-1}\sum_{j=i+1}^{k}\beta_{\text{ij}}X_{i}X_j+\varepsilon\\
+\hat y=b_0+\sum_{i=1}^{k}b_{i}x_{i}+\sum_{i=1}^{k-1}\sum_{j=i+1}^{k}b_{\text{ij}}x_{i}x_j\\
+\frac{\partial^2\hat y}{\partial x_ix_j}=b_{\text{ij}}\\
+\#x_ix_j=\begin{pmatrix}k\\2\end{pmatrix}=\frac{k(k-1)}{2}\\
+Y=\text{dependent variable}\\
+\beta_0,b_0=\text{y-intercept}\\
+k=\text{number of independent variables}\\
+\beta_j,b_j=\text{coefficient}\\
+X,x=\text{independent variable}\\
+\hat y=\text{prediction}
+\end{lgathered}
+$$
+
+---
+### mixed interaction effect
+- numerical explanatory variable affect on response variable depend on another categorical explanatory variable
+
+---
+### mixed interaction effect
+$$
+\begin{lgathered}
+Y=\beta_0+\sum_{i=1}^{p}\beta_{i}X_{i}+\sum_{j=1}^{q-1}\gamma_{j}I_{j}+\sum_{i=1}^{p}\sum_{j=1}^{q-1}\delta_{\text{ij}}X_{i}I_j\\
+\hat y=b_0+\sum_{i=1}^{p}b_{i}x_{i}+\sum_{j=1}^{q-1}c_{j}\set{0,1}_{j}+\sum_{i=1}^{p}\sum_{j=1}^{q-1}d_{\text{ij}}x_{i}\set{0,1}_j\\
+\frac{\partial\hat y}{\partial x_i}\bigg|_{I_j=1}-\frac{\partial\hat y}{\partial x_i}\bigg|_{I_j=0}=d_{\text{ij}}\\
+\#x_i\set{0,1}=p(q-1)\\\\
+Y=\text{dependent variable}\\
+\beta,\gamma,\delta,b,c,d=\text{coefficient}\\
+X,x=\text{independent variable}\\
+p=\text{number of independent variables}\\
+I=\text{indicator variable}\\
+q=\text{number of categories}\\
+\hat y=\text{prediction}
+\end{lgathered}
+$$
+
+---
+### categorical interaction effect
+- categorical explanatory variable affect on response variable depend on another categorical explanatory variable
+
+---
+### categorical interaction effect
+$$
+\begin{lgathered}
+Y=\beta_0+\sum_{i=1}^{p-1}\beta_iI_i+\sum_{j=1}^{q-1}\gamma_jI_j+\sum_{i=1}^{p-1}\sum_{j=1}^{q-1}\delta_{\text{ij}}I_iI_j+\varepsilon\\
+\hat y=b_0+\sum_{i=1}^{p-1}b_iI_i+\sum_{j=1}^{q-1}c_jI_j+\sum_{i=1}^{p-1}\sum_{j=1}^{q-1}d_{\text{ij}}I_iI_j\\
+\frac{\partial\hat y}{\partial I_i}\bigg|_{I_j=1}-\frac{\partial\hat y}{\partial I_i}\bigg|_{I_j=0}=d_{\text{ij}}\\
+\#I_iI_j=(p-1)(q-1)\\
+Y=\text{dependent variable}\\
+\beta_0,b_0=\text{y-intercept}\\
+p,q=\text{number of categories}\\
+\beta,\gamma,\delta,b,c,d=\text{coefficient}\\
+I=\text{indicator variable}\\
+\varepsilon=\text{error}\\
+\hat y=\text{prediction}
 \end{lgathered}
 $$
 

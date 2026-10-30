@@ -64,13 +64,14 @@ $$
 $$
 \begin{lgathered}
 \chi^{2}=\sum_{i=1}^{r}\sum_{j=1}^{c}\frac{(O_{\text{ij}}-E_{\text{ij}})^{2}}{E_{\text{ij}}}\\
-E=\frac{rc}{r+c}\\
+E=\frac{rc}{n}\\
 df=(r-1)(c-1)\\
 k=\text{number of categories}\\
 O=\text{observed counts}\\
 E=\text{expected counts}\\
 r=\text{number of rows}\\
-c=\text{number of columns}
+c=\text{number of columns}\\
+n=\text{number of counts}
 \end{lgathered}
 $$
 
