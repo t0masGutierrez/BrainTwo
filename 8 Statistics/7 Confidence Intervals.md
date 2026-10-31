@@ -1,60 +1,3 @@
-### estimator
-- sample statistic capable of estimating population parameter
-
----
-### estimator formula
-$$
-\begin{lgathered}
-g:\mathbb R^n\rightarrow\mathbb R\\
-\hat\theta=g(X_1,\dots,X_n)\\
-g=\text{function}\\
-X=\text{random variable}
-\end{lgathered}
-$$
-
----
-### bias
-- systematic overestimation/underestimation of the population parameter
-
----
-### bias formula
-$$
-\begin{lgathered}
-B=E[\hat\theta]-\theta\\
-\hat\theta=\text{sample statistic}\\
-\theta=\text{population parameter}
-\end{lgathered}
-$$
-
----
-### biased estimator
-- mean of sample statistic not equal population parameter
-
----
-### biased estimator formula
-$$
-\begin{lgathered}
-E[\hat\theta]\ne\theta\\
-\hat\theta=\text{sample statistic}\\
-\theta=\text{population parameter}
-\end{lgathered}
-$$
-
----
-### unbiased estimator
-- mean of sample statistic equal population parameter
-
----
-### unbiased estimator formula
-$$
-\begin{lgathered}
-E[\hat\theta]\ne\theta\\
-\hat\theta=\text{sample statistic}\\
-\theta=\text{population parameter}
-\end{lgathered}
-$$
-
----
 ### confidence level
 - probability of the population parameter lying inside the confidence interval
 
@@ -92,13 +35,13 @@ $$
 ### critical value formula
 $$
 \begin{lgathered}
-P(\hat\theta<c^{*})=\alpha\implies c^{*}=\hat\theta^{-1}(\alpha,\text{df})\\
-P(\hat\theta>c^{*})=\alpha\implies c^{*}=\hat\theta^{-1}(1-\alpha,\text{df})\\
-P(-c^*\le\hat\theta\le c^{*})=1-\alpha\implies c^{*}=\hat\theta^{-1}(1-\alpha/2,\text{df})\\
+P(\hat\theta<c^{*})=\alpha\implies c^{*}=\hat\theta^{-1}(\alpha,\nu)\\
+P(\hat\theta>c^{*})=\alpha\implies c^{*}=\hat\theta^{-1}(1-\alpha,\nu)\\
+P(-c^*\le\hat\theta\le c^{*})=1-\alpha\implies c^{*}=\hat\theta^{-1}(1-\alpha/2,\nu)\\
 \hat\theta=\text{sample statistic}\\
 c^{*}=\text{critical value}\\
 \alpha=\text{significance level}\\
-\text{df}=\text{degrees of freedom}
+\nu=\text{degrees of freedom}
 \end{lgathered}
 $$
 
@@ -132,10 +75,9 @@ $$
 
 ---
 ### confidence interval
-- verify assumptions
 - calculate sample statistic
-- calculate standard error
 - find critical value
+- calculate standard error
 - calculate margin of error
 - construct range of possible values for population parameter
 
@@ -152,12 +94,14 @@ $$
 
 ---
 ### correct confidence interval
-- 95% probability that the population parameter lie inside the confidence interval
+- if we repeatedly draw random samples and construct confidence intervals then the population parameter lie inside those confidence intervals 95% of the time
+- we are 95% confident that the population parameter lie inside our confidence interval
 
 ---
 ### incorrect confidence interval
-- 95% of the population lie inside the confidence interval
+- 95% of the population lie inside confidence interval
 - 95% of sample statistic lie between lower boundary and upper boundary
+- the probability of confidence interval containing population parameter equal 95%
 
 ---
 ### mean confidence interval assumptions

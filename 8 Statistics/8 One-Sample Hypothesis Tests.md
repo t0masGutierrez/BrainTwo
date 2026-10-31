@@ -109,7 +109,7 @@ $$
 ### test statistic formula
 $$
 \begin{lgathered}
-\mathcal T=\frac{\theta-\theta_{0}}{SE(\theta)}\\
+\mathcal T=\frac{\hat\theta-\theta_{0}}{SE(\theta)}\\
 \theta=\text{sample statistic}\\
 \theta_{0}=\text{null hypothesis}\\
 SE=\text{standard error}
@@ -139,7 +139,7 @@ $$
 $$
 \begin{lgathered}
 H_1:\theta\ne\theta_0\\
-|\mathcal T|>c^*
+|\mathcal T|>|c^*|
 \end{lgathered}
 $$
 
