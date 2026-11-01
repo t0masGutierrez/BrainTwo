@@ -62,7 +62,7 @@ $$
 $$
 \begin{lgathered}
 D_h^+f(x)\approx\frac{f(x+h)-f(x)}{h}\\
-\exists c\in(x,x+h):e_T(h)=\frac{h}{2}f''(c)\\
+\exists c\in(x,x+h):e_T^+(h)=\frac{h}{2}f''(c)\\
 h=\text{step size}
 \end{lgathered}
 $$
@@ -76,7 +76,7 @@ $$
 $$
 \begin{lgathered}
 D_h^-f(x)\approx\frac{f(x)-f(x-h)}{h}\\
-\exists c\in(x-h,x):e_T(h)=\frac{-h}{2}f''(c)\\
+\exists c\in(x-h,x):e_T^-(h)=\frac{-h}{2}f''(c)\\
 h=\text{step size}
 \end{lgathered}
 $$
@@ -90,7 +90,7 @@ $$
 $$
 \begin{lgathered}
 D_h^0f(x)\approx\frac{f(x+h)-f(x-h)}{2h}\\
-\exists c\in(x-h,x+h):e_T(h)=\frac{-h^2}{6}f'''(c)\\
+\exists c\in(x-h,x+h):e_T^0(h)=\frac{-h^2}{6}f'''(c)\\
 h=\text{step size}
 \end{lgathered}
 $$
@@ -104,7 +104,7 @@ $$
 $$
 \begin{lgathered}
 D_h^{0(2)}f(x)\approx\frac{f(x-h)-2f(x)+f(x+h)}{h^2}\\
-\exists c\in(x-h,x+h):e_T(h)=\frac{-h^2}{12}f^{(4)}(c)\\
+\exists c\in(x-h,x+h):e_T^0(h)=\frac{-h^2}{12}f^{(4)}(c)\\
 h=\text{step size}
 \end{lgathered}
 $$
@@ -119,7 +119,7 @@ $$
 \begin{lgathered}
 D_h^0f(x)\approx
 \frac{f(x-2h)-8f(x-h)+8f(x+h)-f(x+2h)}{12h}\\
-\exists c\in(x-2h,x+2h):e_T(h)=\frac{h^4}{30}f^{(5)}(c)\\
+\exists c\in(x-2h,x+2h):e_T^0(h)=\frac{h^4}{30}f^{(5)}(c)\\
 h=\text{step size}
 \end{lgathered}
 $$
@@ -133,7 +133,7 @@ $$
 $$
 \begin{lgathered}
 D_h^{0(2)}f(x)\approx\frac{-f(x-2h)+16f(x-h)-30f(x)+16f(x+h)-f(x+2h)}{12h^2}\\
-\exists c\in(x-2h,x+2h):e_T(h)=\frac{h^4}{90}f^{(6)}(c)\\
+\exists c\in(x-2h,x+2h):e_T^0(h)=\frac{h^4}{90}f^{(6)}(c)\\
 h=\text{step size}
 \end{lgathered}
 $$
@@ -196,17 +196,17 @@ h_*^0=\sqrt[3]{\frac{3\epsilon_{\text{mach}}}{\max\limits_{t\in[x-h,x+h]}|f'''(t
 $$
 
 ---
-### richardson extrapolation
+### order extrapolation
 - combining approximations at different step sizes cancel the leading truncation error
-- if greater accuracy required of centered difference without deriving new formula then richardson extrapolation
+- if greater accuracy required of centered difference without deriving new formula then order extrapolation
 
 ---
-### richardson extrapolation formula
+### order extrapolation formula
 $$
 \begin{lgathered}
 f(x)=D_hf(x)+Kh^p+O(h^{p+1})\\
 D_{\mathrm{ext}}f(x)=\frac{2^pD_{h/2}f(x)-D_hf(x)}{2^p-1}\\
-\implies f(x)=D_{\mathrm{ext}}f(x)+O(h^{p+1})\\
+f(x)=D_{\mathrm{ext}}f(x)+O(h^{p+1})\\
 h=\text{step size}\\
 K=\text{leading coefficient}
 \end{lgathered}
