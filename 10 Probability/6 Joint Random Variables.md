@@ -225,7 +225,8 @@ $$
 \text{Cov}(aX,bY)=ab\text{Cov}(X,Y)\\
 \text{Cov}(X+a,Z+b)=\text{Cov}(X,Y)\\
 \text{Cov}(X+Y,Z)=\text{Cov}(X,Z)+\text{Cov}(Y,Z)\\
-P(X\in A,Y\in B)=P(X\in A)P(Y\in B)\implies\text{Cov}(X,Y)=0
+P(X\in A,Y\in B)=P(X\in A)P(Y\in B)\implies\text{Cov}(X,Y)=0\\
+\text{Cov}(X,Y)=0\not\implies P(X\in A,Y\in B)=P(X\in A)P(Y\in B)
 \end{lgathered}
 $$
 

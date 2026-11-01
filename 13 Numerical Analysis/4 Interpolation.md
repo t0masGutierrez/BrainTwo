@@ -202,3 +202,195 @@ T_{n+1}(x)=2xT_n(x)-T_{n-1}(x)\\
 $$
 
 ---
+### cubic spline
+- piecewise polynomial function of maximum degree three whose first two derivatives are continuous
+
+---
+### cubic spline formula
+$$
+\begin{lgathered}
+\forall x\in[x_i,x_{i+1}]:S_i(x)=a_i+b_i(x-x_i)+c_i(x-x_i)^2+d_i(x-x_i)^3\\
+S_i'(x)=b_i+2c_i(x-x_i)+3d_i(x-x_i)^2\\
+S_i''(x)=2c_i+6d_i(x-x_i)
+\end{lgathered}
+$$
+
+---
+### cubic spline smoothness
+- the function and its first two derivatives are continuous
+
+---
+### cubic spline smoothness formula
+$$
+\begin{lgathered}
+S_i(x_i)=y_i\\
+S_i(x_{i+1})=y_{i+1}\\
+S_{i-1}'(x_i)=S_i'(x_i)\\
+S_{i-1}''(x_i)=S_i''(x_i)\\
+\end{lgathered}
+$$
+
+---
+### cubic spline slope
+- change of dependent variable per unit of independent variable
+
+---
+### cubic spline slope formula
+$$
+\begin{lgathered}
+h_i=x_{i+1}-x_i\\
+m_i=\frac{y_{i+1}-y_i}{h_i}
+\end{lgathered}
+$$
+
+---
+### cubic spline coefficient
+- polynomial coefficient along interval
+
+---
+### cubic spline coefficient formula
+$$
+\begin{lgathered}
+a_i=y_i\\
+b_i=m_i-\frac{h_i}{3}(2c_i+c_{i+1})\\
+d_i=\frac{c_{i+1}-c_i}{3h_i}
+\end{lgathered}
+$$
+
+---
+### tridiagonal system
+- each equation involves three consecutive unknowns
+
+---
+### tridiagonal system formula
+$$
+\begin{lgathered}
+\forall i\in\set{2,\dots,n-1}:h_{i-1}c_{i-1}+2(h_{i-1}+h_i)c_i+h_ic_{i+1}=3(m_i-m_{i-1})\\
+\#\set{2,\dots,n-1}=n-2\\
+\#c=n
+\end{lgathered}
+$$
+
+---
+### endpoint condition
+- find the remaining two quadratic coefficients
+
+---
+### endpoint condition formula
+$$
+\begin{lgathered}
+c_1=?\\
+c_n=?
+\end{lgathered}
+$$
+
+---
+### natural endpoint condition
+- if endpoint slopes and curvatures are unknown and zero endpoint second derivatives are acceptable then natural endpoint condition
+
+---
+### natural endpoint condition formula
+$$
+\begin{lgathered}
+c_1=0\\
+c_n=0
+\end{lgathered}
+$$
+
+---
+### curvature-adjusted endpoint condition
+- if endpoint second derivatives are known then curvature-adjusted endpoint condition
+
+---
+### curvature-adjusted endpoint condition formula
+$$
+\begin{lgathered}
+2c_1=S_1''(x_1)\\
+2c_n=S_n''(x_n)
+\end{lgathered}
+$$
+
+---
+### clamped endpoint condition
+- if endpoint slopes are known then clamped endpoint condition
+
+---
+### clamped endpoint condition formula
+$$
+\begin{lgathered}
+2h_1c_1+h_1c_2=3[m_1-S_1'(x_1)]\\
+h_{n-1}c_{n-1}+2h_{n-1}c_n=3[S_n'(x_n)-m_{n-1}]
+\end{lgathered}
+$$
+
+---
+### parabolically terminated endpoint condition
+- if quadratic behavior desired near both endpoints then parabolically terminated endpoint condition
+
+---
+### parabolically terminated endpoint condition formula
+$$
+\begin{lgathered}
+c_1=c_2\\
+c_n=c_{n-1}
+\end{lgathered}
+$$
+
+---
+### not-a-knot endpoint condition
+- if no endpoint derivatives are specified and smooth interpolant desired then not-a-knot endpoint condition
+
+---
+### not-a-knot endpoint condition formula
+$$
+\begin{lgathered}
+d_2=d_1\iff h_2c_1-(h_1+h_2)c_2+h_1c_3=0\\
+d_{n-1}=d_{n-2}\iff h_{n-1}c_{n-2}-(h_{n-2}+h_{n-1})c_{n-1}+h_{n-2}c_n=0
+\end{lgathered}
+$$
+
+---
+### cubic spline existence and uniqueness
+- if minimum number of data points with distinct input coordinates then exactly one cubic spline interpolates the data
+- the endpoint conditions uniquely determine the coefficients
+
+---
+### cubic spline existence and uniqueness formula
+$$
+\begin{lgathered}
+\begin{cases}
+c_1=0\\
+c_n=0
+\end{cases}&\iff n\ge2\\
+\begin{cases}
+2c_1=S_1''(x_1)\\
+2c_n=S_n''(x_n)
+\end{cases}&\iff n\ge2\\
+\begin{cases}
+2h_1c_1+h_1c_2=3[m_1-S_1'(x_1)]\\
+h_{n-1}c_{n-1}+2h_{n-1}c_n=3[S_n'(x_n)-m_{n-1}]
+\end{cases}&\iff n\ge2\\
+\begin{cases}
+c_1=c_2\\
+c_n=c_{n-1}
+\end{cases}&\iff n\ge3\\
+\begin{cases}
+d_2=d_1\\
+d_{n-1}=d_{n-2}
+\end{cases}&\iff n\ge4\\
+\end{lgathered}
+$$
+
+---
+### cubic spline diagonal dominance
+- if tridiagonal system diagonally dominant then there exists unique solution of tridiagonal system
+
+---
+### cubic spline diagonal dominance formula
+$$
+\begin{lgathered}
+\forall i:|A_{\text{ii}}|>\sum_{j\ne i}|A_{\text{ij}}|\implies\det(A)\ne0\implies\exists!c:Ac=b
+\end{lgathered}
+$$
+
+---
