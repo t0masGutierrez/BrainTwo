@@ -216,15 +216,16 @@ S_i''(x)=2c_i+6d_i(x-x_i)
 $$
 
 ---
-### cubic spline smoothness
+### cubic spline continuity
 - the function and its first two derivatives are continuous
 
 ---
-### cubic spline smoothness formula
+### cubic spline continuity formula
 $$
 \begin{lgathered}
 S_i(x_i)=y_i\\
 S_i(x_{i+1})=y_{i+1}\\
+S_{i-1}(x_i)=S_i(x_i)\\
 S_{i-1}'(x_i)=S_i'(x_i)\\
 S_{i-1}''(x_i)=S_i''(x_i)\\
 \end{lgathered}
