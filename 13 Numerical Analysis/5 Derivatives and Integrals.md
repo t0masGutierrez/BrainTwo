@@ -168,11 +168,11 @@ h=\text{step size}
 $$
 
 ---
-### error boundary
+### total error boundary
 - bound the total error
 
 ---
-### error boundary formula
+### total error boundary formula
 $$
 \begin{lgathered}
 |e^+(h)|\le\frac{h}{2}\max_{t\in[x,x+h]}|f''(t)|+\frac{2\epsilon_{\text{mach}}}{h}\\[6pt]

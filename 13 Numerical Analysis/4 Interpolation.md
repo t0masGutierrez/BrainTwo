@@ -66,10 +66,6 @@ $$
 \begin{lgathered}
 \set{(x_i,y_i)}_{i=0}^{n-1}\\
 L_i(x)=\prod_{j=0\\j\ne i}^{n-1}\frac{x-x_j}{x_i-x_j}\\
-L_i(x_j)=\begin{cases}
-1,&i=j\\
-0,&i\ne j
-\end{cases}\\
 p(x)=\sum_{i=0}^{n-1}y_iL_i(x)
 \end{lgathered}
 $$
@@ -90,7 +86,7 @@ f[x_i,\dots,x_{i+k}]=\frac{f[x_{i+1},\dots,x_{i+k}]-f[x_i,\dots,x_{i+k-1}]}{x_{i
 \#f[x_i,\dots,x_{i+k}]=n-k\\
 \begin{array}{c|ccccc}
 x_i&\text{Order }0&\text{Order }1&\text{Order }2&\cdots&\text{Order }n-1\\\hline
-x_0&\boxed{f[x_0]=c_0}&\boxed{f[x_0,x_1]=c_1}&\boxed{f[x_0,x_1,x_2]=c_2}&\cdots&\boxed{f[x_0,\ldots,x_{n-1}]=c_{n-1}}\\
+x_0&{f[x_0]=c_0}&{f[x_0,x_1]=c_1}&{f[x_0,x_1,x_2]=c_2}&\cdots&{f[x_0,\ldots,x_{n-1}]=c_{n-1}}\\
 x_1&f[x_1]&f[x_1,x_2]&f[x_1,x_2,x_3]&\ &\\
 x_2&f[x_2]&f[x_2,x_3]&f[x_2,x_3,x_4]&&\\
 \vdots&\vdots&\vdots&\vdots&&\\
