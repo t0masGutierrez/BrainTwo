@@ -1,3 +1,7 @@
+---
+
+
+---
 ### linear equation
 - equation involving 1 or more variables with degree 1
 
@@ -411,7 +415,7 @@ i=\text{row index}\\
 k=\text{pivot index}\\
 j=\text{column index}\\
 a=\text{entry}\\
-\epsilon_{\text{mach}}=\text{machine epsilon}\\
+\epsilon_{\text{mach}}=\text{machine precision}\\
 m=\text{multiplier}
 \end{lgathered}
 $$

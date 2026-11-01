@@ -1,3 +1,7 @@
+---
+
+
+---
 ### intermediate value
 - if function continuous over closed interval then function encompasses every value between endpoints
 

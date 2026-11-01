@@ -221,11 +221,11 @@ $$
 $$
 
 ---
-### machine epsilon
+### machine precision
 - distance between 1 and the next largest representable floating-point number
 
 ---
-### machine epsilon formula
+### machine precision formula
 $$
 \begin{lgathered}
 \epsilon_{\text{mach}}=2^{-52}=2.22\times10^{-16}
@@ -288,7 +288,7 @@ $$
 \frac{|x-x_c|}{|x|}\le\frac12\epsilon_{\text{mach}}\\
 x=\text{real number}\\
 x_c=\text{computed number}\\
-\epsilon_{\text{mach}}=\text{machine epsilon}
+\epsilon_{\text{mach}}=\text{machine precision}
 \end{lgathered}
 $$
 
