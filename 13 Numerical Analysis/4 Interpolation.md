@@ -24,7 +24,7 @@ $$
 ### polynomial interpolation formula
 $$
 \begin{lgathered}
-\forall i\le n:p(x_i)=y_i\\
+\forall x\le x_n:p(x_i)=y_i\\
 n=\text{number of nodes}
 \end{lgathered}
 $$
@@ -37,7 +37,7 @@ $$
 ### polynomial extrapolation formula
 $$
 \begin{lgathered}
-\forall i>n:p(x_i)=y_i\\
+\forall x>x_n:p(x_i)=y_i\\
 n=\text{number of nodes}
 \end{lgathered}
 $$
@@ -223,8 +223,6 @@ $$
 ### cubic spline continuity formula
 $$
 \begin{lgathered}
-S_i(x_i)=y_i\\
-S_i(x_{i+1})=y_{i+1}\\
 S_{i-1}(x_i)=S_i(x_i)\\
 S_{i-1}'(x_i)=S_i'(x_i)\\
 S_{i-1}''(x_i)=S_i''(x_i)\\
