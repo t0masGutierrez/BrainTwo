@@ -79,7 +79,7 @@ $$
 - find critical value
 - calculate standard error
 - calculate margin of error
-- construct range of possible values for population parameter
+- construct range of possible values for the population parameter
 
 ---
 ### confidence interval formula

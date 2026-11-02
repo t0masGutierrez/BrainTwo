@@ -60,6 +60,8 @@ $$
 \overline X=\frac{1}{n}\sum_{i=1}^{n}X_{i}\\
 E[\overline X]=\mu\\
 \text{Var}(\overline X)=\frac{\sigma^2}{n}\\
+E[\overline X_1-\overline X_2]=\mu_1-\mu_2\\
+\text{Var}(\overline X_1-\overline X_2)=\frac{\sigma_1^2}{n_1}+\frac{\sigma_2^2}{n_2}\\
 n=\text{sample size}\\
 X=\text{random variable}\\
 \mu=\text{mean}\\
@@ -113,6 +115,8 @@ $$
 n\hat p\sim\text{Bin}(n,p)\\
 E[\hat p]=p\\
 \text{Var}(\hat p)=\frac{pq}{n}\\
+E[\hat p_1-\hat p_2]=p_1-p_2\\
+\text{Var}(\hat p_1-\hat p_2)=\frac{p_1q_1}{n_1}+\frac{p_2q_2}{n_2}\\
 n=\text{sample size}\\
 \hat p=\text{sample proportion}\\
 p=\text{probability of success}\\
