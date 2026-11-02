@@ -2246,7 +2246,7 @@ if ('scrollRestoration' in history) {
             if (!items.length) return '<div class="test-empty-state">None</div>';
             return items.map(item => {
                 const term = escapeHtml(item.term);
-                const definition = MathRenderer.renderToHtml(item.definition, true, true, true);
+                const definition = MathRenderer.renderToHtml(item.definition);
                 return `
                     <div class="test-summary-card">
                         <div class="test-summary-term">${term}</div>
@@ -2626,7 +2626,7 @@ if ('scrollRestoration' in history) {
             }
             list.innerHTML += items.map(item => {
                 const term = escapeHtml(CardParser.displayTerm(item.term));
-                const definition = MathRenderer.renderToHtml(item.definition, true, true, true);
+                const definition = MathRenderer.renderToHtml(item.definition);
                 return `
                     <div class="test-summary-card">
                         <div class="test-summary-term">${term}</div>
