@@ -1845,7 +1845,6 @@ if ('scrollRestoration' in history) {
             this.currentIndex = 0;
             this.answered = false;
             this.retry = new RetryQueue(1);
-            this._submittedWithEnter = false;
         }
 
         _getInput() {
@@ -1874,6 +1873,27 @@ if ('scrollRestoration' in history) {
             submitBtn.style.display = 'inline-block';
             skipBtn.disabled = false;
             submitBtn.disabled = false;
+        }
+
+        _waitForNext(clickDelay) {
+            const proceedNext = event => {
+                if (event.type === 'keydown' && event.repeat) return;
+                clearTimeout(clickTimer);
+                document.removeEventListener('keydown', proceedNext, true);
+                document.removeEventListener('click', proceedNext);
+                if (document.getElementById('write-view').style.display !== 'flex') return;
+                if (event.type === 'keydown') {
+                    event.preventDefault();
+                    event.stopPropagation();
+                }
+                this.next();
+            };
+            // Capture has already run for the key that submitted this answer.
+            // Listen immediately so a quick second press cannot be lost.
+            document.addEventListener('keydown', proceedNext, true);
+            const clickTimer = setTimeout(() => {
+                document.addEventListener('click', proceedNext);
+            }, clickDelay);
         }
 
         start(shuffle) {
@@ -1959,27 +1979,7 @@ if ('scrollRestoration' in history) {
                     this.app.summaryTracker.recordCorrect(card);
                 }
                 this.app.saveLearnProgress();
-                let submittedWithEnter = !!this._submittedWithEnter;
-                this._submittedWithEnter = false;
-                const self = this;
-                function proceedNext(e) {
-                    if (document.getElementById('write-view').style.display !== 'flex') {
-                        document.removeEventListener('keyup', proceedNext);
-                        document.removeEventListener('click', proceedNext);
-                        return;
-                    }
-                    if (submittedWithEnter && e.type === 'keyup' && (e.key === 'Enter' || e.code === 'Enter')) {
-                        submittedWithEnter = false;
-                        return;
-                    }
-                    document.removeEventListener('keyup', proceedNext);
-                    document.removeEventListener('click', proceedNext);
-                    self.next();
-                }
-                setTimeout(() => {
-                    document.addEventListener('keyup', proceedNext);
-                    document.addEventListener('click', proceedNext);
-                }, 0);
+                this._waitForNext(0);
             } else {
                 this._getInput().style.borderColor = '#f44336';
                 this.retry.handleWrong(idx);
@@ -1988,21 +1988,7 @@ if ('scrollRestoration' in history) {
                 this._showCorrectAnswer(feedbackBox, correct);
                 this._setActionButtons('incorrect');
                 this.answered = true;
-                const self = this;
-                function proceedNext(e) {
-                    if (document.getElementById('write-view').style.display !== 'flex') {
-                        document.removeEventListener('keyup', proceedNext);
-                        document.removeEventListener('click', proceedNext);
-                        return;
-                    }
-                    document.removeEventListener('keyup', proceedNext);
-                    document.removeEventListener('click', proceedNext);
-                    self.next();
-                }
-                setTimeout(() => {
-                    document.addEventListener('keyup', proceedNext);
-                    document.addEventListener('click', proceedNext);
-                }, 100);
+                this._waitForNext(100);
                 MathRenderer.typeset(feedbackBox);
             }
         }
@@ -2026,21 +2012,7 @@ if ('scrollRestoration' in history) {
             this._showCorrectAnswer(feedbackBox, correct);
             this.answered = true;
 
-            const self = this;
-            function proceedNext(e) {
-                if (document.getElementById('write-view').style.display !== 'flex') {
-                    document.removeEventListener('keyup', proceedNext);
-                    document.removeEventListener('click', proceedNext);
-                    return;
-                }
-                document.removeEventListener('keyup', proceedNext);
-                document.removeEventListener('click', proceedNext);
-                self.next();
-            }
-            setTimeout(() => {
-                document.addEventListener('keyup', proceedNext);
-                document.addEventListener('click', proceedNext);
-            }, 100);
+            this._waitForNext(100);
             MathRenderer.typeset(feedbackBox);
         }
 
