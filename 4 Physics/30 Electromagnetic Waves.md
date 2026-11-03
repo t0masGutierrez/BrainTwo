@@ -108,7 +108,8 @@ $$
 ### instantaneous energy density formula
 $$
 \begin{lgathered}
-u=\epsilon_{0}E^{2}=\frac{B^{2}}{\mu_{0}}\\
+u=u_E+u_B=\epsilon_{0}E^{2}=\frac{B^{2}}{\mu_{0}}\\
+u=\text{energy density}\\
 \epsilon_{0}=8.85\times10^{-12}\\
 E=\text{electric field}\\
 B=\text{magnetic field}\\
@@ -125,10 +126,9 @@ $$
 ### average poynting formula
 $$
 \begin{lgathered}
-S_{\text{avg}}=c(\frac{\epsilon_{0}E_{0}^{2}}{2})=c(\frac{B_{0}^{2}}{2\mu_{0}})\\
-c=3\times10^{8}\\
-u=\text{energy density}\\
+S_{\text{avg}}=\frac{\epsilon_{0}cE_{0}^{2}}{2}=\frac{cB_{0}^{2}}{2\mu_{0}}\\
 \epsilon_{0}=8.85\times10^{-12}\\
+c=3\times10^{8}\\
 E=\text{electric field}\\
 B=\text{magnetic field}\\
 \mu_{0}=4\pi\times10^{-7}
@@ -139,7 +139,9 @@ $$
 ### instantaneous poynting formula
 $$
 \begin{lgathered}
-\vec S=\frac{\vec E\times\vec B}{\mu_{0}}\\
+\vec S=uc=\frac{\vec E\times\vec B}{\mu_{0}}\\
+u=\text{energy density}\\
+c=3\times10^8\\
 E=\text{electric field}\\
 B=\text{magnetic field}\\
 \mu_{0}=4\pi\times10^{-7}

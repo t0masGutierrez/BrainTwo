@@ -78,3 +78,209 @@ t=\text{time}\\
 $$
 
 ---
+### normal wave interface
+- interaction between incident EM wave, reflected EM wave, and transmitted EM wave at normal interface
+
+---
+### normal wave interface formula
+$$
+\begin{lgathered}
+\mu_1=\mu_2\\
+\epsilon_1\ne\epsilon_2\\
+\frac{v_2}{v_1}=\frac{n_1}{n_2}\\
+\frac{f_2}{f_1}=1\\
+E_2=E_1+E_r\\
+n_1(E_1-E_r)=n_2E_2\\
+\vec E_1(\vec r,t)=E_1\cos(\omega t-\vec k_1\cdot\vec r)\\
+\vec E_r(\vec r,t)=E_r\cos(\omega t+\vec k_1\cdot\vec r)\\
+\vec E_2(\vec r,t)=E_2\cos(\omega t-\vec k_2\cdot\vec r)\\
+\vec r=0\implies\cases{}
+\vec E_1(0,t)=\vec E_2(0,t)\\
+\vec B_1(0,t)=\vec B_2(0,t)
+}
+\end{lgathered}
+$$
+
+---
+### normal amplitude reflection coefficient
+- fraction of incident normal electric field amplitude reflected into the first medium
+
+---
+### normal amplitude reflection coefficient formula
+$$
+\begin{lgathered}
+\frac{E_r}{E_1}=\frac{n_1-n_2}{n_1+n_2}\\
+\end{lgathered}
+$$
+
+---
+### normal amplitude transmission coefficient
+- fraction of incident normal electric field amplitude transmitted into the second medium
+
+---
+### normal amplitude transmission coefficient formula
+$$
+\begin{lgathered}
+\frac{E_2}{E_1}=\frac{2n_1}{n_1+n_2}\\
+\end{lgathered}
+$$
+
+---
+### normal reflectance
+- fraction of incident normal power reflected into the first medium
+
+---
+### normal reflectance formula
+$$
+\begin{lgathered}
+\frac{P_r}{P_1}=(\frac{E_r}{E_1})^2=(\frac{n_1-n_2}{n_1+n_2})^2\\
+\end{lgathered}
+$$
+
+---
+### normal transmittance
+- fraction of incident normal power transmitted into the second medium
+
+---
+### normal transmittance formula
+$$
+\begin{lgathered}
+\frac{P_2}{P_1}=1-\frac{P_r}{P_1}=\frac{4n_1n_2}{(n_1+n_2)^2}\\
+\end{lgathered}
+$$
+
+---
+### normal conservation of energy
+- normal amplitude transmission coefficient subtraction with normal amplitude reflection coefficient equal 1
+- normal transmittance addition with normal reflectance equal 1
+
+---
+### normal conservation of energy formula
+$$
+\begin{lgathered}
+\frac{E_2}{E_1}-\frac{E_r}{E_1}=1\\
+\frac{P_2}{P_1}+\frac{P_r}{P_1}=1
+\end{lgathered}
+$$
+
+---
+### p polarization
+- electric field parallel plane of incidence
+- aka transverse magnetic field
+
+---
+### p polarization formula
+$$
+\begin{lgathered}
+\vec E_1\cdot(\hat k_1\times\hat n)=0
+\end{lgathered}
+$$
+
+---
+### s polarization
+- electric field perpendicular plane of incidence
+- aka transverse electric field
+
+---
+### s polarization formula
+$$
+\begin{lgathered}
+\vec E_1\times(\hat k_1\times\hat n)=0
+\end{lgathered}
+$$
+
+---
+### general wave interface
+- interaction between incident EM wave, reflected EM wave, and transmitted EM wave at general interface
+
+---
+### general wave interface formula
+$$
+\begin{lgathered}
+\mu_1=\mu_2\\
+\epsilon_1\ne\epsilon_2\\
+\frac{v_2}{v_1}=\frac{n_1}{n_2}\\
+\frac{f_2}{f_1}=1\\
+n_1\sin\theta_1=n_2\sin\theta_2\\
+\vec E_1(\vec r,t)=E_1\cos(\omega t-\vec k_1\cdot\vec r)\\
+\vec E_r(\vec r,t)=E_r\cos(\omega t+\vec k_1\cdot\vec r)\\
+\vec E_2(\vec r,t)=E_2\cos(\omega t-\vec k_2\cdot\vec r)\\
+\vec r=0\implies\cases{}
+\vec E_{1\parallel}(0,t)=\vec E_{2\parallel}(0,t)\\
+\vec B_{1\parallel}(0,t)=\vec B_{2\parallel}(0,t)\\
+\epsilon_1\vec E_{1\perp}(0,t)=\epsilon_2\vec E_{2\perp}(0,t)\\
+\vec B_{1\perp}(0,t)=\vec B_{2\perp}(0,t)
+}\\
+\alpha=\frac{\cos\theta_2}{\cos\theta_1}\\
+\beta=\frac{n_2}{n_1}
+\end{lgathered}
+$$
+
+---
+### general amplitude reflection coefficient
+- fraction of incident general electric field amplitude reflected into the first medium
+
+---
+### general amplitude reflection coefficient formula
+$$
+\begin{lgathered}
+\vec E_1\cdot(\hat k_1\times\hat n)=0\implies\frac{E_r}{E_1}=\frac{\alpha-\beta}{\alpha+\beta}\\
+\vec E_1\times(\hat k_1\times\hat n)=0\implies\frac{E_r}{E_1}=\frac{1-\alpha\beta}{1+\alpha\beta}
+\end{lgathered}
+$$
+
+---
+### general amplitude transmission coefficient
+- fraction of incident general electric field amplitude transmitted into the second medium
+
+---
+### general amplitude transmission coefficient formula
+$$
+\begin{lgathered}
+\vec E_1\cdot(\hat k_1\times\hat n)=0\implies\frac{E_2}{E_1}=\frac{2}{\alpha+\beta}\\
+\vec E_1\times(\hat k_1\times\hat n)=0\implies\frac{E_2}{E_1}=\frac{2}{1+\alpha\beta}
+\end{lgathered}
+$$
+
+---
+### general reflectance
+- fraction of incident general power reflected into the first medium
+
+---
+### general reflectance formula
+$$
+\begin{lgathered}
+\vec E_1\cdot(\hat k_1\times\hat n)=0\implies\frac{P_2}{P_1}=(\frac{\alpha-\beta}{\alpha+\beta})^2\\
+\vec E_1\times(\hat k_1\times\hat n)=0\implies\frac{P_2}{P_1}=(\frac{1-\alpha\beta}{1+\alpha\beta})^2
+\end{lgathered}
+$$
+
+---
+### general transmittance
+- fraction of incident general power transmitted into the second medium
+
+---
+### general transmittance formula
+$$
+\begin{lgathered}
+\vec E_1\cdot(\hat k_1\times\hat n)=0\implies\frac{P_r}{P_1}=\frac{4\alpha\beta}{(\alpha+\beta)^2}\\
+\vec E_1\times(\hat k_1\times\hat n)=0\implies\frac{P_r}{P_1}=\frac{4\alpha\beta}{(1+\alpha\beta)^2}
+\end{lgathered}
+$$
+
+---
+### general conservation of energy
+- general amplitude transmission coefficient subtraction with general amplitude reflection coefficient equal 1
+- general transmittance addition with general reflectance equal 1
+
+---
+### general conservation of energy formula
+$$
+\begin{lgathered}
+\vec E_1\cdot(\hat k_1\times\hat n)=0\implies\alpha\frac{E_2}{E_1}-\frac{E_r}{E_1}=1\\
+\vec E_1\times(\hat k_1\times\hat n)=0\implies\frac{E_2}{E_1}-\frac{E_r}{E_1}=1\\
+\frac{P_2}{P_1}+\frac{P_r}{P_1}=1
+\end{lgathered}
+$$
+
+---

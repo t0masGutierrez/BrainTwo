@@ -146,7 +146,6 @@ $$
 \begin{lgathered}
 \frac{\partial u}{\partial t}+\frac{\partial P}{\partial x}=0\\
 \frac{dE}{dt}=P(x_1,t)-P(x_2,t)\\
-\langle P_1\rangle=\langle P_r\rangle+\langle P_2\rangle\\
 u=\text{energy density}\\
 t=\text{time}\\
 P=\text{energy flux}\\
@@ -178,7 +177,7 @@ $$
 
 ---
 ### wave interface
-- interaction between incidence wave, reflected wave, and transmitted wave at interface
+- interaction between incident wave, reflected wave, and transmitted wave at interface
 
 ---
 ### wave interface formula
@@ -186,12 +185,16 @@ $$
 \begin{lgathered}
 F_{T_1}=F_{T_2}\\
 \mu_1\ne\mu_2\\
-\frac{v_2}{v_1}=\frac{n_2}{n_1}\\
+\frac{v_2}{v_1}=\frac{n_1}{n_2}\\
 \frac{f_2}{f_1}=1\\
-y_1(x,t)=A_1\cos(\omega t-k_1x)+A_r\cos(\omega t+k_1x)\\
+y_2=y_1+y_r\\
+y_1(x,t)=A_1\cos(\omega t-k_1x)\\
+y_r(x,t)=A_r\cos(\omega t+k_1x)\\
 y_2(x,t)=A_2\cos(\omega t-k_2x)\\
+x=0\implies\cases{}
 y_1(0,t)=y_2(0,t)\\
 F_T\frac{\partial y_1}{\partial x}(0,t)=F_T\frac{\partial y_2}{\partial x}(0,t)
+}
 \end{lgathered}
 $$
 
@@ -220,40 +223,40 @@ $$
 $$
 
 ---
-### energy reflection coefficient
-- fraction of incident wave energy reflected into the first medium
+### reflectance
+- fraction of incident power reflected into the first medium
 
 ---
-### energy reflection coefficient formula
+### reflectance formula
 $$
 \begin{lgathered}
-\frac{E_r}{E_1}=(\frac{A_r}{A_1})^2=(\frac{Z_1-Z_2}{Z_1+Z_2})^2\\
+\frac{P_r}{P_1}=(\frac{A_r}{A_1})^2=(\frac{Z_1-Z_2}{Z_1+Z_2})^2\\
 \end{lgathered}
 $$
 
 ---
-### energy transmission coefficient
-- fraction of incident wave energy transmitted into the second medium
+### transmittance
+- fraction of incident power transmitted into the second medium
 
 ---
-### energy transmission coefficient formula
+### transmittance formula
 $$
 \begin{lgathered}
-\frac{E_2}{E_1}=(\frac{2Z_1}{Z_1+Z_2})^2\frac{Z_2}{Z_1}=\frac{4Z_1Z_2}{(Z_1+Z_2)^2}\\
+\frac{P_2}{P_1}=1-\frac{P_r}{P_1}=\frac{4Z_1Z_2}{(Z_1+Z_2)^2}\\
 \end{lgathered}
 $$
 
 ---
 ### conservation of energy
 - amplitude transmission coefficient subtraction with amplitude reflection coefficient equal 1
-- energy transmission coefficient addition with energy reflection coefficient equal 1
+- transmittance addition with reflectance equal 1
 
 ---
 ### conservation of energy formula
 $$
 \begin{lgathered}
 \frac{A_2}{A_1}-\frac{A_r}{A_1}=1\\
-\frac{E_2}{E_1}+\frac{E_r}{E_1}=1
+\frac{P_2}{P_1}+\frac{P_r}{P_1}=1
 \end{lgathered}
 $$
 
