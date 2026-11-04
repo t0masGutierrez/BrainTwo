@@ -350,13 +350,13 @@ $$
 ### error magnification factor formula
 $$
 \begin{lgathered}
-M=\frac{e_f'}{e_b'}=\frac{(\|\vec b-A\vec x_c\|_\infty)(\|\vec x\|_\infty)}{(\|\vec x-\vec x_c\|_\infty)(\|\vec b\|_\infty)}\\
+M=\frac{e_f'}{e_b'}=\frac{(\|\vec x-\vec x_c\|_\infty)(\|\vec b\|_\infty)}{(\|\vec b-A\vec x_c\|_\infty)(\|\vec x\|_\infty)}\\
 e_f'=\text{relative forward error}\\
 e_b'=\text{relative backward error}\\
+\vec x=\text{real vector}\\
+\vec x_c=\text{computed vector}\\
 \vec b=\text{constant vector}\\
 A=\text{coefficient matrix}\\
-\vec x_c=\text{computed vector}\\
-\vec x=\text{real vector}
 \end{lgathered}
 $$
 
