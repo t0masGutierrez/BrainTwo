@@ -166,10 +166,8 @@ $$
 ### chebyshev node formula
 $$
 \begin{lgathered}
+\forall i\in\set{0,\dots,n-1}:t_i=\cos\frac{(2i+1)\pi}{2n}\\
 \forall t\in[-1,1]:x=\frac{a+b}{2}+\frac{b-a}{2}t\\
-\forall x\in[a,b]:t=\frac{2x-(a+b)}{b-a}\\
-\forall x\in[-1,1],\forall i\in\set{0,\dots,n-1}:x_i=\cos\frac{(2i-1)\pi}{2n}\\
-\forall x\in[a,b],\forall i\in\set{0,\dots,n-1}:x_i=\frac{a+b}{2}+\frac{b-a}{2}\cos\frac{(2i+1)\pi}{2n}
 \end{lgathered}
 $$
 
@@ -181,7 +179,7 @@ $$
 ### chebyshev interpolation error boundary formula
 $$
 \begin{lgathered}
-|e(x)|\le\frac{(b-a)^nM}{2^{2n-1}n!}\\
+|e(x)|\le\frac{M(b-a)^n}{n!2^{2n-1}}\\
 M=\max\limits_{t\in[a,b]}|f^{(n)}(t)|
 \end{lgathered}
 $$

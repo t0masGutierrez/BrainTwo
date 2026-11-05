@@ -439,6 +439,26 @@ R=\text{row}
 $$
 
 ---
+### scaled partial pivoting
+- type III row operation with maximum scaled ratio along column
+
+---
+### scaled partial pivoting formula
+$$
+\begin{lgathered}
+s_i=\max\limits_j|a_{\text{ij}}|\\
+r_i=\frac{|a_{\text{ik}}|}{s_i}\\
+p=\arg\max_{i\ge k}r_i\\
+\langle R_k\rangle\iff\langle R_p\rangle\\
+\forall i>k:|m_{\text{ik}}|\le1\\
+p=\text{max index}\\
+i=\text{row index}\\
+k=\text{pivot index}\\
+R=\text{row}
+\end{lgathered}
+$$
+
+---
 ### permutation matrix
 - type III row operation(s) with identity matrix
 
@@ -484,11 +504,11 @@ $$
 $$
 \begin{lgathered}
 A\vec x=\vec b\\
-m_{\text{ij}}=\frac{a_{\text{ij}}}{a_{\text{jj}}}\\
-\langle R_i\rangle\implies\langle R_i\rangle-m_{\text{ij}}\langle R_j\rangle\\
 p=\arg\max_{i\ge k}|a_{\text{ik}}|\\
 \forall a\in A:\langle R_k\rangle\iff\langle R_p\rangle\\
 \forall m\in L:\langle R_k\rangle\iff\langle R_p\rangle\\
+m_{\text{ij}}=\frac{a_{\text{ij}}}{a_{\text{jj}}}\\
+\langle R_i\rangle\implies\langle R_i\rangle-m_{\text{ij}}\langle R_j\rangle\\
 L=I_n\implies L=\begin{bmatrix}
 1&0&0&\cdots&0\\
 m_{21}&1&0&\cdots&0\\

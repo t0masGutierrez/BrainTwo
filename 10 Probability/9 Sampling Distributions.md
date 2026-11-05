@@ -77,9 +77,9 @@ $$
 ### sample variance formula
 $$
 \begin{lgathered}
-s^{2}=\frac{1}{n-1}\sum_{i=1}^n(X_i-\overline X)^2\\
-E[s^2]=\sigma^2\\
-\text{Var}(s^2)=\frac{2\sigma^4}{n-1}\\
+S^{2}=\frac{1}{n-1}\sum_{i=1}^n(X_i-\overline X)^2\\
+E[S^2]=\sigma^2\\
+\text{Var}(S^2)=\frac{2\sigma^4}{n-1}\\
 n=\text{sample size}\\
 X=\text{random variable}\\
 \sigma=\text{standard deviation}
@@ -244,12 +244,12 @@ $$
 ### chi-squared normal property formula
 $$
 \begin{lgathered}
-\forall i\in\set{1,\dots,n}:X_i\overset{\text{i.i.d.}}{\sim}N(\mu,\sigma^2)\implies\frac{(n-1)s^2}{\sigma^2}\sim\chi^2(n-1)\\
+\forall i\in\set{1,\dots,n}:X_i\overset{\text{i.i.d.}}{\sim}N(\mu,\sigma^2)\implies\frac{(n-1)S^2}{\sigma^2}\sim\chi^2(n-1)\\
 X=\text{random variable}\\
 \mu=\text{mean}\\
 \sigma=\text{standard deviation}\\
 n=\text{sample size}\\
-s=\text{sample standard deviation}
+S=\text{sample standard deviation}
 \end{lgathered}
 $$
 
@@ -317,12 +317,12 @@ $$
 ### t normal property formula
 $$
 \begin{lgathered}
-X\sim N(\mu,\sigma^2)\implies\frac{\overline X-\mu}{s/\sqrt n}\sim t(n-1)\\
+X\sim N(\mu,\sigma^2)\implies\frac{\overline X-\mu}{S/\sqrt n}\sim t(n-1)\\
 X=\text{random variable}\\
 \mu=\text{mean}\\
 \sigma=\text{standard deviation}\\
 \overline X=\text{sample mean}\\
-s=\text{sample standard deviation}\\
+S=\text{sample standard deviation}\\
 n=\text{sample size}
 \end{lgathered}
 $$
@@ -398,10 +398,11 @@ $$
 X\sim N(\mu_1,\sigma_1^2)\\
 Y\sim N(\mu_2,\sigma_2^2)\\
 P(X=x,Y=y)=P(X=x)P(Y=y)\\
-\frac{s_1^2/\sigma_1^2}{s_2^2/\sigma_2^2}\sim F(n_1-1,n_2-1)\\
+\frac{S_1^2/\sigma_1^2}{S_2^2/\sigma_2^2}\sim F(n_1-1,n_2-1)\\
 X,Y=\text{random variable}\\
 \mu=\text{mean}\\
 \sigma=\text{standard deviation}\\
+S=\text{sample standard deviation}\\
 n=\text{sample size}
 \end{lgathered}
 $$
@@ -416,7 +417,7 @@ $$
 \begin{lgathered}
 X_{(1)},X_{(2)},\dots,X_{(n)}\\
 \begin{lgathered}
-F_{X_{(k)}}(x)=\sum_{i=k}^n\binom{n\\i}[F_X(x)]^i[1-F_X(x)]^{n-i}\\
+F_{X_{(k)}}(x)=\sum_{i=k}^n\pmatrix{n\\i}[F_X(x)]^i[1-F_X(x)]^{n-i}\\
 f_{X_{(k)}}=\frac{n!}{(k-1)!(n-1)!}[F_X(x)]^{k-1}[1-F_X(x)]^{n-k}f_X(x)\\
 X=\text{random variable}
 \end{lgathered}

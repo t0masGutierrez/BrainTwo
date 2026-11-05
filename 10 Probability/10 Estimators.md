@@ -119,14 +119,53 @@ $$
 - function whose probability distribution independent unknown population parameter
 - identify unknown population parameter
 - choose related sample statistic with known sampling distribution
-- transform sample statistic so the unknown population parameters are eliminated from its sampling distribution
+- isolate unknown population parameter
 
 ---
 ### pivotal quantity
 $$
 \begin{lgathered}
-Q(X_1,\dots,X_n)\sim P(X\le x)\\
+P(a\le Q\le b)=1-\alpha\\
+P(L\le\theta\le U)=1-\alpha\\
+CI=[L,U]\\
+Q=Q(X_1,\dots,X_n,\theta)\\
+L=L(X_1,\dots,X_n)\\
+U=U(X_1,\dots,X_n)
+\end{lgathered}
+$$
 
+---
+### sample mean confidence interval
+- random sample
+- independent observations
+- identical probability distribution
+- normal population or large sample size
+- known population variance
+
+---
+### sample mean confidence interval formula
+$$
+\begin{lgathered}
+X\sim N(\mu,\sigma^2)\implies\overline X\pm z_{1-\alpha/2}\frac{\sigma}{\sqrt n}\\
+n\ge30\implies\overline X\pm z_{1-\alpha/2}\frac{\sigma}{\sqrt n}\\
+\end{lgathered}
+$$
+
+---
+### sample mean confidence interval
+- random sample
+- independent observations
+- identical probability distribution
+- normal population or large sample size
+- unknown population variance
+
+---
+### sample mean confidence interval formula
+$$
+\begin{lgathered}
+X\sim N(\mu,\sigma^2)\implies\overline X\pm t_{1-\alpha/2}\frac{S}{\sqrt n}\\
+n\ge30\implies\overline X\pm z_{1-\alpha/2}\frac{S}{\sqrt n}\\
+\nu=n-1
 \end{lgathered}
 $$
 
