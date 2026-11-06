@@ -135,46 +135,136 @@ U=U(X_1,\dots,X_n)
 $$
 
 ---
-### sample mean confidence interval
-- random sample
-- independent observations
-- identical probability distribution
-- normal population or large sample size
-- known population variance
+### one-sample mean confidence interval
+- definition
 
 ---
-### sample mean confidence interval formula
+### one-sample mean confidence interval formula
 $$
 \begin{lgathered}
-X\sim N(\mu,\sigma^2)\implies\overline X\pm z_{1-\alpha/2}\frac{\sigma}{\sqrt n}\\
-n\ge30\implies\overline X\pm z_{1-\alpha/2}\frac{\sigma}{\sqrt n}\\
+\begin{cases}
+\sigma=\text{known}\\
+X\sim N(\mu,\sigma^2)
+\end{cases}
+&\implies\overline X\pm z_{1-\alpha/2}\frac{\sigma}{\sqrt n}\\
+\begin{cases}
+\sigma=\text{known}\\
+n\ge30
+\end{cases}
+&\implies\overline X\pm z_{1-\alpha/2}\frac{\sigma}{\sqrt n}\\
+\begin{cases}
+\sigma=\text{unknown}\\
+X\sim N(\mu,\sigma^2)\\
+\nu=n-1
+\end{cases}
+&\implies\overline X\pm t_{1-\alpha/2}\frac{S}{\sqrt n}\\
+\begin{cases}
+\sigma=\text{unknown}\\
+n\ge30
+\end{cases}
+&\implies\overline X\pm z_{1-\alpha/2}\frac{S}{\sqrt n}
 \end{lgathered}
 $$
 
 ---
-### sample mean confidence interval
-- random sample
-- independent observations
-- identical probability distribution
-- normal population or large sample size
-- unknown population variance
+### two-sample mean confidence interval
+- definition
 
 ---
-### sample mean confidence interval formula
+### two-sample mean confidence interval formula
 $$
 \begin{lgathered}
-X\sim N(\mu,\sigma^2)\implies\overline X\pm t_{1-\alpha/2}\frac{S}{\sqrt n}\\
-n\ge30\implies\overline X\pm z_{1-\alpha/2}\frac{S}{\sqrt n}\\
+\begin{cases}
+\sigma_1,\sigma_2=\text{known}\\
+X_i\sim N(\mu_i,\sigma_i^2)
+\end{cases}
+&\implies(\overline X_1-\overline X_2)\pm z_{1-\alpha/2}\sqrt{\frac{\sigma_1^2}{n_1}+\frac{\sigma_2^2}{n_2}}\\
+\begin{cases}
+\sigma_1,\sigma_2=\text{known}\\
+n_1,n_2\ge30
+\end{cases}
+&\implies(\overline X_1-\overline X_2)\pm z_{1-\alpha/2}\sqrt{\frac{\sigma_1^2}{n_1}+\frac{\sigma_2^2}{n_2}}\\
+\begin{cases}
+\sigma_1,\sigma_2=\text{unknown}\\
+\sigma_1^2=\sigma_2^2\\
+X_i\sim N(\mu_i,\sigma_i^2)\\
+\nu=n_1+n_2-2\\
+S_p^2=\frac{(n_1-1)S_1^2+(n_2-1)S_2^2}{n_1+n_2-2}
+\end{cases}
+&\implies(\overline X_1-\overline X_2)\pm t_{1-\alpha/2}S_p\sqrt{\frac1{n_1}+\frac1{n_2}}\\
+\begin{cases}
+\sigma_1,\sigma_2=\text{unknown}\\
+\sigma_1^2\ne\sigma_2^2\\
+X_i\sim N(\mu_i,\sigma_i^2)\\
+\nu\approx\frac{(S_1^2/n_1+S_2^2/n_2)^2}{\frac{(S_1^2/n_1)^2}{n_1-1}+\frac{(S_2^2/n_2)^2}{n_2-1}}
+\end{cases}
+&\implies(\overline X_1-\overline X_2)\pm t_{1-\alpha/2}\sqrt{\frac{S_1^2}{n_1}+\frac{S_2^2}{n_2}}\\
+\begin{cases}
+\sigma_1,\sigma_2=\text{unknown}\\
+n_1,n_2\ge30
+\end{cases}
+&\implies(\overline X_1-\overline X_2)\pm z_{1-\alpha/2}\sqrt{\frac{S_1^2}{n_1}+\frac{S_2^2}{n_2}}\\
+\begin{cases}
+\Delta\sim N(\mu_\Delta,\sigma_\Delta^2)\\
+\sigma_\Delta=\text{unknown}\\
+\nu=n-1
+\end{cases}
+&\implies\overline\Delta\pm t_{1-\alpha/2,\nu}\frac{S_\Delta}{\sqrt n}\\
+\begin{cases}
+\sigma_\Delta=\text{unknown}\\
+n\ge30
+\end{cases}
+&\implies\overline\Delta\pm z_{1-\alpha/2}\frac{S_\Delta}{\sqrt n}
+\end{lgathered}
+$$
+
+---
+### one-sample proportion confidence interval
+- definition
+
+---
+### one-sample proportion confidence interval formula
+$$
+\begin{lgathered}
+\begin{cases}
+X\sim\text{Ber}(p)\\
+\hat p=\frac{1}{n}\sum_{i=1}^nX_i\\
+n\hat p\sim\text{Bin}(n,p)\\
+n\hat p,n\hat q\ge10
+\end{cases}
+&\implies\hat p\pm z_{1-\alpha/2}\sqrt{\frac{\hat p\hat q}{n}}
+\end{lgathered}
+$$
+
+---
+### two-sample proportion confidence interval
+- definition
+
+---
+### two-sample proportion confidence interval formula
+$$
+\begin{lgathered}
+\begin{cases}
+X_j\sim\text{Ber}(p_j)\\
+\hat p_j=\frac{1}{n}\sum_{i=1}^nX_i\\
+n_j\hat p_j\sim\text{Bin}(n_j,p_j)\\
+n_j\hat p_j,n_j\hat q_j\ge10
+\end{cases}
+&\implies(\hat p_1-\hat p_2)\pm z_{1-\alpha/2}\sqrt{\frac{\hat p_1\hat q_1}{n_1}+\frac{\hat p_2\hat q_2}{n_2}}\\
+\end{lgathered}
+$$
+
+---
+### sample variance confidence interval
+- definition
+
+---
+### sample variance confidence interval formula
+$$
+\begin{lgathered}
+\left[\frac{(n-1)S^2}{\chi^2_{\alpha/2}},\frac{(n-1)S^2}{\chi^2_{1-\alpha/2}}\right]\\
 \nu=n-1
 \end{lgathered}
 $$
-
----
-### term
-- definition
-
----
-### term
-- definition
 
 ---
