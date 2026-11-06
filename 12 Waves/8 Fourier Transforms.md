@@ -1,13 +1,10 @@
-### fourier
+### fourier transform
 - definition
 
 ---
-### fourier formula
+### fourier transform formula
 $$
 \begin{lgathered}
-f(x)=\frac{c_0}{2}+\sum_{n=1}^\infty[C_n\cos(k_nx)+S_n\sin(k_nx)]\\
-C_n=\frac{2}{L}\int_{-L/2}^{L/2}f(x)\cos(k_nx)dx\\
-S_n=\frac{2}{L}\int_{-L/2}^{L/2}f(x)\sin(k_nx)dx\\
 f(x)=\int_{-\infty}^\infty[C(k)\cos(kx)+S(k)\sin(kx)]dk\\
 C(k)=\frac{1}{2\pi}\int_{-\infty}^\infty f(x)\cos(kx)dx\\
 S(k)=\frac{1}{2\pi}\int_{-\infty}^\infty f(x)\sin(kx)dx
@@ -22,8 +19,8 @@ $$
 ### symmetry formula
 $$
 \begin{lgathered}
-f(x)=2m\implies\int_{-A}^Af(x)dx=2\int_{0}^Af(x)dx\\
-f(x)=2m+1\implies\int_{-A}^Af(x)dx=0
+f(-x)=f(x)\implies\int_{-\infty}^\infty f(x)dx=2\int_{0}^\infty f(x)dx\\
+f(-x)=-f(x)\implies\int_{-\infty}^\infty f(x)dx=0
 \end{lgathered}
 $$
 
@@ -36,9 +33,8 @@ $$
 $$
 \begin{lgathered}
 f_{\sigma}(x)=\exp(\frac{-(x-\mu)^{2}}{2\sigma^{2}})\sqrt{\frac{1}{2\pi\sigma^2}}\\
-\int_{-\infty}^\infty f_{\sigma}(x)dx=1\\
-S(k)=0\\
-C(k)=\frac{1}{2\pi}\exp(\frac{-\sigma^{2}k^2}{2})
+C(k)=\frac{1}{2\pi}\exp(\frac{-\sigma^{2}k^2}{2})\cos(k\mu)\\
+S(k)=\frac{1}{2\pi}\exp(\frac{-\sigma^{2}k^2}{2})\sin(k\mu)
 \end{lgathered}
 $$
 
@@ -51,11 +47,26 @@ $$
 $$
 \begin{lgathered}
 \delta(x)=\begin{cases}
-\lim_{\sigma\rightarrow0}f_{\sigma}(x),&x\ne0\\
+\infty,&x=0\\
 0,&x\ne0
 \end{cases}\\
-\int_{-\infty}^\infty\delta(x)dx=1\\
-\int_{-\infty}^\infty\delta(x-a)g(x)dx=g(a)
+\delta(x-\mu)=\lim_{\sigma\rightarrow0^+}f_{\sigma}(x)\\
+\delta(x-x')=\frac{1}{\pi}\int_0^\infty\cos[k(x-x')]dk=\frac{1}{\pi}\int_0^\infty[\cos(kx)\cos(k'x)+\sin(kx)\sin(k'x)]dk\\
+\int_{-\infty}^\infty\delta(k-k')f(k')dk'=f(k)
+\end{lgathered}
+$$
+
+---
+### orthogonality
+- definition
+
+---
+### orthogonality formula
+$$
+\begin{lgathered}
+\frac{1}{2\pi}\int_{-\infty}^\infty\cos(kx)\cos(k'x)dx=\frac{1}{2}[\delta(k-k')+\delta(k+k')]\\
+\frac{1}{2\pi}\int_{-\infty}^\infty\sin(kx)\sin(k'x)dx=\frac{1}{2}[\delta(k-k')-\delta(k+k')]\\
+\frac{1}{2\pi}\int_{-\infty}^\infty\cos(kx)\sin(k'x)dx=0
 \end{lgathered}
 $$
 

@@ -10,7 +10,6 @@
 $$
 \begin{lgathered}
 f'(x)=\frac{d}{dx}f(x)
-\fra
 \end{lgathered}
 $$
 

@@ -94,10 +94,10 @@ n_1(E_1-E_r)=n_2E_2\\
 \vec E_1(\vec r,t)=E_1\cos(\omega t-\vec k_1\cdot\vec r)\\
 \vec E_r(\vec r,t)=E_r\cos(\omega t+\vec k_1\cdot\vec r)\\
 \vec E_2(\vec r,t)=E_2\cos(\omega t-\vec k_2\cdot\vec r)\\
-\vec r=0\implies\cases{}
+\vec r=0\implies\begin{cases}
 \vec E_1(0,t)=\vec E_2(0,t)\\
 \vec B_1(0,t)=\vec B_2(0,t)
-}
+\end{cases}
 \end{lgathered}
 $$
 
@@ -205,12 +205,12 @@ n_1\sin\theta_1=n_2\sin\theta_2\\
 \vec E_1(\vec r,t)=E_1\cos(\omega t-\vec k_1\cdot\vec r)\\
 \vec E_r(\vec r,t)=E_r\cos(\omega t+\vec k_1\cdot\vec r)\\
 \vec E_2(\vec r,t)=E_2\cos(\omega t-\vec k_2\cdot\vec r)\\
-\vec r=0\implies\cases{}
+\vec r=0\implies\begin{cases}
 \vec E_{1\parallel}(0,t)=\vec E_{2\parallel}(0,t)\\
 \vec B_{1\parallel}(0,t)=\vec B_{2\parallel}(0,t)\\
 \epsilon_1\vec E_{1\perp}(0,t)=\epsilon_2\vec E_{2\perp}(0,t)\\
 \vec B_{1\perp}(0,t)=\vec B_{2\perp}(0,t)
-}\\
+\end{cases}\\
 \alpha=\frac{\cos\theta_2}{\cos\theta_1}\\
 \beta=\frac{n_2}{n_1}
 \end{lgathered}
