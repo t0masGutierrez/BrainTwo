@@ -238,7 +238,7 @@ $$
 ### exponential MGF formula
 $$
 \begin{lgathered}
-M_X(\lambda,t)=\frac{\lambda}{\lambda-1}\\
+M_X(\lambda,t)=\frac{\lambda}{\lambda-t}\\
 \lambda=\text{average number of events per interval}\\
 t=\text{independent variable}
 \end{lgathered}

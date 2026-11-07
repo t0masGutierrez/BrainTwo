@@ -122,7 +122,7 @@ $$
 - isolate unknown population parameter
 
 ---
-### pivotal quantity
+### pivotal quantity formula
 $$
 \begin{lgathered}
 P(a\le Q\le b)=1-\alpha\\
@@ -205,8 +205,8 @@ n_1,n_2\ge30
 \end{cases}
 &\implies(\overline X_1-\overline X_2)\pm z_{1-\alpha/2}\sqrt{\frac{S_1^2}{n_1}+\frac{S_2^2}{n_2}}\\
 \begin{cases}
-\Delta\sim N(\mu_\Delta,\sigma_\Delta^2)\\
 \sigma_\Delta=\text{unknown}\\
+\Delta\sim N(\mu_\Delta,\sigma_\Delta^2)\\
 \nu=n-1
 \end{cases}
 &\implies\overline\Delta\pm t_{1-\alpha/2,\nu}\frac{S_\Delta}{\sqrt n}\\
@@ -264,6 +264,22 @@ $$
 \begin{lgathered}
 \left[\frac{(n-1)S^2}{\chi^2_{\alpha/2}},\frac{(n-1)S^2}{\chi^2_{1-\alpha/2}}\right]\\
 \nu=n-1
+\end{lgathered}
+$$
+
+---
+### sample size
+- number of samples satisfying error boundary
+
+---
+### sample size formula
+$$
+\begin{lgathered}
+P(|\hat\theta-\theta|<\epsilon)=1-\alpha\\
+P(-c^*\le\hat\theta\le c^{*})=1-\alpha\\
+SE=\sqrt\frac{k}{n}\\
+\epsilon=(c^*)(SE)\\
+n=\lceil\frac{c^*k}{\epsilon^2}\rceil
 \end{lgathered}
 $$
 
