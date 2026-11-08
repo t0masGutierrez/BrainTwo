@@ -117,9 +117,6 @@ $$
 ---
 ### pivotal quantity
 - function whose probability distribution independent unknown population parameter
-- identify unknown population parameter
-- choose related sample statistic with known sampling distribution
-- isolate unknown population parameter
 
 ---
 ### pivotal quantity formula
