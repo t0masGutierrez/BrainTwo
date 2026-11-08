@@ -191,10 +191,10 @@ y_2=y_1+y_r\\
 y_1(x,t)=A_1\cos(\omega t-k_1x)\\
 y_r(x,t)=A_r\cos(\omega t+k_1x)\\
 y_2(x,t)=A_2\cos(\omega t-k_2x)\\
-x=0\implies\cases{}
+x=0\implies\begin{cases}
 y_1(0,t)=y_2(0,t)\\
 F_T\frac{\partial y_1}{\partial x}(0,t)=F_T\frac{\partial y_2}{\partial x}(0,t)
-}
+\end{cases}
 \end{lgathered}
 $$
 

@@ -250,8 +250,8 @@ $$
 ### general reflectance formula
 $$
 \begin{lgathered}
-\vec E_1\cdot(\hat k_1\times\hat n)=0\implies\frac{P_2}{P_1}=(\frac{\alpha-\beta}{\alpha+\beta})^2\\
-\vec E_1\times(\hat k_1\times\hat n)=0\implies\frac{P_2}{P_1}=(\frac{1-\alpha\beta}{1+\alpha\beta})^2
+\vec E_1\cdot(\hat k_1\times\hat n)=0\implies\frac{P_r}{P_1}=(\frac{\alpha-\beta}{\alpha+\beta})^2\\
+\vec E_1\times(\hat k_1\times\hat n)=0\implies\frac{P_r}{P_1}=(\frac{1-\alpha\beta}{1+\alpha\beta})^2
 \end{lgathered}
 $$
 
@@ -263,8 +263,8 @@ $$
 ### general transmittance formula
 $$
 \begin{lgathered}
-\vec E_1\cdot(\hat k_1\times\hat n)=0\implies\frac{P_r}{P_1}=\frac{4\alpha\beta}{(\alpha+\beta)^2}\\
-\vec E_1\times(\hat k_1\times\hat n)=0\implies\frac{P_r}{P_1}=\frac{4\alpha\beta}{(1+\alpha\beta)^2}
+\vec E_1\cdot(\hat k_1\times\hat n)=0\implies\frac{P_2}{P_1}=\frac{4\alpha\beta}{(\alpha+\beta)^2}\\
+\vec E_1\times(\hat k_1\times\hat n)=0\implies\frac{P_2}{P_1}=\frac{4\alpha\beta}{(1+\alpha\beta)^2}
 \end{lgathered}
 $$
 
