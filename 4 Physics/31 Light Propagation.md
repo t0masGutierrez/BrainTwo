@@ -50,6 +50,20 @@ $$
 - interaction of light with surface
 
 ---
+### law of incidence
+- angular incidence equal angle between wavevector and surface normal
+
+---
+### law of incidence formula
+$$
+\begin{lgathered}
+\theta_1=\arccos(\frac{\vec k\cdot\hat n}{\|\vec k\|})\\
+\vec k=\text{wavevector}\\
+\hat n=\text{normal direction}
+\end{lgathered}
+$$
+
+---
 ### specular reflection
 - change of direction after the interaction of light with uniform surface
 ![[4 Physics/Images/specular reflection.png|200]]
@@ -96,6 +110,11 @@ n=\text{refraction index}\\
 $$
 
 ---
+### total internal reflection
+- angular incidence above critical angle where there exists zero refraction
+![[4 Physics/Images/total internal reflection.png|300]]
+
+---
 ### critical angle
 - angular incidence where angular refraction equal 90
 ![[4 Physics/Images/critical angle.png]]
@@ -109,11 +128,6 @@ n_{2}<n_{1}\\
 n=\text{refraction index}
 \end{lgathered}
 $$
-
----
-### total internal reflection
-- angular incidence above critical angle so there exists zero refraction
-![[4 Physics/Images/total internal reflection.png|300]]
 
 ---
 ### dispersion
