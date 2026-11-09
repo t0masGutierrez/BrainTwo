@@ -92,21 +92,6 @@ z=0\implies\hat n=\hat z
 $$
 
 ---
-### plane of incidence
-- plane containing both the incident wavevector and the surface normal
-
----
-### plane of incidence formula
-$$
-\begin{lgathered}
-(\vec k_1\times\hat n)\perp\text{span}\set{\vec k_1,\hat n}\\
-[a,b,c]\times\hat x=[0,c,-b]\\
-[a,b,c]\times\hat y=[-c,0,a]\\
-[a,b,c]\times\hat z=[b,-a,0]
-\end{lgathered}
-$$
-
----
 ### normal wave interface
 - interaction between incident EM wave, reflected EM wave, and transmitted EM wave at normal interface
 
@@ -120,9 +105,9 @@ $$
 \frac{f_2}{f_1}=1\\
 E_2=E_1+E_r\\
 n_1(E_1-E_r)=n_2E_2\\
-\vec E_1(\vec r,t)=E_1\cos(\omega t-\vec k_1\cdot\vec r)\hat r_1\\
-\vec E_r(\vec r,t)=E_r\cos(\omega t+\vec k_1\cdot\vec r)\hat r_r\\
-\vec E_2(\vec r,t)=E_2\cos(\omega t-\vec k_2\cdot\vec r)\hat r_2\\
+\vec E_1(\vec r,t)=E_1\cos(\omega t-\vec k_1\cdot\vec r)\hat e_1\\
+\vec E_r(\vec r,t)=E_r\cos(\omega t+\vec k_1\cdot\vec r)\hat e_r\\
+\vec E_2(\vec r,t)=E_2\cos(\omega t-\vec k_2\cdot\vec r)\hat e_2\\
 \end{lgathered}
 $$
 
@@ -189,6 +174,21 @@ $$
 $$
 
 ---
+### plane of incidence
+- plane containing both the incident wavevector and the surface normal
+
+---
+### plane of incidence formula
+$$
+\begin{lgathered}
+(\vec k_1\times\hat n)\perp\text{span}\set{\vec k_1,\hat n}\\
+[a,b,c]\times\hat x=[0,c,-b]\\
+[a,b,c]\times\hat y=[-c,0,a]\\
+[a,b,c]\times\hat z=[b,-a,0]
+\end{lgathered}
+$$
+
+---
 ### s polarization
 - electric field perpendicular plane of incidence
 - aka transverse electric field
@@ -198,7 +198,7 @@ $$
 $$
 \begin{lgathered}
 \vec E_1\times(\hat k_1\times\hat n)=0\\
-\hat s=\frac{\hat k_1\times\hat n}{\|\hat k\times\hat n\|}
+\hat s=\frac{\vec k_1\times\hat n}{\|\vec k\times\hat n\|}
 \end{lgathered}
 $$
 
@@ -243,9 +243,9 @@ $$
 \frac{v_2}{v_1}=\frac{n_1}{n_2}\\
 \frac{f_2}{f_1}=1\\
 n_1\sin\theta_1=n_2\sin\theta_2\\
-\vec E_1(\vec r,t)=E_1\cos(\omega t-\vec k_1\cdot\vec r)\hat r_1\\
-\vec E_r(\vec r,t)=E_r\cos(\omega t+\vec k_1\cdot\vec r)\hat r_r\\
-\vec E_2(\vec r,t)=E_2\cos(\omega t-\vec k_2\cdot\vec r)\hat r_2\\
+\vec E_1(\vec r,t)=E_1\cos(\omega t-\vec k_1\cdot\vec r)\hat e_1\\
+\vec E_r(\vec r,t)=E_r\cos(\omega t+\vec k_1\cdot\vec r)\hat e_r\\
+\vec E_2(\vec r,t)=E_2\cos(\omega t-\vec k_2\cdot\vec r)\hat e_2\\
 \alpha=\frac{\cos\theta_2}{\cos\theta_1}\\
 \beta=\frac{n_2}{n_1}
 \end{lgathered}
