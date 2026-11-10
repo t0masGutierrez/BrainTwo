@@ -107,9 +107,9 @@ $$
 ### interval estimate formula
 $$
 \begin{lgathered}
-\text{CI}=\hat\theta\pm(c^{*})(SE)\\
+\text{CI}=\hat\theta\pm(c)(SE)\\
 \hat\theta=\text{sample statistic}\\
-c^{*}=\text{critical value}\\
+c=\text{critical value}\\
 SE=\text{standard error}
 \end{lgathered}
 $$
@@ -128,6 +128,22 @@ CI=[L,U]\\
 Q=Q(X_1,\dots,X_n,\theta)\\
 L=L(X_1,\dots,X_n)\\
 U=U(X_1,\dots,X_n)
+\end{lgathered}
+$$
+
+---
+### sample size
+- number of samples satisfying margin of error
+
+---
+### sample size formula
+$$
+\begin{lgathered}
+P(|\hat\theta-\theta|<\epsilon)=1-\alpha\\
+P(-c\le\hat\theta\le c)=1-\alpha\\
+SE=\sqrt\frac{k}{n}\\
+\epsilon=(c)(SE)\\
+n=\lceil\frac{ck}{\epsilon^2}\rceil
 \end{lgathered}
 $$
 
@@ -265,18 +281,74 @@ $$
 $$
 
 ---
-### sample size
-- number of samples satisfying error boundary
+### relative efficiency
+- compare the variance of two unbiased estimators of the same population parameter
+- if above 1 then estimator 1 more efficient
+- if below 1 then estimator 2 more efficient
 
 ---
-### sample size formula
+### relative efficiency formula
 $$
 \begin{lgathered}
-P(|\hat\theta-\theta|<\epsilon)=1-\alpha\\
-P(-c^*\le\hat\theta\le c^{*})=1-\alpha\\
-SE=\sqrt\frac{k}{n}\\
-\epsilon=(c^*)(SE)\\
-n=\lceil\frac{c^*k}{\epsilon^2}\rceil
+\text{eff}(\hat\theta_1,\hat\theta_2)=\frac{\text{Var}(\hat\theta_2)}{\text{Var}(\hat\theta_1)}
+\end{lgathered}
+$$
+
+---
+### consistency
+- convergence of estimator in probability to the population parameter
+
+---
+### consistency formula
+$$
+\begin{lgathered}
+\lim_{n\rightarrow\infty}E[\hat\theta_n]=\theta\\
+\lim_{n\rightarrow\infty}\text{Var}(\hat\theta_n)=0
+\implies\\
+\forall\epsilon>0:\lim_{n\rightarrow\infty}P(|\hat\theta_n-\theta|\le\epsilon)=1
+\end{lgathered}
+$$
+
+---
+### probability convergence property
+- if convergence of sequence of random variables in probability then convergence of sequence of random variables in distribution
+
+---
+### probability convergence property formula
+$$
+\begin{lgathered}
+\forall\epsilon>0:\lim_{n\rightarrow\infty}P(|X_n-X|\le\epsilon)=1\implies\lim_{n\rightarrow\infty}P(X_n\le x)=P(X\le x)
+\end{lgathered}
+$$
+
+---
+### slutskys property
+- convergence of sequence of random variables in probability to constant
+- convergence of sequence of random variables in distribution to random variable
+- convergence of function of random variables in distribution to random variable
+
+---
+### slutskys property formula
+$$
+\begin{lgathered}
+\forall\epsilon>0:\lim_{n\rightarrow\infty}P(|X_n-c|\le\epsilon)=1\\
+\lim_{n\rightarrow\infty}P(Y_n\le y)=P(Y\le y)\implies\\
+\lim_{n\rightarrow\infty}P(X_n\pm Y_n\le z)=P(c\pm Y\le z)\\
+\lim_{n\rightarrow\infty}P(X_nY_n\le z)=P(cY\le z)\\
+\lim_{n\rightarrow\infty}P(\frac{X_n}{Y_n}\le z)=P(\frac{c}{Y}\le z)\\
+\forall g\in C(\mathbb R^2,\mathbb R):\lim_{n\rightarrow\infty}P(g(X_n,Y_n)\le z)=P(g(c,Y)\le z)
+\end{lgathered}
+$$
+
+---
+### sufficiency
+- sample statistic contain all relevant information about population parameter
+
+---
+### sufficiency formula
+$$
+\begin{lgathered}
+
 \end{lgathered}
 $$
 
