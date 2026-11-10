@@ -181,7 +181,7 @@ $$
 ### plane of incidence formula
 $$
 \begin{lgathered}
-(\vec k_1\times\hat n)\perp\text{span}\set{\vec k_1,\hat n}\\
+(\vec k\times\hat n)\perp\text{span}\set{\vec k,\hat n}\\
 [a,b,c]\times\hat x=[0,c,-b]\\
 [a,b,c]\times\hat y=[-c,0,a]\\
 [a,b,c]\times\hat z=[b,-a,0]
@@ -197,8 +197,8 @@ $$
 ### s polarization formula
 $$
 \begin{lgathered}
-\vec E_1\times(\hat k_1\times\hat n)=0\\
-\hat s=\frac{\vec k_1\times\hat n}{\|\vec k\times\hat n\|}
+\vec E\times(\hat k\times\hat n)=0\\
+\hat s=\frac{\vec k\times\hat n}{\|\vec k\times\hat n\|}
 \end{lgathered}
 $$
 
@@ -211,8 +211,8 @@ $$
 ### p polarization formula
 $$
 \begin{lgathered}
-\vec E_1\cdot(\hat k_1\times\hat n)=0\\
-\hat p=\hat s\times\hat k_1
+\vec E\cdot(\hat k\times\hat n)=0\\
+\hat p=\hat s\times\hat k
 \end{lgathered}
 $$
 
@@ -224,8 +224,8 @@ $$
 ### polarization formula
 $$
 \begin{lgathered}
-\hat p\cdot\hat k_1=0\\
-\hat s\cdot\hat k_1=0\\
+\hat p\cdot\hat k=0\\
+\hat s\cdot\hat k=0\\
 \hat s\cdot\hat p=0
 \end{lgathered}
 $$
