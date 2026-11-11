@@ -342,7 +342,7 @@ $$
 
 ---
 ### sufficiency
-- sample statistic contain all relevant information about population parameter
+- sample statistic retain all information about population parameter from the original sample
 
 ---
 ### sufficiency formula
