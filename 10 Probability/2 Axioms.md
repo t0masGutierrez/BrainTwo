@@ -269,3 +269,27 @@ B=\text{condition}
 $$
 
 ---
+### law of total expectation
+- total expectation equal expectation of conditional expectation
+
+---
+### law of total expectation formula
+$$
+\begin{lgathered}
+E[X]=E[E[X\mid Y]]
+\end{lgathered}
+$$
+
+---
+### law of total variance
+- total variance equal sum of expected conditional variance and variance of conditional expectation
+
+---
+### law of total variance formula
+$$
+\begin{lgathered}
+\text{Var}(X)=E[\text{Var}(X\mid Y)]+\text{Var}(E[X\mid Y])
+\end{lgathered}
+$$
+
+---
