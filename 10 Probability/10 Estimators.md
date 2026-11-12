@@ -227,7 +227,7 @@ n_1,n_2\ge30
 \Delta\sim N(\mu_\Delta,\sigma_\Delta^2)\\
 \nu=n-1
 \end{cases}
-&\implies\overline\Delta\pm t_{1-\alpha/2,\nu}\frac{S_\Delta}{\sqrt n}\\
+&\implies\overline\Delta\pm t_{1-\alpha/2}\frac{S_\Delta}{\sqrt n}\\
 \begin{cases}
 \sigma_\Delta=\text{unknown}\\
 n\ge30
