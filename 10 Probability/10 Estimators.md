@@ -153,6 +153,42 @@ n=\lceil\frac{ck}{\epsilon^2}\rceil
 $$
 
 ---
+### one-sample proportion confidence interval
+- construct range of possible values for the one-sample population proportion
+
+---
+### one-sample proportion confidence interval formula
+$$
+\begin{lgathered}
+\begin{cases}
+X\sim\text{Ber}(p)\\
+\hat p=\frac{1}{n}\sum_{i=1}^nX_i\\
+n\hat p\sim\text{Bin}(n,p)\\
+n\hat p,n\hat q\ge10
+\end{cases}
+&\implies\hat p\pm z_{1-\alpha/2}\sqrt{\frac{\hat p\hat q}{n}}
+\end{lgathered}
+$$
+
+---
+### two-sample proportion confidence interval
+- construct range of possible values for the two-sample population proportion
+
+---
+### two-sample proportion confidence interval formula
+$$
+\begin{lgathered}
+\begin{cases}
+X_j\sim\text{Ber}(p_j)\\
+\hat p_j=\frac{1}{n}\sum_{i=1}^nX_i\\
+n_j\hat p_j\sim\text{Bin}(n_j,p_j)\\
+n_j\hat p_j,n_j\hat q_j\ge10
+\end{cases}
+&\implies(\hat p_1-\hat p_2)\pm z_{1-\alpha/2}\sqrt{\frac{\hat p_1\hat q_1}{n_1}+\frac{\hat p_2\hat q_2}{n_2}}\\
+\end{lgathered}
+$$
+
+---
 ### one-sample mean confidence interval
 - construct range of possible values for the one-sample population mean
 
@@ -204,6 +240,11 @@ n_1,n_2\ge30
 &\implies(\overline X_1-\overline X_2)\pm z_{1-\alpha/2}\sqrt{\frac{\sigma_1^2}{n_1}+\frac{\sigma_2^2}{n_2}}\\
 \begin{cases}
 \sigma_1,\sigma_2=\text{unknown}\\
+n_1,n_2\ge30
+\end{cases}
+&\implies(\overline X_1-\overline X_2)\pm z_{1-\alpha/2}\sqrt{\frac{S_1^2}{n_1}+\frac{S_2^2}{n_2}}\\
+\begin{cases}
+\sigma_1,\sigma_2=\text{unknown}\\
 \sigma_1^2=\sigma_2^2\\
 X_i\sim N(\mu_i,\sigma_i^2)\\
 \nu=n_1+n_2-2\\
@@ -218,11 +259,6 @@ X_i\sim N(\mu_i,\sigma_i^2)\\
 \end{cases}
 &\implies(\overline X_1-\overline X_2)\pm t_{1-\alpha/2}\sqrt{\frac{S_1^2}{n_1}+\frac{S_2^2}{n_2}}\\
 \begin{cases}
-\sigma_1,\sigma_2=\text{unknown}\\
-n_1,n_2\ge30
-\end{cases}
-&\implies(\overline X_1-\overline X_2)\pm z_{1-\alpha/2}\sqrt{\frac{S_1^2}{n_1}+\frac{S_2^2}{n_2}}\\
-\begin{cases}
 \sigma_\Delta=\text{unknown}\\
 \Delta\sim N(\mu_\Delta,\sigma_\Delta^2)\\
 \nu=n-1
@@ -233,42 +269,6 @@ n_1,n_2\ge30
 n\ge30
 \end{cases}
 &\implies\overline\Delta\pm z_{1-\alpha/2}\frac{S_\Delta}{\sqrt n}
-\end{lgathered}
-$$
-
----
-### one-sample proportion confidence interval
-- construct range of possible values for the one-sample population proportion
-
----
-### one-sample proportion confidence interval formula
-$$
-\begin{lgathered}
-\begin{cases}
-X\sim\text{Ber}(p)\\
-\hat p=\frac{1}{n}\sum_{i=1}^nX_i\\
-n\hat p\sim\text{Bin}(n,p)\\
-n\hat p,n\hat q\ge10
-\end{cases}
-&\implies\hat p\pm z_{1-\alpha/2}\sqrt{\frac{\hat p\hat q}{n}}
-\end{lgathered}
-$$
-
----
-### two-sample proportion confidence interval
-- construct range of possible values for the two-sample population proportion
-
----
-### two-sample proportion confidence interval formula
-$$
-\begin{lgathered}
-\begin{cases}
-X_j\sim\text{Ber}(p_j)\\
-\hat p_j=\frac{1}{n}\sum_{i=1}^nX_i\\
-n_j\hat p_j\sim\text{Bin}(n_j,p_j)\\
-n_j\hat p_j,n_j\hat q_j\ge10
-\end{cases}
-&\implies(\hat p_1-\hat p_2)\pm z_{1-\alpha/2}\sqrt{\frac{\hat p_1\hat q_1}{n_1}+\frac{\hat p_2\hat q_2}{n_2}}\\
 \end{lgathered}
 $$
 

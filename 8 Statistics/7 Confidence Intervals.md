@@ -94,7 +94,7 @@ $$
 
 ---
 ### correct confidence interval
-- if we repeatedly draw random samples and construct confidence intervals then the population parameter lie inside those confidence intervals 95% of the time
+- if we repeatedly draw random samples and construct confidence intervals then approximately 95% of those confidence intervals would contain the population parameter
 - we are 95% confident that the population parameter lie inside our confidence interval
 
 ---
