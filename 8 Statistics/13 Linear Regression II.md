@@ -234,7 +234,7 @@ $$
 ### overall linear regression ANOVA alternative hypothesis formula
 $$
 \begin{lgathered}
-H_{1}:\exists j\in\set{1,\dots,k}:\beta_{j}\ne0\\
+H_{1}:\exists j\in\set{1,\dots,k_F}:\beta_{j}\ne0\\
 \beta=\text{coeficient}
 \end{lgathered}
 $$
@@ -288,9 +288,9 @@ $$
 ### partial linear regression ANOVA alternative hypothesis formula
 $$
 \begin{lgathered}
-H_{1}:\exists j\in\set{1,\dots,k}:\beta_{j}\ne0\\
+H_{1}:\exists j\in\set{1,\dots,k_R}:\beta_{j}\ne0\\
 \beta=\text{coeficient}\\
-k=\text{number of full independent variables}
+k=\text{number of independent variables}
 \end{lgathered}
 $$
 
