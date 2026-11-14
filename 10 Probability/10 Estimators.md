@@ -280,7 +280,7 @@ $$
 ### sample variance confidence interval formula
 $$
 \begin{lgathered}
-\left[\frac{(n-1)S^2}{\chi^2_{\alpha/2}},\frac{(n-1)S^2}{\chi^2_{1-\alpha/2}}\right]\\
+\left[\frac{(n-1)S^2}{\chi^2_{1-\alpha/2}},\frac{(n-1)S^2}{\chi^2_{\alpha/2}}\right]\\
 \nu=n-1
 \end{lgathered}
 $$
