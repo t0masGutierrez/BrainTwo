@@ -72,7 +72,7 @@ $$
 ### likelihood formula
 $$
 \begin{lgathered}
-X\overset{\text{iid}}\sim P(X\le x)\implies L(x_1,\dots,x_n\mid\theta)=\prod_{i=1}^nf(x_i\mid\theta)\\
+X\overset{\text{iid}}\sim P(X\le x)\implies L(x_1,\dots,x_n\mid\theta)=\prod_{i=1}^nP(x_i\mid\theta)\\
 X=\text{random variable}\\
 \theta=\text{population parameter}
 \end{lgathered}
@@ -196,8 +196,8 @@ $$
 $$
 \begin{lgathered}
 \theta=[\theta_1,\dots,\theta_r]\\
-L=L(x_1,\dots,x_n\mid\theta)=\prod_{i=1}^nf(x_i,\theta)\\
-\ell=\ln L=\sum_{i=1}^n\ln f(x_i,\theta)\\
+L=L(x_1,\dots,x_n\mid\theta)=\prod_{i=1}^nf(x_i\mid\theta)\\
+\ell=\ln L=\sum_{i=1}^n\ln f(x_i\mid\theta)\\
 \forall j\in(1,\dots,r):0=\frac{\partial\ell}{\partial\theta_j}\\
 \hat\theta_{\text{MLE}}=\arg\max\limits_{\theta\in\Theta}L
 \end{lgathered}
