@@ -30,11 +30,11 @@ $$
 $$
 
 ---
-### probability convergence property
+### convergence property
 - if convergence of sequence of random variables in probability then convergence of sequence of random variables in distribution
 
 ---
-### probability convergence property formula
+### convergence property formula
 $$
 \begin{lgathered}
 \forall\epsilon>0:\lim_{n\rightarrow\infty}P(|X_n-X|\le\epsilon)=1\implies\lim_{n\rightarrow\infty}P(X_n\le x)=P(X\le x)\\
@@ -72,7 +72,7 @@ $$
 ### likelihood formula
 $$
 \begin{lgathered}
-L=L(x_1,\dots,x_n\mid\theta)\\
+X\overset{\text{iid}}\sim P(X\le x)\implies L(x_1,\dots,x_n\mid\theta)=\prod_{i=1}^nf(x_i\mid\theta)\\
 X=\text{random variable}\\
 \theta=\text{population parameter}
 \end{lgathered}
@@ -105,10 +105,10 @@ $$
 $$
 \begin{lgathered}
 \forall\theta\in\Theta:E[\hat\theta]=\theta\\
-\forall\theta\in\Theta:\text{Var}(\hat\theta)\le\text{Var}(\tilde\theta)\\
-\hat\theta=\text{sample statistic}\\
-\theta=\text{population parameter}\\
-\tilde\theta=\text{unbiased estimator}
+\forall\theta'\in\Theta:E[\hat\theta']=\theta'\\
+\forall\theta,\theta'\in\Theta:\text{Var}(\hat\theta)\le\text{Var}(\theta')\\
+\hat\theta,\hat\theta'=\text{sample statistic}\\
+\theta,\theta'=\text{population parameter}
 \end{lgathered}
 $$
 
@@ -123,7 +123,7 @@ $$
 E[\hat\theta]=\theta\\
 L(x_1,\dots,x_n\mid\theta)=g(u,\theta)h(X_1,\dots,X_n)\implies\\
 \hat\theta_{\text{RB}}=E[\hat\theta\mid U]\\
-E[\hat\theta_{\text{RB}}]=\theta_{\text{RB}}\\
+E[\hat\theta_{\text{RB}}]=\theta\\
 \text{Var}(\hat\theta_{\text{RB}})\le\text{Var}(\hat\theta)\\
 \hat\theta,U=\text{sample statistic}\\
 \theta=\text{population parameter}\\
@@ -157,16 +157,18 @@ $$
 $$
 \begin{lgathered}
 U=q(X_1,\dots,X_n)\\
+\hat\theta=p(U)\\
+E[\hat\theta]=\theta\\
 \forall g\in\mathcal G,\forall\theta\in\Theta:E[g(U)]=0\implies\forall\theta\in\Theta:P(g(U)=0)=1\\
 L(x_1,\dots,x_n\mid\theta)=g(u,\theta)h(X_1,\dots,X_n)\implies\\
 \forall\theta\in\Theta:E[\hat\theta]=\theta\\
-\forall\theta\in\Theta:\text{Var}(\hat\theta)\le\text{Var}(\tilde\theta)\\
-U,\hat\theta=\text{sample statistic}\\
+\forall\theta'\in\Theta:E[\hat\theta']=\theta'\\
+\forall\theta,\theta'\in\Theta:\text{Var}(\hat\theta)\le\text{Var}(\theta')\\
+U,\hat\theta,\hat\theta'=\text{sample statistic}\\
 q,g,h=\text{function}\\
 X=\text{random variable}\\
-\theta=\text{population parameter}\\
-L=\text{likelihood}\\
-\tilde\theta=\text{unbiased estimator}
+\theta,\theta'=\text{population parameter}\\
+L=\text{likelihood}
 \end{lgathered}
 $$
 
