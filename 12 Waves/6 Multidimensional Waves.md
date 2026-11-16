@@ -125,7 +125,7 @@ $$
 ### spherical wave equation formula
 $$
 \begin{lgathered}
-\frac{\partial^{2}\psi}{\partial t^{2}}=v^2(\frac{\partial^2\psi}{\partial r^2}+r^{-2}\frac{\partial\psi}{\partial r})\\
+\frac{\partial^{2}\psi}{\partial t^{2}}=v^2(\frac{\partial^2\psi}{\partial r^2}+2r^{-1}\frac{\partial\psi}{\partial r})\\
 \psi=\text{wave}\\
 t=\text{time}\\
 v=\text{velocity}\\

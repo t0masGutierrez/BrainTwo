@@ -1,4 +1,4 @@
-### relative efficiency
+###  relative efficiency
 - compare the variance of two unbiased estimators of the same population parameter
 - if above 1 then estimator 1 more efficient
 - if below 1 then estimator 2 more efficient
@@ -72,7 +72,7 @@ $$
 ### likelihood formula
 $$
 \begin{lgathered}
-X\overset{\text{iid}}\sim P(X\le x)\implies L(x_1,\dots,x_n\mid\theta)=\prod_{i=1}^nP(x_i\mid\theta)\\
+X\overset{\text{i.i.d.}}\sim P(X\le x)\implies L(x\mid\theta)=\prod_{i=1}^nf(x_i\mid\theta)\\
 X=\text{random variable}\\
 \theta=\text{population parameter}
 \end{lgathered}
@@ -86,13 +86,13 @@ $$
 ### sufficiency formula
 $$
 \begin{lgathered}
-U=\mathcal q(X_1,\dots,X_n)\\
-L(x_1,\dots,x_n\mid\theta)=g(u,\theta)h(X_1,\dots,X_n)\\
-U=\text{sample statistic}\\
-g,h,q=\text{function}\\
+L(x\mid\theta)=g(u,\theta)h(x)\\
+U=T(X)\\
 L=\text{likelihood}\\
 X=\text{random variable}\\
-\theta=\text{population parameter}
+\theta=\text{population parameter}\\
+g,h,T=\text{function}\\
+U=\text{sample statistic}
 \end{lgathered}
 $$
 
@@ -104,9 +104,9 @@ $$
 ### UMVUE formula
 $$
 \begin{lgathered}
-\forall\theta\in\Theta:E[\hat\theta]=\theta\\
-\forall\theta'\in\Theta:E[\hat\theta']=\theta'\\
-\forall\theta,\theta'\in\Theta:\text{Var}(\hat\theta)\le\text{Var}(\theta')\\
+E[\hat\theta]=\theta\\
+E[\hat\theta']=\theta'\\
+\forall\theta,\theta'\in\Theta:\text{Var}(\hat\theta)\le\text{Var}(\hat\theta')\\
 \hat\theta,\hat\theta'=\text{sample statistic}\\
 \theta,\theta'=\text{population parameter}
 \end{lgathered}
@@ -121,10 +121,10 @@ $$
 $$
 \begin{lgathered}
 E[\hat\theta]=\theta\\
-L(x_1,\dots,x_n\mid\theta)=g(u,\theta)h(X_1,\dots,X_n)\implies\\
+L(x\mid\theta)=g(u,\theta)h(x)\implies\\
 \hat\theta_{\text{RB}}=E[\hat\theta\mid U]\\
 E[\hat\theta_{\text{RB}}]=\theta\\
-\text{Var}(\hat\theta_{\text{RB}})\le\text{Var}(\hat\theta)\\
+\forall\theta\in\Theta:\text{Var}(\hat\theta_{\text{RB}})\le\text{Var}(\hat\theta)\\
 \hat\theta,U=\text{sample statistic}\\
 \theta=\text{population parameter}\\
 L=\text{likelihood}\\
@@ -149,6 +149,18 @@ U=\text{sample statistic}\\
 $$
 
 ---
+### exponential completeness property
+- if probability function equal form then complete
+
+---
+### exponential completeness property formula
+$$
+\begin{lgathered}
+f(x\mid\theta)=h(x)c(\theta)\exp\left(\sum_{j=1}^rw(\theta_j)u_j(x)\right)\implies\forall\theta\in\Theta:P(g(U)=0)=1\\
+\end{lgathered}
+$$
+
+---
 ### lehmann-scheffe property
 - if unbiased estimator equal function of complete sufficient sample statistic then its the UMVUE of the population parameter
 
@@ -156,16 +168,15 @@ $$
 ### lehmann-scheffe property formula
 $$
 \begin{lgathered}
-U=q(X_1,\dots,X_n)\\
-\hat\theta=p(U)\\
-E[\hat\theta]=\theta\\
 \forall g\in\mathcal G,\forall\theta\in\Theta:E[g(U)]=0\implies\forall\theta\in\Theta:P(g(U)=0)=1\\
-L(x_1,\dots,x_n\mid\theta)=g(u,\theta)h(X_1,\dots,X_n)\implies\\
-\forall\theta\in\Theta:E[\hat\theta]=\theta\\
-\forall\theta'\in\Theta:E[\hat\theta']=\theta'\\
-\forall\theta,\theta'\in\Theta:\text{Var}(\hat\theta)\le\text{Var}(\theta')\\
+L(x\mid\theta)=g(u,\theta)h(x)\\
+\hat\theta=p(U)\\
+E[\hat\theta]=\theta\implies\\
+E[\hat\theta]=\theta\\
+E[\hat\theta']=\theta'\\
+\forall\theta,\theta'\in\Theta:\text{Var}(\hat\theta)\le\text{Var}(\hat\theta')\\
 U,\hat\theta,\hat\theta'=\text{sample statistic}\\
-q,g,h=\text{function}\\
+g,h,p=\text{function}\\
 X=\text{random variable}\\
 \theta,\theta'=\text{population parameter}\\
 L=\text{likelihood}
