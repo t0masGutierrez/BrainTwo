@@ -157,6 +157,10 @@ $$
 $$
 \begin{lgathered}
 f(x\mid\theta)=h(x)c(\theta)\exp\left(\sum_{j=1}^rw(\theta_j)u_j(x)\right)\implies\forall\theta\in\Theta:P(g(U)=0)=1\\
+f=\text{probability function}\\
+\theta=\text{population parameter}\\
+h,c,w,g=\text{function}\\
+U=\text{sample statistic}\\
 \end{lgathered}
 $$
 
