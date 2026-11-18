@@ -46,13 +46,14 @@ $$
 ### dirac delta formula
 $$
 \begin{lgathered}
+\delta(x-\mu)=\lim_{\sigma\rightarrow0^+}f_{\sigma}(x)\\
 \delta(x)=\begin{cases}
 \infty,&x=0\\
 0,&x\ne0
 \end{cases}\\
-\delta(x-\mu)=\lim_{\sigma\rightarrow0^+}f_{\sigma}(x)\\
-\delta(x-x')=\frac{1}{\pi}\int_0^\infty\cos[k(x-x')]dk=\frac{1}{\pi}\int_0^\infty[\cos(kx)\cos(k'x)+\sin(kx)\sin(k'x)]dk\\
-\int_{-\infty}^\infty\delta(k-k')f(k')dk'=f(k)
+\delta(x-x')=\frac{1}{\pi}\int_0^\infty\cos[k(x-x')]dk=\frac{1}{\pi}\int_0^\infty[\cos(kx)\cos(kx')+\sin(kx)\sin(kx')]dk\\
+\int_{-\infty}^\infty\delta(x\pm x')f(x)dx=f(\mp x')\\
+\delta(-x)=\delta(x)
 \end{lgathered}
 $$
 
