@@ -230,12 +230,12 @@ $$
 \begin{lgathered}
 \begin{cases}
 \sigma_1,\sigma_2=\text{known}\\
-X_i\sim N(\mu_i,\sigma_i^2)
+n_1,n_2\ge30
 \end{cases}
 &\implies(\overline X_1-\overline X_2)\pm z_{1-\alpha/2}\sqrt{\frac{\sigma_1^2}{n_1}+\frac{\sigma_2^2}{n_2}}\\
 \begin{cases}
 \sigma_1,\sigma_2=\text{known}\\
-n_1,n_2\ge30
+X_i\sim N(\mu_i,\sigma_i^2)
 \end{cases}
 &\implies(\overline X_1-\overline X_2)\pm z_{1-\alpha/2}\sqrt{\frac{\sigma_1^2}{n_1}+\frac{\sigma_2^2}{n_2}}\\
 \begin{cases}
@@ -273,15 +273,36 @@ n\ge30
 $$
 
 ---
-### sample variance confidence interval
-- construct range of possible values for the population variance
+### one-sample variance confidence interval
+- construct range of possible values for the one-sample population variance
 
 ---
-### sample variance confidence interval formula
+### one-sample variance confidence interval formula
 $$
 \begin{lgathered}
-\left[\frac{(n-1)S^2}{\chi^2_{1-\alpha/2}},\frac{(n-1)S^2}{\chi^2_{\alpha/2}}\right]\\
+\begin{cases}
+\sigma=\text{unknown}\\
+X\sim N(\mu,\sigma^2)\\
 \nu=n-1
+\end{cases}\implies\left[\frac{(n-1)S^2}{\chi^2_{1-\alpha/2}},\frac{(n-1)S^2}{\chi^2_{\alpha/2}}\right]\\
+\nu=n-1
+\end{lgathered}
+$$
+
+---
+### two-sample variance confidence interval
+- construct range of possible values for the two-sample population variance
+
+---
+### two-sample variance confidence interval formula
+$$
+\begin{lgathered}
+\begin{cases}
+\sigma_1,\sigma_2=\text{unknown}\\
+X_i\sim N(\mu_i,\sigma_i^2)\\
+\nu_1=n_1-1\\
+\nu_2=n_2-1
+\end{cases}\implies\left[\frac{S_1^2/S_2^2}{F_{1-\alpha/2}},\frac{S_1^2/S_2^2}{F_{\alpha/2}}\right]\\
 \end{lgathered}
 $$
 

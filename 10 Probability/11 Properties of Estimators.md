@@ -56,7 +56,6 @@ $$
 \lim_{n\rightarrow\infty}P(Y_n\le y)=P(Y\le y)\implies\\
 \lim_{n\rightarrow\infty}P(X_n\pm Y_n\le z)=P(c\pm Y\le z)\\
 \lim_{n\rightarrow\infty}P(X_nY_n\le z)=P(cY\le z)\\
-\lim_{n\rightarrow\infty}P(\frac{X_n}{Y_n}\le z)=P(\frac{c}{Y}\le z)\\
 \forall g\in C(\mathbb R^2,\mathbb R):\lim_{n\rightarrow\infty}P(g(X_n,Y_n)\le z)=P(g(c,Y)\le z)\\
 X,Y,Z=\text{random variable}\\
 c=\text{constant}\\
@@ -150,7 +149,7 @@ $$
 
 ---
 ### exponential completeness property
-- if probability function equal form then complete
+- if probability function equal form involving exponential then complete
 
 ---
 ### exponential completeness property formula
