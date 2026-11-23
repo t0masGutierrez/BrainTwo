@@ -136,7 +136,7 @@ $$
 
 ---
 ### type I error
-- probability of rejecting null hypothesis given its true
+- rejecting null hypothesis given its true
 - false positive
 
 ---
@@ -149,7 +149,7 @@ $$
 
 ---
 ### type II error
-- probability of failing to reject null hypothesis given its false
+- failing to reject null hypothesis given its false
 - false negative
 
 ---
