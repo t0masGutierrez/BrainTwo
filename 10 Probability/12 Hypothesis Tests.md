@@ -2,13 +2,14 @@
 - test whether or not there exists sufficient evidence supporting proposed claim about population parameter
 
 ---
-### hypothesis test formula
-$$
-\begin{lgathered}
-H_0=\text{null hypothesis}\\
-H_a=\text{alternative hypothesis}
-\end{lgathered}
-$$
+### conduct hypothesis test
+- state hypotheses
+- choose significance level
+- select test statistic and its sampling distribution
+- compute test statistic
+- calculate decision value
+- state conclusion
+- interpret result
 
 ---
 ### null hypothesis
@@ -192,8 +193,21 @@ z_{1-\alpha/2}=1.960\\
 z_{1-\alpha}=2.326\\
 z_{1-\alpha/2}=2.576\\
 \end{cases}\\
+\end{lgathered}
+$$
+
+---
+### symmetry
+- even probability distribution
+
+---
+### symmetry formula
+$$
+\begin{lgathered}
 z_\alpha=-z_{1-\alpha}\\
-P(Z\le-z)=P(Z\ge z)
+P(Z\le-z)=P(Z\ge z)\\
+|z_{\text{obs}}|\ge z_{1-\alpha/2}\implies\text{reject $H_0$}\\
+2P(Z\ge|z_{\text{obs}}|\mid H_0)\le\alpha\implies\text{reject $H_0$}
 \end{lgathered}
 $$
 
