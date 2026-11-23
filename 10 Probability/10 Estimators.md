@@ -137,22 +137,6 @@ U=U(X_1,\dots,X_n)
 $$
 
 ---
-### sample size
-- number of samples satisfying margin of error
-
----
-### sample size formula
-$$
-\begin{lgathered}
-P(|\hat\theta-\theta|<\epsilon)=1-\alpha\\
-P(-c\le\hat\theta\le c)=1-\alpha\\
-SE=\sqrt\frac{k}{n}\\
-\epsilon=(c)(SE)\\
-n=\lceil\frac{ck}{\epsilon^2}\rceil
-\end{lgathered}
-$$
-
----
 ### one-sample proportion confidence interval
 - construct range of possible values for the one-sample population proportion
 

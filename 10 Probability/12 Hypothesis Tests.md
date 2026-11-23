@@ -18,7 +18,10 @@ $$
 ### null hypothesis formula
 $$
 \begin{lgathered}
-H_0
+H_{0}:\begin{cases}\theta=0\\
+\theta\ge0\\
+\theta\le0
+\end{cases}
 \end{lgathered}
 $$
 
@@ -30,7 +33,43 @@ $$
 ### alternative hypothesis formula
 $$
 \begin{lgathered}
-H_a
+H_{a}:\begin{cases}\theta\ne0\\
+\theta>0\\
+\theta<0
+\end{cases}
+\end{lgathered}
+$$
+
+---
+### critical value
+- threshold of the test statistic sampling distribution under the null hypothesis separating the rejection region from the nonrejection region at specified significance level
+
+---
+### critical value formula
+$$
+\begin{lgathered}
+H_a:\theta>\theta_0\implies w_{1-\alpha}=F_W^{-1}(1-\alpha)\\
+H_a:\theta<\theta_0\implies w_{\alpha}=F_W^{-1}(\alpha)\\
+H_a:\theta>\theta_0\implies w_{1-\alpha/2}=F_W^{-1}(1-\alpha/2)\\
+H_a:\theta>\theta_0\implies w_{\alpha/2}=F_W^{-1}(\alpha/2)
+\end{lgathered}
+$$
+
+---
+### p value
+- probability of observing test statistic at least as extreme as observed test statistic given the null hypothesis
+
+---
+### p value formula
+$$
+\begin{lgathered}
+H_1:\theta>\theta_0\implies P(W\ge w_{\text{obs}}\mid H_0)\\
+H_1:\theta<\theta_0\implies P(W\le w_{\text{obs}}\mid H_0)\\
+H_a:\theta\ne\theta_0\implies P(|W|\ge|w_{\text{obs}}|\mid H_0)\\
+W=\text{test statistic}\\
+w_{\text{obs}}=\text{observed test statistic}\\
+\theta=\text{sample statistic}\\
+\theta_0=\text{null hypothesis}
 \end{lgathered}
 $$
 
@@ -122,11 +161,15 @@ $$
 $$
 
 ---
-### term
-- definition
+### power
+- measure of hypothesis test effectiveness
 
 ---
-### term
-- definition
+### power formula
+$$
+\begin{lgathered}
+1-\beta=P(\text{reject }H_{0}\mid H_{a}\text{ true})
+\end{lgathered}
+$$
 
 ---
