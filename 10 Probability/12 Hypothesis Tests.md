@@ -90,7 +90,7 @@ $$
 
 ---
 ### right-sided hypothesis test
-- definition
+- rejection region under right tail
 
 ---
 ### right-sided hypothesis test formula
@@ -105,7 +105,7 @@ $$
 
 ---
 ### left-sided hypothesis test
-- definition
+- rejection region under left tail
 
 ---
 ### left-sided hypothesis test formula
@@ -120,7 +120,7 @@ $$
 
 ---
 ### two-sided hypothesis test
-- definition
+- rejection region under both tails
 
 ---
 ### two-sided hypothesis test formula
@@ -169,6 +169,31 @@ $$
 $$
 \begin{lgathered}
 1-\beta=P(\text{reject }H_{0}\mid H_{a}\text{ true})
+\end{lgathered}
+$$
+
+---
+### critical z value
+- threshold of the standard normal distribution under the null hypothesis separating the rejection region from the nonrejection region at specified significance level
+
+---
+### critical z value formula
+$$
+\begin{lgathered}
+\alpha=0.10\implies\begin{cases}
+z_{1-\alpha}=1.282\\
+z_{1-\alpha/2}=1.645\\
+\end{cases}\\
+\alpha=0.05\implies\begin{cases}
+z_{1-\alpha}=1.645\\
+z_{1-\alpha/2}=1.960\\
+\end{cases}\\
+\alpha=0.01\implies\begin{cases}
+z_{1-\alpha}=2.326\\
+z_{1-\alpha/2}=2.576\\
+\end{cases}\\
+z_\alpha=-z_{1-\alpha}\\
+P(Z\le-z)=P(Z\ge z)
 \end{lgathered}
 $$
 
