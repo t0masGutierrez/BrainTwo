@@ -169,6 +169,12 @@ n_j\hat p_j\sim\text{Bin}(n_j,p_j)\\
 n_j\hat p_j,n_j\hat q_j\ge10
 \end{cases}
 &\implies(\hat p_1-\hat p_2)\pm z_{1-\alpha/2}\sqrt{\frac{\hat p_1\hat q_1}{n_1}+\frac{\hat p_2\hat q_2}{n_2}}\\
+\begin{cases}
+p_1-p_2=0\\
+\hat p=\frac{n_1\hat p_1+n_2\hat p_2}{n_1+n_2}\\
+\hat q=1-\hat p
+\end{cases}
+&\implies(\hat p_1-\hat p_2)\pm z_{1-\alpha/2}\sqrt{\hat p\hat q(\frac{1}{n_1}+\frac{1}{n_2})}\\
 \end{lgathered}
 $$
 

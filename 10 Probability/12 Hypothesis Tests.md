@@ -198,7 +198,7 @@ $$
 
 ---
 ### symmetry
-- even probability distribution
+- standard normal probability density function symmetric about zero
 
 ---
 ### symmetry formula
