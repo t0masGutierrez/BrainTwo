@@ -64,8 +64,8 @@ $$
 ### p value formula
 $$
 \begin{lgathered}
-H_1:\theta>\theta_0\implies P(W\ge w_{\text{obs}}\mid H_0)\\
-H_1:\theta<\theta_0\implies P(W\le w_{\text{obs}}\mid H_0)\\
+H_a:\theta>\theta_0\implies P(W\ge w_{\text{obs}}\mid H_0)\\
+H_a:\theta<\theta_0\implies P(W\le w_{\text{obs}}\mid H_0)\\
 H_a:\theta\ne\theta_0\implies P(|W|\ge|w_{\text{obs}}|\mid H_0)\\
 W=\text{test statistic}\\
 w_{\text{obs}}=\text{observed test statistic}\\
