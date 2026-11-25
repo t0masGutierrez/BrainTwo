@@ -188,25 +188,25 @@ $$
 \begin{lgathered}
 \begin{cases}
 \sigma=\text{known}\\
-X\sim N(\mu,\sigma^2)
+n\ge30
 \end{cases}
 &\implies\overline X\pm z_{1-\alpha/2}\frac{\sigma}{\sqrt n}\\
 \begin{cases}
 \sigma=\text{known}\\
-n\ge30
+X\sim N(\mu,\sigma^2)
 \end{cases}
 &\implies\overline X\pm z_{1-\alpha/2}\frac{\sigma}{\sqrt n}\\
+\begin{cases}
+\sigma=\text{unknown}\\
+n\ge30
+\end{cases}
+&\implies\overline X\pm z_{1-\alpha/2}\frac{S}{\sqrt n}\\
 \begin{cases}
 \sigma=\text{unknown}\\
 X\sim N(\mu,\sigma^2)\\
 \nu=n-1
 \end{cases}
 &\implies\overline X\pm t_{1-\alpha/2}\frac{S}{\sqrt n}\\
-\begin{cases}
-\sigma=\text{unknown}\\
-n\ge30
-\end{cases}
-&\implies\overline X\pm z_{1-\alpha/2}\frac{S}{\sqrt n}
 \end{lgathered}
 $$
 
@@ -240,25 +240,7 @@ X_i\sim N(\mu_i,\sigma_i^2)\\
 \nu=n_1+n_2-2\\
 S_p^2=\frac{(n_1-1)S_1^2+(n_2-1)S_2^2}{n_1+n_2-2}
 \end{cases}
-&\implies(\overline X_1-\overline X_2)\pm t_{1-\alpha/2}S_p\sqrt{\frac1{n_1}+\frac1{n_2}}\\
-\begin{cases}
-\sigma_1,\sigma_2=\text{unknown}\\
-\sigma_1^2\ne\sigma_2^2\\
-X_i\sim N(\mu_i,\sigma_i^2)\\
-\nu\approx\frac{(S_1^2/n_1+S_2^2/n_2)^2}{\frac{(S_1^2/n_1)^2}{n_1-1}+\frac{(S_2^2/n_2)^2}{n_2-1}}
-\end{cases}
-&\implies(\overline X_1-\overline X_2)\pm t_{1-\alpha/2}\sqrt{\frac{S_1^2}{n_1}+\frac{S_2^2}{n_2}}\\
-\begin{cases}
-\sigma_\Delta=\text{unknown}\\
-\Delta\sim N(\mu_\Delta,\sigma_\Delta^2)\\
-\nu=n-1
-\end{cases}
-&\implies\overline\Delta\pm t_{1-\alpha/2}\frac{S_\Delta}{\sqrt n}\\
-\begin{cases}
-\sigma_\Delta=\text{unknown}\\
-n\ge30
-\end{cases}
-&\implies\overline\Delta\pm z_{1-\alpha/2}\frac{S_\Delta}{\sqrt n}
+&\implies(\overline X_1-\overline X_2)\pm t_{1-\alpha/2}\sqrt{S_p(\frac1{n_1}+\frac1{n_2})}\\
 \end{lgathered}
 $$
 
@@ -274,8 +256,7 @@ $$
 \sigma=\text{unknown}\\
 X\sim N(\mu,\sigma^2)\\
 \nu=n-1
-\end{cases}\implies\left[\frac{(n-1)S^2}{\chi^2_{1-\alpha/2}},\frac{(n-1)S^2}{\chi^2_{\alpha/2}}\right]\\
-\nu=n-1
+\end{cases}\implies\left[\frac{(n-1)S^2}{\chi^2_{1-\alpha/2}},\frac{(n-1)S^2}{\chi^2_{\alpha/2}}\right]
 \end{lgathered}
 $$
 
