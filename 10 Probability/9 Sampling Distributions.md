@@ -191,38 +191,6 @@ n\ge30\\
 $$
 
 ---
-### chi-squared probability density function
-- probability as function of chi-squared-score
-
----
-### chi-squared PDF probability formula
-$$
-\begin{lgathered}
-X\sim\chi^2(\nu)\implies f(x)=\frac{x^{\nu/2-1}e^{-x/2}}{2^{\nu/2}\Gamma(\frac{\nu}{2})}\\
-\nu=\text{degrees of freedom}\\
-x=\text{chi-squared-score}
-\end{lgathered}
-$$
-
----
-### chi-squared PDF expectation formula
-$$
-\begin{lgathered}
-E[X]=\nu\\
-\nu=\text{degrees of freedom}
-\end{lgathered}
-$$
-
----
-### chi-squared PDF variance formula
-$$
-\begin{lgathered}
-\text{Var}(X)=2\nu\\
-\nu=\text{degrees of freedom}
-\end{lgathered}
-$$
-
----
 ### chi-squared standard normal property
 - sum of squared independent standard normal random variable equal chi-squared random variable
 
@@ -250,45 +218,6 @@ X=\text{random variable}\\
 \sigma=\text{standard deviation}\\
 n=\text{sample size}\\
 S=\text{sample standard deviation}
-\end{lgathered}
-$$
-
----
-### t probability density function
-- probability as function of t-score
-
----
-### t PDF probability formula
-$$
-\begin{lgathered}
-X\sim t(\nu)\implies f(x)=\frac{\Gamma(\frac{\nu+1}{2})}{\Gamma(\frac{\nu}{2})\sqrt{\nu\pi}}(1+\frac{t^2}{\nu})^{-\frac{\nu+1}{2}}\\
-\nu=\text{degrees of freedom}\\
-x=\text{t-score}
-\end{lgathered}
-$$
-
----
-### t PDF expectation formula
-$$
-\begin{lgathered}
-E[X]=\begin{cases}
-0,&\nu>1\\
-\text{undefined},&0<\nu\leq1
-\end{cases}\\
-\nu=\text{degrees of freedom}
-\end{lgathered}
-$$
-
----
-### t PDF variance formula
-$$
-\begin{lgathered}
-\text{Var}(X)=\begin{cases}
-\frac{\nu}{\nu-2},&\nu>2\\
-\infty,&1<\nu\leq2\\
-\text{undefined},&0<\nu\leq1
-\end{cases}\\
-\nu=\text{degrees of freedom}
 \end{lgathered}
 $$
 
@@ -324,49 +253,6 @@ X=\text{random variable}\\
 \overline X=\text{sample mean}\\
 S=\text{sample standard deviation}\\
 n=\text{sample size}
-\end{lgathered}
-$$
-
----
-### F probability density function
-- probability as function of F-score
-
----
-### F PDF probability formula
-$$
-\begin{lgathered}
-X\sim F(\nu)\implies f(x)=
-\begin{cases}
-\frac{\Gamma(\frac{\nu_1+\nu_2}{2})}{\Gamma(\frac{\nu_1}{2})\Gamma(\frac{\nu_2}{2})}(\frac{\nu_1}{\nu_2})^{\nu_1/2}x^{\nu_1/2-1}(1+\frac{\nu_1}{\nu_2}x)^{-(\nu_1+\nu_2)/2},&x>0\\
-0,&x\leq0
-\end{cases}\\
-\nu=\text{degrees of freedom}\\
-x=\text{F-score}
-\end{lgathered}
-$$
-
----
-### F PDF expectation formula
-$$
-\begin{lgathered}
-E[X]=\begin{cases}
-\frac{\nu_2}{\nu_2-2},&\nu_2>2\\
-\infty,&0<\nu_2\leq2
-\end{cases}\\
-\nu=\text{degrees of freedom}
-\end{lgathered}
-$$
-
----
-### F PDF variance formula
-$$
-\begin{lgathered}
-\text{Var}(X)=\begin{cases}
-\frac{2\nu_2^2(\nu_1+\nu_2-2)}{\nu_1(\nu_2-2)^2(\nu_2-4)},&\nu_2>4\\
-\infty,&2<\nu_2\leq4\\
-\text{undefined},&0<\nu_2\leq2
-\end{cases}\\
-\nu=\text{degrees of freedom}
 \end{lgathered}
 $$
 
