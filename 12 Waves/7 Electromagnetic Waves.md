@@ -85,9 +85,10 @@ $$
 ### interface formula
 $$
 \begin{lgathered}
-x=0\implies\hat n=\hat x\\
-y=0\implies\hat n=\hat y\\
-z=0\implies\hat n=\hat z
+\theta_1=\theta_r\\
+n_{1}\sin(\theta_{1})=n_{2}\sin(\theta_{2})\\
+f_1=f_r=f_2\\
+\frac{\lambda_2}{\lambda_1}=\frac{n_2}{n_1}
 \end{lgathered}
 $$
 
@@ -101,12 +102,10 @@ $$
 \begin{lgathered}
 \mu_1=\mu_2\\
 \epsilon_1\ne\epsilon_2\\
-\frac{v_2}{v_1}=\frac{n_1}{n_2}\\
-\frac{f_2}{f_1}=1\\
 E_2=E_1+E_r\\
 n_1(E_1-E_r)=n_2E_2\\
 \vec E_1(\vec r,t)=E_1\cos(\omega t-\vec k_1\cdot\vec r)\hat e_1\\
-\vec E_r(\vec r,t)=E_r\cos(\omega t+\vec k_1\cdot\vec r)\hat e_r\\
+\vec E_r(\vec r,t)=E_r\cos(\omega t+\vec k_r\cdot\vec r)\hat e_r\\
 \vec E_2(\vec r,t)=E_2\cos(\omega t-\vec k_2\cdot\vec r)\hat e_2\\
 \end{lgathered}
 $$
@@ -156,20 +155,6 @@ $$
 $$
 \begin{lgathered}
 \frac{P_2}{P_1}=1-\frac{P_r}{P_1}=\frac{4n_1n_2}{(n_1+n_2)^2}\\
-\end{lgathered}
-$$
-
----
-### normal conservation of energy
-- normal amplitude transmission coefficient subtraction with normal amplitude reflection coefficient equal 1
-- normal transmittance addition with normal reflectance equal 1
-
----
-### normal conservation of energy formula
-$$
-\begin{lgathered}
-\frac{E_2}{E_1}-\frac{E_r}{E_1}=1\\
-\frac{P_2}{P_1}+\frac{P_r}{P_1}=1
 \end{lgathered}
 $$
 
@@ -224,8 +209,8 @@ $$
 ### polarization formula
 $$
 \begin{lgathered}
-\hat p\cdot\hat k=0\\
 \hat s\cdot\hat k=0\\
+\hat p\cdot\hat k=0\\
 \hat s\cdot\hat p=0
 \end{lgathered}
 $$
@@ -240,8 +225,6 @@ $$
 \begin{lgathered}
 \mu_1=\mu_2\\
 \epsilon_1\ne\epsilon_2\\
-\frac{v_2}{v_1}=\frac{n_1}{n_2}\\
-\frac{f_2}{f_1}=1\\
 n_1\sin\theta_1=n_2\sin\theta_2\\
 \vec E_1(\vec r,t)=E_1\cos(\omega t-\vec k_1\cdot\vec r)\hat e_1\\
 \vec E_r(\vec r,t)=E_r\cos(\omega t+\vec k_1\cdot\vec r)\hat e_r\\
@@ -304,16 +287,14 @@ $$
 $$
 
 ---
-### general conservation of energy
-- general amplitude transmission coefficient subtraction with general amplitude reflection coefficient equal 1
-- general transmittance addition with general reflectance equal 1
+### conservation of energy
+- normal transmittance addition with normal reflectance equal 1
 
 ---
-### general conservation of energy formula
+### conservation of energy formula
 $$
 \begin{lgathered}
-\vec E_1\cdot(\hat k_1\times\hat n)=0\implies\alpha\frac{E_2}{E_1}-\frac{E_r}{E_1}=1\\
-\vec E_1\times(\hat k_1\times\hat n)=0\implies\frac{E_2}{E_1}-\frac{E_r}{E_1}=1\\
+\frac{E_2}{E_1}-\frac{E_r}{E_1}=1\\
 \frac{P_2}{P_1}+\frac{P_r}{P_1}=1
 \end{lgathered}
 $$

@@ -1,5 +1,6 @@
 ### fourier transform
-- definition
+- integral transform decompose function into continuous spectrum of sinusoidal components
+- convert from spatiotemporal domain to frequency domain
 
 ---
 ### fourier transform formula
@@ -13,7 +14,7 @@ $$
 
 ---
 ### symmetry
-- definition
+- property of function describing its parity under reflection about the origin of its argument
 
 ---
 ### symmetry formula
@@ -26,7 +27,7 @@ $$
 
 ---
 ### gaussian
-- definition
+- bell-shaped function characterized by its mean, which determines its center, and standard deviation, which determines its width
 
 ---
 ### gaussian formula
@@ -40,17 +41,17 @@ $$
 
 ---
 ### dirac delta
-- definition
+- generalized function concentrated at single point, with unit integral, that extracts the value of function at that point through integration
 
 ---
 ### dirac delta formula
 $$
 \begin{lgathered}
-\delta(x-\mu)=\lim_{\sigma\rightarrow0^+}f_{\sigma}(x)\\
 \delta(x)=\begin{cases}
 \infty,&x=0\\
 0,&x\ne0
 \end{cases}\\
+\delta(x-\mu)=\lim_{\sigma\rightarrow0}f_{\sigma}(x)\\
 \delta(x-x')=\frac{1}{\pi}\int_0^\infty\cos[k(x-x')]dk=\frac{1}{\pi}\int_0^\infty[\cos(kx)\cos(kx')+\sin(kx)\sin(kx')]dk\\
 \int_{-\infty}^\infty\delta(x\pm x')f(x)dx=f(\mp x')\\
 \delta(-x)=\delta(x)
@@ -59,7 +60,7 @@ $$
 
 ---
 ### orthogonality
-- definition
+- property of two functions whose inner product equal zero, generalizing the geometric concept of perpendicularity to function spaces
 
 ---
 ### orthogonality formula

@@ -57,7 +57,7 @@ $$
 ### law of incidence formula
 $$
 \begin{lgathered}
-\theta_1=\arccos(\frac{\vec k\cdot\hat n}{\|\vec k\|})\\
+\theta_1=\arccos(\frac{|\vec k\cdot\hat n|}{\|\vec k\|})\\
 \vec k=\text{wavevector}\\
 \hat n=\text{normal direction}
 \end{lgathered}
@@ -79,7 +79,7 @@ $$
 ![[4 Physics/Images/law of reflection.png|300]]
 
 ---
-### formula of reflection
+### law of reflection formula
 $$
 \begin{lgathered}
 \theta_{1}=\theta_{r}\\
@@ -99,7 +99,7 @@ $$
 ![[4 Physics/Images/law of refraction.png]]
 
 ---
-### formula of refraction
+### law of refraction formula
 $$
 \begin{lgathered}
 n_{1}\sin(\theta_{1})=n_{2}\sin(\theta_{2})\\
@@ -112,15 +112,10 @@ $$
 ---
 ### total internal reflection
 - angular incidence above critical angle where there exists zero refraction
-![[4 Physics/Images/total internal reflection.png|300]]
-
----
-### critical angle
-- angular incidence where angular refraction equal 90
 ![[4 Physics/Images/critical angle.png]]
 
 ---
-### critical angle formula
+### total internal reflection formula
 $$
 \begin{lgathered}
 \theta_{c}=\arcsin(\frac{n_{2}}{n_{1}})\\
